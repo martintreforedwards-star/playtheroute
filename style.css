@@ -50,11 +50,11 @@ h1 {
 .top-title {
   grid-column: 2 / span 4;
   text-align: center;
-  font-size: 13px;
-  opacity: 0.5;
-  letter-spacing: 1px;
-  margin-bottom: -5px;
+  font-size: 12px;
+  opacity: 0.4;
+  letter-spacing: 2px;
 }
+
 
 /* HEADERS */
 

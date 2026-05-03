@@ -110,3 +110,9 @@ button {
   padding: 10px 14px;
   border: none;
   border
+
+.container {
+  width: 100%;
+  max-width: 420px;
+  padding: 0 15px;
+}

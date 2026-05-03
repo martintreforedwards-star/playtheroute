@@ -1,28 +1,32 @@
-<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
-  <!-- Background -->
-  <rect width="200" height="200" fill="#0b0f14"/>
+<svg width="200" height="200" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
 
-  <!-- Circle -->
-  <circle cx="100" cy="100" r="85" stroke="#E8E6E3" stroke-width="6" fill="none"/>
+  <!-- Outer circle -->
+  <circle cx="100" cy="100" r="90" stroke="#E6E6E6" stroke-width="4"/>
 
-  <!-- Main "r" route -->
-  <path d="M80 150 L80 80 Q80 60 100 60 L150 60"
-        stroke="#E8E6E3"
+  <!-- Main route (the "r") -->
+  <path d="M80 140 L80 80 Q80 60 100 60 L140 60"
+        stroke="#E6E6E6"
         stroke-width="6"
-        fill="none"
         stroke-linecap="round"
-        stroke-linejoin="round"/>
+        stroke-linejoin="round"
+        fill="none"/>
 
   <!-- Subtle branch -->
-  <path d="M80 95 L115 120"
-        stroke="#E8E6E3"
-        stroke-width="3"
-        opacity="0.6"
-        fill="none"
-        stroke-linecap="round"/>
+  <path d="M80 100 L110 120"
+        stroke="#E6E6E6"
+        stroke-width="4"
+        stroke-linecap="round"
+        opacity="0.6"/>
 
-  <!-- Nodes -->
-  <circle cx="80" cy="95" r="6" fill="#2ecc71"/> <!-- green -->
-  <circle cx="150" cy="60" r="6" fill="#e74c3c"/> <!-- red -->
-  <circle cx="115" cy="120" r="4" fill="#E8E6E3" opacity="0.8"/> <!-- subtle -->
+  <!-- Station nodes -->
+
+  <!-- Green junction -->
+  <circle cx="80" cy="100" r="7" fill="white" stroke="#34A853" stroke-width="3"/>
+
+  <!-- Red terminus -->
+  <circle cx="140" cy="60" r="7" fill="white" stroke="#EA4335" stroke-width="3"/>
+
+  <!-- Subtle grey node -->
+  <circle cx="110" cy="120" r="6" fill="white" stroke="#B0B0B0" stroke-width="2"/>
+
 </svg>

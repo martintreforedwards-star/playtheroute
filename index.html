@@ -1,36 +1,37 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>The Route</title>
-  <link rel="stylesheet" href="style.css">
-</head>
 <body>
 
-  <h1>The Route</h1>
-  <p>Daily railway puzzle</p>
-
-  <div id="grid">
-    <div class="row">
-      <div class="cell"></div>
-      <div class="cell"></div>
-      <div class="cell"></div>
-      <div class="cell"></div>
-    </div>
-    <div class="row">
-      <div class="cell"></div>
-      <div class="cell"></div>
-      <div class="cell"></div>
-      <div class="cell"></div>
-    </div>
+  <div id="comingSoon">
+    <h1>The Route</h1>
+    <p>Daily railway puzzle</p>
+    <p><strong>Coming soon 🚆</strong></p>
   </div>
 
-  <input id="stationInput" placeholder="Enter station">
-  <button onclick="submitStation()">Submit</button>
+  <div id="game" style="display:none;">
+    
+    <h1>The Route</h1>
 
-  <p>Tickets: <span id="tickets">5</span></p>
+    <div id="grid">
+      <div class="row">
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+      </div>
+      <div class="row">
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+      </div>
+    </div>
+
+    <input id="stationInput" placeholder="Enter station">
+    <button onclick="submitStation()">Submit</button>
+
+    <p>Tickets: <span id="tickets">5</span></p>
+
+  </div>
 
   <script src="script.js"></script>
-<script src="script.js"></script>
+
 </body>
-</html>

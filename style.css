@@ -62,15 +62,3 @@ p {
   justify-content: center;
 }
 
-.cell {
-  width: 70px;
-  height: 70px;
-  border: 2px solid #ddd;
-  margin: 6px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-weight: bold;
-  border-radius: 8px;
-  background: #f9f9f9;
-}

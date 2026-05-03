@@ -1,11 +1,36 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+  <meta charset="UTF-8">
   <title>The Route</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
 </head>
-<body style="font-family: Arial; text-align: center; margin-top: 100px;">
+<body>
+
   <h1>The Route</h1>
-  <p>Daily railway puzzle coming soon.</p>
+  <p>Daily railway puzzle</p>
+
+  <div id="grid">
+    <div class="row">
+      <div class="cell"></div>
+      <div class="cell"></div>
+      <div class="cell"></div>
+      <div class="cell"></div>
+    </div>
+    <div class="row">
+      <div class="cell"></div>
+      <div class="cell"></div>
+      <div class="cell"></div>
+      <div class="cell"></div>
+    </div>
+  </div>
+
+  <input id="stationInput" placeholder="Enter station">
+  <button onclick="submitStation()">Submit</button>
+
+  <p>Tickets: <span id="tickets">5</span></p>
+
+  <script src="script.js"></script>
+
 </body>
 </html>

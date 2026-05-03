@@ -42,8 +42,7 @@ p {
 
 .cell {
   width: 65px;
-  height: 65px;
-  border: 2px solid #2a3542;
+  height: 65px;border: 2px solid #374151;
   margin: 6px;
   display: flex;
   align-items: center;

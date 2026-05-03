@@ -9,6 +9,60 @@ body {
   height: 100vh;
   text-align: center;
 }
+/* GRID SYSTEM */
+
+.grid {
+  display: grid;
+  grid-template-columns: 100px repeat(4, 60px);
+  gap: 10px;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+/* TOP TITLE (spans across columns) */
+
+.top-title {
+  grid-column: 2 / span 4;
+  text-align: center;
+  font-size: 13px;
+  opacity: 0.6;
+  margin-bottom: 5px;
+}
+
+/* headers + labels */
+
+.header, .row-label, .corner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  opacity: 0.6;
+}
+
+.row-label {
+  justify-content: flex-end;
+  padding-right: 10px;
+}
+
+/* cells */
+
+.cell {
+  width: 60px;
+  height: 60px;
+  border-radius: 10px;
+  border: 2px solid #374151;
+  background: #111827;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: 0.2s;
+  font-weight: bold;
+}
+
+.cell:hover {
+  border-color: #2ecc71;
+}
 
 .container {
   max-width: 420px;

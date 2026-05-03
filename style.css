@@ -35,7 +35,7 @@ h1 {
   margin-bottom: 20px;
 }
 
-/* GRID */
+/* GRID *//* GRID LAYOUT FIX */
 
 .grid {
   margin-top: 20px;
@@ -43,28 +43,40 @@ h1 {
 
 .row {
   display: flex;
-  justify-content: center;
-}
-
-.cell {
-  width: 65px;
-  height: 65px;
-  border: 2px solid #374151;
-  margin: 6px;
-  border-radius: 10px;
-  background: #111827;
-  display: flex;
   align-items: center;
   justify-content: center;
-  font-weight: bold;
-  cursor: pointer;
-  transition: 0.2s;
 }
 
-.cell:hover {
-  border-color: #2ecc71;
+/* HEADER ROW */
+
+.header-row {
+  margin-bottom: 6px;
 }
 
+.header {
+  width: 65px;
+  margin: 6px;
+  text-align: center;
+  font-size: 12px;
+  opacity: 0.6;
+}
+
+/* EMPTY TOP-LEFT CORNER */
+
+.corner {
+  width: 65px;
+  margin: 6px;
+}
+
+/* ROW LABELS */
+
+.row-label {
+  width: 65px;
+  margin: 6px;
+  text-align: center;
+  font-size: 12px;
+  opacity: 0.6;
+}
 /* INPUT */
 
 .input-area {

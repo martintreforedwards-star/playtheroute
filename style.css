@@ -20,3 +20,14 @@ body {
   margin: 5px;
   background: white;
 }
+#comingSoon {
+  margin-top: 150px;
+}
+
+#comingSoon h1 {
+  font-size: 48px;
+}
+
+#comingSoon p {
+  font-size: 20px;
+}

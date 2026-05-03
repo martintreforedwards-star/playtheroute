@@ -1,62 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
   <title>The Route</title>
 
-  <!-- Font -->
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
-
-  <!-- CSS -->
   <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-  <div id="comingSoon">
+  <div class="container">
+
     <img src="logo.svg" alt="The Route logo" class="logo">
 
     <h1>The Route</h1>
-    <p>Build the route. Find the pattern.</p>
-    <p><strong>Coming soon 🚆</strong></p>
-    <div class="preview-grid">
-  <div class="row">
-    <div class="cell">?</div>
-    <div class="cell">?</div>
-    <div class="cell">?</div>
-    <div class="cell">?</div>
-  </div>
-  <div class="row">
-    <div class="cell">?</div>
-    <div class="cell">?</div>
-    <div class="cell">?</div>
-    <div class="cell">?</div>
-  </div>
-</div>
-  </div>
+    <p class="subtitle">Build the route. Find the pattern.</p>
+    <p class="route">Thameslink • Easy</p>
 
-  <div id="game" style="display:none;">
-    
-    <div id="grid">
+    <!-- GRID -->
+    <div class="grid">
       <div class="row">
-        <div class="cell"></div>
-        <div class="cell"></div>
-        <div class="cell"></div>
-        <div class="cell"></div>
+        <div class="cell" onclick="selectCell(this)"></div>
+        <div class="cell" onclick="selectCell(this)"></div>
+        <div class="cell" onclick="selectCell(this)"></div>
+        <div class="cell" onclick="selectCell(this)"></div>
       </div>
       <div class="row">
-        <div class="cell"></div>
-        <div class="cell"></div>
-        <div class="cell"></div>
-        <div class="cell"></div>
+        <div class="cell" onclick="selectCell(this)"></div>
+        <div class="cell" onclick="selectCell(this)"></div>
+        <div class="cell" onclick="selectCell(this)"></div>
+        <div class="cell" onclick="selectCell(this)"></div>
       </div>
     </div>
 
-    <input id="stationInput" placeholder="Enter station">
-    <button onclick="submitStation()">Submit</button>
-
-    <p>Tickets: <span id="tickets">5</span></p>
+    <!-- INPUT -->
+    <div class="input-area">
+      <input id="stationInput" placeholder="Enter station">
+      <button onclick="placeStation()">Add</button>
+    </div>
 
   </div>
 
@@ -64,17 +46,3 @@
 
 </body>
 </html>
-<div class="preview-grid">
-  <div class="row">
-    <div class="cell">LDN</div>
-    <div class="cell">?</div>
-    <div class="cell">?</div>
-    <div class="cell">BTN</div>
-  </div>
-  <div class="row">
-    <div class="cell">?</div>
-    <div class="cell">?</div>
-    <div class="cell">?</div>
-    <div class="cell">?</div>
-  </div>
-</div>

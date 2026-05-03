@@ -1,16 +1,20 @@
-let tickets = 5;
+let selectedCell = null;
 
-function submitStation() {
+function selectCell(cell) {
+  selectedCell = cell;
+
+  document.querySelectorAll(".cell").forEach(c => {
+    c.style.outline = "none";
+  });
+
+  cell.style.outline = "2px solid #2ecc71";
+}
+
+function placeStation() {
   const input = document.getElementById("stationInput").value;
 
-  if (!input) return;
+  if (!selectedCell || !input) return;
 
-  tickets--;
-  document.getElementById("tickets").innerText = tickets;
-
-  alert("You entered: " + input);
-
-  if (tickets <= 0) {
-    alert("Out of tickets!");
-  }
+  selectedCell.textContent = input.toUpperCase();
+  document.getElementById("stationInput").value = "";
 }

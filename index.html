@@ -1,10 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>The Route</title>
-
 
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
@@ -20,35 +19,34 @@
     <p class="subtitle">Build the route. Find the pattern.</p>
     <p class="route">Thameslink • Easy</p>
 
-    <!-- GRID -->
     <div class="grid">
 
-  <!-- Title -->
-  <div class="top-title">SERVICE UPDATES</div>
+      <!-- Top title -->
+      <div class="top-title">SERVICE UPDATES</div>
 
-  <!-- Empty corner -->
-  <div class="corner"></div>
+      <!-- Column headers -->
+      <div class="corner"></div>
+      <div class="header">1</div>
+      <div class="header">2</div>
+      <div class="header">3</div>
+      <div class="header">4</div>
 
-  <!-- Column numbers -->
-  <div class="header">Clue 1</div>
-<div class="header
-  <!-- Row 1 -->
-  <div class="row-label">Platform 1</div>
-  <div class="cell" onclick="selectCell(this)"></div>
-  <div class="cell" onclick="selectCell(this)"></div>
-  <div class="cell" onclick="selectCell(this)"></div>
-  <div class="cell" onclick="selectCell(this)"></div>
+      <!-- Platform 1 -->
+      <div class="row-label">Platform 1</div>
+      <div class="cell" onclick="selectCell(this)"></div>
+      <div class="cell" onclick="selectCell(this)"></div>
+      <div class="cell" onclick="selectCell(this)"></div>
+      <div class="cell" onclick="selectCell(this)"></div>
 
-  <!-- Row 2 -->
-  <div class="row-label">Platform 2</div>
-  <div class="cell" onclick="selectCell(this)"></div>
-  <div class="cell" onclick="selectCell(this)"></div>
-  <div class="cell" onclick="selectCell(this)"></div>
-  <div class="cell" onclick="selectCell(this)"></div>
+      <!-- Platform 2 -->
+      <div class="row-label">Platform 2</div>
+      <div class="cell" onclick="selectCell(this)"></div>
+      <div class="cell" onclick="selectCell(this)"></div>
+      <div class="cell" onclick="selectCell(this)"></div>
+      <div class="cell" onclick="selectCell(this)"></div>
 
-</div>
+    </div>
 
-    <!-- INPUT -->
     <div class="input-area">
       <input id="stationInput" placeholder="Enter station">
       <button onclick="placeStation()">Add</button>

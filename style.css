@@ -66,3 +66,12 @@ p {
   font-size: 1rem;
   letter-spacing: 1px;
 }
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  text-align: center;
+}

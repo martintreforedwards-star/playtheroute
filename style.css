@@ -1,16 +1,16 @@
 body {
   margin: 0;
   font-family: 'Inter', sans-serif;
+  background: #0b1117;
+  color: white;
   display: flex;
-  align-items: center;
   justify-content: center;
+  align-items: center;
   height: 100vh;
   text-align: center;
-  background: #0b1117;
-  color: #ffffff;
 }
 
-#comingSoon {
+.container {
   max-width: 400px;
 }
 
@@ -24,15 +24,21 @@ h1 {
   margin-bottom: 10px;
 }
 
-p {
+.subtitle {
   font-size: 16px;
   opacity: 0.85;
 }
 
-/* GRID PREVIEW */
+.route {
+  font-size: 13px;
+  opacity: 0.5;
+  margin-bottom: 20px;
+}
 
-.preview-grid {
-  margin-top: 30px;
+/* GRID */
+
+.grid {
+  margin-top: 20px;
 }
 
 .row {
@@ -42,23 +48,41 @@ p {
 
 .cell {
   width: 65px;
-  height: 65px;border: 2px solid #374151;
+  height: 65px;
+  border: 2px solid #374151;
   margin: 6px;
+  border-radius: 10px;
+  background: #111827;
   display: flex;
   align-items: center;
   justify-content: center;
   font-weight: bold;
-  border-radius: 10px;
-  background: #111827;
-  color: #9ca3af;
-  font-size: 18px;
-}
-.preview-grid {
-  margin-top: 30px;
+  cursor: pointer;
+  transition: 0.2s;
 }
 
-.row {
-  display: flex;
-  justify-content: center;
+.cell:hover {
+  border-color: #2ecc71;
 }
 
+/* INPUT */
+
+.input-area {
+  margin-top: 20px;
+}
+
+input {
+  padding: 10px;
+  border-radius: 6px;
+  border: none;
+  margin-right: 5px;
+}
+
+button {
+  padding: 10px 14px;
+  border: none;
+  border-radius: 6px;
+  background: #2ecc71;
+  color: white;
+  cursor: pointer;
+}

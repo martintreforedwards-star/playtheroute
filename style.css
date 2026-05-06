@@ -131,3 +131,14 @@ button {
     font-size: 30px;
   }
 }
+.cell.selected {
+  outline: 3px solid #ffffff;
+}
+
+.cell.correct {
+  background: #2e7d32;
+}
+
+.cell.incorrect {
+  background: #8b1e1e;
+}

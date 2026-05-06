@@ -16,3 +16,15 @@ body {
 .play-button:hover {
   transform: scale(1.03);
 }
+.announcement {
+  margin: 1.5rem auto;
+  padding: 1rem 1.25rem;
+  max-width: 600px;
+
+  background: rgba(255,255,255,0.08);
+  border: 1px solid rgba(255,255,255,0.15);
+  border-radius: 14px;
+
+  font-size: 0.95rem;
+  line-height: 1.5;
+}

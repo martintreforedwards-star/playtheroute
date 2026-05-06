@@ -1,160 +1,69 @@
-body {
-  margin: 0;
-  font-family: 'Inter', sans-serif;
-  background: #0b1117;
-  color: white;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh;
-  text-align: center;
-}
+let selectedCell = null;
 
-.container {
-  width: 100%;
-  max-width: 420px;
-  padding: 0 16px;
-}
+let tickets = 3;
 
-.logo {
-  width: 110px;
-  margin-bottom: 20px;
-}
+const validStations = [
+  "Brighton",
+  "Blackfriars",
+  "East Croydon",
+  "London Bridge",
+  "St Albans"
+];
 
-h1 {
-  font-size: 36px;
-  margin-bottom: 8px;
-}
+function selectCell(cell) {
 
-.subtitle {
-  font-size: 14px;
-  opacity: 0.85;
-}
-
-.route {
-  font-size: 12px;
-  opacity: 0.5;
-  margin-bottom: 20px;
-}
-
-/* GRID */
-
-.grid {
-  display: grid;
-  grid-template-columns: 90px repeat(4, 1fr);
-  gap: 8px;
-  width: 100%;
-}
-
-/* TOP TITLE */
-
-.top-title {
-  grid-column: 2 / span 4;
-  text-align: center;
-  font-size: 11px;
-  opacity: 0.5;
-  letter-spacing: 2px;
-}
-
-/* HEADERS */
-
-.header {
-  font-size: 11px;
-  opacity: 0.5;
-}
-
-/* ROW LABEL */
-
-.row-label {
-  text-align: right;
-  padding-right: 6px;
-  font-size: 11px;
-  opacity: 0.6;
-  display: flex;
-  align-items: center;
-  justify-content: flex-end;
-}
-
-/* CELLS */
-
-.cell {
-  aspect-ratio: 1 / 1;
-  width: 100%;
-  border-radius: 10px;
-  border: 2px solid #374151;
-  background: #111827;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  cursor: pointer;
-  font-weight: bold;
-  transition: 0.2s;
-}
-
-.cell:hover {
-  border-color: #2ecc71;
-}
-
-/* INPUT */
-
-.input-area {
-  margin-top: 20px;
-  display: flex;
-  justify-content: center;
-}
-
-input {
-  padding: 10px;
-  border-radius: 6px;
-  border: none;
-  margin-right: 6px;
-  width: 60%;
-}
-
-button {
-  padding: 10px 14px;
-  border: none;
-  border-radius: 6px;
-  background: #2ecc71;
-  color: white;
-  cursor: pointer;
-}
-
-/* MOBILE TWEAK */
-
-@media (max-width: 480px) {
-  .grid {
-    grid-template-columns: 70px repeat(4, 1fr);
+  if (selectedCell) {
+    selectedCell.classList.remove("selected");
   }
 
-  h1 {
-    font-size: 30px;
+  selectedCell = cell;
+
+  selectedCell.classList.add("selected");
+}
+
+function placeStation() {
+
+  const input =
+    document.getElementById("stationInput");
+
+  const value =
+    input.value.trim();
+
+  if (!selectedCell) {
+    alert("Select a cell first");
+    return;
   }
-}
-.play-button {
-  display: inline-block;
-  margin-top: 2rem;
-  padding: 1rem 2rem;
-  background: #ffffff;
-  color: #111111;
-  text-decoration: none;
-  font-weight: bold;
-  border-radius: 12px;
-  transition: 0.2s ease;
+
+  if (validStations.includes(value)) {
+
+    selectedCell.textContent = value;
+
+    selectedCell.classList.remove("selected");
+    selectedCell.classList.add("correct");
+
+  } else {
+
+    selectedCell.classList.add("incorrect");
+
+    loseTicket();
+  }
+
+  input.value = "";
 }
 
-.play-button:hover {
-  transform: scale(1.03);
-}
-.announcement {
-  margin: 1.5rem auto;
-  padding: 1rem 1.25rem;
-  max-width: 600px;
+function loseTicket() {
 
-  background: rgba(255,255,255,0.08);
-  border: 1px solid rgba(255,255,255,0.15);
-  border-radius: 14px;
+  tickets--;
 
-  font-size: 0.95rem;
-  line-height: 1.5;
+  const ticketDisplay =
+    document.getElementById("tickets");
+
+  ticketDisplay.textContent =
+    "🎫 ".repeat(tickets);
+
+  if (tickets <= 0) {
+
+    alert("Out of tickets!");
+
+  }
 }

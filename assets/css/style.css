@@ -1,3 +1,18 @@
 body {
   font-family: Arial, sans-serif;
 }
+.play-button {
+  display: inline-block;
+  margin-top: 2rem;
+  padding: 1rem 2rem;
+  background: #ffffff;
+  color: #111111;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 12px;
+  transition: 0.2s ease;
+}
+
+.play-button:hover {
+  transform: scale(1.03);
+}

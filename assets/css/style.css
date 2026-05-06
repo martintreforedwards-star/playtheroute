@@ -1,30 +1,69 @@
-body {
-  font-family: Arial, sans-serif;
-}
-.play-button {
-  display: inline-block;
-  margin-top: 2rem;
-  padding: 1rem 2rem;
-  background: #ffffff;
-  color: #111111;
-  text-decoration: none;
-  font-weight: bold;
-  border-radius: 12px;
-  transition: 0.2s ease;
+let selectedCell = null;
+
+let tickets = 3;
+
+const validStations = [
+  "Brighton",
+  "Blackfriars",
+  "East Croydon",
+  "London Bridge",
+  "St Albans"
+];
+
+function selectCell(cell) {
+
+  if (selectedCell) {
+    selectedCell.classList.remove("selected");
+  }
+
+  selectedCell = cell;
+
+  selectedCell.classList.add("selected");
 }
 
-.play-button:hover {
-  transform: scale(1.03);
+function placeStation() {
+
+  const input =
+    document.getElementById("stationInput");
+
+  const value =
+    input.value.trim();
+
+  if (!selectedCell) {
+    alert("Select a cell first");
+    return;
+  }
+
+  if (validStations.includes(value)) {
+
+    selectedCell.textContent = value;
+
+    selectedCell.classList.remove("selected");
+    selectedCell.classList.add("correct");
+
+  } else {
+
+    selectedCell.classList.add("incorrect");
+
+    loseTicket();
+  }
+
+  input.value = "";
 }
-.announcement {
-  margin: 1.5rem auto;
-  padding: 1rem 1.25rem;
-  max-width: 600px;
 
-  background: rgba(255,255,255,0.08);
-  border: 1px solid rgba(255,255,255,0.15);
-  border-radius: 14px;
+function loseTicket() {
 
-  font-size: 0.95rem;
-  line-height: 1.5;
+  tickets--;
+
+  const ticketDisplay =
+    document.getElementById("tickets");
+
+  ticketDisplay.textContent =
+    "🎫 ".repeat(tickets);
+
+  if (tickets <= 0) {
+
+    alert("Out of tickets!");
+
+  }
 }

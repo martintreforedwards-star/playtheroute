@@ -248,3 +248,17 @@ button:hover {
     width: 180px;
   }
 }
+.message {
+  height: 24px;
+  margin-bottom: 18px;
+  font-size: 0.9rem;
+  opacity: 0.85;
+}
+
+.message.success {
+  color: #57d37c;
+}
+
+.message.error {
+  color: #ff7b7b;
+}

@@ -1,69 +1,66 @@
-let selectedCell = null;
-
-let tickets = 3;
-
-const validStations = [
-  "Brighton",
-  "Blackfriars",
-  "East Croydon",
-  "London Bridge",
-  "St Albans"
-];
-
-function selectCell(cell) {
-
-  if (selectedCell) {
-    selectedCell.classList.remove("selected");
-  }
-
-  selectedCell = cell;
-
-  selectedCell.classList.add("selected");
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  background: #0b1117;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  text-align: center;
 }
 
-function placeStation() {
-
-  const input =
-    document.getElementById("stationInput");
-
-  const value =
-    input.value.trim();
-
-  if (!selectedCell) {
-    alert("Select a cell first");
-    return;
-  }
-
-  if (validStations.includes(value)) {
-
-    selectedCell.textContent = value;
-
-    selectedCell.classList.remove("selected");
-    selectedCell.classList.add("correct");
-
-  } else {
-
-    selectedCell.classList.add("incorrect");
-
-    loseTicket();
-  }
-
-  input.value = "";
+.container {
+  width: 100%;
+  max-width: 420px;
+  padding: 0 16px;
 }
 
-function loseTicket() {
+.logo {
+  width: 110px;
+  margin-bottom: 20px;
+}
 
-  tickets--;
+h1 {
+  font-size: 56px;
+  margin-bottom: 12px;
+}
 
-  const ticketDisplay =
-    document.getElementById("tickets");
+.subtitle {
+  font-size: 18px;
+  opacity: 0.85;
+  margin-bottom: 40px;
+}
 
-  ticketDisplay.textContent =
-    "🎫 ".repeat(tickets);
+.play-button {
+  display: inline-block;
+  padding: 1rem 2rem;
+  background: white;
+  color: #111111;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 14px;
+  font-size: 1.1rem;
+  transition: 0.2s ease;
+}
 
-  if (tickets <= 0) {
+.play-button:hover {
+  transform: scale(1.03);
+}
 
-    alert("Out of tickets!");
+.announcement {
+  margin: 1.5rem auto;
+  padding: 1rem 1.25rem;
+  max-width: 600px;
+  background: rgba(255,255,255,0.08);
+  border: 1px solid rgba(255,255,255,0.15);
+  border-radius: 14px;
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
 
-  }
+.footer-note {
+  margin-top: 4rem;
+  opacity: 0.5;
+  font-size: 0.85rem;
 }

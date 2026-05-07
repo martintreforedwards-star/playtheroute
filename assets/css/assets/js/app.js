@@ -12,6 +12,10 @@ const validStations = [
 
 function selectCell(cell) {
 
+  if (cell.classList.contains("correct")) {
+    return;
+  }
+
   if (selectedCell) {
     selectedCell.classList.remove("selected");
   }
@@ -29,8 +33,26 @@ function placeStation() {
   const value =
     input.value.trim();
 
+  const message =
+    document.getElementById("message");
+
   if (!selectedCell) {
-    alert("Select a cell first");
+
+    showMessage(
+      "Select a cell first.",
+      "error"
+    );
+
+    return;
+  }
+
+  if (!value) {
+
+    showMessage(
+      "Enter a station name.",
+      "error"
+    );
+
     return;
   }
 
@@ -39,16 +61,33 @@ function placeStation() {
     selectedCell.textContent = value;
 
     selectedCell.classList.remove("selected");
+
     selectedCell.classList.add("correct");
+
+    showMessage(
+      "Correct station.",
+      "success"
+    );
 
   } else {
 
     selectedCell.classList.add("incorrect");
 
+    setTimeout(() => {
+      selectedCell.classList.remove("incorrect");
+    }, 400);
+
     loseTicket();
+
+    showMessage(
+      "Station not accepted.",
+      "error"
+    );
   }
 
   input.value = "";
+
+  selectedCell = null;
 }
 
 function loseTicket() {
@@ -63,7 +102,30 @@ function loseTicket() {
 
   if (tickets <= 0) {
 
-    alert("Out of tickets!");
-
+    showMessage(
+      "Out of tickets!",
+      "error"
+    );
   }
 }
+
+function showMessage(text, type) {
+
+  const message =
+    document.getElementById("message");
+
+  message.textContent = text;
+
+  message.className =
+    "message " + type;
+}
+
+document
+  .getElementById("stationInput")
+  .addEventListener("keydown", function(event) {
+
+    if (event.key === "Enter") {
+      placeStation();
+    }
+
+  });

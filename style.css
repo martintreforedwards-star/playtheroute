@@ -37,16 +37,12 @@ h1 {
   margin-bottom: 20px;
 }
 
-/* GRID */
-
 .grid {
   display: grid;
   grid-template-columns: 90px repeat(4, 1fr);
   gap: 8px;
   width: 100%;
 }
-
-/* TOP TITLE */
 
 .top-title {
   grid-column: 2 / span 4;
@@ -56,14 +52,10 @@ h1 {
   letter-spacing: 2px;
 }
 
-/* HEADERS */
-
 .header {
   font-size: 11px;
   opacity: 0.5;
 }
-
-/* ROW LABEL */
 
 .row-label {
   text-align: right;
@@ -74,8 +66,6 @@ h1 {
   align-items: center;
   justify-content: flex-end;
 }
-
-/* CELLS */
 
 .cell {
   aspect-ratio: 1 / 1;
@@ -94,8 +84,6 @@ h1 {
 .cell:hover {
   border-color: #2ecc71;
 }
-
-/* INPUT */
 
 .input-area {
   margin-top: 20px;
@@ -120,7 +108,44 @@ button {
   cursor: pointer;
 }
 
-/* MOBILE TWEAK */
+.play-button {
+  display: inline-block;
+  margin-top: 2rem;
+  padding: 1rem 2rem;
+  background: #ffffff;
+  color: #111111;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 12px;
+  transition: 0.2s ease;
+}
+
+.play-button:hover {
+  transform: scale(1.03);
+}
+
+.announcement {
+  margin: 1.5rem auto;
+  padding: 1rem 1.25rem;
+  max-width: 600px;
+  background: rgba(255,255,255,0.08);
+  border: 1px solid rgba(255,255,255,0.15);
+  border-radius: 14px;
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+
+.cell.selected {
+  outline: 3px solid #ffffff;
+}
+
+.cell.correct {
+  background: #2e7d32;
+}
+
+.cell.incorrect {
+  background: #8b1e1e;
+}
 
 @media (max-width: 480px) {
   .grid {

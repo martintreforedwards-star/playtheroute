@@ -1,10 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
   <title>The Route</title>
+
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+
   <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
@@ -13,53 +17,30 @@
   <div class="container">
 
     <img src="logo.svg" alt="The Route logo" class="logo">
-<div class="announcement">
-  🚧 The Route is currently in development.
-  Daily commuter puzzles are arriving soon.
-</div>
+
+    <div class="announcement">
+      🚧 The Route is currently in development.
+      Daily commuter puzzles are arriving soon.
+    </div>
+
     <h1>The Route</h1>
-    <p class="subtitle">Build the route. Find the pattern.</p>
-   <a href="play.html" class="play-button">
-  Play Today's Route
-</a>
-    <p class="route">Thameslink • Easy</p>
 
-    <div class="grid">
+    <p class="subtitle">
+      Build the route. Find the pattern.
+    </p>
 
-      <!-- Top title -->
-      <div class="top-title">SERVICE UPDATES</div>
+    <a href="play.html" class="play-button">
+      Play Today's Route
+    </a>
 
-      <!-- Column headers -->
-      <div class="corner"></div>
-      <div class="header">1</div>
-      <div class="header">2</div>
-      <div class="header">3</div>
-      <div class="header">4</div>
-
-      <!-- Platform 1 -->
-      <div class="row-label">Platform 1</div>
-      <div class="cell" onclick="selectCell(this)"></div>
-      <div class="cell" onclick="selectCell(this)"></div>
-      <div class="cell" onclick="selectCell(this)"></div>
-      <div class="cell" onclick="selectCell(this)"></div>
-
-      <!-- Platform 2 -->
-      <div class="row-label">Platform 2</div>
-      <div class="cell" onclick="selectCell(this)"></div>
-      <div class="cell" onclick="selectCell(this)"></div>
-      <div class="cell" onclick="selectCell(this)"></div>
-      <div class="cell" onclick="selectCell(this)"></div>
-
-    </div>
-
-    <div class="input-area">
-      <input id="stationInput" placeholder="Enter station">
-      <button onclick="placeStation()">Add</button>
-    </div>
+    <p class="footer-note">
+      Built for UK commuters.
+    </p>
 
   </div>
 
   <script src="assets/js/app.js"></script>
 
 </body>
+
 </html>

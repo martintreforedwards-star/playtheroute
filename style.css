@@ -44,19 +44,6 @@ h1 {
   width: 100%;
 }
 
-.top-title {
-  grid-column: 2 / span 4;
-  text-align: center;
-  font-size: 11px;
-  opacity: 0.5;
-  letter-spacing: 2px;
-}
-
-.header {
-  font-size: 11px;
-  opacity: 0.5;
-}
-
 .row-label {
   text-align: right;
   padding-right: 6px;
@@ -85,12 +72,6 @@ h1 {
   border-color: #2ecc71;
 }
 
-.input-area {
-  margin-top: 20px;
-  display: flex;
-  justify-content: center;
-}
-
 input {
   padding: 10px;
   border-radius: 6px;
@@ -117,11 +98,6 @@ button {
   text-decoration: none;
   font-weight: bold;
   border-radius: 12px;
-  transition: 0.2s ease;
-}
-
-.play-button:hover {
-  transform: scale(1.03);
 }
 
 .announcement {
@@ -131,8 +107,6 @@ button {
   background: rgba(255,255,255,0.08);
   border: 1px solid rgba(255,255,255,0.15);
   border-radius: 14px;
-  font-size: 0.95rem;
-  line-height: 1.5;
 }
 
 .cell.selected {
@@ -145,14 +119,4 @@ button {
 
 .cell.incorrect {
   background: #8b1e1e;
-}
-
-@media (max-width: 480px) {
-  .grid {
-    grid-template-columns: 70px repeat(4, 1fr);
-  }
-
-  h1 {
-    font-size: 30px;
-  }
 }

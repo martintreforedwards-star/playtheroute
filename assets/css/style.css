@@ -281,3 +281,17 @@ button:hover {
 .message.error {
   color: #ff7b7b;
 }
+.message {
+  min-height: 28px;
+  margin-bottom: 18px;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.message.success {
+  color: #57d37c;
+}
+
+.message.error {
+  color: #ff7b7b;
+}

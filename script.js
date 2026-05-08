@@ -1,20 +1,8 @@
-let selectedCell = null;
-
 function selectCell(cell) {
-  selectedCell = cell;
 
-  document.querySelectorAll(".cell").forEach(c => {
-    c.style.outline = "none";
-  });
+  alert("CELL CLICK WORKING");
 
-  cell.style.outline = "2px solid #2ecc71";
-}
+  cell.style.border =
+    "4px solid lime";
 
-function placeStation() {
-  const input = document.getElementById("stationInput").value;
-
-  if (!selectedCell || !input) return;
-
-  selectedCell.textContent = input.toUpperCase();
-  document.getElementById("stationInput").value = "";
 }

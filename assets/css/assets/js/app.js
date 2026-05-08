@@ -2,6 +2,8 @@ let selectedCell = null;
 
 let tickets = 3;
 
+let solvedCells = 0;
+
 /* DAILY PUZZLE */
 
 const puzzle = {
@@ -18,7 +20,7 @@ const puzzle = {
 
 };
 
-/* CELL SELECTION */
+/* SELECT CELL */
 
 function selectCell(cell) {
 
@@ -38,6 +40,10 @@ function selectCell(cell) {
 /* PLACE STATION */
 
 function placeStation() {
+
+  if (tickets <= 0) {
+    return;
+  }
 
   const input =
     document.getElementById("stationInput");
@@ -88,10 +94,14 @@ function placeStation() {
       "correct"
     );
 
+    solvedCells++;
+
     showMessage(
       "Correct station.",
       "success"
     );
+
+    checkWin();
 
   } else {
 
@@ -120,7 +130,7 @@ function placeStation() {
   selectedCell = null;
 }
 
-/* TICKETS */
+/* LOSE TICKET */
 
 function loseTicket() {
 
@@ -138,6 +148,35 @@ function loseTicket() {
       "Out of tickets!",
       "error"
     );
+
+    document
+      .getElementById("stationInput")
+      .disabled = true;
+  }
+}
+
+/* CHECK WIN */
+
+function checkWin() {
+
+  if (solvedCells === 8) {
+
+    showMessage(
+      "Route completed!",
+      "success"
+    );
+
+    document
+      .getElementById("stationInput")
+      .disabled = true;
+
+    document
+      .querySelectorAll(".cell")
+      .forEach(cell => {
+
+        cell.classList.add("completed");
+
+      });
   }
 }
 

@@ -2,13 +2,23 @@ let selectedCell = null;
 
 let tickets = 3;
 
-const validStations = [
-  "Brighton",
-  "Blackfriars",
-  "East Croydon",
-  "London Bridge",
-  "St Albans"
-];
+/* DAILY PUZZLE */
+
+const puzzle = {
+
+  cell1: "Brighton",
+  cell2: "Blackfriars",
+  cell3: "East Croydon",
+  cell4: "London Bridge",
+
+  cell5: "St Albans",
+  cell6: "Brighton",
+  cell7: "Blackfriars",
+  cell8: "East Croydon"
+
+};
+
+/* CELL SELECTION */
 
 function selectCell(cell) {
 
@@ -25,6 +35,8 @@ function selectCell(cell) {
   selectedCell.classList.add("selected");
 }
 
+/* PLACE STATION */
+
 function placeStation() {
 
   const input =
@@ -32,9 +44,6 @@ function placeStation() {
 
   const value =
     input.value.trim();
-
-  const message =
-    document.getElementById("message");
 
   if (!selectedCell) {
 
@@ -49,20 +58,35 @@ function placeStation() {
   if (!value) {
 
     showMessage(
-      "Enter a station name.",
+      "Enter a station.",
       "error"
     );
 
     return;
   }
 
-  if (validStations.includes(value)) {
+  const cellId =
+    selectedCell.dataset.cell;
 
-    selectedCell.textContent = value;
+  const correctAnswer =
+    puzzle[cellId];
 
-    selectedCell.classList.remove("selected");
+  if (
+    value.toLowerCase()
+    ===
+    correctAnswer.toLowerCase()
+  ) {
 
-    selectedCell.classList.add("correct");
+    selectedCell.textContent =
+      correctAnswer;
+
+    selectedCell.classList.remove(
+      "selected"
+    );
+
+    selectedCell.classList.add(
+      "correct"
+    );
 
     showMessage(
       "Correct station.",
@@ -71,16 +95,22 @@ function placeStation() {
 
   } else {
 
-    selectedCell.classList.add("incorrect");
+    selectedCell.classList.add(
+      "incorrect"
+    );
 
     setTimeout(() => {
-      selectedCell.classList.remove("incorrect");
+
+      selectedCell.classList.remove(
+        "incorrect"
+      );
+
     }, 400);
 
     loseTicket();
 
     showMessage(
-      "Station not accepted.",
+      "Incorrect station.",
       "error"
     );
   }
@@ -89,6 +119,8 @@ function placeStation() {
 
   selectedCell = null;
 }
+
+/* TICKETS */
 
 function loseTicket() {
 
@@ -109,6 +141,8 @@ function loseTicket() {
   }
 }
 
+/* MESSAGE */
+
 function showMessage(text, type) {
 
   const message =
@@ -120,12 +154,17 @@ function showMessage(text, type) {
     "message " + type;
 }
 
+/* ENTER KEY */
+
 document
   .getElementById("stationInput")
-  .addEventListener("keydown", function(event) {
+  .addEventListener(
+    "keydown",
+    function(event) {
 
-    if (event.key === "Enter") {
-      placeStation();
+      if (event.key === "Enter") {
+        placeStation();
+      }
+
     }
-
-  });
+  );

@@ -262,3 +262,7 @@ button:hover {
 .message.error {
   color: #ff7b7b;
 }
+.cell.completed {
+  box-shadow:
+    0 0 12px rgba(87, 211, 124, 0.35);
+}

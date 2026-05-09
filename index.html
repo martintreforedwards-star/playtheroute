@@ -5,9 +5,8 @@
 
   <meta charset="UTF-8">
 
-  <meta
-    name="viewport"
-    content="width=device-width, initial-scale=1.0">
+  <meta name="viewport"
+        content="width=device-width, initial-scale=1.0">
 
   <title>The Route</title>
 
@@ -15,9 +14,8 @@
     href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap"
     rel="stylesheet">
 
-  <link
-    rel="stylesheet"
-    href="./assets/css/style.css">
+  <link rel="stylesheet"
+        href="assets/css/style.css">
 
 </head>
 
@@ -25,10 +23,14 @@
 
   <div class="container">
 
+    <!-- LOGO -->
+
     <img
       src="logo.svg"
       alt="The Route logo"
       class="logo">
+
+    <!-- ANNOUNCEMENT -->
 
     <div class="announcement">
 
@@ -38,13 +40,15 @@
 
     </div>
 
+    <!-- TITLE -->
+
     <h1>The Route</h1>
 
     <p class="subtitle">
       Build the route. Find the pattern.
     </p>
 
-    <!-- NETWORK SELECT -->
+    <!-- NETWORK SELECTOR -->
 
     <div class="network-selector">
 
@@ -54,28 +58,49 @@
 
       </label>
 
-      <select
-        id="network">
+      <select id="network">
 
-        <option>Thameslink</option>
+        <optgroup label="Govia Thameslink Railway (GTR)">
 
-        <option>Southern</option>
+          <option>Thameslink</option>
 
-        <option>Great Northern</option>
+          <option>Southern</option>
 
-        <option>Southeastern</option>
+          <option>Great Northern</option>
 
-        <option>Greater Anglia</option>
+          <option>Gatwick Express</option>
 
-        <option>c2c</option>
+        </optgroup>
 
-        <option>South Western Railway</option>
+        <optgroup label="Southeastern">
 
-        <option>Great Western Railway</option>
+          <option>Southeastern Metro</option>
 
-        <option>Elizabeth line</option>
+          <option>Southeastern Mainline</option>
 
-        <option>Chiltern Railways</option>
+        </optgroup>
+
+        <optgroup label="Greater Anglia">
+
+          <option>Greater Anglia</option>
+
+          <option>c2c</option>
+
+        </optgroup>
+
+        <optgroup label="Other Networks">
+
+          <option>South Western Railway</option>
+
+          <option>Chiltern Railways</option>
+
+          <option>Great Western Railway</option>
+
+          <option>East Midlands Railway</option>
+
+          <option>LNER</option>
+
+        </optgroup>
 
       </select>
 
@@ -83,54 +108,22 @@
 
     <!-- PLAY BUTTON -->
 
-    <a
-      href="play.html"
-      class="play-button"
-      onclick="saveNetwork()">
+    <a href="play.html"
+       class="play-button">
 
       Play Today's Route
 
     </a>
 
-    <p class="footer-note">
+    <!-- FOOTER -->
+
+    <p class="footer-text">
+
       Built for UK commuters.
+
     </p>
 
   </div>
-
-  <script>
-
-    function saveNetwork() {
-
-      const selectedNetwork =
-        document.getElementById(
-          "network"
-        ).value;
-
-      localStorage.setItem(
-        "routeNetwork",
-        selectedNetwork
-      );
-    }
-
-    /* LOAD SAVED NETWORK */
-
-    window.onload = function() {
-
-      const savedNetwork =
-        localStorage.getItem(
-          "routeNetwork"
-        );
-
-      if (savedNetwork) {
-
-        document.getElementById(
-          "network"
-        ).value = savedNetwork;
-      }
-    }
-
-  </script>
 
 </body>
 

@@ -44,9 +44,49 @@
       Build the route. Find the pattern.
     </p>
 
+    <!-- NETWORK SELECT -->
+
+    <div class="network-selector">
+
+      <label for="network">
+
+        Choose your commuter network
+
+      </label>
+
+      <select
+        id="network">
+
+        <option>Thameslink</option>
+
+        <option>Southern</option>
+
+        <option>Great Northern</option>
+
+        <option>Southeastern</option>
+
+        <option>Greater Anglia</option>
+
+        <option>c2c</option>
+
+        <option>South Western Railway</option>
+
+        <option>Great Western Railway</option>
+
+        <option>Elizabeth line</option>
+
+        <option>Chiltern Railways</option>
+
+      </select>
+
+    </div>
+
+    <!-- PLAY BUTTON -->
+
     <a
       href="play.html"
-      class="play-button">
+      class="play-button"
+      onclick="saveNetwork()">
 
       Play Today's Route
 
@@ -57,6 +97,40 @@
     </p>
 
   </div>
+
+  <script>
+
+    function saveNetwork() {
+
+      const selectedNetwork =
+        document.getElementById(
+          "network"
+        ).value;
+
+      localStorage.setItem(
+        "routeNetwork",
+        selectedNetwork
+      );
+    }
+
+    /* LOAD SAVED NETWORK */
+
+    window.onload = function() {
+
+      const savedNetwork =
+        localStorage.getItem(
+          "routeNetwork"
+        );
+
+      if (savedNetwork) {
+
+        document.getElementById(
+          "network"
+        ).value = savedNetwork;
+      }
+    }
+
+  </script>
 
 </body>
 

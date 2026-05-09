@@ -253,6 +253,33 @@ button {
   font-size: 28px;
 
   cursor: pointer;
+.message {
 
+  height: 32px;
+
+  margin-top: 18px;
+
+  font-size: 22px;
+
+  font-weight: 700;
+
+  opacity: 0;
+
+  transition: 0.2s;
+}
+
+.message.success {
+
+  color: #57d37c;
+
+  opacity: 1;
+}
+
+.message.error {
+
+  color: #ff6b6b;
+
+  opacity: 1;
+}
   font-weight: 700;
 }

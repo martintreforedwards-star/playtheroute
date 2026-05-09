@@ -40,6 +40,10 @@ function selectCell(cell) {
 function placeStation() {
 
   if (!selectedCell) {
+    showMessage(
+      "Select a square first.",
+      "error"
+    );
     return;
   }
 
@@ -76,6 +80,11 @@ function placeStation() {
       "correct"
     );
 
+    showMessage(
+      "Correct station!",
+      "success"
+    );
+
   } else {
 
     selectedCell.classList.add(
@@ -91,6 +100,11 @@ function placeStation() {
     }, 400);
 
     loseTicket();
+
+    showMessage(
+      "Incorrect station.",
+      "error"
+    );
   }
 
   input.value = "";
@@ -110,14 +124,35 @@ function loseTicket() {
 
   if (tickets <= 0) {
 
-    alert(
-      "Out of tickets!"
+    showMessage(
+      "Out of tickets!",
+      "error"
     );
 
     document
       .getElementById("stationInput")
       .disabled = true;
   }
+}
+
+/* MESSAGE SYSTEM */
+
+function showMessage(text, type) {
+
+  const message =
+    document.getElementById("message");
+
+  message.textContent = text;
+
+  message.className =
+    "message " + type;
+
+  setTimeout(() => {
+
+    message.className =
+      "message";
+
+  }, 2000);
 }
 
 /* ENTER KEY */

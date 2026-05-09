@@ -283,3 +283,51 @@ button {
 }
   font-weight: 700;
 }
+/* NETWORK SELECTOR */
+
+.network-selector {
+
+  margin-top: 42px;
+}
+
+.network-selector label {
+
+  display: block;
+
+  margin-bottom: 14px;
+
+  font-size: 22px;
+
+  color: rgba(255,255,255,0.75);
+}
+
+.network-selector select {
+
+  width: 420px;
+
+  max-width: 90%;
+
+  padding: 18px;
+
+  border-radius: 16px;
+
+  border: none;
+
+  background: #111827;
+
+  color: white;
+
+  font-size: 22px;
+
+  font-family: 'Inter', sans-serif;
+
+  cursor: pointer;
+
+  outline: none;
+}
+
+.network-selector select:focus {
+
+  box-shadow:
+    0 0 0 3px rgba(87,211,124,0.35);
+}

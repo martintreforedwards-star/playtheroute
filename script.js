@@ -1,5 +1,9 @@
 let selectedCell = null;
 
+let tickets = 3;
+
+/* DAILY PUZZLE */
+
 const puzzle = {
 
   cell1: "Brighton",
@@ -18,6 +22,10 @@ const puzzle = {
 
 function selectCell(cell) {
 
+  if (cell.classList.contains("correct")) {
+    return;
+  }
+
   if (selectedCell) {
     selectedCell.classList.remove("selected");
   }
@@ -31,15 +39,19 @@ function selectCell(cell) {
 
 function placeStation() {
 
+  if (!selectedCell) {
+    return;
+  }
+
+  if (tickets <= 0) {
+    return;
+  }
+
   const input =
     document.getElementById("stationInput");
 
   const value =
     input.value.trim();
-
-  if (!selectedCell) {
-    return;
-  }
 
   const cellId =
     selectedCell.dataset.cell;
@@ -77,9 +89,35 @@ function placeStation() {
       );
 
     }, 400);
+
+    loseTicket();
   }
 
   input.value = "";
+}
+
+/* LOSE TICKET */
+
+function loseTicket() {
+
+  tickets--;
+
+  const ticketDisplay =
+    document.getElementById("tickets");
+
+  ticketDisplay.textContent =
+    "🎫 ".repeat(tickets);
+
+  if (tickets <= 0) {
+
+    alert(
+      "Out of tickets!"
+    );
+
+    document
+      .getElementById("stationInput")
+      .disabled = true;
+  }
 }
 
 /* ENTER KEY */

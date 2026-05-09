@@ -127,6 +127,35 @@ h1 {
   font-size: 32px;
 }
 
+.message {
+
+  height: 32px;
+
+  margin-top: 18px;
+
+  font-size: 22px;
+
+  font-weight: 700;
+
+  opacity: 0;
+
+  transition: 0.2s;
+}
+
+.message.success {
+
+  color: #57d37c;
+
+  opacity: 1;
+}
+
+.message.error {
+
+  color: #ff6b6b;
+
+  opacity: 1;
+}
+
 .game-grid {
 
   margin-top: 50px;
@@ -253,134 +282,17 @@ button {
   font-size: 28px;
 
   cursor: pointer;
-.message {
-
-  height: 32px;
-
-  margin-top: 18px;
-
-  font-size: 22px;
 
   font-weight: 700;
-
-  opacity: 0;
-
-  transition: 0.2s;
 }
 
-.message.success {
-
-  color: #57d37c;
-
-  opacity: 1;
-}
-
-.message.error {
-
-  color: #ff6b6b;
-
-  opacity: 1;
-}
-  font-weight: 700;
-}
-/* NETWORK SELECTOR */
-
-.network-selector {
-
-  margin-top: 42px;
-}
-
-.network-selector label {
-
-  display: block;
-
-  margin-bottom: 14px;
-
-  font-size: 22px;
-
-  color: rgba(255,255,255,0.75);
-}
-
-/* NETWORK SELECTOR */
-
-.network-selector {
-
-  margin-top: 46px;
-
-  display: flex;
-
-  flex-direction: column;
-
-  align-items: center;
-}
-
-.network-selector label {
-
-  margin-bottom: 16px;
-
-  font-size: 24px;
-
-  font-weight: 600;
-
-  color: rgba(255,255,255,0.82);
-}
-
-.network-selector select {
-
-  width: 460px;
-
-  max-width: 90vw;
-
-  padding: 18px 22px;
-
-  border-radius: 18px;
-
-  border:
-    2px solid rgba(255,255,255,0.08);
-
-  background: #111827;
-
-  color: white;
-
-  font-size: 22px;
-
-  font-family: 'Inter', sans-serif;
-
-  cursor: pointer;
-
-  appearance: none;
-
-  -webkit-appearance: none;
-
-  -moz-appearance: none;
-
-  outline: none;
-
-  transition: 0.2s;
-
-  text-align: center;
-}
-
-.network-selector select:hover {
-
-  border-color:
-    rgba(87,211,124,0.45);
-}
-
-.network-selector select:focus {
-
-  border-color: #57d37c;
-
-  box-shadow:
-    0 0 0 4px rgba(87,211,124,0.2);
-}
 /* NETWORK SELECTOR */
 
 .network-selector {
 
   margin-top: 40px;
-  margin-bottom: 35px;
 
+  margin-bottom: 35px;
 }
 
 .network-selector label {
@@ -394,7 +306,6 @@ button {
   font-weight: 700;
 
   color: #f3f4f6;
-
 }
 
 .network-selector select {
@@ -418,7 +329,6 @@ button {
   cursor: pointer;
 
   outline: none;
-
 }
 
 /* DROPDOWN OPTIONS */
@@ -430,45 +340,8 @@ button {
   color: white;
 
   font-size: 16px;
-
 }
 
-/* GROUP HEADINGS */
-
-.network-selector optgroup {
-
-  font-weight: 700;
-
-  color: #9ca3af;
-
-}
-/* NETWORK GROUP HEADERS */
-
-.network-selector optgroup {
-
-  font-weight: 800;
-
-  font-size: 15px;
-
-  color: #9ca3af;
-
-  background: #050b16;
-
-}
-
-/* NETWORK OPTIONS */
-
-.network-selector option {
-
-  padding-left: 18px;
-
-  font-weight: 500;
-
-  background: #111827;
-
-  color: white;
-
-}
 /* NETWORK GROUP HEADERS */
 
 .network-selector optgroup {
@@ -482,7 +355,6 @@ button {
   color: #d1d5db;
 
   background: #050b16;
-
 }
 
 /* NETWORK OPTIONS */
@@ -500,101 +372,4 @@ button {
   background: #111827;
 
   color: white;
-
-/* NETWORK GROUP HEADERS */
-
-.network-selector optgroup {
-
-  font-weight: 800;
-
-  font-size: 18px;
-
-  text-align: left;
-
-  color: #d1d5db;
-
-  background: #050b16;
-
-}
-
-/* NETWORK OPTIONS */
-
-.network-selector option {
-
-  text-align: center;
-
-  font-size: 17px;
-
-  font-weight: 500;
-
-  padding: 14px;
-
-  background: #111827;
-
-  color: white;
-
-/* NETWORK GROUP HEADERS */
-
-.network-selector optgroup {
-
-  font-weight: 800;
-
-  font-size: 18px;
-
-  text-align: left;
-
-  color: #d1d5db;
-
-  background: #050b16;
-
-}
-
-/* NETWORK OPTIONS */
-
-.network-selector option {
-
-  text-align: center;
-
-  font-size: 17px;
-
-  font-weight: 500;
-
-  padding: 14px;
-
-  background: #111827;
-
-  color: white;
-
-/* NETWORK GROUP HEADERS */
-
-.network-selector optgroup {
-
-  font-weight: 800;
-
-  font-size: 18px;
-
-  text-align: left;
-
-  color: #d1d5db;
-
-  background: #050b16;
-
-}
-
-/* NETWORK OPTIONS */
-
-.network-selector option {
-
-  text-align: center;
-
-  font-size: 17px;
-
-  font-weight: 500;
-
-  padding: 14px;
-
-  background: #111827;
-
-  color: white;
-
 }

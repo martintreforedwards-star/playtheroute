@@ -47,6 +47,12 @@ h1 {
   padding: 20px;
 
   cursor: pointer;
+
+  transition: 0.2s;
+}
+
+.cell:hover {
+  border-color: #2563eb;
 }
 
 .cell.correct {
@@ -57,6 +63,7 @@ h1 {
 .clue {
   font-size: 1.1rem;
   margin-bottom: 20px;
+  color: #374151;
 }
 
 .select-text {
@@ -67,6 +74,7 @@ h1 {
 .answer-text {
   font-size: 1.8rem;
   font-weight: bold;
+  color: #166534;
 }
 
 .modal {
@@ -162,6 +170,10 @@ h1 {
 
 <script>
 
+// ======================================
+// PUZZLE
+// ======================================
+
 const puzzle = [
 
   {
@@ -186,6 +198,10 @@ const puzzle = [
 
 ];
 
+// ======================================
+// STATIONS
+// ======================================
+
 const stations = [
 
   "Ramsgate",
@@ -201,6 +217,10 @@ const stations = [
 
 ];
 
+// ======================================
+// ELEMENTS
+// ======================================
+
 const grid = document.getElementById("grid");
 
 const modal = document.getElementById("modal");
@@ -210,6 +230,10 @@ const searchBox = document.getElementById("searchBox");
 const results = document.getElementById("results");
 
 let activeCell = null;
+
+// ======================================
+// BUILD GRID
+// ======================================
 
 puzzle.forEach(item => {
 
@@ -251,6 +275,10 @@ puzzle.forEach(item => {
 
 });
 
+// ======================================
+// OPEN MODAL
+// ======================================
+
 function openModal() {
 
   modal.classList.remove("hidden");
@@ -262,6 +290,10 @@ function openModal() {
   searchBox.focus();
 
 }
+
+// ======================================
+// RENDER STATIONS
+// ======================================
 
 function renderStations(list) {
 
@@ -287,6 +319,10 @@ function renderStations(list) {
 
 }
 
+// ======================================
+// SEARCH
+// ======================================
+
 searchBox.oninput = () => {
 
   const value = searchBox.value.toLowerCase();
@@ -301,19 +337,36 @@ searchBox.oninput = () => {
 
 };
 
+// ======================================
+// CHECK ANSWER
+// ======================================
+
 function checkAnswer(station) {
 
   if (station === activeCell.dataset.answer) {
 
     activeCell.classList.add("correct");
 
+    const clue =
+      activeCell.querySelector(".clue").textContent;
+
     activeCell.innerHTML = `
 
-      <div class="answer-text">
-        ${station}
+      <div>
+
+        <div class="clue">
+          ${clue}
+        </div>
+
+        <div class="answer-text">
+          ✓ ${station}
+        </div>
+
       </div>
 
     `;
+
+    checkCompletion();
 
   } else {
 
@@ -324,6 +377,31 @@ function checkAnswer(station) {
   modal.classList.add("hidden");
 
 }
+
+// ======================================
+// CHECK COMPLETION
+// ======================================
+
+function checkCompletion() {
+
+  const solved =
+    document.querySelectorAll(".correct").length;
+
+  if (solved === puzzle.length) {
+
+    setTimeout(() => {
+
+      alert("Route Complete!");
+
+    }, 300);
+
+  }
+
+}
+
+// ======================================
+// CLOSE MODAL
+// ======================================
 
 modal.onclick = (event) => {
 

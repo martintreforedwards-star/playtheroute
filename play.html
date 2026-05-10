@@ -1,67 +1,195 @@
-<!-- FILE: play.html -->
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta
-    name="viewport"
-    content="width=device-width, initial-scale=1.0"
-  />
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <title>The Route</title>
+<title>The Route</title>
 
-  <link rel="stylesheet" href="style.css" />
+<style>
+
+body {
+  font-family: Arial, sans-serif;
+  background: #f3f4f6;
+  margin: 0;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 12px;
+  max-width: 500px;
+  margin: 30px auto;
+}
+
+.cell {
+  background: white;
+  border: 2px solid #ccc;
+  border-radius: 12px;
+  min-height: 100px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.cell.correct {
+  background: #dcfce7;
+  border-color: green;
+}
+
+.modal {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.5);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hidden {
+  display: none;
+}
+
+.modal-content {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  width: 300px;
+}
+
+.station-option {
+  padding: 10px;
+  cursor: pointer;
+}
+
+.station-option:hover {
+  background: #eee;
+}
+
+</style>
 </head>
 
 <body>
 
-  <header class="topbar">
-    <h1>The Route</h1>
-    <p class="subtitle">Daily Commuter Puzzle</p>
-  </header>
+<h1>The Route</h1>
 
-  <main class="game-container">
+<div class="grid" id="grid"></div>
 
-    <section class="announcement">
-      <strong>Service Announcement:</strong>
-      Southeastern services are currently operating normally.
-    </section>
+<div class="modal hidden" id="modal">
 
-    <section class="theme-box">
-      <h2>Today's Theme</h2>
-      <p>Kent Coast Loop</p>
-    </section>
+  <div class="modal-content">
 
-    <section id="grid" class="grid"></section>
+    <h3>Select Station</h3>
 
-  </main>
-
-  <!-- MODAL -->
-
-  <div id="modal" class="modal hidden">
-
-    <div class="modal-content">
-
-      <button id="closeModal" class="close-btn">
-        ×
-      </button>
-
-      <h3>Select Station</h3>
-
-      <input
-        type="text"
-        id="stationSearch"
-        placeholder="Search station..."
-      />
-
-      <div id="stationList" class="station-list"></div>
-
-    </div>
+    <div id="stationList"></div>
 
   </div>
 
-  <script src="game.js"></script>
+</div>
+
+<script>
+
+const answers = [
+  "Ramsgate",
+  "Broadstairs",
+  "Margate",
+  "Dumpton Park"
+];
+
+const stations = [
+  "Ramsgate",
+  "Broadstairs",
+  "Margate",
+  "Dumpton Park",
+  "Canterbury West",
+  "Deal"
+];
+
+const grid = document.getElementById("grid");
+
+const modal = document.getElementById("modal");
+
+const stationList = document.getElementById("stationList");
+
+let activeCell = null;
+
+answers.forEach(answer => {
+
+  const cell = document.createElement("div");
+
+  cell.className = "cell";
+
+  cell.textContent = "Select Station";
+
+  cell.dataset.answer = answer;
+
+  cell.onclick = () => {
+
+    activeCell = cell;
+
+    openModal();
+
+  };
+
+  grid.appendChild(cell);
+
+});
+
+function openModal() {
+
+  modal.classList.remove("hidden");
+
+  stationList.innerHTML = "";
+
+  stations.forEach(station => {
+
+    const option = document.createElement("div");
+
+    option.className = "station-option";
+
+    option.textContent = station;
+
+    option.onclick = () => {
+
+      checkAnswer(station);
+
+    };
+
+    stationList.appendChild(option);
+
+  });
+
+}
+
+function checkAnswer(station) {
+
+  if (station === activeCell.dataset.answer) {
+
+    activeCell.textContent = station;
+
+    activeCell.classList.add("correct");
+
+  } else {
+
+    alert("Incorrect");
+
+  }
+
+  modal.classList.add("hidden");
+
+}
+
+</script>
 
 </body>
 </html>

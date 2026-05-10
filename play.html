@@ -1,7 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+
 <meta charset="UTF-8">
+
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <title>The Route</title>
@@ -17,33 +20,60 @@ body {
 
 h1 {
   text-align: center;
+  font-size: 3rem;
+  margin-bottom: 40px;
 }
 
 .grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 12px;
-  max-width: 500px;
-  margin: 30px auto;
+  gap: 16px;
+  max-width: 700px;
+  margin: auto;
 }
 
 .cell {
   background: white;
   border: 2px solid #ccc;
-  border-radius: 12px;
-  min-height: 100px;
+  border-radius: 16px;
+  min-height: 180px;
 
   display: flex;
   align-items: center;
   justify-content: center;
 
+  text-align: center;
+
+  padding: 20px;
+
   cursor: pointer;
-  font-weight: bold;
+
+  transition: 0.2s;
+}
+
+.cell:hover {
+  border-color: #2563eb;
 }
 
 .cell.correct {
   background: #dcfce7;
   border-color: green;
+}
+
+.clue {
+  font-size: 1.1rem;
+  margin-bottom: 20px;
+  color: #374151;
+}
+
+.select-text {
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+
+.answer-text {
+  font-size: 1.8rem;
+  font-weight: bold;
 }
 
 .modal {
@@ -54,6 +84,8 @@ h1 {
   display: flex;
   align-items: center;
   justify-content: center;
+
+  padding: 20px;
 }
 
 .hidden {
@@ -62,21 +94,55 @@ h1 {
 
 .modal-content {
   background: white;
+  width: 100%;
+  max-width: 500px;
+
+  border-radius: 16px;
+
   padding: 20px;
-  border-radius: 12px;
-  width: 300px;
+}
+
+#searchBox {
+  width: 100%;
+  padding: 14px;
+  font-size: 1.1rem;
+
+  border-radius: 10px;
+  border: 1px solid #ccc;
+
+  margin-bottom: 20px;
+
+  box-sizing: border-box;
+}
+
+.results {
+  max-height: 300px;
+  overflow-y: auto;
 }
 
 .station-option {
-  padding: 10px;
+  padding: 14px;
+  font-size: 1.1rem;
+
+  border-radius: 10px;
+
   cursor: pointer;
 }
 
 .station-option:hover {
-  background: #eee;
+  background: #eff6ff;
+}
+
+@media (max-width: 700px) {
+
+  .grid {
+    grid-template-columns: 1fr;
+  }
+
 }
 
 </style>
+
 </head>
 
 <body>
@@ -89,9 +155,13 @@ h1 {
 
   <div class="modal-content">
 
-    <h3>Select Station</h3>
+    <input
+      type="text"
+      id="searchBox"
+      placeholder="Search station..."
+    >
 
-    <div id="stationList"></div>
+    <div class="results" id="results"></div>
 
   </div>
 
@@ -99,47 +169,100 @@ h1 {
 
 <script>
 
-<script>
+// ======================================
+// PUZZLE
+// ======================================
 
-const answers = [
-  "Ramsgate",
-  "Broadstairs",
-  "Margate",
-  "Dumpton Park"
+const puzzle = [
+
+  {
+    clue: "Famous Kent seaside terminus",
+    answer: "Ramsgate"
+  },
+
+  {
+    clue: "Next stop after Ramsgate on the loop",
+    answer: "Broadstairs"
+  },
+
+  {
+    clue: "Dreamland station",
+    answer: "Margate"
+  },
+
+  {
+    clue: "Station between Ramsgate and Broadstairs",
+    answer: "Dumpton Park"
+  }
+
 ];
 
+// ======================================
+// STATIONS
+// ======================================
+
 const stations = [
+
   "Ramsgate",
   "Broadstairs",
   "Margate",
   "Dumpton Park",
   "Canterbury West",
-  "Deal",
   "Ashford International",
   "Whitstable",
   "Herne Bay",
+  "Deal",
   "Faversham"
+
 ];
+
+// ======================================
+// ELEMENTS
+// ======================================
 
 const grid = document.getElementById("grid");
 
 const modal = document.getElementById("modal");
 
-const stationList = document.getElementById("stationList");
+const searchBox = document.getElementById("searchBox");
+
+const results = document.getElementById("results");
 
 let activeCell = null;
 
-answers.forEach(answer => {
+// ======================================
+// BUILD GRID
+// ======================================
+
+puzzle.forEach(item => {
 
   const cell = document.createElement("div");
 
   cell.className = "cell";
 
-  cell.textContent = "Select Station";
+  cell.dataset.answer = item.answer;
 
-  cell.dataset.answer = answer;
+  cell.innerHTML = `
+
+    <div>
+
+      <div class="clue">
+        ${item.clue}
+      </div>
+
+      <div class="select-text">
+        Select Station
+      </div>
+
+    </div>
+
+  `;
 
   cell.onclick = () => {
+
+    if (cell.classList.contains("correct")) {
+      return;
+    }
 
     activeCell = cell;
 
@@ -151,52 +274,27 @@ answers.forEach(answer => {
 
 });
 
+// ======================================
+// OPEN MODAL
+// ======================================
+
 function openModal() {
 
   modal.classList.remove("hidden");
 
-  stationList.innerHTML = `
+  searchBox.value = "";
 
-    <input
-      id="searchBox"
-      type="text"
-      placeholder="Search station..."
-      style="
-        width:100%;
-        padding:10px;
-        margin-bottom:15px;
-        border-radius:8px;
-        border:1px solid #ccc;
-      "
-    >
-
-    <div id="results"></div>
-
-  `;
-
-  const searchBox = document.getElementById("searchBox");
-
-  const results = document.getElementById("results");
-
-  renderStations(stations, results);
+  renderStations(stations);
 
   searchBox.focus();
 
-  searchBox.oninput = () => {
-
-    const value = searchBox.value.toLowerCase();
-
-    const filtered = stations.filter(station =>
-      station.toLowerCase().includes(value)
-    );
-
-    renderStations(filtered, results);
-
-  };
-
 }
 
-function renderStations(list, results) {
+// ======================================
+// RENDER STATIONS
+// ======================================
+
+function renderStations(list) {
 
   results.innerHTML = "";
 
@@ -220,13 +318,41 @@ function renderStations(list, results) {
 
 }
 
+// ======================================
+// SEARCH
+// ======================================
+
+searchBox.oninput = () => {
+
+  const value = searchBox.value.toLowerCase();
+
+  const filtered = stations.filter(station =>
+
+    station.toLowerCase().includes(value)
+
+  );
+
+  renderStations(filtered);
+
+};
+
+// ======================================
+// CHECK ANSWER
+// ======================================
+
 function checkAnswer(station) {
 
   if (station === activeCell.dataset.answer) {
 
-    activeCell.textContent = station;
-
     activeCell.classList.add("correct");
+
+    activeCell.innerHTML = `
+
+      <div class="answer-text">
+        ${station}
+      </div>
+
+    `;
 
   } else {
 
@@ -238,6 +364,10 @@ function checkAnswer(station) {
 
 }
 
+// ======================================
+// CLOSE MODAL
+// ======================================
+
 modal.onclick = (event) => {
 
   if (event.target === modal) {
@@ -247,83 +377,6 @@ modal.onclick = (event) => {
   }
 
 };
-
-</script>
-
-
-const grid = document.getElementById("grid");
-
-const modal = document.getElementById("modal");
-
-const stationList = document.getElementById("stationList");
-
-let activeCell = null;
-
-answers.forEach(answer => {
-
-  const cell = document.createElement("div");
-
-  cell.className = "cell";
-
-  cell.textContent = "Select Station";
-
-  cell.dataset.answer = answer;
-
-  cell.onclick = () => {
-
-    activeCell = cell;
-
-    openModal();
-
-  };
-
-  grid.appendChild(cell);
-
-});
-
-function openModal() {
-
-  modal.classList.remove("hidden");
-
-  stationList.innerHTML = "";
-
-  stations.forEach(station => {
-
-    const option = document.createElement("div");
-
-    option.className = "station-option";
-
-    option.textContent = station;
-
-    option.onclick = () => {
-
-      checkAnswer(station);
-
-    };
-
-    stationList.appendChild(option);
-
-  });
-
-}
-
-function checkAnswer(station) {
-
-  if (station === activeCell.dataset.answer) {
-
-    activeCell.textContent = station;
-
-    activeCell.classList.add("correct");
-
-  } else {
-
-    alert("Incorrect");
-
-  }
-
-  modal.classList.add("hidden");
-
-}
 
 </script>
 

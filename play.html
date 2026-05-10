@@ -1,16 +1,16 @@
-# The Route — Alpha Prototype
-
-Replace your current `play.html` with this complete test version.
-
-```html
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0">
+
   <title>The Route — Alpha</title>
 
   <style>
+
     body {
       margin: 0;
       padding: 40px 20px;
@@ -48,6 +48,7 @@ Replace your current `play.html` with this complete test version.
       align-items: center;
       justify-content: center;
       font-size: 0.95rem;
+      box-sizing: border-box;
     }
 
     .header {
@@ -82,6 +83,7 @@ Replace your current `play.html` with this complete test version.
       padding: 20px;
       margin-bottom: 20px;
       font-size: 1.2rem;
+      line-height: 1.6;
     }
 
     .shutter {
@@ -131,6 +133,8 @@ Replace your current `play.html` with this complete test version.
       font-size: 2rem;
       font-weight: bold;
       letter-spacing: 2px;
+      color: white;
+      z-index: 1;
     }
 
     .options {
@@ -162,6 +166,7 @@ Replace your current `play.html` with this complete test version.
     }
 
     @media (max-width: 900px) {
+
       .grid {
         grid-template-columns: 1fr;
       }
@@ -169,33 +174,82 @@ Replace your current `play.html` with this complete test version.
       .options {
         grid-template-columns: 1fr;
       }
+
     }
+
   </style>
+
 </head>
+
 <body>
 
   <h1>THE ROUTE</h1>
-  <div class="subtitle">Southeastern Alpha Puzzle</div>
+
+  <div class="subtitle">
+    Southeastern Alpha Puzzle
+  </div>
 
   <div class="grid">
 
     <div class="cell header"></div>
-    <div class="cell header">Service Announcement 1</div>
-    <div class="cell header">Service Announcement 2</div>
-    <div class="cell header">Service Announcement 3</div>
-    <div class="cell header">Service Announcement 4</div>
 
-    <div class="cell row-header">Platform 1<br>Is not a terminus</div>
-    <div class="cell station">Dumpton Park</div>
-    <div class="cell station">Appledore</div>
-    <div class="cell station">Meopham</div>
-    <div class="cell station">Margate</div>
+    <div class="cell header">
+      Service Announcement 1
+    </div>
 
-    <div class="cell row-header">Platform 2<br>Direct Charing Cross</div>
-    <div class="cell station">Ramsgate</div>
-    <div class="cell station">Chartham</div>
-    <div class="cell station">Chilham</div>
-    <div class="cell station">Ashford International</div>
+    <div class="cell header">
+      Service Announcement 2
+    </div>
+
+    <div class="cell header">
+      Service Announcement 3
+    </div>
+
+    <div class="cell header">
+      Service Announcement 4
+    </div>
+
+    <div class="cell row-header">
+      Platform 1<br>
+      Is not a terminus
+    </div>
+
+    <div class="cell station">
+      Dumpton Park
+    </div>
+
+    <div class="cell station">
+      Appledore
+    </div>
+
+    <div class="cell station">
+      Meopham
+    </div>
+
+    <div class="cell station">
+      Margate
+    </div>
+
+    <div class="cell row-header">
+      Platform 2<br>
+      Direct Charing Cross
+    </div>
+
+    <div class="cell station">
+      Ramsgate
+    </div>
+
+    <div class="cell station">
+      Chartham
+    </div>
+
+    <div class="cell station">
+      Chilham
+    </div>
+
+    <div class="cell station">
+      Ashford International
+    </div>
 
   </div>
 
@@ -206,25 +260,60 @@ Replace your current `play.html` with this complete test version.
     </div>
 
     <div class="special-clue">
-      Station contains <strong>HAM</strong><br>
-      AND<br>
-      Is an <strong>INTERCHANGE</strong>
+
+      Station contains
+      <strong>HAM</strong>
+
+      <br>
+
+      AND
+
+      <br>
+
+      Is an
+      <strong>INTERCHANGE</strong>
+
     </div>
 
-    <div class="shutter" id="shutter">
+    <div
+      class="shutter"
+      id="shutter">
+
       <div class="shutter-top"></div>
+
       <div class="shutter-bottom"></div>
-      <div class="answer" id="hiddenAnswer"></div>
+
+      <div
+        class="answer"
+        id="hiddenAnswer">
+      </div>
+
     </div>
 
     <div class="options">
-      <button onclick="checkAnswer('Rainham')">Rainham</button>
-      <button onclick="checkAnswer('Whitstable')">Whitstable</button>
-      <button onclick="checkAnswer('West Wickham')">West Wickham</button>
-      <button onclick="checkAnswer('Folkestone')">Folkestone</button>
+
+      <button onclick="checkAnswer('Rainham')">
+        Rainham
+      </button>
+
+      <button onclick="checkAnswer('Whitstable')">
+        Whitstable
+      </button>
+
+      <button onclick="checkAnswer('West Wickham')">
+        West Wickham
+      </button>
+
+      <button onclick="checkAnswer('Folkestone')">
+        Folkestone
+      </button>
+
     </div>
 
-    <div class="result" id="result"></div>
+    <div
+      class="result"
+      id="result">
+    </div>
 
   </div>
 
@@ -232,40 +321,36 @@ Replace your current `play.html` with this complete test version.
 
     function checkAnswer(answer) {
 
-      const result = document.getElementById('result');
-      const shutter = document.getElementById('shutter');
+      const result =
+        document.getElementById('result');
+
+      const shutter =
+        document.getElementById('shutter');
+
+      const hiddenAnswer =
+        document.getElementById('hiddenAnswer');
 
       if (answer === 'West Wickham') {
 
-        result.innerHTML = 'Correct service announcement identified.';
+        hiddenAnswer.innerHTML =
+          'WEST WICKHAM';
+
+        result.innerHTML =
+          'Correct service announcement identified.';
+
         shutter.classList.add('open');
 
       } else {
 
-        result.innerHTML = 'Incorrect route deduction.';
+        result.innerHTML =
+          'Incorrect route deduction.';
 
       }
+
     }
 
   </script>
 
 </body>
+
 </html>
-```
-
-Then:
-
-1. Upload to your GitHub repo
-2. Commit changes
-3. Wait 1–2 mins for GitHub Pages
-4. Refresh your live page
-
-This is now a complete playable alpha loop:
-
-* visible deduction grid
-* hidden station mechanic
-* answer selection
-* shutter reveal
-* success/fail state
-
-Once this works reliably, the next step is converting the hardcoded puzzle into generated JSON data.

@@ -34,17 +34,6 @@ h1 {
   margin-bottom: 30px;
 }
 
-.tickets {
-  font-size: 2rem;
-  margin-bottom: 10px;
-}
-
-.status {
-  color: #4ade80;
-  font-size: 1.2rem;
-  margin-bottom: 30px;
-}
-
 .board {
   display: grid;
   grid-template-columns: 220px repeat(4, 1fr);
@@ -85,21 +74,15 @@ h1 {
 }
 
 .platform-title {
-
   font-size: 1.8rem;
   font-weight: bold;
-
   margin-bottom: 10px;
-
 }
 
 .platform-condition {
-
   font-size: 1rem;
   color: #9ca3af;
-
   line-height: 1.4;
-
 }
 
 .cell {
@@ -130,6 +113,10 @@ h1 {
   border-color: #4ade80;
 }
 
+.cell.incorrect {
+  border-color: #ef4444;
+}
+
 .cell-content {
   display: flex;
   flex-direction: column;
@@ -137,7 +124,7 @@ h1 {
 }
 
 .station {
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   font-weight: bold;
 }
 
@@ -150,8 +137,6 @@ h1 {
 
 .buttons {
   margin-top: 30px;
-  display: flex;
-  gap: 20px;
 }
 
 button {
@@ -161,32 +146,8 @@ button {
   font-size: 1.3rem;
   font-weight: bold;
   cursor: pointer;
-}
-
-.submit-btn {
   background: #22c55e;
   color: white;
-}
-
-.clear-btn {
-  background: #374151;
-  color: white;
-}
-
-.complete {
-  margin-top: 30px;
-  background: #052e16;
-  border: 2px solid #4ade80;
-  border-radius: 20px;
-  padding: 20px;
-  text-align: center;
-
-  display: none;
-}
-
-.complete h2 {
-  margin-top: 0;
-  font-size: 2.5rem;
 }
 
 .modal {
@@ -239,40 +200,21 @@ button {
   background: #1e293b;
 }
 
+.complete {
+  margin-top: 30px;
+  background: #052e16;
+  border: 2px solid #4ade80;
+  border-radius: 20px;
+  padding: 20px;
+  text-align: center;
+
+  display: none;
+}
+
 @media (max-width: 900px) {
-
-  h1 {
-    font-size: 3rem;
-  }
-
-  .subtitle {
-    font-size: 1.5rem;
-  }
 
   .board {
     grid-template-columns: 1fr;
-  }
-
-  .column-header {
-    text-align: left;
-    background: #111827;
-    border-radius: 16px;
-  }
-
-  .cell {
-    min-height: 120px;
-  }
-
-  .station {
-    font-size: 1.3rem;
-  }
-
-  .buttons {
-    flex-direction: column;
-  }
-
-  button {
-    width: 100%;
   }
 
 }
@@ -291,64 +233,36 @@ button {
   Southeastern Alpha 001
 </div>
 
-<div class="tickets">
-  🎟️ 🎟️ 🎟️ 🎟️ ❌
-</div>
-
-<div class="status">
-  Correct pair
-</div>
-
 <div class="board">
 
   <div></div>
 
   <div class="column-header">
-
-    <div class="column-letter">
-      A
-    </div>
-
+    <div class="column-letter">A</div>
     <div class="column-clue">
       Next Door to Ramsgate Harbour
     </div>
-
   </div>
 
   <div class="column-header">
-
-    <div class="column-letter">
-      B
-    </div>
-
+    <div class="column-letter">B</div>
     <div class="column-clue">
       London Time Band 70–100 mins
     </div>
-
   </div>
 
   <div class="column-header">
-
-    <div class="column-letter">
-      C
-    </div>
-
+    <div class="column-letter">C</div>
     <div class="column-clue">
       Station contains 'ham'
     </div>
-
   </div>
 
   <div class="column-header">
-
-    <div class="column-letter">
-      D
-    </div>
-
+    <div class="column-letter">D</div>
     <div class="column-clue">
       Is an interchange
     </div>
-
   </div>
 
   <!-- PLATFORM 1 -->
@@ -369,33 +283,10 @@ button {
 
   </div>
 
-  <div class="cell" data-answer="Dumpton Park">
-    <div class="cell-content">
-      <div class="station">🚆</div>
-      <div class="label">Waiting</div>
-    </div>
-  </div>
-
-  <div class="cell" data-answer="Appledore">
-    <div class="cell-content">
-      <div class="station">🚆</div>
-      <div class="label">Waiting</div>
-    </div>
-  </div>
-
-  <div class="cell" data-answer="Meopham">
-    <div class="cell-content">
-      <div class="station">🚆</div>
-      <div class="label">Waiting</div>
-    </div>
-  </div>
-
-  <div class="cell" data-answer="Margate">
-    <div class="cell-content">
-      <div class="station">🚆</div>
-      <div class="label">Waiting</div>
-    </div>
-  </div>
+  <div class="cell" data-row="1" data-column="A"></div>
+  <div class="cell" data-row="1" data-column="B"></div>
+  <div class="cell" data-row="1" data-column="C"></div>
+  <div class="cell" data-row="1" data-column="D"></div>
 
   <!-- PLATFORM 2 -->
 
@@ -415,44 +306,17 @@ button {
 
   </div>
 
-  <div class="cell" data-answer="Ramsgate">
-    <div class="cell-content">
-      <div class="station">🚆</div>
-      <div class="label">Waiting</div>
-    </div>
-  </div>
-
-  <div class="cell" data-answer="Chartham">
-    <div class="cell-content">
-      <div class="station">🚆</div>
-      <div class="label">Waiting</div>
-    </div>
-  </div>
-
-  <div class="cell" data-answer="Chilham">
-    <div class="cell-content">
-      <div class="station">🚆</div>
-      <div class="label">Waiting</div>
-    </div>
-  </div>
-
-  <div class="cell" data-answer="Ashford International">
-    <div class="cell-content">
-      <div class="station">🚆</div>
-      <div class="label">Waiting</div>
-    </div>
-  </div>
+  <div class="cell" data-row="2" data-column="A"></div>
+  <div class="cell" data-row="2" data-column="B"></div>
+  <div class="cell" data-row="2" data-column="C"></div>
+  <div class="cell" data-row="2" data-column="D"></div>
 
 </div>
 
 <div class="buttons">
 
-  <button class="submit-btn" onclick="submitBoard()">
-    Submit Pair
-  </button>
-
-  <button class="clear-btn" onclick="clearBoard()">
-    Clear
+  <button onclick="submitBoard()">
+    Submit Board
   </button>
 
 </div>
@@ -474,6 +338,8 @@ button {
 
 </div>
 
+<!-- MODAL -->
+
 <div class="modal hidden" id="modal">
 
   <div class="modal-box">
@@ -492,33 +358,113 @@ button {
 
 <script>
 
+// ======================================
+// STATION DATABASE
+// ======================================
+
 const stations = [
 
-  "Dumpton Park",
-  "Appledore",
-  "Meopham",
-  "Margate",
-  "Ramsgate",
-  "Chartham",
-  "Chilham",
-  "Ashford International",
-  "West Wickham",
-  "Canterbury West",
-  "Deal",
-  "Whitstable"
+  {
+    name: "Dumpton Park",
+    terminus: false,
+    directCharingCross: false,
+    nearHarbour: true,
+    londonBand: "70-100",
+    containsHam: false,
+    interchange: false
+  },
+
+  {
+    name: "Ramsgate",
+    terminus: true,
+    directCharingCross: true,
+    nearHarbour: true,
+    londonBand: "70-100",
+    containsHam: false,
+    interchange: false
+  },
+
+  {
+    name: "Meopham",
+    terminus: false,
+    directCharingCross: true,
+    nearHarbour: false,
+    londonBand: "70-100",
+    containsHam: true,
+    interchange: false
+  },
+
+  {
+    name: "Chartham",
+    terminus: false,
+    directCharingCross: true,
+    nearHarbour: false,
+    londonBand: "70-100",
+    containsHam: true,
+    interchange: false
+  },
+
+  {
+    name: "Ashford International",
+    terminus: false,
+    directCharingCross: true,
+    nearHarbour: false,
+    londonBand: "70-100",
+    containsHam: false,
+    interchange: true
+  }
 
 ];
 
-const modal = document.getElementById("modal");
-const searchBox = document.getElementById("searchBox");
-const results = document.getElementById("results");
-const completeBox = document.getElementById("completeBox");
+// ======================================
+// RULES
+// ======================================
 
-const cells = document.querySelectorAll(".cell");
+const rowRules = {
+
+  1: station => !station.terminus,
+
+  2: station => station.directCharingCross
+
+};
+
+const columnRules = {
+
+  A: station => station.nearHarbour,
+
+  B: station => station.londonBand === "70-100",
+
+  C: station => station.containsHam,
+
+  D: station => station.interchange
+
+};
+
+// ======================================
+// ELEMENTS
+// ======================================
+
+const modal = document.getElementById("modal");
+
+const searchBox = document.getElementById("searchBox");
+
+const results = document.getElementById("results");
+
+const completeBox =
+  document.getElementById("completeBox");
+
+const cells =
+  document.querySelectorAll(".cell");
 
 let activeCell = null;
 
+// ======================================
+// BUILD EMPTY CELLS
+// ======================================
+
 cells.forEach(cell => {
+
+  resetCell(cell);
 
   cell.onclick = () => {
 
@@ -533,6 +479,30 @@ cells.forEach(cell => {
   };
 
 });
+
+function resetCell(cell) {
+
+  cell.innerHTML = `
+
+    <div class="cell-content">
+
+      <div class="station">
+        🚆
+      </div>
+
+      <div class="label">
+        Waiting
+      </div>
+
+    </div>
+
+  `;
+
+}
+
+// ======================================
+// MODAL
+// ======================================
 
 function openModal() {
 
@@ -552,24 +522,35 @@ function renderStations(list) {
 
   list.forEach(station => {
 
-    const option = document.createElement("div");
+    const option =
+      document.createElement("div");
 
     option.className = "station-option";
 
-    option.textContent = station;
+    option.textContent = station.name;
 
     option.onclick = () => {
+
+      activeCell.dataset.selected =
+        station.name;
 
       activeCell.innerHTML = `
 
         <div class="cell-content">
-          <div class="station">${station}</div>
-          <div class="label">Arriving</div>
+
+          <div class="station">
+            ${station.name}
+          </div>
+
+          <div class="label">
+            Arriving
+          </div>
+
         </div>
 
       `;
 
-      activeCell.dataset.selected = station;
+      activeCell.classList.remove("incorrect");
 
       modal.classList.add("hidden");
 
@@ -581,17 +562,65 @@ function renderStations(list) {
 
 }
 
+// ======================================
+// SEARCH
+// ======================================
+
 searchBox.oninput = () => {
 
-  const value = searchBox.value.toLowerCase();
+  const value =
+    searchBox.value.toLowerCase();
 
-  const filtered = stations.filter(station =>
-    station.toLowerCase().includes(value)
-  );
+  const filtered =
+    stations.filter(station =>
+
+      station.name
+        .toLowerCase()
+        .includes(value)
+
+    );
 
   renderStations(filtered);
 
 };
+
+// ======================================
+// VALIDATION
+// ======================================
+
+function validateCell(cell) {
+
+  const stationName =
+    cell.dataset.selected;
+
+  if (!stationName) {
+    return false;
+  }
+
+  const station =
+    stations.find(
+      s => s.name === stationName
+    );
+
+  const row =
+    cell.dataset.row;
+
+  const column =
+    cell.dataset.column;
+
+  const rowValid =
+    rowRules[row](station);
+
+  const columnValid =
+    columnRules[column](station);
+
+  return rowValid && columnValid;
+
+}
+
+// ======================================
+// SUBMIT
+// ======================================
 
 function submitBoard() {
 
@@ -599,11 +628,17 @@ function submitBoard() {
 
   cells.forEach(cell => {
 
-    if (cell.dataset.selected === cell.dataset.answer) {
+    if (validateCell(cell)) {
 
       cell.classList.add("correct");
 
+      cell.classList.remove("incorrect");
+
       correct++;
+
+    } else {
+
+      cell.classList.add("incorrect");
 
     }
 
@@ -617,28 +652,9 @@ function submitBoard() {
 
 }
 
-function clearBoard() {
-
-  cells.forEach(cell => {
-
-    if (!cell.classList.contains("correct")) {
-
-      cell.innerHTML = `
-
-        <div class="cell-content">
-          <div class="station">🚆</div>
-          <div class="label">Waiting</div>
-        </div>
-
-      `;
-
-      cell.dataset.selected = "";
-
-    }
-
-  });
-
-}
+// ======================================
+// CLOSE MODAL
+// ======================================
 
 modal.onclick = (event) => {
 

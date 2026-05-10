@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-submit
-  
+
 <head>
 
 <meta charset="UTF-8">
@@ -110,12 +109,45 @@ h1 {
 }
 
 .cell.correct {
+
   background: #052e16;
+
   border-color: #4ade80;
+
 }
 
 .cell.incorrect {
+
+  background: #450a0a;
+
   border-color: #ef4444;
+
+  animation: shake 0.3s;
+
+}
+
+@keyframes shake {
+
+  0% {
+    transform: translateX(0);
+  }
+
+  25% {
+    transform: translateX(-5px);
+  }
+
+  50% {
+    transform: translateX(5px);
+  }
+
+  75% {
+    transform: translateX(-5px);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+
 }
 
 .cell-content {
@@ -359,10 +391,6 @@ button {
 
 <script>
 
-// ======================================
-// STATION DATABASE
-// ======================================
-
 const stations = [
 
   {
@@ -417,10 +445,6 @@ const stations = [
 
 ];
 
-// ======================================
-// RULES
-// ======================================
-
 const rowRules = {
 
   1: station => !station.terminus,
@@ -441,10 +465,6 @@ const columnRules = {
 
 };
 
-// ======================================
-// ELEMENTS
-// ======================================
-
 const modal = document.getElementById("modal");
 
 const searchBox = document.getElementById("searchBox");
@@ -459,19 +479,11 @@ const cells =
 
 let activeCell = null;
 
-// ======================================
-// BUILD EMPTY CELLS
-// ======================================
-
 cells.forEach(cell => {
 
   resetCell(cell);
 
   cell.onclick = () => {
-
-    if (cell.classList.contains("correct")) {
-      return;
-    }
 
     activeCell = cell;
 
@@ -500,10 +512,6 @@ function resetCell(cell) {
   `;
 
 }
-
-// ======================================
-// MODAL
-// ======================================
 
 function openModal() {
 
@@ -563,10 +571,6 @@ function renderStations(list) {
 
 }
 
-// ======================================
-// SEARCH
-// ======================================
-
 searchBox.oninput = () => {
 
   const value =
@@ -584,10 +588,6 @@ searchBox.oninput = () => {
   renderStations(filtered);
 
 };
-
-// ======================================
-// VALIDATION
-// ======================================
 
 function validateCell(cell) {
 
@@ -618,10 +618,6 @@ function validateCell(cell) {
   return rowValid && columnValid;
 
 }
-
-// ======================================
-// SUBMIT
-// ======================================
 
 function submitBoard() {
 
@@ -660,10 +656,6 @@ function submitBoard() {
   }
 
 }
-
-// ======================================
-// CLOSE MODAL
-// ======================================
 
 modal.onclick = (event) => {
 

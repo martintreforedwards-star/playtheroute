@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
-
+submit
+  
 <head>
 
 <meta charset="UTF-8">
@@ -634,11 +635,19 @@ function submitBoard() {
 
       cell.classList.remove("incorrect");
 
+      cell.querySelector(".label").textContent =
+        "Correct";
+
       correct++;
 
     } else {
 
+      cell.classList.remove("correct");
+
       cell.classList.add("incorrect");
+
+      cell.querySelector(".label").textContent =
+        "Invalid";
 
     }
 

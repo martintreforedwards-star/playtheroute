@@ -1,10 +1,12 @@
+# Updated `play.html`
+
+```html
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
 
 <meta charset="UTF-8">
-
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <title>The Route</title>
@@ -12,31 +14,76 @@
 <style>
 
 body {
-  font-family: Arial, sans-serif;
-  background: #f3f4f6;
   margin: 0;
+  font-family: Arial, sans-serif;
+  background: #020b24;
+  color: white;
+}
+
+.container {
+  max-width: 900px;
+  margin: auto;
   padding: 20px;
 }
 
 h1 {
-  text-align: center;
-  font-size: 3rem;
-  margin-bottom: 40px;
+  font-size: 4rem;
+  margin-bottom: 10px;
 }
 
-.grid {
+.subtitle {
+  font-size: 2rem;
+  color: #9ca3af;
+  margin-bottom: 30px;
+}
+
+.tickets {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.status {
+  color: #4ade80;
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+}
+
+.board {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 16px;
-  max-width: 700px;
-  margin: auto;
+  grid-template-columns: 160px repeat(4, 1fr);
+  gap: 14px;
+  align-items: center;
+}
+
+.column-header {
+  text-align: center;
+  font-size: 1.6rem;
+  font-weight: bold;
+  color: #9ca3af;
+}
+
+.platform {
+  background: #111827;
+  border-left: 6px solid #4ade80;
+  border-radius: 20px;
+  padding: 20px;
+  font-size: 1.8rem;
+  font-weight: bold;
+  min-height: 110px;
+
+  display: flex;
+  align-items: center;
+}
+
+.platform.blue {
+  border-left-color: #60a5fa;
 }
 
 .cell {
-  background: white;
-  border: 2px solid #ccc;
-  border-radius: 16px;
-  min-height: 180px;
+  background: #0f172a;
+  border: 3px solid #1e3a8a;
+  border-radius: 22px;
+  min-height: 140px;
 
   display: flex;
   align-items: center;
@@ -44,7 +91,7 @@ h1 {
 
   text-align: center;
 
-  padding: 20px;
+  padding: 10px;
 
   cursor: pointer;
 
@@ -52,35 +99,65 @@ h1 {
 }
 
 .cell:hover {
-  border-color: #2563eb;
+  border-color: #4ade80;
+}
+
+.cell.selected {
+  border-color: #4ade80;
 }
 
 .cell.correct {
-  background: #dcfce7;
-  border-color: green;
+  background: #052e16;
+  border-color: #4ade80;
 }
 
-.clue {
-  font-size: 1.1rem;
-  margin-bottom: 20px;
-  color: #374151;
+.cell-content {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
 
-.select-text {
-  font-size: 1.4rem;
-  font-weight: bold;
-}
-
-.answer-text {
+.station {
   font-size: 1.8rem;
   font-weight: bold;
-  color: #166534;
+}
+
+.label {
+  font-size: 1.1rem;
+  color: #9ca3af;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.buttons {
+  margin-top: 30px;
+  display: flex;
+  gap: 20px;
+}
+
+button {
+  border: none;
+  border-radius: 18px;
+  padding: 18px 28px;
+  font-size: 1.3rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.submit-btn {
+  background: #22c55e;
+  color: white;
+}
+
+.clear-btn {
+  background: #374151;
+  color: white;
 }
 
 .modal {
   position: fixed;
   inset: 0;
-  background: rgba(0,0,0,0.5);
+  background: rgba(0,0,0,0.7);
 
   display: flex;
   align-items: center;
@@ -93,51 +170,95 @@ h1 {
   display: none;
 }
 
-.modal-content {
-  background: white;
+.modal-box {
+  background: #111827;
   width: 100%;
   max-width: 500px;
 
-  border-radius: 16px;
+  border-radius: 24px;
 
   padding: 20px;
 }
 
 #searchBox {
   width: 100%;
-  padding: 14px;
+  box-sizing: border-box;
+
+  padding: 16px;
+  border-radius: 14px;
+  border: none;
+
   font-size: 1.1rem;
 
-  border-radius: 10px;
-  border: 1px solid #ccc;
-
   margin-bottom: 20px;
-
-  box-sizing: border-box;
-}
-
-.results {
-  max-height: 300px;
-  overflow-y: auto;
 }
 
 .station-option {
-  padding: 14px;
-  font-size: 1.1rem;
-
-  border-radius: 10px;
-
+  padding: 16px;
+  border-radius: 14px;
   cursor: pointer;
+  font-size: 1.2rem;
 }
 
 .station-option:hover {
-  background: #eff6ff;
+  background: #1e293b;
+}
+
+.complete {
+  margin-top: 30px;
+  background: #052e16;
+  border: 2px solid #4ade80;
+  border-radius: 20px;
+  padding: 20px;
+  text-align: center;
+
+  display: none;
+}
+
+.complete h2 {
+  margin-top: 0;
+  font-size: 2.5rem;
 }
 
 @media (max-width: 700px) {
 
-  .grid {
-    grid-template-columns: 1fr;
+  h1 {
+    font-size: 3rem;
+  }
+
+  .subtitle {
+    font-size: 1.4rem;
+  }
+
+  .board {
+    grid-template-columns: 110px repeat(4, 1fr);
+    gap: 8px;
+  }
+
+  .platform {
+    font-size: 1.2rem;
+    min-height: 90px;
+    padding: 12px;
+  }
+
+  .cell {
+    min-height: 110px;
+  }
+
+  .station {
+    font-size: 1rem;
+  }
+
+  .label {
+    font-size: 0.8rem;
+  }
+
+  button {
+    width: 100%;
+  }
+
+  .buttons {
+    flex-direction: column;
   }
 
 }
@@ -148,13 +269,128 @@ h1 {
 
 <body>
 
+<div class="container">
+
 <h1>The Route</h1>
 
-<div class="grid" id="grid"></div>
+<div class="subtitle">
+  Southeastern Alpha 001
+</div>
+
+<div class="tickets">
+  🎟️ 🎟️ 🎟️ 🎟️ ❌
+</div>
+
+<div class="status">
+  Correct pair
+</div>
+
+<div class="board">
+
+  <div></div>
+  <div class="column-header">A</div>
+  <div class="column-header">B</div>
+  <div class="column-header">C</div>
+  <div class="column-header">D</div>
+
+  <div class="platform">
+    PLATFORM 1
+  </div>
+
+  <div class="cell" data-answer="Dumpton Park">
+    <div class="cell-content">
+      <div class="station">🚆</div>
+      <div class="label">Waiting</div>
+    </div>
+  </div>
+
+  <div class="cell" data-answer="Appledore">
+    <div class="cell-content">
+      <div class="station">🚆</div>
+      <div class="label">Waiting</div>
+    </div>
+  </div>
+
+  <div class="cell" data-answer="Meopham">
+    <div class="cell-content">
+      <div class="station">🚆</div>
+      <div class="label">Waiting</div>
+    </div>
+  </div>
+
+  <div class="cell" data-answer="Margate">
+    <div class="cell-content">
+      <div class="station">🚆</div>
+      <div class="label">Waiting</div>
+    </div>
+  </div>
+
+  <div class="platform blue">
+    PLATFORM 2
+  </div>
+
+  <div class="cell" data-answer="Ramsgate">
+    <div class="cell-content">
+      <div class="station">🚆</div>
+      <div class="label">Waiting</div>
+    </div>
+  </div>
+
+  <div class="cell" data-answer="Chartham">
+    <div class="cell-content">
+      <div class="station">🚆</div>
+      <div class="label">Waiting</div>
+    </div>
+  </div>
+
+  <div class="cell" data-answer="Chilham">
+    <div class="cell-content">
+      <div class="station">🚆</div>
+      <div class="label">Waiting</div>
+    </div>
+  </div>
+
+  <div class="cell" data-answer="Ashford International">
+    <div class="cell-content">
+      <div class="station">🚆</div>
+      <div class="label">Waiting</div>
+    </div>
+  </div>
+
+</div>
+
+<div class="buttons">
+
+  <button class="submit-btn" onclick="submitBoard()">
+    Submit Pair
+  </button>
+
+  <button class="clear-btn" onclick="clearBoard()">
+    Clear
+  </button>
+
+</div>
+
+<div class="complete" id="completeBox">
+
+  <h2>Route Complete!</h2>
+
+  <p>
+    Special Service Announcement:
+  </p>
+
+  <strong>
+    Station contains 'ham' AND is an interchange
+    = West Wickham
+  </strong>
+
+</div>
+
+</div>
 
 <div class="modal hidden" id="modal">
 
-  <div class="modal-content">
+  <div class="modal-box">
 
     <input
       type="text"
@@ -162,7 +398,7 @@ h1 {
       placeholder="Search station..."
     >
 
-    <div class="results" id="results"></div>
+    <div id="results"></div>
 
   </div>
 
@@ -170,94 +406,33 @@ h1 {
 
 <script>
 
-// ======================================
-// PUZZLE
-// ======================================
-
-const puzzle = [
-
-  {
-    clue: "Famous Kent seaside terminus",
-    answer: "Ramsgate"
-  },
-
-  {
-    clue: "Next stop after Ramsgate on the loop",
-    answer: "Broadstairs"
-  },
-
-  {
-    clue: "Dreamland station",
-    answer: "Margate"
-  },
-
-  {
-    clue: "Station between Ramsgate and Broadstairs",
-    answer: "Dumpton Park"
-  }
-
-];
-
-// ======================================
-// STATIONS
-// ======================================
-
 const stations = [
 
-  "Ramsgate",
-  "Broadstairs",
-  "Margate",
   "Dumpton Park",
-  "Canterbury West",
+  "Appledore",
+  "Meopham",
+  "Margate",
+  "Ramsgate",
+  "Chartham",
+  "Chilham",
   "Ashford International",
-  "Whitstable",
-  "Herne Bay",
+  "West Wickham",
+  "Canterbury West",
   "Deal",
-  "Faversham"
+  "Whitstable"
 
 ];
 
-// ======================================
-// ELEMENTS
-// ======================================
-
-const grid = document.getElementById("grid");
-
 const modal = document.getElementById("modal");
-
 const searchBox = document.getElementById("searchBox");
-
 const results = document.getElementById("results");
+const completeBox = document.getElementById("completeBox");
+
+const cells = document.querySelectorAll(".cell");
 
 let activeCell = null;
 
-// ======================================
-// BUILD GRID
-// ======================================
-
-puzzle.forEach(item => {
-
-  const cell = document.createElement("div");
-
-  cell.className = "cell";
-
-  cell.dataset.answer = item.answer;
-
-  cell.innerHTML = `
-
-    <div>
-
-      <div class="clue">
-        ${item.clue}
-      </div>
-
-      <div class="select-text">
-        Select Station
-      </div>
-
-    </div>
-
-  `;
+cells.forEach(cell => {
 
   cell.onclick = () => {
 
@@ -271,13 +446,7 @@ puzzle.forEach(item => {
 
   };
 
-  grid.appendChild(cell);
-
 });
-
-// ======================================
-// OPEN MODAL
-// ======================================
 
 function openModal() {
 
@@ -290,10 +459,6 @@ function openModal() {
   searchBox.focus();
 
 }
-
-// ======================================
-// RENDER STATIONS
-// ======================================
 
 function renderStations(list) {
 
@@ -309,7 +474,18 @@ function renderStations(list) {
 
     option.onclick = () => {
 
-      checkAnswer(station);
+      activeCell.innerHTML = `
+
+        <div class="cell-content">
+          <div class="station">${station}</div>
+          <div class="label">Arriving</div>
+        </div>
+
+      `;
+
+      activeCell.dataset.selected = station;
+
+      modal.classList.add("hidden");
 
     };
 
@@ -319,89 +495,64 @@ function renderStations(list) {
 
 }
 
-// ======================================
-// SEARCH
-// ======================================
-
 searchBox.oninput = () => {
 
   const value = searchBox.value.toLowerCase();
 
   const filtered = stations.filter(station =>
-
     station.toLowerCase().includes(value)
-
   );
 
   renderStations(filtered);
 
 };
 
-// ======================================
-// CHECK ANSWER
-// ======================================
+function submitBoard() {
 
-function checkAnswer(station) {
+  let correct = 0;
 
-  if (station === activeCell.dataset.answer) {
+  cells.forEach(cell => {
 
-    activeCell.classList.add("correct");
+    if (cell.dataset.selected === cell.dataset.answer) {
 
-    const clue =
-      activeCell.querySelector(".clue").textContent;
+      cell.classList.add("correct");
 
-    activeCell.innerHTML = `
+      correct++;
 
-      <div>
+    }
 
-        <div class="clue">
-          ${clue}
-        </div>
+  });
 
-        <div class="answer-text">
-          ✓ ${station}
-        </div>
+  if (correct === cells.length) {
 
-      </div>
-
-    `;
-
-    checkCompletion();
-
-  } else {
-
-    alert("Incorrect station");
-
-  }
-
-  modal.classList.add("hidden");
-
-}
-
-// ======================================
-// CHECK COMPLETION
-// ======================================
-
-function checkCompletion() {
-
-  const solved =
-    document.querySelectorAll(".correct").length;
-
-  if (solved === puzzle.length) {
-
-    setTimeout(() => {
-
-      alert("Route Complete!");
-
-    }, 300);
+    completeBox.style.display = "block";
 
   }
 
 }
 
-// ======================================
-// CLOSE MODAL
-// ======================================
+function clearBoard() {
+
+  cells.forEach(cell => {
+
+    if (!cell.classList.contains("correct")) {
+
+      cell.innerHTML = `
+
+        <div class="cell-content">
+          <div class="station">🚆</div>
+          <div class="label">Waiting</div>
+        </div>
+
+      `;
+
+      cell.dataset.selected = "";
+
+    }
+
+  });
+
+}
 
 modal.onclick = (event) => {
 
@@ -417,3 +568,6 @@ modal.onclick = (event) => {
 
 </body>
 </html>
+```
+
+Paste this entire file into your current `play.html` and it will transform the existing version into the darker pair-selection commuter-board style shown in your screenshot.

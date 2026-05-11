@@ -5,17 +5,262 @@
 
   <meta charset="UTF-8">
 
-  <meta name="viewport"
-        content="width=device-width, initial-scale=1.0">
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0">
 
   <title>The Route</title>
 
   <link
-    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap"
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap"
     rel="stylesheet">
 
-  <link rel="stylesheet"
-        href="assets/css/style.css">
+  <style>
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+
+      margin: 0;
+
+      font-family: 'Inter', sans-serif;
+
+      background:
+        radial-gradient(
+          circle at top,
+          #0b1836 0%,
+          #030817 45%,
+          #01040d 100%
+        );
+
+      color: white;
+
+      min-height: 100vh;
+
+      display: flex;
+
+      align-items: center;
+
+      justify-content: center;
+
+      padding: 30px;
+
+    }
+
+    .container {
+
+      width: 100%;
+      max-width: 520px;
+
+      text-align: center;
+
+    }
+
+    .logo {
+
+      width: 120px;
+
+      margin-bottom: 30px;
+
+    }
+
+    h1 {
+
+      margin: 0;
+
+      font-size: 4rem;
+
+      font-weight: 700;
+
+      letter-spacing: -2px;
+
+    }
+
+    .subtitle {
+
+      margin-top: 16px;
+
+      font-size: 1.3rem;
+
+      color: #9ca3af;
+
+      line-height: 1.5;
+
+      margin-bottom: 50px;
+
+    }
+
+    .network-selector {
+
+      text-align: left;
+
+      margin-bottom: 30px;
+
+    }
+
+    .network-selector label {
+
+      display: block;
+
+      margin-bottom: 12px;
+
+      font-size: 1rem;
+
+      font-weight: 600;
+
+      color: #d1d5db;
+
+    }
+
+    select {
+
+      width: 100%;
+
+      padding: 18px;
+
+      border-radius: 18px;
+
+      border: 2px solid #1e3a8a;
+
+      background: #0f172a;
+
+      color: white;
+
+      font-size: 1.1rem;
+
+      outline: none;
+
+      transition: 0.2s;
+
+    }
+
+    select:focus {
+
+      border-color: #22c55e;
+
+    }
+
+    optgroup {
+
+      background: #111827;
+
+      color: #9ca3af;
+
+      font-weight: bold;
+
+    }
+
+    option {
+
+      color: white;
+
+      background: #0f172a;
+
+    }
+
+    .play-button {
+
+      display: block;
+
+      width: 100%;
+
+      text-decoration: none;
+
+      background: #22c55e;
+
+      color: white;
+
+      padding: 20px;
+
+      border-radius: 20px;
+
+      font-size: 1.3rem;
+
+      font-weight: 700;
+
+      transition: 0.2s;
+
+      margin-bottom: 50px;
+
+    }
+
+    .play-button:hover {
+
+      background: #16a34a;
+
+      transform: translateY(-2px);
+
+    }
+
+    .footer {
+
+      display: flex;
+
+      justify-content: center;
+
+      gap: 20px;
+
+      flex-wrap: wrap;
+
+      font-size: 0.95rem;
+
+      color: #6b7280;
+
+    }
+
+    .footer a {
+
+      color: #6b7280;
+
+      text-decoration: none;
+
+      transition: 0.2s;
+
+    }
+
+    .footer a:hover {
+
+      color: white;
+
+    }
+
+    .footer-text {
+
+      width: 100%;
+
+      margin-top: 20px;
+
+      color: #4b5563;
+
+      font-size: 0.9rem;
+
+    }
+
+    @media (max-width: 600px) {
+
+      h1 {
+
+        font-size: 3rem;
+
+      }
+
+      .subtitle {
+
+        font-size: 1.1rem;
+
+      }
+
+      .logo {
+
+        width: 100px;
+
+      }
+
+    }
+
+  </style>
 
 </head>
 
@@ -27,25 +272,20 @@
 
     <img
       src="logo.svg"
-      alt="The Route logo"
+      alt="The Route Logo"
       class="logo">
-
-    <!-- ANNOUNCEMENT -->
-
-    <div class="announcement">
-
-      🚉 Service update:
-      The Route is preparing for departure.
-      Daily commuter puzzles arriving soon.
-
-    </div>
 
     <!-- TITLE -->
 
     <h1>The Route</h1>
 
+    <!-- SUBTITLE -->
+
     <p class="subtitle">
-      Build the route. Find the pattern.
+
+      Build the route.
+      Find the pattern.
+
     </p>
 
     <!-- NETWORK SELECTOR -->
@@ -108,8 +348,9 @@
 
     <!-- PLAY BUTTON -->
 
-    <a href="play.html"
-       class="play-button">
+    <a
+      href="play.html"
+      class="play-button">
 
       Play Today's Route
 
@@ -117,11 +358,31 @@
 
     <!-- FOOTER -->
 
-    <p class="footer-text">
+    <div class="footer">
 
-      Built for UK commuters.
+      <a href="#">
+        How to Play
+      </a>
 
-    </p>
+      <a href="#">
+        About
+      </a>
+
+      <a href="#">
+        Contact
+      </a>
+
+      <a href="#">
+        Support
+      </a>
+
+      <div class="footer-text">
+
+        Built for UK commuters.
+
+      </div>
+
+    </div>
 
   </div>
 

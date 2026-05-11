@@ -3,388 +3,328 @@
 
 <head>
 
-  <meta charset="UTF-8">
+<meta charset="UTF-8">
 
-  <meta
-    name="viewport"
-    content="width=device-width, initial-scale=1.0">
+<meta
+  name="viewport"
+  content="width=device-width, initial-scale=1.0">
 
-  <title>The Route</title>
+<title>The Route</title>
 
-  <link
-    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap"
-    rel="stylesheet">
+<link
+  href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap"
+  rel="stylesheet">
 
-  <style>
+<style>
 
-    * {
-      box-sizing: border-box;
-    }
+* {
+  box-sizing: border-box;
+}
 
-    body {
+body {
 
-      margin: 0;
+  margin: 0;
 
-      font-family: 'Inter', sans-serif;
+  font-family: 'Inter', sans-serif;
 
-      background:
-        radial-gradient(
-          circle at top,
-          #0b1836 0%,
-          #030817 45%,
-          #01040d 100%
-        );
+  background:
+    radial-gradient(
+      circle at top,
+      #0b1836 0%,
+      #030817 45%,
+      #01040d 100%
+    );
 
-      color: white;
+  color: white;
 
-      min-height: 100vh;
+  min-height: 100vh;
 
-      display: flex;
+  display: flex;
 
-      align-items: center;
+  align-items: center;
 
-      justify-content: center;
+  justify-content: center;
 
-      padding: 30px;
+  padding: 30px;
 
-    }
+}
 
-    .container {
+.container {
 
-      width: 100%;
-      max-width: 520px;
+  width: 100%;
+  max-width: 520px;
 
-      text-align: center;
+  text-align: center;
 
-    }
+}
 
-    .logo {
+.logo {
 
-      width: 120px;
+  width: 120px;
 
-      margin-bottom: 30px;
+  margin-bottom: 30px;
 
-    }
+}
 
-    h1 {
+h1 {
 
-      margin: 0;
+  margin: 0;
 
-      font-size: 4rem;
+  font-size: 4rem;
 
-      font-weight: 700;
+  font-weight: 700;
 
-      letter-spacing: -2px;
+  letter-spacing: -2px;
 
-    }
+}
 
-    .subtitle {
+.subtitle {
 
-      margin-top: 16px;
+  margin-top: 16px;
 
-      font-size: 1.3rem;
+  font-size: 1.3rem;
 
-      color: #9ca3af;
+  color: #9ca3af;
 
-      line-height: 1.5;
+  line-height: 1.5;
 
-      margin-bottom: 50px;
+  margin-bottom: 50px;
 
-    }
+}
 
-    .network-selector {
+.network-selector {
 
-      text-align: left;
+  text-align: left;
 
-      margin-bottom: 30px;
+  margin-bottom: 30px;
 
-    }
+}
 
-    .network-selector label {
+.network-selector label {
 
-      display: block;
+  display: block;
 
-      margin-bottom: 12px;
+  margin-bottom: 12px;
 
-      font-size: 1rem;
+  font-size: 1rem;
 
-      font-weight: 600;
+  font-weight: 600;
 
-      color: #d1d5db;
+  color: #d1d5db;
 
-    }
+}
 
-    select {
+select {
 
-      width: 100%;
+  width: 100%;
 
-      padding: 16px;
+  padding: 16px;
 
-      border-radius: 18px;
+  border-radius: 18px;
 
-      border: 2px solid #1e3a8a;
+  border: 2px solid #1e3a8a;
 
-      background: #0f172a;
+  background: #0f172a;
 
-      color: white;
+  color: white;
 
-      font-size: 1rem;
+  font-size: 1rem;
 
-      outline: none;
+  outline: none;
 
-      transition: 0.2s;
+}
 
-    }
+.play-button {
 
-    select:focus {
+  display: block;
 
-      border-color: #22c55e;
+  width: 100%;
 
-    }
+  text-decoration: none;
 
-    optgroup {
+  background: #22c55e;
 
-      background: #111827;
+  color: white;
 
-      color: #9ca3af;
+  padding: 20px;
 
-      font-weight: bold;
+  border-radius: 20px;
 
-    }
+  font-size: 1.3rem;
 
-    option {
+  font-weight: 700;
 
-      color: white;
+  margin-top: 20px;
 
-      background: #0f172a;
+  margin-bottom: 50px;
 
-    }
+}
 
-    .play-button {
+.footer {
 
-      display: block;
+  display: flex;
 
-      width: 100%;
+  justify-content: center;
 
-      text-decoration: none;
+  gap: 20px;
 
-      background: #22c55e;
+  flex-wrap: wrap;
 
-      color: white;
+  font-size: 0.95rem;
 
-      padding: 20px;
+  color: #6b7280;
 
-      border-radius: 20px;
+}
 
-      font-size: 1.3rem;
+.footer a {
 
-      font-weight: 700;
+  color: #6b7280;
 
-      transition: 0.2s;
+  text-decoration: none;
 
-      margin-bottom: 50px;
+}
 
-    }
+.footer-text {
 
-    .play-button:hover {
+  width: 100%;
 
-      background: #16a34a;
+  margin-top: 20px;
 
-      transform: translateY(-2px);
+  color: #4b5563;
 
-    }
+  font-size: 0.9rem;
 
-    .footer {
+}
 
-      display: flex;
+@media (max-width: 600px) {
 
-      justify-content: center;
+  h1 {
+    font-size: 3rem;
+  }
 
-      gap: 20px;
+  .subtitle {
+    font-size: 1.1rem;
+  }
 
-      flex-wrap: wrap;
+  .logo {
+    width: 100px;
+  }
 
-      font-size: 0.95rem;
+}
 
-      color: #6b7280;
-
-    }
-
-    .footer a {
-
-      color: #6b7280;
-
-      text-decoration: none;
-
-      transition: 0.2s;
-
-    }
-
-    .footer a:hover {
-
-      color: white;
-
-    }
-
-    .footer-text {
-
-      width: 100%;
-
-      margin-top: 20px;
-
-      color: #4b5563;
-
-      font-size: 0.9rem;
-
-    }
-
-    @media (max-width: 600px) {
-
-      h1 {
-
-        font-size: 3rem;
-
-      }
-
-      .subtitle {
-
-        font-size: 1.1rem;
-
-      }
-
-      .logo {
-
-        width: 100px;
-
-      }
-
-    }
-
-  </style>
+</style>
 
 </head>
 
 <body>
 
-  <div class="container">
+<div class="container">
 
-    <!-- LOGO -->
+  <img
+    src="logo.svg"
+    alt="The Route Logo"
+    class="logo">
 
-    <img
-      src="logo.svg"
-      alt="The Route Logo"
-      class="logo">
+  <h1>The Route</h1>
 
-    <!-- TITLE -->
+  <p class="subtitle">
 
-    <h1>The Route</h1>
+    Build the route.
+    Find the pattern.
 
-    <!-- SUBTITLE -->
+  </p>
 
-    <p class="subtitle">
+  <div class="network-selector">
 
-      Build the route.
-      Find the pattern.
+    <label for="network">
 
-    </p>
+      Choose your commuter network
 
-    <!-- NETWORK SELECTOR -->
+    </label>
 
-    <div class="network-selector">
+    <select id="network">
 
-      <label for="network">
+      <optgroup label="Govia Thameslink Railway (GTR)">
 
-        Choose your commuter network
+        <option>Thameslink</option>
 
-      </label>
+        <option>Southern</option>
 
-      <select id="network">
+        <option>Great Northern</option>
 
-        <optgroup label="Govia Thameslink Railway (GTR)">
+        <option>Gatwick Express</option>
 
-          <option>Thameslink</option>
+      </optgroup>
 
-          <option>Southern</option>
+      <optgroup label="Southeastern">
 
-          <option>Great Northern</option>
+        <option>Southeastern Metro</option>
 
-          <option>Gatwick Express</option>
+        <option>Southeastern Mainline</option>
 
-        </optgroup>
+      </optgroup>
 
-        <optgroup label="Southeastern">
+      <optgroup label="Greater Anglia">
 
-          <option>Southeastern Metro</option>
+        <option>Greater Anglia</option>
 
-          <option>Southeastern Mainline</option>
+        <option>c2c</option>
 
-        </optgroup>
+      </optgroup>
 
-        <optgroup label="Greater Anglia">
+      <optgroup label="Other Networks">
 
-          <option>Greater Anglia</option>
+        <option>South Western Railway</option>
 
-          <option>c2c</option>
+        <option>Chiltern Railways</option>
 
-        </optgroup>
+        <option>Great Western Railway</option>
 
-        <optgroup label="Other Networks">
+        <option>East Midlands Railway</option>
 
-          <option>South Western Railway</option>
+        <option>LNER</option>
 
-          <option>Chiltern Railways</option>
+      </optgroup>
 
-          <option>Great Western Railway</option>
+    </select>
 
-          <option>East Midlands Railway</option>
+  </div>
 
-          <option>LNER</option>
+  <a
+    href="play.html"
+    class="play-button">
 
-        </optgroup>
+    Play today's Route
 
-      </select>
+  </a>
 
-    </div>
+  <div class="footer">
 
-    <!-- PLAY BUTTON -->
-
-    <a
-      href="play.html"
-      class="play-button">
-
-      Play today's Route
-
+    <a href="#">
+      How to Play
     </a>
 
-    <!-- FOOTER -->
+    <a href="#">
+      About
+    </a>
 
-    <div class="footer">
+    <a href="#">
+      Contact
+    </a>
 
-      <a href="#">
-        How to Play
-      </a>
+    <a href="#">
+      Support
+    </a>
 
-      <a href="#">
-        About
-      </a>
+    <div class="footer-text">
 
-      <a href="#">
-        Contact
-      </a>
-
-      <a href="#">
-        Support
-      </a>
-
-      <div class="footer-text">
-
-        Built for UK commuters.
-
-      </div>
+      Built for UK commuters.
 
     </div>
 
   </div>
+
+</div>
 
 </body>
 

@@ -46,7 +46,7 @@ body {
 
   margin: auto;
 
-  padding: 20px 16px 120px;
+  padding: 14px 12px 120px;
 
 }
 
@@ -54,17 +54,33 @@ body {
 
 .header {
 
-  text-align: center;
+  display: flex;
 
-  margin-bottom: 24px;
+  align-items: center;
+
+  justify-content: center;
+
+  gap: 16px;
+
+  margin-bottom: 18px;
 
 }
 
 .logo {
 
-  width: 80px;
+  width: 72px;
 
-  margin-bottom: 14px;
+  flex-shrink: 0;
+
+}
+
+.header-text {
+
+  display: flex;
+
+  flex-direction: column;
+
+  justify-content: center;
 
 }
 
@@ -72,7 +88,9 @@ h1 {
 
   margin: 0;
 
-  font-size: 2.4rem;
+  font-size: 2.2rem;
+
+  line-height: 1;
 
   letter-spacing: -1px;
 
@@ -80,15 +98,15 @@ h1 {
 
 .subtitle {
 
-  margin-top: 10px;
+  margin-top: 6px;
 
   color: #9ca3af;
 
-  font-size: 1rem;
+  font-size: 0.95rem;
 
 }
 
-/* SERVICE PANEL */
+/* PANELS */
 
 .service-panel {
 
@@ -96,17 +114,17 @@ h1 {
 
   border: 2px solid #1e3a8a;
 
-  border-radius: 18px;
+  border-radius: 16px;
 
-  padding: 16px;
+  padding: 14px;
 
-  margin-bottom: 18px;
+  margin-bottom: 14px;
 
 }
 
 .service-title {
 
-  font-size: 0.9rem;
+  font-size: 0.85rem;
 
   color: #22c55e;
 
@@ -116,7 +134,7 @@ h1 {
 
   letter-spacing: 1px;
 
-  margin-bottom: 10px;
+  margin-bottom: 8px;
 
 }
 
@@ -126,7 +144,7 @@ h1 {
 
   line-height: 1.5;
 
-  font-size: 0.95rem;
+  font-size: 0.88rem;
 
 }
 
@@ -138,9 +156,9 @@ h1 {
 
   grid-template-columns: repeat(4, 1fr);
 
-  gap: 10px;
+  gap: 8px;
 
-  margin-bottom: 16px;
+  margin-bottom: 14px;
 
 }
 
@@ -148,41 +166,41 @@ h1 {
 
   background: #111827;
 
-  border-radius: 16px;
+  border-radius: 14px;
 
-  padding: 12px;
+  padding: 10px 8px;
 
   text-align: center;
 
-  min-height: 100px;
+  min-height: 78px;
 
 }
 
 .column-letter {
 
-  font-size: 1.4rem;
+  font-size: 1rem;
 
   font-weight: 700;
 
-  margin-bottom: 8px;
+  margin-bottom: 6px;
 
 }
 
 .column-clue {
 
-  font-size: 0.8rem;
+  font-size: 0.68rem;
 
-  line-height: 1.4;
+  line-height: 1.3;
 
   color: #9ca3af;
 
 }
 
-/* ROWS */
+/* PLATFORM ROWS */
 
 .platform-row {
 
-  margin-bottom: 18px;
+  margin-bottom: 14px;
 
 }
 
@@ -190,13 +208,13 @@ h1 {
 
   background: #111827;
 
-  border-left: 5px solid #22c55e;
+  border-left: 4px solid #22c55e;
 
-  border-radius: 18px;
+  border-radius: 14px;
 
-  padding: 14px;
+  padding: 12px;
 
-  margin-bottom: 10px;
+  margin-bottom: 8px;
 
 }
 
@@ -208,17 +226,17 @@ h1 {
 
 .platform-title {
 
-  font-size: 1rem;
+  font-size: 0.95rem;
 
   font-weight: 700;
 
-  margin-bottom: 6px;
+  margin-bottom: 4px;
 
 }
 
 .platform-condition {
 
-  font-size: 0.9rem;
+  font-size: 0.82rem;
 
   color: #9ca3af;
 
@@ -232,7 +250,7 @@ h1 {
 
   grid-template-columns: repeat(4, 1fr);
 
-  gap: 10px;
+  gap: 8px;
 
 }
 
@@ -242,11 +260,11 @@ h1 {
 
   border: 2px solid #1e3a8a;
 
-  border-radius: 18px;
+  border-radius: 14px;
 
-  min-height: 95px;
+  min-height: 76px;
 
-  padding: 10px;
+  padding: 6px;
 
   display: flex;
 
@@ -290,23 +308,25 @@ h1 {
 
   flex-direction: column;
 
-  gap: 6px;
+  align-items: center;
 
 }
 
 .station {
 
-  font-size: 0.9rem;
+  font-size: 0.72rem;
 
   font-weight: 700;
 
-  line-height: 1.3;
+  line-height: 1.2;
 
 }
 
 .label {
 
-  font-size: 0.72rem;
+  margin-top: 4px;
+
+  font-size: 0.62rem;
 
   text-transform: uppercase;
 
@@ -316,7 +336,25 @@ h1 {
 
 }
 
-/* FOOTER BAR */
+/* COMPLETE */
+
+.complete {
+
+  margin-top: 20px;
+
+  background: #052e16;
+
+  border: 2px solid #22c55e;
+
+  border-radius: 14px;
+
+  padding: 16px;
+
+  display: none;
+
+}
+
+/* FOOTER */
 
 .footer-bar {
 
@@ -328,11 +366,9 @@ h1 {
 
   background: rgba(3,8,23,0.96);
 
-  backdrop-filter: blur(10px);
-
   border-top: 1px solid #1e293b;
 
-  padding: 14px;
+  padding: 12px;
 
 }
 
@@ -345,9 +381,7 @@ h1 {
 
   display: flex;
 
-  gap: 12px;
-
-  align-items: center;
+  gap: 10px;
 
 }
 
@@ -355,11 +389,11 @@ h1 {
 
   background: #111827;
 
-  border-radius: 14px;
+  border-radius: 12px;
 
-  padding: 14px 16px;
+  padding: 14px;
 
-  font-size: 0.9rem;
+  font-size: 0.82rem;
 
   white-space: nowrap;
 
@@ -375,39 +409,15 @@ h1 {
 
   color: white;
 
-  border-radius: 16px;
+  border-radius: 14px;
 
-  padding: 16px;
+  padding: 14px;
 
-  font-size: 1rem;
+  font-size: 0.95rem;
 
   font-weight: 700;
 
   cursor: pointer;
-
-}
-
-/* COMPLETE */
-
-.complete {
-
-  margin-top: 24px;
-
-  background: #052e16;
-
-  border: 2px solid #22c55e;
-
-  border-radius: 18px;
-
-  padding: 20px;
-
-  display: none;
-
-}
-
-.complete h2 {
-
-  margin-top: 0;
 
 }
 
@@ -444,9 +454,9 @@ h1 {
 
   background: #111827;
 
-  border-radius: 22px;
+  border-radius: 18px;
 
-  padding: 20px;
+  padding: 18px;
 
 }
 
@@ -454,9 +464,9 @@ h1 {
 
   width: 100%;
 
-  padding: 16px;
+  padding: 14px;
 
-  border-radius: 14px;
+  border-radius: 12px;
 
   border: none;
 
@@ -466,19 +476,17 @@ h1 {
 
   font-size: 1rem;
 
-  margin-bottom: 16px;
+  margin-bottom: 14px;
 
 }
 
 .station-option {
 
-  padding: 14px;
+  padding: 12px;
 
-  border-radius: 12px;
+  border-radius: 10px;
 
   cursor: pointer;
-
-  transition: 0.2s;
 
 }
 
@@ -492,49 +500,27 @@ h1 {
 
 @media (max-width: 700px) {
 
-  .column-grid {
+  h1 {
 
-    gap: 8px;
-
-  }
-
-  .column-header {
-
-    padding: 10px;
-
-    min-height: 90px;
+    font-size: 1.9rem;
 
   }
 
-  .column-letter {
+  .logo {
 
-    font-size: 1.1rem;
+    width: 60px;
+
+  }
+
+  .subtitle {
+
+    font-size: 0.82rem;
 
   }
 
   .column-clue {
 
-    font-size: 0.7rem;
-
-  }
-
-  .row-cells {
-
-    gap: 8px;
-
-  }
-
-  .cell {
-
-    min-height: 82px;
-
-    padding: 8px;
-
-  }
-
-  .station {
-
-    font-size: 0.78rem;
+    font-size: 0.64rem;
 
   }
 
@@ -577,17 +563,21 @@ h1 {
       alt="The Route Logo"
       class="logo">
 
-    <h1>The Route</h1>
+    <div class="header-text">
 
-    <div class="subtitle">
+      <h1>The Route</h1>
 
-      Southeastern Alpha 001
+      <div class="subtitle">
+
+        Southeastern Alpha 001
+
+      </div>
 
     </div>
 
   </div>
 
-  <!-- SERVICE PANEL -->
+  <!-- SERVICE UPDATE -->
 
   <div class="service-panel">
 
@@ -634,7 +624,9 @@ h1 {
       <div class="column-letter">A</div>
 
       <div class="column-clue">
+
         🚪 Ramsgate Harbour
+
       </div>
 
     </div>
@@ -644,7 +636,9 @@ h1 {
       <div class="column-letter">B</div>
 
       <div class="column-clue">
-        London Time Band 70–100 mins
+
+        70–100 mins
+
       </div>
 
     </div>
@@ -654,7 +648,9 @@ h1 {
       <div class="column-letter">C</div>
 
       <div class="column-clue">
-        Station contains 'ham'
+
+        Contains 'ham'
+
       </div>
 
     </div>
@@ -663,4 +659,431 @@ h1 {
 
       <div class="column-letter">D</div>
 
-      <div class="
+      <div class="column-clue">
+
+        Interchange
+
+      </div>
+
+    </div>
+
+  </div>
+
+  <!-- PLATFORM 1 -->
+
+  <div class="platform-row">
+
+    <div class="platform">
+
+      <div class="platform-title">
+
+        Platform 1
+
+      </div>
+
+      <div class="platform-condition">
+
+        Not a terminus
+
+      </div>
+
+    </div>
+
+    <div class="row-cells">
+
+      <div class="cell" data-row="1" data-column="A"></div>
+
+      <div class="cell" data-row="1" data-column="B"></div>
+
+      <div class="cell" data-row="1" data-column="C"></div>
+
+      <div class="cell" data-row="1" data-column="D"></div>
+
+    </div>
+
+  </div>
+
+  <!-- PLATFORM 2 -->
+
+  <div class="platform-row">
+
+    <div class="platform blue">
+
+      <div class="platform-title">
+
+        Platform 2
+
+      </div>
+
+      <div class="platform-condition">
+
+        Direct Charing Cross
+
+      </div>
+
+    </div>
+
+    <div class="row-cells">
+
+      <div class="cell" data-row="2" data-column="A"></div>
+
+      <div class="cell" data-row="2" data-column="B"></div>
+
+      <div class="cell" data-row="2" data-column="C"></div>
+
+      <div class="cell" data-row="2" data-column="D"></div>
+
+    </div>
+
+  </div>
+
+  <!-- COMPLETE -->
+
+  <div class="complete" id="completeBox">
+
+    <h2>Route Complete!</h2>
+
+    <p>
+
+      Station contains 'ham'
+      AND is an interchange:
+
+    </p>
+
+    <strong>
+
+      West Wickham
+
+    </strong>
+
+  </div>
+
+</div>
+
+<!-- FOOTER -->
+
+<div class="footer-bar">
+
+  <div class="footer-inner">
+
+    <div class="tickets">
+
+      🎫 Tickets Remaining: 3
+
+    </div>
+
+    <button
+      class="submit-button"
+      onclick="submitBoard()">
+
+      Submit Route
+
+    </button>
+
+  </div>
+
+</div>
+
+<!-- MODAL -->
+
+<div class="modal hidden" id="modal">
+
+  <div class="modal-box">
+
+    <input
+      type="text"
+      id="searchBox"
+      placeholder="Search station...">
+
+    <div id="results"></div>
+
+  </div>
+
+</div>
+
+<script>
+
+const stations = [
+
+  {
+    name: "Dumpton Park",
+    terminus: false,
+    directCharingCross: false,
+    nearHarbour: true,
+    londonBand: "70-100",
+    containsHam: false,
+    interchange: false
+  },
+
+  {
+    name: "Ramsgate",
+    terminus: true,
+    directCharingCross: true,
+    nearHarbour: true,
+    londonBand: "70-100",
+    containsHam: false,
+    interchange: false
+  },
+
+  {
+    name: "Meopham",
+    terminus: false,
+    directCharingCross: true,
+    nearHarbour: false,
+    londonBand: "70-100",
+    containsHam: true,
+    interchange: false
+  },
+
+  {
+    name: "Chartham",
+    terminus: false,
+    directCharingCross: true,
+    nearHarbour: false,
+    londonBand: "70-100",
+    containsHam: true,
+    interchange: false
+  },
+
+  {
+    name: "Ashford International",
+    terminus: false,
+    directCharingCross: true,
+    nearHarbour: false,
+    londonBand: "70-100",
+    containsHam: false,
+    interchange: true
+  }
+
+];
+
+const rowRules = {
+
+  1: station => !station.terminus,
+
+  2: station => station.directCharingCross
+
+};
+
+const columnRules = {
+
+  A: station => station.nearHarbour,
+
+  B: station => station.londonBand === "70-100",
+
+  C: station => station.containsHam,
+
+  D: station => station.interchange
+
+};
+
+const modal =
+  document.getElementById("modal");
+
+const searchBox =
+  document.getElementById("searchBox");
+
+const results =
+  document.getElementById("results");
+
+const completeBox =
+  document.getElementById("completeBox");
+
+const cells =
+  document.querySelectorAll(".cell");
+
+let activeCell = null;
+
+cells.forEach(cell => {
+
+  resetCell(cell);
+
+  cell.onclick = () => {
+
+    activeCell = cell;
+
+    openModal();
+
+  };
+
+});
+
+function resetCell(cell) {
+
+  cell.innerHTML = `
+
+    <div class="cell-content">
+
+      <div class="station">
+        🚆
+      </div>
+
+      <div class="label">
+        Waiting
+      </div>
+
+    </div>
+
+  `;
+
+}
+
+function openModal() {
+
+  modal.classList.remove("hidden");
+
+  searchBox.value = "";
+
+  renderStations(stations);
+
+  searchBox.focus();
+
+}
+
+function renderStations(list) {
+
+  results.innerHTML = "";
+
+  list.forEach(station => {
+
+    const option =
+      document.createElement("div");
+
+    option.className = "station-option";
+
+    option.textContent = station.name;
+
+    option.onclick = () => {
+
+      activeCell.dataset.selected =
+        station.name;
+
+      activeCell.innerHTML = `
+
+        <div class="cell-content">
+
+          <div class="station">
+            ${station.name}
+          </div>
+
+          <div class="label">
+            Arriving
+          </div>
+
+        </div>
+
+      `;
+
+      activeCell.classList.remove("incorrect");
+
+      modal.classList.add("hidden");
+
+    };
+
+    results.appendChild(option);
+
+  });
+
+}
+
+searchBox.oninput = () => {
+
+  const value =
+    searchBox.value.toLowerCase();
+
+  const filtered =
+    stations.filter(station =>
+
+      station.name
+        .toLowerCase()
+        .includes(value)
+
+    );
+
+  renderStations(filtered);
+
+};
+
+function validateCell(cell) {
+
+  const stationName =
+    cell.dataset.selected;
+
+  if (!stationName) {
+    return false;
+  }
+
+  const station =
+    stations.find(
+      s => s.name === stationName
+    );
+
+  const row =
+    cell.dataset.row;
+
+  const column =
+    cell.dataset.column;
+
+  const rowValid =
+    rowRules[row](station);
+
+  const columnValid =
+    columnRules[column](station);
+
+  return rowValid && columnValid;
+
+}
+
+function submitBoard() {
+
+  let correct = 0;
+
+  cells.forEach(cell => {
+
+    if (validateCell(cell)) {
+
+      cell.classList.add("correct");
+
+      cell.classList.remove("incorrect");
+
+      cell.querySelector(".label").textContent =
+        "Correct";
+
+      correct++;
+
+    } else {
+
+      cell.classList.remove("correct");
+
+      cell.classList.add("incorrect");
+
+      cell.querySelector(".label").textContent =
+        "Invalid";
+
+    }
+
+  });
+
+  if (correct === cells.length) {
+
+    completeBox.style.display = "block";
+
+  }
+
+}
+
+modal.onclick = (event) => {
+
+  if (event.target === modal) {
+
+    modal.classList.add("hidden");
+
+  }
+
+};
+
+</script>
+
+</body>
+
+</html>

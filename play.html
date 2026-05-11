@@ -4,115 +4,275 @@
 <head>
 
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<meta
+  name="viewport"
+  content="width=device-width, initial-scale=1.0">
 
 <title>The Route</title>
 
+<link
+  href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap"
+  rel="stylesheet">
+
 <style>
 
+* {
+  box-sizing: border-box;
+}
+
 body {
+
   margin: 0;
-  font-family: Arial, sans-serif;
-  background: #020b24;
+
+  font-family: 'Inter', sans-serif;
+
+  background:
+    radial-gradient(
+      circle at top,
+      #0b1836 0%,
+      #030817 45%,
+      #01040d 100%
+    );
+
   color: white;
+
 }
 
 .container {
-  max-width: 1200px;
+
+  width: 100%;
+  max-width: 900px;
+
   margin: auto;
-  padding: 20px;
+
+  padding: 20px 16px 120px;
+
+}
+
+/* HEADER */
+
+.header {
+
+  text-align: center;
+
+  margin-bottom: 24px;
+
+}
+
+.logo {
+
+  width: 80px;
+
+  margin-bottom: 14px;
+
 }
 
 h1 {
-  font-size: 4rem;
-  margin-bottom: 10px;
+
+  margin: 0;
+
+  font-size: 2.4rem;
+
+  letter-spacing: -1px;
+
 }
 
 .subtitle {
-  font-size: 2rem;
+
+  margin-top: 10px;
+
   color: #9ca3af;
-  margin-bottom: 30px;
+
+  font-size: 1rem;
+
 }
 
-.board {
+/* SERVICE PANEL */
+
+.service-panel {
+
+  background: #111827;
+
+  border: 2px solid #1e3a8a;
+
+  border-radius: 18px;
+
+  padding: 16px;
+
+  margin-bottom: 24px;
+
+}
+
+.service-title {
+
+  font-size: 0.9rem;
+
+  color: #22c55e;
+
+  font-weight: 700;
+
+  text-transform: uppercase;
+
+  letter-spacing: 1px;
+
+  margin-bottom: 10px;
+
+}
+
+.service-message {
+
+  color: #d1d5db;
+
+  line-height: 1.5;
+
+  font-size: 0.95rem;
+
+}
+
+/* COLUMN CLUES */
+
+.column-grid {
+
   display: grid;
-  grid-template-columns: 220px repeat(4, 1fr);
-  gap: 14px;
-  align-items: start;
+
+  grid-template-columns: repeat(4, 1fr);
+
+  gap: 10px;
+
+  margin-bottom: 16px;
+
 }
 
 .column-header {
+
+  background: #111827;
+
+  border-radius: 16px;
+
+  padding: 12px;
+
   text-align: center;
-  padding: 10px;
+
+  min-height: 100px;
+
 }
 
 .column-letter {
-  font-size: 2rem;
-  font-weight: bold;
-  margin-bottom: 10px;
+
+  font-size: 1.4rem;
+
+  font-weight: 700;
+
+  margin-bottom: 8px;
+
 }
 
 .column-clue {
-  font-size: 0.95rem;
-  color: #9ca3af;
+
+  font-size: 0.8rem;
+
   line-height: 1.4;
+
+  color: #9ca3af;
+
+}
+
+/* ROWS */
+
+.platform-row {
+
+  margin-bottom: 18px;
+
 }
 
 .platform {
-  background: #111827;
-  border-left: 6px solid #4ade80;
-  border-radius: 20px;
-  padding: 20px;
-  min-height: 140px;
 
-  display: flex;
-  align-items: center;
+  background: #111827;
+
+  border-left: 5px solid #22c55e;
+
+  border-radius: 18px;
+
+  padding: 14px;
+
+  margin-bottom: 10px;
+
 }
 
 .platform.blue {
+
   border-left-color: #60a5fa;
+
 }
 
 .platform-title {
-  font-size: 1.8rem;
-  font-weight: bold;
-  margin-bottom: 10px;
+
+  font-size: 1rem;
+
+  font-weight: 700;
+
+  margin-bottom: 6px;
+
 }
 
 .platform-condition {
-  font-size: 1rem;
+
+  font-size: 0.9rem;
+
   color: #9ca3af;
-  line-height: 1.4;
+
+}
+
+/* CELLS */
+
+.row-cells {
+
+  display: grid;
+
+  grid-template-columns: repeat(4, 1fr);
+
+  gap: 10px;
+
 }
 
 .cell {
+
   background: #0f172a;
-  border: 3px solid #1e3a8a;
-  border-radius: 22px;
-  min-height: 140px;
+
+  border: 2px solid #1e3a8a;
+
+  border-radius: 18px;
+
+  min-height: 95px;
+
+  padding: 10px;
 
   display: flex;
+
   align-items: center;
+
   justify-content: center;
 
   text-align: center;
 
-  padding: 10px;
-
   cursor: pointer;
 
   transition: 0.2s;
+
 }
 
 .cell:hover {
-  border-color: #4ade80;
+
+  border-color: #22c55e;
+
 }
 
 .cell.correct {
 
   background: #052e16;
 
-  border-color: #4ade80;
+  border-color: #22c55e;
 
 }
 
@@ -122,132 +282,280 @@ h1 {
 
   border-color: #ef4444;
 
-  animation: shake 0.3s;
-
-}
-
-@keyframes shake {
-
-  0% {
-    transform: translateX(0);
-  }
-
-  25% {
-    transform: translateX(-5px);
-  }
-
-  50% {
-    transform: translateX(5px);
-  }
-
-  75% {
-    transform: translateX(-5px);
-  }
-
-  100% {
-    transform: translateX(0);
-  }
-
 }
 
 .cell-content {
+
   display: flex;
+
   flex-direction: column;
-  gap: 10px;
+
+  gap: 6px;
+
 }
 
 .station {
-  font-size: 1.6rem;
-  font-weight: bold;
+
+  font-size: 0.9rem;
+
+  font-weight: 700;
+
+  line-height: 1.3;
+
 }
 
 .label {
-  font-size: 1rem;
-  color: #9ca3af;
+
+  font-size: 0.7rem;
+
   text-transform: uppercase;
-  letter-spacing: 2px;
+
+  letter-spacing: 1px;
+
+  color: #9ca3af;
+
 }
 
-.buttons {
-  margin-top: 30px;
-}
+/* FOOTER BAR */
 
-button {
-  border: none;
-  border-radius: 18px;
-  padding: 18px 28px;
-  font-size: 1.3rem;
-  font-weight: bold;
-  cursor: pointer;
-  background: #22c55e;
-  color: white;
-}
+.footer-bar {
 
-.modal {
   position: fixed;
-  inset: 0;
-  background: rgba(0,0,0,0.7);
+
+  left: 0;
+  right: 0;
+  bottom: 0;
+
+  background: rgba(3,8,23,0.96);
+
+  backdrop-filter: blur(10px);
+
+  border-top: 1px solid #1e293b;
+
+  padding: 14px;
+
+}
+
+.footer-inner {
+
+  width: 100%;
+  max-width: 900px;
+
+  margin: auto;
 
   display: flex;
+
+  gap: 12px;
+
   align-items: center;
+
+}
+
+.tickets {
+
+  background: #111827;
+
+  border-radius: 14px;
+
+  padding: 14px 16px;
+
+  font-size: 0.9rem;
+
+  white-space: nowrap;
+
+}
+
+.submit-button {
+
+  flex: 1;
+
+  border: none;
+
+  background: #22c55e;
+
+  color: white;
+
+  border-radius: 16px;
+
+  padding: 16px;
+
+  font-size: 1rem;
+
+  font-weight: 700;
+
+  cursor: pointer;
+
+}
+
+/* COMPLETE */
+
+.complete {
+
+  margin-top: 24px;
+
+  background: #052e16;
+
+  border: 2px solid #22c55e;
+
+  border-radius: 18px;
+
+  padding: 20px;
+
+  display: none;
+
+}
+
+.complete h2 {
+
+  margin-top: 0;
+
+}
+
+/* MODAL */
+
+.modal {
+
+  position: fixed;
+
+  inset: 0;
+
+  background: rgba(0,0,0,0.75);
+
+  display: flex;
+
+  align-items: center;
+
   justify-content: center;
 
   padding: 20px;
+
 }
 
 .hidden {
+
   display: none;
+
 }
 
 .modal-box {
-  background: #111827;
+
   width: 100%;
   max-width: 500px;
 
-  border-radius: 24px;
+  background: #111827;
+
+  border-radius: 22px;
 
   padding: 20px;
+
 }
 
 #searchBox {
+
   width: 100%;
-  box-sizing: border-box;
 
   padding: 16px;
+
   border-radius: 14px;
+
   border: none;
 
-  font-size: 1.1rem;
+  background: #0f172a;
 
-  margin-bottom: 20px;
+  color: white;
+
+  font-size: 1rem;
+
+  margin-bottom: 16px;
+
 }
 
 .station-option {
-  padding: 16px;
-  border-radius: 14px;
+
+  padding: 14px;
+
+  border-radius: 12px;
+
   cursor: pointer;
-  font-size: 1.2rem;
+
+  transition: 0.2s;
+
 }
 
 .station-option:hover {
+
   background: #1e293b;
+
 }
 
-.complete {
-  margin-top: 30px;
-  background: #052e16;
-  border: 2px solid #4ade80;
-  border-radius: 20px;
-  padding: 20px;
-  text-align: center;
+/* MOBILE */
 
-  display: none;
-}
+@media (max-width: 700px) {
 
-@media (max-width: 900px) {
+  .column-grid {
 
-  .board {
-    grid-template-columns: 1fr;
+    gap: 8px;
+
+  }
+
+  .column-header {
+
+    padding: 10px;
+
+    min-height: 90px;
+
+  }
+
+  .column-letter {
+
+    font-size: 1.1rem;
+
+  }
+
+  .column-clue {
+
+    font-size: 0.7rem;
+
+  }
+
+  .row-cells {
+
+    gap: 8px;
+
+  }
+
+  .cell {
+
+    min-height: 82px;
+
+    padding: 8px;
+
+  }
+
+  .station {
+
+    font-size: 0.78rem;
+
+  }
+
+  .footer-inner {
+
+    flex-direction: column;
+
+  }
+
+  .tickets {
+
+    width: 100%;
+
+    text-align: center;
+
+  }
+
+  .submit-button {
+
+    width: 100%;
+
   }
 
 }
@@ -260,52 +568,99 @@ button {
 
 <div class="container">
 
-<h1>The Route</h1>
+  <!-- HEADER -->
 
-<div class="subtitle">
-  Southeastern Alpha 001
-</div>
+  <div class="header">
 
-<div class="board">
+    <img
+      src="logo.svg"
+      alt="The Route Logo"
+      class="logo">
 
-  <div></div>
+    <h1>The Route</h1>
 
-  <div class="column-header">
-    <div class="column-letter">A</div>
-    <div class="column-clue">
-      Next Door to Ramsgate Harbour
+    <div class="subtitle">
+
+      Southeastern Alpha 001
+
     </div>
+
   </div>
 
-  <div class="column-header">
-    <div class="column-letter">B</div>
-    <div class="column-clue">
-      London Time Band 70–100 mins
+  <!-- SERVICE PANEL -->
+
+  <div class="service-panel">
+
+    <div class="service-title">
+
+      Service Update
+
     </div>
+
+    <div class="service-message">
+
+      Engineering works continue between
+      commuter intuition and actual rail logic.
+      Please expect minor delays.
+
+    </div>
+
   </div>
 
-  <div class="column-header">
-    <div class="column-letter">C</div>
-    <div class="column-clue">
-      Station contains 'ham'
-    </div>
-  </div>
+  <!-- COLUMN CLUES -->
 
-  <div class="column-header">
-    <div class="column-letter">D</div>
-    <div class="column-clue">
-      Is an interchange
+  <div class="column-grid">
+
+    <div class="column-header">
+
+      <div class="column-letter">A</div>
+
+      <div class="column-clue">
+        Next Door to Ramsgate Harbour
+      </div>
+
     </div>
+
+    <div class="column-header">
+
+      <div class="column-letter">B</div>
+
+      <div class="column-clue">
+        London Time Band 70–100 mins
+      </div>
+
+    </div>
+
+    <div class="column-header">
+
+      <div class="column-letter">C</div>
+
+      <div class="column-clue">
+        Station contains 'ham'
+      </div>
+
+    </div>
+
+    <div class="column-header">
+
+      <div class="column-letter">D</div>
+
+      <div class="column-clue">
+        Is an interchange
+      </div>
+
+    </div>
+
   </div>
 
   <!-- PLATFORM 1 -->
 
-  <div class="platform">
+  <div class="platform-row">
 
-    <div>
+    <div class="platform">
 
       <div class="platform-title">
-        PLATFORM 1
+        Platform 1
       </div>
 
       <div class="platform-condition">
@@ -314,21 +669,28 @@ button {
 
     </div>
 
-  </div>
+    <div class="row-cells">
 
-  <div class="cell" data-row="1" data-column="A"></div>
-  <div class="cell" data-row="1" data-column="B"></div>
-  <div class="cell" data-row="1" data-column="C"></div>
-  <div class="cell" data-row="1" data-column="D"></div>
+      <div class="cell" data-row="1" data-column="A"></div>
+
+      <div class="cell" data-row="1" data-column="B"></div>
+
+      <div class="cell" data-row="1" data-column="C"></div>
+
+      <div class="cell" data-row="1" data-column="D"></div>
+
+    </div>
+
+  </div>
 
   <!-- PLATFORM 2 -->
 
-  <div class="platform blue">
+  <div class="platform-row">
 
-    <div>
+    <div class="platform blue">
 
       <div class="platform-title">
-        PLATFORM 2
+        Platform 2
       </div>
 
       <div class="platform-condition">
@@ -337,37 +699,64 @@ button {
 
     </div>
 
+    <div class="row-cells">
+
+      <div class="cell" data-row="2" data-column="A"></div>
+
+      <div class="cell" data-row="2" data-column="B"></div>
+
+      <div class="cell" data-row="2" data-column="C"></div>
+
+      <div class="cell" data-row="2" data-column="D"></div>
+
+    </div>
+
   </div>
 
-  <div class="cell" data-row="2" data-column="A"></div>
-  <div class="cell" data-row="2" data-column="B"></div>
-  <div class="cell" data-row="2" data-column="C"></div>
-  <div class="cell" data-row="2" data-column="D"></div>
+  <!-- COMPLETE -->
+
+  <div class="complete" id="completeBox">
+
+    <h2>Route Complete!</h2>
+
+    <p>
+
+      Station contains 'ham'
+      AND is an interchange:
+
+    </p>
+
+    <strong>
+
+      West Wickham
+
+    </strong>
+
+  </div>
 
 </div>
 
-<div class="buttons">
+<!-- FOOTER -->
 
-  <button onclick="submitBoard()">
-    Submit Board
-  </button>
+<div class="footer-bar">
 
-</div>
+  <div class="footer-inner">
 
-<div class="complete" id="completeBox">
+    <div class="tickets">
 
-  <h2>Route Complete!</h2>
+      🎫 Tickets Remaining: 3
 
-  <p>
-    Special Service Announcement:
-  </p>
+    </div>
 
-  <strong>
-    Station contains 'ham' AND is an interchange
-    = West Wickham
-  </strong>
+    <button
+      class="submit-button"
+      onclick="submitBoard()">
 
-</div>
+      Submit Route
+
+    </button>
+
+  </div>
 
 </div>
 
@@ -380,8 +769,7 @@ button {
     <input
       type="text"
       id="searchBox"
-      placeholder="Search station..."
-    >
+      placeholder="Search station...">
 
     <div id="results"></div>
 
@@ -465,11 +853,14 @@ const columnRules = {
 
 };
 
-const modal = document.getElementById("modal");
+const modal =
+  document.getElementById("modal");
 
-const searchBox = document.getElementById("searchBox");
+const searchBox =
+  document.getElementById("searchBox");
 
-const results = document.getElementById("results");
+const results =
+  document.getElementById("results");
 
 const completeBox =
   document.getElementById("completeBox");
@@ -670,4 +1061,5 @@ modal.onclick = (event) => {
 </script>
 
 </body>
+
 </html>

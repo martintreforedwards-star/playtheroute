@@ -201,3 +201,191 @@
       justify-content: center;
 
       gap: 20px;
+
+      flex-wrap: wrap;
+
+      font-size: 0.95rem;
+
+      color: #6b7280;
+
+    }
+
+    .footer a {
+
+      color: #6b7280;
+
+      text-decoration: none;
+
+      transition: 0.2s;
+
+    }
+
+    .footer a:hover {
+
+      color: white;
+
+    }
+
+    .footer-text {
+
+      width: 100%;
+
+      margin-top: 20px;
+
+      color: #4b5563;
+
+      font-size: 0.9rem;
+
+    }
+
+    @media (max-width: 600px) {
+
+      h1 {
+
+        font-size: 3rem;
+
+      }
+
+      .subtitle {
+
+        font-size: 1.1rem;
+
+      }
+
+      .logo {
+
+        width: 100px;
+
+      }
+
+    }
+
+  </style>
+
+</head>
+
+<body>
+
+  <div class="container">
+
+    <!-- LOGO -->
+
+    <img
+      src="logo.svg"
+      alt="The Route Logo"
+      class="logo">
+
+    <!-- TITLE -->
+
+    <h1>The Route</h1>
+
+    <!-- SUBTITLE -->
+
+    <p class="subtitle">
+
+      Build the route.
+      Find the pattern.
+
+    </p>
+
+    <!-- NETWORK SELECTOR -->
+
+    <div class="network-selector">
+
+      <label for="network">
+
+        Choose your commuter network
+
+      </label>
+
+      <select id="network">
+
+        <optgroup label="Govia Thameslink Railway (GTR)">
+
+          <option>Thameslink</option>
+
+          <option>Southern</option>
+
+          <option>Great Northern</option>
+
+          <option>Gatwick Express</option>
+
+        </optgroup>
+
+        <optgroup label="Southeastern">
+
+          <option>Southeastern Metro</option>
+
+          <option>Southeastern Mainline</option>
+
+        </optgroup>
+
+        <optgroup label="Greater Anglia">
+
+          <option>Greater Anglia</option>
+
+          <option>c2c</option>
+
+        </optgroup>
+
+        <optgroup label="Other Networks">
+
+          <option>South Western Railway</option>
+
+          <option>Chiltern Railways</option>
+
+          <option>Great Western Railway</option>
+
+          <option>East Midlands Railway</option>
+
+          <option>LNER</option>
+
+        </optgroup>
+
+      </select>
+
+    </div>
+
+    <!-- PLAY BUTTON -->
+
+    <a
+      href="play.html"
+      class="play-button">
+
+      Play today's Route
+
+    </a>
+
+    <!-- FOOTER -->
+
+    <div class="footer">
+
+      <a href="#">
+        How to Play
+      </a>
+
+      <a href="#">
+        About
+      </a>
+
+      <a href="#">
+        Contact
+      </a>
+
+      <a href="#">
+        Support
+      </a>
+
+      <div class="footer-text">
+
+        Built for UK commuters.
+
+      </div>
+
+    </div>
+
+  </div>
+
+</body>
+
+</html>

@@ -39,14 +39,6 @@ body {
 
   min-height: 100vh;
 
-  display: flex;
-
-  align-items: center;
-
-  justify-content: center;
-
-  padding: 30px;
-
 }
 
 .container {
@@ -54,15 +46,43 @@ body {
   width: 100%;
   max-width: 520px;
 
-  text-align: center;
+  margin: auto;
+
+  padding: 28px 18px 40px;
+
+}
+
+/* HEADER */
+
+.header {
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: center;
+
+  gap: 18px;
+
+  margin-bottom: 26px;
 
 }
 
 .logo {
 
-  width: 120px;
+  width: 82px;
 
-  margin-bottom: 30px;
+  flex-shrink: 0;
+
+}
+
+.header-text {
+
+  display: flex;
+
+  flex-direction: column;
+
+  justify-content: center;
 
 }
 
@@ -70,33 +90,51 @@ h1 {
 
   margin: 0;
 
-  font-size: 4rem;
+  font-size: 2.8rem;
 
-  font-weight: 700;
+  line-height: 1;
 
-  letter-spacing: -2px;
+  letter-spacing: -1px;
 
 }
 
 .subtitle {
 
-  margin-top: 16px;
-
-  font-size: 1.3rem;
+  margin-top: 8px;
 
   color: #9ca3af;
 
-  line-height: 1.5;
-
-  margin-bottom: 50px;
+  font-size: 1rem;
 
 }
 
+/* ANNOUNCEMENT */
+
+.announcement {
+
+  background: #111827;
+
+  border: 2px solid #1e3a8a;
+
+  border-radius: 18px;
+
+  padding: 18px;
+
+  margin-bottom: 26px;
+
+  line-height: 1.6;
+
+  color: #d1d5db;
+
+  font-size: 0.95rem;
+
+}
+
+/* NETWORK SELECTOR */
+
 .network-selector {
 
-  text-align: left;
-
-  margin-bottom: 30px;
+  margin-bottom: 24px;
 
 }
 
@@ -104,9 +142,9 @@ h1 {
 
   display: block;
 
-  margin-bottom: 12px;
+  margin-bottom: 10px;
 
-  font-size: 1rem;
+  font-size: 0.95rem;
 
   font-weight: 600;
 
@@ -120,19 +158,33 @@ select {
 
   padding: 16px;
 
-  border-radius: 18px;
+  border-radius: 16px;
 
   border: 2px solid #1e3a8a;
 
-  background: #0f172a;
+  background: #111827;
 
   color: white;
 
   font-size: 1rem;
 
-  outline: none;
+  font-family: inherit;
 
 }
+
+optgroup {
+
+  font-weight: 700;
+
+}
+
+option {
+
+  font-size: 0.95rem;
+
+}
+
+/* PLAY BUTTON */
 
 .play-button {
 
@@ -140,74 +192,104 @@ select {
 
   width: 100%;
 
-  text-decoration: none;
+  text-align: center;
 
   background: #22c55e;
 
   color: white;
 
-  padding: 20px;
-
-  border-radius: 20px;
-
-  font-size: 1.3rem;
+  text-decoration: none;
 
   font-weight: 700;
 
-  margin-top: 20px;
+  font-size: 1rem;
 
-  margin-bottom: 50px;
+  padding: 18px;
 
-}
+  border-radius: 18px;
 
-.footer {
+  margin-bottom: 24px;
 
-  display: flex;
-
-  justify-content: center;
-
-  gap: 20px;
-
-  flex-wrap: wrap;
-
-  font-size: 0.95rem;
-
-  color: #6b7280;
+  transition: 0.2s;
 
 }
 
-.footer a {
+.play-button:hover {
 
-  color: #6b7280;
-
-  text-decoration: none;
+  opacity: 0.9;
 
 }
+
+/* FOOTER */
 
 .footer-text {
 
-  width: 100%;
+  text-align: center;
 
-  margin-top: 20px;
+  color: #6b7280;
 
-  color: #4b5563;
+  font-size: 0.82rem;
 
-  font-size: 0.9rem;
+  line-height: 1.5;
 
 }
 
-@media (max-width: 600px) {
+/* MOBILE */
 
-  h1 {
-    font-size: 3rem;
+@media (max-width: 700px) {
+
+  .container {
+
+    padding-top: 22px;
+
   }
 
-  .subtitle {
-    font-size: 1.1rem;
+  .header {
+
+    gap: 14px;
+
+    margin-bottom: 22px;
+
   }
 
   .logo {
-    width: 100px;
+
+    width: 68px;
+
+  }
+
+  h1 {
+
+    font-size: 2.2rem;
+
+  }
+
+  .subtitle {
+
+    font-size: 0.88rem;
+
+  }
+
+  .announcement {
+
+    padding: 16px;
+
+    font-size: 0.9rem;
+
+  }
+
+  select {
+
+    font-size: 0.92rem;
+
+    padding: 14px;
+
+  }
+
+  option {
+
+    font-size: 0.9rem;
+
   }
 
 }
@@ -220,19 +302,40 @@ select {
 
 <div class="container">
 
-  <img
-    src="logo.svg"
-    alt="The Route Logo"
-    class="logo">
+  <!-- HEADER -->
 
-  <h1>The Route</h1>
+  <div class="header">
 
-  <p class="subtitle">
+    <img
+      src="logo.svg"
+      alt="The Route Logo"
+      class="logo">
 
-    Build the route.
-    Find the pattern.
+    <div class="header-text">
 
-  </p>
+      <h1>The Route</h1>
+
+      <div class="subtitle">
+
+        Build the route. Find the pattern.
+
+      </div>
+
+    </div>
+
+  </div>
+
+  <!-- ANNOUNCEMENT -->
+
+  <div class="announcement">
+
+    🚉 Service update:
+    The Route is preparing for departure.
+    Daily commuter puzzles arriving soon.
+
+  </div>
+
+  <!-- NETWORK SELECTOR -->
 
   <div class="network-selector">
 
@@ -290,6 +393,8 @@ select {
 
   </div>
 
+  <!-- PLAY BUTTON -->
+
   <a
     href="play.html"
     class="play-button">
@@ -298,29 +403,11 @@ select {
 
   </a>
 
-  <div class="footer">
+  <!-- FOOTER -->
 
-    <a href="#">
-      How to Play
-    </a>
+  <div class="footer-text">
 
-    <a href="#">
-      About
-    </a>
-
-    <a href="#">
-      Contact
-    </a>
-
-    <a href="#">
-      Support
-    </a>
-
-    <div class="footer-text">
-
-      Built for UK commuters.
-
-    </div>
+    Built for UK commuters.
 
   </div>
 

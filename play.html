@@ -100,7 +100,7 @@ h1 {
 
   padding: 16px;
 
-  margin-bottom: 24px;
+  margin-bottom: 18px;
 
 }
 
@@ -306,13 +306,13 @@ h1 {
 
 .label {
 
-  font-size: 0.7rem;
+  font-size: 0.72rem;
 
   text-transform: uppercase;
 
   letter-spacing: 1px;
 
-  color: #9ca3af;
+  color: #cbd5e1;
 
 }
 
@@ -607,6 +607,24 @@ h1 {
 
   </div>
 
+  <!-- ROUTE KEY -->
+
+  <div class="service-panel">
+
+    <div class="service-title">
+
+      Route Key
+
+    </div>
+
+    <div class="service-message">
+
+      🚪 = approximately within 3 miles
+
+    </div>
+
+  </div>
+
   <!-- COLUMN CLUES -->
 
   <div class="column-grid">
@@ -616,7 +634,7 @@ h1 {
       <div class="column-letter">A</div>
 
       <div class="column-clue">
-        Next Door to Ramsgate Harbour
+        🚪 Ramsgate Harbour
       </div>
 
     </div>
@@ -645,421 +663,4 @@ h1 {
 
       <div class="column-letter">D</div>
 
-      <div class="column-clue">
-        Is an interchange
-      </div>
-
-    </div>
-
-  </div>
-
-  <!-- PLATFORM 1 -->
-
-  <div class="platform-row">
-
-    <div class="platform">
-
-      <div class="platform-title">
-        Platform 1
-      </div>
-
-      <div class="platform-condition">
-        Not a terminus
-      </div>
-
-    </div>
-
-    <div class="row-cells">
-
-      <div class="cell" data-row="1" data-column="A"></div>
-
-      <div class="cell" data-row="1" data-column="B"></div>
-
-      <div class="cell" data-row="1" data-column="C"></div>
-
-      <div class="cell" data-row="1" data-column="D"></div>
-
-    </div>
-
-  </div>
-
-  <!-- PLATFORM 2 -->
-
-  <div class="platform-row">
-
-    <div class="platform blue">
-
-      <div class="platform-title">
-        Platform 2
-      </div>
-
-      <div class="platform-condition">
-        Direct Charing Cross
-      </div>
-
-    </div>
-
-    <div class="row-cells">
-
-      <div class="cell" data-row="2" data-column="A"></div>
-
-      <div class="cell" data-row="2" data-column="B"></div>
-
-      <div class="cell" data-row="2" data-column="C"></div>
-
-      <div class="cell" data-row="2" data-column="D"></div>
-
-    </div>
-
-  </div>
-
-  <!-- COMPLETE -->
-
-  <div class="complete" id="completeBox">
-
-    <h2>Route Complete!</h2>
-
-    <p>
-
-      Station contains 'ham'
-      AND is an interchange:
-
-    </p>
-
-    <strong>
-
-      West Wickham
-
-    </strong>
-
-  </div>
-
-</div>
-
-<!-- FOOTER -->
-
-<div class="footer-bar">
-
-  <div class="footer-inner">
-
-    <div class="tickets">
-
-      🎫 Tickets Remaining: 3
-
-    </div>
-
-    <button
-      class="submit-button"
-      onclick="submitBoard()">
-
-      Submit Route
-
-    </button>
-
-  </div>
-
-</div>
-
-<!-- MODAL -->
-
-<div class="modal hidden" id="modal">
-
-  <div class="modal-box">
-
-    <input
-      type="text"
-      id="searchBox"
-      placeholder="Search station...">
-
-    <div id="results"></div>
-
-  </div>
-
-</div>
-
-<script>
-
-const stations = [
-
-  {
-    name: "Dumpton Park",
-    terminus: false,
-    directCharingCross: false,
-    nearHarbour: true,
-    londonBand: "70-100",
-    containsHam: false,
-    interchange: false
-  },
-
-  {
-    name: "Ramsgate",
-    terminus: true,
-    directCharingCross: true,
-    nearHarbour: true,
-    londonBand: "70-100",
-    containsHam: false,
-    interchange: false
-  },
-
-  {
-    name: "Meopham",
-    terminus: false,
-    directCharingCross: true,
-    nearHarbour: false,
-    londonBand: "70-100",
-    containsHam: true,
-    interchange: false
-  },
-
-  {
-    name: "Chartham",
-    terminus: false,
-    directCharingCross: true,
-    nearHarbour: false,
-    londonBand: "70-100",
-    containsHam: true,
-    interchange: false
-  },
-
-  {
-    name: "Ashford International",
-    terminus: false,
-    directCharingCross: true,
-    nearHarbour: false,
-    londonBand: "70-100",
-    containsHam: false,
-    interchange: true
-  }
-
-];
-
-const rowRules = {
-
-  1: station => !station.terminus,
-
-  2: station => station.directCharingCross
-
-};
-
-const columnRules = {
-
-  A: station => station.nearHarbour,
-
-  B: station => station.londonBand === "70-100",
-
-  C: station => station.containsHam,
-
-  D: station => station.interchange
-
-};
-
-const modal =
-  document.getElementById("modal");
-
-const searchBox =
-  document.getElementById("searchBox");
-
-const results =
-  document.getElementById("results");
-
-const completeBox =
-  document.getElementById("completeBox");
-
-const cells =
-  document.querySelectorAll(".cell");
-
-let activeCell = null;
-
-cells.forEach(cell => {
-
-  resetCell(cell);
-
-  cell.onclick = () => {
-
-    activeCell = cell;
-
-    openModal();
-
-  };
-
-});
-
-function resetCell(cell) {
-
-  cell.innerHTML = `
-
-    <div class="cell-content">
-
-      <div class="station">
-        🚆
-      </div>
-
-      <div class="label">
-        Waiting
-      </div>
-
-    </div>
-
-  `;
-
-}
-
-function openModal() {
-
-  modal.classList.remove("hidden");
-
-  searchBox.value = "";
-
-  renderStations(stations);
-
-  searchBox.focus();
-
-}
-
-function renderStations(list) {
-
-  results.innerHTML = "";
-
-  list.forEach(station => {
-
-    const option =
-      document.createElement("div");
-
-    option.className = "station-option";
-
-    option.textContent = station.name;
-
-    option.onclick = () => {
-
-      activeCell.dataset.selected =
-        station.name;
-
-      activeCell.innerHTML = `
-
-        <div class="cell-content">
-
-          <div class="station">
-            ${station.name}
-          </div>
-
-          <div class="label">
-            Arriving
-          </div>
-
-        </div>
-
-      `;
-
-      activeCell.classList.remove("incorrect");
-
-      modal.classList.add("hidden");
-
-    };
-
-    results.appendChild(option);
-
-  });
-
-}
-
-searchBox.oninput = () => {
-
-  const value =
-    searchBox.value.toLowerCase();
-
-  const filtered =
-    stations.filter(station =>
-
-      station.name
-        .toLowerCase()
-        .includes(value)
-
-    );
-
-  renderStations(filtered);
-
-};
-
-function validateCell(cell) {
-
-  const stationName =
-    cell.dataset.selected;
-
-  if (!stationName) {
-    return false;
-  }
-
-  const station =
-    stations.find(
-      s => s.name === stationName
-    );
-
-  const row =
-    cell.dataset.row;
-
-  const column =
-    cell.dataset.column;
-
-  const rowValid =
-    rowRules[row](station);
-
-  const columnValid =
-    columnRules[column](station);
-
-  return rowValid && columnValid;
-
-}
-
-function submitBoard() {
-
-  let correct = 0;
-
-  cells.forEach(cell => {
-
-    if (validateCell(cell)) {
-
-      cell.classList.add("correct");
-
-      cell.classList.remove("incorrect");
-
-      cell.querySelector(".label").textContent =
-        "Correct";
-
-      correct++;
-
-    } else {
-
-      cell.classList.remove("correct");
-
-      cell.classList.add("incorrect");
-
-      cell.querySelector(".label").textContent =
-        "Invalid";
-
-    }
-
-  });
-
-  if (correct === cells.length) {
-
-    completeBox.style.display = "block";
-
-  }
-
-}
-
-modal.onclick = (event) => {
-
-  if (event.target === modal) {
-
-    modal.classList.add("hidden");
-
-  }
-
-};
-
-</script>
-
-</body>
-
-</html>
+      <div class="

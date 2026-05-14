@@ -802,12 +802,6 @@ function openModal() {
 
   searchBox.value = "";
 
-  renderStations(stations);
-
-  searchBox.focus();
-
-}
-
 function renderStations(list) {
 
   results.innerHTML = "";
@@ -874,16 +868,23 @@ function renderStations(list) {
           "correct"
         );
 
-        modal.classList.add("hidden");
+        modal.classList.add(
+          "hidden"
+        );
+
+        renderStations(
+          stations
+        );
 
       };
 
-      results.appendChild(option);
+      results.appendChild(
+        option
+      );
 
     });
 
-}
-searchBox.oninput = () => {
+}searchBox.oninput = () => {
 
   const value =
     searchBox.value.toLowerCase();

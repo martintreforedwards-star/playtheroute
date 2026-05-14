@@ -4,8 +4,10 @@
 <head>
 
 <meta charset="UTF-8">
-<meta name="viewport"
-      content="width=device-width, initial-scale=1.0">
+
+<meta
+  name="viewport"
+  content="width=device-width, initial-scale=1.0">
 
 <title>The Route</title>
 
@@ -46,8 +48,8 @@ body {
 }
 
 .logo {
-  width: 90px;
-  height: 90px;
+  width: 72px;
+  height: 72px;
 }
 
 .title-group h1 {
@@ -58,23 +60,22 @@ body {
 }
 
 .subtitle {
-  margin-top: 10px;
+  margin-top: 8px;
   font-size: 1.1rem;
   color: #9ca3af;
 }
 
 .panel {
-  background: rgba(17, 24, 39, 0.9);
+  background: rgba(17, 24, 39, 0.92);
   border: 2px solid #1d4ed8;
-  border-radius: 30px;
-  padding: 28px;
-  margin-bottom: 26px;
-  backdrop-filter: blur(10px);
+  border-radius: 28px;
+  padding: 26px;
+  margin-bottom: 22px;
 }
 
 .panel-title {
   color: #22c55e;
-  font-size: 1.2rem;
+  font-size: 1.15rem;
   font-weight: 800;
   letter-spacing: 2px;
   margin-bottom: 16px;
@@ -83,39 +84,50 @@ body {
 .panel p {
   margin: 0;
   color: #d1d5db;
-  font-size: 1rem;
   line-height: 1.8;
+}
+
+.routepedia-button {
+  margin-top: 18px;
+  border: none;
+  background: #2563eb;
+  color: white;
+  padding: 14px 20px;
+  border-radius: 16px;
+  font-size: 0.95rem;
+  font-weight: 700;
+  cursor: pointer;
 }
 
 .column-row {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 16px;
+  gap: 14px;
   margin-bottom: 28px;
 }
 
 .column-card {
   background: rgba(15, 23, 42, 0.95);
-  border-radius: 26px;
-  padding: 22px 14px;
+  border-radius: 24px;
+  padding: 20px 12px;
   text-align: center;
 }
 
 .column-letter {
-  font-size: 2.3rem;
+  font-size: 2.2rem;
   font-weight: 800;
   margin-bottom: 12px;
 }
 
 .column-clue {
-  color: #9ca3af;
-  font-size: 0.95rem;
+  color: #d1d5db;
+  font-size: 0.9rem;
   line-height: 1.5;
 }
 
 .platform {
   background: rgba(15, 23, 42, 0.95);
-  border-radius: 30px;
+  border-radius: 28px;
   padding: 24px;
   margin-bottom: 18px;
   border-left: 8px solid #22c55e;
@@ -132,33 +144,31 @@ body {
 }
 
 .platform-condition {
-  font-size: 1rem;
   color: #9ca3af;
 }
 
 .cell-row {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 16px;
-  margin-bottom: 34px;
+  gap: 14px;
+  margin-bottom: 32px;
 }
 
 .cell {
   background: rgba(10, 20, 50, 0.95);
   border: 3px solid #1d4ed8;
-  border-radius: 28px;
-  min-height: 150px;
+  border-radius: 26px;
+  min-height: 140px;
   display: flex;
   align-items: center;
   justify-content: center;
   text-align: center;
-  padding: 14px;
+  padding: 12px;
   cursor: pointer;
   transition: 0.2s;
 }
 
 .cell:hover {
-  transform: translateY(-2px);
   border-color: #22c55e;
 }
 
@@ -192,25 +202,26 @@ body {
 
 .ticket-box {
   background: rgba(15, 23, 42, 0.95);
-  border-radius: 28px;
-  padding: 24px;
-  margin-bottom: 24px;
+  border-radius: 24px;
+  padding: 22px;
+  margin-bottom: 22px;
   font-size: 1.1rem;
 }
 
 .submit-button {
   width: 100%;
   border: none;
-  border-radius: 28px;
-  padding: 24px;
-  font-size: 1.8rem;
+  border-radius: 26px;
+  padding: 22px;
+  font-size: 1.6rem;
   font-weight: 800;
   background: #22c55e;
   color: white;
   cursor: pointer;
 }
 
-.modal {
+.modal,
+.routepedia-modal {
   position: fixed;
   inset: 0;
   background: rgba(0,0,0,0.75);
@@ -218,18 +229,52 @@ body {
   align-items: center;
   justify-content: center;
   padding: 20px;
+  z-index: 999;
 }
 
 .hidden {
   display: none;
 }
 
-.modal-box {
+.modal-box,
+.routepedia-box {
   width: 100%;
-  max-width: 560px;
+  max-width: 620px;
   background: #111827;
-  border-radius: 30px;
-  padding: 24px;
+  border: 2px solid #1d4ed8;
+  border-radius: 28px;
+  padding: 28px;
+}
+
+.routepedia-box {
+  max-height: 80vh;
+  overflow-y: auto;
+}
+
+.routepedia-title {
+  color: #22c55e;
+  font-size: 2rem;
+  font-weight: 800;
+  margin-bottom: 22px;
+}
+
+.routepedia-entry {
+  margin-bottom: 24px;
+}
+
+.routepedia-entry strong {
+  display: block;
+  margin-bottom: 8px;
+}
+
+.routepedia-close {
+  border: none;
+  background: #ef4444;
+  color: white;
+  padding: 14px 20px;
+  border-radius: 16px;
+  font-weight: 700;
+  cursor: pointer;
 }
 
 #searchBox {
@@ -245,7 +290,6 @@ body {
   padding: 18px;
   border-radius: 18px;
   cursor: pointer;
-  font-size: 1rem;
   transition: 0.2s;
 }
 
@@ -255,80 +299,14 @@ body {
 
 .complete {
   display: none;
-  margin-top: 28px;
+  margin-top: 26px;
   background: #052e16;
   border: 2px solid #22c55e;
   border-radius: 28px;
   padding: 28px;
   text-align: center;
 }
-.routepedia-button {
-  margin-top: 18px;
-  border: none;
-  background: #1d4ed8;
-  color: white;
-  padding: 14px 20px;
-  border-radius: 18px;
-  font-size: 1rem;
-  font-weight: 700;
-  cursor: pointer;
-  transition: 0.2s;
-}
 
-.routepedia-button:hover {
-  background: #2563eb;
-}
-
-.routepedia-modal {
-  position: fixed;
-  inset: 0;
-  background: rgba(0,0,0,0.75);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 20px;
-  z-index: 999;
-}
-
-.routepedia-box {
-  width: 100%;
-  max-width: 700px;
-  max-height: 80vh;
-  overflow-y: auto;
-  background: #111827;
-  border: 2px solid #1d4ed8;
-  border-radius: 30px;
-  padding: 30px;
-}
-
-.routepedia-title {
-  font-size: 2rem;
-  font-weight: 800;
-  margin-bottom: 20px;
-  color: #22c55e;
-}
-
-.routepedia-entry {
-  margin-bottom: 22px;
-}
-
-.routepedia-entry strong {
-  display: block;
-  margin-bottom: 8px;
-  font-size: 1.1rem;
-}
-
-.routepedia-close {
-  margin-top: 20px;
-  border: none;
-  background: #ef4444;
-  color: white;
-  padding: 14px 20px;
-  border-radius: 18px;
-  font-size: 1rem;
-  font-weight: 700;
-  cursor: pointer;
-}
 @media (max-width: 700px) {
 
   .container {
@@ -340,8 +318,8 @@ body {
   }
 
   .logo {
-    width: 70px;
-    height: 70px;
+    width: 64px;
+    height: 64px;
   }
 
   .title-group h1 {
@@ -374,16 +352,6 @@ body {
 
   .cell {
     min-height: 120px;
-    padding: 10px;
-  }
-
-  .station {
-    font-size: 0.9rem;
-  }
-
-  .submit-button {
-    font-size: 1.5rem;
-    padding: 20px;
   }
 
 }
@@ -416,13 +384,7 @@ body {
   </div>
 
   <div class="panel">
-<button
-  class="routepedia-button"
-  onclick="openRoutepedia()">
 
-  📘 Routepedia
-
-</button>
     <div class="panel-title">
       SERVICE UPDATE
     </div>
@@ -444,40 +406,68 @@ body {
       🚪 = coastal commuter geography
     </p>
 
+    <button
+      class="routepedia-button"
+      onclick="openRoutepedia()">
+
+      📘 Routepedia
+
+    </button>
+
   </div>
 
   <div class="column-row">
 
     <div class="column-card">
-      <div class="column-letter">A</div>
+
+      <div class="column-letter">
+        A
+      </div>
+
       <div
-  class="column-clue"
-  id="column-clue-A">
-</div>
+        class="column-clue"
+        id="column-clue-A">
+      </div>
+
     </div>
 
     <div class="column-card">
-      <div class="column-letter">B</div>
-     <div
-  class="column-clue"
-  id="column-clue-A">
-</div>
+
+      <div class="column-letter">
+        B
+      </div>
+
+      <div
+        class="column-clue"
+        id="column-clue-B">
+      </div>
+
     </div>
 
     <div class="column-card">
-      <div class="column-letter">C</div>
+
+      <div class="column-letter">
+        C
+      </div>
+
       <div
-  class="column-clue"
-  id="column-clue-A">
-</div>
+        class="column-clue"
+        id="column-clue-C">
+      </div>
+
     </div>
 
     <div class="column-card">
-      <div class="column-letter">D</div>
+
+      <div class="column-letter">
+        D
+      </div>
+
       <div
-  class="column-clue"
-  id="column-clue-A">
-</div>
+        class="column-clue"
+        id="column-clue-D">
+      </div>
+
     </div>
 
   </div>
@@ -525,7 +515,8 @@ body {
   </div>
 
   <div class="ticket-box">
-    🎫 Tickets Remaining: <span id="ticketCount">3</span>
+    🎫 Tickets Remaining:
+    <span id="ticketCount">3</span>
   </div>
 
   <button
@@ -547,14 +538,16 @@ body {
     </p>
 
     <strong>
-      Station contains 'ham' AND is an interchange = West Wickham
+      Network running normally.
     </strong>
 
   </div>
 
 </div>
 
-<div class="modal hidden" id="modal">
+<div
+  class="modal hidden"
+  id="modal">
 
   <div class="modal-box">
 
@@ -568,6 +561,7 @@ body {
   </div>
 
 </div>
+
 <div
   class="routepedia-modal hidden"
   id="routepediaModal">
@@ -619,6 +613,7 @@ body {
   </div>
 
 </div>
+
 <script>
 
 let stations = [];
@@ -695,6 +690,33 @@ async function loadStations() {
 }
 
 async function loadPuzzle() {
+
+  try {
+
+    const response = await fetch(
+      "data/puzzles/southeastern_alpha_001.json"
+    );
+
+    puzzle = await response.json();
+
+    console.log(
+      "Puzzle loaded:",
+      puzzle
+    );
+
+    renderPuzzleClues();
+
+  } catch (error) {
+
+    console.error(
+      "Failed to load puzzle:",
+      error
+    );
+
+  }
+
+}
+
 function renderPuzzleClues() {
 
   puzzle.columns.forEach(column => {
@@ -714,39 +736,17 @@ function renderPuzzleClues() {
   });
 
 }
-  try {
-
-    const response = await fetch(
-      "data/puzzles/southeastern_alpha_001.json"
-    );
-
-    puzzle = await response.json();
-
-    console.log(
-      "Puzzle loaded:",
-      puzzle
-    );
-renderPuzzleClues();
-  } catch (error) {
-
-    console.error(
-      "Failed to load puzzle:",
-      error
-    );
-
-  }
-
-}
 
 async function initialiseGame() {
 
   await loadStations();
 
   await loadPuzzle();
-      
+
 }
 
 initialiseGame();
+
 function openRoutepedia() {
 
   document
@@ -762,6 +762,22 @@ function closeRoutepedia() {
     .classList.add("hidden");
 
 }
+
+document
+  .getElementById("routepediaModal")
+  .onclick = event => {
+
+    if (
+      event.target.id ===
+      "routepediaModal"
+    ) {
+
+      closeRoutepedia();
+
+    }
+
+};
+
 cells.forEach(cell => {
 
   resetCell(cell);
@@ -901,26 +917,28 @@ function validateCell(cell) {
 
   const columnValid =
     columnRules[column](station);
-const puzzleColumn =
-  puzzle.columns.find(
-    c => c.id === column
-  );
 
-if (puzzleColumn) {
+  const puzzleColumn =
+    puzzle.columns.find(
+      c => c.id === column
+    );
 
-  console.log(
-    "Checking:",
-    puzzleColumn.field,
-    "===",
-    puzzleColumn.value
-  );
+  if (puzzleColumn) {
 
-  console.log(
-    "Station value:",
-    station[puzzleColumn.field]
-  );
+    console.log(
+      "Checking:",
+      puzzleColumn.field,
+      "===",
+      puzzleColumn.value
+    );
 
-}
+    console.log(
+      "Station value:",
+      station[puzzleColumn.field]
+    );
+
+  }
+
   return rowValid && columnValid;
 
 }

@@ -239,7 +239,7 @@ body {
   align-items: center;
   justify-content: center;
   padding: 20px;
-  z-index: 999;
+  z-index: 9999;
 }
 
 .hidden {
@@ -305,16 +305,6 @@ body {
 
 .station-option:hover {
   background: #1e293b;
-}
-
-.complete {
-  display: none;
-  margin-top: 26px;
-  background: #052e16;
-  border: 2px solid #22c55e;
-  border-radius: 28px;
-  padding: 28px;
-  text-align: center;
 }
 
 @media (max-width: 700px) {
@@ -407,47 +397,31 @@ body {
     <div class="corner"></div>
 
     <div class="column-header">
-
       <strong>A</strong>
-
-      <span
-        class="column-clue"
-        id="column-clue-A">
+      <span class="column-clue">
+        🚪 Coastal
       </span>
-
     </div>
 
     <div class="column-header">
-
       <strong>B</strong>
-
-      <span
-        class="column-clue"
-        id="column-clue-B">
+      <span class="column-clue">
+        ⏱ 70–90 mins
       </span>
-
     </div>
 
     <div class="column-header">
-
       <strong>C</strong>
-
-      <span
-        class="column-clue"
-        id="column-clue-C">
+      <span class="column-clue">
+        Contains 'ham'
       </span>
-
     </div>
 
     <div class="column-header">
-
       <strong>D</strong>
-
-      <span
-        class="column-clue"
-        id="column-clue-D">
+      <span class="column-clue">
+        Interchange
       </span>
-
     </div>
 
     <div class="row-header green">
@@ -524,229 +498,8 @@ body {
 
   </div>
 
-  <div class="ticket-box">
-    🎫 Tickets Remaining:
-    <span id="ticketCount">3</span>
-  </div>
-
-  <button
-    class="submit-button"
-    onclick="submitBoard()">
-
-    Submit Route
-
-  </button>
-
-  <div
-    class="complete"
-    id="completeBox">
-
-    <h2>Route Complete!</h2>
-
-    <p>
-      Special Service Announcement:
-    </p>
-
-    <strong>
-      Network running normally.
-    </strong>
-
-  </div>
-
 </div>
 
-<script>
-
-const cells =
-  document.querySelectorAll(".cell");
-
-let activeCell = null;
-
-const modal =
-  document.getElementById("stationModal");
-
-const results =
-  document.getElementById("results");
-
-const searchBox =
-  document.getElementById("searchBox");
-
-let stations = [];
-
-fetch(
-  "data/stations/southeastern.json"
-)
-.then(response => response.json())
-.then(data => {
-
-  stations = data;
-
-  console.log(
-    "Stations loaded:",
-    stations.length
-  );
-
-});
-
-cells.forEach(cell => {
-
-  cell.addEventListener(
-    "click",
-    () => {
-
-      activeCell = cell;
-
-      modal.classList.remove(
-        "hidden"
-      );
-
-      renderStations(
-        stations
-      );
-
-    }
-
-  );
-
-});
-
-function renderStations(list) {
-
-  results.innerHTML = "";
-
-  const usedStations = [];
-
-  cells.forEach(cell => {
-
-    if (cell.dataset.selected) {
-
-      usedStations.push(
-        cell.dataset.selected
-      );
-
-    }
-
-  });
-
-  list
-    .filter(station =>
-
-      !usedStations.includes(
-        station.route_station_id
-      )
-
-    )
-    .forEach(station => {
-
-      const option =
-        document.createElement("div");
-
-      option.className =
-        "station-option";
-
-      option.textContent =
-        station.station_name;
-
-      option.onclick = () => {
-
-        activeCell.dataset.selected =
-          station.route_station_id;
-
-        activeCell.innerHTML = `
-
-          <div class="cell-content">
-
-            <div class="station">
-              ${station.station_name}
-            </div>
-
-            <div class="label">
-              ARRIVING
-            </div>
-
-          </div>
-
-        `;
-
-        activeCell.classList.remove(
-          "incorrect"
-        );
-
-        activeCell.classList.remove(
-          "correct"
-        );
-
-        modal.classList.add(
-          "hidden"
-        );
-
-      };
-
-      results.appendChild(
-        option
-      );
-
-    });
-
-}
-
-searchBox.addEventListener(
-  "input",
-  () => {
-
-    const query =
-      searchBox.value.toLowerCase();
-
-    const filtered =
-      stations.filter(station =>
-
-        station.station_name
-          .toLowerCase()
-          .includes(query)
-
-      );
-
-    renderStations(
-      filtered
-    );
-
-  }
-
-);
-
-function submitBoard() {
-
-  alert(
-    "Validation reconnect next"
-  );
-
-}
-
-function openRoutepedia() {
-
-  document
-    .getElementById(
-      "routepediaModal"
-    )
-    .classList.remove(
-      "hidden"
-    );
-
-}
-
-function closeRoutepedia() {
-
-  document
-    .getElementById(
-      "routepediaModal"
-    )
-    .classList.add(
-      "hidden"
-    );
-
-}
-
-</script>
 <div
   class="modal hidden"
   id="stationModal">
@@ -820,5 +573,209 @@ function closeRoutepedia() {
   </div>
 
 </div>
+
+<script>
+
+const cells =
+  document.querySelectorAll(".cell");
+
+const modal =
+  document.getElementById(
+    "stationModal"
+  );
+
+const results =
+  document.getElementById(
+    "results"
+  );
+
+const searchBox =
+  document.getElementById(
+    "searchBox"
+  );
+
+let activeCell = null;
+
+let stations = [];
+
+fetch(
+  "data/stations/southeastern.json"
+)
+.then(response => response.json())
+.then(data => {
+
+  stations = data;
+
+  console.log(
+    "Stations loaded:",
+    stations.length
+  );
+
+});
+
+cells.forEach(cell => {
+
+  cell.addEventListener(
+    "click",
+    () => {
+
+      activeCell = cell;
+
+      modal.classList.remove(
+        "hidden"
+      );
+
+      renderStations(
+        stations
+      );
+
+    }
+
+  );
+
+});
+
+function renderStations(list) {
+
+  results.innerHTML = "";
+
+  const usedStations = [];
+
+  cells.forEach(cell => {
+
+    if (cell.dataset.selected) {
+
+      usedStations.push(
+        cell.dataset.selected
+      );
+
+    }
+
+  });
+
+  list
+    .filter(station =>
+
+      !usedStations.includes(
+        station.route_station_id
+      )
+
+    )
+    .forEach(station => {
+
+      const option =
+        document.createElement(
+          "div"
+        );
+
+      option.className =
+        "station-option";
+
+      option.textContent =
+        station.station_name;
+
+      option.onclick = () => {
+
+        activeCell.dataset.selected =
+          station.route_station_id;
+
+        activeCell.innerHTML = `
+
+          <div class="cell-content">
+
+            <div class="station">
+              ${station.station_name}
+            </div>
+
+            <div class="label">
+              ARRIVING
+            </div>
+
+          </div>
+
+        `;
+
+        modal.classList.add(
+          "hidden"
+        );
+
+      };
+
+      results.appendChild(
+        option
+      );
+
+    });
+
+}
+
+searchBox.addEventListener(
+  "input",
+  () => {
+
+    const query =
+      searchBox.value.toLowerCase();
+
+    const filtered =
+      stations.filter(station =>
+
+        station.station_name
+          .toLowerCase()
+          .includes(query)
+
+      );
+
+    renderStations(
+      filtered
+    );
+
+  }
+
+);
+
+modal.addEventListener(
+  "click",
+  event => {
+
+    if (
+      event.target === modal
+    ) {
+
+      modal.classList.add(
+        "hidden"
+      );
+
+    }
+
+  }
+
+);
+
+function openRoutepedia() {
+
+  document
+    .getElementById(
+      "routepediaModal"
+    )
+    .classList.remove(
+      "hidden"
+    );
+
+}
+
+function closeRoutepedia() {
+
+  document
+    .getElementById(
+      "routepediaModal"
+    )
+    .classList.add(
+      "hidden"
+    );
+
+}
+
+</script>
+
 </body>
 </html>

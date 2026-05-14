@@ -1,0 +1,56 @@
+{
+  "title": "Southeastern Alpha 001",
+
+  "columns": [
+
+    {
+      "id": "A",
+      "display": "🚪 Ramsgate Harbour",
+      "field": "distance_band",
+      "value": "coastal"
+    },
+
+    {
+      "id": "B",
+      "display": "⏱ 70–90 mins",
+      "field": "time_group",
+      "value": "70 to 90"
+    },
+
+    {
+      "id": "C",
+      "display": "Contains 'ham'",
+      "field": "contains_ham",
+      "value": true
+    },
+
+    {
+      "id": "D",
+      "display": "Interchange",
+      "field": "is_interchange",
+      "value": true
+    }
+
+  ],
+
+  "rows": [
+
+    {
+      "id": "1",
+      "title": "Platform 1",
+      "display": "Not a terminus",
+      "field": "is_terminus",
+      "value": false
+    },
+
+    {
+      "id": "2",
+      "title": "Platform 2",
+      "display": "Direct Charing Cross",
+      "field": "direct_to_charing_cross",
+      "value": true
+    }
+
+  ]
+
+}

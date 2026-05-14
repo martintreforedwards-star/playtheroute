@@ -378,30 +378,34 @@ body {
 
     <div class="column-card">
       <div class="column-letter">A</div>
-      <div class="column-clue">
-        🚪 Ramsgate Harbour
-      </div>
+      <div
+  class="column-clue"
+  id="column-clue-A">
+</div>
     </div>
 
     <div class="column-card">
       <div class="column-letter">B</div>
-      <div class="column-clue">
-        London Time Band 70–90 mins
-      </div>
+     <div
+  class="column-clue"
+  id="column-clue-A">
+</div>
     </div>
 
     <div class="column-card">
       <div class="column-letter">C</div>
-      <div class="column-clue">
-        Station contains 'ham'
-      </div>
+      <div
+  class="column-clue"
+  id="column-clue-A">
+</div>
     </div>
 
     <div class="column-card">
       <div class="column-letter">D</div>
-      <div class="column-clue">
-        Is an interchange
-      </div>
+      <div
+  class="column-clue"
+  id="column-clue-A">
+</div>
     </div>
 
   </div>
@@ -569,7 +573,25 @@ async function loadStations() {
 }
 
 async function loadPuzzle() {
+function renderPuzzleClues() {
 
+  puzzle.columns.forEach(column => {
+
+    const clueElement =
+      document.getElementById(
+        `column-clue-${column.id}`
+      );
+
+    if (clueElement) {
+
+      clueElement.textContent =
+        column.display;
+
+    }
+
+  });
+
+}
   try {
 
     const response = await fetch(
@@ -582,7 +604,7 @@ async function loadPuzzle() {
       "Puzzle loaded:",
       puzzle
     );
-
+renderPuzzleClues();
   } catch (error) {
 
     console.error(
@@ -599,7 +621,7 @@ async function initialiseGame() {
   await loadStations();
 
   await loadPuzzle();
-
+      
 }
 
 initialiseGame();

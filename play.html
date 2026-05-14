@@ -467,10 +467,10 @@ const puzzle = {
       value: "coastal"
     },
 
-{
-  field: "time_group",
-  value: "70 to 90"
-},
+    {
+      field: "time_group",
+      value: "70 to 90"
+    },
 
     {
       field: "contains_ham",
@@ -562,7 +562,11 @@ cells.forEach(cell => {
       );
 
       renderStations(
-        stations
+        [...stations].sort((a, b) =>
+          a.station_name.localeCompare(
+            b.station_name
+          )
+        )
       );
 
       searchBox.value = "";
@@ -590,7 +594,7 @@ function renderStations(list) {
       "station-option";
 
     option.textContent =
-      station.station_name;
+      `${station.station_name} (${station.crs})`;
 
     option.onclick = () => {
 
@@ -771,7 +775,11 @@ searchBox.addEventListener(
       );
 
     renderStations(
-      filtered
+      filtered.sort((a, b) =>
+        a.station_name.localeCompare(
+          b.station_name
+        )
+      )
     );
 
   }

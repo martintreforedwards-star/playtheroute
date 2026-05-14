@@ -187,6 +187,16 @@ body {
   border-color: #22c55e;
 }
 
+.cell.correct {
+  background: rgba(0,80,40,0.95);
+  border-color: #22c55e;
+}
+
+.cell.incorrect {
+  background: rgba(100,0,0,0.95);
+  border-color: #ef4444;
+}
+
 .cell-content {
   display: flex;
   flex-direction: column;
@@ -243,18 +253,6 @@ body {
 .modal.hidden,
 .routepedia-modal.hidden {
   display: none !important;
-}
-  position: fixed;
-  inset: 0;
-  background: rgba(0,0,0,0.82);
-
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
-  z-index: 9999;
-
-  padding: 20px;
 }
 
 .modal-box,
@@ -523,41 +521,6 @@ body {
       📘 Routepedia
     </div>
 
-    <div class="routepedia-entry">
-
-      <strong>
-        🚪 Coastal
-      </strong>
-
-      Station is classified as
-      coastal commuter geography.
-
-    </div>
-
-    <div class="routepedia-entry">
-
-      <strong>
-        ⏱️ Time Bands
-      </strong>
-
-      Stations are grouped by
-      approximate canonical
-      journey time into London.
-
-    </div>
-
-    <div class="routepedia-entry">
-
-      <strong>
-        🔀 Interchange
-      </strong>
-
-      Station allows interchange
-      between significant routes
-      or services.
-
-    </div>
-
     <button
       class="routepedia-close"
       onclick="closeRoutepedia()">
@@ -571,6 +534,48 @@ body {
 </div>
 
 <script>
+
+const puzzle = {
+
+  columns: [
+
+    {
+      field: "distance_band",
+      value: "coastal"
+    },
+
+    {
+      field: "journey_time_band",
+      value: "70-90"
+    },
+
+    {
+      field: "contains_ham",
+      value: true
+    },
+
+    {
+      field: "is_interchange",
+      value: true
+    }
+
+  ],
+
+  rows: [
+
+    {
+      field: "is_terminus",
+      value: false
+    },
+
+    {
+      field: "direct_to_charing_cross",
+      value: true
+    }
+
+  ]
+
+};
 
 const cells =
   document.querySelectorAll(".cell");
@@ -594,6 +599,26 @@ let activeCell = null;
 
 let stations = [];
 
+const boardState = {};
+
+cells.forEach((cell, index) => {
+
+  const row =
+    index < 4
+      ? 0
+      : 1;
+
+  const column =
+    index % 4;
+
+  cell.dataset.row =
+    row;
+
+  cell.dataset.column =
+    column;
+
+});
+
 fetch(
   "data/stations/southeastern.json"
 )
@@ -601,11 +626,6 @@ fetch(
 .then(data => {
 
   stations = data;
-
-  console.log(
-    "Stations loaded:",
-    stations.length
-  );
 
 });
 
@@ -654,24 +674,8 @@ function renderStations(list) {
 
     option.onclick = () => {
 
-      activeCell.innerHTML = `
-
-        <div class="cell-content">
-
-          <div class="station">
-            ${station.station_name}
-          </div>
-
-          <div class="label">
-            ARRIVING
-          </div>
-
-        </div>
-
-      `;
-
-      modal.classList.add(
-        "hidden"
+      placeStation(
+        station
       );
 
     };
@@ -681,6 +685,83 @@ function renderStations(list) {
     );
 
   });
+
+}
+
+function placeStation(station) {
+
+  const row =
+    Number(
+      activeCell.dataset.row
+    );
+
+  const column =
+    Number(
+      activeCell.dataset.column
+    );
+
+  const rowRule =
+    puzzle.rows[row];
+
+  const columnRule =
+    puzzle.columns[column];
+
+  const rowPass =
+    station[rowRule.field]
+      === rowRule.value;
+
+  const columnPass =
+    station[columnRule.field]
+      === columnRule.value;
+
+  const valid =
+    rowPass && columnPass;
+
+  activeCell.innerHTML = `
+
+    <div class="cell-content">
+
+      <div class="station">
+        ${station.station_name}
+      </div>
+
+      <div class="label">
+        ${valid ? "CORRECT" : "INVALID"}
+      </div>
+
+    </div>
+
+  `;
+
+  activeCell.classList.remove(
+    "correct"
+  );
+
+  activeCell.classList.remove(
+    "incorrect"
+  );
+
+  if (valid) {
+
+    activeCell.classList.add(
+      "correct"
+    );
+
+  } else {
+
+    activeCell.classList.add(
+      "incorrect"
+    );
+
+  }
+
+  boardState[
+    `${row}-${column}`
+  ] = valid;
+
+  modal.classList.add(
+    "hidden"
+  );
 
 }
 
@@ -752,8 +833,19 @@ function closeRoutepedia() {
 
 function submitBoard() {
 
+  const values =
+    Object.values(
+      boardState
+    );
+
+  const correct =
+    values.filter(
+      value => value
+    ).length;
+
   console.log(
-    "Submit pressed"
+    "Correct:",
+    correct
   );
 
 }

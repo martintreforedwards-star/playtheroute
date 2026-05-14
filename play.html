@@ -1,18 +1,19 @@
+# FILE: `play.html`
+
+```html
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
 
 <meta charset="UTF-8">
-
-<meta
-  name="viewport"
-  content="width=device-width, initial-scale=1.0">
+<meta name="viewport"
+      content="width=device-width, initial-scale=1.0">
 
 <title>The Route</title>
 
 <link
-  href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap"
+  href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap"
   rel="stylesheet">
 
 <style>
@@ -22,526 +23,354 @@
 }
 
 body {
-
   margin: 0;
-
   font-family: 'Inter', sans-serif;
-
   background:
-    radial-gradient(
-      circle at top,
-      #0b1836 0%,
-      #030817 45%,
-      #01040d 100%
-    );
-
+    radial-gradient(circle at top,
+      #001a4d 0%,
+      #000814 45%,
+      #000510 100%);
   color: white;
-
 }
 
 .container {
-
   width: 100%;
-  max-width: 900px;
-
+  max-width: 760px;
   margin: auto;
-
-  padding: 14px 12px 120px;
-
+  padding: 24px;
 }
 
 /* HEADER */
 
-.header {
-
+.top-bar {
   display: flex;
-
   align-items: center;
-
   justify-content: center;
+  gap: 18px;
 
-  gap: 16px;
-
-  margin-bottom: 18px;
-
+  margin-bottom: 20px;
 }
 
 .logo {
-
-  width: 72px;
-
-  flex-shrink: 0;
-
+  width: 90px;
+  height: 90px;
 }
 
-.header-text {
-
-  display: flex;
-
-  flex-direction: column;
-
-  justify-content: center;
-
-}
-
-h1 {
-
+.title-group h1 {
   margin: 0;
-
-  font-size: 2.2rem;
-
+  font-size: 4rem;
+  font-weight: 800;
   line-height: 1;
-
-  letter-spacing: -1px;
-
 }
 
 .subtitle {
-
-  margin-top: 6px;
-
+  margin-top: 10px;
+  font-size: 1.1rem;
   color: #9ca3af;
-
-  font-size: 0.95rem;
-
 }
 
 /* PANELS */
 
-.service-panel {
+.panel {
+  background: rgba(17, 24, 39, 0.9);
+  border: 2px solid #1d4ed8;
+  border-radius: 30px;
+  padding: 28px;
+  margin-bottom: 26px;
 
-  background: #111827;
-
-  border: 2px solid #1e3a8a;
-
-  border-radius: 16px;
-
-  padding: 14px;
-
-  margin-bottom: 14px;
-
+  backdrop-filter: blur(10px);
 }
 
-.service-title {
-
-  font-size: 0.85rem;
-
+.panel-title {
   color: #22c55e;
-
-  font-weight: 700;
-
-  text-transform: uppercase;
-
-  letter-spacing: 1px;
-
-  margin-bottom: 8px;
-
+  font-size: 1.2rem;
+  font-weight: 800;
+  letter-spacing: 2px;
+  margin-bottom: 16px;
 }
 
-.service-message {
-
+.panel p {
+  margin: 0;
   color: #d1d5db;
-
-  line-height: 1.5;
-
-  font-size: 0.88rem;
-
+  font-size: 1rem;
+  line-height: 1.8;
 }
 
-/* COLUMN CLUES */
+/* COLUMN HEADERS */
 
-.column-grid {
-
+.column-row {
   display: grid;
-
   grid-template-columns: repeat(4, 1fr);
+  gap: 16px;
 
-  gap: 8px;
-
-  margin-bottom: 14px;
-
+  margin-bottom: 28px;
 }
 
-.column-header {
-
-  background: #111827;
-
-  border-radius: 14px;
-
-  padding: 10px 8px;
-
+.column-card {
+  background: rgba(15, 23, 42, 0.95);
+  border-radius: 26px;
+  padding: 22px 14px;
   text-align: center;
-
-  min-height: 78px;
-
 }
 
 .column-letter {
-
-  font-size: 1rem;
-
-  font-weight: 700;
-
-  margin-bottom: 6px;
-
+  font-size: 2.3rem;
+  font-weight: 800;
+  margin-bottom: 12px;
 }
 
 .column-clue {
-
-  font-size: 0.68rem;
-
-  line-height: 1.3;
-
   color: #9ca3af;
-
+  font-size: 0.95rem;
+  line-height: 1.5;
 }
 
-/* PLATFORM ROWS */
-
-.platform-row {
-
-  margin-bottom: 14px;
-
-}
+/* PLATFORM */
 
 .platform {
+  background: rgba(15, 23, 42, 0.95);
+  border-radius: 30px;
+  padding: 24px;
+  margin-bottom: 18px;
 
-  background: #111827;
-
-  border-left: 4px solid #22c55e;
-
-  border-radius: 14px;
-
-  padding: 12px;
-
-  margin-bottom: 8px;
-
+  border-left: 8px solid #22c55e;
 }
 
 .platform.blue {
-
   border-left-color: #60a5fa;
-
 }
 
 .platform-title {
-
-  font-size: 0.95rem;
-
-  font-weight: 700;
-
-  margin-bottom: 4px;
-
+  font-size: 2rem;
+  font-weight: 800;
+  margin-bottom: 8px;
 }
 
 .platform-condition {
-
-  font-size: 0.82rem;
-
+  font-size: 1rem;
   color: #9ca3af;
-
 }
 
 /* CELLS */
 
-.row-cells {
-
+.cell-row {
   display: grid;
-
   grid-template-columns: repeat(4, 1fr);
+  gap: 16px;
 
-  gap: 8px;
-
+  margin-bottom: 34px;
 }
 
 .cell {
-
-  background: #0f172a;
-
-  border: 2px solid #1e3a8a;
-
-  border-radius: 14px;
-
-  min-height: 76px;
-
-  padding: 6px;
+  background: rgba(10, 20, 50, 0.95);
+  border: 3px solid #1d4ed8;
+  border-radius: 28px;
+  min-height: 150px;
 
   display: flex;
-
   align-items: center;
-
   justify-content: center;
 
   text-align: center;
 
+  padding: 14px;
+
   cursor: pointer;
 
   transition: 0.2s;
-
 }
 
 .cell:hover {
-
+  transform: translateY(-2px);
   border-color: #22c55e;
-
 }
 
 .cell.correct {
-
   background: #052e16;
-
   border-color: #22c55e;
-
 }
 
 .cell.incorrect {
-
   background: #450a0a;
-
   border-color: #ef4444;
-
 }
 
 .cell-content {
-
   display: flex;
-
   flex-direction: column;
-
-  align-items: center;
-
+  gap: 10px;
 }
 
 .station {
-
-  font-size: 0.72rem;
-
+  font-size: 1rem;
   font-weight: 700;
-
-  line-height: 1.2;
-
+  line-height: 1.4;
 }
 
 .label {
-
-  margin-top: 4px;
-
-  font-size: 0.62rem;
-
-  text-transform: uppercase;
-
-  letter-spacing: 1px;
-
-  color: #cbd5e1;
-
+  font-size: 0.8rem;
+  color: #9ca3af;
+  letter-spacing: 2px;
 }
 
-/* COMPLETE */
+/* TICKETS */
 
-.complete {
+.ticket-box {
+  background: rgba(15, 23, 42, 0.95);
+  border-radius: 28px;
+  padding: 24px;
+  margin-bottom: 24px;
 
-  margin-top: 20px;
-
-  background: #052e16;
-
-  border: 2px solid #22c55e;
-
-  border-radius: 14px;
-
-  padding: 16px;
-
-  display: none;
-
+  font-size: 1.1rem;
 }
 
-/* FOOTER */
-
-.footer-bar {
-
-  position: fixed;
-
-  left: 0;
-  right: 0;
-  bottom: 0;
-
-  background: rgba(3,8,23,0.96);
-
-  border-top: 1px solid #1e293b;
-
-  padding: 12px;
-
-}
-
-.footer-inner {
-
-  width: 100%;
-  max-width: 900px;
-
-  margin: auto;
-
-  display: flex;
-
-  gap: 10px;
-
-}
-
-.tickets {
-
-  background: #111827;
-
-  border-radius: 12px;
-
-  padding: 14px;
-
-  font-size: 0.82rem;
-
-  white-space: nowrap;
-
-}
+/* BUTTON */
 
 .submit-button {
-
-  flex: 1;
+  width: 100%;
 
   border: none;
+  border-radius: 28px;
+
+  padding: 24px;
+
+  font-size: 1.8rem;
+  font-weight: 800;
 
   background: #22c55e;
-
   color: white;
 
-  border-radius: 14px;
-
-  padding: 14px;
-
-  font-size: 0.95rem;
-
-  font-weight: 700;
-
   cursor: pointer;
-
 }
 
 /* MODAL */
 
 .modal {
-
   position: fixed;
-
   inset: 0;
 
   background: rgba(0,0,0,0.75);
 
   display: flex;
-
   align-items: center;
-
   justify-content: center;
 
   padding: 20px;
-
 }
 
 .hidden {
-
   display: none;
-
 }
 
 .modal-box {
-
   width: 100%;
-  max-width: 500px;
+  max-width: 560px;
 
   background: #111827;
+  border-radius: 30px;
 
-  border-radius: 18px;
-
-  padding: 18px;
-
+  padding: 24px;
 }
 
 #searchBox {
-
   width: 100%;
 
-  padding: 14px;
-
-  border-radius: 12px;
+  padding: 18px;
 
   border: none;
-
-  background: #0f172a;
-
-  color: white;
+  border-radius: 18px;
 
   font-size: 1rem;
 
-  margin-bottom: 14px;
-
+  margin-bottom: 20px;
 }
 
 .station-option {
-
-  padding: 12px;
-
-  border-radius: 10px;
+  padding: 18px;
+  border-radius: 18px;
 
   cursor: pointer;
 
+  font-size: 1rem;
+
+  transition: 0.2s;
 }
 
 .station-option:hover {
-
   background: #1e293b;
+}
 
+.complete {
+  display: none;
+
+  margin-top: 28px;
+
+  background: #052e16;
+  border: 2px solid #22c55e;
+  border-radius: 28px;
+
+  padding: 28px;
+
+  text-align: center;
 }
 
 /* MOBILE */
 
 @media (max-width: 700px) {
 
-  h1 {
+  .container {
+    padding: 18px;
+  }
 
-    font-size: 1.9rem;
-
+  .top-bar {
+    gap: 14px;
   }
 
   .logo {
-
-    width: 60px;
-
+    width: 70px;
+    height: 70px;
   }
 
-  .subtitle {
+  .title-group h1 {
+    font-size: 3rem;
+  }
 
-    font-size: 0.82rem;
+  .column-row {
+    gap: 10px;
+  }
 
+  .column-card {
+    padding: 18px 10px;
+  }
+
+  .column-letter {
+    font-size: 1.8rem;
   }
 
   .column-clue {
-
-    font-size: 0.64rem;
-
+    font-size: 0.8rem;
   }
 
-  .footer-inner {
-
-    flex-direction: column;
-
+  .platform-title {
+    font-size: 1.6rem;
   }
 
-  .tickets {
+  .cell-row {
+    gap: 10px;
+  }
 
-    width: 100%;
+  .cell {
+    min-height: 120px;
+    padding: 10px;
+  }
 
-    text-align: center;
-
+  .station {
+    font-size: 0.9rem;
   }
 
   .submit-button {
-
-    width: 100%;
-
+    font-size: 1.5rem;
+    padding: 20px;
   }
 
 }
@@ -554,231 +383,149 @@ h1 {
 
 <div class="container">
 
-  <!-- HEADER -->
-
-  <div class="header">
+  <div class="top-bar">
 
     <img
       src="logo.svg"
-      alt="The Route Logo"
+      alt="The Route"
       class="logo">
 
-    <div class="header-text">
+    <div class="title-group">
 
       <h1>The Route</h1>
 
       <div class="subtitle">
-
         Southeastern Alpha 001
-
       </div>
 
     </div>
 
   </div>
 
-  <!-- SERVICE UPDATE -->
+  <div class="panel">
 
-  <div class="service-panel">
-
-    <div class="service-title">
-
-      Service Update
-
+    <div class="panel-title">
+      SERVICE UPDATE
     </div>
 
-    <div class="service-message">
-
-      Engineering works continue between
-      commuter intuition and actual rail logic.
+    <p>
+      Engineering works continue between commuter intuition and actual rail logic.
       Please expect minor delays.
-
-    </div>
+    </p>
 
   </div>
 
-  <!-- ROUTE KEY -->
+  <div class="panel">
 
-  <div class="service-panel">
-
-    <div class="service-title">
-
-      Route Key
-
+    <div class="panel-title">
+      ROUTE KEY
     </div>
 
-    <div class="service-message">
-
+    <p>
       🚪 = approximately within 3 miles
-
-    </div>
+    </p>
 
   </div>
 
-  <!-- COLUMN CLUES -->
+  <div class="column-row">
 
-  <div class="column-grid">
-
-    <div class="column-header">
-
+    <div class="column-card">
       <div class="column-letter">A</div>
-
       <div class="column-clue">
-
         🚪 Ramsgate Harbour
-
       </div>
-
     </div>
 
-    <div class="column-header">
-
+    <div class="column-card">
       <div class="column-letter">B</div>
-
       <div class="column-clue">
-
-        70–100 mins
-
+        London Time Band 70–90 mins
       </div>
-
     </div>
 
-    <div class="column-header">
-
+    <div class="column-card">
       <div class="column-letter">C</div>
-
       <div class="column-clue">
-
-        Contains 'ham'
-
+        Station contains 'ham'
       </div>
-
     </div>
 
-    <div class="column-header">
-
+    <div class="column-card">
       <div class="column-letter">D</div>
-
       <div class="column-clue">
-
-        Interchange
-
+        Is an interchange
       </div>
-
     </div>
 
   </div>
 
-  <!-- PLATFORM 1 -->
+  <div class="platform">
 
-  <div class="platform-row">
-
-    <div class="platform">
-
-      <div class="platform-title">
-
-        Platform 1
-
-      </div>
-
-      <div class="platform-condition">
-
-        Not a terminus
-
-      </div>
-
+    <div class="platform-title">
+      Platform 1
     </div>
 
-    <div class="row-cells">
-
-      <div class="cell" data-row="1" data-column="A"></div>
-
-      <div class="cell" data-row="1" data-column="B"></div>
-
-      <div class="cell" data-row="1" data-column="C"></div>
-
-      <div class="cell" data-row="1" data-column="D"></div>
-
+    <div class="platform-condition">
+      Not a terminus
     </div>
 
   </div>
 
-  <!-- PLATFORM 2 -->
+  <div class="cell-row">
 
-  <div class="platform-row">
+    <div class="cell" data-row="1" data-column="A"></div>
+    <div class="cell" data-row="1" data-column="B"></div>
+    <div class="cell" data-row="1" data-column="C"></div>
+    <div class="cell" data-row="1" data-column="D"></div>
 
-    <div class="platform blue">
+  </div>
 
-      <div class="platform-title">
+  <div class="platform blue">
 
-        Platform 2
-
-      </div>
-
-      <div class="platform-condition">
-
-        Direct Charing Cross
-
-      </div>
-
+    <div class="platform-title">
+      Platform 2
     </div>
 
-    <div class="row-cells">
-
-      <div class="cell" data-row="2" data-column="A"></div>
-
-      <div class="cell" data-row="2" data-column="B"></div>
-
-      <div class="cell" data-row="2" data-column="C"></div>
-
-      <div class="cell" data-row="2" data-column="D"></div>
-
+    <div class="platform-condition">
+      Direct Charing Cross
     </div>
 
   </div>
 
-  <!-- COMPLETE -->
+  <div class="cell-row">
 
-  <div class="complete" id="completeBox">
+    <div class="cell" data-row="2" data-column="A"></div>
+    <div class="cell" data-row="2" data-column="B"></div>
+    <div class="cell" data-row="2" data-column="C"></div>
+    <div class="cell" data-row="2" data-column="D"></div>
+
+  </div>
+
+  <div class="ticket-box">
+    🎫 Tickets Remaining: <span id="ticketCount">3</span>
+  </div>
+
+  <button
+    class="submit-button"
+    onclick="submitBoard()">
+
+    Submit Route
+
+  </button>
+
+  <div
+    class="complete"
+    id="completeBox">
 
     <h2>Route Complete!</h2>
 
     <p>
-
-      Station contains 'ham'
-      AND is an interchange:
-
+      Special Service Announcement:
     </p>
 
     <strong>
-
-      West Wickham
-
+      Station contains 'ham' AND is an interchange = West Wickham
     </strong>
-
-  </div>
-
-</div>
-
-<!-- FOOTER -->
-
-<div class="footer-bar">
-
-  <div class="footer-inner">
-
-    <div class="tickets">
-
-      🎫 Tickets Remaining: 3
-
-    </div>
-
-    <button
-      class="submit-button"
-      onclick="submitBoard()">
-
-      Submit Route
-
-    </button>
 
   </div>
 
@@ -803,77 +550,31 @@ h1 {
 
 <script>
 
-const stations = [
-
-  {
-    name: "Dumpton Park",
-    terminus: false,
-    directCharingCross: false,
-    nearHarbour: true,
-    londonBand: "70-100",
-    containsHam: false,
-    interchange: false
-  },
-
-  {
-    name: "Ramsgate",
-    terminus: true,
-    directCharingCross: true,
-    nearHarbour: true,
-    londonBand: "70-100",
-    containsHam: false,
-    interchange: false
-  },
-
-  {
-    name: "Meopham",
-    terminus: false,
-    directCharingCross: true,
-    nearHarbour: false,
-    londonBand: "70-100",
-    containsHam: true,
-    interchange: false
-  },
-
-  {
-    name: "Chartham",
-    terminus: false,
-    directCharingCross: true,
-    nearHarbour: false,
-    londonBand: "70-100",
-    containsHam: true,
-    interchange: false
-  },
-
-  {
-    name: "Ashford International",
-    terminus: false,
-    directCharingCross: true,
-    nearHarbour: false,
-    londonBand: "70-100",
-    containsHam: false,
-    interchange: true
-  }
-
-];
+let stations = [];
 
 const rowRules = {
 
-  1: station => !station.terminus,
+  1: station => !station.is_terminus,
 
-  2: station => station.directCharingCross
+  2: station => station.direct_to_charing_cross
 
 };
 
 const columnRules = {
 
-  A: station => station.nearHarbour,
+  A: station =>
+    station.distance_band === "0 to 3",
 
-  B: station => station.londonBand === "70-100",
+  B: station =>
+    station.time_group === "70 to 90",
 
-  C: station => station.containsHam,
+  C: station =>
+    station.station_name
+      .toLowerCase()
+      .includes("ham"),
 
-  D: station => station.interchange
+  D: station =>
+    station.is_interchange
 
 };
 
@@ -893,6 +594,38 @@ const cells =
   document.querySelectorAll(".cell");
 
 let activeCell = null;
+
+/* LOAD JSON */
+
+async function loadStations() {
+
+  try {
+
+    const response = await fetch(
+      "data/stations/southeastern.json"
+    );
+
+    stations = await response.json();
+
+    console.log(
+      "Stations loaded:",
+      stations.length
+    );
+
+  } catch (error) {
+
+    console.error(
+      "Failed to load JSON:",
+      error
+    );
+
+  }
+
+}
+
+loadStations();
+
+/* INITIALISE CELLS */
 
 cells.forEach(cell => {
 
@@ -919,7 +652,7 @@ function resetCell(cell) {
       </div>
 
       <div class="label">
-        Waiting
+        WAITING
       </div>
 
     </div>
@@ -949,32 +682,36 @@ function renderStations(list) {
     const option =
       document.createElement("div");
 
-    option.className = "station-option";
+    option.className =
+      "station-option";
 
-    option.textContent = station.name;
+    option.textContent =
+      station.station_name;
 
     option.onclick = () => {
 
       activeCell.dataset.selected =
-        station.name;
+        station.route_station_id;
 
       activeCell.innerHTML = `
 
         <div class="cell-content">
 
           <div class="station">
-            ${station.name}
+            ${station.station_name}
           </div>
 
           <div class="label">
-            Arriving
+            ARRIVING
           </div>
 
         </div>
 
       `;
 
-      activeCell.classList.remove("incorrect");
+      activeCell.classList.remove(
+        "incorrect"
+      );
 
       modal.classList.add("hidden");
 
@@ -994,7 +731,7 @@ searchBox.oninput = () => {
   const filtered =
     stations.filter(station =>
 
-      station.name
+      station.station_name
         .toLowerCase()
         .includes(value)
 
@@ -1006,16 +743,16 @@ searchBox.oninput = () => {
 
 function validateCell(cell) {
 
-  const stationName =
+  const stationId =
     cell.dataset.selected;
 
-  if (!stationName) {
+  if (!stationId) {
     return false;
   }
 
   const station =
     stations.find(
-      s => s.name === stationName
+      s => s.route_station_id === stationId
     );
 
   const row =
@@ -1047,7 +784,7 @@ function submitBoard() {
       cell.classList.remove("incorrect");
 
       cell.querySelector(".label").textContent =
-        "Correct";
+        "CORRECT";
 
       correct++;
 
@@ -1058,7 +795,7 @@ function submitBoard() {
       cell.classList.add("incorrect");
 
       cell.querySelector(".label").textContent =
-        "Invalid";
+        "INVALID";
 
     }
 
@@ -1072,7 +809,7 @@ function submitBoard() {
 
 }
 
-modal.onclick = (event) => {
+modal.onclick = event => {
 
   if (event.target === modal) {
 
@@ -1085,5 +822,5 @@ modal.onclick = (event) => {
 </script>
 
 </body>
-
 </html>
+```

@@ -901,7 +901,26 @@ function validateCell(cell) {
 
   const columnValid =
     columnRules[column](station);
+const puzzleColumn =
+  puzzle.columns.find(
+    c => c.id === column
+  );
 
+if (puzzleColumn) {
+
+  console.log(
+    "Checking:",
+    puzzleColumn.field,
+    "===",
+    puzzleColumn.value
+  );
+
+  console.log(
+    "Station value:",
+    station[puzzleColumn.field]
+  );
+
+}
   return rowValid && columnValid;
 
 }

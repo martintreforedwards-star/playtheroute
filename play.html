@@ -568,7 +568,57 @@ body {
   </div>
 
 </div>
+<div
+  class="routepedia-modal hidden"
+  id="routepediaModal">
 
+  <div class="routepedia-box">
+
+    <div class="routepedia-title">
+      📘 Routepedia
+    </div>
+
+    <div class="routepedia-entry">
+
+      <strong>
+        🚪 Coastal
+      </strong>
+
+      Station is classified as coastal commuter geography.
+
+    </div>
+
+    <div class="routepedia-entry">
+
+      <strong>
+        ⏱ Time Bands
+      </strong>
+
+      Stations are grouped by approximate canonical journey time into London.
+
+    </div>
+
+    <div class="routepedia-entry">
+
+      <strong>
+        🔀 Interchange
+      </strong>
+
+      Station allows interchange between significant routes or services.
+
+    </div>
+
+    <button
+      class="routepedia-close"
+      onclick="closeRoutepedia()">
+
+      Close
+
+    </button>
+
+  </div>
+
+</div>
 <script>
 
 let stations = [];
@@ -697,7 +747,21 @@ async function initialiseGame() {
 }
 
 initialiseGame();
+function openRoutepedia() {
 
+  document
+    .getElementById("routepediaModal")
+    .classList.remove("hidden");
+
+}
+
+function closeRoutepedia() {
+
+  document
+    .getElementById("routepediaModal")
+    .classList.add("hidden");
+
+}
 cells.forEach(cell => {
 
   resetCell(cell);

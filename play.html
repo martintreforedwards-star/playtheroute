@@ -99,12 +99,17 @@ body {
   cursor: pointer;
 }
 
+.game-grid-wrapper {
+  overflow-x: auto;
+}
+
 .game-grid {
   display: grid;
   grid-template-columns: 180px repeat(4, 1fr);
   gap: 14px;
   align-items: stretch;
   margin-bottom: 30px;
+  min-width: 760px;
 }
 
 .corner {
@@ -198,6 +203,26 @@ body {
   font-size: 0.8rem;
   color: #9ca3af;
   letter-spacing: 2px;
+}
+
+.ticket-box {
+  background: rgba(15, 23, 42, 0.95);
+  border-radius: 24px;
+  padding: 22px;
+  margin-bottom: 22px;
+  font-size: 1.1rem;
+}
+
+.submit-button {
+  width: 100%;
+  border: none;
+  border-radius: 26px;
+  padding: 22px;
+  font-size: 1.6rem;
+  font-weight: 800;
+  background: #22c55e;
+  color: white;
+  cursor: pointer;
 }
 
 .modal.hidden,
@@ -306,11 +331,6 @@ body {
     font-size: 3rem;
   }
 
-  .game-grid {
-    grid-template-columns: 120px repeat(4, 1fr);
-    overflow-x: auto;
-  }
-
 }
 
 </style>
@@ -373,73 +393,94 @@ body {
 
   </div>
 
-  <div class="game-grid">
+  <div class="game-grid-wrapper">
 
-    <div class="corner"></div>
+    <div class="game-grid">
 
-    <div class="column-header">
-      <strong>A</strong>
-      <span class="column-clue">
-        🚪 Coastal
-      </span>
+      <div class="corner"></div>
+
+      <div class="column-header">
+        <strong>A</strong>
+        <span class="column-clue">
+          🚪 Coastal
+        </span>
+      </div>
+
+      <div class="column-header">
+        <strong>B</strong>
+        <span class="column-clue">
+          ⏱ 70–90 mins
+        </span>
+      </div>
+
+      <div class="column-header">
+        <strong>C</strong>
+        <span class="column-clue">
+          Contains 'ham'
+        </span>
+      </div>
+
+      <div class="column-header">
+        <strong>D</strong>
+        <span class="column-clue">
+          Interchange
+        </span>
+      </div>
+
+      <div class="row-header green">
+
+        <strong>
+          Platform 1
+        </strong>
+
+        <span>
+          Not a terminus
+        </span>
+
+      </div>
+
+      <div class="cell"></div>
+      <div class="cell"></div>
+      <div class="cell"></div>
+      <div class="cell"></div>
+
+      <div class="row-header blue">
+
+        <strong>
+          Platform 2
+        </strong>
+
+        <span>
+          Direct Charing Cross
+        </span>
+
+      </div>
+
+      <div class="cell"></div>
+      <div class="cell"></div>
+      <div class="cell"></div>
+      <div class="cell"></div>
+
     </div>
-
-    <div class="column-header">
-      <strong>B</strong>
-      <span class="column-clue">
-        ⏱ 70–90 mins
-      </span>
-    </div>
-
-    <div class="column-header">
-      <strong>C</strong>
-      <span class="column-clue">
-        Contains 'ham'
-      </span>
-    </div>
-
-    <div class="column-header">
-      <strong>D</strong>
-      <span class="column-clue">
-        Interchange
-      </span>
-    </div>
-
-    <div class="row-header green">
-
-      <strong>
-        Platform 1
-      </strong>
-
-      <span>
-        Not a terminus
-      </span>
-
-    </div>
-
-    <div class="cell"></div>
-    <div class="cell"></div>
-    <div class="cell"></div>
-    <div class="cell"></div>
-
-    <div class="row-header blue">
-
-      <strong>
-        Platform 2
-      </strong>
-
-      <span>
-        Direct Charing Cross
-      </span>
-
-    </div>
-
-    <div class="cell"></div>
-    <div class="cell"></div>
-    <div class="cell"></div>
-    <div class="cell"></div>
 
   </div>
+
+  <div class="ticket-box">
+
+    🎫 Tickets Remaining:
+    <span id="ticketCount">
+      3
+    </span>
+
+  </div>
+
+  <button
+    class="submit-button"
+    onclick="submitBoard()">
+
+    Submit Route
+
+  </button>
 
 </div>
 
@@ -694,6 +735,14 @@ function closeRoutepedia() {
     .classList.add(
       "hidden"
     );
+
+}
+
+function submitBoard() {
+
+  alert(
+    "Validation system next"
+  );
 
 }
 

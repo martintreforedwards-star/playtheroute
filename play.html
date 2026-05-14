@@ -812,52 +812,77 @@ function renderStations(list) {
 
   results.innerHTML = "";
 
-  list.forEach(station => {
+  const usedStations = [];
 
-    const option =
-      document.createElement("div");
+  cells.forEach(cell => {
 
-    option.className =
-      "station-option";
+    if (cell.dataset.selected) {
 
-    option.textContent =
-      station.station_name;
-
-    option.onclick = () => {
-
-      activeCell.dataset.selected =
-        station.route_station_id;
-
-      activeCell.innerHTML = `
-
-        <div class="cell-content">
-
-          <div class="station">
-            ${station.station_name}
-          </div>
-
-          <div class="label">
-            ARRIVING
-          </div>
-
-        </div>
-
-      `;
-
-      activeCell.classList.remove(
-        "incorrect"
+      usedStations.push(
+        cell.dataset.selected
       );
 
-      modal.classList.add("hidden");
-
-    };
-
-    results.appendChild(option);
+    }
 
   });
 
-}
+  list
+    .filter(station =>
 
+      !usedStations.includes(
+        station.route_station_id
+      )
+
+    )
+    .forEach(station => {
+
+      const option =
+        document.createElement("div");
+
+      option.className =
+        "station-option";
+
+      option.textContent =
+        station.station_name;
+
+      option.onclick = () => {
+
+        activeCell.dataset.selected =
+          station.route_station_id;
+
+        activeCell.innerHTML = `
+
+          <div class="cell-content">
+
+            <div class="station">
+              ${station.station_name}
+            </div>
+
+            <div class="label">
+              ARRIVING
+            </div>
+
+          </div>
+
+        `;
+
+        activeCell.classList.remove(
+          "incorrect"
+        );
+
+        activeCell.classList.remove(
+          "correct"
+        );
+
+        modal.classList.add("hidden");
+
+      };
+
+      results.appendChild(option);
+
+    });
+
+}
 searchBox.oninput = () => {
 
   const value =

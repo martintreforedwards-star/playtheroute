@@ -56,17 +56,15 @@ body {
   margin: 0;
   font-size: 4rem;
   font-weight: 800;
-  line-height: 1;
 }
 
 .subtitle {
   margin-top: 8px;
-  font-size: 1.1rem;
   color: #9ca3af;
 }
 
 .panel {
-  background: rgba(17, 24, 39, 0.92);
+  background: rgba(17,24,39,0.92);
   border: 2px solid #1d4ed8;
   border-radius: 28px;
   padding: 26px;
@@ -75,57 +73,39 @@ body {
 
 .panel-title {
   color: #22c55e;
-  font-size: 1.15rem;
+  font-size: 1.1rem;
   font-weight: 800;
   letter-spacing: 2px;
   margin-bottom: 16px;
 }
 
-.panel p {
-  margin: 0;
-  color: #d1d5db;
-  line-height: 1.8;
-}
-
 .routepedia-button {
-  margin-top: 18px;
+  margin-top: 16px;
   border: none;
   background: #2563eb;
   color: white;
-  padding: 14px 20px;
+  padding: 14px 18px;
   border-radius: 16px;
-  font-size: 0.95rem;
-  font-weight: 700;
   cursor: pointer;
-}
-
-.game-grid-wrapper {
-  overflow-x: auto;
+  font-weight: 700;
 }
 
 .game-grid {
   display: grid;
   grid-template-columns: 180px repeat(4, 1fr);
   gap: 14px;
-  align-items: stretch;
-  margin-bottom: 30px;
   min-width: 760px;
 }
 
-.corner {
-  background: transparent;
+.game-grid-wrapper {
+  overflow-x: auto;
 }
 
 .column-header {
-  background: rgba(15, 23, 42, 0.95);
+  background: rgba(15,23,42,0.95);
   border-radius: 24px;
-  padding: 18px 12px;
+  padding: 18px;
   text-align: center;
-
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  gap: 10px;
 }
 
 .column-header strong {
@@ -133,41 +113,42 @@ body {
 }
 
 .column-clue {
-  font-size: 0.9rem;
+  margin-top: 12px;
   color: #d1d5db;
-  line-height: 1.4;
+  font-size: 0.9rem;
+}
+
+.corner {
+  background: transparent;
 }
 
 .row-header {
-  border-radius: 26px;
+  border-radius: 24px;
   padding: 22px;
-
   display: flex;
   flex-direction: column;
   justify-content: center;
-  gap: 10px;
-
-  font-size: 1rem;
 }
 
 .row-header strong {
   font-size: 1.5rem;
+  margin-bottom: 10px;
 }
 
 .row-header.green {
-  background: rgba(15, 23, 42, 0.95);
+  background: rgba(15,23,42,0.95);
   border-left: 8px solid #22c55e;
 }
 
 .row-header.blue {
-  background: rgba(15, 23, 42, 0.95);
+  background: rgba(15,23,42,0.95);
   border-left: 8px solid #60a5fa;
 }
 
 .cell {
-  background: rgba(10, 20, 50, 0.95);
+  background: rgba(10,20,50,0.95);
   border: 3px solid #1d4ed8;
-  border-radius: 26px;
+  border-radius: 24px;
   min-height: 140px;
 
   display: flex;
@@ -175,16 +156,9 @@ body {
   justify-content: center;
 
   text-align: center;
-
   padding: 12px;
 
   cursor: pointer;
-
-  transition: 0.2s;
-}
-
-.cell:hover {
-  border-color: #22c55e;
 }
 
 .cell.correct {
@@ -206,27 +180,26 @@ body {
 .station {
   font-size: 1rem;
   font-weight: 700;
-  line-height: 1.4;
 }
 
 .label {
   font-size: 0.8rem;
-  color: #9ca3af;
   letter-spacing: 2px;
+  color: #9ca3af;
 }
 
 .ticket-box {
-  background: rgba(15, 23, 42, 0.95);
+  margin-top: 24px;
+  background: rgba(15,23,42,0.95);
   border-radius: 24px;
-  padding: 22px;
-  margin-bottom: 22px;
-  font-size: 1.1rem;
+  padding: 20px;
 }
 
 .submit-button {
+  margin-top: 22px;
   width: 100%;
   border: none;
-  border-radius: 26px;
+  border-radius: 24px;
   padding: 22px;
   font-size: 1.6rem;
   font-weight: 800;
@@ -246,12 +219,9 @@ body {
   justify-content: center;
 
   z-index: 9999;
-
-  padding: 20px;
 }
 
-.modal.hidden,
-.routepedia-modal.hidden {
+.hidden {
   display: none !important;
 }
 
@@ -259,57 +229,41 @@ body {
 .routepedia-box {
   width: 90%;
   max-width: 620px;
-
   background: #111827;
-
   border: 2px solid #1d4ed8;
   border-radius: 28px;
-
   padding: 28px;
-
   max-height: 85vh;
   overflow-y: auto;
 }
 
-.routepedia-title {
-  color: #22c55e;
-  font-size: 2rem;
-  font-weight: 800;
-  margin-bottom: 22px;
+#searchBox {
+  width: 100%;
+  padding: 18px;
+  border-radius: 18px;
+  border: none;
+  margin-bottom: 20px;
+  font-size: 1rem;
+}
+
+.station-option {
+  padding: 16px;
+  border-radius: 14px;
+  cursor: pointer;
+}
+
+.station-option:hover {
+  background: #1e293b;
 }
 
 .routepedia-close {
   border: none;
   background: #ef4444;
   color: white;
-  padding: 14px 20px;
-  border-radius: 16px;
-  font-weight: 700;
+  padding: 14px 18px;
+  border-radius: 14px;
   cursor: pointer;
-}
-
-#searchBox {
-  width: 100%;
-  padding: 18px;
-  border: none;
-  border-radius: 18px;
-  font-size: 1rem;
-  margin-bottom: 20px;
-}
-
-#results {
-  max-height: 55vh;
-  overflow-y: auto;
-}
-
-.station-option {
-  padding: 18px;
-  border-radius: 18px;
-  cursor: pointer;
-}
-
-.station-option:hover {
-  background: #1e293b;
+  margin-top: 20px;
 }
 
 </style>
@@ -324,7 +278,6 @@ body {
 
     <img
       src="logo.svg"
-      alt="The Route"
       class="logo">
 
     <div class="title-group">
@@ -345,9 +298,7 @@ body {
       SERVICE UPDATE
     </div>
 
-    <p>
-      Engineering works continue between commuter intuition and actual rail logic.
-    </p>
+    Engineering works continue between commuter intuition and actual rail logic.
 
   </div>
 
@@ -357,9 +308,9 @@ body {
       ROUTE KEY
     </div>
 
-    <p>
-      🚪 = coastal commuter geography
-    </p>
+    🚪 = coastal commuter geography
+
+    <br>
 
     <button
       class="routepedia-button"
@@ -379,30 +330,30 @@ body {
 
       <div class="column-header">
         <strong>A</strong>
-        <span class="column-clue">
+        <div class="column-clue">
           🚪 Coastal
-        </span>
+        </div>
       </div>
 
       <div class="column-header">
         <strong>B</strong>
-        <span class="column-clue">
+        <div class="column-clue">
           ⏱ 70–90 mins
-        </span>
+        </div>
       </div>
 
       <div class="column-header">
         <strong>C</strong>
-        <span class="column-clue">
+        <div class="column-clue">
           Contains 'ham'
-        </span>
+        </div>
       </div>
 
       <div class="column-header">
         <strong>D</strong>
-        <span class="column-clue">
+        <div class="column-clue">
           Interchange
-        </span>
+        </div>
       </div>
 
       <div class="row-header green">
@@ -485,9 +436,13 @@ body {
 
   <div class="routepedia-box">
 
-    <div class="routepedia-title">
+    <h2>
       📘 Routepedia
-    </div>
+    </h2>
+
+    <p>
+      Route clues explained here later.
+    </p>
 
     <button
       class="routepedia-close"
@@ -563,9 +518,9 @@ const searchBox =
     "searchBox"
   );
 
-let activeCell = null;
-
 let stations = [];
+
+let activeCell = null;
 
 const boardState = {};
 
@@ -669,6 +624,14 @@ function placeStation(station) {
     `${row}-${column}`
   ] = station;
 
+  activeCell.classList.remove(
+    "correct"
+  );
+
+  activeCell.classList.remove(
+    "incorrect"
+  );
+
   activeCell.innerHTML = `
 
     <div class="cell-content">
@@ -685,14 +648,6 @@ function placeStation(station) {
 
   `;
 
-  activeCell.classList.remove(
-    "correct"
-  );
-
-  activeCell.classList.remove(
-    "incorrect"
-  );
-
   modal.classList.add(
     "hidden"
   );
@@ -706,14 +661,14 @@ function submitBoard() {
   Object.entries(boardState)
     .forEach(([key, station]) => {
 
-      const parts =
+      const split =
         key.split("-");
 
       const row =
-        Number(parts[0]);
+        Number(split[0]);
 
       const column =
-        Number(parts[1]);
+        Number(split[1]);
 
       const rowRule =
         puzzle.rows[row];
@@ -729,7 +684,7 @@ function submitBoard() {
         station[columnRule.field]
           === columnRule.value;
 
-      const alreadyUsed =
+      const duplicate =
         usedStations.includes(
           station.station_name
         );
@@ -737,49 +692,45 @@ function submitBoard() {
       const valid =
         rowPass &&
         columnPass &&
-        !alreadyUsed;
+        !duplicate;
 
-      if (!alreadyUsed) {
+      usedStations.push(
+        station.station_name
+      );
 
-        usedStations.push(
-          station.station_name
-        );
-
-      }
-
-      const targetCell =
+      const cell =
         document.querySelector(
           `.cell[data-row="${row}"][data-column="${column}"]`
         );
 
-      targetCell.classList.remove(
+      cell.classList.remove(
         "correct"
       );
 
-      targetCell.classList.remove(
+      cell.classList.remove(
         "incorrect"
       );
 
-      targetCell.querySelector(
-        ".label"
-      ).textContent =
-        valid
-          ? "CORRECT"
-          : "INVALID";
-
       if (valid) {
 
-        targetCell.classList.add(
+        cell.classList.add(
           "correct"
         );
 
       } else {
 
-        targetCell.classList.add(
+        cell.classList.add(
           "incorrect"
         );
 
       }
+
+      cell.querySelector(
+        ".label"
+      ).textContent =
+        valid
+          ? "CORRECT"
+          : "INVALID";
 
     });
 

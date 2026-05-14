@@ -628,23 +628,7 @@ const rowRules = {
 
 };
 
-const columnRules = {
-
-  A: station =>
-    station.distance_band === "coastal",
-
-  B: station =>
-    station.time_group === "70 to 90",
-
-  C: station =>
-    station.station_name
-      .toLowerCase()
-      .includes("ham"),
-
-  D: station =>
-    station.is_interchange
-
-};
+const columnRules = {};
 
 const modal =
   document.getElementById("modal");
@@ -915,8 +899,7 @@ function validateCell(cell) {
   const rowValid =
     rowRules[row](station);
 
-  const columnValid =
-    columnRules[column](station);
+  let columnValid = false;
 
   const puzzleColumn =
     puzzle.columns.find(
@@ -925,17 +908,29 @@ function validateCell(cell) {
 
   if (puzzleColumn) {
 
-    console.log(
-      "Checking:",
-      puzzleColumn.field,
-      "===",
-      puzzleColumn.value
-    );
+    const stationValue =
+      station[puzzleColumn.field];
 
-    console.log(
-      "Station value:",
-      station[puzzleColumn.field]
-    );
+    if (
+      typeof puzzleColumn.value ===
+      "boolean"
+    ) {
+
+      columnValid =
+        stationValue ===
+        puzzleColumn.value;
+
+    } else {
+
+      columnValid =
+        String(stationValue)
+          .toLowerCase()
+          .includes(
+            String(puzzleColumn.value)
+              .toLowerCase()
+          );
+
+    }
 
   }
 

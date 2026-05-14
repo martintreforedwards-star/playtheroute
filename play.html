@@ -225,13 +225,25 @@ body {
   cursor: pointer;
 }
 
-.modal.hidden,
-.routepedia-modal.hidden {
-  display: none;
-}
-
 .modal,
 .routepedia-modal {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.82);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  z-index: 9999;
+
+  padding: 20px;
+}
+
+.modal.hidden,
+.routepedia-modal.hidden {
+  display: none !important;
+}
   position: fixed;
   inset: 0;
   background: rgba(0,0,0,0.82);

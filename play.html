@@ -495,33 +495,10 @@ body {
 
 <script>
 
-async function loadStations() = [];
-      async function loadPuzzle() {
+let stations = [];
 
-  try {
-
-    const response = await fetch(
-      "data/puzzles/southeastern_alpha_001.json"
-    );
-
-    puzzle = await response.json();
-
-    console.log(
-      "Puzzle loaded:",
-      puzzle
-    );
-
-  } catch (error) {
-
-    console.error(
-      "Failed to load puzzle:",
-      error
-    );
-
-  }
-
-}
 let puzzle = {};
+
 const rowRules = {
 
   1: station => !station.is_terminus,
@@ -584,6 +561,32 @@ async function loadStations() {
 
     console.error(
       "Failed to load stations:",
+      error
+    );
+
+  }
+
+}
+
+async function loadPuzzle() {
+
+  try {
+
+    const response = await fetch(
+      "data/puzzles/southeastern_alpha_001.json"
+    );
+
+    puzzle = await response.json();
+
+    console.log(
+      "Puzzle loaded:",
+      puzzle
+    );
+
+  } catch (error) {
+
+    console.error(
+      "Failed to load puzzle:",
       error
     );
 
@@ -797,4 +800,3 @@ modal.onclick = event => {
 
 </body>
 </html>
-

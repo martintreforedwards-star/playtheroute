@@ -262,7 +262,73 @@ body {
   padding: 28px;
   text-align: center;
 }
+.routepedia-button {
+  margin-top: 18px;
+  border: none;
+  background: #1d4ed8;
+  color: white;
+  padding: 14px 20px;
+  border-radius: 18px;
+  font-size: 1rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: 0.2s;
+}
 
+.routepedia-button:hover {
+  background: #2563eb;
+}
+
+.routepedia-modal {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.75);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  z-index: 999;
+}
+
+.routepedia-box {
+  width: 100%;
+  max-width: 700px;
+  max-height: 80vh;
+  overflow-y: auto;
+  background: #111827;
+  border: 2px solid #1d4ed8;
+  border-radius: 30px;
+  padding: 30px;
+}
+
+.routepedia-title {
+  font-size: 2rem;
+  font-weight: 800;
+  margin-bottom: 20px;
+  color: #22c55e;
+}
+
+.routepedia-entry {
+  margin-bottom: 22px;
+}
+
+.routepedia-entry strong {
+  display: block;
+  margin-bottom: 8px;
+  font-size: 1.1rem;
+}
+
+.routepedia-close {
+  margin-top: 20px;
+  border: none;
+  background: #ef4444;
+  color: white;
+  padding: 14px 20px;
+  border-radius: 18px;
+  font-size: 1rem;
+  font-weight: 700;
+  cursor: pointer;
+}
 @media (max-width: 700px) {
 
   .container {

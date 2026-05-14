@@ -557,9 +557,195 @@ body {
 
 <script>
 
-console.log("Board redesign active");
+const cells =
+  document.querySelectorAll(".cell");
+
+let activeCell = null;
+
+const modal =
+  document.getElementById("stationModal");
+
+const results =
+  document.getElementById("results");
+
+const searchBox =
+  document.getElementById("searchBox");
+
+let stations = [];
+
+fetch(
+  "data/stations/southeastern.json"
+)
+.then(response => response.json())
+.then(data => {
+
+  stations = data;
+
+  console.log(
+    "Stations loaded:",
+    stations.length
+  );
+
+});
+
+cells.forEach(cell => {
+
+  cell.addEventListener(
+    "click",
+    () => {
+
+      activeCell = cell;
+
+      modal.classList.remove(
+        "hidden"
+      );
+
+      renderStations(
+        stations
+      );
+
+    }
+
+  );
+
+});
+
+function renderStations(list) {
+
+  results.innerHTML = "";
+
+  const usedStations = [];
+
+  cells.forEach(cell => {
+
+    if (cell.dataset.selected) {
+
+      usedStations.push(
+        cell.dataset.selected
+      );
+
+    }
+
+  });
+
+  list
+    .filter(station =>
+
+      !usedStations.includes(
+        station.route_station_id
+      )
+
+    )
+    .forEach(station => {
+
+      const option =
+        document.createElement("div");
+
+      option.className =
+        "station-option";
+
+      option.textContent =
+        station.station_name;
+
+      option.onclick = () => {
+
+        activeCell.dataset.selected =
+          station.route_station_id;
+
+        activeCell.innerHTML = `
+
+          <div class="cell-content">
+
+            <div class="station">
+              ${station.station_name}
+            </div>
+
+            <div class="label">
+              ARRIVING
+            </div>
+
+          </div>
+
+        `;
+
+        activeCell.classList.remove(
+          "incorrect"
+        );
+
+        activeCell.classList.remove(
+          "correct"
+        );
+
+        modal.classList.add(
+          "hidden"
+        );
+
+      };
+
+      results.appendChild(
+        option
+      );
+
+    });
+
+}
+
+searchBox.addEventListener(
+  "input",
+  () => {
+
+    const query =
+      searchBox.value.toLowerCase();
+
+    const filtered =
+      stations.filter(station =>
+
+        station.station_name
+          .toLowerCase()
+          .includes(query)
+
+      );
+
+    renderStations(
+      filtered
+    );
+
+  }
+
+);
+
+function submitBoard() {
+
+  alert(
+    "Validation reconnect next"
+  );
+
+}
+
+function openRoutepedia() {
+
+  document
+    .getElementById(
+      "routepediaModal"
+    )
+    .classList.remove(
+      "hidden"
+    );
+
+}
+
+function closeRoutepedia() {
+
+  document
+    .getElementById(
+      "routepediaModal"
+    )
+    .classList.add(
+      "hidden"
+    );
+
+}
 
 </script>
-
 </body>
 </html>

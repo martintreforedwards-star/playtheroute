@@ -278,15 +278,6 @@ body {
   margin-bottom: 22px;
 }
 
-.routepedia-entry {
-  margin-bottom: 24px;
-}
-
-.routepedia-entry strong {
-  display: block;
-  margin-bottom: 8px;
-}
-
 .routepedia-close {
   border: none;
   background: #ef4444;
@@ -315,32 +306,10 @@ body {
   padding: 18px;
   border-radius: 18px;
   cursor: pointer;
-  transition: 0.2s;
 }
 
 .station-option:hover {
   background: #1e293b;
-}
-
-@media (max-width: 700px) {
-
-  .container {
-    padding: 18px;
-  }
-
-  .top-bar {
-    gap: 14px;
-  }
-
-  .logo {
-    width: 64px;
-    height: 64px;
-  }
-
-  .title-group h1 {
-    font-size: 3rem;
-  }
-
 }
 
 </style>
@@ -378,7 +347,6 @@ body {
 
     <p>
       Engineering works continue between commuter intuition and actual rail logic.
-      Please expect minor delays.
     </p>
 
   </div>
@@ -611,11 +579,8 @@ cells.forEach((cell, index) => {
   const column =
     index % 4;
 
-  cell.dataset.row =
-    row;
-
-  cell.dataset.column =
-    column;
+  cell.dataset.row = row;
+  cell.dataset.column = column;
 
 });
 
@@ -700,22 +665,9 @@ function placeStation(station) {
       activeCell.dataset.column
     );
 
-  const rowRule =
-    puzzle.rows[row];
-
-  const columnRule =
-    puzzle.columns[column];
-
-  const rowPass =
-    station[rowRule.field]
-      === rowRule.value;
-
-  const columnPass =
-    station[columnRule.field]
-      === columnRule.value;
-
-  const valid =
-    rowPass && columnPass;
+  boardState[
+    `${row}-${column}`
+  ] = station;
 
   activeCell.innerHTML = `
 
@@ -726,7 +678,7 @@ function placeStation(station) {
       </div>
 
       <div class="label">
-        ${valid ? "CORRECT" : "INVALID"}
+        ARRIVING
       </div>
 
     </div>
@@ -741,27 +693,95 @@ function placeStation(station) {
     "incorrect"
   );
 
-  if (valid) {
-
-    activeCell.classList.add(
-      "correct"
-    );
-
-  } else {
-
-    activeCell.classList.add(
-      "incorrect"
-    );
-
-  }
-
-  boardState[
-    `${row}-${column}`
-  ] = valid;
-
   modal.classList.add(
     "hidden"
   );
+
+}
+
+function submitBoard() {
+
+  const usedStations = [];
+
+  Object.entries(boardState)
+    .forEach(([key, station]) => {
+
+      const parts =
+        key.split("-");
+
+      const row =
+        Number(parts[0]);
+
+      const column =
+        Number(parts[1]);
+
+      const rowRule =
+        puzzle.rows[row];
+
+      const columnRule =
+        puzzle.columns[column];
+
+      const rowPass =
+        station[rowRule.field]
+          === rowRule.value;
+
+      const columnPass =
+        station[columnRule.field]
+          === columnRule.value;
+
+      const alreadyUsed =
+        usedStations.includes(
+          station.station_name
+        );
+
+      const valid =
+        rowPass &&
+        columnPass &&
+        !alreadyUsed;
+
+      if (!alreadyUsed) {
+
+        usedStations.push(
+          station.station_name
+        );
+
+      }
+
+      const targetCell =
+        document.querySelector(
+          `.cell[data-row="${row}"][data-column="${column}"]`
+        );
+
+      targetCell.classList.remove(
+        "correct"
+      );
+
+      targetCell.classList.remove(
+        "incorrect"
+      );
+
+      targetCell.querySelector(
+        ".label"
+      ).textContent =
+        valid
+          ? "CORRECT"
+          : "INVALID";
+
+      if (valid) {
+
+        targetCell.classList.add(
+          "correct"
+        );
+
+      } else {
+
+        targetCell.classList.add(
+          "incorrect"
+        );
+
+      }
+
+    });
 
 }
 
@@ -828,25 +848,6 @@ function closeRoutepedia() {
     .classList.add(
       "hidden"
     );
-
-}
-
-function submitBoard() {
-
-  const values =
-    Object.values(
-      boardState
-    );
-
-  const correct =
-    values.filter(
-      value => value
-    ).length;
-
-  console.log(
-    "Correct:",
-    correct
-  );
 
 }
 

@@ -90,6 +90,10 @@ body {
   font-weight: 700;
 }
 
+.game-grid-wrapper {
+  overflow-x: auto;
+}
+
 .game-grid {
   display: grid;
   grid-template-columns: 180px repeat(4, 1fr);
@@ -97,8 +101,8 @@ body {
   min-width: 760px;
 }
 
-.game-grid-wrapper {
-  overflow-x: auto;
+.corner {
+  background: transparent;
 }
 
 .column-header {
@@ -116,10 +120,6 @@ body {
   margin-top: 12px;
   color: #d1d5db;
   font-size: 0.9rem;
-}
-
-.corner {
-  background: transparent;
 }
 
 .row-header {
@@ -680,9 +680,27 @@ function submitBoard() {
         station[rowRule.field]
           === rowRule.value;
 
-      const columnPass =
-        station[columnRule.field]
-          === columnRule.value;
+      let columnPass = false;
+
+      if (
+        columnRule.field
+          === "contains_ham"
+      ) {
+
+        columnPass =
+          station.station_name
+            .toLowerCase()
+            .includes("ham");
+
+      }
+
+      else {
+
+        columnPass =
+          station[columnRule.field]
+            === columnRule.value;
+
+      }
 
       const duplicate =
         usedStations.includes(

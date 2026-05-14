@@ -495,8 +495,33 @@ body {
 
 <script>
 
-let stations = [];
+async function loadStations() = [];
+      async function loadPuzzle() {
 
+  try {
+
+    const response = await fetch(
+      "data/puzzles/southeastern_alpha_001.json"
+    );
+
+    puzzle = await response.json();
+
+    console.log(
+      "Puzzle loaded:",
+      puzzle
+    );
+
+  } catch (error) {
+
+    console.error(
+      "Failed to load puzzle:",
+      error
+    );
+
+  }
+
+}
+let puzzle = {};
 const rowRules = {
 
   1: station => !station.is_terminus,
@@ -566,7 +591,15 @@ async function loadStations() {
 
 }
 
-loadStations();
+async function initialiseGame() {
+
+  await loadStations();
+
+  await loadPuzzle();
+
+}
+
+initialiseGame();
 
 cells.forEach(cell => {
 

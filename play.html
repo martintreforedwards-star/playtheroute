@@ -34,7 +34,7 @@ body {
 
 .container {
   width: 100%;
-  max-width: 1000px;
+  max-width: 1100px;
   margin: auto;
   padding: 24px;
 }
@@ -182,16 +182,6 @@ body {
   border-color: #22c55e;
 }
 
-.cell.correct {
-  background: #052e16;
-  border-color: #22c55e;
-}
-
-.cell.incorrect {
-  background: #450a0a;
-  border-color: #ef4444;
-}
-
 .cell-content {
   display: flex;
   flex-direction: column;
@@ -230,29 +220,36 @@ body {
   cursor: pointer;
 }
 
+.modal.hidden,
+.routepedia-modal.hidden {
+  display: none;
+}
+
 .modal,
 .routepedia-modal {
   position: fixed;
   inset: 0;
-  background: rgba(0,0,0,0.75);
+  background: rgba(0,0,0,0.82);
+
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 20px;
-  z-index: 9999;
-}
 
-.hidden {
-  display: none;
+  z-index: 9999;
+
+  padding: 20px;
 }
 
 .modal-box,
 .routepedia-box {
-  width: 100%;
+  width: 90%;
   max-width: 620px;
+
   background: #111827;
+
   border: 2px solid #1d4ed8;
   border-radius: 28px;
+
   padding: 28px;
 }
 
@@ -436,29 +433,10 @@ body {
 
     </div>
 
-    <div
-      class="cell"
-      data-row="1"
-      data-column="A">
-    </div>
-
-    <div
-      class="cell"
-      data-row="1"
-      data-column="B">
-    </div>
-
-    <div
-      class="cell"
-      data-row="1"
-      data-column="C">
-    </div>
-
-    <div
-      class="cell"
-      data-row="1"
-      data-column="D">
-    </div>
+    <div class="cell"></div>
+    <div class="cell"></div>
+    <div class="cell"></div>
+    <div class="cell"></div>
 
     <div class="row-header blue">
 
@@ -472,29 +450,10 @@ body {
 
     </div>
 
-    <div
-      class="cell"
-      data-row="2"
-      data-column="A">
-    </div>
-
-    <div
-      class="cell"
-      data-row="2"
-      data-column="B">
-    </div>
-
-    <div
-      class="cell"
-      data-row="2"
-      data-column="C">
-    </div>
-
-    <div
-      class="cell"
-      data-row="2"
-      data-column="D">
-    </div>
+    <div class="cell"></div>
+    <div class="cell"></div>
+    <div class="cell"></div>
+    <div class="cell"></div>
 
   </div>
 
@@ -621,17 +580,17 @@ cells.forEach(cell => {
 
       activeCell = cell;
 
-modal.classList.remove(
-  "hidden"
-);
+      modal.classList.remove(
+        "hidden"
+      );
 
-renderStations(
-  stations
-);
+      renderStations(
+        stations
+      );
 
-searchBox.value = "";
+      searchBox.value = "";
 
-searchBox.focus();
+      searchBox.focus();
 
     }
 
@@ -643,73 +602,48 @@ function renderStations(list) {
 
   results.innerHTML = "";
 
-  const usedStations = [];
+  list.forEach(station => {
 
-  cells.forEach(cell => {
-
-    if (cell.dataset.selected) {
-
-      usedStations.push(
-        cell.dataset.selected
+    const option =
+      document.createElement(
+        "div"
       );
 
-    }
+    option.className =
+      "station-option";
 
-  });
+    option.textContent =
+      station.station_name;
 
-  list
-    .filter(station =>
+    option.onclick = () => {
 
-      !usedStations.includes(
-        station.route_station_id
-      )
+      activeCell.innerHTML = `
 
-    )
-    .forEach(station => {
+        <div class="cell-content">
 
-      const option =
-        document.createElement(
-          "div"
-        );
-
-      option.className =
-        "station-option";
-
-      option.textContent =
-        station.station_name;
-
-      option.onclick = () => {
-
-        activeCell.dataset.selected =
-          station.route_station_id;
-
-        activeCell.innerHTML = `
-
-          <div class="cell-content">
-
-            <div class="station">
-              ${station.station_name}
-            </div>
-
-            <div class="label">
-              ARRIVING
-            </div>
-
+          <div class="station">
+            ${station.station_name}
           </div>
 
-        `;
+          <div class="label">
+            ARRIVING
+          </div>
 
-        modal.classList.add(
-          "hidden"
-        );
+        </div>
 
-      };
+      `;
 
-      results.appendChild(
-        option
+      modal.classList.add(
+        "hidden"
       );
 
-    });
+    };
+
+    results.appendChild(
+      option
+    );
+
+  });
 
 }
 

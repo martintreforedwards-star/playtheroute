@@ -621,13 +621,17 @@ cells.forEach(cell => {
 
       activeCell = cell;
 
-      modal.classList.remove(
-        "hidden"
-      );
+modal.classList.remove(
+  "hidden"
+);
 
-      renderStations(
-        stations
-      );
+renderStations(
+  stations
+);
+
+searchBox.value = "";
+
+searchBox.focus();
 
     }
 

@@ -34,7 +34,7 @@ body {
 
 .container {
   width: 100%;
-  max-width: 760px;
+  max-width: 1000px;
   margin: auto;
   padding: 24px;
 }
@@ -99,59 +99,64 @@ body {
   cursor: pointer;
 }
 
-.column-row {
+.game-grid {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: 180px repeat(4, 1fr);
   gap: 14px;
-  margin-bottom: 28px;
+  align-items: stretch;
+  margin-bottom: 30px;
 }
 
-.column-card {
+.corner {
+  background: transparent;
+}
+
+.column-header {
   background: rgba(15, 23, 42, 0.95);
   border-radius: 24px;
-  padding: 20px 12px;
+  padding: 18px 12px;
   text-align: center;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
 }
 
-.column-letter {
-  font-size: 2.2rem;
-  font-weight: 800;
-  margin-bottom: 12px;
+.column-header strong {
+  font-size: 2rem;
 }
 
 .column-clue {
-  color: #d1d5db;
   font-size: 0.9rem;
-  line-height: 1.5;
+  color: #d1d5db;
+  line-height: 1.4;
 }
 
-.platform {
+.row-header {
+  border-radius: 26px;
+  padding: 22px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+
+  font-size: 1rem;
+}
+
+.row-header strong {
+  font-size: 1.5rem;
+}
+
+.row-header.green {
   background: rgba(15, 23, 42, 0.95);
-  border-radius: 28px;
-  padding: 24px;
-  margin-bottom: 18px;
   border-left: 8px solid #22c55e;
 }
 
-.platform.blue {
-  border-left-color: #60a5fa;
-}
-
-.platform-title {
-  font-size: 2rem;
-  font-weight: 800;
-  margin-bottom: 8px;
-}
-
-.platform-condition {
-  color: #9ca3af;
-}
-
-.cell-row {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 14px;
-  margin-bottom: 32px;
+.row-header.blue {
+  background: rgba(15, 23, 42, 0.95);
+  border-left: 8px solid #60a5fa;
 }
 
 .cell {
@@ -159,12 +164,17 @@ body {
   border: 3px solid #1d4ed8;
   border-radius: 26px;
   min-height: 140px;
+
   display: flex;
   align-items: center;
   justify-content: center;
+
   text-align: center;
+
   padding: 12px;
+
   cursor: pointer;
+
   transition: 0.2s;
 }
 
@@ -326,32 +336,8 @@ body {
     font-size: 3rem;
   }
 
-  .column-row {
-    gap: 10px;
-  }
-
-  .column-card {
-    padding: 18px 10px;
-  }
-
-  .column-letter {
-    font-size: 1.8rem;
-  }
-
-  .column-clue {
-    font-size: 0.8rem;
-  }
-
-  .platform-title {
-    font-size: 1.6rem;
-  }
-
-  .cell-row {
-    gap: 10px;
-  }
-
-  .cell {
-    min-height: 120px;
+  .game-grid {
+    grid-template-columns: 1fr;
   }
 
 }
@@ -416,101 +402,125 @@ body {
 
   </div>
 
-  <div class="column-row">
+  <div class="game-grid">
 
-    <div class="column-card">
+    <div class="corner"></div>
 
-      <div class="column-letter">
-        A
-      </div>
+    <div class="column-header">
 
-      <div
+      <strong>A</strong>
+
+      <span
         class="column-clue"
         id="column-clue-A">
-      </div>
+      </span>
 
     </div>
 
-    <div class="column-card">
+    <div class="column-header">
 
-      <div class="column-letter">
-        B
-      </div>
+      <strong>B</strong>
 
-      <div
+      <span
         class="column-clue"
         id="column-clue-B">
-      </div>
+      </span>
 
     </div>
 
-    <div class="column-card">
+    <div class="column-header">
 
-      <div class="column-letter">
-        C
-      </div>
+      <strong>C</strong>
 
-      <div
+      <span
         class="column-clue"
         id="column-clue-C">
-      </div>
+      </span>
 
     </div>
 
-    <div class="column-card">
+    <div class="column-header">
 
-      <div class="column-letter">
-        D
-      </div>
+      <strong>D</strong>
 
-      <div
+      <span
         class="column-clue"
         id="column-clue-D">
-      </div>
+      </span>
 
     </div>
 
-  </div>
+    <div class="row-header green">
 
-  <div class="platform">
+      <strong>
+        Platform 1
+      </strong>
 
-    <div class="platform-title">
-      Platform 1
+      <span>
+        Not a terminus
+      </span>
+
     </div>
 
-    <div class="platform-condition">
-      Not a terminus
+    <div
+      class="cell"
+      data-row="1"
+      data-column="A">
     </div>
 
-  </div>
-
-  <div class="cell-row">
-
-    <div class="cell" data-row="1" data-column="A"></div>
-    <div class="cell" data-row="1" data-column="B"></div>
-    <div class="cell" data-row="1" data-column="C"></div>
-    <div class="cell" data-row="1" data-column="D"></div>
-
-  </div>
-
-  <div class="platform blue">
-
-    <div class="platform-title">
-      Platform 2
+    <div
+      class="cell"
+      data-row="1"
+      data-column="B">
     </div>
 
-    <div class="platform-condition">
-      Direct Charing Cross
+    <div
+      class="cell"
+      data-row="1"
+      data-column="C">
     </div>
 
-  </div>
+    <div
+      class="cell"
+      data-row="1"
+      data-column="D">
+    </div>
 
-  <div class="cell-row">
+    <div class="row-header blue">
 
-    <div class="cell" data-row="2" data-column="A"></div>
-    <div class="cell" data-row="2" data-column="B"></div>
-    <div class="cell" data-row="2" data-column="C"></div>
-    <div class="cell" data-row="2" data-column="D"></div>
+      <strong>
+        Platform 2
+      </strong>
+
+      <span>
+        Direct Charing Cross
+      </span>
+
+    </div>
+
+    <div
+      class="cell"
+      data-row="2"
+      data-column="A">
+    </div>
+
+    <div
+      class="cell"
+      data-row="2"
+      data-column="B">
+    </div>
+
+    <div
+      class="cell"
+      data-row="2"
+      data-column="C">
+    </div>
+
+    <div
+      class="cell"
+      data-row="2"
+      data-column="D">
+    </div>
 
   </div>
 
@@ -545,472 +555,9 @@ body {
 
 </div>
 
-<div
-  class="modal hidden"
-  id="modal">
-
-  <div class="modal-box">
-
-    <input
-      type="text"
-      id="searchBox"
-      placeholder="Search station...">
-
-    <div id="results"></div>
-
-  </div>
-
-</div>
-
-<div
-  class="routepedia-modal hidden"
-  id="routepediaModal">
-
-  <div class="routepedia-box">
-
-    <div class="routepedia-title">
-      📘 Routepedia
-    </div>
-
-    <div class="routepedia-entry">
-
-      <strong>
-        🚪 Coastal
-      </strong>
-
-      Station is classified as coastal commuter geography.
-
-    </div>
-
-    <div class="routepedia-entry">
-
-      <strong>
-        ⏱ Time Bands
-      </strong>
-
-      Stations are grouped by approximate canonical journey time into London.
-
-    </div>
-
-    <div class="routepedia-entry">
-
-      <strong>
-        🔀 Interchange
-      </strong>
-
-      Station allows interchange between significant routes or services.
-
-    </div>
-
-    <button
-      class="routepedia-close"
-      onclick="closeRoutepedia()">
-
-      Close
-
-    </button>
-
-  </div>
-
-</div>
-
 <script>
 
-let stations = [];
-
-let puzzle = {};
-
-const rowRules = {
-
-  1: station => !station.is_terminus,
-
-  2: station => station.direct_to_charing_cross
-
-};
-
-const columnRules = {};
-
-const modal =
-  document.getElementById("modal");
-
-const searchBox =
-  document.getElementById("searchBox");
-
-const results =
-  document.getElementById("results");
-
-const completeBox =
-  document.getElementById("completeBox");
-
-const cells =
-  document.querySelectorAll(".cell");
-
-let activeCell = null;
-
-async function loadStations() {
-
-  try {
-
-    const response = await fetch(
-      "data/stations/southeastern.json"
-    );
-
-    stations = await response.json();
-
-    console.log(
-      "Stations loaded:",
-      stations.length
-    );
-
-  } catch (error) {
-
-    console.error(
-      "Failed to load stations:",
-      error
-    );
-
-  }
-
-}
-
-async function loadPuzzle() {
-
-  try {
-
-    const response = await fetch(
-      "data/puzzles/southeastern_alpha_001.json"
-    );
-
-    puzzle = await response.json();
-
-    console.log(
-      "Puzzle loaded:",
-      puzzle
-    );
-
-    renderPuzzleClues();
-
-  } catch (error) {
-
-    console.error(
-      "Failed to load puzzle:",
-      error
-    );
-
-  }
-
-}
-
-function renderPuzzleClues() {
-
-  puzzle.columns.forEach(column => {
-
-    const clueElement =
-      document.getElementById(
-        `column-clue-${column.id}`
-      );
-
-    if (clueElement) {
-
-      clueElement.textContent =
-        column.display;
-
-    }
-
-  });
-
-}
-
-async function initialiseGame() {
-
-  await loadStations();
-
-  await loadPuzzle();
-
-}
-
-initialiseGame();
-
-function openRoutepedia() {
-
-  document
-    .getElementById("routepediaModal")
-    .classList.remove("hidden");
-
-}
-
-function closeRoutepedia() {
-
-  document
-    .getElementById("routepediaModal")
-    .classList.add("hidden");
-
-}
-
-document
-  .getElementById("routepediaModal")
-  .onclick = event => {
-
-    if (
-      event.target.id ===
-      "routepediaModal"
-    ) {
-
-      closeRoutepedia();
-
-    }
-
-};
-
-cells.forEach(cell => {
-
-  resetCell(cell);
-
-  cell.onclick = () => {
-
-    activeCell = cell;
-
-    openModal();
-
-  };
-
-});
-
-function resetCell(cell) {
-
-  cell.innerHTML = `
-
-    <div class="cell-content">
-
-      <div class="station">
-        🚆
-      </div>
-
-      <div class="label">
-        WAITING
-      </div>
-
-    </div>
-
-  `;
-
-}
-
-function openModal() {
-
-  modal.classList.remove("hidden");
-
-  searchBox.value = "";
-
-function renderStations(list) {
-
-  results.innerHTML = "";
-
-  const usedStations = [];
-
-  cells.forEach(cell => {
-
-    if (cell.dataset.selected) {
-
-      usedStations.push(
-        cell.dataset.selected
-      );
-
-    }
-
-  });
-
-  list
-    .filter(station =>
-
-      !usedStations.includes(
-        station.route_station_id
-      )
-
-    )
-    .forEach(station => {
-
-      const option =
-        document.createElement("div");
-
-      option.className =
-        "station-option";
-
-      option.textContent =
-        station.station_name;
-
-      option.onclick = () => {
-
-        activeCell.dataset.selected =
-          station.route_station_id;
-
-        activeCell.innerHTML = `
-
-          <div class="cell-content">
-
-            <div class="station">
-              ${station.station_name}
-            </div>
-
-            <div class="label">
-              ARRIVING
-            </div>
-
-          </div>
-
-        `;
-
-        activeCell.classList.remove(
-          "incorrect"
-        );
-
-        activeCell.classList.remove(
-          "correct"
-        );
-
-        modal.classList.add(
-          "hidden"
-        );
-
-        renderStations(
-          stations
-        );
-
-      };
-
-      results.appendChild(
-        option
-      );
-
-    });
-
-}searchBox.oninput = () => {
-
-  const value =
-    searchBox.value.toLowerCase();
-
-  const filtered =
-    stations.filter(station =>
-
-      station.station_name
-        .toLowerCase()
-        .includes(value)
-
-    );
-
-  renderStations(filtered);
-
-};
-
-function validateCell(cell) {
-
-  const stationId =
-    cell.dataset.selected;
-
-  if (!stationId) {
-    return false;
-  }
-
-  const station =
-    stations.find(
-      s => s.route_station_id === stationId
-    );
-
-  const row =
-    cell.dataset.row;
-
-  const column =
-    cell.dataset.column;
-
-  const rowValid =
-    rowRules[row](station);
-
-  let columnValid = false;
-
-  const puzzleColumn =
-    puzzle.columns.find(
-      c => c.id === column
-    );
-
-  if (puzzleColumn) {
-
-    const stationValue =
-      station[puzzleColumn.field];
-
-    if (
-      typeof puzzleColumn.value ===
-      "boolean"
-    ) {
-
-      columnValid =
-        stationValue ===
-        puzzleColumn.value;
-
-    } else {
-
-      columnValid =
-        String(stationValue)
-          .toLowerCase()
-          .includes(
-            String(puzzleColumn.value)
-              .toLowerCase()
-          );
-
-    }
-
-  }
-
-  return rowValid && columnValid;
-
-}
-
-function submitBoard() {
-
-  let correct = 0;
-
-  cells.forEach(cell => {
-
-    if (validateCell(cell)) {
-
-      cell.classList.add("correct");
-
-      cell.classList.remove("incorrect");
-
-      cell.querySelector(".label").textContent =
-        "CORRECT";
-
-      correct++;
-
-    } else {
-
-      cell.classList.remove("correct");
-
-      cell.classList.add("incorrect");
-
-      cell.querySelector(".label").textContent =
-        "INVALID";
-
-    }
-
-  });
-
-  if (correct === cells.length) {
-
-    completeBox.style.display = "block";
-
-  }
-
-}
-
-modal.onclick = event => {
-
-  if (event.target === modal) {
-
-    modal.classList.add("hidden");
-
-  }
-
-};
+console.log("Board redesign active");
 
 </script>
 

@@ -266,6 +266,90 @@ body {
   margin-top: 20px;
 }
 
+/* MOBILE */
+
+@media (max-width: 768px) {
+
+  .container {
+    padding: 14px;
+  }
+
+  .top-bar {
+    align-items: flex-start;
+    gap: 12px;
+  }
+
+  .logo {
+    width: 54px;
+    height: 54px;
+  }
+
+  .title-group h1 {
+    font-size: 2.8rem;
+    line-height: 0.95;
+  }
+
+  .subtitle {
+    font-size: 0.9rem;
+  }
+
+  .panel {
+    padding: 18px;
+    border-radius: 22px;
+  }
+
+  .game-grid {
+    grid-template-columns: 120px repeat(4, 1fr);
+    gap: 10px;
+    min-width: 620px;
+  }
+
+  .column-header {
+    padding: 14px 8px;
+    border-radius: 18px;
+  }
+
+  .column-header strong {
+    font-size: 1.4rem;
+  }
+
+  .column-clue {
+    font-size: 0.72rem;
+  }
+
+  .row-header {
+    padding: 16px;
+    border-radius: 18px;
+  }
+
+  .row-header strong {
+    font-size: 1rem;
+  }
+
+  .row-header span {
+    font-size: 0.75rem;
+  }
+
+  .cell {
+    min-height: 110px;
+    border-radius: 18px;
+  }
+
+  .station {
+    font-size: 0.85rem;
+  }
+
+  .label {
+    font-size: 0.65rem;
+  }
+
+  .submit-button {
+    padding: 18px;
+    font-size: 1.2rem;
+  }
+
+}
+
 </style>
 
 </head>
@@ -425,32 +509,6 @@ body {
       placeholder="Search station...">
 
     <div id="results"></div>
-
-  </div>
-
-</div>
-
-<div
-  class="routepedia-modal hidden"
-  id="routepediaModal">
-
-  <div class="routepedia-box">
-
-    <h2>
-      📘 Routepedia
-    </h2>
-
-    <p>
-      Route clues explained here later.
-    </p>
-
-    <button
-      class="routepedia-close"
-      onclick="closeRoutepedia()">
-
-      Close
-
-    </button>
 
   </div>
 
@@ -804,29 +862,7 @@ modal.addEventListener(
 
 );
 
-function openRoutepedia() {
-
-  document
-    .getElementById(
-      "routepediaModal"
-    )
-    .classList.remove(
-      "hidden"
-    );
-
-}
-
-function closeRoutepedia() {
-
-  document
-    .getElementById(
-      "routepediaModal"
-    )
-    .classList.add(
-      "hidden"
-    );
-
-}
+function openRoutepedia() {}
 
 </script>
 

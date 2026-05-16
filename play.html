@@ -281,6 +281,8 @@ body {
 
   z-index: 9999;
 
+  display: none;
+
   align-items: center;
 
   justify-content: center;
@@ -476,8 +478,7 @@ body {
 
 <div
   class="modal"
-  id="stationModal"
-  style="display:none;">
+  id="stationModal">
 
   <div class="modal-box">
 
@@ -555,6 +556,9 @@ cells.forEach(cell => {
       modal.style.display =
         "flex";
 
+      modal.style.pointerEvents =
+        "auto";
+
       renderStations(
         stations
       );
@@ -623,6 +627,9 @@ function renderStations(list) {
 function closeModal() {
 
   modal.style.display =
+    "none";
+
+  modal.style.pointerEvents =
     "none";
 
 }
@@ -750,63 +757,3 @@ function submitBoard() {
     }
 
     else {
-
-      cell.classList.add(
-        "incorrect"
-      );
-
-      cell.querySelector(
-        ".label"
-      ).textContent =
-        "INVALID";
-
-    }
-
-  });
-
-}
-
-searchBox.addEventListener(
-  "input",
-  () => {
-
-    const query =
-      searchBox.value.toLowerCase();
-
-    const filtered =
-      stations.filter(station =>
-
-        station.station_name
-          .toLowerCase()
-          .includes(query)
-
-      );
-
-    renderStations(
-      filtered
-    );
-
-  }
-
-);
-
-modal.addEventListener(
-  "click",
-  event => {
-
-    if (
-      event.target === modal
-    ) {
-
-      closeModal();
-
-    }
-
-  }
-
-);
-
-</script>
-
-</body>
-</html>

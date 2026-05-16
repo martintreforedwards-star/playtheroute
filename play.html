@@ -533,31 +533,54 @@ let stations = [];
 
 let activeCell = null;
 
-fetch(
-  "data/stations/southeastern.json"
-)
+async function loadStations() {
 
-.then(response => response.json())
+  try {
 
-.then(data => {
+    const response =
+      await fetch(
+        "./data/stations/southeastern.json"
+      );
 
-  stations = data;
+    stations =
+      await response.json();
 
-});
+    console.log(
+      "Stations loaded:",
+      stations.length
+    );
+
+  }
+
+  catch(error) {
+
+    console.error(
+      "Station load failed",
+      error
+    );
+
+  }
+
+}
+
+loadStations();
 
 cells.forEach(cell => {
 
   cell.addEventListener(
     "click",
-    () => {
+    async () => {
+
+      if (stations.length === 0) {
+
+        await loadStations();
+
+      }
 
       activeCell = cell;
 
       modal.style.display =
         "flex";
-
-      modal.style.pointerEvents =
-        "auto";
 
       renderStations(
         stations
@@ -627,9 +650,6 @@ function renderStations(list) {
 function closeModal() {
 
   modal.style.display =
-    "none";
-
-  modal.style.pointerEvents =
     "none";
 
 }
@@ -757,3 +777,65 @@ function submitBoard() {
     }
 
     else {
+
+      cell.classList.add(
+        "incorrect"
+      );
+
+      cell.querySelector(
+        ".label"
+      ).textContent =
+        "INVALID";
+
+    }
+
+  });
+
+}
+
+modal.addEventListener(
+  "click",
+  event => {
+
+    if (
+      event.target === modal
+    ) {
+
+      closeModal();
+
+    }
+
+  }
+
+);
+
+searchBox.addEventListener(
+  "input",
+  () => {
+
+    const query =
+      searchBox.value.toLowerCase();
+
+    const filtered =
+      stations.filter(station =>
+
+        station.station_name
+          .toLowerCase()
+          .includes(query)
+
+      );
+
+    renderStations(
+      filtered
+    );
+
+  }
+
+);
+
+closeModal();
+
+</script>
+
+</body>
+</html>

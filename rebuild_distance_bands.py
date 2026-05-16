@@ -1,5 +1,3 @@
-import json
-
 # LOAD JSON
 
 with open(

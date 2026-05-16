@@ -12,7 +12,7 @@
 <title>The Route</title>
 
 <link
-  href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap"
+  href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap"
   rel="stylesheet">
 
 <style>
@@ -134,7 +134,7 @@ h1 {
 
 .network-selector {
 
-  margin-bottom: 24px;
+  margin-bottom: 26px;
 
 }
 
@@ -181,6 +181,130 @@ optgroup {
 option {
 
   font-size: 0.95rem;
+
+}
+
+/* STAMP */
+
+.stamp-box {
+
+  margin-top: 16px;
+
+  background: #111827;
+
+  border: 2px dashed #2563eb;
+
+  border-radius: 16px;
+
+  padding: 16px;
+
+  text-align: center;
+
+  font-weight: 700;
+
+  color: #d1d5db;
+
+  cursor: pointer;
+
+  transition: 0.2s;
+
+}
+
+.stamp-box:hover {
+
+  border-color: #22c55e;
+
+}
+
+.stamp-box.active {
+
+  background: rgba(0,80,40,0.9);
+
+  border-color: #22c55e;
+
+  color: #dcfce7;
+
+}
+
+/* GAME MODES */
+
+.mode-section {
+
+  margin-bottom: 26px;
+
+}
+
+.mode-title {
+
+  margin-bottom: 14px;
+
+  font-size: 0.95rem;
+
+  font-weight: 600;
+
+  color: #d1d5db;
+
+}
+
+.mode-grid {
+
+  display: grid;
+
+  grid-template-columns: 1fr 1fr;
+
+  gap: 14px;
+
+}
+
+.mode-card {
+
+  background: #111827;
+
+  border: 2px solid #1e3a8a;
+
+  border-radius: 18px;
+
+  padding: 18px;
+
+  cursor: pointer;
+
+  transition: 0.2s;
+
+}
+
+.mode-card:hover {
+
+  border-color: #22c55e;
+
+}
+
+.mode-card.active {
+
+  border-color: #22c55e;
+
+  background: rgba(0,80,40,0.9);
+
+}
+
+.mode-card h3 {
+
+  margin-top: 0;
+
+  margin-bottom: 12px;
+
+  font-size: 1rem;
+
+}
+
+.mode-card p {
+
+  margin: 0;
+
+  color: #d1d5db;
+
+  font-size: 0.9rem;
+
+  line-height: 1.6;
 
 }
 
@@ -292,6 +416,12 @@ option {
 
   }
 
+  .mode-grid {
+
+    grid-template-columns: 1fr;
+
+  }
+
 }
 
 </style>
@@ -391,6 +521,60 @@ option {
 
     </select>
 
+    <div
+      id="stampBox"
+      class="stamp-box">
+
+      🎟 Stamp regular route
+
+    </div>
+
+  </div>
+
+  <!-- GAME MODES -->
+
+  <div class="mode-section">
+
+    <div class="mode-title">
+
+      Choose your journey mode
+
+    </div>
+
+    <div class="mode-grid">
+
+      <div
+        class="mode-card active"
+        data-mode="standard">
+
+        <h3>
+          🎟 Standard Ticket
+        </h3>
+
+        <p>
+          Relaxed journey mode.<br>
+          6 tickets. No timer.
+        </p>
+
+      </div>
+
+      <div
+        class="mode-card"
+        data-mode="express">
+
+        <h3>
+          ⏱ Express Service
+        </h3>
+
+        <p>
+          Beat the clock before departure.<br>
+          Timed challenge mode.
+        </p>
+
+      </div>
+
+    </div>
+
   </div>
 
   <!-- PLAY BUTTON -->
@@ -412,6 +596,137 @@ option {
   </div>
 
 </div>
+
+<script>
+
+const network =
+  document.getElementById(
+    "network"
+  );
+
+const stampBox =
+  document.getElementById(
+    "stampBox"
+  );
+
+const modeCards =
+  document.querySelectorAll(
+    ".mode-card"
+  );
+
+/* LOAD SAVED NETWORK */
+
+const savedNetwork =
+  localStorage.getItem(
+    "routeNetwork"
+  );
+
+if (savedNetwork) {
+
+  network.value =
+    savedNetwork;
+
+  stampBox.classList.add(
+    "active"
+  );
+
+  stampBox.innerHTML =
+    "🎟 ✔ REGULAR ROUTE STAMPED";
+
+}
+
+/* STAMP BUTTON */
+
+stampBox.addEventListener(
+  "click",
+  () => {
+
+    if (!network.value) {
+
+      alert(
+        "Please select a commuter network first."
+      );
+
+      return;
+
+    }
+
+    localStorage.setItem(
+      "routeNetwork",
+      network.value
+    );
+
+    stampBox.classList.add(
+      "active"
+    );
+
+    stampBox.innerHTML =
+      "🎟 ✔ REGULAR ROUTE STAMPED";
+
+  }
+
+);
+
+/* GAME MODES */
+
+modeCards.forEach(card => {
+
+  card.addEventListener(
+    "click",
+    () => {
+
+      modeCards.forEach(c =>
+        c.classList.remove(
+          "active"
+        )
+      );
+
+      card.classList.add(
+        "active"
+      );
+
+      localStorage.setItem(
+        "routeMode",
+        card.dataset.mode
+      );
+
+    }
+
+  );
+
+});
+
+/* LOAD SAVED MODE */
+
+const savedMode =
+  localStorage.getItem(
+    "routeMode"
+  );
+
+if (savedMode) {
+
+  modeCards.forEach(card => {
+
+    card.classList.remove(
+      "active"
+    );
+
+    if (
+      card.dataset.mode
+        === savedMode
+    ) {
+
+      card.classList.add(
+        "active"
+      );
+
+    }
+
+  });
+
+}
+
+</script>
 
 </body>
 

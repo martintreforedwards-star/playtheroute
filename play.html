@@ -4,16 +4,9 @@
 <head>
 
 <meta charset="UTF-8">
-
-<meta
-  name="viewport"
-  content="width=device-width, initial-scale=1.0">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <title>The Route</title>
-
-<link
-  href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap"
-  rel="stylesheet">
 
 <style>
 
@@ -23,357 +16,169 @@
 
 body {
   margin: 0;
-  font-family: 'Inter', sans-serif;
-  background:
-    radial-gradient(circle at top,
-      #001a4d 0%,
-      #000814 45%,
-      #000510 100%);
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  background: #071a2f;
   color: white;
+  overflow-x: hidden;
 }
 
 .container {
-  width: 100%;
-  max-width: 1100px;
-  margin: auto;
-  padding: 16px;
+  max-width: 700px;
+  margin: 0 auto;
 }
 
-.top-bar {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 14px;
-  margin-bottom: 18px;
-}
-
-.logo {
-  width: 64px;
-  height: 64px;
-}
-
-.title-group h1 {
-  margin: 0;
-  font-size: 2.6rem;
-  font-weight: 800;
+h1 {
+  text-align: center;
+  margin-bottom: 10px;
 }
 
 .subtitle {
-  margin-top: 6px;
-  color: #9ca3af;
-  font-size: 0.9rem;
+  text-align: center;
+  margin-bottom: 30px;
+  color: #c7d4e5;
 }
 
-.panel {
-  background: rgba(17,24,39,0.92);
-  border: 2px solid #1d4ed8;
-  border-radius: 22px;
-  padding: 18px;
-  margin-bottom: 18px;
-}
-
-.panel-title {
-  color: #22c55e;
-  font-size: 0.95rem;
-  font-weight: 800;
-  letter-spacing: 2px;
-  margin-bottom: 12px;
-}
-
-.game-grid {
-
+.grid {
   display: grid;
-
-  grid-template-columns: 88px repeat(4, 1fr);
-
-  gap: 8px;
-
+  grid-template-columns: repeat(2, 1fr);
+  gap: 14px;
   width: 100%;
-
-}
-
-.corner {
-  background: transparent;
-}
-
-.column-header {
-
-  background: rgba(15,23,42,0.95);
-
-  border-radius: 18px;
-
-  padding: 8px 4px;
-
-  text-align: center;
-
-  height: 82px;
-
-  display: flex;
-
-  flex-direction: column;
-
-  justify-content: center;
-
-}
-
-.column-header strong {
-  font-size: 1.1rem;
-}
-
-.column-clue {
-
-  margin-top: 4px;
-
-  color: #d1d5db;
-
-  font-size: 0.58rem;
-
-  line-height: 1.25;
-
-}
-
-.row-header {
-
-  border-radius: 18px;
-
-  padding: 8px;
-
-  display: flex;
-
-  flex-direction: column;
-
-  justify-content: center;
-
-  align-items: center;
-
-  text-align: center;
-
-  height: 82px;
-
-}
-
-.row-header strong {
-
-  font-size: 0.85rem;
-
-  margin-bottom: 4px;
-
-}
-
-.row-header span {
-
-  font-size: 0.56rem;
-
-  line-height: 1.25;
-
-}
-
-.row-header.green,
-.row-header.blue {
-
-  background: rgba(15,23,42,0.95);
-
-  border-left: 4px solid;
-
-}
-
-.row-header.green {
-
-  border-color: #22c55e;
-
-}
-
-.row-header.blue {
-
-  border-color: #60a5fa;
-
 }
 
 .cell {
-
-  background: rgba(10,20,50,0.95);
-
-  border: 2px solid #1d4ed8;
-
-  border-radius: 18px;
-
-  height: 82px;
-
+  background: #102847;
+  border: 2px solid #284d7a;
+  border-radius: 12px;
+  min-height: 90px;
   display: flex;
-
   align-items: center;
-
   justify-content: center;
-
+  padding: 12px;
   text-align: center;
-
-  padding: 6px;
-
   cursor: pointer;
-
   transition: 0.2s;
-
+  font-size: 16px;
+  font-weight: bold;
+  word-break: break-word;
 }
 
-.cell-content {
-  display: flex;
-  flex-direction: column;
-  gap: 4px;
+.cell:hover {
+  background: #18365d;
 }
 
-.station {
-
-  font-size: 0.68rem;
-
-  font-weight: 700;
-
-  line-height: 1.2;
-
+.cell.empty {
+  color: #8da5bf;
 }
 
-.label {
-
-  font-size: 0.46rem;
-
-  letter-spacing: 1px;
-
-  color: #d1d5db;
-
-}
-
-.ticket-box {
-  margin-top: 18px;
-  background: rgba(15,23,42,0.95);
-  border-radius: 18px;
-  padding: 16px;
-}
-
-.submit-button {
-  margin-top: 18px;
-  width: 100%;
-  border: none;
-  border-radius: 20px;
-  padding: 18px;
-  font-size: 1.2rem;
-  font-weight: 800;
-  background: #22c55e;
+.cell.correct {
+  background: #1d6b3a;
+  border-color: #34c26b;
   color: white;
+}
+
+.cell.incorrect {
+  background: #7b1f1f;
+  border-color: #ff5d5d;
+  color: white;
+}
+
+.controls {
+  margin-top: 25px;
+  text-align: center;
+}
+
+button {
+  background: #2b8cff;
+  border: none;
+  color: white;
+  font-size: 18px;
+  padding: 14px 26px;
+  border-radius: 10px;
   cursor: pointer;
+  font-weight: bold;
+}
+
+button:hover {
+  background: #1976e6;
+}
+
+.result {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
 }
 
 .modal {
-
   position: fixed;
-
   inset: 0;
-
-  background: rgba(0,0,0,0.82);
-
-  z-index: 9999;
-
+  background: rgba(0,0,0,0.75);
   display: none;
-
   align-items: center;
-
   justify-content: center;
-
+  padding: 20px;
+  z-index: 999;
 }
 
-.modal-box {
-  width: 92%;
-  max-width: 620px;
-  background: #111827;
-  border: 2px solid #1d4ed8;
-  border-radius: 24px;
-  padding: 24px;
-  max-height: 85vh;
+.modal-content {
+  background: #102847;
+  width: 100%;
+  max-width: 500px;
+  border-radius: 14px;
+  padding: 20px;
+  max-height: 80vh;
   overflow-y: auto;
 }
 
-.modal-top {
+.modal-title {
+  margin-bottom: 15px;
+  font-size: 22px;
+  text-align: center;
+}
+
+.station-list {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: 18px;
-}
-
-.close-button {
-  border: none;
-  background: #ef4444;
-  color: white;
-  width: 36px;
-  height: 36px;
-  border-radius: 10px;
-  cursor: pointer;
-  font-size: 1rem;
-  font-weight: 700;
-}
-
-#searchBox {
-  width: 100%;
-  padding: 16px;
-  border-radius: 16px;
-  border: none;
-  margin-bottom: 18px;
-  font-size: 1rem;
+  flex-direction: column;
+  gap: 10px;
 }
 
 .station-option {
-  padding: 14px;
-  border-radius: 12px;
+  background: #1b3c66;
+  padding: 12px;
+  border-radius: 8px;
   cursor: pointer;
+  transition: 0.2s;
 }
 
 .station-option:hover {
-  background: #1e293b;
+  background: #28558f;
 }
 
-@media (max-width: 700px) {
+.close-btn {
+  margin-top: 15px;
+  width: 100%;
+  background: #666;
+}
 
-  .container {
+.close-btn:hover {
+  background: #777;
+}
+
+@media (max-width: 600px) {
+
+  body {
+    padding: 12px;
+  }
+
+  .cell {
+    min-height: 80px;
+    font-size: 14px;
     padding: 10px;
   }
 
-  .game-grid {
-
-    grid-template-columns: 72px repeat(4, 1fr);
-
-    gap: 4px;
-
-    overflow-x: hidden;
-
-  }
-
-  .column-header,
-  .row-header,
-  .cell {
-
-    height: 64px;
-
-  }
-
-  .column-header strong {
-    font-size: 0.9rem;
-  }
-
-  .column-clue {
-    font-size: 0.46rem;
-  }
-
-  .row-header strong {
-    font-size: 0.7rem;
-  }
-
-  .row-header span {
-    font-size: 0.45rem;
-  }
-
-  .station {
-    font-size: 0.42rem;
-  }
-
-  .label {
-    font-size: 0.35rem;
+  button {
+    width: 100%;
   }
 
 }
@@ -386,158 +191,35 @@ body {
 
 <div class="container">
 
-  <div class="top-bar">
+  <h1>The Route</h1>
 
-    <img
-      src="logo.svg"
-      class="logo">
-
-    <div class="title-group">
-
-      <h1>The Route</h1>
-
-      <div class="subtitle">
-        Southeastern Alpha 001
-      </div>
-
-    </div>
-
+  <div class="subtitle">
+    Tap each box to choose a station
   </div>
 
-  <div class="panel">
+  <div class="grid" id="grid"></div>
 
-    <div class="panel-title">
-      SERVICE UPDATE
-    </div>
-
-    Engineering works continue between commuter intuition and actual rail logic.
-
+  <div class="controls">
+    <button id="submitBtn">Submit Answers</button>
   </div>
 
-  <div class="game-grid">
-
-    <div class="corner"></div>
-
-    <div class="column-header">
-      <strong>A</strong>
-      <div class="column-clue">
-        🚪 Coastal
-      </div>
-    </div>
-
-    <div class="column-header">
-      <strong>B</strong>
-      <div class="column-clue">
-        ⏱ 70–90 mins
-      </div>
-    </div>
-
-    <div class="column-header">
-      <strong>C</strong>
-      <div class="column-clue">
-        Contains 'ham'
-      </div>
-    </div>
-
-    <div class="column-header">
-      <strong>D</strong>
-      <div class="column-clue">
-        Interchange
-      </div>
-    </div>
-
-    <div class="row-header green">
-
-      <strong>
-        Platform 1
-      </strong>
-
-      <span>
-        Not a terminus
-      </span>
-
-    </div>
-
-    <div class="cell"></div>
-    <div class="cell"></div>
-    <div class="cell"></div>
-    <div class="cell"></div>
-
-    <div class="row-header blue">
-
-      <strong>
-        Platform 2
-      </strong>
-
-      <span>
-        Direct Charing Cross
-      </span>
-
-    </div>
-
-    <div class="cell"></div>
-    <div class="cell"></div>
-    <div class="cell"></div>
-    <div class="cell"></div>
-
-  </div>
-
-  <div class="ticket-box">
-
-    🎫 Tickets Remaining:
-    <span id="ticketCount">
-      3
-    </span>
-
-  </div>
-
-  <button
-    class="submit-button"
-    id="submitButton"
-    type="button">
-
-    Submit Route
-
-  </button>
-
-  <div class="panel">
-
-    <div class="panel-title">
-      ROUTE KEY
-    </div>
-
-    🚪 = coastal commuter geography
-
-  </div>
+  <div class="result" id="result"></div>
 
 </div>
 
-<div
-  class="modal"
-  id="stationModal">
+<div class="modal" id="modal">
 
-  <div class="modal-box">
+  <div class="modal-content">
 
-    <div class="modal-top">
-
-      <strong>Select station</strong>
-
-      <button
-        class="close-button"
-        onclick="closeModal()">
-
-        ✕
-
-      </button>
-
+    <div class="modal-title">
+      Select a Station
     </div>
 
-    <input
-      type="text"
-      id="searchBox"
-      placeholder="Search station...">
+    <div class="station-list" id="stationList"></div>
 
-    <div id="results"></div>
+    <button class="close-btn" id="closeModalBtn">
+      Close
+    </button>
 
   </div>
 
@@ -545,338 +227,174 @@ body {
 
 <script>
 
-const puzzle = {
-
-  columns: [
-
-    {
-      field: "distance_band",
-      value: "coastal"
-    },
-
-    {
-      field: "time_group",
-      value: "70 to 90"
-    },
-
-    {
-      field: "contains_ham",
-      value: true
-    },
-
-    {
-      field: "is_interchange",
-      value: true
-    }
-
-  ],
-
-  rows: [
-
-    {
-      field: "is_terminus",
-      value: false
-    },
-
-    {
-      field: "direct_to_charing_cross",
-      value: true
-    }
-
-  ]
-
-};
-
-const cells =
-  document.querySelectorAll(".cell");
-
-const modal =
-  document.getElementById(
-    "stationModal"
-  );
-
-const results =
-  document.getElementById(
-    "results"
-  );
-
-const searchBox =
-  document.getElementById(
-    "searchBox"
-  );
-
 let stations = [];
 
-let activeCell = null;
+const answers = [
+  "London Victoria",
+  "Bromley South",
+  "Rochester",
+  "Canterbury East",
+  "Margate",
+  "Dover Priory",
+  "Tunbridge Wells",
+  "Hastings"
+];
 
-fetch(
-  "data/stations/southeastern.json"
-)
-.then(response => response.json())
-.then(data => {
+const boardState = [
+  { value: "", correct: false },
+  { value: "", correct: false },
+  { value: "", correct: false },
+  { value: "", correct: false },
+  { value: "", correct: false },
+  { value: "", correct: false },
+  { value: "", correct: false },
+  { value: "", correct: false }
+];
 
-  stations = data;
+const grid = document.getElementById("grid");
+const modal = document.getElementById("modal");
+const stationList = document.getElementById("stationList");
+const result = document.getElementById("result");
 
-});
+let currentCellIndex = null;
 
-cells.forEach(cell => {
+async function loadStations() {
 
-  cell.addEventListener(
-    "click",
-    () => {
+  try {
 
-      activeCell = cell;
+    const response = await fetch("southeastern.json");
 
-      modal.style.display =
-        "flex";
+    stations = await response.json();
 
-      renderStations(
-        stations
-      );
+    renderGrid();
 
-      searchBox.value = "";
+  } catch (error) {
 
-      setTimeout(() => {
+    console.error("Error loading southeastern.json", error);
 
-        searchBox.focus();
+    alert("Could not load station data.");
 
-      }, 50);
+  }
 
+}
+
+function renderGrid() {
+
+  grid.innerHTML = "";
+
+  boardState.forEach((cellData, index) => {
+
+    const cell = document.createElement("div");
+
+    cell.className = "cell";
+
+    if (!cellData.value) {
+      cell.classList.add("empty");
+      cell.textContent = "Select Station";
+    } else {
+      cell.textContent = cellData.value;
     }
 
-  );
+    if (cellData.correct === true) {
+      cell.classList.add("correct");
+    }
 
-});
+    if (cellData.correct === false && cellData.value !== "") {
+      cell.classList.add("incorrect");
+    }
 
-function renderStations(list) {
+    cell.addEventListener("click", () => {
+      openModal(index);
+    });
 
-  results.innerHTML = "";
+    grid.appendChild(cell);
 
-  list
-    .sort((a, b) =>
-      a.station_name.localeCompare(
-        b.station_name
-      )
-    )
-    .forEach(station => {
+  });
 
-      const option =
-        document.createElement("div");
+}
 
-      option.className =
-        "station-option";
+function openModal(index) {
 
-      option.textContent =
-        `${station.station_name} (${station.crs})`;
+  currentCellIndex = index;
 
-      option.onclick = () => {
+  stationList.innerHTML = "";
 
-        activeCell.innerHTML = `
+  stations.forEach((station) => {
 
-          <div class="cell-content">
+    const option = document.createElement("div");
 
-            <div class="station">
-              ${station.station_name}
-            </div>
+    option.className = "station-option";
 
-            <div class="label">
-              ARRIVING
-            </div>
+    option.textContent = station;
 
-          </div>
+    option.addEventListener("click", () => {
 
-        `;
+      boardState[currentCellIndex].value = station;
 
-        closeModal();
+      boardState[currentCellIndex].correct = null;
 
-      };
+      closeModal();
 
-      results.appendChild(
-        option
-      );
+      renderGrid();
 
     });
+
+    stationList.appendChild(option);
+
+  });
+
+  modal.style.display = "flex";
 
 }
 
 function closeModal() {
 
-  modal.style.display =
-    "none";
+  modal.style.display = "none";
 
 }
 
-function submitBoard() {
+function validateBoard() {
 
-  const usedStations = [];
+  let score = 0;
 
-  document
-    .querySelectorAll(".cell")
-    .forEach((cell, index) => {
+  boardState.forEach((cell, index) => {
 
-      const stationElement =
-        cell.querySelector(".station");
+    if (cell.value === answers[index]) {
 
-      if (!stationElement) {
-        return;
-      }
+      cell.correct = true;
 
-      const stationName =
-        stationElement.textContent;
+      score++;
 
-      const station =
-        stations.find(s =>
-          s.station_name === stationName
-        );
+    } else {
 
-      if (!station) {
-        return;
-      }
-
-      const row =
-        index < 4
-          ? 0
-          : 1;
-
-      const column =
-        index % 4;
-
-      const rowRule =
-        puzzle.rows[row];
-
-      const columnRule =
-        puzzle.columns[column];
-
-      const rowPass =
-        station[rowRule.field]
-          === rowRule.value;
-
-      let columnPass = false;
-
-      if (
-        columnRule.field === "contains_ham"
-      ) {
-
-        columnPass =
-          station.station_name
-            .toLowerCase()
-            .includes("ham");
-
-      }
-
-      else {
-
-        columnPass =
-          station[columnRule.field]
-            === columnRule.value;
-
-      }
-
-      const duplicate =
-        usedStations.includes(
-          station.station_name
-        );
-
-      usedStations.push(
-        station.station_name
-      );
-
-      const valid =
-        rowPass &&
-        columnPass &&
-        !duplicate;
-
-      cell.style.background = "";
-      cell.style.borderColor = "";
-
-      if (valid) {
-
-        cell.style.background =
-          "#16a34a";
-
-        cell.style.borderColor =
-          "#4ade80";
-
-        cell.querySelector(
-          ".label"
-        ).textContent =
-          "CORRECT";
-
-      }
-
-      else {
-
-        cell.style.background =
-          "#b91c1c";
-
-        cell.style.borderColor =
-          "#f87171";
-
-        cell.querySelector(
-          ".label"
-        ).textContent =
-          "INVALID";
-
-      }
-
-    });
-
-}
-
-searchBox.addEventListener(
-  "keyup",
-  () => {
-
-    const query =
-      searchBox.value.toLowerCase();
-
-    const filtered =
-      stations.filter(station =>
-
-        station.station_name
-          .toLowerCase()
-          .includes(query)
-
-      );
-
-    renderStations(
-      filtered
-    );
-
-    searchBox.focus();
-
-  }
-
-);
-
-modal.addEventListener(
-  "click",
-  event => {
-
-    if (
-      event.target === modal
-    ) {
-
-      closeModal();
+      cell.correct = false;
 
     }
 
+  });
+
+  renderGrid();
+
+  result.textContent = `You scored ${score} / 8`;
+
+}
+
+document.getElementById("submitBtn").addEventListener("click", validateBoard);
+
+document.getElementById("closeModalBtn").addEventListener("click", closeModal);
+
+window.addEventListener("click", (event) => {
+
+  if (event.target === modal) {
+    closeModal();
   }
 
-);
+});
 
-document
-  .getElementById(
-    "submitButton"
-  )
-  .addEventListener(
-    "click",
-    submitBoard
-  );
-
-closeModal();
+loadStations();
 
 </script>
 
 </body>
+
 </html>

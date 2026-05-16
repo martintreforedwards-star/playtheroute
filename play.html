@@ -508,7 +508,8 @@ body {
 
   <button
     class="submit-button"
-    id="submitButton">
+    type="button"
+    onclick="submitBoard();">
 
     Submit Route
 
@@ -877,15 +878,6 @@ searchBox.addEventListener(
   }
 
 );
-
-document
-  .getElementById(
-    "submitButton"
-  )
-  .addEventListener(
-    "click",
-    submitBoard
-  );
 
 closeModal();
 

@@ -547,6 +547,48 @@ body {
 
 <script>
 
+const puzzle = {
+
+  columns: [
+
+    {
+      field: "distance_band",
+      value: "coastal"
+    },
+
+    {
+      field: "time_group",
+      value: "70 to 90"
+    },
+
+    {
+      field: "contains_ham",
+      value: true
+    },
+
+    {
+      field: "is_interchange",
+      value: true
+    }
+
+  ],
+
+  rows: [
+
+    {
+      field: "is_terminus",
+      value: false
+    },
+
+    {
+      field: "direct_to_charing_cross",
+      value: true
+    }
+
+  ]
+
+};
+
 const cells =
   document.querySelectorAll(".cell");
 
@@ -677,54 +719,115 @@ function closeModal() {
 
 function submitBoard() {
 
-  const allCells =
-    document.querySelectorAll(".cell");
+  const usedStations = [];
 
-  allCells.forEach(cell => {
+  document
+    .querySelectorAll(".cell")
+    .forEach((cell, index) => {
 
-    const stationElement =
-      cell.querySelector(".station");
+      const stationElement =
+        cell.querySelector(".station");
 
-    if (!stationElement) {
-      return;
-    }
+      if (!stationElement) {
+        return;
+      }
 
-    const stationName =
-      stationElement.textContent;
+      const stationName =
+        stationElement.textContent;
 
-    if (
-      stationName === "Sturry"
-    ) {
+      const station =
+        stations.find(s =>
+          s.station_name === stationName
+        );
 
-      cell.style.background =
-        "#16a34a";
+      if (!station) {
+        return;
+      }
 
-      cell.style.borderColor =
-        "#4ade80";
+      const row =
+        index < 4
+          ? 0
+          : 1;
 
-      cell.querySelector(
-        ".label"
-      ).textContent =
-        "CORRECT";
+      const column =
+        index % 4;
 
-    }
+      const rowRule =
+        puzzle.rows[row];
 
-    else {
+      const columnRule =
+        puzzle.columns[column];
 
-      cell.style.background =
-        "#b91c1c";
+      const rowPass =
+        station[rowRule.field]
+          === rowRule.value;
 
-      cell.style.borderColor =
-        "#f87171";
+      let columnPass = false;
 
-      cell.querySelector(
-        ".label"
-      ).textContent =
-        "INVALID";
+      if (
+        columnRule.field === "contains_ham"
+      ) {
 
-    }
+        columnPass =
+          station.station_name
+            .toLowerCase()
+            .includes("ham");
 
-  });
+      }
+
+      else {
+
+        columnPass =
+          station[columnRule.field]
+            === columnRule.value;
+
+      }
+
+      const duplicate =
+        usedStations.includes(
+          station.station_name
+        );
+
+      usedStations.push(
+        station.station_name
+      );
+
+      const valid =
+        rowPass &&
+        columnPass &&
+        !duplicate;
+
+      if (valid) {
+
+        cell.style.background =
+          "#16a34a";
+
+        cell.style.borderColor =
+          "#4ade80";
+
+        cell.querySelector(
+          ".label"
+        ).textContent =
+          "CORRECT";
+
+      }
+
+      else {
+
+        cell.style.background =
+          "#b91c1c";
+
+        cell.style.borderColor =
+          "#f87171";
+
+        cell.querySelector(
+          ".label"
+        ).textContent =
+          "INVALID";
+
+      }
+
+    });
 
 }
 

@@ -92,8 +92,6 @@ body {
 
   width: 100%;
 
-  align-items: stretch;
-
 }
 
 .corner {
@@ -178,8 +176,6 @@ body {
   background: rgba(15,23,42,0.95);
 
   border-left: 4px solid;
-
-  box-sizing: border-box;
 
 }
 
@@ -275,10 +271,6 @@ body {
   cursor: pointer;
 }
 
-.submit-button:hover {
-  opacity: 0.9;
-}
-
 .modal {
 
   position: fixed;
@@ -289,17 +281,9 @@ body {
 
   z-index: 9999;
 
-  display: none;
-
   align-items: center;
 
   justify-content: center;
-
-}
-
-.modal.show {
-
-  display: flex;
 
 }
 
@@ -492,7 +476,8 @@ body {
 
 <div
   class="modal"
-  id="stationModal">
+  id="stationModal"
+  style="display:none;">
 
   <div class="modal-box">
 
@@ -567,9 +552,8 @@ cells.forEach(cell => {
 
       activeCell = cell;
 
-      modal.classList.add(
-        "show"
-      );
+      modal.style.display =
+        "flex";
 
       renderStations(
         stations
@@ -638,9 +622,8 @@ function renderStations(list) {
 
 function closeModal() {
 
-  modal.classList.remove(
-    "show"
-  );
+  modal.style.display =
+    "none";
 
 }
 
@@ -826,5 +809,4 @@ modal.addEventListener(
 </script>
 
 </body>
-
 </html>

@@ -280,19 +280,27 @@ body {
 }
 
 .modal {
+
   position: fixed;
+
   inset: 0;
+
   background: rgba(0,0,0,0.82);
 
-  display: flex;
+  z-index: 9999;
+
+  display: none;
+
   align-items: center;
+
   justify-content: center;
 
-  z-index: 9999;
 }
 
-.hidden {
-  display: none !important;
+.modal.show {
+
+  display: flex;
+
 }
 
 .modal-box {
@@ -483,7 +491,7 @@ body {
 </div>
 
 <div
-  class="modal hidden"
+  class="modal"
   id="stationModal">
 
   <div class="modal-box">
@@ -499,6 +507,7 @@ body {
         onclick="closeModal()">
 
         ✕
+
       </button>
 
     </div>
@@ -558,8 +567,8 @@ cells.forEach(cell => {
 
       activeCell = cell;
 
-      modal.classList.remove(
-        "hidden"
+      modal.classList.add(
+        "show"
       );
 
       renderStations(
@@ -629,8 +638,8 @@ function renderStations(list) {
 
 function closeModal() {
 
-  modal.classList.add(
-    "hidden"
+  modal.classList.remove(
+    "show"
   );
 
 }
@@ -817,4 +826,5 @@ modal.addEventListener(
 </script>
 
 </body>
+
 </html>

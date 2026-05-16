@@ -429,10 +429,10 @@ body {
 
     </div>
 
-    <div class="cell"></div>
-    <div class="cell"></div>
-    <div class="cell"></div>
-    <div class="cell"></div>
+    <div class="cell" data-row="0" data-column="0"></div>
+    <div class="cell" data-row="0" data-column="1"></div>
+    <div class="cell" data-row="0" data-column="2"></div>
+    <div class="cell" data-row="0" data-column="3"></div>
 
     <div class="row-header blue">
 
@@ -446,10 +446,10 @@ body {
 
     </div>
 
-    <div class="cell"></div>
-    <div class="cell"></div>
-    <div class="cell"></div>
-    <div class="cell"></div>
+    <div class="cell" data-row="1" data-column="0"></div>
+    <div class="cell" data-row="1" data-column="1"></div>
+    <div class="cell" data-row="1" data-column="2"></div>
+    <div class="cell" data-row="1" data-column="3"></div>
 
   </div>
 
@@ -637,9 +637,140 @@ function closeModal() {
 
 function submitBoard() {
 
-  alert(
-    "Route submitted."
-  );
+  const cells =
+    document.querySelectorAll(
+      ".cell"
+    );
+
+  let usedStations = [];
+
+  cells.forEach(cell => {
+
+    cell.classList.remove(
+      "correct"
+    );
+
+    cell.classList.remove(
+      "incorrect"
+    );
+
+    const stationName =
+      cell.querySelector(
+        ".station"
+      )?.textContent;
+
+    if (!stationName) {
+      return;
+    }
+
+    const station =
+      stations.find(s =>
+        s.station_name
+          === stationName
+      );
+
+    if (!station) {
+      return;
+    }
+
+    const row =
+      Number(
+        cell.dataset.row
+      );
+
+    const column =
+      Number(
+        cell.dataset.column
+      );
+
+    let valid = true;
+
+    if (
+      row === 0 &&
+      station.is_terminus === true
+    ) {
+      valid = false;
+    }
+
+    if (
+      row === 1 &&
+      station.direct_to_charing_cross !== true
+    ) {
+      valid = false;
+    }
+
+    if (
+      column === 0 &&
+      station.distance_band
+        !== "coastal"
+    ) {
+      valid = false;
+    }
+
+    if (
+      column === 1 &&
+      station.time_group
+        !== "70 to 90"
+    ) {
+      valid = false;
+    }
+
+    if (
+      column === 2 &&
+      !station.station_name
+        .toLowerCase()
+        .includes("ham")
+    ) {
+      valid = false;
+    }
+
+    if (
+      column === 3 &&
+      station.is_interchange
+        !== true
+    ) {
+      valid = false;
+    }
+
+    if (
+      usedStations.includes(
+        station.station_name
+      )
+    ) {
+      valid = false;
+    }
+
+    usedStations.push(
+      station.station_name
+    );
+
+    if (valid) {
+
+      cell.classList.add(
+        "correct"
+      );
+
+      cell.querySelector(
+        ".label"
+      ).textContent =
+        "CORRECT";
+
+    }
+
+    else {
+
+      cell.classList.add(
+        "incorrect"
+      );
+
+      cell.querySelector(
+        ".label"
+      ).textContent =
+        "INVALID";
+
+    }
+
+  });
 
 }
 

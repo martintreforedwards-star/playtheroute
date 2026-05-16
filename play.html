@@ -587,11 +587,6 @@ fetch(
 
   stations = data;
 
-  console.log(
-    "Stations loaded:",
-    stations.length
-  );
-
 })
 .catch(error => {
 
@@ -619,6 +614,12 @@ cells.forEach(cell => {
       );
 
       searchBox.value = "";
+
+      setTimeout(() => {
+
+        searchBox.focus();
+
+      }, 50);
 
     }
 
@@ -685,7 +686,6 @@ function closeModal() {
 }
 
 function submitBoard() {
-
 
   const allCells =
     document.querySelectorAll(
@@ -759,11 +759,21 @@ function submitBoard() {
       valid = false;
     }
 
-    if (
-      column === 1 &&
-      station.time_group !== "70 to 90"
-    ) {
-      valid = false;
+    if (column === 1) {
+
+      const normalizedTime =
+        station.time_group
+          .replace(/–/g, "-")
+          .replace(/\s/g, "");
+
+      if (
+        normalizedTime !== "70-90"
+      ) {
+
+        valid = false;
+
+      }
+
     }
 
     if (
@@ -825,7 +835,7 @@ function submitBoard() {
 }
 
 searchBox.addEventListener(
-  "input",
+  "keyup",
   () => {
 
     const query =
@@ -843,6 +853,8 @@ searchBox.addEventListener(
     renderStations(
       filtered
     );
+
+    searchBox.focus();
 
   }
 

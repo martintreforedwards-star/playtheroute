@@ -12,28 +12,39 @@ with open(
 
 # DEFINITIONS
 
-INNER_MAX = 25
 COMMUTER_MAX = 55
+
+# TRUE COASTAL STATIONS ONLY
 
 COASTAL_STATIONS = {
 
     "Margate",
     "Ramsgate",
     "Broadstairs",
-    "Whitstable",
+    "Westgate-On-Sea",
+    "Birchington-On-Sea",
     "Herne Bay",
+    "Whitstable",
     "Deal",
+    "Walmer",
+    "Sandwich",
     "Dover Priory",
     "Folkestone Central",
     "Folkestone West",
+    "Hythe",
+    "New Romney",
+    "Winchelsea",
     "Rye",
     "Hastings",
-    "Westgate-On-Sea",
-    "Birchington-On-Sea",
-    "Walmer",
-    "Sandwich"
+    "St Leonards Warrior Square",
+    "Bexhill",
+    "Cooden Beach",
+    "Pevensey Bay",
+    "Eastbourne"
 
 }
+
+# INNER LONDON / METRO
 
 INNER_STATIONS = {
 
@@ -41,10 +52,19 @@ INNER_STATIONS = {
     "London Cannon Street",
     "London Charing Cross",
     "London Victoria",
+    "St Pancras International",
     "City Thameslink",
     "Farringdon",
     "London Blackfriars",
-    "Waterloo East"
+    "London Waterloo (East)",
+    "Stratford International",
+    "Lewisham",
+    "New Cross",
+    "St Johns",
+    "Catford Bridge",
+    "Ladywell",
+    "Brixton",
+    "Denmark Hill"
 
 }
 
@@ -58,7 +78,7 @@ for station in stations:
     )
 
     mins = station.get(
-        "travel_time_mins",
+        "canonical_time_to_london",
         999
     )
 

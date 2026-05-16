@@ -1,3 +1,4 @@
+import json
 # LOAD JSON
 
 with open(
@@ -99,6 +100,6 @@ with open(
         ensure_ascii=False
     )
 
-print(
+print("Distance bands rebuilt.")
     "Distance bands rebuilt."
 )

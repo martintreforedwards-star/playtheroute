@@ -1,4 +1,5 @@
 import json
+
 # LOAD JSON
 
 with open(
@@ -101,5 +102,3 @@ with open(
     )
 
 print("Distance bands rebuilt.")
-    "Distance bands rebuilt."
-)

@@ -183,14 +183,27 @@ body {
 
 }
 
-.row-header.green {
+.row-header.green,
+.row-header.blue {
+
   background: rgba(15,23,42,0.95);
-  border-left: 6px solid #22c55e;
+
+  border-left: 4px solid;
+
+  box-sizing: border-box;
+
+}
+
+.row-header.green {
+
+  border-color: #22c55e;
+
 }
 
 .row-header.blue {
-  background: rgba(15,23,42,0.95);
-  border-left: 6px solid #60a5fa;
+
+  border-color: #60a5fa;
+
 }
 
 .cell {
@@ -273,8 +286,7 @@ body {
   cursor: pointer;
 }
 
-.modal,
-.routepedia-modal {
+.modal {
   position: fixed;
   inset: 0;
   background: rgba(0,0,0,0.82);
@@ -290,8 +302,7 @@ body {
   display: none !important;
 }
 
-.modal-box,
-.routepedia-box {
+.modal-box {
   width: 92%;
   max-width: 620px;
   background: #111827;
@@ -319,16 +330,6 @@ body {
 
 .station-option:hover {
   background: #1e293b;
-}
-
-.routepedia-close {
-  border: none;
-  background: #ef4444;
-  color: white;
-  padding: 12px 16px;
-  border-radius: 12px;
-  cursor: pointer;
-  margin-top: 18px;
 }
 
 </style>
@@ -445,8 +446,7 @@ body {
   </div>
 
   <button
-    class="submit-button"
-    onclick="submitBoard()">
+    class="submit-button">
 
     Submit Route
 
@@ -460,19 +460,185 @@ body {
 
     🚪 = coastal commuter geography
 
-    <br>
+  </div>
 
-    <button
-      class="routepedia-button"
-      onclick="openRoutepedia()">
+</div>
 
-      📘 Routepedia
+<div
+  class="modal hidden"
+  id="stationModal">
 
-    </button>
+  <div class="modal-box">
+
+    <input
+      type="text"
+      id="searchBox"
+      placeholder="Search station...">
+
+    <div id="results"></div>
 
   </div>
 
 </div>
+
+<script>
+
+const cells =
+  document.querySelectorAll(".cell");
+
+const modal =
+  document.getElementById(
+    "stationModal"
+  );
+
+const results =
+  document.getElementById(
+    "results"
+  );
+
+const searchBox =
+  document.getElementById(
+    "searchBox"
+  );
+
+let stations = [];
+
+let activeCell = null;
+
+fetch(
+  "data/stations/southeastern.json"
+)
+
+.then(response => response.json())
+
+.then(data => {
+
+  stations = data;
+
+});
+
+cells.forEach(cell => {
+
+  cell.addEventListener(
+    "click",
+    () => {
+
+      activeCell = cell;
+
+      modal.classList.remove(
+        "hidden"
+      );
+
+      renderStations(
+        stations
+      );
+
+      searchBox.value = "";
+
+      searchBox.focus();
+
+    }
+
+  );
+
+});
+
+function renderStations(list) {
+
+  results.innerHTML = "";
+
+  list
+    .sort((a, b) =>
+      a.station_name.localeCompare(
+        b.station_name
+      )
+    )
+    .forEach(station => {
+
+      const option =
+        document.createElement("div");
+
+      option.className =
+        "station-option";
+
+      option.textContent =
+        `${station.station_name} (${station.crs})`;
+
+      option.onclick = () => {
+
+        activeCell.innerHTML = `
+
+          <div class="cell-content">
+
+            <div class="station">
+              ${station.station_name}
+            </div>
+
+            <div class="label">
+              ARRIVING
+            </div>
+
+          </div>
+
+        `;
+
+        modal.classList.add(
+          "hidden"
+        );
+
+      };
+
+      results.appendChild(
+        option
+      );
+
+    });
+
+}
+
+searchBox.addEventListener(
+  "input",
+  () => {
+
+    const query =
+      searchBox.value.toLowerCase();
+
+    const filtered =
+      stations.filter(station =>
+
+        station.station_name
+          .toLowerCase()
+          .includes(query)
+
+      );
+
+    renderStations(
+      filtered
+    );
+
+  }
+
+);
+
+modal.addEventListener(
+  "click",
+  event => {
+
+    if (
+      event.target === modal
+    ) {
+
+      modal.classList.add(
+        "hidden"
+      );
+
+    }
+
+  }
+
+);
+
+</script>
 
 </body>
 </html>

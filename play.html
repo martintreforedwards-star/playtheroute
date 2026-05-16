@@ -213,15 +213,17 @@ body {
 
   cursor: pointer;
 
+  transition: 0.2s;
+
 }
 
 .cell.correct {
-  background: rgba(0,80,40,0.95);
+  background: rgba(0,120,40,0.95);
   border-color: #22c55e;
 }
 
 .cell.incorrect {
-  background: rgba(100,0,0,0.95);
+  background: rgba(140,0,0,0.95);
   border-color: #ef4444;
 }
 
@@ -247,7 +249,7 @@ body {
 
   letter-spacing: 1px;
 
-  color: #9ca3af;
+  color: #d1d5db;
 
 }
 
@@ -305,11 +307,6 @@ body {
   justify-content: space-between;
   align-items: center;
   margin-bottom: 18px;
-}
-
-.modal-title {
-  font-size: 1.1rem;
-  font-weight: 700;
 }
 
 .close-button {
@@ -509,7 +506,7 @@ body {
   <button
     class="submit-button"
     type="button"
-    onclick="submitBoard();">
+    onclick="submitBoard()">
 
     Submit Route
 
@@ -535,9 +532,7 @@ body {
 
     <div class="modal-top">
 
-      <div class="modal-title">
-        Select station
-      </div>
+      <strong>Select station</strong>
 
       <button
         class="close-button"
@@ -584,44 +579,21 @@ let stations = [];
 
 let activeCell = null;
 
-async function loadStations() {
+fetch(
+  "./data/stations/southeastern.json"
+)
+.then(response => response.json())
+.then(data => {
 
-  try {
+  stations = data;
 
-    const response =
-      await fetch(
-        "./data/stations/southeastern.json"
-      );
-
-    stations =
-      await response.json();
-
-  }
-
-  catch(error) {
-
-    console.error(
-      "Station load failed",
-      error
-    );
-
-  }
-
-}
-
-loadStations();
+});
 
 cells.forEach(cell => {
 
   cell.addEventListener(
     "click",
-    async () => {
-
-      if (stations.length === 0) {
-
-        await loadStations();
-
-      }
+    () => {
 
       activeCell = cell;
 
@@ -633,8 +605,6 @@ cells.forEach(cell => {
       );
 
       searchBox.value = "";
-
-      searchBox.focus();
 
     }
 
@@ -702,14 +672,14 @@ function closeModal() {
 
 function submitBoard() {
 
-  const cells =
+  const allCells =
     document.querySelectorAll(
       ".cell"
     );
 
   let usedStations = [];
 
-  cells.forEach(cell => {
+  allCells.forEach(cell => {
 
     cell.classList.remove(
       "correct"
@@ -719,18 +689,21 @@ function submitBoard() {
       "incorrect"
     );
 
-    const stationName =
+    const stationElement =
       cell.querySelector(
         ".station"
-      )?.textContent;
+      );
 
-    if (!stationName) {
+    if (!stationElement) {
       return;
     }
 
+    const stationName =
+      stationElement.textContent;
+
     const station =
-      stations.find(s =>
-        s.station_name
+      stations.find(
+        s => s.station_name
           === stationName
       );
 
@@ -766,16 +739,14 @@ function submitBoard() {
 
     if (
       column === 0 &&
-      station.distance_band
-        !== "coastal"
+      station.distance_band !== "coastal"
     ) {
       valid = false;
     }
 
     if (
       column === 1 &&
-      station.time_group
-        !== "70 to 90"
+      station.time_group !== "70 to 90"
     ) {
       valid = false;
     }
@@ -791,8 +762,7 @@ function submitBoard() {
 
     if (
       column === 3 &&
-      station.is_interchange
-        !== true
+      station.is_interchange !== true
     ) {
       valid = false;
     }
@@ -820,6 +790,8 @@ function submitBoard() {
       ).textContent =
         "CORRECT";
 
+      alert("CORRECT");
+
     }
 
     else {
@@ -833,27 +805,13 @@ function submitBoard() {
       ).textContent =
         "INVALID";
 
+      alert("INVALID");
+
     }
 
   });
 
 }
-
-modal.addEventListener(
-  "click",
-  event => {
-
-    if (
-      event.target === modal
-    ) {
-
-      closeModal();
-
-    }
-
-  }
-
-);
 
 searchBox.addEventListener(
   "input",
@@ -874,6 +832,22 @@ searchBox.addEventListener(
     renderStations(
       filtered
     );
+
+  }
+
+);
+
+modal.addEventListener(
+  "click",
+  event => {
+
+    if (
+      event.target === modal
+    ) {
+
+      closeModal();
+
+    }
 
   }
 

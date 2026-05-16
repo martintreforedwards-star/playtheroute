@@ -86,8 +86,6 @@ body {
 
   grid-template-columns: 88px repeat(4, 1fr);
 
-  grid-template-rows: 82px 82px 82px;
-
   gap: 8px;
 
   width: 100%;
@@ -338,11 +336,11 @@ body {
 
   .game-grid {
 
-    grid-template-columns: 82px repeat(4, minmax(58px, 1fr));
+    grid-template-columns: 72px repeat(4, 1fr);
 
-    gap: 6px;
+    gap: 4px;
 
-    overflow-x: auto;
+    overflow-x: hidden;
 
   }
 
@@ -350,7 +348,7 @@ body {
   .row-header,
   .cell {
 
-    height: 74px;
+    height: 64px;
 
   }
 
@@ -371,11 +369,11 @@ body {
   }
 
   .station {
-    font-size: 0.54rem;
+    font-size: 0.42rem;
   }
 
   .label {
-    font-size: 0.4rem;
+    font-size: 0.35rem;
   }
 
 }
@@ -495,8 +493,8 @@ body {
 
   <button
     class="submit-button"
-    type="button"
-    onclick="submitBoard()">
+    id="submitButton"
+    type="button">
 
     Submit Route
 
@@ -866,6 +864,15 @@ modal.addEventListener(
   }
 
 );
+
+document
+  .getElementById(
+    "submitButton"
+  )
+  .addEventListener(
+    "click",
+    submitBoard
+  );
 
 closeModal();
 

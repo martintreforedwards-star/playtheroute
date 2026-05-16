@@ -343,6 +343,56 @@ body {
   background: #1e293b;
 }
 
+@media (max-width: 700px) {
+
+  .container {
+    padding: 10px;
+  }
+
+  .game-grid {
+
+    grid-template-columns: 78px repeat(4, 1fr);
+
+    grid-template-rows: 74px 74px 74px;
+
+    gap: 6px;
+
+  }
+
+  .column-header,
+  .row-header,
+  .cell {
+
+    height: 74px;
+
+  }
+
+  .column-header strong {
+    font-size: 0.9rem;
+  }
+
+  .column-clue {
+    font-size: 0.46rem;
+  }
+
+  .row-header strong {
+    font-size: 0.7rem;
+  }
+
+  .row-header span {
+    font-size: 0.45rem;
+  }
+
+  .station {
+    font-size: 0.54rem;
+  }
+
+  .label {
+    font-size: 0.4rem;
+  }
+
+}
+
 </style>
 
 </head>
@@ -458,7 +508,7 @@ body {
 
   <button
     class="submit-button"
-    onclick="submitBoard()">
+    id="submitButton">
 
     Submit Route
 
@@ -544,11 +594,6 @@ async function loadStations() {
 
     stations =
       await response.json();
-
-    console.log(
-      "Stations loaded:",
-      stations.length
-    );
 
   }
 
@@ -832,6 +877,15 @@ searchBox.addEventListener(
   }
 
 );
+
+document
+  .getElementById(
+    "submitButton"
+  )
+  .addEventListener(
+    "click",
+    submitBoard
+  );
 
 closeModal();
 

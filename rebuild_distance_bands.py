@@ -1,7 +1,5 @@
 import json
 
-# LOAD JSON
-
 with open(
     "data/stations/southeastern.json",
     "r",
@@ -9,12 +7,6 @@ with open(
 ) as file:
 
     stations = json.load(file)
-
-# DEFINITIONS
-
-COMMUTER_MAX = 55
-
-# TRUE COASTAL STATIONS ONLY
 
 COASTAL_STATIONS = {
 
@@ -31,20 +23,10 @@ COASTAL_STATIONS = {
     "Dover Priory",
     "Folkestone Central",
     "Folkestone West",
-    "Hythe",
-    "New Romney",
-    "Winchelsea",
     "Rye",
-    "Hastings",
-    "St Leonards Warrior Square",
-    "Bexhill",
-    "Cooden Beach",
-    "Pevensey Bay",
-    "Eastbourne"
+    "Hastings"
 
 }
-
-# INNER LONDON / METRO
 
 INNER_STATIONS = {
 
@@ -52,23 +34,13 @@ INNER_STATIONS = {
     "London Cannon Street",
     "London Charing Cross",
     "London Victoria",
-    "St Pancras International",
     "City Thameslink",
     "Farringdon",
     "London Blackfriars",
     "London Waterloo (East)",
-    "Stratford International",
-    "Lewisham",
-    "New Cross",
-    "St Johns",
-    "Catford Bridge",
-    "Ladywell",
-    "Brixton",
-    "Denmark Hill"
+    "Lewisham"
 
 }
-
-# PROCESS
 
 for station in stations:
 
@@ -82,31 +54,21 @@ for station in stations:
         999
     )
 
-    # COASTAL
-
     if name in COASTAL_STATIONS:
 
         station["distance_band"] = "coastal"
-
-    # INNER
 
     elif name in INNER_STATIONS:
 
         station["distance_band"] = "inner"
 
-    # COMMUTER
-
-    elif mins <= COMMUTER_MAX:
+    elif mins <= 55:
 
         station["distance_band"] = "commuter"
-
-    # OUTER
 
     else:
 
         station["distance_band"] = "outer"
-
-# SAVE
 
 with open(
     "data/stations/southeastern.json",

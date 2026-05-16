@@ -580,12 +580,26 @@ let stations = [];
 let activeCell = null;
 
 fetch(
-  "./data/stations/southeastern.json"
+  "data/stations/southeastern.json"
 )
 .then(response => response.json())
 .then(data => {
 
   stations = data;
+
+  console.log(
+    "Stations loaded:",
+    stations.length
+  );
+
+})
+.catch(error => {
+
+  console.log(error);
+
+  alert(
+    "JSON FAILED TO LOAD"
+  );
 
 });
 
@@ -671,6 +685,10 @@ function closeModal() {
 }
 
 function submitBoard() {
+
+  alert(
+    "SUBMIT BUTTON WORKING"
+  );
 
   const allCells =
     document.querySelectorAll(
@@ -790,8 +808,6 @@ function submitBoard() {
       ).textContent =
         "CORRECT";
 
-      alert("CORRECT");
-
     }
 
     else {
@@ -804,8 +820,6 @@ function submitBoard() {
         ".label"
       ).textContent =
         "INVALID";
-
-      alert("INVALID");
 
     }
 

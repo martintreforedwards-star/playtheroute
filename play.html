@@ -619,15 +619,6 @@ fetch(
 
   stations = data;
 
-})
-.catch(error => {
-
-  console.log(error);
-
-  alert(
-    "JSON FAILED TO LOAD"
-  );
-
 });
 
 cells.forEach(cell => {
@@ -796,6 +787,9 @@ function submitBoard() {
         rowPass &&
         columnPass &&
         !duplicate;
+
+      cell.style.background = "";
+      cell.style.borderColor = "";
 
       if (valid) {
 

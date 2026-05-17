@@ -942,7 +942,44 @@ window.addEventListener("click", event => {
   }
 
 });
+const submitBtn =
+  document.getElementById(
+    "submit-btn"
+  );
 
+submitBtn.addEventListener(
+  "click",
+  () => {
+
+    cells.forEach(cell => {
+
+      if(
+        cell.innerHTML.trim() !== ""
+      ){
+
+        cell.classList.add(
+          "valid"
+        );
+
+        cell.innerHTML += `
+
+          <div class="cell-status">
+            VALID
+          </div>
+
+        `;
+
+      }
+
+    });
+
+    document.getElementById(
+      "special-announcement"
+    ).style.display = "block";
+
+  }
+
+);
 </script>
 
 </body>

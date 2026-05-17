@@ -1,1 +1,691 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>The Route</title>
+
+<style>
+
+*{
+  box-sizing:border-box;
+}
+
+body{
+  margin:0;
+  background:#04112b;
+  color:white;
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+.page{
+  max-width:1200px;
+  margin:0 auto;
+  padding:20px;
+}
+
+.header{
+  text-align:center;
+  margin-bottom:24px;
+}
+
+.logo{
+  width:72px;
+  margin-bottom:12px;
+}
+
+h1{
+  margin:0;
+  font-size:64px;
+  line-height:1;
+  font-weight:800;
+}
+
+.subtitle{
+  margin-top:10px;
+  color:#9ca3af;
+  font-size:24px;
+}
+
+.service-panel{
+  border:2px solid #2563eb;
+  border-radius:18px;
+  padding:24px;
+  margin-bottom:28px;
+  background:#0b1736;
+}
+
+.service-title{
+  color:#22c55e;
+  font-weight:800;
+  letter-spacing:3px;
+  font-size:28px;
+  margin-bottom:14px;
+}
+
+.service-text{
+  font-size:22px;
+  line-height:1.5;
+}
+
+.grid-wrapper{
+  overflow-x:auto;
+  padding-bottom:10px;
+}
+
+.route-grid{
+  display:grid;
+  grid-template-columns:180px repeat(4, 1fr);
+  gap:12px;
+  min-width:900px;
+}
+
+.corner{
+  background:transparent;
+}
+
+.column-header{
+  background:#111c44;
+  border-radius:16px;
+  padding:18px;
+  min-height:120px;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  text-align:center;
+}
+
+.column-letter{
+  font-size:42px;
+  font-weight:800;
+  margin-bottom:10px;
+}
+
+.column-clue{
+  font-size:22px;
+  line-height:1.3;
+  color:#d1d5db;
+}
+
+.row-header{
+  background:#111c44;
+  border-left:8px solid #22c55e;
+  border-radius:16px;
+  padding:20px;
+  min-height:140px;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+}
+
+.row-header.blue{
+  border-left-color:#60a5fa;
+}
+
+.platform-title{
+  font-size:42px;
+  font-weight:800;
+  margin-bottom:12px;
+}
+
+.platform-clue{
+  font-size:24px;
+  color:#d1d5db;
+  line-height:1.4;
+}
+
+.cell{
+  background:#081633;
+  border:2px solid #2563eb;
+  border-radius:16px;
+  min-height:140px;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  text-align:center;
+  cursor:pointer;
+  transition:0.2s;
+  padding:12px;
+}
+
+.cell:hover{
+  background:#10204a;
+}
+
+.cell-content{
+  width:100%;
+}
+
+.station-name{
+  font-size:28px;
+  font-weight:700;
+  line-height:1.2;
+}
+
+.cell-status{
+  margin-top:10px;
+  font-size:16px;
+  letter-spacing:2px;
+  color:#d1d5db;
+}
+
+.valid{
+  background:#166534;
+  border-color:#22c55e;
+}
+
+.invalid{
+  background:#991b1b;
+  border-color:#ef4444;
+}
+
+.tickets{
+  margin-top:24px;
+  background:#111c44;
+  border-radius:16px;
+  padding:24px;
+  font-size:36px;
+  font-weight:700;
+}
+
+.submit-btn{
+  width:100%;
+  margin-top:24px;
+  border:none;
+  background:#22c55e;
+  color:white;
+  border-radius:18px;
+  padding:28px;
+  font-size:42px;
+  font-weight:800;
+  cursor:pointer;
+}
+
+.submit-btn:hover{
+  background:#16a34a;
+}
+
+.route-key{
+  margin-top:24px;
+  border:2px solid #2563eb;
+  border-radius:18px;
+  padding:24px;
+  background:#0b1736;
+}
+
+.route-key h2{
+  margin-top:0;
+  color:#22c55e;
+  letter-spacing:3px;
+  font-size:30px;
+}
+
+.route-key p{
+  font-size:24px;
+  margin:14px 0;
+}
+
+.special-announcement{
+  margin-top:24px;
+  border:2px solid #22c55e;
+  border-radius:18px;
+  padding:24px;
+  background:#0b1736;
+  display:none;
+}
+
+.special-announcement h2{
+  color:#22c55e;
+  text-align:center;
+  letter-spacing:3px;
+  margin-top:0;
+  font-size:32px;
+}
+
+.special-text{
+  text-align:center;
+  font-size:28px;
+  margin-top:20px;
+}
+
+.modal{
+  position:fixed;
+  inset:0;
+  background:rgba(0,0,0,0.75);
+  display:none;
+  justify-content:center;
+  align-items:center;
+  padding:20px;
+  z-index:999;
+}
+
+.modal-box{
+  width:100%;
+  max-width:500px;
+  background:#111c44;
+  border-radius:18px;
+  padding:24px;
+}
+
+.modal-title{
+  font-size:30px;
+  margin-bottom:18px;
+  font-weight:700;
+}
+
+.search-input{
+  width:100%;
+  padding:18px;
+  border:none;
+  border-radius:12px;
+  font-size:22px;
+  margin-bottom:18px;
+}
+
+.station-list{
+  max-height:320px;
+  overflow-y:auto;
+}
+
+.station-option{
+  padding:14px;
+  border-radius:10px;
+  cursor:pointer;
+  font-size:22px;
+}
+
+.station-option:hover{
+  background:#1d2b5c;
+}
+
+.close-btn{
+  width:100%;
+  margin-top:18px;
+  border:none;
+  background:#374151;
+  color:white;
+  border-radius:12px;
+  padding:16px;
+  font-size:22px;
+  cursor:pointer;
+}
+
+@media(max-width:768px){
+
+  .page{
+    padding:14px;
+  }
+
+  h1{
+    font-size:52px;
+  }
+
+  .subtitle{
+    font-size:20px;
+  }
+
+  .service-title{
+    font-size:22px;
+  }
+
+  .service-text{
+    font-size:18px;
+  }
+
+  .route-grid{
+    grid-template-columns:140px repeat(4, 140px);
+    gap:8px;
+    min-width:auto;
+  }
+
+  .column-header{
+    min-height:90px;
+    padding:12px;
+  }
+
+  .column-letter{
+    font-size:28px;
+  }
+
+  .column-clue{
+    font-size:16px;
+  }
+
+  .row-header{
+    min-height:120px;
+    padding:12px;
+  }
+
+  .platform-title{
+    font-size:24px;
+  }
+
+  .platform-clue{
+    font-size:16px;
+  }
+
+  .cell{
+    min-height:120px;
+  }
+
+  .station-name{
+    font-size:20px;
+  }
+
+  .tickets{
+    font-size:24px;
+    padding:18px;
+  }
+
+  .submit-btn{
+    font-size:30px;
+    padding:22px;
+  }
+
+  .route-key p{
+    font-size:18px;
+  }
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="page">
+
+  <div class="header">
+
+    <img
+      src="logo.svg"
+      class="logo"
+      alt="The Route Logo"
+    >
+
+    <h1>The Route</h1>
+
+    <div class="subtitle">
+      Southeastern Alpha 001
+    </div>
+
+  </div>
+
+  <div class="service-panel">
+
+    <div class="service-title">
+      SERVICE UPDATE
+    </div>
+
+    <div class="service-text">
+      Engineering works continue between commuter intuition and actual rail logic.
+    </div>
+
+  </div>
+
+  <div class="grid-wrapper">
+
+    <div class="route-grid">
+
+      <div class="corner"></div>
+
+      <div class="column-header">
+        <div class="column-letter">A</div>
+        <div class="column-clue">🚪 Coastal</div>
+      </div>
+
+      <div class="column-header">
+        <div class="column-letter">B</div>
+        <div class="column-clue">⏱ 70–90 mins</div>
+      </div>
+
+      <div class="column-header">
+        <div class="column-letter">C</div>
+        <div class="column-clue">Contains 'ham'</div>
+      </div>
+
+      <div class="column-header">
+        <div class="column-letter">D</div>
+        <div class="column-clue">Interchange</div>
+      </div>
+
+      <div class="row-header">
+
+        <div class="platform-title">
+          Platform 1
+        </div>
+
+        <div class="platform-clue">
+          Not a terminus
+        </div>
+
+      </div>
+
+      <div class="cell"></div>
+      <div class="cell"></div>
+      <div class="cell"></div>
+      <div class="cell"></div>
+
+      <div class="row-header blue">
+
+        <div class="platform-title">
+          Platform 2
+        </div>
+
+        <div class="platform-clue">
+          Direct to Charing Cross
+        </div>
+
+      </div>
+
+      <div class="cell"></div>
+      <div class="cell"></div>
+      <div class="cell"></div>
+      <div class="cell"></div>
+
+    </div>
+
+  </div>
+
+  <div class="tickets">
+    🎫 Tickets Remaining: <span id="ticket-count">4</span>
+  </div>
+
+  <button
+    class="submit-btn"
+    id="submit-btn"
+  >
+    Submit route
+  </button>
+
+  <div class="route-key">
+
+    <h2>ROUTE KEY</h2>
+
+    <p>🚪 = coastal commuter geography</p>
+
+  </div>
+
+  <div
+    class="special-announcement"
+    id="special-announcement"
+  >
+
+    <h2>SPECIAL ANNOUNCEMENT</h2>
+
+    <div class="special-text">
+      B + D
+    </div>
+
+  </div>
+
+</div>
+
+<div
+  class="modal"
+  id="station-modal"
+>
+
+  <div class="modal-box">
+
+    <div class="modal-title">
+      Enter Station
+    </div>
+
+    <input
+      type="text"
+      class="search-input"
+      id="search-input"
+      placeholder="Search stations..."
+    >
+
+    <div
+      class="station-list"
+      id="station-list"
+    ></div>
+
+    <button
+      class="close-btn"
+      id="close-btn"
+    >
+      Close
+    </button>
+
+  </div>
+
+</div>
+
+<script>
+
+const stations = [
+  "Broadstairs",
+  "Ramsgate",
+  "Sturry",
+  "Chilham",
+  "City Thameslink",
+  "Ashford International",
+  "Sandwich",
+  "Chartham"
+];
+
+const cells =
+  document.querySelectorAll(".cell");
+
+const modal =
+  document.getElementById("station-modal");
+
+const searchInput =
+  document.getElementById("search-input");
+
+const stationList =
+  document.getElementById("station-list");
+
+const closeBtn =
+  document.getElementById("close-btn");
+
+const submitBtn =
+  document.getElementById("submit-btn");
+
+const ticketCount =
+  document.getElementById("ticket-count");
+
+let activeCell = null;
+
+let tickets = 4;
+
+cells.forEach(cell => {
+
+  cell.addEventListener("click", () => {
+
+    activeCell = cell;
+
+    modal.style.display = "flex";
+
+    renderStations("");
+
+    searchInput.value = "";
+
+    setTimeout(() => {
+      searchInput.focus();
+    }, 50);
+
+  });
+
+});
+
+function renderStations(filter){
+
+  stationList.innerHTML = "";
+
+  const filtered =
+    stations.filter(station =>
+      station
+        .toLowerCase()
+        .includes(
+          filter.toLowerCase()
+        )
+    );
+
+  filtered.forEach(station => {
+
+    const div =
+      document.createElement("div");
+
+    div.className =
+      "station-option";
+
+    div.textContent =
+      station;
+
+    div.addEventListener("click", () => {
+
+      activeCell.innerHTML = `
+        <div class="cell-content">
+          <div class="station-name">
+            ${station}
+          </div>
+        </div>
+      `;
+
+      modal.style.display = "none";
+
+    });
+
+    stationList.appendChild(div);
+
+  });
+
+}
+
+searchInput.addEventListener("input", () => {
+
+  renderStations(
+    searchInput.value
+  );
+
+});
+
+closeBtn.addEventListener("click", () => {
+
+  modal.style.display = "none";
+
+});
+
+submitBtn.addEventListener("click", () => {
+
+  alert(
+    "Validation logic connects here."
+  );
+
+});
+
+</script>
+
+</body>
+
+</html>

@@ -22,72 +22,106 @@
 }
 
 body {
+
   margin: 0;
+
   font-family: 'Inter', sans-serif;
+
   background:
     radial-gradient(circle at top,
       #001a4d 0%,
       #000814 45%,
       #000510 100%);
+
   color: white;
-  overflow-x: hidden;
+
 }
 
 .container {
+
   width: 100%;
   max-width: 1100px;
+
   margin: auto;
-  padding: 16px;
+
+  padding: 18px;
+
 }
 
 .top-bar {
+
   display: flex;
+
   align-items: center;
+
   justify-content: center;
+
   gap: 14px;
+
   margin-bottom: 18px;
+
 }
 
 .logo {
+
   width: 64px;
   height: 64px;
+
 }
 
 .title-group h1 {
+
   margin: 0;
+
   font-size: 2.6rem;
+
   font-weight: 800;
+
 }
 
 .subtitle {
+
   margin-top: 6px;
+
   color: #9ca3af;
+
   font-size: 0.9rem;
+
 }
 
 .panel {
+
   background: rgba(17,24,39,0.92);
+
   border: 2px solid #1d4ed8;
+
   border-radius: 22px;
+
   padding: 18px;
+
   margin-bottom: 18px;
+
 }
 
 .panel-title {
+
   color: #22c55e;
+
   font-size: 0.95rem;
+
   font-weight: 800;
+
   letter-spacing: 2px;
+
   margin-bottom: 12px;
+
 }
 
 .game-grid {
 
   display: grid;
 
-  grid-template-columns: 88px repeat(4, 1fr);
-
-  grid-template-rows: 82px 82px 82px;
+  grid-template-columns: 86px repeat(4, 1fr);
 
   gap: 8px;
 
@@ -96,7 +130,9 @@ body {
 }
 
 .corner {
+
   background: transparent;
+
 }
 
 .column-header {
@@ -105,11 +141,9 @@ body {
 
   border-radius: 18px;
 
-  padding: 8px 4px;
+  min-height: 74px;
 
-  text-align: center;
-
-  height: 82px;
+  padding: 10px 6px;
 
   display: flex;
 
@@ -117,21 +151,27 @@ body {
 
   justify-content: center;
 
+  align-items: center;
+
+  text-align: center;
+
 }
 
 .column-header strong {
-  font-size: 1.1rem;
+
+  font-size: 1.4rem;
+
 }
 
 .column-clue {
 
-  margin-top: 4px;
+  margin-top: 6px;
+
+  font-size: 0.62rem;
 
   color: #d1d5db;
 
-  font-size: 0.58rem;
-
-  line-height: 1.25;
+  line-height: 1.2;
 
 }
 
@@ -141,51 +181,48 @@ body {
 
   padding: 8px;
 
+  min-height: 78px;
+
   display: flex;
 
   flex-direction: column;
 
   justify-content: center;
 
-  align-items: center;
-
   text-align: center;
-
-  height: 82px;
 
 }
 
 .row-header strong {
 
-  font-size: 0.85rem;
-
-  margin-bottom: 4px;
+  font-size: 0.88rem;
 
 }
 
 .row-header span {
 
-  font-size: 0.56rem;
+  font-size: 0.58rem;
 
-  line-height: 1.25;
+  margin-top: 4px;
 
-}
-
-.row-header.green,
-.row-header.blue {
-
-  background: rgba(15,23,42,0.95);
-
-  border-left: 4px solid;
+  line-height: 1.2;
 
 }
 
 .row-header.green {
-  border-color: #22c55e;
+
+  background: rgba(15,23,42,0.95);
+
+  border-left: 6px solid #22c55e;
+
 }
 
 .row-header.blue {
-  border-color: #60a5fa;
+
+  background: rgba(15,23,42,0.95);
+
+  border-left: 6px solid #60a5fa;
+
 }
 
 .cell {
@@ -196,7 +233,7 @@ body {
 
   border-radius: 18px;
 
-  height: 82px;
+  min-height: 78px;
 
   display: flex;
 
@@ -206,7 +243,7 @@ body {
 
   text-align: center;
 
-  padding: 6px;
+  padding: 8px;
 
   cursor: pointer;
 
@@ -214,30 +251,35 @@ body {
 
 }
 
-.cell:hover {
-  transform: translateY(-1px);
-  border-color: #3b82f6;
-}
-
 .cell.correct {
-  background: rgba(0,120,40,0.95);
+
+  background: rgba(0,90,40,0.95);
+
   border-color: #22c55e;
+
 }
 
 .cell.incorrect {
-  background: rgba(140,0,0,0.95);
+
+  background: rgba(120,0,0,0.95);
+
   border-color: #ef4444;
+
 }
 
 .cell-content {
+
   display: flex;
+
   flex-direction: column;
-  gap: 4px;
+
+  gap: 6px;
+
 }
 
 .station {
 
-  font-size: 0.68rem;
+  font-size: 0.72rem;
 
   font-weight: 700;
 
@@ -247,7 +289,7 @@ body {
 
 .label {
 
-  font-size: 0.46rem;
+  font-size: 0.52rem;
 
   letter-spacing: 1px;
 
@@ -255,34 +297,62 @@ body {
 
 }
 
-.empty-label {
-  color: #94a3b8;
-  font-size: 0.7rem;
-  font-weight: 700;
-}
-
 .ticket-box {
+
   margin-top: 18px;
+
   background: rgba(15,23,42,0.95);
+
   border-radius: 18px;
-  padding: 16px;
+
+  padding: 18px;
+
+  font-size: 1rem;
+
 }
 
 .submit-button {
+
   margin-top: 18px;
+
   width: 100%;
+
   border: none;
-  border-radius: 20px;
-  padding: 18px;
+
+  border-radius: 22px;
+
+  padding: 20px;
+
   font-size: 1.2rem;
+
   font-weight: 800;
+
   background: #22c55e;
+
   color: white;
+
   cursor: pointer;
+
 }
 
-.submit-button:hover {
-  background: #16a34a;
+.submit-button:disabled {
+
+  opacity: 0.4;
+
+  cursor: not-allowed;
+
+}
+
+.route-key {
+
+  margin-top: 18px;
+
+}
+
+.hidden {
+
+  display: none !important;
+
 }
 
 .modal {
@@ -291,115 +361,192 @@ body {
 
   inset: 0;
 
-  background: rgba(0,0,0,0.82);
+  background: rgba(0,0,0,0.84);
 
-  z-index: 9999;
-
-  display: none;
+  display: flex;
 
   align-items: center;
 
   justify-content: center;
 
-  padding: 16px;
+  z-index: 9999;
 
 }
 
 .modal-box {
+
   width: 92%;
+
   max-width: 620px;
+
   background: #111827;
-  border: 2px solid #1d4ed8;
+
+  border: 2px solid #2563eb;
+
   border-radius: 24px;
-  padding: 24px;
-  max-height: 85vh;
+
+  padding: 22px;
+
+  max-height: 82vh;
+
   overflow-y: auto;
+
 }
 
-.modal-top {
+.modal-header {
+
   display: flex;
+
   justify-content: space-between;
+
   align-items: center;
-  margin-bottom: 18px;
+
+  margin-bottom: 16px;
+
 }
 
 .close-button {
-  border: none;
+
   background: #ef4444;
+
+  border: none;
+
   color: white;
-  width: 36px;
-  height: 36px;
-  border-radius: 10px;
+
+  border-radius: 12px;
+
+  padding: 10px 14px;
+
   cursor: pointer;
-  font-size: 1rem;
+
   font-weight: 700;
+
 }
 
 #searchBox {
+
   width: 100%;
+
   padding: 16px;
+
   border-radius: 16px;
+
   border: none;
-  margin-bottom: 18px;
+
   font-size: 1rem;
+
+  margin-bottom: 18px;
+
 }
 
 .station-option {
+
   padding: 14px;
+
   border-radius: 12px;
+
   cursor: pointer;
+
 }
 
 .station-option:hover {
+
   background: #1e293b;
+
+}
+
+.ninth-box {
+
+  margin-top: 18px;
+
+  background: #111827;
+
+  border: 2px solid #22c55e;
+
+  border-radius: 22px;
+
+  padding: 26px;
+
+  text-align: center;
+
+  animation: revealBox 0.6s ease;
+
+}
+
+.departure-board {
+
+  margin-top: 16px;
+
+  background: black;
+
+  color: #22c55e;
+
+  padding: 18px;
+
+  border-radius: 14px;
+
+  font-family: monospace;
+
+  font-size: 1.5rem;
+
+  letter-spacing: 3px;
+
+  animation: flicker 0.12s infinite alternate;
+
+}
+
+@keyframes flicker {
+
+  from {
+    opacity: 0.88;
+  }
+
+  to {
+    opacity: 1;
+  }
+
+}
+
+@keyframes revealBox {
+
+  from {
+    transform: scale(0.9);
+    opacity: 0;
+  }
+
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+
 }
 
 @media (max-width: 700px) {
-
-  .container {
-    padding: 10px;
-  }
 
   .game-grid {
 
     grid-template-columns: 78px repeat(4, 1fr);
 
-    grid-template-rows: 74px 74px 74px;
-
     gap: 6px;
 
   }
 
-  .column-header,
-  .row-header,
   .cell {
 
-    height: 74px;
+    min-height: 72px;
 
-  }
-
-  .column-header strong {
-    font-size: 0.9rem;
-  }
-
-  .column-clue {
-    font-size: 0.46rem;
-  }
-
-  .row-header strong {
-    font-size: 0.7rem;
-  }
-
-  .row-header span {
-    font-size: 0.45rem;
   }
 
   .station {
-    font-size: 0.54rem;
+
+    font-size: 0.58rem;
+
   }
 
-  .label {
-    font-size: 0.4rem;
+  .column-clue {
+
+    font-size: 0.52rem;
+
   }
 
 }
@@ -440,9 +587,7 @@ body {
 
   </div>
 
-  <div
-    class="game-grid"
-    id="gameGrid">
+  <div class="game-grid">
 
     <div class="corner"></div>
 
@@ -486,10 +631,10 @@ body {
 
     </div>
 
-    <div class="cell" data-index="0"></div>
-    <div class="cell" data-index="1"></div>
-    <div class="cell" data-index="2"></div>
-    <div class="cell" data-index="3"></div>
+    <div class="cell"></div>
+    <div class="cell"></div>
+    <div class="cell"></div>
+    <div class="cell"></div>
 
     <div class="row-header blue">
 
@@ -503,10 +648,10 @@ body {
 
     </div>
 
-    <div class="cell" data-index="4"></div>
-    <div class="cell" data-index="5"></div>
-    <div class="cell" data-index="6"></div>
-    <div class="cell" data-index="7"></div>
+    <div class="cell"></div>
+    <div class="cell"></div>
+    <div class="cell"></div>
+    <div class="cell"></div>
 
   </div>
 
@@ -514,7 +659,7 @@ body {
 
     🎫 Tickets Remaining:
     <span id="ticketCount">
-      3
+      4
     </span>
 
   </div>
@@ -523,11 +668,11 @@ body {
     class="submit-button"
     id="submitButton">
 
-    Submit Route
+    Submit route
 
   </button>
 
-  <div class="panel">
+  <div class="panel route-key">
 
     <div class="panel-title">
       ROUTE KEY
@@ -537,24 +682,45 @@ body {
 
   </div>
 
+  <div
+    class="ninth-box hidden"
+    id="ninthBox">
+
+    <div class="panel-title">
+      SPECIAL ANNOUNCEMENT
+    </div>
+
+    All routes validated.
+
+    <div
+      class="departure-board"
+      id="departureBoard">
+
+      A + B
+
+    </div>
+
+  </div>
+
 </div>
 
 <div
-  class="modal"
+  class="modal hidden"
   id="stationModal">
 
   <div class="modal-box">
 
-    <div class="modal-top">
+    <div class="modal-header">
 
-      <strong>Select station</strong>
+      <strong>
+        Select Station
+      </strong>
 
       <button
         class="close-button"
-        id="closeButton">
+        id="closeModal">
 
         ✕
-
       </button>
 
     </div>
@@ -572,19 +738,47 @@ body {
 
 <script>
 
-const boardState = [
+const puzzle = {
 
-  { station: null, correct: null },
-  { station: null, correct: null },
-  { station: null, correct: null },
-  { station: null, correct: null },
+  columns: [
 
-  { station: null, correct: null },
-  { station: null, correct: null },
-  { station: null, correct: null },
-  { station: null, correct: null }
+    {
+      field: "distance_band",
+      value: "coastal"
+    },
 
-];
+    {
+      field: "time_group",
+      value: "70 to 90"
+    },
+
+    {
+      field: "contains_ham",
+      value: true
+    },
+
+    {
+      field: "is_interchange",
+      value: true
+    }
+
+  ],
+
+  rows: [
+
+    {
+      field: "is_terminus",
+      value: false
+    },
+
+    {
+      field: "direct_to_charing_cross",
+      value: true
+    }
+
+  ]
+
+};
 
 const cells =
   document.querySelectorAll(".cell");
@@ -604,99 +798,61 @@ const searchBox =
     "searchBox"
   );
 
+const ticketCount =
+  document.getElementById(
+    "ticketCount"
+  );
+
+const submitButton =
+  document.getElementById(
+    "submitButton"
+  );
+
+const ninthBox =
+  document.getElementById(
+    "ninthBox"
+  );
+
+const departureBoard =
+  document.getElementById(
+    "departureBoard"
+  );
+
+let ticketsRemaining = 4;
+
 let stations = [];
 
-let activeIndex = null;
+let activeCell = null;
+
+const boardState = {};
+
+cells.forEach((cell, index) => {
+
+  const row =
+    index < 4
+      ? 0
+      : 1;
+
+  const column =
+    index % 4;
+
+  cell.dataset.row = row;
+
+  cell.dataset.column = column;
+
+});
 
 fetch(
   "data/stations/southeastern.json"
 )
+
 .then(response => response.json())
+
 .then(data => {
 
   stations = data;
 
-  renderBoard();
-
-})
-.catch(error => {
-
-  console.log(error);
-
-  alert(
-    "JSON FAILED TO LOAD"
-  );
-
 });
-
-function renderBoard() {
-
-  cells.forEach((cell, index) => {
-
-    const state =
-      boardState[index];
-
-    cell.classList.remove(
-      "correct",
-      "incorrect"
-    );
-
-    if (state.correct === true) {
-
-      cell.classList.add(
-        "correct"
-      );
-
-    }
-
-    if (state.correct === false) {
-
-      cell.classList.add(
-        "incorrect"
-      );
-
-    }
-
-    if (!state.station) {
-
-      cell.innerHTML = `
-
-        <div class="empty-label">
-          Select Station
-        </div>
-
-      `;
-
-      return;
-
-    }
-
-    const label =
-      state.correct === true
-        ? "CORRECT"
-        : state.correct === false
-          ? "INVALID"
-          : "ARRIVING";
-
-    cell.innerHTML = `
-
-      <div class="cell-content">
-
-        <div class="station">
-          ${state.station.station_name}
-        </div>
-
-        <div class="label">
-          ${label}
-        </div>
-
-      </div>
-
-    `;
-
-  });
-
-}
 
 cells.forEach(cell => {
 
@@ -704,25 +860,29 @@ cells.forEach(cell => {
     "click",
     () => {
 
-      activeIndex =
-        Number(
-          cell.dataset.index
-        );
+      activeCell = cell;
 
-      modal.style.display =
-        "flex";
-
-      renderStations(
-        stations
+      modal.classList.remove(
+        "hidden"
       );
 
       searchBox.value = "";
+
+      renderStations(
+        [...stations].sort((a, b) =>
+
+          a.station_name.localeCompare(
+            b.station_name
+          )
+
+        )
+      );
 
       setTimeout(() => {
 
         searchBox.focus();
 
-      }, 50);
+      }, 100);
 
     }
 
@@ -734,212 +894,245 @@ function renderStations(list) {
 
   results.innerHTML = "";
 
-  list
-    .sort((a, b) =>
-      a.station_name.localeCompare(
-        b.station_name
-      )
-    )
-    .forEach(station => {
+  list.forEach(station => {
 
-      const option =
-        document.createElement("div");
-
-      option.className =
-        "station-option";
-
-      option.textContent =
-        `${station.station_name} (${station.crs})`;
-
-      option.onclick = () => {
-
-        boardState[
-          activeIndex
-        ].station = station;
-
-        boardState[
-          activeIndex
-        ].correct = null;
-
-        renderBoard();
-
-        closeModal();
-
-      };
-
-      results.appendChild(
-        option
+    const option =
+      document.createElement(
+        "div"
       );
 
-    });
+    option.className =
+      "station-option";
+
+    option.textContent =
+      `${station.station_name} (${station.crs})`;
+
+    option.onclick = () => {
+
+      placeStation(
+        station
+      );
+
+    };
+
+    results.appendChild(
+      option
+    );
+
+  });
 
 }
 
-function closeModal() {
+function placeStation(station) {
 
-  modal.style.display =
-    "none";
+  const row =
+    Number(
+      activeCell.dataset.row
+    );
+
+  const column =
+    Number(
+      activeCell.dataset.column
+    );
+
+  boardState[
+    `${row}-${column}`
+  ] = station;
+
+  activeCell.classList.remove(
+    "correct",
+    "incorrect"
+  );
+
+  activeCell.innerHTML = `
+
+    <div class="cell-content">
+
+      <div class="station">
+        ${station.station_name}
+      </div>
+
+      <div class="label">
+        ARRIVING
+      </div>
+
+    </div>
+
+  `;
+
+  modal.classList.add(
+    "hidden"
+  );
 
 }
 
 function validateCell(
   station,
   row,
-  column,
-  usedStations
+  column
 ) {
 
-  let valid = true;
+  const rowRule =
+    puzzle.rows[row];
+
+  const columnRule =
+    puzzle.columns[column];
+
+  const rowPass =
+    station[rowRule.field]
+      === rowRule.value;
+
+  let columnPass = false;
 
   if (
-    row === 0 &&
-    station.is_terminus === true
+    columnRule.field
+      === "contains_ham"
   ) {
 
-    valid = false;
+    columnPass =
+      station.station_name
+        .toLowerCase()
+        .includes("ham");
 
   }
 
-  if (
-    row === 1 &&
-    station.direct_to_charing_cross !== true
-  ) {
+  else {
 
-    valid = false;
-
-  }
-
-  if (
-    column === 0 &&
-    station.distance_band !== "coastal"
-  ) {
-
-    valid = false;
+    columnPass =
+      station[columnRule.field]
+        === columnRule.value;
 
   }
 
-  if (column === 1) {
+  return (
+    rowPass &&
+    columnPass
+  );
 
-    const normalizedTime =
-      station.time_group
-        .replace(/–/g, "-")
-        .replace(/\s/g, "");
+}
+
+submitButton.addEventListener(
+  "click",
+  () => {
+
+    let correctCount = 0;
+
+    Object.entries(boardState)
+
+      .forEach(([key, station]) => {
+
+        const split =
+          key.split("-");
+
+        const row =
+          Number(split[0]);
+
+        const column =
+          Number(split[1]);
+
+        const valid =
+          validateCell(
+            station,
+            row,
+            column
+          );
+
+        const cell =
+          document.querySelector(
+            `.cell[data-row="${row}"][data-column="${column}"]`
+          );
+
+        cell.classList.remove(
+          "correct",
+          "incorrect"
+        );
+
+        if (valid) {
+
+          correctCount++;
+
+          cell.classList.add(
+            "correct"
+          );
+
+          cell.querySelector(
+            ".label"
+          ).textContent =
+            "VALID";
+
+        }
+
+        else {
+
+          cell.classList.add(
+            "incorrect"
+          );
+
+          cell.querySelector(
+            ".label"
+          ).textContent =
+            "INVALID";
+
+          ticketsRemaining--;
+
+        }
+
+      });
+
+    ticketCount.textContent =
+      ticketsRemaining;
 
     if (
-      normalizedTime !== "70-90"
+      ticketsRemaining <= 0
     ) {
 
-      valid = false;
+      submitButton.disabled = true;
+
+      alert(
+        "No tickets remaining."
+      );
+
+    }
+
+    if (
+      correctCount === 8
+    ) {
+
+      ninthBox.classList.remove(
+        "hidden"
+      );
+
+      const reveals = [
+
+        "A + B",
+        "B + D",
+        "A + C",
+        "COASTAL + INTERCHANGE",
+        "HAM + DIRECT"
+
+      ];
+
+      departureBoard.textContent =
+
+        reveals[
+          Math.floor(
+            Math.random()
+            * reveals.length
+          )
+        ];
 
     }
 
   }
 
-  if (
-    column === 2 &&
-    !station.station_name
-      .toLowerCase()
-      .includes("ham")
-  ) {
-
-    valid = false;
-
-  }
-
-  if (
-    column === 3 &&
-    station.is_interchange !== true
-  ) {
-
-    valid = false;
-
-  }
-
-  if (
-    usedStations.includes(
-      station.station_name
-    )
-  ) {
-
-    valid = false;
-
-  }
-
-  return valid;
-
-}
-
-function submitBoard() {
-
-  let usedStations = [];
-
-  boardState.forEach(
-    (cell, index) => {
-
-      if (!cell.station) {
-
-        cell.correct = false;
-
-        return;
-
-      }
-
-      const row =
-        index < 4 ? 0 : 1;
-
-      const column =
-        index % 4;
-
-      const valid =
-        validateCell(
-          cell.station,
-          row,
-          column,
-          usedStations
-        );
-
-      if (valid) {
-
-        usedStations.push(
-          cell.station.station_name
-        );
-
-      }
-
-      cell.correct = valid;
-
-    }
-  );
-
-  renderBoard();
-
-}
-
-document
-  .getElementById(
-    "submitButton"
-  )
-  .addEventListener(
-    "click",
-    submitBoard
-  );
-
-document
-  .getElementById(
-    "closeButton"
-  )
-  .addEventListener(
-    "click",
-    closeModal
-  );
+);
 
 searchBox.addEventListener(
-  "keyup",
+  "input",
   () => {
 
     const query =
-      searchBox.value
-        .toLowerCase();
+      searchBox.value.toLowerCase();
 
     const filtered =
       stations.filter(station =>
@@ -958,6 +1151,22 @@ searchBox.addEventListener(
 
 );
 
+document.getElementById(
+  "closeModal"
+)
+
+.addEventListener(
+  "click",
+  () => {
+
+    modal.classList.add(
+      "hidden"
+    );
+
+  }
+
+);
+
 modal.addEventListener(
   "click",
   event => {
@@ -966,15 +1175,15 @@ modal.addEventListener(
       event.target === modal
     ) {
 
-      closeModal();
+      modal.classList.add(
+        "hidden"
+      );
 
     }
 
   }
 
 );
-
-closeModal();
 
 </script>
 

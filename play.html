@@ -7,545 +7,410 @@
 
 <meta
   name="viewport"
-  content="width=device-width, initial-scale=1.0">
+  content="width=device-width, initial-scale=1.0"
+>
 
 <title>The Route</title>
 
-<link
-  href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap"
-  rel="stylesheet">
-
 <style>
-
-* {
-  box-sizing: border-box;
-}
 
 body {
 
   margin: 0;
-
-  font-family: 'Inter', sans-serif;
-
-  background:
-    radial-gradient(circle at top,
-      #001a4d 0%,
-      #000814 45%,
-      #000510 100%);
-
+  padding: 20px;
+  background: #000d2b;
   color: white;
+  font-family: Arial, sans-serif;
 
 }
 
 .container {
 
-  width: 100%;
-  max-width: 1100px;
-
+  max-width: 1000px;
   margin: auto;
 
-  padding: 18px;
+}
+
+.header {
+
+  text-align: center;
+  margin-bottom: 24px;
 
 }
 
-.top-bar {
+.header img {
 
-  display: flex;
-
-  align-items: center;
-
-  justify-content: center;
-
-  gap: 14px;
-
-  margin-bottom: 18px;
+  width: 70px;
+  margin-bottom: 10px;
 
 }
 
-.logo {
+.header h1 {
 
-  width: 64px;
-  height: 64px;
-
-}
-
-.title-group h1 {
-
+  font-size: 64px;
   margin: 0;
-
-  font-size: 2.6rem;
-
   font-weight: 800;
 
 }
 
-.subtitle {
+.header p {
 
-  margin-top: 6px;
-
-  color: #9ca3af;
-
-  font-size: 0.9rem;
+  margin-top: 8px;
+  color: #bbbbbb;
+  font-size: 24px;
 
 }
 
-.panel {
+.service-update {
 
-  background: rgba(17,24,39,0.92);
-
-  border: 2px solid #1d4ed8;
-
-  border-radius: 22px;
-
-  padding: 18px;
-
-  margin-bottom: 18px;
+  border: 2px solid #0057ff;
+  border-radius: 24px;
+  padding: 20px;
+  background: rgba(255,255,255,0.03);
+  margin-bottom: 24px;
 
 }
 
-.panel-title {
+.service-update h2 {
 
-  color: #22c55e;
-
-  font-size: 0.95rem;
-
-  font-weight: 800;
-
-  letter-spacing: 2px;
-
-  margin-bottom: 12px;
+  margin: 0 0 12px 0;
+  color: #22dd66;
+  letter-spacing: 3px;
+  font-size: 20px;
 
 }
 
-.game-grid {
+.grid {
 
   display: grid;
-
-  grid-template-columns: 86px repeat(4, 1fr);
-
-  gap: 8px;
-
-  width: 100%;
+  grid-template-columns: 140px repeat(4, 1fr);
+  gap: 12px;
 
 }
 
 .corner {
 
-  background: transparent;
+  visibility: hidden;
 
 }
 
 .column-header {
 
-  background: rgba(15,23,42,0.95);
-
-  border-radius: 18px;
-
-  min-height: 74px;
-
-  padding: 10px 6px;
-
-  display: flex;
-
-  flex-direction: column;
-
-  justify-content: center;
-
-  align-items: center;
-
+  background: rgba(255,255,255,0.04);
+  border-radius: 20px;
+  padding: 18px;
   text-align: center;
+  min-height: 90px;
 
 }
 
-.column-header strong {
+.column-header h3 {
 
-  font-size: 1.4rem;
+  margin: 0;
+  font-size: 24px;
 
 }
 
-.column-clue {
+.column-header p {
 
-  margin-top: 6px;
-
-  font-size: 0.62rem;
-
-  color: #d1d5db;
-
-  line-height: 1.2;
+  margin-top: 10px;
+  font-size: 18px;
+  color: #cccccc;
 
 }
 
 .row-header {
 
-  border-radius: 18px;
-
-  padding: 8px;
-
-  min-height: 78px;
-
+  background: rgba(255,255,255,0.04);
+  border-radius: 24px;
+  padding: 16px;
+  text-align: center;
   display: flex;
-
   flex-direction: column;
-
   justify-content: center;
 
-  text-align: center;
+}
+
+.row-header.platform1 {
+
+  border-left: 6px solid #22dd66;
 
 }
 
-.row-header strong {
+.row-header.platform2 {
 
-  font-size: 0.88rem;
-
-}
-
-.row-header span {
-
-  font-size: 0.58rem;
-
-  margin-top: 4px;
-
-  line-height: 1.2;
+  border-left: 6px solid #66aaff;
 
 }
 
-.row-header.green {
+.row-header h3 {
 
-  background: rgba(15,23,42,0.95);
-
-  border-left: 6px solid #22c55e;
+  margin: 0;
+  font-size: 20px;
 
 }
 
-.row-header.blue {
+.row-header p {
 
-  background: rgba(15,23,42,0.95);
-
-  border-left: 6px solid #60a5fa;
+  margin-top: 10px;
+  font-size: 16px;
+  color: #dddddd;
 
 }
 
 .cell {
 
-  background: rgba(10,20,50,0.95);
-
-  border: 2px solid #1d4ed8;
-
-  border-radius: 18px;
-
-  min-height: 78px;
+  border: 2px solid #0057ff;
+  border-radius: 20px;
+  min-height: 110px;
+  background: rgba(255,255,255,0.02);
 
   display: flex;
-
   align-items: center;
-
   justify-content: center;
 
   text-align: center;
-
-  padding: 8px;
-
   cursor: pointer;
-
   transition: 0.2s;
 
-}
-
-.cell.correct {
-
-  background: rgba(0,90,40,0.95);
-
-  border-color: #22c55e;
+  padding: 10px;
+  box-sizing: border-box;
 
 }
 
-.cell.incorrect {
+.cell:hover {
 
-  background: rgba(120,0,0,0.95);
-
-  border-color: #ef4444;
+  background: rgba(255,255,255,0.06);
 
 }
 
 .cell-content {
 
-  display: flex;
-
-  flex-direction: column;
-
-  gap: 6px;
+  width: 100%;
 
 }
 
-.station {
+.station-name {
 
-  font-size: 0.72rem;
-
-  font-weight: 700;
-
-  line-height: 1.2;
+  font-size: 22px;
+  font-weight: bold;
 
 }
 
-.label {
+.status {
 
-  font-size: 0.52rem;
+  margin-top: 8px;
+  font-size: 14px;
+  letter-spacing: 2px;
+  color: #cccccc;
 
-  letter-spacing: 1px;
+}
 
-  color: #d1d5db;
+.valid {
+
+  background: #007a2f;
+  border-color: #22dd66;
+
+}
+
+.invalid {
+
+  background: #b91c1c;
+  border-color: #ff5555;
 
 }
 
 .ticket-box {
 
-  margin-top: 18px;
-
-  background: rgba(15,23,42,0.95);
-
-  border-radius: 18px;
-
-  padding: 18px;
-
-  font-size: 1rem;
+  margin-top: 24px;
+  background: rgba(255,255,255,0.04);
+  border-radius: 20px;
+  padding: 20px;
+  font-size: 24px;
 
 }
 
 .submit-button {
 
-  margin-top: 18px;
-
   width: 100%;
-
+  margin-top: 20px;
+  padding: 28px;
   border: none;
-
-  border-radius: 22px;
-
-  padding: 20px;
-
-  font-size: 1.2rem;
-
-  font-weight: 800;
-
-  background: #22c55e;
-
+  border-radius: 24px;
+  background: #22cc66;
   color: white;
-
+  font-size: 28px;
+  font-weight: bold;
   cursor: pointer;
 
 }
 
-.submit-button:disabled {
+.submit-button:hover {
 
-  opacity: 0.4;
-
-  cursor: not-allowed;
+  opacity: 0.92;
 
 }
 
 .route-key {
 
-  margin-top: 18px;
+  margin-top: 20px;
+  border: 2px solid #0057ff;
+  border-radius: 24px;
+  padding: 20px;
+  background: rgba(255,255,255,0.03);
 
 }
 
-.hidden {
+.route-key h2 {
 
-  display: none !important;
+  color: #22dd66;
+  letter-spacing: 4px;
+  font-size: 20px;
+
+}
+
+.special-announcement {
+
+  margin-top: 24px;
+  border: 3px solid #22dd66;
+  border-radius: 28px;
+  padding: 24px;
+  background: rgba(255,255,255,0.03);
+  display: none;
+  text-align: center;
+
+}
+
+.special-announcement h2 {
+
+  color: #22dd66;
+  letter-spacing: 4px;
+  margin-bottom: 20px;
+
+}
+
+.departure-board {
+
+  margin-top: 24px;
+  background: black;
+  color: #22ff66;
+  padding: 40px 20px;
+  border-radius: 20px;
+  font-size: 42px;
+  font-family: monospace;
+  letter-spacing: 3px;
+  min-height: 120px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 
 }
 
 .modal {
 
   position: fixed;
-
   inset: 0;
+  background: rgba(0,0,0,0.7);
 
-  background: rgba(0,0,0,0.84);
-
-  display: flex;
-
+  display: none;
   align-items: center;
-
   justify-content: center;
 
-  z-index: 9999;
+  z-index: 1000;
 
 }
 
-.modal-box {
+.modal-content {
 
-  width: 92%;
+  width: 90%;
+  max-width: 500px;
 
-  max-width: 620px;
-
-  background: #111827;
-
-  border: 2px solid #2563eb;
-
+  background: #06153d;
+  border: 2px solid #0057ff;
   border-radius: 24px;
-
-  padding: 22px;
-
-  max-height: 82vh;
-
-  overflow-y: auto;
+  padding: 20px;
 
 }
 
 .modal-header {
 
   display: flex;
-
   justify-content: space-between;
-
   align-items: center;
-
-  margin-bottom: 16px;
 
 }
 
 .close-button {
 
-  background: #ef4444;
-
+  background: none;
   border: none;
-
   color: white;
-
-  border-radius: 12px;
-
-  padding: 10px 14px;
-
+  font-size: 28px;
   cursor: pointer;
-
-  font-weight: 700;
 
 }
 
-#searchBox {
+.station-search {
 
   width: 100%;
-
   padding: 16px;
-
-  border-radius: 16px;
-
+  margin-top: 20px;
+  border-radius: 14px;
   border: none;
-
-  font-size: 1rem;
-
-  margin-bottom: 18px;
+  font-size: 18px;
+  box-sizing: border-box;
 
 }
 
-.station-option {
+.station-list {
+
+  margin-top: 20px;
+  max-height: 300px;
+  overflow-y: auto;
+
+}
+
+.station-item {
 
   padding: 14px;
-
-  border-radius: 12px;
-
+  border-bottom: 1px solid rgba(255,255,255,0.1);
   cursor: pointer;
 
 }
 
-.station-option:hover {
+.station-item:hover {
 
-  background: #1e293b;
-
-}
-
-.ninth-box {
-
-  margin-top: 18px;
-
-  background: #111827;
-
-  border: 2px solid #22c55e;
-
-  border-radius: 22px;
-
-  padding: 26px;
-
-  text-align: center;
-
-  animation: revealBox 0.6s ease;
+  background: rgba(255,255,255,0.08);
 
 }
 
-.departure-board {
+@media (max-width: 900px) {
 
-  margin-top: 16px;
+  .grid {
 
-  background: black;
-
-  color: #22c55e;
-
-  padding: 18px;
-
-  border-radius: 14px;
-
-  font-family: monospace;
-
-  font-size: 1.5rem;
-
-  letter-spacing: 3px;
-
-  animation: flicker 0.12s infinite alternate;
-
-}
-
-@keyframes flicker {
-
-  from {
-    opacity: 0.88;
-  }
-
-  to {
-    opacity: 1;
-  }
-
-}
-
-@keyframes revealBox {
-
-  from {
-    transform: scale(0.9);
-    opacity: 0;
-  }
-
-  to {
-    transform: scale(1);
-    opacity: 1;
-  }
-
-}
-
-@media (max-width: 700px) {
-
-  .game-grid {
-
-    grid-template-columns: 78px repeat(4, 1fr);
-
-    gap: 6px;
+    grid-template-columns: 90px repeat(4, 1fr);
+    gap: 8px;
 
   }
 
-  .cell {
+  .header h1 {
 
-    min-height: 72px;
-
-  }
-
-  .station {
-
-    font-size: 0.58rem;
+    font-size: 42px;
 
   }
 
-  .column-clue {
+  .column-header p,
+  .row-header p {
 
-    font-size: 0.52rem;
+    font-size: 12px;
+
+  }
+
+  .station-name {
+
+    font-size: 16px;
 
   }
 
@@ -559,76 +424,53 @@ body {
 
 <div class="container">
 
-  <div class="top-bar">
+  <div class="header">
 
-    <img
-      src="logo.svg"
-      class="logo">
+    <img src="logo.svg">
 
-    <div class="title-group">
+    <h1>The Route</h1>
 
-      <h1>The Route</h1>
-
-      <div class="subtitle">
-        Southeastern Alpha 001
-      </div>
-
-    </div>
+    <p>Southeastern Alpha 001</p>
 
   </div>
 
-  <div class="panel">
+  <div class="service-update">
 
-    <div class="panel-title">
-      SERVICE UPDATE
-    </div>
+    <h2>SERVICE UPDATE</h2>
 
-    Engineering works continue between commuter intuition and actual rail logic.
+    <p>
+      Engineering works continue between commuter intuition and actual rail logic.
+    </p>
 
   </div>
 
-  <div class="game-grid">
+  <div class="grid">
 
     <div class="corner"></div>
 
     <div class="column-header">
-      <strong>A</strong>
-      <div class="column-clue">
-        🚪 Coastal
-      </div>
+      <h3>A</h3>
+      <p>🚪 Coastal</p>
     </div>
 
     <div class="column-header">
-      <strong>B</strong>
-      <div class="column-clue">
-        ⏱ 70–90 mins
-      </div>
+      <h3>B</h3>
+      <p>⏱ 70–90 mins</p>
     </div>
 
     <div class="column-header">
-      <strong>C</strong>
-      <div class="column-clue">
-        Contains 'ham'
-      </div>
+      <h3>C</h3>
+      <p>Contains 'ham'</p>
     </div>
 
     <div class="column-header">
-      <strong>D</strong>
-      <div class="column-clue">
-        Interchange
-      </div>
+      <h3>D</h3>
+      <p>Interchange</p>
     </div>
 
-    <div class="row-header green">
-
-      <strong>
-        Platform 1
-      </strong>
-
-      <span>
-        Not a terminus
-      </span>
-
+    <div class="row-header platform1">
+      <h3>Platform 1</h3>
+      <p>Not a terminus</p>
     </div>
 
     <div class="cell"></div>
@@ -636,68 +478,57 @@ body {
     <div class="cell"></div>
     <div class="cell"></div>
 
-    <div class="row-header blue">
-
-      <strong>
-        Platform 2
-      </strong>
-
-      <span>
-        Direct Charing Cross
-      </span>
-
+    <div class="row-header platform2">
+      <h3>Platform 2</h3>
+      <p>Direct Charing Cross</p>
     </div>
 
     <div class="cell"></div>
     <div class="cell"></div>
     <div class="cell"></div>
     <div class="cell"></div>
-
-  </div>
-
-  <div class="ticket-box">
-
-    🎫 Tickets Remaining:
-    <span id="ticketCount">
-      4
-    </span>
-
-  </div>
-
-  <button
-    class="submit-button"
-    id="submitButton">
-
-    Submit route
-
-  </button>
-
-  <div class="panel route-key">
-
-    <div class="panel-title">
-      ROUTE KEY
-    </div>
-
-    🚪 = coastal commuter geography
 
   </div>
 
   <div
-    class="ninth-box hidden"
-    id="ninthBox">
+    class="ticket-box"
+    id="ticketBox"
+  >
+    🎫 Tickets Remaining: 4
+  </div>
 
-    <div class="panel-title">
-      SPECIAL ANNOUNCEMENT
-    </div>
+  <button
+    class="submit-button"
+    id="submitButton"
+  >
+    Submit route
+  </button>
 
-    All routes validated.
+  <div class="route-key">
+
+    <h2>ROUTE KEY</h2>
+
+    <p>
+      🚪 = coastal commuter geography
+    </p>
+
+  </div>
+
+  <div
+    class="special-announcement"
+    id="specialAnnouncement"
+  >
+
+    <h2>SPECIAL ANNOUNCEMENT</h2>
+
+    <p>
+      All routes validated.
+    </p>
 
     <div
       class="departure-board"
-      id="departureBoard">
-
-      A + B
-
+      id="departureBoard"
+    >
     </div>
 
   </div>
@@ -705,32 +536,37 @@ body {
 </div>
 
 <div
-  class="modal hidden"
-  id="stationModal">
+  class="modal"
+  id="stationModal"
+>
 
-  <div class="modal-box">
+  <div class="modal-content">
 
     <div class="modal-header">
 
-      <strong>
-        Select Station
-      </strong>
+      <h2>Select Station</h2>
 
       <button
         class="close-button"
-        id="closeModal">
-
-        ✕
+        id="closeButton"
+      >
+        ×
       </button>
 
     </div>
 
     <input
       type="text"
-      id="searchBox"
-      placeholder="Search station...">
+      id="stationSearch"
+      class="station-search"
+      placeholder="Search station..."
+    >
 
-    <div id="results"></div>
+    <div
+      class="station-list"
+      id="stationList"
+    >
+    </div>
 
   </div>
 
@@ -738,452 +574,250 @@ body {
 
 <script>
 
-const puzzle = {
+const stationNames = [
 
-  columns: [
+  "Broadstairs",
+  "Ramsgate",
+  "Sturry",
+  "Chartham",
+  "Chilham",
+  "City Thameslink",
+  "Ashford International",
+  "Sandwich"
 
-    {
-      field: "distance_band",
-      value: "coastal"
-    },
+];
 
-    {
-      field: "time_group",
-      value: "70 to 90"
-    },
-
-    {
-      field: "contains_ham",
-      value: true
-    },
-
-    {
-      field: "is_interchange",
-      value: true
-    }
-
-  ],
-
-  rows: [
-
-    {
-      field: "is_terminus",
-      value: false
-    },
-
-    {
-      field: "direct_to_charing_cross",
-      value: true
-    }
-
-  ]
-
-};
-
-const cells =
-  document.querySelectorAll(".cell");
+const cells = document.querySelectorAll(".cell");
 
 const modal =
-  document.getElementById(
-    "stationModal"
-  );
+  document.getElementById("stationModal");
 
-const results =
-  document.getElementById(
-    "results"
-  );
+const stationList =
+  document.getElementById("stationList");
 
-const searchBox =
-  document.getElementById(
-    "searchBox"
-  );
+const stationSearch =
+  document.getElementById("stationSearch");
 
-const ticketCount =
-  document.getElementById(
-    "ticketCount"
-  );
+const closeButton =
+  document.getElementById("closeButton");
 
 const submitButton =
-  document.getElementById(
-    "submitButton"
-  );
+  document.getElementById("submitButton");
 
-const ninthBox =
-  document.getElementById(
-    "ninthBox"
-  );
+const specialAnnouncement =
+  document.getElementById("specialAnnouncement");
 
 const departureBoard =
-  document.getElementById(
-    "departureBoard"
-  );
+  document.getElementById("departureBoard");
 
-let ticketsRemaining = 4;
+const ticketBox =
+  document.getElementById("ticketBox");
 
-let stations = [];
+let currentCell = null;
 
-let activeCell = null;
+let tickets = 4;
 
-const boardState = {};
+cells.forEach((cell) => {
 
-cells.forEach((cell, index) => {
+  cell.addEventListener("click", () => {
 
-  const row =
-    index < 4
-      ? 0
-      : 1;
+    currentCell = cell;
 
-  const column =
-    index % 4;
+    modal.style.display = "flex";
 
-  cell.dataset.row = row;
+    renderStations(stationNames);
 
-  cell.dataset.column = column;
+    setTimeout(() => {
 
-});
+      stationSearch.focus();
 
-fetch(
-  "data/stations/southeastern.json"
-)
+    }, 100);
 
-.then(response => response.json())
-
-.then(data => {
-
-  stations = data;
-
-});
-
-cells.forEach(cell => {
-
-  cell.addEventListener(
-    "click",
-    () => {
-
-      activeCell = cell;
-
-      modal.classList.remove(
-        "hidden"
-      );
-
-      searchBox.value = "";
-
-      renderStations(
-        [...stations].sort((a, b) =>
-
-          a.station_name.localeCompare(
-            b.station_name
-          )
-
-        )
-      );
-
-      setTimeout(() => {
-
-        searchBox.focus();
-
-      }, 100);
-
-    }
-
-  );
+  });
 
 });
 
 function renderStations(list) {
 
-  results.innerHTML = "";
+  stationList.innerHTML = "";
 
-  list.forEach(station => {
+  list.forEach((station) => {
 
-    const option =
-      document.createElement(
-        "div"
+    const div =
+      document.createElement("div");
+
+    div.className = "station-item";
+
+    div.textContent = station;
+
+    div.addEventListener("click", () => {
+
+      currentCell.innerHTML = `
+
+        <div class="cell-content">
+
+          <div class="station-name">
+            ${station}
+          </div>
+
+        </div>
+
+      `;
+
+      currentCell.dataset.station =
+        station;
+
+      currentCell.classList.remove(
+        "valid",
+        "invalid"
       );
 
-    option.className =
-      "station-option";
+      modal.style.display = "none";
 
-    option.textContent =
-      `${station.station_name} (${station.crs})`;
+    });
 
-    option.onclick = () => {
-
-      placeStation(
-        station
-      );
-
-    };
-
-    results.appendChild(
-      option
-    );
+    stationList.appendChild(div);
 
   });
 
 }
 
-function placeStation(station) {
+stationSearch.addEventListener("input", () => {
 
-  const row =
-    Number(
-      activeCell.dataset.row
+  const value =
+    stationSearch.value.toLowerCase();
+
+  const filtered =
+    stationNames.filter((station) =>
+      station.toLowerCase().includes(value)
     );
 
-  const column =
-    Number(
-      activeCell.dataset.column
-    );
+  renderStations(filtered);
 
-  boardState[
-    `${row}-${column}`
-  ] = station;
+});
 
-  activeCell.classList.remove(
-    "correct",
-    "incorrect"
-  );
+closeButton.addEventListener("click", () => {
 
-  activeCell.innerHTML = `
+  modal.style.display = "none";
 
-    <div class="cell-content">
+});
 
-      <div class="station">
-        ${station.station_name}
-      </div>
+submitButton.addEventListener("click", () => {
 
-      <div class="label">
-        ARRIVING
-      </div>
+  let validCount = 0;
 
-    </div>
+  cells.forEach((cell) => {
 
-  `;
+    const station =
+      cell.dataset.station;
 
-  modal.classList.add(
-    "hidden"
-  );
+    if (!station) {
 
-}
-
-function validateCell(
-  station,
-  row,
-  column
-) {
-
-  const rowRule =
-    puzzle.rows[row];
-
-  const columnRule =
-    puzzle.columns[column];
-
-  const rowPass =
-    station[rowRule.field]
-      === rowRule.value;
-
-  let columnPass = false;
-
-  if (
-    columnRule.field
-      === "contains_ham"
-  ) {
-
-    columnPass =
-      station.station_name
-        .toLowerCase()
-        .includes("ham");
-
-  }
-
-  else {
-
-    columnPass =
-      station[columnRule.field]
-        === columnRule.value;
-
-  }
-
-  return (
-    rowPass &&
-    columnPass
-  );
-
-}
-
-submitButton.addEventListener(
-  "click",
-  () => {
-
-    let correctCount = 0;
-
-    Object.entries(boardState)
-
-      .forEach(([key, station]) => {
-
-        const split =
-          key.split("-");
-
-        const row =
-          Number(split[0]);
-
-        const column =
-          Number(split[1]);
-
-        const valid =
-          validateCell(
-            station,
-            row,
-            column
-          );
-
-        const cell =
-          document.querySelector(
-            `.cell[data-row="${row}"][data-column="${column}"]`
-          );
-
-        cell.classList.remove(
-          "correct",
-          "incorrect"
-        );
-
-        if (valid) {
-
-          correctCount++;
-
-          cell.classList.add(
-            "correct"
-          );
-
-          cell.querySelector(
-            ".label"
-          ).textContent =
-            "VALID";
-
-        }
-
-        else {
-
-          cell.classList.add(
-            "incorrect"
-          );
-
-          cell.querySelector(
-            ".label"
-          ).textContent =
-            "INVALID";
-
-          ticketsRemaining--;
-
-        }
-
-      });
-
-    ticketCount.textContent =
-      ticketsRemaining;
-
-    if (
-      ticketsRemaining <= 0
-    ) {
-
-      submitButton.disabled = true;
-
-      alert(
-        "No tickets remaining."
+      cell.classList.remove(
+        "valid",
+        "invalid"
       );
+
+      return;
 
     }
 
-    if (
-      correctCount === 8
-    ) {
+    cell.classList.remove(
+      "valid",
+      "invalid"
+    );
 
-      ninthBox.classList.remove(
-        "hidden"
-      );
+    const isValid =
+      stationNames.includes(station);
 
-      const reveals = [
+    if (isValid) {
 
-        "A + B",
-        "B + D",
-        "A + C",
-        "COASTAL + INTERCHANGE",
-        "HAM + DIRECT"
+      cell.classList.add("valid");
 
+      cell.innerHTML += `
+        <div class="status">
+          VALID
+        </div>
+      `;
+
+      validCount++;
+
+    } else {
+
+      cell.classList.add("invalid");
+
+      cell.innerHTML += `
+        <div class="status">
+          INVALID
+        </div>
+      `;
+
+      tickets--;
+
+      ticketBox.textContent =
+        `🎫 Tickets Remaining: ${tickets}`;
+
+    }
+
+  });
+
+  if (validCount === 8) {
+
+    specialAnnouncement.style.display =
+      "block";
+
+    const metaCombos = [
+
+      {
+        clueA: "Coastal",
+        clueB: "Interchange"
+      },
+
+      {
+        clueA: "Contains 'ham'",
+        clueB: "Direct Charing Cross"
+      },
+
+      {
+        clueA: "70–90 mins",
+        clueB: "Interchange"
+      },
+
+      {
+        clueA: "Not a terminus",
+        clueB: "Direct Charing Cross"
+      }
+
+    ];
+
+    const selectedCombo =
+
+      metaCombos[
+        Math.floor(
+          Math.random()
+          * metaCombos.length
+        )
       ];
 
-      departureBoard.textContent =
+    departureBoard.innerHTML = `
 
-        reveals[
-          Math.floor(
-            Math.random()
-            * reveals.length
-          )
-        ];
+      <div>
+        ${selectedCombo.clueA}
+      </div>
 
-    }
+      <div>
+        +
+      </div>
 
-  }
+      <div>
+        ${selectedCombo.clueB}
+      </div>
 
-);
-
-searchBox.addEventListener(
-  "input",
-  () => {
-
-    const query =
-      searchBox.value.toLowerCase();
-
-    const filtered =
-      stations.filter(station =>
-
-        station.station_name
-          .toLowerCase()
-          .includes(query)
-
-      );
-
-    renderStations(
-      filtered
-    );
+    `;
 
   }
 
-);
-
-document.getElementById(
-  "closeModal"
-)
-
-.addEventListener(
-  "click",
-  () => {
-
-    modal.classList.add(
-      "hidden"
-    );
-
-  }
-
-);
-
-modal.addEventListener(
-  "click",
-  event => {
-
-    if (
-      event.target === modal
-    ) {
-
-      modal.classList.add(
-        "hidden"
-      );
-
-    }
-
-  }
-
-);
+});
 
 </script>
 

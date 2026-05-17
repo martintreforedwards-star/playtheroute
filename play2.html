@@ -841,13 +841,25 @@ const stationList =
 const closeBtn =
   document.getElementById("close-btn");
 
+let activeCell = null;
+
 cells.forEach(cell => {
 
   cell.addEventListener("click", () => {
 
+    activeCell = cell;
+
     modal.style.display = "flex";
 
+    searchInput.value = "";
+
     renderStations("");
+
+    setTimeout(() => {
+
+      searchInput.focus();
+
+    }, 50);
 
   });
 
@@ -859,11 +871,13 @@ function renderStations(filter){
 
   const filtered =
     stations.filter(station =>
+
       station
         .toLowerCase()
         .includes(
           filter.toLowerCase()
         )
+
     );
 
   filtered.forEach(station => {
@@ -876,6 +890,28 @@ function renderStations(filter){
 
     div.textContent =
       station;
+
+    div.addEventListener("click", () => {
+
+      if(activeCell){
+
+        activeCell.innerHTML = `
+
+          <div class="cell-content">
+
+            <div class="station-name">
+              ${station}
+            </div>
+
+          </div>
+
+        `;
+
+      }
+
+      modal.style.display = "none";
+
+    });
 
     stationList.appendChild(div);
 
@@ -894,6 +930,16 @@ searchInput.addEventListener("input", () => {
 closeBtn.addEventListener("click", () => {
 
   modal.style.display = "none";
+
+});
+
+window.addEventListener("click", event => {
+
+  if(event.target === modal){
+
+    modal.style.display = "none";
+
+  }
 
 });
 

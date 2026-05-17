@@ -12,13 +12,24 @@
 <title>The Route</title>
 
 <link
-  href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap"
+  rel="preconnect"
+  href="https://fonts.googleapis.com">
+
+<link
+  rel="preconnect"
+  href="https://fonts.gstatic.com"
+  crossorigin>
+
+<link
+  href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
   rel="stylesheet">
 
 <style>
 
 * {
+
   box-sizing: border-box;
+
 }
 
 body {
@@ -28,10 +39,11 @@ body {
   font-family: 'Inter', sans-serif;
 
   background:
-    radial-gradient(circle at top,
-      #001a4d 0%,
-      #000814 45%,
-      #000510 100%);
+    linear-gradient(
+      180deg,
+      #00133d 0%,
+      #000814 100%
+    );
 
   color: white;
 
@@ -40,15 +52,16 @@ body {
 .container {
 
   width: 100%;
-  max-width: 980px;
+
+  max-width: 1180px;
 
   margin: auto;
 
-  padding: 14px;
+  padding: 28px 20px 60px;
 
 }
 
-.top-bar {
+.header {
 
   display: flex;
 
@@ -56,24 +69,31 @@ body {
 
   justify-content: center;
 
-  gap: 12px;
+  gap: 18px;
 
-  margin-bottom: 16px;
+  margin-bottom: 30px;
 
 }
 
 .logo {
 
-  width: 58px;
-  height: 58px;
+  width: 74px;
+
+  height: 74px;
 
 }
 
-.title-group h1 {
+.title-block h1 {
 
   margin: 0;
 
-  font-size: 2.3rem;
+  font-size: clamp(
+    2.4rem,
+    5vw,
+    4.2rem
+  );
+
+  line-height: 1;
 
   font-weight: 800;
 
@@ -81,25 +101,33 @@ body {
 
 .subtitle {
 
-  margin-top: 4px;
+  margin-top: 8px;
 
-  color: #9ca3af;
+  color: rgba(255,255,255,0.6);
 
-  font-size: 0.85rem;
+  font-size: 1rem;
 
 }
 
 .panel {
 
-  background: rgba(17,24,39,0.9);
+  border: 1px solid rgba(
+    255,
+    255,
+    255,
+    0.18
+  );
 
-  border: 1px solid #1d4ed8;
+  background: rgba(
+    255,
+    255,
+    255,
+    0.02
+  );
 
-  border-radius: 14px;
+  padding: 24px;
 
-  padding: 14px;
-
-  margin-bottom: 16px;
+  margin-bottom: 26px;
 
 }
 
@@ -107,284 +135,311 @@ body {
 
   color: #22c55e;
 
-  font-size: 0.82rem;
+  font-size: 0.95rem;
 
   font-weight: 800;
 
-  letter-spacing: 2px;
+  letter-spacing: 3px;
+
+  margin-bottom: 14px;
+
+  text-transform: uppercase;
+
+}
+
+.game-table-wrapper {
+
+  overflow-x: auto;
+
+}
+
+.game-table {
+
+  width: 100%;
+
+  min-width: 820px;
+
+  border-collapse: collapse;
+
+  table-layout: fixed;
+
+}
+
+.game-table th,
+.game-table td {
+
+  border: 1px solid rgba(
+    255,
+    255,
+    255,
+    0.18
+  );
+
+  padding: 16px;
+
+  vertical-align: middle;
+
+}
+
+.game-table th {
+
+  font-weight: 600;
+
+}
+
+.top-heading {
+
+  text-align: center;
+
+  font-size: 1.5rem;
+
+  padding: 20px;
+
+}
+
+.side-heading {
+
+  width: 220px;
+
+  text-align: left;
+
+}
+
+.side-heading .p-label {
+
+  font-weight: 700;
 
   margin-bottom: 8px;
 
 }
 
-.game-wrapper {
-
-  overflow-x: auto;
-
-  padding-bottom: 6px;
-
-}
-
-.game-grid {
-
-  display: grid;
-
-  grid-template-columns: 86px repeat(4, 86px);
-
-  gap: 6px;
-
-  width: max-content;
-
-}
-
-.corner {
-
-  visibility: hidden;
-
-}
-
-.column-header {
-
-  background: rgba(15,23,42,0.95);
-
-  border-radius: 12px;
-
-  height: 72px;
-
-  padding: 6px;
-
-  display: flex;
-
-  flex-direction: column;
-
-  justify-content: center;
-
-  align-items: center;
-
-  text-align: center;
-
-}
-
-.column-header strong {
+.side-heading .p-clue {
 
   font-size: 1rem;
 
-}
+  line-height: 1.45;
 
-.column-clue {
-
-  margin-top: 4px;
-
-  color: #d1d5db;
-
-  font-size: 0.5rem;
-
-  line-height: 1.2;
+  color: rgba(
+    255,
+    255,
+    255,
+    0.92
+  );
 
 }
 
-.row-header {
+.p1 {
 
-  border-radius: 12px;
+  color: #22c55e;
 
-  padding: 6px;
+}
 
-  display: flex;
+.p2 {
 
-  flex-direction: column;
+  color: #60a5fa;
 
-  justify-content: center;
+}
 
-  align-items: center;
+.col-heading {
+
+  font-size: 1rem;
+
+  line-height: 1.45;
 
   text-align: center;
-
-  height: 72px;
-
-}
-
-.row-header strong {
-
-  font-size: 0.7rem;
-
-  margin-bottom: 4px;
-
-}
-
-.row-header span {
-
-  font-size: 0.48rem;
-
-  line-height: 1.2;
-
-}
-
-.row-header.green {
-
-  background: rgba(15,23,42,0.95);
-
-  border-left: 4px solid #22c55e;
-
-}
-
-.row-header.blue {
-
-  background: rgba(15,23,42,0.95);
-
-  border-left: 4px solid #60a5fa;
 
 }
 
 .cell {
 
-  background: rgba(10,20,50,0.95);
-
-  border: 1px solid #1d4ed8;
-
-  border-radius: 12px;
-
-  width: 86px;
-  height: 72px;
-
-  display: flex;
-
-  align-items: center;
-
-  justify-content: center;
-
-  text-align: center;
-
-  padding: 4px;
+  height: 150px;
 
   cursor: pointer;
 
-  transition: 0.2s;
+  transition: background 0.15s;
+
+  position: relative;
+
+}
+
+.cell:hover {
+
+  background: rgba(
+    255,
+    255,
+    255,
+    0.04
+  );
 
 }
 
 .cell.correct {
 
-  background: rgba(0,90,40,0.95);
-
-  border-color: #22c55e;
+  background: rgba(
+    34,
+    197,
+    94,
+    0.16
+  );
 
 }
 
 .cell.incorrect {
 
-  background: rgba(120,0,0,0.95);
-
-  border-color: #ef4444;
+  background: rgba(
+    220,
+    38,
+    38,
+    0.16
+  );
 
 }
 
-.station {
+.station-name {
 
-  font-size: 0.55rem;
+  font-size: 1.05rem;
 
   font-weight: 700;
 
-  line-height: 1.15;
-
-}
-
-.label {
-
-  margin-top: 3px;
-
-  font-size: 0.38rem;
-
-  letter-spacing: 1px;
-
-  color: #d1d5db;
-
-}
-
-.ticket-box {
-
-  margin-top: 14px;
-
-  background: rgba(15,23,42,0.95);
-
-  border-radius: 12px;
-
-  padding: 14px;
-
-  font-size: 0.95rem;
-
-}
-
-.submit-button {
-
-  margin-top: 14px;
-
-  width: 100%;
-
-  border: none;
-
-  border-radius: 12px;
-
-  padding: 16px;
-
-  font-size: 1rem;
-
-  font-weight: 800;
-
-  background: #22c55e;
-
-  color: white;
-
-  cursor: pointer;
-
-}
-
-.submit-button:disabled {
-
-  opacity: 0.45;
-
-}
-
-.special-box {
-
-  margin-top: 16px;
-
-  background: rgba(15,23,42,0.95);
-
-  border: 1px solid #22c55e;
-
-  border-radius: 14px;
-
-  padding: 18px;
+  line-height: 1.4;
 
   text-align: center;
 
 }
 
+.validation {
+
+  margin-top: 12px;
+
+  font-size: 0.82rem;
+
+  letter-spacing: 2px;
+
+  text-align: center;
+
+  opacity: 0.82;
+
+}
+
+.footer-row {
+
+  display: flex;
+
+  gap: 24px;
+
+  margin-top: 28px;
+
+  flex-wrap: wrap;
+
+}
+
+.ticket-box {
+
+  flex: 1;
+
+  min-width: 220px;
+
+  border: 1px solid rgba(
+    255,
+    255,
+    255,
+    0.18
+  );
+
+  padding: 24px;
+
+}
+
+.ticket-title {
+
+  color: rgba(
+    255,
+    255,
+    255,
+    0.65
+  );
+
+  margin-bottom: 10px;
+
+}
+
+.ticket-number {
+
+  color: #22c55e;
+
+  font-size: 3rem;
+
+  font-weight: 800;
+
+}
+
+.submit-button {
+
+  flex: 2;
+
+  min-width: 260px;
+
+  border: none;
+
+  background: #22c55e;
+
+  color: white;
+
+  font-size: 1.5rem;
+
+  font-weight: 700;
+
+  cursor: pointer;
+
+  transition: opacity 0.15s;
+
+}
+
+.submit-button:hover {
+
+  opacity: 0.92;
+
+}
+
+.route-key {
+
+  margin-top: 28px;
+
+}
+
+.route-key p {
+
+  margin: 0;
+
+  font-size: 1rem;
+
+}
+
+.special-announcement {
+
+  display: none;
+
+  margin-top: 28px;
+
+}
+
 .departure-board {
 
-  margin-top: 14px;
+  margin-top: 18px;
 
   background: black;
 
   color: #22ff66;
 
-  border-radius: 10px;
+  padding: 26px;
 
-  padding: 18px;
+  text-align: center;
 
   font-family: monospace;
 
-  font-size: 1.1rem;
+  font-size: 2rem;
 
-  letter-spacing: 2px;
-
-  line-height: 1.6;
-
-}
-
-.hidden {
-
-  display: none !important;
+  letter-spacing: 4px;
 
 }
 
@@ -394,45 +449,49 @@ body {
 
   inset: 0;
 
-  background: rgba(0,0,0,0.82);
+  background: rgba(
+    0,
+    0,
+    0,
+    0.8
+  );
 
-  display: flex;
+  display: none;
 
   align-items: center;
 
   justify-content: center;
 
-  z-index: 9999;
+  padding: 20px;
 
-}
-
-.modal.hidden {
-
-  display: none;
+  z-index: 999;
 
 }
 
 .modal-box {
 
-  width: 92%;
+  width: 100%;
 
-  max-width: 520px;
+  max-width: 560px;
 
-  background: #111827;
+  background: #07142f;
 
-  border: 1px solid #1d4ed8;
+  border: 1px solid rgba(
+    255,
+    255,
+    255,
+    0.15
+  );
 
-  border-radius: 14px;
+  padding: 24px;
 
-  padding: 18px;
-
-  max-height: 82vh;
+  max-height: 80vh;
 
   overflow-y: auto;
 
 }
 
-.modal-top {
+.modal-header {
 
   display: flex;
 
@@ -440,7 +499,7 @@ body {
 
   align-items: center;
 
-  margin-bottom: 14px;
+  margin-bottom: 18px;
 
 }
 
@@ -448,64 +507,83 @@ body {
 
   border: none;
 
-  background: #ef4444;
+  background: #dc2626;
 
   color: white;
 
-  width: 32px;
-  height: 32px;
+  width: 34px;
 
-  border-radius: 8px;
+  height: 34px;
 
   cursor: pointer;
 
+  font-size: 1rem;
+
 }
 
-#searchBox {
+.search-box {
 
   width: 100%;
 
-  padding: 14px;
-
-  border-radius: 10px;
+  padding: 16px;
 
   border: none;
 
-  margin-bottom: 14px;
+  margin-bottom: 18px;
 
-  font-size: 0.95rem;
+  font-size: 1rem;
 
 }
 
 .station-option {
 
-  padding: 12px;
-
-  border-radius: 8px;
+  padding: 14px;
 
   cursor: pointer;
 
-  font-size: 0.9rem;
+  border-bottom: 1px solid rgba(
+    255,
+    255,
+    255,
+    0.08
+  );
 
 }
 
 .station-option:hover {
 
-  background: #1e293b;
+  background: rgba(
+    255,
+    255,
+    255,
+    0.05
+  );
 
 }
 
-.route-key {
+@media (max-width: 760px) {
 
-  margin-top: 14px;
+  .container {
 
-}
+    padding: 18px 14px 40px;
 
-@media (max-width: 700px) {
+  }
 
-  .route-key {
+  .panel {
 
-    display: none;
+    padding: 18px;
+
+  }
+
+  .footer-row {
+
+    flex-direction: column;
+
+  }
+
+  .submit-button {
+
+    min-height: 84px;
 
   }
 
@@ -519,15 +597,17 @@ body {
 
 <div class="container">
 
-  <div class="top-bar">
+  <div class="header">
 
     <img
       src="logo.svg"
       class="logo">
 
-    <div class="title-group">
+    <div class="title-block">
 
-      <h1>The Route</h1>
+      <h1>
+        The Route
+      </h1>
 
       <div class="subtitle">
         Southeastern Alpha 001
@@ -540,120 +620,177 @@ body {
   <div class="panel">
 
     <div class="panel-title">
-      SERVICE UPDATE
+      Service announcements
     </div>
 
     Engineering works continue between commuter intuition and actual rail logic.
 
   </div>
 
-  <div class="game-wrapper">
+  <div class="game-table-wrapper">
 
-    <div class="game-grid">
+    <table class="game-table">
 
-      <div class="corner"></div>
+      <tr>
 
-      <div class="column-header">
-        <strong>A</strong>
-        <div class="column-clue">
-          🚪 Coastal
-        </div>
+        <th></th>
+
+        <th
+          colspan="4"
+          class="top-heading">
+
+          Service announcements
+
+        </th>
+
+      </tr>
+
+      <tr>
+
+        <th></th>
+
+        <th class="col-heading">
+          Coastal
+        </th>
+
+        <th class="col-heading">
+          70-90 mins<br>
+          from London
+        </th>
+
+        <th class="col-heading">
+          Contains ‘ham’
+        </th>
+
+        <th class="col-heading">
+          Is an interchange
+        </th>
+
+      </tr>
+
+      <tr>
+
+        <td class="side-heading">
+
+          <div class="p-label p1">
+            P1.
+          </div>
+
+          <div class="p-clue">
+            Not a terminus
+          </div>
+
+        </td>
+
+        <td
+          class="cell"
+          data-row="0"
+          data-col="0"></td>
+
+        <td
+          class="cell"
+          data-row="0"
+          data-col="1"></td>
+
+        <td
+          class="cell"
+          data-row="0"
+          data-col="2"></td>
+
+        <td
+          class="cell"
+          data-row="0"
+          data-col="3"></td>
+
+      </tr>
+
+      <tr>
+
+        <td class="side-heading">
+
+          <div class="p-label p2">
+            P2.
+          </div>
+
+          <div class="p-clue">
+            Direct to<br>
+            Charing Cross
+          </div>
+
+        </td>
+
+        <td
+          class="cell"
+          data-row="1"
+          data-col="0"></td>
+
+        <td
+          class="cell"
+          data-row="1"
+          data-col="1"></td>
+
+        <td
+          class="cell"
+          data-row="1"
+          data-col="2"></td>
+
+        <td
+          class="cell"
+          data-row="1"
+          data-col="3"></td>
+
+      </tr>
+
+    </table>
+
+  </div>
+
+  <div class="footer-row">
+
+    <div class="ticket-box">
+
+      <div class="ticket-title">
+        Tickets remaining
       </div>
 
-      <div class="column-header">
-        <strong>B</strong>
-        <div class="column-clue">
-          ⏱ 70–90 mins
-        </div>
-      </div>
+      <div
+        class="ticket-number"
+        id="ticketCount">
 
-      <div class="column-header">
-        <strong>C</strong>
-        <div class="column-clue">
-          Contains 'ham'
-        </div>
-      </div>
-
-      <div class="column-header">
-        <strong>D</strong>
-        <div class="column-clue">
-          Interchange
-        </div>
-      </div>
-
-      <div class="row-header green">
-
-        <strong>
-          Platform 1
-        </strong>
-
-        <span>
-          Not terminus
-        </span>
+        4
 
       </div>
-
-      <div class="cell"></div>
-      <div class="cell"></div>
-      <div class="cell"></div>
-      <div class="cell"></div>
-
-      <div class="row-header blue">
-
-        <strong>
-          Platform 2
-        </strong>
-
-        <span>
-          Direct Charing Cross
-        </span>
-
-      </div>
-
-      <div class="cell"></div>
-      <div class="cell"></div>
-      <div class="cell"></div>
-      <div class="cell"></div>
 
     </div>
 
-  </div>
+    <button
+      class="submit-button"
+      id="submitButton">
 
-  <div
-    class="ticket-box"
-    id="ticketBox">
+      Submit route
 
-    🎫 Tickets Remaining:
-    <span id="ticketCount">
-      4
-    </span>
+    </button>
 
   </div>
-
-  <button
-    class="submit-button"
-    id="submitButton">
-
-    Submit route
-
-  </button>
 
   <div class="panel route-key">
 
     <div class="panel-title">
-      ROUTE KEY
+      Route key
     </div>
 
-    🚪 = coastal commuter geography
+    <p>
+      🚪 = coastal commuter geography
+    </p>
 
   </div>
 
   <div
-    class="special-box hidden"
-    id="specialBox">
+    class="panel special-announcement"
+    id="specialAnnouncement">
 
     <div class="panel-title">
-      SPECIAL ANNOUNCEMENT
+      Special announcement
     </div>
 
     Final challenge unlocked.
@@ -669,12 +806,12 @@ body {
 </div>
 
 <div
-  class="modal hidden"
+  class="modal"
   id="stationModal">
 
   <div class="modal-box">
 
-    <div class="modal-top">
+    <div class="modal-header">
 
       <strong>
         Select station
@@ -693,6 +830,7 @@ body {
     <input
       type="text"
       id="searchBox"
+      class="search-box"
       placeholder="Search station...">
 
     <div id="results"></div>
@@ -703,8 +841,13 @@ body {
 
 <script>
 
-const cells =
-  document.querySelectorAll(".cell");
+let stations = [];
+
+let activeCell = null;
+
+let ticketsRemaining = 4;
+
+const boardState = {};
 
 const modal =
   document.getElementById(
@@ -721,34 +864,6 @@ const searchBox =
     "searchBox"
   );
 
-const ticketCount =
-  document.getElementById(
-    "ticketCount"
-  );
-
-const submitButton =
-  document.getElementById(
-    "submitButton"
-  );
-
-const specialBox =
-  document.getElementById(
-    "specialBox"
-  );
-
-const departureBoard =
-  document.getElementById(
-    "departureBoard"
-  );
-
-let stations = [];
-
-let activeCell = null;
-
-let ticketsRemaining = 4;
-
-const boardState = {};
-
 fetch(
   "data/stations/southeastern.json"
 )
@@ -761,118 +876,92 @@ fetch(
 
 });
 
-cells.forEach((cell, index) => {
+document
+  .querySelectorAll(".cell")
 
-  const row =
-    index < 4
-      ? 0
-      : 1;
+  .forEach(cell => {
 
-  const column =
-    index % 4;
+    cell.addEventListener(
+      "click",
+      () => {
 
-  cell.dataset.row = row;
+        activeCell = cell;
 
-  cell.dataset.column = column;
+        modal.style.display =
+          "flex";
 
-  cell.addEventListener(
-    "click",
-    () => {
+        searchBox.value = "";
 
-      activeCell = cell;
+        renderStations(
+          stations
+        );
 
-      modal.classList.remove(
-        "hidden"
-      );
+        setTimeout(() => {
 
-      searchBox.value = "";
+          searchBox.focus();
 
-      renderStations(
-        stations
-      );
+        }, 50);
 
-      setTimeout(() => {
+      }
 
-        searchBox.focus();
+    );
 
-      }, 100);
-
-    }
-
-  );
-
-});
+  });
 
 function renderStations(list) {
 
   results.innerHTML = "";
 
-  list
-    .sort((a, b) =>
+  list.forEach(station => {
 
-      a.station_name.localeCompare(
-        b.station_name
-      )
-
-    )
-
-    .forEach(station => {
-
-      const option =
-        document.createElement("div");
-
-      option.className =
-        "station-option";
-
-      option.textContent =
-        `${station.station_name}`;
-
-      option.onclick = () => {
-
-        placeStation(
-          station
-        );
-
-      };
-
-      results.appendChild(
-        option
+    const option =
+      document.createElement(
+        "div"
       );
 
-    });
+    option.className =
+      "station-option";
+
+    option.textContent =
+      station.station_name;
+
+    option.onclick = () => {
+
+      placeStation(
+        station
+      );
+
+    };
+
+    results.appendChild(
+      option
+    );
+
+  });
 
 }
 
 function placeStation(station) {
 
   const row =
-    Number(
-      activeCell.dataset.row
-    );
+    activeCell.dataset.row;
 
-  const column =
-    Number(
-      activeCell.dataset.column
-    );
+  const col =
+    activeCell.dataset.col;
 
   boardState[
-    `${row}-${column}`
+    `${row}-${col}`
   ] = station;
-
-  activeCell.classList.remove(
-    "correct",
-    "incorrect"
-  );
 
   activeCell.innerHTML = `
 
     <div>
 
-      <div class="station">
+      <div class="station-name">
         ${station.station_name}
       </div>
 
-      <div class="label">
+      <div class="validation">
         ARRIVING
       </div>
 
@@ -880,163 +969,23 @@ function placeStation(station) {
 
   `;
 
-  modal.classList.add(
-    "hidden"
+  activeCell.classList.remove(
+    "correct",
+    "incorrect"
   );
 
-}
-
-function validateCell(
-  station,
-  row,
-  column
-) {
-
-  return true;
+  modal.style.display =
+    "none";
 
 }
-
-submitButton.addEventListener(
-  "click",
-  () => {
-
-    let correctCount = 0;
-
-    Object.entries(boardState)
-
-      .forEach(([key, station]) => {
-
-        const split =
-          key.split("-");
-
-        const row =
-          Number(split[0]);
-
-        const column =
-          Number(split[1]);
-
-        const valid =
-          validateCell(
-            station,
-            row,
-            column
-          );
-
-        const cell =
-          document.querySelector(
-            `.cell[data-row="${row}"][data-column="${column}"]`
-          );
-
-        cell.classList.remove(
-          "correct",
-          "incorrect"
-        );
-
-        if (valid) {
-
-          correctCount++;
-
-          cell.classList.add(
-            "correct"
-          );
-
-          cell.querySelector(
-            ".label"
-          ).textContent =
-            "VALID";
-
-        }
-
-        else {
-
-          cell.classList.add(
-            "incorrect"
-          );
-
-          cell.querySelector(
-            ".label"
-          ).textContent =
-            "INVALID";
-
-          ticketsRemaining--;
-
-        }
-
-      });
-
-    ticketCount.textContent =
-      ticketsRemaining;
-
-    if (
-      ticketsRemaining <= 0
-    ) {
-
-      submitButton.disabled = true;
-
-    }
-
-    if (
-      correctCount === 8
-    ) {
-
-      specialBox.classList.remove(
-        "hidden"
-      );
-
-      const metaCombos = [
-
-        {
-          clueA: "Coastal",
-          clueB: "Interchange"
-        },
-
-        {
-          clueA: "Contains 'ham'",
-          clueB: "Direct Charing Cross"
-        },
-
-        {
-          clueA: "Not terminus",
-          clueB: "Direct Charing Cross"
-        }
-
-      ];
-
-      const selectedCombo =
-
-        metaCombos[
-          Math.floor(
-            Math.random()
-            * metaCombos.length
-          )
-        ];
-
-      departureBoard.innerHTML = `
-
-        ${selectedCombo.clueA}
-
-        <br>
-
-        +
-
-        <br>
-
-        ${selectedCombo.clueB}
-
-      `;
-
-    }
-
-  }
-
-);
 
 searchBox.addEventListener(
   "input",
   () => {
 
     const query =
-      searchBox.value.toLowerCase();
+      searchBox.value
+        .toLowerCase();
 
     const filtered =
       stations.filter(station =>
@@ -1055,23 +1004,23 @@ searchBox.addEventListener(
 
 );
 
-document.getElementById(
-  "closeModal"
-)
+document
+  .getElementById(
+    "closeModal"
+  )
 
-.addEventListener(
-  "click",
-  () => {
+  .addEventListener(
+    "click",
+    () => {
 
-    modal.classList.add(
-      "hidden"
-    );
+      modal.style.display =
+        "none";
 
-  }
+    }
 
-);
+  );
 
-modal.addEventListener(
+window.addEventListener(
   "click",
   event => {
 
@@ -1079,15 +1028,146 @@ modal.addEventListener(
       event.target === modal
     ) {
 
-      modal.classList.add(
-        "hidden"
-      );
+      modal.style.display =
+        "none";
 
     }
 
   }
 
 );
+
+function validateCell(
+  station,
+  row,
+  col
+) {
+
+  return true;
+
+}
+
+document
+  .getElementById(
+    "submitButton"
+  )
+
+  .addEventListener(
+    "click",
+    () => {
+
+      let validCount = 0;
+
+      Object.entries(
+        boardState
+      )
+
+      .forEach(([key, station]) => {
+
+        const split =
+          key.split("-");
+
+        const row =
+          Number(split[0]);
+
+        const col =
+          Number(split[1]);
+
+        const cell =
+          document.querySelector(
+            `.cell[data-row="${row}"][data-col="${col}"]`
+          );
+
+        const valid =
+          validateCell(
+            station,
+            row,
+            col
+          );
+
+        if (valid) {
+
+          validCount++;
+
+          cell.classList.remove(
+            "incorrect"
+          );
+
+          cell.classList.add(
+            "correct"
+          );
+
+          cell.querySelector(
+            ".validation"
+          ).textContent =
+            "VALID";
+
+        }
+
+        else {
+
+          ticketsRemaining--;
+
+          cell.classList.remove(
+            "correct"
+          );
+
+          cell.classList.add(
+            "incorrect"
+          );
+
+          cell.querySelector(
+            ".validation"
+          ).textContent =
+            "INVALID";
+
+        }
+
+      });
+
+      document.getElementById(
+        "ticketCount"
+      ).textContent =
+        ticketsRemaining;
+
+      if (
+        validCount === 8
+      ) {
+
+        document.getElementById(
+          "specialAnnouncement"
+        ).style.display =
+          "block";
+
+        const combos = [
+
+          "Coastal + Interchange",
+
+          "Contains ‘ham’ + Direct to Charing Cross",
+
+          "Not a terminus + Interchange"
+
+        ];
+
+        const combo =
+
+          combos[
+            Math.floor(
+              Math.random()
+              * combos.length
+            )
+          ];
+
+        document.getElementById(
+          "departureBoard"
+        ).innerHTML =
+          combo;
+
+      }
+
+    }
+
+  );
 
 </script>
 

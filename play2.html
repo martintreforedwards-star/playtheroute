@@ -31,11 +31,11 @@ body{
 
 .page{
 
-  max-width:1200px;
+  max-width:1100px;
 
   margin:0 auto;
 
-  padding:20px;
+  padding:24px;
 
 }
 
@@ -43,7 +43,7 @@ body{
 
   text-align:center;
 
-  margin-bottom:24px;
+  margin-bottom:28px;
 
 }
 
@@ -61,8 +61,6 @@ h1{
 
   font-size:64px;
 
-  line-height:1;
-
   font-weight:800;
 
 }
@@ -79,13 +77,13 @@ h1{
 
 .service-panel{
 
+  background:#081633;
+
   border:1px solid #2563eb;
 
   padding:22px;
 
   margin-bottom:24px;
-
-  background:#0b1736;
 
 }
 
@@ -93,11 +91,11 @@ h1{
 
   color:#22c55e;
 
+  font-size:22px;
+
   font-weight:800;
 
   letter-spacing:3px;
-
-  font-size:22px;
 
   margin-bottom:12px;
 
@@ -105,15 +103,9 @@ h1{
 
 .service-text{
 
-  font-size:20px;
+  font-size:18px;
 
   line-height:1.5;
-
-}
-
-.grid-wrapper{
-
-  width:100%;
 
 }
 
@@ -122,9 +114,9 @@ h1{
   display:grid;
 
   grid-template-columns:
-    180px repeat(4, 1fr);
+    150px repeat(4, 1fr);
 
-  gap:10px;
+  gap:6px;
 
   width:100%;
 
@@ -140,9 +132,11 @@ h1{
 
   background:#111c44;
 
-  padding:16px;
+  min-height:90px;
 
-  min-height:110px;
+  padding:12px;
+
+  text-align:center;
 
   display:flex;
 
@@ -150,15 +144,11 @@ h1{
 
   justify-content:center;
 
-  align-items:center;
-
-  text-align:center;
-
 }
 
 .column-letter{
 
-  font-size:40px;
+  font-size:28px;
 
   font-weight:800;
 
@@ -168,7 +158,7 @@ h1{
 
 .column-clue{
 
-  font-size:20px;
+  font-size:16px;
 
   line-height:1.3;
 
@@ -180,11 +170,11 @@ h1{
 
   background:#111c44;
 
-  border-left:6px solid #22c55e;
+  min-height:120px;
 
-  padding:18px;
+  padding:14px;
 
-  min-height:130px;
+  border-left:5px solid #22c55e;
 
   display:flex;
 
@@ -202,7 +192,7 @@ h1{
 
 .platform-title{
 
-  font-size:34px;
+  font-size:22px;
 
   font-weight:800;
 
@@ -212,11 +202,11 @@ h1{
 
 .platform-clue{
 
-  font-size:22px;
-
-  color:#d1d5db;
+  font-size:16px;
 
   line-height:1.4;
+
+  color:#d1d5db;
 
 }
 
@@ -226,27 +216,27 @@ h1{
 
   border:1px solid #2563eb;
 
-  min-height:130px;
+  min-height:120px;
 
-  display:flex;
-
-  justify-content:center;
-
-  align-items:center;
-
-  text-align:center;
+  padding:10px;
 
   cursor:pointer;
 
-  transition:0.2s;
+  display:flex;
 
-  padding:10px;
+  align-items:center;
+
+  justify-content:center;
+
+  text-align:center;
+
+  transition:0.2s;
 
 }
 
 .cell:hover{
 
-  background:#10204a;
+  background:#0f214f;
 
 }
 
@@ -258,19 +248,19 @@ h1{
 
 .station-name{
 
-  font-size:24px;
+  font-size:20px;
 
   font-weight:700;
 
-  line-height:1.2;
+  line-height:1.3;
 
 }
 
 .cell-status{
 
-  margin-top:10px;
+  margin-top:8px;
 
-  font-size:14px;
+  font-size:12px;
 
   letter-spacing:2px;
 
@@ -296,13 +286,13 @@ h1{
 
 .tickets{
 
-  margin-top:22px;
+  margin-top:18px;
 
   background:#111c44;
 
-  padding:22px;
+  padding:20px;
 
-  font-size:30px;
+  font-size:22px;
 
   font-weight:700;
 
@@ -312,7 +302,7 @@ h1{
 
   width:100%;
 
-  margin-top:22px;
+  margin-top:18px;
 
   border:none;
 
@@ -320,9 +310,9 @@ h1{
 
   color:white;
 
-  padding:24px;
+  padding:22px;
 
-  font-size:34px;
+  font-size:30px;
 
   font-weight:800;
 
@@ -338,13 +328,13 @@ h1{
 
 .route-key{
 
-  margin-top:22px;
+  margin-top:18px;
+
+  background:#081633;
 
   border:1px solid #2563eb;
 
-  padding:22px;
-
-  background:#0b1736;
+  padding:20px;
 
 }
 
@@ -354,55 +344,59 @@ h1{
 
   color:#22c55e;
 
-  letter-spacing:3px;
+  font-size:22px;
 
-  font-size:24px;
+  letter-spacing:3px;
 
 }
 
 .route-key p{
 
-  font-size:20px;
-
-  margin:12px 0;
+  font-size:18px;
 
 }
 
 .special-announcement{
 
-  margin-top:22px;
+  display:none;
+
+  margin-top:18px;
+
+  background:#081633;
 
   border:1px solid #22c55e;
 
-  padding:22px;
-
-  background:#0b1736;
-
-  display:none;
+  padding:24px;
 
 }
 
 .special-announcement h2{
 
-  color:#22c55e;
-
   text-align:center;
+
+  color:#22c55e;
 
   letter-spacing:3px;
 
   margin-top:0;
 
-  font-size:28px;
-
 }
 
 .special-text{
 
+  margin-top:20px;
+
+  background:black;
+
+  color:#22c55e;
+
   text-align:center;
 
-  font-size:24px;
+  font-size:42px;
 
-  margin-top:20px;
+  padding:24px;
+
+  letter-spacing:8px;
 
 }
 
@@ -442,9 +436,9 @@ h1{
 
   font-size:28px;
 
-  margin-bottom:18px;
-
   font-weight:700;
+
+  margin-bottom:18px;
 
 }
 
@@ -454,9 +448,9 @@ h1{
 
   padding:16px;
 
-  border:none;
-
   font-size:18px;
+
+  border:none;
 
   margin-bottom:18px;
 
@@ -510,13 +504,13 @@ h1{
 
   .page{
 
-    padding:12px;
+    padding:10px;
 
   }
 
   h1{
 
-    font-size:44px;
+    font-size:42px;
 
   }
 
@@ -534,7 +528,7 @@ h1{
 
   .service-text{
 
-    font-size:15px;
+    font-size:14px;
 
   }
 
@@ -543,17 +537,13 @@ h1{
     grid-template-columns:
       82px repeat(4, 1fr);
 
-    width:100%;
-
-    min-width:0;
-
     gap:4px;
 
   }
 
   .column-header{
 
-    min-height:68px;
+    min-height:70px;
 
     padding:6px;
 
@@ -577,7 +567,7 @@ h1{
 
   .row-header{
 
-    min-height:78px;
+    min-height:82px;
 
     padding:6px;
 
@@ -601,7 +591,7 @@ h1{
 
   .cell{
 
-    min-height:78px;
+    min-height:82px;
 
     padding:4px;
 
@@ -615,7 +605,7 @@ h1{
 
   .cell-status{
 
-    font-size:9px;
+    font-size:8px;
 
     margin-top:4px;
 
@@ -681,72 +671,77 @@ h1{
 
   </div>
 
-  <div class="grid-wrapper">
+  <div class="route-grid">
 
-    <div class="route-grid">
+    <div class="corner"></div>
 
-      <div class="corner"></div>
+    <div class="column-header">
+      <div class="column-letter">A</div>
+      <div class="column-clue">
+        🚪 Coastal
+      </div>
+    </div>
 
-      <div class="column-header">
-        <div class="column-letter">A</div>
-        <div class="column-clue">🚪 Coastal</div>
+    <div class="column-header">
+      <div class="column-letter">B</div>
+      <div class="column-clue">
+        ⏱ 70–90 mins
+      </div>
+    </div>
+
+    <div class="column-header">
+      <div class="column-letter">C</div>
+      <div class="column-clue">
+        Contains 'ham'
+      </div>
+    </div>
+
+    <div class="column-header">
+      <div class="column-letter">D</div>
+      <div class="column-clue">
+        Interchange
+      </div>
+    </div>
+
+    <div class="row-header">
+
+      <div class="platform-title">
+        P1
       </div>
 
-      <div class="column-header">
-        <div class="column-letter">B</div>
-        <div class="column-clue">⏱ 70–90 mins</div>
+      <div class="platform-clue">
+        Not a terminus
       </div>
-
-      <div class="column-header">
-        <div class="column-letter">C</div>
-        <div class="column-clue">Contains 'ham'</div>
-      </div>
-
-      <div class="column-header">
-        <div class="column-letter">D</div>
-        <div class="column-clue">Interchange</div>
-      </div>
-
-      <div class="row-header">
-
-        <div class="platform-title">
-          P1
-        </div>
-
-        <div class="platform-clue">
-          Not a terminus
-        </div>
-
-      </div>
-
-      <div class="cell"></div>
-      <div class="cell"></div>
-      <div class="cell"></div>
-      <div class="cell"></div>
-
-      <div class="row-header blue">
-
-        <div class="platform-title">
-          P2
-        </div>
-
-        <div class="platform-clue">
-          Direct to Charing Cross
-        </div>
-
-      </div>
-
-      <div class="cell"></div>
-      <div class="cell"></div>
-      <div class="cell"></div>
-      <div class="cell"></div>
 
     </div>
+
+    <div class="cell"></div>
+    <div class="cell"></div>
+    <div class="cell"></div>
+    <div class="cell"></div>
+
+    <div class="row-header blue">
+
+      <div class="platform-title">
+        P2
+      </div>
+
+      <div class="platform-clue">
+        Direct to Charing Cross
+      </div>
+
+    </div>
+
+    <div class="cell"></div>
+    <div class="cell"></div>
+    <div class="cell"></div>
+    <div class="cell"></div>
 
   </div>
 
   <div class="tickets">
-    🎫 Tickets Remaining: <span id="ticket-count">4</span>
+    🎫 Tickets Remaining:
+    <span id="ticket-count">4</span>
   </div>
 
   <button
@@ -760,7 +755,9 @@ h1{
 
     <h2>ROUTE KEY</h2>
 
-    <p>🚪 = coastal commuter geography</p>
+    <p>
+      🚪 = coastal commuter geography
+    </p>
 
   </div>
 
@@ -787,14 +784,14 @@ h1{
   <div class="modal-box">
 
     <div class="modal-title">
-      Enter Station
+      Select Station
     </div>
 
     <input
       type="text"
       class="search-input"
       id="search-input"
-      placeholder="Search stations..."
+      placeholder="Search station..."
     >
 
     <div
@@ -816,52 +813,83 @@ h1{
 <script>
 
 const stations = [
+
+  "Ashford International",
   "Broadstairs",
-  "Ramsgate",
-  "Sturry",
+  "Canterbury East",
+  "Canterbury West",
+  "Chartham",
   "Chilham",
   "City Thameslink",
-  "Ashford International",
+  "Deal",
+  "Dover Priory",
+  "Faversham",
+  "Folkestone Central",
+  "Folkestone West",
+  "Herne Bay",
+  "Margate",
+  "Ramsgate",
   "Sandwich",
-  "Chartham"
+  "Sevenoaks",
+  "Sturry",
+  "Whitstable"
+
 ];
 
 const cells =
   document.querySelectorAll(".cell");
 
 const modal =
-  document.getElementById("station-modal");
+  document.getElementById(
+    "station-modal"
+  );
 
 const searchInput =
-  document.getElementById("search-input");
+  document.getElementById(
+    "search-input"
+  );
 
 const stationList =
-  document.getElementById("station-list");
+  document.getElementById(
+    "station-list"
+  );
 
 const closeBtn =
-  document.getElementById("close-btn");
+  document.getElementById(
+    "close-btn"
+  );
+
+const submitBtn =
+  document.getElementById(
+    "submit-btn"
+  );
 
 let activeCell = null;
 
 cells.forEach(cell => {
 
-  cell.addEventListener("click", () => {
+  cell.addEventListener(
+    "click",
+    () => {
 
-    activeCell = cell;
+      activeCell = cell;
 
-    modal.style.display = "flex";
+      modal.style.display =
+        "flex";
 
-    searchInput.value = "";
+      searchInput.value = "";
 
-    renderStations("");
+      renderStations("");
 
-    setTimeout(() => {
+      setTimeout(() => {
 
-      searchInput.focus();
+        searchInput.focus();
 
-    }, 50);
+      }, 50);
 
-  });
+    }
+
+  );
 
 });
 
@@ -891,27 +919,37 @@ function renderStations(filter){
     div.textContent =
       station;
 
-    div.addEventListener("click", () => {
+    div.addEventListener(
+      "click",
+      () => {
 
-      if(activeCell){
+        if(activeCell){
 
-        activeCell.innerHTML = `
+          activeCell.classList.remove(
+            "valid",
+            "invalid"
+          );
 
-          <div class="cell-content">
+          activeCell.innerHTML = `
 
-            <div class="station-name">
-              ${station}
+            <div class="cell-content">
+
+              <div class="station-name">
+                ${station}
+              </div>
+
             </div>
 
-          </div>
+          `;
 
-        `;
+        }
+
+        modal.style.display =
+          "none";
 
       }
 
-      modal.style.display = "none";
-
-    });
+    );
 
     stationList.appendChild(div);
 
@@ -919,43 +957,68 @@ function renderStations(filter){
 
 }
 
-searchInput.addEventListener("input", () => {
+searchInput.addEventListener(
+  "input",
+  () => {
 
-  renderStations(
-    searchInput.value
-  );
-
-});
-
-closeBtn.addEventListener("click", () => {
-
-  modal.style.display = "none";
-
-});
-
-window.addEventListener("click", event => {
-
-  if(event.target === modal){
-
-    modal.style.display = "none";
+    renderStations(
+      searchInput.value
+    );
 
   }
 
-});
-const submitBtn =
-  document.getElementById(
-    "submit-btn"
-  );
+);
+
+closeBtn.addEventListener(
+  "click",
+  () => {
+
+    modal.style.display =
+      "none";
+
+  }
+
+);
+
+window.addEventListener(
+  "click",
+  event => {
+
+    if(
+      event.target === modal
+    ){
+
+      modal.style.display =
+        "none";
+
+    }
+
+  }
+
+);
 
 submitBtn.addEventListener(
   "click",
   () => {
+
+    let completed = 0;
 
     cells.forEach(cell => {
 
       if(
         cell.innerHTML.trim() !== ""
       ){
+
+        const existing =
+          cell.querySelector(
+            ".cell-status"
+          );
+
+        if(existing){
+
+          existing.remove();
+
+        }
 
         cell.classList.add(
           "valid"
@@ -969,17 +1032,24 @@ submitBtn.addEventListener(
 
         `;
 
+        completed++;
+
       }
 
     });
 
-    document.getElementById(
-      "special-announcement"
-    ).style.display = "block";
+    if(completed === 8){
+
+      document.getElementById(
+        "special-announcement"
+      ).style.display = "block";
+
+    }
 
   }
 
 );
+
 </script>
 
 </body>

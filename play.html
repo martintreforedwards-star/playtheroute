@@ -125,6 +125,7 @@ body {
   border-radius: 24px;
   padding: 16px;
   text-align: center;
+
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -162,7 +163,9 @@ body {
 
   border: 2px solid #0057ff;
   border-radius: 20px;
+
   min-height: 110px;
+
   background: rgba(255,255,255,0.02);
 
   display: flex;
@@ -170,7 +173,9 @@ body {
   justify-content: center;
 
   text-align: center;
+
   cursor: pointer;
+
   transition: 0.2s;
 
   padding: 10px;
@@ -235,12 +240,16 @@ body {
   width: 100%;
   margin-top: 20px;
   padding: 28px;
+
   border: none;
   border-radius: 24px;
+
   background: #22cc66;
+
   color: white;
   font-size: 28px;
   font-weight: bold;
+
   cursor: pointer;
 
 }
@@ -254,9 +263,12 @@ body {
 .route-key {
 
   margin-top: 20px;
+
   border: 2px solid #0057ff;
   border-radius: 24px;
+
   padding: 20px;
+
   background: rgba(255,255,255,0.03);
 
 }
@@ -272,11 +284,16 @@ body {
 .special-announcement {
 
   margin-top: 24px;
+
   border: 3px solid #22dd66;
   border-radius: 28px;
+
   padding: 24px;
+
   background: rgba(255,255,255,0.03);
+
   display: none;
+
   text-align: center;
 
 }
@@ -292,13 +309,19 @@ body {
 .departure-board {
 
   margin-top: 24px;
+
   background: black;
   color: #22ff66;
+
   padding: 40px 20px;
+
   border-radius: 20px;
+
   font-size: 42px;
   font-family: monospace;
+
   letter-spacing: 3px;
+
   min-height: 120px;
 
   display: flex;
@@ -312,9 +335,11 @@ body {
 
   position: fixed;
   inset: 0;
+
   background: rgba(0,0,0,0.7);
 
   display: none;
+
   align-items: center;
   justify-content: center;
 
@@ -328,8 +353,10 @@ body {
   max-width: 500px;
 
   background: #06153d;
+
   border: 2px solid #0057ff;
   border-radius: 24px;
+
   padding: 20px;
 
 }
@@ -346,8 +373,11 @@ body {
 
   background: none;
   border: none;
+
   color: white;
+
   font-size: 28px;
+
   cursor: pointer;
 
 }
@@ -355,11 +385,16 @@ body {
 .station-search {
 
   width: 100%;
+
   padding: 16px;
+
   margin-top: 20px;
+
   border-radius: 14px;
   border: none;
+
   font-size: 18px;
+
   box-sizing: border-box;
 
 }
@@ -367,7 +402,9 @@ body {
 .station-list {
 
   margin-top: 20px;
+
   max-height: 300px;
+
   overflow-y: auto;
 
 }
@@ -375,7 +412,9 @@ body {
 .station-item {
 
   padding: 14px;
+
   border-bottom: 1px solid rgba(255,255,255,0.1);
+
   cursor: pointer;
 
 }
@@ -390,14 +429,42 @@ body {
 
   .grid {
 
-    grid-template-columns: 90px repeat(4, 1fr);
+    display: grid;
+
+    grid-template-columns:
+      120px
+      repeat(4, minmax(90px, 1fr));
+
     gap: 8px;
+
+    overflow-x: auto;
+
+    padding-bottom: 10px;
 
   }
 
   .header h1 {
 
     font-size: 42px;
+
+  }
+
+  .column-header {
+
+    min-width: 90px;
+
+  }
+
+  .cell {
+
+    min-width: 90px;
+    min-height: 110px;
+
+  }
+
+  .row-header {
+
+    min-width: 120px;
 
   }
 

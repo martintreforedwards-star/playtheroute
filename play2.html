@@ -826,6 +826,18 @@ fetch(
 
 });
 
+.then(data => {
+
+  console.log(data);
+
+  stations = data.map(
+    station => station.station_name
+  );
+
+  console.log(stations);
+
+});
+  
 const cells =
   document.querySelectorAll(".cell");
 

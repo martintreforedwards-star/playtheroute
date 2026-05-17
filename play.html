@@ -133,4 +133,963 @@ body {
 
   gap: 6px;
 
-  width:
+  width: max-content;
+
+}
+
+.corner {
+
+  visibility: hidden;
+
+}
+
+.column-header {
+
+  background: rgba(15,23,42,0.95);
+
+  border-radius: 12px;
+
+  height: 72px;
+
+  padding: 6px;
+
+  display: flex;
+
+  flex-direction: column;
+
+  justify-content: center;
+
+  align-items: center;
+
+  text-align: center;
+
+}
+
+.column-header strong {
+
+  font-size: 1rem;
+
+}
+
+.column-clue {
+
+  margin-top: 4px;
+
+  color: #d1d5db;
+
+  font-size: 0.5rem;
+
+  line-height: 1.2;
+
+}
+
+.row-header {
+
+  border-radius: 12px;
+
+  padding: 6px;
+
+  display: flex;
+
+  flex-direction: column;
+
+  justify-content: center;
+
+  align-items: center;
+
+  text-align: center;
+
+  height: 72px;
+
+}
+
+.row-header strong {
+
+  font-size: 0.7rem;
+
+  margin-bottom: 4px;
+
+}
+
+.row-header span {
+
+  font-size: 0.48rem;
+
+  line-height: 1.2;
+
+}
+
+.row-header.green {
+
+  background: rgba(15,23,42,0.95);
+
+  border-left: 4px solid #22c55e;
+
+}
+
+.row-header.blue {
+
+  background: rgba(15,23,42,0.95);
+
+  border-left: 4px solid #60a5fa;
+
+}
+
+.cell {
+
+  background: rgba(10,20,50,0.95);
+
+  border: 1px solid #1d4ed8;
+
+  border-radius: 12px;
+
+  width: 86px;
+  height: 72px;
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: center;
+
+  text-align: center;
+
+  padding: 4px;
+
+  cursor: pointer;
+
+  transition: 0.2s;
+
+}
+
+.cell.correct {
+
+  background: rgba(0,90,40,0.95);
+
+  border-color: #22c55e;
+
+}
+
+.cell.incorrect {
+
+  background: rgba(120,0,0,0.95);
+
+  border-color: #ef4444;
+
+}
+
+.station {
+
+  font-size: 0.55rem;
+
+  font-weight: 700;
+
+  line-height: 1.15;
+
+}
+
+.label {
+
+  margin-top: 3px;
+
+  font-size: 0.38rem;
+
+  letter-spacing: 1px;
+
+  color: #d1d5db;
+
+}
+
+.ticket-box {
+
+  margin-top: 14px;
+
+  background: rgba(15,23,42,0.95);
+
+  border-radius: 12px;
+
+  padding: 14px;
+
+  font-size: 0.95rem;
+
+}
+
+.submit-button {
+
+  margin-top: 14px;
+
+  width: 100%;
+
+  border: none;
+
+  border-radius: 12px;
+
+  padding: 16px;
+
+  font-size: 1rem;
+
+  font-weight: 800;
+
+  background: #22c55e;
+
+  color: white;
+
+  cursor: pointer;
+
+}
+
+.submit-button:disabled {
+
+  opacity: 0.45;
+
+}
+
+.special-box {
+
+  margin-top: 16px;
+
+  background: rgba(15,23,42,0.95);
+
+  border: 1px solid #22c55e;
+
+  border-radius: 14px;
+
+  padding: 18px;
+
+  text-align: center;
+
+}
+
+.departure-board {
+
+  margin-top: 14px;
+
+  background: black;
+
+  color: #22ff66;
+
+  border-radius: 10px;
+
+  padding: 18px;
+
+  font-family: monospace;
+
+  font-size: 1.1rem;
+
+  letter-spacing: 2px;
+
+  line-height: 1.6;
+
+}
+
+.hidden {
+
+  display: none !important;
+
+}
+
+.modal {
+
+  position: fixed;
+
+  inset: 0;
+
+  background: rgba(0,0,0,0.82);
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: center;
+
+  z-index: 9999;
+
+}
+
+.modal.hidden {
+
+  display: none;
+
+}
+
+.modal-box {
+
+  width: 92%;
+
+  max-width: 520px;
+
+  background: #111827;
+
+  border: 1px solid #1d4ed8;
+
+  border-radius: 14px;
+
+  padding: 18px;
+
+  max-height: 82vh;
+
+  overflow-y: auto;
+
+}
+
+.modal-top {
+
+  display: flex;
+
+  justify-content: space-between;
+
+  align-items: center;
+
+  margin-bottom: 14px;
+
+}
+
+.close-button {
+
+  border: none;
+
+  background: #ef4444;
+
+  color: white;
+
+  width: 32px;
+  height: 32px;
+
+  border-radius: 8px;
+
+  cursor: pointer;
+
+}
+
+#searchBox {
+
+  width: 100%;
+
+  padding: 14px;
+
+  border-radius: 10px;
+
+  border: none;
+
+  margin-bottom: 14px;
+
+  font-size: 0.95rem;
+
+}
+
+.station-option {
+
+  padding: 12px;
+
+  border-radius: 8px;
+
+  cursor: pointer;
+
+  font-size: 0.9rem;
+
+}
+
+.station-option:hover {
+
+  background: #1e293b;
+
+}
+
+.route-key {
+
+  margin-top: 14px;
+
+}
+
+@media (max-width: 700px) {
+
+  .route-key {
+
+    display: none;
+
+  }
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="container">
+
+  <div class="top-bar">
+
+    <img
+      src="logo.svg"
+      class="logo">
+
+    <div class="title-group">
+
+      <h1>The Route</h1>
+
+      <div class="subtitle">
+        Southeastern Alpha 001
+      </div>
+
+    </div>
+
+  </div>
+
+  <div class="panel">
+
+    <div class="panel-title">
+      SERVICE UPDATE
+    </div>
+
+    Engineering works continue between commuter intuition and actual rail logic.
+
+  </div>
+
+  <div class="game-wrapper">
+
+    <div class="game-grid">
+
+      <div class="corner"></div>
+
+      <div class="column-header">
+        <strong>A</strong>
+        <div class="column-clue">
+          🚪 Coastal
+        </div>
+      </div>
+
+      <div class="column-header">
+        <strong>B</strong>
+        <div class="column-clue">
+          ⏱ 70–90 mins
+        </div>
+      </div>
+
+      <div class="column-header">
+        <strong>C</strong>
+        <div class="column-clue">
+          Contains 'ham'
+        </div>
+      </div>
+
+      <div class="column-header">
+        <strong>D</strong>
+        <div class="column-clue">
+          Interchange
+        </div>
+      </div>
+
+      <div class="row-header green">
+
+        <strong>
+          Platform 1
+        </strong>
+
+        <span>
+          Not terminus
+        </span>
+
+      </div>
+
+      <div class="cell"></div>
+      <div class="cell"></div>
+      <div class="cell"></div>
+      <div class="cell"></div>
+
+      <div class="row-header blue">
+
+        <strong>
+          Platform 2
+        </strong>
+
+        <span>
+          Direct Charing Cross
+        </span>
+
+      </div>
+
+      <div class="cell"></div>
+      <div class="cell"></div>
+      <div class="cell"></div>
+      <div class="cell"></div>
+
+    </div>
+
+  </div>
+
+  <div
+    class="ticket-box"
+    id="ticketBox">
+
+    🎫 Tickets Remaining:
+    <span id="ticketCount">
+      4
+    </span>
+
+  </div>
+
+  <button
+    class="submit-button"
+    id="submitButton">
+
+    Submit route
+
+  </button>
+
+  <div class="panel route-key">
+
+    <div class="panel-title">
+      ROUTE KEY
+    </div>
+
+    🚪 = coastal commuter geography
+
+  </div>
+
+  <div
+    class="special-box hidden"
+    id="specialBox">
+
+    <div class="panel-title">
+      SPECIAL ANNOUNCEMENT
+    </div>
+
+    Final challenge unlocked.
+
+    <div
+      class="departure-board"
+      id="departureBoard">
+
+    </div>
+
+  </div>
+
+</div>
+
+<div
+  class="modal hidden"
+  id="stationModal">
+
+  <div class="modal-box">
+
+    <div class="modal-top">
+
+      <strong>
+        Select station
+      </strong>
+
+      <button
+        class="close-button"
+        id="closeModal">
+
+        ✕
+
+      </button>
+
+    </div>
+
+    <input
+      type="text"
+      id="searchBox"
+      placeholder="Search station...">
+
+    <div id="results"></div>
+
+  </div>
+
+</div>
+
+<script>
+
+const cells =
+  document.querySelectorAll(".cell");
+
+const modal =
+  document.getElementById(
+    "stationModal"
+  );
+
+const results =
+  document.getElementById(
+    "results"
+  );
+
+const searchBox =
+  document.getElementById(
+    "searchBox"
+  );
+
+const ticketCount =
+  document.getElementById(
+    "ticketCount"
+  );
+
+const submitButton =
+  document.getElementById(
+    "submitButton"
+  );
+
+const specialBox =
+  document.getElementById(
+    "specialBox"
+  );
+
+const departureBoard =
+  document.getElementById(
+    "departureBoard"
+  );
+
+let stations = [];
+
+let activeCell = null;
+
+let ticketsRemaining = 4;
+
+const boardState = {};
+
+fetch(
+  "data/stations/southeastern.json"
+)
+
+.then(response => response.json())
+
+.then(data => {
+
+  stations = data;
+
+});
+
+cells.forEach((cell, index) => {
+
+  const row =
+    index < 4
+      ? 0
+      : 1;
+
+  const column =
+    index % 4;
+
+  cell.dataset.row = row;
+
+  cell.dataset.column = column;
+
+  cell.addEventListener(
+    "click",
+    () => {
+
+      activeCell = cell;
+
+      modal.classList.remove(
+        "hidden"
+      );
+
+      searchBox.value = "";
+
+      renderStations(
+        stations
+      );
+
+      setTimeout(() => {
+
+        searchBox.focus();
+
+      }, 100);
+
+    }
+
+  );
+
+});
+
+function renderStations(list) {
+
+  results.innerHTML = "";
+
+  list
+    .sort((a, b) =>
+
+      a.station_name.localeCompare(
+        b.station_name
+      )
+
+    )
+
+    .forEach(station => {
+
+      const option =
+        document.createElement("div");
+
+      option.className =
+        "station-option";
+
+      option.textContent =
+        `${station.station_name}`;
+
+      option.onclick = () => {
+
+        placeStation(
+          station
+        );
+
+      };
+
+      results.appendChild(
+        option
+      );
+
+    });
+
+}
+
+function placeStation(station) {
+
+  const row =
+    Number(
+      activeCell.dataset.row
+    );
+
+  const column =
+    Number(
+      activeCell.dataset.column
+    );
+
+  boardState[
+    `${row}-${column}`
+  ] = station;
+
+  activeCell.classList.remove(
+    "correct",
+    "incorrect"
+  );
+
+  activeCell.innerHTML = `
+
+    <div>
+
+      <div class="station">
+        ${station.station_name}
+      </div>
+
+      <div class="label">
+        ARRIVING
+      </div>
+
+    </div>
+
+  `;
+
+  modal.classList.add(
+    "hidden"
+  );
+
+}
+
+function validateCell(
+  station,
+  row,
+  column
+) {
+
+  return true;
+
+}
+
+submitButton.addEventListener(
+  "click",
+  () => {
+
+    let correctCount = 0;
+
+    Object.entries(boardState)
+
+      .forEach(([key, station]) => {
+
+        const split =
+          key.split("-");
+
+        const row =
+          Number(split[0]);
+
+        const column =
+          Number(split[1]);
+
+        const valid =
+          validateCell(
+            station,
+            row,
+            column
+          );
+
+        const cell =
+          document.querySelector(
+            `.cell[data-row="${row}"][data-column="${column}"]`
+          );
+
+        cell.classList.remove(
+          "correct",
+          "incorrect"
+        );
+
+        if (valid) {
+
+          correctCount++;
+
+          cell.classList.add(
+            "correct"
+          );
+
+          cell.querySelector(
+            ".label"
+          ).textContent =
+            "VALID";
+
+        }
+
+        else {
+
+          cell.classList.add(
+            "incorrect"
+          );
+
+          cell.querySelector(
+            ".label"
+          ).textContent =
+            "INVALID";
+
+          ticketsRemaining--;
+
+        }
+
+      });
+
+    ticketCount.textContent =
+      ticketsRemaining;
+
+    if (
+      ticketsRemaining <= 0
+    ) {
+
+      submitButton.disabled = true;
+
+    }
+
+    if (
+      correctCount === 8
+    ) {
+
+      specialBox.classList.remove(
+        "hidden"
+      );
+
+      const metaCombos = [
+
+        {
+          clueA: "Coastal",
+          clueB: "Interchange"
+        },
+
+        {
+          clueA: "Contains 'ham'",
+          clueB: "Direct Charing Cross"
+        },
+
+        {
+          clueA: "Not terminus",
+          clueB: "Direct Charing Cross"
+        }
+
+      ];
+
+      const selectedCombo =
+
+        metaCombos[
+          Math.floor(
+            Math.random()
+            * metaCombos.length
+          )
+        ];
+
+      departureBoard.innerHTML = `
+
+        ${selectedCombo.clueA}
+
+        <br>
+
+        +
+
+        <br>
+
+        ${selectedCombo.clueB}
+
+      `;
+
+    }
+
+  }
+
+);
+
+searchBox.addEventListener(
+  "input",
+  () => {
+
+    const query =
+      searchBox.value.toLowerCase();
+
+    const filtered =
+      stations.filter(station =>
+
+        station.station_name
+          .toLowerCase()
+          .includes(query)
+
+      );
+
+    renderStations(
+      filtered
+    );
+
+  }
+
+);
+
+document.getElementById(
+  "closeModal"
+)
+
+.addEventListener(
+  "click",
+  () => {
+
+    modal.classList.add(
+      "hidden"
+    );
+
+  }
+
+);
+
+modal.addEventListener(
+  "click",
+  event => {
+
+    if (
+      event.target === modal
+    ) {
+
+      modal.classList.add(
+        "hidden"
+      );
+
+    }
+
+  }
+
+);
+
+</script>
+
+</body>
+</html>

@@ -1,0 +1,982 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta
+  name="viewport"
+  content="width=device-width, initial-scale=1.0">
+
+<title>The Route</title>
+
+<link
+  href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap"
+  rel="stylesheet">
+
+<style>
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  background:
+    radial-gradient(circle at top,
+      #001a4d 0%,
+      #000814 45%,
+      #000510 100%);
+  color: white;
+  overflow-x: hidden;
+}
+
+.container {
+  width: 100%;
+  max-width: 1100px;
+  margin: auto;
+  padding: 16px;
+}
+
+.top-bar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 14px;
+  margin-bottom: 18px;
+}
+
+.logo {
+  width: 64px;
+  height: 64px;
+}
+
+.title-group h1 {
+  margin: 0;
+  font-size: 2.6rem;
+  font-weight: 800;
+}
+
+.subtitle {
+  margin-top: 6px;
+  color: #9ca3af;
+  font-size: 0.9rem;
+}
+
+.panel {
+  background: rgba(17,24,39,0.92);
+  border: 2px solid #1d4ed8;
+  border-radius: 22px;
+  padding: 18px;
+  margin-bottom: 18px;
+}
+
+.panel-title {
+  color: #22c55e;
+  font-size: 0.95rem;
+  font-weight: 800;
+  letter-spacing: 2px;
+  margin-bottom: 12px;
+}
+
+.game-grid {
+
+  display: grid;
+
+  grid-template-columns: 88px repeat(4, 1fr);
+
+  grid-template-rows: 82px 82px 82px;
+
+  gap: 8px;
+
+  width: 100%;
+
+}
+
+.corner {
+  background: transparent;
+}
+
+.column-header {
+
+  background: rgba(15,23,42,0.95);
+
+  border-radius: 18px;
+
+  padding: 8px 4px;
+
+  text-align: center;
+
+  height: 82px;
+
+  display: flex;
+
+  flex-direction: column;
+
+  justify-content: center;
+
+}
+
+.column-header strong {
+  font-size: 1.1rem;
+}
+
+.column-clue {
+
+  margin-top: 4px;
+
+  color: #d1d5db;
+
+  font-size: 0.58rem;
+
+  line-height: 1.25;
+
+}
+
+.row-header {
+
+  border-radius: 18px;
+
+  padding: 8px;
+
+  display: flex;
+
+  flex-direction: column;
+
+  justify-content: center;
+
+  align-items: center;
+
+  text-align: center;
+
+  height: 82px;
+
+}
+
+.row-header strong {
+
+  font-size: 0.85rem;
+
+  margin-bottom: 4px;
+
+}
+
+.row-header span {
+
+  font-size: 0.56rem;
+
+  line-height: 1.25;
+
+}
+
+.row-header.green,
+.row-header.blue {
+
+  background: rgba(15,23,42,0.95);
+
+  border-left: 4px solid;
+
+}
+
+.row-header.green {
+  border-color: #22c55e;
+}
+
+.row-header.blue {
+  border-color: #60a5fa;
+}
+
+.cell {
+
+  background: rgba(10,20,50,0.95);
+
+  border: 2px solid #1d4ed8;
+
+  border-radius: 18px;
+
+  height: 82px;
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: center;
+
+  text-align: center;
+
+  padding: 6px;
+
+  cursor: pointer;
+
+  transition: 0.2s;
+
+}
+
+.cell:hover {
+  transform: translateY(-1px);
+  border-color: #3b82f6;
+}
+
+.cell.correct {
+  background: rgba(0,120,40,0.95);
+  border-color: #22c55e;
+}
+
+.cell.incorrect {
+  background: rgba(140,0,0,0.95);
+  border-color: #ef4444;
+}
+
+.cell-content {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.station {
+
+  font-size: 0.68rem;
+
+  font-weight: 700;
+
+  line-height: 1.2;
+
+}
+
+.label {
+
+  font-size: 0.46rem;
+
+  letter-spacing: 1px;
+
+  color: #d1d5db;
+
+}
+
+.empty-label {
+  color: #94a3b8;
+  font-size: 0.7rem;
+  font-weight: 700;
+}
+
+.ticket-box {
+  margin-top: 18px;
+  background: rgba(15,23,42,0.95);
+  border-radius: 18px;
+  padding: 16px;
+}
+
+.submit-button {
+  margin-top: 18px;
+  width: 100%;
+  border: none;
+  border-radius: 20px;
+  padding: 18px;
+  font-size: 1.2rem;
+  font-weight: 800;
+  background: #22c55e;
+  color: white;
+  cursor: pointer;
+}
+
+.submit-button:hover {
+  background: #16a34a;
+}
+
+.modal {
+
+  position: fixed;
+
+  inset: 0;
+
+  background: rgba(0,0,0,0.82);
+
+  z-index: 9999;
+
+  display: none;
+
+  align-items: center;
+
+  justify-content: center;
+
+  padding: 16px;
+
+}
+
+.modal-box {
+  width: 92%;
+  max-width: 620px;
+  background: #111827;
+  border: 2px solid #1d4ed8;
+  border-radius: 24px;
+  padding: 24px;
+  max-height: 85vh;
+  overflow-y: auto;
+}
+
+.modal-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 18px;
+}
+
+.close-button {
+  border: none;
+  background: #ef4444;
+  color: white;
+  width: 36px;
+  height: 36px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+#searchBox {
+  width: 100%;
+  padding: 16px;
+  border-radius: 16px;
+  border: none;
+  margin-bottom: 18px;
+  font-size: 1rem;
+}
+
+.station-option {
+  padding: 14px;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+.station-option:hover {
+  background: #1e293b;
+}
+
+@media (max-width: 700px) {
+
+  .container {
+    padding: 10px;
+  }
+
+  .game-grid {
+
+    grid-template-columns: 78px repeat(4, 1fr);
+
+    grid-template-rows: 74px 74px 74px;
+
+    gap: 6px;
+
+  }
+
+  .column-header,
+  .row-header,
+  .cell {
+
+    height: 74px;
+
+  }
+
+  .column-header strong {
+    font-size: 0.9rem;
+  }
+
+  .column-clue {
+    font-size: 0.46rem;
+  }
+
+  .row-header strong {
+    font-size: 0.7rem;
+  }
+
+  .row-header span {
+    font-size: 0.45rem;
+  }
+
+  .station {
+    font-size: 0.54rem;
+  }
+
+  .label {
+    font-size: 0.4rem;
+  }
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="container">
+
+  <div class="top-bar">
+
+    <img
+      src="logo.svg"
+      class="logo">
+
+    <div class="title-group">
+
+      <h1>The Route</h1>
+
+      <div class="subtitle">
+        Southeastern Alpha 001
+      </div>
+
+    </div>
+
+  </div>
+
+  <div class="panel">
+
+    <div class="panel-title">
+      SERVICE UPDATE
+    </div>
+
+    Engineering works continue between commuter intuition and actual rail logic.
+
+  </div>
+
+  <div
+    class="game-grid"
+    id="gameGrid">
+
+    <div class="corner"></div>
+
+    <div class="column-header">
+      <strong>A</strong>
+      <div class="column-clue">
+        🚪 Coastal
+      </div>
+    </div>
+
+    <div class="column-header">
+      <strong>B</strong>
+      <div class="column-clue">
+        ⏱ 70–90 mins
+      </div>
+    </div>
+
+    <div class="column-header">
+      <strong>C</strong>
+      <div class="column-clue">
+        Contains 'ham'
+      </div>
+    </div>
+
+    <div class="column-header">
+      <strong>D</strong>
+      <div class="column-clue">
+        Interchange
+      </div>
+    </div>
+
+    <div class="row-header green">
+
+      <strong>
+        Platform 1
+      </strong>
+
+      <span>
+        Not a terminus
+      </span>
+
+    </div>
+
+    <div class="cell" data-index="0"></div>
+    <div class="cell" data-index="1"></div>
+    <div class="cell" data-index="2"></div>
+    <div class="cell" data-index="3"></div>
+
+    <div class="row-header blue">
+
+      <strong>
+        Platform 2
+      </strong>
+
+      <span>
+        Direct Charing Cross
+      </span>
+
+    </div>
+
+    <div class="cell" data-index="4"></div>
+    <div class="cell" data-index="5"></div>
+    <div class="cell" data-index="6"></div>
+    <div class="cell" data-index="7"></div>
+
+  </div>
+
+  <div class="ticket-box">
+
+    🎫 Tickets Remaining:
+    <span id="ticketCount">
+      3
+    </span>
+
+  </div>
+
+  <button
+    class="submit-button"
+    id="submitButton">
+
+    Submit Route
+
+  </button>
+
+  <div class="panel">
+
+    <div class="panel-title">
+      ROUTE KEY
+    </div>
+
+    🚪 = coastal commuter geography
+
+  </div>
+
+</div>
+
+<div
+  class="modal"
+  id="stationModal">
+
+  <div class="modal-box">
+
+    <div class="modal-top">
+
+      <strong>Select station</strong>
+
+      <button
+        class="close-button"
+        id="closeButton">
+
+        ✕
+
+      </button>
+
+    </div>
+
+    <input
+      type="text"
+      id="searchBox"
+      placeholder="Search station...">
+
+    <div id="results"></div>
+
+  </div>
+
+</div>
+
+<script>
+
+const boardState = [
+
+  { station: null, correct: null },
+  { station: null, correct: null },
+  { station: null, correct: null },
+  { station: null, correct: null },
+
+  { station: null, correct: null },
+  { station: null, correct: null },
+  { station: null, correct: null },
+  { station: null, correct: null }
+
+];
+
+const cells =
+  document.querySelectorAll(".cell");
+
+const modal =
+  document.getElementById(
+    "stationModal"
+  );
+
+const results =
+  document.getElementById(
+    "results"
+  );
+
+const searchBox =
+  document.getElementById(
+    "searchBox"
+  );
+
+let stations = [];
+
+let activeIndex = null;
+
+fetch(
+  "data/stations/southeastern.json"
+)
+.then(response => response.json())
+.then(data => {
+
+  stations = data;
+
+  renderBoard();
+
+})
+.catch(error => {
+
+  console.log(error);
+
+  alert(
+    "JSON FAILED TO LOAD"
+  );
+
+});
+
+function renderBoard() {
+
+  cells.forEach((cell, index) => {
+
+    const state =
+      boardState[index];
+
+    cell.classList.remove(
+      "correct",
+      "incorrect"
+    );
+
+    if (state.correct === true) {
+
+      cell.classList.add(
+        "correct"
+      );
+
+    }
+
+    if (state.correct === false) {
+
+      cell.classList.add(
+        "incorrect"
+      );
+
+    }
+
+    if (!state.station) {
+
+      cell.innerHTML = `
+
+        <div class="empty-label">
+          Select Station
+        </div>
+
+      `;
+
+      return;
+
+    }
+
+    const label =
+      state.correct === true
+        ? "CORRECT"
+        : state.correct === false
+          ? "INVALID"
+          : "ARRIVING";
+
+    cell.innerHTML = `
+
+      <div class="cell-content">
+
+        <div class="station">
+          ${state.station.station_name}
+        </div>
+
+        <div class="label">
+          ${label}
+        </div>
+
+      </div>
+
+    `;
+
+  });
+
+}
+
+cells.forEach(cell => {
+
+  cell.addEventListener(
+    "click",
+    () => {
+
+      activeIndex =
+        Number(
+          cell.dataset.index
+        );
+
+      modal.style.display =
+        "flex";
+
+      renderStations(
+        stations
+      );
+
+      searchBox.value = "";
+
+      setTimeout(() => {
+
+        searchBox.focus();
+
+      }, 50);
+
+    }
+
+  );
+
+});
+
+function renderStations(list) {
+
+  results.innerHTML = "";
+
+  list
+    .sort((a, b) =>
+      a.station_name.localeCompare(
+        b.station_name
+      )
+    )
+    .forEach(station => {
+
+      const option =
+        document.createElement("div");
+
+      option.className =
+        "station-option";
+
+      option.textContent =
+        `${station.station_name} (${station.crs})`;
+
+      option.onclick = () => {
+
+        boardState[
+          activeIndex
+        ].station = station;
+
+        boardState[
+          activeIndex
+        ].correct = null;
+
+        renderBoard();
+
+        closeModal();
+
+      };
+
+      results.appendChild(
+        option
+      );
+
+    });
+
+}
+
+function closeModal() {
+
+  modal.style.display =
+    "none";
+
+}
+
+function validateCell(
+  station,
+  row,
+  column,
+  usedStations
+) {
+
+  let valid = true;
+
+  if (
+    row === 0 &&
+    station.is_terminus === true
+  ) {
+
+    valid = false;
+
+  }
+
+  if (
+    row === 1 &&
+    station.direct_to_charing_cross !== true
+  ) {
+
+    valid = false;
+
+  }
+
+  if (
+    column === 0 &&
+    station.distance_band !== "coastal"
+  ) {
+
+    valid = false;
+
+  }
+
+  if (column === 1) {
+
+    const normalizedTime =
+      station.time_group
+        .replace(/–/g, "-")
+        .replace(/\s/g, "");
+
+    if (
+      normalizedTime !== "70-90"
+    ) {
+
+      valid = false;
+
+    }
+
+  }
+
+  if (
+    column === 2 &&
+    !station.station_name
+      .toLowerCase()
+      .includes("ham")
+  ) {
+
+    valid = false;
+
+  }
+
+  if (
+    column === 3 &&
+    station.is_interchange !== true
+  ) {
+
+    valid = false;
+
+  }
+
+  if (
+    usedStations.includes(
+      station.station_name
+    )
+  ) {
+
+    valid = false;
+
+  }
+
+  return valid;
+
+}
+
+function submitBoard() {
+
+  let usedStations = [];
+
+  boardState.forEach(
+    (cell, index) => {
+
+      if (!cell.station) {
+
+        cell.correct = false;
+
+        return;
+
+      }
+
+      const row =
+        index < 4 ? 0 : 1;
+
+      const column =
+        index % 4;
+
+      const valid =
+        validateCell(
+          cell.station,
+          row,
+          column,
+          usedStations
+        );
+
+      if (valid) {
+
+        usedStations.push(
+          cell.station.station_name
+        );
+
+      }
+
+      cell.correct = valid;
+
+    }
+  );
+
+  renderBoard();
+
+}
+
+document
+  .getElementById(
+    "submitButton"
+  )
+  .addEventListener(
+    "click",
+    submitBoard
+  );
+
+document
+  .getElementById(
+    "closeButton"
+  )
+  .addEventListener(
+    "click",
+    closeModal
+  );
+
+searchBox.addEventListener(
+  "keyup",
+  () => {
+
+    const query =
+      searchBox.value
+        .toLowerCase();
+
+    const filtered =
+      stations.filter(station =>
+
+        station.station_name
+          .toLowerCase()
+          .includes(query)
+
+      );
+
+    renderStations(
+      filtered
+    );
+
+  }
+
+);
+
+modal.addEventListener(
+  "click",
+  event => {
+
+    if (
+      event.target === modal
+    ) {
+
+      closeModal();
+
+    }
+
+  }
+
+);
+
+closeModal();
+
+</script>
+
+</body>
+</html>

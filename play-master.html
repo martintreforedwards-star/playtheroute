@@ -640,6 +640,17 @@ body {
 
     <div id="stationCountText" style="display:none;margin-top:12px;text-align:center;font-weight:700;">
     </div>
+    <div id="bonusStationPanel" style="display:none;margin-top:16px;text-align:center;">
+      <button class="submit-button" id="bonusSelectButton" style="min-width:auto;padding:12px 20px;font-size:1rem;">
+        Select Station
+      </button>
+      <div id="bonusSelectedStation" style="margin-top:12px;"></div>
+      <button class="submit-button" id="claimTicketButton" style="display:none;min-width:auto;padding:12px 20px;font-size:1rem;margin-top:12px;">
+        🎟 Claim Return Ticket
+      </button>
+      <div id="bonusMessage" style="margin-top:12px;font-weight:700;"></div>
+    </div>
+
 
   </div>
 
@@ -716,6 +727,8 @@ const searchBox =
 let stations = [];
 
 let activeIndex = null;
+let bonusMode = false;
+let selectedBonusStation = null;
 
 let ticketsRemaining = 6;
 
@@ -873,6 +886,29 @@ function renderStations(list) {
         `${station.station_name} (${station.crs})`;
 
       option.onclick = () => {
+
+        if (bonusMode) {
+
+          selectedBonusStation = station;
+
+          document.getElementById(
+            "bonusSelectedStation"
+          ).textContent =
+            "Selected: " +
+            station.station_name;
+
+          document.getElementById(
+            "claimTicketButton"
+          ).style.display =
+            "inline-block";
+
+          bonusMode = false;
+
+          closeModal();
+
+          return;
+
+        }
 
         boardState[
           activeIndex
@@ -1200,7 +1236,9 @@ function submitBoard() {
     document.getElementById(
       "stationCountText"
     ).textContent =
-      stationCount + " STATIONS";
+      "There are " + stationCount + " Southeastern stations that match these criteria.";
+
+    document.getElementById("bonusStationPanel").style.display="block";
 
   }
 
@@ -1262,6 +1300,51 @@ modal.addEventListener(
 
   }
 
+);
+
+document.getElementById(
+  "bonusSelectButton"
+).addEventListener(
+  "click",
+  () => {
+
+    bonusMode = true;
+
+    modal.style.display =
+      "flex";
+
+    renderStations(
+      stations
+    );
+
+  }
+);
+
+document.getElementById(
+  "claimTicketButton"
+).addEventListener(
+  "click",
+  () => {
+
+    if (!selectedBonusStation) return;
+
+    ticketsRemaining++;
+
+    document.getElementById(
+      "ticketCount"
+    ).textContent =
+      ticketsRemaining;
+
+    document.getElementById(
+      "bonusMessage"
+    ).textContent =
+      "🎟 RETURN TICKET EARNED";
+
+    document.getElementById(
+      "claimTicketButton"
+    ).disabled = true;
+
+  }
 );
 
 closeModal();

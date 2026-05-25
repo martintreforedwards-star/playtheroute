@@ -1363,6 +1363,54 @@ document.getElementById(
 
     if (!selectedBonusStation) return;
 
+    let valid = false;
+
+    if (
+      window.currentBonusClue ===
+      "Not a terminus + Interchange"
+    ) {
+
+      valid =
+        selectedBonusStation.is_terminus === false &&
+        selectedBonusStation.is_interchange === true;
+
+    }
+
+    else if (
+      window.currentBonusClue ===
+      "Coastal + Interchange"
+    ) {
+
+      valid =
+        selectedBonusStation.distance_band === "coastal" &&
+        selectedBonusStation.is_interchange === true;
+
+    }
+
+    else if (
+      window.currentBonusClue ===
+      "Contains 'ham' + Direct to Charing Cross"
+    ) {
+
+      valid =
+        selectedBonusStation.station_name
+          .toLowerCase()
+          .includes("ham") &&
+        selectedBonusStation.direct_to_charing_cross === true;
+
+    }
+
+    if (!valid) {
+
+      document.getElementById(
+        "bonusMessage"
+      ).textContent =
+        "❌ Incorrect station";
+
+      return;
+
+    }
+
     ticketsRemaining++;
 
     document.getElementById(

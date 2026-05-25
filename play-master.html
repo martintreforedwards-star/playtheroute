@@ -556,7 +556,7 @@ body {
         class="ticket-number"
         id="ticketCount">
 
-        4
+        6
 
       </div>
 
@@ -676,7 +676,7 @@ let stations = [];
 
 let activeIndex = null;
 
-let ticketsRemaining = 4;
+let ticketsRemaining = 6;
 
 fetch(
   "data/stations/southeastern.json"
@@ -955,6 +955,8 @@ function submitBoard() {
 
   let validCount = 0;
 
+  let hasErrors = false;
+
   boardState.forEach(
     (cell, index) => {
 
@@ -992,7 +994,7 @@ function submitBoard() {
 
       else {
 
-        ticketsRemaining--;
+        hasErrors = true;
 
       }
 
@@ -1002,12 +1004,41 @@ function submitBoard() {
 
   );
 
+  if (hasErrors) {
+
+    ticketsRemaining =
+      Math.max(
+        0,
+        ticketsRemaining - 1
+      );
+
+  }
+
   document.getElementById(
     "ticketCount"
   ).textContent =
     ticketsRemaining;
 
   renderBoard();
+
+  if (
+    ticketsRemaining === 0 &&
+    validCount < 8
+  ) {
+
+    alert(
+      "No tickets remaining. Journey terminated."
+    );
+
+    document
+      .getElementById(
+        "submitButton"
+      )
+      .disabled = true;
+
+    return;
+
+  }
 
   if (
     validCount === 8

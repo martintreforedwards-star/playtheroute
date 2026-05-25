@@ -319,7 +319,7 @@ body {
 }
 
 .special-announcement {
-  display: none;
+
   margin-top: 28px;
 }
 
@@ -429,6 +429,55 @@ body {
 
   .submit-button {
     min-height: 84px;
+  }
+
+  .game-table {
+    border-spacing: 3px;
+  }
+
+  .side-heading {
+    width: 55px;
+    padding: 4px;
+  }
+
+  .side-heading .p-label {
+    font-size: 0.7rem;
+    margin-bottom: 4px;
+  }
+
+  .side-heading .p-clue {
+    font-size: 0.55rem;
+    line-height: 1.1;
+  }
+
+  .col-heading {
+    font-size: 0.6rem;
+    padding: 4px;
+    line-height: 1.1;
+  }
+
+  .cell {
+    height: 60px;
+    border-radius: 14px;
+  }
+
+  .cell-inner {
+    padding: 4px;
+  }
+
+  .station-name {
+    font-size: 0.65rem;
+    line-height: 1.05;
+  }
+
+  .validation {
+    margin-top: 4px;
+    font-size: 0.4rem;
+    letter-spacing: 1px;
+  }
+
+  .empty-label {
+    font-size: 0.65rem;
   }
 
 }
@@ -585,14 +634,14 @@ body {
   </div>
 
   <div
-    class="panel special-announcement"
+    class="panel final-destination"
     id="specialAnnouncement">
 
     <div class="panel-title">
       Special announcement
     </div>
 
-    Final challenge unlocked.
+    🔒 LOCKED
 
     <div
       class="departure-board"
@@ -949,7 +998,92 @@ function validateCell(
 
 }
 
+
+function startSplitFlapReveal(
+  finalText
+) {
+
+  const board =
+    document.getElementById(
+      "departureBoard"
+    );
+
+  const chars =
+    "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789+- ";
+
+  let frame = 0;
+
+  const timer =
+    setInterval(() => {
+
+      let display = "";
+
+      for (
+        let i = 0;
+        i < finalText.length;
+        i++
+      ) {
+
+        if (
+          frame > i * 2
+        ) {
+
+          display += finalText[i];
+
+        } else {
+
+          display += chars[
+            Math.floor(
+              Math.random() * chars.length
+            )
+          ];
+
+        }
+
+      }
+
+      board.innerHTML = display;
+
+      frame++;
+
+      if (
+        frame >
+        finalText.length * 2
+      ) {
+
+        clearInterval(timer);
+
+        board.innerHTML = finalText;
+
+      }
+
+    }, 80);
+
+}
+
 function submitBoard() {
+
+  let filledCount = 0;
+
+  boardState.forEach(cell => {
+
+    if (cell.station) {
+
+      filledCount++;
+
+    }
+
+  });
+
+  if (filledCount < 8) {
+
+    alert(
+      "Please fill all 8 stations before submitting."
+    );
+
+    return;
+
+  }
 
   let usedStations = [];
 
@@ -959,14 +1093,6 @@ function submitBoard() {
 
   boardState.forEach(
     (cell, index) => {
-
-      if (!cell.station) {
-
-        cell.correct = false;
-
-        return;
-
-      }
 
       const row =
         index < 4 ? 0 : 1;
@@ -990,9 +1116,7 @@ function submitBoard() {
           cell.station.station_name
         );
 
-      }
-
-      else {
+      } else {
 
         hasErrors = true;
 
@@ -1044,23 +1168,18 @@ function submitBoard() {
     validCount === 8
   ) {
 
-    document.getElementById(
-      "specialAnnouncement"
-    ).style.display =
-      "block";
-
+    
     const combos = [
 
       "Coastal + Interchange",
 
-      "Contains ‘ham’ + Direct to Charing Cross",
+      "Contains 'ham' + Direct to Charing Cross",
 
       "Not a terminus + Interchange"
 
     ];
 
     const combo =
-
       combos[
         Math.floor(
           Math.random()
@@ -1068,16 +1187,15 @@ function submitBoard() {
         )
       ];
 
-    document.getElementById(
-      "departureBoard"
-    ).innerHTML =
-      combo;
+    startSplitFlapReveal(
+      combo
+    );
 
   }
 
 }
 
-document
+documentdocument
   .getElementById(
     "submitButton"
   )
@@ -1142,4 +1260,3 @@ closeModal();
 
 </body>
 </html>
-

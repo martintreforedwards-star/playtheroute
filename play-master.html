@@ -638,15 +638,20 @@ body {
     id="specialAnnouncement">
 
     <div class="panel-title">
-      Special announcement
+      Final Destination
     </div>
 
-    🔒 LOCKED
+    <div id="lockedText">
+      🔒 LOCKED
+    </div>
 
     <div
       class="departure-board"
       id="departureBoard">
 
+    </div>
+
+    <div id="stationCountText" style="display:none;margin-top:12px;text-align:center;font-weight:700;">
     </div>
 
   </div>
@@ -1187,9 +1192,28 @@ function submitBoard() {
         )
       ];
 
+    document.getElementById(
+      "lockedText"
+    ).style.display = "none";
+
+    const stationCount =
+      Math.floor(
+        Math.random() * 10
+      ) + 3;
+
     startSplitFlapReveal(
       combo
     );
+
+    document.getElementById(
+      "stationCountText"
+    ).style.display =
+      "block";
+
+    document.getElementById(
+      "stationCountText"
+    ).textContent =
+      stationCount + " STATIONS";
 
   }
 

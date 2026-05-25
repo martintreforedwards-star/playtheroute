@@ -946,23 +946,23 @@ function validateCell(
     valid = false;
 
   }
+if (column === 1) {
 
-  if (column === 1) {
+  const minutes =
+    Number(
+      station.canonical_time_to_london
+    );
 
-    const normalizedTime =
-      station.time_group
-        .replace(/–/g, "-")
-        .replace(/\s/g, "");
+  if (
+    minutes < 70 ||
+    minutes > 90
+  ) {
 
-    if (
-      normalizedTime !== "70-90"
-    ) {
-
-      valid = false;
-
-    }
+    valid = false;
 
   }
+
+}
 
   if (
     column === 2 &&

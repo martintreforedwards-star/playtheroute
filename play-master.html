@@ -1197,7 +1197,40 @@ function submitBoard() {
   ) {
 
     
-    const combos = [
+    
+const destinationRules = [
+
+  {
+    name: "Coastal + Interchange",
+    test: station =>
+      station.distance_band === "coastal" &&
+      station.is_interchange === true
+  },
+
+  {
+    name: "Contains 'ham' + Direct to Charing Cross",
+    test: station =>
+      station.station_name
+        .toLowerCase()
+        .includes("ham") &&
+      station.direct_to_charing_cross === true
+  },
+
+  {
+    name: "Not a terminus + Interchange",
+    test: station =>
+      station.is_terminus === false &&
+      station.is_interchange === true
+  }
+
+];
+
+let currentDestinationRule = null;
+let currentDestinationMatches = [];
+let returnTicketClaimed = false;
+
+
+const combos = [
 
       "Coastal + Interchange",
 

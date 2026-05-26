@@ -1323,12 +1323,16 @@ document.getElementById(
 
     bonusMode = true;
 
+    searchBox.value = "";
+
     modal.style.display =
       "flex";
 
     renderStations(
       stations
     );
+
+    searchBox.focus();
 
   }
 );
@@ -1380,10 +1384,17 @@ document.getElementById(
 
     if (!valid) {
 
+      ticketsRemaining = Math.max(0, ticketsRemaining - 1);
+
+      document.getElementById(
+        "ticketCount"
+      ).textContent =
+        ticketsRemaining;
+
       document.getElementById(
         "bonusMessage"
       ).textContent =
-        "❌ Incorrect station";
+        "❌ Incorrect station (-1 ticket)";
 
       return;
 

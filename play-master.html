@@ -732,13 +732,48 @@ let selectedBonusStation = null;
 
 let ticketsRemaining = 6;
 
+let routeLocked = false;
+let gameOver = false;
+let returnTicketClaimed = false;
+
 function updateTicketDisplay() {
   const el = document.getElementById("ticketCount");
   if (el) {
     el.textContent = String(ticketsRemaining);
   }
 }
+function endGame() {
 
+  gameOver = true;
+  routeLocked = true;
+
+  document.getElementById(
+    "submitButton"
+  ).disabled = true;
+
+  const bonusSelect =
+    document.getElementById(
+      "bonusSelectButton"
+    );
+
+  if (bonusSelect) {
+    bonusSelect.disabled = true;
+  }
+
+  const claimButton =
+    document.getElementById(
+      "claimTicketButton"
+    );
+
+  if (claimButton) {
+    claimButton.disabled = true;
+  }
+
+  alert(
+    "No tickets remaining. Journey terminated."
+  );
+
+}
 fetch(
   "data/stations/southeastern.json"
 )
@@ -838,9 +873,13 @@ function renderBoard() {
 
 cells.forEach(cell => {
 
-  cell.addEventListener(
-    "click",
-    () => {
+cell.addEventListener(
+  "click",
+  () => {
+
+    if (routeLocked || gameOver) {
+      return;
+    }
 
       activeIndex =
         Number(
@@ -1210,30 +1249,21 @@ function submitBoard() {
 
   renderBoard();
 
-  if (
-    ticketsRemaining === 0 &&
-    validCount < 8
-  ) {
+if (
+  ticketsRemaining === 0 &&
+  validCount < 8
+) {
 
-    alert(
-      "No tickets remaining. Journey terminated."
-    );
+  endGame();
+  return;
 
-    document
-      .getElementById(
-        "submitButton"
-      )
-      .disabled = true;
+}
 
-    return;
+if (
+  validCount === 8
+) {
 
-  }
-
-  if (
-    validCount === 8
-  ) {
-
-    
+  routeLocked = true;
     
 const destinationRules = [
 
@@ -1358,6 +1388,10 @@ document.getElementById(
   "click",
   () => {
 
+    if (gameOver) {
+      return;
+    }
+
     bonusMode = true;
 
     searchBox.value = "";
@@ -1381,7 +1415,7 @@ document.getElementById(
   () => {
 
     if (!selectedBonusStation) return;
-
+if (returnTicketClaimed) return;
     let valid = false;
 
     if (
@@ -1430,17 +1464,27 @@ document.getElementById(
       ).textContent =
         "❌ Incorrect station (-1 ticket)";
 
-      if (ticketsRemaining === 0) {
-        showResultsModal(false);
-      }
+   if (ticketsRemaining === 0) {
+
+  document.getElementById(
+    "bonusMessage"
+  ).textContent =
+    "❌ No tickets remaining";
+
+  endGame();
+  return;
+
+}
 
       return;
 
     }
 
-    ticketsRemaining++;
+returnTicketClaimed = true;
 
-    updateTicketDisplay();
+ticketsRemaining++;
+
+updateTicketDisplay();
 
     document.getElementById(
       "bonusMessage"

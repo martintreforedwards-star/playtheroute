@@ -1230,50 +1230,28 @@ let currentDestinationMatches = [];
 let returnTicketClaimed = false;
 
 
-const combos = [
+const validRules = destinationRules.filter(
+  rule => stations.filter(rule.test).length > 0
+);
 
-      "Coastal + Interchange",
+const selectedRule =
+  validRules[Math.floor(Math.random() * validRules.length)];
 
-      "Contains 'ham' + Direct to Charing Cross",
+currentDestinationRule = selectedRule;
+currentDestinationMatches = stations.filter(selectedRule.test);
 
-      "Not a terminus + Interchange"
+window.currentBonusClue = selectedRule.name;
 
-    ];
+document.getElementById("lockedText").style.display = "none";
 
-    const combo =
-      combos[
-        Math.floor(
-          Math.random()
-          * combos.length
-        )
-      ];
+startSplitFlapReveal(selectedRule.name);
 
-    window.currentBonusClue = combo;
+document.getElementById("stationCountText").style.display = "block";
+document.getElementById("stationCountText").textContent =
+  "There are " + currentDestinationMatches.length +
+  " Southeastern stations that match these criteria.";
 
-    document.getElementById(
-      "lockedText"
-    ).style.display = "none";
-
-    const stationCount =
-      Math.floor(
-        Math.random() * 10
-      ) + 3;
-
-    startSplitFlapReveal(
-      combo
-    );
-
-    document.getElementById(
-      "stationCountText"
-    ).style.display =
-      "block";
-
-    document.getElementById(
-      "stationCountText"
-    ).textContent =
-      "There are " + stationCount + " Southeastern stations that match these criteria.";
-
-    document.getElementById("bonusStationPanel").style.display="block";
+document.getElementById("bonusStationPanel").style.display="block";
 
   }
 

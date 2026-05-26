@@ -911,7 +911,37 @@ function renderStations(list) {
 
           bonusMode = false;
 
-          closeModal();
+          
+function showResultsModal(win=false){
+
+  let title="🚧 Rail Replacement Service";
+  let desc="Buses have been requested.";
+
+  if(win){
+    if(ticketsRemaining >= 7){
+      title="👑 First Class Passenger";
+      desc="Complimentary coffee and a guaranteed seat.";
+    } else if(ticketsRemaining >= 5){
+      title="🥂 Season Ticket Holder";
+      desc="Knows exactly which carriage stops by the exit.";
+    } else if(ticketsRemaining >= 3){
+      title="💼 Daily Commuter";
+      desc="Delayed, but still arrived on time.";
+    } else {
+      title="🚉 Regular Traveller";
+      desc="A reliable journey with a few unexpected stops.";
+    }
+  }
+
+  document.getElementById("resultsClass").textContent = title;
+  document.getElementById("resultsDesc").textContent = desc;
+  document.getElementById("resultsTickets").textContent =
+    "Tickets Remaining: " + ticketsRemaining;
+
+  document.getElementById("resultsModal").style.display = "flex";
+}
+
+closeModal();
 
           return;
 
@@ -1400,6 +1430,10 @@ document.getElementById(
       ).textContent =
         "❌ Incorrect station (-1 ticket)";
 
+      if (ticketsRemaining === 0) {
+        showResultsModal(false);
+      }
+
       return;
 
     }
@@ -1413,6 +1447,8 @@ document.getElementById(
     ).textContent =
       "🎟 RETURN TICKET EARNED";
 
+    showResultsModal(true);
+
     document.getElementById(
       "claimTicketButton"
     ).disabled = true;
@@ -1423,6 +1459,19 @@ document.getElementById(
 closeModal();
 
 </script>
+
+
+<div class="modal" id="resultsModal" style="display:none;">
+  <div class="modal-box" style="max-width:600px;text-align:center;">
+    <h2>🚆 The Route Results</h2>
+    <div id="resultsClass" style="font-size:1.6rem;font-weight:700;margin:16px 0;"></div>
+    <div id="resultsDesc" style="margin-bottom:12px;"></div>
+    <div id="resultsTickets"></div>
+    <button class="submit-button" onclick="document.getElementById('resultsModal').style.display='none'" style="margin-top:20px;">
+      Close
+    </button>
+  </div>
+</div>
 
 </body>
 </html>

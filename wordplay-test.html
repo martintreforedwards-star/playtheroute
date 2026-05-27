@@ -127,21 +127,38 @@ fetch("data/puzzles/southeastern_wordplay_v2.json"
 
     function generatePuzzle() {
 
-      const tag = randomTag();
+      let tag1 = randomTag();
+      let tag2 = randomTag();
+
+      while (tag1 === tag2) {
+
+        tag2 = randomTag();
+
+      }
 
       const matches =
         wordplayData.filter(
           station =>
 
             station.tags &&
-            station.tags.includes(tag)
+            station.tags.includes(tag1) &&
+            station.tags.includes(tag2)
 
         );
+
+      if (
+        matches.length < 1
+      ) {
+
+        generatePuzzle();
+        return;
+
+      }
 
       document.getElementById(
         "tagTitle"
       ).textContent =
-        `Tag: ${tag} (${matches.length} stations)`;
+        `Tags: ${tag1} + ${tag2} (${matches.length} stations)`;
 
       const results =
         document.getElementById(

@@ -769,9 +769,7 @@ function endGame() {
     claimButton.disabled = true;
   }
 
-  alert(
-    "No tickets remaining. Journey terminated."
-  );
+showResultsModal(false);
 
 }
 fetch(
@@ -949,36 +947,78 @@ function renderStations(list) {
             "inline-block";
 
           bonusMode = false;
+function showResultsModal(win = false) {
 
-          
-function showResultsModal(win=false){
+  let title =
+    "🚧 Rail Replacement Service";
 
-  let title="🚧 Rail Replacement Service";
-  let desc="Buses have been requested.";
+  let desc =
+    "Buses have been requested.";
 
-  if(win){
-    if(ticketsRemaining >= 7){
-      title="👑 First Class Passenger";
-      desc="Complimentary coffee and a guaranteed seat.";
-    } else if(ticketsRemaining >= 5){
-      title="🥂 Season Ticket Holder";
-      desc="Knows exactly which carriage stops by the exit.";
-    } else if(ticketsRemaining >= 3){
-      title="💼 Daily Commuter";
-      desc="Delayed, but still arrived on time.";
-    } else {
-      title="🚉 Regular Traveller";
-      desc="A reliable journey with a few unexpected stops.";
+  if (win) {
+
+    if (ticketsRemaining >= 7) {
+
+      title =
+        "👑 First Class Passenger";
+
+      desc =
+        "Complimentary coffee and a guaranteed seat.";
+
     }
+
+    else if (ticketsRemaining >= 5) {
+
+      title =
+        "🥂 Season Ticket Holder";
+
+      desc =
+        "Knows exactly which carriage stops by the exit.";
+
+    }
+
+    else if (ticketsRemaining >= 3) {
+
+      title =
+        "💼 Daily Commuter";
+
+      desc =
+        "Delayed, but still arrived on time.";
+
+    }
+
+    else {
+
+      title =
+        "🚉 Regular Traveller";
+
+      desc =
+        "A reliable journey with a few unexpected stops.";
+
+    }
+
   }
 
-  document.getElementById("resultsClass").textContent = title;
-  document.getElementById("resultsDesc").textContent = desc;
-  document.getElementById("resultsTickets").textContent =
-    "Tickets Remaining: " + ticketsRemaining;
+  document.getElementById(
+    "resultsClass"
+  ).textContent = title;
 
-  document.getElementById("resultsModal").style.display = "flex";
+  document.getElementById(
+    "resultsDesc"
+  ).textContent = desc;
+
+  document.getElementById(
+    "resultsTickets"
+  ).textContent =
+    "Tickets Remaining: " +
+    ticketsRemaining;
+
+  document.getElementById(
+    "resultsModal"
+  ).style.display = "flex";
+
 }
+          
 
 closeModal();
 
@@ -1261,6 +1301,9 @@ if (
 
 if (
   validCount === 8
+  document.getElementById(
+  "submitButton"
+).disabled = true;
 ) {
 
   routeLocked = true;

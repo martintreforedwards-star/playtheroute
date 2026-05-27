@@ -1,0 +1,1498 @@
+[
+  {
+    "station_name": "St Leonards Warrior Square",
+    "category": "structure",
+    "difficulty": "hard",
+    "wordplay_score": 1,
+    "tags": [
+      "saint"
+    ]
+  },
+  {
+    "station_name": "Herne Bay",
+    "category": "other",
+    "difficulty": "easy",
+    "wordplay_score": 0,
+    "tags": []
+  },
+  {
+    "station_name": "Margate",
+    "category": "other",
+    "difficulty": "easy",
+    "wordplay_score": 0,
+    "tags": []
+  },
+  {
+    "station_name": "Deal",
+    "category": "other",
+    "difficulty": "easy",
+    "wordplay_score": 0,
+    "tags": []
+  },
+  {
+    "station_name": "Folkestone Central",
+    "category": "other",
+    "difficulty": "easy",
+    "wordplay_score": 0,
+    "tags": []
+  },
+  {
+    "station_name": "Whitstable",
+    "category": "other",
+    "difficulty": "easy",
+    "wordplay_score": 0,
+    "tags": []
+  },
+  {
+    "station_name": "Dover Priory",
+    "category": "other",
+    "difficulty": "easy",
+    "wordplay_score": 0,
+    "tags": []
+  },
+  {
+    "station_name": "Ramsgate",
+    "category": "other",
+    "difficulty": "easy",
+    "wordplay_score": 0,
+    "tags": []
+  },
+  {
+    "station_name": "Folkestone West",
+    "category": "other",
+    "difficulty": "easy",
+    "wordplay_score": 0,
+    "tags": []
+  },
+  {
+    "station_name": "Hastings",
+    "category": "other",
+    "difficulty": "easy",
+    "wordplay_score": 0,
+    "tags": []
+  },
+  {
+    "station_name": "Dumpton Park",
+    "category": "nature",
+    "difficulty": "medium",
+    "wordplay_score": 1,
+    "tags": [
+      "park"
+    ]
+  },
+  {
+    "station_name": "West St Leonards",
+    "category": "other",
+    "difficulty": "easy",
+    "wordplay_score": 0,
+    "tags": []
+  },
+  {
+    "station_name": "Plumstead",
+    "category": "other",
+    "difficulty": "easy",
+    "wordplay_score": 0,
+    "tags": []
+  },
+  {
+    "station_name": "Westgate-on-Sea",
+    "category": "structure",
+    "difficulty": "hard",
+    "wordplay_score": 1,
+    "tags": [
+      "hyphen"
+    ]
+  },
+  {
+    "station_name": "Swanscombe",
+    "category": "other",
+    "difficulty": "easy",
+    "wordplay_score": 0,
+    "tags": []
+  },
+  {
+    "station_name": "Walmer",
+    "category": "other",
+    "difficulty": "easy",
+    "wordplay_score": 0,
+    "tags": []
+  },
+  {
+    "station_name": "Ore",
+    "category": "other",
+    "difficulty": "easy",
+    "wordplay_score": 0,
+    "tags": []
+  },
+  {
+    "station_name": "Greenhithe (for Bluewater)",
+    "category": "keyword",
+    "difficulty": "medium",
+    "wordplay_score": 2,
+    "tags": [
+      "green",
+      "brackets"
+    ]
+  },
+  {
+    "station_name": "Woolwich Arsenal",
+    "category": "place",
+    "difficulty": "medium",
+    "wordplay_score": 1,
+    "tags": [
+      "wich"
+    ]
+  },
+  {
+    "station_name": "Chestfield & Swalecliffe",
+    "category": "structure",
+    "difficulty": "hard",
+    "wordplay_score": 1,
+    "tags": [
+      "ampersand"
+    ]
+  },
+  {
+    "station_name": "Broadstairs",
+    "category": "other",
+    "difficulty": "easy",
+    "wordplay_score": 0,
+    "tags": []
+  },
+  {
+    "station_name": "Northfleet",
+    "category": "other",
+    "difficulty": "easy",
+    "wordplay_score": 0,
+    "tags": []
+  },
+  {
+    "station_name": "Stone Crossing",
+    "category": "other",
+    "difficulty": "easy",
+    "wordplay_score": 0,
+    "tags": []
+  },
+  {
+    "station_name": "Ebbsfleet International",
+    "category": "other",
+    "difficulty": "easy",
+    "wordplay_score": 0,
+    "tags": []
+  },
+  {
+    "station_name": "Woolwich Dockyard",
+    "category": "place",
+    "difficulty": "medium",
+    "wordplay_score": 1,
+    "tags": [
+      "wich"
+    ]
+  },
+  {
+    "station_name": "Kearsney",
+    "category": "other",
+    "difficulty": "easy",
+    "wordplay_score": 0,
+    "tags": []
+  },
+  {
+    "station_name": "Thanet Parkway",
+    "category": "nature",
+    "difficulty": "medium",
+    "wordplay_score": 1,
+    "tags": [
+      "park"
+    ]
+  },
+  {
+    "station_name": "Belvedere",
+    "category": "other",
+    "difficulty": "easy",
+    "wordplay_score": 0,
+    "tags": []
+  },
+  {
+    "station_name": "Welling",
+    "category": "other",
+    "difficulty": "easy",
+    "wordplay_score": 0,
+    "tags": []
+  },
+  {
+    "station_name": "Birchington-on-Sea",
+    "category": "structure",
+    "difficulty": "hard",
+    "wordplay_score": 1,
+    "tags": [
+      "hyphen"
+    ]
+  },
+  {
+    "station_name": "Bexleyheath",
+    "category": "other",
+    "difficulty": "easy",
+    "wordplay_score": 0,
+    "tags": []
+  },
+  {
+    "station_name": "Charlton",
+    "category": "suffix",
+    "difficulty": "medium",
+    "wordplay_score": 1,
+    "tags": [
+      "ton"
+    ]
+  },
+  {
+    "station_name": "Martin Mill",
+    "category": "other",
+    "difficulty": "easy",
+    "wordplay_score": 0,
+    "tags": []
+  },
+  {
+    "station_name": "Falconwood",
+    "category": "nature",
+    "difficulty": "medium",
+    "wordplay_score": 1,
+    "tags": [
+      "wood"
+    ]
+  },
+  {
+    "station_name": "Crowhurst",
+    "category": "place",
+    "difficulty": "medium",
+    "wordplay_score": 1,
+    "tags": [
+      "hurst"
+    ]
+  },
+  {
+    "station_name": "Gravesend",
+    "category": "other",
+    "difficulty": "easy",
+    "wordplay_score": 0,
+    "tags": []
+  },
+  {
+    "station_name": "Erith",
+    "category": "other",
+    "difficulty": "easy",
+    "wordplay_score": 0,
+    "tags": []
+  },
+  {
+    "station_name": "Barnehurst",
+    "category": "place",
+    "difficulty": "medium",
+    "wordplay_score": 1,
+    "tags": [
+      "hurst"
+    ]
+  },
+  {
+    "station_name": "Westcombe Park",
+    "category": "nature",
+    "difficulty": "medium",
+    "wordplay_score": 1,
+    "tags": [
+      "park"
+    ]
+  },
+  {
+    "station_name": "Dartford",
+    "category": "suffix",
+    "difficulty": "medium",
+    "wordplay_score": 1,
+    "tags": [
+      "ford"
+    ]
+  },
+  {
+    "station_name": "Eltham",
+    "category": "suffix",
+    "difficulty": "medium",
+    "wordplay_score": 1,
+    "tags": [
+      "ham"
+    ]
+  },
+  {
+    "station_name": "Sandwich",
+    "category": "place",
+    "difficulty": "medium",
+    "wordplay_score": 1,
+    "tags": [
+      "wich"
+    ]
+  },
+  {
+    "station_name": "Battle",
+    "category": "other",
+    "difficulty": "easy",
+    "wordplay_score": 0,
+    "tags": []
+  },
+  {
+    "station_name": "Kidbrooke",
+    "category": "other",
+    "difficulty": "easy",
+    "wordplay_score": 0,
+    "tags": []
+  },
+  {
+    "station_name": "Minster",
+    "category": "other",
+    "difficulty": "easy",
+    "wordplay_score": 0,
+    "tags": []
+  },
+  {
+    "station_name": "Sturry",
+    "category": "other",
+    "difficulty": "easy",
+    "wordplay_score": 0,
+    "tags": []
+  },
+  {
+    "station_name": "Sandling",
+    "category": "other",
+    "difficulty": "easy",
+    "wordplay_score": 0,
+    "tags": []
+  },
+  {
+    "station_name": "Maze Hill",
+    "category": "nature",
+    "difficulty": "medium",
+    "wordplay_score": 1,
+    "tags": [
+      "hill"
+    ]
+  },
+  {
+    "station_name": "Slade Green",
+    "category": "keyword",
+    "difficulty": "medium",
+    "wordplay_score": 1,
+    "tags": [
+      "green"
+    ]
+  },
+  {
+    "station_name": "New Eltham",
+    "category": "suffix",
+    "difficulty": "medium",
+    "wordplay_score": 1,
+    "tags": [
+      "ham"
+    ]
+  },
+  {
+    "station_name": "Blackheath",
+    "category": "other",
+    "difficulty": "easy",
+    "wordplay_score": 0,
+    "tags": []
+  },
+  {
+    "station_name": "Gillingham (Kent)",
+    "category": "other",
+    "difficulty": "easy",
+    "wordplay_score": 1,
+    "tags": [
+      "brackets"
+    ]
+  },
+  {
+    "station_name": "Sidcup",
+    "category": "other",
+    "difficulty": "easy",
+    "wordplay_score": 0,
+    "tags": []
+  },
+  {
+    "station_name": "Albany Park",
+    "category": "nature",
+    "difficulty": "medium",
+    "wordplay_score": 1,
+    "tags": [
+      "park"
+    ]
+  },
+  {
+    "station_name": "Bexley",
+    "category": "other",
+    "difficulty": "easy",
+    "wordplay_score": 0,
+    "tags": []
+  },
+  {
+    "station_name": "Mottingham",
+    "category": "suffix",
+    "difficulty": "medium",
+    "wordplay_score": 1,
+    "tags": [
+      "ham"
+    ]
+  },
+  {
+    "station_name": "Longfield",
+    "category": "other",
+    "difficulty": "easy",
+    "wordplay_score": 0,
+    "tags": []
+  },
+  {
+    "station_name": "Crayford",
+    "category": "suffix",
+    "difficulty": "medium",
+    "wordplay_score": 1,
+    "tags": [
+      "ford"
+    ]
+  },
+  {
+    "station_name": "Greenwich",
+    "category": "place",
+    "difficulty": "medium",
+    "wordplay_score": 2,
+    "tags": [
+      "wich",
+      "green"
+    ]
+  },
+  {
+    "station_name": "Lee",
+    "category": "other",
+    "difficulty": "easy",
+    "wordplay_score": 0,
+    "tags": []
+  },
+  {
+    "station_name": "Shepherds Well",
+    "category": "other",
+    "difficulty": "easy",
+    "wordplay_score": 0,
+    "tags": []
+  },
+  {
+    "station_name": "Stratford International",
+    "category": "suffix",
+    "difficulty": "medium",
+    "wordplay_score": 1,
+    "tags": [
+      "ford"
+    ]
+  },
+  {
+    "station_name": "Farningham Road",
+    "category": "other",
+    "difficulty": "easy",
+    "wordplay_score": 0,
+    "tags": []
+  },
+  {
+    "station_name": "Lewisham",
+    "category": "suffix",
+    "difficulty": "medium",
+    "wordplay_score": 1,
+    "tags": [
+      "ham"
+    ]
+  },
+  {
+    "station_name": "Canterbury West",
+    "category": "other",
+    "difficulty": "easy",
+    "wordplay_score": 0,
+    "tags": []
+  },
+  {
+    "station_name": "Strood",
+    "category": "other",
+    "difficulty": "easy",
+    "wordplay_score": 0,
+    "tags": []
+  },
+  {
+    "station_name": "Hither Green",
+    "category": "keyword",
+    "difficulty": "medium",
+    "wordplay_score": 1,
+    "tags": [
+      "green"
+    ]
+  },
+  {
+    "station_name": "Westenhanger",
+    "category": "other",
+    "difficulty": "easy",
+    "wordplay_score": 0,
+    "tags": []
+  },
+  {
+    "station_name": "Deptford",
+    "category": "suffix",
+    "difficulty": "medium",
+    "wordplay_score": 1,
+    "tags": [
+      "ford"
+    ]
+  },
+  {
+    "station_name": "Rainham (Kent)",
+    "category": "other",
+    "difficulty": "easy",
+    "wordplay_score": 1,
+    "tags": [
+      "brackets"
+    ]
+  },
+  {
+    "station_name": "Rochester",
+    "category": "other",
+    "difficulty": "easy",
+    "wordplay_score": 0,
+    "tags": []
+  },
+  {
+    "station_name": "St Johns",
+    "category": "structure",
+    "difficulty": "hard",
+    "wordplay_score": 1,
+    "tags": [
+      "saint"
+    ]
+  },
+  {
+    "station_name": "Chatham (Kent)",
+    "category": "other",
+    "difficulty": "easy",
+    "wordplay_score": 1,
+    "tags": [
+      "brackets"
+    ]
+  },
+  {
+    "station_name": "Higham (Kent)",
+    "category": "other",
+    "difficulty": "easy",
+    "wordplay_score": 1,
+    "tags": [
+      "brackets"
+    ]
+  },
+  {
+    "station_name": "New Cross",
+    "category": "other",
+    "difficulty": "easy",
+    "wordplay_score": 0,
+    "tags": []
+  },
+  {
+    "station_name": "Grove Park",
+    "category": "nature",
+    "difficulty": "medium",
+    "wordplay_score": 1,
+    "tags": [
+      "park"
+    ]
+  },
+  {
+    "station_name": "Ladywell",
+    "category": "other",
+    "difficulty": "easy",
+    "wordplay_score": 0,
+    "tags": []
+  },
+  {
+    "station_name": "Sheerness-on-Sea",
+    "category": "structure",
+    "difficulty": "hard",
+    "wordplay_score": 1,
+    "tags": [
+      "hyphen"
+    ]
+  },
+  {
+    "station_name": "Meopham",
+    "category": "suffix",
+    "difficulty": "medium",
+    "wordplay_score": 1,
+    "tags": [
+      "ham"
+    ]
+  },
+  {
+    "station_name": "Canterbury East",
+    "category": "other",
+    "difficulty": "easy",
+    "wordplay_score": 0,
+    "tags": []
+  },
+  {
+    "station_name": "Elmstead Woods",
+    "category": "nature",
+    "difficulty": "medium",
+    "wordplay_score": 1,
+    "tags": [
+      "wood"
+    ]
+  },
+  {
+    "station_name": "Robertsbridge",
+    "category": "other",
+    "difficulty": "easy",
+    "wordplay_score": 0,
+    "tags": []
+  },
+  {
+    "station_name": "Queenborough",
+    "category": "other",
+    "difficulty": "easy",
+    "wordplay_score": 0,
+    "tags": []
+  },
+  {
+    "station_name": "Faversham",
+    "category": "suffix",
+    "difficulty": "medium",
+    "wordplay_score": 1,
+    "tags": [
+      "ham"
+    ]
+  },
+  {
+    "station_name": "Selling",
+    "category": "other",
+    "difficulty": "easy",
+    "wordplay_score": 0,
+    "tags": []
+  },
+  {
+    "station_name": "Catford Bridge",
+    "category": "suffix",
+    "difficulty": "medium",
+    "wordplay_score": 1,
+    "tags": [
+      "ford"
+    ]
+  },
+  {
+    "station_name": "Crofton Park",
+    "category": "nature",
+    "difficulty": "medium",
+    "wordplay_score": 1,
+    "tags": [
+      "park"
+    ]
+  },
+  {
+    "station_name": "Sole Street",
+    "category": "other",
+    "difficulty": "easy",
+    "wordplay_score": 0,
+    "tags": []
+  },
+  {
+    "station_name": "Catford",
+    "category": "suffix",
+    "difficulty": "medium",
+    "wordplay_score": 1,
+    "tags": [
+      "ford"
+    ]
+  },
+  {
+    "station_name": "Chartham",
+    "category": "suffix",
+    "difficulty": "medium",
+    "wordplay_score": 1,
+    "tags": [
+      "ham"
+    ]
+  },
+  {
+    "station_name": "Chislehurst",
+    "category": "place",
+    "difficulty": "medium",
+    "wordplay_score": 1,
+    "tags": [
+      "hurst"
+    ]
+  },
+  {
+    "station_name": "Nunhead",
+    "category": "other",
+    "difficulty": "easy",
+    "wordplay_score": 0,
+    "tags": []
+  },
+  {
+    "station_name": "Sundridge Park",
+    "category": "nature",
+    "difficulty": "medium",
+    "wordplay_score": 1,
+    "tags": [
+      "park"
+    ]
+  },
+  {
+    "station_name": "Bekesbourne",
+    "category": "other",
+    "difficulty": "easy",
+    "wordplay_score": 0,
+    "tags": []
+  },
+  {
+    "station_name": "Bellingham",
+    "category": "suffix",
+    "difficulty": "medium",
+    "wordplay_score": 1,
+    "tags": [
+      "ham"
+    ]
+  },
+  {
+    "station_name": "Swale",
+    "category": "other",
+    "difficulty": "easy",
+    "wordplay_score": 0,
+    "tags": []
+  },
+  {
+    "station_name": "Newington",
+    "category": "suffix",
+    "difficulty": "medium",
+    "wordplay_score": 1,
+    "tags": [
+      "ton"
+    ]
+  },
+  {
+    "station_name": "Snowdown",
+    "category": "other",
+    "difficulty": "easy",
+    "wordplay_score": 0,
+    "tags": []
+  },
+  {
+    "station_name": "Beckenham Hill",
+    "category": "nature",
+    "difficulty": "medium",
+    "wordplay_score": 1,
+    "tags": [
+      "hill"
+    ]
+  },
+  {
+    "station_name": "Bromley North",
+    "category": "other",
+    "difficulty": "easy",
+    "wordplay_score": 0,
+    "tags": []
+  },
+  {
+    "station_name": "St Mary Cray",
+    "category": "structure",
+    "difficulty": "hard",
+    "wordplay_score": 1,
+    "tags": [
+      "saint"
+    ]
+  },
+  {
+    "station_name": "Bickley",
+    "category": "other",
+    "difficulty": "easy",
+    "wordplay_score": 0,
+    "tags": []
+  },
+  {
+    "station_name": "Peckham Rye",
+    "category": "other",
+    "difficulty": "easy",
+    "wordplay_score": 0,
+    "tags": []
+  },
+  {
+    "station_name": "Swanley",
+    "category": "other",
+    "difficulty": "easy",
+    "wordplay_score": 0,
+    "tags": []
+  },
+  {
+    "station_name": "Teynham",
+    "category": "suffix",
+    "difficulty": "medium",
+    "wordplay_score": 1,
+    "tags": [
+      "ham"
+    ]
+  },
+  {
+    "station_name": "Ravensbourne",
+    "category": "other",
+    "difficulty": "easy",
+    "wordplay_score": 0,
+    "tags": []
+  },
+  {
+    "station_name": "Etchingham",
+    "category": "suffix",
+    "difficulty": "medium",
+    "wordplay_score": 1,
+    "tags": [
+      "ham"
+    ]
+  },
+  {
+    "station_name": "Cuxton",
+    "category": "suffix",
+    "difficulty": "medium",
+    "wordplay_score": 1,
+    "tags": [
+      "ton"
+    ]
+  },
+  {
+    "station_name": "Lower Sydenham",
+    "category": "suffix",
+    "difficulty": "medium",
+    "wordplay_score": 1,
+    "tags": [
+      "ham"
+    ]
+  },
+  {
+    "station_name": "Shortlands",
+    "category": "other",
+    "difficulty": "easy",
+    "wordplay_score": 0,
+    "tags": []
+  },
+  {
+    "station_name": "Bromley South",
+    "category": "other",
+    "difficulty": "easy",
+    "wordplay_score": 0,
+    "tags": []
+  },
+  {
+    "station_name": "London Bridge",
+    "category": "other",
+    "difficulty": "easy",
+    "wordplay_score": 0,
+    "tags": []
+  },
+  {
+    "station_name": "Petts Wood",
+    "category": "nature",
+    "difficulty": "medium",
+    "wordplay_score": 1,
+    "tags": [
+      "wood"
+    ]
+  },
+  {
+    "station_name": "Aylesham",
+    "category": "suffix",
+    "difficulty": "medium",
+    "wordplay_score": 1,
+    "tags": [
+      "ham"
+    ]
+  },
+  {
+    "station_name": "Chilham",
+    "category": "suffix",
+    "difficulty": "medium",
+    "wordplay_score": 1,
+    "tags": [
+      "ham"
+    ]
+  },
+  {
+    "station_name": "Cannon Street",
+    "category": "other",
+    "difficulty": "easy",
+    "wordplay_score": 0,
+    "tags": []
+  },
+  {
+    "station_name": "Stonegate",
+    "category": "other",
+    "difficulty": "easy",
+    "wordplay_score": 0,
+    "tags": []
+  },
+  {
+    "station_name": "Kemsley",
+    "category": "other",
+    "difficulty": "easy",
+    "wordplay_score": 0,
+    "tags": []
+  },
+  {
+    "station_name": "New Beckenham",
+    "category": "suffix",
+    "difficulty": "medium",
+    "wordplay_score": 1,
+    "tags": [
+      "ham"
+    ]
+  },
+  {
+    "station_name": "Beckenham Junction",
+    "category": "other",
+    "difficulty": "easy",
+    "wordplay_score": 0,
+    "tags": []
+  },
+  {
+    "station_name": "Eynsford",
+    "category": "suffix",
+    "difficulty": "medium",
+    "wordplay_score": 1,
+    "tags": [
+      "ford"
+    ]
+  },
+  {
+    "station_name": "Denmark Hill",
+    "category": "nature",
+    "difficulty": "medium",
+    "wordplay_score": 1,
+    "tags": [
+      "hill"
+    ]
+  },
+  {
+    "station_name": "Elephant & Castle",
+    "category": "structure",
+    "difficulty": "hard",
+    "wordplay_score": 1,
+    "tags": [
+      "ampersand"
+    ]
+  },
+  {
+    "station_name": "Adisham",
+    "category": "suffix",
+    "difficulty": "medium",
+    "wordplay_score": 1,
+    "tags": [
+      "ham"
+    ]
+  },
+  {
+    "station_name": "London Blackfriars",
+    "category": "other",
+    "difficulty": "easy",
+    "wordplay_score": 0,
+    "tags": []
+  },
+  {
+    "station_name": "City Thameslink",
+    "category": "other",
+    "difficulty": "easy",
+    "wordplay_score": 0,
+    "tags": []
+  },
+  {
+    "station_name": "Penge East",
+    "category": "other",
+    "difficulty": "easy",
+    "wordplay_score": 0,
+    "tags": []
+  },
+  {
+    "station_name": "Farringdon",
+    "category": "other",
+    "difficulty": "easy",
+    "wordplay_score": 0,
+    "tags": []
+  },
+  {
+    "station_name": "Kent House",
+    "category": "other",
+    "difficulty": "easy",
+    "wordplay_score": 0,
+    "tags": []
+  },
+  {
+    "station_name": "Clock House",
+    "category": "other",
+    "difficulty": "easy",
+    "wordplay_score": 0,
+    "tags": []
+  },
+  {
+    "station_name": "Waterloo East",
+    "category": "other",
+    "difficulty": "easy",
+    "wordplay_score": 0,
+    "tags": []
+  },
+  {
+    "station_name": "Orpington",
+    "category": "suffix",
+    "difficulty": "medium",
+    "wordplay_score": 1,
+    "tags": [
+      "ton"
+    ]
+  },
+  {
+    "station_name": "Loughborough Junction",
+    "category": "other",
+    "difficulty": "easy",
+    "wordplay_score": 0,
+    "tags": []
+  },
+  {
+    "station_name": "Sydenham Hill",
+    "category": "nature",
+    "difficulty": "medium",
+    "wordplay_score": 1,
+    "tags": [
+      "hill"
+    ]
+  },
+  {
+    "station_name": "Sittingbourne",
+    "category": "other",
+    "difficulty": "easy",
+    "wordplay_score": 0,
+    "tags": []
+  },
+  {
+    "station_name": "West Dulwich",
+    "category": "place",
+    "difficulty": "medium",
+    "wordplay_score": 1,
+    "tags": [
+      "wich"
+    ]
+  },
+  {
+    "station_name": "Herne Hill",
+    "category": "nature",
+    "difficulty": "medium",
+    "wordplay_score": 1,
+    "tags": [
+      "hill"
+    ]
+  },
+  {
+    "station_name": "Halling",
+    "category": "other",
+    "difficulty": "easy",
+    "wordplay_score": 0,
+    "tags": []
+  },
+  {
+    "station_name": "Eden Park",
+    "category": "nature",
+    "difficulty": "medium",
+    "wordplay_score": 1,
+    "tags": [
+      "park"
+    ]
+  },
+  {
+    "station_name": "Hayes",
+    "category": "other",
+    "difficulty": "easy",
+    "wordplay_score": 0,
+    "tags": []
+  },
+  {
+    "station_name": "Brixton",
+    "category": "suffix",
+    "difficulty": "medium",
+    "wordplay_score": 1,
+    "tags": [
+      "ton"
+    ]
+  },
+  {
+    "station_name": "Charing Cross",
+    "category": "other",
+    "difficulty": "easy",
+    "wordplay_score": 0,
+    "tags": []
+  },
+  {
+    "station_name": "Elmers End",
+    "category": "other",
+    "difficulty": "easy",
+    "wordplay_score": 0,
+    "tags": []
+  },
+  {
+    "station_name": "West Wickham",
+    "category": "suffix",
+    "difficulty": "medium",
+    "wordplay_score": 1,
+    "tags": [
+      "ham"
+    ]
+  },
+  {
+    "station_name": "St Pancras International",
+    "category": "structure",
+    "difficulty": "hard",
+    "wordplay_score": 1,
+    "tags": [
+      "saint"
+    ]
+  },
+  {
+    "station_name": "Chelsfield",
+    "category": "other",
+    "difficulty": "easy",
+    "wordplay_score": 0,
+    "tags": []
+  },
+  {
+    "station_name": "Ashford International",
+    "category": "suffix",
+    "difficulty": "medium",
+    "wordplay_score": 1,
+    "tags": [
+      "ford"
+    ]
+  },
+  {
+    "station_name": "Snodland",
+    "category": "other",
+    "difficulty": "easy",
+    "wordplay_score": 0,
+    "tags": []
+  },
+  {
+    "station_name": "London Victoria",
+    "category": "other",
+    "difficulty": "easy",
+    "wordplay_score": 0,
+    "tags": []
+  },
+  {
+    "station_name": "Shoreham (Kent)",
+    "category": "other",
+    "difficulty": "easy",
+    "wordplay_score": 1,
+    "tags": [
+      "brackets"
+    ]
+  },
+  {
+    "station_name": "Pluckley",
+    "category": "other",
+    "difficulty": "easy",
+    "wordplay_score": 0,
+    "tags": []
+  },
+  {
+    "station_name": "Knockholt",
+    "category": "other",
+    "difficulty": "easy",
+    "wordplay_score": 0,
+    "tags": []
+  },
+  {
+    "station_name": "New Hythe",
+    "category": "other",
+    "difficulty": "easy",
+    "wordplay_score": 0,
+    "tags": []
+  },
+  {
+    "station_name": "Otford",
+    "category": "suffix",
+    "difficulty": "medium",
+    "wordplay_score": 1,
+    "tags": [
+      "ford"
+    ]
+  },
+  {
+    "station_name": "Aylesford",
+    "category": "suffix",
+    "difficulty": "medium",
+    "wordplay_score": 1,
+    "tags": [
+      "ford"
+    ]
+  },
+  {
+    "station_name": "Bearsted",
+    "category": "other",
+    "difficulty": "easy",
+    "wordplay_score": 0,
+    "tags": []
+  },
+  {
+    "station_name": "Kemsing",
+    "category": "other",
+    "difficulty": "easy",
+    "wordplay_score": 0,
+    "tags": []
+  },
+  {
+    "station_name": "Borough Green & Wrotham",
+    "category": "structure",
+    "difficulty": "hard",
+    "wordplay_score": 3,
+    "tags": [
+      "ham",
+      "green",
+      "ampersand"
+    ]
+  },
+  {
+    "station_name": "Maidstone East",
+    "category": "other",
+    "difficulty": "easy",
+    "wordplay_score": 0,
+    "tags": []
+  },
+  {
+    "station_name": "Maidstone Barracks",
+    "category": "other",
+    "difficulty": "easy",
+    "wordplay_score": 0,
+    "tags": []
+  },
+  {
+    "station_name": "Barming",
+    "category": "other",
+    "difficulty": "easy",
+    "wordplay_score": 0,
+    "tags": []
+  },
+  {
+    "station_name": "Wadhurst",
+    "category": "place",
+    "difficulty": "medium",
+    "wordplay_score": 1,
+    "tags": [
+      "hurst"
+    ]
+  },
+  {
+    "station_name": "Wye",
+    "category": "other",
+    "difficulty": "easy",
+    "wordplay_score": 0,
+    "tags": []
+  },
+  {
+    "station_name": "Hollingbourne",
+    "category": "other",
+    "difficulty": "easy",
+    "wordplay_score": 0,
+    "tags": []
+  },
+  {
+    "station_name": "Maidstone West",
+    "category": "other",
+    "difficulty": "easy",
+    "wordplay_score": 0,
+    "tags": []
+  },
+  {
+    "station_name": "Dunton Green",
+    "category": "keyword",
+    "difficulty": "medium",
+    "wordplay_score": 1,
+    "tags": [
+      "green"
+    ]
+  },
+  {
+    "station_name": "Bat & Ball",
+    "category": "structure",
+    "difficulty": "hard",
+    "wordplay_score": 1,
+    "tags": [
+      "ampersand"
+    ]
+  },
+  {
+    "station_name": "East Malling",
+    "category": "other",
+    "difficulty": "easy",
+    "wordplay_score": 0,
+    "tags": []
+  },
+  {
+    "station_name": "West Malling",
+    "category": "other",
+    "difficulty": "easy",
+    "wordplay_score": 0,
+    "tags": []
+  },
+  {
+    "station_name": "Headcorn",
+    "category": "other",
+    "difficulty": "easy",
+    "wordplay_score": 0,
+    "tags": []
+  },
+  {
+    "station_name": "Sevenoaks",
+    "category": "other",
+    "difficulty": "easy",
+    "wordplay_score": 0,
+    "tags": []
+  },
+  {
+    "station_name": "East Farleigh",
+    "category": "other",
+    "difficulty": "easy",
+    "wordplay_score": 0,
+    "tags": []
+  },
+  {
+    "station_name": "Charing",
+    "category": "other",
+    "difficulty": "easy",
+    "wordplay_score": 0,
+    "tags": []
+  },
+  {
+    "station_name": "Harrietsham",
+    "category": "suffix",
+    "difficulty": "medium",
+    "wordplay_score": 1,
+    "tags": [
+      "ham"
+    ]
+  },
+  {
+    "station_name": "Frant",
+    "category": "other",
+    "difficulty": "easy",
+    "wordplay_score": 0,
+    "tags": []
+  },
+  {
+    "station_name": "Lenham",
+    "category": "suffix",
+    "difficulty": "medium",
+    "wordplay_score": 1,
+    "tags": [
+      "ham"
+    ]
+  },
+  {
+    "station_name": "Wateringbury",
+    "category": "other",
+    "difficulty": "easy",
+    "wordplay_score": 0,
+    "tags": []
+  },
+  {
+    "station_name": "Staplehurst",
+    "category": "place",
+    "difficulty": "medium",
+    "wordplay_score": 1,
+    "tags": [
+      "hurst"
+    ]
+  },
+  {
+    "station_name": "Tunbridge Wells",
+    "category": "other",
+    "difficulty": "easy",
+    "wordplay_score": 0,
+    "tags": []
+  },
+  {
+    "station_name": "Yalding",
+    "category": "other",
+    "difficulty": "easy",
+    "wordplay_score": 0,
+    "tags": []
+  },
+  {
+    "station_name": "Hildenborough",
+    "category": "other",
+    "difficulty": "easy",
+    "wordplay_score": 0,
+    "tags": []
+  },
+  {
+    "station_name": "Marden",
+    "category": "other",
+    "difficulty": "easy",
+    "wordplay_score": 0,
+    "tags": []
+  },
+  {
+    "station_name": "High Brooms",
+    "category": "other",
+    "difficulty": "easy",
+    "wordplay_score": 0,
+    "tags": []
+  },
+  {
+    "station_name": "Beltring",
+    "category": "other",
+    "difficulty": "easy",
+    "wordplay_score": 0,
+    "tags": []
+  },
+  {
+    "station_name": "Appledore",
+    "category": "other",
+    "difficulty": "easy",
+    "wordplay_score": 0,
+    "tags": []
+  },
+  {
+    "station_name": "Ham Street",
+    "category": "other",
+    "difficulty": "easy",
+    "wordplay_score": 0,
+    "tags": []
+  },
+  {
+    "station_name": "Paddock Wood",
+    "category": "nature",
+    "difficulty": "medium",
+    "wordplay_score": 1,
+    "tags": [
+      "wood"
+    ]
+  },
+  {
+    "station_name": "Rye",
+    "category": "other",
+    "difficulty": "easy",
+    "wordplay_score": 0,
+    "tags": []
+  },
+  {
+    "station_name": "Tonbridge",
+    "category": "other",
+    "difficulty": "easy",
+    "wordplay_score": 0,
+    "tags": []
+  },
+  {
+    "station_name": "Abbey Wood",
+    "category": "nature",
+    "difficulty": "medium",
+    "wordplay_score": 1,
+    "tags": [
+      "wood"
+    ]
+  }
+]

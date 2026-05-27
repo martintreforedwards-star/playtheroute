@@ -929,45 +929,43 @@ function renderStations(list) {
       option.textContent =
         `${station.station_name} (${station.crs})`;
 
-      option.onclick = () => {
+option.onclick = () => {
 
-        if (bonusMode) {
+  if (bonusMode) {
 
-          selectedBonusStation = station;
+    selectedBonusStation = station;
 
-          document.getElementById(
-            "bonusSelectedStation"
-          ).textContent =
-            "Selected: " +
-            station.station_name;
+    document.getElementById(
+      "bonusSelectedStation"
+    ).textContent =
+      "Selected: " +
+      station.station_name;
 
-          document.getElementById(
-            "claimTicketButton"
-          ).style.display =
-            "inline-block";
+    document.getElementById(
+      "claimTicketButton"
+    ).style.display =
+      "inline-block";
 
-          bonusMode = false;
+    bonusMode = false;
 
-}
-          
+    closeModal();
 
-closeModal();
+    return;
 
-          return;
+  }
 
-        }
+  boardState[
+    activeIndex
+  ].station = station;
 
-        boardState[
-          activeIndex
-        ].station = station;
+  boardState[
+    activeIndex
+  ].correct = null;
 
-        boardState[
-          activeIndex
-        ].correct = null;
+  renderBoard();
 
-        renderBoard();
+  closeModal();
 
-        closeModal();
 
       };
 

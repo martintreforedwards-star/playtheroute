@@ -947,6 +947,37 @@ function renderStations(list) {
             "inline-block";
 
           bonusMode = false;
+
+}
+          
+
+closeModal();
+
+          return;
+
+        }
+
+        boardState[
+          activeIndex
+        ].station = station;
+
+        boardState[
+          activeIndex
+        ].correct = null;
+
+        renderBoard();
+
+        closeModal();
+
+      };
+
+      results.appendChild(
+        option
+      );
+
+    });
+
+}
 function showResultsModal(win = false) {
 
   let title =
@@ -1018,36 +1049,6 @@ function showResultsModal(win = false) {
   ).style.display = "flex";
 
 }
-          
-
-closeModal();
-
-          return;
-
-        }
-
-        boardState[
-          activeIndex
-        ].station = station;
-
-        boardState[
-          activeIndex
-        ].correct = null;
-
-        renderBoard();
-
-        closeModal();
-
-      };
-
-      results.appendChild(
-        option
-      );
-
-    });
-
-}
-
 function closeModal() {
 
   modal.style.display =
@@ -1301,10 +1302,11 @@ if (
 
 if (
   validCount === 8
-  document.getElementById(
-  "submitButton"
-).disabled = true;
 ) {
+
+  document.getElementById(
+    "submitButton"
+  ).disabled = true;
 
   routeLocked = true;
     

@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  >
+
+  <title>Wordplay Test</title>
+
+  <style>
+
+    body {
+
+      font-family: Arial, sans-serif;
+      background: #111;
+      color: white;
+      padding: 20px;
+
+    }
+
+    h1 {
+
+      color: #00ff99;
+
+    }
+
+    button {
+
+      padding: 10px 16px;
+      font-size: 16px;
+      cursor: pointer;
+      margin-bottom: 20px;
+
+    }
+
+    .station {
+
+      padding: 6px 0;
+      border-bottom: 1px solid #333;
+
+    }
+
+    .tag {
+
+      display: inline-block;
+      background: #333;
+      padding: 2px 8px;
+      border-radius: 10px;
+      margin-left: 8px;
+      font-size: 12px;
+
+    }
+
+  </style>
+
+</head>
+
+<body>
+
+  <h1>🚉 Southeastern Wordplay Test</h1>
+
+  <button id="generateButton">
+    Generate Random Tag
+  </button>
+
+  <h2 id="tagTitle"></h2>
+
+  <div id="results"></div>
+
+  <script>
+
+    let wordplayData = [];
+
+    const ALL_TAGS = [
+
+      "ham",
+      "ton",
+      "ford",
+      "park",
+      "hill",
+      "wood",
+      "wich",
+      "hurst",
+      "green",
+      "ampersand",
+      "hyphen",
+      "saint",
+      "brackets"
+
+    ];
+
+    fetch(
+      "southeastern_wordplay_v2.json"
+    )
+
+    .then(
+      response => response.json()
+    )
+
+    .then(
+      data => {
+
+        wordplayData = data;
+
+        console.log(
+          "Loaded stations:",
+          wordplayData.length
+        );
+
+      }
+    );
+
+    function randomTag() {
+
+      return ALL_TAGS[
+        Math.floor(
+          Math.random() *
+          ALL_TAGS.length
+        )
+      ];
+
+    }
+
+    function generatePuzzle() {
+
+      const tag = randomTag();
+
+      const matches =
+        wordplayData.filter(
+          station =>
+
+            station.tags &&
+            station.tags.includes(tag)
+
+        );
+
+      document.getElementById(
+        "tagTitle"
+      ).textContent =
+        `Tag: ${tag} (${matches.length} stations)`;
+
+      const results =
+        document.getElementById(
+          "results"
+        );
+
+      results.innerHTML = "";
+
+      matches.forEach(
+        station => {
+
+          const div =
+            document.createElement("div");
+
+          div.className =
+            "station";
+
+          div.innerHTML =
+
+            `
+            <strong>
+              ${station.station_name}
+            </strong>
+
+            <span class="tag">
+              ${station.category}
+            </span>
+
+            <span class="tag">
+              ${station.difficulty}
+            </span>
+            `;
+
+          results.appendChild(div);
+
+        }
+      );
+
+    }
+
+    document.getElementById(
+      "generateButton"
+    ).onclick =
+      generatePuzzle;
+
+  </script>
+
+</body>
+
+</html>

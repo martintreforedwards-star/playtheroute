@@ -889,31 +889,28 @@ fetch(
 
   renderBoard();
 
-if (
-  gameMode === "express"
-) {
+  if (
+    gameMode === "express"
+  ) {
 
-  subtitle.textContent =
-    "Express Service — Timed Challenge";
+    startExpressTimer();
 
-  const ticketBox =
-    document.querySelector(
-      ".ticket-box"
-    );
+    const ticketBox =
+      document.querySelectorAll(
+        ".ticket-box"
+      )[1];
 
-  if (ticketBox) {
+    if (ticketBox) {
 
-    ticketBox.style.display =
-      "none";
+      ticketBox.style.display =
+        "none";
+
+    }
 
   }
 
-} else {
+})
 
-  subtitle.textContent =
-    "Standard Ticket — Relaxed Journey";
-
-}
 .catch(error => {
 
   console.log(error);

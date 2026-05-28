@@ -254,7 +254,7 @@ body {
   display: flex;
   gap: 24px;
   margin-top: 28px;
-  flex-wrap: wrap;
+  align-items: stretch;
 }
 
 .ticket-box {
@@ -503,12 +503,12 @@ body {
       </h1>
 
       <div
-  class="subtitle"
-  id="modeSubtitle">
+        class="subtitle"
+        id="modeSubtitle">
 
-  Southeastern Alpha 001
+        Southeastern Alpha 001
 
-</div>
+      </div>
 
     </div>
 
@@ -598,6 +598,10 @@ body {
   </div>
 
   <div class="footer-row">
+<div
+  class="ticket-box"
+  id="timerBox"
+  style="display:none;">
 
   <div class="ticket-title">
     Time Remaining
@@ -627,25 +631,6 @@ body {
       </div>
 
     </div>
-
-<div
-  class="ticket-box"
-  id="timerBox"
-  style="display:none;">
-
-  <div class="ticket-title">
-    Time Remaining
-  </div>
-
-  <div
-    class="ticket-number"
-    id="timerCount">
-
-    03:00
-
-  </div>
-
-</div>
 
     <button
       class="submit-button"
@@ -778,47 +763,6 @@ const gameMode =
 
 let expressTimer = null;
 let timeRemaining = 180;
-  let ticketsRemaining = 6;
-
-const params =
-  new URLSearchParams(
-    window.location.search
-  );
-
-const gameMode =
-  params.get("mode") ||
-  "standard";
-
-let expressTimer = null;
-let timeRemaining = 180;
-
-window.addEventListener(
-  "DOMContentLoaded",
-  () => {
-
-    const subtitle =
-      document.getElementById(
-        "modeSubtitle"
-      );
-
-    if (!subtitle) return;
-
-    if (
-      gameMode === "express"
-    ) {
-
-      subtitle.textContent =
-        "Express Service — Timed Challenge";
-
-    } else {
-
-      subtitle.textContent =
-        "Standard Ticket — Relaxed Journey";
-
-    }
-
-  }
-);
 
 let routeLocked = false;
 let gameOver = false;
@@ -964,6 +908,7 @@ fetch(
   );
 
 });
+
 function renderBoard() {
 
   cells.forEach((cell, index) => {

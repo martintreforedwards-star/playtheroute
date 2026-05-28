@@ -503,8 +503,13 @@ body {
       </h1>
 
       <div class="subtitle">
-        Southeastern Alpha 001
-      </div>
+     <div
+  class="subtitle"
+  id="modeSubtitle">
+
+  Southeastern Alpha 001
+
+</div>
 
     </div>
 
@@ -594,7 +599,24 @@ body {
   </div>
 
   <div class="footer-row">
+<div
+  class="ticket-box"
+  id="timerBox"
+  style="display:none;">
 
+  <div class="ticket-title">
+    Time Remaining
+  </div>
+
+  <div
+    class="ticket-number"
+    id="timerCount">
+
+    03:00
+
+  </div>
+
+</div>
     <div class="ticket-box">
 
       <div class="ticket-title">
@@ -731,7 +753,62 @@ let bonusMode = false;
 let selectedBonusStation = null;
 
 let ticketsRemaining = 6;
+const params =
+  new URLSearchParams(
+    window.location.search
+  );
 
+const gameMode =
+  params.get("mode") ||
+  "standard";
+
+let expressTimer = null;
+let timeRemaining = 180;
+  let ticketsRemaining = 6;
+
+const params =
+  new URLSearchParams(
+    window.location.search
+  );
+
+const gameMode =
+  params.get("mode") ||
+  "standard";
+
+let expressTimer = null;
+let timeRemaining = 180;
+
+window.addEventListener(
+  "DOMContentLoaded",
+  () => {
+
+    const subtitle =
+      document.getElementById(
+        "modeSubtitle"
+      );
+
+    if (!subtitle) return;
+
+    if (
+      gameMode === "express"
+    ) {
+
+      subtitle.textContent =
+        "Express Service — Timed Challenge";
+
+    } else {
+
+      subtitle.textContent =
+        "Standard Ticket — Relaxed Journey";
+
+    }
+
+  }
+);
+
+let routeLocked = false;
+let gameOver = false;
+let returnTicketClaimed = false;
 let routeLocked = false;
 let gameOver = false;
 let returnTicketClaimed = false;
@@ -742,7 +819,80 @@ function updateTicketDisplay() {
     el.textContent = String(ticketsRemaining);
   }
 }
-function endGame() {
+function startExpressTimer() {
+
+  const timerBox =
+    document.getElementById(
+      "timerBox"
+    );
+
+  const timerCount =
+    document.getElementById(
+      "timerCount"
+    );
+
+  timerBox.style.display =
+    "block";
+
+  function renderTimer() {
+
+    const minutes =
+      String(
+        Math.floor(
+          timeRemaining / 60
+        )
+      ).padStart(2, "0");
+
+    const seconds =
+      String(
+        timeRemaining % 60
+      ).padStart(2, "0");
+
+    timerCount.textContent =
+      `${minutes}:${seconds}`;
+
+  }
+
+  renderTimer();
+
+  expressTimer = setInterval(() => {
+
+    if (gameOver) {
+
+      clearInterval(
+        expressTimer
+      );
+
+      return;
+
+    }
+
+    timeRemaining--;
+
+    renderTimer();
+
+    if (timeRemaining <= 0) {
+
+      clearInterval(
+        expressTimer
+      );
+
+      ticketsRemaining = 0;
+
+      updateTicketDisplay();
+
+      alert(
+        "⏱ The express service has departed!"
+      );
+
+      endGame();
+
+    }
+
+  }, 1000);
+
+}
+  function endGame() {
 
   gameOver = true;
   routeLocked = true;
@@ -782,20 +932,17 @@ fetch(
 
   stations = data;
 
-  renderBoard();
+renderBoard();
+
+if (
+  gameMode === "express"
+) {
+
+  startExpressTimer();
+
+}
 
 })
-
-.catch(error => {
-
-  console.log(error);
-
-  alert(
-    "JSON FAILED TO LOAD"
-  );
-
-});
-
 function renderBoard() {
 
   cells.forEach((cell, index) => {

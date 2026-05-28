@@ -870,6 +870,11 @@ playButton.addEventListener(
     const selected =
       network.value;
 
+    const selectedMode =
+      localStorage.getItem(
+        "routeMode"
+      ) || "standard";
+
     if (
       liveNetworks.includes(
         selected
@@ -877,7 +882,7 @@ playButton.addEventListener(
     ) {
 
       window.location.href =
-        "play-master.html";
+        `play-master.html?mode=${selectedMode}`;
 
     } else {
 

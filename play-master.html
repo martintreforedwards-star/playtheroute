@@ -889,16 +889,31 @@ fetch(
 
   renderBoard();
 
-  if (
-    gameMode === "express"
-  ) {
+if (
+  gameMode === "express"
+) {
 
-    startExpressTimer();
+  subtitle.textContent =
+    "Express Service — Timed Challenge";
+
+  const ticketBox =
+    document.querySelector(
+      ".ticket-box"
+    );
+
+  if (ticketBox) {
+
+    ticketBox.style.display =
+      "none";
 
   }
 
-})
+} else {
 
+  subtitle.textContent =
+    "Standard Ticket — Relaxed Journey";
+
+}
 .catch(error => {
 
   console.log(error);

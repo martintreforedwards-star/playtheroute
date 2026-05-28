@@ -502,8 +502,7 @@ body {
         The Route
       </h1>
 
-      <div class="subtitle">
-     <div
+      <div
   class="subtitle"
   id="modeSubtitle">
 
@@ -599,10 +598,6 @@ body {
   </div>
 
   <div class="footer-row">
-<div
-  class="ticket-box"
-  id="timerBox"
-  style="display:none;">
 
   <div class="ticket-title">
     Time Remaining
@@ -632,6 +627,25 @@ body {
       </div>
 
     </div>
+
+<div
+  class="ticket-box"
+  id="timerBox"
+  style="display:none;">
+
+  <div class="ticket-title">
+    Time Remaining
+  </div>
+
+  <div
+    class="ticket-number"
+    id="timerCount">
+
+    03:00
+
+  </div>
+
+</div>
 
     <button
       class="submit-button"
@@ -809,9 +823,6 @@ window.addEventListener(
 let routeLocked = false;
 let gameOver = false;
 let returnTicketClaimed = false;
-let routeLocked = false;
-let gameOver = false;
-let returnTicketClaimed = false;
 
 function updateTicketDisplay() {
   const el = document.getElementById("ticketCount");
@@ -932,17 +943,27 @@ fetch(
 
   stations = data;
 
-renderBoard();
+  renderBoard();
 
-if (
-  gameMode === "express"
-) {
+  if (
+    gameMode === "express"
+  ) {
 
-  startExpressTimer();
+    startExpressTimer();
 
-}
+  }
 
 })
+
+.catch(error => {
+
+  console.log(error);
+
+  alert(
+    "JSON FAILED TO LOAD"
+  );
+
+});
 function renderBoard() {
 
   cells.forEach((cell, index) => {

@@ -1202,23 +1202,17 @@ function validateCell(
 
   let valid = true;
 
-  if (
-    row === 0 &&
-    station.is_terminus === true
-  ) {
+const rowClue =
+  clueLibrary.rows[row];
 
-    valid = false;
+if (
+  station[rowClue.field] !==
+  rowClue.value
+) {
 
-  }
+  valid = false;
 
-  if (
-    row === 1 &&
-    station.direct_to_charing_cross !== true
-  ) {
-
-    valid = false;
-
-  }
+}
 
   if (
     column === 0 &&

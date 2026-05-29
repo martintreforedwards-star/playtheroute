@@ -1248,14 +1248,21 @@ if (
 
 }
 
+if (column === 0) {
+
+  const clue =
+    clueLibrary.columns[0];
+
   if (
-    column === 0 &&
-    station.distance_band !== "coastal"
+    station[clue.field] !==
+    clue.value
   ) {
 
     valid = false;
 
   }
+
+}
 if (column === 1) {
 
   const minutes =

@@ -14,7 +14,7 @@
 
   "columns": [
     {
-      "display": "Coastal",
+      "display": "Coastal 🌊"
       "field": "distance_band",
       "value": "coastal"
     },

@@ -532,22 +532,30 @@ body {
 
         <th></th>
 
-        <th class="col-heading">
-          Coastal
-        </th>
+        <th
+  class="col-heading"
+  id="colClue0">
+  Coastal
+</th>
 
-        <th class="col-heading">
-          70-90 mins<br>
-          from London
-        </th>
+        <th
+  class="col-heading"
+  id="colClue1">
+  70-90 mins<br>
+  from London
+</th>
 
-        <th class="col-heading">
-          Contains ‘ham’
-        </th>
+        <th
+  class="col-heading"
+  id="colClue2">
+  Contains 'ham'
+</th>
 
-        <th class="col-heading">
-          Is an interchange
-        </th>
+        <th
+  class="col-heading"
+  id="colClue3">
+  Is an interchange
+</th>  
 
       </tr>
 
@@ -908,7 +916,25 @@ document.getElementById(
   "rowClue1"
 ).textContent =
   clueLibrary.rows[1].display;
+document.getElementById(
+  "colClue0"
+).textContent =
+  clueLibrary.columns[0].display;
 
+document.getElementById(
+  "colClue1"
+).textContent =
+  clueLibrary.columns[1].display;
+
+document.getElementById(
+  "colClue2"
+).textContent =
+  clueLibrary.columns[2].display;
+
+document.getElementById(
+  "colClue3"
+).textContent =
+  clueLibrary.columns[3].display;
 renderBoard();
 
   if (

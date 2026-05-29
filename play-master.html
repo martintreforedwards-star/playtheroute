@@ -891,10 +891,15 @@ Promise.all([
   stations = stationData;
   clueLibrary = clueData;
 
-  console.log(
-    "Clues loaded:",
-    clueLibrary
-  );
+console.log(
+  "First row clue:",
+  clueLibrary.rows[0].display
+);
+
+console.log(
+  "First column clue:",
+  clueLibrary.columns[0].display
+);
 
   renderBoard();
 

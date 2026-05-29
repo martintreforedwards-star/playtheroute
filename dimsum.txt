@@ -1,5 +1,6 @@
-DATA AUDIT
-
-Check is_interchange classifications.
-Sturry currently = true.
-Suspect incorrect.
+Audit is_interchange classifications. Sturry currently marked as true despite route_count=1 and route_diversity_band=single.
+Improve bonus clues.
+Add seasonal themes.
+Better split-flap animation.
+Daily puzzle numbering.
+Difficulty ratings.

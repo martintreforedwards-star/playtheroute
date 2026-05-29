@@ -1285,14 +1285,21 @@ if (column === 1) {
 
   }
 
+if (column === 3) {
+
+  const clue =
+    clueLibrary.columns[3];
+
   if (
-    column === 3 &&
-    station.is_interchange !== true
+    station[clue.field] !==
+    clue.value
   ) {
 
     valid = false;
 
   }
+
+}
 
   if (
     usedStations.includes(

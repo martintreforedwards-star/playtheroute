@@ -559,9 +559,13 @@ body {
             Platform 1
           </div>
 
-          <div class="p-clue">
-            Not a terminus
-          </div>
+        <div
+  class="p-clue"
+  id="rowClue0">
+
+  Not a terminus
+
+</div>
 
         </td>
 
@@ -580,9 +584,13 @@ body {
             Platform 2
           </div>
 
-          <div class="p-clue">
-            Direct to Charing Cross
-          </div>
+<div
+  class="p-clue"
+  id="rowClue1">
+
+  Direct to Charing Cross
+
+</div>
 
         </td>
 
@@ -888,15 +896,20 @@ Promise.all([
 
 .then(([stationData, clueData]) => {
 
-  stations = stationData;
-  clueLibrary = clueData;
+stations = stationData;
+clueLibrary = clueData;
 
-console.log(
- 
-  clueLibrary.rows[0].display
-);
+document.getElementById(
+  "rowClue0"
+).textContent =
+  clueLibrary.rows[0].display;
 
-  renderBoard();
+document.getElementById(
+  "rowClue1"
+).textContent =
+  clueLibrary.rows[1].display;
+
+renderBoard();
 
   if (
     gameMode === "express"

@@ -878,15 +878,23 @@ function startExpressTimer() {
 showResultsModal(false);
 
 }
-fetch(
-  "data/stations/southeastern.json"
-)
+Promise.all([
+  fetch("data/stations/southeastern.json")
+    .then(r => r.json()),
 
-.then(response => response.json())
+  fetch("data/clues/southeastern-clues.json")
+    .then(r => r.json())
+])
 
-.then(data => {
+.then(([stationData, clueData]) => {
 
-  stations = data;
+  stations = stationData;
+  clueLibrary = clueData;
+
+  console.log(
+    "Clues loaded:",
+    clueLibrary
+  );
 
   renderBoard();
 

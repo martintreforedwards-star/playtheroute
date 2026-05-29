@@ -32,7 +32,7 @@
   "display": "Interchange",
   "type": "field",
   "field": "is_interchange",
-  "value": false
+  "value": true
 }
   ]
 }

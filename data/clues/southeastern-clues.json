@@ -28,10 +28,6 @@
       "field": "has_ham",
       "value": true
     },
-    {
-      "display": "Interchange",
-      "field": "is_interchange",
-      "value": true
-    }
+
   ]
 }

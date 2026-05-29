@@ -1,7 +1,7 @@
 {
   "rows": [
     {
-      "display": "Not a terminus",
+      "display": "Not a terminus 🚉",
       "field": "is_terminus",
       "value": false
     },

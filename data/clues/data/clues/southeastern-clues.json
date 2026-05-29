@@ -13,10 +13,11 @@
   ],
   "columns": [
     {
-      "display": "Coastal",
-      "field": "distance_band",
-      "value": "coastal"
-    },
+  "display": "Coastal 🌊",
+  "type": "field",
+  "field": "distance_band",
+  "value": "coastal"
+},
     {
       "display": "70-90 mins from London",
       "field": "time_group",

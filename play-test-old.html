@@ -373,6 +373,16 @@ body {
   margin-top:14px;
 }
 
+.cell.correct .station{
+  color:#063314;
+  font-weight:900;
+}
+
+.cell.correct .label{
+  color:#124a22;
+  font-weight:800;
+}
+
 .cell.correct::before{
   content:"";
   position:absolute;
@@ -425,6 +435,23 @@ body {
   border-radius:8px 26px 26px 8px;
   clip-path:polygon(0 0,88% 0,100% 50%,88% 100%,0 100%);
 }
+
+
+/* wheels */
+.cell.correct .wheel-left,
+.cell.correct .wheel-right{
+  position:absolute;
+  bottom:-12px;
+  width:16px;
+  height:16px;
+  border-radius:50%;
+  background:#1f2937;
+  border:2px solid #111827;
+  box-shadow:0 0 0 2px rgba(0,0,0,.25);
+}
+
+.cell.correct .wheel-left{ left:28px; }
+.cell.correct .wheel-right{ right:28px; }
 
 /* coach connectors */
 .cell.correct.connector-right{
@@ -776,6 +803,8 @@ function renderBoard() {
         </div>
 
       </div>
+
+      ${state.correct === true ? '<div class="wheel-left"></div><div class="wheel-right"></div>' : ''}
 
     `;
 

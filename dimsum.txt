@@ -4,3 +4,4 @@ Add seasonal themes.
 Better split-flap animation.
 Daily puzzle numbering.
 Difficulty ratings.
+Interchange to be defined

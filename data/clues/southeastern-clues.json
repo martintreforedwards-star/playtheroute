@@ -25,11 +25,12 @@
   "min": 70,
   "max": 90
 },
-    {
-      "display": "Contains ham",
-      "field": "has_ham",
-      "value": true
-    },
+{
+  "display": "Contains ham",
+  "type": "contains",
+  "field": "station_name",
+  "value": "ham"
+},
 {
   "display": "Interchange",
   "type": "field",

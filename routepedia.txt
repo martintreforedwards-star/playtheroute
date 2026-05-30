@@ -1,0 +1,8 @@
+A Route Interchange is a station served by two or more distinct Route lines.
+
+INTERCHANGES
+Interchanges allow passengers to transfer between different Route lines and provide multiple route options across the network.
+
+A station may be an interchange even if it is not a major railway junction, provided it is served by more than one Route line.
+
+Example: Broadstairs is an interchange because it sits on both the HS1 and Charing Cross lines.

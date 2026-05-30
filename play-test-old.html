@@ -74,7 +74,7 @@ body {
 }
 
 .panel-title {
-  color: #57b67a;
+  color: #22c55e;
   font-size: 0.95rem;
   font-weight: 800;
   letter-spacing: 2px;
@@ -181,7 +181,7 @@ body {
 }
 
 .row-header.green {
-  border-color: #57b67a;
+  border-color: #22c55e;
 }
 
 .row-header.blue {
@@ -221,7 +221,7 @@ body {
 
 .cell.correct {
   background: rgba(0,120,40,0.95);
-  border-color: #57b67a;
+  border-color: #22c55e;
 }
 
 .cell.incorrect {
@@ -276,13 +276,13 @@ body {
   padding: 18px;
   font-size: 1.2rem;
   font-weight: 800;
-  background: #57b67a;
+  background: #22c55e;
   color: white;
   cursor: pointer;
 }
 
 .submit-button:hover {
-  background: #4ea86f;
+  background: #16a34a;
 }
 
 .modal {
@@ -355,7 +355,7 @@ body {
 }
 
 
-/* TRAIN PROTOTYPE V3 */
+/* TRAIN V6 */
 
 .cell{
   position:relative;
@@ -363,37 +363,43 @@ body {
 }
 
 .cell.correct{
-  border:2px solid #57b67a;
-  background:linear-gradient(to bottom,#0f172a 0 32%,#57b67a 32% 100%);
+  background:linear-gradient(
+    to bottom,
+    #0f172a 0%,
+    #0f172a 28%,
+    #74c08f 28%,
+    #69b483 100%
+  );
+  border:2px solid #7bd39f;
   border-radius:8px;
   box-shadow:none;
+}
+
+.cell.correct .station{
+  color:#04160c;
+  font-size:0.78rem;
+  font-weight:900;
+}
+
+.cell.correct .label{
+  color:#0b2a16;
+  font-weight:800;
 }
 
 .cell.correct .cell-content{
   margin-top:14px;
 }
 
-.cell.correct .station{
-  color:#063314;
-  font-weight:900;
-}
-
-.cell.correct .label{
-  color:#124a22;
-  font-weight:800;
-}
-
 .cell.correct::before{
   content:"";
   position:absolute;
-  top:7px;
-  left:14px;
-  right:14px;
-  height:16px;
-  background:
-  repeating-linear-gradient(
+  top:8px;
+  left:12px;
+  right:12px;
+  height:18px;
+  background:repeating-linear-gradient(
     to right,
-    rgba(180,220,255,.95) 0 24px,
+    rgba(190,220,245,.95) 0 24px,
     transparent 24px 38px
   );
 }
@@ -403,25 +409,10 @@ body {
   position:absolute;
   left:0;
   right:0;
-  bottom:6px;
-  height:6px;
-  background:#0b1220;
+  bottom:8px;
+  height:7px;
+  background:#111827;
 }
-
-/* doors */
-.cell.correct .cell-content:before,
-.cell.correct .cell-content:after{
-  content:"";
-  position:absolute;
-  top:6px;
-  width:8px;
-  height:26px;
-  border:1px solid rgba(255,255,255,.35);
-  background:rgba(255,255,255,.08);
-}
-
-.cell.correct .cell-content:before{left:6px;}
-.cell.correct .cell-content:after{right:6px;}
 
 /* rear coach */
 .cell.correct[data-index="0"],
@@ -429,34 +420,50 @@ body {
   border-radius:22px 8px 8px 22px;
 }
 
-/* front cab */
+/* cab coach */
 .cell.correct[data-index="3"],
 .cell.correct[data-index="7"]{
-  border-radius:8px 26px 26px 8px;
   clip-path:polygon(0 0,88% 0,100% 50%,88% 100%,0 100%);
 }
 
-
-/* wheels */
-.cell.correct .wheel-left,
-.cell.correct .wheel-right{
+/* wheels + bogies */
+.bogie{
   position:absolute;
-  bottom:-12px;
-  width:16px;
-  height:16px;
-  border-radius:50%;
-  background:#1f2937;
-  border:2px solid #111827;
-  box-shadow:0 0 0 2px rgba(0,0,0,.25);
+  bottom:-14px;
+  width:44px;
+  height:10px;
+  background:#111827;
+  border-radius:4px;
 }
 
-.cell.correct .wheel-left{ left:28px; }
-.cell.correct .wheel-right{ right:28px; }
+.bogie.left{left:18px;}
+.bogie.right{right:18px;}
 
-/* coach connectors */
-.cell.correct.connector-right{
-  margin-right:-10px;
-  z-index:2;
+.wheel{
+  position:absolute;
+  width:14px;
+  height:14px;
+  border-radius:50%;
+  background:#1f2937;
+  border:2px solid #0b0f16;
+  bottom:-18px;
+}
+
+.wheel.l1{left:20px;}
+.wheel.l2{left:48px;}
+.wheel.r1{right:48px;}
+.wheel.r2{right:20px;}
+
+/* coupling */
+.coupling{
+  position:absolute;
+  right:-14px;
+  top:50%;
+  width:18px;
+  height:4px;
+  background:#111827;
+  transform:translateY(-50%);
+  z-index:5;
 }
 
 @media (max-width: 700px) {
@@ -743,7 +750,7 @@ function renderBoard() {
 
     cell.classList.remove(
       "correct",
-      "incorrect","connector-right"
+      "incorrect"
     );
 
     if (state.correct === true) {
@@ -783,13 +790,6 @@ function renderBoard() {
           ? "INVALID"
           : "ARRIVING";
 
-    if(state.correct === true){
-      const rowStart = index < 4 ? 0 : 4;
-      if(index % 4 !== 3 && boardState[index+1] && boardState[index+1].correct === true){
-        cell.classList.add("connector-right");
-      }
-    }
-
     cell.innerHTML = `
 
       <div class="cell-content">
@@ -804,7 +804,15 @@ function renderBoard() {
 
       </div>
 
-      ${state.correct === true ? '<div class="wheel-left"></div><div class="wheel-right"></div>' : ''}
+      ${state.correct === true ? `
+        <div class="bogie left"></div>
+        <div class="bogie right"></div>
+        <div class="wheel l1"></div>
+        <div class="wheel l2"></div>
+        <div class="wheel r1"></div>
+        <div class="wheel r2"></div>
+        ${index % 4 !== 3 ? '<div class="coupling"></div>' : ''}
+      ` : ''}
 
     `;
 

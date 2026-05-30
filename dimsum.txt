@@ -29,3 +29,11 @@ Supported clue types:
 - field
 - range
 - contains
+CODE 8 PHASE 2
+
+Move Final Destination rules into clue system.
+
+Current destinationRules are hard-coded.
+
+Future:
+Generate Final Destination clue from existing clue definitions.

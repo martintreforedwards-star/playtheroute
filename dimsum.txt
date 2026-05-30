@@ -20,3 +20,12 @@ has_ampersand
 has_hyphen
 has_st
 has_brackets
+CODE 8 MILESTONE
+
+All six current clues now driven from southeastern-clues.json.
+
+Supported clue types:
+
+- field
+- range
+- contains

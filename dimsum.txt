@@ -6,3 +6,17 @@ Daily puzzle numbering.
 Difficulty ratings.
 Interchange to be defined
 terminus to be defined
+Merge wordplay attributes into main station dataset.
+has_ham
+has_ton
+has_ford
+has_park
+has_hill
+has_wood
+has_wich
+has_hurst
+has_green
+has_ampersand
+has_hyphen
+has_st
+has_brackets

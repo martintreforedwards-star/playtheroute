@@ -19,10 +19,12 @@
       "value": "coastal"
     },
     {
-      "display": "70-90 mins from London",
-      "field": "time_group",
-      "value": "70 to 90"
-    },
+  "display": "70-90 mins from London",
+  "type": "range",
+  "field": "canonical_time_to_london",
+  "min": 70,
+  "max": 90
+},
     {
       "display": "Contains ham",
       "field": "has_ham",

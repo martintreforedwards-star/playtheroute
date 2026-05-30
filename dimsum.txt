@@ -5,3 +5,4 @@ Better split-flap animation.
 Daily puzzle numbering.
 Difficulty ratings.
 Interchange to be defined
+terminus to be defined

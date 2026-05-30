@@ -1,1 +1,2 @@
-Next one: Contains ham
+Next one: Contains ham - DONE
+Create a clue pool such as:

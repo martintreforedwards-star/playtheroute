@@ -1,12 +1,12 @@
-Audit is_interchange classifications. Sturry currently marked as true despite route_count=1 and route_diversity_band=single.
-Improve bonus clues.
-Add seasonal themes.
-Better split-flap animation.
-Daily puzzle numbering.
-Difficulty ratings.
-Interchange to be defined
-terminus to be defined
-Merge wordplay attributes into main station dataset.
+1 Audit is_interchange classifications. Sturry currently marked as true despite route_count=1 and route_diversity_band=single.
+2 Improve bonus clues.
+3 Add seasonal themes.
+4 Better split-flap animation.
+5 Daily puzzle numbering.
+6 Difficulty ratings.
+7 Interchange to be defined
+8 terminus to be defined
+9 Merge wordplay attributes into main station dataset.
 has_ham
 has_ton
 has_ford
@@ -20,7 +20,7 @@ has_ampersand
 has_hyphen
 has_st
 has_brackets
-CODE 8 MILESTONE
+10 CODE 8 MILESTONE
 
 All six current clues now driven from southeastern-clues.json.
 
@@ -33,7 +33,7 @@ CODE 8 PHASE 2
 
 Move Final Destination rules into clue system.
 
-Current destinationRules are hard-coded.
-
+11 Current destinationRules are hard-coded.
+12 provide visual example of completed game in how to play
 Future:
 Generate Final Destination clue from existing clue definitions.

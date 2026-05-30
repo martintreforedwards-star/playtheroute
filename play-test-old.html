@@ -214,7 +214,7 @@ body {
 
   position: relative;
 
-  overflow: hidden;
+  overflow: visible;
 
 }
 
@@ -223,23 +223,32 @@ body {
   border-color: #3b82f6;
 }
 
+.cell.correct + .cell.correct::marker{
+}
+
+.cell.correct:not([data-index="3"]):not([data-index="7"]) .station{
+  position: relative;
+}
+
+.cell.correct:not([data-index="3"]):not([data-index="7"])::selection{
+}
+
 .cell.correct {
 
   background:
     linear-gradient(
       to bottom,
-      #34d399 0%,
-      #22c55e 55%,
-      #15803d 100%
+      #0f172a 0%,
+      #0f172a 30%,
+      #22c55e 30%,
+      #16a34a 100%
     );
 
-  border-color: #22c55e;
+  border: 2px solid #22c55e;
 
-  border-radius: 24px 24px 12px 12px;
+  border-radius: 10px;
 
-  box-shadow:
-    inset 0 2px 0 rgba(255,255,255,0.25),
-    0 0 10px rgba(34,197,94,0.25);
+  box-shadow: none;
 
 }
 
@@ -249,22 +258,22 @@ body {
 
   position: absolute;
 
-  top: 10px;
+  left: 8px;
 
-  left: 10px;
+  right: 8px;
 
-  right: 10px;
+  top: 8px;
 
-  height: 12px;
-
-  border-radius: 4px;
+  height: 18px;
 
   background:
     repeating-linear-gradient(
       to right,
-      rgba(255,255,255,0.35) 0 16px,
-      transparent 16px 28px
+      rgba(180,220,255,0.9) 0 22px,
+      transparent 22px 34px
     );
+
+  border-radius: 3px;
 
 }
 
@@ -274,16 +283,21 @@ body {
 
   position: absolute;
 
-  left: 0;
+  left: -10px;
 
-  right: 0;
+  right: -10px;
 
-  bottom: 5px;
+  bottom: 10px;
 
-  height: 8px;
+  height: 4px;
 
-  background:
-    rgba(0,0,0,0.25);
+  background: rgba(20,20,20,0.9);
+
+}
+
+.cell.correct .cell-content{
+
+  margin-top: 12px;
 
 }
 

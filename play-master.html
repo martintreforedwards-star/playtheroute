@@ -1283,16 +1283,27 @@ if (column === 1) {
   }
 
 }
+if (column === 2) {
+
+  const clue =
+    clueLibrary.columns[2];
+
+  const text =
+    String(
+      station[clue.field]
+    ).toLowerCase();
+
   if (
-    column === 2 &&
-    !station.station_name
-      .toLowerCase()
-      .includes("ham")
+    !text.includes(
+      clue.value.toLowerCase()
+    )
   ) {
 
     valid = false;
 
   }
+
+}
 
 if (column === 3) {
 

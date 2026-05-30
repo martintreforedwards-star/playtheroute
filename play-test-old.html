@@ -212,10 +212,6 @@ body {
 
   transition: 0.2s;
 
-  position: relative;
-
-  overflow: visible;
-
 }
 
 .cell:hover {
@@ -223,82 +219,9 @@ body {
   border-color: #3b82f6;
 }
 
-.cell.correct + .cell.correct::marker{
-}
-
-.cell.correct:not([data-index="3"]):not([data-index="7"]) .station{
-  position: relative;
-}
-
-.cell.correct:not([data-index="3"]):not([data-index="7"])::selection{
-}
-
 .cell.correct {
-
-  background:
-    linear-gradient(
-      to bottom,
-      #0f172a 0%,
-      #0f172a 30%,
-      #22c55e 30%,
-      #16a34a 100%
-    );
-
-  border: 2px solid #22c55e;
-
-  border-radius: 10px;
-
-  box-shadow: none;
-
-}
-
-.cell.correct::before {
-
-  content: "";
-
-  position: absolute;
-
-  left: 8px;
-
-  right: 8px;
-
-  top: 8px;
-
-  height: 18px;
-
-  background:
-    repeating-linear-gradient(
-      to right,
-      rgba(180,220,255,0.9) 0 22px,
-      transparent 22px 34px
-    );
-
-  border-radius: 3px;
-
-}
-
-.cell.correct::after {
-
-  content: "";
-
-  position: absolute;
-
-  left: -10px;
-
-  right: -10px;
-
-  bottom: 10px;
-
-  height: 4px;
-
-  background: rgba(20,20,20,0.9);
-
-}
-
-.cell.correct .cell-content{
-
-  margin-top: 12px;
-
+  background: rgba(0,120,40,0.95);
+  border-color: #22c55e;
 }
 
 .cell.incorrect {
@@ -429,6 +352,84 @@ body {
 
 .station-option:hover {
   background: #1e293b;
+}
+
+
+/* TRAIN PROTOTYPE V3 */
+
+.cell{
+  position:relative;
+  overflow:visible;
+}
+
+.cell.correct{
+  border:2px solid #22c55e;
+  background:linear-gradient(to bottom,#0f172a 0 32%,#22c55e 32% 100%);
+  border-radius:8px;
+  box-shadow:none;
+}
+
+.cell.correct .cell-content{
+  margin-top:14px;
+}
+
+.cell.correct::before{
+  content:"";
+  position:absolute;
+  top:7px;
+  left:14px;
+  right:14px;
+  height:16px;
+  background:
+  repeating-linear-gradient(
+    to right,
+    rgba(180,220,255,.95) 0 24px,
+    transparent 24px 38px
+  );
+}
+
+.cell.correct::after{
+  content:"";
+  position:absolute;
+  left:0;
+  right:0;
+  bottom:6px;
+  height:6px;
+  background:#0b1220;
+}
+
+/* doors */
+.cell.correct .cell-content:before,
+.cell.correct .cell-content:after{
+  content:"";
+  position:absolute;
+  top:6px;
+  width:8px;
+  height:26px;
+  border:1px solid rgba(255,255,255,.35);
+  background:rgba(255,255,255,.08);
+}
+
+.cell.correct .cell-content:before{left:6px;}
+.cell.correct .cell-content:after{right:6px;}
+
+/* rear coach */
+.cell.correct[data-index="0"],
+.cell.correct[data-index="4"]{
+  border-radius:22px 8px 8px 22px;
+}
+
+/* front cab */
+.cell.correct[data-index="3"],
+.cell.correct[data-index="7"]{
+  border-radius:8px 26px 26px 8px;
+  clip-path:polygon(0 0,88% 0,100% 50%,88% 100%,0 100%);
+}
+
+/* coach connectors */
+.cell.correct.connector-right{
+  margin-right:-10px;
+  z-index:2;
 }
 
 @media (max-width: 700px) {
@@ -715,7 +716,7 @@ function renderBoard() {
 
     cell.classList.remove(
       "correct",
-      "incorrect"
+      "incorrect","connector-right"
     );
 
     if (state.correct === true) {
@@ -754,6 +755,13 @@ function renderBoard() {
         : state.correct === false
           ? "INVALID"
           : "ARRIVING";
+
+    if(state.correct === true){
+      const rowStart = index < 4 ? 0 : 4;
+      if(index % 4 !== 3 && boardState[index+1] && boardState[index+1].correct === true){
+        cell.classList.add("connector-right");
+      }
+    }
 
     cell.innerHTML = `
 

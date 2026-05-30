@@ -1265,14 +1265,17 @@ if (column === 0) {
 }
 if (column === 1) {
 
-  const minutes =
+  const clue =
+    clueLibrary.columns[1];
+
+  const value =
     Number(
-      station.canonical_time_to_london
+      station[clue.field]
     );
 
   if (
-    minutes < 70 ||
-    minutes > 90
+    value < clue.min ||
+    value > clue.max
   ) {
 
     valid = false;
@@ -1280,7 +1283,6 @@ if (column === 1) {
   }
 
 }
-
   if (
     column === 2 &&
     !station.station_name

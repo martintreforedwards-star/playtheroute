@@ -429,10 +429,10 @@ body {
 /* wheels + bogies */
 .bogie{
   position:absolute;
-  bottom:-14px;
-  width:44px;
-  height:10px;
-  background:#111827;
+  bottom:-18px;
+  width:60px;
+  height:12px;
+  background:#05070a;
   border-radius:4px;
 }
 
@@ -441,12 +441,12 @@ body {
 
 .wheel{
   position:absolute;
-  width:14px;
-  height:14px;
+  width:18px;
+  height:18px;
   border-radius:50%;
-  background:#1f2937;
-  border:2px solid #0b0f16;
-  bottom:-18px;
+  background:#05070a;
+  border:2px solid #000;
+  bottom:-22px;
 }
 
 .wheel.l1{left:20px;}
@@ -510,6 +510,59 @@ body {
     font-size: 0.4rem;
   }
 
+}
+
+
+@media (max-width: 700px) {
+
+  .game-grid {
+    grid-template-columns: 60px repeat(4, 1fr) !important;
+    grid-template-rows: 100px 100px 100px !important;
+    gap: 10px !important;
+  }
+
+  .column-header,
+  .row-header,
+  .cell {
+    height: 82px !important;
+  }
+
+  .row-header strong {
+    font-size: 0.48rem !important;
+    line-height: 1.05;
+  }
+
+  .row-header span {
+    font-size: 0.32rem !important;
+    line-height: 1.15;
+  }
+
+  .cell.correct::before {
+    top: 12px !important;
+    left: 22px !important;
+    right: 22px !important;
+    height: 8px !important;
+    background:
+      repeating-linear-gradient(
+        to right,
+        rgba(190,220,245,.9) 0 10px,
+        transparent 10px 28px
+      ) !important;
+  }
+
+  .wheel {
+    bottom: -28px !important;
+  }
+
+  .bogie {
+    bottom: -20px !important;
+    width: 60px !important;
+  }
+
+  .station {
+    line-height: 1.05;
+    word-break: break-word;
+  }
 }
 
 </style>

@@ -763,7 +763,10 @@ const searchBox =
 
 let stations = [];
 let clueLibrary = null;
-
+  
+let activeRows = [];
+let activeColumns = [];
+  
 let activeIndex = null;
 let bonusMode = false;
 let selectedBonusStation = null;
@@ -907,36 +910,41 @@ Promise.all([
 stations = stationData;
 clueLibrary = clueData;
 
+activeRows =
+  clueLibrary.rowPool.slice(0, 2);
+
+activeColumns =
+  clueLibrary.columnPool.slice(0, 4);
+
 document.getElementById(
   "rowClue0"
 ).textContent =
-  clueLibrary.rows[0].display;
+  activeRows[0].display;
 
 document.getElementById(
   "rowClue1"
 ).textContent =
-  clueLibrary.rows[1].display;
+  activeRows[1].display;
+
 document.getElementById(
   "colClue0"
 ).textContent =
-  clueLibrary.columns[0].display;
+  activeColumns[0].display;
 
 document.getElementById(
   "colClue1"
 ).textContent =
-  clueLibrary.columns[1].display;
+  activeColumns[1].display;
 
 document.getElementById(
   "colClue2"
 ).textContent =
-  clueLibrary.columns[2].display;
+  activeColumns[2].display;
 
 document.getElementById(
   "colClue3"
 ).textContent =
-  clueLibrary.columns[3].display;
-renderBoard();
-
+  activeColumns[3].display;
   if (
     gameMode === "express"
   ) {
@@ -1237,8 +1245,8 @@ function validateCell(
   let valid = true;
 
 const rowClue =
-  clueLibrary.rows[row];
-
+  activeRows[row];
+  
 if (
   station[rowClue.field] !==
   rowClue.value
@@ -1251,7 +1259,7 @@ if (
 if (column === 0) {
 
   const clue =
-    clueLibrary.columns[0];
+    activeColumns[0];
 
   if (
     station[clue.field] !==
@@ -1266,8 +1274,8 @@ if (column === 0) {
 if (column === 1) {
 
   const clue =
-    clueLibrary.columns[1];
-
+   activeColumns[1]
+  
   const value =
     Number(
       station[clue.field]
@@ -1286,7 +1294,7 @@ if (column === 1) {
 if (column === 2) {
 
   const clue =
-    clueLibrary.columns[2];
+   activeColumns[2];
 
   const text =
     String(
@@ -1308,7 +1316,7 @@ if (column === 2) {
 if (column === 3) {
 
   const clue =
-    clueLibrary.columns[3];
+    activeColumns[3];
 
   if (
     station[clue.field] !==

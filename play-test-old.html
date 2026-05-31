@@ -466,19 +466,15 @@ body {
   z-index:5;
 }
 
-@media (max-width: 700px) {
+.game-grid {
 
-  .container {
-    padding: 10px;
-  }
+  grid-template-columns: 68px repeat(4, 1fr);
 
-  .game-grid {
+  grid-template-rows: 94px 94px 94px;
 
-    grid-template-columns: 78px repeat(4, 1fr);
+  gap: 10px;
 
-    grid-template-rows: 74px 74px 74px;
-
-    gap: 6px;
+}
 
   }
 

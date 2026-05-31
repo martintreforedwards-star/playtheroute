@@ -897,6 +897,19 @@ function startExpressTimer() {
 showResultsModal(false);
 
 }
+ function pickRandom(array, count) {
+
+  const shuffled =
+    [...array].sort(
+      () => Math.random() - 0.5
+    );
+
+  return shuffled.slice(
+    0,
+    count
+  );
+
+} 
 Promise.all([
   fetch("data/stations/southeastern.json")
     .then(r => r.json()),
@@ -911,10 +924,16 @@ stations = stationData;
 clueLibrary = clueData;
 
 activeRows =
-  clueLibrary.rowPool.slice(0, 2);
+  pickRandom(
+    clueLibrary.rowPool,
+    2
+  );
 
 activeColumns =
-  clueLibrary.columnPool.slice(0, 4);
+  pickRandom(
+    clueLibrary.columnPool,
+    4
+  );
 
 document.getElementById(
   "rowClue0"

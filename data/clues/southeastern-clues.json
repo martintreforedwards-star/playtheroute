@@ -25,6 +25,12 @@
   "min": 70,
   "max": 90
 },
+   {
+  "display": "Contains ton",
+  "type": "contains",
+  "field": "station_name",
+  "value": "ton"
+},
 {
   "display": "Contains ham",
   "type": "contains",
@@ -36,12 +42,6 @@
   "type": "field",
   "field": "is_interchange",
   "value": true
-},
-  {
-  "display": "Contains ton",
-  "type": "contains",
-  "field": "station_name",
-  "value": "ton"
-}
+} 
   ]
 }

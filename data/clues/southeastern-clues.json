@@ -26,7 +26,7 @@
   "max": 90
 },
 {
-  "display": "Contains ham",
+  "display": "Contains TON TEST",
   "type": "contains",
   "field": "station_name",
   "value": "ham"

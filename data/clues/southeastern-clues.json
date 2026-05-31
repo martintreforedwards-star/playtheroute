@@ -1,47 +1,87 @@
-{
-  "rowPool": [
-    {
-      "display": "Not a terminus 🚉",
-      "field": "is_terminus",
-      "value": false
-    },
-    {
-      "display": "Direct to Charing Cross",
-      "field": "direct_to_charing_cross",
-      "value": true
-    }
-  ],
-
-"columnPool": [
-    {
-      "display": "Coastal 🌊",
-      "field": "distance_band",
-      "value": "coastal"
-    },
-    {
-  "display": "70-90 mins from London",
-  "type": "range",
-  "field": "canonical_time_to_london",
-  "min": 70,
-  "max": 90
-},
-   {
-  "display": "Contains ton",
-  "type": "contains",
-  "field": "station_name",
-  "value": "ton"
-},
-{
-  "display": "Contains ham",
-  "type": "contains",
-  "field": "station_name",
-  "value": "ham"
-},
-{
-  "display": "Interchange",
-  "type": "field",
-  "field": "is_interchange",
-  "value": true
-} 
-  ]
-}
+[
+  {
+    "display": "Contains ham",
+    "type": "contains",
+    "field": "station_name",
+    "value": "ham"
+  },
+  {
+    "display": "Contains ton",
+    "type": "contains",
+    "field": "station_name",
+    "value": "ton"
+  },
+  {
+    "display": "Contains ford",
+    "type": "contains",
+    "field": "station_name",
+    "value": "ford"
+  },
+  {
+    "display": "Contains park",
+    "type": "contains",
+    "field": "station_name",
+    "value": "park"
+  },
+  {
+    "display": "Contains hill",
+    "type": "contains",
+    "field": "station_name",
+    "value": "hill"
+  },
+  {
+    "display": "Contains wood",
+    "type": "contains",
+    "field": "station_name",
+    "value": "wood"
+  },
+  {
+    "display": "Contains green",
+    "type": "contains",
+    "field": "station_name",
+    "value": "green"
+  },
+  {
+    "display": "Coastal",
+    "type": "field",
+    "field": "distance_band",
+    "value": "coastal"
+  },
+  {
+    "display": "Interchange",
+    "type": "field",
+    "field": "is_interchange",
+    "value": true
+  },
+  {
+    "display": "Terminus",
+    "type": "field",
+    "field": "is_terminus",
+    "value": true
+  },
+  {
+    "display": "Direct to Charing Cross",
+    "type": "field",
+    "field": "direct_to_charing_cross",
+    "value": true
+  },
+  {
+    "display": "Under 60 mins from London",
+    "type": "range",
+    "field": "canonical_time_to_london",
+    "max": 59
+  },
+  {
+    "display": "60-90 mins from London",
+    "type": "range",
+    "field": "canonical_time_to_london",
+    "min": 60,
+    "max": 90
+  },
+  {
+    "display": "Over 90 mins from London",
+    "type": "range",
+    "field": "canonical_time_to_london",
+    "min": 91
+  }
+]

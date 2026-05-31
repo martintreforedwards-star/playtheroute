@@ -89,6 +89,12 @@
       "max": 90
     },
     {
+  "display": "Contains park",
+  "type": "contains",
+  "field": "station_name",
+  "value": "park"
+},
+    {
       "display": "Over 90 mins from London",
       "type": "range",
       "field": "canonical_time_to_london",

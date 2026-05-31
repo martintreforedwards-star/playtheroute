@@ -37,3 +37,8 @@ Move Final Destination rules into clue system.
 12 provide visual example of completed game in how to play
 Future:
 Generate Final Destination clue from existing clue definitions.
+CODE 8 PHASE 2
+
+Introduce rowPool / columnPool.
+
+Active puzzle should use activeRows and activeColumns rather than directly reading the clue library.

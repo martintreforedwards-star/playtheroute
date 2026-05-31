@@ -1,5 +1,5 @@
 {
-  "rows": [
+  "rowPool": [
     {
       "display": "Not a terminus 🚉",
       "field": "is_terminus",

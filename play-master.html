@@ -1256,26 +1256,11 @@ if (
 
 }
 
-if (column === 0) {
+const clue =
+  activeColumns[column];
 
-  const clue =
-    activeColumns[0];
+if (clue.type === "range") {
 
-  if (
-    station[clue.field] !==
-    clue.value
-  ) {
-
-    valid = false;
-
-  }
-
-}
-if (column === 1) {
-
-  const clue =
-   activeColumns[1]
-  
   const value =
     Number(
       station[clue.field]
@@ -1291,10 +1276,10 @@ if (column === 1) {
   }
 
 }
-if (column === 2) {
 
-  const clue =
-   activeColumns[2];
+else if (
+  clue.type === "contains"
+) {
 
   const text =
     String(
@@ -1313,10 +1298,7 @@ if (column === 2) {
 
 }
 
-if (column === 3) {
-
-  const clue =
-    activeColumns[3];
+else {
 
   if (
     station[clue.field] !==

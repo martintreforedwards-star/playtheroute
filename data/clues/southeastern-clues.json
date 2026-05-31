@@ -12,7 +12,7 @@
     }
   ],
 
-  "columns": [
+"columnPool": [
     {
       "display": "Coastal 🌊",
       "field": "distance_band",

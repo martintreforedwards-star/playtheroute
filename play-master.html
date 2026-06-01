@@ -931,6 +931,53 @@ showResultsModal(false);
   );
 
 } 
+
+function columnRulePasses(station, clue) {
+
+  if (clue.type === "range") {
+    const value = Number(station[clue.field]);
+    return value >= clue.min && value <= clue.max;
+  }
+
+  if (clue.type === "contains") {
+    return String(station[clue.field])
+      .toLowerCase()
+      .includes(clue.value.toLowerCase());
+  }
+
+  return station[clue.field] === clue.value;
+}
+
+function boardIsPlayable(rows, columns) {
+
+  for (let r = 0; r < 2; r++) {
+
+    for (let c = 0; c < 4; c++) {
+
+      const matches = stations.filter(station => {
+
+        const rowPass =
+          station[rows[r].field] === rows[r].value;
+
+        const colPass =
+          columnRulePasses(station, columns[c]);
+
+        return rowPass && colPass;
+
+      });
+
+      if (matches.length === 0) {
+        return false;
+      }
+
+    }
+
+  }
+
+  return true;
+}
+
+
 Promise.all([
   fetch("data/stations/southeastern.json")
     .then(r => r.json()),
@@ -944,17 +991,31 @@ Promise.all([
 stations = stationData;
 clueLibrary = clueData;
 
-activeRows =
-  pickRandom(
-    clueLibrary.rowPool,
-    2
-  );
+let attempts = 0;
 
-activeColumns =
-  pickRandom(
-    clueLibrary.columnPool,
-    4
-  );
+do {
+
+  activeRows =
+    pickRandom(
+      clueLibrary.rowPool,
+      2
+    );
+
+  activeColumns =
+    pickRandom(
+      clueLibrary.columnPool,
+      4
+    );
+
+  attempts++;
+
+} while (
+  !boardIsPlayable(
+    activeRows,
+    activeColumns
+  ) &&
+  attempts < 1000
+);
 
 document.getElementById(
   "rowClue0"

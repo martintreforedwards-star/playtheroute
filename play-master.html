@@ -1769,6 +1769,96 @@ updateTicketDisplay();
 
 closeModal();
 
+
+let latestResultTitle = "";
+
+const originalShowResultsModal = showResultsModal;
+showResultsModal = function(win=false){
+  originalShowResultsModal(win);
+  latestResultTitle = document.getElementById("resultsClass").textContent;
+};
+
+function buildShareGrid() {
+  return boardState.map(c => c.correct ? "🟩" : "🟥").join("");
+}
+
+document.addEventListener("click", async (e) => {
+
+  if (e.target && e.target.id === "shareButton") {
+
+    const text =
+`🚆 The Route
+${latestResultTitle}
+
+🎟 Tickets Remaining: ${ticketsRemaining}
+
+${buildShareGrid().slice(0,4)}
+${buildShareGrid().slice(4,8)}
+
+https://playtheroute.uk`;
+
+    try {
+      await navigator.clipboard.writeText(text);
+      alert("Result copied to clipboard.");
+    } catch(err) {}
+  }
+
+  if (e.target && e.target.id === "shareImageButton") {
+
+    const canvas = document.createElement("canvas");
+    canvas.width = 1200;
+    canvas.height = 1200;
+
+    const ctx = canvas.getContext("2d");
+
+    ctx.fillStyle = "#07142f";
+    ctx.fillRect(0,0,1200,1200);
+
+    ctx.fillStyle = "#22c55e";
+    ctx.font = "bold 72px Arial";
+    ctx.textAlign = "center";
+    ctx.fillText("THE ROUTE",600,140);
+
+    ctx.fillStyle = "white";
+    ctx.font = "48px Arial";
+    ctx.fillText(latestResultTitle,600,250);
+
+    ctx.fillText("Tickets Remaining: " + ticketsRemaining,600,340);
+
+    const grid = buildShareGrid();
+
+    ctx.font = "100px Arial";
+    ctx.fillText(grid.slice(0,4),600,520);
+    ctx.fillText(grid.slice(4,8),600,650);
+
+    ctx.font = "40px Arial";
+    ctx.fillStyle = "#9ca3af";
+    ctx.fillText("playtheroute.uk",600,1000);
+
+    canvas.toBlob(async (blob) => {
+
+      const file = new File([blob], "the-route-score.png", {type:"image/png"});
+
+      if (navigator.canShare && navigator.canShare({files:[file]})) {
+
+        try {
+          await navigator.share({
+            files:[file],
+            title:"The Route"
+          });
+          return;
+        } catch(err) {}
+      }
+
+      const link = document.createElement("a");
+      link.href = URL.createObjectURL(blob);
+      link.download = "the-route-score.png";
+      link.click();
+
+    });
+  }
+});
+
 </script>
 
 
@@ -1778,6 +1868,16 @@ closeModal();
     <div id="resultsClass" style="font-size:1.6rem;font-weight:700;margin:16px 0;"></div>
     <div id="resultsDesc" style="margin-bottom:12px;"></div>
     <div id="resultsTickets"></div>
+    <div style="display:flex;gap:12px;justify-content:center;flex-wrap:wrap;margin-top:20px;">
+      <button class="submit-button" id="shareButton" style="min-width:auto;padding:12px 20px;font-size:1rem;">
+        Share Result
+      </button>
+
+      <button class="submit-button" id="shareImageButton" style="min-width:auto;padding:12px 20px;font-size:1rem;">
+        Share Image
+      </button>
+    </div>
+
     <button class="submit-button" onclick="document.getElementById('resultsModal').style.display='none'" style="margin-top:20px;">
       Close
     </button>

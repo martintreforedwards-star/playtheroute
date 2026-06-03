@@ -42,3 +42,4 @@ CODE 8 PHASE 2
 Introduce rowPool / columnPool.
 
 Active puzzle should use activeRows and activeColumns rather than directly reading the clue library.
+add Cloudflare Web Analytics.

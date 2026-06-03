@@ -1,3 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Routepedia | The Route</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+<style>
+*{box-sizing:border-box}
+
+body{
+margin:0;
+font-family:'Inter',sans-serif;
+background:radial-gradient(circle at top,#0b1836 0%,#030817 45%,#01040d 100%);
+color:white;
+min-height:100vh;
+}
+
+.container{
+max-width:820px;
+margin:auto;
+padding:40px 20px 80px;
+}
+
+.header{
+text-align:center;
+margin-bottom:30px;
+}
+
+.logo{
+width:90px;
+margin-bottom:12px;
+}
+
+h1{
+margin:0;
+font-size:2.6rem;
+}
+
+.subtitle{
+margin-top:10px;
+color:#9ca3af;
+}
+
+.content-card{
+background:#111827;
+border:2px solid #1e3a8a;
+border-radius:20px;
+padding:32px;
+}
+
+.notice{
+background:rgba(245,158,11,.15);
+border-left:4px solid #fbbf24;
+border-radius:12px;
+padding:18px 20px;
+margin-bottom:30px;
+color:#fde68a;
+font-weight:600;
+line-height:1.8;
+}
+
+h2{
+margin-top:32px;
+margin-bottom:14px;
+}
+
+p, li{
+line-height:1.9;
+color:#d1d5db;
+}
+
+ul{
+padding-left:22px;
+}
+
+.back-button{
+display:inline-block;
+margin-top:20px;
+background:#22c55e;
+color:white;
+text-decoration:none;
+font-weight:700;
+padding:14px 22px;
+border-radius:14px;
+}
+
+.footer{
+margin-top:30px;
+color:#9ca3af;
+font-size:.9rem;
+}
+
+@media(max-width:700px){
+h1{font-size:2rem;}
+.content-card{padding:22px;}
+.logo{width:72px;}
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+<div class="header">
+<img src="logo.svg" alt="The Route Logo" class="logo">
+
+<h1>Routepedia</h1>
+
+<div class="subtitle">
+Britain's railways, one station at a time.
+</div>
+</div>
+
+<div class="content-card">
+
+<div class="notice">
+🚧 Routepedia is currently waiting at the platform.
+</div>
+
+<p>
+Routepedia will become The Route's growing collection of station facts,
+route histories, railway curiosities, network guides, and hidden stories
+from across Britain's commuter railways.
+</p>
+
+<p>
+We're still laying the track, but future editions may include:
+</p>
+
+<ul>
+<li>Station profiles</li>
+<li>Route histories</li>
+<li>Terminus guides</li>
+<li>Railway curiosities</li>
+<li>Network maps</li>
+<li>Featured stations</li>
+<li>Community-submitted facts</li>
+</ul>
+
+<h2>💡 Have an idea?</h2>
+
+<p>
+Have an idea for Routepedia, discovered an interesting railway fact,
+or know a station with a story worth telling?
+</p>
+
+<p>
+We'd love to hear from you.
+</p>
+
+<p>
+📧 <strong>hello@playtheroute.uk</strong>
+</p>
+
+<h2>🚉 Next Service</h2>
+
+<p>
+Thank you for your patience while we prepare the next service.
+Routepedia will be arriving in a future update.
+</p>
+
+<a href="index.html" class="back-button">
+← Return to The Route
+</a>
+
+<div class="footer">
+Last updated: June 2026
+</div>
+
+</div>
+</div>
+
+</body>
+</html>
 
 INTERCHANGE
 A Route Interchange is a station served by two or more distinct Route lines.

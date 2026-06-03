@@ -1,925 +1,289 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-
 <meta charset="UTF-8">
-
-<meta
-  name="viewport"
-  content="width=device-width, initial-scale=1.0">
-
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>The Route</title>
 
-<link
-  href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap"
-  rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
 
 <style>
-
-* {
-  box-sizing: border-box;
+*{box-sizing:border-box}
+body{
+margin:0;
+font-family:'Inter',sans-serif;
+background:radial-gradient(circle at top,#0b1836 0%,#030817 45%,#01040d 100%);
+color:white;
+min-height:100vh;
 }
 
-body {
-
-  margin: 0;
-
-  font-family: 'Inter', sans-serif;
-
-  background:
-    radial-gradient(
-      circle at top,
-      #0b1836 0%,
-      #030817 45%,
-      #01040d 100%
-    );
-
-  color: white;
-
-  min-height: 100vh;
-
+.container{
+width:100%;
+max-width:520px;
+margin:auto;
+padding:28px 18px 40px;
 }
 
-.container {
+/* SLIDE MENU */
 
-  width: 100%;
-  max-width: 520px;
+.menu-button{
+background:none;
+border:none;
+color:white;
+font-size:2rem;
+cursor:pointer;
+padding:0;
+margin-right:8px;
+}
 
-  margin: auto;
+.side-menu{
+position:fixed;
+top:0;
+left:-300px;
+width:280px;
+height:100vh;
+background:#111827;
+border-right:2px solid #1e3a8a;
+transition:left .3s ease;
+z-index:2000;
+padding-top:80px;
+}
 
-  padding: 28px 18px 40px;
+.side-menu.open{
+left:0;
+}
 
+.side-menu a{
+display:block;
+padding:16px 24px;
+color:white;
+text-decoration:none;
+border-bottom:1px solid rgba(255,255,255,.08);
+}
+
+.side-menu a:hover{
+background:#1e3a8a;
+}
+
+.menu-overlay{
+position:fixed;
+inset:0;
+background:rgba(0,0,0,.55);
+display:none;
+z-index:1500;
+}
+
+.menu-overlay.show{
+display:block;
 }
 
 /* HEADER */
 
-.header {
-
-  display: flex;
-
-  align-items: center;
-
-  justify-content: center;
-
-  gap: 18px;
-
-  margin-bottom: 26px;
-
+.header{
+display:flex;
+align-items:center;
+gap:18px;
+margin-bottom:26px;
 }
 
-.logo {
+.logo{width:82px;flex-shrink:0}
 
-  width: 82px;
-
-  flex-shrink: 0;
-
+.header-text{
+display:flex;
+flex-direction:column;
+justify-content:center;
 }
 
-.header-text {
-
-  display: flex;
-
-  flex-direction: column;
-
-  justify-content: center;
-
+h1{
+margin:0;
+font-size:2.8rem;
+line-height:1;
+letter-spacing:-1px;
 }
 
-h1 {
+.tm{font-size:.35em;vertical-align:top}
+.subtitle{margin-top:8px;color:#9ca3af}
 
-  margin: 0;
-
-  font-size: 2.8rem;
-
-  line-height: 1;
-
-  letter-spacing: -1px;
-
+.announcement{
+background:#111827;
+border:2px solid #1e3a8a;
+border-radius:18px;
+padding:18px;
+margin-bottom:26px;
+line-height:1.6;
+color:#d1d5db;
 }
 
-.tm {
-
-  font-size: 0.35em;
-
-  vertical-align: top;
-
-  margin-left: 2px;
-
-  opacity: 0.8;
-
+.network-selector{margin-bottom:26px}
+.network-selector label{display:block;margin-bottom:10px;font-weight:600}
+select{
+width:100%;
+padding:16px;
+border-radius:16px;
+border:2px solid #1e3a8a;
+background:#111827;
+color:white;
 }
 
-.subtitle {
-
-  margin-top: 8px;
-
-  color: #9ca3af;
-
-  font-size: 1rem;
-
+.stamp-box{
+margin-top:16px;
+background:#111827;
+border:2px dashed #2563eb;
+border-radius:16px;
+padding:16px;
+text-align:center;
+font-weight:700;
+cursor:pointer;
 }
 
-/* ANNOUNCEMENT */
-
-.announcement {
-
-  background: #111827;
-
-  border: 2px solid #1e3a8a;
-
-  border-radius: 18px;
-
-  padding: 18px;
-
-  margin-bottom: 26px;
-
-  line-height: 1.6;
-
-  color: #d1d5db;
-
-  font-size: 0.95rem;
-
+.stamp-box.active{
+background:rgba(0,80,40,.9);
+border-color:#22c55e;
 }
 
-/* NETWORK SELECTOR */
-
-.network-selector {
-
-  margin-bottom: 26px;
-
+.mode-grid{
+display:grid;
+grid-template-columns:1fr 1fr;
+gap:14px;
 }
 
-.network-selector label {
-
-  display: block;
-
-  margin-bottom: 10px;
-
-  font-size: 0.95rem;
-
-  font-weight: 600;
-
-  color: #d1d5db;
-
+.mode-card{
+background:#111827;
+border:2px solid #1e3a8a;
+border-radius:18px;
+padding:18px;
+cursor:pointer;
 }
 
-select {
-
-  width: 100%;
-
-  padding: 16px;
-
-  border-radius: 16px;
-
-  border: 2px solid #1e3a8a;
-
-  background: #111827;
-
-  color: white;
-
-  font-size: 1rem;
-
-  font-family: inherit;
-
+.mode-card.active{
+border-color:#22c55e;
+background:rgba(0,80,40,.9);
 }
 
-optgroup {
-
-  font-weight: 700;
-
+.play-button{
+display:block;
+width:100%;
+text-align:center;
+background:#22c55e;
+color:white;
+text-decoration:none;
+font-weight:700;
+padding:18px;
+border-radius:18px;
+margin:20px 0 14px;
 }
 
-option {
+.network-status{text-align:center;font-weight:600}
+.network-status.live{color:#22c55e}
+.network-status.locked{color:#fbbf24}
 
-  font-size: 0.95rem;
-
+.footer-text{
+text-align:center;
+color:#6b7280;
+font-size:.82rem;
+line-height:1.8;
+margin-top:24px;
 }
 
-/* STAMP */
+.footer-text a{color:#9ca3af;text-decoration:none}
 
-.stamp-box {
-
-  margin-top: 16px;
-
-  background: #111827;
-
-  border: 2px dashed #2563eb;
-
-  border-radius: 16px;
-
-  padding: 16px;
-
-  text-align: center;
-
-  font-weight: 700;
-
-  color: #d1d5db;
-
-  cursor: pointer;
-
-  transition: 0.2s;
-
+@media(max-width:700px){
+.logo{width:68px}
+h1{font-size:2.2rem}
+.mode-grid{grid-template-columns:1fr}
 }
-
-.stamp-box:hover {
-
-  border-color: #22c55e;
-
-}
-
-.stamp-box.active {
-
-  background: rgba(0,80,40,0.9);
-
-  border-color: #22c55e;
-
-  color: #dcfce7;
-
-}
-
-/* GAME MODES */
-
-.mode-section {
-
-  margin-bottom: 26px;
-
-}
-
-.mode-title {
-
-  margin-bottom: 14px;
-
-  font-size: 0.95rem;
-
-  font-weight: 600;
-
-  color: #d1d5db;
-
-}
-
-.mode-grid {
-
-  display: grid;
-
-  grid-template-columns: 1fr 1fr;
-
-  gap: 14px;
-
-}
-
-.mode-card {
-
-  background: #111827;
-
-  border: 2px solid #1e3a8a;
-
-  border-radius: 18px;
-
-  padding: 18px;
-
-  cursor: pointer;
-
-  transition: 0.2s;
-
-}
-
-.mode-card:hover {
-
-  border-color: #22c55e;
-
-}
-
-.mode-card.active {
-
-  border-color: #22c55e;
-
-  background: rgba(0,80,40,0.9);
-
-}
-
-.mode-card h3 {
-
-  margin-top: 0;
-
-  margin-bottom: 12px;
-
-  font-size: 1rem;
-
-}
-
-.mode-card p {
-
-  margin: 0;
-
-  color: #d1d5db;
-
-  font-size: 0.9rem;
-
-  line-height: 1.6;
-
-}
-
-/* PLAY BUTTON */
-
-.play-button {
-
-  display: block;
-
-  width: 100%;
-
-  text-align: center;
-
-  background: #22c55e;
-
-  color: white;
-
-  text-decoration: none;
-
-  font-weight: 700;
-
-  font-size: 1rem;
-
-  padding: 18px;
-
-  border-radius: 18px;
-
-  margin-bottom: 14px;
-
-  transition: 0.2s;
-
-}
-
-.play-button:hover {
-
-  opacity: 0.9;
-
-}
-
-.play-button.locked {
-
-  background: #374151;
-
-  opacity: 0.85;
-
-}
-
-/* NETWORK STATUS */
-
-.network-status {
-
-  margin-bottom: 24px;
-
-  text-align: center;
-
-  font-size: 0.9rem;
-
-  font-weight: 600;
-
-}
-
-.network-status.live {
-
-  color: #22c55e;
-
-}
-
-.network-status.locked {
-
-  color: #fbbf24;
-
-}
-
-/* FOOTER */
-
-.footer-text {
-
-  text-align: center;
-
-  color: #6b7280;
-
-  font-size: 0.82rem;
-
-  line-height: 1.8;
-
-}
-
-.footer-text a {
-
-  color: #9ca3af;
-
-  text-decoration: none;
-
-  transition: 0.2s;
-
-}
-
-.footer-text a:hover {
-
-  color: #22c55e;
-
-}
-
-/* MOBILE */
-
-@media (max-width: 700px) {
-
-  .container {
-
-    padding-top: 22px;
-
-  }
-
-  .header {
-
-    gap: 14px;
-
-    margin-bottom: 22px;
-
-  }
-
-  .logo {
-
-    width: 68px;
-
-  }
-
-  h1 {
-
-    font-size: 2.2rem;
-
-  }
-
-  .subtitle {
-
-    font-size: 0.88rem;
-
-  }
-
-  .announcement {
-
-    padding: 16px;
-
-    font-size: 0.9rem;
-
-  }
-
-  select {
-
-    font-size: 0.92rem;
-
-    padding: 14px;
-
-  }
-
-  option {
-
-    font-size: 0.9rem;
-
-  }
-
-  .mode-grid {
-
-    grid-template-columns: 1fr;
-
-  }
-
-}
-
 </style>
-
 </head>
-
 <body>
+
+<div id="overlay" class="menu-overlay"></div>
+
+<nav id="sideMenu" class="side-menu">
+<a href="what-is-the-route.html">What is The Route?</a>
+<a href="contact.html">Get in touch</a>
+<a href="support-us.html">Support us</a>
+<a href="rules.html">Rules</a>
+<a href="routepedia.html">Routepedia</a>
+<a href="privacy.html">Privacy</a>
+<a href="disclaimer.html">Disclaimer</a>
+</nav>
 
 <div class="container">
 
-  <!-- HEADER -->
-
-  <div class="header">
-
-    <img
-      src="logo.svg"
-      alt="The Route Logo"
-      class="logo">
-
-    <div class="header-text">
-
-      <h1>
-        The Route
-        <span class="tm">™</span>
-      </h1>
-
-      <div class="subtitle">
-
-        Build the route. Find the pattern.
-
-      </div>
-
-    </div>
-
-  </div>
-
-  <!-- ANNOUNCEMENT -->
-
-  <div class="announcement">
-
-    🚉 Service update:
-    Southeastern services are now live.
-    Additional commuter networks arriving soon.
-
-  </div>
-
-  <!-- NETWORK SELECTOR -->
-
-  <div class="network-selector">
-
-    <label for="network">
-
-      Choose your commuter network
-
-    </label>
-
-    <select id="network">
-
-      <optgroup label="Govia Thameslink Railway (GTR)">
-
-        <option>Thameslink</option>
-        <option>Southern</option>
-        <option>Great Northern</option>
-        <option>Gatwick Express</option>
-
-      </optgroup>
-
-      <optgroup label="Southeastern">
-
-        <option>Southeastern Metro</option>
-        <option>Southeastern Mainline</option>
-
-      </optgroup>
-
-      <optgroup label="Greater Anglia">
-
-        <option>Greater Anglia</option>
-        <option>c2c</option>
-
-      </optgroup>
-
-      <optgroup label="Other Networks">
-
-        <option>South Western Railway</option>
-        <option>Chiltern Railways</option>
-        <option>Great Western Railway</option>
-        <option>East Midlands Railway</option>
-        <option>LNER</option>
-
-      </optgroup>
-
-    </select>
-
-    <div
-      id="stampBox"
-      class="stamp-box">
-
-      🎟 Stamp regular route
-
-    </div>
-
-  </div>
-
-  <!-- GAME MODES -->
-
-  <div class="mode-section">
-
-    <div class="mode-title">
-
-      Choose your journey mode
-
-    </div>
-
-    <div class="mode-grid">
-
-      <div
-        class="mode-card active"
-        data-mode="standard">
-
-        <h3>
-          🎟 Standard Ticket
-        </h3>
-
-        <p>
-          Relaxed journey mode.<br>
-          6 tickets. No timer.
-        </p>
-
-      </div>
-
-      <div
-        class="mode-card"
-        data-mode="express">
-
-        <h3>
-          ⏱ Express Service
-        </h3>
-
-        <p>
-          Beat the clock before departure.<br>
-          Timed challenge mode.
-        </p>
-
-      </div>
-
-    </div>
-
-  </div>
-
-  <!-- PLAY BUTTON -->
-
-  <a
-    href="#"
-    id="playButton"
-    class="play-button">
-
-    Play today's route
-
-  </a>
-
-  <!-- NETWORK STATUS -->
-
-  <div
-    id="networkStatus"
-    class="network-status">
-
-    🟢 Live now — Southeastern puzzles available
-
-  </div>
-
-  <!-- FOOTER -->
-
-  <div class="footer-text">
-
-  Built for UK commuters.
-
-  <br><br>
-
-  <a href="https://x.com/playtheroute" target="_blank">X</a>
-  •
-  <a href="https://www.instagram.com/playtheroute?igsh=anpjb2J5NHR4Z2lr" target="_blank">Instagram</a>
-  •
-  <a href="https://www.tiktok.com/@the.route2?_r=1&_t=ZN-96kXeMFBhnq" target="_blank">TikTok</a>
-
+<div class="header">
+<button id="menuButton" class="menu-button">☰</button>
+
+<img src="logo.svg" alt="The Route Logo" class="logo">
+
+<div class="header-text">
+<h1>The Route <span class="tm">™</span></h1>
+<div class="subtitle">Build the route. Find the pattern.</div>
+</div>
+</div>
+
+<div class="announcement">
+🚉 Service update: Southeastern services are now live. Additional commuter networks arriving soon.
+</div>
+
+<div class="network-selector">
+<label for="network">Choose your commuter network</label>
+
+<select id="network">
+<optgroup label="Govia Thameslink Railway (GTR)">
+<option>Thameslink</option>
+<option>Southern</option>
+<option>Great Northern</option>
+<option>Gatwick Express</option>
+</optgroup>
+
+<optgroup label="Southeastern">
+<option>Southeastern Metro</option>
+<option>Southeastern Mainline</option>
+</optgroup>
+</select>
+
+<div id="stampBox" class="stamp-box">🎟 Stamp regular route</div>
+</div>
+
+<div class="mode-grid">
+<div class="mode-card active">
+<h3>🎟 Standard Ticket</h3>
+<p>Relaxed journey mode.<br>6 tickets. No timer.</p>
+</div>
+
+<div class="mode-card">
+<h3>⏱ Express Service</h3>
+<p>Beat the clock before departure.<br>Timed challenge mode.</p>
+</div>
+</div>
+
+<a href="#" class="play-button">Play today's route</a>
+
+<div id="networkStatus" class="network-status live">
+🟢 Live now — Southeastern puzzles available
+</div>
+
+<div class="footer-text">
+Built for UK commuters.
 </div>
 
 </div>
 
 <script>
+const menuButton=document.getElementById("menuButton");
+const sideMenu=document.getElementById("sideMenu");
+const overlay=document.getElementById("overlay");
 
-const network =
-  document.getElementById(
-    "network"
-  );
-
-const stampBox =
-  document.getElementById(
-    "stampBox"
-  );
-
-const modeCards =
-  document.querySelectorAll(
-    ".mode-card"
-  );
-
-const playButton =
-  document.getElementById(
-    "playButton"
-  );
-
-const networkStatus =
-  document.getElementById(
-    "networkStatus"
-  );
-
-/* LIVE NETWORKS */
-
-const liveNetworks = [
-
-  "Southeastern Metro",
-  "Southeastern Mainline"
-
-];
-
-/* UPDATE NETWORK STATUS */
-
-function updateNetworkState() {
-
-  const selected =
-    network.value;
-
-  const isLive =
-    liveNetworks.includes(
-      selected
-    );
-
-  if (isLive) {
-
-    playButton.classList.remove(
-      "locked"
-    );
-
-    networkStatus.classList.remove(
-      "locked"
-    );
-
-    networkStatus.classList.add(
-      "live"
-    );
-
-    networkStatus.innerHTML =
-      "🟢 Live now — Southeastern puzzles available";
-
-  } else {
-
-    playButton.classList.add(
-      "locked"
-    );
-
-    networkStatus.classList.remove(
-      "live"
-    );
-
-    networkStatus.classList.add(
-      "locked"
-    );
-
-    networkStatus.innerHTML =
-      "🟡 This network is waiting at the platform";
-
-  }
-
-}
-
-/* INITIAL LOAD */
-
-updateNetworkState();
-
-/* NETWORK CHANGE */
-
-network.addEventListener(
-  "change",
-  updateNetworkState
-);
-
-/* LOAD SAVED NETWORK */
-
-const savedNetwork =
-  localStorage.getItem(
-    "routeNetwork"
-  );
-
-if (savedNetwork) {
-
-  network.value =
-    savedNetwork;
-
-  stampBox.classList.add(
-    "active"
-  );
-
-  stampBox.innerHTML =
-    "🎟 ✔ REGULAR ROUTE STAMPED";
-
-  updateNetworkState();
-
-}
-
-/* STAMP BUTTON */
-
-stampBox.addEventListener(
-  "click",
-  () => {
-
-    if (!network.value) {
-
-      alert(
-        "Please select a commuter network first."
-      );
-
-      return;
-
-    }
-
-    localStorage.setItem(
-      "routeNetwork",
-      network.value
-    );
-
-    stampBox.classList.add(
-      "active"
-    );
-
-    stampBox.innerHTML =
-      "🎟 ✔ REGULAR ROUTE STAMPED";
-
-  }
-
-);
-
-/* GAME MODES */
-
-modeCards.forEach(card => {
-
-  card.addEventListener(
-    "click",
-    () => {
-
-      modeCards.forEach(c =>
-        c.classList.remove(
-          "active"
-        )
-      );
-
-      card.classList.add(
-        "active"
-      );
-
-      localStorage.setItem(
-        "routeMode",
-        card.dataset.mode
-      );
-
-    }
-
-  );
-
+menuButton.addEventListener("click",()=>{
+sideMenu.classList.add("open");
+overlay.classList.add("show");
 });
 
-/* LOAD SAVED MODE */
-
-const savedMode =
-  localStorage.getItem(
-    "routeMode"
-  );
-
-if (savedMode) {
-
-  modeCards.forEach(card => {
-
-    card.classList.remove(
-      "active"
-    );
-
-    if (
-      card.dataset.mode
-        === savedMode
-    ) {
-
-      card.classList.add(
-        "active"
-      );
-
-    }
-
-  });
-
-}
-
-/* PLAY BUTTON ROUTING */
-
-playButton.addEventListener(
-  "click",
-  (e) => {
-
-    e.preventDefault();
-
-    const selected =
-      network.value;
-
-    const selectedMode =
-      localStorage.getItem(
-        "routeMode"
-      ) || "standard";
-
-    if (
-      liveNetworks.includes(
-        selected
-      )
-    ) {
-
-      window.location.href =
-        `play-master.html?mode=${selectedMode}`;
-
-    } else {
-
-      window.location.href =
-        "waiting-room.html";
-
-    }
-
-  }
-);
-
+overlay.addEventListener("click",()=>{
+sideMenu.classList.remove("open");
+overlay.classList.remove("show");
+});
 </script>
 
 </body>
-
 </html>

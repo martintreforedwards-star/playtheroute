@@ -1,0 +1,248 @@
+[
+  {
+    "landmark": "Allhallows-on-Sea",
+    "closest_station": "Sheerness-on-Sea",
+    "distance_km": 9.13,
+    "difficulty": "hard"
+  },
+  {
+    "landmark": "Biggin Hill Airport",
+    "closest_station": "Hayes",
+    "distance_km": 5.29,
+    "difficulty": "hard"
+  },
+  {
+    "landmark": "British Museum",
+    "closest_station": "Charing Cross",
+    "distance_km": 1.27,
+    "difficulty": "medium"
+  },
+  {
+    "landmark": "Canvey Island",
+    "closest_station": "Higham (Kent)",
+    "distance_km": 13.04,
+    "difficulty": "hard"
+  },
+  {
+    "landmark": "Capstone Farm Country Park",
+    "closest_station": "Rainham (Kent)",
+    "distance_km": 3.75,
+    "difficulty": "hard"
+  },
+  {
+    "landmark": "Chatham Historic Dockyard",
+    "closest_station": "Gillingham (Kent)",
+    "distance_km": 1.96,
+    "difficulty": "medium"
+  },
+  {
+    "landmark": "Cliffe Pools",
+    "closest_station": "Higham (Kent)",
+    "distance_km": 2.77,
+    "difficulty": "medium"
+  },
+  {
+    "landmark": "Covent Garden",
+    "closest_station": "Charing Cross",
+    "distance_km": 0.41,
+    "difficulty": "easy"
+  },
+  {
+    "landmark": "Fort Amherst",
+    "closest_station": "Chatham (Kent)",
+    "distance_km": 1.04,
+    "difficulty": "medium"
+  },
+  {
+    "landmark": "Gillingham Strand",
+    "closest_station": "Gillingham (Kent)",
+    "distance_km": 1.02,
+    "difficulty": "medium"
+  },
+  {
+    "landmark": "Gravesend Town Pier",
+    "closest_station": "Gravesend",
+    "distance_km": 0.03,
+    "difficulty": "easy"
+  },
+  {
+    "landmark": "Hoo Peninsula",
+    "closest_station": "Gillingham (Kent)",
+    "distance_km": 3.72,
+    "difficulty": "hard"
+  },
+  {
+    "landmark": "Hyde Park",
+    "closest_station": "London Victoria",
+    "distance_km": 1.98,
+    "difficulty": "medium"
+  },
+  {
+    "landmark": "Isle of Grain",
+    "closest_station": "Sheerness-on-Sea",
+    "distance_km": 4.18,
+    "difficulty": "hard"
+  },
+  {
+    "landmark": "Joss Bay",
+    "closest_station": "Broadstairs",
+    "distance_km": 2.21,
+    "difficulty": "medium"
+  },
+  {
+    "landmark": "Leigh-on-Sea",
+    "closest_station": "Sheerness-on-Sea",
+    "distance_km": 13.39,
+    "difficulty": "hard"
+  },
+  {
+    "landmark": "Margate Harbour",
+    "closest_station": "Margate",
+    "distance_km": 0.97,
+    "difficulty": "easy"
+  },
+  {
+    "landmark": "Medway Tunnel",
+    "closest_station": "Rochester",
+    "distance_km": 1.39,
+    "difficulty": "medium"
+  },
+  {
+    "landmark": "Minnis Bay Birchington",
+    "closest_station": "Birchington-on-Sea",
+    "distance_km": 0.63,
+    "difficulty": "easy"
+  },
+  {
+    "landmark": "North Foreland Lighthouse",
+    "closest_station": "Broadstairs",
+    "distance_km": 1.87,
+    "difficulty": "medium"
+  },
+  {
+    "landmark": "Palm Bay",
+    "closest_station": "Margate",
+    "distance_km": 2.69,
+    "difficulty": "medium"
+  },
+  {
+    "landmark": "Pegwell Bay",
+    "closest_station": "Thanet Parkway",
+    "distance_km": 0.58,
+    "difficulty": "easy"
+  },
+  {
+    "landmark": "Piccadilly Circus",
+    "closest_station": "Charing Cross",
+    "distance_km": 0.68,
+    "difficulty": "easy"
+  },
+  {
+    "landmark": "Rainham Marshes",
+    "closest_station": "Belvedere",
+    "distance_km": 1.1,
+    "difficulty": "medium"
+  },
+  {
+    "landmark": "RainhamKent",
+    "closest_station": "Rainham (Kent)",
+    "distance_km": 0.38,
+    "difficulty": "easy"
+  },
+  {
+    "landmark": "Ramsgate Royal Harbour",
+    "closest_station": "Ramsgate",
+    "distance_km": 0.98,
+    "difficulty": "easy"
+  },
+  {
+    "landmark": "Rochester Cathedral",
+    "closest_station": "Rochester",
+    "distance_km": 0.64,
+    "difficulty": "easy"
+  },
+  {
+    "landmark": "Somerset House",
+    "closest_station": "Charing Cross",
+    "distance_km": 0.72,
+    "difficulty": "easy"
+  },
+  {
+    "landmark": "Southend Pier",
+    "closest_station": "Sheerness-on-Sea",
+    "distance_km": 10.69,
+    "difficulty": "hard"
+  },
+  {
+    "landmark": "St Mary's Island",
+    "closest_station": "Rochester",
+    "distance_km": 1.94,
+    "difficulty": "medium"
+  },
+  {
+    "landmark": "St Paul's Cathedral",
+    "closest_station": "City Thameslink",
+    "distance_km": 0.36,
+    "difficulty": "easy"
+  },
+  {
+    "landmark": "Stone Bay",
+    "closest_station": "Broadstairs",
+    "distance_km": 1.01,
+    "difficulty": "medium"
+  },
+  {
+    "landmark": "Thames Barrier",
+    "closest_station": "Woolwich Dockyard",
+    "distance_km": 0.74,
+    "difficulty": "easy"
+  },
+  {
+    "landmark": "The Shard",
+    "closest_station": "London Bridge",
+    "distance_km": 0.06,
+    "difficulty": "easy"
+  },
+  {
+    "landmark": "Tilbury Fort",
+    "closest_station": "Gravesend",
+    "distance_km": 1.13,
+    "difficulty": "medium"
+  },
+  {
+    "landmark": "Trafalgar Square",
+    "closest_station": "Charing Cross",
+    "distance_km": 0.23,
+    "difficulty": "easy"
+  },
+  {
+    "landmark": "Upchurch Marshes",
+    "closest_station": "Newington",
+    "distance_km": 1.3,
+    "difficulty": "medium"
+  },
+  {
+    "landmark": "Viking Bay Broadstairs",
+    "closest_station": "Broadstairs",
+    "distance_km": 0.42,
+    "difficulty": "easy"
+  },
+  {
+    "landmark": "Waterloo Station",
+    "closest_station": "Waterloo East",
+    "distance_km": 0.38,
+    "difficulty": "easy"
+  },
+  {
+    "landmark": "Westgate-on-Sea",
+    "closest_station": "Westgate-on-Sea",
+    "distance_km": 0.18,
+    "difficulty": "easy"
+  },
+  {
+    "landmark": "Westminster Abbey",
+    "closest_station": "Charing Cross",
+    "distance_km": 0.99,
+    "difficulty": "easy"
+  }
+]

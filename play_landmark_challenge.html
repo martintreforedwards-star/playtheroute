@@ -985,14 +985,18 @@ Promise.all([
     .then(r => r.json()),
 
   fetch("data/landmark-challenges.json")
+    .then(r => r.json()),
+
+  fetch("data/station-facts.json")
     .then(r => r.json())
 ])
 
-.then(([stationData, clueData, landmarkData]) => {
+.then(([stationData, clueData, landmarkData, factData]) => {
 
 stations = stationData;
 clueLibrary = clueData;
 landmarkChallenges = landmarkData;
+stationFacts = factData;
 
 let attempts = 0;
 
@@ -1260,6 +1264,16 @@ option.onclick = () => {
     });
 
 }
+  function getStationFact(stationName) {
+
+  const match =
+    stationFacts.find(
+      f =>
+        f.station &&
+        f.station.toLowerCase() ===
+        stationName.toLowerCase()
+    );
+
 function showResultsModal(win = false) {
 
   let title =
@@ -1769,7 +1783,28 @@ updateTicketDisplay();
       "🎟 RETURN TICKET EARNED";
 
     showResultsModal(true);
+    document.getElementById(
+  "bonusSelectButton"
+).style.display = "none";
 
+document.getElementById(
+  "claimTicketButton"
+).style.display = "none";
+
+document.getElementById(
+  "bonusSelectedStation"
+).style.display = "none";
+const fact =
+  getStationFact(
+    selectedBonusStation.station_name
+  );
+
+document.getElementById(
+  "stationFact"
+).innerHTML =
+  fact
+    ? `<strong>Station fact:</strong><br>${fact}`
+    : "";
     document.getElementById(
       "claimTicketButton"
     ).disabled = true;
@@ -1876,6 +1911,16 @@ https://playtheroute.uk`;
     <div id="resultsClass" style="font-size:1.6rem;font-weight:700;margin:16px 0;"></div>
     <div id="resultsDesc" style="margin-bottom:12px;"></div>
     <div id="resultsTickets"></div>
+    <div
+  id="stationFact"
+  style="
+    margin-top:20px;
+    padding:16px;
+    border-radius:16px;
+    background:rgba(255,255,255,0.05);
+    line-height:1.6;
+  ">
+</div>
     <div style="display:flex;gap:12px;justify-content:center;flex-wrap:wrap;margin-top:20px;">
       <button class="submit-button" id="shareButton" style="min-width:auto;padding:12px 20px;font-size:1rem;">
         Share Result

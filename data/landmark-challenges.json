@@ -1,7 +1,7 @@
 [
   {
     "landmark": "Allhallows-on-Sea",
-    "closest_station": "Sheerness-on-Sea",
+    "closest_station": "Sheerness-On-Sea",
     "distance_km": 9.13,
     "difficulty": "hard"
   },
@@ -13,13 +13,13 @@
   },
   {
     "landmark": "British Museum",
-    "closest_station": "Charing Cross",
+    "closest_station": "London Charing Cross",
     "distance_km": 1.27,
     "difficulty": "medium"
   },
   {
     "landmark": "Canvey Island",
-    "closest_station": "Higham (Kent)",
+    "closest_station": "Higham",
     "distance_km": 13.04,
     "difficulty": "hard"
   },
@@ -37,19 +37,19 @@
   },
   {
     "landmark": "Cliffe Pools",
-    "closest_station": "Higham (Kent)",
+    "closest_station": "Higham",
     "distance_km": 2.77,
     "difficulty": "medium"
   },
   {
     "landmark": "Covent Garden",
-    "closest_station": "Charing Cross",
+    "closest_station": "London Charing Cross",
     "distance_km": 0.41,
     "difficulty": "easy"
   },
   {
     "landmark": "Fort Amherst",
-    "closest_station": "Chatham (Kent)",
+    "closest_station": "Chatham",
     "distance_km": 1.04,
     "difficulty": "medium"
   },
@@ -79,7 +79,7 @@
   },
   {
     "landmark": "Isle of Grain",
-    "closest_station": "Sheerness-on-Sea",
+    "closest_station": "Sheerness-On-Sea",
     "distance_km": 4.18,
     "difficulty": "hard"
   },
@@ -91,7 +91,7 @@
   },
   {
     "landmark": "Leigh-on-Sea",
-    "closest_station": "Sheerness-on-Sea",
+    "closest_station": "Sheerness-On-Sea",
     "distance_km": 13.39,
     "difficulty": "hard"
   },
@@ -109,7 +109,7 @@
   },
   {
     "landmark": "Minnis Bay Birchington",
-    "closest_station": "Birchington-on-Sea",
+    "closest_station": "Birchington-On-Sea",
     "distance_km": 0.63,
     "difficulty": "easy"
   },
@@ -133,7 +133,7 @@
   },
   {
     "landmark": "Piccadilly Circus",
-    "closest_station": "Charing Cross",
+    "closest_station": "London Charing Cross",
     "distance_km": 0.68,
     "difficulty": "easy"
   },
@@ -163,13 +163,13 @@
   },
   {
     "landmark": "Somerset House",
-    "closest_station": "Charing Cross",
+    "closest_station": "London Charing Cross",
     "distance_km": 0.72,
     "difficulty": "easy"
   },
   {
     "landmark": "Southend Pier",
-    "closest_station": "Sheerness-on-Sea",
+    "closest_station": "Sheerness-On-Sea",
     "distance_km": 10.69,
     "difficulty": "hard"
   },
@@ -211,7 +211,7 @@
   },
   {
     "landmark": "Trafalgar Square",
-    "closest_station": "Charing Cross",
+    "closest_station": "London Charing Cross",
     "distance_km": 0.23,
     "difficulty": "easy"
   },
@@ -229,19 +229,19 @@
   },
   {
     "landmark": "Waterloo Station",
-    "closest_station": "Waterloo East",
+    "closest_station": "London Waterloo (East)",
     "distance_km": 0.38,
     "difficulty": "easy"
   },
   {
     "landmark": "Westgate-on-Sea",
-    "closest_station": "Westgate-on-Sea",
+    "closest_station": "Westgate-On-Sea",
     "distance_km": 0.18,
     "difficulty": "easy"
   },
   {
     "landmark": "Westminster Abbey",
-    "closest_station": "Charing Cross",
+    "closest_station": "London Charing Cross",
     "distance_km": 0.99,
     "difficulty": "easy"
   }

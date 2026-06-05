@@ -783,7 +783,7 @@ const searchBox =
 let stations = [];
 let clueLibrary = null;
 let landmarkChallenges = [];
-let stationFacts = [];
+let stationFacts = {};
   
 let activeRows = [];
 let activeColumns = [];
@@ -1266,13 +1266,15 @@ option.onclick = () => {
 }
   function getStationFact(stationName) {
 
-  const match =
-    stationFacts.find(
-      f =>
-        f.station &&
-        f.station.toLowerCase() ===
-        stationName.toLowerCase()
-    );
+  const factData = stationFacts[stationName];
+
+  if (!factData) {
+    return "";
+  }
+
+  return factData.fact || "";
+
+}
 
 function showResultsModal(win = false) {
 

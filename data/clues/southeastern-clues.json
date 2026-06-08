@@ -23,7 +23,31 @@
       "type": "field",
       "field": "is_terminus",
       "value": true
-    }
+    }.
+    {
+  "display": "Direct to Victoria",
+  "type": "field",
+  "field": "direct_to_victoria",
+  "value": true
+},
+{
+  "display": "Direct to Cannon Street",
+  "type": "field",
+  "field": "direct_to_cannon_street",
+  "value": true
+},
+{
+  "display": "Direct to London Bridge",
+  "type": "field",
+  "field": "direct_to_london_bridge",
+  "value": true
+},
+{
+  "display": "Direct to St Pancras",
+  "type": "field",
+  "field": "direct_to_st_pancras",
+  "value": true
+}
   ],
 
   "columnPool": [
@@ -94,6 +118,24 @@
       "type": "range",
       "field": "canonical_time_to_london",
       "min": 91
-    }
+    },
+    {
+  "display": "Branch Line",
+  "type": "field",
+  "field": "is_branch_line",
+  "value": true
+},
+{
+  "display": "Main Line",
+  "type": "field",
+  "field": "is_mainline",
+  "value": true
+},
+{
+  "display": "Multiple London Terminals",
+  "type": "range",
+  "field": "london_terminal_count",
+  "min": 2
+}
   ]
 }

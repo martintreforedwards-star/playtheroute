@@ -23,31 +23,31 @@
       "type": "field",
       "field": "is_terminus",
       "value": true
-    }.
+    },
     {
-  "display": "Direct to Victoria",
-  "type": "field",
-  "field": "direct_to_victoria",
-  "value": true
-},
-{
-  "display": "Direct to Cannon Street",
-  "type": "field",
-  "field": "direct_to_cannon_street",
-  "value": true
-},
-{
-  "display": "Direct to London Bridge",
-  "type": "field",
-  "field": "direct_to_london_bridge",
-  "value": true
-},
-{
-  "display": "Direct to St Pancras",
-  "type": "field",
-  "field": "direct_to_st_pancras",
-  "value": true
-}
+      "display": "Direct to Victoria",
+      "type": "field",
+      "field": "direct_to_victoria",
+      "value": true
+    },
+    {
+      "display": "Direct to Cannon Street",
+      "type": "field",
+      "field": "direct_to_cannon_street",
+      "value": true
+    },
+    {
+      "display": "Direct to London Bridge",
+      "type": "field",
+      "field": "direct_to_london_bridge",
+      "value": true
+    },
+    {
+      "display": "Direct to St Pancras",
+      "type": "field",
+      "field": "direct_to_st_pancras",
+      "value": true
+    }
   ],
 
   "columnPool": [
@@ -56,6 +56,18 @@
       "type": "field",
       "field": "distance_band",
       "value": "coastal"
+    },
+    {
+      "display": "Inner London",
+      "type": "field",
+      "field": "distance_band",
+      "value": "inner"
+    },
+    {
+      "display": "Outer Suburban",
+      "type": "field",
+      "field": "distance_band",
+      "value": "outer"
     },
     {
       "display": "Contains ham",
@@ -100,6 +112,18 @@
       "value": "green"
     },
     {
+      "display": "Contains East",
+      "type": "contains",
+      "field": "station_name",
+      "value": "east"
+    },
+    {
+      "display": "Contains West",
+      "type": "contains",
+      "field": "station_name",
+      "value": "west"
+    },
+    {
       "display": "Under 60 mins from London",
       "type": "range",
       "field": "canonical_time_to_london",
@@ -112,7 +136,6 @@
       "min": 60,
       "max": 90
     },
-
     {
       "display": "Over 90 mins from London",
       "type": "range",
@@ -120,22 +143,46 @@
       "min": 91
     },
     {
-  "display": "Branch Line",
-  "type": "field",
-  "field": "is_branch_line",
-  "value": true
-},
-{
-  "display": "Main Line",
-  "type": "field",
-  "field": "is_mainline",
-  "value": true
-},
-{
-  "display": "Multiple London Terminals",
-  "type": "range",
-  "field": "london_terminal_count",
-  "min": 2
-}
+      "display": "Branch Line",
+      "type": "field",
+      "field": "is_branch_line",
+      "value": true
+    },
+    {
+      "display": "Main Line",
+      "type": "field",
+      "field": "is_mainline",
+      "value": true
+    },
+    {
+      "display": "Multiple London Terminals",
+      "type": "range",
+      "field": "london_terminal_count",
+      "min": 2
+    },
+    {
+      "display": "High Service Frequency",
+      "type": "field",
+      "field": "service_density",
+      "value": "high"
+    },
+    {
+      "display": "Medium Service Frequency",
+      "type": "field",
+      "field": "service_density",
+      "value": "medium"
+    },
+    {
+      "display": "Many Routes",
+      "type": "field",
+      "field": "route_diversity_band",
+      "value": "many"
+    },
+    {
+      "display": "3+ Routes",
+      "type": "range",
+      "field": "route_count",
+      "min": 3
+    }
   ]
 }

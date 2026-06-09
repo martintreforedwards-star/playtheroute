@@ -1,0 +1,309 @@
+[
+  {
+    "landmark": "Big Ben",
+    "closest_station": "London Paddington",
+    "distance_km": 3.9,
+    "difficulty": "hard"
+  },
+  {
+    "landmark": "Buckingham Palace",
+    "closest_station": "London Paddington",
+    "distance_km": 3.2,
+    "difficulty": "hard"
+  },
+  {
+    "landmark": "British Museum",
+    "closest_station": "London Paddington",
+    "distance_km": 3.8,
+    "difficulty": "hard"
+  },
+  {
+    "landmark": "Hyde Park",
+    "closest_station": "London Paddington",
+    "distance_km": 1.0,
+    "difficulty": "easy"
+  },
+  {
+    "landmark": "St Paul's Cathedral",
+    "closest_station": "London Paddington",
+    "distance_km": 5.0,
+    "difficulty": "hard"
+  },
+
+  {
+    "landmark": "Windsor Castle",
+    "closest_station": "Windsor & Eton Central",
+    "distance_km": 0.2,
+    "difficulty": "easy"
+  },
+  {
+    "landmark": "Legoland Windsor",
+    "closest_station": "Windsor & Eton Central",
+    "distance_km": 2.0,
+    "difficulty": "medium"
+  },
+  {
+    "landmark": "Reading Abbey",
+    "closest_station": "Reading",
+    "distance_km": 0.6,
+    "difficulty": "easy"
+  },
+  {
+    "landmark": "Henley Bridge",
+    "closest_station": "Henley-on-Thames",
+    "distance_km": 0.1,
+    "difficulty": "easy"
+  },
+  {
+    "landmark": "Marlow Suspension Bridge",
+    "closest_station": "Marlow",
+    "distance_km": 0.2,
+    "difficulty": "easy"
+  },
+  {
+    "landmark": "Basildon Park",
+    "closest_station": "Pangbourne",
+    "distance_km": 4.8,
+    "difficulty": "hard"
+  },
+  {
+    "landmark": "Dorney Lake",
+    "closest_station": "Taplow",
+    "distance_km": 2.8,
+    "difficulty": "medium"
+  },
+
+  {
+    "landmark": "Ashmolean Museum",
+    "closest_station": "Oxford",
+    "distance_km": 0.6,
+    "difficulty": "easy"
+  },
+  {
+    "landmark": "Christ Church Oxford",
+    "closest_station": "Oxford",
+    "distance_km": 0.9,
+    "difficulty": "easy"
+  },
+  {
+    "landmark": "Oxford Castle",
+    "closest_station": "Oxford",
+    "distance_km": 0.5,
+    "difficulty": "easy"
+  },
+  {
+    "landmark": "Blenheim Palace",
+    "closest_station": "Oxford",
+    "distance_km": 12.0,
+    "difficulty": "hard"
+  },
+  {
+    "landmark": "Didcot Railway Centre",
+    "closest_station": "Didcot Parkway",
+    "distance_km": 1.2,
+    "difficulty": "medium"
+  },
+
+  {
+    "landmark": "Stonehenge",
+    "closest_station": "Pewsey",
+    "distance_km": 18.0,
+    "difficulty": "hard"
+  },
+  {
+    "landmark": "Avebury Stone Circle",
+    "closest_station": "Swindon",
+    "distance_km": 11.0,
+    "difficulty": "hard"
+  },
+  {
+    "landmark": "Lacock Abbey",
+    "closest_station": "Chippenham",
+    "distance_km": 5.5,
+    "difficulty": "hard"
+  },
+  {
+    "landmark": "STEAM Museum",
+    "closest_station": "Swindon",
+    "distance_km": 0.8,
+    "difficulty": "easy"
+  },
+  {
+    "landmark": "Westbury White Horse",
+    "closest_station": "Westbury",
+    "distance_km": 2.5,
+    "difficulty": "medium"
+  },
+
+  {
+    "landmark": "Roman Baths",
+    "closest_station": "Bath Spa",
+    "distance_km": 0.2,
+    "difficulty": "easy"
+  },
+  {
+    "landmark": "Bath Abbey",
+    "closest_station": "Bath Spa",
+    "distance_km": 0.2,
+    "difficulty": "easy"
+  },
+  {
+    "landmark": "Royal Crescent",
+    "closest_station": "Bath Spa",
+    "distance_km": 0.8,
+    "difficulty": "easy"
+  },
+  {
+    "landmark": "Clifton Suspension Bridge",
+    "closest_station": "Clifton Down",
+    "distance_km": 1.0,
+    "difficulty": "easy"
+  },
+  {
+    "landmark": "SS Great Britain",
+    "closest_station": "Bristol Temple Meads",
+    "distance_km": 1.8,
+    "difficulty": "medium"
+  },
+  {
+    "landmark": "M Shed",
+    "closest_station": "Bristol Temple Meads",
+    "distance_km": 1.4,
+    "difficulty": "medium"
+  },
+  {
+    "landmark": "Cabot Tower",
+    "closest_station": "Bristol Temple Meads",
+    "distance_km": 1.7,
+    "difficulty": "medium"
+  },
+
+  {
+    "landmark": "Cardiff Castle",
+    "closest_station": "Cardiff Central",
+    "distance_km": 0.6,
+    "difficulty": "easy"
+  },
+  {
+    "landmark": "Principality Stadium",
+    "closest_station": "Cardiff Central",
+    "distance_km": 0.5,
+    "difficulty": "easy"
+  },
+  {
+    "landmark": "National Museum Cardiff",
+    "closest_station": "Cardiff Central",
+    "distance_km": 1.1,
+    "difficulty": "medium"
+  },
+  {
+    "landmark": "Cardiff Bay",
+    "closest_station": "Cardiff Central",
+    "distance_km": 2.2,
+    "difficulty": "medium"
+  },
+  {
+    "landmark": "St Fagans",
+    "closest_station": "Cardiff Central",
+    "distance_km": 7.0,
+    "difficulty": "hard"
+  },
+  {
+    "landmark": "Swansea Marina",
+    "closest_station": "Swansea",
+    "distance_km": 0.9,
+    "difficulty": "easy"
+  },
+
+  {
+    "landmark": "Exeter Cathedral",
+    "closest_station": "Exeter Central",
+    "distance_km": 0.3,
+    "difficulty": "easy"
+  },
+  {
+    "landmark": "RAMM Museum",
+    "closest_station": "Exeter Central",
+    "distance_km": 0.2,
+    "difficulty": "easy"
+  },
+  {
+    "landmark": "Powderham Castle",
+    "closest_station": "Starcross",
+    "distance_km": 2.5,
+    "difficulty": "medium"
+  },
+  {
+    "landmark": "Buckfast Abbey",
+    "closest_station": "Totnes",
+    "distance_km": 8.0,
+    "difficulty": "hard"
+  },
+  {
+    "landmark": "Castle Drogo",
+    "closest_station": "Okehampton",
+    "distance_km": 16.0,
+    "difficulty": "hard"
+  },
+
+  {
+    "landmark": "Eden Project",
+    "closest_station": "Par",
+    "distance_km": 5.0,
+    "difficulty": "hard"
+  },
+  {
+    "landmark": "Tintagel Castle",
+    "closest_station": "Bodmin Parkway",
+    "distance_km": 28.0,
+    "difficulty": "hard"
+  },
+  {
+    "landmark": "St Michael's Mount",
+    "closest_station": "Penzance",
+    "distance_km": 4.0,
+    "difficulty": "hard"
+  },
+  {
+    "landmark": "Tate St Ives",
+    "closest_station": "St Ives",
+    "distance_km": 0.4,
+    "difficulty": "easy"
+  },
+  {
+    "landmark": "Land's End",
+    "closest_station": "Penzance",
+    "distance_km": 14.0,
+    "difficulty": "hard"
+  },
+  {
+    "landmark": "Minack Theatre",
+    "closest_station": "Penzance",
+    "distance_km": 16.0,
+    "difficulty": "hard"
+  },
+  {
+    "landmark": "Pendennis Castle",
+    "closest_station": "Falmouth Town",
+    "distance_km": 1.5,
+    "difficulty": "medium"
+  },
+  {
+    "landmark": "Truro Cathedral",
+    "closest_station": "Truro",
+    "distance_km": 0.4,
+    "difficulty": "easy"
+  },
+  {
+    "landmark": "Charlestown Harbour",
+    "closest_station": "St Austell",
+    "distance_km": 2.0,
+    "difficulty": "medium"
+  },
+  {
+    "landmark": "Lost Gardens of Heligan",
+    "closest_station": "St Austell",
+    "distance_km": 6.0,
+    "difficulty": "hard"
+  }
+]

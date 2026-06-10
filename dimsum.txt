@@ -47,3 +47,11 @@ GWR audit:
 - Terminus count expected 15
 - Actual count 14
 - One station name mismatch to investigate later
+GWR v19
+Status: Data Complete
+
+Outstanding:
+- Terminus count mismatch (14 vs expected 15)
+- Playability validation
+- Clue generation
+- Route coverage audit

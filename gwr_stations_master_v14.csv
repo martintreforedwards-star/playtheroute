@@ -160,13 +160,13 @@ STN_worcestershire_parkway,Worcestershire Parkway,WOP,Oxford & Hereford Line,FAL
 STN_worle,Worle,WOR,Great Western Main Line,FALSE,FALSE,100,51.357995,-2.909703,england,190.3,long,FALSE,Thames Valley,Somerset
 STN_yatton,Yatton,YAT,Great Western Main Line,FALSE,FALSE,95,51.390965,-2.827815,england,184.3,long,FALSE,Thames Valley,Somerset
 STN_yeoford,Yeoford,YEO,Tarka Line,FALSE,FALSE,155,50.77684,-3.726109,england,260.9,long,FALSE,Devon,Devon
-STN_hungerford,Hungerford,HGD,Berks & Hants Line,FALSE,FALSE,,,,,,,,FALSE,,
-STN_kintbury,Kintbury,KIT,Berks & Hants Line,FALSE,FALSE,,,,,,,,FALSE,,
-STN_bedwyn,Bedwyn,BDW,Berks & Hants Line,TRUE,FALSE,,,,,,,,FALSE,,
-STN_pewsey,Pewsey,PEW,Berks & Hants Line,FALSE,FALSE,,,,,,,,FALSE,,
-STN_westbury,Westbury,WSB,Westbury Line,FALSE,TRUE,,,,,,,,FALSE,,
-STN_dilton_marsh,Dilton Marsh,DMH,Westbury Line,FALSE,FALSE,,,,,,,,FALSE,,
-STN_warminster,Warminster,WAR,Westbury Line,FALSE,FALSE,,,,,,,,FALSE,,
-STN_frome,Frome,FRO,Westbury Line,FALSE,FALSE,,,,,,,,FALSE,,
-STN_bruton,Bruton,BRU,Westbury Line,FALSE,FALSE,,,,,,,,FALSE,,
-STN_castle_cary,Castle Cary,CLC,Westbury Line,FALSE,FALSE,,,,,,,,FALSE,,
+STN_hungerford,Hungerford,HGD,Berks & Hants Line,FALSE,FALSE,65,,,,,,,FALSE,Thames Valley,Berkshire
+STN_kintbury,Kintbury,KIT,Berks & Hants Line,FALSE,FALSE,70,,,,,,,FALSE,Thames Valley,Berkshire
+STN_bedwyn,Bedwyn,BDW,Berks & Hants Line,TRUE,FALSE,75,,,,,,,FALSE,Thames Valley,Wiltshire
+STN_pewsey,Pewsey,PEW,Berks & Hants Line,FALSE,FALSE,85,,,,,,,FALSE,Thames Valley,Wiltshire
+STN_westbury,Westbury,WSB,Westbury Line,FALSE,TRUE,100,,,,,,,FALSE,West Country,Wiltshire
+STN_dilton_marsh,Dilton Marsh,DMH,Westbury Line,FALSE,FALSE,105,,,,,,,FALSE,West Country,Wiltshire
+STN_warminster,Warminster,WAR,Westbury Line,FALSE,FALSE,110,,,,,,,FALSE,West Country,Wiltshire
+STN_frome,Frome,FRO,Westbury Line,FALSE,FALSE,115,,,,,,,FALSE,West Country,Somerset
+STN_bruton,Bruton,BRU,Westbury Line,FALSE,FALSE,125,,,,,,,FALSE,West Country,Somerset
+STN_castle_cary,Castle Cary,CLC,Westbury Line,FALSE,FALSE,130,,,,,,,FALSE,West Country,Somerset

@@ -1,0 +1,30 @@
+Theale,local
+Reading West,local
+Aldermaston,local
+Midgham,local
+Thatcham,local
+Newbury Racecourse,local
+Newbury,local
+Kintbury,regional
+Hungerford,regional
+Bedwyn,regional
+Pewsey,regional
+Melksham,regional
+Westbury,long
+Dilton Marsh,long
+Warminster,long
+Trowbridge,long
+Bradford-on-Avon,long
+Freshford,long
+Avoncliff,long
+Frome,long
+Bruton,long
+Castle Cary,long
+Yeovil Pen Mill,long
+Thornford,long
+Yetminster,long
+Chetnole,long
+Maiden Newton,long
+Dorchester West,long
+Upwey,long
+Weymouth,remote

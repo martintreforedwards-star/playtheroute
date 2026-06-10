@@ -1,0 +1,192 @@
+station_id,station_name,crs,route,terminus,interchange,paddington_minutes,latitude,longitude,country,distance_from_paddington_km,distance_band,coastal,zone,county
+STN_appleford,Appleford,APF,Oxford & Hereford Line,FALSE,FALSE,45,51.639562,-1.242375,england,75,regional,FALSE,Cotswolds,Oxfordshire
+STN_ascott_under_wychwood,Ascott-under-Wychwood,AUW,Oxford & Hereford Line,FALSE,FALSE,80,51.867376,-1.564136,england,103.4,regional,FALSE,Cotswolds,Oxfordshire
+STN_avonmouth,Avonmouth,AVN,Severn Beach Line,FALSE,FALSE,106,51.500194,-2.699332,england,174.6,long,TRUE,Bristol,Bristol
+STN_barnstaple,Barnstaple,BNP,Tarka Line,TRUE,FALSE,185,51.073532,-4.064032,england,274.7,long,FALSE,Devon,Devon
+STN_basingstoke,Basingstoke,BSK,Reading-Basingstoke Line,FALSE,FALSE,45,51.26804,-1.086896,england,68.9,regional,FALSE,Thames Valley,Hampshire
+STN_bath_spa,Bath Spa,BTH,Great Western Main Line,FALSE,FALSE,75,51.378059,-2.356302,england,151.9,long,FALSE,Thames Valley,Somerset
+STN_bere_alston,Bere Alston,BAS,Tamar Valley Line,FALSE,FALSE,220,50.485535,-4.200418,england,304,remote,FALSE,Cornwall,Cornwall
+STN_bere_ferrers,Bere Ferrers,BFE,Tamar Valley Line,FALSE,FALSE,215,50.450798,-4.181901,england,304.3,remote,FALSE,Cornwall,Cornwall
+STN_bodmin_parkway,Bodmin Parkway,BOD,Great Western Main Line,FALSE,FALSE,225,50.445822,-4.663026,england,335.8,remote,FALSE,Thames Valley,Cornwall
+STN_bourne_end,Bourne End,BNE,Marlow Branch,FALSE,FALSE,45,51.576538,-0.711287,england,37.7,local,FALSE,Thames Valley,Buckinghamshire
+STN_bramley,Bramley,BMY,Reading-Basingstoke Line,FALSE,FALSE,50,51.32988,-1.061265,england,64.8,regional,FALSE,Thames Valley,Hampshire
+STN_bridgend,Bridgend,BGN,South Wales Main Line,FALSE,FALSE,120,51.506481,-3.576296,wales,235.3,long,FALSE,South Wales,South Wales
+STN_bridgwater,Bridgwater,BWT,Great Western Main Line,FALSE,FALSE,120,51.128025,-2.99031,england,200.3,long,FALSE,Thames Valley,Somerset
+STN_bristol_parkway,Bristol Parkway,BPW,South Wales Main Line,FALSE,FALSE,80,51.514061,-2.53461,england,163.2,long,FALSE,South Wales,Bristol
+STN_bristol_temple_meads,Bristol Temple Meads,BRI,Great Western Main Line,FALSE,TRUE,85,51.449093,-2.581349,england,166.7,long,FALSE,Thames Valley,Bristol
+STN_bugle,Bugle,BGL,Atlantic Coast Line,FALSE,FALSE,250,50.399979,-4.791736,england,346.2,remote,FALSE,Cornwall,Cornwall
+STN_burnham,Burnham,BNM,Great Western Main Line,FALSE,FALSE,25,51.523538,-0.647335,england,32.6,local,FALSE,Thames Valley,Berkshire
+STN_calstock,Calstock,CSK,Tamar Valley Line,FALSE,FALSE,223,50.497487,-4.208665,england,304,remote,FALSE,Cornwall,Cornwall
+STN_camborne,Camborne,CBN,Great Western Main Line,FALSE,FALSE,275,50.210392,-5.297921,england,387.6,remote,FALSE,Thames Valley,Cornwall
+STN_carbis_bay,Carbis Bay,CBB,St Ives Bay Line,FALSE,FALSE,305,50.19746,-5.463815,england,398.9,remote,TRUE,,Cornwall
+STN_cardiff_central,Cardiff Central,CDF,South Wales Main Line,FALSE,FALSE,110,51.475193,-3.177794,wales,207.9,long,FALSE,South Wales,South Wales
+STN_carmarthen,Carmarthen,CMN,South Wales Main Line,FALSE,FALSE,180,51.853233,-4.305732,wales,287.1,long,FALSE,South Wales,South Wales
+STN_castle_bar_park,Castle Bar Park,CBP,Greenford Branch,FALSE,FALSE,14,51.522865,-0.331575,england,10.8,local,FALSE,London,Greater London
+STN_causeland,Causeland,CAU,Looe Valley Line,FALSE,FALSE,228,50.405525,-4.466937,england,324.8,remote,FALSE,,Cornwall
+STN_chapleton,Chapleton,CPN,Tarka Line,FALSE,FALSE,183,51.01577,-4.024398,england,273.4,long,FALSE,Devon,Devon
+STN_charlbury,Charlbury,CBY,Oxford & Hereford Line,FALSE,FALSE,75,51.872929,-1.490133,england,98.9,regional,FALSE,Cotswolds,Oxfordshire
+STN_chippenham,Chippenham,CPM,Great Western Main Line,FALSE,FALSE,65,51.462162,-2.115123,england,134.4,regional,FALSE,Thames Valley,Wiltshire
+STN_cholsey,Cholsey,CHO,Great Western Main Line,FALSE,FALSE,45,51.570135,-1.157942,england,68.2,regional,FALSE,Thames Valley,Oxfordshire
+STN_clifton_down,Clifton Down,CFN,Severn Beach Line,FALSE,FALSE,100,51.46423,-2.611761,england,168.7,long,FALSE,Bristol,Bristol
+STN_colwall,Colwall,CWL,Oxford & Hereford Line,FALSE,FALSE,160,52.080284,-2.357489,england,162.6,long,FALSE,Cotswolds,Herefordshire
+STN_combe,Combe,CME,Oxford & Hereford Line,FALSE,FALSE,60,51.832277,-1.392817,england,91,regional,FALSE,Cotswolds,Oxfordshire
+STN_cookham,Cookham,COO,Marlow Branch,FALSE,FALSE,40,51.556873,-0.721948,england,38.1,local,FALSE,Thames Valley,Buckinghamshire
+STN_coombe_junction_halt,Coombe Junction Halt,COE,Looe Valley Line,FALSE,FALSE,220,50.44479,-4.481655,england,324,remote,FALSE,,Cornwall
+STN_copplestone,Copplestone,COP,Tarka Line,FALSE,FALSE,160,50.814228,-3.751624,england,261.2,long,FALSE,Devon,Devon
+STN_crediton,Crediton,CDI,Tarka Line,FALSE,FALSE,150,50.783375,-3.646912,england,255.4,long,FALSE,Devon,Devon
+STN_culham,Culham,CUM,Oxford & Hereford Line,FALSE,FALSE,50,51.653773,-1.236445,england,74.9,regional,FALSE,Cotswolds,Oxfordshire
+STN_dawlish,Dawlish,DWL,Great Western Main Line,FALSE,FALSE,150,50.580692,-3.464583,england,252.3,long,TRUE,Thames Valley,Devon
+STN_dawlish_warren,Dawlish Warren,DWW,Great Western Main Line,FALSE,FALSE,148,50.599311,-3.443903,england,250.1,long,TRUE,Thames Valley,Devon
+STN_didcot_parkway,Didcot Parkway,DID,Great Western Main Line,FALSE,FALSE,40,51.611275,-1.242614,england,74.5,regional,FALSE,Thames Valley,Oxfordshire
+STN_digby_and_sowton,Digby & Sowton,DIG,Exmouth Branch,FALSE,FALSE,148,50.716434,-3.474574,england,246.8,long,FALSE,Devon,Devon
+STN_drayton_green,Drayton Green,DRG,Greenford Branch,FALSE,FALSE,13,51.516326,-0.330089,england,10.7,local,FALSE,London,Greater London
+STN_ealing_broadway,Ealing Broadway,EAL,Great Western Main Line,FALSE,FALSE,10,51.51466,-0.300843,england,8.7,local,FALSE,Thames Valley,Greater London
+STN_eggesford,Eggesford,EGG,Tarka Line,FALSE,FALSE,175,50.887848,-3.875235,england,267,long,FALSE,Devon,Devon
+STN_evesham,Evesham,EVE,Oxford & Hereford Line,FALSE,FALSE,115,52.098793,-1.947413,england,138,regional,FALSE,Cotswolds,Worcestershire
+STN_exeter_central,Exeter Central,EXC,Exmouth Branch,FALSE,FALSE,140,50.726471,-3.532973,england,250.2,long,FALSE,Devon,Devon
+STN_exeter_st_davids,Exeter St Davids,EXD,Great Western Main Line,FALSE,TRUE,135,50.729019,-3.544387,england,250.8,long,FALSE,Thames Valley,Devon
+STN_exmouth,Exmouth,EXM,Exmouth Branch,TRUE,FALSE,165,50.620937,-3.415035,england,247.2,long,TRUE,Devon,Devon
+STN_exton,Exton,EXN,Exmouth Branch,FALSE,FALSE,158,50.668255,-3.443337,england,246.8,long,TRUE,Devon,Devon
+STN_falmouth_docks,Falmouth Docks,FAL,Maritime Line,TRUE,FALSE,285,50.15075,-5.0559,england,374.7,remote,TRUE,Cornwall,Cornwall
+STN_falmouth_town,Falmouth Town,FMT,Maritime Line,FALSE,FALSE,280,50.148392,-5.065443,england,375.4,remote,TRUE,Cornwall,Cornwall
+STN_ferryside,Ferryside,FYS,South Wales Main Line,FALSE,FALSE,178,51.76833,-4.36952,wales,290.7,long,TRUE,South Wales,South Wales
+STN_finstock,Finstock,FIN,Oxford & Hereford Line,FALSE,FALSE,70,51.85305,-1.47003,england,96.8,regional,FALSE,Cotswolds,Oxfordshire
+STN_furze_platt,Furze Platt,FZP,Marlow Branch,FALSE,FALSE,30,51.533082,-0.728467,england,38.3,local,FALSE,Thames Valley,Buckinghamshire
+STN_goring_and_streatley,Goring & Streatley,GOR,Great Western Main Line,FALSE,FALSE,40,51.521428,-1.133051,england,66.2,regional,FALSE,Thames Valley,Oxfordshire
+STN_great_malvern,Great Malvern,GMV,Oxford & Hereford Line,FALSE,FALSE,155,52.109165,-2.318289,england,161.4,long,FALSE,Cotswolds,Worcestershire
+STN_greenford,Greenford,GFD,Greenford Branch,TRUE,FALSE,15,51.54235,-0.3463,england,12.2,local,FALSE,London,Greater London
+STN_gunnislake,Gunnislake,GSL,Tamar Valley Line,TRUE,FALSE,225,50.515992,-4.219437,england,303.9,remote,FALSE,Cornwall,Cornwall
+STN_hanborough,Hanborough,HND,Oxford & Hereford Line,FALSE,FALSE,65,51.825172,-1.373471,england,89.5,regional,FALSE,Cotswolds,Oxfordshire
+STN_hayes_and_harlington,Hayes & Harlington,HAY,Great Western Main Line,FALSE,FALSE,18,51.502973,-0.420785,england,17,local,FALSE,Thames Valley,Greater London
+STN_hayle,Hayle,HYL,Great Western Main Line,FALSE,FALSE,285,50.186176,-5.419558,england,396.6,remote,TRUE,Thames Valley,Cornwall
+STN_henley_on_thames,Henley-on-Thames,HOT,Henley Branch,TRUE,FALSE,50,51.534182,-0.900133,england,50.2,regional,FALSE,Thames Valley,Berkshire
+STN_hereford,Hereford,HFD,Oxford & Hereford Line,FALSE,FALSE,180,52.060715,-2.708854,england,184.5,long,FALSE,Cotswolds,Herefordshire
+STN_highbridge_and_burnham,Highbridge & Burnham,HIG,Great Western Main Line,FALSE,FALSE,115,51.218098,-2.972192,england,196.9,long,FALSE,Thames Valley,Somerset
+STN_honeybourne,Honeybourne,HYB,Oxford & Hereford Line,FALSE,FALSE,105,52.101383,-1.834989,england,131.4,regional,FALSE,Cotswolds,Gloucestershire
+STN_iver,Iver,IVR,Great Western Main Line,FALSE,FALSE,22,51.508342,-0.506659,england,22.9,local,FALSE,Thames Valley,Berkshire
+STN_kidwelly,Kidwelly,KWL,South Wales Main Line,FALSE,FALSE,175,51.734299,-4.317046,wales,286.9,long,FALSE,South Wales,South Wales
+STN_kingham,Kingham,KGM,Oxford & Hereford Line,FALSE,FALSE,90,51.902222,-1.629331,england,109,regional,FALSE,Cotswolds,Oxfordshire
+STN_kings_nympton,Kings Nympton,KGN,Tarka Line,FALSE,FALSE,178,50.935921,-3.905634,england,267.6,long,FALSE,Devon,Devon
+STN_langley,Langley,LNY,Great Western Main Line,FALSE,FALSE,24,51.508011,-0.541747,england,25.3,local,FALSE,Thames Valley,Berkshire
+STN_lapford,Lapford,LAP,Tarka Line,FALSE,FALSE,170,50.857384,-3.811489,england,263.7,long,FALSE,Devon,Devon
+STN_lawrence_hill,Lawrence Hill,LWH,Severn Beach Line,FALSE,FALSE,90,51.458168,-2.564183,england,165.5,long,FALSE,Bristol,Bristol
+STN_ledbury,Ledbury,LED,Oxford & Hereford Line,FALSE,FALSE,165,52.044991,-2.425728,england,165.6,long,FALSE,Cotswolds,Herefordshire
+STN_lelant,Lelant,LEL,St Ives Bay Line,FALSE,FALSE,295,50.183887,-5.436207,england,397.8,remote,FALSE,,Cornwall
+STN_lelant_saltings,Lelant Saltings,LTS,St Ives Bay Line,FALSE,FALSE,300,50.17923,-5.441468,england,398.3,remote,FALSE,,Cornwall
+STN_liskeard,Liskeard,LSK,Great Western Main Line,FALSE,FALSE,210,50.446711,-4.46753,england,323,remote,FALSE,Thames Valley,Cornwall
+STN_llanelli,Llanelli,LLE,South Wales Main Line,FALSE,FALSE,165,51.673405,-4.162068,wales,275.9,long,FALSE,South Wales,South Wales
+STN_london_paddington,London Paddington,PAD,Great Western Main Line,FALSE,FALSE,0,51.516014,-0.176049,england,0.1,local,FALSE,Thames Valley,Greater London
+STN_looe,Looe,LOO,Looe Valley Line,TRUE,FALSE,235,50.359234,-4.456029,england,326.2,remote,FALSE,,Cornwall
+STN_luxulyan,Luxulyan,LUX,Atlantic Coast Line,FALSE,FALSE,245,50.390244,-4.747551,england,343.7,remote,FALSE,Cornwall,Cornwall
+STN_lympstone_commando,Lympstone Commando,LYC,Exmouth Branch,FALSE,FALSE,160,50.661121,-3.438876,england,246.9,long,TRUE,Devon,Devon
+STN_lympstone_village,Lympstone Village,LYM,Exmouth Branch,FALSE,FALSE,162,50.648621,-3.431419,england,247,long,TRUE,Devon,Devon
+STN_maidenhead,Maidenhead,MAI,Great Western Main Line,FALSE,TRUE,25,51.518601,-0.722464,england,37.8,local,FALSE,Thames Valley,Berkshire
+STN_malvern_link,Malvern Link,MVL,Oxford & Hereford Line,FALSE,FALSE,150,52.12534,-2.31987,england,162.2,long,FALSE,Cotswolds,Worcestershire
+STN_marlow,Marlow,MLW,Marlow Branch,TRUE,FALSE,55,51.570995,-0.766452,england,41.3,local,FALSE,Thames Valley,Buckinghamshire
+STN_menheniot,Menheniot,MEN,Great Western Main Line,FALSE,FALSE,215,50.426183,-4.40938,england,320.2,remote,FALSE,Thames Valley,Cornwall
+STN_montpelier,Montpelier,MTP,Severn Beach Line,FALSE,FALSE,95,51.468205,-2.588525,england,167.1,long,FALSE,Bristol,Bristol
+STN_morchard_road,Morchard Road,MRD,Tarka Line,FALSE,FALSE,165,50.831841,-3.776424,england,262.2,long,FALSE,Devon,Devon
+STN_moreton_in_marsh,Moreton-in-Marsh,MIM,Oxford & Hereford Line,FALSE,FALSE,95,51.992336,-1.7014,england,117.7,regional,FALSE,Cotswolds,Gloucestershire
+STN_mortimer,Mortimer,MOR,Reading-Basingstoke Line,FALSE,FALSE,40,51.371941,-1.035979,england,61.7,regional,FALSE,Thames Valley,Hampshire
+STN_nailsea_and_backwell,Nailsea & Backwell,NLS,Great Western Main Line,FALSE,FALSE,90,51.419357,-2.750661,england,178.7,long,FALSE,Thames Valley,Somerset
+STN_neath,Neath,NTH,South Wales Main Line,FALSE,FALSE,145,51.662315,-3.807267,wales,251.4,long,FALSE,South Wales,South Wales
+STN_newcourt,Newcourt,NCO,Exmouth Branch,FALSE,FALSE,150,50.705418,-3.47259,england,247.1,long,FALSE,Devon,Devon
+STN_newport,Newport,NWP,South Wales Main Line,FALSE,TRUE,95,51.590145,-2.998873,wales,195.4,long,FALSE,South Wales,South Wales
+STN_newquay,Newquay,NQY,Atlantic Coast Line,TRUE,FALSE,275,50.415245,-5.075769,england,364.2,remote,FALSE,Cornwall,Cornwall
+STN_newton_abbot,Newton Abbot,NTA,Great Western Main Line,FALSE,FALSE,155,50.529507,-3.599957,england,263.4,long,FALSE,Thames Valley,Devon
+STN_newton_st_cyres,Newton St Cyres,NTC,Dartmoor Line,FALSE,FALSE,145,50.77879,-3.588594,england,251.7,long,FALSE,Devon,Devon
+STN_okehampton,Okehampton,OKE,Dartmoor Line,TRUE,FALSE,165,50.731679,-3.988267,england,279.9,long,FALSE,Devon,Devon
+STN_oxford,Oxford,OXF,Oxford & Hereford Line,FALSE,TRUE,55,51.753549,-1.270037,england,80,regional,FALSE,Cotswolds,Oxfordshire
+STN_pangbourne,Pangbourne,PAN,Great Western Main Line,FALSE,FALSE,35,51.485231,-1.090522,england,63.4,regional,FALSE,Thames Valley,Berkshire
+STN_par,Par,PAR,Great Western Main Line,FALSE,TRUE,235,50.355263,-4.704752,england,342.5,remote,FALSE,Thames Valley,Cornwall
+STN_pembrey_and_burry_port,Pembrey & Burry Port,PBY,South Wales Main Line,FALSE,FALSE,170,51.683487,-4.247899,wales,281.8,long,FALSE,South Wales,South Wales
+STN_penmere,Penmere,PNM,Maritime Line,FALSE,FALSE,278,50.149736,-5.083108,england,376.5,remote,TRUE,Cornwall,Cornwall
+STN_penryn,Penryn,PYN,Maritime Line,FALSE,FALSE,275,50.170206,-5.110885,england,377.3,remote,FALSE,Cornwall,Cornwall
+STN_penzance,Penzance,PNZ,Great Western Main Line,FALSE,FALSE,300,50.12162,-5.532489,england,406.8,remote,TRUE,Thames Valley,Cornwall
+STN_perranwell,Perranwell,PRW,Maritime Line,FALSE,FALSE,265,50.216431,-5.111868,england,375.2,remote,FALSE,Cornwall,Cornwall
+STN_pershore,Pershore,PSH,Oxford & Hereford Line,FALSE,FALSE,120,52.130249,-2.071555,england,147.1,regional,FALSE,Cotswolds,Worcestershire
+STN_plymouth,Plymouth,PLY,Great Western Main Line,FALSE,TRUE,190,50.377762,-4.143386,england,305.3,remote,FALSE,Thames Valley,Devon
+STN_polsloe_bridge,Polsloe Bridge,POL,Exmouth Branch,FALSE,FALSE,145,50.731274,-3.501785,england,247.9,long,FALSE,Devon,Devon
+STN_port_talbot_parkway,Port Talbot Parkway,PTA,South Wales Main Line,FALSE,FALSE,135,51.591671,-3.781362,wales,249.4,long,FALSE,South Wales,South Wales
+STN_portsmouth_arms,Portsmouth Arms,PMA,Tarka Line,FALSE,FALSE,180,50.956768,-3.950633,england,270,long,FALSE,Devon,Devon
+STN_quintrell_downs,Quintrell Downs,QUI,Atlantic Coast Line,FALSE,FALSE,270,50.403908,-5.029838,england,361.6,remote,FALSE,Cornwall,Cornwall
+STN_radley,Radley,RAD,Oxford & Hereford Line,FALSE,FALSE,55,51.685588,-1.240398,england,75.9,regional,FALSE,Cotswolds,Oxfordshire
+STN_reading,Reading,RDG,Great Western Main Line,FALSE,TRUE,25,51.458767,-0.972172,england,55.5,regional,FALSE,Thames Valley,Berkshire
+STN_redland,Redland,RDA,Severn Beach Line,FALSE,FALSE,97,51.468792,-2.598875,england,167.8,long,FALSE,Bristol,Bristol
+STN_redruth,Redruth,RED,Great Western Main Line,FALSE,FALSE,270,50.233111,-5.225877,england,381.8,remote,FALSE,Thames Valley,Cornwall
+STN_roche,Roche,ROC,Atlantic Coast Line,FALSE,FALSE,255,50.418911,-4.830658,england,347.9,remote,FALSE,Cornwall,Cornwall
+STN_saltash,Saltash,STS,Great Western Main Line,FALSE,FALSE,195,50.407108,-4.209449,england,308.1,remote,FALSE,Thames Valley,Cornwall
+STN_sampford_courtenay,Sampford Courtenay,,Dartmoor Line,FALSE,FALSE,,,,,,,FALSE,Devon,Devon
+STN_sandplace,Sandplace,SDP,Looe Valley Line,FALSE,FALSE,232,50.386684,-4.464549,england,325.5,remote,FALSE,,Cornwall
+STN_sea_mills,Sea Mills,SML,Severn Beach Line,FALSE,FALSE,102,51.480209,-2.649427,england,171.3,long,TRUE,Bristol,Bristol
+STN_severn_beach,Severn Beach,SVB,Severn Beach Line,FALSE,FALSE,105,51.559864,-2.664227,england,172.2,long,TRUE,Bristol,Bristol
+STN_shiplake,Shiplake,SHI,Henley Branch,FALSE,FALSE,45,51.51121,-0.882452,england,48.9,local,FALSE,Thames Valley,Berkshire
+STN_shipton,Shipton,SIP,Oxford & Hereford Line,FALSE,FALSE,85,51.866131,-1.591864,england,105.1,regional,FALSE,Cotswolds,Oxfordshire
+STN_shirehampton,Shirehampton,SHH,Severn Beach Line,FALSE,FALSE,104,51.484216,-2.679162,england,173.3,long,FALSE,Bristol,Bristol
+STN_slough,Slough,SLO,Great Western Main Line,FALSE,TRUE,20,51.511921,-0.591803,england,28.8,local,FALSE,Thames Valley,Berkshire
+STN_south_greenford,South Greenford,SGN,Greenford Branch,FALSE,FALSE,15,51.533339,-0.336403,england,11.3,local,FALSE,London,Greater London
+STN_southall,Southall,STL,Great Western Main Line,FALSE,FALSE,15,51.505884,-0.378513,england,14.1,local,FALSE,Thames Valley,Greater London
+STN_st_andrews_road,St Andrews Road,SAR,Severn Beach Line,FALSE,FALSE,108,51.513214,-2.696009,england,174.4,long,FALSE,Bristol,Bristol
+STN_st_austell,St Austell,SAU,Great Western Main Line,FALSE,FALSE,245,50.338863,-4.789557,england,348.7,remote,FALSE,Thames Valley,Cornwall
+STN_st_budeaux_victoria_road,St Budeaux Victoria Road,SBV,Tamar Valley Line,FALSE,FALSE,203,50.403008,-4.188144,england,307,remote,FALSE,Cornwall,Cornwall
+STN_st_columb_road,St Columb Road,SCR,Atlantic Coast Line,FALSE,FALSE,265,50.399002,-4.94085,england,356,remote,FALSE,Cornwall,Cornwall
+STN_st_erth,St Erth,SER,Great Western Main Line,FALSE,TRUE,290,50.171074,-5.443694,england,398.8,remote,TRUE,Thames Valley,Cornwall
+STN_st_germans,St Germans,SGM,Great Western Main Line,FALSE,FALSE,205,50.394386,-4.308757,england,315.1,remote,FALSE,Thames Valley,Cornwall
+STN_st_ives,St Ives,SIV,St Ives Bay Line,TRUE,FALSE,315,50.208759,-5.477247,england,399.3,remote,TRUE,,Cornwall
+STN_st_james_park,St James Park,SJP,Exmouth Branch,FALSE,FALSE,142,50.731094,-3.523202,england,249.3,long,FALSE,Devon,Devon
+STN_st_keyne_wishing_well_halt,St Keyne Wishing Well Halt,SKN,Looe Valley Line,FALSE,FALSE,225,50.422714,-4.462204,england,323.7,remote,FALSE,,Cornwall
+STN_stapleton_road,Stapleton Road,SRD,Severn Beach Line,FALSE,FALSE,92,51.468052,-2.565747,england,165.5,long,FALSE,Bristol,Bristol
+STN_starcross,Starcross,SCS,Great Western Main Line,FALSE,FALSE,145,50.627731,-3.447757,england,249,long,TRUE,Thames Valley,Devon
+STN_swansea,Swansea,SWA,South Wales Main Line,FALSE,FALSE,155,51.625103,-3.941598,wales,260.5,long,FALSE,South Wales,South Wales
+STN_swindon,Swindon,SWI,Great Western Main Line,FALSE,TRUE,50,51.565437,-1.786448,england,111.5,regional,FALSE,Thames Valley,Wiltshire
+STN_taplow,Taplow,TAP,Great Western Main Line,FALSE,FALSE,27,51.523528,-0.681474,england,35,local,FALSE,Thames Valley,Berkshire
+STN_taunton,Taunton,TAU,Great Western Main Line,FALSE,FALSE,110,51.023613,-3.102146,england,210.8,long,FALSE,Thames Valley,Somerset
+STN_teignmouth,Teignmouth,TGM,Great Western Main Line,FALSE,FALSE,160,50.547993,-3.494712,england,255.8,long,TRUE,Thames Valley,Devon
+STN_tilehurst,Tilehurst,TLH,Great Western Main Line,FALSE,FALSE,30,51.471333,-1.029754,england,59.3,regional,FALSE,Thames Valley,Berkshire
+STN_tiverton_parkway,Tiverton Parkway,TVP,Great Western Main Line,FALSE,FALSE,125,50.917477,-3.359979,england,231.5,long,FALSE,Thames Valley,Devon
+STN_topsham,Topsham,TOP,Exmouth Branch,FALSE,FALSE,155,50.685989,-3.4637,england,247.4,long,FALSE,Devon,Devon
+STN_totnes,Totnes,TOT,Great Western Main Line,FALSE,FALSE,170,50.435623,-3.688317,england,273.6,long,FALSE,Thames Valley,Devon
+STN_truro,Truro,TRU,Great Western Main Line,FALSE,FALSE,255,50.263603,-5.063017,england,369.9,remote,FALSE,Thames Valley,Cornwall
+STN_twyford,Twyford,TWY,Great Western Main Line,FALSE,TRUE,30,51.475605,-0.86389,england,47.8,local,FALSE,Thames Valley,Berkshire
+STN_umberleigh,Umberleigh,UMB,Tarka Line,FALSE,FALSE,182,50.996704,-3.982228,england,271.1,long,FALSE,Devon,Devon
+STN_wargrave,Wargrave,WGV,Henley Branch,FALSE,FALSE,35,51.498217,-0.876589,england,48.5,local,FALSE,Thames Valley,Berkshire
+STN_west_drayton,West Drayton,WDT,Great Western Main Line,FALSE,FALSE,20,51.509827,-0.472515,england,20.5,local,FALSE,Thames Valley,Greater London
+STN_west_ealing,West Ealing,WEA,Greenford Branch,FALSE,FALSE,12,51.513123,-0.320792,england,10,local,FALSE,London,Greater London
+STN_weston_super_mare,Weston-super-Mare,WSM,Great Western Main Line,FALSE,FALSE,105,51.34454,-2.972301,england,194.8,long,TRUE,Thames Valley,Somerset
+STN_windsor_and_eton_central,Windsor & Eton Central,WNC,Windsor Branch,TRUE,FALSE,35,51.48275,-0.608806,england,30.2,local,FALSE,Thames Valley,Berkshire
+STN_worcester_foregate_street,Worcester Foregate Street,WOF,Oxford & Hereford Line,FALSE,FALSE,140,52.194801,-2.220885,england,159.5,long,FALSE,Cotswolds,Worcestershire
+STN_worcester_shrub_hill,Worcester Shrub Hill,WOS,Oxford & Hereford Line,FALSE,FALSE,135,52.194817,-2.210642,england,158.9,long,FALSE,Cotswolds,Worcestershire
+STN_worcestershire_parkway,Worcestershire Parkway,WOP,Oxford & Hereford Line,FALSE,FALSE,130,52.15622,-2.1597,england,153.8,long,FALSE,Cotswolds,Worcestershire
+STN_worle,Worle,WOR,Great Western Main Line,FALSE,FALSE,100,51.357995,-2.909703,england,190.3,long,FALSE,Thames Valley,Somerset
+STN_yatton,Yatton,YAT,Great Western Main Line,FALSE,FALSE,95,51.390965,-2.827815,england,184.3,long,FALSE,Thames Valley,Somerset
+STN_yeoford,Yeoford,YEO,Tarka Line,FALSE,FALSE,155,50.77684,-3.726109,england,260.9,long,FALSE,Devon,Devon
+STN_theale,Theale,THE,Berks & Hants Line,FALSE,FALSE,30,51.433395,-1.074968,england,,local,FALSE,Thames Valley,Berkshire
+STN_reading_west,Reading West,RDW,Berks & Hants Line,FALSE,FALSE,28,51.455077,-0.990143,england,,local,FALSE,Thames Valley,Berkshire
+STN_aldermaston,Aldermaston,AMT,Berks & Hants Line,FALSE,FALSE,40,51.402047,-1.136972,england,,local,FALSE,Thames Valley,Berkshire
+STN_midgham,Midgham,MDG,Berks & Hants Line,FALSE,FALSE,42,51.395805,-1.177683,england,,local,FALSE,Thames Valley,Berkshire
+STN_thatcham,Thatcham,THA,Berks & Hants Line,FALSE,FALSE,45,51.39384,-1.243048,england,,local,FALSE,Thames Valley,Berkshire
+STN_newbury_racecourse,Newbury Racecourse,NRC,Berks & Hants Line,FALSE,FALSE,48,51.39814,-1.308549,england,,local,FALSE,Thames Valley,Berkshire
+STN_newbury,Newbury,NBY,Berks & Hants Line,FALSE,TRUE,50,51.397599,-1.322608,england,,local,FALSE,Thames Valley,Berkshire
+STN_kintbury,Kintbury,KIT,Berks & Hants Line,FALSE,FALSE,60,51.40247,-1.445059,england,,regional,FALSE,Thames Valley,Berkshire
+STN_hungerford,Hungerford,HGD,Berks & Hants Line,FALSE,FALSE,65,51.415344,-1.511056,england,,regional,FALSE,Thames Valley,Berkshire
+STN_bedwyn,Bedwyn,BDW,Berks & Hants Line,TRUE,FALSE,75,51.379715,-1.599077,england,,regional,FALSE,Thames Valley,Wiltshire
+STN_pewsey,Pewsey,PEW,Berks & Hants Line,FALSE,FALSE,85,51.342411,-1.771691,england,,regional,FALSE,Thames Valley,Wiltshire
+STN_westbury,Westbury,WSB,TransWilts Line,FALSE,TRUE,100,51.26693,-2.199202,england,,long,FALSE,West Country,Wiltshire
+STN_dilton_marsh,Dilton Marsh,DMH,Westbury Branch,FALSE,FALSE,105,51.248928,-2.207723,england,,long,FALSE,West Country,Wiltshire
+STN_warminster,Warminster,WMN,Westbury Branch,FALSE,FALSE,110,51.206722,-2.177467,england,,long,FALSE,West Country,Wiltshire
+STN_trowbridge,Trowbridge,TRO,Avon Valley Line,FALSE,TRUE,105,51.319954,-2.215222,england,,long,FALSE,West Country,Wiltshire
+STN_bradford_on_avon,Bradford-on-Avon,BOA,Avon Valley Line,FALSE,FALSE,110,51.345058,-2.252669,england,,long,FALSE,West Country,Wiltshire
+STN_freshford,Freshford,FFD,Avon Valley Line,FALSE,FALSE,115,51.342251,-2.30146,england,,long,FALSE,West Country,Somerset
+STN_avoncliff,Avoncliff,AVF,Avon Valley Line,FALSE,FALSE,112,51.339596,-2.281342,england,,long,FALSE,West Country,Wiltshire
+STN_melksham,Melksham,MKM,TransWilts Line,FALSE,FALSE,95,51.379803,-2.14449,england,,regional,FALSE,West Country,Wiltshire
+STN_frome,Frome,FRO,Heart of Wessex Line,FALSE,FALSE,115,51.227131,-2.309302,england,,long,FALSE,West Country,Somerset
+STN_bruton,Bruton,BRU,Heart of Wessex Line,FALSE,FALSE,125,51.111584,-2.447103,england,,long,FALSE,West Country,Somerset
+STN_castle_cary,Castle Cary,CLC,Heart of Wessex Line,FALSE,FALSE,130,51.099583,-2.522683,england,,long,FALSE,West Country,Somerset
+STN_yeovil_pen_mill,Yeovil Pen Mill,YVP,Heart of Wessex Line,FALSE,FALSE,145,50.944466,-2.613461,england,,long,FALSE,West Country,Somerset
+STN_thornford,Thornford,THO,Heart of Wessex Line,FALSE,FALSE,150,50.911377,-2.57889,england,,long,FALSE,West Country,Dorset
+STN_yetminster,Yetminster,YET,Heart of Wessex Line,FALSE,FALSE,155,50.896114,-2.573004,england,,long,FALSE,West Country,Dorset
+STN_chetnole,Chetnole,CNO,Heart of Wessex Line,FALSE,FALSE,160,50.866428,-2.574072,england,,long,FALSE,West Country,Dorset
+STN_maiden_newton,Maiden Newton,MDN,Heart of Wessex Line,FALSE,FALSE,165,50.780128,-2.568749,england,,long,FALSE,West Country,Dorset
+STN_dorchester_west,Dorchester West,DCW,Heart of Wessex Line,FALSE,FALSE,170,50.710526,-2.443274,england,,long,FALSE,West Country,Dorset
+STN_upwey,Upwey,UPW,Heart of Wessex Line,FALSE,FALSE,175,50.64838,-2.466731,england,,long,FALSE,West Country,Dorset
+STN_weymouth,Weymouth,WEY,Heart of Wessex Line,TRUE,FALSE,180,50.61515,-2.455103,england,,remote,FALSE,West Country,Dorset

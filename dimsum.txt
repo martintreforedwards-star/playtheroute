@@ -43,3 +43,7 @@ Introduce rowPool / columnPool.
 
 Active puzzle should use activeRows and activeColumns rather than directly reading the clue library.
 add Cloudflare Web Analytics.
+GWR audit:
+- Terminus count expected 15
+- Actual count 14
+- One station name mismatch to investigate later

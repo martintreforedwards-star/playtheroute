@@ -1,1 +1,705 @@
-station_id,network,route_station_id
+station_id,network,route_station_id,crs,station_name
+uk_000122,c2c,CT0001,FST,London Fenchurch Street
+uk_000134,c2c,CT0002,LHS,Limehouse
+uk_000158,c2c,CT0003,WEH,West Ham
+uk_000109,c2c,CT0004,BKG,Barking
+uk_000156,c2c,CT0005,UPM,Upminster
+uk_000119,c2c,CT0006,EMP,Emerson Park
+uk_000144,c2c,CT0007,RMF,Romford
+uk_000117,c2c,CT0008,DDK,Dagenham Dock
+uk_000146,c2c,CT0009,RNM,Rainham
+uk_000142,c2c,CT0010,PFL,Purfleet
+uk_000113,c2c,CT0011,CFH,Chafford Hundred Lakeside
+uk_000141,c2c,CT0012,OCK,Ockendon
+uk_000125,c2c,CT0013,GRY,Grays
+uk_000154,c2c,CT0014,TIL,Tilbury Town
+uk_000120,c2c,CT0015,ETL,East Tilbury
+uk_000147,c2c,CT0016,SFO,Stanford-le-Hope
+uk_000143,c2c,CT0017,PSE,Pitsea
+uk_000111,c2c,CT0018,BSO,Basildon
+uk_000132,c2c,CT0019,LAI,Laindon
+uk_000108,c2c,CT0020,BEF,Benfleet
+uk_000133,c2c,CT0021,LES,Leigh-on-Sea
+uk_000115,c2c,CT0022,CHW,Chalkwell
+uk_000157,c2c,CT0023,WCF,Westcliff
+uk_000150,c2c,CT0024,SOC,Southend Central
+uk_000155,c2c,CT0025,TPB,Thorpe Bay
+uk_000152,c2c,CT0026,SRY,Shoeburyness
+uk_000196,Chiltern,CH0001,MYB,London Marylebone
+uk_000197,Chiltern,CH0002,WCX,Wembley Stadium
+uk_000198,Chiltern,CH0003,SRU,South Ruislip
+uk_000199,Chiltern,CH0004,WRU,West Ruislip
+uk_000200,Chiltern,CH0005,DNM,Denham
+uk_000201,Chiltern,CH0006,DGC,Denham Golf Club
+uk_000202,Chiltern,CH0007,GER,Gerrards Cross
+uk_000203,Chiltern,CH0008,SRG,Seer Green & Jordans
+uk_000204,Chiltern,CH0009,BCF,Beaconsfield
+uk_000205,Chiltern,CH0010,HWY,High Wycombe
+uk_000206,Chiltern,CH0011,SDR,Saunderton
+uk_000207,Chiltern,CH0012,PRR,Princes Risborough
+uk_000208,Chiltern,CH0013,HDM,Haddenham & Thame Parkway
+uk_000209,Chiltern,CH0014,BIT,Bicester Village
+uk_000210,Chiltern,CH0015,KGS,Kings Sutton
+uk_000211,Chiltern,CH0016,BAN,Banbury
+uk_000212,Chiltern,CH0017,LMS,Leamington Spa
+uk_000213,Chiltern,CH0018,WRW,Warwick
+uk_000214,Chiltern,CH0019,WRP,Warwick Parkway
+uk_000215,Chiltern,CH0020,HTN,Hatton
+uk_000216,Chiltern,CH0021,DDG,Dorridge
+uk_000217,Chiltern,CH0022,SOL,Solihull
+uk_000218,Chiltern,CH0023,BMO,Birmingham Moor Street
+uk_000219,Chiltern,CH0024,BSW,Birmingham Snow Hill
+uk_000220,Chiltern,CH0025,HOH,Harrow-on-the-Hill
+uk_000221,Chiltern,CH0026,NLT,Northolt Park
+uk_000222,Chiltern,CH0027,SDH,Sudbury Hill Harrow
+uk_000223,Chiltern,CH0028,SUD,Sudbury & Harrow Road
+uk_000224,Chiltern,CH0029,AMR,Amersham
+uk_000225,Chiltern,CH0030,GMN,Great Missenden
+uk_000226,Chiltern,CH0031,WND,Wendover
+uk_000227,Chiltern,CH0032,SKM,Stoke Mandeville
+uk_000228,Chiltern,CH0033,AYS,Aylesbury
+uk_000229,Chiltern,CH0034,AVP,Aylesbury Vale Parkway
+uk_000230,Chiltern,CH0035,MRS,Monks Risborough
+uk_000231,Chiltern,CH0036,LTK,Little Kimble
+uk_000232,Chiltern,CH0037,BCS,Bicester North
+uk_000233,Chiltern,CH0038,OXP,Oxford Parkway
+uk_000234,Chiltern,CH0039,OXF,Oxford
+uk_000235,Chiltern,CH0040,ISP,Islip
+uk_000236,Chiltern,CH0041,BER,Bearley
+uk_000237,Chiltern,CH0042,STY,Stratford-upon-Avon Parkway
+uk_000238,Chiltern,CH0043,SAV,Stratford-upon-Avon
+uk_000239,Chiltern,CH0044,LPW,Lapworth
+uk_000240,Chiltern,CH0045,BHM,Birmingham New Street
+uk_000241,Chiltern,CH0046,FWY,Five Ways
+uk_000242,Chiltern,CH0047,UNI,University
+uk_000243,Chiltern,CH0048,SLY,Selly Oak
+uk_000244,Chiltern,CH0049,BRV,Bournville
+uk_000245,Chiltern,CH0050,KNN,King's Norton
+uk_000246,Chiltern,CH0051,NFD,Northfield
+uk_000247,Chiltern,CH0052,LOB,Longbridge
+uk_000248,Chiltern,CH0053,BTG,Barnt Green
+uk_000249,Chiltern,CH0054,ALV,Alvechurch
+uk_000250,Chiltern,CH0055,RDC,Redditch
+uk_000251,Chiltern,CH0056,BMV,Bromsgrove
+uk_000252,Chiltern,CH0057,AST,Aston
+uk_000253,Chiltern,CH0058,GVH,Gravelly Hill
+uk_000254,Chiltern,CH0059,ERD,Erdington
+uk_000255,Chiltern,CH0060,CRD,Chester Road
+uk_000256,Chiltern,CH0061,WYL,Wylde Green
+uk_000257,Chiltern,CH0062,SUT,Sutton Coldfield
+uk_000258,Chiltern,CH0063,FOK,Four Oaks
+uk_000259,Chiltern,CH0064,BKT,Blake Street
+uk_000260,Chiltern,CH0065,SEN,Shenstone
+uk_000261,Chiltern,CH0066,LIC,Lichfield City
+uk_000262,Chiltern,CH0067,LTV,Lichfield Trent Valley
+uk_000263,Chiltern,CH0068,SGB,Smethwick Galton Bridge
+uk_000264,Chiltern,CH0069,SAD,Sandwell & Dudley
+uk_000265,Chiltern,CH0070,DDP,Dudley Port
+uk_000266,Chiltern,CH0071,TIP,Tipton
+uk_000267,Chiltern,CH0072,CSY,Coseley
+uk_000268,Chiltern,CH0073,WVH,Wolverhampton
+uk_000269,Chiltern,CH0074,ADD,Adderley Park
+uk_000270,Chiltern,CH0075,SCF,Stechford
+uk_000271,Chiltern,CH0076,LEH,Lea Hall
+uk_000272,Chiltern,CH0077,MGN,Marston Green
+uk_000273,Chiltern,CH0078,BHI,Birmingham International
+uk_000274,Chiltern,CH0079,HIA,Hampton-in-Arden
+uk_000275,Chiltern,CH0080,BKW,Berkswell
+uk_000276,Chiltern,CH0081,THL,Tile Hill
+uk_000277,Chiltern,CH0082,CNL,Canley
+uk_000278,Chiltern,CH0083,COV,Coventry
+uk_000279,Chiltern,CH0084,DUD,Duddeston
+uk_000280,Chiltern,CH0085,WTT,Witton
+uk_000281,Chiltern,CH0086,PRY,Perry Barr
+uk_000282,Chiltern,CH0087,HSD,Hamstead
+uk_000283,Chiltern,CH0088,TAB,Tame Bridge Parkway
+uk_000284,Chiltern,CH0089,BSC,Bescot Stadium
+uk_000285,Chiltern,CH0090,WSL,Walsall
+uk_000286,Chiltern,CH0091,BLX,Bloxwich
+uk_000287,Chiltern,CH0092,BWN,Bloxwich North
+uk_000288,Chiltern,CH0093,LAW,Landywood
+uk_000289,Chiltern,CH0094,CAO,Cannock
+uk_000290,Chiltern,CH0095,HNF,Hednesford
+uk_000291,Chiltern,CH0096,RGT,Rugeley Town
+uk_000292,Chiltern,CH0097,RGL,Rugeley Trent Valley
+uk_000293,Chiltern,CH0098,WLN,Wellington (Shropshire)
+uk_000294,Chiltern,CH0099,TFC,Telford Central
+uk_000295,Chiltern,CH0100,OKN,Oakengates
+uk_000296,Chiltern,CH0101,SFN,Shifnal
+uk_000297,Chiltern,CH0102,COS,Cosford
+uk_000298,Chiltern,CH0103,ALB,Albrighton
+uk_000299,Chiltern,CH0104,SHR,Shrewsbury
+uk_000300,Chiltern,CH0105,KID,Kidderminster
+uk_000301,Chiltern,CH0106,HBY,Hartlebury
+uk_000302,Chiltern,CH0107,DTW,Droitwich Spa
+uk_000303,Chiltern,CH0108,WOF,Worcester Foregate Street
+uk_000304,Chiltern,CH0109,WOS,Worcester Shrub Hill
+uk_000305,Chiltern,CH0110,MVL,Malvern Link
+uk_000306,Chiltern,CH0111,GMV,Great Malvern
+uk_000307,Chiltern,CH0112,CWL,Colwall
+uk_000308,Chiltern,CH0113,LED,Ledbury
+uk_000309,Chiltern,CH0114,HFD,Hereford
+uk_000310,Chiltern,CH0115,JEQ,Jewellery Quarter
+uk_000311,Chiltern,CH0116,THW,The Hawthorns
+uk_000312,Chiltern,CH0117,LGG,Langley Green
+uk_000313,Chiltern,CH0118,ROW,Rowley Regis
+uk_000314,Chiltern,CH0119,OHL,Old Hill
+uk_000315,Chiltern,CH0120,CRA,Cradley Heath
+uk_000316,Chiltern,CH0121,LYE,Lye
+uk_000317,Chiltern,CH0122,SBJ,Stourbridge Junction
+uk_000318,Chiltern,CH0123,SBT,Stourbridge Town
+uk_000319,Chiltern,CH0124,HAG,Hagley
+uk_000320,Chiltern,CH0125,BKD,Blakedown
+uk_000321,Chiltern,CH0126,NUN,Nuneaton
+uk_000322,Chiltern,CH0127,BEH,Bedworth
+uk_000323,Chiltern,CH0128,BEP,Bermuda Park
+uk_000135,Greater_Anglia,GA0001,LST,London Liverpool Street
+uk_000151,Greater_Anglia,GA0002,SRA,Stratford
+uk_000139,Greater_Anglia,GA0003,MYL,Maryland
+uk_000121,Greater_Anglia,GA0004,FOG,Forest Gate
+uk_000138,Greater_Anglia,GA0005,MNP,Manor Park
+uk_000128,Greater_Anglia,GA0006,IFD,Ilford
+uk_000153,Greater_Anglia,GA0007,SVK,Seven Kings
+uk_000124,Greater_Anglia,GA0008,GMY,Goodmayes
+uk_000114,Greater_Anglia,GA0009,CTH,Chadwell Heath
+uk_000145,Greater_Anglia,GA0010,RMF,Romford
+uk_000123,Greater_Anglia,GA0011,GDP,Gidea Park
+uk_000127,Greater_Anglia,GA0012,HRO,Harold Wood
+uk_000110,Greater_Anglia,GA0013,BRE,Brentwood
+uk_000149,Greater_Anglia,GA0014,SNF,Shenfield
+uk_000129,Greater_Anglia,GA0015,INT,Ingatestone
+uk_000112,Greater_Anglia,GA0016,CHM,Chelmsford
+uk_000126,Greater_Anglia,GA0017,HAP,Hatfield Peverel
+uk_000159,Greater_Anglia,GA0018,WTM,Witham
+uk_000131,Greater_Anglia,GA0019,KEL,Kelvedon
+uk_000136,Greater_Anglia,GA0020,MKT,Marks Tey
+uk_000116,Greater_Anglia,GA0021,COL,Colchester
+uk_000137,Greater_Anglia,GA0022,MNG,Manningtree
+uk_000130,Greater_Anglia,GA0023,IPS,Ipswich
+uk_000148,Greater_Anglia,GA0024,SMK,Stowmarket
+uk_000118,Greater_Anglia,GA0025,DIS,Diss
+uk_000140,Greater_Anglia,GA0026,NRW,Norwich
+uk_000160,Greater_Anglia,GA0027,BIC,Billericay
+uk_000161,Greater_Anglia,GA0028,WIC,Wickford
+uk_000162,Greater_Anglia,GA0029,BLB,Battlesbridge
+uk_000163,Greater_Anglia,GA0030,SOF,South Woodham Ferrers
+uk_000164,Greater_Anglia,GA0031,NFA,North Fambridge
+uk_000165,Greater_Anglia,GA0032,ALN,Althorne
+uk_000166,Greater_Anglia,GA0033,BUU,Burnham-on-Crouch
+uk_000167,Greater_Anglia,GA0034,SMN,Southminster
+uk_000168,Greater_Anglia,GA0035,RLG,Rayleigh
+uk_000169,Greater_Anglia,GA0036,HOC,Hockley
+uk_000170,Greater_Anglia,GA0037,RFD,Rochford
+uk_000171,Greater_Anglia,GA0038,SIA,Southend Airport
+uk_000172,Greater_Anglia,GA0039,PRL,Prittlewell
+uk_000173,Greater_Anglia,GA0040,SOV,Southend Victoria
+uk_000174,Greater_Anglia,GA0041,WNY,White Notley
+uk_000175,Greater_Anglia,GA0042,CES,Cressing
+uk_000176,Greater_Anglia,GA0043,BTP,Braintree Freeport
+uk_000177,Greater_Anglia,GA0044,BTR,Braintree
+uk_000178,Greater_Anglia,GA0045,HYH,Hythe
+uk_000179,Greater_Anglia,GA0046,WIV,Wivenhoe
+uk_000180,Greater_Anglia,GA0047,ALR,Alresford
+uk_000181,Greater_Anglia,GA0048,GRB,Great Bentley
+uk_000182,Greater_Anglia,GA0049,WEE,Weeley
+uk_000183,Greater_Anglia,GA0050,TLS,Thorpe-le-Soken
+uk_000184,Greater_Anglia,GA0051,CLT,Clacton-on-Sea
+uk_000185,Greater_Anglia,GA0052,KBX,Kirby Cross
+uk_000186,Greater_Anglia,GA0053,FRI,Frinton-on-Sea
+uk_000187,Greater_Anglia,GA0054,WON,Walton-on-the-Naze
+uk_000188,Greater_Anglia,GA0055,WRB,Wrabness
+uk_000189,Greater_Anglia,GA0056,MIS,Mistley
+uk_000190,Greater_Anglia,GA0057,HPQ,Harwich International
+uk_000191,Greater_Anglia,GA0058,DVC,Dovercourt
+uk_000192,Greater_Anglia,GA0059,HWC,Harwich Town
+uk_000193,Greater_Anglia,GA0060,CWC,Chappel and Wakes Colne
+uk_000194,Greater_Anglia,GA0061,BUE,Bures
+uk_000195,Greater_Anglia,GA0062,SUY,Sudbury
+uk_000326,Southeastern,SE0001,CHX,London Charing Cross
+uk_000343,Southeastern,SE0002,WAE,London Waterloo (East)
+uk_000325,Southeastern,SE0003,CST,London Cannon Street
+uk_000324,Southeastern,SE0004,LBG,London Bridge
+uk_000330,Southeastern,SE0005,LEW,Lewisham
+uk_000332,Southeastern,SE0006,LAD,Ladywell
+uk_000331,Southeastern,SE0007,CFB,Catford Bridge
+uk_000399,Southeastern,SE0008,LSY,Lower Sydenham
+uk_000428,Southeastern,SE0009,NBC,New Beckenham
+uk_000376,Southeastern,SE0010,CLK,Clock House
+uk_000415,Southeastern,SE0011,ELE,Elmers End
+uk_000395,Southeastern,SE0012,EDN,Eden Park
+uk_000408,Southeastern,SE0013,WWI,West Wickham
+uk_000443,Southeastern,SE0014,HYS,Hayes
+uk_000328,Southeastern,SE0015,STP,St Pancras International
+uk_000337,Southeastern,SE0016,ZFD,Farringdon
+uk_000344,Southeastern,SE0017,CTK,City Thameslink
+uk_000345,Southeastern,SE0018,BFR,London Blackfriars
+uk_000335,Southeastern,SE0019,NWX,New Cross
+uk_000338,Southeastern,SE0020,SAJ,St Johns
+uk_000327,Southeastern,SE0021,VIC,London Victoria
+uk_000389,Southeastern,SE0022,DMK,Denmark Hill
+uk_000438,Southeastern,SE0023,PMR,Peckham Rye
+uk_000437,Southeastern,SE0024,NHD,Nunhead
+uk_000447,Southeastern,SE0025,BKH,Blackheath
+uk_000400,Southeastern,SE0026,DEP,Deptford
+uk_000401,Southeastern,SE0027,GNW,Greenwich
+uk_000422,Southeastern,SE0028,MZH,Maze Hill
+uk_000441,Southeastern,SE0029,WCB,Westcombe Park
+uk_000449,Southeastern,SE0030,CTN,Charlton
+uk_000348,Southeastern,SE0031,WWD,Woolwich Dockyard
+uk_000341,Southeastern,SE0032,WWA,Woolwich Arsenal
+uk_000339,Southeastern,SE0033,PLU,Plumstead
+uk_000350,Southeastern,SE0034,ABW,Abbey Wood
+uk_000356,Southeastern,SE0035,BVD,Belvedere
+uk_000357,Southeastern,SE0036,ERH,Erith
+uk_000373,Southeastern,SE0037,SGR,Slade Green
+uk_000429,Southeastern,SE0038,BNH,Barnehurst
+uk_000388,Southeastern,SE0039,CRY,Crayford
+uk_000359,Southeastern,SE0040,DFD,Dartford
+uk_000393,Southeastern,SE0041,SCG,Stone Crossing
+uk_000370,Southeastern,SE0042,GNH,Greenhithe For Bluewater
+uk_000358,Southeastern,SE0043,SWM,Swanscombe
+uk_000361,Southeastern,SE0044,NFL,Northfleet
+uk_000454,Southeastern,SE0045,GRV,Gravesend
+uk_000455,Southeastern,SE0046,HGM,Higham
+uk_000364,Southeastern,SE0047,SOO,Strood
+uk_000440,Southeastern,SE0048,RTR,Rochester
+uk_000461,Southeastern,SE0049,CTM,Chatham
+uk_000466,Southeastern,SE0050,GLM,Gillingham (Kent)
+uk_000467,Southeastern,SE0051,RAI,Rainham (Kent)
+uk_000342,Southeastern,SE0052,BRX,Brixton
+uk_000369,Southeastern,SE0053,EPH,Elephant & Castle
+uk_000434,Southeastern,SE0054,CFT,Crofton Park
+uk_000368,Southeastern,SE0055,CTF,Catford
+uk_000446,Southeastern,SE0056,BGM,Bellingham
+uk_000430,Southeastern,SE0057,BEC,Beckenham Hill
+uk_000439,Southeastern,SE0058,RVB,Ravensbourne
+uk_000381,Southeastern,SE0059,LGJ,Loughborough Junction
+uk_000436,Southeastern,SE0060,HNH,Herne Hill
+uk_000334,Southeastern,SE0061,WDU,West Dulwich
+uk_000333,Southeastern,SE0062,SYH,Sydenham Hill
+uk_000347,Southeastern,SE0063,PNE,Penge East
+uk_000349,Southeastern,SE0064,KTH,Kent House
+uk_000352,Southeastern,SE0065,BKJ,Beckenham Junction
+uk_000340,Southeastern,SE0066,SRT,Shortlands
+uk_000448,Southeastern,SE0067,BMS,Bromley South
+uk_000353,Southeastern,SE0068,BKL,Bickley
+uk_000423,Southeastern,SE0069,PET,Petts Wood
+uk_000346,Southeastern,SE0070,ORP,Orpington
+uk_000374,Southeastern,SE0071,SMY,St Mary Cray
+uk_000375,Southeastern,SE0072,SAY,Swanley
+uk_000402,Southeastern,SE0073,EYN,Eynsford
+uk_000403,Southeastern,SE0074,SEH,Shoreham (Kent)
+uk_000362,Southeastern,SE0075,OTF,Otford
+uk_000363,Southeastern,SE0076,BBL,Bat & Ball
+uk_000354,Southeastern,SE0077,SEV,Sevenoaks
+uk_000427,Southeastern,SE0078,KDB,Kidbrooke
+uk_000425,Southeastern,SE0079,ELW,Eltham
+uk_000396,Southeastern,SE0080,FCN,Falconwood
+uk_000445,Southeastern,SE0081,WLI,Welling
+uk_000405,Southeastern,SE0082,BXH,Bexleyheath
+uk_000329,Southeastern,SE0083,SFA,Stratford International
+uk_000336,Southeastern,SE0084,EBD,Ebbsfleet International
+uk_000421,Southeastern,SE0085,FNR,Farningham Road
+uk_000433,Southeastern,SE0086,LGF,Longfield
+uk_000451,Southeastern,SE0087,MEP,Meopham
+uk_000392,Southeastern,SE0088,SOR,Sole Street
+uk_000459,Southeastern,SE0089,NGT,Newington
+uk_000473,Southeastern,SE0090,SIT,Sittingbourne
+uk_000458,Southeastern,SE0091,KML,Kemsley
+uk_000493,Southeastern,SE0092,SWL,Swale
+uk_000462,Southeastern,SE0093,QBR,Queenborough
+uk_000472,Southeastern,SE0094,SSS,Sheerness-On-Sea
+uk_000482,Southeastern,SE0095,TEY,Teynham
+uk_000470,Southeastern,SE0096,FAV,Faversham
+uk_000474,Southeastern,SE0097,WHI,Whitstable
+uk_000480,Southeastern,SE0098,CSW,Chestfield & Swalecliffe
+uk_000476,Southeastern,SE0099,HNB,Herne Bay
+uk_000491,Southeastern,SE0100,BCH,Birchington-On-Sea
+uk_000495,Southeastern,SE0101,WGA,Westgate-On-Sea
+uk_000510,Southeastern,SE0102,MAR,Margate
+uk_000508,Southeastern,SE0103,BSR,Broadstairs
+uk_000509,Southeastern,SE0104,DMP,Dumpton Park
+uk_000511,Southeastern,SE0105,RAM,Ramsgate
+uk_000471,Southeastern,SE0106,SEG,Selling
+uk_000503,Southeastern,SE0107,CBE,Canterbury East
+uk_000490,Southeastern,SE0108,BKS,Bekesbourne
+uk_000484,Southeastern,SE0109,ADM,Adisham
+uk_000479,Southeastern,SE0110,AYH,Aylesham
+uk_000487,Southeastern,SE0111,SWO,Snowdown
+uk_000507,Southeastern,SE0112,SPH,Shepherds Well
+uk_000506,Southeastern,SE0113,KSN,Kearsney
+uk_000485,Southeastern,SE0114,DVP,Dover Priory
+uk_000398,Southeastern,SE0115,HGR,Hither Green
+uk_000367,Southeastern,SE0116,LEE,Lee
+uk_000417,Southeastern,SE0117,MTG,Mottingham
+uk_000378,Southeastern,SE0118,NEH,New Eltham
+uk_000387,Southeastern,SE0119,SID,Sidcup
+uk_000394,Southeastern,SE0120,AYP,Albany Park
+uk_000404,Southeastern,SE0121,BXY,Bexley
+uk_000416,Southeastern,SE0122,GRP,Grove Park
+uk_000380,Southeastern,SE0123,SUP,Sundridge Park
+uk_000406,Southeastern,SE0124,BMN,Bromley North
+uk_000442,Southeastern,SE0125,ESD,Elmstead Woods
+uk_000407,Southeastern,SE0126,CIT,Chislehurst
+uk_000351,Southeastern,SE0127,CLD,Chelsfield
+uk_000444,Southeastern,SE0128,KCK,Knockholt
+uk_000355,Southeastern,SE0129,DNG,Dunton Green
+uk_000410,Southeastern,SE0130,CUX,Cuxton
+uk_000431,Southeastern,SE0131,HAI,Halling
+uk_000452,Southeastern,SE0132,SDA,Snodland
+uk_000411,Southeastern,SE0133,NHE,New Hythe
+uk_000420,Southeastern,SE0134,AYL,Aylesford
+uk_000390,Southeastern,SE0135,MDB,Maidstone Barracks
+uk_000383,Southeastern,SE0136,MDW,Maidstone West
+uk_000435,Southeastern,SE0137,EFL,East Farleigh
+uk_000424,Southeastern,SE0138,WTR,Wateringbury
+uk_000384,Southeastern,SE0139,YAL,Yalding
+uk_000409,Southeastern,SE0140,BEG,Beltring
+uk_000372,Southeastern,SE0141,PDW,Paddock Wood
+uk_000365,Southeastern,SE0142,TON,Tonbridge
+uk_000371,Southeastern,SE0143,HLB,Hildenborough
+uk_000450,Southeastern,SE0144,MRN,Marden
+uk_000412,Southeastern,SE0145,SPU,Staplehurst
+uk_000432,Southeastern,SE0146,HCN,Headcorn
+uk_000391,Southeastern,SE0147,PLC,Pluckley
+uk_000382,Southeastern,SE0148,MDE,Maidstone East
+uk_000360,Southeastern,SE0149,AFK,Ashford International
+uk_000496,Southeastern,SE0150,WYE,Wye
+uk_000489,Southeastern,SE0151,CIL,Chilham
+uk_000475,Southeastern,SE0152,CRT,Chartham
+uk_000457,Southeastern,SE0153,CBW,Canterbury West
+uk_000502,Southeastern,SE0154,STU,Sturry
+uk_000494,Southeastern,SE0155,WHA,Westenhanger
+uk_000501,Southeastern,SE0156,SDG,Sandling
+uk_000481,Southeastern,SE0157,FKW,Folkestone West
+uk_000499,Southeastern,SE0158,FKC,Folkestone Central
+uk_000492,Southeastern,SE0159,MTM,Martin Mill
+uk_000488,Southeastern,SE0160,WAM,Walmer
+uk_000505,Southeastern,SE0161,DEA,Deal
+uk_000486,Southeastern,SE0162,SDW,Sandwich
+uk_000500,Southeastern,SE0163,MSR,Minster
+uk_000483,Southeastern,SE0164,THP,Thanet Parkway
+uk_000397,Southeastern,SE0165,HIB,High Brooms
+uk_000418,Southeastern,SE0166,TBW,Tunbridge Wells
+uk_000385,Southeastern,SE0167,FRT,Frant
+uk_000419,Southeastern,SE0168,WAD,Wadhurst
+uk_000379,Southeastern,SE0169,SOG,Stonegate
+uk_000426,Southeastern,SE0170,ETC,Etchingham
+uk_000386,Southeastern,SE0171,RBR,Robertsbridge
+uk_000413,Southeastern,SE0172,BAT,Battle
+uk_000366,Southeastern,SE0173,CWU,Crowhurst
+uk_000504,Southeastern,SE0174,WLD,West St Leonards
+uk_000477,Southeastern,SE0175,SLQ,St Leonards Warrior Sq
+uk_000512,Southeastern,SE0176,HGS,Hastings
+uk_000377,Southeastern,SE0177,KMS,Kemsing
+uk_000414,Southeastern,SE0178,BRG,Borough Green & Wrotham
+uk_000456,Southeastern,SE0179,WMA,West Malling
+uk_000460,Southeastern,SE0180,EML,East Malling
+uk_000465,Southeastern,SE0181,BMG,Barming
+uk_000453,Southeastern,SE0182,BSD,Bearsted
+uk_000464,Southeastern,SE0183,HBN,Hollingbourne
+uk_000469,Southeastern,SE0184,LEN,Lenham
+uk_000463,Southeastern,SE0185,HRH,Harrietsham
+uk_000468,Southeastern,SE0186,CHG,Charing
+uk_000478,Southeastern,SE0187,ORE,Ore
+uk_000497,Southeastern,SE0188,APD,Appledore
+uk_000498,Southeastern,SE0189,HST,Ham Street
+uk_000513,Southeastern,SE0190,RYE,Rye
+uk_000001,Southern,SO0001,ANG,Angmering
+uk_000002,Southern,SO0002,BAB,Balcombe
+uk_000003,Southern,SO0003,BAL,Balham
+uk_000004,Southern,SO0004,BAA,Barnham
+uk_000005,Southern,SO0005,BSK,Basingstoke
+uk_000006,Southern,SO0006,BBL,Bat & Ball
+uk_000007,Southern,SO0007,BAT,Battle
+uk_000008,Southern,SO0008,BRK,Berwick
+uk_000009,Southern,SO0009,BEX,Bexhill
+uk_000010,Southern,SO0010,BOH,Bosham
+uk_000011,Southern,SO0011,BTN,Brighton
+uk_000012,Southern,SO0012,BUG,Burgess Hill
+uk_000013,Southern,SO0013,CSH,Carshalton
+uk_000014,Southern,SO0014,CCH,Chichester
+uk_000015,Southern,SO0015,CLJ,Clapham Junction
+uk_000016,Southern,SO0016,CLL,Collington
+uk_000017,Southern,SO0017,COB,Cooden Beach
+uk_000018,Southern,SO0018,CSA,Cosham
+uk_000019,Southern,SO0019,CDS,Coulsdon South
+uk_000020,Southern,SO0020,DNG,Dunton Green
+uk_000021,Southern,SO0021,DUR,Durrington-on-Sea
+uk_000022,Southern,SO0022,ELD,Earlswood
+uk_000023,Southern,SO0023,ECR,East Croydon
+uk_000024,Southern,SO0024,EBN,Eastbourne
+uk_000025,Southern,SO0025,EMS,Emsworth
+uk_000026,Southern,SO0026,ETC,Etchingham
+uk_000027,Southern,SO0027,EYN,Eynsford
+uk_000028,Southern,SO0028,FMR,Falmer
+uk_000029,Southern,SO0029,FRM,Fareham
+uk_000030,Southern,SO0030,FNR,Farningham Road
+uk_000031,Southern,SO0031,FSB,Fishbourne
+uk_000032,Southern,SO0032,FOD,Ford
+uk_000033,Southern,SO0033,FRT,Frant
+uk_000034,Southern,SO0034,FTN,Fratton
+uk_000035,Southern,SO0035,GTW,Gatwick Airport
+uk_000036,Southern,SO0036,GLY,Glynde
+uk_000037,Southern,SO0037,GBS,Goring-by-Sea
+uk_000038,Southern,SO0038,HCB,Hackbridge
+uk_000039,Southern,SO0039,HMD,Hampden Park
+uk_000040,Southern,SO0040,HSK,Hassocks
+uk_000041,Southern,SO0041,HGS,Hastings
+uk_000042,Southern,SO0042,HAV,Havant
+uk_000043,Southern,SO0043,HHE,Haywards Heath
+uk_000044,Southern,SO0044,HDE,Hedge End
+uk_000045,Southern,SO0045,HIB,High Brooms
+uk_000046,Southern,SO0046,HLB,Hildenborough
+uk_000047,Southern,SO0047,HLS,Hilsea
+uk_000048,Southern,SO0048,HOR,Horley
+uk_000049,Southern,SO0049,HOV,Hove
+uk_000050,Southern,SO0050,KPA,Kensington Olympia
+uk_000051,Southern,SO0051,LAC,Lancing
+uk_000052,Southern,SO0052,LWS,Lewes
+uk_000053,Southern,SO0053,LIT,Littlehampton
+uk_000054,Southern,SO0054,LBG,London Bridge
+uk_000055,Southern,SO0055,LRB,London Road (Brighton)
+uk_000056,Southern,SO0056,VIC,London Victoria
+uk_000057,Southern,SO0057,WAT,London Waterloo
+uk_000058,Southern,SO0058,MHM,Merstham
+uk_000059,Southern,SO0059,MTC,Mitcham Eastfields
+uk_000060,Southern,SO0060,MIJ,Mitcham Junction
+uk_000061,Southern,SO0061,MCB,Moulsecoomb
+uk_000062,Southern,SO0062,NRB,Norbury
+uk_000063,Southern,SO0063,NSB,Normans Bay
+uk_000064,Southern,SO0064,OTF,Otford
+uk_000065,Southern,SO0065,PEV,Pevensey & Westham
+uk_000066,Southern,SO0066,PLG,Polegate
+uk_000067,Southern,SO0067,PTC,Portchester
+uk_000068,Southern,SO0068,PLD,Portslade
+uk_000069,Southern,SO0069,PMS,Portsmouth & Southsea
+uk_000070,Southern,SO0070,PMH,Portsmouth Harbour
+uk_000071,Southern,SO0071,PRP,Preston Park
+uk_000072,Southern,SO0072,PUR,Purley
+uk_000073,Southern,SO0073,RDH,Redhill
+uk_000074,Southern,SO0074,RBR,Robertsbridge
+uk_000075,Southern,SO0075,SAF,Salfords
+uk_000076,Southern,SO0076,SRS,Selhurst
+uk_000077,Southern,SO0077,SEV,Sevenoaks
+uk_000078,Southern,SO0078,SPB,Shepherds Bush
+uk_000079,Southern,SO0079,SEH,Shoreham (Kent)
+uk_000080,Southern,SO0080,SSE,Shoreham-by-Sea
+uk_000081,Southern,SO0081,SCY,South Croydon
+uk_000082,Southern,SO0082,SOU,Southampton Central
+uk_000083,Southern,SO0083,SOB,Southbourne
+uk_000084,Southern,SO0084,SWK,Southwick
+uk_000085,Southern,SO0085,SDN,St Denys
+uk_000086,Southern,SO0086,SLQ,St Leonards Warrior Square
+uk_000087,Southern,SO0087,SOG,Stonegate
+uk_000088,Southern,SO0088,STE,Streatham
+uk_000089,Southern,SO0089,SRC,Streatham Common
+uk_000090,Southern,SO0090,SRH,Streatham Hill
+uk_000091,Southern,SO0091,SUO,Sutton
+uk_000092,Southern,SO0092,SAY,Swanley
+uk_000093,Southern,SO0093,SNW,Swanwick
+uk_000094,Southern,SO0094,TTH,Thornton Heath
+uk_000095,Southern,SO0095,TBD,Three Bridges
+uk_000096,Southern,SO0096,TON,Tonbridge
+uk_000097,Southern,SO0097,TUH,Tulse Hill
+uk_000098,Southern,SO0098,TBW,Tunbridge Wells
+uk_000099,Southern,SO0099,WAD,Wadhurst
+uk_000100,Southern,SO0100,WSW,Wandsworth Common
+uk_000101,Southern,SO0101,WBP,West Brompton
+uk_000102,Southern,SO0102,WNW,West Norwood
+uk_000103,Southern,SO0103,WLD,West St Leonards
+uk_000104,Southern,SO0104,WWO,West Worthing
+uk_000105,Southern,SO0105,WIN,Winchester
+uk_000106,Southern,SO0106,WVF,Wivelsfield
+uk_000107,Southern,SO0107,WRH,Worthing
+uk_000677,GWR,GW0001,AMT,Aldermaston
+uk_000514,GWR,GW0002,APF,Appleford
+uk_000515,GWR,GW0003,AUW,Ascott-under-Wychwood
+uk_000692,GWR,GW0004,AVF,Avoncliff
+uk_000516,GWR,GW0005,AVN,Avonmouth
+uk_000517,GWR,GW0006,BNP,Barnstaple
+uk_000518,GWR,GW0007,BSK,Basingstoke
+uk_000519,GWR,GW0008,BTH,Bath Spa
+uk_000684,GWR,GW0009,BDW,Bedwyn
+uk_000520,GWR,GW0010,BAS,Bere Alston
+uk_000521,GWR,GW0011,BFE,Bere Ferrers
+uk_000522,GWR,GW0012,BOD,Bodmin Parkway
+uk_000523,GWR,GW0013,BNE,Bourne End
+uk_000690,GWR,GW0014,BOA,Bradford-on-Avon
+uk_000524,GWR,GW0015,BMY,Bramley
+uk_000525,GWR,GW0016,BGN,Bridgend
+uk_000526,GWR,GW0017,BWT,Bridgwater
+uk_000527,GWR,GW0018,BPW,Bristol Parkway
+uk_000528,GWR,GW0019,BRI,Bristol Temple Meads
+uk_000695,GWR,GW0020,BRU,Bruton
+uk_000529,GWR,GW0021,BGL,Bugle
+uk_000530,GWR,GW0022,BNM,Burnham
+uk_000531,GWR,GW0023,CSK,Calstock
+uk_000532,GWR,GW0024,CBN,Camborne
+uk_000533,GWR,GW0025,CBB,Carbis Bay
+uk_000534,GWR,GW0026,CDF,Cardiff Central
+uk_000535,GWR,GW0027,CMN,Carmarthen
+uk_000536,GWR,GW0028,CBP,Castle Bar Park
+uk_000696,GWR,GW0029,CLC,Castle Cary
+uk_000537,GWR,GW0030,CAU,Causeland
+uk_000538,GWR,GW0031,CPN,Chapleton
+uk_000539,GWR,GW0032,CBY,Charlbury
+uk_000700,GWR,GW0033,CNO,Chetnole
+uk_000540,GWR,GW0034,CPM,Chippenham
+uk_000541,GWR,GW0035,CHO,Cholsey
+uk_000542,GWR,GW0036,CFN,Clifton Down
+uk_000543,GWR,GW0037,CWL,Colwall
+uk_000544,GWR,GW0038,CME,Combe
+uk_000545,GWR,GW0039,COO,Cookham
+uk_000546,GWR,GW0040,COE,Coombe Junction Halt
+uk_000547,GWR,GW0041,COP,Copplestone
+uk_000548,GWR,GW0042,CDI,Crediton
+uk_000549,GWR,GW0043,CUM,Culham
+uk_000550,GWR,GW0044,DWL,Dawlish
+uk_000551,GWR,GW0045,DWW,Dawlish Warren
+uk_000552,GWR,GW0046,DID,Didcot Parkway
+uk_000553,GWR,GW0047,DIG,Digby & Sowton
+uk_000687,GWR,GW0048,DMH,Dilton Marsh
+uk_000702,GWR,GW0049,DCW,Dorchester West
+uk_000554,GWR,GW0050,DRG,Drayton Green
+uk_000555,GWR,GW0051,EAL,Ealing Broadway
+uk_000556,GWR,GW0052,EGG,Eggesford
+uk_000557,GWR,GW0053,EVE,Evesham
+uk_000558,GWR,GW0054,EXC,Exeter Central
+uk_000559,GWR,GW0055,EXD,Exeter St Davids
+uk_000560,GWR,GW0056,EXM,Exmouth
+uk_000561,GWR,GW0057,EXN,Exton
+uk_000562,GWR,GW0058,FAL,Falmouth Docks
+uk_000563,GWR,GW0059,FMT,Falmouth Town
+uk_000564,GWR,GW0060,FYS,Ferryside
+uk_000565,GWR,GW0061,FIN,Finstock
+uk_000691,GWR,GW0062,FFD,Freshford
+uk_000694,GWR,GW0063,FRO,Frome
+uk_000566,GWR,GW0064,FZP,Furze Platt
+uk_000567,GWR,GW0065,GOR,Goring & Streatley
+uk_000568,GWR,GW0066,GMV,Great Malvern
+uk_000569,GWR,GW0067,GFD,Greenford
+uk_000570,GWR,GW0068,GSL,Gunnislake
+uk_000571,GWR,GW0069,HND,Hanborough
+uk_000572,GWR,GW0070,HAY,Hayes & Harlington
+uk_000573,GWR,GW0071,HYL,Hayle
+uk_000574,GWR,GW0072,HOT,Henley-on-Thames
+uk_000575,GWR,GW0073,HFD,Hereford
+uk_000576,GWR,GW0074,HIG,Highbridge & Burnham
+uk_000577,GWR,GW0075,HYB,Honeybourne
+uk_000683,GWR,GW0076,HGD,Hungerford
+uk_000578,GWR,GW0077,IVR,Iver
+uk_000579,GWR,GW0078,KWL,Kidwelly
+uk_000580,GWR,GW0079,KGM,Kingham
+uk_000581,GWR,GW0080,KGN,Kings Nympton
+uk_000682,GWR,GW0081,KIT,Kintbury
+uk_000582,GWR,GW0082,LNY,Langley
+uk_000583,GWR,GW0083,LAP,Lapford
+uk_000584,GWR,GW0084,LWH,Lawrence Hill
+uk_000585,GWR,GW0085,LED,Ledbury
+uk_000586,GWR,GW0086,LEL,Lelant
+uk_000587,GWR,GW0087,LTS,Lelant Saltings
+uk_000588,GWR,GW0088,LSK,Liskeard
+uk_000589,GWR,GW0089,LLE,Llanelli
+uk_000590,GWR,GW0090,PAD,London Paddington
+uk_000591,GWR,GW0091,LOO,Looe
+uk_000592,GWR,GW0092,LUX,Luxulyan
+uk_000593,GWR,GW0093,LYC,Lympstone Commando
+uk_000594,GWR,GW0094,LYM,Lympstone Village
+uk_000701,GWR,GW0095,MDN,Maiden Newton
+uk_000595,GWR,GW0096,MAI,Maidenhead
+uk_000596,GWR,GW0097,MVL,Malvern Link
+uk_000597,GWR,GW0098,MLW,Marlow
+uk_000693,GWR,GW0099,MKM,Melksham
+uk_000598,GWR,GW0100,MEN,Menheniot
+uk_000678,GWR,GW0101,MDG,Midgham
+uk_000599,GWR,GW0102,MTP,Montpelier
+uk_000600,GWR,GW0103,MRD,Morchard Road
+uk_000601,GWR,GW0104,MIM,Moreton-in-Marsh
+uk_000602,GWR,GW0105,MOR,Mortimer
+uk_000603,GWR,GW0106,NLS,Nailsea & Backwell
+uk_000604,GWR,GW0107,NTH,Neath
+uk_000681,GWR,GW0108,NBY,Newbury
+uk_000680,GWR,GW0109,NRC,Newbury Racecourse
+uk_000605,GWR,GW0110,NCO,Newcourt
+uk_000606,GWR,GW0111,NWP,Newport
+uk_000607,GWR,GW0112,NQY,Newquay
+uk_000608,GWR,GW0113,NTA,Newton Abbot
+uk_000609,GWR,GW0114,NTC,Newton St Cyres
+uk_000610,GWR,GW0115,OKE,Okehampton
+uk_000611,GWR,GW0116,OXF,Oxford
+uk_000612,GWR,GW0117,PAN,Pangbourne
+uk_000613,GWR,GW0118,PAR,Par
+uk_000614,GWR,GW0119,PBY,Pembrey & Burry Port
+uk_000615,GWR,GW0120,PNM,Penmere
+uk_000616,GWR,GW0121,PYN,Penryn
+uk_000617,GWR,GW0122,PNZ,Penzance
+uk_000618,GWR,GW0123,PRW,Perranwell
+uk_000619,GWR,GW0124,PSH,Pershore
+uk_000685,GWR,GW0125,PEW,Pewsey
+uk_000620,GWR,GW0126,PLY,Plymouth
+uk_000621,GWR,GW0127,POL,Polsloe Bridge
+uk_000622,GWR,GW0128,PTA,Port Talbot Parkway
+uk_000623,GWR,GW0129,PMA,Portsmouth Arms
+uk_000624,GWR,GW0130,QUI,Quintrell Downs
+uk_000625,GWR,GW0131,RAD,Radley
+uk_000626,GWR,GW0132,RDG,Reading
+uk_000676,GWR,GW0133,RDW,Reading West
+uk_000627,GWR,GW0134,RDA,Redland
+uk_000628,GWR,GW0135,RED,Redruth
+uk_000629,GWR,GW0136,ROC,Roche
+uk_000630,GWR,GW0137,STS,Saltash
+uk_000631,GWR,GW0138,,Sampford Courtenay
+uk_000632,GWR,GW0139,SDP,Sandplace
+uk_000633,GWR,GW0140,SML,Sea Mills
+uk_000634,GWR,GW0141,SVB,Severn Beach
+uk_000635,GWR,GW0142,SHI,Shiplake
+uk_000636,GWR,GW0143,SIP,Shipton
+uk_000637,GWR,GW0144,SHH,Shirehampton
+uk_000638,GWR,GW0145,SLO,Slough
+uk_000639,GWR,GW0146,SGN,South Greenford
+uk_000640,GWR,GW0147,STL,Southall
+uk_000641,GWR,GW0148,SAR,St Andrews Road
+uk_000642,GWR,GW0149,SAU,St Austell
+uk_000643,GWR,GW0150,SBV,St Budeaux Victoria Road
+uk_000644,GWR,GW0151,SCR,St Columb Road
+uk_000645,GWR,GW0152,SER,St Erth
+uk_000646,GWR,GW0153,SGM,St Germans
+uk_000647,GWR,GW0154,SIV,St Ives
+uk_000648,GWR,GW0155,SJP,St James Park
+uk_000649,GWR,GW0156,SKN,St Keyne Wishing Well Halt
+uk_000650,GWR,GW0157,SRD,Stapleton Road
+uk_000651,GWR,GW0158,SCS,Starcross
+uk_000652,GWR,GW0159,SWA,Swansea
+uk_000653,GWR,GW0160,SWI,Swindon
+uk_000654,GWR,GW0161,TAP,Taplow
+uk_000655,GWR,GW0162,TAU,Taunton
+uk_000656,GWR,GW0163,TGM,Teignmouth
+uk_000679,GWR,GW0164,THA,Thatcham
+uk_000675,GWR,GW0165,THE,Theale
+uk_000698,GWR,GW0166,THO,Thornford
+uk_000657,GWR,GW0167,TLH,Tilehurst
+uk_000658,GWR,GW0168,TVP,Tiverton Parkway
+uk_000659,GWR,GW0169,TOP,Topsham
+uk_000660,GWR,GW0170,TOT,Totnes
+uk_000689,GWR,GW0171,TRO,Trowbridge
+uk_000661,GWR,GW0172,TRU,Truro
+uk_000662,GWR,GW0173,TWY,Twyford
+uk_000663,GWR,GW0174,UMB,Umberleigh
+uk_000703,GWR,GW0175,UPW,Upwey
+uk_000664,GWR,GW0176,WGV,Wargrave
+uk_000688,GWR,GW0177,WMN,Warminster
+uk_000665,GWR,GW0178,WDT,West Drayton
+uk_000666,GWR,GW0179,WEA,West Ealing
+uk_000686,GWR,GW0180,WSB,Westbury
+uk_000667,GWR,GW0181,WSM,Weston-super-Mare
+uk_000704,GWR,GW0182,WEY,Weymouth
+uk_000668,GWR,GW0183,WNC,Windsor & Eton Central
+uk_000669,GWR,GW0184,WOF,Worcester Foregate Street
+uk_000670,GWR,GW0185,WOS,Worcester Shrub Hill
+uk_000671,GWR,GW0186,WOP,Worcestershire Parkway
+uk_000672,GWR,GW0187,WOR,Worle
+uk_000673,GWR,GW0188,YAT,Yatton
+uk_000674,GWR,GW0189,YEO,Yeoford
+uk_000697,GWR,GW0190,YVP,Yeovil Pen Mill
+uk_000699,GWR,GW0191,YET,Yetminster

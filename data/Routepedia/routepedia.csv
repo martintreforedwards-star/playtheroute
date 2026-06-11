@@ -1,1 +1,7 @@
-
+route_id,route_name,network,route_type,status
+SE01,South Eastern Main Line,Southeastern,mainline,active
+SE02,Chatham Main Line,Southeastern,mainline,active
+SE03,Medway Valley Line,Southeastern,branch,active
+SE04,Sheerness Branch,Southeastern,branch,active
+SE05,Bromley North Branch,Southeastern,branch,active
+SE06,High Speed 1 Domestic,Southeastern,high_speed,active

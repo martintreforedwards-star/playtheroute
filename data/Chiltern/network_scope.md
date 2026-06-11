@@ -1,33 +1,106 @@
-# Chiltern & West Midlands Network
+# Chiltern & West Midlands Network Scope
 
-## Status
+## Purpose
 
-### Completed
+Defines the station coverage for the Chiltern & West Midlands network within *The Route*.
 
-* Station inventory completed
-* 128 stations added (CM001–CM128)
-* Chiltern Railways network completed
-* West Midlands Railway network completed
-* CRS codes populated from source of truth
-* Latitude and longitude populated
-* Missing coordinate count reduced to zero
-* Master dataset saved as `chiltern_midlands_master_v6.csv`
+This network combines the Chiltern Railways and West Midlands Railway operating areas to create a balanced gameplay experience, linking London commuter services, regional Midlands routes, and rural branch lines into a single coherent puzzle network.
 
-## Current Dataset
+The combined network provides a mix of major city hubs, commuter corridors, regional routes, and rural termini, creating a diverse range of puzzle possibilities.
 
-* Total stations: 128
-* Operators:
+---
 
-  * Chiltern Railways
-  * West Midlands Railway
+## Geographic Coverage
 
-## Next Steps
+The network covers rail services across:
 
-### Phase 1 – Station Classification
+* Buckinghamshire
+* Oxfordshire
+* Warwickshire
+* West Midlands
+* Worcestershire
+* Herefordshire
+* Shropshire
 
-#### Major Interchanges
+Principal urban centres include:
 
-Identify and flag major interchange stations including:
+* London
+* Birmingham
+* Coventry
+* Wolverhampton
+* Oxford
+* Shrewsbury
+* Hereford
+
+---
+
+## Included Routes
+
+### Chiltern Main Line
+
+Core route connecting:
+
+* London Marylebone
+* High Wycombe
+* Banbury
+* Leamington Spa
+* Solihull
+* Birmingham Moor Street
+
+This forms the backbone of the network.
+
+### Oxford Corridor
+
+Routes serving:
+
+* Bicester Village
+* Oxford Parkway
+* Oxford
+
+### Aylesbury Corridor
+
+Routes serving:
+
+* Princes Risborough
+* Aylesbury
+* Aylesbury Vale Parkway
+
+### Birmingham & Black Country Network
+
+Regional services linking:
+
+* Birmingham New Street
+* Birmingham Snow Hill
+* Birmingham Moor Street
+* Smethwick
+* Wolverhampton
+* Walsall
+* Rugeley
+
+### Cross-City Corridor
+
+Services operating through:
+
+* Birmingham New Street
+* University
+* Longbridge
+* Redditch
+* Bromsgrove
+
+### Western Routes
+
+Regional routes serving:
+
+* Kidderminster
+* Worcester
+* Hereford
+* Shrewsbury
+
+---
+
+## Major Interchanges
+
+The following stations should normally be classified as major interchanges:
 
 * London Marylebone
 * Birmingham New Street
@@ -41,9 +114,13 @@ Identify and flag major interchange stations including:
 * Shrewsbury
 * Hereford
 
-#### Terminus Stations
+Additional interchange classifications may be applied following gameplay testing.
 
-Identify and flag termini including:
+---
+
+## Terminus Principles
+
+Typical termini include:
 
 * London Marylebone
 * Oxford
@@ -58,52 +135,62 @@ Identify and flag termini including:
 * Rugeley Trent Valley
 * Stourbridge Town
 
-### Phase 2 – Landmark Dataset
+Terminus classifications should be reviewed periodically to ensure consistency with service patterns.
 
-Create landmark workbook containing:
+---
 
-* Landmarks
-* Castles
-* Cathedrals
-* Museums
-* Country Houses
-* Nature Reserves
+## Exclusions
 
-Priority areas:
+The following are excluded from this network:
 
-* Birmingham
-* Black Country
-* Warwickshire
-* Oxfordshire
-* Shropshire
-* Herefordshire
-* Worcestershire
-* Buckinghamshire
+* Avanti West Coast-only stations
+* CrossCountry-only stations
+* London Underground services
+* London Overground services
+* Transport for Wales routes beyond the defined network boundary
+* Freight-only infrastructure
+* Heritage railways
 
-### Phase 3 – Landmark Enrichment
+---
 
-Run enrichment process to populate:
+## Gameplay Characteristics
 
-* nearest_landmark
-* nearest_castle
-* nearest_cathedral
-* nearest_museum
-* nearest_country_house
-* nearest_nature_reserve
+The network is characterised by:
 
-### Phase 4 – Gameplay Validation
+* Strong commuter flows into London and Birmingham
+* Multiple branch line termini
+* A high concentration of interchange stations
+* A mixture of urban, suburban and rural stations
+* Distinct route identities suitable for future Routepedia integration
 
-* Review interchange classifications
-* Review terminus classifications
-* Check route balance
-* Check clue variety
-* Generate sample puzzles
+---
 
-## Milestone
+## Dataset Reference
 
-Dataset v1 complete:
+Current dataset:
 
-* 128 stations
-* CRS validated against source of truth
-* Coordinates populated
-* Ready for landmark enrichment
+`chiltern_midlands_master_v6.csv`
+
+Current station count:
+
+**128 stations**
+
+Operators represented:
+
+* Chiltern Railways
+* West Midlands Railway
+
+Coordinates validated against CRS source-of-truth dataset.
+
+---
+
+## Future Expansion Opportunities
+
+Potential future enhancements include:
+
+* Route-based classifications
+* Regional classifications
+* Landmark enrichment
+* Routepedia integration
+* Historical route references
+* Additional gameplay clue categories based on route membership

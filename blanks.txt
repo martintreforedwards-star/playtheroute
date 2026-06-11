@@ -1,0 +1,25 @@
+ADM - Adisham
+AYP - Albany Park
+APD - Appledore
+AFK - Ashford International
+AYL - Aylesford
+AYH - Aylesham
+BMG - Barming
+BNH - Barnehurst
+BBL - Bat & Ball
+BAT - Battle
+BSD - Bearsted
+BEC - Beckenham Hill
+BKJ - Beckenham Junction
+BKS - Bekesbourne
+BGM - Bellingham
+BEG - Beltring
+BVD - Belvedere
+BXY - Bexley
+BXH - Bexleyheath
+BKL - Bickley
+BCH - Birchington-On-Sea
+BKH - Blackheath
+BRG - Borough Green & Wrotham
+BRX - Brixton
+BSR - Broadstairs

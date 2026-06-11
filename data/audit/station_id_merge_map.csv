@@ -1,0 +1,34 @@
+old_station_id,new_station_id,crs,station_name
+uk_000413,uk_000007,BAT,Battle
+uk_000363,uk_000006,BBL,Bat & Ball
+uk_000518,uk_000005,BSK,Basingstoke
+uk_000543,uk_000307,CWL,Colwall
+uk_000355,uk_000020,DNG,Dunton Green
+uk_000426,uk_000026,ETC,Etchingham
+uk_000402,uk_000027,EYN,Eynsford
+uk_000421,uk_000030,FNR,Farningham Road
+uk_000385,uk_000033,FRT,Frant
+uk_000568,uk_000306,GMV,Great Malvern
+uk_000575,uk_000309,HFD,Hereford
+uk_000512,uk_000041,HGS,Hastings
+uk_000397,uk_000045,HIB,High Brooms
+uk_000371,uk_000046,HLB,Hildenborough
+uk_000324,uk_000054,LBG,London Bridge
+uk_000585,uk_000308,LED,Ledbury
+uk_000596,uk_000305,MVL,Malvern Link
+uk_000362,uk_000064,OTF,Otford
+uk_000611,uk_000234,OXF,Oxford
+uk_000386,uk_000074,RBR,Robertsbridge
+uk_000145,uk_000144,RMF,Romford
+uk_000375,uk_000092,SAY,Swanley
+uk_000403,uk_000079,SEH,Shoreham (Kent)
+uk_000354,uk_000077,SEV,Sevenoaks
+uk_000477,uk_000086,SLQ,St Leonards Warrior Square
+uk_000379,uk_000087,SOG,Stonegate
+uk_000418,uk_000098,TBW,Tunbridge Wells
+uk_000365,uk_000096,TON,Tonbridge
+uk_000327,uk_000056,VIC,London Victoria
+uk_000419,uk_000099,WAD,Wadhurst
+uk_000504,uk_000103,WLD,West St Leonards
+uk_000669,uk_000303,WOF,Worcester Foregate Street
+uk_000670,uk_000304,WOS,Worcester Shrub Hill

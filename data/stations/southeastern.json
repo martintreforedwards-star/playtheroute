@@ -23,7 +23,8 @@
     "london_terminal_count": 3,
     "accessibility_score": 13,
     "difficulty_score": 1,
-    "time_group": "0 to 10"
+    "time_group": "0 to 10",
+    "region": "South East London"
   },
   {
     "route_station_id": "SE0003",
@@ -49,7 +50,8 @@
     "london_terminal_count": 3,
     "accessibility_score": 13,
     "difficulty_score": 1,
-    "time_group": "0 to 10"
+    "time_group": "0 to 10",
+    "region": "South East London"
   },
   {
     "route_station_id": "SE0001",
@@ -75,7 +77,8 @@
     "london_terminal_count": 3,
     "accessibility_score": 12,
     "difficulty_score": 1,
-    "time_group": "0 to 10"
+    "time_group": "0 to 10",
+    "region": "South East London"
   },
   {
     "route_station_id": "SE0021",
@@ -101,7 +104,8 @@
     "london_terminal_count": 3,
     "accessibility_score": 10,
     "difficulty_score": 1,
-    "time_group": "0 to 10"
+    "time_group": "0 to 10",
+    "region": "South East London"
   },
   {
     "route_station_id": "SE0015",
@@ -127,7 +131,8 @@
     "london_terminal_count": 3,
     "accessibility_score": 12,
     "difficulty_score": 1,
-    "time_group": "0 to 10"
+    "time_group": "0 to 10",
+    "region": "South East London"
   },
   {
     "route_station_id": "SE0083",
@@ -153,7 +158,8 @@
     "london_terminal_count": 3,
     "accessibility_score": 10,
     "difficulty_score": 3,
-    "time_group": "0 to 10"
+    "time_group": "0 to 10",
+    "region": "South East London"
   },
   {
     "route_station_id": "SE0005",
@@ -179,7 +185,8 @@
     "london_terminal_count": 3,
     "accessibility_score": 12,
     "difficulty_score": 2,
-    "time_group": "0 to 10"
+    "time_group": "0 to 10",
+    "region": "South East London"
   },
   {
     "route_station_id": "SE0007",
@@ -205,7 +212,8 @@
     "london_terminal_count": 3,
     "accessibility_score": 4,
     "difficulty_score": 6,
-    "time_group": "10 to 20"
+    "time_group": "10 to 20",
+    "region": "South East London"
   },
   {
     "route_station_id": "SE0006",
@@ -231,7 +239,8 @@
     "london_terminal_count": 3,
     "accessibility_score": 4,
     "difficulty_score": 6,
-    "time_group": "10 to 20"
+    "time_group": "10 to 20",
+    "region": "South East London"
   },
   {
     "route_station_id": "SE0062",
@@ -257,7 +266,8 @@
     "london_terminal_count": 2,
     "accessibility_score": 3,
     "difficulty_score": 6,
-    "time_group": "10 to 20"
+    "time_group": "10 to 20",
+    "region": "South East London"
   },
   {
     "route_station_id": "SE0061",
@@ -283,7 +293,8 @@
     "london_terminal_count": 2,
     "accessibility_score": 3,
     "difficulty_score": 6,
-    "time_group": "10 to 20"
+    "time_group": "10 to 20",
+    "region": "South East London"
   },
   {
     "route_station_id": "SE0019",
@@ -309,7 +320,8 @@
     "london_terminal_count": 3,
     "accessibility_score": 9,
     "difficulty_score": 3,
-    "time_group": "10 to 20"
+    "time_group": "10 to 20",
+    "region": "South East London"
   },
   {
     "route_station_id": "SE0084",
@@ -335,7 +347,8 @@
     "london_terminal_count": 3,
     "accessibility_score": 10,
     "difficulty_score": 3,
-    "time_group": "10 to 20"
+    "time_group": "10 to 20",
+    "region": "North Kent"
   },
   {
     "route_station_id": "SE0016",
@@ -361,7 +374,8 @@
     "london_terminal_count": 3,
     "accessibility_score": 7,
     "difficulty_score": 5,
-    "time_group": "10 to 20"
+    "time_group": "10 to 20",
+    "region": "South East London"
   },
   {
     "route_station_id": "SE0020",
@@ -387,7 +401,8 @@
     "london_terminal_count": 3,
     "accessibility_score": 9,
     "difficulty_score": 3,
-    "time_group": "10 to 20"
+    "time_group": "10 to 20",
+    "region": "South East London"
   },
   {
     "route_station_id": "SE0033",
@@ -413,7 +428,8 @@
     "london_terminal_count": 3,
     "accessibility_score": 6,
     "difficulty_score": 6,
-    "time_group": "10 to 20"
+    "time_group": "10 to 20",
+    "region": "South East London"
   },
   {
     "route_station_id": "SE0066",
@@ -439,7 +455,8 @@
     "london_terminal_count": 2,
     "accessibility_score": 3,
     "difficulty_score": 6,
-    "time_group": "10 to 20"
+    "time_group": "10 to 20",
+    "region": "South East London"
   },
   {
     "route_station_id": "SE0032",
@@ -465,7 +482,8 @@
     "london_terminal_count": 3,
     "accessibility_score": 6,
     "difficulty_score": 6,
-    "time_group": "10 to 20"
+    "time_group": "10 to 20",
+    "region": "South East London"
   },
   {
     "route_station_id": "SE0052",
@@ -491,7 +509,8 @@
     "london_terminal_count": 2,
     "accessibility_score": 3,
     "difficulty_score": 6,
-    "time_group": "10 to 20"
+    "time_group": "10 to 20",
+    "region": "South East London"
   },
   {
     "route_station_id": "SE0002",
@@ -517,7 +536,8 @@
     "london_terminal_count": 3,
     "accessibility_score": 12,
     "difficulty_score": 2,
-    "time_group": "10 to 20"
+    "time_group": "10 to 20",
+    "region": "South East London"
   },
   {
     "route_station_id": "SE0017",
@@ -543,7 +563,8 @@
     "london_terminal_count": 3,
     "accessibility_score": 7,
     "difficulty_score": 5,
-    "time_group": "10 to 20"
+    "time_group": "10 to 20",
+    "region": "South East London"
   },
   {
     "route_station_id": "SE0018",
@@ -569,7 +590,8 @@
     "london_terminal_count": 3,
     "accessibility_score": 7,
     "difficulty_score": 5,
-    "time_group": "10 to 20"
+    "time_group": "10 to 20",
+    "region": "South East London"
   },
   {
     "route_station_id": "SE0070",
@@ -595,7 +617,8 @@
     "london_terminal_count": 3,
     "accessibility_score": 10,
     "difficulty_score": 3,
-    "time_group": "20 to 30"
+    "time_group": "20 to 30",
+    "region": "South East London"
   },
   {
     "route_station_id": "SE0063",
@@ -621,7 +644,8 @@
     "london_terminal_count": 2,
     "accessibility_score": 3,
     "difficulty_score": 6,
-    "time_group": "20 to 30"
+    "time_group": "20 to 30",
+    "region": "South East London"
   },
   {
     "route_station_id": "SE0031",
@@ -647,7 +671,8 @@
     "london_terminal_count": 3,
     "accessibility_score": 6,
     "difficulty_score": 6,
-    "time_group": "20 to 30"
+    "time_group": "20 to 30",
+    "region": "South East London"
   },
   {
     "route_station_id": "SE0064",
@@ -673,7 +698,8 @@
     "london_terminal_count": 2,
     "accessibility_score": 3,
     "difficulty_score": 6,
-    "time_group": "20 to 30"
+    "time_group": "20 to 30",
+    "region": "South East London"
   },
   {
     "route_station_id": "SE0034",
@@ -699,7 +725,8 @@
     "london_terminal_count": 3,
     "accessibility_score": 6,
     "difficulty_score": 6,
-    "time_group": "20 to 30"
+    "time_group": "20 to 30",
+    "region": "South East London"
   },
   {
     "route_station_id": "SE0127",
@@ -725,7 +752,8 @@
     "london_terminal_count": 3,
     "accessibility_score": 5,
     "difficulty_score": 5,
-    "time_group": "20 to 30"
+    "time_group": "20 to 30",
+    "region": "South East London"
   },
   {
     "route_station_id": "SE0065",
@@ -751,7 +779,8 @@
     "london_terminal_count": 2,
     "accessibility_score": 4,
     "difficulty_score": 5,
-    "time_group": "20 to 30"
+    "time_group": "20 to 30",
+    "region": "South East London"
   },
   {
     "route_station_id": "SE0068",
@@ -777,7 +806,8 @@
     "london_terminal_count": 2,
     "accessibility_score": 3,
     "difficulty_score": 6,
-    "time_group": "20 to 30"
+    "time_group": "20 to 30",
+    "region": "South East London"
   },
   {
     "route_station_id": "SE0077",
@@ -803,7 +833,8 @@
     "london_terminal_count": 3,
     "accessibility_score": 9,
     "difficulty_score": 3,
-    "time_group": "20 to 30"
+    "time_group": "20 to 30",
+    "region": "Weald"
   },
   {
     "route_station_id": "SE0129",
@@ -829,7 +860,8 @@
     "london_terminal_count": 3,
     "accessibility_score": 5,
     "difficulty_score": 5,
-    "time_group": "20 to 30"
+    "time_group": "20 to 30",
+    "region": "Weald"
   },
   {
     "route_station_id": "SE0035",
@@ -855,7 +887,8 @@
     "london_terminal_count": 3,
     "accessibility_score": 6,
     "difficulty_score": 6,
-    "time_group": "30 to 50"
+    "time_group": "30 to 50",
+    "region": "South East London"
   },
   {
     "route_station_id": "SE0036",
@@ -881,7 +914,8 @@
     "london_terminal_count": 3,
     "accessibility_score": 6,
     "difficulty_score": 6,
-    "time_group": "30 to 50"
+    "time_group": "30 to 50",
+    "region": "South East London"
   },
   {
     "route_station_id": "SE0043",
@@ -907,7 +941,8 @@
     "london_terminal_count": 3,
     "accessibility_score": 8,
     "difficulty_score": 4,
-    "time_group": "30 to 50"
+    "time_group": "30 to 50",
+    "region": "North Kent"
   },
   {
     "route_station_id": "SE0040",
@@ -933,7 +968,8 @@
     "london_terminal_count": 3,
     "accessibility_score": 11,
     "difficulty_score": 2,
-    "time_group": "30 to 50"
+    "time_group": "30 to 50",
+    "region": "North Kent"
   },
   {
     "route_station_id": "SE0149",
@@ -959,7 +995,8 @@
     "london_terminal_count": 3,
     "accessibility_score": 8,
     "difficulty_score": 4,
-    "time_group": "30 to 50"
+    "time_group": "30 to 50",
+    "region": "East Kent"
   },
   {
     "route_station_id": "SE0044",
@@ -985,7 +1022,8 @@
     "london_terminal_count": 3,
     "accessibility_score": 8,
     "difficulty_score": 4,
-    "time_group": "30 to 50"
+    "time_group": "30 to 50",
+    "region": "North Kent"
   },
   {
     "route_station_id": "SE0075",
@@ -1011,7 +1049,8 @@
     "london_terminal_count": 2,
     "accessibility_score": 4,
     "difficulty_score": 5,
-    "time_group": "30 to 50"
+    "time_group": "30 to 50",
+    "region": "Weald"
   },
   {
     "route_station_id": "SE0076",
@@ -1037,7 +1076,8 @@
     "london_terminal_count": 2,
     "accessibility_score": 3,
     "difficulty_score": 6,
-    "time_group": "30 to 50"
+    "time_group": "30 to 50",
+    "region": "Weald"
   },
   {
     "route_station_id": "SE0047",
@@ -1063,7 +1103,8 @@
     "london_terminal_count": 3,
     "accessibility_score": 11,
     "difficulty_score": 2,
-    "time_group": "30 to 50"
+    "time_group": "30 to 50",
+    "region": "Medway"
   },
   {
     "route_station_id": "SE0142",
@@ -1089,7 +1130,8 @@
     "london_terminal_count": 3,
     "accessibility_score": 10,
     "difficulty_score": 3,
-    "time_group": "30 to 50"
+    "time_group": "30 to 50",
+    "region": "Weald"
   },
   {
     "route_station_id": "SE0173",
@@ -1115,7 +1157,8 @@
     "london_terminal_count": 3,
     "accessibility_score": 4,
     "difficulty_score": 6,
-    "time_group": "30 to 50"
+    "time_group": "30 to 50",
+    "region": "Weald"
   },
   {
     "route_station_id": "SE0116",
@@ -1141,7 +1184,8 @@
     "london_terminal_count": 3,
     "accessibility_score": 4,
     "difficulty_score": 6,
-    "time_group": "30 to 50"
+    "time_group": "30 to 50",
+    "region": "South East London"
   },
   {
     "route_station_id": "SE0055",
@@ -1167,7 +1211,8 @@
     "london_terminal_count": 2,
     "accessibility_score": 3,
     "difficulty_score": 6,
-    "time_group": "30 to 50"
+    "time_group": "30 to 50",
+    "region": "South East London"
   },
   {
     "route_station_id": "SE0053",
@@ -1193,7 +1238,8 @@
     "london_terminal_count": 2,
     "accessibility_score": 3,
     "difficulty_score": 6,
-    "time_group": "30 to 50"
+    "time_group": "30 to 50",
+    "region": "South East London"
   },
   {
     "route_station_id": "SE0042",
@@ -1219,7 +1265,8 @@
     "london_terminal_count": 3,
     "accessibility_score": 8,
     "difficulty_score": 4,
-    "time_group": "30 to 50"
+    "time_group": "30 to 50",
+    "region": "North Kent"
   },
   {
     "route_station_id": "SE0143",
@@ -1245,7 +1292,8 @@
     "london_terminal_count": 3,
     "accessibility_score": 7,
     "difficulty_score": 5,
-    "time_group": "30 to 50"
+    "time_group": "30 to 50",
+    "region": "Weald"
   },
   {
     "route_station_id": "SE0141",
@@ -1271,7 +1319,8 @@
     "london_terminal_count": 3,
     "accessibility_score": 10,
     "difficulty_score": 3,
-    "time_group": "30 to 50"
+    "time_group": "30 to 50",
+    "region": "Weald"
   },
   {
     "route_station_id": "SE0037",
@@ -1297,7 +1346,8 @@
     "london_terminal_count": 3,
     "accessibility_score": 9,
     "difficulty_score": 3,
-    "time_group": "30 to 50"
+    "time_group": "30 to 50",
+    "region": "South East London"
   },
   {
     "route_station_id": "SE0071",
@@ -1323,7 +1373,8 @@
     "london_terminal_count": 3,
     "accessibility_score": 6,
     "difficulty_score": 5,
-    "time_group": "30 to 50"
+    "time_group": "30 to 50",
+    "region": "South East London"
   },
   {
     "route_station_id": "SE0072",
@@ -1349,7 +1400,8 @@
     "london_terminal_count": 3,
     "accessibility_score": 7,
     "difficulty_score": 4,
-    "time_group": "30 to 50"
+    "time_group": "30 to 50",
+    "region": "North Kent"
   },
   {
     "route_station_id": "SE0010",
@@ -1375,7 +1427,8 @@
     "london_terminal_count": 3,
     "accessibility_score": 4,
     "difficulty_score": 6,
-    "time_group": "30 to 50"
+    "time_group": "30 to 50",
+    "region": "South East London"
   },
   {
     "route_station_id": "SE0177",
@@ -1401,7 +1454,8 @@
     "london_terminal_count": 1,
     "accessibility_score": 2,
     "difficulty_score": 6,
-    "time_group": "30 to 50"
+    "time_group": "30 to 50",
+    "region": "Weald"
   },
   {
     "route_station_id": "SE0118",
@@ -1427,7 +1481,8 @@
     "london_terminal_count": 3,
     "accessibility_score": 4,
     "difficulty_score": 6,
-    "time_group": "30 to 50"
+    "time_group": "30 to 50",
+    "region": "South East London"
   },
   {
     "route_station_id": "SE0169",
@@ -1453,7 +1508,8 @@
     "london_terminal_count": 3,
     "accessibility_score": 4,
     "difficulty_score": 6,
-    "time_group": "30 to 50"
+    "time_group": "30 to 50",
+    "region": "Weald"
   },
   {
     "route_station_id": "SE0123",
@@ -1479,7 +1535,8 @@
     "london_terminal_count": 3,
     "accessibility_score": 4,
     "difficulty_score": 6,
-    "time_group": "30 to 50"
+    "time_group": "30 to 50",
+    "region": "South East London"
   },
   {
     "route_station_id": "SE0059",
@@ -1505,7 +1562,8 @@
     "london_terminal_count": 2,
     "accessibility_score": 3,
     "difficulty_score": 6,
-    "time_group": "30 to 50"
+    "time_group": "30 to 50",
+    "region": "South East London"
   },
   {
     "route_station_id": "SE0148",
@@ -1531,7 +1589,8 @@
     "london_terminal_count": 3,
     "accessibility_score": 6,
     "difficulty_score": 6,
-    "time_group": "30 to 50"
+    "time_group": "30 to 50",
+    "region": "Weald"
   },
   {
     "route_station_id": "SE0136",
@@ -1557,7 +1616,8 @@
     "london_terminal_count": 1,
     "accessibility_score": 5,
     "difficulty_score": 3,
-    "time_group": "30 to 50"
+    "time_group": "30 to 50",
+    "region": "Medway"
   },
   {
     "route_station_id": "SE0139",
@@ -1583,7 +1643,8 @@
     "london_terminal_count": 1,
     "accessibility_score": 3,
     "difficulty_score": 5,
-    "time_group": "30 to 50"
+    "time_group": "30 to 50",
+    "region": "Medway"
   },
   {
     "route_station_id": "SE0167",
@@ -1609,7 +1670,8 @@
     "london_terminal_count": 3,
     "accessibility_score": 4,
     "difficulty_score": 6,
-    "time_group": "30 to 50"
+    "time_group": "30 to 50",
+    "region": "Weald"
   },
   {
     "route_station_id": "SE0171",
@@ -1635,7 +1697,8 @@
     "london_terminal_count": 3,
     "accessibility_score": 4,
     "difficulty_score": 6,
-    "time_group": "30 to 50"
+    "time_group": "30 to 50",
+    "region": "Weald"
   },
   {
     "route_station_id": "SE0119",
@@ -1661,7 +1724,8 @@
     "london_terminal_count": 3,
     "accessibility_score": 4,
     "difficulty_score": 6,
-    "time_group": "30 to 50"
+    "time_group": "30 to 50",
+    "region": "South East London"
   },
   {
     "route_station_id": "SE0039",
@@ -1687,7 +1751,8 @@
     "london_terminal_count": 3,
     "accessibility_score": 7,
     "difficulty_score": 5,
-    "time_group": "30 to 50"
+    "time_group": "30 to 50",
+    "region": "South East London"
   },
   {
     "route_station_id": "SE0022",
@@ -1713,7 +1778,8 @@
     "london_terminal_count": 3,
     "accessibility_score": 9,
     "difficulty_score": 3,
-    "time_group": "30 to 50"
+    "time_group": "30 to 50",
+    "region": "South East London"
   },
   {
     "route_station_id": "SE0135",
@@ -1739,7 +1805,8 @@
     "london_terminal_count": 1,
     "accessibility_score": 3,
     "difficulty_score": 5,
-    "time_group": "30 to 50"
+    "time_group": "30 to 50",
+    "region": "Medway"
   },
   {
     "route_station_id": "SE0147",
@@ -1765,7 +1832,8 @@
     "london_terminal_count": 3,
     "accessibility_score": 6,
     "difficulty_score": 6,
-    "time_group": "30 to 50"
+    "time_group": "30 to 50",
+    "region": "Weald"
   },
   {
     "route_station_id": "SE0088",
@@ -1791,7 +1859,8 @@
     "london_terminal_count": 3,
     "accessibility_score": 5,
     "difficulty_score": 6,
-    "time_group": "30 to 50"
+    "time_group": "30 to 50",
+    "region": "North Kent"
   },
   {
     "route_station_id": "SE0041",
@@ -1817,7 +1886,8 @@
     "london_terminal_count": 3,
     "accessibility_score": 8,
     "difficulty_score": 4,
-    "time_group": "30 to 50"
+    "time_group": "30 to 50",
+    "region": "North Kent"
   },
   {
     "route_station_id": "SE0120",
@@ -1843,7 +1913,8 @@
     "london_terminal_count": 3,
     "accessibility_score": 4,
     "difficulty_score": 6,
-    "time_group": "30 to 50"
+    "time_group": "30 to 50",
+    "region": "South East London"
   },
   {
     "route_station_id": "SE0012",
@@ -1869,7 +1940,8 @@
     "london_terminal_count": 3,
     "accessibility_score": 4,
     "difficulty_score": 6,
-    "time_group": "30 to 50"
+    "time_group": "30 to 50",
+    "region": "South East London"
   },
   {
     "route_station_id": "SE0080",
@@ -1895,7 +1967,8 @@
     "london_terminal_count": 3,
     "accessibility_score": 5,
     "difficulty_score": 6,
-    "time_group": "30 to 50"
+    "time_group": "30 to 50",
+    "region": "South East London"
   },
   {
     "route_station_id": "SE0165",
@@ -1921,7 +1994,8 @@
     "london_terminal_count": 3,
     "accessibility_score": 4,
     "difficulty_score": 6,
-    "time_group": "30 to 50"
+    "time_group": "30 to 50",
+    "region": "Weald"
   },
   {
     "route_station_id": "SE0115",
@@ -1947,7 +2021,8 @@
     "london_terminal_count": 3,
     "accessibility_score": 5,
     "difficulty_score": 5,
-    "time_group": "30 to 50"
+    "time_group": "30 to 50",
+    "region": "South East London"
   },
   {
     "route_station_id": "SE0008",
@@ -1973,7 +2048,8 @@
     "london_terminal_count": 3,
     "accessibility_score": 4,
     "difficulty_score": 6,
-    "time_group": "30 to 50"
+    "time_group": "30 to 50",
+    "region": "South East London"
   },
   {
     "route_station_id": "SE0026",
@@ -1999,7 +2075,8 @@
     "london_terminal_count": 3,
     "accessibility_score": 6,
     "difficulty_score": 6,
-    "time_group": "30 to 50"
+    "time_group": "30 to 50",
+    "region": "South East London"
   },
   {
     "route_station_id": "SE0027",
@@ -2025,7 +2102,8 @@
     "london_terminal_count": 3,
     "accessibility_score": 6,
     "difficulty_score": 6,
-    "time_group": "30 to 50"
+    "time_group": "30 to 50",
+    "region": "South East London"
   },
   {
     "route_station_id": "SE0073",
@@ -2051,7 +2129,8 @@
     "london_terminal_count": 2,
     "accessibility_score": 3,
     "difficulty_score": 6,
-    "time_group": "30 to 50"
+    "time_group": "30 to 50",
+    "region": "Weald"
   },
   {
     "route_station_id": "SE0074",
@@ -2077,7 +2156,8 @@
     "london_terminal_count": 2,
     "accessibility_score": 3,
     "difficulty_score": 6,
-    "time_group": "30 to 50"
+    "time_group": "30 to 50",
+    "region": "Weald"
   },
   {
     "route_station_id": "SE0121",
@@ -2103,7 +2183,8 @@
     "london_terminal_count": 3,
     "accessibility_score": 4,
     "difficulty_score": 6,
-    "time_group": "30 to 50"
+    "time_group": "30 to 50",
+    "region": "South East London"
   },
   {
     "route_station_id": "SE0082",
@@ -2129,7 +2210,8 @@
     "london_terminal_count": 3,
     "accessibility_score": 5,
     "difficulty_score": 6,
-    "time_group": "30 to 50"
+    "time_group": "30 to 50",
+    "region": "South East London"
   },
   {
     "route_station_id": "SE0124",
@@ -2155,7 +2237,8 @@
     "london_terminal_count": 3,
     "accessibility_score": 4,
     "difficulty_score": 6,
-    "time_group": "30 to 50"
+    "time_group": "30 to 50",
+    "region": "South East London"
   },
   {
     "route_station_id": "SE0126",
@@ -2181,7 +2264,8 @@
     "london_terminal_count": 3,
     "accessibility_score": 4,
     "difficulty_score": 6,
-    "time_group": "30 to 50"
+    "time_group": "30 to 50",
+    "region": "South East London"
   },
   {
     "route_station_id": "SE0013",
@@ -2207,7 +2291,8 @@
     "london_terminal_count": 3,
     "accessibility_score": 4,
     "difficulty_score": 6,
-    "time_group": "30 to 50"
+    "time_group": "30 to 50",
+    "region": "South East London"
   },
   {
     "route_station_id": "SE0140",
@@ -2233,7 +2318,8 @@
     "london_terminal_count": 1,
     "accessibility_score": 3,
     "difficulty_score": 5,
-    "time_group": "30 to 50"
+    "time_group": "30 to 50",
+    "region": "Medway"
   },
   {
     "route_station_id": "SE0130",
@@ -2259,7 +2345,8 @@
     "london_terminal_count": 1,
     "accessibility_score": 3,
     "difficulty_score": 5,
-    "time_group": "30 to 50"
+    "time_group": "30 to 50",
+    "region": "Medway"
   },
   {
     "route_station_id": "SE0133",
@@ -2285,7 +2372,8 @@
     "london_terminal_count": 1,
     "accessibility_score": 3,
     "difficulty_score": 5,
-    "time_group": "30 to 50"
+    "time_group": "30 to 50",
+    "region": "Medway"
   },
   {
     "route_station_id": "SE0145",
@@ -2311,7 +2399,8 @@
     "london_terminal_count": 3,
     "accessibility_score": 6,
     "difficulty_score": 6,
-    "time_group": "30 to 50"
+    "time_group": "30 to 50",
+    "region": "Weald"
   },
   {
     "route_station_id": "SE0172",
@@ -2337,7 +2426,8 @@
     "london_terminal_count": 3,
     "accessibility_score": 4,
     "difficulty_score": 6,
-    "time_group": "30 to 50"
+    "time_group": "30 to 50",
+    "region": "Weald"
   },
   {
     "route_station_id": "SE0178",
@@ -2363,7 +2453,8 @@
     "london_terminal_count": 1,
     "accessibility_score": 2,
     "difficulty_score": 6,
-    "time_group": "30 to 50"
+    "time_group": "30 to 50",
+    "region": "Weald"
   },
   {
     "route_station_id": "SE0011",
@@ -2389,7 +2480,8 @@
     "london_terminal_count": 3,
     "accessibility_score": 4,
     "difficulty_score": 6,
-    "time_group": "30 to 50"
+    "time_group": "30 to 50",
+    "region": "South East London"
   },
   {
     "route_station_id": "SE0122",
@@ -2415,7 +2507,8 @@
     "london_terminal_count": 3,
     "accessibility_score": 5,
     "difficulty_score": 5,
-    "time_group": "30 to 50"
+    "time_group": "30 to 50",
+    "region": "South East London"
   },
   {
     "route_station_id": "SE0117",
@@ -2441,7 +2534,8 @@
     "london_terminal_count": 3,
     "accessibility_score": 4,
     "difficulty_score": 6,
-    "time_group": "30 to 50"
+    "time_group": "30 to 50",
+    "region": "South East London"
   },
   {
     "route_station_id": "SE0166",
@@ -2467,7 +2561,8 @@
     "london_terminal_count": 3,
     "accessibility_score": 5,
     "difficulty_score": 5,
-    "time_group": "30 to 50"
+    "time_group": "30 to 50",
+    "region": "Weald"
   },
   {
     "route_station_id": "SE0168",
@@ -2493,7 +2588,8 @@
     "london_terminal_count": 3,
     "accessibility_score": 4,
     "difficulty_score": 6,
-    "time_group": "30 to 50"
+    "time_group": "30 to 50",
+    "region": "Weald"
   },
   {
     "route_station_id": "SE0134",
@@ -2519,7 +2615,8 @@
     "london_terminal_count": 1,
     "accessibility_score": 3,
     "difficulty_score": 5,
-    "time_group": "30 to 50"
+    "time_group": "30 to 50",
+    "region": "Medway"
   },
   {
     "route_station_id": "SE0085",
@@ -2545,7 +2642,8 @@
     "london_terminal_count": 3,
     "accessibility_score": 5,
     "difficulty_score": 6,
-    "time_group": "30 to 50"
+    "time_group": "30 to 50",
+    "region": "Weald"
   },
   {
     "route_station_id": "SE0028",
@@ -2571,7 +2669,8 @@
     "london_terminal_count": 3,
     "accessibility_score": 6,
     "difficulty_score": 6,
-    "time_group": "30 to 50"
+    "time_group": "30 to 50",
+    "region": "South East London"
   },
   {
     "route_station_id": "SE0069",
@@ -2597,7 +2696,8 @@
     "london_terminal_count": 3,
     "accessibility_score": 7,
     "difficulty_score": 5,
-    "time_group": "30 to 50"
+    "time_group": "30 to 50",
+    "region": "South East London"
   },
   {
     "route_station_id": "SE0138",
@@ -2623,7 +2723,8 @@
     "london_terminal_count": 1,
     "accessibility_score": 3,
     "difficulty_score": 5,
-    "time_group": "30 to 50"
+    "time_group": "30 to 50",
+    "region": "Medway"
   },
   {
     "route_station_id": "SE0079",
@@ -2649,7 +2750,8 @@
     "london_terminal_count": 3,
     "accessibility_score": 5,
     "difficulty_score": 6,
-    "time_group": "30 to 50"
+    "time_group": "30 to 50",
+    "region": "South East London"
   },
   {
     "route_station_id": "SE0170",
@@ -2675,7 +2777,8 @@
     "london_terminal_count": 3,
     "accessibility_score": 4,
     "difficulty_score": 6,
-    "time_group": "30 to 50"
+    "time_group": "30 to 50",
+    "region": "Weald"
   },
   {
     "route_station_id": "SE0078",
@@ -2701,7 +2804,8 @@
     "london_terminal_count": 3,
     "accessibility_score": 5,
     "difficulty_score": 6,
-    "time_group": "30 to 50"
+    "time_group": "30 to 50",
+    "region": "South East London"
   },
   {
     "route_station_id": "SE0009",
@@ -2727,7 +2831,8 @@
     "london_terminal_count": 3,
     "accessibility_score": 4,
     "difficulty_score": 6,
-    "time_group": "30 to 50"
+    "time_group": "30 to 50",
+    "region": "South East London"
   },
   {
     "route_station_id": "SE0038",
@@ -2753,7 +2858,8 @@
     "london_terminal_count": 3,
     "accessibility_score": 7,
     "difficulty_score": 5,
-    "time_group": "30 to 50"
+    "time_group": "30 to 50",
+    "region": "South East London"
   },
   {
     "route_station_id": "SE0057",
@@ -2779,7 +2885,8 @@
     "london_terminal_count": 2,
     "accessibility_score": 3,
     "difficulty_score": 6,
-    "time_group": "30 to 50"
+    "time_group": "30 to 50",
+    "region": "South East London"
   },
   {
     "route_station_id": "SE0131",
@@ -2805,7 +2912,8 @@
     "london_terminal_count": 1,
     "accessibility_score": 3,
     "difficulty_score": 5,
-    "time_group": "30 to 50"
+    "time_group": "30 to 50",
+    "region": "Medway"
   },
   {
     "route_station_id": "SE0146",
@@ -2831,7 +2939,8 @@
     "london_terminal_count": 3,
     "accessibility_score": 6,
     "difficulty_score": 6,
-    "time_group": "30 to 50"
+    "time_group": "30 to 50",
+    "region": "Weald"
   },
   {
     "route_station_id": "SE0086",
@@ -2857,7 +2966,8 @@
     "london_terminal_count": 3,
     "accessibility_score": 5,
     "difficulty_score": 6,
-    "time_group": "30 to 50"
+    "time_group": "30 to 50",
+    "region": "North Kent"
   },
   {
     "route_station_id": "SE0054",
@@ -2883,7 +2993,8 @@
     "london_terminal_count": 2,
     "accessibility_score": 3,
     "difficulty_score": 6,
-    "time_group": "30 to 50"
+    "time_group": "30 to 50",
+    "region": "South East London"
   },
   {
     "route_station_id": "SE0137",
@@ -2909,7 +3020,8 @@
     "london_terminal_count": 1,
     "accessibility_score": 3,
     "difficulty_score": 5,
-    "time_group": "30 to 50"
+    "time_group": "30 to 50",
+    "region": "Weald"
   },
   {
     "route_station_id": "SE0060",
@@ -2935,7 +3047,8 @@
     "london_terminal_count": 2,
     "accessibility_score": 3,
     "difficulty_score": 6,
-    "time_group": "30 to 50"
+    "time_group": "30 to 50",
+    "region": "South East London"
   },
   {
     "route_station_id": "SE0024",
@@ -2961,7 +3074,8 @@
     "london_terminal_count": 3,
     "accessibility_score": 8,
     "difficulty_score": 4,
-    "time_group": "30 to 50"
+    "time_group": "30 to 50",
+    "region": "South East London"
   },
   {
     "route_station_id": "SE0023",
@@ -2987,7 +3101,8 @@
     "london_terminal_count": 3,
     "accessibility_score": 8,
     "difficulty_score": 4,
-    "time_group": "30 to 50"
+    "time_group": "30 to 50",
+    "region": "South East London"
   },
   {
     "route_station_id": "SE0058",
@@ -3013,7 +3128,8 @@
     "london_terminal_count": 2,
     "accessibility_score": 3,
     "difficulty_score": 6,
-    "time_group": "30 to 50"
+    "time_group": "30 to 50",
+    "region": "South East London"
   },
   {
     "route_station_id": "SE0048",
@@ -3039,7 +3155,8 @@
     "london_terminal_count": 3,
     "accessibility_score": 10,
     "difficulty_score": 3,
-    "time_group": "30 to 50"
+    "time_group": "30 to 50",
+    "region": "Medway"
   },
   {
     "route_station_id": "SE0029",
@@ -3065,7 +3182,8 @@
     "london_terminal_count": 3,
     "accessibility_score": 6,
     "difficulty_score": 6,
-    "time_group": "30 to 50"
+    "time_group": "30 to 50",
+    "region": "South East London"
   },
   {
     "route_station_id": "SE0125",
@@ -3091,7 +3209,8 @@
     "london_terminal_count": 3,
     "accessibility_score": 4,
     "difficulty_score": 6,
-    "time_group": "30 to 50"
+    "time_group": "30 to 50",
+    "region": "South East London"
   },
   {
     "route_station_id": "SE0014",
@@ -3117,7 +3236,8 @@
     "london_terminal_count": 3,
     "accessibility_score": 4,
     "difficulty_score": 6,
-    "time_group": "30 to 50"
+    "time_group": "30 to 50",
+    "region": "South East London"
   },
   {
     "route_station_id": "SE0128",
@@ -3143,7 +3263,8 @@
     "london_terminal_count": 3,
     "accessibility_score": 4,
     "difficulty_score": 6,
-    "time_group": "30 to 50"
+    "time_group": "30 to 50",
+    "region": "Weald"
   },
   {
     "route_station_id": "SE0081",
@@ -3169,7 +3290,8 @@
     "london_terminal_count": 3,
     "accessibility_score": 5,
     "difficulty_score": 6,
-    "time_group": "30 to 50"
+    "time_group": "30 to 50",
+    "region": "South East London"
   },
   {
     "route_station_id": "SE0056",
@@ -3195,7 +3317,8 @@
     "london_terminal_count": 2,
     "accessibility_score": 3,
     "difficulty_score": 6,
-    "time_group": "30 to 50"
+    "time_group": "30 to 50",
+    "region": "South East London"
   },
   {
     "route_station_id": "SE0025",
@@ -3221,7 +3344,8 @@
     "london_terminal_count": 3,
     "accessibility_score": 7,
     "difficulty_score": 5,
-    "time_group": "30 to 50"
+    "time_group": "30 to 50",
+    "region": "South East London"
   },
   {
     "route_station_id": "SE0067",
@@ -3247,7 +3371,8 @@
     "london_terminal_count": 3,
     "accessibility_score": 9,
     "difficulty_score": 3,
-    "time_group": "30 to 50"
+    "time_group": "30 to 50",
+    "region": "South East London"
   },
   {
     "route_station_id": "SE0030",
@@ -3273,7 +3398,8 @@
     "london_terminal_count": 3,
     "accessibility_score": 6,
     "difficulty_score": 6,
-    "time_group": "30 to 50"
+    "time_group": "30 to 50",
+    "region": "South East London"
   },
   {
     "route_station_id": "SE0144",
@@ -3299,7 +3425,8 @@
     "london_terminal_count": 3,
     "accessibility_score": 6,
     "difficulty_score": 6,
-    "time_group": "30 to 50"
+    "time_group": "30 to 50",
+    "region": "Weald"
   },
   {
     "route_station_id": "SE0087",
@@ -3325,7 +3452,8 @@
     "london_terminal_count": 3,
     "accessibility_score": 5,
     "difficulty_score": 6,
-    "time_group": "30 to 50"
+    "time_group": "30 to 50",
+    "region": "North Kent"
   },
   {
     "route_station_id": "SE0132",
@@ -3351,7 +3479,8 @@
     "london_terminal_count": 1,
     "accessibility_score": 3,
     "difficulty_score": 5,
-    "time_group": "30 to 50"
+    "time_group": "30 to 50",
+    "region": "Medway"
   },
   {
     "route_station_id": "SE0182",
@@ -3377,7 +3506,8 @@
     "london_terminal_count": 1,
     "accessibility_score": 2,
     "difficulty_score": 6,
-    "time_group": "30 to 50"
+    "time_group": "30 to 50",
+    "region": "Weald"
   },
   {
     "route_station_id": "SE0045",
@@ -3403,7 +3533,8 @@
     "london_terminal_count": 3,
     "accessibility_score": 13,
     "difficulty_score": 2,
-    "time_group": "50 to 70"
+    "time_group": "50 to 70",
+    "region": "North Kent"
   },
   {
     "route_station_id": "SE0046",
@@ -3429,7 +3560,8 @@
     "london_terminal_count": 3,
     "accessibility_score": 6,
     "difficulty_score": 6,
-    "time_group": "50 to 70"
+    "time_group": "50 to 70",
+    "region": "North Kent"
   },
   {
     "route_station_id": "SE0179",
@@ -3455,7 +3587,8 @@
     "london_terminal_count": 0,
     "accessibility_score": 1,
     "difficulty_score": 6,
-    "time_group": "50 to 70"
+    "time_group": "50 to 70",
+    "region": "Medway"
   },
   {
     "route_station_id": "SE0153",
@@ -3481,7 +3614,8 @@
     "london_terminal_count": 3,
     "accessibility_score": 7,
     "difficulty_score": 5,
-    "time_group": "50 to 70"
+    "time_group": "50 to 70",
+    "region": "Canterbury District"
   },
   {
     "route_station_id": "SE0091",
@@ -3507,7 +3641,8 @@
     "london_terminal_count": 3,
     "accessibility_score": 5,
     "difficulty_score": 6,
-    "time_group": "50 to 70"
+    "time_group": "50 to 70",
+    "region": "Medway"
   },
   {
     "route_station_id": "SE0089",
@@ -3533,7 +3668,8 @@
     "london_terminal_count": 3,
     "accessibility_score": 5,
     "difficulty_score": 6,
-    "time_group": "50 to 70"
+    "time_group": "50 to 70",
+    "region": "Medway"
   },
   {
     "route_station_id": "SE0180",
@@ -3559,7 +3695,8 @@
     "london_terminal_count": 0,
     "accessibility_score": 1,
     "difficulty_score": 6,
-    "time_group": "50 to 70"
+    "time_group": "50 to 70",
+    "region": "Medway"
   },
   {
     "route_station_id": "SE0049",
@@ -3585,7 +3722,8 @@
     "london_terminal_count": 3,
     "accessibility_score": 9,
     "difficulty_score": 3,
-    "time_group": "50 to 70"
+    "time_group": "50 to 70",
+    "region": "Medway"
   },
   {
     "route_station_id": "SE0093",
@@ -3611,7 +3749,8 @@
     "london_terminal_count": 3,
     "accessibility_score": 5,
     "difficulty_score": 6,
-    "time_group": "50 to 70"
+    "time_group": "50 to 70",
+    "region": "Medway"
   },
   {
     "route_station_id": "SE0185",
@@ -3637,7 +3776,8 @@
     "london_terminal_count": 1,
     "accessibility_score": 2,
     "difficulty_score": 6,
-    "time_group": "50 to 70"
+    "time_group": "50 to 70",
+    "region": "Weald"
   },
   {
     "route_station_id": "SE0183",
@@ -3663,7 +3803,8 @@
     "london_terminal_count": 1,
     "accessibility_score": 2,
     "difficulty_score": 6,
-    "time_group": "50 to 70"
+    "time_group": "50 to 70",
+    "region": "Weald"
   },
   {
     "route_station_id": "SE0181",
@@ -3689,7 +3830,8 @@
     "london_terminal_count": 0,
     "accessibility_score": 1,
     "difficulty_score": 6,
-    "time_group": "50 to 70"
+    "time_group": "50 to 70",
+    "region": "Medway"
   },
   {
     "route_station_id": "SE0050",
@@ -3715,7 +3857,8 @@
     "london_terminal_count": 3,
     "accessibility_score": 10,
     "difficulty_score": 3,
-    "time_group": "50 to 70"
+    "time_group": "50 to 70",
+    "region": "Medway"
   },
   {
     "route_station_id": "SE0051",
@@ -3741,7 +3884,8 @@
     "london_terminal_count": 3,
     "accessibility_score": 7,
     "difficulty_score": 5,
-    "time_group": "70 to 90"
+    "time_group": "70 to 90",
+    "region": "Medway"
   },
   {
     "route_station_id": "SE0186",
@@ -3767,7 +3911,8 @@
     "london_terminal_count": 1,
     "accessibility_score": 2,
     "difficulty_score": 6,
-    "time_group": "70 to 90"
+    "time_group": "70 to 90",
+    "region": "Weald"
   },
   {
     "route_station_id": "SE0184",
@@ -3793,7 +3938,8 @@
     "london_terminal_count": 1,
     "accessibility_score": 2,
     "difficulty_score": 6,
-    "time_group": "70 to 90"
+    "time_group": "70 to 90",
+    "region": "Weald"
   },
   {
     "route_station_id": "SE0096",
@@ -3819,7 +3965,8 @@
     "london_terminal_count": 3,
     "accessibility_score": 6,
     "difficulty_score": 5,
-    "time_group": "70 to 90"
+    "time_group": "70 to 90",
+    "region": "East Kent"
   },
   {
     "route_station_id": "SE0106",
@@ -3845,7 +3992,8 @@
     "london_terminal_count": 3,
     "accessibility_score": 5,
     "difficulty_score": 6,
-    "time_group": "70 to 90"
+    "time_group": "70 to 90",
+    "region": "Canterbury District"
   },
   {
     "route_station_id": "SE0094",
@@ -3871,7 +4019,8 @@
     "london_terminal_count": 3,
     "accessibility_score": 5,
     "difficulty_score": 6,
-    "time_group": "70 to 90"
+    "time_group": "70 to 90",
+    "region": "Medway"
   },
   {
     "route_station_id": "SE0090",
@@ -3897,7 +4046,8 @@
     "london_terminal_count": 3,
     "accessibility_score": 6,
     "difficulty_score": 5,
-    "time_group": "70 to 90"
+    "time_group": "70 to 90",
+    "region": "Medway"
   },
   {
     "route_station_id": "SE0097",
@@ -3923,7 +4073,8 @@
     "london_terminal_count": 3,
     "accessibility_score": 5,
     "difficulty_score": 6,
-    "time_group": "70 to 90"
+    "time_group": "70 to 90",
+    "region": "Canterbury District"
   },
   {
     "route_station_id": "SE0152",
@@ -3949,7 +4100,8 @@
     "london_terminal_count": 3,
     "accessibility_score": 6,
     "difficulty_score": 6,
-    "time_group": "70 to 90"
+    "time_group": "70 to 90",
+    "region": "Canterbury District"
   },
   {
     "route_station_id": "SE0099",
@@ -3975,7 +4127,8 @@
     "london_terminal_count": 3,
     "accessibility_score": 5,
     "difficulty_score": 6,
-    "time_group": "70 to 90"
+    "time_group": "70 to 90",
+    "region": "Canterbury District"
   },
   {
     "route_station_id": "SE0175",
@@ -4001,7 +4154,8 @@
     "london_terminal_count": 3,
     "accessibility_score": 5,
     "difficulty_score": 5,
-    "time_group": "70 to 90"
+    "time_group": "70 to 90",
+    "region": "East Kent"
   },
   {
     "route_station_id": "SE0187",
@@ -4027,7 +4181,8 @@
     "london_terminal_count": 0,
     "accessibility_score": 1,
     "difficulty_score": 6,
-    "time_group": "70 to 90"
+    "time_group": "70 to 90",
+    "region": "East Kent"
   },
   {
     "route_station_id": "SE0110",
@@ -4053,7 +4208,8 @@
     "london_terminal_count": 3,
     "accessibility_score": 5,
     "difficulty_score": 6,
-    "time_group": "70 to 90"
+    "time_group": "70 to 90",
+    "region": "Canterbury District"
   },
   {
     "route_station_id": "SE0098",
@@ -4079,7 +4235,8 @@
     "london_terminal_count": 3,
     "accessibility_score": 5,
     "difficulty_score": 6,
-    "time_group": "70 to 90"
+    "time_group": "70 to 90",
+    "region": "Canterbury District"
   },
   {
     "route_station_id": "SE0157",
@@ -4105,7 +4262,8 @@
     "london_terminal_count": 3,
     "accessibility_score": 6,
     "difficulty_score": 6,
-    "time_group": "70 to 90"
+    "time_group": "70 to 90",
+    "region": "East Kent"
   },
   {
     "route_station_id": "SE0095",
@@ -4131,7 +4289,8 @@
     "london_terminal_count": 3,
     "accessibility_score": 5,
     "difficulty_score": 6,
-    "time_group": "70 to 90"
+    "time_group": "70 to 90",
+    "region": "Canterbury District"
   },
   {
     "route_station_id": "SE0164",
@@ -4157,7 +4316,8 @@
     "london_terminal_count": 3,
     "accessibility_score": 6,
     "difficulty_score": 6,
-    "time_group": "70 to 90"
+    "time_group": "70 to 90",
+    "region": "Thanet"
   },
   {
     "route_station_id": "SE0109",
@@ -4183,7 +4343,8 @@
     "london_terminal_count": 3,
     "accessibility_score": 5,
     "difficulty_score": 6,
-    "time_group": "70 to 90"
+    "time_group": "70 to 90",
+    "region": "Canterbury District"
   },
   {
     "route_station_id": "SE0114",
@@ -4209,7 +4370,8 @@
     "london_terminal_count": 3,
     "accessibility_score": 8,
     "difficulty_score": 4,
-    "time_group": "70 to 90"
+    "time_group": "70 to 90",
+    "region": "East Kent"
   },
   {
     "route_station_id": "SE0162",
@@ -4235,7 +4397,8 @@
     "london_terminal_count": 3,
     "accessibility_score": 6,
     "difficulty_score": 6,
-    "time_group": "70 to 90"
+    "time_group": "70 to 90",
+    "region": "East Kent"
   },
   {
     "route_station_id": "SE0111",
@@ -4261,7 +4424,8 @@
     "london_terminal_count": 3,
     "accessibility_score": 5,
     "difficulty_score": 6,
-    "time_group": "70 to 90"
+    "time_group": "70 to 90",
+    "region": "Canterbury District"
   },
   {
     "route_station_id": "SE0160",
@@ -4287,7 +4451,8 @@
     "london_terminal_count": 3,
     "accessibility_score": 6,
     "difficulty_score": 6,
-    "time_group": "70 to 90"
+    "time_group": "70 to 90",
+    "region": "East Kent"
   },
   {
     "route_station_id": "SE0151",
@@ -4313,7 +4478,8 @@
     "london_terminal_count": 3,
     "accessibility_score": 6,
     "difficulty_score": 6,
-    "time_group": "70 to 90"
+    "time_group": "70 to 90",
+    "region": "Canterbury District"
   },
   {
     "route_station_id": "SE0108",
@@ -4339,7 +4505,8 @@
     "london_terminal_count": 3,
     "accessibility_score": 5,
     "difficulty_score": 6,
-    "time_group": "70 to 90"
+    "time_group": "70 to 90",
+    "region": "Canterbury District"
   },
   {
     "route_station_id": "SE0100",
@@ -4365,7 +4532,8 @@
     "london_terminal_count": 3,
     "accessibility_score": 5,
     "difficulty_score": 6,
-    "time_group": "70 to 90"
+    "time_group": "70 to 90",
+    "region": "Thanet"
   },
   {
     "route_station_id": "SE0159",
@@ -4391,7 +4559,8 @@
     "london_terminal_count": 3,
     "accessibility_score": 6,
     "difficulty_score": 6,
-    "time_group": "70 to 90"
+    "time_group": "70 to 90",
+    "region": "East Kent"
   },
   {
     "route_station_id": "SE0092",
@@ -4417,7 +4586,8 @@
     "london_terminal_count": 3,
     "accessibility_score": 5,
     "difficulty_score": 6,
-    "time_group": "70 to 90"
+    "time_group": "70 to 90",
+    "region": "Canterbury District"
   },
   {
     "route_station_id": "SE0155",
@@ -4443,7 +4613,8 @@
     "london_terminal_count": 3,
     "accessibility_score": 6,
     "difficulty_score": 6,
-    "time_group": "70 to 90"
+    "time_group": "70 to 90",
+    "region": "East Kent"
   },
   {
     "route_station_id": "SE0101",
@@ -4469,7 +4640,8 @@
     "london_terminal_count": 3,
     "accessibility_score": 5,
     "difficulty_score": 6,
-    "time_group": "70 to 90"
+    "time_group": "70 to 90",
+    "region": "Thanet"
   },
   {
     "route_station_id": "SE0150",
@@ -4495,7 +4667,8 @@
     "london_terminal_count": 3,
     "accessibility_score": 6,
     "difficulty_score": 6,
-    "time_group": "70 to 90"
+    "time_group": "70 to 90",
+    "region": "East Kent"
   },
   {
     "route_station_id": "SE0188",
@@ -4521,7 +4694,8 @@
     "london_terminal_count": 1,
     "accessibility_score": 2,
     "difficulty_score": 6,
-    "time_group": "70 to 90"
+    "time_group": "70 to 90",
+    "region": "East Kent"
   },
   {
     "route_station_id": "SE0189",
@@ -4547,7 +4721,8 @@
     "london_terminal_count": 1,
     "accessibility_score": 2,
     "difficulty_score": 6,
-    "time_group": "70 to 90"
+    "time_group": "70 to 90",
+    "region": "East Kent"
   },
   {
     "route_station_id": "SE0158",
@@ -4573,7 +4748,8 @@
     "london_terminal_count": 3,
     "accessibility_score": 6,
     "difficulty_score": 6,
-    "time_group": "70 to 90"
+    "time_group": "70 to 90",
+    "region": "East Kent"
   },
   {
     "route_station_id": "SE0163",
@@ -4599,7 +4775,8 @@
     "london_terminal_count": 3,
     "accessibility_score": 6,
     "difficulty_score": 6,
-    "time_group": "70 to 90"
+    "time_group": "70 to 90",
+    "region": "Thanet"
   },
   {
     "route_station_id": "SE0156",
@@ -4625,7 +4802,8 @@
     "london_terminal_count": 3,
     "accessibility_score": 6,
     "difficulty_score": 6,
-    "time_group": "70 to 90"
+    "time_group": "70 to 90",
+    "region": "East Kent"
   },
   {
     "route_station_id": "SE0154",
@@ -4651,7 +4829,8 @@
     "london_terminal_count": 3,
     "accessibility_score": 6,
     "difficulty_score": 6,
-    "time_group": "70 to 90"
+    "time_group": "70 to 90",
+    "region": "Canterbury District"
   },
   {
     "route_station_id": "SE0107",
@@ -4677,7 +4856,8 @@
     "london_terminal_count": 3,
     "accessibility_score": 5,
     "difficulty_score": 6,
-    "time_group": "70 to 90"
+    "time_group": "70 to 90",
+    "region": "Canterbury District"
   },
   {
     "route_station_id": "SE0174",
@@ -4703,7 +4883,8 @@
     "london_terminal_count": 3,
     "accessibility_score": 4,
     "difficulty_score": 6,
-    "time_group": "70 to 90"
+    "time_group": "70 to 90",
+    "region": "East Kent"
   },
   {
     "route_station_id": "SE0161",
@@ -4729,7 +4910,8 @@
     "london_terminal_count": 3,
     "accessibility_score": 6,
     "difficulty_score": 6,
-    "time_group": "70 to 90"
+    "time_group": "70 to 90",
+    "region": "East Kent"
   },
   {
     "route_station_id": "SE0113",
@@ -4755,7 +4937,8 @@
     "london_terminal_count": 3,
     "accessibility_score": 5,
     "difficulty_score": 6,
-    "time_group": "70 to 90"
+    "time_group": "70 to 90",
+    "region": "East Kent"
   },
   {
     "route_station_id": "SE0112",
@@ -4781,7 +4964,8 @@
     "london_terminal_count": 3,
     "accessibility_score": 5,
     "difficulty_score": 6,
-    "time_group": "70 to 90"
+    "time_group": "70 to 90",
+    "region": "East Kent"
   },
   {
     "route_station_id": "SE0103",
@@ -4807,7 +4991,8 @@
     "london_terminal_count": 3,
     "accessibility_score": 7,
     "difficulty_score": 5,
-    "time_group": "90+"
+    "time_group": "90+",
+    "region": "Thanet"
   },
   {
     "route_station_id": "SE0104",
@@ -4833,7 +5018,8 @@
     "london_terminal_count": 3,
     "accessibility_score": 7,
     "difficulty_score": 5,
-    "time_group": "90+"
+    "time_group": "90+",
+    "region": "Thanet"
   },
   {
     "route_station_id": "SE0102",
@@ -4859,7 +5045,8 @@
     "london_terminal_count": 3,
     "accessibility_score": 7,
     "difficulty_score": 5,
-    "time_group": "90+"
+    "time_group": "90+",
+    "region": "Thanet"
   },
   {
     "route_station_id": "SE0105",
@@ -4885,7 +5072,8 @@
     "london_terminal_count": 3,
     "accessibility_score": 8,
     "difficulty_score": 4,
-    "time_group": "90+"
+    "time_group": "90+",
+    "region": "Thanet"
   },
   {
     "route_station_id": "SE0176",
@@ -4911,7 +5099,8 @@
     "london_terminal_count": 3,
     "accessibility_score": 4,
     "difficulty_score": 6,
-    "time_group": "90+"
+    "time_group": "90+",
+    "region": "East Kent"
   },
   {
     "route_station_id": "SE0190",
@@ -4937,6 +5126,7 @@
     "london_terminal_count": 1,
     "accessibility_score": 2,
     "difficulty_score": 6,
-    "time_group": "90+"
+    "time_group": "90+",
+    "region": "East Kent"
   }
 ]

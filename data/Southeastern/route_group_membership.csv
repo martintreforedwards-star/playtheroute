@@ -1,82 +1,82 @@
-crs,route_group
-STP,High Speed 1
-SFA,High Speed 1
-EBD,High Speed 1
-AFK,High Speed 1
-CBW,High Speed 1
-THP,High Speed 1
-RAM,High Speed 1
-BDM,High Speed 1
-MAR,High Speed 1
-SIT,Sheerness Branch
-KML,Sheerness Branch
-SWL,Sheerness Branch
-QBR,Sheerness Branch
-SSS,Sheerness Branch
-GRP,Bromley North Branch
-SUP,Bromley North Branch
-BMN,Bromley North Branch
-STR,Medway Valley
-CUX,Medway Valley
-HAL,Medway Valley
-SDL,Medway Valley
-NHY,Medway Valley
-AYL,Medway Valley
-MDB,Medway Valley
-MDW,Medway Valley
-EFL,Medway Valley
-BMG,Medway Valley
-YAL,Medway Valley
-BLT,Medway Valley
-PDW,Medway Valley
-SWN,Maidstone East
-OTF,Maidstone East
-BGW,Maidstone East
-WMA,Maidstone East
-EMA,Maidstone East
-MDE,Maidstone East
-BSD,Maidstone East
-HRS,Maidstone East
-LEN,Maidstone East
-CHR,Maidstone East
-AFK,Maidstone East
-TON,Hastings Line
-PDW,Hastings Line
-MRN,Hastings Line
-SPU,Hastings Line
-HCN,Hastings Line
-AFK,Hastings Line
-DFD,North Kent
-GRV,North Kent
-HGM,North Kent
-SOO,North Kent
-RTR,North Kent
-CTM,North Kent
-GLM,North Kent
-RAI,North Kent
-NGT,North Kent
-FAV,North Kent
-CTM,Chatham Main Line
-GLM,Chatham Main Line
-RAI,Chatham Main Line
-FAV,Chatham Main Line
-DVP,Chatham Main Line
-SEV,Southeastern Main Line
-TON,Southeastern Main Line
-AFK,Southeastern Main Line
-FKW,Southeastern Main Line
-FKC,Southeastern Main Line
-DVP,Southeastern Main Line
-ABW,Dartford Loop
-WWA,Dartford Loop
-WWD,Dartford Loop
-CTN,Dartford Loop
-BKH,Dartford Loop
-KDB,Dartford Loop
-ELW,Dartford Loop
-BXH,Dartford Loop
-SID,Dartford Loop
-CRY,Dartford Loop
-SGR,Dartford Loop
-DFD,Dartford Loop
-NEH,Dartford Loop
+crs	route_group
+STP	High Speed 1
+SFA	High Speed 1
+EBD	High Speed 1
+AFK	High Speed 1
+CBW	High Speed 1
+THP	High Speed 1
+RAM	High Speed 1
+BSR	High Speed 1
+MAR	High Speed 1
+SIT	Sheerness Branch
+KML	Sheerness Branch
+SWL	Sheerness Branch
+QBR	Sheerness Branch
+SSS	Sheerness Branch
+GRP	Bromley North Branch
+SUP	Bromley North Branch
+BMN	Bromley North Branch
+SOO	Medway Valley
+CUX	Medway Valley
+HAI	Medway Valley
+SDA	Medway Valley
+NHE	Medway Valley
+AYL	Medway Valley
+MDB	Medway Valley
+MDW	Medway Valley
+EFL	Medway Valley
+BMG	Medway Valley
+YAL	Medway Valley
+BEG	Medway Valley
+PDW	Medway Valley
+SAY	Maidstone East
+OTF	Maidstone East
+BRG	Maidstone East
+WMA	Maidstone East
+EML	Maidstone East
+MDE	Maidstone East
+BSD	Maidstone East
+HRH	Maidstone East
+LEN	Maidstone East
+CHG	Maidstone East
+AFK	Maidstone East
+TON	Hastings Line
+PDW	Hastings Line
+MRN	Hastings Line
+SPU	Hastings Line
+HCN	Hastings Line
+AFK	Hastings Line
+DFD	North Kent
+GRV	North Kent
+HGM	North Kent
+SOO	North Kent
+RTR	North Kent
+CTM	North Kent
+GLM	North Kent
+RAI	North Kent
+NGT	North Kent
+FAV	North Kent
+CTM	Chatham Main Line
+GLM	Chatham Main Line
+RAI	Chatham Main Line
+FAV	Chatham Main Line
+DVP	Chatham Main Line
+SEV	Southeastern Main Line
+TON	Southeastern Main Line
+AFK	Southeastern Main Line
+FKW	Southeastern Main Line
+FKC	Southeastern Main Line
+DVP	Southeastern Main Line
+ABW	Dartford Loop
+WWA	Dartford Loop
+WWD	Dartford Loop
+CTN	Dartford Loop
+BKH	Dartford Loop
+KDB	Dartford Loop
+ELW	Dartford Loop
+BXH	Dartford Loop
+SID	Dartford Loop
+CRY	Dartford Loop
+SGR	Dartford Loop
+DFD	Dartford Loop
+NEH	Dartford Loop

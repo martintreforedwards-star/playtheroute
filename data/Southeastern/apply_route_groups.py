@@ -36,6 +36,11 @@ for station in stations:
     else:
         station["route_groups"] = []
 
+    # Derived flag
+    station["is_high_speed"] = (
+        "High Speed 1" in station["route_groups"]
+    )
+
 # Save stations
 with open(
     "data/stations/southeastern.json",
@@ -46,4 +51,11 @@ with open(
 
 print(f"Stations processed: {len(stations)}")
 print(f"Stations with route groups: {updated}")
+
+high_speed_count = sum(
+    1 for s in stations
+    if s.get("is_high_speed")
+)
+
+print(f"High Speed stations: {high_speed_count}")
 print("Done.")

@@ -25,7 +25,9 @@
     "difficulty_score": 1,
     "time_group": "0 to 10",
     "region": "South East London",
-    "route_groups": []
+    "route_groups": [],
+    "is_high_speed": false,
+    "is_coastal": false
   },
   {
     "route_station_id": "SE0003",
@@ -53,7 +55,9 @@
     "difficulty_score": 1,
     "time_group": "0 to 10",
     "region": "South East London",
-    "route_groups": []
+    "route_groups": [],
+    "is_high_speed": false,
+    "is_coastal": false
   },
   {
     "route_station_id": "SE0001",
@@ -81,7 +85,9 @@
     "difficulty_score": 1,
     "time_group": "0 to 10",
     "region": "South East London",
-    "route_groups": []
+    "route_groups": [],
+    "is_high_speed": false,
+    "is_coastal": false
   },
   {
     "route_station_id": "SE0021",
@@ -109,7 +115,9 @@
     "difficulty_score": 1,
     "time_group": "0 to 10",
     "region": "South East London",
-    "route_groups": []
+    "route_groups": [],
+    "is_high_speed": false,
+    "is_coastal": false
   },
   {
     "route_station_id": "SE0015",
@@ -139,7 +147,9 @@
     "region": "South East London",
     "route_groups": [
       "High Speed 1"
-    ]
+    ],
+    "is_high_speed": true,
+    "is_coastal": false
   },
   {
     "route_station_id": "SE0083",
@@ -169,7 +179,9 @@
     "region": "South East London",
     "route_groups": [
       "High Speed 1"
-    ]
+    ],
+    "is_high_speed": true,
+    "is_coastal": false
   },
   {
     "route_station_id": "SE0005",
@@ -197,7 +209,9 @@
     "difficulty_score": 2,
     "time_group": "0 to 10",
     "region": "South East London",
-    "route_groups": []
+    "route_groups": [],
+    "is_high_speed": false,
+    "is_coastal": false
   },
   {
     "route_station_id": "SE0007",
@@ -225,7 +239,9 @@
     "difficulty_score": 6,
     "time_group": "10 to 20",
     "region": "South East London",
-    "route_groups": []
+    "route_groups": [],
+    "is_high_speed": false,
+    "is_coastal": false
   },
   {
     "route_station_id": "SE0006",
@@ -253,7 +269,9 @@
     "difficulty_score": 6,
     "time_group": "10 to 20",
     "region": "South East London",
-    "route_groups": []
+    "route_groups": [],
+    "is_high_speed": false,
+    "is_coastal": false
   },
   {
     "route_station_id": "SE0062",
@@ -281,7 +299,9 @@
     "difficulty_score": 6,
     "time_group": "10 to 20",
     "region": "South East London",
-    "route_groups": []
+    "route_groups": [],
+    "is_high_speed": false,
+    "is_coastal": false
   },
   {
     "route_station_id": "SE0061",
@@ -309,7 +329,9 @@
     "difficulty_score": 6,
     "time_group": "10 to 20",
     "region": "South East London",
-    "route_groups": []
+    "route_groups": [],
+    "is_high_speed": false,
+    "is_coastal": false
   },
   {
     "route_station_id": "SE0019",
@@ -337,7 +359,9 @@
     "difficulty_score": 3,
     "time_group": "10 to 20",
     "region": "South East London",
-    "route_groups": []
+    "route_groups": [],
+    "is_high_speed": false,
+    "is_coastal": false
   },
   {
     "route_station_id": "SE0084",
@@ -367,7 +391,9 @@
     "region": "North Kent",
     "route_groups": [
       "High Speed 1"
-    ]
+    ],
+    "is_high_speed": true,
+    "is_coastal": false
   },
   {
     "route_station_id": "SE0016",
@@ -395,7 +421,9 @@
     "difficulty_score": 5,
     "time_group": "10 to 20",
     "region": "South East London",
-    "route_groups": []
+    "route_groups": [],
+    "is_high_speed": false,
+    "is_coastal": false
   },
   {
     "route_station_id": "SE0020",
@@ -423,7 +451,9 @@
     "difficulty_score": 3,
     "time_group": "10 to 20",
     "region": "South East London",
-    "route_groups": []
+    "route_groups": [],
+    "is_high_speed": false,
+    "is_coastal": false
   },
   {
     "route_station_id": "SE0033",
@@ -451,7 +481,9 @@
     "difficulty_score": 6,
     "time_group": "10 to 20",
     "region": "South East London",
-    "route_groups": []
+    "route_groups": [],
+    "is_high_speed": false,
+    "is_coastal": false
   },
   {
     "route_station_id": "SE0066",
@@ -479,7 +511,9 @@
     "difficulty_score": 6,
     "time_group": "10 to 20",
     "region": "South East London",
-    "route_groups": []
+    "route_groups": [],
+    "is_high_speed": false,
+    "is_coastal": false
   },
   {
     "route_station_id": "SE0032",
@@ -507,7 +541,9 @@
     "difficulty_score": 6,
     "time_group": "10 to 20",
     "region": "South East London",
-    "route_groups": []
+    "route_groups": [],
+    "is_high_speed": false,
+    "is_coastal": false
   },
   {
     "route_station_id": "SE0052",
@@ -535,7 +571,9 @@
     "difficulty_score": 6,
     "time_group": "10 to 20",
     "region": "South East London",
-    "route_groups": []
+    "route_groups": [],
+    "is_high_speed": false,
+    "is_coastal": false
   },
   {
     "route_station_id": "SE0002",
@@ -563,7 +601,9 @@
     "difficulty_score": 2,
     "time_group": "10 to 20",
     "region": "South East London",
-    "route_groups": []
+    "route_groups": [],
+    "is_high_speed": false,
+    "is_coastal": false
   },
   {
     "route_station_id": "SE0017",
@@ -591,7 +631,9 @@
     "difficulty_score": 5,
     "time_group": "10 to 20",
     "region": "South East London",
-    "route_groups": []
+    "route_groups": [],
+    "is_high_speed": false,
+    "is_coastal": false
   },
   {
     "route_station_id": "SE0018",
@@ -619,7 +661,9 @@
     "difficulty_score": 5,
     "time_group": "10 to 20",
     "region": "South East London",
-    "route_groups": []
+    "route_groups": [],
+    "is_high_speed": false,
+    "is_coastal": false
   },
   {
     "route_station_id": "SE0070",
@@ -647,7 +691,9 @@
     "difficulty_score": 3,
     "time_group": "20 to 30",
     "region": "South East London",
-    "route_groups": []
+    "route_groups": [],
+    "is_high_speed": false,
+    "is_coastal": false
   },
   {
     "route_station_id": "SE0063",
@@ -675,7 +721,9 @@
     "difficulty_score": 6,
     "time_group": "20 to 30",
     "region": "South East London",
-    "route_groups": []
+    "route_groups": [],
+    "is_high_speed": false,
+    "is_coastal": false
   },
   {
     "route_station_id": "SE0031",
@@ -703,7 +751,9 @@
     "difficulty_score": 6,
     "time_group": "20 to 30",
     "region": "South East London",
-    "route_groups": []
+    "route_groups": [],
+    "is_high_speed": false,
+    "is_coastal": false
   },
   {
     "route_station_id": "SE0064",
@@ -731,7 +781,9 @@
     "difficulty_score": 6,
     "time_group": "20 to 30",
     "region": "South East London",
-    "route_groups": []
+    "route_groups": [],
+    "is_high_speed": false,
+    "is_coastal": false
   },
   {
     "route_station_id": "SE0034",
@@ -759,7 +811,9 @@
     "difficulty_score": 6,
     "time_group": "20 to 30",
     "region": "South East London",
-    "route_groups": []
+    "route_groups": [],
+    "is_high_speed": false,
+    "is_coastal": false
   },
   {
     "route_station_id": "SE0127",
@@ -787,7 +841,9 @@
     "difficulty_score": 5,
     "time_group": "20 to 30",
     "region": "South East London",
-    "route_groups": []
+    "route_groups": [],
+    "is_high_speed": false,
+    "is_coastal": false
   },
   {
     "route_station_id": "SE0065",
@@ -815,7 +871,9 @@
     "difficulty_score": 5,
     "time_group": "20 to 30",
     "region": "South East London",
-    "route_groups": []
+    "route_groups": [],
+    "is_high_speed": false,
+    "is_coastal": false
   },
   {
     "route_station_id": "SE0068",
@@ -843,7 +901,9 @@
     "difficulty_score": 6,
     "time_group": "20 to 30",
     "region": "South East London",
-    "route_groups": []
+    "route_groups": [],
+    "is_high_speed": false,
+    "is_coastal": false
   },
   {
     "route_station_id": "SE0077",
@@ -871,7 +931,9 @@
     "difficulty_score": 3,
     "time_group": "20 to 30",
     "region": "Weald",
-    "route_groups": []
+    "route_groups": [],
+    "is_high_speed": false,
+    "is_coastal": false
   },
   {
     "route_station_id": "SE0129",
@@ -899,7 +961,9 @@
     "difficulty_score": 5,
     "time_group": "20 to 30",
     "region": "Weald",
-    "route_groups": []
+    "route_groups": [],
+    "is_high_speed": false,
+    "is_coastal": false
   },
   {
     "route_station_id": "SE0035",
@@ -927,7 +991,9 @@
     "difficulty_score": 6,
     "time_group": "30 to 50",
     "region": "South East London",
-    "route_groups": []
+    "route_groups": [],
+    "is_high_speed": false,
+    "is_coastal": false
   },
   {
     "route_station_id": "SE0036",
@@ -955,7 +1021,9 @@
     "difficulty_score": 6,
     "time_group": "30 to 50",
     "region": "South East London",
-    "route_groups": []
+    "route_groups": [],
+    "is_high_speed": false,
+    "is_coastal": false
   },
   {
     "route_station_id": "SE0043",
@@ -983,7 +1051,9 @@
     "difficulty_score": 4,
     "time_group": "30 to 50",
     "region": "North Kent",
-    "route_groups": []
+    "route_groups": [],
+    "is_high_speed": false,
+    "is_coastal": false
   },
   {
     "route_station_id": "SE0040",
@@ -1011,7 +1081,9 @@
     "difficulty_score": 2,
     "time_group": "30 to 50",
     "region": "North Kent",
-    "route_groups": []
+    "route_groups": [],
+    "is_high_speed": false,
+    "is_coastal": false
   },
   {
     "route_station_id": "SE0149",
@@ -1041,7 +1113,9 @@
     "region": "East Kent",
     "route_groups": [
       "High Speed 1"
-    ]
+    ],
+    "is_high_speed": true,
+    "is_coastal": false
   },
   {
     "route_station_id": "SE0044",
@@ -1069,7 +1143,9 @@
     "difficulty_score": 4,
     "time_group": "30 to 50",
     "region": "North Kent",
-    "route_groups": []
+    "route_groups": [],
+    "is_high_speed": false,
+    "is_coastal": false
   },
   {
     "route_station_id": "SE0075",
@@ -1097,7 +1173,9 @@
     "difficulty_score": 5,
     "time_group": "30 to 50",
     "region": "Weald",
-    "route_groups": []
+    "route_groups": [],
+    "is_high_speed": false,
+    "is_coastal": false
   },
   {
     "route_station_id": "SE0076",
@@ -1125,7 +1203,9 @@
     "difficulty_score": 6,
     "time_group": "30 to 50",
     "region": "Weald",
-    "route_groups": []
+    "route_groups": [],
+    "is_high_speed": false,
+    "is_coastal": false
   },
   {
     "route_station_id": "SE0047",
@@ -1153,7 +1233,9 @@
     "difficulty_score": 2,
     "time_group": "30 to 50",
     "region": "Medway",
-    "route_groups": []
+    "route_groups": [],
+    "is_high_speed": false,
+    "is_coastal": false
   },
   {
     "route_station_id": "SE0142",
@@ -1181,7 +1263,9 @@
     "difficulty_score": 3,
     "time_group": "30 to 50",
     "region": "Weald",
-    "route_groups": []
+    "route_groups": [],
+    "is_high_speed": false,
+    "is_coastal": false
   },
   {
     "route_station_id": "SE0173",
@@ -1209,7 +1293,9 @@
     "difficulty_score": 6,
     "time_group": "30 to 50",
     "region": "Weald",
-    "route_groups": []
+    "route_groups": [],
+    "is_high_speed": false,
+    "is_coastal": false
   },
   {
     "route_station_id": "SE0116",
@@ -1237,7 +1323,9 @@
     "difficulty_score": 6,
     "time_group": "30 to 50",
     "region": "South East London",
-    "route_groups": []
+    "route_groups": [],
+    "is_high_speed": false,
+    "is_coastal": false
   },
   {
     "route_station_id": "SE0055",
@@ -1265,7 +1353,9 @@
     "difficulty_score": 6,
     "time_group": "30 to 50",
     "region": "South East London",
-    "route_groups": []
+    "route_groups": [],
+    "is_high_speed": false,
+    "is_coastal": false
   },
   {
     "route_station_id": "SE0053",
@@ -1293,7 +1383,9 @@
     "difficulty_score": 6,
     "time_group": "30 to 50",
     "region": "South East London",
-    "route_groups": []
+    "route_groups": [],
+    "is_high_speed": false,
+    "is_coastal": false
   },
   {
     "route_station_id": "SE0042",
@@ -1321,7 +1413,9 @@
     "difficulty_score": 4,
     "time_group": "30 to 50",
     "region": "North Kent",
-    "route_groups": []
+    "route_groups": [],
+    "is_high_speed": false,
+    "is_coastal": false
   },
   {
     "route_station_id": "SE0143",
@@ -1349,7 +1443,9 @@
     "difficulty_score": 5,
     "time_group": "30 to 50",
     "region": "Weald",
-    "route_groups": []
+    "route_groups": [],
+    "is_high_speed": false,
+    "is_coastal": false
   },
   {
     "route_station_id": "SE0141",
@@ -1377,7 +1473,11 @@
     "difficulty_score": 3,
     "time_group": "30 to 50",
     "region": "Weald",
-    "route_groups": []
+    "route_groups": [
+      "Medway Valley"
+    ],
+    "is_high_speed": false,
+    "is_coastal": false
   },
   {
     "route_station_id": "SE0037",
@@ -1405,7 +1505,9 @@
     "difficulty_score": 3,
     "time_group": "30 to 50",
     "region": "South East London",
-    "route_groups": []
+    "route_groups": [],
+    "is_high_speed": false,
+    "is_coastal": false
   },
   {
     "route_station_id": "SE0071",
@@ -1433,7 +1535,9 @@
     "difficulty_score": 5,
     "time_group": "30 to 50",
     "region": "South East London",
-    "route_groups": []
+    "route_groups": [],
+    "is_high_speed": false,
+    "is_coastal": false
   },
   {
     "route_station_id": "SE0072",
@@ -1461,7 +1565,9 @@
     "difficulty_score": 4,
     "time_group": "30 to 50",
     "region": "North Kent",
-    "route_groups": []
+    "route_groups": [],
+    "is_high_speed": false,
+    "is_coastal": false
   },
   {
     "route_station_id": "SE0010",
@@ -1489,7 +1595,9 @@
     "difficulty_score": 6,
     "time_group": "30 to 50",
     "region": "South East London",
-    "route_groups": []
+    "route_groups": [],
+    "is_high_speed": false,
+    "is_coastal": false
   },
   {
     "route_station_id": "SE0177",
@@ -1517,7 +1625,9 @@
     "difficulty_score": 6,
     "time_group": "30 to 50",
     "region": "Weald",
-    "route_groups": []
+    "route_groups": [],
+    "is_high_speed": false,
+    "is_coastal": false
   },
   {
     "route_station_id": "SE0118",
@@ -1545,7 +1655,9 @@
     "difficulty_score": 6,
     "time_group": "30 to 50",
     "region": "South East London",
-    "route_groups": []
+    "route_groups": [],
+    "is_high_speed": false,
+    "is_coastal": false
   },
   {
     "route_station_id": "SE0169",
@@ -1573,7 +1685,9 @@
     "difficulty_score": 6,
     "time_group": "30 to 50",
     "region": "Weald",
-    "route_groups": []
+    "route_groups": [],
+    "is_high_speed": false,
+    "is_coastal": false
   },
   {
     "route_station_id": "SE0123",
@@ -1603,7 +1717,9 @@
     "region": "South East London",
     "route_groups": [
       "Bromley North Branch"
-    ]
+    ],
+    "is_high_speed": false,
+    "is_coastal": false
   },
   {
     "route_station_id": "SE0059",
@@ -1631,7 +1747,9 @@
     "difficulty_score": 6,
     "time_group": "30 to 50",
     "region": "South East London",
-    "route_groups": []
+    "route_groups": [],
+    "is_high_speed": false,
+    "is_coastal": false
   },
   {
     "route_station_id": "SE0148",
@@ -1659,7 +1777,9 @@
     "difficulty_score": 6,
     "time_group": "30 to 50",
     "region": "Weald",
-    "route_groups": []
+    "route_groups": [],
+    "is_high_speed": false,
+    "is_coastal": false
   },
   {
     "route_station_id": "SE0136",
@@ -1687,7 +1807,11 @@
     "difficulty_score": 3,
     "time_group": "30 to 50",
     "region": "Medway",
-    "route_groups": []
+    "route_groups": [
+      "Medway Valley"
+    ],
+    "is_high_speed": false,
+    "is_coastal": false
   },
   {
     "route_station_id": "SE0139",
@@ -1715,7 +1839,11 @@
     "difficulty_score": 5,
     "time_group": "30 to 50",
     "region": "Medway",
-    "route_groups": []
+    "route_groups": [
+      "Medway Valley"
+    ],
+    "is_high_speed": false,
+    "is_coastal": false
   },
   {
     "route_station_id": "SE0167",
@@ -1743,7 +1871,9 @@
     "difficulty_score": 6,
     "time_group": "30 to 50",
     "region": "Weald",
-    "route_groups": []
+    "route_groups": [],
+    "is_high_speed": false,
+    "is_coastal": false
   },
   {
     "route_station_id": "SE0171",
@@ -1771,7 +1901,9 @@
     "difficulty_score": 6,
     "time_group": "30 to 50",
     "region": "Weald",
-    "route_groups": []
+    "route_groups": [],
+    "is_high_speed": false,
+    "is_coastal": false
   },
   {
     "route_station_id": "SE0119",
@@ -1799,7 +1931,9 @@
     "difficulty_score": 6,
     "time_group": "30 to 50",
     "region": "South East London",
-    "route_groups": []
+    "route_groups": [],
+    "is_high_speed": false,
+    "is_coastal": false
   },
   {
     "route_station_id": "SE0039",
@@ -1827,7 +1961,9 @@
     "difficulty_score": 5,
     "time_group": "30 to 50",
     "region": "South East London",
-    "route_groups": []
+    "route_groups": [],
+    "is_high_speed": false,
+    "is_coastal": false
   },
   {
     "route_station_id": "SE0022",
@@ -1855,7 +1991,9 @@
     "difficulty_score": 3,
     "time_group": "30 to 50",
     "region": "South East London",
-    "route_groups": []
+    "route_groups": [],
+    "is_high_speed": false,
+    "is_coastal": false
   },
   {
     "route_station_id": "SE0135",
@@ -1883,7 +2021,11 @@
     "difficulty_score": 5,
     "time_group": "30 to 50",
     "region": "Medway",
-    "route_groups": []
+    "route_groups": [
+      "Medway Valley"
+    ],
+    "is_high_speed": false,
+    "is_coastal": false
   },
   {
     "route_station_id": "SE0147",
@@ -1911,7 +2053,9 @@
     "difficulty_score": 6,
     "time_group": "30 to 50",
     "region": "Weald",
-    "route_groups": []
+    "route_groups": [],
+    "is_high_speed": false,
+    "is_coastal": false
   },
   {
     "route_station_id": "SE0088",
@@ -1939,7 +2083,9 @@
     "difficulty_score": 6,
     "time_group": "30 to 50",
     "region": "North Kent",
-    "route_groups": []
+    "route_groups": [],
+    "is_high_speed": false,
+    "is_coastal": false
   },
   {
     "route_station_id": "SE0041",
@@ -1967,7 +2113,9 @@
     "difficulty_score": 4,
     "time_group": "30 to 50",
     "region": "North Kent",
-    "route_groups": []
+    "route_groups": [],
+    "is_high_speed": false,
+    "is_coastal": false
   },
   {
     "route_station_id": "SE0120",
@@ -1995,7 +2143,9 @@
     "difficulty_score": 6,
     "time_group": "30 to 50",
     "region": "South East London",
-    "route_groups": []
+    "route_groups": [],
+    "is_high_speed": false,
+    "is_coastal": false
   },
   {
     "route_station_id": "SE0012",
@@ -2023,7 +2173,9 @@
     "difficulty_score": 6,
     "time_group": "30 to 50",
     "region": "South East London",
-    "route_groups": []
+    "route_groups": [],
+    "is_high_speed": false,
+    "is_coastal": false
   },
   {
     "route_station_id": "SE0080",
@@ -2051,7 +2203,9 @@
     "difficulty_score": 6,
     "time_group": "30 to 50",
     "region": "South East London",
-    "route_groups": []
+    "route_groups": [],
+    "is_high_speed": false,
+    "is_coastal": false
   },
   {
     "route_station_id": "SE0165",
@@ -2079,7 +2233,9 @@
     "difficulty_score": 6,
     "time_group": "30 to 50",
     "region": "Weald",
-    "route_groups": []
+    "route_groups": [],
+    "is_high_speed": false,
+    "is_coastal": false
   },
   {
     "route_station_id": "SE0115",
@@ -2107,7 +2263,9 @@
     "difficulty_score": 5,
     "time_group": "30 to 50",
     "region": "South East London",
-    "route_groups": []
+    "route_groups": [],
+    "is_high_speed": false,
+    "is_coastal": false
   },
   {
     "route_station_id": "SE0008",
@@ -2135,7 +2293,9 @@
     "difficulty_score": 6,
     "time_group": "30 to 50",
     "region": "South East London",
-    "route_groups": []
+    "route_groups": [],
+    "is_high_speed": false,
+    "is_coastal": false
   },
   {
     "route_station_id": "SE0026",
@@ -2163,7 +2323,9 @@
     "difficulty_score": 6,
     "time_group": "30 to 50",
     "region": "South East London",
-    "route_groups": []
+    "route_groups": [],
+    "is_high_speed": false,
+    "is_coastal": false
   },
   {
     "route_station_id": "SE0027",
@@ -2191,7 +2353,9 @@
     "difficulty_score": 6,
     "time_group": "30 to 50",
     "region": "South East London",
-    "route_groups": []
+    "route_groups": [],
+    "is_high_speed": false,
+    "is_coastal": false
   },
   {
     "route_station_id": "SE0073",
@@ -2219,7 +2383,9 @@
     "difficulty_score": 6,
     "time_group": "30 to 50",
     "region": "Weald",
-    "route_groups": []
+    "route_groups": [],
+    "is_high_speed": false,
+    "is_coastal": false
   },
   {
     "route_station_id": "SE0074",
@@ -2247,7 +2413,9 @@
     "difficulty_score": 6,
     "time_group": "30 to 50",
     "region": "Weald",
-    "route_groups": []
+    "route_groups": [],
+    "is_high_speed": false,
+    "is_coastal": false
   },
   {
     "route_station_id": "SE0121",
@@ -2275,7 +2443,9 @@
     "difficulty_score": 6,
     "time_group": "30 to 50",
     "region": "South East London",
-    "route_groups": []
+    "route_groups": [],
+    "is_high_speed": false,
+    "is_coastal": false
   },
   {
     "route_station_id": "SE0082",
@@ -2303,7 +2473,9 @@
     "difficulty_score": 6,
     "time_group": "30 to 50",
     "region": "South East London",
-    "route_groups": []
+    "route_groups": [],
+    "is_high_speed": false,
+    "is_coastal": false
   },
   {
     "route_station_id": "SE0124",
@@ -2333,7 +2505,9 @@
     "region": "South East London",
     "route_groups": [
       "Bromley North Branch"
-    ]
+    ],
+    "is_high_speed": false,
+    "is_coastal": false
   },
   {
     "route_station_id": "SE0126",
@@ -2361,7 +2535,9 @@
     "difficulty_score": 6,
     "time_group": "30 to 50",
     "region": "South East London",
-    "route_groups": []
+    "route_groups": [],
+    "is_high_speed": false,
+    "is_coastal": false
   },
   {
     "route_station_id": "SE0013",
@@ -2389,7 +2565,9 @@
     "difficulty_score": 6,
     "time_group": "30 to 50",
     "region": "South East London",
-    "route_groups": []
+    "route_groups": [],
+    "is_high_speed": false,
+    "is_coastal": false
   },
   {
     "route_station_id": "SE0140",
@@ -2417,7 +2595,9 @@
     "difficulty_score": 5,
     "time_group": "30 to 50",
     "region": "Medway",
-    "route_groups": []
+    "route_groups": [],
+    "is_high_speed": false,
+    "is_coastal": false
   },
   {
     "route_station_id": "SE0130",
@@ -2445,7 +2625,11 @@
     "difficulty_score": 5,
     "time_group": "30 to 50",
     "region": "Medway",
-    "route_groups": []
+    "route_groups": [
+      "Medway Valley"
+    ],
+    "is_high_speed": false,
+    "is_coastal": false
   },
   {
     "route_station_id": "SE0133",
@@ -2473,7 +2657,9 @@
     "difficulty_score": 5,
     "time_group": "30 to 50",
     "region": "Medway",
-    "route_groups": []
+    "route_groups": [],
+    "is_high_speed": false,
+    "is_coastal": false
   },
   {
     "route_station_id": "SE0145",
@@ -2501,7 +2687,9 @@
     "difficulty_score": 6,
     "time_group": "30 to 50",
     "region": "Weald",
-    "route_groups": []
+    "route_groups": [],
+    "is_high_speed": false,
+    "is_coastal": false
   },
   {
     "route_station_id": "SE0172",
@@ -2529,7 +2717,9 @@
     "difficulty_score": 6,
     "time_group": "30 to 50",
     "region": "Weald",
-    "route_groups": []
+    "route_groups": [],
+    "is_high_speed": false,
+    "is_coastal": false
   },
   {
     "route_station_id": "SE0178",
@@ -2557,7 +2747,9 @@
     "difficulty_score": 6,
     "time_group": "30 to 50",
     "region": "Weald",
-    "route_groups": []
+    "route_groups": [],
+    "is_high_speed": false,
+    "is_coastal": false
   },
   {
     "route_station_id": "SE0011",
@@ -2585,7 +2777,9 @@
     "difficulty_score": 6,
     "time_group": "30 to 50",
     "region": "South East London",
-    "route_groups": []
+    "route_groups": [],
+    "is_high_speed": false,
+    "is_coastal": false
   },
   {
     "route_station_id": "SE0122",
@@ -2615,7 +2809,9 @@
     "region": "South East London",
     "route_groups": [
       "Bromley North Branch"
-    ]
+    ],
+    "is_high_speed": false,
+    "is_coastal": false
   },
   {
     "route_station_id": "SE0117",
@@ -2643,7 +2839,9 @@
     "difficulty_score": 6,
     "time_group": "30 to 50",
     "region": "South East London",
-    "route_groups": []
+    "route_groups": [],
+    "is_high_speed": false,
+    "is_coastal": false
   },
   {
     "route_station_id": "SE0166",
@@ -2671,7 +2869,9 @@
     "difficulty_score": 5,
     "time_group": "30 to 50",
     "region": "Weald",
-    "route_groups": []
+    "route_groups": [],
+    "is_high_speed": false,
+    "is_coastal": false
   },
   {
     "route_station_id": "SE0168",
@@ -2699,7 +2899,9 @@
     "difficulty_score": 6,
     "time_group": "30 to 50",
     "region": "Weald",
-    "route_groups": []
+    "route_groups": [],
+    "is_high_speed": false,
+    "is_coastal": false
   },
   {
     "route_station_id": "SE0134",
@@ -2727,7 +2929,11 @@
     "difficulty_score": 5,
     "time_group": "30 to 50",
     "region": "Medway",
-    "route_groups": []
+    "route_groups": [
+      "Medway Valley"
+    ],
+    "is_high_speed": false,
+    "is_coastal": false
   },
   {
     "route_station_id": "SE0085",
@@ -2755,7 +2961,9 @@
     "difficulty_score": 6,
     "time_group": "30 to 50",
     "region": "Weald",
-    "route_groups": []
+    "route_groups": [],
+    "is_high_speed": false,
+    "is_coastal": false
   },
   {
     "route_station_id": "SE0028",
@@ -2783,7 +2991,9 @@
     "difficulty_score": 6,
     "time_group": "30 to 50",
     "region": "South East London",
-    "route_groups": []
+    "route_groups": [],
+    "is_high_speed": false,
+    "is_coastal": false
   },
   {
     "route_station_id": "SE0069",
@@ -2811,7 +3021,9 @@
     "difficulty_score": 5,
     "time_group": "30 to 50",
     "region": "South East London",
-    "route_groups": []
+    "route_groups": [],
+    "is_high_speed": false,
+    "is_coastal": false
   },
   {
     "route_station_id": "SE0138",
@@ -2839,7 +3051,9 @@
     "difficulty_score": 5,
     "time_group": "30 to 50",
     "region": "Medway",
-    "route_groups": []
+    "route_groups": [],
+    "is_high_speed": false,
+    "is_coastal": false
   },
   {
     "route_station_id": "SE0079",
@@ -2867,7 +3081,9 @@
     "difficulty_score": 6,
     "time_group": "30 to 50",
     "region": "South East London",
-    "route_groups": []
+    "route_groups": [],
+    "is_high_speed": false,
+    "is_coastal": false
   },
   {
     "route_station_id": "SE0170",
@@ -2895,7 +3111,9 @@
     "difficulty_score": 6,
     "time_group": "30 to 50",
     "region": "Weald",
-    "route_groups": []
+    "route_groups": [],
+    "is_high_speed": false,
+    "is_coastal": false
   },
   {
     "route_station_id": "SE0078",
@@ -2923,7 +3141,9 @@
     "difficulty_score": 6,
     "time_group": "30 to 50",
     "region": "South East London",
-    "route_groups": []
+    "route_groups": [],
+    "is_high_speed": false,
+    "is_coastal": false
   },
   {
     "route_station_id": "SE0009",
@@ -2951,7 +3171,9 @@
     "difficulty_score": 6,
     "time_group": "30 to 50",
     "region": "South East London",
-    "route_groups": []
+    "route_groups": [],
+    "is_high_speed": false,
+    "is_coastal": false
   },
   {
     "route_station_id": "SE0038",
@@ -2979,7 +3201,9 @@
     "difficulty_score": 5,
     "time_group": "30 to 50",
     "region": "South East London",
-    "route_groups": []
+    "route_groups": [],
+    "is_high_speed": false,
+    "is_coastal": false
   },
   {
     "route_station_id": "SE0057",
@@ -3007,7 +3231,9 @@
     "difficulty_score": 6,
     "time_group": "30 to 50",
     "region": "South East London",
-    "route_groups": []
+    "route_groups": [],
+    "is_high_speed": false,
+    "is_coastal": false
   },
   {
     "route_station_id": "SE0131",
@@ -3035,7 +3261,9 @@
     "difficulty_score": 5,
     "time_group": "30 to 50",
     "region": "Medway",
-    "route_groups": []
+    "route_groups": [],
+    "is_high_speed": false,
+    "is_coastal": false
   },
   {
     "route_station_id": "SE0146",
@@ -3063,7 +3291,9 @@
     "difficulty_score": 6,
     "time_group": "30 to 50",
     "region": "Weald",
-    "route_groups": []
+    "route_groups": [],
+    "is_high_speed": false,
+    "is_coastal": false
   },
   {
     "route_station_id": "SE0086",
@@ -3091,7 +3321,9 @@
     "difficulty_score": 6,
     "time_group": "30 to 50",
     "region": "North Kent",
-    "route_groups": []
+    "route_groups": [],
+    "is_high_speed": false,
+    "is_coastal": false
   },
   {
     "route_station_id": "SE0054",
@@ -3119,7 +3351,9 @@
     "difficulty_score": 6,
     "time_group": "30 to 50",
     "region": "South East London",
-    "route_groups": []
+    "route_groups": [],
+    "is_high_speed": false,
+    "is_coastal": false
   },
   {
     "route_station_id": "SE0137",
@@ -3147,7 +3381,11 @@
     "difficulty_score": 5,
     "time_group": "30 to 50",
     "region": "Weald",
-    "route_groups": []
+    "route_groups": [
+      "Medway Valley"
+    ],
+    "is_high_speed": false,
+    "is_coastal": false
   },
   {
     "route_station_id": "SE0060",
@@ -3175,7 +3413,9 @@
     "difficulty_score": 6,
     "time_group": "30 to 50",
     "region": "South East London",
-    "route_groups": []
+    "route_groups": [],
+    "is_high_speed": false,
+    "is_coastal": false
   },
   {
     "route_station_id": "SE0024",
@@ -3203,7 +3443,9 @@
     "difficulty_score": 4,
     "time_group": "30 to 50",
     "region": "South East London",
-    "route_groups": []
+    "route_groups": [],
+    "is_high_speed": false,
+    "is_coastal": false
   },
   {
     "route_station_id": "SE0023",
@@ -3231,7 +3473,9 @@
     "difficulty_score": 4,
     "time_group": "30 to 50",
     "region": "South East London",
-    "route_groups": []
+    "route_groups": [],
+    "is_high_speed": false,
+    "is_coastal": false
   },
   {
     "route_station_id": "SE0058",
@@ -3259,7 +3503,9 @@
     "difficulty_score": 6,
     "time_group": "30 to 50",
     "region": "South East London",
-    "route_groups": []
+    "route_groups": [],
+    "is_high_speed": false,
+    "is_coastal": false
   },
   {
     "route_station_id": "SE0048",
@@ -3287,7 +3533,9 @@
     "difficulty_score": 3,
     "time_group": "30 to 50",
     "region": "Medway",
-    "route_groups": []
+    "route_groups": [],
+    "is_high_speed": false,
+    "is_coastal": false
   },
   {
     "route_station_id": "SE0029",
@@ -3315,7 +3563,9 @@
     "difficulty_score": 6,
     "time_group": "30 to 50",
     "region": "South East London",
-    "route_groups": []
+    "route_groups": [],
+    "is_high_speed": false,
+    "is_coastal": false
   },
   {
     "route_station_id": "SE0125",
@@ -3343,7 +3593,9 @@
     "difficulty_score": 6,
     "time_group": "30 to 50",
     "region": "South East London",
-    "route_groups": []
+    "route_groups": [],
+    "is_high_speed": false,
+    "is_coastal": false
   },
   {
     "route_station_id": "SE0014",
@@ -3371,7 +3623,9 @@
     "difficulty_score": 6,
     "time_group": "30 to 50",
     "region": "South East London",
-    "route_groups": []
+    "route_groups": [],
+    "is_high_speed": false,
+    "is_coastal": false
   },
   {
     "route_station_id": "SE0128",
@@ -3399,7 +3653,9 @@
     "difficulty_score": 6,
     "time_group": "30 to 50",
     "region": "Weald",
-    "route_groups": []
+    "route_groups": [],
+    "is_high_speed": false,
+    "is_coastal": false
   },
   {
     "route_station_id": "SE0081",
@@ -3427,7 +3683,9 @@
     "difficulty_score": 6,
     "time_group": "30 to 50",
     "region": "South East London",
-    "route_groups": []
+    "route_groups": [],
+    "is_high_speed": false,
+    "is_coastal": false
   },
   {
     "route_station_id": "SE0056",
@@ -3455,7 +3713,9 @@
     "difficulty_score": 6,
     "time_group": "30 to 50",
     "region": "South East London",
-    "route_groups": []
+    "route_groups": [],
+    "is_high_speed": false,
+    "is_coastal": false
   },
   {
     "route_station_id": "SE0025",
@@ -3483,7 +3743,9 @@
     "difficulty_score": 5,
     "time_group": "30 to 50",
     "region": "South East London",
-    "route_groups": []
+    "route_groups": [],
+    "is_high_speed": false,
+    "is_coastal": false
   },
   {
     "route_station_id": "SE0067",
@@ -3511,7 +3773,9 @@
     "difficulty_score": 3,
     "time_group": "30 to 50",
     "region": "South East London",
-    "route_groups": []
+    "route_groups": [],
+    "is_high_speed": false,
+    "is_coastal": false
   },
   {
     "route_station_id": "SE0030",
@@ -3539,7 +3803,9 @@
     "difficulty_score": 6,
     "time_group": "30 to 50",
     "region": "South East London",
-    "route_groups": []
+    "route_groups": [],
+    "is_high_speed": false,
+    "is_coastal": false
   },
   {
     "route_station_id": "SE0144",
@@ -3567,7 +3833,9 @@
     "difficulty_score": 6,
     "time_group": "30 to 50",
     "region": "Weald",
-    "route_groups": []
+    "route_groups": [],
+    "is_high_speed": false,
+    "is_coastal": false
   },
   {
     "route_station_id": "SE0087",
@@ -3595,7 +3863,9 @@
     "difficulty_score": 6,
     "time_group": "30 to 50",
     "region": "North Kent",
-    "route_groups": []
+    "route_groups": [],
+    "is_high_speed": false,
+    "is_coastal": false
   },
   {
     "route_station_id": "SE0132",
@@ -3623,7 +3893,9 @@
     "difficulty_score": 5,
     "time_group": "30 to 50",
     "region": "Medway",
-    "route_groups": []
+    "route_groups": [],
+    "is_high_speed": false,
+    "is_coastal": false
   },
   {
     "route_station_id": "SE0182",
@@ -3651,7 +3923,9 @@
     "difficulty_score": 6,
     "time_group": "30 to 50",
     "region": "Weald",
-    "route_groups": []
+    "route_groups": [],
+    "is_high_speed": false,
+    "is_coastal": false
   },
   {
     "route_station_id": "SE0045",
@@ -3679,7 +3953,9 @@
     "difficulty_score": 2,
     "time_group": "50 to 70",
     "region": "North Kent",
-    "route_groups": []
+    "route_groups": [],
+    "is_high_speed": false,
+    "is_coastal": false
   },
   {
     "route_station_id": "SE0046",
@@ -3707,7 +3983,9 @@
     "difficulty_score": 6,
     "time_group": "50 to 70",
     "region": "North Kent",
-    "route_groups": []
+    "route_groups": [],
+    "is_high_speed": false,
+    "is_coastal": false
   },
   {
     "route_station_id": "SE0179",
@@ -3735,7 +4013,9 @@
     "difficulty_score": 6,
     "time_group": "50 to 70",
     "region": "Medway",
-    "route_groups": []
+    "route_groups": [],
+    "is_high_speed": false,
+    "is_coastal": false
   },
   {
     "route_station_id": "SE0153",
@@ -3765,7 +4045,9 @@
     "region": "Canterbury District",
     "route_groups": [
       "High Speed 1"
-    ]
+    ],
+    "is_high_speed": true,
+    "is_coastal": false
   },
   {
     "route_station_id": "SE0091",
@@ -3795,7 +4077,9 @@
     "region": "Medway",
     "route_groups": [
       "Sheerness Branch"
-    ]
+    ],
+    "is_high_speed": false,
+    "is_coastal": false
   },
   {
     "route_station_id": "SE0089",
@@ -3823,7 +4107,9 @@
     "difficulty_score": 6,
     "time_group": "50 to 70",
     "region": "Medway",
-    "route_groups": []
+    "route_groups": [],
+    "is_high_speed": false,
+    "is_coastal": false
   },
   {
     "route_station_id": "SE0180",
@@ -3851,7 +4137,9 @@
     "difficulty_score": 6,
     "time_group": "50 to 70",
     "region": "Medway",
-    "route_groups": []
+    "route_groups": [],
+    "is_high_speed": false,
+    "is_coastal": false
   },
   {
     "route_station_id": "SE0049",
@@ -3879,7 +4167,9 @@
     "difficulty_score": 3,
     "time_group": "50 to 70",
     "region": "Medway",
-    "route_groups": []
+    "route_groups": [],
+    "is_high_speed": false,
+    "is_coastal": false
   },
   {
     "route_station_id": "SE0093",
@@ -3909,7 +4199,9 @@
     "region": "Medway",
     "route_groups": [
       "Sheerness Branch"
-    ]
+    ],
+    "is_high_speed": false,
+    "is_coastal": true
   },
   {
     "route_station_id": "SE0185",
@@ -3937,7 +4229,9 @@
     "difficulty_score": 6,
     "time_group": "50 to 70",
     "region": "Weald",
-    "route_groups": []
+    "route_groups": [],
+    "is_high_speed": false,
+    "is_coastal": false
   },
   {
     "route_station_id": "SE0183",
@@ -3965,7 +4259,9 @@
     "difficulty_score": 6,
     "time_group": "50 to 70",
     "region": "Weald",
-    "route_groups": []
+    "route_groups": [],
+    "is_high_speed": false,
+    "is_coastal": false
   },
   {
     "route_station_id": "SE0181",
@@ -3993,7 +4289,11 @@
     "difficulty_score": 6,
     "time_group": "50 to 70",
     "region": "Medway",
-    "route_groups": []
+    "route_groups": [
+      "Medway Valley"
+    ],
+    "is_high_speed": false,
+    "is_coastal": false
   },
   {
     "route_station_id": "SE0050",
@@ -4021,7 +4321,9 @@
     "difficulty_score": 3,
     "time_group": "50 to 70",
     "region": "Medway",
-    "route_groups": []
+    "route_groups": [],
+    "is_high_speed": false,
+    "is_coastal": false
   },
   {
     "route_station_id": "SE0051",
@@ -4049,7 +4351,9 @@
     "difficulty_score": 5,
     "time_group": "70 to 90",
     "region": "Medway",
-    "route_groups": []
+    "route_groups": [],
+    "is_high_speed": false,
+    "is_coastal": false
   },
   {
     "route_station_id": "SE0186",
@@ -4077,7 +4381,9 @@
     "difficulty_score": 6,
     "time_group": "70 to 90",
     "region": "Weald",
-    "route_groups": []
+    "route_groups": [],
+    "is_high_speed": false,
+    "is_coastal": false
   },
   {
     "route_station_id": "SE0184",
@@ -4105,7 +4411,9 @@
     "difficulty_score": 6,
     "time_group": "70 to 90",
     "region": "Weald",
-    "route_groups": []
+    "route_groups": [],
+    "is_high_speed": false,
+    "is_coastal": false
   },
   {
     "route_station_id": "SE0096",
@@ -4133,7 +4441,9 @@
     "difficulty_score": 5,
     "time_group": "70 to 90",
     "region": "East Kent",
-    "route_groups": []
+    "route_groups": [],
+    "is_high_speed": false,
+    "is_coastal": false
   },
   {
     "route_station_id": "SE0106",
@@ -4161,7 +4471,9 @@
     "difficulty_score": 6,
     "time_group": "70 to 90",
     "region": "Canterbury District",
-    "route_groups": []
+    "route_groups": [],
+    "is_high_speed": false,
+    "is_coastal": false
   },
   {
     "route_station_id": "SE0094",
@@ -4191,7 +4503,9 @@
     "region": "Medway",
     "route_groups": [
       "Sheerness Branch"
-    ]
+    ],
+    "is_high_speed": false,
+    "is_coastal": true
   },
   {
     "route_station_id": "SE0090",
@@ -4221,7 +4535,9 @@
     "region": "Medway",
     "route_groups": [
       "Sheerness Branch"
-    ]
+    ],
+    "is_high_speed": false,
+    "is_coastal": false
   },
   {
     "route_station_id": "SE0097",
@@ -4249,7 +4565,9 @@
     "difficulty_score": 6,
     "time_group": "70 to 90",
     "region": "Canterbury District",
-    "route_groups": []
+    "route_groups": [],
+    "is_high_speed": false,
+    "is_coastal": true
   },
   {
     "route_station_id": "SE0152",
@@ -4277,7 +4595,9 @@
     "difficulty_score": 6,
     "time_group": "70 to 90",
     "region": "Canterbury District",
-    "route_groups": []
+    "route_groups": [],
+    "is_high_speed": false,
+    "is_coastal": false
   },
   {
     "route_station_id": "SE0099",
@@ -4305,7 +4625,9 @@
     "difficulty_score": 6,
     "time_group": "70 to 90",
     "region": "Canterbury District",
-    "route_groups": []
+    "route_groups": [],
+    "is_high_speed": false,
+    "is_coastal": true
   },
   {
     "route_station_id": "SE0175",
@@ -4333,7 +4655,9 @@
     "difficulty_score": 5,
     "time_group": "70 to 90",
     "region": "East Kent",
-    "route_groups": []
+    "route_groups": [],
+    "is_high_speed": false,
+    "is_coastal": false
   },
   {
     "route_station_id": "SE0187",
@@ -4361,7 +4685,9 @@
     "difficulty_score": 6,
     "time_group": "70 to 90",
     "region": "East Kent",
-    "route_groups": []
+    "route_groups": [],
+    "is_high_speed": false,
+    "is_coastal": false
   },
   {
     "route_station_id": "SE0110",
@@ -4389,7 +4715,9 @@
     "difficulty_score": 6,
     "time_group": "70 to 90",
     "region": "Canterbury District",
-    "route_groups": []
+    "route_groups": [],
+    "is_high_speed": false,
+    "is_coastal": false
   },
   {
     "route_station_id": "SE0098",
@@ -4417,7 +4745,9 @@
     "difficulty_score": 6,
     "time_group": "70 to 90",
     "region": "Canterbury District",
-    "route_groups": []
+    "route_groups": [],
+    "is_high_speed": false,
+    "is_coastal": false
   },
   {
     "route_station_id": "SE0157",
@@ -4445,7 +4775,9 @@
     "difficulty_score": 6,
     "time_group": "70 to 90",
     "region": "East Kent",
-    "route_groups": []
+    "route_groups": [],
+    "is_high_speed": false,
+    "is_coastal": true
   },
   {
     "route_station_id": "SE0095",
@@ -4473,7 +4805,9 @@
     "difficulty_score": 6,
     "time_group": "70 to 90",
     "region": "Canterbury District",
-    "route_groups": []
+    "route_groups": [],
+    "is_high_speed": false,
+    "is_coastal": false
   },
   {
     "route_station_id": "SE0164",
@@ -4503,7 +4837,9 @@
     "region": "Thanet",
     "route_groups": [
       "High Speed 1"
-    ]
+    ],
+    "is_high_speed": true,
+    "is_coastal": false
   },
   {
     "route_station_id": "SE0109",
@@ -4531,7 +4867,9 @@
     "difficulty_score": 6,
     "time_group": "70 to 90",
     "region": "Canterbury District",
-    "route_groups": []
+    "route_groups": [],
+    "is_high_speed": false,
+    "is_coastal": false
   },
   {
     "route_station_id": "SE0114",
@@ -4559,7 +4897,9 @@
     "difficulty_score": 4,
     "time_group": "70 to 90",
     "region": "East Kent",
-    "route_groups": []
+    "route_groups": [],
+    "is_high_speed": false,
+    "is_coastal": true
   },
   {
     "route_station_id": "SE0162",
@@ -4587,7 +4927,9 @@
     "difficulty_score": 6,
     "time_group": "70 to 90",
     "region": "East Kent",
-    "route_groups": []
+    "route_groups": [],
+    "is_high_speed": false,
+    "is_coastal": false
   },
   {
     "route_station_id": "SE0111",
@@ -4615,7 +4957,9 @@
     "difficulty_score": 6,
     "time_group": "70 to 90",
     "region": "Canterbury District",
-    "route_groups": []
+    "route_groups": [],
+    "is_high_speed": false,
+    "is_coastal": false
   },
   {
     "route_station_id": "SE0160",
@@ -4643,7 +4987,9 @@
     "difficulty_score": 6,
     "time_group": "70 to 90",
     "region": "East Kent",
-    "route_groups": []
+    "route_groups": [],
+    "is_high_speed": false,
+    "is_coastal": true
   },
   {
     "route_station_id": "SE0151",
@@ -4671,7 +5017,9 @@
     "difficulty_score": 6,
     "time_group": "70 to 90",
     "region": "Canterbury District",
-    "route_groups": []
+    "route_groups": [],
+    "is_high_speed": false,
+    "is_coastal": false
   },
   {
     "route_station_id": "SE0108",
@@ -4699,7 +5047,9 @@
     "difficulty_score": 6,
     "time_group": "70 to 90",
     "region": "Canterbury District",
-    "route_groups": []
+    "route_groups": [],
+    "is_high_speed": false,
+    "is_coastal": false
   },
   {
     "route_station_id": "SE0100",
@@ -4727,7 +5077,9 @@
     "difficulty_score": 6,
     "time_group": "70 to 90",
     "region": "Thanet",
-    "route_groups": []
+    "route_groups": [],
+    "is_high_speed": false,
+    "is_coastal": true
   },
   {
     "route_station_id": "SE0159",
@@ -4755,7 +5107,9 @@
     "difficulty_score": 6,
     "time_group": "70 to 90",
     "region": "East Kent",
-    "route_groups": []
+    "route_groups": [],
+    "is_high_speed": false,
+    "is_coastal": true
   },
   {
     "route_station_id": "SE0092",
@@ -4785,7 +5139,9 @@
     "region": "Canterbury District",
     "route_groups": [
       "Sheerness Branch"
-    ]
+    ],
+    "is_high_speed": false,
+    "is_coastal": false
   },
   {
     "route_station_id": "SE0155",
@@ -4813,7 +5169,9 @@
     "difficulty_score": 6,
     "time_group": "70 to 90",
     "region": "East Kent",
-    "route_groups": []
+    "route_groups": [],
+    "is_high_speed": false,
+    "is_coastal": false
   },
   {
     "route_station_id": "SE0101",
@@ -4841,7 +5199,9 @@
     "difficulty_score": 6,
     "time_group": "70 to 90",
     "region": "Thanet",
-    "route_groups": []
+    "route_groups": [],
+    "is_high_speed": false,
+    "is_coastal": true
   },
   {
     "route_station_id": "SE0150",
@@ -4869,7 +5229,9 @@
     "difficulty_score": 6,
     "time_group": "70 to 90",
     "region": "East Kent",
-    "route_groups": []
+    "route_groups": [],
+    "is_high_speed": false,
+    "is_coastal": false
   },
   {
     "route_station_id": "SE0188",
@@ -4897,7 +5259,9 @@
     "difficulty_score": 6,
     "time_group": "70 to 90",
     "region": "East Kent",
-    "route_groups": []
+    "route_groups": [],
+    "is_high_speed": false,
+    "is_coastal": false
   },
   {
     "route_station_id": "SE0189",
@@ -4925,7 +5289,9 @@
     "difficulty_score": 6,
     "time_group": "70 to 90",
     "region": "East Kent",
-    "route_groups": []
+    "route_groups": [],
+    "is_high_speed": false,
+    "is_coastal": false
   },
   {
     "route_station_id": "SE0158",
@@ -4953,7 +5319,9 @@
     "difficulty_score": 6,
     "time_group": "70 to 90",
     "region": "East Kent",
-    "route_groups": []
+    "route_groups": [],
+    "is_high_speed": false,
+    "is_coastal": true
   },
   {
     "route_station_id": "SE0163",
@@ -4981,7 +5349,9 @@
     "difficulty_score": 6,
     "time_group": "70 to 90",
     "region": "Thanet",
-    "route_groups": []
+    "route_groups": [],
+    "is_high_speed": false,
+    "is_coastal": false
   },
   {
     "route_station_id": "SE0156",
@@ -5009,7 +5379,9 @@
     "difficulty_score": 6,
     "time_group": "70 to 90",
     "region": "East Kent",
-    "route_groups": []
+    "route_groups": [],
+    "is_high_speed": false,
+    "is_coastal": false
   },
   {
     "route_station_id": "SE0154",
@@ -5037,7 +5409,9 @@
     "difficulty_score": 6,
     "time_group": "70 to 90",
     "region": "Canterbury District",
-    "route_groups": []
+    "route_groups": [],
+    "is_high_speed": false,
+    "is_coastal": false
   },
   {
     "route_station_id": "SE0107",
@@ -5065,7 +5439,9 @@
     "difficulty_score": 6,
     "time_group": "70 to 90",
     "region": "Canterbury District",
-    "route_groups": []
+    "route_groups": [],
+    "is_high_speed": false,
+    "is_coastal": false
   },
   {
     "route_station_id": "SE0174",
@@ -5093,7 +5469,9 @@
     "difficulty_score": 6,
     "time_group": "70 to 90",
     "region": "East Kent",
-    "route_groups": []
+    "route_groups": [],
+    "is_high_speed": false,
+    "is_coastal": false
   },
   {
     "route_station_id": "SE0161",
@@ -5121,7 +5499,9 @@
     "difficulty_score": 6,
     "time_group": "70 to 90",
     "region": "East Kent",
-    "route_groups": []
+    "route_groups": [],
+    "is_high_speed": false,
+    "is_coastal": true
   },
   {
     "route_station_id": "SE0113",
@@ -5149,7 +5529,9 @@
     "difficulty_score": 6,
     "time_group": "70 to 90",
     "region": "East Kent",
-    "route_groups": []
+    "route_groups": [],
+    "is_high_speed": false,
+    "is_coastal": false
   },
   {
     "route_station_id": "SE0112",
@@ -5177,7 +5559,9 @@
     "difficulty_score": 6,
     "time_group": "70 to 90",
     "region": "East Kent",
-    "route_groups": []
+    "route_groups": [],
+    "is_high_speed": false,
+    "is_coastal": false
   },
   {
     "route_station_id": "SE0103",
@@ -5205,7 +5589,9 @@
     "difficulty_score": 5,
     "time_group": "90+",
     "region": "Thanet",
-    "route_groups": []
+    "route_groups": [],
+    "is_high_speed": false,
+    "is_coastal": true
   },
   {
     "route_station_id": "SE0104",
@@ -5233,7 +5619,9 @@
     "difficulty_score": 5,
     "time_group": "90+",
     "region": "Thanet",
-    "route_groups": []
+    "route_groups": [],
+    "is_high_speed": false,
+    "is_coastal": true
   },
   {
     "route_station_id": "SE0102",
@@ -5263,7 +5651,9 @@
     "region": "Thanet",
     "route_groups": [
       "High Speed 1"
-    ]
+    ],
+    "is_high_speed": true,
+    "is_coastal": true
   },
   {
     "route_station_id": "SE0105",
@@ -5293,7 +5683,9 @@
     "region": "Thanet",
     "route_groups": [
       "High Speed 1"
-    ]
+    ],
+    "is_high_speed": true,
+    "is_coastal": true
   },
   {
     "route_station_id": "SE0176",
@@ -5321,7 +5713,9 @@
     "difficulty_score": 6,
     "time_group": "90+",
     "region": "East Kent",
-    "route_groups": []
+    "route_groups": [],
+    "is_high_speed": false,
+    "is_coastal": false
   },
   {
     "route_station_id": "SE0190",
@@ -5349,6 +5743,8 @@
     "difficulty_score": 6,
     "time_group": "90+",
     "region": "East Kent",
-    "route_groups": []
+    "route_groups": [],
+    "is_high_speed": false,
+    "is_coastal": false
   }
 ]

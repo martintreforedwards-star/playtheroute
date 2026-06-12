@@ -1,0 +1,190 @@
+ABW,Abbey Wood
+ADM,Adisham
+AYP,Albany Park
+APD,Appledore
+AFK,Ashford International
+AYL,Aylesford
+AYH,Aylesham
+BMG,Barming
+BNH,Barnehurst
+BBL,Bat & Ball
+BAT,Battle
+BSD,Bearsted
+BEC,Beckenham Hill
+BKJ,Beckenham Junction
+BKS,Bekesbourne
+BGM,Bellingham
+BEG,Beltring
+BVD,Belvedere
+BXY,Bexley
+BXH,Bexleyheath
+BKL,Bickley
+BCH,Birchington-On-Sea
+BKH,Blackheath
+BRG,Borough Green & Wrotham
+BRX,Brixton
+BSR,Broadstairs
+BMN,Bromley North
+BMS,Bromley South
+CBE,Canterbury East
+CBW,Canterbury West
+CTF,Catford
+CFB,Catford Bridge
+CHG,Charing
+CTN,Charlton
+CRT,Chartham
+CTM,Chatham
+CLD,Chelsfield
+CSW,Chestfield & Swalecliffe
+CIL,Chilham
+CIT,Chislehurst
+CTK,City Thameslink
+CLK,Clock House
+CRY,Crayford
+CFT,Crofton Park
+CWU,Crowhurst
+CUX,Cuxton
+DFD,Dartford
+DEA,Deal
+DMK,Denmark Hill
+DEP,Deptford
+DVP,Dover Priory
+DMP,Dumpton Park
+DNG,Dunton Green
+EFL,East Farleigh
+EML,East Malling
+EBD,Ebbsfleet International
+EDN,Eden Park
+EPH,Elephant & Castle
+ELE,Elmers End
+ESD,Elmstead Woods
+ELW,Eltham
+ERH,Erith
+ETC,Etchingham
+EYN,Eynsford
+FCN,Falconwood
+FNR,Farningham Road
+ZFD,Farringdon
+FAV,Faversham
+FKC,Folkestone Central
+FKW,Folkestone West
+FRT,Frant
+GLM,Gillingham (Kent)
+GRV,Gravesend
+GNH,Greenhithe For Bluewater
+GNW,Greenwich
+GRP,Grove Park
+HAI,Halling
+HST,Ham Street
+HRH,Harrietsham
+HGS,Hastings
+HYS,Hayes
+HCN,Headcorn
+HNB,Herne Bay
+HNH,Herne Hill
+HIB,High Brooms
+HGM,Higham
+HLB,Hildenborough
+HGR,Hither Green
+HBN,Hollingbourne
+KSN,Kearsney
+KMS,Kemsing
+KML,Kemsley
+KTH,Kent House
+KDB,Kidbrooke
+KCK,Knockholt
+LAD,Ladywell
+LEE,Lee
+LEN,Lenham
+LEW,Lewisham
+BFR,London Blackfriars
+LBG,London Bridge
+CST,London Cannon Street
+CHX,London Charing Cross
+VIC,London Victoria
+WAE,London Waterloo (East)
+LGF,Longfield
+LGJ,Loughborough Junction
+LSY,Lower Sydenham
+MDB,Maidstone Barracks
+MDE,Maidstone East
+MDW,Maidstone West
+MRN,Marden
+MAR,Margate
+MTM,Martin Mill
+MZH,Maze Hill
+MEP,Meopham
+MSR,Minster
+MTG,Mottingham
+NBC,New Beckenham
+NWX,New Cross
+NEH,New Eltham
+NHE,New Hythe
+NGT,Newington
+NFL,Northfleet
+NHD,Nunhead
+ORE,Ore
+ORP,Orpington
+OTF,Otford
+PDW,Paddock Wood
+PMR,Peckham Rye
+PNE,Penge East
+PET,Petts Wood
+PLC,Pluckley
+PLU,Plumstead
+QBR,Queenborough
+RAI,Rainham (Kent)
+RAM,Ramsgate
+RVB,Ravensbourne
+RBR,Robertsbridge
+RTR,Rochester
+RYE,Rye
+SDG,Sandling
+SDW,Sandwich
+SEG,Selling
+SEV,Sevenoaks
+SSS,Sheerness-On-Sea
+SPH,Shepherds Well
+SEH,Shoreham (Kent)
+SRT,Shortlands
+SID,Sidcup
+SIT,Sittingbourne
+SGR,Slade Green
+SDA,Snodland
+SWO,Snowdown
+SOR,Sole Street
+SAJ,St Johns
+SLQ,St Leonards Warrior Sq
+SMY,St Mary Cray
+STP,St Pancras International
+SPU,Staplehurst
+SCG,Stone Crossing
+SOG,Stonegate
+SFA,Stratford International
+SOO,Strood
+STU,Sturry
+SUP,Sundridge Park
+SWL,Swale
+SAY,Swanley
+SWM,Swanscombe
+SYH,Sydenham Hill
+TEY,Teynham
+THP,Thanet Parkway
+TON,Tonbridge
+TBW,Tunbridge Wells
+WAD,Wadhurst
+WAM,Walmer
+WTR,Wateringbury
+WLI,Welling
+WDU,West Dulwich
+WMA,West Malling
+WLD,West St Leonards
+WWI,West Wickham
+WCB,Westcombe Park
+WHA,Westenhanger
+WGA,Westgate-On-Sea
+WHI,Whitstable
+WWA,Woolwich Arsenal
+WWD,Woolwich Dockyard
+WYE,Wye
+YAL,Yalding

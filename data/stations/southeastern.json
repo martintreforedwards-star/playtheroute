@@ -1112,7 +1112,8 @@
     "time_group": "30 to 50",
     "region": "East Kent",
     "route_groups": [
-      "High Speed 1"
+      "High Speed 1",
+      "Maidstone East"
     ],
     "is_high_speed": true,
     "is_coastal": false
@@ -1173,7 +1174,9 @@
     "difficulty_score": 5,
     "time_group": "30 to 50",
     "region": "Weald",
-    "route_groups": [],
+    "route_groups": [
+      "Maidstone East"
+    ],
     "is_high_speed": false,
     "is_coastal": false
   },
@@ -1777,7 +1780,9 @@
     "difficulty_score": 6,
     "time_group": "30 to 50",
     "region": "Weald",
-    "route_groups": [],
+    "route_groups": [
+      "Maidstone East"
+    ],
     "is_high_speed": false,
     "is_coastal": false
   },
@@ -3923,7 +3928,9 @@
     "difficulty_score": 6,
     "time_group": "30 to 50",
     "region": "Weald",
-    "route_groups": [],
+    "route_groups": [
+      "Maidstone East"
+    ],
     "is_high_speed": false,
     "is_coastal": false
   },
@@ -4013,7 +4020,9 @@
     "difficulty_score": 6,
     "time_group": "50 to 70",
     "region": "Medway",
-    "route_groups": [],
+    "route_groups": [
+      "Maidstone East"
+    ],
     "is_high_speed": false,
     "is_coastal": false
   },
@@ -4411,7 +4420,9 @@
     "difficulty_score": 6,
     "time_group": "70 to 90",
     "region": "Weald",
-    "route_groups": [],
+    "route_groups": [
+      "Maidstone East"
+    ],
     "is_high_speed": false,
     "is_coastal": false
   },

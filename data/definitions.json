@@ -6,5 +6,9 @@
   "interchange": {
     "title": "Interchange",
     "definition": "A station where a passenger can change between two or more distinct Southeastern route groups, or between Southeastern and another significant rail service."
+  },
+  "high_speed": {
+    "title": "High Speed 1",
+    "definition": "A station where scheduled Southeastern Highspeed services call."
   }
 }

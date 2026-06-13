@@ -251,7 +251,77 @@ body {
   height:7px;
   background:#111827;
 }
+/* TRAIN HARDWARE */
 
+.bogie{
+  position:absolute;
+  bottom:-18px;
+  width:60px;
+  height:12px;
+  background:#05070a;
+  border-radius:4px;
+}
+
+.bogie.left{
+  left:18px;
+}
+
+.bogie.right{
+  right:18px;
+}
+
+.wheel{
+  position:absolute;
+  width:18px;
+  height:18px;
+  border-radius:50%;
+  background:#05070a;
+  border:2px solid #000;
+  bottom:-22px;
+}
+
+.wheel.l1{
+  left:20px;
+}
+
+.wheel.l2{
+  left:48px;
+}
+
+.wheel.r1{
+  right:48px;
+}
+
+.wheel.r2{
+  right:20px;
+}
+
+.coupling{
+  position:absolute;
+  right:-14px;
+  top:50%;
+  width:18px;
+  height:4px;
+  background:#111827;
+  transform:translateY(-50%);
+  z-index:5;
+}
+
+.cell.correct[data-index="0"],
+.cell.correct[data-index="4"]{
+  border-radius:22px 8px 8px 22px;
+}
+
+.cell.correct[data-index="3"],
+.cell.correct[data-index="7"]{
+  clip-path:polygon(
+    0 0,
+    88% 0,
+    100% 50%,
+    88% 100%,
+    0 100%
+  );
+}
 .cell.incorrect {
   background: rgba(
     140,

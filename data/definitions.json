@@ -5,7 +5,7 @@
   },
   "interchange": {
     "title": "Interchange",
-    "definition": "A station where a passenger can change between two or more distinct Southeastern route groups, or between Southeastern and another significant rail service."
+    "definition": "A station identified as an interchange on the Southeastern network map. This includes major London terminals where passengers can conveniently change between Southeastern routes or connect with other rail, Underground, DLR, Elizabeth Line or Tram services."
   },
   "high_speed": {
     "title": "High Speed 1",

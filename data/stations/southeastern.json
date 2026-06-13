@@ -25,7 +25,10 @@
     "difficulty_score": 1,
     "time_group": "0 to 10",
     "region": "South East London",
-    "route_groups": [],
+    "route_groups": [
+      "Greenwich Line",
+      "Sevenoaks Main Line"
+    ],
     "is_high_speed": false,
     "is_coastal": false
   },
@@ -55,7 +58,10 @@
     "difficulty_score": 1,
     "time_group": "0 to 10",
     "region": "South East London",
-    "route_groups": [],
+    "route_groups": [
+      "Sevenoaks Main Line",
+      "Sevenoaks Metro"
+    ],
     "is_high_speed": false,
     "is_coastal": false
   },
@@ -85,7 +91,10 @@
     "difficulty_score": 1,
     "time_group": "0 to 10",
     "region": "South East London",
-    "route_groups": [],
+    "route_groups": [
+      "Sevenoaks Main Line",
+      "Sevenoaks Metro"
+    ],
     "is_high_speed": false,
     "is_coastal": false
   },
@@ -115,7 +124,10 @@
     "difficulty_score": 1,
     "time_group": "0 to 10",
     "region": "South East London",
-    "route_groups": [],
+    "route_groups": [
+      "Chatham Main Line Metro",
+      "Bromley South Metro"
+    ],
     "is_high_speed": false,
     "is_coastal": false
   },
@@ -210,7 +222,8 @@
     "time_group": "0 to 10",
     "region": "South East London",
     "route_groups": [
-      "Dartford Loop"
+      "Dartford Loop",
+      "Bexleyheath Line"
     ],
     "is_high_speed": false,
     "is_coastal": false
@@ -241,7 +254,9 @@
     "difficulty_score": 6,
     "time_group": "10 to 20",
     "region": "South East London",
-    "route_groups": [],
+    "route_groups": [
+      "Hayes Branch"
+    ],
     "is_high_speed": false,
     "is_coastal": false
   },
@@ -271,7 +286,9 @@
     "difficulty_score": 6,
     "time_group": "10 to 20",
     "region": "South East London",
-    "route_groups": [],
+    "route_groups": [
+      "Hayes Branch"
+    ],
     "is_high_speed": false,
     "is_coastal": false
   },
@@ -301,7 +318,9 @@
     "difficulty_score": 6,
     "time_group": "10 to 20",
     "region": "South East London",
-    "route_groups": [],
+    "route_groups": [
+      "Catford Corridor"
+    ],
     "is_high_speed": false,
     "is_coastal": false
   },
@@ -331,7 +350,9 @@
     "difficulty_score": 6,
     "time_group": "10 to 20",
     "region": "South East London",
-    "route_groups": [],
+    "route_groups": [
+      "Catford Corridor"
+    ],
     "is_high_speed": false,
     "is_coastal": false
   },
@@ -361,7 +382,10 @@
     "difficulty_score": 3,
     "time_group": "10 to 20",
     "region": "South East London",
-    "route_groups": [],
+    "route_groups": [
+      "Sevenoaks Main Line",
+      "Sevenoaks Metro"
+    ],
     "is_high_speed": false,
     "is_coastal": false
   },
@@ -423,7 +447,10 @@
     "difficulty_score": 5,
     "time_group": "10 to 20",
     "region": "South East London",
-    "route_groups": [],
+    "route_groups": [
+      "Catford Loop Extended",
+      "Catford Corridor"
+    ],
     "is_high_speed": false,
     "is_coastal": false
   },
@@ -454,7 +481,9 @@
     "time_group": "10 to 20",
     "region": "South East London",
     "route_groups": [
-      "Dartford Loop"
+      "Dartford Loop",
+      "Sevenoaks Main Line",
+      "Sevenoaks Metro"
     ],
     "is_high_speed": false,
     "is_coastal": false
@@ -485,7 +514,9 @@
     "difficulty_score": 6,
     "time_group": "10 to 20",
     "region": "South East London",
-    "route_groups": [],
+    "route_groups": [
+      "Greenwich Line"
+    ],
     "is_high_speed": false,
     "is_coastal": false
   },
@@ -515,7 +546,11 @@
     "difficulty_score": 6,
     "time_group": "10 to 20",
     "region": "South East London",
-    "route_groups": [],
+    "route_groups": [
+      "Chatham Main Line Metro",
+      "Bromley South Main Line",
+      "Bromley South Metro"
+    ],
     "is_high_speed": false,
     "is_coastal": false
   },
@@ -546,7 +581,8 @@
     "time_group": "10 to 20",
     "region": "South East London",
     "route_groups": [
-      "Dartford Loop"
+      "Dartford Loop",
+      "Greenwich Line"
     ],
     "is_high_speed": false,
     "is_coastal": false
@@ -577,7 +613,11 @@
     "difficulty_score": 6,
     "time_group": "10 to 20",
     "region": "South East London",
-    "route_groups": [],
+    "route_groups": [
+      "Chatham Main Line Metro",
+      "Catford Loop Extended",
+      "Bromley South Metro"
+    ],
     "is_high_speed": false,
     "is_coastal": false
   },
@@ -607,7 +647,10 @@
     "difficulty_score": 2,
     "time_group": "10 to 20",
     "region": "South East London",
-    "route_groups": [],
+    "route_groups": [
+      "Sevenoaks Main Line",
+      "Sevenoaks Metro"
+    ],
     "is_high_speed": false,
     "is_coastal": false
   },
@@ -637,7 +680,11 @@
     "difficulty_score": 5,
     "time_group": "10 to 20",
     "region": "South East London",
-    "route_groups": [],
+    "route_groups": [
+      "Catford Loop",
+      "Catford Loop Extended",
+      "Catford Corridor"
+    ],
     "is_high_speed": false,
     "is_coastal": false
   },
@@ -667,7 +714,11 @@
     "difficulty_score": 5,
     "time_group": "10 to 20",
     "region": "South East London",
-    "route_groups": [],
+    "route_groups": [
+      "Catford Loop",
+      "Catford Loop Extended",
+      "Catford Corridor"
+    ],
     "is_high_speed": false,
     "is_coastal": false
   },
@@ -697,7 +748,12 @@
     "difficulty_score": 3,
     "time_group": "20 to 30",
     "region": "South East London",
-    "route_groups": [],
+    "route_groups": [
+      "Chatham Main Line Metro",
+      "Sevenoaks Main Line",
+      "Sevenoaks Metro",
+      "Bromley South Metro"
+    ],
     "is_high_speed": false,
     "is_coastal": false
   },
@@ -727,7 +783,10 @@
     "difficulty_score": 6,
     "time_group": "20 to 30",
     "region": "South East London",
-    "route_groups": [],
+    "route_groups": [
+      "Bromley South Metro",
+      "Catford Corridor"
+    ],
     "is_high_speed": false,
     "is_coastal": false
   },
@@ -789,7 +848,9 @@
     "difficulty_score": 6,
     "time_group": "20 to 30",
     "region": "South East London",
-    "route_groups": [],
+    "route_groups": [
+      "Bromley South Metro"
+    ],
     "is_high_speed": false,
     "is_coastal": false
   },
@@ -820,7 +881,8 @@
     "time_group": "20 to 30",
     "region": "South East London",
     "route_groups": [
-      "Dartford Loop"
+      "Dartford Loop",
+      "Greenwich Line"
     ],
     "is_high_speed": false,
     "is_coastal": false
@@ -851,7 +913,10 @@
     "difficulty_score": 5,
     "time_group": "20 to 30",
     "region": "South East London",
-    "route_groups": [],
+    "route_groups": [
+      "Sevenoaks Main Line",
+      "Sevenoaks Metro"
+    ],
     "is_high_speed": false,
     "is_coastal": false
   },
@@ -881,7 +946,9 @@
     "difficulty_score": 5,
     "time_group": "20 to 30",
     "region": "South East London",
-    "route_groups": [],
+    "route_groups": [
+      "Bromley South Metro"
+    ],
     "is_high_speed": false,
     "is_coastal": false
   },
@@ -911,7 +978,11 @@
     "difficulty_score": 6,
     "time_group": "20 to 30",
     "region": "South East London",
-    "route_groups": [],
+    "route_groups": [
+      "Chatham Main Line Metro",
+      "Bromley South Main Line",
+      "Bromley South Metro"
+    ],
     "is_high_speed": false,
     "is_coastal": false
   },
@@ -942,7 +1013,9 @@
     "time_group": "20 to 30",
     "region": "Weald",
     "route_groups": [
-      "Southeastern Main Line"
+      "Southeastern Main Line",
+      "Sevenoaks Main Line",
+      "Sevenoaks Metro"
     ],
     "is_high_speed": false,
     "is_coastal": false
@@ -973,7 +1046,10 @@
     "difficulty_score": 5,
     "time_group": "20 to 30",
     "region": "Weald",
-    "route_groups": [],
+    "route_groups": [
+      "Sevenoaks Main Line",
+      "Sevenoaks Metro"
+    ],
     "is_high_speed": false,
     "is_coastal": false
   },
@@ -1003,7 +1079,9 @@
     "difficulty_score": 6,
     "time_group": "30 to 50",
     "region": "South East London",
-    "route_groups": [],
+    "route_groups": [
+      "Greenwich Line"
+    ],
     "is_high_speed": false,
     "is_coastal": false
   },
@@ -1033,7 +1111,9 @@
     "difficulty_score": 6,
     "time_group": "30 to 50",
     "region": "South East London",
-    "route_groups": [],
+    "route_groups": [
+      "Greenwich Line"
+    ],
     "is_high_speed": false,
     "is_coastal": false
   },
@@ -1097,7 +1177,8 @@
     "region": "North Kent",
     "route_groups": [
       "North Kent",
-      "Dartford Loop"
+      "Dartford Loop",
+      "Bexleyheath Line"
     ],
     "is_high_speed": false,
     "is_coastal": false
@@ -1132,7 +1213,11 @@
       "High Speed 1",
       "Maidstone East",
       "Hastings Line",
-      "Southeastern Main Line"
+      "Southeastern Main Line",
+      "Marshlink",
+      "Maidstone East Extended",
+      "Ashford Canterbury",
+      "Ashford Canterbury West"
     ],
     "is_high_speed": true,
     "is_coastal": false
@@ -1227,7 +1312,10 @@
     "difficulty_score": 6,
     "time_group": "30 to 50",
     "region": "Weald",
-    "route_groups": [],
+    "route_groups": [
+      "Sevenoaks Main Line",
+      "Sevenoaks Metro"
+    ],
     "is_high_speed": false,
     "is_coastal": false
   },
@@ -1292,7 +1380,10 @@
     "region": "Weald",
     "route_groups": [
       "Hastings Line",
-      "Southeastern Main Line"
+      "Southeastern Main Line",
+      "Hastings Line Extended",
+      "Sevenoaks Main Line",
+      "Sevenoaks Metro"
     ],
     "is_high_speed": false,
     "is_coastal": false
@@ -1323,7 +1414,9 @@
     "difficulty_score": 6,
     "time_group": "30 to 50",
     "region": "Weald",
-    "route_groups": [],
+    "route_groups": [
+      "Hastings Line Extended"
+    ],
     "is_high_speed": false,
     "is_coastal": false
   },
@@ -1353,7 +1446,10 @@
     "difficulty_score": 6,
     "time_group": "30 to 50",
     "region": "South East London",
-    "route_groups": [],
+    "route_groups": [
+      "Sevenoaks Main Line",
+      "Sevenoaks Metro"
+    ],
     "is_high_speed": false,
     "is_coastal": false
   },
@@ -1383,7 +1479,10 @@
     "difficulty_score": 6,
     "time_group": "30 to 50",
     "region": "South East London",
-    "route_groups": [],
+    "route_groups": [
+      "Catford Loop",
+      "Catford Loop Extended"
+    ],
     "is_high_speed": false,
     "is_coastal": false
   },
@@ -1413,7 +1512,11 @@
     "difficulty_score": 6,
     "time_group": "30 to 50",
     "region": "South East London",
-    "route_groups": [],
+    "route_groups": [
+      "Catford Loop",
+      "Catford Loop Extended",
+      "Catford Corridor"
+    ],
     "is_high_speed": false,
     "is_coastal": false
   },
@@ -1475,7 +1578,10 @@
     "difficulty_score": 5,
     "time_group": "30 to 50",
     "region": "Weald",
-    "route_groups": [],
+    "route_groups": [
+      "Sevenoaks Main Line",
+      "Sevenoaks Metro"
+    ],
     "is_high_speed": false,
     "is_coastal": false
   },
@@ -1540,7 +1646,8 @@
     "time_group": "30 to 50",
     "region": "South East London",
     "route_groups": [
-      "Dartford Loop"
+      "Dartford Loop",
+      "Greenwich Line"
     ],
     "is_high_speed": false,
     "is_coastal": false
@@ -1572,7 +1679,8 @@
     "time_group": "30 to 50",
     "region": "South East London",
     "route_groups": [
-      "Chatham Main Line"
+      "Chatham Main Line",
+      "Bromley South Main Line"
     ],
     "is_high_speed": false,
     "is_coastal": false
@@ -1605,7 +1713,8 @@
     "region": "North Kent",
     "route_groups": [
       "Maidstone East",
-      "Chatham Main Line"
+      "Chatham Main Line",
+      "Bromley South Main Line"
     ],
     "is_high_speed": false,
     "is_coastal": false
@@ -1636,7 +1745,9 @@
     "difficulty_score": 6,
     "time_group": "30 to 50",
     "region": "South East London",
-    "route_groups": [],
+    "route_groups": [
+      "Hayes Branch"
+    ],
     "is_high_speed": false,
     "is_coastal": false
   },
@@ -1666,7 +1777,9 @@
     "difficulty_score": 6,
     "time_group": "30 to 50",
     "region": "Weald",
-    "route_groups": [],
+    "route_groups": [
+      "Sevenoaks Metro"
+    ],
     "is_high_speed": false,
     "is_coastal": false
   },
@@ -1728,7 +1841,9 @@
     "difficulty_score": 6,
     "time_group": "30 to 50",
     "region": "Weald",
-    "route_groups": [],
+    "route_groups": [
+      "Hastings Line Extended"
+    ],
     "is_high_speed": false,
     "is_coastal": false
   },
@@ -1790,7 +1905,11 @@
     "difficulty_score": 6,
     "time_group": "30 to 50",
     "region": "South East London",
-    "route_groups": [],
+    "route_groups": [
+      "Catford Loop",
+      "Catford Loop Extended",
+      "Catford Corridor"
+    ],
     "is_high_speed": false,
     "is_coastal": false
   },
@@ -1916,7 +2035,9 @@
     "difficulty_score": 6,
     "time_group": "30 to 50",
     "region": "Weald",
-    "route_groups": [],
+    "route_groups": [
+      "Hastings Line Extended"
+    ],
     "is_high_speed": false,
     "is_coastal": false
   },
@@ -1946,7 +2067,9 @@
     "difficulty_score": 6,
     "time_group": "30 to 50",
     "region": "Weald",
-    "route_groups": [],
+    "route_groups": [
+      "Hastings Line Extended"
+    ],
     "is_high_speed": false,
     "is_coastal": false
   },
@@ -2009,7 +2132,8 @@
     "time_group": "30 to 50",
     "region": "South East London",
     "route_groups": [
-      "Dartford Loop"
+      "Dartford Loop",
+      "Bexleyheath Line"
     ],
     "is_high_speed": false,
     "is_coastal": false
@@ -2040,7 +2164,10 @@
     "difficulty_score": 3,
     "time_group": "30 to 50",
     "region": "South East London",
-    "route_groups": [],
+    "route_groups": [
+      "Catford Loop",
+      "Catford Loop Extended"
+    ],
     "is_high_speed": false,
     "is_coastal": false
   },
@@ -2102,7 +2229,9 @@
     "difficulty_score": 6,
     "time_group": "30 to 50",
     "region": "Weald",
-    "route_groups": [],
+    "route_groups": [
+      "Maidstone East Extended"
+    ],
     "is_high_speed": false,
     "is_coastal": false
   },
@@ -2228,7 +2357,9 @@
     "difficulty_score": 6,
     "time_group": "30 to 50",
     "region": "South East London",
-    "route_groups": [],
+    "route_groups": [
+      "Hayes Branch"
+    ],
     "is_high_speed": false,
     "is_coastal": false
   },
@@ -2258,7 +2389,9 @@
     "difficulty_score": 6,
     "time_group": "30 to 50",
     "region": "South East London",
-    "route_groups": [],
+    "route_groups": [
+      "Bexleyheath Line"
+    ],
     "is_high_speed": false,
     "is_coastal": false
   },
@@ -2288,7 +2421,9 @@
     "difficulty_score": 6,
     "time_group": "30 to 50",
     "region": "Weald",
-    "route_groups": [],
+    "route_groups": [
+      "Hastings Line Extended"
+    ],
     "is_high_speed": false,
     "is_coastal": false
   },
@@ -2318,7 +2453,10 @@
     "difficulty_score": 5,
     "time_group": "30 to 50",
     "region": "South East London",
-    "route_groups": [],
+    "route_groups": [
+      "Sevenoaks Main Line",
+      "Sevenoaks Metro"
+    ],
     "is_high_speed": false,
     "is_coastal": false
   },
@@ -2348,7 +2486,9 @@
     "difficulty_score": 6,
     "time_group": "30 to 50",
     "region": "South East London",
-    "route_groups": [],
+    "route_groups": [
+      "Hayes Branch"
+    ],
     "is_high_speed": false,
     "is_coastal": false
   },
@@ -2379,7 +2519,8 @@
     "time_group": "30 to 50",
     "region": "South East London",
     "route_groups": [
-      "Dartford Loop"
+      "Dartford Loop",
+      "Greenwich Line"
     ],
     "is_high_speed": false,
     "is_coastal": false
@@ -2411,7 +2552,8 @@
     "time_group": "30 to 50",
     "region": "South East London",
     "route_groups": [
-      "Dartford Loop"
+      "Dartford Loop",
+      "Greenwich Line"
     ],
     "is_high_speed": false,
     "is_coastal": false
@@ -2442,7 +2584,9 @@
     "difficulty_score": 6,
     "time_group": "30 to 50",
     "region": "Weald",
-    "route_groups": [],
+    "route_groups": [
+      "Bromley South Main Line"
+    ],
     "is_high_speed": false,
     "is_coastal": false
   },
@@ -2472,7 +2616,9 @@
     "difficulty_score": 6,
     "time_group": "30 to 50",
     "region": "Weald",
-    "route_groups": [],
+    "route_groups": [
+      "Bromley South Main Line"
+    ],
     "is_high_speed": false,
     "is_coastal": false
   },
@@ -2534,7 +2680,9 @@
     "difficulty_score": 6,
     "time_group": "30 to 50",
     "region": "South East London",
-    "route_groups": [],
+    "route_groups": [
+      "Bexleyheath Line"
+    ],
     "is_high_speed": false,
     "is_coastal": false
   },
@@ -2596,7 +2744,10 @@
     "difficulty_score": 6,
     "time_group": "30 to 50",
     "region": "South East London",
-    "route_groups": [],
+    "route_groups": [
+      "Sevenoaks Main Line",
+      "Sevenoaks Metro"
+    ],
     "is_high_speed": false,
     "is_coastal": false
   },
@@ -2626,7 +2777,9 @@
     "difficulty_score": 6,
     "time_group": "30 to 50",
     "region": "South East London",
-    "route_groups": [],
+    "route_groups": [
+      "Hayes Branch"
+    ],
     "is_high_speed": false,
     "is_coastal": false
   },
@@ -2785,7 +2938,9 @@
     "difficulty_score": 6,
     "time_group": "30 to 50",
     "region": "Weald",
-    "route_groups": [],
+    "route_groups": [
+      "Hastings Line Extended"
+    ],
     "is_high_speed": false,
     "is_coastal": false
   },
@@ -2847,7 +3002,9 @@
     "difficulty_score": 6,
     "time_group": "30 to 50",
     "region": "South East London",
-    "route_groups": [],
+    "route_groups": [
+      "Hayes Branch"
+    ],
     "is_high_speed": false,
     "is_coastal": false
   },
@@ -2878,7 +3035,9 @@
     "time_group": "30 to 50",
     "region": "South East London",
     "route_groups": [
-      "Bromley North Branch"
+      "Bromley North Branch",
+      "Sevenoaks Main Line",
+      "Sevenoaks Metro"
     ],
     "is_high_speed": false,
     "is_coastal": false
@@ -2941,7 +3100,9 @@
     "difficulty_score": 5,
     "time_group": "30 to 50",
     "region": "Weald",
-    "route_groups": [],
+    "route_groups": [
+      "Hastings Line Extended"
+    ],
     "is_high_speed": false,
     "is_coastal": false
   },
@@ -2971,7 +3132,9 @@
     "difficulty_score": 6,
     "time_group": "30 to 50",
     "region": "Weald",
-    "route_groups": [],
+    "route_groups": [
+      "Hastings Line Extended"
+    ],
     "is_high_speed": false,
     "is_coastal": false
   },
@@ -3066,7 +3229,8 @@
     "time_group": "30 to 50",
     "region": "South East London",
     "route_groups": [
-      "Dartford Loop"
+      "Dartford Loop",
+      "Greenwich Line"
     ],
     "is_high_speed": false,
     "is_coastal": false
@@ -3097,7 +3261,12 @@
     "difficulty_score": 5,
     "time_group": "30 to 50",
     "region": "South East London",
-    "route_groups": [],
+    "route_groups": [
+      "Chatham Main Line Metro",
+      "Sevenoaks Main Line",
+      "Sevenoaks Metro",
+      "Bromley South Metro"
+    ],
     "is_high_speed": false,
     "is_coastal": false
   },
@@ -3191,7 +3360,9 @@
     "difficulty_score": 6,
     "time_group": "30 to 50",
     "region": "Weald",
-    "route_groups": [],
+    "route_groups": [
+      "Hastings Line Extended"
+    ],
     "is_high_speed": false,
     "is_coastal": false
   },
@@ -3222,7 +3393,8 @@
     "time_group": "30 to 50",
     "region": "South East London",
     "route_groups": [
-      "Dartford Loop"
+      "Dartford Loop",
+      "Bexleyheath Line"
     ],
     "is_high_speed": false,
     "is_coastal": false
@@ -3253,7 +3425,9 @@
     "difficulty_score": 6,
     "time_group": "30 to 50",
     "region": "South East London",
-    "route_groups": [],
+    "route_groups": [
+      "Hayes Branch"
+    ],
     "is_high_speed": false,
     "is_coastal": false
   },
@@ -3283,7 +3457,9 @@
     "difficulty_score": 5,
     "time_group": "30 to 50",
     "region": "South East London",
-    "route_groups": [],
+    "route_groups": [
+      "Bexleyheath Line"
+    ],
     "is_high_speed": false,
     "is_coastal": false
   },
@@ -3313,7 +3489,10 @@
     "difficulty_score": 6,
     "time_group": "30 to 50",
     "region": "South East London",
-    "route_groups": [],
+    "route_groups": [
+      "Catford Loop Extended",
+      "Catford Corridor"
+    ],
     "is_high_speed": false,
     "is_coastal": false
   },
@@ -3440,7 +3619,10 @@
     "difficulty_score": 6,
     "time_group": "30 to 50",
     "region": "South East London",
-    "route_groups": [],
+    "route_groups": [
+      "Catford Loop Extended",
+      "Catford Corridor"
+    ],
     "is_high_speed": false,
     "is_coastal": false
   },
@@ -3502,7 +3684,12 @@
     "difficulty_score": 6,
     "time_group": "30 to 50",
     "region": "South East London",
-    "route_groups": [],
+    "route_groups": [
+      "Catford Loop",
+      "Catford Loop Extended",
+      "Bromley South Metro",
+      "Catford Corridor"
+    ],
     "is_high_speed": false,
     "is_coastal": false
   },
@@ -3532,7 +3719,10 @@
     "difficulty_score": 4,
     "time_group": "30 to 50",
     "region": "South East London",
-    "route_groups": [],
+    "route_groups": [
+      "Catford Loop",
+      "Catford Loop Extended"
+    ],
     "is_high_speed": false,
     "is_coastal": false
   },
@@ -3562,7 +3752,10 @@
     "difficulty_score": 4,
     "time_group": "30 to 50",
     "region": "South East London",
-    "route_groups": [],
+    "route_groups": [
+      "Catford Loop",
+      "Catford Loop Extended"
+    ],
     "is_high_speed": false,
     "is_coastal": false
   },
@@ -3592,7 +3785,9 @@
     "difficulty_score": 6,
     "time_group": "30 to 50",
     "region": "South East London",
-    "route_groups": [],
+    "route_groups": [
+      "Catford Loop"
+    ],
     "is_high_speed": false,
     "is_coastal": false
   },
@@ -3656,7 +3851,8 @@
     "time_group": "30 to 50",
     "region": "South East London",
     "route_groups": [
-      "Dartford Loop"
+      "Dartford Loop",
+      "Greenwich Line"
     ],
     "is_high_speed": false,
     "is_coastal": false
@@ -3687,7 +3883,10 @@
     "difficulty_score": 6,
     "time_group": "30 to 50",
     "region": "South East London",
-    "route_groups": [],
+    "route_groups": [
+      "Sevenoaks Main Line",
+      "Sevenoaks Metro"
+    ],
     "is_high_speed": false,
     "is_coastal": false
   },
@@ -3717,7 +3916,9 @@
     "difficulty_score": 6,
     "time_group": "30 to 50",
     "region": "South East London",
-    "route_groups": [],
+    "route_groups": [
+      "Hayes Branch"
+    ],
     "is_high_speed": false,
     "is_coastal": false
   },
@@ -3747,7 +3948,10 @@
     "difficulty_score": 6,
     "time_group": "30 to 50",
     "region": "Weald",
-    "route_groups": [],
+    "route_groups": [
+      "Sevenoaks Main Line",
+      "Sevenoaks Metro"
+    ],
     "is_high_speed": false,
     "is_coastal": false
   },
@@ -3777,7 +3981,9 @@
     "difficulty_score": 6,
     "time_group": "30 to 50",
     "region": "South East London",
-    "route_groups": [],
+    "route_groups": [
+      "Bexleyheath Line"
+    ],
     "is_high_speed": false,
     "is_coastal": false
   },
@@ -3807,7 +4013,10 @@
     "difficulty_score": 6,
     "time_group": "30 to 50",
     "region": "South East London",
-    "route_groups": [],
+    "route_groups": [
+      "Catford Loop",
+      "Catford Loop Extended"
+    ],
     "is_high_speed": false,
     "is_coastal": false
   },
@@ -3838,7 +4047,8 @@
     "time_group": "30 to 50",
     "region": "South East London",
     "route_groups": [
-      "Dartford Loop"
+      "Dartford Loop",
+      "Bexleyheath Line"
     ],
     "is_high_speed": false,
     "is_coastal": false
@@ -3870,7 +4080,8 @@
     "time_group": "30 to 50",
     "region": "South East London",
     "route_groups": [
-      "Chatham Main Line"
+      "Chatham Main Line",
+      "Bromley South Main Line"
     ],
     "is_high_speed": false,
     "is_coastal": false
@@ -3902,7 +4113,8 @@
     "time_group": "30 to 50",
     "region": "South East London",
     "route_groups": [
-      "Dartford Loop"
+      "Dartford Loop",
+      "Greenwich Line"
     ],
     "is_high_speed": false,
     "is_coastal": false
@@ -4031,7 +4243,8 @@
     "time_group": "30 to 50",
     "region": "Weald",
     "route_groups": [
-      "Maidstone East"
+      "Maidstone East",
+      "Maidstone East Extended"
     ],
     "is_high_speed": false,
     "is_coastal": false
@@ -4158,7 +4371,12 @@
     "difficulty_score": 5,
     "time_group": "50 to 70",
     "region": "Canterbury District",
-    "route_groups": [],
+    "route_groups": [
+      "Ashford Canterbury",
+      "East Kent Local",
+      "Ashford Canterbury West",
+      "East Kent Connector"
+    ],
     "is_high_speed": false,
     "is_coastal": false
   },
@@ -4382,7 +4600,9 @@
     "difficulty_score": 6,
     "time_group": "50 to 70",
     "region": "Weald",
-    "route_groups": [],
+    "route_groups": [
+      "Maidstone East Extended"
+    ],
     "is_high_speed": false,
     "is_coastal": false
   },
@@ -4512,7 +4732,8 @@
     "time_group": "70 to 90",
     "region": "Weald",
     "route_groups": [
-      "Maidstone East"
+      "Maidstone East",
+      "Maidstone East Extended"
     ],
     "is_high_speed": false,
     "is_coastal": false
@@ -4544,7 +4765,8 @@
     "time_group": "70 to 90",
     "region": "Weald",
     "route_groups": [
-      "Maidstone East"
+      "Maidstone East",
+      "Maidstone East Extended"
     ],
     "is_high_speed": false,
     "is_coastal": false
@@ -4577,7 +4799,10 @@
     "region": "East Kent",
     "route_groups": [
       "North Kent",
-      "Chatham Main Line"
+      "Chatham Main Line",
+      "East Kent Coast",
+      "East Kent Local",
+      "Faversham Coast"
     ],
     "is_high_speed": false,
     "is_coastal": false
@@ -4608,7 +4833,10 @@
     "difficulty_score": 6,
     "time_group": "70 to 90",
     "region": "Canterbury District",
-    "route_groups": [],
+    "route_groups": [
+      "East Kent Local",
+      "Faversham Coast"
+    ],
     "is_high_speed": false,
     "is_coastal": false
   },
@@ -4704,7 +4932,9 @@
     "difficulty_score": 6,
     "time_group": "70 to 90",
     "region": "Canterbury District",
-    "route_groups": [],
+    "route_groups": [
+      "East Kent Coast"
+    ],
     "is_high_speed": false,
     "is_coastal": true
   },
@@ -4734,7 +4964,10 @@
     "difficulty_score": 6,
     "time_group": "70 to 90",
     "region": "Canterbury District",
-    "route_groups": [],
+    "route_groups": [
+      "Ashford Canterbury",
+      "Ashford Canterbury West"
+    ],
     "is_high_speed": false,
     "is_coastal": false
   },
@@ -4764,7 +4997,9 @@
     "difficulty_score": 6,
     "time_group": "70 to 90",
     "region": "Canterbury District",
-    "route_groups": [],
+    "route_groups": [
+      "East Kent Coast"
+    ],
     "is_high_speed": false,
     "is_coastal": true
   },
@@ -4794,7 +5029,9 @@
     "difficulty_score": 5,
     "time_group": "70 to 90",
     "region": "East Kent",
-    "route_groups": [],
+    "route_groups": [
+      "Hastings Line Extended"
+    ],
     "is_high_speed": false,
     "is_coastal": false
   },
@@ -4824,7 +5061,9 @@
     "difficulty_score": 6,
     "time_group": "70 to 90",
     "region": "East Kent",
-    "route_groups": [],
+    "route_groups": [
+      "Hastings Line Extended"
+    ],
     "is_high_speed": false,
     "is_coastal": false
   },
@@ -4854,7 +5093,9 @@
     "difficulty_score": 6,
     "time_group": "70 to 90",
     "region": "Canterbury District",
-    "route_groups": [],
+    "route_groups": [
+      "Canterbury East Line"
+    ],
     "is_high_speed": false,
     "is_coastal": false
   },
@@ -4884,7 +5125,9 @@
     "difficulty_score": 6,
     "time_group": "70 to 90",
     "region": "Canterbury District",
-    "route_groups": [],
+    "route_groups": [
+      "East Kent Coast"
+    ],
     "is_high_speed": false,
     "is_coastal": false
   },
@@ -4946,7 +5189,10 @@
     "difficulty_score": 6,
     "time_group": "70 to 90",
     "region": "Canterbury District",
-    "route_groups": [],
+    "route_groups": [
+      "East Kent Local",
+      "Faversham Coast"
+    ],
     "is_high_speed": false,
     "is_coastal": false
   },
@@ -5008,7 +5254,9 @@
     "difficulty_score": 6,
     "time_group": "70 to 90",
     "region": "Canterbury District",
-    "route_groups": [],
+    "route_groups": [
+      "Canterbury East Line"
+    ],
     "is_high_speed": false,
     "is_coastal": false
   },
@@ -5040,7 +5288,8 @@
     "region": "East Kent",
     "route_groups": [
       "Chatham Main Line",
-      "Southeastern Main Line"
+      "Southeastern Main Line",
+      "Canterbury East Line"
     ],
     "is_high_speed": false,
     "is_coastal": true
@@ -5071,7 +5320,9 @@
     "difficulty_score": 6,
     "time_group": "70 to 90",
     "region": "East Kent",
-    "route_groups": [],
+    "route_groups": [
+      "East Kent Coast"
+    ],
     "is_high_speed": false,
     "is_coastal": false
   },
@@ -5101,7 +5352,9 @@
     "difficulty_score": 6,
     "time_group": "70 to 90",
     "region": "Canterbury District",
-    "route_groups": [],
+    "route_groups": [
+      "Canterbury East Line"
+    ],
     "is_high_speed": false,
     "is_coastal": false
   },
@@ -5131,7 +5384,9 @@
     "difficulty_score": 6,
     "time_group": "70 to 90",
     "region": "East Kent",
-    "route_groups": [],
+    "route_groups": [
+      "East Kent Coast"
+    ],
     "is_high_speed": false,
     "is_coastal": true
   },
@@ -5161,7 +5416,10 @@
     "difficulty_score": 6,
     "time_group": "70 to 90",
     "region": "Canterbury District",
-    "route_groups": [],
+    "route_groups": [
+      "Ashford Canterbury",
+      "Ashford Canterbury West"
+    ],
     "is_high_speed": false,
     "is_coastal": false
   },
@@ -5191,7 +5449,10 @@
     "difficulty_score": 6,
     "time_group": "70 to 90",
     "region": "Canterbury District",
-    "route_groups": [],
+    "route_groups": [
+      "East Kent Local",
+      "East Kent Connector"
+    ],
     "is_high_speed": false,
     "is_coastal": false
   },
@@ -5221,7 +5482,9 @@
     "difficulty_score": 6,
     "time_group": "70 to 90",
     "region": "Thanet",
-    "route_groups": [],
+    "route_groups": [
+      "East Kent Coast"
+    ],
     "is_high_speed": false,
     "is_coastal": true
   },
@@ -5251,7 +5514,9 @@
     "difficulty_score": 6,
     "time_group": "70 to 90",
     "region": "East Kent",
-    "route_groups": [],
+    "route_groups": [
+      "East Kent Coast"
+    ],
     "is_high_speed": false,
     "is_coastal": true
   },
@@ -5313,7 +5578,10 @@
     "difficulty_score": 6,
     "time_group": "70 to 90",
     "region": "East Kent",
-    "route_groups": [],
+    "route_groups": [
+      "East Kent Local",
+      "East Kent Connector"
+    ],
     "is_high_speed": false,
     "is_coastal": false
   },
@@ -5343,7 +5611,9 @@
     "difficulty_score": 6,
     "time_group": "70 to 90",
     "region": "Thanet",
-    "route_groups": [],
+    "route_groups": [
+      "East Kent Coast"
+    ],
     "is_high_speed": false,
     "is_coastal": true
   },
@@ -5373,7 +5643,10 @@
     "difficulty_score": 6,
     "time_group": "70 to 90",
     "region": "East Kent",
-    "route_groups": [],
+    "route_groups": [
+      "Ashford Canterbury",
+      "Ashford Canterbury West"
+    ],
     "is_high_speed": false,
     "is_coastal": false
   },
@@ -5403,7 +5676,9 @@
     "difficulty_score": 6,
     "time_group": "70 to 90",
     "region": "East Kent",
-    "route_groups": [],
+    "route_groups": [
+      "Marshlink"
+    ],
     "is_high_speed": false,
     "is_coastal": false
   },
@@ -5433,7 +5708,9 @@
     "difficulty_score": 6,
     "time_group": "70 to 90",
     "region": "East Kent",
-    "route_groups": [],
+    "route_groups": [
+      "Marshlink"
+    ],
     "is_high_speed": false,
     "is_coastal": false
   },
@@ -5495,7 +5772,10 @@
     "difficulty_score": 6,
     "time_group": "70 to 90",
     "region": "Thanet",
-    "route_groups": [],
+    "route_groups": [
+      "East Kent Local",
+      "East Kent Connector"
+    ],
     "is_high_speed": false,
     "is_coastal": false
   },
@@ -5525,7 +5805,10 @@
     "difficulty_score": 6,
     "time_group": "70 to 90",
     "region": "East Kent",
-    "route_groups": [],
+    "route_groups": [
+      "East Kent Local",
+      "East Kent Connector"
+    ],
     "is_high_speed": false,
     "is_coastal": false
   },
@@ -5555,7 +5838,10 @@
     "difficulty_score": 6,
     "time_group": "70 to 90",
     "region": "Canterbury District",
-    "route_groups": [],
+    "route_groups": [
+      "Ashford Canterbury",
+      "Ashford Canterbury West"
+    ],
     "is_high_speed": false,
     "is_coastal": false
   },
@@ -5586,7 +5872,8 @@
     "time_group": "70 to 90",
     "region": "Canterbury District",
     "route_groups": [
-      "Chatham Main Line"
+      "Chatham Main Line",
+      "Canterbury East Line"
     ],
     "is_high_speed": false,
     "is_coastal": false
@@ -5617,7 +5904,9 @@
     "difficulty_score": 6,
     "time_group": "70 to 90",
     "region": "East Kent",
-    "route_groups": [],
+    "route_groups": [
+      "Hastings Line Extended"
+    ],
     "is_high_speed": false,
     "is_coastal": false
   },
@@ -5647,7 +5936,9 @@
     "difficulty_score": 6,
     "time_group": "70 to 90",
     "region": "East Kent",
-    "route_groups": [],
+    "route_groups": [
+      "East Kent Coast"
+    ],
     "is_high_speed": false,
     "is_coastal": true
   },
@@ -5677,7 +5968,9 @@
     "difficulty_score": 6,
     "time_group": "70 to 90",
     "region": "East Kent",
-    "route_groups": [],
+    "route_groups": [
+      "Canterbury East Line"
+    ],
     "is_high_speed": false,
     "is_coastal": false
   },
@@ -5707,7 +6000,9 @@
     "difficulty_score": 6,
     "time_group": "70 to 90",
     "region": "East Kent",
-    "route_groups": [],
+    "route_groups": [
+      "Canterbury East Line"
+    ],
     "is_high_speed": false,
     "is_coastal": false
   },
@@ -5738,7 +6033,8 @@
     "time_group": "90+",
     "region": "Thanet",
     "route_groups": [
-      "High Speed 1"
+      "High Speed 1",
+      "East Kent Coast"
     ],
     "is_high_speed": true,
     "is_coastal": true
@@ -5769,7 +6065,9 @@
     "difficulty_score": 5,
     "time_group": "90+",
     "region": "Thanet",
-    "route_groups": [],
+    "route_groups": [
+      "East Kent Coast"
+    ],
     "is_high_speed": false,
     "is_coastal": true
   },
@@ -5800,7 +6098,8 @@
     "time_group": "90+",
     "region": "Thanet",
     "route_groups": [
-      "High Speed 1"
+      "High Speed 1",
+      "East Kent Coast"
     ],
     "is_high_speed": true,
     "is_coastal": true
@@ -5832,7 +6131,8 @@
     "time_group": "90+",
     "region": "Thanet",
     "route_groups": [
-      "High Speed 1"
+      "High Speed 1",
+      "East Kent Coast"
     ],
     "is_high_speed": true,
     "is_coastal": true
@@ -5863,7 +6163,9 @@
     "difficulty_score": 6,
     "time_group": "90+",
     "region": "East Kent",
-    "route_groups": [],
+    "route_groups": [
+      "Hastings Line Extended"
+    ],
     "is_high_speed": false,
     "is_coastal": false
   },
@@ -5893,7 +6195,9 @@
     "difficulty_score": 6,
     "time_group": "90+",
     "region": "East Kent",
-    "route_groups": [],
+    "route_groups": [
+      "Marshlink"
+    ],
     "is_high_speed": false,
     "is_coastal": false
   }

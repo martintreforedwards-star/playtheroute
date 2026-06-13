@@ -1265,15 +1265,29 @@ function renderBoard() {
 
       cell.innerHTML = `
 
-        <div class="cell-inner">
+  <div class="cell-inner">
 
-          <div class="empty-label">
-            Select Station
-          </div>
+    <div class="station-name">
+      ${state.station.station_name}
+    </div>
 
-        </div>
+    <div class="validation">
+      ${label}
+    </div>
 
-      `;
+  </div>
+
+  ${state.correct === true ? `
+    <div class="bogie left"></div>
+    <div class="bogie right"></div>
+    <div class="wheel l1"></div>
+    <div class="wheel l2"></div>
+    <div class="wheel r1"></div>
+    <div class="wheel r2"></div>
+    ${index % 4 !== 3 ? '<div class="coupling"></div>' : ''}
+  ` : ''}
+
+`;
 
       return;
 

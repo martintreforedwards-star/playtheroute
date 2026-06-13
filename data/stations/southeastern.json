@@ -209,7 +209,9 @@
     "difficulty_score": 2,
     "time_group": "0 to 10",
     "region": "South East London",
-    "route_groups": [],
+    "route_groups": [
+      "Dartford Loop"
+    ],
     "is_high_speed": false,
     "is_coastal": false
   },
@@ -451,7 +453,9 @@
     "difficulty_score": 3,
     "time_group": "10 to 20",
     "region": "South East London",
-    "route_groups": [],
+    "route_groups": [
+      "Dartford Loop"
+    ],
     "is_high_speed": false,
     "is_coastal": false
   },
@@ -541,7 +545,9 @@
     "difficulty_score": 6,
     "time_group": "10 to 20",
     "region": "South East London",
-    "route_groups": [],
+    "route_groups": [
+      "Dartford Loop"
+    ],
     "is_high_speed": false,
     "is_coastal": false
   },
@@ -751,7 +757,9 @@
     "difficulty_score": 6,
     "time_group": "20 to 30",
     "region": "South East London",
-    "route_groups": [],
+    "route_groups": [
+      "Dartford Loop"
+    ],
     "is_high_speed": false,
     "is_coastal": false
   },
@@ -811,7 +819,9 @@
     "difficulty_score": 6,
     "time_group": "20 to 30",
     "region": "South East London",
-    "route_groups": [],
+    "route_groups": [
+      "Dartford Loop"
+    ],
     "is_high_speed": false,
     "is_coastal": false
   },
@@ -931,7 +941,9 @@
     "difficulty_score": 3,
     "time_group": "20 to 30",
     "region": "Weald",
-    "route_groups": [],
+    "route_groups": [
+      "Southeastern Main Line"
+    ],
     "is_high_speed": false,
     "is_coastal": false
   },
@@ -1051,7 +1063,9 @@
     "difficulty_score": 4,
     "time_group": "30 to 50",
     "region": "North Kent",
-    "route_groups": [],
+    "route_groups": [
+      "North Kent"
+    ],
     "is_high_speed": false,
     "is_coastal": false
   },
@@ -1081,7 +1095,10 @@
     "difficulty_score": 2,
     "time_group": "30 to 50",
     "region": "North Kent",
-    "route_groups": [],
+    "route_groups": [
+      "North Kent",
+      "Dartford Loop"
+    ],
     "is_high_speed": false,
     "is_coastal": false
   },
@@ -1113,7 +1130,9 @@
     "region": "East Kent",
     "route_groups": [
       "High Speed 1",
-      "Maidstone East"
+      "Maidstone East",
+      "Hastings Line",
+      "Southeastern Main Line"
     ],
     "is_high_speed": true,
     "is_coastal": false
@@ -1144,7 +1163,9 @@
     "difficulty_score": 4,
     "time_group": "30 to 50",
     "region": "North Kent",
-    "route_groups": [],
+    "route_groups": [
+      "North Kent"
+    ],
     "is_high_speed": false,
     "is_coastal": false
   },
@@ -1236,7 +1257,10 @@
     "difficulty_score": 2,
     "time_group": "30 to 50",
     "region": "Medway",
-    "route_groups": [],
+    "route_groups": [
+      "Medway Valley",
+      "North Kent"
+    ],
     "is_high_speed": false,
     "is_coastal": false
   },
@@ -1266,7 +1290,10 @@
     "difficulty_score": 3,
     "time_group": "30 to 50",
     "region": "Weald",
-    "route_groups": [],
+    "route_groups": [
+      "Hastings Line",
+      "Southeastern Main Line"
+    ],
     "is_high_speed": false,
     "is_coastal": false
   },
@@ -1416,7 +1443,9 @@
     "difficulty_score": 4,
     "time_group": "30 to 50",
     "region": "North Kent",
-    "route_groups": [],
+    "route_groups": [
+      "North Kent"
+    ],
     "is_high_speed": false,
     "is_coastal": false
   },
@@ -1477,7 +1506,9 @@
     "time_group": "30 to 50",
     "region": "Weald",
     "route_groups": [
-      "Medway Valley"
+      "Medway Valley",
+      "Hastings Line",
+      "Southeastern Main Line"
     ],
     "is_high_speed": false,
     "is_coastal": false
@@ -1508,7 +1539,9 @@
     "difficulty_score": 3,
     "time_group": "30 to 50",
     "region": "South East London",
-    "route_groups": [],
+    "route_groups": [
+      "Dartford Loop"
+    ],
     "is_high_speed": false,
     "is_coastal": false
   },
@@ -1538,7 +1571,9 @@
     "difficulty_score": 5,
     "time_group": "30 to 50",
     "region": "South East London",
-    "route_groups": [],
+    "route_groups": [
+      "Chatham Main Line"
+    ],
     "is_high_speed": false,
     "is_coastal": false
   },
@@ -1568,7 +1603,10 @@
     "difficulty_score": 4,
     "time_group": "30 to 50",
     "region": "North Kent",
-    "route_groups": [],
+    "route_groups": [
+      "Maidstone East",
+      "Chatham Main Line"
+    ],
     "is_high_speed": false,
     "is_coastal": false
   },
@@ -1658,7 +1696,9 @@
     "difficulty_score": 6,
     "time_group": "30 to 50",
     "region": "South East London",
-    "route_groups": [],
+    "route_groups": [
+      "Dartford Loop"
+    ],
     "is_high_speed": false,
     "is_coastal": false
   },
@@ -1936,7 +1976,9 @@
     "difficulty_score": 6,
     "time_group": "30 to 50",
     "region": "South East London",
-    "route_groups": [],
+    "route_groups": [
+      "Dartford Loop"
+    ],
     "is_high_speed": false,
     "is_coastal": false
   },
@@ -1966,7 +2008,9 @@
     "difficulty_score": 5,
     "time_group": "30 to 50",
     "region": "South East London",
-    "route_groups": [],
+    "route_groups": [
+      "Dartford Loop"
+    ],
     "is_high_speed": false,
     "is_coastal": false
   },
@@ -2088,7 +2132,9 @@
     "difficulty_score": 6,
     "time_group": "30 to 50",
     "region": "North Kent",
-    "route_groups": [],
+    "route_groups": [
+      "Chatham Main Line"
+    ],
     "is_high_speed": false,
     "is_coastal": false
   },
@@ -2118,7 +2164,9 @@
     "difficulty_score": 4,
     "time_group": "30 to 50",
     "region": "North Kent",
-    "route_groups": [],
+    "route_groups": [
+      "North Kent"
+    ],
     "is_high_speed": false,
     "is_coastal": false
   },
@@ -2148,7 +2196,9 @@
     "difficulty_score": 6,
     "time_group": "30 to 50",
     "region": "South East London",
-    "route_groups": [],
+    "route_groups": [
+      "Dartford Loop"
+    ],
     "is_high_speed": false,
     "is_coastal": false
   },
@@ -2328,7 +2378,9 @@
     "difficulty_score": 6,
     "time_group": "30 to 50",
     "region": "South East London",
-    "route_groups": [],
+    "route_groups": [
+      "Dartford Loop"
+    ],
     "is_high_speed": false,
     "is_coastal": false
   },
@@ -2358,7 +2410,9 @@
     "difficulty_score": 6,
     "time_group": "30 to 50",
     "region": "South East London",
-    "route_groups": [],
+    "route_groups": [
+      "Dartford Loop"
+    ],
     "is_high_speed": false,
     "is_coastal": false
   },
@@ -2448,7 +2502,9 @@
     "difficulty_score": 6,
     "time_group": "30 to 50",
     "region": "South East London",
-    "route_groups": [],
+    "route_groups": [
+      "Dartford Loop"
+    ],
     "is_high_speed": false,
     "is_coastal": false
   },
@@ -2600,7 +2656,9 @@
     "difficulty_score": 5,
     "time_group": "30 to 50",
     "region": "Medway",
-    "route_groups": [],
+    "route_groups": [
+      "Medway Valley"
+    ],
     "is_high_speed": false,
     "is_coastal": false
   },
@@ -2662,7 +2720,9 @@
     "difficulty_score": 5,
     "time_group": "30 to 50",
     "region": "Medway",
-    "route_groups": [],
+    "route_groups": [
+      "Medway Valley"
+    ],
     "is_high_speed": false,
     "is_coastal": false
   },
@@ -2692,7 +2752,10 @@
     "difficulty_score": 6,
     "time_group": "30 to 50",
     "region": "Weald",
-    "route_groups": [],
+    "route_groups": [
+      "Hastings Line",
+      "Southeastern Main Line"
+    ],
     "is_high_speed": false,
     "is_coastal": false
   },
@@ -2752,7 +2815,9 @@
     "difficulty_score": 6,
     "time_group": "30 to 50",
     "region": "Weald",
-    "route_groups": [],
+    "route_groups": [
+      "Maidstone East"
+    ],
     "is_high_speed": false,
     "is_coastal": false
   },
@@ -2844,7 +2909,9 @@
     "difficulty_score": 6,
     "time_group": "30 to 50",
     "region": "South East London",
-    "route_groups": [],
+    "route_groups": [
+      "Dartford Loop"
+    ],
     "is_high_speed": false,
     "is_coastal": false
   },
@@ -2966,7 +3033,9 @@
     "difficulty_score": 6,
     "time_group": "30 to 50",
     "region": "Weald",
-    "route_groups": [],
+    "route_groups": [
+      "Chatham Main Line"
+    ],
     "is_high_speed": false,
     "is_coastal": false
   },
@@ -2996,7 +3065,9 @@
     "difficulty_score": 6,
     "time_group": "30 to 50",
     "region": "South East London",
-    "route_groups": [],
+    "route_groups": [
+      "Dartford Loop"
+    ],
     "is_high_speed": false,
     "is_coastal": false
   },
@@ -3056,7 +3127,9 @@
     "difficulty_score": 5,
     "time_group": "30 to 50",
     "region": "Medway",
-    "route_groups": [],
+    "route_groups": [
+      "Medway Valley"
+    ],
     "is_high_speed": false,
     "is_coastal": false
   },
@@ -3086,7 +3159,9 @@
     "difficulty_score": 6,
     "time_group": "30 to 50",
     "region": "South East London",
-    "route_groups": [],
+    "route_groups": [
+      "Dartford Loop"
+    ],
     "is_high_speed": false,
     "is_coastal": false
   },
@@ -3146,7 +3221,9 @@
     "difficulty_score": 6,
     "time_group": "30 to 50",
     "region": "South East London",
-    "route_groups": [],
+    "route_groups": [
+      "Dartford Loop"
+    ],
     "is_high_speed": false,
     "is_coastal": false
   },
@@ -3266,7 +3343,9 @@
     "difficulty_score": 5,
     "time_group": "30 to 50",
     "region": "Medway",
-    "route_groups": [],
+    "route_groups": [
+      "Medway Valley"
+    ],
     "is_high_speed": false,
     "is_coastal": false
   },
@@ -3296,7 +3375,10 @@
     "difficulty_score": 6,
     "time_group": "30 to 50",
     "region": "Weald",
-    "route_groups": [],
+    "route_groups": [
+      "Hastings Line",
+      "Southeastern Main Line"
+    ],
     "is_high_speed": false,
     "is_coastal": false
   },
@@ -3326,7 +3408,9 @@
     "difficulty_score": 6,
     "time_group": "30 to 50",
     "region": "North Kent",
-    "route_groups": [],
+    "route_groups": [
+      "Chatham Main Line"
+    ],
     "is_high_speed": false,
     "is_coastal": false
   },
@@ -3538,7 +3622,10 @@
     "difficulty_score": 3,
     "time_group": "30 to 50",
     "region": "Medway",
-    "route_groups": [],
+    "route_groups": [
+      "North Kent",
+      "Chatham Main Line"
+    ],
     "is_high_speed": false,
     "is_coastal": false
   },
@@ -3568,7 +3655,9 @@
     "difficulty_score": 6,
     "time_group": "30 to 50",
     "region": "South East London",
-    "route_groups": [],
+    "route_groups": [
+      "Dartford Loop"
+    ],
     "is_high_speed": false,
     "is_coastal": false
   },
@@ -3748,7 +3837,9 @@
     "difficulty_score": 5,
     "time_group": "30 to 50",
     "region": "South East London",
-    "route_groups": [],
+    "route_groups": [
+      "Dartford Loop"
+    ],
     "is_high_speed": false,
     "is_coastal": false
   },
@@ -3778,7 +3869,9 @@
     "difficulty_score": 3,
     "time_group": "30 to 50",
     "region": "South East London",
-    "route_groups": [],
+    "route_groups": [
+      "Chatham Main Line"
+    ],
     "is_high_speed": false,
     "is_coastal": false
   },
@@ -3808,7 +3901,9 @@
     "difficulty_score": 6,
     "time_group": "30 to 50",
     "region": "South East London",
-    "route_groups": [],
+    "route_groups": [
+      "Dartford Loop"
+    ],
     "is_high_speed": false,
     "is_coastal": false
   },
@@ -3838,7 +3933,10 @@
     "difficulty_score": 6,
     "time_group": "30 to 50",
     "region": "Weald",
-    "route_groups": [],
+    "route_groups": [
+      "Hastings Line",
+      "Southeastern Main Line"
+    ],
     "is_high_speed": false,
     "is_coastal": false
   },
@@ -3868,7 +3966,9 @@
     "difficulty_score": 6,
     "time_group": "30 to 50",
     "region": "North Kent",
-    "route_groups": [],
+    "route_groups": [
+      "Chatham Main Line"
+    ],
     "is_high_speed": false,
     "is_coastal": false
   },
@@ -3898,7 +3998,9 @@
     "difficulty_score": 5,
     "time_group": "30 to 50",
     "region": "Medway",
-    "route_groups": [],
+    "route_groups": [
+      "Medway Valley"
+    ],
     "is_high_speed": false,
     "is_coastal": false
   },
@@ -3960,7 +4062,9 @@
     "difficulty_score": 2,
     "time_group": "50 to 70",
     "region": "North Kent",
-    "route_groups": [],
+    "route_groups": [
+      "North Kent"
+    ],
     "is_high_speed": false,
     "is_coastal": false
   },
@@ -3990,7 +4094,9 @@
     "difficulty_score": 6,
     "time_group": "50 to 70",
     "region": "North Kent",
-    "route_groups": [],
+    "route_groups": [
+      "North Kent"
+    ],
     "is_high_speed": false,
     "is_coastal": false
   },
@@ -4052,10 +4158,8 @@
     "difficulty_score": 5,
     "time_group": "50 to 70",
     "region": "Canterbury District",
-    "route_groups": [
-      "High Speed 1"
-    ],
-    "is_high_speed": true,
+    "route_groups": [],
+    "is_high_speed": false,
     "is_coastal": false
   },
   {
@@ -4116,7 +4220,10 @@
     "difficulty_score": 6,
     "time_group": "50 to 70",
     "region": "Medway",
-    "route_groups": [],
+    "route_groups": [
+      "North Kent",
+      "Chatham Main Line"
+    ],
     "is_high_speed": false,
     "is_coastal": false
   },
@@ -4146,7 +4253,9 @@
     "difficulty_score": 6,
     "time_group": "50 to 70",
     "region": "Medway",
-    "route_groups": [],
+    "route_groups": [
+      "Maidstone East"
+    ],
     "is_high_speed": false,
     "is_coastal": false
   },
@@ -4176,7 +4285,10 @@
     "difficulty_score": 3,
     "time_group": "50 to 70",
     "region": "Medway",
-    "route_groups": [],
+    "route_groups": [
+      "North Kent",
+      "Chatham Main Line"
+    ],
     "is_high_speed": false,
     "is_coastal": false
   },
@@ -4238,7 +4350,9 @@
     "difficulty_score": 6,
     "time_group": "50 to 70",
     "region": "Weald",
-    "route_groups": [],
+    "route_groups": [
+      "Maidstone East"
+    ],
     "is_high_speed": false,
     "is_coastal": false
   },
@@ -4299,7 +4413,8 @@
     "time_group": "50 to 70",
     "region": "Medway",
     "route_groups": [
-      "Medway Valley"
+      "Medway Valley",
+      "Maidstone East"
     ],
     "is_high_speed": false,
     "is_coastal": false
@@ -4330,7 +4445,10 @@
     "difficulty_score": 3,
     "time_group": "50 to 70",
     "region": "Medway",
-    "route_groups": [],
+    "route_groups": [
+      "North Kent",
+      "Chatham Main Line"
+    ],
     "is_high_speed": false,
     "is_coastal": false
   },
@@ -4360,7 +4478,10 @@
     "difficulty_score": 5,
     "time_group": "70 to 90",
     "region": "Medway",
-    "route_groups": [],
+    "route_groups": [
+      "North Kent",
+      "Chatham Main Line"
+    ],
     "is_high_speed": false,
     "is_coastal": false
   },
@@ -4390,7 +4511,9 @@
     "difficulty_score": 6,
     "time_group": "70 to 90",
     "region": "Weald",
-    "route_groups": [],
+    "route_groups": [
+      "Maidstone East"
+    ],
     "is_high_speed": false,
     "is_coastal": false
   },
@@ -4452,7 +4575,10 @@
     "difficulty_score": 5,
     "time_group": "70 to 90",
     "region": "East Kent",
-    "route_groups": [],
+    "route_groups": [
+      "North Kent",
+      "Chatham Main Line"
+    ],
     "is_high_speed": false,
     "is_coastal": false
   },
@@ -4545,7 +4671,9 @@
     "time_group": "70 to 90",
     "region": "Medway",
     "route_groups": [
-      "Sheerness Branch"
+      "Sheerness Branch",
+      "North Kent",
+      "Chatham Main Line"
     ],
     "is_high_speed": false,
     "is_coastal": false
@@ -4786,7 +4914,9 @@
     "difficulty_score": 6,
     "time_group": "70 to 90",
     "region": "East Kent",
-    "route_groups": [],
+    "route_groups": [
+      "Southeastern Main Line"
+    ],
     "is_high_speed": false,
     "is_coastal": true
   },
@@ -4908,7 +5038,10 @@
     "difficulty_score": 4,
     "time_group": "70 to 90",
     "region": "East Kent",
-    "route_groups": [],
+    "route_groups": [
+      "Chatham Main Line",
+      "Southeastern Main Line"
+    ],
     "is_high_speed": false,
     "is_coastal": true
   },
@@ -5330,7 +5463,9 @@
     "difficulty_score": 6,
     "time_group": "70 to 90",
     "region": "East Kent",
-    "route_groups": [],
+    "route_groups": [
+      "Southeastern Main Line"
+    ],
     "is_high_speed": false,
     "is_coastal": true
   },
@@ -5450,7 +5585,9 @@
     "difficulty_score": 6,
     "time_group": "70 to 90",
     "region": "Canterbury District",
-    "route_groups": [],
+    "route_groups": [
+      "Chatham Main Line"
+    ],
     "is_high_speed": false,
     "is_coastal": false
   },
@@ -5600,8 +5737,10 @@
     "difficulty_score": 5,
     "time_group": "90+",
     "region": "Thanet",
-    "route_groups": [],
-    "is_high_speed": false,
+    "route_groups": [
+      "High Speed 1"
+    ],
+    "is_high_speed": true,
     "is_coastal": true
   },
   {

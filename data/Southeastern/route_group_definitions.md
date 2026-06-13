@@ -271,3 +271,30 @@ Ashford International
 * High Speed 1 membership is based on regular Southeastern High Speed service.
 * Branch lines should normally be assigned only to their own branch route group.
 * Route group definitions may be reviewed as gameplay evolves.
+## Completion Status
+
+### Dataset
+
+- [x] Station list validated
+- [x] Regions assigned
+- [x] Route groups assigned
+- [x] High Speed flag assigned
+- [x] Coastal flag assigned
+- [x] Difficulty scoring assigned
+- [x] Accessibility scoring assigned
+- [x] Interchange classification assigned
+
+### Coverage
+
+- [x] 190 of 190 stations assigned to at least one route group
+- [x] No unclassified stations remain
+
+### Automation
+
+- [x] Route groups generated from station-name definitions
+- [x] southeastern.json is the source of truth
+- [x] No manual CRS maintenance required
+
+### Future
+
+- [ ] Routepedia content

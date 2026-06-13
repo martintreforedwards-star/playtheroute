@@ -200,14 +200,56 @@ body {
   border-color: #3b82f6;
 }
 
-.cell.correct {
-  background: rgba(
-    0,
-    120,
-    40,
-    0.95
+.cell.correct{
+  background:linear-gradient(
+    to bottom,
+    #0f172a 0%,
+    #0f172a 28%,
+    #74c08f 28%,
+    #69b483 100%
   );
-  border-color: #22c55e;
+  border:2px solid #7bd39f;
+  border-radius:8px;
+  box-shadow:none;
+}
+
+.cell.correct .station-name{
+  color:#04160c;
+  font-size:0.9rem;
+  font-weight:900;
+}
+
+.cell.correct .validation{
+  color:#0b2a16;
+  font-weight:800;
+}
+
+.cell.correct .cell-inner{
+  margin-top:14px;
+}
+
+.cell.correct::before{
+  content:"";
+  position:absolute;
+  top:8px;
+  left:12px;
+  right:12px;
+  height:18px;
+  background:repeating-linear-gradient(
+    to right,
+    rgba(190,220,245,.95) 0 24px,
+    transparent 24px 38px
+  );
+}
+
+.cell.correct::after{
+  content:"";
+  position:absolute;
+  left:0;
+  right:0;
+  bottom:8px;
+  height:7px;
+  background:#111827;
 }
 
 .cell.incorrect {

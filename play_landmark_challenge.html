@@ -934,20 +934,56 @@ showResultsModal(false);
 
 function columnRulePasses(station, clue) {
 
+  if (clue.type === "array_contains") {
+
+    return (
+      Array.isArray(station[clue.field]) &&
+      station[clue.field].includes(clue.value)
+    );
+
+  }
+
   if (clue.type === "range") {
-    const value = Number(station[clue.field]);
-    return value >= clue.min && value <= clue.max;
+
+    const value =
+      Number(station[clue.field]);
+
+    if (
+      clue.min !== undefined &&
+      value < clue.min
+    ) {
+      return false;
+    }
+
+    if (
+      clue.max !== undefined &&
+      value > clue.max
+    ) {
+      return false;
+    }
+
+    return true;
+
   }
 
   if (clue.type === "contains") {
-    return String(station[clue.field])
+
+    return String(
+      station[clue.field]
+    )
       .toLowerCase()
-      .includes(clue.value.toLowerCase());
+      .includes(
+        clue.value.toLowerCase()
+      );
+
   }
 
-  return station[clue.field] === clue.value;
-}
+  return (
+    station[clue.field] ===
+    clue.value
+  );
 
+}
 function boardIsPlayable(rows, columns) {
 
   for (let r = 0; r < 2; r++) {
@@ -1377,8 +1413,19 @@ if (
 
 const clue =
   activeColumns[column];
+if (clue.type === "array_contains") {
 
-if (clue.type === "range") {
+  if (
+    !Array.isArray(station[clue.field]) ||
+    !station[clue.field].includes(clue.value)
+  ) {
+
+    valid = false;
+
+  }
+
+}
+else if (clue.type === "range") {
 
   const value =
     Number(

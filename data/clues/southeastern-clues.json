@@ -1,267 +1,311 @@
+```json
 {
-"rowPool": [
-{
-"display": "Not a terminus 🚉",
-"type": "field",
-"field": "is_terminus",
-"value": false
-},
-{
-"display": "Direct to Charing Cross",
-"type": "field",
-"field": "direct_to_charing_cross",
-"value": true
-},
-{
-"display": "Interchange",
-"type": "field",
-"field": "is_interchange",
-"value": true
-},
-{
-"display": "Terminus",
-"type": "field",
-"field": "is_terminus",
-"value": true
-},
-{
-"display": "Direct to Victoria",
-"type": "field",
-"field": "direct_to_victoria",
-"value": true
-},
-{
-"display": "Direct to London Bridge",
-"type": "field",
-"field": "direct_to_london_bridge",
-"value": true
-},
-{
-"display": "Direct to St Pancras",
-"type": "field",
-"field": "direct_to_st_pancras",
-"value": true
-}
-],
+  "rowPool": [
+    {
+      "display": "Not a terminus 🚉",
+      "type": "field",
+      "field": "is_terminus",
+      "value": false,
+      "weight": "high"
+    },
+    {
+      "display": "Direct to Charing Cross",
+      "type": "field",
+      "field": "direct_to_charing_cross",
+      "value": true,
+      "weight": "high"
+    },
+    {
+      "display": "Interchange",
+      "type": "field",
+      "field": "is_interchange",
+      "value": true,
+      "weight": "medium"
+    },
+    {
+      "display": "Terminus",
+      "type": "field",
+      "field": "is_terminus",
+      "value": true,
+      "weight": "medium"
+    },
+    {
+      "display": "Direct to Victoria",
+      "type": "field",
+      "field": "direct_to_victoria",
+      "value": true,
+      "weight": "high"
+    },
+    {
+      "display": "Direct to London Bridge",
+      "type": "field",
+      "field": "direct_to_london_bridge",
+      "value": true,
+      "weight": "high"
+    },
+    {
+      "display": "Direct to St Pancras",
+      "type": "field",
+      "field": "direct_to_st_pancras",
+      "value": true,
+      "weight": "high"
+    }
+  ],
 
-"columnPool": [
-  {
-    "display": "Coastal 🌊",
-    "type": "field",
-    "field": "is_coastal",
-    "value": true
-  },
-  {
-    "display": "Inner London",
-    "type": "field",
-    "field": "distance_band",
-    "value": "inner"
-  },
-  {
-    "display": "Outer Suburban",
-    "type": "field",
-    "field": "distance_band",
-    "value": "outer"
-  },
-  {
-  "display": "Commuter",
-  "type": "field",
-  "field": "distance_band",
-  "value": "commuter"
-},
-  {
-    "display": "Contains ham",
-    "type": "contains",
-    "field": "station_name",
-    "value": "ham"
-  },
-  {
-    "display": "Contains ton",
-    "type": "contains",
-    "field": "station_name",
-    "value": "ton"
-  },
-  {
-    "display": "Contains ford",
-    "type": "contains",
-    "field": "station_name",
-    "value": "ford"
-  },
-  {
-    "display": "Contains park",
-    "type": "contains",
-    "field": "station_name",
-    "value": "park"
-  },
-  {
-    "display": "Contains hill",
-    "type": "contains",
-    "field": "station_name",
-    "value": "hill"
-  },
-  {
-    "display": "Contains wood",
-    "type": "contains",
-    "field": "station_name",
-    "value": "wood"
-  },
-  {
-    "display": "Contains green",
-    "type": "contains",
-    "field": "station_name",
-    "value": "green"
-  },
-  {
-    "display": "Contains East",
-    "type": "contains",
-    "field": "station_name",
-    "value": "east"
-  },
-  {
-    "display": "Contains West",
-    "type": "contains",
-    "field": "station_name",
-    "value": "west"
-  },
-  {
-    "display": "Under 60 mins from London",
-    "type": "range",
-    "field": "canonical_time_to_london",
-    "max": 59
-  },
-  {
-    "display": "60-90 mins from London",
-    "type": "range",
-    "field": "canonical_time_to_london",
-    "min": 60,
-    "max": 90
-  },
-  {
-    "display": "Over 90 mins from London",
-    "type": "range",
-    "field": "canonical_time_to_london",
-    "min": 91
-  },
-  {
-    "display": "Branch Line",
-    "type": "field",
-    "field": "is_branch_line",
-    "value": true
-  },
-  {
-    "display": "Main Line",
-    "type": "field",
-    "field": "is_mainline",
-    "value": true
-  },
-  {
-    "display": "Multiple London Terminals",
-    "type": "range",
-    "field": "london_terminal_count",
-    "min": 2
-  },
-  {
-    "display": "High Service Frequency",
-    "type": "field",
-    "field": "service_density",
-    "value": "high"
-  },
-  
-  {
-    "display": "Many Routes",
-    "type": "field",
-    "field": "route_diversity_band",
-    "value": "many"
-  },
-  {
-    "display": "3+ Routes",
-    "type": "range",
-    "field": "route_count",
-    "min": 3
-  },
-  {
-    "display": "East Kent",
-    "type": "field",
-    "field": "region",
-    "value": "East Kent"
-  },
-  {
-    "display": "Canterbury District",
-    "type": "field",
-    "field": "region",
-    "value": "Canterbury District"
-  },
-  {
-    "display": "Medway",
-    "type": "field",
-    "field": "region",
-    "value": "Medway"
-  },
-  {
-    "display": "North Kent",
-    "type": "field",
-    "field": "region",
-    "value": "North Kent"
-  },
-  {
-    "display": "South East London",
-    "type": "field",
-    "field": "region",
-    "value": "South East London"
-  },
-  {
-    "display": "Thanet",
-    "type": "field",
-    "field": "region",
-    "value": "Thanet"
-  },
-  {
-    "display": "Weald",
-    "type": "field",
-    "field": "region",
-    "value": "Weald"
-  },
-  {
-    "display": "Marshlink & Sussex",
-    "type": "field",
-    "field": "region",
-    "value": "Marshlink & Sussex"
-  },
-  {
-    "display": "High Speed 1",
-    "type": "array_contains",
-    "field": "route_groups",
-    "value": "High Speed 1"
-  },
-  {
-    "display": "North Kent Route",
-    "type": "array_contains",
-    "field": "route_groups",
-    "value": "North Kent"
-  },
-  {
-    "display": "Chatham Main Line",
-    "type": "array_contains",
-    "field": "route_groups",
-    "value": "Chatham Main Line"
-  },
-  {
-    "display": "Greenwich Line",
-    "type": "array_contains",
-    "field": "route_groups",
-    "value": "Greenwich Line"
-  },
-  {
-    "display": "Sevenoaks Main Line",
-    "type": "array_contains",
-    "field": "route_groups",
-    "value": "Sevenoaks Main Line"
-  },
-  {
-    "display": "Maidstone East",
-    "type": "array_contains",
-    "field": "route_groups",
-    "value": "Maidstone East"
-  }
-]
+  "columnPool": [
+    {
+      "display": "Coastal 🌊",
+      "type": "field",
+      "field": "is_coastal",
+      "value": true,
+      "weight": "medium"
+    },
+    {
+      "display": "Inner London",
+      "type": "field",
+      "field": "distance_band",
+      "value": "inner",
+      "weight": "low"
+    },
+    {
+      "display": "Outer Suburban",
+      "type": "field",
+      "field": "distance_band",
+      "value": "outer",
+      "weight": "medium"
+    },
+    {
+      "display": "Commuter",
+      "type": "field",
+      "field": "distance_band",
+      "value": "commuter",
+      "weight": "high"
+    },
+    {
+      "display": "Contains ham",
+      "type": "contains",
+      "field": "station_name",
+      "value": "ham",
+      "weight": "medium"
+    },
+    {
+      "display": "Contains ton",
+      "type": "contains",
+      "field": "station_name",
+      "value": "ton",
+      "weight": "medium"
+    },
+    {
+      "display": "Contains ford",
+      "type": "contains",
+      "field": "station_name",
+      "value": "ford",
+      "weight": "low"
+    },
+    {
+      "display": "Contains park",
+      "type": "contains",
+      "field": "station_name",
+      "value": "park",
+      "weight": "low"
+    },
+    {
+      "display": "Contains hill",
+      "type": "contains",
+      "field": "station_name",
+      "value": "hill",
+      "weight": "low"
+    },
+    {
+      "display": "Contains wood",
+      "type": "contains",
+      "field": "station_name",
+      "value": "wood",
+      "weight": "low"
+    },
+    {
+      "display": "Contains green",
+      "type": "contains",
+      "field": "station_name",
+      "value": "green",
+      "weight": "low"
+    },
+    {
+      "display": "Contains East",
+      "type": "contains",
+      "field": "station_name",
+      "value": "east",
+      "weight": "low"
+    },
+    {
+      "display": "Contains West",
+      "type": "contains",
+      "field": "station_name",
+      "value": "west",
+      "weight": "low"
+    },
+    {
+      "display": "Under 60 mins from London",
+      "type": "range",
+      "field": "canonical_time_to_london",
+      "max": 59,
+      "weight": "high"
+    },
+    {
+      "display": "60-90 mins from London",
+      "type": "range",
+      "field": "canonical_time_to_london",
+      "min": 60,
+      "max": 90,
+      "weight": "medium"
+    },
+    {
+      "display": "Over 90 mins from London",
+      "type": "range",
+      "field": "canonical_time_to_london",
+      "min": 91,
+      "weight": "low"
+    },
+    {
+      "display": "Branch Line",
+      "type": "field",
+      "field": "is_branch_line",
+      "value": true,
+      "weight": "high"
+    },
+    {
+      "display": "Main Line",
+      "type": "field",
+      "field": "is_mainline",
+      "value": true,
+      "weight": "medium"
+    },
+    {
+      "display": "Multiple London Terminals",
+      "type": "range",
+      "field": "london_terminal_count",
+      "min": 2,
+      "weight": "high"
+    },
+    {
+      "display": "High Service Frequency",
+      "type": "field",
+      "field": "service_density",
+      "value": "high",
+      "weight": "low"
+    },
+    {
+      "display": "Many Routes",
+      "type": "field",
+      "field": "route_diversity_band",
+      "value": "many",
+      "weight": "medium"
+    },
+    {
+      "display": "3+ Routes",
+      "type": "range",
+      "field": "route_count",
+      "min": 3,
+      "weight": "medium"
+    },
+    {
+      "display": "East Kent",
+      "type": "field",
+      "field": "region",
+      "value": "East Kent",
+      "weight": "medium"
+    },
+    {
+      "display": "Canterbury District",
+      "type": "field",
+      "field": "region",
+      "value": "Canterbury District",
+      "weight": "medium"
+    },
+    {
+      "display": "Medway",
+      "type": "field",
+      "field": "region",
+      "value": "Medway",
+      "weight": "medium"
+    },
+    {
+      "display": "North Kent",
+      "type": "field",
+      "field": "region",
+      "value": "North Kent",
+      "weight": "low"
+    },
+    {
+      "display": "South East London",
+      "type": "field",
+      "field": "region",
+      "value": "South East London",
+      "weight": "high"
+    },
+    {
+      "display": "Thanet",
+      "type": "field",
+      "field": "region",
+      "value": "Thanet",
+      "weight": "low"
+    },
+    {
+      "display": "Weald",
+      "type": "field",
+      "field": "region",
+      "value": "Weald",
+      "weight": "medium"
+    },
+    {
+      "display": "Marshlink & Sussex",
+      "type": "field",
+      "field": "region",
+      "value": "Marshlink & Sussex",
+      "weight": "low"
+    },
+    {
+      "display": "High Speed 1",
+      "type": "array_contains",
+      "field": "route_groups",
+      "value": "High Speed 1",
+      "weight": "medium"
+    },
+    {
+      "display": "North Kent Route",
+      "type": "array_contains",
+      "field": "route_groups",
+      "value": "North Kent",
+      "weight": "medium"
+    },
+    {
+      "display": "Chatham Main Line",
+      "type": "array_contains",
+      "field": "route_groups",
+      "value": "Chatham Main Line",
+      "weight": "medium"
+    },
+    {
+      "display": "Greenwich Line",
+      "type": "array_contains",
+      "field": "route_groups",
+      "value": "Greenwich Line",
+      "weight": "low"
+    },
+    {
+      "display": "Sevenoaks Main Line",
+      "type": "array_contains",
+      "field": "route_groups",
+      "value": "Sevenoaks Main Line",
+      "weight": "medium"
+    },
+    {
+      "display": "Maidstone East",
+      "type": "array_contains",
+      "field": "route_groups",
+      "value": "Maidstone East",
+      "weight": "low"
+    }
+  ]
 }
+```

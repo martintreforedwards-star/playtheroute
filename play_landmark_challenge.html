@@ -1041,8 +1041,70 @@ showResultsModal(false);
     0,
     count
   );
+ }
+function weightedPick(pool) {
 
-} 
+  const weights = {
+    high: 1,
+    medium: 2,
+    low: 3
+  };
+
+  const expanded = [];
+
+  pool.forEach(clue => {
+
+    const weight =
+      weights[
+        clue.weight || "medium"
+      ] || 1;
+
+    for (
+      let i = 0;
+      i < weight;
+      i++
+    ) {
+      expanded.push(clue);
+    }
+
+  });
+
+  return expanded[
+    Math.floor(
+      Math.random() *
+      expanded.length
+    )
+  ];
+
+}
+
+function weightedUniquePick(
+  pool,
+  count
+) {
+
+  const selected = [];
+
+  while (
+    selected.length < count
+  ) {
+
+    const clue =
+      weightedPick(pool);
+
+    if (
+      !selected.includes(clue)
+    ) {
+
+      selected.push(clue);
+
+    }
+
+  }
+
+  return selected;
+
+}
 
 function columnRulePasses(station, clue) {
 
@@ -1150,16 +1212,65 @@ let attempts = 0;
 
 do {
 
-  activeRows =
-    pickRandom(
-      clueLibrary.rowPool,
-      2
+  const highRows =
+    clueLibrary.rowPool.filter(
+      c => c.weight === "high"
     );
 
+  const otherRows =
+    clueLibrary.rowPool.filter(
+      c => c.weight !== "high"
+    );
+
+  activeRows = [
+
+    weightedPick(
+      highRows
+    ),
+
+    weightedPick(
+      otherRows
+    )
+
+  ];
+
+  const highColumns =
+    clueLibrary.columnPool.filter(
+      c => c.weight === "high"
+    );
+
+  const lowColumns =
+    clueLibrary.columnPool.filter(
+      c => c.weight === "low"
+    );
+
+  const remainingColumns =
+    clueLibrary.columnPool.filter(
+      c =>
+        !highColumns.includes(c) &&
+        !lowColumns.includes(c)
+    );
+
+  activeColumns = [
+
+    weightedPick(
+      highColumns
+    ),
+
+    weightedPick(
+      lowColumns
+    ),
+
+    ...weightedUniquePick(
+      remainingColumns,
+      2
+    )
+
+  ];
+
   activeColumns =
-    pickRandom(
-      clueLibrary.columnPool,
-      4
+    activeColumns.sort(
+      () => Math.random() - 0.5
     );
 
   attempts++;

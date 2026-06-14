@@ -83,5 +83,60 @@
 "high_service_frequency": {
   "title": "High Service Frequency",
   "definition": "A major London, Greater London or principal commuter hub station served by a very high frequency of scheduled passenger services throughout the day."
+},
+"many_routes": {
+  "title": "Many Routes",
+  "definition": "A station served by a wide variety of route groups, providing access to multiple distinct service corridors."
+},
+"three_plus_routes": {
+  "title": "3+ Routes",
+  "definition": "A station served by three or more route groups."
+},
+"contains": {
+  "title": "Contains...",
+  "definition": "A station whose name contains the specified word or text string. For example, a station matching 'Contains Hill' includes 'hill' anywhere within its name."
+},
+"under_60_mins": {
+  "title": "Under 60 mins from London",
+  "definition": "A station with a representative journey time of less than 60 minutes from Central London."
+},
+
+"60_90_mins": {
+  "title": "60–90 mins from London",
+  "definition": "A station with a representative journey time between 60 and 90 minutes from Central London."
+},
+
+"over_90_mins": {
+  "title": "Over 90 mins from London",
+  "definition": "A station with a representative journey time greater than 90 minutes from Central London."
+},
+"branch_line": {
+  "title": "Branch Line",
+  "definition": "A station located on a branch line or secondary route rather than a principal main line corridor, often serving a local destination or terminating route."
+},
+
+"main_line": {
+  "title": "Main Line",
+  "definition": "A station located on a principal main line corridor carrying long-distance, inter-regional or high-frequency services."
+},
+"multiple_london_terminals": {
+  "title": "Multiple London Terminals",
+  "definition": "A station served by direct passenger services to two or more London terminal stations."
+},
+"commuter": {
+  "title": "Commuter",
+  "definition": "A station located within the principal commuter network served by regular passenger services to and from London."
+},
+"route_group": {
+  "title": "Route Group",
+  "definition": "An operational corridor or service grouping used to classify stations within the game network."
+},
+"journey_time": {
+  "title": "Journey Time",
+  "definition": "A representative scheduled journey time from Central London used for clue classification."
+},
+"region": {
+  "title": "Region",
+  "definition": "A geographical area used to group stations within the game network."
 }
 }

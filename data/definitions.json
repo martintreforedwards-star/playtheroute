@@ -3,12 +3,69 @@
     "title": "Terminus",
     "definition": "A station where one or more scheduled Southeastern passenger services regularly originate or terminate."
   },
+
+  "not_terminus": {
+    "title": "Not a Terminus",
+    "definition": "A station where no scheduled Southeastern passenger service regularly originates or terminates."
+  },
+
   "interchange": {
     "title": "Interchange",
-    "definition": "A station identified as an interchange on the Southeastern network map. This includes major London terminals where passengers can conveniently change between Southeastern routes or connect with other rail, Underground, DLR, Elizabeth Line or Tram services."
+    "definition": "A station where passengers can conveniently change between two or more route groups, or between services operated by different transport networks. This includes major destination terminals where passengers can connect between the game network and another operator."
   },
+
+  "direct_to_london_terminal": {
+    "title": "Direct to...",
+    "definition": "A station served by a scheduled passenger service operating directly to the specified London terminus without requiring a change of train."
+  },
+
   "high_speed": {
     "title": "High Speed 1",
     "definition": "A station where scheduled Southeastern Highspeed services call."
+  },
+
+  "coastal": {
+    "title": "Coastal",
+    "definition": "A station serving a coastal town, port or settlement located on or immediately adjacent to the sea."
+  },
+
+  "east_kent": {
+    "title": "East Kent",
+    "definition": "A region covering the eastern part of Kent, including Ashford, Dover, Folkestone and surrounding communities."
+  },
+
+  "canterbury_district": {
+    "title": "Canterbury District",
+    "definition": "A region centred on Canterbury and the surrounding communities served by the Kent Downs and East Kent railway corridors."
+  },
+
+  "medway": {
+    "title": "Medway",
+    "definition": "A region covering the Medway towns and surrounding communities centred on the River Medway."
+  },
+
+  "north_kent": {
+    "title": "North Kent",
+    "definition": "A region covering stations along the North Kent corridor between South East London, Dartford and the Medway area."
+  },
+
+  "south_east_london": {
+    "title": "South East London",
+    "definition": "A region covering stations within South East London and its immediate suburban area."
+  },
+
+  "thanet": {
+    "title": "Thanet",
+    "definition": "A region covering the Isle of Thanet, including Margate, Ramsgate, Broadstairs and neighbouring communities."
+  },
+
+  "weald": {
+    "title": "Weald",
+    "definition": "A region covering stations in the rural Weald of Kent and Sussex, including the Tonbridge, Maidstone and Hastings corridors."
+  },
+
+  "marshlink_sussex": {
+    "title": "Marshlink & Sussex",
+    "definition": "A region covering stations on the Marshlink route and adjoining Sussex corridors between Ashford and Hastings."
   }
 }

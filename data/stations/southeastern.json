@@ -5041,12 +5041,12 @@
     "accessibility_score": 5,
     "difficulty_score": 5,
     "time_group": "70 to 90",
-    "region": "East Kent",
+    "region": "Marshlink & Sussex",
     "route_groups": [
       "Hastings Line Extended"
     ],
     "is_high_speed": false,
-    "is_coastal": false
+    "is_coastal": true
   },
   {
     "route_station_id": "SE0187",
@@ -5073,7 +5073,7 @@
     "accessibility_score": 1,
     "difficulty_score": 6,
     "time_group": "70 to 90",
-    "region": "East Kent",
+    "region": "Marshlink & Sussex",
     "route_groups": [
       "Hastings Line Extended"
     ],
@@ -5696,7 +5696,7 @@
     "accessibility_score": 2,
     "difficulty_score": 6,
     "time_group": "70 to 90",
-    "region": "East Kent",
+    "region": "Marshlink & Sussex",
     "route_groups": [
       "Marshlink"
     ],
@@ -5728,7 +5728,7 @@
     "accessibility_score": 2,
     "difficulty_score": 6,
     "time_group": "70 to 90",
-    "region": "East Kent",
+    "region": "Marshlink & Sussex",
     "route_groups": [
       "Marshlink"
     ],
@@ -5925,7 +5925,7 @@
     "accessibility_score": 4,
     "difficulty_score": 6,
     "time_group": "70 to 90",
-    "region": "East Kent",
+    "region": "Marshlink & Sussex",
     "route_groups": [
       "Hastings Line Extended"
     ],
@@ -6186,12 +6186,12 @@
     "accessibility_score": 4,
     "difficulty_score": 6,
     "time_group": "90+",
-    "region": "East Kent",
+    "region": "Marshlink & Sussex",
     "route_groups": [
       "Hastings Line Extended"
     ],
     "is_high_speed": false,
-    "is_coastal": false
+    "is_coastal": true
   },
   {
     "route_station_id": "SE0190",
@@ -6218,11 +6218,11 @@
     "accessibility_score": 2,
     "difficulty_score": 6,
     "time_group": "90+",
-    "region": "East Kent",
+    "region": "Marshlink & Sussex",
     "route_groups": [
       "Marshlink"
     ],
     "is_high_speed": false,
-    "is_coastal": false
+    "is_coastal": true
   }
 ]

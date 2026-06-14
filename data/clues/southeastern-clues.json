@@ -233,7 +233,7 @@
       "type": "field",
       "field": "region",
       "value": "North Kent",
-      "weight": "low"
+      "weight": "medium"
     },
     {
       "display": "South East London",
@@ -307,4 +307,4 @@
     }
   ]
 }
-```
+

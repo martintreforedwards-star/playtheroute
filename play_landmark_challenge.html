@@ -1045,10 +1045,10 @@ showResultsModal(false);
 function weightedPick(pool) {
 
   const weights = {
-    high: 1,
-    medium: 2,
-    low: 3
-  };
+  high: 6,
+  medium: 3,
+  low: 1
+};
 
   const expanded = [];
 
@@ -1213,65 +1213,48 @@ let attempts = 0;
 do {
 
   const highRows =
-    clueLibrary.rowPool.filter(
-      c => c.weight === "high"
-    );
+  clueLibrary.rowPool.filter(
+    c => c.weight === "high"
+  );
 
-  const otherRows =
-    clueLibrary.rowPool.filter(
-      c => c.weight !== "high"
-    );
+const mediumRows =
+  clueLibrary.rowPool.filter(
+    c => c.weight === "medium"
+  );
 
-  activeRows = [
+activeRows = [
+  weightedPick(highRows),
+  weightedPick(mediumRows)
+];
 
-    weightedPick(
-      highRows
-    ),
+const highColumns =
+  clueLibrary.columnPool.filter(
+    c => c.weight === "high"
+  );
 
-    weightedPick(
-      otherRows
-    )
+const mediumColumns =
+  clueLibrary.columnPool.filter(
+    c => c.weight === "medium"
+  );
 
-  ];
+const lowColumns =
+  clueLibrary.columnPool.filter(
+    c => c.weight === "low"
+  );
 
-  const highColumns =
-    clueLibrary.columnPool.filter(
-      c => c.weight === "high"
-    );
+activeColumns = [
+  weightedPick(highColumns),
+  ...weightedUniquePick(
+    mediumColumns,
+    2
+  ),
+  weightedPick(lowColumns)
+];
 
-  const lowColumns =
-    clueLibrary.columnPool.filter(
-      c => c.weight === "low"
-    );
-
-  const remainingColumns =
-    clueLibrary.columnPool.filter(
-      c =>
-        !highColumns.includes(c) &&
-        !lowColumns.includes(c)
-    );
-
-  activeColumns = [
-
-    weightedPick(
-      highColumns
-    ),
-
-    weightedPick(
-      lowColumns
-    ),
-
-    ...weightedUniquePick(
-      remainingColumns,
-      2
-    )
-
-  ];
-
-  activeColumns =
-    activeColumns.sort(
-      () => Math.random() - 0.5
-    );
+activeColumns =
+  activeColumns.sort(
+    () => Math.random() - 0.5
+  );
 
   attempts++;
 

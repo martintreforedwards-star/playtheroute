@@ -1227,29 +1227,50 @@ activeRows = [
   weightedPick(mediumRows)
 ];
 
-const highColumns =
+const serviceColumns =
   clueLibrary.columnPool.filter(
-    c => c.weight === "high"
+    c => c.category === "service"
   );
 
-const mediumColumns =
+const geographyColumns =
   clueLibrary.columnPool.filter(
-    c => c.weight === "medium"
+    c => c.category === "geography"
   );
 
-const lowColumns =
+const routeColumns =
   clueLibrary.columnPool.filter(
-    c => c.weight === "low"
+    c => c.category === "route"
+  );
+
+const nameColumns =
+  clueLibrary.columnPool.filter(
+    c => c.category === "name"
   );
 
 activeColumns = [
-  weightedPick(highColumns),
-  ...weightedUniquePick(
-    mediumColumns,
-    2
+
+  weightedPick(
+    serviceColumns
   ),
-  weightedPick(lowColumns)
+
+  weightedPick(
+    geographyColumns
+  ),
+
+  weightedPick(
+    routeColumns
+  ),
+
+  weightedPick(
+    nameColumns
+  )
+
 ];
+
+activeColumns =
+  activeColumns.sort(
+    () => Math.random() - 0.5
+  );
 
 activeColumns =
   activeColumns.sort(

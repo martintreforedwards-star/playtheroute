@@ -1209,7 +1209,31 @@ landmarkChallenges = landmarkData;
 stationFacts = factData;
 
 let attempts = 0;
+function intersectionCount(rowClue, columnClue) {
+  return stations.filter(
+    station =>
+      cluePasses(rowClue, station) &&
+      cluePasses(columnClue, station)
+  ).length;
+}
 
+function pickPlayableColumn(pool, rowClues, minMatches = 2) {
+
+  const candidates = pool.filter(columnClue =>
+
+    rowClues.every(rowClue =>
+      intersectionCount(rowClue, columnClue) >= minMatches
+    )
+
+  );
+
+  if (candidates.length === 0) {
+    console.warn("No playable columns found");
+    return weightedPick(pool);
+  }
+
+  return weightedPick(candidates);
+}
 do {
 
   const highRows =
@@ -1246,31 +1270,34 @@ const nameColumns =
   clueLibrary.columnPool.filter(
     c => c.category === "name"
   );
-
+console.log("service", serviceColumns.length);
+console.log("geography", geographyColumns.length);
+console.log("route", routeColumns.length);
+console.log("name", nameColumns.length);
 activeColumns = [
 
-  weightedPick(
-    serviceColumns
+  pickPlayableColumn(
+    serviceColumns,
+    activeRows
   ),
 
-  weightedPick(
-    geographyColumns
+  pickPlayableColumn(
+    geographyColumns,
+    activeRows
   ),
 
-  weightedPick(
-    routeColumns
+  pickPlayableColumn(
+    routeColumns,
+    activeRows
   ),
 
-  weightedPick(
-    nameColumns
+  pickPlayableColumn(
+    nameColumns,
+    activeRows
   )
 
 ];
 
-activeColumns =
-  activeColumns.sort(
-    () => Math.random() - 0.5
-  );
 
 activeColumns =
   activeColumns.sort(
@@ -1657,7 +1684,16 @@ else if (clue.type === "range") {
     );
 
   if (
-    value < clue.min ||
+    clue.min !== undefined &&
+    value < clue.min
+  ) {
+
+    valid = false;
+
+  }
+
+  if (
+    clue.max !== undefined &&
     value > clue.max
   ) {
 
@@ -1666,7 +1702,6 @@ else if (clue.type === "range") {
   }
 
 }
-
 else if (
   clue.type === "contains"
 ) {

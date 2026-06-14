@@ -67,5 +67,15 @@
   "marshlink_sussex": {
     "title": "Marshlink & Sussex",
     "definition": "A region covering stations on the Marshlink route and adjoining Sussex corridors between Ashford and Hastings."
+  },
+
+  "inner_london": {
+    "title": "Inner London",
+    "definition": "A station located within Central London or a major inner-London interchange served by the game network."
+  },
+
+  "outer_suburban": {
+    "title": "Outer Suburban",
+    "definition": "A station serving a suburban, rural or regional community beyond Inner London."
   }
 }

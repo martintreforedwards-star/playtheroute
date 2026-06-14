@@ -155,22 +155,23 @@
       "weight": "low",
       "category": "name"
     },
-    {
-      "display": "One Word",
-      "type": "field",
-      "field": "word_count_band",
-      "value": "single",
-      "weight": "medium",
-      "category": "name"
-    },
-    {
-      "display": "Multiple Words",
-      "type": "field",
-      "field": "word_count_band",
-      "value": "multiple",
-      "weight": "medium",
-      "category": "name"
-    },
+{
+  "display": "One Word",
+  "type": "field",
+  "field": "word_count_band",
+  "value": "single",
+  "weight": "medium",
+  "category": "name"
+},
+
+{
+  "display": "Multiple Words",
+  "type": "field",
+  "field": "word_count_band",
+  "value": "multiple",
+  "weight": "medium",
+  "category": "name"
+},
     {
       "display": "Under 60 mins from London",
       "type": "range",

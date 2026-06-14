@@ -5321,7 +5321,7 @@
     "service_count": 1,
     "service_density": "low",
     "route_diversity_band": "single",
-    "is_terminus": false,
+    "is_terminus": true,
     "is_interchange": true,
     "is_branch_line": true,
     "is_mainline": false,

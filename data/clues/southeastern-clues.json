@@ -35,13 +35,13 @@
       "value": true,
       "weight": "high"
     },
-    {
-      "display": "Direct to London Bridge",
-      "type": "field",
-      "field": "direct_to_london_bridge",
-      "value": true,
-      "weight": "high"
-    },
+{
+  "display": "Direct to Cannon Street",
+  "type": "field",
+  "field": "direct_to_cannon_street",
+  "value": true,
+  "weight": "high"
+},
     {
       "display": "Direct to St Pancras",
       "type": "field",

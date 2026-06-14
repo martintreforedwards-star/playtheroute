@@ -31,12 +31,6 @@
 "value": true
 },
 {
-"display": "Direct to Cannon Street",
-"type": "field",
-"field": "direct_to_cannon_street",
-"value": true
-},
-{
 "display": "Direct to London Bridge",
 "type": "field",
 "field": "direct_to_london_bridge",

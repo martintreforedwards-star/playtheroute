@@ -172,12 +172,7 @@
     "field": "service_density",
     "value": "high"
   },
-  {
-    "display": "Medium Service Frequency",
-    "type": "field",
-    "field": "service_density",
-    "value": "medium"
-  },
+  
   {
     "display": "Many Routes",
     "type": "field",

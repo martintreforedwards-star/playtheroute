@@ -77,5 +77,11 @@
   "outer_suburban": {
     "title": "Outer Suburban",
     "definition": "A station serving a suburban, rural or regional community beyond Inner London."
-  }
+  },
+  
+
+"high_service_frequency": {
+  "title": "High Service Frequency",
+  "definition": "A major London, Greater London or principal commuter hub station served by a very high frequency of scheduled passenger services throughout the day."
+}
 }

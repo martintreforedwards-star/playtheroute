@@ -136,20 +136,34 @@
       "value": "east",
       "weight": "low"
     },
-    {
-      "display": "Contains West",
-      "type": "contains",
-      "field": "station_name",
-      "value": "west",
-      "weight": "low"
-    },
-    {
-      "display": "Under 60 mins from London",
-      "type": "range",
-      "field": "canonical_time_to_london",
-      "max": 59,
-      "weight": "high"
-    },
+   {
+  "display": "Contains West",
+  "type": "contains",
+  "field": "station_name",
+  "value": "west",
+  "weight": "low"
+},
+{
+  "display": "One Word",
+  "type": "field",
+  "field": "word_count_band",
+  "value": "single",
+  "weight": "medium"
+},
+{
+  "display": "Multiple Words",
+  "type": "field",
+  "field": "word_count_band",
+  "value": "multiple",
+  "weight": "medium"
+},
+{
+  "display": "Under 60 mins from London",
+  "type": "range",
+  "field": "canonical_time_to_london",
+  "max": 59,
+  "weight": "high"
+},
     {
       "display": "60-90 mins from London",
       "type": "range",

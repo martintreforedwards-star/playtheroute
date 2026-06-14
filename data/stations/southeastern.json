@@ -30,7 +30,8 @@
       "Sevenoaks Main Line"
     ],
     "is_high_speed": false,
-    "is_coastal": false
+    "is_coastal": false,
+    "word_count_band": "multiple"
   },
   {
     "route_station_id": "SE0003",
@@ -63,7 +64,8 @@
       "Sevenoaks Metro"
     ],
     "is_high_speed": false,
-    "is_coastal": false
+    "is_coastal": false,
+    "word_count_band": "multiple"
   },
   {
     "route_station_id": "SE0001",
@@ -96,7 +98,8 @@
       "Sevenoaks Metro"
     ],
     "is_high_speed": false,
-    "is_coastal": false
+    "is_coastal": false,
+    "word_count_band": "multiple"
   },
   {
     "route_station_id": "SE0021",
@@ -129,7 +132,8 @@
       "Bromley South Metro"
     ],
     "is_high_speed": false,
-    "is_coastal": false
+    "is_coastal": false,
+    "word_count_band": "multiple"
   },
   {
     "route_station_id": "SE0015",
@@ -161,7 +165,8 @@
       "High Speed 1"
     ],
     "is_high_speed": true,
-    "is_coastal": false
+    "is_coastal": false,
+    "word_count_band": "multiple"
   },
   {
     "route_station_id": "SE0083",
@@ -193,7 +198,8 @@
       "High Speed 1"
     ],
     "is_high_speed": true,
-    "is_coastal": false
+    "is_coastal": false,
+    "word_count_band": "multiple"
   },
   {
     "route_station_id": "SE0005",
@@ -226,7 +232,8 @@
       "Bexleyheath Line"
     ],
     "is_high_speed": false,
-    "is_coastal": false
+    "is_coastal": false,
+    "word_count_band": "single"
   },
   {
     "route_station_id": "SE0007",
@@ -258,7 +265,8 @@
       "Hayes Branch"
     ],
     "is_high_speed": false,
-    "is_coastal": false
+    "is_coastal": false,
+    "word_count_band": "multiple"
   },
   {
     "route_station_id": "SE0006",
@@ -290,7 +298,8 @@
       "Hayes Branch"
     ],
     "is_high_speed": false,
-    "is_coastal": false
+    "is_coastal": false,
+    "word_count_band": "single"
   },
   {
     "route_station_id": "SE0062",
@@ -322,7 +331,8 @@
       "Catford Corridor"
     ],
     "is_high_speed": false,
-    "is_coastal": false
+    "is_coastal": false,
+    "word_count_band": "multiple"
   },
   {
     "route_station_id": "SE0061",
@@ -354,7 +364,8 @@
       "Catford Corridor"
     ],
     "is_high_speed": false,
-    "is_coastal": false
+    "is_coastal": false,
+    "word_count_band": "multiple"
   },
   {
     "route_station_id": "SE0019",
@@ -387,7 +398,8 @@
       "Sevenoaks Metro"
     ],
     "is_high_speed": false,
-    "is_coastal": false
+    "is_coastal": false,
+    "word_count_band": "multiple"
   },
   {
     "route_station_id": "SE0084",
@@ -419,7 +431,8 @@
       "High Speed 1"
     ],
     "is_high_speed": true,
-    "is_coastal": false
+    "is_coastal": false,
+    "word_count_band": "multiple"
   },
   {
     "route_station_id": "SE0016",
@@ -452,7 +465,8 @@
       "Catford Corridor"
     ],
     "is_high_speed": false,
-    "is_coastal": false
+    "is_coastal": false,
+    "word_count_band": "single"
   },
   {
     "route_station_id": "SE0020",
@@ -486,7 +500,8 @@
       "Sevenoaks Metro"
     ],
     "is_high_speed": false,
-    "is_coastal": false
+    "is_coastal": false,
+    "word_count_band": "multiple"
   },
   {
     "route_station_id": "SE0033",
@@ -518,7 +533,8 @@
       "Greenwich Line"
     ],
     "is_high_speed": false,
-    "is_coastal": false
+    "is_coastal": false,
+    "word_count_band": "single"
   },
   {
     "route_station_id": "SE0066",
@@ -552,7 +568,8 @@
       "Bromley South Metro"
     ],
     "is_high_speed": false,
-    "is_coastal": false
+    "is_coastal": false,
+    "word_count_band": "single"
   },
   {
     "route_station_id": "SE0032",
@@ -585,7 +602,8 @@
       "Greenwich Line"
     ],
     "is_high_speed": false,
-    "is_coastal": false
+    "is_coastal": false,
+    "word_count_band": "multiple"
   },
   {
     "route_station_id": "SE0052",
@@ -619,7 +637,8 @@
       "Bromley South Metro"
     ],
     "is_high_speed": false,
-    "is_coastal": false
+    "is_coastal": false,
+    "word_count_band": "single"
   },
   {
     "route_station_id": "SE0002",
@@ -652,7 +671,8 @@
       "Sevenoaks Metro"
     ],
     "is_high_speed": false,
-    "is_coastal": false
+    "is_coastal": false,
+    "word_count_band": "multiple"
   },
   {
     "route_station_id": "SE0017",
@@ -686,7 +706,8 @@
       "Catford Corridor"
     ],
     "is_high_speed": false,
-    "is_coastal": false
+    "is_coastal": false,
+    "word_count_band": "multiple"
   },
   {
     "route_station_id": "SE0018",
@@ -720,7 +741,8 @@
       "Catford Corridor"
     ],
     "is_high_speed": false,
-    "is_coastal": false
+    "is_coastal": false,
+    "word_count_band": "multiple"
   },
   {
     "route_station_id": "SE0070",
@@ -755,7 +777,8 @@
       "Bromley South Metro"
     ],
     "is_high_speed": false,
-    "is_coastal": false
+    "is_coastal": false,
+    "word_count_band": "single"
   },
   {
     "route_station_id": "SE0063",
@@ -788,7 +811,8 @@
       "Catford Corridor"
     ],
     "is_high_speed": false,
-    "is_coastal": false
+    "is_coastal": false,
+    "word_count_band": "multiple"
   },
   {
     "route_station_id": "SE0031",
@@ -820,7 +844,8 @@
       "Dartford Loop"
     ],
     "is_high_speed": false,
-    "is_coastal": false
+    "is_coastal": false,
+    "word_count_band": "multiple"
   },
   {
     "route_station_id": "SE0064",
@@ -852,7 +877,8 @@
       "Bromley South Metro"
     ],
     "is_high_speed": false,
-    "is_coastal": false
+    "is_coastal": false,
+    "word_count_band": "multiple"
   },
   {
     "route_station_id": "SE0034",
@@ -885,7 +911,8 @@
       "Greenwich Line"
     ],
     "is_high_speed": false,
-    "is_coastal": false
+    "is_coastal": false,
+    "word_count_band": "multiple"
   },
   {
     "route_station_id": "SE0127",
@@ -918,7 +945,8 @@
       "Sevenoaks Metro"
     ],
     "is_high_speed": false,
-    "is_coastal": false
+    "is_coastal": false,
+    "word_count_band": "single"
   },
   {
     "route_station_id": "SE0065",
@@ -950,7 +978,8 @@
       "Bromley South Metro"
     ],
     "is_high_speed": false,
-    "is_coastal": false
+    "is_coastal": false,
+    "word_count_band": "multiple"
   },
   {
     "route_station_id": "SE0068",
@@ -984,7 +1013,8 @@
       "Bromley South Metro"
     ],
     "is_high_speed": false,
-    "is_coastal": false
+    "is_coastal": false,
+    "word_count_band": "single"
   },
   {
     "route_station_id": "SE0077",
@@ -1018,7 +1048,8 @@
       "Sevenoaks Metro"
     ],
     "is_high_speed": false,
-    "is_coastal": false
+    "is_coastal": false,
+    "word_count_band": "single"
   },
   {
     "route_station_id": "SE0129",
@@ -1051,7 +1082,8 @@
       "Sevenoaks Metro"
     ],
     "is_high_speed": false,
-    "is_coastal": false
+    "is_coastal": false,
+    "word_count_band": "multiple"
   },
   {
     "route_station_id": "SE0035",
@@ -1083,7 +1115,8 @@
       "Greenwich Line"
     ],
     "is_high_speed": false,
-    "is_coastal": false
+    "is_coastal": false,
+    "word_count_band": "single"
   },
   {
     "route_station_id": "SE0036",
@@ -1115,7 +1148,8 @@
       "Greenwich Line"
     ],
     "is_high_speed": false,
-    "is_coastal": false
+    "is_coastal": false,
+    "word_count_band": "single"
   },
   {
     "route_station_id": "SE0043",
@@ -1147,7 +1181,8 @@
       "North Kent"
     ],
     "is_high_speed": false,
-    "is_coastal": false
+    "is_coastal": false,
+    "word_count_band": "single"
   },
   {
     "route_station_id": "SE0040",
@@ -1181,7 +1216,8 @@
       "Bexleyheath Line"
     ],
     "is_high_speed": false,
-    "is_coastal": false
+    "is_coastal": false,
+    "word_count_band": "single"
   },
   {
     "route_station_id": "SE0149",
@@ -1220,7 +1256,8 @@
       "Ashford Canterbury West"
     ],
     "is_high_speed": true,
-    "is_coastal": false
+    "is_coastal": false,
+    "word_count_band": "multiple"
   },
   {
     "route_station_id": "SE0044",
@@ -1252,7 +1289,8 @@
       "North Kent"
     ],
     "is_high_speed": false,
-    "is_coastal": false
+    "is_coastal": false,
+    "word_count_band": "single"
   },
   {
     "route_station_id": "SE0075",
@@ -1284,7 +1322,8 @@
       "Maidstone East"
     ],
     "is_high_speed": false,
-    "is_coastal": false
+    "is_coastal": false,
+    "word_count_band": "single"
   },
   {
     "route_station_id": "SE0076",
@@ -1317,7 +1356,8 @@
       "Sevenoaks Metro"
     ],
     "is_high_speed": false,
-    "is_coastal": false
+    "is_coastal": false,
+    "word_count_band": "multiple"
   },
   {
     "route_station_id": "SE0047",
@@ -1351,7 +1391,8 @@
       "High Speed 1"
     ],
     "is_high_speed": true,
-    "is_coastal": false
+    "is_coastal": false,
+    "word_count_band": "single"
   },
   {
     "route_station_id": "SE0142",
@@ -1387,7 +1428,8 @@
       "Sevenoaks Metro"
     ],
     "is_high_speed": false,
-    "is_coastal": false
+    "is_coastal": false,
+    "word_count_band": "single"
   },
   {
     "route_station_id": "SE0173",
@@ -1419,7 +1461,8 @@
       "Hastings Line Extended"
     ],
     "is_high_speed": false,
-    "is_coastal": false
+    "is_coastal": false,
+    "word_count_band": "single"
   },
   {
     "route_station_id": "SE0116",
@@ -1452,7 +1495,8 @@
       "Sevenoaks Metro"
     ],
     "is_high_speed": false,
-    "is_coastal": false
+    "is_coastal": false,
+    "word_count_band": "single"
   },
   {
     "route_station_id": "SE0055",
@@ -1485,7 +1529,8 @@
       "Catford Loop Extended"
     ],
     "is_high_speed": false,
-    "is_coastal": false
+    "is_coastal": false,
+    "word_count_band": "single"
   },
   {
     "route_station_id": "SE0053",
@@ -1519,7 +1564,8 @@
       "Catford Corridor"
     ],
     "is_high_speed": false,
-    "is_coastal": false
+    "is_coastal": false,
+    "word_count_band": "multiple"
   },
   {
     "route_station_id": "SE0042",
@@ -1551,7 +1597,8 @@
       "North Kent"
     ],
     "is_high_speed": false,
-    "is_coastal": false
+    "is_coastal": false,
+    "word_count_band": "multiple"
   },
   {
     "route_station_id": "SE0143",
@@ -1584,7 +1631,8 @@
       "Sevenoaks Metro"
     ],
     "is_high_speed": false,
-    "is_coastal": false
+    "is_coastal": false,
+    "word_count_band": "single"
   },
   {
     "route_station_id": "SE0141",
@@ -1618,7 +1666,8 @@
       "Southeastern Main Line"
     ],
     "is_high_speed": false,
-    "is_coastal": false
+    "is_coastal": false,
+    "word_count_band": "multiple"
   },
   {
     "route_station_id": "SE0037",
@@ -1651,7 +1700,8 @@
       "Greenwich Line"
     ],
     "is_high_speed": false,
-    "is_coastal": false
+    "is_coastal": false,
+    "word_count_band": "multiple"
   },
   {
     "route_station_id": "SE0071",
@@ -1684,7 +1734,8 @@
       "Bromley South Main Line"
     ],
     "is_high_speed": false,
-    "is_coastal": false
+    "is_coastal": false,
+    "word_count_band": "multiple"
   },
   {
     "route_station_id": "SE0072",
@@ -1718,7 +1769,8 @@
       "Bromley South Main Line"
     ],
     "is_high_speed": false,
-    "is_coastal": false
+    "is_coastal": false,
+    "word_count_band": "single"
   },
   {
     "route_station_id": "SE0010",
@@ -1750,7 +1802,8 @@
       "Hayes Branch"
     ],
     "is_high_speed": false,
-    "is_coastal": false
+    "is_coastal": false,
+    "word_count_band": "multiple"
   },
   {
     "route_station_id": "SE0177",
@@ -1782,7 +1835,8 @@
       "Sevenoaks Metro"
     ],
     "is_high_speed": false,
-    "is_coastal": false
+    "is_coastal": false,
+    "word_count_band": "single"
   },
   {
     "route_station_id": "SE0118",
@@ -1814,7 +1868,8 @@
       "Dartford Loop"
     ],
     "is_high_speed": false,
-    "is_coastal": false
+    "is_coastal": false,
+    "word_count_band": "multiple"
   },
   {
     "route_station_id": "SE0169",
@@ -1846,7 +1901,8 @@
       "Hastings Line Extended"
     ],
     "is_high_speed": false,
-    "is_coastal": false
+    "is_coastal": false,
+    "word_count_band": "single"
   },
   {
     "route_station_id": "SE0123",
@@ -1878,7 +1934,8 @@
       "Bromley North Branch"
     ],
     "is_high_speed": false,
-    "is_coastal": false
+    "is_coastal": false,
+    "word_count_band": "multiple"
   },
   {
     "route_station_id": "SE0059",
@@ -1912,7 +1969,8 @@
       "Catford Corridor"
     ],
     "is_high_speed": false,
-    "is_coastal": false
+    "is_coastal": false,
+    "word_count_band": "multiple"
   },
   {
     "route_station_id": "SE0148",
@@ -1944,7 +2002,8 @@
       "Maidstone East"
     ],
     "is_high_speed": false,
-    "is_coastal": false
+    "is_coastal": false,
+    "word_count_band": "multiple"
   },
   {
     "route_station_id": "SE0136",
@@ -1977,7 +2036,8 @@
       "High Speed 1"
     ],
     "is_high_speed": true,
-    "is_coastal": false
+    "is_coastal": false,
+    "word_count_band": "multiple"
   },
   {
     "route_station_id": "SE0139",
@@ -2009,7 +2069,8 @@
       "Medway Valley"
     ],
     "is_high_speed": false,
-    "is_coastal": false
+    "is_coastal": false,
+    "word_count_band": "single"
   },
   {
     "route_station_id": "SE0167",
@@ -2041,7 +2102,8 @@
       "Hastings Line Extended"
     ],
     "is_high_speed": false,
-    "is_coastal": false
+    "is_coastal": false,
+    "word_count_band": "single"
   },
   {
     "route_station_id": "SE0171",
@@ -2073,7 +2135,8 @@
       "Hastings Line Extended"
     ],
     "is_high_speed": false,
-    "is_coastal": false
+    "is_coastal": false,
+    "word_count_band": "single"
   },
   {
     "route_station_id": "SE0119",
@@ -2105,7 +2168,8 @@
       "Dartford Loop"
     ],
     "is_high_speed": false,
-    "is_coastal": false
+    "is_coastal": false,
+    "word_count_band": "single"
   },
   {
     "route_station_id": "SE0039",
@@ -2138,7 +2202,8 @@
       "Bexleyheath Line"
     ],
     "is_high_speed": false,
-    "is_coastal": false
+    "is_coastal": false,
+    "word_count_band": "single"
   },
   {
     "route_station_id": "SE0022",
@@ -2171,7 +2236,8 @@
       "Catford Loop Extended"
     ],
     "is_high_speed": false,
-    "is_coastal": false
+    "is_coastal": false,
+    "word_count_band": "multiple"
   },
   {
     "route_station_id": "SE0135",
@@ -2203,7 +2269,8 @@
       "Medway Valley"
     ],
     "is_high_speed": false,
-    "is_coastal": false
+    "is_coastal": false,
+    "word_count_band": "multiple"
   },
   {
     "route_station_id": "SE0147",
@@ -2235,7 +2302,8 @@
       "Maidstone East Extended"
     ],
     "is_high_speed": false,
-    "is_coastal": false
+    "is_coastal": false,
+    "word_count_band": "single"
   },
   {
     "route_station_id": "SE0088",
@@ -2267,7 +2335,8 @@
       "Chatham Main Line"
     ],
     "is_high_speed": false,
-    "is_coastal": false
+    "is_coastal": false,
+    "word_count_band": "multiple"
   },
   {
     "route_station_id": "SE0041",
@@ -2299,7 +2368,8 @@
       "North Kent"
     ],
     "is_high_speed": false,
-    "is_coastal": false
+    "is_coastal": false,
+    "word_count_band": "multiple"
   },
   {
     "route_station_id": "SE0120",
@@ -2331,7 +2401,8 @@
       "Dartford Loop"
     ],
     "is_high_speed": false,
-    "is_coastal": false
+    "is_coastal": false,
+    "word_count_band": "multiple"
   },
   {
     "route_station_id": "SE0012",
@@ -2363,7 +2434,8 @@
       "Hayes Branch"
     ],
     "is_high_speed": false,
-    "is_coastal": false
+    "is_coastal": false,
+    "word_count_band": "multiple"
   },
   {
     "route_station_id": "SE0080",
@@ -2395,7 +2467,8 @@
       "Bexleyheath Line"
     ],
     "is_high_speed": false,
-    "is_coastal": false
+    "is_coastal": false,
+    "word_count_band": "single"
   },
   {
     "route_station_id": "SE0165",
@@ -2427,7 +2500,8 @@
       "Hastings Line Extended"
     ],
     "is_high_speed": false,
-    "is_coastal": false
+    "is_coastal": false,
+    "word_count_band": "multiple"
   },
   {
     "route_station_id": "SE0115",
@@ -2460,7 +2534,8 @@
       "Sevenoaks Metro"
     ],
     "is_high_speed": false,
-    "is_coastal": false
+    "is_coastal": false,
+    "word_count_band": "multiple"
   },
   {
     "route_station_id": "SE0008",
@@ -2492,7 +2567,8 @@
       "Hayes Branch"
     ],
     "is_high_speed": false,
-    "is_coastal": false
+    "is_coastal": false,
+    "word_count_band": "multiple"
   },
   {
     "route_station_id": "SE0026",
@@ -2525,7 +2601,8 @@
       "Greenwich Line"
     ],
     "is_high_speed": false,
-    "is_coastal": false
+    "is_coastal": false,
+    "word_count_band": "single"
   },
   {
     "route_station_id": "SE0027",
@@ -2558,7 +2635,8 @@
       "Greenwich Line"
     ],
     "is_high_speed": false,
-    "is_coastal": false
+    "is_coastal": false,
+    "word_count_band": "single"
   },
   {
     "route_station_id": "SE0073",
@@ -2590,7 +2668,8 @@
       "Bromley South Main Line"
     ],
     "is_high_speed": false,
-    "is_coastal": false
+    "is_coastal": false,
+    "word_count_band": "single"
   },
   {
     "route_station_id": "SE0074",
@@ -2622,7 +2701,8 @@
       "Bromley South Main Line"
     ],
     "is_high_speed": false,
-    "is_coastal": false
+    "is_coastal": false,
+    "word_count_band": "multiple"
   },
   {
     "route_station_id": "SE0121",
@@ -2654,7 +2734,8 @@
       "Dartford Loop"
     ],
     "is_high_speed": false,
-    "is_coastal": false
+    "is_coastal": false,
+    "word_count_band": "single"
   },
   {
     "route_station_id": "SE0082",
@@ -2686,7 +2767,8 @@
       "Bexleyheath Line"
     ],
     "is_high_speed": false,
-    "is_coastal": false
+    "is_coastal": false,
+    "word_count_band": "single"
   },
   {
     "route_station_id": "SE0124",
@@ -2718,7 +2800,8 @@
       "Bromley North Branch"
     ],
     "is_high_speed": false,
-    "is_coastal": false
+    "is_coastal": false,
+    "word_count_band": "multiple"
   },
   {
     "route_station_id": "SE0126",
@@ -2751,7 +2834,8 @@
       "Sevenoaks Metro"
     ],
     "is_high_speed": false,
-    "is_coastal": false
+    "is_coastal": false,
+    "word_count_band": "single"
   },
   {
     "route_station_id": "SE0013",
@@ -2783,7 +2867,8 @@
       "Hayes Branch"
     ],
     "is_high_speed": false,
-    "is_coastal": false
+    "is_coastal": false,
+    "word_count_band": "multiple"
   },
   {
     "route_station_id": "SE0140",
@@ -2815,7 +2900,8 @@
       "Medway Valley"
     ],
     "is_high_speed": false,
-    "is_coastal": false
+    "is_coastal": false,
+    "word_count_band": "single"
   },
   {
     "route_station_id": "SE0130",
@@ -2847,7 +2933,8 @@
       "Medway Valley"
     ],
     "is_high_speed": false,
-    "is_coastal": false
+    "is_coastal": false,
+    "word_count_band": "single"
   },
   {
     "route_station_id": "SE0133",
@@ -2879,7 +2966,8 @@
       "Medway Valley"
     ],
     "is_high_speed": false,
-    "is_coastal": false
+    "is_coastal": false,
+    "word_count_band": "multiple"
   },
   {
     "route_station_id": "SE0145",
@@ -2912,7 +3000,8 @@
       "Southeastern Main Line"
     ],
     "is_high_speed": false,
-    "is_coastal": false
+    "is_coastal": false,
+    "word_count_band": "single"
   },
   {
     "route_station_id": "SE0172",
@@ -2944,7 +3033,8 @@
       "Hastings Line Extended"
     ],
     "is_high_speed": false,
-    "is_coastal": false
+    "is_coastal": false,
+    "word_count_band": "single"
   },
   {
     "route_station_id": "SE0178",
@@ -2976,7 +3066,8 @@
       "Maidstone East"
     ],
     "is_high_speed": false,
-    "is_coastal": false
+    "is_coastal": false,
+    "word_count_band": "multiple"
   },
   {
     "route_station_id": "SE0011",
@@ -3008,7 +3099,8 @@
       "Hayes Branch"
     ],
     "is_high_speed": false,
-    "is_coastal": false
+    "is_coastal": false,
+    "word_count_band": "multiple"
   },
   {
     "route_station_id": "SE0122",
@@ -3042,7 +3134,8 @@
       "Sevenoaks Metro"
     ],
     "is_high_speed": false,
-    "is_coastal": false
+    "is_coastal": false,
+    "word_count_band": "multiple"
   },
   {
     "route_station_id": "SE0117",
@@ -3074,7 +3167,8 @@
       "Dartford Loop"
     ],
     "is_high_speed": false,
-    "is_coastal": false
+    "is_coastal": false,
+    "word_count_band": "single"
   },
   {
     "route_station_id": "SE0166",
@@ -3106,7 +3200,8 @@
       "Hastings Line Extended"
     ],
     "is_high_speed": false,
-    "is_coastal": false
+    "is_coastal": false,
+    "word_count_band": "multiple"
   },
   {
     "route_station_id": "SE0168",
@@ -3138,7 +3233,8 @@
       "Hastings Line Extended"
     ],
     "is_high_speed": false,
-    "is_coastal": false
+    "is_coastal": false,
+    "word_count_band": "single"
   },
   {
     "route_station_id": "SE0134",
@@ -3170,7 +3266,8 @@
       "Medway Valley"
     ],
     "is_high_speed": false,
-    "is_coastal": false
+    "is_coastal": false,
+    "word_count_band": "single"
   },
   {
     "route_station_id": "SE0085",
@@ -3202,7 +3299,8 @@
       "Chatham Main Line"
     ],
     "is_high_speed": false,
-    "is_coastal": false
+    "is_coastal": false,
+    "word_count_band": "multiple"
   },
   {
     "route_station_id": "SE0028",
@@ -3235,7 +3333,8 @@
       "Greenwich Line"
     ],
     "is_high_speed": false,
-    "is_coastal": false
+    "is_coastal": false,
+    "word_count_band": "multiple"
   },
   {
     "route_station_id": "SE0069",
@@ -3270,7 +3369,8 @@
       "Bromley South Metro"
     ],
     "is_high_speed": false,
-    "is_coastal": false
+    "is_coastal": false,
+    "word_count_band": "multiple"
   },
   {
     "route_station_id": "SE0138",
@@ -3302,7 +3402,8 @@
       "Medway Valley"
     ],
     "is_high_speed": false,
-    "is_coastal": false
+    "is_coastal": false,
+    "word_count_band": "single"
   },
   {
     "route_station_id": "SE0079",
@@ -3334,7 +3435,8 @@
       "Dartford Loop"
     ],
     "is_high_speed": false,
-    "is_coastal": false
+    "is_coastal": false,
+    "word_count_band": "single"
   },
   {
     "route_station_id": "SE0170",
@@ -3366,7 +3468,8 @@
       "Hastings Line Extended"
     ],
     "is_high_speed": false,
-    "is_coastal": false
+    "is_coastal": false,
+    "word_count_band": "single"
   },
   {
     "route_station_id": "SE0078",
@@ -3399,7 +3502,8 @@
       "Bexleyheath Line"
     ],
     "is_high_speed": false,
-    "is_coastal": false
+    "is_coastal": false,
+    "word_count_band": "single"
   },
   {
     "route_station_id": "SE0009",
@@ -3431,7 +3535,8 @@
       "Hayes Branch"
     ],
     "is_high_speed": false,
-    "is_coastal": false
+    "is_coastal": false,
+    "word_count_band": "multiple"
   },
   {
     "route_station_id": "SE0038",
@@ -3463,7 +3568,8 @@
       "Bexleyheath Line"
     ],
     "is_high_speed": false,
-    "is_coastal": false
+    "is_coastal": false,
+    "word_count_band": "single"
   },
   {
     "route_station_id": "SE0057",
@@ -3496,7 +3602,8 @@
       "Catford Corridor"
     ],
     "is_high_speed": false,
-    "is_coastal": false
+    "is_coastal": false,
+    "word_count_band": "multiple"
   },
   {
     "route_station_id": "SE0131",
@@ -3528,7 +3635,8 @@
       "Medway Valley"
     ],
     "is_high_speed": false,
-    "is_coastal": false
+    "is_coastal": false,
+    "word_count_band": "single"
   },
   {
     "route_station_id": "SE0146",
@@ -3561,7 +3669,8 @@
       "Southeastern Main Line"
     ],
     "is_high_speed": false,
-    "is_coastal": false
+    "is_coastal": false,
+    "word_count_band": "single"
   },
   {
     "route_station_id": "SE0086",
@@ -3593,7 +3702,8 @@
       "Chatham Main Line"
     ],
     "is_high_speed": false,
-    "is_coastal": false
+    "is_coastal": false,
+    "word_count_band": "single"
   },
   {
     "route_station_id": "SE0054",
@@ -3626,7 +3736,8 @@
       "Catford Corridor"
     ],
     "is_high_speed": false,
-    "is_coastal": false
+    "is_coastal": false,
+    "word_count_band": "multiple"
   },
   {
     "route_station_id": "SE0137",
@@ -3658,7 +3769,8 @@
       "Medway Valley"
     ],
     "is_high_speed": false,
-    "is_coastal": false
+    "is_coastal": false,
+    "word_count_band": "multiple"
   },
   {
     "route_station_id": "SE0060",
@@ -3693,7 +3805,8 @@
       "Catford Corridor"
     ],
     "is_high_speed": false,
-    "is_coastal": false
+    "is_coastal": false,
+    "word_count_band": "multiple"
   },
   {
     "route_station_id": "SE0024",
@@ -3726,7 +3839,8 @@
       "Catford Loop Extended"
     ],
     "is_high_speed": false,
-    "is_coastal": false
+    "is_coastal": false,
+    "word_count_band": "single"
   },
   {
     "route_station_id": "SE0023",
@@ -3759,7 +3873,8 @@
       "Catford Loop Extended"
     ],
     "is_high_speed": false,
-    "is_coastal": false
+    "is_coastal": false,
+    "word_count_band": "multiple"
   },
   {
     "route_station_id": "SE0058",
@@ -3791,7 +3906,8 @@
       "Catford Loop"
     ],
     "is_high_speed": false,
-    "is_coastal": false
+    "is_coastal": false,
+    "word_count_band": "single"
   },
   {
     "route_station_id": "SE0048",
@@ -3825,7 +3941,8 @@
       "High Speed 1"
     ],
     "is_high_speed": true,
-    "is_coastal": false
+    "is_coastal": false,
+    "word_count_band": "single"
   },
   {
     "route_station_id": "SE0029",
@@ -3858,7 +3975,8 @@
       "Greenwich Line"
     ],
     "is_high_speed": false,
-    "is_coastal": false
+    "is_coastal": false,
+    "word_count_band": "multiple"
   },
   {
     "route_station_id": "SE0125",
@@ -3891,7 +4009,8 @@
       "Sevenoaks Metro"
     ],
     "is_high_speed": false,
-    "is_coastal": false
+    "is_coastal": false,
+    "word_count_band": "multiple"
   },
   {
     "route_station_id": "SE0014",
@@ -3923,7 +4042,8 @@
       "Hayes Branch"
     ],
     "is_high_speed": false,
-    "is_coastal": false
+    "is_coastal": false,
+    "word_count_band": "single"
   },
   {
     "route_station_id": "SE0128",
@@ -3956,7 +4076,8 @@
       "Sevenoaks Metro"
     ],
     "is_high_speed": false,
-    "is_coastal": false
+    "is_coastal": false,
+    "word_count_band": "single"
   },
   {
     "route_station_id": "SE0081",
@@ -3988,7 +4109,8 @@
       "Bexleyheath Line"
     ],
     "is_high_speed": false,
-    "is_coastal": false
+    "is_coastal": false,
+    "word_count_band": "single"
   },
   {
     "route_station_id": "SE0056",
@@ -4021,7 +4143,8 @@
       "Catford Loop Extended"
     ],
     "is_high_speed": false,
-    "is_coastal": false
+    "is_coastal": false,
+    "word_count_band": "single"
   },
   {
     "route_station_id": "SE0025",
@@ -4054,7 +4177,8 @@
       "Bexleyheath Line"
     ],
     "is_high_speed": false,
-    "is_coastal": false
+    "is_coastal": false,
+    "word_count_band": "single"
   },
   {
     "route_station_id": "SE0067",
@@ -4087,7 +4211,8 @@
       "Bromley South Main Line"
     ],
     "is_high_speed": false,
-    "is_coastal": false
+    "is_coastal": false,
+    "word_count_band": "multiple"
   },
   {
     "route_station_id": "SE0030",
@@ -4120,7 +4245,8 @@
       "Greenwich Line"
     ],
     "is_high_speed": false,
-    "is_coastal": false
+    "is_coastal": false,
+    "word_count_band": "single"
   },
   {
     "route_station_id": "SE0144",
@@ -4153,7 +4279,8 @@
       "Southeastern Main Line"
     ],
     "is_high_speed": false,
-    "is_coastal": false
+    "is_coastal": false,
+    "word_count_band": "single"
   },
   {
     "route_station_id": "SE0087",
@@ -4185,7 +4312,8 @@
       "Chatham Main Line"
     ],
     "is_high_speed": false,
-    "is_coastal": false
+    "is_coastal": false,
+    "word_count_band": "single"
   },
   {
     "route_station_id": "SE0132",
@@ -4218,7 +4346,8 @@
       "High Speed 1"
     ],
     "is_high_speed": true,
-    "is_coastal": false
+    "is_coastal": false,
+    "word_count_band": "single"
   },
   {
     "route_station_id": "SE0182",
@@ -4251,7 +4380,8 @@
       "Maidstone East Extended"
     ],
     "is_high_speed": false,
-    "is_coastal": false
+    "is_coastal": false,
+    "word_count_band": "single"
   },
   {
     "route_station_id": "SE0045",
@@ -4284,7 +4414,8 @@
       "High Speed 1"
     ],
     "is_high_speed": true,
-    "is_coastal": false
+    "is_coastal": false,
+    "word_count_band": "single"
   },
   {
     "route_station_id": "SE0046",
@@ -4316,7 +4447,8 @@
       "North Kent"
     ],
     "is_high_speed": false,
-    "is_coastal": false
+    "is_coastal": false,
+    "word_count_band": "single"
   },
   {
     "route_station_id": "SE0179",
@@ -4348,7 +4480,8 @@
       "Maidstone East"
     ],
     "is_high_speed": false,
-    "is_coastal": false
+    "is_coastal": false,
+    "word_count_band": "multiple"
   },
   {
     "route_station_id": "SE0153",
@@ -4384,7 +4517,8 @@
       "High Speed 1"
     ],
     "is_high_speed": true,
-    "is_coastal": false
+    "is_coastal": false,
+    "word_count_band": "multiple"
   },
   {
     "route_station_id": "SE0091",
@@ -4416,7 +4550,8 @@
       "Sheerness Branch"
     ],
     "is_high_speed": false,
-    "is_coastal": false
+    "is_coastal": false,
+    "word_count_band": "single"
   },
   {
     "route_station_id": "SE0089",
@@ -4449,7 +4584,8 @@
       "Chatham Main Line"
     ],
     "is_high_speed": false,
-    "is_coastal": false
+    "is_coastal": false,
+    "word_count_band": "single"
   },
   {
     "route_station_id": "SE0180",
@@ -4481,7 +4617,8 @@
       "Maidstone East"
     ],
     "is_high_speed": false,
-    "is_coastal": false
+    "is_coastal": false,
+    "word_count_band": "multiple"
   },
   {
     "route_station_id": "SE0049",
@@ -4515,7 +4652,8 @@
       "High Speed 1"
     ],
     "is_high_speed": true,
-    "is_coastal": false
+    "is_coastal": false,
+    "word_count_band": "single"
   },
   {
     "route_station_id": "SE0093",
@@ -4547,7 +4685,8 @@
       "Sheerness Branch"
     ],
     "is_high_speed": false,
-    "is_coastal": true
+    "is_coastal": true,
+    "word_count_band": "single"
   },
   {
     "route_station_id": "SE0185",
@@ -4579,7 +4718,8 @@
       "Maidstone East"
     ],
     "is_high_speed": false,
-    "is_coastal": false
+    "is_coastal": false,
+    "word_count_band": "single"
   },
   {
     "route_station_id": "SE0183",
@@ -4611,7 +4751,8 @@
       "Maidstone East Extended"
     ],
     "is_high_speed": false,
-    "is_coastal": false
+    "is_coastal": false,
+    "word_count_band": "single"
   },
   {
     "route_station_id": "SE0181",
@@ -4644,7 +4785,8 @@
       "Maidstone East"
     ],
     "is_high_speed": false,
-    "is_coastal": false
+    "is_coastal": false,
+    "word_count_band": "single"
   },
   {
     "route_station_id": "SE0050",
@@ -4678,7 +4820,8 @@
       "High Speed 1"
     ],
     "is_high_speed": true,
-    "is_coastal": false
+    "is_coastal": false,
+    "word_count_band": "multiple"
   },
   {
     "route_station_id": "SE0051",
@@ -4712,7 +4855,8 @@
       "High Speed 1"
     ],
     "is_high_speed": true,
-    "is_coastal": false
+    "is_coastal": false,
+    "word_count_band": "multiple"
   },
   {
     "route_station_id": "SE0186",
@@ -4745,7 +4889,8 @@
       "Maidstone East Extended"
     ],
     "is_high_speed": false,
-    "is_coastal": false
+    "is_coastal": false,
+    "word_count_band": "single"
   },
   {
     "route_station_id": "SE0184",
@@ -4778,7 +4923,8 @@
       "Maidstone East Extended"
     ],
     "is_high_speed": false,
-    "is_coastal": false
+    "is_coastal": false,
+    "word_count_band": "single"
   },
   {
     "route_station_id": "SE0096",
@@ -4815,7 +4961,8 @@
       "High Speed 1"
     ],
     "is_high_speed": true,
-    "is_coastal": false
+    "is_coastal": false,
+    "word_count_band": "single"
   },
   {
     "route_station_id": "SE0106",
@@ -4848,7 +4995,8 @@
       "Faversham Coast"
     ],
     "is_high_speed": false,
-    "is_coastal": false
+    "is_coastal": false,
+    "word_count_band": "single"
   },
   {
     "route_station_id": "SE0094",
@@ -4880,7 +5028,8 @@
       "Sheerness Branch"
     ],
     "is_high_speed": false,
-    "is_coastal": true
+    "is_coastal": true,
+    "word_count_band": "single"
   },
   {
     "route_station_id": "SE0090",
@@ -4915,7 +5064,8 @@
       "High Speed 1"
     ],
     "is_high_speed": true,
-    "is_coastal": false
+    "is_coastal": false,
+    "word_count_band": "single"
   },
   {
     "route_station_id": "SE0097",
@@ -4948,7 +5098,8 @@
       "High Speed 1"
     ],
     "is_high_speed": true,
-    "is_coastal": true
+    "is_coastal": true,
+    "word_count_band": "single"
   },
   {
     "route_station_id": "SE0152",
@@ -4981,7 +5132,8 @@
       "Ashford Canterbury West"
     ],
     "is_high_speed": false,
-    "is_coastal": false
+    "is_coastal": false,
+    "word_count_band": "single"
   },
   {
     "route_station_id": "SE0099",
@@ -5014,7 +5166,8 @@
       "High Speed 1"
     ],
     "is_high_speed": true,
-    "is_coastal": true
+    "is_coastal": true,
+    "word_count_band": "multiple"
   },
   {
     "route_station_id": "SE0175",
@@ -5046,7 +5199,8 @@
       "Hastings Line Extended"
     ],
     "is_high_speed": false,
-    "is_coastal": true
+    "is_coastal": true,
+    "word_count_band": "multiple"
   },
   {
     "route_station_id": "SE0187",
@@ -5078,7 +5232,8 @@
       "Hastings Line Extended"
     ],
     "is_high_speed": false,
-    "is_coastal": false
+    "is_coastal": false,
+    "word_count_band": "single"
   },
   {
     "route_station_id": "SE0110",
@@ -5110,7 +5265,8 @@
       "Canterbury East Line"
     ],
     "is_high_speed": false,
-    "is_coastal": false
+    "is_coastal": false,
+    "word_count_band": "single"
   },
   {
     "route_station_id": "SE0098",
@@ -5143,7 +5299,8 @@
       "High Speed 1"
     ],
     "is_high_speed": true,
-    "is_coastal": false
+    "is_coastal": false,
+    "word_count_band": "multiple"
   },
   {
     "route_station_id": "SE0157",
@@ -5176,7 +5333,8 @@
       "High Speed 1"
     ],
     "is_high_speed": true,
-    "is_coastal": true
+    "is_coastal": true,
+    "word_count_band": "multiple"
   },
   {
     "route_station_id": "SE0095",
@@ -5209,7 +5367,8 @@
       "Faversham Coast"
     ],
     "is_high_speed": false,
-    "is_coastal": false
+    "is_coastal": false,
+    "word_count_band": "single"
   },
   {
     "route_station_id": "SE0164",
@@ -5241,7 +5400,8 @@
       "High Speed 1"
     ],
     "is_high_speed": true,
-    "is_coastal": false
+    "is_coastal": false,
+    "word_count_band": "multiple"
   },
   {
     "route_station_id": "SE0109",
@@ -5273,7 +5433,8 @@
       "Canterbury East Line"
     ],
     "is_high_speed": false,
-    "is_coastal": false
+    "is_coastal": false,
+    "word_count_band": "single"
   },
   {
     "route_station_id": "SE0114",
@@ -5308,7 +5469,8 @@
       "High Speed 1"
     ],
     "is_high_speed": true,
-    "is_coastal": true
+    "is_coastal": true,
+    "word_count_band": "multiple"
   },
   {
     "route_station_id": "SE0162",
@@ -5341,7 +5503,8 @@
       "High Speed 1"
     ],
     "is_high_speed": true,
-    "is_coastal": false
+    "is_coastal": false,
+    "word_count_band": "single"
   },
   {
     "route_station_id": "SE0111",
@@ -5373,7 +5536,8 @@
       "Canterbury East Line"
     ],
     "is_high_speed": false,
-    "is_coastal": false
+    "is_coastal": false,
+    "word_count_band": "single"
   },
   {
     "route_station_id": "SE0160",
@@ -5406,7 +5570,8 @@
       "High Speed 1"
     ],
     "is_high_speed": true,
-    "is_coastal": true
+    "is_coastal": true,
+    "word_count_band": "single"
   },
   {
     "route_station_id": "SE0151",
@@ -5439,7 +5604,8 @@
       "Ashford Canterbury West"
     ],
     "is_high_speed": false,
-    "is_coastal": false
+    "is_coastal": false,
+    "word_count_band": "single"
   },
   {
     "route_station_id": "SE0108",
@@ -5472,7 +5638,8 @@
       "East Kent Connector"
     ],
     "is_high_speed": false,
-    "is_coastal": false
+    "is_coastal": false,
+    "word_count_band": "single"
   },
   {
     "route_station_id": "SE0100",
@@ -5505,7 +5672,8 @@
       "High Speed 1"
     ],
     "is_high_speed": true,
-    "is_coastal": true
+    "is_coastal": true,
+    "word_count_band": "single"
   },
   {
     "route_station_id": "SE0159",
@@ -5538,7 +5706,8 @@
       "High Speed 1"
     ],
     "is_high_speed": true,
-    "is_coastal": true
+    "is_coastal": true,
+    "word_count_band": "multiple"
   },
   {
     "route_station_id": "SE0092",
@@ -5570,7 +5739,8 @@
       "Sheerness Branch"
     ],
     "is_high_speed": false,
-    "is_coastal": false
+    "is_coastal": false,
+    "word_count_band": "single"
   },
   {
     "route_station_id": "SE0155",
@@ -5603,7 +5773,8 @@
       "East Kent Connector"
     ],
     "is_high_speed": false,
-    "is_coastal": false
+    "is_coastal": false,
+    "word_count_band": "single"
   },
   {
     "route_station_id": "SE0101",
@@ -5636,7 +5807,8 @@
       "High Speed 1"
     ],
     "is_high_speed": true,
-    "is_coastal": true
+    "is_coastal": true,
+    "word_count_band": "single"
   },
   {
     "route_station_id": "SE0150",
@@ -5669,7 +5841,8 @@
       "Ashford Canterbury West"
     ],
     "is_high_speed": false,
-    "is_coastal": false
+    "is_coastal": false,
+    "word_count_band": "single"
   },
   {
     "route_station_id": "SE0188",
@@ -5701,7 +5874,8 @@
       "Marshlink"
     ],
     "is_high_speed": false,
-    "is_coastal": false
+    "is_coastal": false,
+    "word_count_band": "single"
   },
   {
     "route_station_id": "SE0189",
@@ -5733,7 +5907,8 @@
       "Marshlink"
     ],
     "is_high_speed": false,
-    "is_coastal": false
+    "is_coastal": false,
+    "word_count_band": "multiple"
   },
   {
     "route_station_id": "SE0158",
@@ -5766,7 +5941,8 @@
       "High Speed 1"
     ],
     "is_high_speed": true,
-    "is_coastal": true
+    "is_coastal": true,
+    "word_count_band": "multiple"
   },
   {
     "route_station_id": "SE0163",
@@ -5799,7 +5975,8 @@
       "East Kent Connector"
     ],
     "is_high_speed": false,
-    "is_coastal": false
+    "is_coastal": false,
+    "word_count_band": "single"
   },
   {
     "route_station_id": "SE0156",
@@ -5832,7 +6009,8 @@
       "East Kent Connector"
     ],
     "is_high_speed": false,
-    "is_coastal": false
+    "is_coastal": false,
+    "word_count_band": "single"
   },
   {
     "route_station_id": "SE0154",
@@ -5865,7 +6043,8 @@
       "Ashford Canterbury West"
     ],
     "is_high_speed": false,
-    "is_coastal": false
+    "is_coastal": false,
+    "word_count_band": "single"
   },
   {
     "route_station_id": "SE0107",
@@ -5898,7 +6077,8 @@
       "Canterbury East Line"
     ],
     "is_high_speed": false,
-    "is_coastal": false
+    "is_coastal": false,
+    "word_count_band": "multiple"
   },
   {
     "route_station_id": "SE0174",
@@ -5930,7 +6110,8 @@
       "Hastings Line Extended"
     ],
     "is_high_speed": false,
-    "is_coastal": false
+    "is_coastal": false,
+    "word_count_band": "multiple"
   },
   {
     "route_station_id": "SE0161",
@@ -5963,7 +6144,8 @@
       "High Speed 1"
     ],
     "is_high_speed": true,
-    "is_coastal": true
+    "is_coastal": true,
+    "word_count_band": "single"
   },
   {
     "route_station_id": "SE0113",
@@ -5995,7 +6177,8 @@
       "Canterbury East Line"
     ],
     "is_high_speed": false,
-    "is_coastal": false
+    "is_coastal": false,
+    "word_count_band": "single"
   },
   {
     "route_station_id": "SE0112",
@@ -6027,7 +6210,8 @@
       "Canterbury East Line"
     ],
     "is_high_speed": false,
-    "is_coastal": false
+    "is_coastal": false,
+    "word_count_band": "multiple"
   },
   {
     "route_station_id": "SE0103",
@@ -6060,7 +6244,8 @@
       "East Kent Coast"
     ],
     "is_high_speed": true,
-    "is_coastal": true
+    "is_coastal": true,
+    "word_count_band": "single"
   },
   {
     "route_station_id": "SE0104",
@@ -6093,7 +6278,8 @@
       "High Speed 1"
     ],
     "is_high_speed": true,
-    "is_coastal": true
+    "is_coastal": true,
+    "word_count_band": "multiple"
   },
   {
     "route_station_id": "SE0102",
@@ -6126,7 +6312,8 @@
       "East Kent Coast"
     ],
     "is_high_speed": true,
-    "is_coastal": true
+    "is_coastal": true,
+    "word_count_band": "single"
   },
   {
     "route_station_id": "SE0105",
@@ -6159,7 +6346,8 @@
       "East Kent Coast"
     ],
     "is_high_speed": true,
-    "is_coastal": true
+    "is_coastal": true,
+    "word_count_band": "single"
   },
   {
     "route_station_id": "SE0176",
@@ -6191,7 +6379,8 @@
       "Hastings Line Extended"
     ],
     "is_high_speed": false,
-    "is_coastal": true
+    "is_coastal": true,
+    "word_count_band": "single"
   },
   {
     "route_station_id": "SE0190",
@@ -6223,6 +6412,7 @@
       "Marshlink"
     ],
     "is_high_speed": false,
-    "is_coastal": true
+    "is_coastal": true,
+    "word_count_band": "single"
   }
 ]

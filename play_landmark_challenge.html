@@ -183,13 +183,13 @@ body {
 
   display: grid;
 
-  grid-template-columns: 88px repeat(4, 1fr);
+  grid-template-columns: 100px repeat(4, minmax(120px,1fr));
 
-  grid-template-rows: 82px 82px 82px;
-
-  gap: 8px;
+  gap: 10px;
 
   width: 100%;
+
+  align-items: stretch;
 
 }
 
@@ -207,7 +207,7 @@ body {
 
   text-align: center;
 
-  height: 82px;
+ height: 78px;
 
   display: flex;
 
@@ -249,7 +249,7 @@ body {
 
   text-align: center;
 
-  height: 82px;
+  height: 140px;
 
 }
 
@@ -1581,36 +1581,15 @@ function renderBoard() {
 
     }
 
-    if (!state.station) {
+if (!state.station) {
 
   cell.innerHTML = `
-
-  <div class="cell-inner">
-
-    <div class="station-name">
-      ${state.station.station_name}
+    <div class="cell-inner">
+      <div class="empty-label">
+        Select Station
+      </div>
     </div>
-
-    <div class="validation">
-      ${label}
-    </div>
-
-  </div>
-
-  ${state.correct === true ? `
-    <div class="bogie left"></div>
-    <div class="bogie right"></div>
-
-    <div class="wheel l1"></div>
-    <div class="wheel l2"></div>
-
-    <div class="wheel r1"></div>
-    <div class="wheel r2"></div>
-
-    ${index % 4 !== 3 ? '<div class="coupling"></div>' : ''}
-  ` : ''}
-
-`;
+  `;
 
   return;
 

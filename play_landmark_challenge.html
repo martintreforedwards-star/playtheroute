@@ -179,7 +179,112 @@ body {
   border-radius: 20px;
   padding: 20px;
 }
+.game-grid {
 
+  display: grid;
+
+  grid-template-columns: 88px repeat(4, 1fr);
+
+  grid-template-rows: 82px 82px 82px;
+
+  gap: 8px;
+
+  width: 100%;
+
+}
+
+.corner {
+  background: transparent;
+}
+
+.column-header {
+
+  background: rgba(15,23,42,0.95);
+
+  border-radius: 18px;
+
+  padding: 8px 4px;
+
+  text-align: center;
+
+  height: 82px;
+
+  display: flex;
+
+  flex-direction: column;
+
+  justify-content: center;
+
+}
+
+.column-header strong {
+  font-size: 1.1rem;
+}
+
+.column-clue {
+
+  margin-top: 4px;
+
+  color: #d1d5db;
+
+  font-size: 0.58rem;
+
+  line-height: 1.25;
+
+}
+
+.row-header {
+
+  border-radius: 18px;
+
+  padding: 8px;
+
+  display: flex;
+
+  flex-direction: column;
+
+  justify-content: center;
+
+  align-items: center;
+
+  text-align: center;
+
+  height: 82px;
+
+}
+
+.row-header strong {
+
+  font-size: 0.85rem;
+
+  margin-bottom: 4px;
+
+}
+
+.row-header span {
+
+  font-size: 0.56rem;
+
+  line-height: 1.25;
+
+}
+
+.row-header.green,
+.row-header.blue {
+
+  background: rgba(15,23,42,0.95);
+
+  border-left: 4px solid;
+
+}
+
+.row-header.green {
+  border-color: #22c55e;
+}
+
+.row-header.blue {
+  border-color: #60a5fa;
+}
 .cell {
   height: 140px;
   cursor: pointer;
@@ -656,94 +761,51 @@ body {
 
   </div>
 
-  <div class="game-table-wrapper">
+  <div class="game-grid" id="gameGrid">
 
-    <table class="game-table">
+  <div class="corner"></div>
 
-      <tr>
-
-        <th></th>
-
-        <th
-  class="col-heading"
-  id="colClue0">
-  Coastal
-</th>
-
-        <th
-  class="col-heading"
-  id="colClue1">
-  70-90 mins<br>
-  from London
-</th>
-
-        <th
-  class="col-heading"
-  id="colClue2">
-  Contains 'ham'
-</th>
-
-        <th
-  class="col-heading"
-  id="colClue3">
-  Is an interchange
-</th>  
-
-      </tr>
-
-      <tr>
-
-        <td class="side-heading">
-
-          <div class="p-label p1">
-            Platform 1
-          </div>
-
-        <div
-  class="p-clue"
-  id="rowClue0">
-
-  Not a terminus
-
-</div>
-
-        </td>
-
-        <td class="cell" data-index="0"></td>
-        <td class="cell" data-index="1"></td>
-        <td class="cell" data-index="2"></td>
-        <td class="cell" data-index="3"></td>
-
-      </tr>
-
-      <tr>
-
-        <td class="side-heading">
-
-          <div class="p-label p2">
-            Platform 2
-          </div>
-
-<div
-  class="p-clue"
-  id="rowClue1">
-
-  Direct to Charing Cross
-
-</div>
-
-        </td>
-
-        <td class="cell" data-index="4"></td>
-        <td class="cell" data-index="5"></td>
-        <td class="cell" data-index="6"></td>
-        <td class="cell" data-index="7"></td>
-
-      </tr>
-
-    </table>
-
+  <div class="column-header">
+    <strong>A</strong>
+    <div class="column-clue" id="colClue0"></div>
   </div>
+
+  <div class="column-header">
+    <strong>B</strong>
+    <div class="column-clue" id="colClue1"></div>
+  </div>
+
+  <div class="column-header">
+    <strong>C</strong>
+    <div class="column-clue" id="colClue2"></div>
+  </div>
+
+  <div class="column-header">
+    <strong>D</strong>
+    <div class="column-clue" id="colClue3"></div>
+  </div>
+
+  <div class="row-header green">
+    <strong>Platform 1</strong>
+    <span id="rowClue0"></span>
+  </div>
+
+  <div class="cell" data-index="0"></div>
+  <div class="cell" data-index="1"></div>
+  <div class="cell" data-index="2"></div>
+  <div class="cell" data-index="3"></div>
+
+  <div class="row-header blue">
+    <strong>Platform 2</strong>
+    <span id="rowClue1"></span>
+  </div>
+
+  <div class="cell" data-index="4"></div>
+  <div class="cell" data-index="5"></div>
+  <div class="cell" data-index="6"></div>
+  <div class="cell" data-index="7"></div>
+
+</div>
 
   <div class="footer-row">
 <div
@@ -1522,12 +1584,33 @@ function renderBoard() {
     if (!state.station) {
 
   cell.innerHTML = `
-    <div class="cell-inner">
-      <div class="empty-label">
-        Select Station
-      </div>
+
+  <div class="cell-inner">
+
+    <div class="station-name">
+      ${state.station.station_name}
     </div>
-  `;
+
+    <div class="validation">
+      ${label}
+    </div>
+
+  </div>
+
+  ${state.correct === true ? `
+    <div class="bogie left"></div>
+    <div class="bogie right"></div>
+
+    <div class="wheel l1"></div>
+    <div class="wheel l2"></div>
+
+    <div class="wheel r1"></div>
+    <div class="wheel r2"></div>
+
+    ${index % 4 !== 3 ? '<div class="coupling"></div>' : ''}
+  ` : ''}
+
+`;
 
   return;
 

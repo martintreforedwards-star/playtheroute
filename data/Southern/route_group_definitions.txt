@@ -1,0 +1,41 @@
+# Southern Route Groups
+
+## Brighton Main Line
+
+The principal Southern corridor linking London Bridge and London Victoria with Gatwick Airport, Haywards Heath, Brighton and intermediate stations.
+
+## East Coastway
+
+The coastal corridor linking Brighton with Lewes, Eastbourne, Hastings and Ore.
+
+## West Coastway
+
+The coastal corridor linking Brighton with Worthing, Chichester, Havant, Portsmouth Harbour and Southampton Central.
+
+## Arun Valley
+
+The inland corridor linking Horsham with Arundel, Ford, Barnham and the South Coast.
+
+## Portsmouth Direct
+
+The corridor linking London Victoria with Guildford, Haslemere, Petersfield, Havant and Portsmouth Harbour.
+
+## Sutton & Metro
+
+The suburban Southern network serving South London, Sutton, Epsom, Crystal Palace, West Croydon and associated metro corridors.
+
+## East Grinstead Branch
+
+The branch linking East Croydon with Oxted, Lingfield and East Grinstead.
+
+## Uckfield Branch
+
+The branch linking East Croydon with Oxted, Crowborough, Buxted and Uckfield.
+
+## Thameslink Core
+
+The central Thameslink corridor between London Bridge, Blackfriars, City Thameslink, Farringdon and St Pancras International.
+
+## Southern Thameslink Branches
+
+Southern-operated Thameslink routes south of the core, including services via Brighton, Horsham, Three Bridges, Sevenoaks and Sutton.

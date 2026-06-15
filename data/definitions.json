@@ -59,15 +59,10 @@
     "definition": "A region covering the Isle of Thanet, including Margate, Ramsgate, Broadstairs and neighbouring communities."
   },
 
-  "weald": {
-    "title": "Weald",
-    "definition": "A region covering stations in the rural Weald of Kent and Sussex, including the Tonbridge, Maidstone and Hastings corridors."
-  },
-
-  "marshlink_sussex": {
-    "title": "Marshlink & Sussex",
-    "definition": "A region covering stations on the Marshlink route and adjoining Sussex corridors between Ashford and Hastings."
-  },
+"weald": {
+  "title": "Weald",
+  "definition": "A region covering stations in the rural Weald of Kent and Sussex, including the Tonbridge, Tunbridge Wells, Maidstone and Hastings corridors."
+},
 
   "inner_london": {
     "title": "Inner London",
@@ -96,6 +91,37 @@
   "title": "Contains...",
   "definition": "A station whose name contains the specified word or text string. For example, a station matching 'Contains Hill' includes 'hill' anywhere within its name."
 },
+
+  "one_word_name": {
+    "title": "One Word",
+    "definition": "Station name consists of a single word."
+  },
+
+  "multiple_word_name": {
+    "title": "Multiple Words",
+    "definition": "Station name consists of two or more words."
+  },
+
+  "nature_word": {
+    "title": "Nature Word",
+    "definition": "Station name contains a landscape, vegetation or natural feature term such as Wood, Hill, Green or Park."
+  },
+
+  "compass_direction": {
+    "title": "Compass Direction",
+    "definition": "Station name contains a cardinal direction such as North, South, East or West."
+  },
+
+  "settlement_word": {
+    "title": "Settlement Word",
+    "definition": "Station name contains a settlement or transport-related term such as Road, Street, Gate, Cross or Bridge."
+  },
+
+  "religious_word": {
+    "title": "Religious Word",
+    "definition": "Station name contains a religious or ecclesiastical term such as St, Saint, Abbey, Priory or Church."
+  },
+
 "under_60_mins": {
   "title": "Under 60 mins from London",
   "definition": "A station with a representative journey time of less than 60 minutes from Central London."

@@ -18,6 +18,72 @@ def clue_matches(station, clue):
 
         return clue["value"].lower() in text
 
+    if clue_type == "word_group":
+
+        WORD_GROUPS = {
+
+            "nature": [
+                "wood",
+                "woods",
+                "hill",
+                "green",
+                "park",
+                "heath",
+                "grove",
+                "oak",
+                "elm",
+                "ash"
+            ],
+
+            "water": [
+                "bay",
+                "sea",
+                "brook",
+                "river",
+                "mere",
+                "marsh",
+                "quay",
+                "harbour"
+            ],
+
+            "direction": [
+                "north",
+                "south",
+                "east",
+                "west"
+            ],
+
+            "settlement": [
+                "town",
+                "village",
+                "road",
+                "street",
+                "gate",
+                "cross",
+                "bridge"
+            ],
+
+            "religious": [
+                "st",
+                "saint",
+                "abbey",
+                "priory",
+                "church"
+            ]
+
+        }
+
+        text = str(
+            station.get(clue["field"], "")
+        ).lower()
+
+        return any(
+            word in text
+            for word in WORD_GROUPS[
+                clue["group"]
+            ]
+        )
+
     if clue_type == "array_contains":
         values = station.get(
             clue["field"],
@@ -50,7 +116,6 @@ def clue_matches(station, clue):
         return True
 
     return False
-
 
 with open(STATIONS_FILE) as f:
     stations = json.load(f)

@@ -5194,7 +5194,7 @@
     "accessibility_score": 5,
     "difficulty_score": 5,
     "time_group": "70 to 90",
-    "region": "Marshlink & Sussex",
+    "region": "Weald",
     "route_groups": [
       "Hastings Line Extended"
     ],
@@ -5227,7 +5227,7 @@
     "accessibility_score": 1,
     "difficulty_score": 6,
     "time_group": "70 to 90",
-    "region": "Marshlink & Sussex",
+    "region": "Weald",
     "route_groups": [
       "Hastings Line Extended"
     ],
@@ -5869,7 +5869,7 @@
     "accessibility_score": 2,
     "difficulty_score": 6,
     "time_group": "70 to 90",
-    "region": "Marshlink & Sussex",
+    "region": "East Kent",
     "route_groups": [
       "Marshlink"
     ],
@@ -5902,7 +5902,7 @@
     "accessibility_score": 2,
     "difficulty_score": 6,
     "time_group": "70 to 90",
-    "region": "Marshlink & Sussex",
+    "region": "East Kent",
     "route_groups": [
       "Marshlink"
     ],
@@ -6105,7 +6105,7 @@
     "accessibility_score": 4,
     "difficulty_score": 6,
     "time_group": "70 to 90",
-    "region": "Marshlink & Sussex",
+    "region": "Weald",
     "route_groups": [
       "Hastings Line Extended"
     ],
@@ -6374,7 +6374,7 @@
     "accessibility_score": 4,
     "difficulty_score": 6,
     "time_group": "90+",
-    "region": "Marshlink & Sussex",
+    "region": "Weald",
     "route_groups": [
       "Hastings Line Extended"
     ],
@@ -6407,7 +6407,7 @@
     "accessibility_score": 2,
     "difficulty_score": 6,
     "time_group": "90+",
-    "region": "Marshlink & Sussex",
+    "region": "East Kent",
     "route_groups": [
       "Marshlink"
     ],

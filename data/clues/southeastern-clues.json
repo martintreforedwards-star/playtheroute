@@ -107,54 +107,40 @@
       "weight": "low",
       "category": "name"
     },
-    {
-      "display": "Contains park",
-      "type": "contains",
-      "field": "station_name",
-      "value": "park",
-      "weight": "low",
-      "category": "name"
-    },
-    {
-      "display": "Contains hill",
-      "type": "contains",
-      "field": "station_name",
-      "value": "hill",
-      "weight": "low",
-      "category": "name"
-    },
-    {
-      "display": "Contains wood",
-      "type": "contains",
-      "field": "station_name",
-      "value": "wood",
-      "weight": "low",
-      "category": "name"
-    },
-    {
-      "display": "Contains green",
-      "type": "contains",
-      "field": "station_name",
-      "value": "green",
-      "weight": "low",
-      "category": "name"
-    },
-    {
-      "display": "Contains East",
-      "type": "contains",
-      "field": "station_name",
-      "value": "east",
-      "weight": "low",
-      "category": "name"
-    },
-    {
-      "display": "Contains West",
-      "type": "contains",
-      "field": "station_name",
-      "value": "west",
-      "weight": "low",
-      "category": "name"
-    },
+  {
+  "display": "Contains a Nature Word",
+  "type": "word_group",
+  "field": "station_name",
+  "group": "nature",
+  "weight": "medium",
+  "category": "name"
+},
+
+{
+  "display": "Contains a Compass Direction",
+  "type": "word_group",
+  "field": "station_name",
+  "group": "direction",
+  "weight": "medium",
+  "category": "name"
+},
+{
+  "display": "Contains a Settlement Word",
+  "type": "word_group",
+  "field": "station_name",
+  "group": "settlement",
+  "weight": "medium",
+  "category": "name"
+},
+{
+  "display": "Contains a Religious Word",
+  "type": "word_group",
+  "field": "station_name",
+  "group": "religious",
+  "weight": "medium",
+  "category": "name"
+}, 
+      
 {
   "display": "One Word",
   "type": "field",
@@ -301,14 +287,7 @@
       "weight": "medium",
       "category": "geography"
     },
-    {
-      "display": "Marshlink & Sussex",
-      "type": "field",
-      "field": "region",
-      "value": "Marshlink & Sussex",
-      "weight": "low",
-      "category": "geography"
-    },
+
     {
       "display": "High Speed 1",
       "type": "array_contains",

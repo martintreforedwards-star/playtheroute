@@ -1209,6 +1209,58 @@ landmarkChallenges = landmarkData;
 stationFacts = factData;
 
 let attempts = 0;
+const WORD_GROUPS = {
+
+  nature: [
+    "wood",
+    "woods",
+    "hill",
+    "green",
+    "park",
+    "heath",
+    "grove",
+    "oak",
+    "elm",
+    "ash"
+  ],
+
+  water: [
+    "bay",
+    "sea",
+    "brook",
+    "river",
+    "mere",
+    "marsh",
+    "quay",
+    "harbour"
+  ],
+
+  direction: [
+    "north",
+    "south",
+    "east",
+    "west"
+  ],
+
+  settlement: [
+    "town",
+    "village",
+    "road",
+    "street",
+    "gate",
+    "cross",
+    "bridge"
+  ],
+
+  religious: [
+    "st",
+    "saint",
+    "abbey",
+    "priory",
+    "church"
+  ]
+
+};
 function cluePasses(clue, station) {
 
   if (clue.type === "array_contains") {
@@ -1259,7 +1311,22 @@ function cluePasses(clue, station) {
     station[clue.field] ===
     clue.value
   );
+if (clue.type === "word_group") {
 
+  const text =
+    String(
+      station[clue.field]
+    ).toLowerCase();
+
+  return WORD_GROUPS[
+    clue.group
+  ].some(
+    word => text.includes(
+      word.toLowerCase()
+    )
+  );
+
+}
 }
 function intersectionCount(rowClue, columnClue) {
   return stations.filter(

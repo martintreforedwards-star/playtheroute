@@ -639,8 +639,27 @@ body {
   .panel {
     padding: 18px;
   }
+.game-grid {
 
-  .footer-row {
+  grid-template-columns: 60px repeat(4, 1fr);
+
+  gap: 8px;
+
+}
+.row-header {
+  height: 82px;
+}
+.column-header {
+  height: 82px;
+}
+.row-header strong {
+  font-size: 0.6rem;
+}
+
+.row-header span {
+  font-size: 0.42rem;
+}
+.footer-row {
     flex-direction: column;
   }
 

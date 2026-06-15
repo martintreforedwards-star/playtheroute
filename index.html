@@ -18,6 +18,25 @@ body{margin:0;font-family:'Inter',sans-serif;background:radial-gradient(circle a
 .header{display:flex;align-items:center;gap:18px;margin-bottom:26px}
 .logo{width:82px}
 h1{margin:0;font-size:2.8rem}
+.copyright-mark{
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+
+  width:0.9em;
+  height:0.9em;
+
+  margin-left:0;
+
+  border:2px solid currentColor;
+  border-radius:50%;
+
+  font-size:0.22em;
+  font-weight:700;
+
+  position:relative;
+  top:-0.6em;
+}
 .subtitle{margin-top:8px;color:#9ca3af}
 .announcement,.mode-card,.stamp-box,select{background:#111827;border:2px solid #1e3a8a;border-radius:18px}
 .announcement{padding:18px;margin-bottom:26px;color:#d1d5db}
@@ -47,18 +66,8 @@ select{width:100%;padding:16px;color:white}
 <div class="container">
 <div class="header">
 <button id="menuButton" class="menu-button">☰</button>
-<img src="logo.svg" class="logo">
-<div><h1>
-  <a
-    href="/"
-    style="color:white;text-decoration:none;">
-
-    The Route
-    <span class="copyright-mark">C</span>
-
-  </a>
-</h1><div class="subtitle">Build the route. Find the pattern.</div></div>
-</div>
+<img src="logo.svg" class="logo"> <div><h1> <a href="/" style="color:white;text-decoration:none;"> 
+  The Route <span class="copyright-mark">C</span> </a> </h1><div class="subtitle">Build the route. Find the pattern.</div></div> </div>
 
 <div class="announcement">🚉 Service update: Southeastern services are now live. Additional commuter networks arriving soon.</div>
 

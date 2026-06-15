@@ -1209,6 +1209,58 @@ landmarkChallenges = landmarkData;
 stationFacts = factData;
 
 let attempts = 0;
+function cluePasses(clue, station) {
+
+  if (clue.type === "array_contains") {
+
+    return (
+      Array.isArray(station[clue.field]) &&
+      station[clue.field].includes(clue.value)
+    );
+
+  }
+
+  if (clue.type === "range") {
+
+    const value =
+      Number(station[clue.field]);
+
+    if (
+      clue.min !== undefined &&
+      value < clue.min
+    ) {
+      return false;
+    }
+
+    if (
+      clue.max !== undefined &&
+      value > clue.max
+    ) {
+      return false;
+    }
+
+    return true;
+
+  }
+
+  if (clue.type === "contains") {
+
+    return String(
+      station[clue.field]
+    )
+      .toLowerCase()
+      .includes(
+        clue.value.toLowerCase()
+      );
+
+  }
+
+  return (
+    station[clue.field] ===
+    clue.value
+  );
+
+}
 function intersectionCount(rowClue, columnClue) {
   return stations.filter(
     station =>

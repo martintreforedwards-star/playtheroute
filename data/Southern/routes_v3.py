@@ -33,7 +33,17 @@ southern_route_templates = [
     # East Grinstead Branch
     ["East Croydon","South Croydon","Purley","Whyteleafe","Upper Warlingham","Woldingham","Oxted","Hurst Green","Lingfield","Dormans","East Grinstead"],
 
-    # Mole Valley
-    ["Horsham","Warnham","Ockley","Holmwood","Dorking","Dorking West"]
+       # Mole Valley
+    ["Horsham","Warnham","Ockley","Holmwood","Dorking","Dorking West"],
+
+    # Waterloo Route
+    ["Southampton Central",
+     "Winchester",
+     "Basingstoke",
+     "Clapham Junction",
+     "London Waterloo"]
+     
+
+
 
 ]

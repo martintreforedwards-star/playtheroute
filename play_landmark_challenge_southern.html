@@ -1304,10 +1304,10 @@ function boardIsPlayable(rows, columns) {
 }
 
 Promise.all([
-  fetch("data/stations/southeastern.json")
+  fetch("data/Southern/southern.json")
     .then(r => r.json()),
 
-  fetch("data/clues/southeastern-clues.json")
+  fetch("data/Southern/southern-clues.json")
     .then(r => r.json()),
 
   fetch("data/landmark-challenges.json")

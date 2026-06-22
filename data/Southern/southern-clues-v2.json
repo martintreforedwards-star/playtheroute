@@ -1,0 +1,42 @@
+{
+  "rowPool": [
+    {
+      "display": "Interchange",
+      "type": "field",
+      "field": "major_interchange",
+      "value": "True",
+      "weight": "high"
+    },
+    {
+      "display": "Not Interchange",
+      "type": "field",
+      "field": "major_interchange",
+      "value": "False",
+      "weight": "high"
+    }
+  ],
+
+  "columnPool": [
+    {
+      "display": "0-30 mins",
+      "type": "field",
+      "field": "time_band",
+      "value": "0-30",
+      "weight": "high"
+    },
+    {
+      "display": "30-60 mins",
+      "type": "field",
+      "field": "time_band",
+      "value": "30-60",
+      "weight": "high"
+    },
+    {
+      "display": "60-120 mins",
+      "type": "field",
+      "field": "time_band",
+      "value": "60-120",
+      "weight": "high"
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+[
+  {
+    "landmark": "Brighton Palace Pier",
+    "closest_station": "Brighton",
+    "distance_km": 0.7,
+    "difficulty": "easy"
+  },
+  {
+    "landmark": "Royal Pavilion",
+    "closest_station": "Brighton",
+    "distance_km": 0.5,
+    "difficulty": "easy"
+  },
+  {
+    "landmark": "Lewes Castle",
+    "closest_station": "Lewes",
+    "distance_km": 0.6,
+    "difficulty": "easy"
+  },
+  {
+    "landmark": "Smugglers Adventure",
+    "closest_station": "Hastings",
+    "distance_km": 0.9,
+    "difficulty": "easy"
+  },
+  {
+    "landmark": "Historic Dockyard",
+    "closest_station": "Portsmouth Harbour",
+    "distance_km": 0.3,
+    "difficulty": "easy"
+  },
+  {
+    "landmark": "Eastbourne Pier",
+    "closest_station": "Eastbourne",
+    "distance_km": 1.0,
+    "difficulty": "medium"
+  },
+  {
+    "landmark": "Chichester Cathedral",
+    "closest_station": "Chichester",
+    "distance_km": 0.7,
+    "difficulty": "easy"
+  },
+  {
+    "landmark": "Bognor Regis Beach",
+    "closest_station": "Bognor Regis",
+    "distance_km": 0.5,
+    "difficulty": "easy"
+  },
+  {
+    "landmark": "Worthing Pier",
+    "closest_station": "Worthing",
+    "distance_km": 0.6,
+    "difficulty": "easy"
+  },
+  {
+    "landmark": "Shoreham Airport",
+    "closest_station": "Shoreham-by-Sea",
+    "distance_km": 2.0,
+    "difficulty": "medium"
+  }
+]

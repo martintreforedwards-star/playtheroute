@@ -7,7 +7,18 @@
     "upper",
     "lower"
   ],
-
+  "welsh": [
+  "pont",
+  "llan",
+  "aber",
+  "tre"
+],
+"scottish": [
+  "loch",
+  "kil",
+  "inver",
+  "glen"
+],
   "settlement": [
     "ham",
     "ton",

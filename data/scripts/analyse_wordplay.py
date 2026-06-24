@@ -15,13 +15,20 @@ with open(STATIONS_FILE, newline="", encoding="utf-8") as f:
 
     for row in reader:
         stations.append(
-            (row.get("stationName") or "").lower()
+            {
+                "station": (row.get("stationName") or "").lower(),
+                "region": (row.get("region") or "").strip()
+            }
         )
 
 with open(CATALOGUE_FILE, encoding="utf-8") as f:
     catalogue = json.load(f)
 
 lines = []
+
+# ==================================================
+# NATIONAL REPORT
+# ==================================================
 
 lines.append("# National Wordplay Report")
 lines.append("")
@@ -41,8 +48,9 @@ for category, terms in catalogue.items():
 
     for term in terms:
         total += sum(
-            1 for station in stations
-            if term.lower() in station
+            1
+            for station in stations
+            if term.lower() in station["station"]
         )
 
     totals[category] = total
@@ -70,8 +78,9 @@ for category, terms in catalogue.items():
     for term in terms:
 
         count = sum(
-            1 for station in stations
-            if term.lower() in station
+            1
+            for station in stations
+            if term.lower() in station["station"]
         )
 
         results.append((term, count))
@@ -86,6 +95,68 @@ for category, terms in catalogue.items():
 
     lines.append("")
 
+# ==================================================
+# REGIONAL BREAKDOWN
+# ==================================================
+
+regions = sorted(
+    {
+        station["region"]
+        for station in stations
+        if station["region"]
+    }
+)
+
+for region in regions:
+
+    region_stations = [
+        station
+        for station in stations
+        if station["region"] == region
+    ]
+
+    lines.append(f"# {region}")
+    lines.append("")
+    lines.append(f"Stations analysed: {len(region_stations)}")
+    lines.append("")
+
+    for category, terms in catalogue.items():
+
+        lines.append(f"## {category.title()}")
+        lines.append("")
+        lines.append("| Term | Matches |")
+        lines.append("|------|---------:|")
+
+        results = []
+
+        for term in terms:
+
+            count = sum(
+                1
+                for station in region_stations
+                if term.lower() in station["station"]
+            )
+
+            results.append((term, count))
+
+        results.sort(
+            key=lambda x: x[1],
+            reverse=True
+        )
+
+        for term, count in results:
+
+            if count > 0:
+                lines.append(
+                    f"| {term} | {count} |"
+                )
+
+        lines.append("")
+
+# ==================================================
+# SAVE REPORT
+# ==================================================
+
 OUTPUT_FILE.parent.mkdir(
     parents=True,
     exist_ok=True
@@ -94,8 +165,13 @@ OUTPUT_FILE.parent.mkdir(
 with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
     f.write("\n".join(lines))
 
+# ==================================================
+# DONE
+# ==================================================
+
 print()
 print("DONE")
 print()
 print(f"Stations analysed: {len(stations)}")
+print(f"Regions analysed: {len(regions)}")
 print(f"Saved: {OUTPUT_FILE}")

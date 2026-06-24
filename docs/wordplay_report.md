@@ -92,8 +92,3 @@ Stations analysed: 2605
 | market | 8 |
 | city | 5 |
 | square | 3 |
-
-# Network Category Totals
-
-| Network | Direction | Settlement | Nature | Water | Religious | Transport | Civic |
-|---------|----------:|----------:|----------:|----------:|----------:|----------:|----------:|

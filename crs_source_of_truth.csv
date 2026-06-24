@@ -1,4 +1,4 @@
-stationName,lat,long,crsCode,iataAirportCode,constituentCountry
+stationName,lat,long,crsCode,iataAirportCode,constituentCountry,network,region
 Abbey Wood,51.490719,0.120343,ABW,,england
 Aber,51.575363,-3.23089,ABE,,wales
 Abercynon,51.64262,-3.329549,ACY,,wales

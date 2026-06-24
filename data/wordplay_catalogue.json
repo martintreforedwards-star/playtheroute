@@ -1,0 +1,64 @@
+{
+  "direction": [
+    "north",
+    "south",
+    "east",
+    "west",
+    "upper",
+    "lower"
+  ],
+
+  "settlement": [
+    "ham",
+    "ton",
+    "worth",
+    "wick",
+    "hurst",
+    "field",
+    "gate",
+    "bury",
+    "bridge"
+  ],
+
+  "nature": [
+    "wood",
+    "green",
+    "hill",
+    "heath",
+    "brook",
+    "forest",
+    "park",
+    "vale"
+  ],
+
+  "water": [
+    "port",
+    "harbour",
+    "sea",
+    "quay",
+    "shore"
+  ],
+
+  "religious": [
+    "st",
+    "saint",
+    "abbey",
+    "church",
+    "minster"
+  ],
+
+  "transport": [
+    "road",
+    "junction",
+    "central",
+    "parkway",
+    "international"
+  ],
+
+  "civic": [
+    "town",
+    "city",
+    "square",
+    "market"
+  ]
+}

@@ -1030,6 +1030,10 @@ const gameMode =
   params.get("mode") ||
   "standard";
 
+const network =
+  params.get("network") ||
+  "southeastern";
+
 let expressTimer = null;
 let timeRemaining = 180;
 
@@ -1304,10 +1308,10 @@ function boardIsPlayable(rows, columns) {
 }
 
 Promise.all([
-  fetch("data/stations/southeastern.json")
+fetch(`data/stations/${network}.json`)
     .then(r => r.json()),
 
-  fetch("data/clues/southeastern-clues.json")
+  fetch(`data/clues/${network}-clues.json`)
     .then(r => r.json()),
 
   fetch("data/landmark-challenges.json")

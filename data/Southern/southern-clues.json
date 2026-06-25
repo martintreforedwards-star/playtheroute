@@ -8,9 +8,9 @@
       "weight": "high"
     },
     {
-      "display": "Direct to Charing Cross",
+      "display": "Direct to London Victoria",
       "type": "field",
-      "field": "direct_to_charing_cross",
+      "field": "direct_to_london_victoria",
       "value": true,
       "weight": "high"
     },
@@ -29,21 +29,21 @@
       "weight": "medium"
     },
     {
-      "display": "Direct to Victoria",
+      "display": "Direct to London Victoria",
       "type": "field",
       "field": "direct_to_victoria",
       "value": true,
       "weight": "high"
     },
     {
-      "display": "Direct to Cannon Street",
+      "display": "Direct to London Bridge",
       "type": "field",
-      "field": "direct_to_cannon_street",
+      "field": "direct_to_london_bridge",
       "value": true,
       "weight": "high"
     },
     {
-      "display": "Direct to St Pancras",
+      "display": "Direct to St Pancras International",
       "type": "field",
       "field": "direct_to_st_pancras",
       "value": true,
@@ -107,57 +107,54 @@
       "weight": "low",
       "category": "name"
     },
-  {
-  "display": "Contains a Nature Word",
-  "type": "word_group",
-  "field": "station_name",
-  "group": "nature",
-  "weight": "medium",
-  "category": "name"
-},
-
-{
-  "display": "Contains a Compass Direction",
-  "type": "word_group",
-  "field": "station_name",
-  "group": "direction",
-  "weight": "medium",
-  "category": "name"
-},
-{
-  "display": "Contains a Settlement Word",
-  "type": "word_group",
-  "field": "station_name",
-  "group": "settlement",
-  "weight": "medium",
-  "category": "name"
-},
-{
-  "display": "Contains a Religious Word",
-  "type": "word_group",
-  "field": "station_name",
-  "group": "religious",
-  "weight": "medium",
-  "category": "name"
-}, 
-      
-{
-  "display": "One Word",
-  "type": "field",
-  "field": "word_count_band",
-  "value": "single",
-  "weight": "medium",
-  "category": "name"
-},
-
-{
-  "display": "Multiple Words",
-  "type": "field",
-  "field": "word_count_band",
-  "value": "multiple",
-  "weight": "medium",
-  "category": "name"
-},
+    {
+      "display": "Contains a Nature Word",
+      "type": "word_group",
+      "field": "station_name",
+      "group": "nature",
+      "weight": "medium",
+      "category": "name"
+    },
+    {
+      "display": "Contains a Compass Direction",
+      "type": "word_group",
+      "field": "station_name",
+      "group": "direction",
+      "weight": "medium",
+      "category": "name"
+    },
+    {
+      "display": "Contains a Settlement Word",
+      "type": "word_group",
+      "field": "station_name",
+      "group": "settlement",
+      "weight": "medium",
+      "category": "name"
+    },
+    {
+      "display": "Contains a Religious Word",
+      "type": "word_group",
+      "field": "station_name",
+      "group": "religious",
+      "weight": "medium",
+      "category": "name"
+    },
+    {
+      "display": "One Word",
+      "type": "field",
+      "field": "word_count_band",
+      "value": "single",
+      "weight": "medium",
+      "category": "name"
+    },
+    {
+      "display": "Multiple Words",
+      "type": "field",
+      "field": "word_count_band",
+      "value": "multiple",
+      "weight": "medium",
+      "category": "name"
+    },
     {
       "display": "Under 60 mins from London",
       "type": "range",
@@ -232,108 +229,179 @@
       "category": "service"
     },
     {
-      "display": "East Kent",
+      "display": "Brighton Main Line",
       "type": "field",
       "field": "region",
-      "value": "East Kent",
+      "value": "Brighton Main Line",
       "weight": "medium",
       "category": "geography"
     },
     {
-      "display": "Canterbury District",
+      "display": "West Coastway",
       "type": "field",
       "field": "region",
-      "value": "Canterbury District",
+      "value": "West Coastway",
       "weight": "medium",
       "category": "geography"
     },
     {
-      "display": "Medway",
+      "display": "East Coastway",
       "type": "field",
       "field": "region",
-      "value": "Medway",
+      "value": "East Coastway",
       "weight": "medium",
       "category": "geography"
     },
     {
-      "display": "North Kent",
+      "display": "Arun Valley",
       "type": "field",
       "field": "region",
-      "value": "North Kent",
+      "value": "Arun Valley",
       "weight": "medium",
       "category": "geography"
     },
     {
-      "display": "South East London",
+      "display": "Portsmouth",
       "type": "field",
       "field": "region",
-      "value": "South East London",
-      "weight": "high",
-      "category": "geography"
-    },
-    {
-      "display": "Thanet",
-      "type": "field",
-      "field": "region",
-      "value": "Thanet",
-      "weight": "low",
-      "category": "geography"
-    },
-    {
-      "display": "Weald",
-      "type": "field",
-      "field": "region",
-      "value": "Weald",
+      "value": "Portsmouth",
       "weight": "medium",
       "category": "geography"
     },
-
     {
-      "display": "High Speed 1",
+      "display": "Uckfield Branch",
+      "type": "field",
+      "field": "region",
+      "value": "Uckfield Branch",
+      "weight": "medium",
+      "category": "geography"
+    },
+    {
+      "display": "East Grinstead Branch",
+      "type": "field",
+      "field": "region",
+      "value": "East Grinstead Branch",
+      "weight": "medium",
+      "category": "geography"
+    },
+    {
+      "display": "Mole Valley",
+      "type": "field",
+      "field": "region",
+      "value": "Mole Valley",
+      "weight": "medium",
+      "category": "geography"
+    },
+    {
+      "display": "Sutton Loop",
+      "type": "field",
+      "field": "region",
+      "value": "Sutton Loop",
+      "weight": "medium",
+      "category": "geography"
+    },
+    {
+      "display": "West London Line",
+      "type": "field",
+      "field": "region",
+      "value": "West London Line",
+      "weight": "medium",
+      "category": "geography"
+    },
+    {
+      "display": "Waterloo",
+      "type": "field",
+      "field": "region",
+      "value": "Waterloo",
+      "weight": "medium",
+      "category": "geography"
+    },
+    {
+      "display": "Brighton Main Line",
       "type": "array_contains",
       "field": "route_groups",
-      "value": "High Speed 1",
+      "value": "Brighton Main Line",
       "weight": "medium",
       "category": "route"
     },
     {
-      "display": "North Kent Route",
+      "display": "West Coastway",
       "type": "array_contains",
       "field": "route_groups",
-      "value": "North Kent",
+      "value": "West Coastway",
       "weight": "medium",
       "category": "route"
     },
     {
-      "display": "Chatham Main Line",
+      "display": "East Coastway",
       "type": "array_contains",
       "field": "route_groups",
-      "value": "Chatham Main Line",
+      "value": "East Coastway",
       "weight": "medium",
       "category": "route"
     },
     {
-      "display": "Greenwich Line",
+      "display": "Arun Valley",
       "type": "array_contains",
       "field": "route_groups",
-      "value": "Greenwich Line",
-      "weight": "low",
-      "category": "route"
-    },
-    {
-      "display": "Sevenoaks Main Line",
-      "type": "array_contains",
-      "field": "route_groups",
-      "value": "Sevenoaks Main Line",
+      "value": "Arun Valley",
       "weight": "medium",
       "category": "route"
     },
     {
-      "display": "Maidstone East",
+      "display": "Portsmouth",
       "type": "array_contains",
       "field": "route_groups",
-      "value": "Maidstone East",
-      "weight": "low",
+      "value": "Portsmouth",
+      "weight": "medium",
+      "category": "route"
+    },
+    {
+      "display": "Uckfield Branch",
+      "type": "array_contains",
+      "field": "route_groups",
+      "value": "Uckfield Branch",
+      "weight": "medium",
+      "category": "route"
+    },
+    {
+      "display": "East Grinstead Branch",
+      "type": "array_contains",
+      "field": "route_groups",
+      "value": "East Grinstead Branch",
+      "weight": "medium",
+      "category": "route"
+    },
+    {
+      "display": "Mole Valley",
+      "type": "array_contains",
+      "field": "route_groups",
+      "value": "Mole Valley",
+      "weight": "medium",
+      "category": "route"
+    },
+    {
+      "display": "Sutton Loop",
+      "type": "array_contains",
+      "field": "route_groups",
+      "value": "Sutton Loop",
+      "weight": "medium",
+      "category": "route"
+    },
+    {
+      "display": "West London Line",
+      "type": "array_contains",
+      "field": "route_groups",
+      "value": "West London Line",
+      "weight": "medium",
+      "category": "route"
+    },
+    {
+      "display": "Waterloo",
+      "type": "array_contains",
+      "field": "route_groups",
+      "value": "Waterloo",
+      "weight": "medium",
       "category": "route"
     }
   ]

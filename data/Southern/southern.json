@@ -31,7 +31,9 @@
     "time_band": "30-60",
     "accessibility_score": "2.0",
     "difficulty_score": "8.0",
-    "route_groups": "['West Coastway']",
+    "route_groups": [
+      "West Coastway"
+    ],
     "region": "West Coastway",
     "is_branch_line": "False",
     "is_mainline": "True",
@@ -77,7 +79,9 @@
     "time_band": "",
     "accessibility_score": "",
     "difficulty_score": "",
-    "route_groups": "['Uckfield Branch']",
+    "route_groups": [
+      "Uckfield Branch"
+    ],
     "region": "Uckfield Branch",
     "is_branch_line": "True",
     "is_mainline": "False",
@@ -92,7 +96,7 @@
     "distance_band": "commuter"
   },
   {
-    "station_id": "SR002",
+    "station_id": "SR003",
     "station_name": "Balcombe",
     "crs": "BAB",
     "operator": "",
@@ -123,7 +127,9 @@
     "time_band": "0-30",
     "accessibility_score": "2.0",
     "difficulty_score": "8.0",
-    "route_groups": "['Brighton Main Line']",
+    "route_groups": [
+      "Brighton Main Line"
+    ],
     "region": "Brighton Main Line",
     "is_branch_line": "False",
     "is_mainline": "True",
@@ -138,7 +144,7 @@
     "distance_band": "inner"
   },
   {
-    "station_id": "SR003",
+    "station_id": "SR004",
     "station_name": "Balham",
     "crs": "BAL",
     "operator": "",
@@ -169,7 +175,9 @@
     "time_band": "0-30",
     "accessibility_score": "4.0",
     "difficulty_score": "6.0",
-    "route_groups": "['Sutton & Metro']",
+    "route_groups": [
+      "Sutton & Metro"
+    ],
     "region": "Sutton & Metro",
     "is_branch_line": "False",
     "is_mainline": "True",
@@ -184,7 +192,7 @@
     "distance_band": "inner"
   },
   {
-    "station_id": "SR004",
+    "station_id": "SR005",
     "station_name": "Barnham",
     "crs": "BAA",
     "operator": "",
@@ -215,7 +223,10 @@
     "time_band": "0-30",
     "accessibility_score": "2.0",
     "difficulty_score": "8.0",
-    "route_groups": "['West Coastway', 'Arun Valley']",
+    "route_groups": [
+      "West Coastway",
+      "Arun Valley"
+    ],
     "region": "West Coastway",
     "is_branch_line": "False",
     "is_mainline": "True",
@@ -230,7 +241,7 @@
     "distance_band": "outer"
   },
   {
-    "station_id": "SR005",
+    "station_id": "SR006",
     "station_name": "Basingstoke",
     "crs": "BSK",
     "operator": "",
@@ -261,7 +272,9 @@
     "time_band": "30-60",
     "accessibility_score": "2.0",
     "difficulty_score": "8.0",
-    "route_groups": "['Portsmouth Direct']",
+    "route_groups": [
+      "Portsmouth Direct"
+    ],
     "region": "Portsmouth Direct",
     "is_branch_line": "False",
     "is_mainline": "True",
@@ -276,7 +289,7 @@
     "distance_band": "commuter"
   },
   {
-    "station_id": "SR006",
+    "station_id": "SR007",
     "station_name": "Bat & Ball",
     "crs": "BBL",
     "operator": "",
@@ -307,7 +320,9 @@
     "time_band": "0-30",
     "accessibility_score": "2.0",
     "difficulty_score": "8.0",
-    "route_groups": "['Southern Thameslink Branches']",
+    "route_groups": [
+      "Southern Thameslink Branches"
+    ],
     "region": "Southern Thameslink Branches",
     "is_branch_line": "False",
     "is_mainline": "True",
@@ -322,7 +337,7 @@
     "distance_band": "outer"
   },
   {
-    "station_id": "SR007",
+    "station_id": "SR008",
     "station_name": "Battle",
     "crs": "BAT",
     "operator": "",
@@ -353,7 +368,9 @@
     "time_band": "60-120",
     "accessibility_score": "2.0",
     "difficulty_score": "8.0",
-    "route_groups": "['East Coastway']",
+    "route_groups": [
+      "East Coastway"
+    ],
     "region": "East Coastway",
     "is_branch_line": "False",
     "is_mainline": "True",
@@ -368,7 +385,7 @@
     "distance_band": "regional"
   },
   {
-    "station_id": "SR008",
+    "station_id": "SR009",
     "station_name": "Berwick",
     "crs": "BRK",
     "operator": "",
@@ -399,7 +416,9 @@
     "time_band": "30-60",
     "accessibility_score": "2.0",
     "difficulty_score": "8.0",
-    "route_groups": "['East Coastway']",
+    "route_groups": [
+      "East Coastway"
+    ],
     "region": "East Coastway",
     "is_branch_line": "False",
     "is_mainline": "True",
@@ -414,7 +433,7 @@
     "distance_band": "commuter"
   },
   {
-    "station_id": "SR009",
+    "station_id": "SR010",
     "station_name": "Bexhill",
     "crs": "BEX",
     "operator": "",
@@ -445,7 +464,9 @@
     "time_band": "60-120",
     "accessibility_score": "2.0",
     "difficulty_score": "8.0",
-    "route_groups": "['East Coastway']",
+    "route_groups": [
+      "East Coastway"
+    ],
     "region": "East Coastway",
     "is_branch_line": "False",
     "is_mainline": "True",
@@ -491,7 +512,10 @@
     "time_band": "",
     "accessibility_score": "",
     "difficulty_score": "",
-    "route_groups": "['Thameslink Core', 'Southern Thameslink Branches']",
+    "route_groups": [
+      "Thameslink Core",
+      "Southern Thameslink Branches"
+    ],
     "region": "Thameslink Core",
     "is_branch_line": "False",
     "is_mainline": "True",
@@ -537,7 +561,9 @@
     "time_band": "",
     "accessibility_score": "",
     "difficulty_score": "",
-    "route_groups": "['West Coastway']",
+    "route_groups": [
+      "West Coastway"
+    ],
     "region": "West Coastway",
     "is_branch_line": "False",
     "is_mainline": "True",
@@ -552,7 +578,7 @@
     "distance_band": "regional"
   },
   {
-    "station_id": "SR010",
+    "station_id": "SR013",
     "station_name": "Bosham",
     "crs": "BOH",
     "operator": "",
@@ -583,7 +609,9 @@
     "time_band": "30-60",
     "accessibility_score": "2.0",
     "difficulty_score": "8.0",
-    "route_groups": "['West Coastway']",
+    "route_groups": [
+      "West Coastway"
+    ],
     "region": "West Coastway",
     "is_branch_line": "False",
     "is_mainline": "True",
@@ -598,7 +626,7 @@
     "distance_band": "commuter"
   },
   {
-    "station_id": "SR011",
+    "station_id": "SR014",
     "station_name": "Brighton",
     "crs": "BTN",
     "operator": "",
@@ -629,7 +657,11 @@
     "time_band": "0-30",
     "accessibility_score": "6.0",
     "difficulty_score": "4.0",
-    "route_groups": "['Brighton Main Line', 'East Coastway', 'West Coastway']",
+    "route_groups": [
+      "Brighton Main Line",
+      "East Coastway",
+      "West Coastway"
+    ],
     "region": "Brighton Main Line",
     "is_branch_line": "False",
     "is_mainline": "True",
@@ -644,7 +676,7 @@
     "distance_band": "inner"
   },
   {
-    "station_id": "SR012",
+    "station_id": "SR015",
     "station_name": "Burgess Hill",
     "crs": "BUG",
     "operator": "",
@@ -675,7 +707,9 @@
     "time_band": "0-30",
     "accessibility_score": "2.0",
     "difficulty_score": "8.0",
-    "route_groups": "['Brighton Main Line']",
+    "route_groups": [
+      "Brighton Main Line"
+    ],
     "region": "Brighton Main Line",
     "is_branch_line": "False",
     "is_mainline": "True",
@@ -721,7 +755,9 @@
     "time_band": "",
     "accessibility_score": "",
     "difficulty_score": "",
-    "route_groups": "['Uckfield Branch']",
+    "route_groups": [
+      "Uckfield Branch"
+    ],
     "region": "Uckfield Branch",
     "is_branch_line": "True",
     "is_mainline": "False",
@@ -736,7 +772,7 @@
     "distance_band": "regional"
   },
   {
-    "station_id": "SR013",
+    "station_id": "SR017",
     "station_name": "Carshalton",
     "crs": "CSH",
     "operator": "",
@@ -767,7 +803,9 @@
     "time_band": "30-60",
     "accessibility_score": "2.0",
     "difficulty_score": "8.0",
-    "route_groups": "['Sutton & Metro']",
+    "route_groups": [
+      "Sutton & Metro"
+    ],
     "region": "Sutton & Metro",
     "is_branch_line": "False",
     "is_mainline": "True",
@@ -782,7 +820,7 @@
     "distance_band": "commuter"
   },
   {
-    "station_id": "SR014",
+    "station_id": "SR018",
     "station_name": "Chichester",
     "crs": "CCH",
     "operator": "",
@@ -813,7 +851,9 @@
     "time_band": "30-60",
     "accessibility_score": "2.0",
     "difficulty_score": "8.0",
-    "route_groups": "['West Coastway']",
+    "route_groups": [
+      "West Coastway"
+    ],
     "region": "West Coastway",
     "is_branch_line": "False",
     "is_mainline": "True",
@@ -859,7 +899,10 @@
     "time_band": "",
     "accessibility_score": "",
     "difficulty_score": "",
-    "route_groups": "['Thameslink Core', 'Southern Thameslink Branches']",
+    "route_groups": [
+      "Thameslink Core",
+      "Southern Thameslink Branches"
+    ],
     "region": "Thameslink Core",
     "is_branch_line": "False",
     "is_mainline": "True",
@@ -874,7 +917,7 @@
     "distance_band": "inner"
   },
   {
-    "station_id": "SR015",
+    "station_id": "SR020",
     "station_name": "Clapham Junction",
     "crs": "CLJ",
     "operator": "",
@@ -905,7 +948,10 @@
     "time_band": "0-30",
     "accessibility_score": "8.0",
     "difficulty_score": "2.0",
-    "route_groups": "['Brighton Main Line', 'Portsmouth Direct']",
+    "route_groups": [
+      "Brighton Main Line",
+      "Portsmouth Direct"
+    ],
     "region": "Brighton Main Line",
     "is_branch_line": "False",
     "is_mainline": "True",
@@ -920,7 +966,7 @@
     "distance_band": "inner"
   },
   {
-    "station_id": "SR016",
+    "station_id": "SR021",
     "station_name": "Collington",
     "crs": "CLL",
     "operator": "",
@@ -951,7 +997,9 @@
     "time_band": "60-120",
     "accessibility_score": "2.0",
     "difficulty_score": "8.0",
-    "route_groups": "['East Coastway']",
+    "route_groups": [
+      "East Coastway"
+    ],
     "region": "East Coastway",
     "is_branch_line": "False",
     "is_mainline": "True",
@@ -966,7 +1014,7 @@
     "distance_band": "regional"
   },
   {
-    "station_id": "SR017",
+    "station_id": "SR022",
     "station_name": "Cooden Beach",
     "crs": "COB",
     "operator": "",
@@ -997,7 +1045,9 @@
     "time_band": "60-120",
     "accessibility_score": "2.0",
     "difficulty_score": "8.0",
-    "route_groups": "['East Coastway']",
+    "route_groups": [
+      "East Coastway"
+    ],
     "region": "East Coastway",
     "is_branch_line": "False",
     "is_mainline": "True",
@@ -1012,7 +1062,7 @@
     "distance_band": "regional"
   },
   {
-    "station_id": "SR018",
+    "station_id": "SR023",
     "station_name": "Cosham",
     "crs": "CSA",
     "operator": "",
@@ -1043,7 +1093,9 @@
     "time_band": "30-60",
     "accessibility_score": "2.0",
     "difficulty_score": "8.0",
-    "route_groups": "['Portsmouth Direct']",
+    "route_groups": [
+      "Portsmouth Direct"
+    ],
     "region": "Portsmouth Direct",
     "is_branch_line": "False",
     "is_mainline": "True",
@@ -1058,7 +1110,7 @@
     "distance_band": "commuter"
   },
   {
-    "station_id": "SR019",
+    "station_id": "SR024",
     "station_name": "Coulsdon South",
     "crs": "CDS",
     "operator": "",
@@ -1089,7 +1141,9 @@
     "time_band": "0-30",
     "accessibility_score": "2.0",
     "difficulty_score": "8.0",
-    "route_groups": "['Brighton Main Line']",
+    "route_groups": [
+      "Brighton Main Line"
+    ],
     "region": "Brighton Main Line",
     "is_branch_line": "False",
     "is_mainline": "True",
@@ -1135,7 +1189,9 @@
     "time_band": "",
     "accessibility_score": "",
     "difficulty_score": "",
-    "route_groups": "['Uckfield Branch']",
+    "route_groups": [
+      "Uckfield Branch"
+    ],
     "region": "Uckfield Branch",
     "is_branch_line": "True",
     "is_mainline": "False",
@@ -1181,7 +1237,9 @@
     "time_band": "",
     "accessibility_score": "",
     "difficulty_score": "",
-    "route_groups": "['Uckfield Branch']",
+    "route_groups": [
+      "Uckfield Branch"
+    ],
     "region": "Uckfield Branch",
     "is_branch_line": "True",
     "is_mainline": "False",
@@ -1227,7 +1285,9 @@
     "time_band": "",
     "accessibility_score": "",
     "difficulty_score": "",
-    "route_groups": "['Arun Valley']",
+    "route_groups": [
+      "Arun Valley"
+    ],
     "region": "Arun Valley",
     "is_branch_line": "False",
     "is_mainline": "True",
@@ -1273,7 +1333,9 @@
     "time_band": "",
     "accessibility_score": "",
     "difficulty_score": "",
-    "route_groups": "['Arun Valley']",
+    "route_groups": [
+      "Arun Valley"
+    ],
     "region": "Arun Valley",
     "is_branch_line": "False",
     "is_mainline": "True",
@@ -1319,7 +1381,9 @@
     "time_band": "",
     "accessibility_score": "",
     "difficulty_score": "",
-    "route_groups": "['East Grinstead Branch']",
+    "route_groups": [
+      "East Grinstead Branch"
+    ],
     "region": "East Grinstead Branch",
     "is_branch_line": "True",
     "is_mainline": "False",
@@ -1334,7 +1398,7 @@
     "distance_band": "commuter"
   },
   {
-    "station_id": "SR020",
+    "station_id": "SR030",
     "station_name": "Dunton Green",
     "crs": "DNG",
     "operator": "",
@@ -1365,7 +1429,9 @@
     "time_band": "30-60",
     "accessibility_score": "2.0",
     "difficulty_score": "8.0",
-    "route_groups": "['Southern Thameslink Branches']",
+    "route_groups": [
+      "Southern Thameslink Branches"
+    ],
     "region": "Southern Thameslink Branches",
     "is_branch_line": "False",
     "is_mainline": "True",
@@ -1380,7 +1446,7 @@
     "distance_band": "outer"
   },
   {
-    "station_id": "SR021",
+    "station_id": "SR031",
     "station_name": "Durrington-on-Sea",
     "crs": "DUR",
     "operator": "",
@@ -1411,7 +1477,9 @@
     "time_band": "30-60",
     "accessibility_score": "2.0",
     "difficulty_score": "8.0",
-    "route_groups": "['West Coastway']",
+    "route_groups": [
+      "West Coastway"
+    ],
     "region": "West Coastway",
     "is_branch_line": "False",
     "is_mainline": "True",
@@ -1426,7 +1494,7 @@
     "distance_band": "outer"
   },
   {
-    "station_id": "SR022",
+    "station_id": "SR032",
     "station_name": "Earlswood",
     "crs": "ELD",
     "operator": "",
@@ -1457,7 +1525,9 @@
     "time_band": "0-30",
     "accessibility_score": "2.0",
     "difficulty_score": "8.0",
-    "route_groups": "['Brighton Main Line']",
+    "route_groups": [
+      "Brighton Main Line"
+    ],
     "region": "Brighton Main Line",
     "is_branch_line": "False",
     "is_mainline": "True",
@@ -1472,7 +1542,7 @@
     "distance_band": "outer"
   },
   {
-    "station_id": "SR023",
+    "station_id": "SR033",
     "station_name": "East Croydon",
     "crs": "ECR",
     "operator": "",
@@ -1503,7 +1573,11 @@
     "time_band": "0-30",
     "accessibility_score": "2.0",
     "difficulty_score": "8.0",
-    "route_groups": "['Brighton Main Line', 'East Grinstead Branch', 'Uckfield Branch']",
+    "route_groups": [
+      "Brighton Main Line",
+      "East Grinstead Branch",
+      "Uckfield Branch"
+    ],
     "region": "Brighton Main Line",
     "is_branch_line": "True",
     "is_mainline": "False",
@@ -1549,7 +1623,9 @@
     "time_band": "",
     "accessibility_score": "",
     "difficulty_score": "",
-    "route_groups": "['East Grinstead Branch']",
+    "route_groups": [
+      "East Grinstead Branch"
+    ],
     "region": "East Grinstead Branch",
     "is_branch_line": "True",
     "is_mainline": "False",
@@ -1595,7 +1671,9 @@
     "time_band": "",
     "accessibility_score": "",
     "difficulty_score": "",
-    "route_groups": "['West Coastway']",
+    "route_groups": [
+      "West Coastway"
+    ],
     "region": "West Coastway",
     "is_branch_line": "False",
     "is_mainline": "True",
@@ -1610,7 +1688,7 @@
     "distance_band": "regional"
   },
   {
-    "station_id": "SR024",
+    "station_id": "SR036",
     "station_name": "Eastbourne",
     "crs": "EBN",
     "operator": "",
@@ -1641,7 +1719,9 @@
     "time_band": "30-60",
     "accessibility_score": "2.0",
     "difficulty_score": "8.0",
-    "route_groups": "['East Coastway']",
+    "route_groups": [
+      "East Coastway"
+    ],
     "region": "East Coastway",
     "is_branch_line": "False",
     "is_mainline": "True",
@@ -1687,7 +1767,9 @@
     "time_band": "",
     "accessibility_score": "",
     "difficulty_score": "",
-    "route_groups": "['Uckfield Branch']",
+    "route_groups": [
+      "Uckfield Branch"
+    ],
     "region": "Uckfield Branch",
     "is_branch_line": "True",
     "is_mainline": "False",
@@ -1702,7 +1784,7 @@
     "distance_band": "regional"
   },
   {
-    "station_id": "SR025",
+    "station_id": "SR038",
     "station_name": "Emsworth",
     "crs": "EMS",
     "operator": "",
@@ -1733,7 +1815,9 @@
     "time_band": "30-60",
     "accessibility_score": "2.0",
     "difficulty_score": "8.0",
-    "route_groups": "['West Coastway']",
+    "route_groups": [
+      "West Coastway"
+    ],
     "region": "West Coastway",
     "is_branch_line": "False",
     "is_mainline": "True",
@@ -1779,7 +1863,9 @@
     "time_band": "",
     "accessibility_score": "",
     "difficulty_score": "",
-    "route_groups": "['Uckfield Branch']",
+    "route_groups": [
+      "Uckfield Branch"
+    ],
     "region": "Uckfield Branch",
     "is_branch_line": "True",
     "is_mainline": "False",
@@ -1794,7 +1880,7 @@
     "distance_band": "regional"
   },
   {
-    "station_id": "SR026",
+    "station_id": "SR040",
     "station_name": "Etchingham",
     "crs": "ETC",
     "operator": "",
@@ -1825,7 +1911,9 @@
     "time_band": "60-120",
     "accessibility_score": "2.0",
     "difficulty_score": "8.0",
-    "route_groups": "['East Coastway']",
+    "route_groups": [
+      "East Coastway"
+    ],
     "region": "East Coastway",
     "is_branch_line": "False",
     "is_mainline": "True",
@@ -1840,7 +1928,7 @@
     "distance_band": "regional"
   },
   {
-    "station_id": "SR027",
+    "station_id": "SR041",
     "station_name": "Eynsford",
     "crs": "EYN",
     "operator": "",
@@ -1871,7 +1959,9 @@
     "time_band": "0-30",
     "accessibility_score": "2.0",
     "difficulty_score": "8.0",
-    "route_groups": "['Southern Thameslink Branches']",
+    "route_groups": [
+      "Southern Thameslink Branches"
+    ],
     "region": "Southern Thameslink Branches",
     "is_branch_line": "False",
     "is_mainline": "True",
@@ -1886,7 +1976,7 @@
     "distance_band": "inner"
   },
   {
-    "station_id": "SR028",
+    "station_id": "SR042",
     "station_name": "Falmer",
     "crs": "FMR",
     "operator": "",
@@ -1917,7 +2007,9 @@
     "time_band": "0-30",
     "accessibility_score": "2.0",
     "difficulty_score": "8.0",
-    "route_groups": "['East Coastway']",
+    "route_groups": [
+      "East Coastway"
+    ],
     "region": "East Coastway",
     "is_branch_line": "False",
     "is_mainline": "True",
@@ -1932,7 +2024,7 @@
     "distance_band": "outer"
   },
   {
-    "station_id": "SR029",
+    "station_id": "SR043",
     "station_name": "Fareham",
     "crs": "FRM",
     "operator": "",
@@ -1963,7 +2055,9 @@
     "time_band": "60-120",
     "accessibility_score": "2.0",
     "difficulty_score": "8.0",
-    "route_groups": "['Portsmouth Direct']",
+    "route_groups": [
+      "Portsmouth Direct"
+    ],
     "region": "Portsmouth Direct",
     "is_branch_line": "False",
     "is_mainline": "True",
@@ -1978,7 +2072,7 @@
     "distance_band": "regional"
   },
   {
-    "station_id": "SR030",
+    "station_id": "SR044",
     "station_name": "Farningham Road",
     "crs": "FNR",
     "operator": "",
@@ -2009,7 +2103,9 @@
     "time_band": "0-30",
     "accessibility_score": "2.0",
     "difficulty_score": "8.0",
-    "route_groups": "['Southern Thameslink Branches']",
+    "route_groups": [
+      "Southern Thameslink Branches"
+    ],
     "region": "Southern Thameslink Branches",
     "is_branch_line": "False",
     "is_mainline": "True",
@@ -2055,7 +2151,10 @@
     "time_band": "",
     "accessibility_score": "",
     "difficulty_score": "",
-    "route_groups": "['Thameslink Core', 'Southern Thameslink Branches']",
+    "route_groups": [
+      "Thameslink Core",
+      "Southern Thameslink Branches"
+    ],
     "region": "Thameslink Core",
     "is_branch_line": "False",
     "is_mainline": "True",
@@ -2070,7 +2169,7 @@
     "distance_band": "inner"
   },
   {
-    "station_id": "SR031",
+    "station_id": "SR046",
     "station_name": "Fishbourne",
     "crs": "FSB",
     "operator": "",
@@ -2101,7 +2200,9 @@
     "time_band": "30-60",
     "accessibility_score": "2.0",
     "difficulty_score": "8.0",
-    "route_groups": "['West Coastway']",
+    "route_groups": [
+      "West Coastway"
+    ],
     "region": "West Coastway",
     "is_branch_line": "False",
     "is_mainline": "True",
@@ -2116,7 +2217,7 @@
     "distance_band": "outer"
   },
   {
-    "station_id": "SR032",
+    "station_id": "SR047",
     "station_name": "Ford",
     "crs": "FOD",
     "operator": "",
@@ -2147,7 +2248,10 @@
     "time_band": "30-60",
     "accessibility_score": "2.0",
     "difficulty_score": "8.0",
-    "route_groups": "['West Coastway', 'Arun Valley']",
+    "route_groups": [
+      "West Coastway",
+      "Arun Valley"
+    ],
     "region": "West Coastway",
     "is_branch_line": "False",
     "is_mainline": "True",
@@ -2162,7 +2266,7 @@
     "distance_band": "outer"
   },
   {
-    "station_id": "SR033",
+    "station_id": "SR048",
     "station_name": "Frant",
     "crs": "FRT",
     "operator": "",
@@ -2193,7 +2297,9 @@
     "time_band": "30-60",
     "accessibility_score": "2.0",
     "difficulty_score": "8.0",
-    "route_groups": "['Uckfield Branch']",
+    "route_groups": [
+      "Uckfield Branch"
+    ],
     "region": "Uckfield Branch",
     "is_branch_line": "True",
     "is_mainline": "False",
@@ -2208,7 +2314,7 @@
     "distance_band": "commuter"
   },
   {
-    "station_id": "SR034",
+    "station_id": "SR049",
     "station_name": "Fratton",
     "crs": "FTN",
     "operator": "",
@@ -2239,7 +2345,10 @@
     "time_band": "30-60",
     "accessibility_score": "2.0",
     "difficulty_score": "8.0",
-    "route_groups": "['West Coastway', 'Portsmouth Direct']",
+    "route_groups": [
+      "West Coastway",
+      "Portsmouth Direct"
+    ],
     "region": "West Coastway",
     "is_branch_line": "False",
     "is_mainline": "True",
@@ -2254,7 +2363,7 @@
     "distance_band": "commuter"
   },
   {
-    "station_id": "SR035",
+    "station_id": "SR050",
     "station_name": "Gatwick Airport",
     "crs": "GTW",
     "operator": "",
@@ -2285,7 +2394,9 @@
     "time_band": "0-30",
     "accessibility_score": "2.0",
     "difficulty_score": "8.0",
-    "route_groups": "['Brighton Main Line']",
+    "route_groups": [
+      "Brighton Main Line"
+    ],
     "region": "Brighton Main Line",
     "is_branch_line": "False",
     "is_mainline": "True",
@@ -2300,7 +2411,7 @@
     "distance_band": "inner"
   },
   {
-    "station_id": "SR036",
+    "station_id": "SR051",
     "station_name": "Glynde",
     "crs": "GLY",
     "operator": "",
@@ -2331,7 +2442,9 @@
     "time_band": "30-60",
     "accessibility_score": "2.0",
     "difficulty_score": "8.0",
-    "route_groups": "['East Coastway']",
+    "route_groups": [
+      "East Coastway"
+    ],
     "region": "East Coastway",
     "is_branch_line": "False",
     "is_mainline": "True",
@@ -2346,7 +2459,7 @@
     "distance_band": "outer"
   },
   {
-    "station_id": "SR037",
+    "station_id": "SR052",
     "station_name": "Goring-by-Sea",
     "crs": "GBS",
     "operator": "",
@@ -2377,7 +2490,9 @@
     "time_band": "30-60",
     "accessibility_score": "2.0",
     "difficulty_score": "8.0",
-    "route_groups": "['West Coastway']",
+    "route_groups": [
+      "West Coastway"
+    ],
     "region": "West Coastway",
     "is_branch_line": "False",
     "is_mainline": "True",
@@ -2392,7 +2507,7 @@
     "distance_band": "outer"
   },
   {
-    "station_id": "SR038",
+    "station_id": "SR053",
     "station_name": "Hackbridge",
     "crs": "HCB",
     "operator": "",
@@ -2423,7 +2538,9 @@
     "time_band": "30-60",
     "accessibility_score": "2.0",
     "difficulty_score": "8.0",
-    "route_groups": "['Sutton & Metro']",
+    "route_groups": [
+      "Sutton & Metro"
+    ],
     "region": "Sutton & Metro",
     "is_branch_line": "False",
     "is_mainline": "True",
@@ -2438,7 +2555,7 @@
     "distance_band": "commuter"
   },
   {
-    "station_id": "SR039",
+    "station_id": "SR054",
     "station_name": "Hampden Park",
     "crs": "HMD",
     "operator": "",
@@ -2469,7 +2586,9 @@
     "time_band": "30-60",
     "accessibility_score": "2.0",
     "difficulty_score": "8.0",
-    "route_groups": "['East Coastway']",
+    "route_groups": [
+      "East Coastway"
+    ],
     "region": "East Coastway",
     "is_branch_line": "False",
     "is_mainline": "True",
@@ -2484,7 +2603,7 @@
     "distance_band": "commuter"
   },
   {
-    "station_id": "SR040",
+    "station_id": "SR055",
     "station_name": "Hassocks",
     "crs": "HSK",
     "operator": "",
@@ -2515,7 +2634,9 @@
     "time_band": "0-30",
     "accessibility_score": "2.0",
     "difficulty_score": "8.0",
-    "route_groups": "['Brighton Main Line']",
+    "route_groups": [
+      "Brighton Main Line"
+    ],
     "region": "Brighton Main Line",
     "is_branch_line": "False",
     "is_mainline": "True",
@@ -2530,7 +2651,7 @@
     "distance_band": "outer"
   },
   {
-    "station_id": "SR041",
+    "station_id": "SR056",
     "station_name": "Hastings",
     "crs": "HGS",
     "operator": "",
@@ -2561,7 +2682,9 @@
     "time_band": "60-120",
     "accessibility_score": "4.0",
     "difficulty_score": "6.0",
-    "route_groups": "['East Coastway']",
+    "route_groups": [
+      "East Coastway"
+    ],
     "region": "East Coastway",
     "is_branch_line": "False",
     "is_mainline": "True",
@@ -2576,7 +2699,7 @@
     "distance_band": "regional"
   },
   {
-    "station_id": "SR042",
+    "station_id": "SR057",
     "station_name": "Havant",
     "crs": "HAV",
     "operator": "",
@@ -2607,7 +2730,10 @@
     "time_band": "30-60",
     "accessibility_score": "2.0",
     "difficulty_score": "8.0",
-    "route_groups": "['West Coastway', 'Portsmouth Direct']",
+    "route_groups": [
+      "West Coastway",
+      "Portsmouth Direct"
+    ],
     "region": "West Coastway",
     "is_branch_line": "False",
     "is_mainline": "True",
@@ -2622,7 +2748,7 @@
     "distance_band": "outer"
   },
   {
-    "station_id": "SR043",
+    "station_id": "SR058",
     "station_name": "Haywards Heath",
     "crs": "HHE",
     "operator": "",
@@ -2653,7 +2779,9 @@
     "time_band": "0-30",
     "accessibility_score": "2.0",
     "difficulty_score": "8.0",
-    "route_groups": "['Brighton Main Line']",
+    "route_groups": [
+      "Brighton Main Line"
+    ],
     "region": "Brighton Main Line",
     "is_branch_line": "False",
     "is_mainline": "True",
@@ -2668,7 +2796,7 @@
     "distance_band": "inner"
   },
   {
-    "station_id": "SR044",
+    "station_id": "SR059",
     "station_name": "Hedge End",
     "crs": "HDE",
     "operator": "",
@@ -2699,7 +2827,9 @@
     "time_band": "60-120",
     "accessibility_score": "2.0",
     "difficulty_score": "8.0",
-    "route_groups": "['Portsmouth Direct']",
+    "route_groups": [
+      "Portsmouth Direct"
+    ],
     "region": "Portsmouth Direct",
     "is_branch_line": "False",
     "is_mainline": "True",
@@ -2745,7 +2875,9 @@
     "time_band": "",
     "accessibility_score": "",
     "difficulty_score": "",
-    "route_groups": "['Uckfield Branch']",
+    "route_groups": [
+      "Uckfield Branch"
+    ],
     "region": "Uckfield Branch",
     "is_branch_line": "True",
     "is_mainline": "False",
@@ -2760,7 +2892,7 @@
     "distance_band": "regional"
   },
   {
-    "station_id": "SR045",
+    "station_id": "SR061",
     "station_name": "High Brooms",
     "crs": "HIB",
     "operator": "",
@@ -2791,7 +2923,9 @@
     "time_band": "30-60",
     "accessibility_score": "2.0",
     "difficulty_score": "8.0",
-    "route_groups": "['Uckfield Branch']",
+    "route_groups": [
+      "Uckfield Branch"
+    ],
     "region": "Uckfield Branch",
     "is_branch_line": "True",
     "is_mainline": "False",
@@ -2806,7 +2940,7 @@
     "distance_band": "commuter"
   },
   {
-    "station_id": "SR046",
+    "station_id": "SR062",
     "station_name": "Hildenborough",
     "crs": "HLB",
     "operator": "",
@@ -2837,7 +2971,9 @@
     "time_band": "30-60",
     "accessibility_score": "2.0",
     "difficulty_score": "8.0",
-    "route_groups": "['Southern Thameslink Branches']",
+    "route_groups": [
+      "Southern Thameslink Branches"
+    ],
     "region": "Southern Thameslink Branches",
     "is_branch_line": "False",
     "is_mainline": "True",
@@ -2852,7 +2988,7 @@
     "distance_band": "commuter"
   },
   {
-    "station_id": "SR047",
+    "station_id": "SR063",
     "station_name": "Hilsea",
     "crs": "HLS",
     "operator": "",
@@ -2883,7 +3019,9 @@
     "time_band": "30-60",
     "accessibility_score": "2.0",
     "difficulty_score": "8.0",
-    "route_groups": "['Portsmouth Direct']",
+    "route_groups": [
+      "Portsmouth Direct"
+    ],
     "region": "Portsmouth Direct",
     "is_branch_line": "False",
     "is_mainline": "True",
@@ -2929,7 +3067,9 @@
     "time_band": "",
     "accessibility_score": "",
     "difficulty_score": "",
-    "route_groups": "['Arun Valley']",
+    "route_groups": [
+      "Arun Valley"
+    ],
     "region": "Arun Valley",
     "is_branch_line": "False",
     "is_mainline": "True",
@@ -2944,7 +3084,7 @@
     "distance_band": "regional"
   },
   {
-    "station_id": "SR048",
+    "station_id": "SR065",
     "station_name": "Horley",
     "crs": "HOR",
     "operator": "",
@@ -2975,7 +3115,9 @@
     "time_band": "0-30",
     "accessibility_score": "2.0",
     "difficulty_score": "8.0",
-    "route_groups": "['Brighton Main Line']",
+    "route_groups": [
+      "Brighton Main Line"
+    ],
     "region": "Brighton Main Line",
     "is_branch_line": "False",
     "is_mainline": "True",
@@ -3021,7 +3163,9 @@
     "time_band": "",
     "accessibility_score": "",
     "difficulty_score": "",
-    "route_groups": "['Arun Valley']",
+    "route_groups": [
+      "Arun Valley"
+    ],
     "region": "Arun Valley",
     "is_branch_line": "False",
     "is_mainline": "True",
@@ -3036,7 +3180,7 @@
     "distance_band": "commuter"
   },
   {
-    "station_id": "SR049",
+    "station_id": "SR067",
     "station_name": "Hove",
     "crs": "HOV",
     "operator": "",
@@ -3067,7 +3211,9 @@
     "time_band": "0-30",
     "accessibility_score": "2.0",
     "difficulty_score": "8.0",
-    "route_groups": "['West Coastway']",
+    "route_groups": [
+      "West Coastway"
+    ],
     "region": "West Coastway",
     "is_branch_line": "False",
     "is_mainline": "True",
@@ -3113,7 +3259,10 @@
     "time_band": "",
     "accessibility_score": "",
     "difficulty_score": "",
-    "route_groups": "['East Grinstead Branch', 'Uckfield Branch']",
+    "route_groups": [
+      "East Grinstead Branch",
+      "Uckfield Branch"
+    ],
     "region": "East Grinstead Branch",
     "is_branch_line": "True",
     "is_mainline": "False",
@@ -3128,7 +3277,7 @@
     "distance_band": "commuter"
   },
   {
-    "station_id": "SR050",
+    "station_id": "SR069",
     "station_name": "Kensington Olympia",
     "crs": "KPA",
     "operator": "",
@@ -3159,7 +3308,9 @@
     "time_band": "0-30",
     "accessibility_score": "2.0",
     "difficulty_score": "8.0",
-    "route_groups": "['Southern Thameslink Branches']",
+    "route_groups": [
+      "Southern Thameslink Branches"
+    ],
     "region": "Southern Thameslink Branches",
     "is_branch_line": "False",
     "is_mainline": "True",
@@ -3174,7 +3325,7 @@
     "distance_band": "inner"
   },
   {
-    "station_id": "SR051",
+    "station_id": "SR070",
     "station_name": "Lancing",
     "crs": "LAC",
     "operator": "",
@@ -3205,7 +3356,9 @@
     "time_band": "0-30",
     "accessibility_score": "2.0",
     "difficulty_score": "8.0",
-    "route_groups": "['West Coastway']",
+    "route_groups": [
+      "West Coastway"
+    ],
     "region": "West Coastway",
     "is_branch_line": "False",
     "is_mainline": "True",
@@ -3220,7 +3373,7 @@
     "distance_band": "outer"
   },
   {
-    "station_id": "SR052",
+    "station_id": "SR071",
     "station_name": "Lewes",
     "crs": "LWS",
     "operator": "",
@@ -3251,7 +3404,9 @@
     "time_band": "30-60",
     "accessibility_score": "2.0",
     "difficulty_score": "8.0",
-    "route_groups": "['East Coastway']",
+    "route_groups": [
+      "East Coastway"
+    ],
     "region": "East Coastway",
     "is_branch_line": "False",
     "is_mainline": "True",
@@ -3297,7 +3452,9 @@
     "time_band": "",
     "accessibility_score": "",
     "difficulty_score": "",
-    "route_groups": "['East Grinstead Branch']",
+    "route_groups": [
+      "East Grinstead Branch"
+    ],
     "region": "East Grinstead Branch",
     "is_branch_line": "True",
     "is_mainline": "False",
@@ -3312,7 +3469,7 @@
     "distance_band": "commuter"
   },
   {
-    "station_id": "SR053",
+    "station_id": "SR073",
     "station_name": "Littlehampton",
     "crs": "LIT",
     "operator": "",
@@ -3343,7 +3500,9 @@
     "time_band": "30-60",
     "accessibility_score": "2.0",
     "difficulty_score": "8.0",
-    "route_groups": "['West Coastway']",
+    "route_groups": [
+      "West Coastway"
+    ],
     "region": "West Coastway",
     "is_branch_line": "False",
     "is_mainline": "True",
@@ -3358,7 +3517,7 @@
     "distance_band": "outer"
   },
   {
-    "station_id": "SR054",
+    "station_id": "SR074",
     "station_name": "London Bridge",
     "crs": "LBG",
     "operator": "",
@@ -3389,7 +3548,10 @@
     "time_band": "",
     "accessibility_score": "2.0",
     "difficulty_score": "8.0",
-    "route_groups": "['Thameslink Core', 'Southern Thameslink Branches']",
+    "route_groups": [
+      "Thameslink Core",
+      "Southern Thameslink Branches"
+    ],
     "region": "Thameslink Core",
     "is_branch_line": "False",
     "is_mainline": "True",
@@ -3404,7 +3566,7 @@
     "distance_band": "inner"
   },
   {
-    "station_id": "SR055",
+    "station_id": "SR075",
     "station_name": "London Road (Brighton)",
     "crs": "LRB",
     "operator": "",
@@ -3435,7 +3597,9 @@
     "time_band": "0-30",
     "accessibility_score": "2.0",
     "difficulty_score": "8.0",
-    "route_groups": "['Brighton Main Line']",
+    "route_groups": [
+      "Brighton Main Line"
+    ],
     "region": "Brighton Main Line",
     "is_branch_line": "False",
     "is_mainline": "True",
@@ -3450,7 +3614,7 @@
     "distance_band": "outer"
   },
   {
-    "station_id": "SR056",
+    "station_id": "SR076",
     "station_name": "London Victoria",
     "crs": "VIC",
     "operator": "",
@@ -3481,7 +3645,10 @@
     "time_band": "",
     "accessibility_score": "4.0",
     "difficulty_score": "6.0",
-    "route_groups": "['Brighton Main Line', 'Portsmouth Direct']",
+    "route_groups": [
+      "Brighton Main Line",
+      "Portsmouth Direct"
+    ],
     "region": "Brighton Main Line",
     "is_branch_line": "False",
     "is_mainline": "True",
@@ -3496,7 +3663,7 @@
     "distance_band": "inner"
   },
   {
-    "station_id": "SR057",
+    "station_id": "SR077",
     "station_name": "London Waterloo",
     "crs": "WAT",
     "operator": "",
@@ -3527,7 +3694,9 @@
     "time_band": "",
     "accessibility_score": "2.0",
     "difficulty_score": "8.0",
-    "route_groups": "['Southern Thameslink Branches']",
+    "route_groups": [
+      "Southern Thameslink Branches"
+    ],
     "region": "Southern Thameslink Branches",
     "is_branch_line": "False",
     "is_mainline": "True",
@@ -3542,7 +3711,7 @@
     "distance_band": "inner"
   },
   {
-    "station_id": "SR058",
+    "station_id": "SR078",
     "station_name": "Merstham",
     "crs": "MHM",
     "operator": "",
@@ -3573,7 +3742,9 @@
     "time_band": "0-30",
     "accessibility_score": "2.0",
     "difficulty_score": "8.0",
-    "route_groups": "['Brighton Main Line']",
+    "route_groups": [
+      "Brighton Main Line"
+    ],
     "region": "Brighton Main Line",
     "is_branch_line": "False",
     "is_mainline": "True",
@@ -3588,7 +3759,7 @@
     "distance_band": "outer"
   },
   {
-    "station_id": "SR059",
+    "station_id": "SR079",
     "station_name": "Mitcham Eastfields",
     "crs": "MTC",
     "operator": "",
@@ -3619,7 +3790,9 @@
     "time_band": "30-60",
     "accessibility_score": "2.0",
     "difficulty_score": "8.0",
-    "route_groups": "['Sutton & Metro']",
+    "route_groups": [
+      "Sutton & Metro"
+    ],
     "region": "Sutton & Metro",
     "is_branch_line": "False",
     "is_mainline": "True",
@@ -3634,7 +3807,7 @@
     "distance_band": "outer"
   },
   {
-    "station_id": "SR060",
+    "station_id": "SR080",
     "station_name": "Mitcham Junction",
     "crs": "MIJ",
     "operator": "",
@@ -3665,7 +3838,9 @@
     "time_band": "30-60",
     "accessibility_score": "2.0",
     "difficulty_score": "8.0",
-    "route_groups": "['Sutton & Metro']",
+    "route_groups": [
+      "Sutton & Metro"
+    ],
     "region": "Sutton & Metro",
     "is_branch_line": "False",
     "is_mainline": "True",
@@ -3680,7 +3855,7 @@
     "distance_band": "outer"
   },
   {
-    "station_id": "SR061",
+    "station_id": "SR081",
     "station_name": "Moulsecoomb",
     "crs": "MCB",
     "operator": "",
@@ -3711,7 +3886,9 @@
     "time_band": "0-30",
     "accessibility_score": "2.0",
     "difficulty_score": "8.0",
-    "route_groups": "['East Coastway']",
+    "route_groups": [
+      "East Coastway"
+    ],
     "region": "East Coastway",
     "is_branch_line": "False",
     "is_mainline": "True",
@@ -3726,7 +3903,7 @@
     "distance_band": "outer"
   },
   {
-    "station_id": "SR062",
+    "station_id": "SR082",
     "station_name": "Norbury",
     "crs": "NRB",
     "operator": "",
@@ -3757,7 +3934,9 @@
     "time_band": "0-30",
     "accessibility_score": "2.0",
     "difficulty_score": "8.0",
-    "route_groups": "['Sutton & Metro']",
+    "route_groups": [
+      "Sutton & Metro"
+    ],
     "region": "Sutton & Metro",
     "is_branch_line": "False",
     "is_mainline": "True",
@@ -3772,7 +3951,7 @@
     "distance_band": "inner"
   },
   {
-    "station_id": "SR063",
+    "station_id": "SR083",
     "station_name": "Normans Bay",
     "crs": "NSB",
     "operator": "",
@@ -3803,7 +3982,9 @@
     "time_band": "60-120",
     "accessibility_score": "2.0",
     "difficulty_score": "8.0",
-    "route_groups": "['East Coastway']",
+    "route_groups": [
+      "East Coastway"
+    ],
     "region": "East Coastway",
     "is_branch_line": "False",
     "is_mainline": "True",
@@ -3849,7 +4030,9 @@
     "time_band": "",
     "accessibility_score": "",
     "difficulty_score": "",
-    "route_groups": "['Arun Valley']",
+    "route_groups": [
+      "Arun Valley"
+    ],
     "region": "Arun Valley",
     "is_branch_line": "False",
     "is_mainline": "True",
@@ -3864,7 +4047,7 @@
     "distance_band": "regional"
   },
   {
-    "station_id": "SR064",
+    "station_id": "SR085",
     "station_name": "Otford",
     "crs": "OTF",
     "operator": "",
@@ -3895,7 +4078,9 @@
     "time_band": "0-30",
     "accessibility_score": "2.0",
     "difficulty_score": "8.0",
-    "route_groups": "['Southern Thameslink Branches']",
+    "route_groups": [
+      "Southern Thameslink Branches"
+    ],
     "region": "Southern Thameslink Branches",
     "is_branch_line": "False",
     "is_mainline": "True",
@@ -3941,7 +4126,10 @@
     "time_band": "",
     "accessibility_score": "",
     "difficulty_score": "",
-    "route_groups": "['East Grinstead Branch', 'Uckfield Branch']",
+    "route_groups": [
+      "East Grinstead Branch",
+      "Uckfield Branch"
+    ],
     "region": "East Grinstead Branch",
     "is_branch_line": "True",
     "is_mainline": "False",
@@ -3956,7 +4144,7 @@
     "distance_band": "outer"
   },
   {
-    "station_id": "SR065",
+    "station_id": "SR087",
     "station_name": "Pevensey & Westham",
     "crs": "PEV",
     "operator": "",
@@ -3987,7 +4175,9 @@
     "time_band": "30-60",
     "accessibility_score": "2.0",
     "difficulty_score": "8.0",
-    "route_groups": "['East Coastway']",
+    "route_groups": [
+      "East Coastway"
+    ],
     "region": "East Coastway",
     "is_branch_line": "False",
     "is_mainline": "True",
@@ -4002,7 +4192,7 @@
     "distance_band": "commuter"
   },
   {
-    "station_id": "SR066",
+    "station_id": "SR088",
     "station_name": "Polegate",
     "crs": "PLG",
     "operator": "",
@@ -4033,7 +4223,9 @@
     "time_band": "30-60",
     "accessibility_score": "2.0",
     "difficulty_score": "8.0",
-    "route_groups": "['East Coastway']",
+    "route_groups": [
+      "East Coastway"
+    ],
     "region": "East Coastway",
     "is_branch_line": "False",
     "is_mainline": "True",
@@ -4048,7 +4240,7 @@
     "distance_band": "commuter"
   },
   {
-    "station_id": "SR067",
+    "station_id": "SR089",
     "station_name": "Portchester",
     "crs": "PTC",
     "operator": "",
@@ -4079,7 +4271,9 @@
     "time_band": "30-60",
     "accessibility_score": "2.0",
     "difficulty_score": "8.0",
-    "route_groups": "['Portsmouth Direct']",
+    "route_groups": [
+      "Portsmouth Direct"
+    ],
     "region": "Portsmouth Direct",
     "is_branch_line": "False",
     "is_mainline": "True",
@@ -4094,7 +4288,7 @@
     "distance_band": "commuter"
   },
   {
-    "station_id": "SR068",
+    "station_id": "SR090",
     "station_name": "Portslade",
     "crs": "PLD",
     "operator": "",
@@ -4125,7 +4319,9 @@
     "time_band": "0-30",
     "accessibility_score": "2.0",
     "difficulty_score": "8.0",
-    "route_groups": "['West Coastway']",
+    "route_groups": [
+      "West Coastway"
+    ],
     "region": "West Coastway",
     "is_branch_line": "False",
     "is_mainline": "True",
@@ -4140,7 +4336,7 @@
     "distance_band": "outer"
   },
   {
-    "station_id": "SR069",
+    "station_id": "SR091",
     "station_name": "Portsmouth & Southsea",
     "crs": "PMS",
     "operator": "",
@@ -4171,7 +4367,10 @@
     "time_band": "30-60",
     "accessibility_score": "2.0",
     "difficulty_score": "8.0",
-    "route_groups": "['West Coastway', 'Portsmouth Direct']",
+    "route_groups": [
+      "West Coastway",
+      "Portsmouth Direct"
+    ],
     "region": "West Coastway",
     "is_branch_line": "False",
     "is_mainline": "True",
@@ -4186,7 +4385,7 @@
     "distance_band": "commuter"
   },
   {
-    "station_id": "SR070",
+    "station_id": "SR092",
     "station_name": "Portsmouth Harbour",
     "crs": "PMH",
     "operator": "",
@@ -4217,7 +4416,10 @@
     "time_band": "30-60",
     "accessibility_score": "2.0",
     "difficulty_score": "8.0",
-    "route_groups": "['West Coastway', 'Portsmouth Direct']",
+    "route_groups": [
+      "West Coastway",
+      "Portsmouth Direct"
+    ],
     "region": "West Coastway",
     "is_branch_line": "False",
     "is_mainline": "True",
@@ -4232,7 +4434,7 @@
     "distance_band": "outer"
   },
   {
-    "station_id": "SR071",
+    "station_id": "SR093",
     "station_name": "Preston Park",
     "crs": "PRP",
     "operator": "",
@@ -4263,7 +4465,9 @@
     "time_band": "0-30",
     "accessibility_score": "2.0",
     "difficulty_score": "8.0",
-    "route_groups": "['Brighton Main Line']",
+    "route_groups": [
+      "Brighton Main Line"
+    ],
     "region": "Brighton Main Line",
     "is_branch_line": "False",
     "is_mainline": "True",
@@ -4278,7 +4482,7 @@
     "distance_band": "outer"
   },
   {
-    "station_id": "SR072",
+    "station_id": "SR094",
     "station_name": "Purley",
     "crs": "PUR",
     "operator": "",
@@ -4309,7 +4513,9 @@
     "time_band": "0-30",
     "accessibility_score": "2.0",
     "difficulty_score": "8.0",
-    "route_groups": "['Brighton Main Line']",
+    "route_groups": [
+      "Brighton Main Line"
+    ],
     "region": "Brighton Main Line",
     "is_branch_line": "False",
     "is_mainline": "True",
@@ -4324,7 +4530,7 @@
     "distance_band": "inner"
   },
   {
-    "station_id": "SR073",
+    "station_id": "SR095",
     "station_name": "Redhill",
     "crs": "RDH",
     "operator": "",
@@ -4355,7 +4561,9 @@
     "time_band": "0-30",
     "accessibility_score": "2.0",
     "difficulty_score": "8.0",
-    "route_groups": "['Brighton Main Line']",
+    "route_groups": [
+      "Brighton Main Line"
+    ],
     "region": "Brighton Main Line",
     "is_branch_line": "False",
     "is_mainline": "True",
@@ -4370,7 +4578,7 @@
     "distance_band": "outer"
   },
   {
-    "station_id": "SR074",
+    "station_id": "SR096",
     "station_name": "Robertsbridge",
     "crs": "RBR",
     "operator": "",
@@ -4401,7 +4609,9 @@
     "time_band": "60-120",
     "accessibility_score": "2.0",
     "difficulty_score": "8.0",
-    "route_groups": "['East Coastway']",
+    "route_groups": [
+      "East Coastway"
+    ],
     "region": "East Coastway",
     "is_branch_line": "False",
     "is_mainline": "True",
@@ -4416,7 +4626,7 @@
     "distance_band": "regional"
   },
   {
-    "station_id": "SR075",
+    "station_id": "SR097",
     "station_name": "Salfords",
     "crs": "SAF",
     "operator": "",
@@ -4447,7 +4657,9 @@
     "time_band": "0-30",
     "accessibility_score": "2.0",
     "difficulty_score": "8.0",
-    "route_groups": "['Brighton Main Line']",
+    "route_groups": [
+      "Brighton Main Line"
+    ],
     "region": "Brighton Main Line",
     "is_branch_line": "False",
     "is_mainline": "True",
@@ -4462,7 +4674,7 @@
     "distance_band": "inner"
   },
   {
-    "station_id": "SR076",
+    "station_id": "SR098",
     "station_name": "Selhurst",
     "crs": "SRS",
     "operator": "",
@@ -4493,7 +4705,9 @@
     "time_band": "0-30",
     "accessibility_score": "2.0",
     "difficulty_score": "8.0",
-    "route_groups": "['Sutton & Metro']",
+    "route_groups": [
+      "Sutton & Metro"
+    ],
     "region": "Sutton & Metro",
     "is_branch_line": "False",
     "is_mainline": "True",
@@ -4508,7 +4722,7 @@
     "distance_band": "inner"
   },
   {
-    "station_id": "SR077",
+    "station_id": "SR099",
     "station_name": "Sevenoaks",
     "crs": "SEV",
     "operator": "",
@@ -4539,7 +4753,9 @@
     "time_band": "30-60",
     "accessibility_score": "2.0",
     "difficulty_score": "8.0",
-    "route_groups": "['Southern Thameslink Branches']",
+    "route_groups": [
+      "Southern Thameslink Branches"
+    ],
     "region": "Southern Thameslink Branches",
     "is_branch_line": "False",
     "is_mainline": "True",
@@ -4554,7 +4770,7 @@
     "distance_band": "outer"
   },
   {
-    "station_id": "SR078",
+    "station_id": "SR100",
     "station_name": "Shepherds Bush",
     "crs": "SPB",
     "operator": "",
@@ -4585,7 +4801,9 @@
     "time_band": "0-30",
     "accessibility_score": "2.0",
     "difficulty_score": "8.0",
-    "route_groups": "['Southern Thameslink Branches']",
+    "route_groups": [
+      "Southern Thameslink Branches"
+    ],
     "region": "Southern Thameslink Branches",
     "is_branch_line": "False",
     "is_mainline": "True",
@@ -4600,7 +4818,7 @@
     "distance_band": "inner"
   },
   {
-    "station_id": "SR079",
+    "station_id": "SR101",
     "station_name": "Shoreham (Kent)",
     "crs": "SEH",
     "operator": "",
@@ -4631,7 +4849,9 @@
     "time_band": "0-30",
     "accessibility_score": "2.0",
     "difficulty_score": "8.0",
-    "route_groups": "['Southern Thameslink Branches']",
+    "route_groups": [
+      "Southern Thameslink Branches"
+    ],
     "region": "Southern Thameslink Branches",
     "is_branch_line": "False",
     "is_mainline": "True",
@@ -4646,7 +4866,7 @@
     "distance_band": "inner"
   },
   {
-    "station_id": "SR080",
+    "station_id": "SR102",
     "station_name": "Shoreham-by-Sea",
     "crs": "SSE",
     "operator": "",
@@ -4677,7 +4897,9 @@
     "time_band": "30-60",
     "accessibility_score": "2.0",
     "difficulty_score": "8.0",
-    "route_groups": "['West Coastway']",
+    "route_groups": [
+      "West Coastway"
+    ],
     "region": "West Coastway",
     "is_branch_line": "False",
     "is_mainline": "True",
@@ -4692,7 +4914,7 @@
     "distance_band": "outer"
   },
   {
-    "station_id": "SR081",
+    "station_id": "SR103",
     "station_name": "South Croydon",
     "crs": "SCY",
     "operator": "",
@@ -4723,7 +4945,10 @@
     "time_band": "0-30",
     "accessibility_score": "2.0",
     "difficulty_score": "8.0",
-    "route_groups": "['East Grinstead Branch', 'Uckfield Branch']",
+    "route_groups": [
+      "East Grinstead Branch",
+      "Uckfield Branch"
+    ],
     "region": "East Grinstead Branch",
     "is_branch_line": "True",
     "is_mainline": "False",
@@ -4738,7 +4963,7 @@
     "distance_band": "inner"
   },
   {
-    "station_id": "SR082",
+    "station_id": "SR104",
     "station_name": "Southampton Central",
     "crs": "SOU",
     "operator": "",
@@ -4769,7 +4994,9 @@
     "time_band": "30-60",
     "accessibility_score": "4.0",
     "difficulty_score": "6.0",
-    "route_groups": "['Portsmouth Direct']",
+    "route_groups": [
+      "Portsmouth Direct"
+    ],
     "region": "Portsmouth Direct",
     "is_branch_line": "False",
     "is_mainline": "True",
@@ -4784,7 +5011,7 @@
     "distance_band": "commuter"
   },
   {
-    "station_id": "SR083",
+    "station_id": "SR105",
     "station_name": "Southbourne",
     "crs": "SOB",
     "operator": "",
@@ -4815,7 +5042,9 @@
     "time_band": "30-60",
     "accessibility_score": "2.0",
     "difficulty_score": "8.0",
-    "route_groups": "['West Coastway']",
+    "route_groups": [
+      "West Coastway"
+    ],
     "region": "West Coastway",
     "is_branch_line": "False",
     "is_mainline": "True",
@@ -4830,7 +5059,7 @@
     "distance_band": "commuter"
   },
   {
-    "station_id": "SR084",
+    "station_id": "SR106",
     "station_name": "Southwick",
     "crs": "SWK",
     "operator": "",
@@ -4861,7 +5090,9 @@
     "time_band": "30-60",
     "accessibility_score": "2.0",
     "difficulty_score": "8.0",
-    "route_groups": "['West Coastway']",
+    "route_groups": [
+      "West Coastway"
+    ],
     "region": "West Coastway",
     "is_branch_line": "False",
     "is_mainline": "True",
@@ -4876,7 +5107,7 @@
     "distance_band": "outer"
   },
   {
-    "station_id": "SR085",
+    "station_id": "SR107",
     "station_name": "St Denys",
     "crs": "SDN",
     "operator": "",
@@ -4907,7 +5138,9 @@
     "time_band": "30-60",
     "accessibility_score": "2.0",
     "difficulty_score": "8.0",
-    "route_groups": "['Portsmouth Direct']",
+    "route_groups": [
+      "Portsmouth Direct"
+    ],
     "region": "Portsmouth Direct",
     "is_branch_line": "False",
     "is_mainline": "True",
@@ -4922,7 +5155,7 @@
     "distance_band": "commuter"
   },
   {
-    "station_id": "SR086",
+    "station_id": "SR108",
     "station_name": "St Leonards Warrior Square",
     "crs": "SLQ",
     "operator": "",
@@ -4953,7 +5186,9 @@
     "time_band": "60-120",
     "accessibility_score": "2.0",
     "difficulty_score": "8.0",
-    "route_groups": "['East Coastway']",
+    "route_groups": [
+      "East Coastway"
+    ],
     "region": "East Coastway",
     "is_branch_line": "False",
     "is_mainline": "True",
@@ -4999,7 +5234,10 @@
     "time_band": "",
     "accessibility_score": "",
     "difficulty_score": "",
-    "route_groups": "['Thameslink Core', 'Southern Thameslink Branches']",
+    "route_groups": [
+      "Thameslink Core",
+      "Southern Thameslink Branches"
+    ],
     "region": "Thameslink Core",
     "is_branch_line": "False",
     "is_mainline": "True",
@@ -5014,7 +5252,7 @@
     "distance_band": "inner"
   },
   {
-    "station_id": "SR087",
+    "station_id": "SR110",
     "station_name": "Stonegate",
     "crs": "SOG",
     "operator": "",
@@ -5045,7 +5283,9 @@
     "time_band": "60-120",
     "accessibility_score": "2.0",
     "difficulty_score": "8.0",
-    "route_groups": "['East Coastway']",
+    "route_groups": [
+      "East Coastway"
+    ],
     "region": "East Coastway",
     "is_branch_line": "False",
     "is_mainline": "True",
@@ -5060,7 +5300,7 @@
     "distance_band": "regional"
   },
   {
-    "station_id": "SR088",
+    "station_id": "SR111",
     "station_name": "Streatham",
     "crs": "STE",
     "operator": "",
@@ -5091,7 +5331,9 @@
     "time_band": "0-30",
     "accessibility_score": "2.0",
     "difficulty_score": "8.0",
-    "route_groups": "['Sutton & Metro']",
+    "route_groups": [
+      "Sutton & Metro"
+    ],
     "region": "Sutton & Metro",
     "is_branch_line": "False",
     "is_mainline": "True",
@@ -5106,7 +5348,7 @@
     "distance_band": "outer"
   },
   {
-    "station_id": "SR089",
+    "station_id": "SR112",
     "station_name": "Streatham Common",
     "crs": "SRC",
     "operator": "",
@@ -5137,7 +5379,9 @@
     "time_band": "0-30",
     "accessibility_score": "2.0",
     "difficulty_score": "8.0",
-    "route_groups": "['Sutton & Metro']",
+    "route_groups": [
+      "Sutton & Metro"
+    ],
     "region": "Sutton & Metro",
     "is_branch_line": "False",
     "is_mainline": "True",
@@ -5152,7 +5396,7 @@
     "distance_band": "inner"
   },
   {
-    "station_id": "SR090",
+    "station_id": "SR113",
     "station_name": "Streatham Hill",
     "crs": "SRH",
     "operator": "",
@@ -5183,7 +5427,9 @@
     "time_band": "0-30",
     "accessibility_score": "2.0",
     "difficulty_score": "8.0",
-    "route_groups": "['Sutton & Metro']",
+    "route_groups": [
+      "Sutton & Metro"
+    ],
     "region": "Sutton & Metro",
     "is_branch_line": "False",
     "is_mainline": "True",
@@ -5198,7 +5444,7 @@
     "distance_band": "inner"
   },
   {
-    "station_id": "SR091",
+    "station_id": "SR114",
     "station_name": "Sutton",
     "crs": "SUO",
     "operator": "",
@@ -5229,7 +5475,9 @@
     "time_band": "30-60",
     "accessibility_score": "2.0",
     "difficulty_score": "8.0",
-    "route_groups": "['Sutton & Metro']",
+    "route_groups": [
+      "Sutton & Metro"
+    ],
     "region": "Sutton & Metro",
     "is_branch_line": "False",
     "is_mainline": "True",
@@ -5244,7 +5492,7 @@
     "distance_band": "commuter"
   },
   {
-    "station_id": "SR092",
+    "station_id": "SR115",
     "station_name": "Swanley",
     "crs": "SAY",
     "operator": "",
@@ -5275,7 +5523,9 @@
     "time_band": "0-30",
     "accessibility_score": "2.0",
     "difficulty_score": "8.0",
-    "route_groups": "['Southern Thameslink Branches']",
+    "route_groups": [
+      "Southern Thameslink Branches"
+    ],
     "region": "Southern Thameslink Branches",
     "is_branch_line": "False",
     "is_mainline": "True",
@@ -5290,7 +5540,7 @@
     "distance_band": "inner"
   },
   {
-    "station_id": "SR093",
+    "station_id": "SR116",
     "station_name": "Swanwick",
     "crs": "SNW",
     "operator": "",
@@ -5321,7 +5571,9 @@
     "time_band": "60-120",
     "accessibility_score": "2.0",
     "difficulty_score": "8.0",
-    "route_groups": "['Portsmouth Direct']",
+    "route_groups": [
+      "Portsmouth Direct"
+    ],
     "region": "Portsmouth Direct",
     "is_branch_line": "False",
     "is_mainline": "True",
@@ -5336,7 +5588,7 @@
     "distance_band": "regional"
   },
   {
-    "station_id": "SR094",
+    "station_id": "SR117",
     "station_name": "Thornton Heath",
     "crs": "TTH",
     "operator": "",
@@ -5367,7 +5619,9 @@
     "time_band": "0-30",
     "accessibility_score": "2.0",
     "difficulty_score": "8.0",
-    "route_groups": "['Sutton & Metro']",
+    "route_groups": [
+      "Sutton & Metro"
+    ],
     "region": "Sutton & Metro",
     "is_branch_line": "False",
     "is_mainline": "True",
@@ -5382,7 +5636,7 @@
     "distance_band": "inner"
   },
   {
-    "station_id": "SR095",
+    "station_id": "SR118",
     "station_name": "Three Bridges",
     "crs": "TBD",
     "operator": "",
@@ -5413,7 +5667,9 @@
     "time_band": "0-30",
     "accessibility_score": "2.0",
     "difficulty_score": "8.0",
-    "route_groups": "['Brighton Main Line']",
+    "route_groups": [
+      "Brighton Main Line"
+    ],
     "region": "Brighton Main Line",
     "is_branch_line": "False",
     "is_mainline": "True",
@@ -5428,7 +5684,7 @@
     "distance_band": "inner"
   },
   {
-    "station_id": "SR096",
+    "station_id": "SR119",
     "station_name": "Tonbridge",
     "crs": "TON",
     "operator": "",
@@ -5459,7 +5715,9 @@
     "time_band": "30-60",
     "accessibility_score": "2.0",
     "difficulty_score": "8.0",
-    "route_groups": "['Southern Thameslink Branches']",
+    "route_groups": [
+      "Southern Thameslink Branches"
+    ],
     "region": "Southern Thameslink Branches",
     "is_branch_line": "False",
     "is_mainline": "True",
@@ -5474,7 +5732,7 @@
     "distance_band": "commuter"
   },
   {
-    "station_id": "SR097",
+    "station_id": "SR120",
     "station_name": "Tulse Hill",
     "crs": "TUH",
     "operator": "",
@@ -5505,7 +5763,9 @@
     "time_band": "0-30",
     "accessibility_score": "2.0",
     "difficulty_score": "8.0",
-    "route_groups": "['Sutton & Metro']",
+    "route_groups": [
+      "Sutton & Metro"
+    ],
     "region": "Sutton & Metro",
     "is_branch_line": "False",
     "is_mainline": "True",
@@ -5520,7 +5780,7 @@
     "distance_band": "outer"
   },
   {
-    "station_id": "SR098",
+    "station_id": "SR121",
     "station_name": "Tunbridge Wells",
     "crs": "TBW",
     "operator": "",
@@ -5551,7 +5811,9 @@
     "time_band": "30-60",
     "accessibility_score": "2.0",
     "difficulty_score": "8.0",
-    "route_groups": "['Uckfield Branch']",
+    "route_groups": [
+      "Uckfield Branch"
+    ],
     "region": "Uckfield Branch",
     "is_branch_line": "True",
     "is_mainline": "False",
@@ -5597,7 +5859,9 @@
     "time_band": "",
     "accessibility_score": "",
     "difficulty_score": "",
-    "route_groups": "['Uckfield Branch']",
+    "route_groups": [
+      "Uckfield Branch"
+    ],
     "region": "Uckfield Branch",
     "is_branch_line": "True",
     "is_mainline": "False",
@@ -5643,7 +5907,9 @@
     "time_band": "",
     "accessibility_score": "",
     "difficulty_score": "",
-    "route_groups": "['Sutton & Metro']",
+    "route_groups": [
+      "Sutton & Metro"
+    ],
     "region": "Sutton & Metro",
     "is_branch_line": "False",
     "is_mainline": "True",
@@ -5658,7 +5924,7 @@
     "distance_band": "outer"
   },
   {
-    "station_id": "SR099",
+    "station_id": "SR124",
     "station_name": "Wadhurst",
     "crs": "WAD",
     "operator": "",
@@ -5689,7 +5955,9 @@
     "time_band": "60-120",
     "accessibility_score": "2.0",
     "difficulty_score": "8.0",
-    "route_groups": "['Uckfield Branch']",
+    "route_groups": [
+      "Uckfield Branch"
+    ],
     "region": "Uckfield Branch",
     "is_branch_line": "True",
     "is_mainline": "False",
@@ -5735,7 +6003,9 @@
     "time_band": "",
     "accessibility_score": "",
     "difficulty_score": "",
-    "route_groups": "['Sutton & Metro']",
+    "route_groups": [
+      "Sutton & Metro"
+    ],
     "region": "Sutton & Metro",
     "is_branch_line": "False",
     "is_mainline": "True",
@@ -5750,7 +6020,7 @@
     "distance_band": "outer"
   },
   {
-    "station_id": "SR100",
+    "station_id": "SR126",
     "station_name": "Wandsworth Common",
     "crs": "WSW",
     "operator": "",
@@ -5781,7 +6051,9 @@
     "time_band": "0-30",
     "accessibility_score": "2.0",
     "difficulty_score": "8.0",
-    "route_groups": "['Sutton & Metro']",
+    "route_groups": [
+      "Sutton & Metro"
+    ],
     "region": "Sutton & Metro",
     "is_branch_line": "False",
     "is_mainline": "True",
@@ -5827,7 +6099,9 @@
     "time_band": "",
     "accessibility_score": "",
     "difficulty_score": "",
-    "route_groups": "['Arun Valley']",
+    "route_groups": [
+      "Arun Valley"
+    ],
     "region": "Arun Valley",
     "is_branch_line": "False",
     "is_mainline": "True",
@@ -5842,7 +6116,7 @@
     "distance_band": "commuter"
   },
   {
-    "station_id": "SR101",
+    "station_id": "SR128",
     "station_name": "West Brompton",
     "crs": "WBP",
     "operator": "",
@@ -5873,7 +6147,9 @@
     "time_band": "0-30",
     "accessibility_score": "2.0",
     "difficulty_score": "8.0",
-    "route_groups": "['Southern Thameslink Branches']",
+    "route_groups": [
+      "Southern Thameslink Branches"
+    ],
     "region": "Southern Thameslink Branches",
     "is_branch_line": "False",
     "is_mainline": "True",
@@ -5888,7 +6164,7 @@
     "distance_band": "inner"
   },
   {
-    "station_id": "SR102",
+    "station_id": "SR129",
     "station_name": "West Norwood",
     "crs": "WNW",
     "operator": "",
@@ -5919,7 +6195,9 @@
     "time_band": "0-30",
     "accessibility_score": "2.0",
     "difficulty_score": "8.0",
-    "route_groups": "['Sutton & Metro']",
+    "route_groups": [
+      "Sutton & Metro"
+    ],
     "region": "Sutton & Metro",
     "is_branch_line": "False",
     "is_mainline": "True",
@@ -5934,7 +6212,7 @@
     "distance_band": "inner"
   },
   {
-    "station_id": "SR103",
+    "station_id": "SR130",
     "station_name": "West St Leonards",
     "crs": "WLD",
     "operator": "",
@@ -5965,7 +6243,9 @@
     "time_band": "60-120",
     "accessibility_score": "2.0",
     "difficulty_score": "8.0",
-    "route_groups": "['East Coastway']",
+    "route_groups": [
+      "East Coastway"
+    ],
     "region": "East Coastway",
     "is_branch_line": "False",
     "is_mainline": "True",
@@ -6011,7 +6291,9 @@
     "time_band": "",
     "accessibility_score": "",
     "difficulty_score": "",
-    "route_groups": "['Sutton & Metro']",
+    "route_groups": [
+      "Sutton & Metro"
+    ],
     "region": "Sutton & Metro",
     "is_branch_line": "False",
     "is_mainline": "True",
@@ -6026,7 +6308,7 @@
     "distance_band": "outer"
   },
   {
-    "station_id": "SR104",
+    "station_id": "SR132",
     "station_name": "West Worthing",
     "crs": "WWO",
     "operator": "",
@@ -6057,7 +6339,9 @@
     "time_band": "0-30",
     "accessibility_score": "2.0",
     "difficulty_score": "8.0",
-    "route_groups": "['West Coastway']",
+    "route_groups": [
+      "West Coastway"
+    ],
     "region": "West Coastway",
     "is_branch_line": "False",
     "is_mainline": "True",
@@ -6103,7 +6387,9 @@
     "time_band": "",
     "accessibility_score": "",
     "difficulty_score": "",
-    "route_groups": "['Sutton & Metro']",
+    "route_groups": [
+      "Sutton & Metro"
+    ],
     "region": "Sutton & Metro",
     "is_branch_line": "False",
     "is_mainline": "True",
@@ -6118,7 +6404,7 @@
     "distance_band": "outer"
   },
   {
-    "station_id": "SR105",
+    "station_id": "SR134",
     "station_name": "Winchester",
     "crs": "WIN",
     "operator": "",
@@ -6149,7 +6435,9 @@
     "time_band": "30-60",
     "accessibility_score": "2.0",
     "difficulty_score": "8.0",
-    "route_groups": "['Portsmouth Direct']",
+    "route_groups": [
+      "Portsmouth Direct"
+    ],
     "region": "Portsmouth Direct",
     "is_branch_line": "False",
     "is_mainline": "True",
@@ -6164,7 +6452,7 @@
     "distance_band": "commuter"
   },
   {
-    "station_id": "SR106",
+    "station_id": "SR135",
     "station_name": "Wivelsfield",
     "crs": "WVF",
     "operator": "",
@@ -6195,7 +6483,9 @@
     "time_band": "0-30",
     "accessibility_score": "2.0",
     "difficulty_score": "8.0",
-    "route_groups": "['Brighton Main Line']",
+    "route_groups": [
+      "Brighton Main Line"
+    ],
     "region": "Brighton Main Line",
     "is_branch_line": "False",
     "is_mainline": "True",
@@ -6241,7 +6531,9 @@
     "time_band": "",
     "accessibility_score": "",
     "difficulty_score": "",
-    "route_groups": "['Sutton & Metro']",
+    "route_groups": [
+      "Sutton & Metro"
+    ],
     "region": "Sutton & Metro",
     "is_branch_line": "False",
     "is_mainline": "True",
@@ -6256,7 +6548,7 @@
     "distance_band": "commuter"
   },
   {
-    "station_id": "SR107",
+    "station_id": "SR137",
     "station_name": "Worthing",
     "crs": "WRH",
     "operator": "",
@@ -6287,7 +6579,9 @@
     "time_band": "0-30",
     "accessibility_score": "2.0",
     "difficulty_score": "8.0",
-    "route_groups": "['West Coastway']",
+    "route_groups": [
+      "West Coastway"
+    ],
     "region": "West Coastway",
     "is_branch_line": "False",
     "is_mainline": "True",

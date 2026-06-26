@@ -1306,19 +1306,37 @@ function boardIsPlayable(rows, columns) {
 
   return true;
 }
+// ======================================================
+// NETWORK CONFIGURATION
+// Every network is defined here.
+// No other part of this file should contain network-specific paths.
+// ======================================================
+const NETWORKS = {
 
+  southeastern: {
+    stations: "data/stations/southeastern.json",
+    clues: "data/clues/southeastern-clues.json",
+    landmarks: "data/landmark-challenges.json",
+    facts: "data/station-facts.json"
+  },
+
+  southern: {
+    stations: "data/Southern/southern.json",
+    clues: "data/Southern/southern-clues.json",
+    landmarks: "data/Southern/southern-landmarks.json",
+    facts: "data/station-facts.json"
+  }
+
+};
+
+const files = NETWORKS[network];
 Promise.all([
-fetch(`data/stations/${network}.json`)
-    .then(r => r.json()),
+fetch(files.stations),
 
-  fetch(`data/clues/${network}-clues.json`)
-    .then(r => r.json()),
+fetch(files.clues),
+  fetch(files.landmarks),
 
-  fetch("data/landmark-challenges.json")
-    .then(r => r.json()),
-
-  fetch("data/station-facts.json")
-    .then(r => r.json())
+  fetch(files.facts)
 ])
 
 .then(([stationData, clueData, landmarkData, factData]) => {

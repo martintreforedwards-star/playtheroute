@@ -1,0 +1,208 @@
+station_name,route_group
+Edinburgh Waverley,Edinburgh–Glasgow Main Line
+Haymarket,Edinburgh–Glasgow Main Line
+Linlithgow,Edinburgh–Glasgow Main Line
+Polmont,Edinburgh–Glasgow Main Line
+Falkirk High,Edinburgh–Glasgow Main Line
+Croy,Edinburgh–Glasgow Main Line
+Lenzie,Edinburgh–Glasgow Main Line
+Glasgow Queen Street,Edinburgh–Glasgow Main Line
+Glasgow Central,Shotts Line
+Bellshill,Shotts Line
+Shotts,Shotts Line
+West Calder,Shotts Line
+Livingston South,Shotts Line
+Edinburgh Waverley,Shotts Line
+Glasgow Central,Carstairs Corridor
+Motherwell,Carstairs Corridor
+Carstairs,Carstairs Corridor
+Haymarket,Carstairs Corridor
+Edinburgh Waverley,Carstairs Corridor
+Perth,Highland Main Line
+Pitlochry,Highland Main Line
+Blair Atholl,Highland Main Line
+Dalwhinnie,Highland Main Line
+Kingussie,Highland Main Line
+Aviemore,Highland Main Line
+Carrbridge,Highland Main Line
+Inverness,Highland Main Line
+Edinburgh Waverley,Aberdeen Line
+Haymarket,Aberdeen Line
+Leuchars,Aberdeen Line
+Dundee,Aberdeen Line
+Arbroath,Aberdeen Line
+Montrose,Aberdeen Line
+Stonehaven,Aberdeen Line
+Aberdeen,Aberdeen Line
+Edinburgh Waverley,Fife Circle
+Haymarket,Fife Circle
+Inverkeithing,Fife Circle
+Rosyth,Fife Circle
+Dunfermline City,Fife Circle
+Cowdenbeath,Fife Circle
+Kirkcaldy,Fife Circle
+Markinch,Fife Circle
+Ladybank,Fife Circle
+Leuchars,Fife Circle
+Edinburgh Waverley,Borders Railway
+Brunstane,Borders Railway
+Newcraighall,Borders Railway
+Shawfair,Borders Railway
+Eskbank,Borders Railway
+Newtongrange,Borders Railway
+Gorebridge,Borders Railway
+Stow,Borders Railway
+Galashiels,Borders Railway
+Tweedbank,Borders Railway
+Glasgow Queen Street,West Highland Line
+Helensburgh Upper,West Highland Line
+Arrochar & Tarbet,West Highland Line
+Crianlarich,West Highland Line
+Bridge of Orchy,West Highland Line
+Rannoch,West Highland Line
+Corrour,West Highland Line
+Tulloch,West Highland Line
+Roy Bridge,West Highland Line
+Spean Bridge,West Highland Line
+Fort William,West Highland Line
+Banavie,West Highland Line
+Corpach,West Highland Line
+Loch Eil Outward Bound,West Highland Line
+Locheilside,West Highland Line
+Glenfinnan,West Highland Line
+Lochailort,West Highland Line
+Beasdale,West Highland Line
+Arisaig,West Highland Line
+Morar,West Highland Line
+Mallaig,West Highland Line
+Crianlarich,Oban Branch
+Tyndrum Lower,Oban Branch
+Dalmally,Oban Branch
+Loch Awe,Oban Branch
+Falls of Cruachan,Oban Branch
+Taynuilt,Oban Branch
+Connel Ferry,Oban Branch
+Oban,Oban Branch
+Inverness,Kyle Line
+Dingwall,Kyle Line
+Garve,Kyle Line
+Achnasheen,Kyle Line
+Achnashellach,Kyle Line
+Strathcarron,Kyle Line
+Attadale,Kyle Line
+Stromeferry,Kyle Line
+Duncraig,Kyle Line
+Plockton,Kyle Line
+Duirinish,Kyle Line
+Kyle of Lochalsh,Kyle Line
+Inverness,Far North Line
+Dingwall,Far North Line
+Alness,Far North Line
+Invergordon,Far North Line
+Fearn,Far North Line
+Tain,Far North Line
+Ardgay,Far North Line
+Lairg,Far North Line
+Rogart,Far North Line
+Golspie,Far North Line
+Dunrobin Castle,Far North Line
+Brora,Far North Line
+Helmsdale,Far North Line
+Kildonan,Far North Line
+Kinbrace,Far North Line
+Forsinard,Far North Line
+Altnabreac,Far North Line
+Scotscalder,Far North Line
+Georgemas Junction,Far North Line
+Thurso,Far North Line
+Wick,Far North Line
+Glasgow Central,Ayrshire Coast
+Paisley Gilmour Street,Ayrshire Coast
+Johnstone,Ayrshire Coast
+Kilwinning,Ayrshire Coast
+Irvine,Ayrshire Coast
+Troon,Ayrshire Coast
+Prestwick Town,Ayrshire Coast
+Prestwick International Airport,Ayrshire Coast
+Ayr,Ayrshire Coast
+Kilwinning,Largs Branch
+Stevenston,Largs Branch
+Saltcoats,Largs Branch
+Ardrossan South Beach,Largs Branch
+West Kilbride,Largs Branch
+Fairlie,Largs Branch
+Largs,Largs Branch
+Kilwinning,Ardrossan Branch
+Stevenston,Ardrossan Branch
+Saltcoats,Ardrossan Branch
+Ardrossan South Beach,Ardrossan Branch
+Ardrossan Town,Ardrossan Branch
+Ardrossan Harbour,Ardrossan Branch
+Glasgow Central,Inverclyde Line
+Paisley Gilmour Street,Inverclyde Line
+Bishopton,Inverclyde Line
+Port Glasgow,Inverclyde Line
+Woodhall,Inverclyde Line
+Bogston,Inverclyde Line
+Cartsdyke,Inverclyde Line
+Greenock Central,Inverclyde Line
+Greenock West,Inverclyde Line
+Gourock,Inverclyde Line
+Port Glasgow,Wemyss Bay Branch
+Branchton,Wemyss Bay Branch
+Inverkip,Wemyss Bay Branch
+Wemyss Bay,Wemyss Bay Branch
+Glasgow Central,Cathcart Circle
+Pollokshields East,Cathcart Circle
+Queens Park (Glasgow),Cathcart Circle
+Mount Florida,Cathcart Circle
+Cathcart,Cathcart Circle
+Langside,Cathcart Circle
+Pollokshaws East,Cathcart Circle
+Crossmyloof,Cathcart Circle
+Glasgow Central,Cathcart Circle
+Glasgow Central,Neilston Line
+Pollokshields West,Neilston Line
+Kennishead,Neilston Line
+Priesthill & Darnley,Neilston Line
+Nitshill,Neilston Line
+Barrhead,Neilston Line
+Neilston,Neilston Line
+Glasgow Central,East Kilbride Line
+Crosshill,East Kilbride Line
+Mount Florida,East Kilbride Line
+Kings Park,East Kilbride Line
+Croftfoot,East Kilbride Line
+Burnside,East Kilbride Line
+Kirkhill,East Kilbride Line
+Newton,East Kilbride Line
+Thorntonhall,East Kilbride Line
+Hairmyres,East Kilbride Line
+East Kilbride,East Kilbride Line
+Milngavie,Argyle Line
+Hillfoot,Argyle Line
+Bearsden,Argyle Line
+Westerton,Argyle Line
+Anniesland,Argyle Line
+Partick,Argyle Line
+Exhibition Centre,Argyle Line
+Anderston,Argyle Line
+Glasgow Central,Argyle Line
+Argyle Street,Argyle Line
+Dalmarnock,Argyle Line
+Cambuslang,Argyle Line
+Newton,Argyle Line
+Blantyre,Argyle Line
+Hamilton Central,Argyle Line
+Motherwell,Argyle Line
+Motherwell,Lanark Line
+Airbles,Lanark Line
+Shieldmuir,Lanark Line
+Wishaw,Lanark Line
+Carluke,Lanark Line
+Lanark,Lanark Line
+Ayr,Stranraer Line
+Maybole,Stranraer Line
+Girvan,Stranraer Line
+Barrhill,Stranraer Line
+Stranraer,Stranraer Line

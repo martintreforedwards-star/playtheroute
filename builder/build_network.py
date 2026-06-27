@@ -8,6 +8,9 @@ if str(ROOT) not in sys.path:
 from builder.config import load_config
 from builder.assemble import build_master
 from builder.enrichment import enrich
+from builder.validators import validate
+from builder.clue_builder import build_clues
+from builder.json_builder import build_json
 
 
 def main():
@@ -26,7 +29,13 @@ def main():
 
     build_master(config)
 
-    enrich(config)
+    stations = enrich(config)
+
+    validate(stations)
+
+    build_clues(config)
+
+    build_json(config)
 
     print("\nBuild complete.")
 

@@ -7,6 +7,12 @@
 
   "missing_times": "data/Scotrail/missing_times.csv",
 
+  "rules": "builder/configs/scotrail_rules.json",
+
+  "clue_template": "data/clues/southeastern-clues.json",
+
+  "clues": "data/Scotrail/scotrail-clues.json",
+
   "enriched": "data/Scotrail/scotrail_v1_enriched.csv",
 
   "output": "data/Scotrail/scotrail.json"

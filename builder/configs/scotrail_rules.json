@@ -1,0 +1,33 @@
+{
+  "branch_groups": [
+    "Oban Branch",
+    "Kyle Line",
+    "Far North Line",
+    "Largs Branch",
+    "Ardrossan Branch",
+    "Neilston Line",
+    "Lanark Line",
+    "Borders Railway"
+  ],
+
+  "coastal_groups": [
+    "Ayrshire Coast",
+    "Inverclyde Line",
+    "Largs Branch",
+    "Ardrossan Branch",
+    "West Highland Line",
+    "Kyle Line",
+    "Far North Line"
+  ],
+
+  "clues": {
+    "remove": [
+    "High Speed 1"],
+
+    "replace": {},
+
+    "add_regions": [],
+
+    "add_routes": []
+  }
+}

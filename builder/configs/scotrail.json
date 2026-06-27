@@ -1,7 +1,13 @@
 {
-    "name": "ScotRail",
-    "input_folder": "data/Scotrail",
-    "master": "scotrail_v1_enriched.csv",
-    "routes": "route_group_membership.csv",
-    "output": "data/Scotrail/scotrail.json"
+  "name": "ScotRail",
+
+  "master": "data/Scotrail/scotrail_master_v1.csv",
+
+  "route_groups": "data/Scotrail/route_group_membership.csv",
+
+  "missing_times": "data/Scotrail/missing_times.csv",
+
+  "enriched": "data/Scotrail/scotrail_v1_enriched.csv",
+
+  "output": "data/Scotrail/scotrail.json"
 }

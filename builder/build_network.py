@@ -1,45 +1,34 @@
-"""
-Generic Network Builder
-
-Usage:
-    python builder/build_network.py scotrail
-    python builder/build_network.py northern
-"""
-
 import sys
 from pathlib import Path
 
-# Allow imports when running this file directly
 ROOT = Path(__file__).resolve().parent.parent
 if str(ROOT) not in sys.path:
     sys.path.insert(0, str(ROOT))
 
 from builder.config import load_config
-from builder.loaders import load_network
+from builder.assemble import build_master
+from builder.enrichment import enrich
 
 
 def main():
 
     if len(sys.argv) != 2:
         print("Usage:")
-        print("    python builder/build_network.py <network>")
-        sys.exit(1)
+        print("python builder/build_network.py <network>")
+        return
 
-    network_name = sys.argv[1]
+    network = sys.argv[1]
 
-    print(f"\n=== Building {network_name} ===")
+    config = load_config(network)
 
-    # Load configuration
-    config = load_config(network_name)
+    print(f"\n=== Building {network} ===")
+    print(f"Network : {config['name']}")
 
-    # Load master dataset
-    network = load_network(config)
+    build_master(config)
 
-    # Summary
-    print(f"Network : {network.name}")
-    print(f"Stations: {len(network.stations)}")
+    enrich(config)
 
-    print("\nSUCCESS")
+    print("\nBuild complete.")
 
 
 if __name__ == "__main__":

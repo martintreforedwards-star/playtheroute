@@ -19,6 +19,7 @@ def analyse(source_file):
     last_words = Counter()
     single_words = []
     all_words = Counter()
+    word_index = []
 
     # ---------------------------------
     # Analyse station names
@@ -44,7 +45,15 @@ def analyse(source_file):
 
         # Every word
         for word in words:
+
             all_words[word] += 1
+
+        word_index.append(
+        {
+            "word": word,
+            "station": name
+        }
+    )
 
     # ---------------------------------
     # Theme candidates
@@ -109,7 +118,14 @@ def analyse(source_file):
         reports / "word_frequency.csv",
         index=False
     )
-
+    pd.DataFrame(
+    word_index
+    ).sort_values(
+    ["word", "station"]
+    ).to_csv(
+    reports / "word_index.csv",
+    index=False
+    )
     pd.DataFrame(
         theme_rows
     ).sort_values(

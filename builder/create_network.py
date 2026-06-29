@@ -1,21 +1,12 @@
 from pathlib import Path
-import json
-import pandas as pd
+from builder.network_source import load_network
 
 
 def create_network(network):
 
-    source = pd.read_csv("crs_source_of_truth.csv")
+    master = load_network(network)
 
-    with open(f"builder/configs/{network.lower()}.json", encoding="utf-8") as f:
-        config = json.load(f)
-
-    # Filter source of truth by CRS codes in config
-    master = source[
-        source["crsCode"].isin(config["crs"])
-    ].copy()
-
-    output_folder = Path(f"data/{config['network']}")
+    output_folder = Path(f"data/{network.title()}")
     output_folder.mkdir(parents=True, exist_ok=True)
 
     output = output_folder / f"{network.lower()}_master.csv"
@@ -23,7 +14,7 @@ def create_network(network):
     master.to_csv(output, index=False)
 
     print()
-    print(f"Network : {config['network']}")
+    print(f"Network : {network}")
     print(f"Stations: {len(master)}")
     print(f"Saved   : {output}")
 

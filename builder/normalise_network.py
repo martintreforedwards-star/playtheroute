@@ -6,7 +6,9 @@ from builder.extractors.operations import extract_operations
 from builder.extractors.accessibility import extract_accessibility
 from builder.extractors.linguistics import extract_linguistics
 from builder.extractors.wordplay import extract_wordplay
-
+from builder.extractors.railway import extract_railway
+from builder.enrichers.routes import enrich_routes
+from builder.enrichers.validate import validate
 
 def normalise_network(stations, config):
 
@@ -26,6 +28,7 @@ def normalise_network(stations, config):
         row.update(extract_accessibility(station))
         row.update(extract_linguistics(station))
         row.update(extract_wordplay(station))
+        row.update(extract_railway(station))
 
         rows.append(row)
 
@@ -34,6 +37,8 @@ def normalise_network(stations, config):
     if df.empty:
         return df
 
+        df = enrich_routes(df, config)
+    df = validate(df)
     return (
         df.sort_values("station_name")
           .reset_index(drop=True)

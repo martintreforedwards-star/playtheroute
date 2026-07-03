@@ -1,68 +1,68 @@
-station_name,crs,latitude,longitude,operator_code,operator_name
-Aigburth,AIG,53.3645833,-2.927160737,,Merseyrail
-Ainsdale,ANS,53.60183287,-3.042669326,,Merseyrail
-Aintree,AIN,53.47400907,-2.956664741,,Merseyrail
-Aughton Park,AUG,53.55448798,-2.895078195,,Merseyrail
-Bache,BAC,53.20933376,-2.892360673,,Merseyrail
-Bank Hall,BAH,53.43780206,-2.987464984,,Merseyrail
-Bebington,BEB,53.35767221,-3.003642726,,Merseyrail
-Bidston,BID,53.40914752,-3.078570263,,Merseyrail
-Birkdale,BDL,53.63353433,-3.014715579,,Merseyrail
-Birkenhead Central,BKC,53.38900094,-3.019416498,,Merseyrail
-Birkenhead Hamilton Square,BKQ,53.39471293,-3.013687789,,Merseyrail
-Birkenhead North,BKN,53.40484222,-3.057401666,,Merseyrail
-Birkenhead Park,BKP,53.3978198,-3.039179402,,Merseyrail
-Blundellsands & Crosby,BLN,53.48769659,-3.03986789,,Merseyrail
-Bootle New Strand,BNW,53.45301817,-2.995347712,,Merseyrail
-Bootle Oriel Road,BOT,53.44762574,-2.995221639,,Merseyrail
-Bromborough,BOM,53.32184733,-2.987788553,,Merseyrail
-Bromborough Rake,BMR,53.32992372,-2.989476735,,Merseyrail
-Brunswick,BRW,53.38217523,-2.975653248,,Merseyrail
-Capenhurst,CPU,53.26018901,-2.942291644,,Merseyrail
-Conway Park,CNP,53.39337776,-3.022679178,,Merseyrail
-Cressington,CSG,53.35876717,-2.912008275,,Merseyrail
-Eastham Rake,ERA,53.30759993,-2.981171169,,Merseyrail
-Ellesmere Port,ELP,53.28220693,-2.896427988,,Merseyrail
-Fazakerley,FAZ,53.46878354,-2.93545612,,Merseyrail
-Formby,FBY,53.55349222,-3.070916313,,Merseyrail
-Freshfield,FRE,53.56606861,-3.071838001,,Merseyrail
-Green Lane,GNL,53.38327334,-3.01642303,,Merseyrail
-Hall Road,HLR,53.49838894,-3.050682508,,Merseyrail
-Headbolt Lane,HBL,53.49284,-2.87978,,Merseyrail
-Hightown,HTO,53.52512005,-3.057076334,,Merseyrail
-Hillside,HIL,53.62212307,-3.024723262,,Merseyrail
-Hooton,HOO,53.29721539,-2.977016928,,Merseyrail
-Hoylake,HYK,53.39022996,-3.178843698,,Merseyrail
-Hunts Cross,HNX,53.36062783,-2.854946075,,Merseyrail
-Kirkby (Merseyside),KIR,53.48620351,-2.902833396,,Merseyrail
-Kirkdale,KKD,53.4405479,-2.981506598,,Merseyrail
-Leasowe,LSW,53.40805676,-3.099603994,,Merseyrail
-Little Sutton,LTT,53.28553102,-2.943299129,,Merseyrail
-Liverpool Central,LVC,53.40461053,-2.979159936,,Merseyrail
-Liverpool James Street,LVJ,53.40477452,-2.991964872,,Merseyrail
-Liverpool South Parkway,LPY,53.35758121,-2.889294039,,Merseyrail
-Maghull,MAG,53.50648347,-2.930857798,,Merseyrail
-Maghull North,MNS,53.516,-2.922,,Merseyrail
-Manor Road,MNR,53.39479742,-3.171450295,,Merseyrail
-Meols,MEO,53.39945033,-3.154281087,,Merseyrail
-Moorfields,MRF,53.40857308,-2.989179871,,Merseyrail
-Moreton (Merseyside),MRT,53.40793134,-3.113140165,,Merseyrail
-New Brighton,NBN,53.43727598,-3.049174288,,Merseyrail
-Old Roan,ORN,53.48690801,-2.951077083,,Merseyrail
-Ormskirk,OMS,53.56896888,-2.88179342,,Merseyrail
-Orrell Park,OPK,53.46191022,-2.963321542,,Merseyrail
-Overpool,OVE,53.28414758,-2.924818617,,Merseyrail
-Port Sunlight,PSL,53.3492693,-2.99803707,,Merseyrail
-Rice Lane,RIL,53.45778328,-2.962324455,,Merseyrail
-Rock Ferry,RFY,53.37289259,-3.010914905,,Merseyrail
-Sandhills,SDL,53.42994809,-2.991497322,,Merseyrail
-Seaforth & Litherland,SFL,53.46611293,-3.005295121,,Merseyrail
-Southport,SOP,53.64652777,-3.00244063,,Merseyrail
-Spital,SPI,53.33995485,-2.993914447,,Merseyrail
-St Michaels,STM,53.37561787,-2.952804749,,Merseyrail
-Town Green,TWN,53.54282147,-2.904490485,,Merseyrail
-Wallasey Grove Road,WLG,53.42801467,-3.069716325,,Merseyrail
-Wallasey Village,WLV,53.422896,-3.069136355,,Merseyrail
-Walton (Merseyside),WAO,53.45622746,-2.965753228,,Merseyrail
-Waterloo (Merseyside),WLO,53.47496593,-3.025543946,,Merseyrail
-West Kirby,WKI,53.37319127,-3.183769494,,Merseyrail
+station_name,crs,nlc,slug,latitude,longitude,operator_code,operator_name,minimum_connection_time,platform_count,staffing_level,step_free_category
+Aigburth,AIG,225500,aigburth,53.3645833,-2.927160737,ME,Merseyrail,5,2.0,Full Time,"C, no step-free access to any platform"
+Ainsdale,ANS,235000,ainsdale,53.60183287,-3.042669326,ME,Merseyrail,5,2.0,Full Time,"A, Compliant step-free access to all platform(s)"
+Aintree,AIN,212500,aintree,53.47400907,-2.956664741,ME,Merseyrail,5,2.0,Full Time,"A, Compliant step-free access to all platform(s)"
+Aughton Park,AUG,221500,aughton-park,53.55448798,-2.895078195,ME,Merseyrail,5,2.0,Full Time,"C, no step-free access to any platform"
+Bache,BAC,218700,bache,53.20933376,-2.892360673,ME,Merseyrail,5,2.0,Unstaffed,"B2, (refer to quick reference guide)"
+Bank Hall,BAH,223800,bank-hall,53.43780206,-2.987464984,ME,Merseyrail,5,2.0,Full Time,"C, no step-free access to any platform"
+Bebington,BEB,218800,bebington,53.35767221,-3.003642726,ME,Merseyrail,5,2.0,Full Time,"A, Compliant step-free access to all platform(s)"
+Bidston,BID,213600,bidston,53.40914752,-3.078570263,ME,Merseyrail,5,2.0,Full Time,"C, no step-free access to any platform"
+Birkdale,BDL,235200,birkdale,53.63353433,-3.014715579,ME,Merseyrail,5,2.0,Full Time,"A, Compliant step-free access to all platform(s)"
+Birkenhead Central,BKC,221700,birkenhead-central,53.38900094,-3.019416498,ME,Merseyrail,5,2.0,Full Time,"A, Compliant step-free access to all platform(s)"
+Birkenhead Hamilton Square,BKQ,221900,birkenhead-hamilton-square,53.39471293,-3.013687789,ME,Merseyrail,5,3.0,Full Time,"A, Compliant step-free access to all platform(s)"
+Birkenhead North,BKN,214500,birkenhead-north,53.40484222,-3.057401666,ME,Merseyrail,5,3.0,Full Time,"A, Compliant step-free access to all platform(s)"
+Birkenhead Park,BKP,222000,birkenhead-park,53.3978198,-3.039179402,ME,Merseyrail,5,2.0,Full Time,"A, Compliant step-free access to all platform(s)"
+Blundellsands & Crosby,BLN,212300,blundellsands-crosby,53.48769659,-3.03986789,ME,Merseyrail,5,2.0,Full Time,"A, Compliant step-free access to all platform(s)"
+Bootle New Strand,BNW,219500,bootle-new-strand,53.45301817,-2.995347712,ME,Merseyrail,5,2.0,Full Time,"A, Compliant step-free access to all platform(s)"
+Bootle Oriel Road,BOT,223900,bootle-oriel-road,53.44762574,-2.995221639,ME,Merseyrail,5,2.0,Full Time,"A, Compliant step-free access to all platform(s)"
+Bromborough,BOM,219000,bromborough,53.32184733,-2.987788553,ME,Merseyrail,5,2.0,Full Time,"C, no step-free access to any platform"
+Bromborough Rake,BMR,219100,bromborough-rake,53.32992372,-2.989476735,ME,Merseyrail,5,2.0,Full Time,"A, Compliant step-free access to all platform(s)"
+Brunswick,BRW,362300,brunswick,53.38217523,-2.975653248,ME,Merseyrail,5,2.0,Full Time,"A, Compliant step-free access to all platform(s)"
+Capenhurst,CPU,218600,capenhurst,53.26018901,-2.942291644,ME,Merseyrail,5,2.0,Unstaffed,"B2, (refer to quick reference guide)"
+Conway Park,CNP,362400,conway-park,53.39337776,-3.022679178,ME,Merseyrail,5,2.0,Full Time,"A, Compliant step-free access to all platform(s)"
+Cressington,CSG,222500,cressington,53.35876717,-2.912008275,ME,Merseyrail,5,2.0,Full Time,"C, no step-free access to any platform"
+Eastham Rake,ERA,212800,eastham-rake,53.30759993,-2.981171169,ME,Merseyrail,5,2.0,Full Time,"B3, step-free access only to some platforms"
+Ellesmere Port,ELP,212100,ellesmere-port,53.28220693,-2.896427988,ME,Merseyrail,5,2.0,Part Time,"B3, step-free access only to some platforms"
+Fazakerley,FAZ,212600,fazakerley,53.46878354,-2.93545612,ME,Merseyrail,5,2.0,Full Time,"A, Compliant step-free access to all platform(s)"
+Formby,FBY,235400,formby,53.55349222,-3.070916313,ME,Merseyrail,5,2.0,Full Time,"A, Compliant step-free access to all platform(s)"
+Freshfield,FRE,235500,freshfield,53.56606861,-3.071838001,ME,Merseyrail,5,2.0,Full Time,"A, Compliant step-free access to all platform(s)"
+Green Lane,GNL,221800,green-lane,53.38327334,-3.01642303,ME,Merseyrail,5,2.0,Full Time,"C, no step-free access to any platform"
+Hall Road,HLR,222900,hall-road,53.49838894,-3.050682508,ME,Merseyrail,3,2.0,Full Time,"A, Compliant step-free access to all platform(s)"
+Headbolt Lane,HBL,042500,headbolt-lane,53.49284,-2.87978,ME,Merseyrail,5,3.0,Full Time,"A, Compliant step-free access to all platform(s)"
+Hightown,HTO,235600,hightown,53.52512005,-3.057076334,ME,Merseyrail,5,2.0,Full Time,"B1, (refer to quick reference guide)"
+Hillside,HIL,223100,hillside,53.62212307,-3.024723262,ME,Merseyrail,5,2.0,Full Time,"A, Compliant step-free access to all platform(s)"
+Hooton,HOO,219300,hooton,53.29721539,-2.977016928,ME,Merseyrail,5,4.0,Full Time,"A, Compliant step-free access to all platform(s)"
+Hoylake,HYK,219400,hoylake,53.39022996,-3.178843698,ME,Merseyrail,5,2.0,Full Time,"A, Compliant step-free access to all platform(s)"
+Hunts Cross,HNX,223500,hunts-cross,53.36062783,-2.854946075,ME,Merseyrail,5,3.0,Full Time,"A, Compliant step-free access to all platform(s)"
+Kirkby (Merseyside),KIR,212400,kirkby-merseyside,53.48620351,-2.902833396,ME,Merseyrail,5,2.0,Full Time,"A, Compliant step-free access to all platform(s)"
+Kirkdale,KKD,224500,kirkdale,53.4405479,-2.981506598,ME,Merseyrail,5,2.0,Full Time,"A, Compliant step-free access to all platform(s)"
+Leasowe,LSW,223700,leasowe,53.40805676,-3.099603994,ME,Merseyrail,5,2.0,Full Time,"A, Compliant step-free access to all platform(s)"
+Little Sutton,LTT,215600,little-sutton,53.28553102,-2.943299129,ME,Merseyrail,5,2.0,Unstaffed,"B2, (refer to quick reference guide)"
+Liverpool Central,LVC,224200,liverpool-central,53.40461053,-2.979159936,ME,Merseyrail,10,3.0,Full Time,"A, Compliant step-free access to all platform(s)"
+Liverpool James Street,LVJ,224400,liverpool-james-street,53.40477452,-2.991964872,ME,Merseyrail,5,2.0,Full Time,"A, Compliant step-free access to all platform(s)"
+Liverpool South Parkway,LPY,970900,liverpool-south-parkway,53.35758121,-2.889294039,ME,Merseyrail,5,6.0,Full Time,"A, Compliant step-free access to all platform(s)"
+Maghull,MAG,215500,maghull,53.50648347,-2.930857798,ME,Merseyrail,5,2.0,Full Time,"A, Compliant step-free access to all platform(s)"
+Maghull North,MNS,6576,maghull-north,53.516,-2.922,ME,Merseyrail,5,2.0,Part Time,"A, Compliant step-free access to all platform(s)"
+Manor Road,MNR,225300,manor-road,53.39479742,-3.171450295,ME,Merseyrail,5,2.0,Full Time,"B3, step-free access only to some platforms"
+Meols,MEO,225400,meols,53.39945033,-3.154281087,ME,Merseyrail,5,2.0,Full Time,"A, Compliant step-free access to all platform(s)"
+Moorfields,MRF,222600,moorfields,53.40857308,-2.989179871,ME,Merseyrail,10,,Full Time,"A, Compliant step-free access to all platform(s)"
+Moreton (Merseyside),MRT,215100,moreton-merseyside,53.40793134,-3.113140165,ME,Merseyrail,5,2.0,Full Time,"A, Compliant step-free access to all platform(s)"
+New Brighton,NBN,215200,new-brighton,53.43727598,-3.049174288,ME,Merseyrail,5,2.0,Full Time,"A, Compliant step-free access to all platform(s)"
+Old Roan,ORN,225800,old-roan,53.48690801,-2.951077083,ME,Merseyrail,5,2.0,Full Time,"A, Compliant step-free access to all platform(s)"
+Ormskirk,OMS,228100,ormskirk,53.56896888,-2.88179342,ME,Merseyrail,5,2.0,Full Time,"A, Compliant step-free access to all platform(s)"
+Orrell Park,OPK,224700,orrell-park,53.46191022,-2.963321542,ME,Merseyrail,5,2.0,Full Time,"A, Compliant step-free access to all platform(s)"
+Overpool,OVE,215700,overpool,53.28414758,-2.924818617,ME,Merseyrail,5,2.0,Unstaffed,"A, Compliant step-free access to all platform(s)"
+Port Sunlight,PSL,219800,port-sunlight,53.3492693,-2.99803707,ME,Merseyrail,5,2.0,Full Time,"C, no step-free access to any platform"
+Rice Lane,RIL,213100,rice-lane,53.45778328,-2.962324455,ME,Merseyrail,5,2.0,Full Time,"C, no step-free access to any platform"
+Rock Ferry,RFY,218900,rock-ferry,53.37289259,-3.010914905,ME,Merseyrail,2,4.0,Full Time,"B2, (refer to quick reference guide)"
+Sandhills,SDL,224900,sandhills,53.42994809,-2.991497322,ME,Merseyrail,5,2.0,Full Time,"A, Compliant step-free access to all platform(s)"
+Seaforth & Litherland,SFL,225000,seaforth-litherland,53.46611293,-3.005295121,ME,Merseyrail,5,2.0,Full Time,"A, Compliant step-free access to all platform(s)"
+Southport,SOP,226200,southport,53.64652777,-3.00244063,ME,Merseyrail,5,6.0,Full Time,"A, Compliant step-free access to all platform(s)"
+Spital,SPI,219900,spital,53.33995485,-2.993914447,ME,Merseyrail,5,2.0,Full Time,"C, no step-free access to any platform"
+St Michaels,STM,224800,st-michaels,53.37561787,-2.952804749,ME,Merseyrail,5,2.0,Full Time,"A, Compliant step-free access to all platform(s)"
+Town Green,TWN,228300,town-green,53.54282147,-2.904490485,ME,Merseyrail,5,2.0,Full Time,"A, Compliant step-free access to all platform(s)"
+Wallasey Grove Road,WLG,215400,wallasey-grove-road,53.42801467,-3.069716325,ME,Merseyrail,5,2.0,Full Time,"B1, (refer to quick reference guide)"
+Wallasey Village,WLV,226500,wallasey-village,53.422896,-3.069136355,ME,Merseyrail,5,2.0,Full Time,"C, no step-free access to any platform"
+Walton (Merseyside),WAO,225100,walton-merseyside,53.45622746,-2.965753228,ME,Merseyrail,5,2.0,Full Time,"B3, step-free access only to some platforms"
+Waterloo (Merseyside),WLO,213300,waterloo-merseyside,53.47496593,-3.025543946,ME,Merseyrail,5,2.0,Full Time,"A, Compliant step-free access to all platform(s)"
+West Kirby,WKI,220100,west-kirby,53.37319127,-3.183769494,ME,Merseyrail,5,2.0,Full Time,"A, Compliant step-free access to all platform(s)"

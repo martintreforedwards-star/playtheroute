@@ -8,7 +8,6 @@ def normalise_network(stations, config):
     """
 
     wanted = set(config["crs"])
-
     rows = []
 
     for station in stations:
@@ -18,20 +17,46 @@ def normalise_network(stations, config):
         if crs not in wanted:
             continue
 
-        location = station.get("location", {})
-        operator = station.get("stationOperator", {})
+        # Nested objects (safe against null values)
+        location = station.get("location") or {}
+        operator = station.get("stationOperator") or {}
+        platform = station.get("platformFacilities") or {}
+        accessibility = station.get("stationAccessibility") or {}
+        stepfree = accessibility.get("stepFreeCategory") or {}
 
-        rows.append(
-            {
-                "station_name": station.get("name"),
-                "crs": crs,
-                "latitude": location.get("latitude"),
-                "longitude": location.get("longitude"),
-                "operator_code": operator.get("code"),
-                "operator_name": operator.get("name"),
-            }
-        )
+        rows.append({
+
+            # Identity
+            "station_name": station.get("name") or "",
+            "crs": crs,
+            "nlc": station.get("nationalLocationCode") or "",
+            "slug": station.get("slug") or "",
+
+            # Geography
+            "latitude": location.get("latitude"),
+            "longitude": location.get("longitude"),
+
+            # Operator
+            "operator_code": operator.get("operatorCode") or "",
+            "operator_name": operator.get("name") or "",
+
+            # Operations
+            "minimum_connection_time": station.get("minimumConnectionTime") or "",
+            "platform_count": platform.get("numberOfPlatforms"),
+
+            # Accessibility
+            "staffing_level": station.get("staffingLevel") or "",
+            "step_free_category": stepfree.get("category") or "",
+
+        })
 
     df = pd.DataFrame(rows)
 
-    return df.sort_values("station_name").reset_index(drop=True)
+    if df.empty:
+        return df
+
+    return (
+        df
+        .sort_values("station_name")
+        .reset_index(drop=True)
+    )

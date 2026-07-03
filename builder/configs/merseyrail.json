@@ -1,7 +1,18 @@
 {
   "network": "Merseyrail",
   "display_name": "Merseyrail",
+
   "knowledgebase": "data/Knowledgebase/ME_network_data.json",
+
+  "journey_times": "data/Merseyrail/merseyrail_times.csv",
+  
+  "primary_hub": "Liverpool Central",
+
+  "secondary_hubs": [
+    "Liverpool Lime Street",
+    "Moorfields"
+  ],
+
   "crs": [
     "AIG",
     "AIN",

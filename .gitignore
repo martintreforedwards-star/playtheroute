@@ -6,7 +6,7 @@ __pycache__/
 # IDE
 .vscode/
 
-# Generated files
+# Generated
 *.zip
 
 # OS

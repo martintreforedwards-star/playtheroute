@@ -1,5 +1,7 @@
 from pathlib import Path
+
 from builder.network_source import load_network
+from builder.save_master import save_master
 
 
 def create_network(network):
@@ -11,7 +13,7 @@ def create_network(network):
 
     output = output_folder / f"{network.lower()}_master.csv"
 
-    master.to_csv(output, index=False)
+    save_master(master, output)
 
     print()
     print(f"Network : {network}")

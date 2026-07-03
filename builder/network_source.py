@@ -1,5 +1,13 @@
-import pandas as pd
+from builder.config import load_config
+from builder.knowledgebase_client import load_knowledgebase
+from builder.normalise_network import normalise_network
 
 
 def load_network(network):
-    return pd.DataFrame()
+
+    config = load_config(network)
+
+    
+    stations = load_knowledgebase(config["knowledgebase"])
+
+    return normalise_network(stations, config)

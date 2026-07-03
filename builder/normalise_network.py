@@ -1,54 +1,33 @@
 import pandas as pd
 
+from builder.extractors.identity import extract_identity
+from builder.extractors.geography import extract_geography
+from builder.extractors.operations import extract_operations
+from builder.extractors.accessibility import extract_accessibility
+from builder.extractors.linguistics import extract_linguistics
+from builder.extractors.wordplay import extract_wordplay
+
 
 def normalise_network(stations, config):
-    """
-    Convert National Rail Knowledgebase stations into
-    The Route master station format.
-    """
 
     wanted = set(config["crs"])
     rows = []
 
     for station in stations:
 
-        crs = station.get("crsCode")
-
-        if crs not in wanted:
+        if station.get("crsCode") not in wanted:
             continue
 
-        # Nested objects (safe against null values)
-        location = station.get("location") or {}
-        operator = station.get("stationOperator") or {}
-        platform = station.get("platformFacilities") or {}
-        accessibility = station.get("stationAccessibility") or {}
-        stepfree = accessibility.get("stepFreeCategory") or {}
+        row = {}
 
-        rows.append({
+        row.update(extract_identity(station))
+        row.update(extract_geography(station))
+        row.update(extract_operations(station))
+        row.update(extract_accessibility(station))
+        row.update(extract_linguistics(station))
+        row.update(extract_wordplay(station))
 
-            # Identity
-            "station_name": station.get("name") or "",
-            "crs": crs,
-            "nlc": station.get("nationalLocationCode") or "",
-            "slug": station.get("slug") or "",
-
-            # Geography
-            "latitude": location.get("latitude"),
-            "longitude": location.get("longitude"),
-
-            # Operator
-            "operator_code": operator.get("operatorCode") or "",
-            "operator_name": operator.get("name") or "",
-
-            # Operations
-            "minimum_connection_time": station.get("minimumConnectionTime") or "",
-            "platform_count": platform.get("numberOfPlatforms"),
-
-            # Accessibility
-            "staffing_level": station.get("staffingLevel") or "",
-            "step_free_category": stepfree.get("category") or "",
-
-        })
+        rows.append(row)
 
     df = pd.DataFrame(rows)
 
@@ -56,7 +35,6 @@ def normalise_network(stations, config):
         return df
 
     return (
-        df
-        .sort_values("station_name")
-        .reset_index(drop=True)
+        df.sort_values("station_name")
+          .reset_index(drop=True)
     )

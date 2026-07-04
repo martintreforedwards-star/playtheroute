@@ -1,0 +1,17 @@
+{
+  "branch_groups": [
+    "Southport Line",
+    "Ormskirk Line",
+    "Headbolt Lane Line",
+    "Hunts Cross Line",
+    "West Kirby Line",
+    "New Brighton Line",
+    "Chester Line",
+    "Ellesmere Port Line"
+  ],
+  "coastal_groups": [
+    "Southport Line",
+    "West Kirby Line",
+    "New Brighton Line"
+  ]
+}

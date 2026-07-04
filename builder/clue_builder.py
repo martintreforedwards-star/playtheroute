@@ -6,8 +6,27 @@ from builder.rules import load_rules
 
 def build_clues(config):
 
-    template = Path(config["clue_template"])
-    output = Path(config["clues"])
+    network = config["network"]
+
+    template = Path(
+        config.get(
+            "clue_template",
+            Path("data") / "clues" / "template.json"
+        )
+    )
+
+    output = Path(
+        config.get(
+            "clues",
+            Path("data") / network / f"{network.lower()}-clues.json"
+        )
+    )
+
+    if not template.exists():
+        raise FileNotFoundError(
+            f"Clue template not found: {template}\n"
+            "Add 'clue_template' to the network config or create the default template."
+        )
 
     rules = load_rules(config)
     clue_rules = rules.get("clues", {})
@@ -30,8 +49,10 @@ def build_clues(config):
 
         return result
 
-    clues["rowPool"] = process(clues["rowPool"])
-    clues["columnPool"] = process(clues["columnPool"])
+    clues["rowPool"] = process(clues.get("rowPool", []))
+    clues["columnPool"] = process(clues.get("columnPool", []))
+
+    output.parent.mkdir(parents=True, exist_ok=True)
 
     with open(output, "w", encoding="utf-8") as f:
         json.dump(clues, f, indent=2)

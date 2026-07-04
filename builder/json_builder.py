@@ -6,8 +6,21 @@ import json
 
 def build_json(config):
 
-    input_file = Path(config["enriched"])
-    output_file = Path(config["output"])
+    network = config["network"]
+
+    input_file = Path(
+        config.get(
+            "enriched",
+            Path("data") / network / f"{network.lower()}_enriched.csv"
+        )
+    )
+
+    output_file = Path(
+        config.get(
+            "output",
+            Path("data") / network / f"{network.lower()}.json"
+        )
+    )
 
     stations = []
 
@@ -17,14 +30,15 @@ def build_json(config):
 
         for row in reader:
 
-            try:
-                row["route_groups"] = ast.literal_eval(
-                    row["route_groups"]
-                )
-            except Exception:
-                pass
+            if "route_groups" in row:
+                try:
+                    row["route_groups"] = ast.literal_eval(row["route_groups"])
+                except Exception:
+                    row["route_groups"] = []
 
             stations.append(row)
+
+    output_file.parent.mkdir(parents=True, exist_ok=True)
 
     with open(output_file, "w", encoding="utf-8") as f:
         json.dump(stations, f, indent=2)

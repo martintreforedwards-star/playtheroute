@@ -25,7 +25,13 @@ def main():
     config = load_config(network)
 
     print(f"\n=== Building {network} ===")
-    print(f"Network : {config['name']}")
+    network_name = (
+        config.get("display_name")
+        or config.get("network")
+        or config.get("name", network)
+    )
+
+    print(f"Network : {network_name}")
 
     build_master(config)
 
@@ -33,7 +39,10 @@ def main():
 
     validate(stations)
 
-    build_clues(config)
+    if "clue_template" in config:
+        build_clues(config)
+    else:
+        print("Skipping clue generation (no clue_template configured).")
 
     build_json(config)
 

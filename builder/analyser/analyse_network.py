@@ -1,4 +1,5 @@
 import json
+import re
 import sys
 from pathlib import Path
 
@@ -14,8 +15,19 @@ INPUT = Path(f"data/{NETWORK}/{NETWORK.lower()}.json")
 OUTPUT = Path(f"data/{NETWORK}/{NETWORK.lower()}_wordplay.json")
 
 
+def normalise(name):
+    """Clean station names before analysis."""
+
+    name = re.sub(r"\([^)]*\)", "", name)   # Remove bracketed text
+    name = name.replace("&", "and")         # Normalise ampersands
+    name = " ".join(name.split())           # Collapse whitespace
+
+    return name.strip()
+
+
 def analyse(name):
 
+    name = normalise(name)
     words = name.split()
 
     return {
@@ -31,7 +43,7 @@ def analyse(name):
         "contains_digits": any(c.isdigit() for c in name),
         "starts_with_the": name.startswith("The "),
         "starts_with_st": name.startswith("St "),
-        "contains_and": " and " in name,
+        "contains_and": " and " in name.lower(),
         "contains_central": "Central" in name,
         "contains_parkway": "Parkway" in name,
         "contains_junction": "Junction" in name,

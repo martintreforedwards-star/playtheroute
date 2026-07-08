@@ -25,6 +25,7 @@ def main():
     config = load_config(network)
 
     print(f"\n=== Building {network} ===")
+
     network_name = (
         config.get("display_name")
         or config.get("network")
@@ -37,12 +38,15 @@ def main():
 
     stations = enrich(config)
 
+    print("\nColumns returned from enrichment:")
+    print(stations.columns.tolist())
+
     validate(stations)
 
-    if "clue_template" in config:
+    if config.get("clue_template"):
         build_clues(config)
     else:
-        print("Skipping clue generation (no clue_template configured).")
+        print("Skipping clue generation (no clue template configured).")
 
     build_json(config)
 

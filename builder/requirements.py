@@ -29,10 +29,6 @@ REQUIRED_FIELDS = [
     "word_count_band",
     "route_station_id",
 
-    # Difficulty
-    "accessibility_score",
-    "difficulty_score",
-
     # Service
     "route_count",
     "service_count",

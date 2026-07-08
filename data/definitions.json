@@ -1,12 +1,12 @@
 {
   "terminus": {
     "title": "Terminus",
-    "definition": "A station where one or more scheduled Southeastern passenger services regularly originate or terminate."
+    "definition": "A station where one or more scheduled passenger services regularly originate or terminate."
   },
 
   "not_terminus": {
     "title": "Not a Terminus",
-    "definition": "A station where no scheduled Southeastern passenger service regularly originates or terminates."
+    "definition": "A station where no scheduled passenger service regularly originates or terminates."
   },
 
   "interchange": {

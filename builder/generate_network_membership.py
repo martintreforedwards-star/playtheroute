@@ -5,8 +5,10 @@ import pandas as pd
 
 def generate_network_membership(config):
     """
-    Generate network_membership.csv and route_membership.csv
-    from the network master dataset.
+    Generate:
+
+    - data/Masters/network_membership.csv (all networks)
+    - data/<Network>/route_membership.csv (this network only)
     """
 
     network = config["network"]
@@ -45,23 +47,34 @@ def generate_network_membership(config):
     masters = Path("data") / "Masters"
     masters.mkdir(parents=True, exist_ok=True)
 
-    network_membership = masters / "network_membership.csv"
-    route_membership = (
+    network_membership_file = masters / "network_membership.csv"
+    route_membership_file = (
         Path("data") / network / "route_membership.csv"
     )
 
-    if network_membership.exists():
-        existing = pd.read_csv(network_membership)
+    # Route membership = this network only
+    membership.to_csv(route_membership_file, index=False)
+
+    # Network membership = all networks
+    if network_membership_file.exists():
+        existing = pd.read_csv(network_membership_file)
+
         existing = existing[
             existing["network"].str.lower() != network.lower()
         ]
-        membership = pd.concat(
+
+        network_membership = pd.concat(
             [existing, membership],
             ignore_index=True,
         )
 
-    membership.to_csv(network_membership, index=False)
-    membership.to_csv(route_membership, index=False)
+    else:
+        network_membership = membership.copy()
 
-    print(f"Saved : {network_membership}")
-    print(f"Saved : {route_membership}")
+    network_membership.to_csv(
+        network_membership_file,
+        index=False,
+    )
+
+    print(f"Saved : {network_membership_file}")
+    print(f"Saved : {route_membership_file}")

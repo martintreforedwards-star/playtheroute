@@ -1,1179 +1,475 @@
-station_id,network,route_station_id,crs,station_name,route_group
-uk_000122,c2c,CT0001,FST,London Fenchurch Street,
-uk_000134,c2c,CT0002,LHS,Limehouse,
-uk_000158,c2c,CT0003,WEH,West Ham,
-uk_000109,c2c,CT0004,BKG,Barking,
-uk_000156,c2c,CT0005,UPM,Upminster,
-uk_000119,c2c,CT0006,EMP,Emerson Park,
-uk_000144,c2c,CT0007,RMF,Romford,
-uk_000117,c2c,CT0008,DDK,Dagenham Dock,
-uk_000146,c2c,CT0009,RNM,Rainham,
-uk_000142,c2c,CT0010,PFL,Purfleet,
-uk_000113,c2c,CT0011,CFH,Chafford Hundred Lakeside,
-uk_000141,c2c,CT0012,OCK,Ockendon,
-uk_000125,c2c,CT0013,GRY,Grays,
-uk_000154,c2c,CT0014,TIL,Tilbury Town,
-uk_000120,c2c,CT0015,ETL,East Tilbury,
-uk_000147,c2c,CT0016,SFO,Stanford-le-Hope,
-uk_000143,c2c,CT0017,PSE,Pitsea,
-uk_000111,c2c,CT0018,BSO,Basildon,
-uk_000132,c2c,CT0019,LAI,Laindon,
-uk_000108,c2c,CT0020,BEF,Benfleet,
-uk_000133,c2c,CT0021,LES,Leigh-on-Sea,
-uk_000115,c2c,CT0022,CHW,Chalkwell,
-uk_000157,c2c,CT0023,WCF,Westcliff,
-uk_000150,c2c,CT0024,SOC,Southend Central,
-uk_000155,c2c,CT0025,TPB,Thorpe Bay,
-uk_000152,c2c,CT0026,SRY,Shoeburyness,
-uk_000196,Chiltern,CH0001,MYB,London Marylebone,
-uk_000197,Chiltern,CH0002,WCX,Wembley Stadium,
-uk_000198,Chiltern,CH0003,SRU,South Ruislip,
-uk_000199,Chiltern,CH0004,WRU,West Ruislip,
-uk_000200,Chiltern,CH0005,DNM,Denham,
-uk_000201,Chiltern,CH0006,DGC,Denham Golf Club,
-uk_000202,Chiltern,CH0007,GER,Gerrards Cross,
-uk_000203,Chiltern,CH0008,SRG,Seer Green & Jordans,
-uk_000204,Chiltern,CH0009,BCF,Beaconsfield,
-uk_000205,Chiltern,CH0010,HWY,High Wycombe,
-uk_000206,Chiltern,CH0011,SDR,Saunderton,
-uk_000207,Chiltern,CH0012,PRR,Princes Risborough,
-uk_000208,Chiltern,CH0013,HDM,Haddenham & Thame Parkway,
-uk_000209,Chiltern,CH0014,BIT,Bicester Village,
-uk_000210,Chiltern,CH0015,KGS,Kings Sutton,
-uk_000211,Chiltern,CH0016,BAN,Banbury,
-uk_000212,Chiltern,CH0017,LMS,Leamington Spa,
-uk_000213,Chiltern,CH0018,WRW,Warwick,
-uk_000214,Chiltern,CH0019,WRP,Warwick Parkway,
-uk_000215,Chiltern,CH0020,HTN,Hatton,
-uk_000216,Chiltern,CH0021,DDG,Dorridge,
-uk_000217,Chiltern,CH0022,SOL,Solihull,
-uk_000218,Chiltern,CH0023,BMO,Birmingham Moor Street,
-uk_000219,Chiltern,CH0024,BSW,Birmingham Snow Hill,
-uk_000220,Chiltern,CH0025,HOH,Harrow-on-the-Hill,
-uk_000221,Chiltern,CH0026,NLT,Northolt Park,
-uk_000222,Chiltern,CH0027,SDH,Sudbury Hill Harrow,
-uk_000223,Chiltern,CH0028,SUD,Sudbury & Harrow Road,
-uk_000224,Chiltern,CH0029,AMR,Amersham,
-uk_000225,Chiltern,CH0030,GMN,Great Missenden,
-uk_000226,Chiltern,CH0031,WND,Wendover,
-uk_000227,Chiltern,CH0032,SKM,Stoke Mandeville,
-uk_000228,Chiltern,CH0033,AYS,Aylesbury,
-uk_000229,Chiltern,CH0034,AVP,Aylesbury Vale Parkway,
-uk_000230,Chiltern,CH0035,MRS,Monks Risborough,
-uk_000231,Chiltern,CH0036,LTK,Little Kimble,
-uk_000232,Chiltern,CH0037,BCS,Bicester North,
-uk_000233,Chiltern,CH0038,OXP,Oxford Parkway,
-uk_000234,Chiltern,CH0039,OXF,Oxford,
-uk_000235,Chiltern,CH0040,ISP,Islip,
-uk_000236,Chiltern,CH0041,BER,Bearley,
-uk_000237,Chiltern,CH0042,STY,Stratford-upon-Avon Parkway,
-uk_000238,Chiltern,CH0043,SAV,Stratford-upon-Avon,
-uk_000239,Chiltern,CH0044,LPW,Lapworth,
-uk_000240,Chiltern,CH0045,BHM,Birmingham New Street,
-uk_000241,Chiltern,CH0046,FWY,Five Ways,
-uk_000242,Chiltern,CH0047,UNI,University,
-uk_000243,Chiltern,CH0048,SLY,Selly Oak,
-uk_000244,Chiltern,CH0049,BRV,Bournville,
-uk_000245,Chiltern,CH0050,KNN,King's Norton,
-uk_000246,Chiltern,CH0051,NFD,Northfield,
-uk_000247,Chiltern,CH0052,LOB,Longbridge,
-uk_000248,Chiltern,CH0053,BTG,Barnt Green,
-uk_000249,Chiltern,CH0054,ALV,Alvechurch,
-uk_000250,Chiltern,CH0055,RDC,Redditch,
-uk_000251,Chiltern,CH0056,BMV,Bromsgrove,
-uk_000252,Chiltern,CH0057,AST,Aston,
-uk_000253,Chiltern,CH0058,GVH,Gravelly Hill,
-uk_000254,Chiltern,CH0059,ERD,Erdington,
-uk_000255,Chiltern,CH0060,CRD,Chester Road,
-uk_000256,Chiltern,CH0061,WYL,Wylde Green,
-uk_000257,Chiltern,CH0062,SUT,Sutton Coldfield,
-uk_000258,Chiltern,CH0063,FOK,Four Oaks,
-uk_000259,Chiltern,CH0064,BKT,Blake Street,
-uk_000260,Chiltern,CH0065,SEN,Shenstone,
-uk_000261,Chiltern,CH0066,LIC,Lichfield City,
-uk_000262,Chiltern,CH0067,LTV,Lichfield Trent Valley,
-uk_000263,Chiltern,CH0068,SGB,Smethwick Galton Bridge,
-uk_000264,Chiltern,CH0069,SAD,Sandwell & Dudley,
-uk_000265,Chiltern,CH0070,DDP,Dudley Port,
-uk_000266,Chiltern,CH0071,TIP,Tipton,
-uk_000267,Chiltern,CH0072,CSY,Coseley,
-uk_000268,Chiltern,CH0073,WVH,Wolverhampton,
-uk_000269,Chiltern,CH0074,ADD,Adderley Park,
-uk_000270,Chiltern,CH0075,SCF,Stechford,
-uk_000271,Chiltern,CH0076,LEH,Lea Hall,
-uk_000272,Chiltern,CH0077,MGN,Marston Green,
-uk_000273,Chiltern,CH0078,BHI,Birmingham International,
-uk_000274,Chiltern,CH0079,HIA,Hampton-in-Arden,
-uk_000275,Chiltern,CH0080,BKW,Berkswell,
-uk_000276,Chiltern,CH0081,THL,Tile Hill,
-uk_000277,Chiltern,CH0082,CNL,Canley,
-uk_000278,Chiltern,CH0083,COV,Coventry,
-uk_000279,Chiltern,CH0084,DUD,Duddeston,
-uk_000280,Chiltern,CH0085,WTT,Witton,
-uk_000281,Chiltern,CH0086,PRY,Perry Barr,
-uk_000282,Chiltern,CH0087,HSD,Hamstead,
-uk_000283,Chiltern,CH0088,TAB,Tame Bridge Parkway,
-uk_000284,Chiltern,CH0089,BSC,Bescot Stadium,
-uk_000285,Chiltern,CH0090,WSL,Walsall,
-uk_000286,Chiltern,CH0091,BLX,Bloxwich,
-uk_000287,Chiltern,CH0092,BWN,Bloxwich North,
-uk_000288,Chiltern,CH0093,LAW,Landywood,
-uk_000289,Chiltern,CH0094,CAO,Cannock,
-uk_000290,Chiltern,CH0095,HNF,Hednesford,
-uk_000291,Chiltern,CH0096,RGT,Rugeley Town,
-uk_000292,Chiltern,CH0097,RGL,Rugeley Trent Valley,
-uk_000293,Chiltern,CH0098,WLN,Wellington (Shropshire),
-uk_000294,Chiltern,CH0099,TFC,Telford Central,
-uk_000295,Chiltern,CH0100,OKN,Oakengates,
-uk_000296,Chiltern,CH0101,SFN,Shifnal,
-uk_000297,Chiltern,CH0102,COS,Cosford,
-uk_000298,Chiltern,CH0103,ALB,Albrighton,
-uk_000299,Chiltern,CH0104,SHR,Shrewsbury,
-uk_000300,Chiltern,CH0105,KID,Kidderminster,
-uk_000301,Chiltern,CH0106,HBY,Hartlebury,
-uk_000302,Chiltern,CH0107,DTW,Droitwich Spa,
-uk_000303,Chiltern,CH0108,WOF,Worcester Foregate Street,
-uk_000304,Chiltern,CH0109,WOS,Worcester Shrub Hill,
-uk_000305,Chiltern,CH0110,MVL,Malvern Link,
-uk_000306,Chiltern,CH0111,GMV,Great Malvern,
-uk_000307,Chiltern,CH0112,CWL,Colwall,
-uk_000308,Chiltern,CH0113,LED,Ledbury,
-uk_000309,Chiltern,CH0114,HFD,Hereford,
-uk_000310,Chiltern,CH0115,JEQ,Jewellery Quarter,
-uk_000311,Chiltern,CH0116,THW,The Hawthorns,
-uk_000312,Chiltern,CH0117,LGG,Langley Green,
-uk_000313,Chiltern,CH0118,ROW,Rowley Regis,
-uk_000314,Chiltern,CH0119,OHL,Old Hill,
-uk_000315,Chiltern,CH0120,CRA,Cradley Heath,
-uk_000316,Chiltern,CH0121,LYE,Lye,
-uk_000317,Chiltern,CH0122,SBJ,Stourbridge Junction,
-uk_000318,Chiltern,CH0123,SBT,Stourbridge Town,
-uk_000319,Chiltern,CH0124,HAG,Hagley,
-uk_000320,Chiltern,CH0125,BKD,Blakedown,
-uk_000321,Chiltern,CH0126,NUN,Nuneaton,
-uk_000322,Chiltern,CH0127,BEH,Bedworth,
-uk_000323,Chiltern,CH0128,BEP,Bermuda Park,
-uk_000135,Greater_Anglia,GA0001,LST,London Liverpool Street,
-uk_000151,Greater_Anglia,GA0002,SRA,Stratford,
-uk_000139,Greater_Anglia,GA0003,MYL,Maryland,
-uk_000121,Greater_Anglia,GA0004,FOG,Forest Gate,
-uk_000138,Greater_Anglia,GA0005,MNP,Manor Park,
-uk_000128,Greater_Anglia,GA0006,IFD,Ilford,
-uk_000153,Greater_Anglia,GA0007,SVK,Seven Kings,
-uk_000124,Greater_Anglia,GA0008,GMY,Goodmayes,
-uk_000114,Greater_Anglia,GA0009,CTH,Chadwell Heath,
-uk_000144,Greater_Anglia,GA0010,RMF,Romford,
-uk_000123,Greater_Anglia,GA0011,GDP,Gidea Park,
-uk_000127,Greater_Anglia,GA0012,HRO,Harold Wood,
-uk_000110,Greater_Anglia,GA0013,BRE,Brentwood,
-uk_000149,Greater_Anglia,GA0014,SNF,Shenfield,
-uk_000129,Greater_Anglia,GA0015,INT,Ingatestone,
-uk_000112,Greater_Anglia,GA0016,CHM,Chelmsford,
-uk_000126,Greater_Anglia,GA0017,HAP,Hatfield Peverel,
-uk_000159,Greater_Anglia,GA0018,WTM,Witham,
-uk_000131,Greater_Anglia,GA0019,KEL,Kelvedon,
-uk_000136,Greater_Anglia,GA0020,MKT,Marks Tey,
-uk_000116,Greater_Anglia,GA0021,COL,Colchester,
-uk_000137,Greater_Anglia,GA0022,MNG,Manningtree,
-uk_000130,Greater_Anglia,GA0023,IPS,Ipswich,
-uk_000148,Greater_Anglia,GA0024,SMK,Stowmarket,
-uk_000118,Greater_Anglia,GA0025,DIS,Diss,
-uk_000140,Greater_Anglia,GA0026,NRW,Norwich,
-uk_000160,Greater_Anglia,GA0027,BIC,Billericay,
-uk_000161,Greater_Anglia,GA0028,WIC,Wickford,
-uk_000162,Greater_Anglia,GA0029,BLB,Battlesbridge,
-uk_000163,Greater_Anglia,GA0030,SOF,South Woodham Ferrers,
-uk_000164,Greater_Anglia,GA0031,NFA,North Fambridge,
-uk_000165,Greater_Anglia,GA0032,ALN,Althorne,
-uk_000166,Greater_Anglia,GA0033,BUU,Burnham-on-Crouch,
-uk_000167,Greater_Anglia,GA0034,SMN,Southminster,
-uk_000168,Greater_Anglia,GA0035,RLG,Rayleigh,
-uk_000169,Greater_Anglia,GA0036,HOC,Hockley,
-uk_000170,Greater_Anglia,GA0037,RFD,Rochford,
-uk_000171,Greater_Anglia,GA0038,SIA,Southend Airport,
-uk_000172,Greater_Anglia,GA0039,PRL,Prittlewell,
-uk_000173,Greater_Anglia,GA0040,SOV,Southend Victoria,
-uk_000174,Greater_Anglia,GA0041,WNY,White Notley,
-uk_000175,Greater_Anglia,GA0042,CES,Cressing,
-uk_000176,Greater_Anglia,GA0043,BTP,Braintree Freeport,
-uk_000177,Greater_Anglia,GA0044,BTR,Braintree,
-uk_000178,Greater_Anglia,GA0045,HYH,Hythe,
-uk_000179,Greater_Anglia,GA0046,WIV,Wivenhoe,
-uk_000180,Greater_Anglia,GA0047,ALR,Alresford,
-uk_000181,Greater_Anglia,GA0048,GRB,Great Bentley,
-uk_000182,Greater_Anglia,GA0049,WEE,Weeley,
-uk_000183,Greater_Anglia,GA0050,TLS,Thorpe-le-Soken,
-uk_000184,Greater_Anglia,GA0051,CLT,Clacton-on-Sea,
-uk_000185,Greater_Anglia,GA0052,KBX,Kirby Cross,
-uk_000186,Greater_Anglia,GA0053,FRI,Frinton-on-Sea,
-uk_000187,Greater_Anglia,GA0054,WON,Walton-on-the-Naze,
-uk_000188,Greater_Anglia,GA0055,WRB,Wrabness,
-uk_000189,Greater_Anglia,GA0056,MIS,Mistley,
-uk_000190,Greater_Anglia,GA0057,HPQ,Harwich International,
-uk_000191,Greater_Anglia,GA0058,DVC,Dovercourt,
-uk_000192,Greater_Anglia,GA0059,HWC,Harwich Town,
-uk_000193,Greater_Anglia,GA0060,CWC,Chappel and Wakes Colne,
-uk_000194,Greater_Anglia,GA0061,BUE,Bures,
-uk_000195,Greater_Anglia,GA0062,SUY,Sudbury,
-uk_000326,Southeastern,SE0001,CHX,London Charing Cross,
-uk_000343,Southeastern,SE0002,WAE,London Waterloo (East),
-uk_000325,Southeastern,SE0003,CST,London Cannon Street,
-uk_000054,Southeastern,SE0004,LBG,London Bridge,
-uk_000330,Southeastern,SE0005,LEW,Lewisham,
-uk_000332,Southeastern,SE0006,LAD,Ladywell,
-uk_000331,Southeastern,SE0007,CFB,Catford Bridge,
-uk_000399,Southeastern,SE0008,LSY,Lower Sydenham,
-uk_000428,Southeastern,SE0009,NBC,New Beckenham,
-uk_000376,Southeastern,SE0010,CLK,Clock House,
-uk_000415,Southeastern,SE0011,ELE,Elmers End,
-uk_000395,Southeastern,SE0012,EDN,Eden Park,
-uk_000408,Southeastern,SE0013,WWI,West Wickham,
-uk_000443,Southeastern,SE0014,HYS,Hayes,
-uk_000328,Southeastern,SE0015,STP,St Pancras International,
-uk_000337,Southeastern,SE0016,ZFD,Farringdon,
-uk_000344,Southeastern,SE0017,CTK,City Thameslink,
-uk_000345,Southeastern,SE0018,BFR,London Blackfriars,
-uk_000335,Southeastern,SE0019,NWX,New Cross,
-uk_000338,Southeastern,SE0020,SAJ,St Johns,
-uk_000056,Southeastern,SE0021,VIC,London Victoria,
-uk_000389,Southeastern,SE0022,DMK,Denmark Hill,
-uk_000438,Southeastern,SE0023,PMR,Peckham Rye,
-uk_000437,Southeastern,SE0024,NHD,Nunhead,
-uk_000447,Southeastern,SE0025,BKH,Blackheath,
-uk_000400,Southeastern,SE0026,DEP,Deptford,
-uk_000401,Southeastern,SE0027,GNW,Greenwich,
-uk_000422,Southeastern,SE0028,MZH,Maze Hill,
-uk_000441,Southeastern,SE0029,WCB,Westcombe Park,
-uk_000449,Southeastern,SE0030,CTN,Charlton,
-uk_000348,Southeastern,SE0031,WWD,Woolwich Dockyard,
-uk_000341,Southeastern,SE0032,WWA,Woolwich Arsenal,
-uk_000339,Southeastern,SE0033,PLU,Plumstead,
-uk_000350,Southeastern,SE0034,ABW,Abbey Wood,
-uk_000356,Southeastern,SE0035,BVD,Belvedere,
-uk_000357,Southeastern,SE0036,ERH,Erith,
-uk_000373,Southeastern,SE0037,SGR,Slade Green,
-uk_000429,Southeastern,SE0038,BNH,Barnehurst,
-uk_000388,Southeastern,SE0039,CRY,Crayford,
-uk_000359,Southeastern,SE0040,DFD,Dartford,
-uk_000393,Southeastern,SE0041,SCG,Stone Crossing,
-uk_000370,Southeastern,SE0042,GNH,Greenhithe For Bluewater,
-uk_000358,Southeastern,SE0043,SWM,Swanscombe,
-uk_000361,Southeastern,SE0044,NFL,Northfleet,
-uk_000454,Southeastern,SE0045,GRV,Gravesend,
-uk_000455,Southeastern,SE0046,HGM,Higham,
-uk_000364,Southeastern,SE0047,SOO,Strood,
-uk_000440,Southeastern,SE0048,RTR,Rochester,
-uk_000461,Southeastern,SE0049,CTM,Chatham,
-uk_000466,Southeastern,SE0050,GLM,Gillingham (Kent),
-uk_000467,Southeastern,SE0051,RAI,Rainham (Kent),
-uk_000342,Southeastern,SE0052,BRX,Brixton,
-uk_000369,Southeastern,SE0053,EPH,Elephant & Castle,
-uk_000434,Southeastern,SE0054,CFT,Crofton Park,
-uk_000368,Southeastern,SE0055,CTF,Catford,
-uk_000446,Southeastern,SE0056,BGM,Bellingham,
-uk_000430,Southeastern,SE0057,BEC,Beckenham Hill,
-uk_000439,Southeastern,SE0058,RVB,Ravensbourne,
-uk_000381,Southeastern,SE0059,LGJ,Loughborough Junction,
-uk_000436,Southeastern,SE0060,HNH,Herne Hill,
-uk_000334,Southeastern,SE0061,WDU,West Dulwich,
-uk_000333,Southeastern,SE0062,SYH,Sydenham Hill,
-uk_000347,Southeastern,SE0063,PNE,Penge East,
-uk_000349,Southeastern,SE0064,KTH,Kent House,
-uk_000352,Southeastern,SE0065,BKJ,Beckenham Junction,
-uk_000340,Southeastern,SE0066,SRT,Shortlands,
-uk_000448,Southeastern,SE0067,BMS,Bromley South,
-uk_000353,Southeastern,SE0068,BKL,Bickley,
-uk_000423,Southeastern,SE0069,PET,Petts Wood,
-uk_000346,Southeastern,SE0070,ORP,Orpington,
-uk_000374,Southeastern,SE0071,SMY,St Mary Cray,
-uk_000092,Southeastern,SE0072,SAY,Swanley,
-uk_000027,Southeastern,SE0073,EYN,Eynsford,
-uk_000079,Southeastern,SE0074,SEH,Shoreham (Kent),
-uk_000064,Southeastern,SE0075,OTF,Otford,
-uk_000006,Southeastern,SE0076,BBL,Bat & Ball,
-uk_000077,Southeastern,SE0077,SEV,Sevenoaks,
-uk_000427,Southeastern,SE0078,KDB,Kidbrooke,
-uk_000425,Southeastern,SE0079,ELW,Eltham,
-uk_000396,Southeastern,SE0080,FCN,Falconwood,
-uk_000445,Southeastern,SE0081,WLI,Welling,
-uk_000405,Southeastern,SE0082,BXH,Bexleyheath,
-uk_000329,Southeastern,SE0083,SFA,Stratford International,
-uk_000336,Southeastern,SE0084,EBD,Ebbsfleet International,
-uk_000030,Southeastern,SE0085,FNR,Farningham Road,
-uk_000433,Southeastern,SE0086,LGF,Longfield,
-uk_000451,Southeastern,SE0087,MEP,Meopham,
-uk_000392,Southeastern,SE0088,SOR,Sole Street,
-uk_000459,Southeastern,SE0089,NGT,Newington,
-uk_000473,Southeastern,SE0090,SIT,Sittingbourne,
-uk_000458,Southeastern,SE0091,KML,Kemsley,
-uk_000493,Southeastern,SE0092,SWL,Swale,
-uk_000462,Southeastern,SE0093,QBR,Queenborough,
-uk_000472,Southeastern,SE0094,SSS,Sheerness-On-Sea,
-uk_000482,Southeastern,SE0095,TEY,Teynham,
-uk_000470,Southeastern,SE0096,FAV,Faversham,
-uk_000474,Southeastern,SE0097,WHI,Whitstable,
-uk_000480,Southeastern,SE0098,CSW,Chestfield & Swalecliffe,
-uk_000476,Southeastern,SE0099,HNB,Herne Bay,
-uk_000491,Southeastern,SE0100,BCH,Birchington-On-Sea,
-uk_000495,Southeastern,SE0101,WGA,Westgate-On-Sea,
-uk_000510,Southeastern,SE0102,MAR,Margate,
-uk_000508,Southeastern,SE0103,BSR,Broadstairs,
-uk_000509,Southeastern,SE0104,DMP,Dumpton Park,
-uk_000511,Southeastern,SE0105,RAM,Ramsgate,
-uk_000471,Southeastern,SE0106,SEG,Selling,
-uk_000503,Southeastern,SE0107,CBE,Canterbury East,
-uk_000490,Southeastern,SE0108,BKS,Bekesbourne,
-uk_000484,Southeastern,SE0109,ADM,Adisham,
-uk_000479,Southeastern,SE0110,AYH,Aylesham,
-uk_000487,Southeastern,SE0111,SWO,Snowdown,
-uk_000507,Southeastern,SE0112,SPH,Shepherds Well,
-uk_000506,Southeastern,SE0113,KSN,Kearsney,
-uk_000485,Southeastern,SE0114,DVP,Dover Priory,
-uk_000398,Southeastern,SE0115,HGR,Hither Green,
-uk_000367,Southeastern,SE0116,LEE,Lee,
-uk_000417,Southeastern,SE0117,MTG,Mottingham,
-uk_000378,Southeastern,SE0118,NEH,New Eltham,
-uk_000387,Southeastern,SE0119,SID,Sidcup,
-uk_000394,Southeastern,SE0120,AYP,Albany Park,
-uk_000404,Southeastern,SE0121,BXY,Bexley,
-uk_000416,Southeastern,SE0122,GRP,Grove Park,
-uk_000380,Southeastern,SE0123,SUP,Sundridge Park,
-uk_000406,Southeastern,SE0124,BMN,Bromley North,
-uk_000442,Southeastern,SE0125,ESD,Elmstead Woods,
-uk_000407,Southeastern,SE0126,CIT,Chislehurst,
-uk_000351,Southeastern,SE0127,CLD,Chelsfield,
-uk_000444,Southeastern,SE0128,KCK,Knockholt,
-uk_000020,Southeastern,SE0129,DNG,Dunton Green,
-uk_000410,Southeastern,SE0130,CUX,Cuxton,
-uk_000431,Southeastern,SE0131,HAI,Halling,
-uk_000452,Southeastern,SE0132,SDA,Snodland,
-uk_000411,Southeastern,SE0133,NHE,New Hythe,
-uk_000420,Southeastern,SE0134,AYL,Aylesford,
-uk_000390,Southeastern,SE0135,MDB,Maidstone Barracks,
-uk_000383,Southeastern,SE0136,MDW,Maidstone West,
-uk_000435,Southeastern,SE0137,EFL,East Farleigh,
-uk_000424,Southeastern,SE0138,WTR,Wateringbury,
-uk_000384,Southeastern,SE0139,YAL,Yalding,
-uk_000409,Southeastern,SE0140,BEG,Beltring,
-uk_000372,Southeastern,SE0141,PDW,Paddock Wood,
-uk_000096,Southeastern,SE0142,TON,Tonbridge,
-uk_000046,Southeastern,SE0143,HLB,Hildenborough,
-uk_000450,Southeastern,SE0144,MRN,Marden,
-uk_000412,Southeastern,SE0145,SPU,Staplehurst,
-uk_000432,Southeastern,SE0146,HCN,Headcorn,
-uk_000391,Southeastern,SE0147,PLC,Pluckley,
-uk_000382,Southeastern,SE0148,MDE,Maidstone East,
-uk_000360,Southeastern,SE0149,AFK,Ashford International,
-uk_000496,Southeastern,SE0150,WYE,Wye,
-uk_000489,Southeastern,SE0151,CIL,Chilham,
-uk_000475,Southeastern,SE0152,CRT,Chartham,
-uk_000457,Southeastern,SE0153,CBW,Canterbury West,
-uk_000502,Southeastern,SE0154,STU,Sturry,
-uk_000494,Southeastern,SE0155,WHA,Westenhanger,
-uk_000501,Southeastern,SE0156,SDG,Sandling,
-uk_000481,Southeastern,SE0157,FKW,Folkestone West,
-uk_000499,Southeastern,SE0158,FKC,Folkestone Central,
-uk_000492,Southeastern,SE0159,MTM,Martin Mill,
-uk_000488,Southeastern,SE0160,WAM,Walmer,
-uk_000505,Southeastern,SE0161,DEA,Deal,
-uk_000486,Southeastern,SE0162,SDW,Sandwich,
-uk_000500,Southeastern,SE0163,MSR,Minster,
-uk_000483,Southeastern,SE0164,THP,Thanet Parkway,
-uk_000045,Southeastern,SE0165,HIB,High Brooms,
-uk_000098,Southeastern,SE0166,TBW,Tunbridge Wells,
-uk_000033,Southeastern,SE0167,FRT,Frant,
-uk_000099,Southeastern,SE0168,WAD,Wadhurst,
-uk_000087,Southeastern,SE0169,SOG,Stonegate,
-uk_000026,Southeastern,SE0170,ETC,Etchingham,
-uk_000074,Southeastern,SE0171,RBR,Robertsbridge,
-uk_000007,Southeastern,SE0172,BAT,Battle,
-uk_000366,Southeastern,SE0173,CWU,Crowhurst,
-uk_000103,Southeastern,SE0174,WLD,West St Leonards,
-uk_000086,Southeastern,SE0175,SLQ,St Leonards Warrior Sq,
-uk_000041,Southeastern,SE0176,HGS,Hastings,
-uk_000377,Southeastern,SE0177,KMS,Kemsing,
-uk_000414,Southeastern,SE0178,BRG,Borough Green & Wrotham,
-uk_000456,Southeastern,SE0179,WMA,West Malling,
-uk_000460,Southeastern,SE0180,EML,East Malling,
-uk_000465,Southeastern,SE0181,BMG,Barming,
-uk_000453,Southeastern,SE0182,BSD,Bearsted,
-uk_000464,Southeastern,SE0183,HBN,Hollingbourne,
-uk_000469,Southeastern,SE0184,LEN,Lenham,
-uk_000463,Southeastern,SE0185,HRH,Harrietsham,
-uk_000468,Southeastern,SE0186,CHG,Charing,
-uk_000478,Southeastern,SE0187,ORE,Ore,
-uk_000497,Southeastern,SE0188,APD,Appledore,
-uk_000498,Southeastern,SE0189,HST,Ham Street,
-uk_000513,Southeastern,SE0190,RYE,Rye,
-uk_000001,Southern,SO0001,ANG,Angmering,
-uk_000002,Southern,SO0002,BAB,Balcombe,
-uk_000003,Southern,SO0003,BAL,Balham,
-uk_000004,Southern,SO0004,BAA,Barnham,
-uk_000005,Southern,SO0005,BSK,Basingstoke,
-uk_000006,Southern,SO0006,BBL,Bat & Ball,
-uk_000007,Southern,SO0007,BAT,Battle,
-uk_000008,Southern,SO0008,BRK,Berwick,
-uk_000009,Southern,SO0009,BEX,Bexhill,
-uk_000010,Southern,SO0010,BOH,Bosham,
-uk_000011,Southern,SO0011,BTN,Brighton,
-uk_000012,Southern,SO0012,BUG,Burgess Hill,
-uk_000013,Southern,SO0013,CSH,Carshalton,
-uk_000014,Southern,SO0014,CCH,Chichester,
-uk_000015,Southern,SO0015,CLJ,Clapham Junction,
-uk_000016,Southern,SO0016,CLL,Collington,
-uk_000017,Southern,SO0017,COB,Cooden Beach,
-uk_000018,Southern,SO0018,CSA,Cosham,
-uk_000019,Southern,SO0019,CDS,Coulsdon South,
-uk_000020,Southern,SO0020,DNG,Dunton Green,
-uk_000021,Southern,SO0021,DUR,Durrington-on-Sea,
-uk_000022,Southern,SO0022,ELD,Earlswood,
-uk_000023,Southern,SO0023,ECR,East Croydon,
-uk_000024,Southern,SO0024,EBN,Eastbourne,
-uk_000025,Southern,SO0025,EMS,Emsworth,
-uk_000026,Southern,SO0026,ETC,Etchingham,
-uk_000027,Southern,SO0027,EYN,Eynsford,
-uk_000028,Southern,SO0028,FMR,Falmer,
-uk_000029,Southern,SO0029,FRM,Fareham,
-uk_000030,Southern,SO0030,FNR,Farningham Road,
-uk_000031,Southern,SO0031,FSB,Fishbourne,
-uk_000032,Southern,SO0032,FOD,Ford,
-uk_000033,Southern,SO0033,FRT,Frant,
-uk_000034,Southern,SO0034,FTN,Fratton,
-uk_000035,Southern,SO0035,GTW,Gatwick Airport,
-uk_000036,Southern,SO0036,GLY,Glynde,
-uk_000037,Southern,SO0037,GBS,Goring-by-Sea,
-uk_000038,Southern,SO0038,HCB,Hackbridge,
-uk_000039,Southern,SO0039,HMD,Hampden Park,
-uk_000040,Southern,SO0040,HSK,Hassocks,
-uk_000041,Southern,SO0041,HGS,Hastings,
-uk_000042,Southern,SO0042,HAV,Havant,
-uk_000043,Southern,SO0043,HHE,Haywards Heath,
-uk_000044,Southern,SO0044,HDE,Hedge End,
-uk_000045,Southern,SO0045,HIB,High Brooms,
-uk_000046,Southern,SO0046,HLB,Hildenborough,
-uk_000047,Southern,SO0047,HLS,Hilsea,
-uk_000048,Southern,SO0048,HOR,Horley,
-uk_000049,Southern,SO0049,HOV,Hove,
-uk_000050,Southern,SO0050,KPA,Kensington Olympia,
-uk_000051,Southern,SO0051,LAC,Lancing,
-uk_000052,Southern,SO0052,LWS,Lewes,
-uk_000053,Southern,SO0053,LIT,Littlehampton,
-uk_000054,Southern,SO0054,LBG,London Bridge,
-uk_000055,Southern,SO0055,LRB,London Road (Brighton),
-uk_000056,Southern,SO0056,VIC,London Victoria,
-uk_000057,Southern,SO0057,WAT,London Waterloo,
-uk_000058,Southern,SO0058,MHM,Merstham,
-uk_000059,Southern,SO0059,MTC,Mitcham Eastfields,
-uk_000060,Southern,SO0060,MIJ,Mitcham Junction,
-uk_000061,Southern,SO0061,MCB,Moulsecoomb,
-uk_000062,Southern,SO0062,NRB,Norbury,
-uk_000063,Southern,SO0063,NSB,Normans Bay,
-uk_000064,Southern,SO0064,OTF,Otford,
-uk_000065,Southern,SO0065,PEV,Pevensey & Westham,
-uk_000066,Southern,SO0066,PLG,Polegate,
-uk_000067,Southern,SO0067,PTC,Portchester,
-uk_000068,Southern,SO0068,PLD,Portslade,
-uk_000069,Southern,SO0069,PMS,Portsmouth & Southsea,
-uk_000070,Southern,SO0070,PMH,Portsmouth Harbour,
-uk_000071,Southern,SO0071,PRP,Preston Park,
-uk_000072,Southern,SO0072,PUR,Purley,
-uk_000073,Southern,SO0073,RDH,Redhill,
-uk_000074,Southern,SO0074,RBR,Robertsbridge,
-uk_000075,Southern,SO0075,SAF,Salfords,
-uk_000076,Southern,SO0076,SRS,Selhurst,
-uk_000077,Southern,SO0077,SEV,Sevenoaks,
-uk_000078,Southern,SO0078,SPB,Shepherds Bush,
-uk_000079,Southern,SO0079,SEH,Shoreham (Kent),
-uk_000080,Southern,SO0080,SSE,Shoreham-by-Sea,
-uk_000081,Southern,SO0081,SCY,South Croydon,
-uk_000082,Southern,SO0082,SOU,Southampton Central,
-uk_000083,Southern,SO0083,SOB,Southbourne,
-uk_000084,Southern,SO0084,SWK,Southwick,
-uk_000085,Southern,SO0085,SDN,St Denys,
-uk_000086,Southern,SO0086,SLQ,St Leonards Warrior Square,
-uk_000087,Southern,SO0087,SOG,Stonegate,
-uk_000088,Southern,SO0088,STE,Streatham,
-uk_000089,Southern,SO0089,SRC,Streatham Common,
-uk_000090,Southern,SO0090,SRH,Streatham Hill,
-uk_000091,Southern,SO0091,SUO,Sutton,
-uk_000092,Southern,SO0092,SAY,Swanley,
-uk_000093,Southern,SO0093,SNW,Swanwick,
-uk_000094,Southern,SO0094,TTH,Thornton Heath,
-uk_000095,Southern,SO0095,TBD,Three Bridges,
-uk_000096,Southern,SO0096,TON,Tonbridge,
-uk_000097,Southern,SO0097,TUH,Tulse Hill,
-uk_000098,Southern,SO0098,TBW,Tunbridge Wells,
-uk_000099,Southern,SO0099,WAD,Wadhurst,
-uk_000100,Southern,SO0100,WSW,Wandsworth Common,
-uk_000101,Southern,SO0101,WBP,West Brompton,
-uk_000102,Southern,SO0102,WNW,West Norwood,
-uk_000103,Southern,SO0103,WLD,West St Leonards,
-uk_000104,Southern,SO0104,WWO,West Worthing,
-uk_000105,Southern,SO0105,WIN,Winchester,
-uk_000106,Southern,SO0106,WVF,Wivelsfield,
-uk_000107,Southern,SO0107,WRH,Worthing,
-uk_000677,GWR,GW0001,AMT,Aldermaston,
-uk_000514,GWR,GW0002,APF,Appleford,
-uk_000515,GWR,GW0003,AUW,Ascott-under-Wychwood,
-uk_000692,GWR,GW0004,AVF,Avoncliff,
-uk_000516,GWR,GW0005,AVN,Avonmouth,
-uk_000517,GWR,GW0006,BNP,Barnstaple,
-uk_000005,GWR,GW0007,BSK,Basingstoke,
-uk_000519,GWR,GW0008,BTH,Bath Spa,
-uk_000684,GWR,GW0009,BDW,Bedwyn,
-uk_000520,GWR,GW0010,BAS,Bere Alston,
-uk_000521,GWR,GW0011,BFE,Bere Ferrers,
-uk_000522,GWR,GW0012,BOD,Bodmin Parkway,
-uk_000523,GWR,GW0013,BNE,Bourne End,
-uk_000690,GWR,GW0014,BOA,Bradford-on-Avon,
-uk_000524,GWR,GW0015,BMY,Bramley,
-uk_000525,GWR,GW0016,BGN,Bridgend,
-uk_000526,GWR,GW0017,BWT,Bridgwater,
-uk_000527,GWR,GW0018,BPW,Bristol Parkway,
-uk_000528,GWR,GW0019,BRI,Bristol Temple Meads,
-uk_000695,GWR,GW0020,BRU,Bruton,
-uk_000529,GWR,GW0021,BGL,Bugle,
-uk_000530,GWR,GW0022,BNM,Burnham,
-uk_000531,GWR,GW0023,CSK,Calstock,
-uk_000532,GWR,GW0024,CBN,Camborne,
-uk_000533,GWR,GW0025,CBB,Carbis Bay,
-uk_000534,GWR,GW0026,CDF,Cardiff Central,
-uk_000535,GWR,GW0027,CMN,Carmarthen,
-uk_000536,GWR,GW0028,CBP,Castle Bar Park,
-uk_000696,GWR,GW0029,CLC,Castle Cary,
-uk_000537,GWR,GW0030,CAU,Causeland,
-uk_000538,GWR,GW0031,CPN,Chapleton,
-uk_000539,GWR,GW0032,CBY,Charlbury,
-uk_000700,GWR,GW0033,CNO,Chetnole,
-uk_000540,GWR,GW0034,CPM,Chippenham,
-uk_000541,GWR,GW0035,CHO,Cholsey,
-uk_000542,GWR,GW0036,CFN,Clifton Down,
-uk_000307,GWR,GW0037,CWL,Colwall,
-uk_000544,GWR,GW0038,CME,Combe,
-uk_000545,GWR,GW0039,COO,Cookham,
-uk_000546,GWR,GW0040,COE,Coombe Junction Halt,
-uk_000547,GWR,GW0041,COP,Copplestone,
-uk_000548,GWR,GW0042,CDI,Crediton,
-uk_000549,GWR,GW0043,CUM,Culham,
-uk_000550,GWR,GW0044,DWL,Dawlish,
-uk_000551,GWR,GW0045,DWW,Dawlish Warren,
-uk_000552,GWR,GW0046,DID,Didcot Parkway,
-uk_000553,GWR,GW0047,DIG,Digby & Sowton,
-uk_000687,GWR,GW0048,DMH,Dilton Marsh,
-uk_000702,GWR,GW0049,DCW,Dorchester West,
-uk_000554,GWR,GW0050,DRG,Drayton Green,
-uk_000555,GWR,GW0051,EAL,Ealing Broadway,
-uk_000556,GWR,GW0052,EGG,Eggesford,
-uk_000557,GWR,GW0053,EVE,Evesham,
-uk_000558,GWR,GW0054,EXC,Exeter Central,
-uk_000559,GWR,GW0055,EXD,Exeter St Davids,
-uk_000560,GWR,GW0056,EXM,Exmouth,
-uk_000561,GWR,GW0057,EXN,Exton,
-uk_000562,GWR,GW0058,FAL,Falmouth Docks,
-uk_000563,GWR,GW0059,FMT,Falmouth Town,
-uk_000564,GWR,GW0060,FYS,Ferryside,
-uk_000565,GWR,GW0061,FIN,Finstock,
-uk_000691,GWR,GW0062,FFD,Freshford,
-uk_000694,GWR,GW0063,FRO,Frome,
-uk_000566,GWR,GW0064,FZP,Furze Platt,
-uk_000567,GWR,GW0065,GOR,Goring & Streatley,
-uk_000306,GWR,GW0066,GMV,Great Malvern,
-uk_000569,GWR,GW0067,GFD,Greenford,
-uk_000570,GWR,GW0068,GSL,Gunnislake,
-uk_000571,GWR,GW0069,HND,Hanborough,
-uk_000572,GWR,GW0070,HAY,Hayes & Harlington,
-uk_000573,GWR,GW0071,HYL,Hayle,
-uk_000574,GWR,GW0072,HOT,Henley-on-Thames,
-uk_000309,GWR,GW0073,HFD,Hereford,
-uk_000576,GWR,GW0074,HIG,Highbridge & Burnham,
-uk_000577,GWR,GW0075,HYB,Honeybourne,
-uk_000683,GWR,GW0076,HGD,Hungerford,
-uk_000578,GWR,GW0077,IVR,Iver,
-uk_000579,GWR,GW0078,KWL,Kidwelly,
-uk_000580,GWR,GW0079,KGM,Kingham,
-uk_000581,GWR,GW0080,KGN,Kings Nympton,
-uk_000682,GWR,GW0081,KIT,Kintbury,
-uk_000582,GWR,GW0082,LNY,Langley,
-uk_000583,GWR,GW0083,LAP,Lapford,
-uk_000584,GWR,GW0084,LWH,Lawrence Hill,
-uk_000308,GWR,GW0085,LED,Ledbury,
-uk_000586,GWR,GW0086,LEL,Lelant,
-uk_000587,GWR,GW0087,LTS,Lelant Saltings,
-uk_000588,GWR,GW0088,LSK,Liskeard,
-uk_000589,GWR,GW0089,LLE,Llanelli,
-uk_000590,GWR,GW0090,PAD,London Paddington,
-uk_000591,GWR,GW0091,LOO,Looe,
-uk_000592,GWR,GW0092,LUX,Luxulyan,
-uk_000593,GWR,GW0093,LYC,Lympstone Commando,
-uk_000594,GWR,GW0094,LYM,Lympstone Village,
-uk_000701,GWR,GW0095,MDN,Maiden Newton,
-uk_000595,GWR,GW0096,MAI,Maidenhead,
-uk_000305,GWR,GW0097,MVL,Malvern Link,
-uk_000597,GWR,GW0098,MLW,Marlow,
-uk_000693,GWR,GW0099,MKM,Melksham,
-uk_000598,GWR,GW0100,MEN,Menheniot,
-uk_000678,GWR,GW0101,MDG,Midgham,
-uk_000599,GWR,GW0102,MTP,Montpelier,
-uk_000600,GWR,GW0103,MRD,Morchard Road,
-uk_000601,GWR,GW0104,MIM,Moreton-in-Marsh,
-uk_000602,GWR,GW0105,MOR,Mortimer,
-uk_000603,GWR,GW0106,NLS,Nailsea & Backwell,
-uk_000604,GWR,GW0107,NTH,Neath,
-uk_000681,GWR,GW0108,NBY,Newbury,
-uk_000680,GWR,GW0109,NRC,Newbury Racecourse,
-uk_000605,GWR,GW0110,NCO,Newcourt,
-uk_000606,GWR,GW0111,NWP,Newport,
-uk_000607,GWR,GW0112,NQY,Newquay,
-uk_000608,GWR,GW0113,NTA,Newton Abbot,
-uk_000609,GWR,GW0114,NTC,Newton St Cyres,
-uk_000610,GWR,GW0115,OKE,Okehampton,
-uk_000234,GWR,GW0116,OXF,Oxford,
-uk_000612,GWR,GW0117,PAN,Pangbourne,
-uk_000613,GWR,GW0118,PAR,Par,
-uk_000614,GWR,GW0119,PBY,Pembrey & Burry Port,
-uk_000615,GWR,GW0120,PNM,Penmere,
-uk_000616,GWR,GW0121,PYN,Penryn,
-uk_000617,GWR,GW0122,PNZ,Penzance,
-uk_000618,GWR,GW0123,PRW,Perranwell,
-uk_000619,GWR,GW0124,PSH,Pershore,
-uk_000685,GWR,GW0125,PEW,Pewsey,
-uk_000620,GWR,GW0126,PLY,Plymouth,
-uk_000621,GWR,GW0127,POL,Polsloe Bridge,
-uk_000622,GWR,GW0128,PTA,Port Talbot Parkway,
-uk_000623,GWR,GW0129,PMA,Portsmouth Arms,
-uk_000624,GWR,GW0130,QUI,Quintrell Downs,
-uk_000625,GWR,GW0131,RAD,Radley,
-uk_000626,GWR,GW0132,RDG,Reading,
-uk_000676,GWR,GW0133,RDW,Reading West,
-uk_000627,GWR,GW0134,RDA,Redland,
-uk_000628,GWR,GW0135,RED,Redruth,
-uk_000629,GWR,GW0136,ROC,Roche,
-uk_000630,GWR,GW0137,STS,Saltash,
-uk_000631,GWR,GW0138,,Sampford Courtenay,
-uk_000632,GWR,GW0139,SDP,Sandplace,
-uk_000633,GWR,GW0140,SML,Sea Mills,
-uk_000634,GWR,GW0141,SVB,Severn Beach,
-uk_000635,GWR,GW0142,SHI,Shiplake,
-uk_000636,GWR,GW0143,SIP,Shipton,
-uk_000637,GWR,GW0144,SHH,Shirehampton,
-uk_000638,GWR,GW0145,SLO,Slough,
-uk_000639,GWR,GW0146,SGN,South Greenford,
-uk_000640,GWR,GW0147,STL,Southall,
-uk_000641,GWR,GW0148,SAR,St Andrews Road,
-uk_000642,GWR,GW0149,SAU,St Austell,
-uk_000643,GWR,GW0150,SBV,St Budeaux Victoria Road,
-uk_000644,GWR,GW0151,SCR,St Columb Road,
-uk_000645,GWR,GW0152,SER,St Erth,
-uk_000646,GWR,GW0153,SGM,St Germans,
-uk_000647,GWR,GW0154,SIV,St Ives,
-uk_000648,GWR,GW0155,SJP,St James Park,
-uk_000649,GWR,GW0156,SKN,St Keyne Wishing Well Halt,
-uk_000650,GWR,GW0157,SRD,Stapleton Road,
-uk_000651,GWR,GW0158,SCS,Starcross,
-uk_000652,GWR,GW0159,SWA,Swansea,
-uk_000653,GWR,GW0160,SWI,Swindon,
-uk_000654,GWR,GW0161,TAP,Taplow,
-uk_000655,GWR,GW0162,TAU,Taunton,
-uk_000656,GWR,GW0163,TGM,Teignmouth,
-uk_000679,GWR,GW0164,THA,Thatcham,
-uk_000675,GWR,GW0165,THE,Theale,
-uk_000698,GWR,GW0166,THO,Thornford,
-uk_000657,GWR,GW0167,TLH,Tilehurst,
-uk_000658,GWR,GW0168,TVP,Tiverton Parkway,
-uk_000659,GWR,GW0169,TOP,Topsham,
-uk_000660,GWR,GW0170,TOT,Totnes,
-uk_000689,GWR,GW0171,TRO,Trowbridge,
-uk_000661,GWR,GW0172,TRU,Truro,
-uk_000662,GWR,GW0173,TWY,Twyford,
-uk_000663,GWR,GW0174,UMB,Umberleigh,
-uk_000703,GWR,GW0175,UPW,Upwey,
-uk_000664,GWR,GW0176,WGV,Wargrave,
-uk_000688,GWR,GW0177,WMN,Warminster,
-uk_000665,GWR,GW0178,WDT,West Drayton,
-uk_000666,GWR,GW0179,WEA,West Ealing,
-uk_000686,GWR,GW0180,WSB,Westbury,
-uk_000667,GWR,GW0181,WSM,Weston-super-Mare,
-uk_000704,GWR,GW0182,WEY,Weymouth,
-uk_000668,GWR,GW0183,WNC,Windsor & Eton Central,
-uk_000303,GWR,GW0184,WOF,Worcester Foregate Street,
-uk_000304,GWR,GW0185,WOS,Worcester Shrub Hill,
-uk_000671,GWR,GW0186,WOP,Worcestershire Parkway,
-uk_000672,GWR,GW0187,WOR,Worle,
-uk_000673,GWR,GW0188,YAT,Yatton,
-uk_000674,GWR,GW0189,YEO,Yeoford,
-uk_000697,GWR,GW0190,YVP,Yeovil Pen Mill,
-uk_000699,GWR,GW0191,YET,Yetminster,
-NO_000001,Northern,NO0001,ACR,Accrington,
-NO_000002,Northern,NO0002,ACK,Acklington,
-NO_000003,Northern,NO0003,ADC,Adlington (Cheshire),
-NO_000004,Northern,NO0004,ADL,Adlington (Lancashire),
-NO_000005,Northern,NO0005,AWK,Adwick,
-NO_000006,Northern,NO0006,ALD,Alderley Edge,
-NO_000007,Northern,NO0007,ALW,Allens West,
-NO_000008,Northern,NO0008,ALM,Alnmouth,
-NO_000009,Northern,NO0009,ALP,Althorpe,
-NO_000010,Northern,NO0010,ALT,Altrincham,
-NO_000011,Northern,NO0011,AFV,Ansdell & Fairhaven,
-NO_000012,Northern,NO0012,APY,Apperley Bridge,
-NO_000013,Northern,NO0013,APP,Appleby,
-NO_000014,Northern,NO0014,APB,Appley Bridge,
-NO_000015,Northern,NO0015,ADK,Ardwick,
-NO_000016,Northern,NO0016,AWT,Armathwaite,
-NO_000017,Northern,NO0017,ARN,Arnside,
-NO_000018,Northern,NO0018,ARR,Arram,
-NO_000019,Northern,NO0019,ABY,Ashburys,
-NO_000020,Northern,NO0020,ASL,Ashington,
-NO_000021,Northern,NO0021,ASY,Ashley,
-NO_000022,Northern,NO0022,AHN,Ashton-under-Lyne,
-NO_000023,Northern,NO0023,ASK,Askam,
-NO_000024,Northern,NO0024,ASP,Aspatria,
-NO_000025,Northern,NO0025,ATN,Atherton,
-NO_000026,Northern,NO0026,BLD,Baildon,
-NO_000027,Northern,NO0027,BMB,Bamber Bridge,
-NO_000028,Northern,NO0028,BAM,Bamford,
-NO_000029,Northern,NO0029,BLL,Bardon Mill,
-NO_000030,Northern,NO0030,BAR,Bare Lane,
-NO_000031,Northern,NO0031,BNY,Barnsley,
-NO_000032,Northern,NO0032,BIF,Barrow-in-Furness,
-NO_000033,Northern,NO0033,BTL,Batley,
-NO_000034,Northern,NO0034,BTT,Battersby,
-NO_000035,Northern,NO0035,BEJ,Bedlington,
-NO_000036,Northern,NO0036,BLV,Belle Vue,
-NO_000037,Northern,NO0037,BEM,Bempton,
-NO_000038,Northern,NO0038,BEY,Ben Rhydding,
-NO_000039,Northern,NO0039,BEN,Bentham,
-NO_000040,Northern,NO0040,BYK,Bentley (South Yorkshire),
-NO_000041,Northern,NO0041,BBW,Berry Brow,
-NO_000042,Northern,NO0042,BES,Bescar Lane,
-NO_000043,Northern,NO0043,BEV,Beverley,
-NO_000044,Northern,NO0044,BIL,Billingham,
-NO_000045,Northern,NO0045,BIY,Bingley,
-NO_000046,Northern,NO0046,BWD,Birchwood,
-NO_000047,Northern,NO0047,BIA,Bishop Auckland,
-NO_000048,Northern,NO0048,BBN,Blackburn,
-NO_000049,Northern,NO0049,BPN,Blackpool North,
-NO_000050,Northern,NO0050,BPB,Blackpool Pleasure Beach,
-NO_000051,Northern,NO0051,BPS,Blackpool South,
-NO_000052,Northern,NO0052,BLK,Blackrod,
-NO_000053,Northern,NO0053,BLO,Blaydon,
-NO_000054,Northern,NO0054,BLI,Blyth Bebside,
-NO_000055,Northern,NO0055,BON,Bolton,
-NO_000056,Northern,NO0056,BTD,Bolton-upon-Dearne,
-NO_000057,Northern,NO0057,BOC,Bootle (Cumbria),
-NO_000058,Northern,NO0058,BDQ,Bradford Forster Square,
-NO_000059,Northern,NO0059,BDI,Bradford Interchange,
-NO_000060,Northern,NO0060,BML,Bramhall,
-NO_000061,Northern,NO0061,BLE,Bramley (West Yorkshire),
-NO_000062,Northern,NO0062,BMP,Brampton (Cumbria),
-NO_000063,Northern,NO0063,BYS,Braystones,
-NO_000064,Northern,NO0064,BDY,Bredbury,
-NO_000065,Northern,NO0065,BDT,Bridlington,
-NO_000066,Northern,NO0066,BRF,Brierfield,
-NO_000067,Northern,NO0067,BGG,Brigg,
-NO_000068,Northern,NO0068,BGH,Brighouse,
-NO_000069,Northern,NO0069,BNT,Brinnington,
-NO_000070,Northern,NO0070,BGE,Broad Green,
-NO_000071,Northern,NO0071,BDB,Broadbottom,
-NO_000072,Northern,NO0072,BHS,Brockholes,
-NO_000073,Northern,NO0073,BMC,Bromley Cross (Lancs),
-NO_000074,Northern,NO0074,BMF,Broomfleet,
-NO_000075,Northern,NO0075,BYN,Bryn,
-NO_000076,Northern,NO0076,BSV,Buckshaw Parkway,
-NO_000077,Northern,NO0077,BUY,Burley Park,
-NO_000078,Northern,NO0078,BUW,Burley-in-Wharfedale,
-NO_000079,Northern,NO0079,BNA,Burnage,
-NO_000080,Northern,NO0080,BUD,Burneside (Cumbria),
-NO_000081,Northern,NO0081,BUB,Burnley Barracks,
-NO_000082,Northern,NO0082,BNC,Burnley Central,
-NO_000083,Northern,NO0083,BYM,Burnley Manchester Road,
-NO_000084,Northern,NO0084,BCB,Burscough Bridge,
-NO_000085,Northern,NO0085,BCJ,Burscough Junction,
-NO_000086,Northern,NO0086,BUX,Buxton,
-NO_000087,Northern,NO0087,CAK,Cark & Cartmel,
-NO_000088,Northern,NO0088,CNF,Carnforth,
-NO_000089,Northern,NO0089,CFD,Castleford,
-NO_000090,Northern,NO0090,CAS,Castleton (Manchester),
-NO_000091,Northern,NO0091,CSM,Castleton Moor,
-NO_000092,Northern,NO0092,CTL,Cattal,
-NO_000093,Northern,NO0093,CEF,Chapel-en-le-Frith,
-NO_000094,Northern,NO0094,CLN,Chapeltown (South Yorkshire),
-NO_000095,Northern,NO0095,CSR,Chassen Road,
-NO_000096,Northern,NO0096,CHT,Chathill,
-NO_000097,Northern,NO0097,CHU,Cheadle Hulme,
-NO_000098,Northern,NO0098,CEL,Chelford (Cheshire),
-NO_000099,Northern,NO0099,CYT,Cherry Tree,
-NO_000100,Northern,NO0100,CLS,Chester-le-Street,
-NO_000101,Northern,NO0101,CLY,Chinley,
-NO_000102,Northern,NO0102,CRL,Chorley,
-NO_000103,Northern,NO0103,CTW,Church & Oswaldtwistle,
-NO_000104,Northern,NO0104,CHF,Church Fenton,
-NO_000105,Northern,NO0105,CPY,Clapham (North Yorkshire),
-NO_000106,Northern,NO0106,CLI,Clifton (Manchester),
-NO_000107,Northern,NO0107,CLH,Clitheroe,
-NO_000108,Northern,NO0108,CNE,Colne,
-NO_000109,Northern,NO0109,COM,Commondale,
-NO_000110,Northern,NO0110,CNG,Congleton,
-NO_000111,Northern,NO0111,CNS,Conisbrough,
-NO_000112,Northern,NO0112,CEY,Cononley,
-NO_000113,Northern,NO0113,CRB,Corbridge,
-NO_000114,Northern,NO0114,CKL,Corkickle,
-NO_000115,Northern,NO0115,CGM,Cottingham,
-NO_000116,Northern,NO0116,COT,Cottingley,
-NO_000117,Northern,NO0117,CRM,Cramlington,
-NO_000118,Northern,NO0118,CRG,Cross Gates,
-NO_000119,Northern,NO0119,CFL,Crossflatts,
-NO_000120,Northern,NO0120,CSO,Croston,
-NO_000121,Northern,NO0121,CWE,Crowle,
-NO_000122,Northern,NO0122,CUD,Cuddington,
-NO_000123,Northern,NO0123,DSY,Daisy Hill,
-NO_000124,Northern,NO0124,DLS,Dalston (Cumbria),
-NO_000125,Northern,NO0125,DLT,Dalton (Cumbria),
-NO_000126,Northern,NO0126,DNY,Danby,
-NO_000127,Northern,NO0127,DAN,Darnall,
-NO_000128,Northern,NO0128,DRT,Darton,
-NO_000129,Northern,NO0129,DWN,Darwen,
-NO_000130,Northern,NO0130,DVN,Davenport,
-NO_000131,Northern,NO0131,DGT,Deansgate,
-NO_000132,Northern,NO0132,DHN,Deighton,
-NO_000133,Northern,NO0133,DLM,Delamere,
-NO_000134,Northern,NO0134,DBD,Denby Dale,
-NO_000135,Northern,NO0135,DNT,Dent,
-NO_000136,Northern,NO0136,DTN,Denton,
-NO_000137,Northern,NO0137,DND,Dinsdale,
-NO_000138,Northern,NO0138,DTG,Dinting,
-NO_000139,Northern,NO0139,DSL,Disley,
-NO_000140,Northern,NO0140,DOD,Dodworth,
-NO_000141,Northern,NO0141,DOR,Dore & Totley,
-NO_000142,Northern,NO0142,DVH,Dove Holes,
-NO_000143,Northern,NO0143,DRF,Driffield,
-NO_000144,Northern,NO0144,DRI,Drigg,
-NO_000145,Northern,NO0145,DRO,Dronfield,
-NO_000146,Northern,NO0146,DOT,Dunston,
-NO_000147,Northern,NO0147,EAG,Eaglescliffe,
-NO_000148,Northern,NO0148,ERL,Earlestown,
-NO_000149,Northern,NO0149,EDY,East Didsbury,
-NO_000150,Northern,NO0150,EGF,East Garforth,
-NO_000151,Northern,NO0151,EGN,Eastrington,
-NO_000152,Northern,NO0152,ECC,Eccles (Manchester),
-NO_000153,Northern,NO0153,ECL,Eccleston Park,
-NO_000154,Northern,NO0154,EDL,Edale,
-NO_000155,Northern,NO0155,EDG,Edge Hill,
-NO_000156,Northern,NO0156,EGT,Egton,
-NO_000157,Northern,NO0157,ELR,Elsecar,
-NO_000158,Northern,NO0158,ENT,Entwistle,
-NO_000159,Northern,NO0159,EBA,Euxton Balshaw Lane,
-NO_000160,Northern,NO0160,FRF,Fairfield,
-NO_000161,Northern,NO0161,FNW,Farnworth,
-NO_000162,Northern,NO0162,FEA,Featherstone,
-NO_000163,Northern,NO0163,FRY,Ferriby,
-NO_000164,Northern,NO0164,FIL,Filey,
-NO_000165,Northern,NO0165,FZW,Fitzwilliam,
-NO_000166,Northern,NO0166,FLM,Flimby,
-NO_000167,Northern,NO0167,FLI,Flixton,
-NO_000168,Northern,NO0168,FLF,Flowery Field,
-NO_000169,Northern,NO0169,FOX,Foxfield,
-NO_000170,Northern,NO0170,FZH,Frizinghall,
-NO_000171,Northern,NO0171,FNV,Furness Vale,
-NO_000172,Northern,NO0172,GNB,Gainsborough Central,
-NO_000173,Northern,NO0173,GRF,Garforth,
-NO_000174,Northern,NO0174,GGV,Gargrave,
-NO_000175,Northern,NO0175,GSD,Garsdale,
-NO_000176,Northern,NO0176,GSW,Garswood,
-NO_000177,Northern,NO0177,GST,Gathurst,
-NO_000178,Northern,NO0178,GTY,Gatley,
-NO_000179,Northern,NO0179,GIG,Giggleswick,
-NO_000180,Northern,NO0180,GBD,Gilberdyke,
-NO_000181,Northern,NO0181,GLS,Glaisdale,
-NO_000182,Northern,NO0182,GLH,Glasshoughton,
-NO_000183,Northern,NO0183,GLZ,Glazebrook,
-NO_000184,Northern,NO0184,GLO,Glossop,
-NO_000185,Northern,NO0185,GDL,Godley,
-NO_000186,Northern,NO0186,GOE,Goldthorpe,
-NO_000187,Northern,NO0187,GOO,Goole,
-NO_000188,Northern,NO0188,GTR,Goostrey,
-NO_000189,Northern,NO0189,GTO,Gorton,
-NO_000190,Northern,NO0190,GOS,Grange-over-Sands,
-NO_000191,Northern,NO0191,GTA,Great Ayton,
-NO_000192,Northern,NO0192,GNR,Green Road,
-NO_000193,Northern,NO0193,GBK,Greenbank,
-NO_000194,Northern,NO0194,GNF,Greenfield,
-NO_000195,Northern,NO0195,GRN,Grindleford,
-NO_000196,Northern,NO0196,GMT,Grosmont,
-NO_000197,Northern,NO0197,GUI,Guide Bridge,
-NO_000198,Northern,NO0198,GSY,Guiseley,
-NO_000199,Northern,NO0199,GYP,Gypsy Lane,
-NO_000200,Northern,NO0200,HDF,Hadfield,
-NO_000201,Northern,NO0201,HGF,Hag Fold,
-NO_000202,Northern,NO0202,HAL,Hale (Manchester),
-NO_000203,Northern,NO0203,HED,Halewood,
-NO_000204,Northern,NO0204,HFX,Halifax,
-NO_000205,Northern,NO0205,HID,Hall-i'-th'-Wood,
-NO_000206,Northern,NO0206,HWH,Haltwhistle,
-NO_000207,Northern,NO0207,HMM,Hammerton,
-NO_000208,Northern,NO0208,HTH,Handforth,
-NO_000209,Northern,NO0209,HPN,Hapton,
-NO_000210,Northern,NO0210,HRR,Harrington,
-NO_000211,Northern,NO0211,HGT,Harrogate,
-NO_000212,Northern,NO0212,HPL,Hartlepool,
-NO_000213,Northern,NO0213,HFS,Hatfield & Stainforth,
-NO_000214,Northern,NO0214,HSG,Hathersage,
-NO_000215,Northern,NO0215,HTY,Hattersley,
-NO_000216,Northern,NO0216,HDB,Haydon Bridge,
-NO_000217,Northern,NO0217,HAZ,Hazel Grove,
-NO_000218,Northern,NO0218,HDY,Headingley,
-NO_000219,Northern,NO0219,HDG,Heald Green,
-NO_000220,Northern,NO0220,HTC,Heaton Chapel,
-NO_000221,Northern,NO0221,HBD,Hebden Bridge,
-NO_000222,Northern,NO0222,HEI,Heighington,
-NO_000223,Northern,NO0223,HLD,Hellifield,
-NO_000224,Northern,NO0224,HEL,Hensall,
-NO_000225,Northern,NO0225,HES,Hessle,
-NO_000226,Northern,NO0226,HEW,Heworth,
-NO_000227,Northern,NO0227,HEX,Hexham,
-NO_000228,Northern,NO0228,HHB,Heysham Port,
-NO_000229,Northern,NO0229,HIN,Hindley,
-NO_000230,Northern,NO0230,HCH,Holmes Chapel,
-NO_000231,Northern,NO0231,HOY,Honley,
-NO_000232,Northern,NO0232,HOP,Hope Derbyshire,
-NO_000233,Northern,NO0233,HRE,Horden,
-NO_000234,Northern,NO0234,HBP,Hornbeam Park,
-NO_000235,Northern,NO0235,HRS,Horsforth,
-NO_000236,Northern,NO0236,HIR,Horton-in-Ribblesdale,
-NO_000237,Northern,NO0237,HSC,Hoscar,
-NO_000238,Northern,NO0238,HGN,Hough Green,
-NO_000239,Northern,NO0239,HOW,Howden,
-NO_000240,Northern,NO0240,HUP,Humphrey Park,
-NO_000241,Northern,NO0241,HCT,Huncoat,
-NO_000242,Northern,NO0242,HUB,Hunmanby,
-NO_000243,Northern,NO0243,HUT,Hutton Cranswick,
-NO_000244,Northern,NO0244,HUY,Huyton,
-NO_000245,Northern,NO0245,HYC,Hyde Central,
-NO_000246,Northern,NO0246,HYT,Hyde North,
-NO_000247,Northern,NO0247,ILK,Ilkley,
-NO_000248,Northern,NO0248,INE,Ince & Elton (Cheshire),
-NO_000249,Northern,NO0249,INC,Ince (Manchester),
-NO_000250,Northern,NO0250,IRL,Irlam,
-NO_000251,Northern,NO0251,JCH,James Cook University Hospital,
-NO_000252,Northern,NO0252,KSL,Kearsley (Manchester),
-NO_000253,Northern,NO0253,KEI,Keighley,
-NO_000254,Northern,NO0254,KEN,Kendal,
-NO_000255,Northern,NO0255,KBK,Kents Bank,
-NO_000256,Northern,NO0256,KLD,Kildale,
-NO_000257,Northern,NO0257,KKS,Kirk Sandall,
-NO_000258,Northern,NO0258,KSW,Kirkby Stephen,
-NO_000259,Northern,NO0259,KBF,Kirkby-in-Furness,
-NO_000260,Northern,NO0260,KKM,Kirkham & Wesham,
-NO_000261,Northern,NO0261,KLF,Kirkstall Forge,
-NO_000262,Northern,NO0262,KTL,Kirton Lindsey,
-NO_000263,Northern,NO0263,KIV,Kiveton Bridge,
-NO_000264,Northern,NO0264,KVP,Kiveton Park,
-NO_000265,Northern,NO0265,KNA,Knaresborough,
-NO_000266,Northern,NO0266,KNO,Knottingley,
-NO_000267,Northern,NO0267,KNF,Knutsford,
-NO_000268,Northern,NO0268,LHO,Langho,
-NO_000269,Northern,NO0269,LGW,Langwathby,
-NO_000270,Northern,NO0270,LAY,Layton (Lancs),
-NO_000271,Northern,NO0271,LZB,Lazonby & Kirkoswald,
-NO_000272,Northern,NO0272,LEG,Lea Green,
-NO_000273,Northern,NO0273,LHM,Lealholm,
-NO_000274,Northern,NO0274,LVM,Levenshulme,
-NO_000275,Northern,NO0275,LEY,Leyland,
-NO_000276,Northern,NO0276,LTL,Littleborough,
-NO_000277,Northern,NO0277,LCK,Lockwood,
-NO_000278,Northern,NO0278,LPR,Long Preston,
-NO_000279,Northern,NO0279,LGK,Longbeck,
-NO_000280,Northern,NO0280,LOT,Lostock,
-NO_000281,Northern,NO0281,LTG,Lostock Gralam,
-NO_000282,Northern,NO0282,LOH,Lostock Hall,
-NO_000283,Northern,NO0283,LMR,Low Moor,
-NO_000284,Northern,NO0284,LTM,Lytham,
-NO_000285,Northern,NO0285,MCO,Manchester Oxford Road,
-NO_000286,Northern,NO0286,MUF,Manchester United Football Ground,
-NO_000287,Northern,NO0287,MCV,Manchester Victoria,
-NO_000288,Northern,NO0288,MAS,Manors,
-NO_000289,Northern,NO0289,MPL,Marple,
-NO_000290,Northern,NO0290,MSN,Marsden (Yorks),
-NO_000291,Northern,NO0291,MSK,Marske,
-NO_000292,Northern,NO0292,MTO,Marton,
-NO_000293,Northern,NO0293,MRY,Maryport,
-NO_000294,Northern,NO0294,MAU,Mauldeth Road,
-NO_000295,Northern,NO0295,MHS,Meadowhall,
-NO_000296,Northern,NO0296,MNN,Menston,
-NO_000297,Northern,NO0297,MEC,Meols Cop,
-NO_000298,Northern,NO0298,MCE,MetroCentre,
-NO_000299,Northern,NO0299,MEX,Mexborough,
-NO_000300,Northern,NO0300,MIK,Micklefield,
-NO_000301,Northern,NO0301,MDL,Middlewood,
-NO_000302,Northern,NO0302,MLH,Mill Hill (Lancs),
-NO_000303,Northern,NO0303,MLM,Millom,
-NO_000304,Northern,NO0304,MIH,Mills Hill (Manchester),
-NO_000305,Northern,NO0305,MIR,Mirfield,
-NO_000306,Northern,NO0306,MOB,Mobberley,
-NO_000307,Northern,NO0307,MSD,Moorside,
-NO_000308,Northern,NO0308,MRP,Moorthorpe,
-NO_000309,Northern,NO0309,MCM,Morecambe,
-NO_000310,Northern,NO0310,MLY,Morley,
-NO_000311,Northern,NO0311,MPT,Morpeth,
-NO_000312,Northern,NO0312,MSS,Moses Gate,
-NO_000313,Northern,NO0313,MOS,Moss Side,
-NO_000314,Northern,NO0314,MSL,Mossley (Manchester),
-NO_000315,Northern,NO0315,MSH,Mossley Hill,
-NO_000316,Northern,NO0316,MSO,Moston,
-NO_000317,Northern,NO0317,MLD,Mouldsworth,
-NO_000318,Northern,NO0318,MYT,Mytholmroyd,
-NO_000319,Northern,NO0319,NFN,Nafferton,
-NO_000320,Northern,NO0320,NVR,Navigation Road,
-NO_000321,Northern,NO0321,NEL,Nelson,
-NO_000322,Northern,NO0322,NRT,Nethertown,
-NO_000323,Northern,NO0323,NLN,New Lane,
-NO_000324,Northern,NO0324,NMC,New Mills Central,
-NO_000325,Northern,NO0325,NMN,New Mills Newtown,
-NO_000326,Northern,NO0326,NPD,New Pudsey,
-NO_000327,Northern,NO0327,NWH,Newsham,
-NO_000328,Northern,NO0328,NAY,Newton Aycliffe,
-NO_000329,Northern,NO0329,NWN,Newton for Hyde,
-NO_000330,Northern,NO0330,NLW,Newton-le-Willows,
-NO_000331,Northern,NO0331,NOR,Normanton,
-NO_000332,Northern,NO0332,NRD,North Road (Darlington),
-NO_000333,Northern,NO0333,NOP,Northumberland Park (Tyne & Wear),
-NO_000334,Northern,NO0334,NWI,Northwich,
-NO_000335,Northern,NO0335,NNT,Nunthorpe,
-NO_000336,Northern,NO0336,ORR,Orrell,
-NO_000337,Northern,NO0337,OUT,Outwood,
-NO_000338,Northern,NO0338,PDG,Padgate,
-NO_000339,Northern,NO0339,PNL,Pannal,
-NO_000340,Northern,NO0340,PBL,Parbold,
-NO_000341,Northern,NO0341,PRN,Parton,
-NO_000342,Northern,NO0342,PAT,Patricroft,
-NO_000343,Northern,NO0343,PEG,Pegswood,
-NO_000344,Northern,NO0344,PEM,Pemberton,
-NO_000345,Northern,NO0345,PNS,Penistone,
-NO_000346,Northern,NO0346,PLS,Pleasington,
-NO_000347,Northern,NO0347,PLM,Plumley,
-NO_000348,Northern,NO0348,PFR,Pontefract Baghill,
-NO_000349,Northern,NO0349,PFM,Pontefract Monkhill,
-NO_000350,Northern,NO0350,POT,Pontefract Tanshelf,
-NO_000351,Northern,NO0351,POP,Poppleton,
-NO_000352,Northern,NO0352,PFY,Poulton-le-Fylde,
-NO_000353,Northern,NO0353,PYT,Poynton,
-NO_000354,Northern,NO0354,PSC,Prescot,
-NO_000355,Northern,NO0355,PRB,Prestbury,
-NO_000356,Northern,NO0356,PRU,Prudhoe,
-NO_000357,Northern,NO0357,RNF,Rainford,
-NO_000358,Northern,NO0358,RNH,Rainhill,
-NO_000359,Northern,NO0359,RGW,Ramsgreave & Wilpshire,
-NO_000360,Northern,NO0360,RAV,Ravenglass for Eskdale,
-NO_000361,Northern,NO0361,RVN,Ravensthorpe,
-NO_000362,Northern,NO0362,RWC,Rawcliffe,
-NO_000363,Northern,NO0363,RBS,Redcar British Steel,
-NO_000364,Northern,NO0364,RCC,Redcar Central,
-NO_000365,Northern,NO0365,RCE,Redcar East,
-NO_000366,Northern,NO0366,RDN,Reddish North,
-NO_000367,Northern,NO0367,RDS,Reddish South,
-NO_000368,Northern,NO0368,RHD,Ribblehead,
-NO_000369,Northern,NO0369,RDM,Riding Mill,
-NO_000370,Northern,NO0370,RIS,Rishton,
-NO_000371,Northern,NO0371,ROB,Roby,
-NO_000372,Northern,NO0372,RCD,Rochdale,
-NO_000373,Northern,NO0373,RML,Romiley,
-NO_000374,Northern,NO0374,ROO,Roose,
-NO_000375,Northern,NO0375,RSG,Rose Grove,
-NO_000376,Northern,NO0376,RSH,Rose Hill Marple,
-NO_000377,Northern,NO0377,RMC,Rotherham Central,
-NO_000378,Northern,NO0378,RUF,Rufford,
-NO_000379,Northern,NO0379,RUS,Ruswarp,
-NO_000380,Northern,NO0380,RRB,Ryder Brow,
-NO_000381,Northern,NO0381,SFD,Salford Central,
-NO_000382,Northern,NO0382,SLD,Salford Crescent,
-NO_000383,Northern,NO0383,SAE,Saltaire,
-NO_000384,Northern,NO0384,SLB,Saltburn,
-NO_000385,Northern,NO0385,SAM,Saltmarshe,
-NO_000386,Northern,NO0386,SLW,Salwick,
-NO_000387,Northern,NO0387,SNA,Sandal & Agbrigg,
-NO_000388,Northern,NO0388,SDB,Sandbach,
-NO_000389,Northern,NO0389,SNK,Sankey for Penketh,
-NO_000390,Northern,NO0390,SEA,Seaham,
-NO_000391,Northern,NO0391,SSC,Seascale,
-NO_000392,Northern,NO0392,SEC,Seaton Carew,
-NO_000393,Northern,NO0393,SEJ,Seaton Delaval,
-NO_000394,Northern,NO0394,SEL,Sellafield,
-NO_000395,Northern,NO0395,SET,Settle,
-NO_000396,Northern,NO0396,SPY,Shepley,
-NO_000397,Northern,NO0397,SIE,Sherburn-in-Elmet,
-NO_000398,Northern,NO0398,SHD,Shildon,
-NO_000399,Northern,NO0399,SHY,Shipley (Yorks),
-NO_000400,Northern,NO0400,SRO,Shireoaks,
-NO_000401,Northern,NO0401,SIC,Silecroft,
-NO_000402,Northern,NO0402,SLK,Silkstone Common,
-NO_000403,Northern,NO0403,SVR,Silverdale,
-NO_000404,Northern,NO0404,SKI,Skipton,
-NO_000405,Northern,NO0405,SWT,Slaithwaite,
-NO_000406,Northern,NO0406,SLH,Sleights,
-NO_000407,Northern,NO0407,SMB,Smithy Bridge,
-NO_000408,Northern,NO0408,SNI,Snaith,
-NO_000409,Northern,NO0409,SBK,South Bank,
-NO_000410,Northern,NO0410,SES,South Elmsall,
-NO_000411,Northern,NO0411,SOM,South Milford,
-NO_000412,Northern,NO0412,SOW,Sowerby Bridge,
-NO_000413,Northern,NO0413,SQU,Squires Gate,
-NO_000414,Northern,NO0414,SAS,St Annes-on-the-Sea,
-NO_000415,Northern,NO0415,SBS,St Bees,
-NO_000416,Northern,NO0416,SNH,St Helens Central,
-NO_000417,Northern,NO0417,SHJ,St Helens Junction,
-NO_000418,Northern,NO0418,SNT,Stanlow & Thornton,
-NO_000419,Northern,NO0419,SBE,Starbeck,
-NO_000420,Northern,NO0420,SVL,Staveley (Cumbria),
-NO_000421,Northern,NO0421,SON,Steeton & Silsden,
-NO_000422,Northern,NO0422,SKS,Stocksfield,
-NO_000423,Northern,NO0423,SSM,Stocksmoor,
-NO_000424,Northern,NO0424,STK,Stockton,
-NO_000425,Northern,NO0425,SHC,Streethouse,
-NO_000426,Northern,NO0426,SRN,Strines,
-NO_000427,Northern,NO0427,SYA,Styal,
-NO_000428,Northern,NO0428,SUN,Sunderland,
-NO_000429,Northern,NO0429,SNN,Swinton (Manchester),
-NO_000430,Northern,NO0430,SWN,Swinton (South Yorks),
-NO_000431,Northern,NO0431,TEA,Teesside Airport,
-NO_000432,Northern,NO0432,THH,Thatto Heath,
-NO_000433,Northern,NO0433,TNN,Thorne North,
-NO_000434,Northern,NO0434,TNS,Thorne South,
-NO_000435,Northern,NO0435,THC,Thurnscoe,
-NO_000436,Northern,NO0436,TOD,Todmorden,
-NO_000437,Northern,NO0437,TRA,Trafford Park,
-NO_000438,Northern,NO0438,ULL,Ulleskelf,
-NO_000439,Northern,NO0439,ULV,Ulverston,
-NO_000440,Northern,NO0440,UPL,Upholland,
-NO_000441,Northern,NO0441,URM,Urmston,
-NO_000442,Northern,NO0442,WKK,Wakefield Kirkgate,
-NO_000443,Northern,NO0443,WKD,Walkden,
-NO_000444,Northern,NO0444,WDN,Walsden,
-NO_000445,Northern,NO0445,WAC,Warrington Central,
-NO_000446,Northern,NO0446,WAW,Warrington West,
-NO_000447,Northern,NO0447,WAV,Wavertree Technology Park,
-NO_000448,Northern,NO0448,WET,Weeton,
-NO_000449,Northern,NO0449,WNN,Wennington,
-NO_000450,Northern,NO0450,WSA,West Allerton,
-NO_000451,Northern,NO0451,WHG,Westhoughton,
-NO_000452,Northern,NO0452,WRL,Wetheral,
-NO_000453,Northern,NO0453,WBR,Whaley Bridge,
-NO_000454,Northern,NO0454,WHE,Whalley (Lancs),
-NO_000455,Northern,NO0455,WHN,Whiston,
-NO_000456,Northern,NO0456,WTB,Whitby,
-NO_000457,Northern,NO0457,WRO,White Rose,
-NO_000458,Northern,NO0458,WTH,Whitehaven,
-NO_000459,Northern,NO0459,WBD,Whitley Bridge,
-NO_000460,Northern,NO0460,WDD,Widdrington,
-NO_000461,Northern,NO0461,WID,Widnes,
-NO_000462,Northern,NO0462,WGW,Wigan Wallgate,
-NO_000463,Northern,NO0463,WGT,Wigton,
-NO_000464,Northern,NO0464,WML,Wilmslow,
-NO_000465,Northern,NO0465,WDM,Windermere,
-NO_000466,Northern,NO0466,WOM,Wombwell,
-NO_000467,Northern,NO0467,WDH,Woodhouse,
-NO_000468,Northern,NO0468,WDS,Woodlesford,
-NO_000469,Northern,NO0469,WLY,Woodley,
-NO_000470,Northern,NO0470,WSR,Woodsmoor,
-NO_000471,Northern,NO0471,WKG,Workington,
-NO_000472,Northern,NO0472,WRK,Worksop,
-NO_000473,Northern,NO0473,WRS,Wressle,
-NO_000474,Northern,NO0474,WYM,Wylam,
+station_id,network,route_station_id,route_group,crs,station_name
+NO_000001,Northern,NO0001,,ACR,Accrington
+NO_000002,Northern,NO0002,,ACK,Acklington
+NO_000003,Northern,NO0003,,ADC,Adlington (Cheshire)
+NO_000004,Northern,NO0004,,ADL,Adlington (Lancashire)
+NO_000005,Northern,NO0005,,AWK,Adwick
+NO_000006,Northern,NO0006,,ALD,Alderley Edge
+NO_000007,Northern,NO0007,,ALW,Allens West
+NO_000008,Northern,NO0008,,ALM,Alnmouth
+NO_000009,Northern,NO0009,,ALP,Althorpe
+NO_000010,Northern,NO0010,,ALT,Altrincham
+NO_000011,Northern,NO0011,,AFV,Ansdell & Fairhaven
+NO_000012,Northern,NO0012,,APY,Apperley Bridge
+NO_000013,Northern,NO0013,,APP,Appleby
+NO_000014,Northern,NO0014,,APB,Appley Bridge
+NO_000015,Northern,NO0015,,ADK,Ardwick
+NO_000016,Northern,NO0016,,AWT,Armathwaite
+NO_000017,Northern,NO0017,,ARN,Arnside
+NO_000018,Northern,NO0018,,ARR,Arram
+NO_000019,Northern,NO0019,,ABY,Ashburys
+NO_000020,Northern,NO0020,,ASL,Ashington
+NO_000021,Northern,NO0021,,ASY,Ashley
+NO_000022,Northern,NO0022,,AHN,Ashton-under-Lyne
+NO_000023,Northern,NO0023,,ASK,Askam
+NO_000024,Northern,NO0024,,ASP,Aspatria
+NO_000025,Northern,NO0025,,ATN,Atherton
+NO_000026,Northern,NO0026,,BLD,Baildon
+NO_000027,Northern,NO0027,,BMB,Bamber Bridge
+NO_000028,Northern,NO0028,,BAM,Bamford
+NO_000029,Northern,NO0029,,BLL,Bardon Mill
+NO_000030,Northern,NO0030,,BAR,Bare Lane
+NO_000031,Northern,NO0031,,BNY,Barnsley
+NO_000032,Northern,NO0032,,BIF,Barrow-in-Furness
+NO_000033,Northern,NO0033,,BTL,Batley
+NO_000034,Northern,NO0034,,BTT,Battersby
+NO_000035,Northern,NO0035,,BEJ,Bedlington
+NO_000036,Northern,NO0036,,BLV,Belle Vue
+NO_000037,Northern,NO0037,,BEM,Bempton
+NO_000038,Northern,NO0038,,BEY,Ben Rhydding
+NO_000039,Northern,NO0039,,BEN,Bentham
+NO_000040,Northern,NO0040,,BYK,Bentley (South Yorkshire)
+NO_000041,Northern,NO0041,,BBW,Berry Brow
+NO_000042,Northern,NO0042,,BES,Bescar Lane
+NO_000043,Northern,NO0043,,BEV,Beverley
+NO_000044,Northern,NO0044,,BIL,Billingham
+NO_000045,Northern,NO0045,,BIY,Bingley
+NO_000046,Northern,NO0046,,BWD,Birchwood
+NO_000047,Northern,NO0047,,BIA,Bishop Auckland
+NO_000048,Northern,NO0048,,BBN,Blackburn
+NO_000049,Northern,NO0049,,BPN,Blackpool North
+NO_000050,Northern,NO0050,,BPB,Blackpool Pleasure Beach
+NO_000051,Northern,NO0051,,BPS,Blackpool South
+NO_000052,Northern,NO0052,,BLK,Blackrod
+NO_000053,Northern,NO0053,,BLO,Blaydon
+NO_000054,Northern,NO0054,,BLI,Blyth Bebside
+NO_000055,Northern,NO0055,,BON,Bolton
+NO_000056,Northern,NO0056,,BTD,Bolton-upon-Dearne
+NO_000057,Northern,NO0057,,BOC,Bootle (Cumbria)
+NO_000058,Northern,NO0058,,BDQ,Bradford Forster Square
+NO_000059,Northern,NO0059,,BDI,Bradford Interchange
+NO_000060,Northern,NO0060,,BML,Bramhall
+NO_000061,Northern,NO0061,,BLE,Bramley (West Yorkshire)
+NO_000062,Northern,NO0062,,BMP,Brampton (Cumbria)
+NO_000063,Northern,NO0063,,BYS,Braystones
+NO_000064,Northern,NO0064,,BDY,Bredbury
+NO_000065,Northern,NO0065,,BDT,Bridlington
+NO_000066,Northern,NO0066,,BRF,Brierfield
+NO_000067,Northern,NO0067,,BGG,Brigg
+NO_000068,Northern,NO0068,,BGH,Brighouse
+NO_000069,Northern,NO0069,,BNT,Brinnington
+NO_000070,Northern,NO0070,,BGE,Broad Green
+NO_000071,Northern,NO0071,,BDB,Broadbottom
+NO_000072,Northern,NO0072,,BHS,Brockholes
+NO_000073,Northern,NO0073,,BMC,Bromley Cross (Lancs)
+NO_000074,Northern,NO0074,,BMF,Broomfleet
+NO_000075,Northern,NO0075,,BYN,Bryn
+NO_000076,Northern,NO0076,,BSV,Buckshaw Parkway
+NO_000077,Northern,NO0077,,BUY,Burley Park
+NO_000078,Northern,NO0078,,BUW,Burley-in-Wharfedale
+NO_000079,Northern,NO0079,,BNA,Burnage
+NO_000080,Northern,NO0080,,BUD,Burneside (Cumbria)
+NO_000081,Northern,NO0081,,BUB,Burnley Barracks
+NO_000082,Northern,NO0082,,BNC,Burnley Central
+NO_000083,Northern,NO0083,,BYM,Burnley Manchester Road
+NO_000084,Northern,NO0084,,BCB,Burscough Bridge
+NO_000085,Northern,NO0085,,BCJ,Burscough Junction
+NO_000086,Northern,NO0086,,BUX,Buxton
+NO_000087,Northern,NO0087,,CAK,Cark & Cartmel
+NO_000088,Northern,NO0088,,CNF,Carnforth
+NO_000089,Northern,NO0089,,CFD,Castleford
+NO_000090,Northern,NO0090,,CAS,Castleton (Manchester)
+NO_000091,Northern,NO0091,,CSM,Castleton Moor
+NO_000092,Northern,NO0092,,CTL,Cattal
+NO_000093,Northern,NO0093,,CEF,Chapel-en-le-Frith
+NO_000094,Northern,NO0094,,CLN,Chapeltown (South Yorkshire)
+NO_000095,Northern,NO0095,,CSR,Chassen Road
+NO_000096,Northern,NO0096,,CHT,Chathill
+NO_000097,Northern,NO0097,,CHU,Cheadle Hulme
+NO_000098,Northern,NO0098,,CEL,Chelford (Cheshire)
+NO_000099,Northern,NO0099,,CYT,Cherry Tree
+NO_000100,Northern,NO0100,,CLS,Chester-le-Street
+NO_000101,Northern,NO0101,,CLY,Chinley
+NO_000102,Northern,NO0102,,CRL,Chorley
+NO_000103,Northern,NO0103,,CTW,Church & Oswaldtwistle
+NO_000104,Northern,NO0104,,CHF,Church Fenton
+NO_000105,Northern,NO0105,,CPY,Clapham (North Yorkshire)
+NO_000106,Northern,NO0106,,CLI,Clifton (Manchester)
+NO_000107,Northern,NO0107,,CLH,Clitheroe
+NO_000108,Northern,NO0108,,CNE,Colne
+NO_000109,Northern,NO0109,,COM,Commondale
+NO_000110,Northern,NO0110,,CNG,Congleton
+NO_000111,Northern,NO0111,,CNS,Conisbrough
+NO_000112,Northern,NO0112,,CEY,Cononley
+NO_000113,Northern,NO0113,,CRB,Corbridge
+NO_000114,Northern,NO0114,,CKL,Corkickle
+NO_000115,Northern,NO0115,,CGM,Cottingham
+NO_000116,Northern,NO0116,,COT,Cottingley
+NO_000117,Northern,NO0117,,CRM,Cramlington
+NO_000118,Northern,NO0118,,CRG,Cross Gates
+NO_000119,Northern,NO0119,,CFL,Crossflatts
+NO_000120,Northern,NO0120,,CSO,Croston
+NO_000121,Northern,NO0121,,CWE,Crowle
+NO_000122,Northern,NO0122,,CUD,Cuddington
+NO_000123,Northern,NO0123,,DSY,Daisy Hill
+NO_000124,Northern,NO0124,,DLS,Dalston (Cumbria)
+NO_000125,Northern,NO0125,,DLT,Dalton (Cumbria)
+NO_000126,Northern,NO0126,,DNY,Danby
+NO_000127,Northern,NO0127,,DAN,Darnall
+NO_000128,Northern,NO0128,,DRT,Darton
+NO_000129,Northern,NO0129,,DWN,Darwen
+NO_000130,Northern,NO0130,,DVN,Davenport
+NO_000131,Northern,NO0131,,DGT,Deansgate
+NO_000132,Northern,NO0132,,DHN,Deighton
+NO_000133,Northern,NO0133,,DLM,Delamere
+NO_000134,Northern,NO0134,,DBD,Denby Dale
+NO_000135,Northern,NO0135,,DNT,Dent
+NO_000136,Northern,NO0136,,DTN,Denton
+NO_000137,Northern,NO0137,,DND,Dinsdale
+NO_000138,Northern,NO0138,,DTG,Dinting
+NO_000139,Northern,NO0139,,DSL,Disley
+NO_000140,Northern,NO0140,,DOD,Dodworth
+NO_000141,Northern,NO0141,,DOR,Dore & Totley
+NO_000142,Northern,NO0142,,DVH,Dove Holes
+NO_000143,Northern,NO0143,,DRF,Driffield
+NO_000144,Northern,NO0144,,DRI,Drigg
+NO_000145,Northern,NO0145,,DRO,Dronfield
+NO_000146,Northern,NO0146,,DOT,Dunston
+NO_000147,Northern,NO0147,,EAG,Eaglescliffe
+NO_000148,Northern,NO0148,,ERL,Earlestown
+NO_000149,Northern,NO0149,,EDY,East Didsbury
+NO_000150,Northern,NO0150,,EGF,East Garforth
+NO_000151,Northern,NO0151,,EGN,Eastrington
+NO_000152,Northern,NO0152,,ECC,Eccles (Manchester)
+NO_000153,Northern,NO0153,,ECL,Eccleston Park
+NO_000154,Northern,NO0154,,EDL,Edale
+NO_000155,Northern,NO0155,,EDG,Edge Hill
+NO_000156,Northern,NO0156,,EGT,Egton
+NO_000157,Northern,NO0157,,ELR,Elsecar
+NO_000158,Northern,NO0158,,ENT,Entwistle
+NO_000159,Northern,NO0159,,EBA,Euxton Balshaw Lane
+NO_000160,Northern,NO0160,,FRF,Fairfield
+NO_000161,Northern,NO0161,,FNW,Farnworth
+NO_000162,Northern,NO0162,,FEA,Featherstone
+NO_000163,Northern,NO0163,,FRY,Ferriby
+NO_000164,Northern,NO0164,,FIL,Filey
+NO_000165,Northern,NO0165,,FZW,Fitzwilliam
+NO_000166,Northern,NO0166,,FLM,Flimby
+NO_000167,Northern,NO0167,,FLI,Flixton
+NO_000168,Northern,NO0168,,FLF,Flowery Field
+NO_000169,Northern,NO0169,,FOX,Foxfield
+NO_000170,Northern,NO0170,,FZH,Frizinghall
+NO_000171,Northern,NO0171,,FNV,Furness Vale
+NO_000172,Northern,NO0172,,GNB,Gainsborough Central
+NO_000173,Northern,NO0173,,GRF,Garforth
+NO_000174,Northern,NO0174,,GGV,Gargrave
+NO_000175,Northern,NO0175,,GSD,Garsdale
+NO_000176,Northern,NO0176,,GSW,Garswood
+NO_000177,Northern,NO0177,,GST,Gathurst
+NO_000178,Northern,NO0178,,GTY,Gatley
+NO_000179,Northern,NO0179,,GIG,Giggleswick
+NO_000180,Northern,NO0180,,GBD,Gilberdyke
+NO_000181,Northern,NO0181,,GLS,Glaisdale
+NO_000182,Northern,NO0182,,GLH,Glasshoughton
+NO_000183,Northern,NO0183,,GLZ,Glazebrook
+NO_000184,Northern,NO0184,,GLO,Glossop
+NO_000185,Northern,NO0185,,GDL,Godley
+NO_000186,Northern,NO0186,,GOE,Goldthorpe
+NO_000187,Northern,NO0187,,GOO,Goole
+NO_000188,Northern,NO0188,,GTR,Goostrey
+NO_000189,Northern,NO0189,,GTO,Gorton
+NO_000190,Northern,NO0190,,GOS,Grange-over-Sands
+NO_000191,Northern,NO0191,,GTA,Great Ayton
+NO_000192,Northern,NO0192,,GNR,Green Road
+NO_000193,Northern,NO0193,,GBK,Greenbank
+NO_000194,Northern,NO0194,,GNF,Greenfield
+NO_000195,Northern,NO0195,,GRN,Grindleford
+NO_000196,Northern,NO0196,,GMT,Grosmont
+NO_000197,Northern,NO0197,,GUI,Guide Bridge
+NO_000198,Northern,NO0198,,GSY,Guiseley
+NO_000199,Northern,NO0199,,GYP,Gypsy Lane
+NO_000200,Northern,NO0200,,HDF,Hadfield
+NO_000201,Northern,NO0201,,HGF,Hag Fold
+NO_000202,Northern,NO0202,,HAL,Hale (Manchester)
+NO_000203,Northern,NO0203,,HED,Halewood
+NO_000204,Northern,NO0204,,HFX,Halifax
+NO_000205,Northern,NO0205,,HID,Hall-i'-th'-Wood
+NO_000206,Northern,NO0206,,HWH,Haltwhistle
+NO_000207,Northern,NO0207,,HMM,Hammerton
+NO_000208,Northern,NO0208,,HTH,Handforth
+NO_000209,Northern,NO0209,,HPN,Hapton
+NO_000210,Northern,NO0210,,HRR,Harrington
+NO_000211,Northern,NO0211,,HGT,Harrogate
+NO_000212,Northern,NO0212,,HPL,Hartlepool
+NO_000213,Northern,NO0213,,HFS,Hatfield & Stainforth
+NO_000214,Northern,NO0214,,HSG,Hathersage
+NO_000215,Northern,NO0215,,HTY,Hattersley
+NO_000216,Northern,NO0216,,HDB,Haydon Bridge
+NO_000217,Northern,NO0217,,HAZ,Hazel Grove
+NO_000218,Northern,NO0218,,HDY,Headingley
+NO_000219,Northern,NO0219,,HDG,Heald Green
+NO_000220,Northern,NO0220,,HTC,Heaton Chapel
+NO_000221,Northern,NO0221,,HBD,Hebden Bridge
+NO_000222,Northern,NO0222,,HEI,Heighington
+NO_000223,Northern,NO0223,,HLD,Hellifield
+NO_000224,Northern,NO0224,,HEL,Hensall
+NO_000225,Northern,NO0225,,HES,Hessle
+NO_000226,Northern,NO0226,,HEW,Heworth
+NO_000227,Northern,NO0227,,HEX,Hexham
+NO_000228,Northern,NO0228,,HHB,Heysham Port
+NO_000229,Northern,NO0229,,HIN,Hindley
+NO_000230,Northern,NO0230,,HCH,Holmes Chapel
+NO_000231,Northern,NO0231,,HOY,Honley
+NO_000232,Northern,NO0232,,HOP,Hope Derbyshire
+NO_000233,Northern,NO0233,,HRE,Horden
+NO_000234,Northern,NO0234,,HBP,Hornbeam Park
+NO_000235,Northern,NO0235,,HRS,Horsforth
+NO_000236,Northern,NO0236,,HIR,Horton-in-Ribblesdale
+NO_000237,Northern,NO0237,,HSC,Hoscar
+NO_000238,Northern,NO0238,,HGN,Hough Green
+NO_000239,Northern,NO0239,,HOW,Howden
+NO_000240,Northern,NO0240,,HUP,Humphrey Park
+NO_000241,Northern,NO0241,,HCT,Huncoat
+NO_000242,Northern,NO0242,,HUB,Hunmanby
+NO_000243,Northern,NO0243,,HUT,Hutton Cranswick
+NO_000244,Northern,NO0244,,HUY,Huyton
+NO_000245,Northern,NO0245,,HYC,Hyde Central
+NO_000246,Northern,NO0246,,HYT,Hyde North
+NO_000247,Northern,NO0247,,ILK,Ilkley
+NO_000248,Northern,NO0248,,INE,Ince & Elton (Cheshire)
+NO_000249,Northern,NO0249,,INC,Ince (Manchester)
+NO_000250,Northern,NO0250,,IRL,Irlam
+NO_000251,Northern,NO0251,,JCH,James Cook University Hospital
+NO_000252,Northern,NO0252,,KSL,Kearsley (Manchester)
+NO_000253,Northern,NO0253,,KEI,Keighley
+NO_000254,Northern,NO0254,,KEN,Kendal
+NO_000255,Northern,NO0255,,KBK,Kents Bank
+NO_000256,Northern,NO0256,,KLD,Kildale
+NO_000257,Northern,NO0257,,KKS,Kirk Sandall
+NO_000258,Northern,NO0258,,KSW,Kirkby Stephen
+NO_000259,Northern,NO0259,,KBF,Kirkby-in-Furness
+NO_000260,Northern,NO0260,,KKM,Kirkham & Wesham
+NO_000261,Northern,NO0261,,KLF,Kirkstall Forge
+NO_000262,Northern,NO0262,,KTL,Kirton Lindsey
+NO_000263,Northern,NO0263,,KIV,Kiveton Bridge
+NO_000264,Northern,NO0264,,KVP,Kiveton Park
+NO_000265,Northern,NO0265,,KNA,Knaresborough
+NO_000266,Northern,NO0266,,KNO,Knottingley
+NO_000267,Northern,NO0267,,KNF,Knutsford
+NO_000268,Northern,NO0268,,LHO,Langho
+NO_000269,Northern,NO0269,,LGW,Langwathby
+NO_000270,Northern,NO0270,,LAY,Layton (Lancs)
+NO_000271,Northern,NO0271,,LZB,Lazonby & Kirkoswald
+NO_000272,Northern,NO0272,,LEG,Lea Green
+NO_000273,Northern,NO0273,,LHM,Lealholm
+NO_000274,Northern,NO0274,,LVM,Levenshulme
+NO_000275,Northern,NO0275,,LEY,Leyland
+NO_000276,Northern,NO0276,,LTL,Littleborough
+NO_000277,Northern,NO0277,,LCK,Lockwood
+NO_000278,Northern,NO0278,,LPR,Long Preston
+NO_000279,Northern,NO0279,,LGK,Longbeck
+NO_000280,Northern,NO0280,,LOT,Lostock
+NO_000281,Northern,NO0281,,LTG,Lostock Gralam
+NO_000282,Northern,NO0282,,LOH,Lostock Hall
+NO_000283,Northern,NO0283,,LMR,Low Moor
+NO_000284,Northern,NO0284,,LTM,Lytham
+NO_000285,Northern,NO0285,,MCO,Manchester Oxford Road
+NO_000286,Northern,NO0286,,MUF,Manchester United Football Ground
+NO_000287,Northern,NO0287,,MCV,Manchester Victoria
+NO_000288,Northern,NO0288,,MAS,Manors
+NO_000289,Northern,NO0289,,MPL,Marple
+NO_000290,Northern,NO0290,,MSN,Marsden (Yorks)
+NO_000291,Northern,NO0291,,MSK,Marske
+NO_000292,Northern,NO0292,,MTO,Marton
+NO_000293,Northern,NO0293,,MRY,Maryport
+NO_000294,Northern,NO0294,,MAU,Mauldeth Road
+NO_000295,Northern,NO0295,,MHS,Meadowhall
+NO_000296,Northern,NO0296,,MNN,Menston
+NO_000297,Northern,NO0297,,MEC,Meols Cop
+NO_000298,Northern,NO0298,,MCE,MetroCentre
+NO_000299,Northern,NO0299,,MEX,Mexborough
+NO_000300,Northern,NO0300,,MIK,Micklefield
+NO_000301,Northern,NO0301,,MDL,Middlewood
+NO_000302,Northern,NO0302,,MLH,Mill Hill (Lancs)
+NO_000303,Northern,NO0303,,MLM,Millom
+NO_000304,Northern,NO0304,,MIH,Mills Hill (Manchester)
+NO_000305,Northern,NO0305,,MIR,Mirfield
+NO_000306,Northern,NO0306,,MOB,Mobberley
+NO_000307,Northern,NO0307,,MSD,Moorside
+NO_000308,Northern,NO0308,,MRP,Moorthorpe
+NO_000309,Northern,NO0309,,MCM,Morecambe
+NO_000310,Northern,NO0310,,MLY,Morley
+NO_000311,Northern,NO0311,,MPT,Morpeth
+NO_000312,Northern,NO0312,,MSS,Moses Gate
+NO_000313,Northern,NO0313,,MOS,Moss Side
+NO_000314,Northern,NO0314,,MSL,Mossley (Manchester)
+NO_000315,Northern,NO0315,,MSH,Mossley Hill
+NO_000316,Northern,NO0316,,MSO,Moston
+NO_000317,Northern,NO0317,,MLD,Mouldsworth
+NO_000318,Northern,NO0318,,MYT,Mytholmroyd
+NO_000319,Northern,NO0319,,NFN,Nafferton
+NO_000320,Northern,NO0320,,NVR,Navigation Road
+NO_000321,Northern,NO0321,,NEL,Nelson
+NO_000322,Northern,NO0322,,NRT,Nethertown
+NO_000323,Northern,NO0323,,NLN,New Lane
+NO_000324,Northern,NO0324,,NMC,New Mills Central
+NO_000325,Northern,NO0325,,NMN,New Mills Newtown
+NO_000326,Northern,NO0326,,NPD,New Pudsey
+NO_000327,Northern,NO0327,,NWH,Newsham
+NO_000328,Northern,NO0328,,NAY,Newton Aycliffe
+NO_000329,Northern,NO0329,,NWN,Newton for Hyde
+NO_000330,Northern,NO0330,,NLW,Newton-le-Willows
+NO_000331,Northern,NO0331,,NOR,Normanton
+NO_000332,Northern,NO0332,,NRD,North Road (Darlington)
+NO_000333,Northern,NO0333,,NOP,Northumberland Park (Tyne & Wear)
+NO_000334,Northern,NO0334,,NWI,Northwich
+NO_000335,Northern,NO0335,,NNT,Nunthorpe
+NO_000336,Northern,NO0336,,ORR,Orrell
+NO_000337,Northern,NO0337,,OUT,Outwood
+NO_000338,Northern,NO0338,,PDG,Padgate
+NO_000339,Northern,NO0339,,PNL,Pannal
+NO_000340,Northern,NO0340,,PBL,Parbold
+NO_000341,Northern,NO0341,,PRN,Parton
+NO_000342,Northern,NO0342,,PAT,Patricroft
+NO_000343,Northern,NO0343,,PEG,Pegswood
+NO_000344,Northern,NO0344,,PEM,Pemberton
+NO_000345,Northern,NO0345,,PNS,Penistone
+NO_000346,Northern,NO0346,,PLS,Pleasington
+NO_000347,Northern,NO0347,,PLM,Plumley
+NO_000348,Northern,NO0348,,PFR,Pontefract Baghill
+NO_000349,Northern,NO0349,,PFM,Pontefract Monkhill
+NO_000350,Northern,NO0350,,POT,Pontefract Tanshelf
+NO_000351,Northern,NO0351,,POP,Poppleton
+NO_000352,Northern,NO0352,,PFY,Poulton-le-Fylde
+NO_000353,Northern,NO0353,,PYT,Poynton
+NO_000354,Northern,NO0354,,PSC,Prescot
+NO_000355,Northern,NO0355,,PRB,Prestbury
+NO_000356,Northern,NO0356,,PRU,Prudhoe
+NO_000357,Northern,NO0357,,RNF,Rainford
+NO_000358,Northern,NO0358,,RNH,Rainhill
+NO_000359,Northern,NO0359,,RGW,Ramsgreave & Wilpshire
+NO_000360,Northern,NO0360,,RAV,Ravenglass for Eskdale
+NO_000361,Northern,NO0361,,RVN,Ravensthorpe
+NO_000362,Northern,NO0362,,RWC,Rawcliffe
+NO_000363,Northern,NO0363,,RBS,Redcar British Steel
+NO_000364,Northern,NO0364,,RCC,Redcar Central
+NO_000365,Northern,NO0365,,RCE,Redcar East
+NO_000366,Northern,NO0366,,RDN,Reddish North
+NO_000367,Northern,NO0367,,RDS,Reddish South
+NO_000368,Northern,NO0368,,RHD,Ribblehead
+NO_000369,Northern,NO0369,,RDM,Riding Mill
+NO_000370,Northern,NO0370,,RIS,Rishton
+NO_000371,Northern,NO0371,,ROB,Roby
+NO_000372,Northern,NO0372,,RCD,Rochdale
+NO_000373,Northern,NO0373,,RML,Romiley
+NO_000374,Northern,NO0374,,ROO,Roose
+NO_000375,Northern,NO0375,,RSG,Rose Grove
+NO_000376,Northern,NO0376,,RSH,Rose Hill Marple
+NO_000377,Northern,NO0377,,RMC,Rotherham Central
+NO_000378,Northern,NO0378,,RUF,Rufford
+NO_000379,Northern,NO0379,,RUS,Ruswarp
+NO_000380,Northern,NO0380,,RRB,Ryder Brow
+NO_000381,Northern,NO0381,,SFD,Salford Central
+NO_000382,Northern,NO0382,,SLD,Salford Crescent
+NO_000383,Northern,NO0383,,SAE,Saltaire
+NO_000384,Northern,NO0384,,SLB,Saltburn
+NO_000385,Northern,NO0385,,SAM,Saltmarshe
+NO_000386,Northern,NO0386,,SLW,Salwick
+NO_000387,Northern,NO0387,,SNA,Sandal & Agbrigg
+NO_000388,Northern,NO0388,,SDB,Sandbach
+NO_000389,Northern,NO0389,,SNK,Sankey for Penketh
+NO_000390,Northern,NO0390,,SEA,Seaham
+NO_000391,Northern,NO0391,,SSC,Seascale
+NO_000392,Northern,NO0392,,SEC,Seaton Carew
+NO_000393,Northern,NO0393,,SEJ,Seaton Delaval
+NO_000394,Northern,NO0394,,SEL,Sellafield
+NO_000395,Northern,NO0395,,SET,Settle
+NO_000396,Northern,NO0396,,SPY,Shepley
+NO_000397,Northern,NO0397,,SIE,Sherburn-in-Elmet
+NO_000398,Northern,NO0398,,SHD,Shildon
+NO_000399,Northern,NO0399,,SHY,Shipley (Yorks)
+NO_000400,Northern,NO0400,,SRO,Shireoaks
+NO_000401,Northern,NO0401,,SIC,Silecroft
+NO_000402,Northern,NO0402,,SLK,Silkstone Common
+NO_000403,Northern,NO0403,,SVR,Silverdale
+NO_000404,Northern,NO0404,,SKI,Skipton
+NO_000405,Northern,NO0405,,SWT,Slaithwaite
+NO_000406,Northern,NO0406,,SLH,Sleights
+NO_000407,Northern,NO0407,,SMB,Smithy Bridge
+NO_000408,Northern,NO0408,,SNI,Snaith
+NO_000409,Northern,NO0409,,SBK,South Bank
+NO_000410,Northern,NO0410,,SES,South Elmsall
+NO_000411,Northern,NO0411,,SOM,South Milford
+NO_000412,Northern,NO0412,,SOW,Sowerby Bridge
+NO_000413,Northern,NO0413,,SQU,Squires Gate
+NO_000414,Northern,NO0414,,SAS,St Annes-on-the-Sea
+NO_000415,Northern,NO0415,,SBS,St Bees
+NO_000416,Northern,NO0416,,SNH,St Helens Central
+NO_000417,Northern,NO0417,,SHJ,St Helens Junction
+NO_000418,Northern,NO0418,,SNT,Stanlow & Thornton
+NO_000419,Northern,NO0419,,SBE,Starbeck
+NO_000420,Northern,NO0420,,SVL,Staveley (Cumbria)
+NO_000421,Northern,NO0421,,SON,Steeton & Silsden
+NO_000422,Northern,NO0422,,SKS,Stocksfield
+NO_000423,Northern,NO0423,,SSM,Stocksmoor
+NO_000424,Northern,NO0424,,STK,Stockton
+NO_000425,Northern,NO0425,,SHC,Streethouse
+NO_000426,Northern,NO0426,,SRN,Strines
+NO_000427,Northern,NO0427,,SYA,Styal
+NO_000428,Northern,NO0428,,SUN,Sunderland
+NO_000429,Northern,NO0429,,SNN,Swinton (Manchester)
+NO_000430,Northern,NO0430,,SWN,Swinton (South Yorks)
+NO_000431,Northern,NO0431,,TEA,Teesside Airport
+NO_000432,Northern,NO0432,,THH,Thatto Heath
+NO_000433,Northern,NO0433,,TNN,Thorne North
+NO_000434,Northern,NO0434,,TNS,Thorne South
+NO_000435,Northern,NO0435,,THC,Thurnscoe
+NO_000436,Northern,NO0436,,TOD,Todmorden
+NO_000437,Northern,NO0437,,TRA,Trafford Park
+NO_000438,Northern,NO0438,,ULL,Ulleskelf
+NO_000439,Northern,NO0439,,ULV,Ulverston
+NO_000440,Northern,NO0440,,UPL,Upholland
+NO_000441,Northern,NO0441,,URM,Urmston
+NO_000442,Northern,NO0442,,WKK,Wakefield Kirkgate
+NO_000443,Northern,NO0443,,WKD,Walkden
+NO_000444,Northern,NO0444,,WDN,Walsden
+NO_000445,Northern,NO0445,,WAC,Warrington Central
+NO_000446,Northern,NO0446,,WAW,Warrington West
+NO_000447,Northern,NO0447,,WAV,Wavertree Technology Park
+NO_000448,Northern,NO0448,,WET,Weeton
+NO_000449,Northern,NO0449,,WNN,Wennington
+NO_000450,Northern,NO0450,,WSA,West Allerton
+NO_000451,Northern,NO0451,,WHG,Westhoughton
+NO_000452,Northern,NO0452,,WRL,Wetheral
+NO_000453,Northern,NO0453,,WBR,Whaley Bridge
+NO_000454,Northern,NO0454,,WHE,Whalley (Lancs)
+NO_000455,Northern,NO0455,,WHN,Whiston
+NO_000456,Northern,NO0456,,WTB,Whitby
+NO_000457,Northern,NO0457,,WRO,White Rose
+NO_000458,Northern,NO0458,,WTH,Whitehaven
+NO_000459,Northern,NO0459,,WBD,Whitley Bridge
+NO_000460,Northern,NO0460,,WDD,Widdrington
+NO_000461,Northern,NO0461,,WID,Widnes
+NO_000462,Northern,NO0462,,WGW,Wigan Wallgate
+NO_000463,Northern,NO0463,,WGT,Wigton
+NO_000464,Northern,NO0464,,WML,Wilmslow
+NO_000465,Northern,NO0465,,WDM,Windermere
+NO_000466,Northern,NO0466,,WOM,Wombwell
+NO_000467,Northern,NO0467,,WDH,Woodhouse
+NO_000468,Northern,NO0468,,WDS,Woodlesford
+NO_000469,Northern,NO0469,,WLY,Woodley
+NO_000470,Northern,NO0470,,WSR,Woodsmoor
+NO_000471,Northern,NO0471,,WKG,Workington
+NO_000472,Northern,NO0472,,WRK,Worksop
+NO_000473,Northern,NO0473,,WRS,Wressle
+NO_000474,Northern,NO0474,,WYM,Wylam

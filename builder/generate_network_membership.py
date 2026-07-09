@@ -22,13 +22,11 @@ def generate_network_membership(config):
 
     df = pd.read_csv(master_file)
 
-    # Create station_id if required
     if "station_id" not in df.columns:
-        prefix = network[:2].upper()
-        df["station_id"] = [
-            f"{prefix}_{i:06d}"
-            for i in range(1, len(df) + 1)
-        ]
+        raise KeyError(
+            "station_id is missing from the master dataset. "
+            "It should be created during build_master()."
+        )
 
     membership = pd.DataFrame(
         {

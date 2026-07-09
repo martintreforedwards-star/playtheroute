@@ -25,6 +25,14 @@ def build_master(config):
     print("Creating master dataset...")
 
     df = load_network(config["network"].lower())
+
+    # Generate permanent station IDs
+    prefix = config["network"][:2].upper()
+    df["station_id"] = [
+        f"{prefix}_{i:06d}"
+        for i in range(1, len(df) + 1)
+    ]
+
     save_master(df, master_file)
 
     print(f"Saved: {master_file}")

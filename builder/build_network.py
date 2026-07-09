@@ -7,6 +7,7 @@ if str(ROOT) not in sys.path:
 
 from builder.config import load_config
 from builder.assemble import build_master
+from builder.generate_network_membership import generate_network_membership
 from builder.enrichment import enrich
 from builder.validators import validate
 from builder.json_builder import build_json
@@ -36,26 +37,31 @@ def main():
     print(f"\n=== Building {requested_network} ===")
     print(f"Network : {network}")
 
-    # Build master dataset
+    # Stage 1 - Master
     build_master(config)
 
-    # Enrich stations
+    # Stage 2 - Memberships
+    print("Building network memberships...")
+    generate_network_membership(config)
+    print("Network memberships complete.")
+
+    # Stage 3 - Enrichment
     stations = enrich(config)
-
-    # Analyse wordplay
-    analyse(network)
-
-    # Generate clue file
-    generate(network)
 
     print("\nColumns returned from enrichment:")
     print(stations.columns.tolist())
 
-    # Validate output
-    validate(stations)
-
-    # Build final JSON
+    # Stage 4 - JSON
     build_json(config)
+
+    # Stage 5 - Analysis
+    analyse(network)
+
+    # Stage 6 - Clues
+    generate(network)
+
+    # Stage 7 - Validation
+    validate(stations)
 
     print("\nBuild complete.")
 

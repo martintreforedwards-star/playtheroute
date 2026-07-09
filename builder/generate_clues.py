@@ -202,7 +202,16 @@ def generate(network):
     folder = Path("data") / network
 
     stations = load_json(folder / f"{network.lower()}.json")
-    wordplay = load_json(folder / f"{network.lower()}_wordplay.json")
+    analysis_folder = folder / "analysis"
+
+    wordplay_file = analysis_folder / f"{network.lower()}_wordplay.json"
+
+    if wordplay_file.exists():
+    
+        wordplay = load_json(wordplay_file)
+    
+    else:
+        wordplay = []
 
     clue_file = {
         "rowPool": generate_rows(),

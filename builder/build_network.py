@@ -9,8 +9,9 @@ from builder.config import load_config
 from builder.assemble import build_master
 from builder.enrichment import enrich
 from builder.validators import validate
-from builder.clue_builder import build_clues
 from builder.json_builder import build_json
+from builder.analyser.analyse_network import analyse
+from builder.generate_clues import generate
 
 
 def main():
@@ -20,34 +21,40 @@ def main():
         print("python builder/build_network.py <network>")
         return
 
-    network = sys.argv[1]
+    requested_network = sys.argv[1]
 
-    config = load_config(network)
+    config = load_config(requested_network)
 
-    print(f"\n=== Building {network} ===")
-
-    network_name = (
-        config.get("display_name")
-        or config.get("network")
-        or config.get("name", network)
+    network = config.get(
+        "network",
+        config.get(
+            "display_name",
+            requested_network,
+        ),
     )
 
-    print(f"Network : {network_name}")
+    print(f"\n=== Building {requested_network} ===")
+    print(f"Network : {network}")
 
+    # Build master dataset
     build_master(config)
 
+    # Enrich stations
     stations = enrich(config)
+
+    # Analyse wordplay
+    analyse(network)
+
+    # Generate clue file
+    generate(network)
 
     print("\nColumns returned from enrichment:")
     print(stations.columns.tolist())
 
+    # Validate output
     validate(stations)
 
-    if config.get("clue_template"):
-        build_clues(config)
-    else:
-        print("Skipping clue generation (no clue template configured).")
-
+    # Build final JSON
     build_json(config)
 
     print("\nBuild complete.")

@@ -4,32 +4,17 @@ import sys
 from pathlib import Path
 
 
-if len(sys.argv) != 2:
-    print("Usage:")
-    print("python builder/analyser/analyse_network.py <network>")
-    raise SystemExit
-
-NETWORK = sys.argv[1]
-
-INPUT = Path(f"data/{NETWORK}/{NETWORK.lower()}.json")
-
-OUTPUT_DIR = Path(f"data/{NETWORK}/analysis")
-OUTPUT_DIR.mkdir(exist_ok=True)
-
-OUTPUT = OUTPUT_DIR / f"{NETWORK.lower()}_wordplay.json"
-
-
 def normalise(name):
     """Clean station names before analysis."""
 
-    name = re.sub(r"\([^)]*\)", "", name)   # Remove bracketed text
-    name = name.replace("&", "and")         # Normalise ampersands
-    name = " ".join(name.split())           # Collapse whitespace
+    name = re.sub(r"\([^)]*\)", "", name)
+    name = name.replace("&", "and")
+    name = " ".join(name.split())
 
     return name.strip()
 
 
-def analyse(name):
+def analyse_station(name):
 
     name = normalise(name)
     words = name.split()
@@ -69,17 +54,45 @@ def analyse(name):
         "contains_east": "East" in name,
         "contains_west": "West" in name,
         "prefix": words[0][:3].lower(),
-        "suffix": words[-1][-3:].lower()
+        "suffix": words[-1][-3:].lower(),
     }
 
 
-stations = json.loads(INPUT.read_text(encoding="utf-8"))
+def analyse(network):
 
-output = [analyse(s["station_name"]) for s in stations]
+    input_file = Path("data") / network / f"{network.lower()}.json"
 
-OUTPUT.write_text(
-    json.dumps(output, indent=2),
-    encoding="utf-8"
-)
+    output_dir = Path("data") / network / "analysis"
 
-print(f"Created {OUTPUT}")
+    print(f"Analysis directory: {output_dir.resolve()}")
+
+    if not output_dir.exists():
+        output_dir.mkdir(parents=True)
+    elif not output_dir.is_dir():
+        raise RuntimeError(f"{output_dir} exists but is not a directory")
+
+    output_file = output_dir / f"{network.lower()}_wordplay.json"
+
+    stations = json.loads(input_file.read_text(encoding="utf-8"))
+
+    output = [
+        analyse_station(station["station_name"])
+        for station in stations
+    ]
+
+    output_file.write_text(
+        json.dumps(output, indent=2),
+        encoding="utf-8",
+    )
+
+    print(f"Created {output_file}")
+
+
+if __name__ == "__main__":
+
+    if len(sys.argv) != 2:
+        print("Usage:")
+        print("python builder/analyser/analyse_network.py <network>")
+        raise SystemExit
+
+    analyse(sys.argv[1])

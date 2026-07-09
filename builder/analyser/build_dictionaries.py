@@ -12,7 +12,8 @@ if len(sys.argv) != 2:
 network = sys.argv[1]
 
 INPUT = Path(f"data/{network}/{network.lower()}_wordplay.json")
-OUTPUT_DIR = Path(f"data/{network}/dictionaries")
+OUTPUT_DIR = Path(f"data/{network}/analysis/dictionaries")
+OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 OUTPUT_DIR.mkdir(exist_ok=True)
 
 OUTPUT = OUTPUT_DIR / "wordplay_dictionary.json"

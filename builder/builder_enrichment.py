@@ -6,7 +6,6 @@ from builder.rules import load_rules
 
 
 def distance_band(value):
-    """Classify stations by journey time."""
     try:
         value = float(value)
     except Exception:
@@ -47,8 +46,8 @@ def classify_route_diversity(count):
     return "many"
 
 
-def enrich(config: dict) -> pd.DataFrame:
-    """Generic enrichment engine for all supported rail networks."""
+def enrich(config):
+    """Generic enrichment engine."""
 
     network = config["network"]
 
@@ -98,17 +97,12 @@ def enrich(config: dict) -> pd.DataFrame:
     route_lookup = memberships.groupby(station_col)[route_col].apply(list).to_dict()
     route_count_lookup = memberships.groupby(station_col).size().to_dict()
 
-    stations["route_groups"] = (
-        stations[station_col]
-        .map(route_lookup)
-        .apply(lambda x: x if isinstance(x, list) else [])
+    stations["route_groups"] = stations[station_col].map(route_lookup).apply(
+        lambda x: x if isinstance(x, list) else []
     )
 
     stations["route_count"] = (
-        stations[station_col]
-        .map(route_count_lookup)
-        .fillna(0)
-        .astype(int)
+        stations[station_col].map(route_count_lookup).fillna(0).astype(int)
     )
 
     if "service_count" not in stations.columns:
@@ -119,16 +113,12 @@ def enrich(config: dict) -> pd.DataFrame:
     stations["region"] = stations["route_groups"].apply(lambda x: x[0] if x else "")
 
     if interchange_col in stations.columns:
-        stations["is_interchange"] = (
-            stations[interchange_col].astype(str).str.lower().eq("true")
-        )
+        stations["is_interchange"] = stations[interchange_col].astype(str).str.lower().eq("true")
     elif "is_interchange" not in stations.columns:
         stations["is_interchange"] = False
 
     if terminus_col in stations.columns:
-        stations["is_terminus"] = (
-            stations[terminus_col].astype(str).str.lower().eq("true")
-        )
+        stations["is_terminus"] = stations[terminus_col].astype(str).str.lower().eq("true")
     elif "is_terminus" not in stations.columns:
         stations["is_terminus"] = False
 
@@ -152,10 +142,7 @@ def enrich(config: dict) -> pd.DataFrame:
         stations[id_col] = [f"{prefix}{i:04d}" for i in range(1, len(stations) + 1)]
 
     stations["route_station_id"] = stations[id_col]
-    stations["operator"] = config.get(
-        "operator",
-        config.get("display_name", network),
-    )
+    stations["operator"] = config.get("operator", config.get("display_name", network))
 
     if time_col not in stations.columns:
         stations[time_col] = ""
@@ -169,7 +156,8 @@ def enrich(config: dict) -> pd.DataFrame:
     if "time_group" not in stations.columns:
         stations["time_group"] = stations["time_band"]
 
-    stations["is_high_speed"] = stations.get("is_high_speed", False)
+    if "is_high_speed" not in stations.columns:
+        stations["is_high_speed"] = False
 
     if "distance_band" not in stations.columns:
         stations["distance_band"] = stations[time_col].apply(distance_band)

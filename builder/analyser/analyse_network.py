@@ -12,7 +12,11 @@ if len(sys.argv) != 2:
 NETWORK = sys.argv[1]
 
 INPUT = Path(f"data/{NETWORK}/{NETWORK.lower()}.json")
-OUTPUT = Path(f"data/{NETWORK}/{NETWORK.lower()}_wordplay.json")
+
+OUTPUT_DIR = Path(f"data/{NETWORK}/analysis")
+OUTPUT_DIR.mkdir(exist_ok=True)
+
+OUTPUT = OUTPUT_DIR / f"{NETWORK.lower()}_wordplay.json"
 
 
 def normalise(name):

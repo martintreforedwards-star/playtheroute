@@ -1,0 +1,37 @@
+toc,operator,status,confidence
+AW,Avanti West Coast,Passenger
+CC,c2c,Passenger
+CH,Chiltern Railways,Passenger
+EM,East Midlands Railway,Passenger
+GN,Great Northern,Passenger
+GR,Great Western Railway,Passenger
+GW,Great Western Railway,Passenger
+GX,Gatwick Express,Passenger
+HT,Hull Trains,Passenger
+HX,Heathrow Express,Passenger
+IL,Island Line,Passenger
+LE,Greater Anglia,Passenger
+LF,Lumo Freight/Unknown,Unknown
+LM,London Northwestern Railway,Passenger
+LO,London Overground,Passenger
+LS,London St Pancras Highspeed,Unknown
+LT,LNER,Passenger
+ME,Merseyrail,Passenger
+NT,Northern,Passenger
+NY,Unknown,Unknown
+SE,Southeastern,Passenger
+SJ,Unknown,Unknown
+SN,Southern,Passenger
+SO,Unknown,Unknown
+SR,ScotRail,Passenger
+SW,South Western Railway,Passenger
+TL,Thameslink,Passenger
+TP,TransPennine Express,Passenger
+TW,Transport for Wales,Passenger
+TY,Unknown,Unknown
+VT,West Coast Partnership / Avanti,Passenger
+WR,Unknown,Unknown
+XC,CrossCountry,Passenger
+ZZ,Special / Non-passenger / Unknown,Unknown
+ES,Unknown,Unknown
+LD,Unknown,Unknown

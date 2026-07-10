@@ -143,6 +143,31 @@ We're still laying the track, but future editions may include:
 
 <h2>💡 Have an idea?</h2>
 
+<h2>🛤️ How Routepedia defines routes</h2>
+
+<p>
+Routepedia is built from operational railway data rather than manually
+maintained route lists.
+</p>
+
+<p>
+The Route analyses scheduled train services from the Rail Delivery Group's
+Darwin timetable feed and automatically derives canonical routes from the
+ordered sequence of stations served by each train.
+</p>
+
+<p>
+This means Routepedia reflects how Britain's railways actually operate.
+As timetables evolve, routes can be regenerated from the latest operational
+data, reducing manual maintenance and ensuring the network remains current.
+</p>
+
+<p>
+Some well-known branded routes may also be shown using their commonly
+recognised names, but these are presentation labels applied to the
+underlying operational routes derived from timetable data.
+</p>
+
 <p>
 Have an idea for Routepedia, discovered an interesting railway fact,
 or know a station with a story worth telling?

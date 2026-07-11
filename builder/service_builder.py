@@ -3,8 +3,34 @@ import xml.etree.ElementTree as ET
 from pathlib import Path
 
 from builder.reference.corpus import load_tiploc_lookup
+from builder.services.pattern_builder import build_patterns
 
 TIMETABLE = Path("data/Darwin/PPTimetable_20260702020500_v8.xml.gz")
+
+
+def extract_service_path(journey, lookup):
+
+    service = []
+    unknown = 0
+
+    for child in journey:
+
+        child_tag = child.tag.split("}")[-1]
+
+        if child_tag not in ("OR", "IP", "DT"):
+            continue
+
+        tiploc = child.attrib.get("tpl")
+
+        info = lookup.get(tiploc)
+
+        if info:
+            service.append(info["crs"])
+        else:
+            service.append(f"UNKNOWN:{tiploc}")
+            unknown += 1
+
+    return service, unknown
 
 
 def main():
@@ -15,68 +41,103 @@ def main():
 
     print(f"Loaded {len(lookup):,} TIPLOC lookups")
 
-    print("\nOpening timetable...")
-
     with gzip.open(TIMETABLE, "rb") as f:
         tree = ET.parse(f)
 
     root = tree.getroot()
 
-    print(root.tag)
+    service_paths = []
 
-    print("\nSearching for first Journey...")
+    passenger_services = 0
+    skipped_non_passenger = 0
+    unknown_count = 0
+
+    all_stations = set()
+
+    shortest = None
+    longest = 0
+    total_length = 0
+
+    empty_services = []
 
     for elem in root.iter():
 
-        tag = elem.tag.split("}")[-1]
-
-        if tag != "Journey":
+        if elem.tag.split("}")[-1] != "Journey":
             continue
 
-        print("Journey found!")
-        print(elem.attrib)
+        if elem.attrib.get("isPassengerSvc") == "false":
+            skipped_non_passenger += 1
+            continue
 
-        print("\nLocations:")
+        service, unknown = extract_service_path(elem, lookup)
 
-        service = []
+        if len(service) == 0:
+            empty_services.append(elem.attrib)
+            continue
 
-        for child in elem:
+        service_paths.append(service)
 
-            child_tag = child.tag.split("}")[-1]
+        passenger_services += 1
+        unknown_count += unknown
 
-            if child_tag not in ("OR", "IP", "DT"):
-                continue
+        service_length = len(service)
 
-            tiploc = child.attrib.get("tpl")
+        total_length += service_length
 
-            info = lookup.get(tiploc)
+        if shortest is None or service_length < shortest:
+            shortest = service_length
 
-            if info:
+        if service_length > longest:
+            longest = service_length
 
-                service.append(info["crs"])
+        for crs in service:
+            if not crs.startswith("UNKNOWN:"):
+                all_stations.add(crs)
 
-                print(
-                    child_tag,
-                    f"{tiploc:10}",
-                    "→",
-                    f"{info['crs']:3}",
-                    info["name"],
-                )
+    average = total_length / passenger_services if passenger_services else 0
 
-            else:
+    print()
+    print("==========================")
+    print("Service Builder Report")
+    print("==========================")
+    print()
 
-                service.append(f"UNKNOWN:{tiploc}")
+    print(f"Passenger services : {passenger_services:,}")
+    print(f"Non-passenger      : {skipped_non_passenger:,}")
+    print(f"Empty services     : {len(empty_services):,}")
+    print(f"Service paths      : {len(service_paths):,}")
+    print(f"Unique CRS stations: {len(all_stations):,}")
+    print(f"Unknown TIPLOCs    : {unknown_count:,}")
+    print(f"Shortest service   : {shortest}")
+    print(f"Longest service    : {longest}")
+    print(f"Average length     : {average:.2f}")
 
-                print(
-                    child_tag,
-                    f"{tiploc:10}",
-                    "→ UNKNOWN",
-                )
+    if empty_services:
 
-        print("\nService path:")
-        print(service)
+        print()
+        print("First 10 empty passenger services:")
 
-        break
+        for service in empty_services[:10]:
+            print(service)
+
+    print()
+    print("First service:")
+    print(service_paths[0])
+
+    print()
+    print("Last service:")
+    print(service_paths[-1])
+
+    print()
+    print("Building service patterns...")
+
+    patterns = build_patterns(service_paths)
+
+    print(f"Unique service patterns : {len(patterns):,}")
+
+    print()
+    print("First pattern:")
+    print(patterns[0])
 
 
 if __name__ == "__main__":

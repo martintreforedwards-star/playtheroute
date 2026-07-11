@@ -32,6 +32,10 @@ from builder.routes.tree_builder import (
     save_tree,
     report_tree,
 )
+from builder.routes.graph_builder import (
+    build_graph,
+    report_graph,
+)
 TIMETABLE = Path("data/Darwin/PPTimetable_20260702020500_v8.xml.gz")
 
 
@@ -110,6 +114,8 @@ def main():
     save_divergences(divergences)
 
     report_divergences(divergences)
+    graph = build_graph(patterns, divergences)
+    report_graph(graph)
     print()
     print("Building candidate routes...")
 

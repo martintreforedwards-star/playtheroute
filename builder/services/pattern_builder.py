@@ -107,4 +107,24 @@ def report_patterns(patterns):
             f'{pattern["origin"]:3} → {pattern["destination"]:3}   '
             f'({pattern["station_count"]:2} stations)'
         )
+def load_patterns():
+
+    patterns = []
+
+    with OUTPUT.open(
+        newline="",
+        encoding="utf-8",
+    ) as f:
+
+        reader = csv.DictReader(f)
+
+        for row in reader:
+
+            row["service_count"] = int(row["service_count"])
+            row["station_count"] = int(row["station_count"])
+            row["stations"] = row["stations"].split("|")
+
+            patterns.append(row)
+
+    return patterns
     print(f"Saved: {OUTPUT}")

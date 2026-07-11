@@ -7,7 +7,31 @@ from builder.services.pattern_builder import (
     save_patterns,
     report_patterns,
 )
-
+from builder.routes.profiler import (
+    profile_patterns,
+    save_profiles,
+)
+from builder.routes.report import report_profiles
+from builder.routes.corridor_builder import (
+    build_corridors,
+    save_corridors,
+    report_corridors,
+)
+from builder.routes.divergence_builder import (
+    build_divergences,
+    save_divergences,
+    report_divergences,
+)
+from builder.routes.route_builder import (
+    build_routes,
+    save_routes,
+    report_routes,
+)
+from builder.routes.tree_builder import (
+    build_route_tree,
+    save_tree,
+    report_tree,
+)
 TIMETABLE = Path("data/Darwin/PPTimetable_20260702020500_v8.xml.gz")
 
 
@@ -67,7 +91,44 @@ def main():
     patterns = build_patterns(service_paths)
 
     save_patterns(patterns)
+    profiles = profile_patterns(patterns)
+    save_profiles(profiles)
+    report_profiles(profiles)
+    print()
+    print("Building service corridors...")
 
+    corridors = build_corridors(patterns)
+
+    save_corridors(corridors)
+
+    report_corridors(corridors)
+    print()
+    print("Analysing route divergences...")
+
+    divergences = build_divergences(patterns)
+
+    save_divergences(divergences)
+
+    report_divergences(divergences)
+    print()
+    print("Building candidate routes...")
+
+    routes = build_routes(divergences)
+
+    save_routes(routes)
+
+    report_routes(routes)
+    print()
+    print("Building route tree...")
+
+    tree = build_route_tree(
+    routes,
+    patterns,
+    )
+
+    save_tree(tree)
+
+    report_tree(tree)
     print()
     print(f"Unique service patterns : {len(patterns):,}")
 

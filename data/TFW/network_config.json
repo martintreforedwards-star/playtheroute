@@ -1,0 +1,8 @@
+{
+    "network": "TFW",
+    "operator": "Transport for Wales",
+    "operator_code": "AW",
+    "master": "tfw_master.csv",
+    "json": "tfw.json",
+    "clues": "tfw-clues.json"
+}

@@ -1,0 +1,364 @@
+station_id,network,route_station_id,route_group,crs,station_name
+SCR001,Scotrail,SC0001,,ABD,Aberdeen
+SCR002,Scotrail,SC0002,,AUR,Aberdour
+SCR003,Scotrail,SC0003,,AAT,Achanalt
+SCR004,Scotrail,SC0004,,ACN,Achnasheen
+SCR005,Scotrail,SC0005,,ACH,Achnashellach
+SCR006,Scotrail,SC0006,,ADW,Addiewell
+SCR007,Scotrail,SC0007,,AIR,Airbles
+SCR008,Scotrail,SC0008,,ADR,Airdrie
+SCR009,Scotrail,SC0009,,AXP,Alexandra Parade
+SCR010,Scotrail,SC0010,,ALX,Alexandria
+SCR011,Scotrail,SC0011,,ALO,Alloa
+SCR012,Scotrail,SC0012,,ASS,Alness
+SCR013,Scotrail,SC0013,,ABC,Altnabreac
+SCR014,Scotrail,SC0014,,AND,Anderston
+SCR015,Scotrail,SC0015,,ANN,Annan
+SCR016,Scotrail,SC0016,,ANL,Anniesland
+SCR017,Scotrail,SC0017,,ARB,Arbroath
+SCR018,Scotrail,SC0018,,ARD,Ardgay
+SCR019,Scotrail,SC0019,,AUI,Ardlui
+SCR020,Scotrail,SC0020,,ADS,Ardrossan Harbour
+SCR021,Scotrail,SC0021,,ASB,Ardrossan South Beach
+SCR022,Scotrail,SC0022,,ADN,Ardrossan Town
+SCR023,Scotrail,SC0023,,AGS,Argyle Street
+SCR024,Scotrail,SC0024,,ARG,Arisaig
+SCR025,Scotrail,SC0025,,ARM,Armadale
+SCR026,Scotrail,SC0026,,ART,Arrochar & Tarbet
+SCR027,Scotrail,SC0027,,ASF,Ashfield
+SCR028,Scotrail,SC0028,,ATT,Attadale
+SCR029,Scotrail,SC0029,,AUK,Auchinleck
+SCR030,Scotrail,SC0030,,AVM,Aviemore
+SCR031,Scotrail,SC0031,,AYR,Ayr
+SCR032,Scotrail,SC0032,,BIO,Baillieston
+SCR033,Scotrail,SC0033,,BHC,Balloch Central
+SCR034,Scotrail,SC0034,,BSI,Balmossie
+SCR035,Scotrail,SC0035,,BNV,Banavie
+SCR036,Scotrail,SC0036,,BSS,Barassie
+SCR037,Scotrail,SC0037,,BGI,Bargeddie
+SCR038,Scotrail,SC0038,,BNL,Barnhill
+SCR039,Scotrail,SC0039,,BRR,Barrhead
+SCR040,Scotrail,SC0040,,BRL,Barrhill
+SCR041,Scotrail,SC0041,,BYL,Barry Links
+SCR042,Scotrail,SC0042,,BHG,Bathgate
+SCR043,Scotrail,SC0043,,BRN,Bearsden
+SCR044,Scotrail,SC0044,,BSL,Beasdale
+SCR045,Scotrail,SC0045,,BEL,Beauly
+SCR046,Scotrail,SC0046,,BLG,Bellgrove
+SCR047,Scotrail,SC0047,,BLH,Bellshill
+SCR048,Scotrail,SC0048,,BBG,Bishopbriggs
+SCR049,Scotrail,SC0049,,BPT,Bishopton
+SCR050,Scotrail,SC0050,,BKR,Blackridge
+SCR051,Scotrail,SC0051,,BLA,Blair Atholl
+SCR052,Scotrail,SC0052,,BAI,Blairhill
+SCR053,Scotrail,SC0053,,BLT,Blantyre
+SCR054,Scotrail,SC0054,,BGS,Bogston
+SCR055,Scotrail,SC0055,,BWG,Bowling
+SCR056,Scotrail,SC0056,,BCN,Branchton
+SCR057,Scotrail,SC0057,,BRC,Breich
+SCR058,Scotrail,SC0058,,BEA,Bridge of Allan
+SCR059,Scotrail,SC0059,,BRO,Bridge of Orchy
+SCR060,Scotrail,SC0060,,BDG,Bridgeton
+SCR061,Scotrail,SC0061,,BRA,Brora
+SCR062,Scotrail,SC0062,,BYF,Broughty Ferry
+SCR063,Scotrail,SC0063,,BSU,Brunstane
+SCR064,Scotrail,SC0064,,BUI,Burnside
+SCR065,Scotrail,SC0065,,BTS,Burntisland
+SCR066,Scotrail,SC0066,,BUS,Busby
+SCR067,Scotrail,SC0067,,CAC,Caldercruix
+SCR068,Scotrail,SC0068,,CBL,Cambuslang
+SCR069,Scotrail,SC0069,,CMO,Camelon
+SCR070,Scotrail,SC0070,,CBX,Cameron Bridge
+SCR071,Scotrail,SC0071,,CDD,Cardenden
+SCR072,Scotrail,SC0072,,CDO,Cardonald
+SCR073,Scotrail,SC0073,,CDR,Cardross
+SCR074,Scotrail,SC0074,,CRF,Carfin
+SCR075,Scotrail,SC0075,,CLU,Carluke
+SCR076,Scotrail,SC0076,,CML,Carmyle
+SCR077,Scotrail,SC0077,,CAN,Carnoustie
+SCR078,Scotrail,SC0078,,CAY,Carntyne
+SCR079,Scotrail,SC0079,,CAG,Carrbridge
+SCR080,Scotrail,SC0080,,CRS,Carstairs
+SCR081,Scotrail,SC0081,,CDY,Cartsdyke
+SCR082,Scotrail,SC0082,,CCT,Cathcart
+SCR083,Scotrail,SC0083,,CHC,Charing Cross (Glasgow)
+SCR084,Scotrail,SC0084,,CTE,Chatelherault
+SCR085,Scotrail,SC0085,,CKS,Clarkston
+SCR086,Scotrail,SC0086,,CEA,Cleland
+SCR087,Scotrail,SC0087,,CYK,Clydebank
+SCR088,Scotrail,SC0088,,CBC,Coatbridge Central
+SCR089,Scotrail,SC0089,,CBS,Coatbridge Sunnyside
+SCR090,Scotrail,SC0090,,COA,Coatdyke
+SCR091,Scotrail,SC0091,,CON,Connel Ferry
+SCR092,Scotrail,SC0092,,CBD,Conon Bridge
+SCR093,Scotrail,SC0093,,CKH,Corkerhill
+SCR094,Scotrail,SC0094,,CPA,Corpach
+SCR095,Scotrail,SC0095,,CRR,Corrour
+SCR096,Scotrail,SC0096,,COW,Cowdenbeath
+SCR097,Scotrail,SC0097,,CGD,Craigendoran
+SCR098,Scotrail,SC0098,,CNR,Crianlarich
+SCR099,Scotrail,SC0099,,CFF,Croftfoot
+SCR100,Scotrail,SC0100,,CKT,Crookston
+SCR101,Scotrail,SC0101,,COI,Crosshill
+SCR102,Scotrail,SC0102,,CMY,Crossmyloof
+SCR103,Scotrail,SC0103,,CRO,Croy
+SCR104,Scotrail,SC0104,,CUA,Culrain
+SCR105,Scotrail,SC0105,,CUB,Cumbernauld
+SCR106,Scotrail,SC0106,,CUP,Cupar
+SCR107,Scotrail,SC0107,,CUH,Curriehill
+SCR108,Scotrail,SC0108,,DAG,Dalgety Bay
+SCR109,Scotrail,SC0109,,DAL,Dalmally
+SCR110,Scotrail,SC0110,,DAK,Dalmarnock
+SCR111,Scotrail,SC0111,,DAM,Dalmeny
+SCR112,Scotrail,SC0112,,DMR,Dalmuir
+SCR113,Scotrail,SC0113,,DLR,Dalreoch
+SCR114,Scotrail,SC0114,,DLY,Dalry
+SCR115,Scotrail,SC0115,,DLW,Dalwhinnie
+SCR116,Scotrail,SC0116,,DIN,Dingwall
+SCR117,Scotrail,SC0117,,DRM,Drem
+SCR118,Scotrail,SC0118,,DMC,Drumchapel
+SCR119,Scotrail,SC0119,,DFR,Drumfrochar
+SCR120,Scotrail,SC0120,,DRU,Drumgelloch
+SCR121,Scotrail,SC0121,,DMY,Drumry
+SCR122,Scotrail,SC0122,,DRN,Duirinish
+SCR123,Scotrail,SC0123,,DST,Duke Street
+SCR124,Scotrail,SC0124,,DBC,Dumbarton Central
+SCR125,Scotrail,SC0125,,DBE,Dumbarton East
+SCR126,Scotrail,SC0126,,DUM,Dumbreck
+SCR127,Scotrail,SC0127,,DMF,Dumfries
+SCR128,Scotrail,SC0128,,DUN,Dunbar
+SCR129,Scotrail,SC0129,,DBL,Dunblane
+SCR130,Scotrail,SC0130,,DCG,Duncraig
+SCR131,Scotrail,SC0131,,DEE,Dundee
+SCR132,Scotrail,SC0132,,DFE,Dunfermline City
+SCR133,Scotrail,SC0133,,DFL,Dunfermline Queen Margaret
+SCR134,Scotrail,SC0134,,DKD,Dunkeld & Birnam
+SCR135,Scotrail,SC0135,,DNL,Dunlop
+SCR136,Scotrail,SC0136,,DNO,Dunrobin Castle
+SCR137,Scotrail,SC0137,,DYC,Dyce
+SCR138,Scotrail,SC0138,,EKL,East Kilbride
+SCR139,Scotrail,SC0139,,ELT,East Linton
+SCR140,Scotrail,SC0140,,EST,Easterhouse
+SCR141,Scotrail,SC0141,,EGY,Edinburgh Gateway
+SCR142,Scotrail,SC0142,,EDP,Edinburgh Park
+SCR143,Scotrail,SC0143,,EDB,Edinburgh Waverley
+SCR144,Scotrail,SC0144,,ELG,Elgin
+SCR145,Scotrail,SC0145,,EKB,Eskbank
+SCR146,Scotrail,SC0146,,EXG,Exhibition Centre
+SCR147,Scotrail,SC0147,,FRL,Fairlie
+SCR148,Scotrail,SC0148,,FKG,Falkirk Grahamston
+SCR149,Scotrail,SC0149,,FKK,Falkirk High
+SCR150,Scotrail,SC0150,,FOC,Falls of Cruachan
+SCR151,Scotrail,SC0151,,FLD,Fauldhouse
+SCR152,Scotrail,SC0152,,FRN,Fearn
+SCR153,Scotrail,SC0153,,FOR,Forres
+SCR154,Scotrail,SC0154,,FRS,Forsinard
+SCR155,Scotrail,SC0155,,FTM,Fort Matilda
+SCR156,Scotrail,SC0156,,FTW,Fort William
+SCR157,Scotrail,SC0157,,GAL,Galashiels
+SCR158,Scotrail,SC0158,,GCH,Garelochhead
+SCR159,Scotrail,SC0159,,GAR,Garrowhill
+SCR160,Scotrail,SC0160,,GRS,Garscadden
+SCR161,Scotrail,SC0161,,GRH,Gartcosh
+SCR162,Scotrail,SC0162,,GVE,Garve
+SCR163,Scotrail,SC0163,,GGJ,Georgemas Junction
+SCR164,Scotrail,SC0164,,GFN,Giffnock
+SCR165,Scotrail,SC0165,,GSC,Gilshochill
+SCR166,Scotrail,SC0166,,GIR,Girvan
+SCR167,Scotrail,SC0167,,GLC,Glasgow Central
+SCR168,Scotrail,SC0168,,GLQ,Glasgow Queen Street
+SCR169,Scotrail,SC0169,,GLE,Gleneagles
+SCR170,Scotrail,SC0170,,GLF,Glenfinnan
+SCR171,Scotrail,SC0171,,GLG,Glengarnock
+SCR172,Scotrail,SC0172,,GLT,Glenrothes with Thornton
+SCR173,Scotrail,SC0173,,GOF,Golf Street
+SCR174,Scotrail,SC0174,,GOL,Golspie
+SCR175,Scotrail,SC0175,,GBG,Gorebridge
+SCR176,Scotrail,SC0176,,GRK,Gourock
+SCR177,Scotrail,SC0177,,GRL,Greenfaulds
+SCR178,Scotrail,SC0178,,GKC,Greenock Central
+SCR179,Scotrail,SC0179,,GKW,Greenock West
+SCR180,Scotrail,SC0180,,GEA,Gretna Green
+SCR181,Scotrail,SC0181,,HMY,Hairmyres
+SCR182,Scotrail,SC0182,,HNC,Hamilton Central
+SCR183,Scotrail,SC0183,,HNW,Hamilton West
+SCR184,Scotrail,SC0184,,HTW,Hartwood
+SCR185,Scotrail,SC0185,,HKH,Hawkhead
+SCR186,Scotrail,SC0186,,HYM,Haymarket
+SCR187,Scotrail,SC0187,,HLC,Helensburgh Central
+SCR188,Scotrail,SC0188,,HLU,Helensburgh Upper
+SCR189,Scotrail,SC0189,,HMS,Helmsdale
+SCR190,Scotrail,SC0190,,HST,High Street
+SCR191,Scotrail,SC0191,,HLF,Hillfoot
+SCR192,Scotrail,SC0192,,HLE,Hillington East
+SCR193,Scotrail,SC0193,,HLW,Hillington West
+SCR194,Scotrail,SC0194,,HLY,Holytown
+SCR195,Scotrail,SC0195,,HOZ,Howwood
+SCR196,Scotrail,SC0196,,HNT,Huntly
+SCR197,Scotrail,SC0197,,HYN,Hyndland
+SCR198,Scotrail,SC0198,,INS,Insch
+SCR199,Scotrail,SC0199,,IGD,Invergordon
+SCR200,Scotrail,SC0200,,ING,Invergowrie
+SCR201,Scotrail,SC0201,,INK,Inverkeithing
+SCR202,Scotrail,SC0202,,INP,Inverkip
+SCR203,Scotrail,SC0203,,INV,Inverness
+SCR204,Scotrail,SC0204,,IVA,Inverness Airport
+SCR205,Scotrail,SC0205,,INH,Invershin
+SCR206,Scotrail,SC0206,,INR,Inverurie
+SCR207,Scotrail,SC0207,,IRV,Irvine
+SCR208,Scotrail,SC0208,,JHN,Johnstone
+SCR209,Scotrail,SC0209,,JOR,Jordanhill
+SCR210,Scotrail,SC0210,,KEH,Keith
+SCR211,Scotrail,SC0211,,KVD,Kelvindale
+SCR212,Scotrail,SC0212,,KNS,Kennishead
+SCR213,Scotrail,SC0213,,KIL,Kildonan
+SCR214,Scotrail,SC0214,,KMK,Kilmarnock
+SCR215,Scotrail,SC0215,,KLM,Kilmaurs
+SCR216,Scotrail,SC0216,,KPT,Kilpatrick
+SCR217,Scotrail,SC0217,,KWN,Kilwinning
+SCR218,Scotrail,SC0218,,KBC,Kinbrace
+SCR219,Scotrail,SC0219,,KGH,Kinghorn
+SCR220,Scotrail,SC0220,,KGP,Kings Park
+SCR221,Scotrail,SC0221,,KGE,Kingsknowe
+SCR222,Scotrail,SC0222,,KIN,Kingussie
+SCR223,Scotrail,SC0223,,KTR,Kintore
+SCR224,Scotrail,SC0224,,KDY,Kirkcaldy
+SCR225,Scotrail,SC0225,,KRK,Kirkconnel
+SCR226,Scotrail,SC0226,,KKH,Kirkhill
+SCR227,Scotrail,SC0227,,KKN,Kirknewton
+SCR228,Scotrail,SC0228,,KWD,Kirkwood
+SCR229,Scotrail,SC0229,,KYL,Kyle of Lochalsh
+SCR230,Scotrail,SC0230,,LDY,Ladybank
+SCR231,Scotrail,SC0231,,LRG,Lairg
+SCR232,Scotrail,SC0232,,LNK,Lanark
+SCR233,Scotrail,SC0233,,LGB,Langbank
+SCR234,Scotrail,SC0234,,LGS,Langside
+SCR235,Scotrail,SC0235,,LBT,Larbert
+SCR236,Scotrail,SC0236,,LAR,Largs
+SCR237,Scotrail,SC0237,,LRH,Larkhall
+SCR238,Scotrail,SC0238,,LAU,Laurencekirk
+SCR239,Scotrail,SC0239,,LNZ,Lenzie
+SCR240,Scotrail,SC0240,,LEU,Leuchars
+SCR241,Scotrail,SC0241,,LEV,Leven
+SCR242,Scotrail,SC0242,,LIN,Linlithgow
+SCR243,Scotrail,SC0243,,LSN,Livingston North
+SCR244,Scotrail,SC0244,,LVG,Livingston South
+SCR245,Scotrail,SC0245,,LHA,Loch Awe
+SCR246,Scotrail,SC0246,,LHE,Loch Eil Outward Bound
+SCR247,Scotrail,SC0247,,LCL,Lochailort
+SCR248,Scotrail,SC0248,,LCS,Locheilside
+SCR249,Scotrail,SC0249,,LCG,Lochgelly
+SCR250,Scotrail,SC0250,,LCC,Lochluichart
+SCR251,Scotrail,SC0251,,LHW,Lochwinnoch
+SCR252,Scotrail,SC0252,,LOC,Lockerbie
+SCR253,Scotrail,SC0253,,LND,Longniddry
+SCR254,Scotrail,SC0254,,MLG,Mallaig
+SCR255,Scotrail,SC0255,,MNC,Markinch
+SCR256,Scotrail,SC0256,,MYH,Maryhill
+SCR257,Scotrail,SC0257,,MAX,Maxwell Park
+SCR258,Scotrail,SC0258,,MAY,Maybole
+SCR259,Scotrail,SC0259,,MEY,Merryton
+SCR260,Scotrail,SC0260,,MIN,Milliken Park
+SCR261,Scotrail,SC0261,,MLN,Milngavie
+SCR262,Scotrail,SC0262,,MON,Monifieth
+SCR263,Scotrail,SC0263,,MTS,Montrose
+SCR264,Scotrail,SC0264,,MRR,Morar
+SCR265,Scotrail,SC0265,,MPK,Mosspark
+SCR266,Scotrail,SC0266,,MTH,Motherwell
+SCR267,Scotrail,SC0267,,MFL,Mount Florida
+SCR268,Scotrail,SC0268,,MTV,Mount Vernon
+SCR269,Scotrail,SC0269,,MOO,Muir of Ord
+SCR270,Scotrail,SC0270,,MUI,Muirend
+SCR271,Scotrail,SC0271,,MUB,Musselburgh
+SCR272,Scotrail,SC0272,,NRN,Nairn
+SCR273,Scotrail,SC0273,,NEI,Neilston
+SCR274,Scotrail,SC0274,,NCK,New Cumnock
+SCR275,Scotrail,SC0275,,NEW,Newcraighall
+SCR276,Scotrail,SC0276,,NTN,Newton
+SCR277,Scotrail,SC0277,,NOA,Newton-On-Ayr
+SCR278,Scotrail,SC0278,,NEG,Newtongrange
+SCR279,Scotrail,SC0279,,NWR,Newtonmore
+SCR280,Scotrail,SC0280,,NIT,Nitshill
+SCR281,Scotrail,SC0281,,NBW,North Berwick
+SCR282,Scotrail,SC0282,,NQU,North Queensferry
+SCR283,Scotrail,SC0283,,OBN,Oban
+SCR284,Scotrail,SC0284,,PCN,Paisley Canal
+SCR285,Scotrail,SC0285,,PYG,Paisley Gilmour Street
+SCR286,Scotrail,SC0286,,PYJ,Paisley St James
+SCR287,Scotrail,SC0287,,PTK,Partick
+SCR288,Scotrail,SC0288,,PTT,Patterton
+SCR289,Scotrail,SC0289,,PTH,Perth
+SCR290,Scotrail,SC0290,,PIT,Pitlochry
+SCR291,Scotrail,SC0291,,PLK,Plockton
+SCR292,Scotrail,SC0292,,PWE,Pollokshaws East
+SCR293,Scotrail,SC0293,,PWW,Pollokshaws West
+SCR294,Scotrail,SC0294,,PLE,Pollokshields East
+SCR295,Scotrail,SC0295,,PLW,Pollokshields West
+SCR296,Scotrail,SC0296,,PMT,Polmont
+SCR297,Scotrail,SC0297,,PTG,Port Glasgow
+SCR298,Scotrail,SC0298,,PLN,Portlethen
+SCR299,Scotrail,SC0299,,PPK,Possilpark & Parkhouse
+SCR300,Scotrail,SC0300,,PST,Prestonpans
+SCR301,Scotrail,SC0301,,PRA,Prestwick International Airport
+SCR302,Scotrail,SC0302,,PTW,Prestwick Town
+SCR303,Scotrail,SC0303,,PTL,Priesthill & Darnley
+SCR304,Scotrail,SC0304,,QPK,Queens Park (Glasgow)
+SCR305,Scotrail,SC0305,,RAN,Rannoch
+SCR306,Scotrail,SC0306,,RTN,Renton
+SCR307,Scotrail,SC0307,,RSN,Reston
+SCR308,Scotrail,SC0308,,RRN,Robroyston
+SCR309,Scotrail,SC0309,,ROG,Rogart
+SCR310,Scotrail,SC0310,,ROS,Rosyth
+SCR311,Scotrail,SC0311,,RYB,Roy Bridge
+SCR312,Scotrail,SC0312,,RUT,Rutherglen
+SCR313,Scotrail,SC0313,,SLT,Saltcoats
+SCR314,Scotrail,SC0314,,SQH,Sanquhar
+SCR315,Scotrail,SC0315,,SCT,Scotscalder
+SCR316,Scotrail,SC0316,,SCH,Scotstounhill
+SCR317,Scotrail,SC0317,,SFI,Shawfair
+SCR318,Scotrail,SC0318,,SHL,Shawlands
+SCR319,Scotrail,SC0319,,SLS,Shettleston
+SCR320,Scotrail,SC0320,,SDM,Shieldmuir
+SCR321,Scotrail,SC0321,,SHS,Shotts
+SCR322,Scotrail,SC0322,,SIN,Singer
+SCR323,Scotrail,SC0323,,SLA,Slateford
+SCR324,Scotrail,SC0324,,SGL,South Gyle
+SCR325,Scotrail,SC0325,,SBR,Spean Bridge
+SCR326,Scotrail,SC0326,,SPR,Springburn
+SCR327,Scotrail,SC0327,,SPF,Springfield
+SCR328,Scotrail,SC0328,,SPS,Stepps
+SCR329,Scotrail,SC0329,,STV,Stevenston
+SCR330,Scotrail,SC0330,,STT,Stewarton
+SCR331,Scotrail,SC0331,,STG,Stirling
+SCR332,Scotrail,SC0332,,STN,Stonehaven
+SCR333,Scotrail,SC0333,,SOI,Stow
+SCR334,Scotrail,SC0334,,STR,Stranraer
+SCR335,Scotrail,SC0335,,STC,Strathcarron
+SCR336,Scotrail,SC0336,,STF,Stromeferry
+SCR337,Scotrail,SC0337,,SUM,Summerston
+SCR338,Scotrail,SC0338,,TAI,Tain
+SCR339,Scotrail,SC0339,,TAY,Taynuilt
+SCR340,Scotrail,SC0340,,THB,Thornliebank
+SCR341,Scotrail,SC0341,,THT,Thorntonhall
+SCR342,Scotrail,SC0342,,THS,Thurso
+SCR343,Scotrail,SC0343,,TRN,Troon
+SCR344,Scotrail,SC0344,,TUL,Tulloch
+SCR345,Scotrail,SC0345,,TWB,Tweedbank
+SCR346,Scotrail,SC0346,,TYL,Tyndrum Lower
+SCR347,Scotrail,SC0347,,UDD,Uddingston
+SCR348,Scotrail,SC0348,,UHA,Uphall
+SCR349,Scotrail,SC0349,,UTY,Upper Tyndrum
+SCR350,Scotrail,SC0350,,WAF,Wallyford
+SCR351,Scotrail,SC0351,,WMS,Wemyss Bay
+SCR352,Scotrail,SC0352,,WCL,West Calder
+SCR353,Scotrail,SC0353,,WKB,West Kilbride
+SCR354,Scotrail,SC0354,,WTA,Wester Hailes
+SCR355,Scotrail,SC0355,,WES,Westerton
+SCR356,Scotrail,SC0356,,WFF,Whifflet
+SCR357,Scotrail,SC0357,,WNL,Whinhill
+SCR358,Scotrail,SC0358,,WCR,Whitecraigs
+SCR359,Scotrail,SC0359,,WCK,Wick
+SCR360,Scotrail,SC0360,,WLM,Williamwood
+SCR361,Scotrail,SC0361,,WSH,Wishaw
+SCR362,Scotrail,SC0362,,WDL,Woodhall
+SCR363,Scotrail,SC0363,,YOK,Yoker

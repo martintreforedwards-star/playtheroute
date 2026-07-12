@@ -60,16 +60,24 @@ def analyse_station(name):
 
 def analyse(network):
 
-    input_file = Path("data") / network / f"{network.lower()}.json"
+    data_root = Path("data")
 
-    output_dir = Path("data") / network / "analysis"
+    network_dir = None
+    for p in data_root.iterdir():
+        if p.is_dir() and p.name.lower() == network.lower():
+            network_dir = p
+            network = p.name
+            break
+
+    if network_dir is None:
+        network_dir = data_root / network
+
+    input_file = network_dir / f"{network.lower()}.json"
+    output_dir = network_dir / "analysis"
 
     print(f"Analysis directory: {output_dir.resolve()}")
 
-    if not output_dir.exists():
-        output_dir.mkdir(parents=True)
-    elif not output_dir.is_dir():
-        raise RuntimeError(f"{output_dir} exists but is not a directory")
+    output_dir.mkdir(parents=True, exist_ok=True)
 
     output_file = output_dir / f"{network.lower()}_wordplay.json"
 

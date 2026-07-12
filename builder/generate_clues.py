@@ -100,16 +100,12 @@ def generate_columns(stations):
                 }
             )
 
-    # Generic categorical fields
-
     add_field("region", "geography")
     add_field("distance_band", "geography")
     add_field("time_group", "service")
     add_field("word_count_band", "name")
     add_field("service_density", "service")
     add_field("route_diversity_band", "service")
-
-    # Route groups
 
     route_groups = sorted(
         {
@@ -133,6 +129,7 @@ def generate_columns(stations):
         )
 
     return columns
+
 
 def generate_wordplay_columns(wordplay):
 
@@ -197,27 +194,37 @@ def generate_wordplay_columns(wordplay):
 
     return columns
 
+
 def generate(network):
 
-    folder = Path("data") / network
+    data_root = Path("data")
+
+    folder = None
+    for p in data_root.iterdir():
+        if p.is_dir() and p.name.lower() == network.lower():
+            folder = p
+            network = p.name
+            break
+
+    if folder is None:
+        folder = data_root / network
 
     stations = load_json(folder / f"{network.lower()}.json")
-    analysis_folder = folder / "analysis"
 
+    analysis_folder = folder / "analysis"
     wordplay_file = analysis_folder / f"{network.lower()}_wordplay.json"
 
     if wordplay_file.exists():
-    
         wordplay = load_json(wordplay_file)
-    
     else:
         wordplay = []
 
     clue_file = {
         "rowPool": generate_rows(),
-        "columnPool":
+        "columnPool": (
             generate_columns(stations)
             + generate_wordplay_columns(wordplay)
+        ),
     }
 
     output = folder / f"{network.lower()}-clues.json"
@@ -225,6 +232,7 @@ def generate(network):
     save_json(output, clue_file)
 
     print(f"Created {output}")
+
 
 if __name__ == "__main__":
 

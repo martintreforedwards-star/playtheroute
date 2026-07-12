@@ -11,7 +11,13 @@ def generate_network_membership(config):
     - data/<Network>/route_membership.csv (this network only)
     """
 
-    network = config["network"]
+    network = config.get(
+        "network",
+        config.get(
+            "display_name",
+            Path(config["master"]).parent.name,
+        ),
+    )
 
     master_file = Path(
         config.get(
@@ -50,10 +56,8 @@ def generate_network_membership(config):
         Path("data") / network / "route_membership.csv"
     )
 
-    # Route membership = this network only
     membership.to_csv(route_membership_file, index=False)
 
-    # Network membership = all networks
     if network_membership_file.exists():
         existing = pd.read_csv(network_membership_file)
 

@@ -1,17 +1,17 @@
 {
   "rowPool": [
     {
-      "display": "Not a terminus \ud83d\ude89",
+      "display": "Terminus",
+      "type": "field",
+      "field": "is_terminus",
+      "value": true,
+      "weight": "medium"
+    },
+    {
+      "display": "Not a Terminus",
       "type": "field",
       "field": "is_terminus",
       "value": false,
-      "weight": "high"
-    },
-    {
-      "display": "Direct to Charing Cross",
-      "type": "field",
-      "field": "direct_to_charing_cross",
-      "value": true,
       "weight": "high"
     },
     {
@@ -22,133 +22,207 @@
       "weight": "medium"
     },
     {
-      "display": "Terminus",
+      "display": "Branch Line",
       "type": "field",
-      "field": "is_terminus",
+      "field": "is_branch_line",
       "value": true,
       "weight": "medium"
     },
     {
-      "display": "Direct to Victoria",
+      "display": "Main Line",
       "type": "field",
-      "field": "direct_to_victoria",
+      "field": "is_mainline",
       "value": true,
-      "weight": "high"
-    },
-    {
-      "display": "Direct to Cannon Street",
-      "type": "field",
-      "field": "direct_to_cannon_street",
-      "value": true,
-      "weight": "high"
-    },
-    {
-      "display": "Direct to St Pancras",
-      "type": "field",
-      "field": "direct_to_st_pancras",
-      "value": true,
-      "weight": "high"
+      "weight": "medium"
     }
   ],
   "columnPool": [
     {
-      "display": "Coastal \ud83c\udf0a",
+      "display": "Aberdeen Line",
       "type": "field",
-      "field": "is_coastal",
-      "value": true,
+      "field": "region",
+      "value": "Aberdeen Line",
       "weight": "medium",
       "category": "geography"
     },
     {
-      "display": "Inner London",
+      "display": "Ardrossan Branch",
       "type": "field",
-      "field": "distance_band",
-      "value": "inner",
-      "weight": "low",
-      "category": "geography"
-    },
-    {
-      "display": "Outer Suburban",
-      "type": "field",
-      "field": "distance_band",
-      "value": "outer",
+      "field": "region",
+      "value": "Ardrossan Branch",
       "weight": "medium",
       "category": "geography"
     },
     {
-      "display": "Commuter",
+      "display": "Argyle Line",
+      "type": "field",
+      "field": "region",
+      "value": "Argyle Line",
+      "weight": "medium",
+      "category": "geography"
+    },
+    {
+      "display": "Ayrshire Coast",
+      "type": "field",
+      "field": "region",
+      "value": "Ayrshire Coast",
+      "weight": "medium",
+      "category": "geography"
+    },
+    {
+      "display": "Borders Railway",
+      "type": "field",
+      "field": "region",
+      "value": "Borders Railway",
+      "weight": "medium",
+      "category": "geography"
+    },
+    {
+      "display": "Carstairs Corridor",
+      "type": "field",
+      "field": "region",
+      "value": "Carstairs Corridor",
+      "weight": "medium",
+      "category": "geography"
+    },
+    {
+      "display": "Cathcart Circle",
+      "type": "field",
+      "field": "region",
+      "value": "Cathcart Circle",
+      "weight": "medium",
+      "category": "geography"
+    },
+    {
+      "display": "East Kilbride Line",
+      "type": "field",
+      "field": "region",
+      "value": "East Kilbride Line",
+      "weight": "medium",
+      "category": "geography"
+    },
+    {
+      "display": "Edinburgh\u2013Glasgow Main Line",
+      "type": "field",
+      "field": "region",
+      "value": "Edinburgh\u2013Glasgow Main Line",
+      "weight": "medium",
+      "category": "geography"
+    },
+    {
+      "display": "Far North Line",
+      "type": "field",
+      "field": "region",
+      "value": "Far North Line",
+      "weight": "medium",
+      "category": "geography"
+    },
+    {
+      "display": "Fife Circle",
+      "type": "field",
+      "field": "region",
+      "value": "Fife Circle",
+      "weight": "medium",
+      "category": "geography"
+    },
+    {
+      "display": "Highland Main Line",
+      "type": "field",
+      "field": "region",
+      "value": "Highland Main Line",
+      "weight": "medium",
+      "category": "geography"
+    },
+    {
+      "display": "Inverclyde Line",
+      "type": "field",
+      "field": "region",
+      "value": "Inverclyde Line",
+      "weight": "medium",
+      "category": "geography"
+    },
+    {
+      "display": "Kyle Line",
+      "type": "field",
+      "field": "region",
+      "value": "Kyle Line",
+      "weight": "medium",
+      "category": "geography"
+    },
+    {
+      "display": "Lanark Line",
+      "type": "field",
+      "field": "region",
+      "value": "Lanark Line",
+      "weight": "medium",
+      "category": "geography"
+    },
+    {
+      "display": "Largs Branch",
+      "type": "field",
+      "field": "region",
+      "value": "Largs Branch",
+      "weight": "medium",
+      "category": "geography"
+    },
+    {
+      "display": "Neilston Line",
+      "type": "field",
+      "field": "region",
+      "value": "Neilston Line",
+      "weight": "medium",
+      "category": "geography"
+    },
+    {
+      "display": "Oban Branch",
+      "type": "field",
+      "field": "region",
+      "value": "Oban Branch",
+      "weight": "medium",
+      "category": "geography"
+    },
+    {
+      "display": "Shotts Line",
+      "type": "field",
+      "field": "region",
+      "value": "Shotts Line",
+      "weight": "medium",
+      "category": "geography"
+    },
+    {
+      "display": "Stranraer Line",
+      "type": "field",
+      "field": "region",
+      "value": "Stranraer Line",
+      "weight": "medium",
+      "category": "geography"
+    },
+    {
+      "display": "Wemyss Bay Branch",
+      "type": "field",
+      "field": "region",
+      "value": "Wemyss Bay Branch",
+      "weight": "medium",
+      "category": "geography"
+    },
+    {
+      "display": "West Highland Line",
+      "type": "field",
+      "field": "region",
+      "value": "West Highland Line",
+      "weight": "medium",
+      "category": "geography"
+    },
+    {
+      "display": "Regional",
       "type": "field",
       "field": "distance_band",
-      "value": "commuter",
-      "weight": "high",
-      "category": "service"
-    },
-    {
-      "display": "Contains ham",
-      "type": "contains",
-      "field": "station_name",
-      "value": "ham",
+      "value": "regional",
       "weight": "medium",
-      "category": "name"
+      "category": "geography"
     },
     {
-      "display": "Contains ton",
-      "type": "contains",
-      "field": "station_name",
-      "value": "ton",
-      "weight": "medium",
-      "category": "name"
-    },
-    {
-      "display": "Contains ford",
-      "type": "contains",
-      "field": "station_name",
-      "value": "ford",
-      "weight": "low",
-      "category": "name"
-    },
-    {
-      "display": "Contains a Nature Word",
-      "type": "word_group",
-      "field": "station_name",
-      "group": "nature",
-      "weight": "medium",
-      "category": "name"
-    },
-    {
-      "display": "Contains a Compass Direction",
-      "type": "word_group",
-      "field": "station_name",
-      "group": "direction",
-      "weight": "medium",
-      "category": "name"
-    },
-    {
-      "display": "Contains a Settlement Word",
-      "type": "word_group",
-      "field": "station_name",
-      "group": "settlement",
-      "weight": "medium",
-      "category": "name"
-    },
-    {
-      "display": "Contains a Religious Word",
-      "type": "word_group",
-      "field": "station_name",
-      "group": "religious",
-      "weight": "medium",
-      "category": "name"
-    },
-    {
-      "display": "One Word",
-      "type": "field",
-      "field": "word_count_band",
-      "value": "single",
-      "weight": "medium",
-      "category": "name"
-    },
-    {
-      "display": "Multiple Words",
+      "display": "Multiple",
       "type": "field",
       "field": "word_count_band",
       "value": "multiple",
@@ -156,64 +230,23 @@
       "category": "name"
     },
     {
-      "display": "Under 60 mins from London",
-      "type": "range",
-      "field": "canonical_time_to_london",
-      "max": 59,
-      "weight": "high",
-      "category": "service"
+      "display": "Single",
+      "type": "field",
+      "field": "word_count_band",
+      "value": "single",
+      "weight": "medium",
+      "category": "name"
     },
     {
-      "display": "60-90 mins from London",
-      "type": "range",
-      "field": "canonical_time_to_london",
-      "min": 60,
-      "max": 90,
+      "display": "Few",
+      "type": "field",
+      "field": "route_diversity_band",
+      "value": "few",
       "weight": "medium",
       "category": "service"
     },
     {
-      "display": "Over 90 mins from London",
-      "type": "range",
-      "field": "canonical_time_to_london",
-      "min": 91,
-      "weight": "low",
-      "category": "service"
-    },
-    {
-      "display": "Branch Line",
-      "type": "field",
-      "field": "is_branch_line",
-      "value": true,
-      "weight": "high",
-      "category": "service"
-    },
-    {
-      "display": "Main Line",
-      "type": "field",
-      "field": "is_mainline",
-      "value": true,
-      "weight": "medium",
-      "category": "service"
-    },
-    {
-      "display": "Multiple London Terminals",
-      "type": "range",
-      "field": "london_terminal_count",
-      "min": 2,
-      "weight": "high",
-      "category": "service"
-    },
-    {
-      "display": "High Service Frequency",
-      "type": "field",
-      "field": "service_density",
-      "value": "high",
-      "weight": "low",
-      "category": "service"
-    },
-    {
-      "display": "Many Routes",
+      "display": "Many",
       "type": "field",
       "field": "route_diversity_band",
       "value": "many",
@@ -221,108 +254,396 @@
       "category": "service"
     },
     {
-      "display": "3+ Routes",
-      "type": "range",
-      "field": "route_count",
-      "min": 3,
+      "display": "Single",
+      "type": "field",
+      "field": "route_diversity_band",
+      "value": "single",
       "weight": "medium",
       "category": "service"
     },
     {
-      "display": "East Kent",
-      "type": "field",
-      "field": "region",
-      "value": "East Kent",
-      "weight": "medium",
-      "category": "geography"
-    },
-    {
-      "display": "Canterbury District",
-      "type": "field",
-      "field": "region",
-      "value": "Canterbury District",
-      "weight": "medium",
-      "category": "geography"
-    },
-    {
-      "display": "Medway",
-      "type": "field",
-      "field": "region",
-      "value": "Medway",
-      "weight": "medium",
-      "category": "geography"
-    },
-    {
-      "display": "North Kent",
-      "type": "field",
-      "field": "region",
-      "value": "North Kent",
-      "weight": "medium",
-      "category": "geography"
-    },
-    {
-      "display": "South East London",
-      "type": "field",
-      "field": "region",
-      "value": "South East London",
-      "weight": "high",
-      "category": "geography"
-    },
-    {
-      "display": "Thanet",
-      "type": "field",
-      "field": "region",
-      "value": "Thanet",
-      "weight": "low",
-      "category": "geography"
-    },
-    {
-      "display": "Weald",
-      "type": "field",
-      "field": "region",
-      "value": "Weald",
-      "weight": "medium",
-      "category": "geography"
-    },
-    {
-      "display": "North Kent Route",
+      "display": "Aberdeen Line",
       "type": "array_contains",
       "field": "route_groups",
-      "value": "North Kent",
+      "value": "Aberdeen Line",
       "weight": "medium",
       "category": "route"
     },
     {
-      "display": "Chatham Main Line",
+      "display": "Ardrossan Branch",
       "type": "array_contains",
       "field": "route_groups",
-      "value": "Chatham Main Line",
+      "value": "Ardrossan Branch",
       "weight": "medium",
       "category": "route"
     },
     {
-      "display": "Greenwich Line",
+      "display": "Argyle Line",
       "type": "array_contains",
       "field": "route_groups",
-      "value": "Greenwich Line",
-      "weight": "low",
-      "category": "route"
-    },
-    {
-      "display": "Sevenoaks Main Line",
-      "type": "array_contains",
-      "field": "route_groups",
-      "value": "Sevenoaks Main Line",
+      "value": "Argyle Line",
       "weight": "medium",
       "category": "route"
     },
     {
-      "display": "Maidstone East",
+      "display": "Ayrshire Coast",
       "type": "array_contains",
       "field": "route_groups",
-      "value": "Maidstone East",
-      "weight": "low",
+      "value": "Ayrshire Coast",
+      "weight": "medium",
       "category": "route"
+    },
+    {
+      "display": "Borders Railway",
+      "type": "array_contains",
+      "field": "route_groups",
+      "value": "Borders Railway",
+      "weight": "medium",
+      "category": "route"
+    },
+    {
+      "display": "Carstairs Corridor",
+      "type": "array_contains",
+      "field": "route_groups",
+      "value": "Carstairs Corridor",
+      "weight": "medium",
+      "category": "route"
+    },
+    {
+      "display": "Cathcart Circle",
+      "type": "array_contains",
+      "field": "route_groups",
+      "value": "Cathcart Circle",
+      "weight": "medium",
+      "category": "route"
+    },
+    {
+      "display": "East Kilbride Line",
+      "type": "array_contains",
+      "field": "route_groups",
+      "value": "East Kilbride Line",
+      "weight": "medium",
+      "category": "route"
+    },
+    {
+      "display": "Edinburgh\u2013Glasgow Main Line",
+      "type": "array_contains",
+      "field": "route_groups",
+      "value": "Edinburgh\u2013Glasgow Main Line",
+      "weight": "medium",
+      "category": "route"
+    },
+    {
+      "display": "Far North Line",
+      "type": "array_contains",
+      "field": "route_groups",
+      "value": "Far North Line",
+      "weight": "medium",
+      "category": "route"
+    },
+    {
+      "display": "Fife Circle",
+      "type": "array_contains",
+      "field": "route_groups",
+      "value": "Fife Circle",
+      "weight": "medium",
+      "category": "route"
+    },
+    {
+      "display": "Highland Main Line",
+      "type": "array_contains",
+      "field": "route_groups",
+      "value": "Highland Main Line",
+      "weight": "medium",
+      "category": "route"
+    },
+    {
+      "display": "Inverclyde Line",
+      "type": "array_contains",
+      "field": "route_groups",
+      "value": "Inverclyde Line",
+      "weight": "medium",
+      "category": "route"
+    },
+    {
+      "display": "Kyle Line",
+      "type": "array_contains",
+      "field": "route_groups",
+      "value": "Kyle Line",
+      "weight": "medium",
+      "category": "route"
+    },
+    {
+      "display": "Lanark Line",
+      "type": "array_contains",
+      "field": "route_groups",
+      "value": "Lanark Line",
+      "weight": "medium",
+      "category": "route"
+    },
+    {
+      "display": "Largs Branch",
+      "type": "array_contains",
+      "field": "route_groups",
+      "value": "Largs Branch",
+      "weight": "medium",
+      "category": "route"
+    },
+    {
+      "display": "Neilston Line",
+      "type": "array_contains",
+      "field": "route_groups",
+      "value": "Neilston Line",
+      "weight": "medium",
+      "category": "route"
+    },
+    {
+      "display": "Oban Branch",
+      "type": "array_contains",
+      "field": "route_groups",
+      "value": "Oban Branch",
+      "weight": "medium",
+      "category": "route"
+    },
+    {
+      "display": "Shotts Line",
+      "type": "array_contains",
+      "field": "route_groups",
+      "value": "Shotts Line",
+      "weight": "medium",
+      "category": "route"
+    },
+    {
+      "display": "Stranraer Line",
+      "type": "array_contains",
+      "field": "route_groups",
+      "value": "Stranraer Line",
+      "weight": "medium",
+      "category": "route"
+    },
+    {
+      "display": "Wemyss Bay Branch",
+      "type": "array_contains",
+      "field": "route_groups",
+      "value": "Wemyss Bay Branch",
+      "weight": "medium",
+      "category": "route"
+    },
+    {
+      "display": "West Highland Line",
+      "type": "array_contains",
+      "field": "route_groups",
+      "value": "West Highland Line",
+      "weight": "medium",
+      "category": "route"
+    },
+    {
+      "display": "Contains And",
+      "type": "field",
+      "field": "contains_and",
+      "value": true,
+      "weight": "medium",
+      "category": "name"
+    },
+    {
+      "display": "Contains Apostrophe",
+      "type": "field",
+      "field": "contains_apostrophe",
+      "value": true,
+      "weight": "medium",
+      "category": "name"
+    },
+    {
+      "display": "Contains Bridge",
+      "type": "field",
+      "field": "contains_bridge",
+      "value": true,
+      "weight": "medium",
+      "category": "name"
+    },
+    {
+      "display": "Contains Central",
+      "type": "field",
+      "field": "contains_central",
+      "value": true,
+      "weight": "medium",
+      "category": "name"
+    },
+    {
+      "display": "Contains Cross",
+      "type": "field",
+      "field": "contains_cross",
+      "value": true,
+      "weight": "medium",
+      "category": "name"
+    },
+    {
+      "display": "Contains Digits",
+      "type": "field",
+      "field": "contains_digits",
+      "value": true,
+      "weight": "medium",
+      "category": "name"
+    },
+    {
+      "display": "Contains East",
+      "type": "field",
+      "field": "contains_east",
+      "value": true,
+      "weight": "medium",
+      "category": "name"
+    },
+    {
+      "display": "Contains Green",
+      "type": "field",
+      "field": "contains_green",
+      "value": true,
+      "weight": "medium",
+      "category": "name"
+    },
+    {
+      "display": "Contains Hill",
+      "type": "field",
+      "field": "contains_hill",
+      "value": true,
+      "weight": "medium",
+      "category": "name"
+    },
+    {
+      "display": "Contains Hyphen",
+      "type": "field",
+      "field": "contains_hyphen",
+      "value": true,
+      "weight": "medium",
+      "category": "name"
+    },
+    {
+      "display": "Contains Junction",
+      "type": "field",
+      "field": "contains_junction",
+      "value": true,
+      "weight": "medium",
+      "category": "name"
+    },
+    {
+      "display": "Contains Lane",
+      "type": "field",
+      "field": "contains_lane",
+      "value": true,
+      "weight": "medium",
+      "category": "name"
+    },
+    {
+      "display": "Contains Lower",
+      "type": "field",
+      "field": "contains_lower",
+      "value": true,
+      "weight": "medium",
+      "category": "name"
+    },
+    {
+      "display": "Contains Mount",
+      "type": "field",
+      "field": "contains_mount",
+      "value": true,
+      "weight": "medium",
+      "category": "name"
+    },
+    {
+      "display": "Contains New",
+      "type": "field",
+      "field": "contains_new",
+      "value": true,
+      "weight": "medium",
+      "category": "name"
+    },
+    {
+      "display": "Contains North",
+      "type": "field",
+      "field": "contains_north",
+      "value": true,
+      "weight": "medium",
+      "category": "name"
+    },
+    {
+      "display": "Contains Old",
+      "type": "field",
+      "field": "contains_old",
+      "value": true,
+      "weight": "medium",
+      "category": "name"
+    },
+    {
+      "display": "Contains Parkway",
+      "type": "field",
+      "field": "contains_parkway",
+      "value": true,
+      "weight": "medium",
+      "category": "name"
+    },
+    {
+      "display": "Contains Road",
+      "type": "field",
+      "field": "contains_road",
+      "value": true,
+      "weight": "medium",
+      "category": "name"
+    },
+    {
+      "display": "Contains South",
+      "type": "field",
+      "field": "contains_south",
+      "value": true,
+      "weight": "medium",
+      "category": "name"
+    },
+    {
+      "display": "Contains Square",
+      "type": "field",
+      "field": "contains_square",
+      "value": true,
+      "weight": "medium",
+      "category": "name"
+    },
+    {
+      "display": "Contains Street",
+      "type": "field",
+      "field": "contains_street",
+      "value": true,
+      "weight": "medium",
+      "category": "name"
+    },
+    {
+      "display": "Contains Upper",
+      "type": "field",
+      "field": "contains_upper",
+      "value": true,
+      "weight": "medium",
+      "category": "name"
+    },
+    {
+      "display": "Contains West",
+      "type": "field",
+      "field": "contains_west",
+      "value": true,
+      "weight": "medium",
+      "category": "name"
+    },
+    {
+      "display": "Starts With St",
+      "type": "field",
+      "field": "starts_with_st",
+      "value": true,
+      "weight": "medium",
+      "category": "name"
+    },
+    {
+      "display": "Starts With The",
+      "type": "field",
+      "field": "starts_with_the",
+      "value": true,
+      "weight": "medium",
+      "category": "name"
     }
   ]
 }

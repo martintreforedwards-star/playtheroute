@@ -6,7 +6,13 @@ import json
 
 def build_json(config):
 
-    network = config["network"]
+    network = config.get(
+        "network",
+        config.get(
+            "display_name",
+            Path(config["enriched"]).parent.name,
+        ),
+    )
 
     input_file = Path(
         config.get(

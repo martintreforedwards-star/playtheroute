@@ -1,0 +1,19 @@
+{
+  "name": "TFW",
+
+  "master": "data/TFW/tfw_master.csv",
+
+  "route_groups": "data/TFW/route_membership.csv",
+
+  "missing_times": "data/TFW/missing_times.csv",
+
+  "rules": "builder/configs/tfw_rules.json",
+
+  "clue_template": "data/clues/southeastern-clues.json",
+
+  "clues": "data/TFW/tfw-clues.json",
+
+  "enriched": "data/TFW/tfw_enriched.csv",
+
+  "output": "data/TFW/tfw.json"
+}

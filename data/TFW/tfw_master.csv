@@ -1,1 +1,249 @@
-station_name,crs,operator,route,county,latitude,longitude,major_interchange,terminus,branch_junction,nearest_landmark,nearest_landmark_km,nearest_castle,nearest_castle_km,nearest_cathedral,nearest_cathedral_km,nearest_museum,nearest_museum_km,nearest_country_house,nearest_country_house_km,nearest_nature_reserve,nearest_nature_reserve_km
+station_name,crs,operator,route,county,latitude,longitude,major_interchange,terminus,branch_junction,nearest_landmark,nearest_landmark_km,nearest_castle,nearest_castle_km,nearest_cathedral,nearest_cathedral_km,nearest_museum,nearest_museum_km,nearest_country_house,nearest_country_house_km,nearest_nature_reserve,nearest_nature_reserve_km,station_id
+Aber,ABE,Transport for Wales,,,51.57496069,-3.229838935,,,,,,,,,,,,,,,,TF_000001
+Abercynon,ACY,Transport for Wales,,,51.644706,-3.327000754,,,,,,,,,,,,,,,,TF_000002
+Aberdare,ABA,Transport for Wales,,,51.71505747,-3.443099147,,,,,,,,,,,,,,,,TF_000003
+Aberdovey,AVY,Transport for Wales,,,52.54397223,-4.057080835,,,,,,,,,,,,,,,,TF_000004
+Abererch,ABH,Transport for Wales,,,52.89860046,-4.374195955,,,,,,,,,,,,,,,,TF_000005
+Abergavenny,AGV,Transport for Wales,,,51.81669124,-3.009664242,,,,,,,,,,,,,,,,TF_000006
+Abergele & Pensarn,AGL,Transport for Wales,,,53.2935,-3.58261,,,,,,,,,,,,,,,,TF_000007
+Aberystwyth,AYW,Transport for Wales,,,52.41401,-4.08174,,,,,,,,,,,,,,,,TF_000008
+Ammanford,AMF,Transport for Wales,,,51.79597767,-3.996765792,,,,,,,,,,,,,,,,TF_000009
+Baglan,BAJ,Transport for Wales,,,51.61456,-3.80971,,,,,,,,,,,,,,,,TF_000010
+Bangor (Gwynedd),BNG,Transport for Wales,,,53.22229978,-4.135891358,,,,,,,,,,,,,,,,TF_000011
+Bargoed,BGD,Transport for Wales,,,51.69230767,-3.229689376,,,,,,,,,,,,,,,,TF_000012
+Barmouth,BRM,Transport for Wales,,,52.72233,-4.05647,,,,,,,,,,,,,,,,TF_000013
+Barry,BRY,Transport for Wales,,,51.39678181,-3.284997567,,,,,,,,,,,,,,,,TF_000014
+Barry Docks,BYD,Transport for Wales,,,51.40244097,-3.260715837,,,,,,,,,,,,,,,,TF_000015
+Barry Island,BYI,Transport for Wales,,,51.39241248,-3.273376317,,,,,,,,,,,,,,,,TF_000016
+Betws-y-Coed,BYC,Transport for Wales,,,53.092088,-3.800879188,,,,,,,,,,,,,,,,TF_000017
+Birchgrove,BCG,Transport for Wales,,,51.52174013,-3.203468175,,,,,,,,,,,,,,,,TF_000018
+Blaenau Ffestiniog,BFF,Transport for Wales,,,52.99456764,-3.938602387,,,,,,,,,,,,,,,,TF_000019
+Bodorgan,BOR,Transport for Wales,,,53.20431918,-4.418022835,,,,,,,,,,,,,,,,TF_000020
+Borth,BRH,Transport for Wales,,,52.49098,-4.0504,,,,,,,,,,,,,,,,TF_000021
+Bow Street,BOW,Transport for Wales,,,52.4392199,-4.0319599,,,,,,,,,,,,,,,,TF_000022
+Bridgend,BGN,Transport for Wales,,,51.5075,-3.57621,,,,,,,,,,,,,,,,TF_000023
+Brithdir,BHD,Transport for Wales,,,51.71030148,-3.2287299,,,,,,,,,,,,,,,,TF_000024
+Briton Ferry,BNF,Transport for Wales,,,51.63789409,-3.819278922,,,,,,,,,,,,,,,,TF_000025
+Broome,BME,Transport for Wales,,,52.42278098,-2.885217916,,,,,,,,,,,,,,,,TF_000026
+Buckley,BCK,Transport for Wales,,,53.16271,-3.05527,,,,,,,,,,,,,,,,TF_000027
+Bucknell,BUK,Transport for Wales,,,52.3575573,-2.948524727,,,,,,,,,,,,,,,,TF_000028
+Builth Road,BHR,Transport for Wales,,,52.16932565,-3.427045119,,,,,,,,,,,,,,,,TF_000029
+Bynea,BYE,Transport for Wales,,,51.67215,-4.09907,,,,,,,,,,,,,,,,TF_000030
+Cadoxton,CAD,Transport for Wales,,,51.41227913,-3.248907469,,,,,,,,,,,,,,,,TF_000031
+Caergwrle,CGW,Transport for Wales,,,53.10855,-3.0336,,,,,,,,,,,,,,,,TF_000032
+Caerphilly,CPH,Transport for Wales,,,51.57157215,-3.218492147,,,,,,,,,,,,,,,,TF_000033
+Caersws,CWS,Transport for Wales,,,52.51613735,-3.43250893,,,,,,,,,,,,,,,,TF_000034
+Caldicot,CDT,Transport for Wales,,,51.58648,-2.75858,,,,,,,,,,,,,,,,TF_000035
+Cardiff Bay,CDB,Transport for Wales,,,51.46710937,-3.16642678,,,,,,,,,,,,,,,,TF_000036
+Cardiff Central,CDF,Transport for Wales,,,51.47602662,-3.179311548,,,,,,,,,,,,,,,,TF_000037
+Cardiff Queen Street,CDQ,Transport for Wales,,,51.48196277,-3.170204472,,,,,,,,,,,,,,,,TF_000038
+Carmarthen,CMN,Transport for Wales,,,51.85335799,-4.30598577,,,,,,,,,,,,,,,,TF_000039
+Cathays,CYS,Transport for Wales,,,51.48890064,-3.178693049,,,,,,,,,,,,,,,,TF_000040
+Cefn-y-Bedd,CYB,Transport for Wales,,,53.09881997,-3.031063286,,,,,,,,,,,,,,,,TF_000041
+Chepstow,CPW,Transport for Wales,,,51.64017494,-2.671914115,,,,,,,,,,,,,,,,TF_000042
+Chester,CTR,Transport for Wales,,,53.19683958,-2.880125588,,,,,,,,,,,,,,,,TF_000043
+Chirk,CRK,Transport for Wales,,,52.93310252,-3.065655601,,,,,,,,,,,,,,,,TF_000044
+Church Stretton,CTT,Transport for Wales,,,52.53743385,-2.803701777,,,,,,,,,,,,,,,,TF_000045
+Cilmeri,CIM,Transport for Wales,,,52.15053253,-3.456554526,,,,,,,,,,,,,,,,TF_000046
+Clarbeston Road,CLR,Transport for Wales,,,51.85182,-4.88213,,,,,,,,,,,,,,,,TF_000047
+Clunderwen,CUW,Transport for Wales,,,51.84054563,-4.731878812,,,,,,,,,,,,,,,,TF_000048
+Cogan,CGN,Transport for Wales,,,51.4459927,-3.189100075,,,,,,,,,,,,,,,,TF_000049
+Colwyn Bay,CWB,Transport for Wales,,,53.29637709,-3.725430748,,,,,,,,,,,,,,,,TF_000050
+Conwy,CNW,Transport for Wales,,,53.28011971,-3.830541495,,,,,,,,,,,,,,,,TF_000051
+Coryton,COY,Transport for Wales,,,51.52036973,-3.231538797,,,,,,,,,,,,,,,,TF_000052
+Craven Arms,CRV,Transport for Wales,,,52.44237,-2.8374,,,,,,,,,,,,,,,,TF_000053
+Criccieth,CCC,Transport for Wales,,,52.91842819,-4.237528403,,,,,,,,,,,,,,,,TF_000054
+Crosskeys,CKY,Transport for Wales,,,51.62156,-3.12628,,,,,,,,,,,,,,,,TF_000055
+Cwmbach,CMH,Transport for Wales,,,51.70192641,-3.413738026,,,,,,,,,,,,,,,,TF_000056
+Cwmbran,CWM,Transport for Wales,,,51.65658282,-3.01622181,,,,,,,,,,,,,,,,TF_000057
+Cynghordy,CYN,Transport for Wales,,,52.05150756,-3.748233148,,,,,,,,,,,,,,,,TF_000058
+Danescourt,DCT,Transport for Wales,,,51.50050789,-3.233928033,,,,,,,,,,,,,,,,TF_000059
+Deganwy,DGY,Transport for Wales,,,53.29476587,-3.833403597,,,,,,,,,,,,,,,,TF_000060
+Dinas (Rhondda),DMG,Transport for Wales,,,51.61783077,-3.437557147,,,,,,,,,,,,,,,,TF_000061
+Dinas Powys,DNS,Transport for Wales,,,51.4316643,-3.218362695,,,,,,,,,,,,,,,,TF_000062
+Dingle Road,DGL,Transport for Wales,,,51.44005367,-3.180614958,,,,,,,,,,,,,,,,TF_000063
+Dolau,DOL,Transport for Wales,,,52.29535707,-3.263627535,,,,,,,,,,,,,,,,TF_000064
+Dolgarrog,DLG,Transport for Wales,,,53.18636329,-3.822653706,,,,,,,,,,,,,,,,TF_000065
+Dolwyddelan,DWD,Transport for Wales,,,53.05157,-3.88473,,,,,,,,,,,,,,,,TF_000066
+Dovey Junction,DVY,Transport for Wales,,,52.56437479,-3.923911977,,,,,,,,,,,,,,,,TF_000067
+Dyffryn Ardudwy,DYF,Transport for Wales,,,52.78886514,-4.104657014,,,,,,,,,,,,,,,,TF_000068
+Eastbrook,EBK,Transport for Wales,,,51.43763559,-3.206148195,,,,,,,,,,,,,,,,TF_000069
+Ebbw Vale Parkway,EBV,Transport for Wales,,,51.75677,-3.19682,,,,,,,,,,,,,,,,TF_000070
+Ebbw Vale Town,EBB,Transport for Wales,,,51.77006,-3.20182,,,,,,,,,,,,,,,,TF_000071
+Energlyn & Churchill Park,ECP,Transport for Wales,,,51.58376,-3.22973,,,,,,,,,,,,,,,,TF_000072
+Fairbourne,FRB,Transport for Wales,,,52.69606153,-4.049426098,,,,,,,,,,,,,,,,TF_000073
+Fairwater,FRW,Transport for Wales,,,51.49390844,-3.233850662,,,,,,,,,,,,,,,,TF_000074
+Fernhill,FER,Transport for Wales,,,51.68649362,-3.395897173,,,,,,,,,,,,,,,,TF_000075
+Ferryside,FYS,Transport for Wales,,,51.76837024,-4.369485229,,,,,,,,,,,,,,,,TF_000076
+Ffairfach,FFA,Transport for Wales,,,51.87247957,-3.992889832,,,,,,,,,,,,,,,,TF_000077
+Fishguard & Goodwick,FGW,Transport for Wales,,,52.004112,-4.9948377,,,,,,,,,,,,,,,,TF_000078
+Fishguard Harbour,FGH,Transport for Wales,,,52.01156,-4.98567,,,,,,,,,,,,,,,,TF_000079
+Flint,FLN,Transport for Wales,,,53.24974,-3.13369,,,,,,,,,,,,,,,,TF_000080
+Frodsham,FRD,Transport for Wales,,,53.29587868,-2.723117879,,,,,,,,,,,,,,,,TF_000081
+Garth (Bridgend County),GMG,Transport for Wales,,,51.59673,-3.6429,,,,,,,,,,,,,,,,TF_000082
+Garth (Powys),GTH,Transport for Wales,,,52.13324795,-3.529923047,,,,,,,,,,,,,,,,TF_000083
+Gilfach Fargoed,GFF,Transport for Wales,,,51.68424748,-3.226577833,,,,,,,,,,,,,,,,TF_000084
+Glan Conwy,GCW,Transport for Wales,,,53.26866,-3.79752,,,,,,,,,,,,,,,,TF_000085
+Gobowen,GOB,Transport for Wales,,,52.89353933,-3.035995531,,,,,,,,,,,,,,,,TF_000086
+Gowerton,GWN,Transport for Wales,,,51.6487243,-4.035967269,,,,,,,,,,,,,,,,TF_000087
+Grangetown (Cardiff),GTN,Transport for Wales,,,51.46703478,-3.189071128,,,,,,,,,,,,,,,,TF_000088
+Gwersyllt,GWE,Transport for Wales,,,53.07241,-3.01781,,,,,,,,,,,,,,,,TF_000089
+Harlech,HRL,Transport for Wales,,,52.86165,-4.10956,,,,,,,,,,,,,,,,TF_000090
+Haverfordwest,HVF,Transport for Wales,,,51.80272,-4.96034,,,,,,,,,,,,,,,,TF_000091
+Hawarden,HWD,Transport for Wales,,,53.18537204,-3.032090605,,,,,,,,,,,,,,,,TF_000092
+Hawarden Bridge,HWB,Transport for Wales,,,53.20994,-3.01862,,,,,,,,,,,,,,,,TF_000093
+Heath High Level,HHL,Transport for Wales,,,51.51656604,-3.181713068,,,,,,,,,,,,,,,,TF_000094
+Heath Low Level,HLL,Transport for Wales,,,51.51566416,-3.181977972,,,,,,,,,,,,,,,,TF_000095
+Helsby,HSB,Transport for Wales,,,53.27517482,-2.770757816,,,,,,,,,,,,,,,,TF_000096
+Hengoed,HNG,Transport for Wales,,,51.64740601,-3.224137826,,,,,,,,,,,,,,,,TF_000097
+Hereford,HFD,Transport for Wales,,,52.06116993,-2.708217764,,,,,,,,,,,,,,,,TF_000098
+Heswall,HSW,Transport for Wales,,,53.32947,-3.07342,,,,,,,,,,,,,,,,TF_000099
+Holyhead,HHD,Transport for Wales,,,53.30770479,-4.631012675,,,,,,,,,,,,,,,,TF_000100
+Hope Flintshire,HPE,Transport for Wales,,,53.117378,-3.03688641,,,,,,,,,,,,,,,,TF_000101
+Hopton Heath,HPT,Transport for Wales,,,52.3913806,-2.91192311,,,,,,,,,,,,,,,,TF_000102
+Johnston (Pembs),JOH,Transport for Wales,,,51.75676,-4.99636,,,,,,,,,,,,,,,,TF_000103
+Kidwelly,KWL,Transport for Wales,,,51.73434386,-4.317011245,,,,,,,,,,,,,,,,TF_000104
+Kilgetty,KGT,Transport for Wales,,,51.73210916,-4.715192738,,,,,,,,,,,,,,,,TF_000105
+Knighton,KNI,Transport for Wales,,,52.34508013,-3.042211012,,,,,,,,,,,,,,,,TF_000106
+Knucklas,KNU,Transport for Wales,,,52.36097,-3.09893,,,,,,,,,,,,,,,,TF_000107
+Lamphey,LAM,Transport for Wales,,,51.66719665,-4.87329867,,,,,,,,,,,,,,,,TF_000108
+Leominster,LEO,Transport for Wales,,,52.2259,-2.73123,,,,,,,,,,,,,,,,TF_000109
+Lisvane & Thornhill,LVT,Transport for Wales,,,51.54457308,-3.185611182,,,,,,,,,,,,,,,,TF_000110
+Llanaber,LLA,Transport for Wales,,,52.74152431,-4.07718901,,,,,,,,,,,,,,,,TF_000111
+Llanbedr,LBR,Transport for Wales,,,52.8208656,-4.110210769,,,,,,,,,,,,,,,,TF_000112
+Llanbister Road,LLT,Transport for Wales,,,52.33643285,-3.213426306,,,,,,,,,,,,,,,,TF_000113
+Llanbradach,LNB,Transport for Wales,,,51.60325188,-3.233057973,,,,,,,,,,,,,,,,TF_000114
+Llandaf,LLN,Transport for Wales,,,51.5085276,-3.228913858,,,,,,,,,,,,,,,,TF_000115
+Llandanwg,LDN,Transport for Wales,,,52.83617691,-4.123870362,,,,,,,,,,,,,,,,TF_000116
+Llandecwyn,LLC,Transport for Wales,,,52.92070224,-4.057045956,,,,,,,,,,,,,,,,TF_000117
+Llandeilo,LLL,Transport for Wales,,,51.8853498,-3.986919994,,,,,,,,,,,,,,,,TF_000118
+Llandovery,LLV,Transport for Wales,,,51.99532071,-3.802853279,,,,,,,,,,,,,,,,TF_000119
+Llandrindod,LLO,Transport for Wales,,,52.2423651,-3.379148724,,,,,,,,,,,,,,,,TF_000120
+Llandudno,LLD,Transport for Wales,,,53.32093562,-3.827018135,,,,,,,,,,,,,,,,TF_000121
+Llandudno Junction,LLJ,Transport for Wales,,,53.2839619,-3.809118503,,,,,,,,,,,,,,,,TF_000122
+Llandybie,LLI,Transport for Wales,,,51.83087,-3.99172,,,,,,,,,,,,,,,,TF_000123
+Llanelli,LLE,Transport for Wales,,,51.67386671,-4.161325167,,,,,,,,,,,,,,,,TF_000124
+Llanfairfechan,LLF,Transport for Wales,,,53.25730522,-3.98320943,,,,,,,,,,,,,,,,TF_000125
+Llanfairpwll,LPG,Transport for Wales,,,53.22096236,-4.209228885,,,,,,,,,,,,,,,,TF_000126
+Llangadog,LLG,Transport for Wales,,,51.9402199,-3.893174289,,,,,,,,,,,,,,,,TF_000127
+Llangammarch,LLM,Transport for Wales,,,52.11430955,-3.554833328,,,,,,,,,,,,,,,,TF_000128
+Llangennech,LLH,Transport for Wales,,,51.69113653,-4.078948655,,,,,,,,,,,,,,,,TF_000129
+Llangynllo,LGO,Transport for Wales,,,52.34963317,-3.161373191,,,,,,,,,,,,,,,,TF_000130
+Llanharan,LLR,Transport for Wales,,,51.53758926,-3.440795127,,,,,,,,,,,,,,,,TF_000131
+Llanhilleth,LTH,Transport for Wales,,,51.70012,-3.13455,,,,,,,,,,,,,,,,TF_000132
+Llanishen,LLS,Transport for Wales,,,51.53274008,-3.18198768,,,,,,,,,,,,,,,,TF_000133
+Llanrwst,LWR,Transport for Wales,,,53.13904,-3.7946,,,,,,,,,,,,,,,,TF_000134
+Llansamlet,LAS,Transport for Wales,,,51.66150151,-3.88471363,,,,,,,,,,,,,,,,TF_000135
+Llantwit Major,LWM,Transport for Wales,,,51.40974773,-3.481635835,,,,,,,,,,,,,,,,TF_000136
+Llanwrda,LNR,Transport for Wales,,,51.96259418,-3.871700406,,,,,,,,,,,,,,,,TF_000137
+Llanwrtyd,LNW,Transport for Wales,,,52.10472191,-3.632182357,,,,,,,,,,,,,,,,TF_000138
+Llwyngwril,LLW,Transport for Wales,,,52.66680067,-4.08769294,,,,,,,,,,,,,,,,TF_000139
+Llwynypia,LLY,Transport for Wales,,,51.63399985,-3.453529864,,,,,,,,,,,,,,,,TF_000140
+Ludlow,LUD,Transport for Wales,,,52.37118,-2.71622,,,,,,,,,,,,,,,,TF_000141
+Lydney,LYD,Transport for Wales,,,51.7146265,-2.531163478,,,,,,,,,,,,,,,,TF_000142
+Machynlleth,MCN,Transport for Wales,,,52.5951531,-3.854549885,,,,,,,,,,,,,,,,TF_000143
+Maesteg,MST,Transport for Wales,,,51.60993535,-3.654667781,,,,,,,,,,,,,,,,TF_000144
+Maesteg (Ewenny Road),MEW,Transport for Wales,,,51.60568,-3.64841,,,,,,,,,,,,,,,,TF_000145
+Manorbier,MRB,Transport for Wales,,,51.66016796,-4.791870151,,,,,,,,,,,,,,,,TF_000146
+Merthyr Tydfil,MER,Transport for Wales,,,51.74458569,-3.377291952,,,,,,,,,,,,,,,,TF_000147
+Merthyr Vale,MEV,Transport for Wales,,,51.68664396,-3.336588445,,,,,,,,,,,,,,,,TF_000148
+Milford Haven,MFH,Transport for Wales,,,51.71497622,-5.041000361,,,,,,,,,,,,,,,,TF_000149
+Minffordd,MFF,Transport for Wales,,,52.92587,-4.08412,,,,,,,,,,,,,,,,TF_000150
+Morfa Mawddach,MFA,Transport for Wales,,,52.70714813,-4.032181673,,,,,,,,,,,,,,,,TF_000151
+Mountain Ash,MTA,Transport for Wales,,,51.68132902,-3.376355225,,,,,,,,,,,,,,,,TF_000152
+Nantwich,NAN,Transport for Wales,,,53.06322887,-2.519249351,,,,,,,,,,,,,,,,TF_000153
+Narberth,NAR,Transport for Wales,,,51.79937326,-4.727212166,,,,,,,,,,,,,,,,TF_000154
+Neath,NTH,Transport for Wales,,,51.66235974,-3.807245183,,,,,,,,,,,,,,,,TF_000155
+Neston,NES,Transport for Wales,,,53.29166,-3.06379,,,,,,,,,,,,,,,,TF_000156
+Newbridge,NBE,Transport for Wales,,,51.66569,-3.14219,,,,,,,,,,,,,,,,TF_000157
+Newport (South Wales),NWP,Transport for Wales,,,51.58974436,-2.998648615,,,,,,,,,,,,,,,,TF_000158
+Newtown (Powys),NWT,Transport for Wales,,,52.51232684,-3.311399078,,,,,,,,,,,,,,,,TF_000159
+Ninian Park,NNP,Transport for Wales,,,51.47644072,-3.201411567,,,,,,,,,,,,,,,,TF_000160
+North Llanrwst,NLR,Transport for Wales,,,53.14384493,-3.802744992,,,,,,,,,,,,,,,,TF_000161
+Pantyffynnon,PTF,Transport for Wales,,,51.77867,-3.9975,,,,,,,,,,,,,,,,TF_000162
+Pembrey & Burry Port,PBY,Transport for Wales,,,51.68415,-4.24873,,,,,,,,,,,,,,,,TF_000163
+Pembroke,PMB,Transport for Wales,,,51.67314,-4.90651,,,,,,,,,,,,,,,,TF_000164
+Pembroke Dock,PMD,Transport for Wales,,,51.69391548,-4.93807661,,,,,,,,,,,,,,,,TF_000165
+Pen-y-Bont (Mid Wales),PNY,Transport for Wales,,,52.27394924,-3.321940024,,,,,,,,,,,,,,,,TF_000166
+Penally,PNA,Transport for Wales,,,51.65892008,-4.722092618,,,,,,,,,,,,,,,,TF_000167
+Penarth,PEN,Transport for Wales,,,51.43588909,-3.174465022,,,,,,,,,,,,,,,,TF_000168
+Pencoed,PCD,Transport for Wales,,,51.52486,-3.50014,,,,,,,,,,,,,,,,TF_000169
+Pengam,PGM,Transport for Wales,,,51.67045291,-3.230109732,,,,,,,,,,,,,,,,TF_000170
+Penhelig,PHG,Transport for Wales,,,52.54570208,-4.03503834,,,,,,,,,,,,,,,,TF_000171
+Penmaenmawr,PMW,Transport for Wales,,,53.27048358,-3.923515874,,,,,,,,,,,,,,,,TF_000172
+Penrhiwceiber,PER,Transport for Wales,,,51.66992031,-3.359957291,,,,,,,,,,,,,,,,TF_000173
+Penrhyndeudraeth,PRH,Transport for Wales,,,52.92884346,-4.064573948,,,,,,,,,,,,,,,,TF_000174
+Pensarn (Gwynedd),PES,Transport for Wales,,,52.83072115,-4.112173075,,,,,,,,,,,,,,,,TF_000175
+Pentre-Bach,PTB,Transport for Wales,,,51.72501373,-3.362333939,,,,,,,,,,,,,,,,TF_000176
+Penychain,PNC,Transport for Wales,,,52.902882,-4.33872,,,,,,,,,,,,,,,,TF_000177
+Penyffordd,PNF,Transport for Wales,,,53.14311037,-3.054849214,,,,,,,,,,,,,,,,TF_000178
+Pont-y-Pant,PYP,Transport for Wales,,,53.06515277,-3.862740369,,,,,,,,,,,,,,,,TF_000179
+Pontarddulais,PTD,Transport for Wales,,,51.71762164,-4.045576015,,,,,,,,,,,,,,,,TF_000180
+Pontlottyn,PLT,Transport for Wales,,,51.74663206,-3.278966771,,,,,,,,,,,,,,,,TF_000181
+Pontyclun,PYC,Transport for Wales,,,51.52388,-3.39193,,,,,,,,,,,,,,,,TF_000182
+Pontypool & New Inn,PPL,Transport for Wales,,,51.69918,-3.00709,,,,,,,,,,,,,,,,TF_000183
+Pontypridd,PPD,Transport for Wales,,,51.59944,-3.34176,,,,,,,,,,,,,,,,TF_000184
+Port Talbot Parkway,PTA,Transport for Wales,,,51.59171473,-3.781340109,,,,,,,,,,,,,,,,TF_000185
+Porth,POR,Transport for Wales,,,51.61253349,-3.407203552,,,,,,,,,,,,,,,,TF_000186
+Porthmadog,PTM,Transport for Wales,,,52.93093493,-4.134459787,,,,,,,,,,,,,,,,TF_000187
+Prees,PRS,Transport for Wales,,,52.89965046,-2.689744248,,,,,,,,,,,,,,,,TF_000188
+Prestatyn,PRT,Transport for Wales,,,53.33537,-3.40512,,,,,,,,,,,,,,,,TF_000189
+Pwllheli,PWL,Transport for Wales,,,52.88785158,-4.41671931,,,,,,,,,,,,,,,,TF_000190
+Pye Corner,PYE,Transport for Wales,,,51.58125,-3.04106,,,,,,,,,,,,,,,,TF_000191
+Pyle,PYL,Transport for Wales,,,51.525739,-3.698076385,,,,,,,,,,,,,,,,TF_000192
+Quakers Yard,QYD,Transport for Wales,,,51.6607231,-3.322813042,,,,,,,,,,,,,,,,TF_000193
+Radyr,RDR,Transport for Wales,,,51.51650886,-3.248009062,,,,,,,,,,,,,,,,TF_000194
+Rhiwbina,RHI,Transport for Wales,,,51.52118226,-3.213975661,,,,,,,,,,,,,,,,TF_000195
+Rhoose Cardiff International Airport,RIA,Transport for Wales,,,51.38706545,-3.34939894,,,,,,,,,,,,,,,,TF_000196
+Rhosneigr,RHO,Transport for Wales,,,53.23485594,-4.506663917,,,,,,,,,,,,,,,,TF_000197
+Rhyl,RHL,Transport for Wales,,,53.31844074,-3.489112507,,,,,,,,,,,,,,,,TF_000198
+Rhymney,RHY,Transport for Wales,,,51.75883789,-3.289309476,,,,,,,,,,,,,,,,TF_000199
+Risca & Pontymister,RCA,Transport for Wales,,,51.60581,-3.09226,,,,,,,,,,,,,,,,TF_000200
+Rogerstone,ROR,Transport for Wales,,,51.59532,-3.06621,,,,,,,,,,,,,,,,TF_000201
+Roman Bridge,RMB,Transport for Wales,,,53.044436,-3.921654634,,,,,,,,,,,,,,,,TF_000202
+Ruabon,RUA,Transport for Wales,,,52.96018774,-3.04250099,,,,,,,,,,,,,,,,TF_000203
+Runcorn East,RUE,Transport for Wales,,,53.3269412,-2.665085335,,,,,,,,,,,,,,,,TF_000204
+Sarn,SRR,Transport for Wales,,,51.53872014,-3.589932796,,,,,,,,,,,,,,,,TF_000205
+Saundersfoot,SDF,Transport for Wales,,,51.72209314,-4.716619622,,,,,,,,,,,,,,,,TF_000206
+Severn Tunnel Junction,STJ,Transport for Wales,,,51.5847,-2.77876,,,,,,,,,,,,,,,,TF_000207
+Shotton,SHT,Transport for Wales,,,53.2132,-3.03789,,,,,,,,,,,,,,,,TF_000208
+Shrewsbury,SHR,Transport for Wales,,,52.71141159,-2.74894276,,,,,,,,,,,,,,,,TF_000209
+Skewen,SKE,Transport for Wales,,,51.66138872,-3.846536024,,,,,,,,,,,,,,,,TF_000210
+Sugar Loaf,SUG,Transport for Wales,,,52.08228042,-3.686969492,,,,,,,,,,,,,,,,TF_000211
+Swansea,SWA,Transport for Wales,,,51.62514381,-3.941576226,,,,,,,,,,,,,,,,TF_000212
+Taffs Well,TAF,Transport for Wales,,,51.54079864,-3.262949451,,,,,,,,,,,,,,,,TF_000213
+Tal-y-Cafn,TLC,Transport for Wales,,,53.22837926,-3.818280351,,,,,,,,,,,,,,,,TF_000214
+Talsarnau,TAL,Transport for Wales,,,52.90432506,-4.068166336,,,,,,,,,,,,,,,,TF_000215
+Talybont,TLB,Transport for Wales,,,52.77264337,-4.09660964,,,,,,,,,,,,,,,,TF_000216
+Tenby,TEN,Transport for Wales,,,51.6717,-4.70645,,,,,,,,,,,,,,,,TF_000217
+Tir-Phil,TIR,Transport for Wales,,,51.7209057,-3.246390272,,,,,,,,,,,,,,,,TF_000218
+Ton Pentre,TPN,Transport for Wales,,,51.64779844,-3.486204606,,,,,,,,,,,,,,,,TF_000219
+Tondu,TDU,Transport for Wales,,,51.5474,-3.59519,,,,,,,,,,,,,,,,TF_000220
+Tonfanau,TNF,Transport for Wales,,,52.61355963,-4.123713236,,,,,,,,,,,,,,,,TF_000221
+Tonypandy,TNP,Transport for Wales,,,51.61975969,-3.448885591,,,,,,,,,,,,,,,,TF_000222
+Trefforest,TRF,Transport for Wales,,,51.59145801,-3.325130833,,,,,,,,,,,,,,,,TF_000223
+Trefforest Estate,TRE,Transport for Wales,,,51.5682872,-3.290260312,,,,,,,,,,,,,,,,TF_000224
+Trehafod,TRH,Transport for Wales,,,51.61014718,-3.380989064,,,,,,,,,,,,,,,,TF_000225
+Treherbert,TRB,Transport for Wales,,,51.67224166,-3.536321025,,,,,,,,,,,,,,,,TF_000226
+Treorchy,TRY,Transport for Wales,,,51.65753073,-3.505751584,,,,,,,,,,,,,,,,TF_000227
+Troed-y-rhiw,TRD,Transport for Wales,,,51.71242473,-3.346756999,,,,,,,,,,,,,,,,TF_000228
+Ty Croes,TYC,Transport for Wales,,,53.22257541,-4.474753946,,,,,,,,,,,,,,,,TF_000229
+Ty Glas,TGS,Transport for Wales,,,51.5215412,-3.19654418,,,,,,,,,,,,,,,,TF_000230
+Tygwyn,TYG,Transport for Wales,,,52.89380186,-4.078666757,,,,,,,,,,,,,,,,TF_000231
+Tywyn,TYW,Transport for Wales,,,52.58549,-4.09338,,,,,,,,,,,,,,,,TF_000232
+Upton (Merseyside),UPT,Transport for Wales,,,53.38617781,-3.084755805,,,,,,,,,,,,,,,,TF_000233
+Valley,VAL,Transport for Wales,,,53.28130417,-4.563392247,,,,,,,,,,,,,,,,TF_000234
+Waun-Gron Park,WNG,Transport for Wales,,,51.48819741,-3.229663483,,,,,,,,,,,,,,,,TF_000235
+Welshpool,WLP,Transport for Wales,,,52.65751111,-3.139872828,,,,,,,,,,,,,,,,TF_000236
+Wem,WEM,Transport for Wales,,,52.85632741,-2.718760914,,,,,,,,,,,,,,,,TF_000237
+Whitchurch (Cardiff),WHT,Transport for Wales,,,51.52064748,-3.22217731,,,,,,,,,,,,,,,,TF_000238
+Whitchurch (Shropshire),WTC,Transport for Wales,,,52.96807676,-2.67147586,,,,,,,,,,,,,,,,TF_000239
+Whitland,WTL,Transport for Wales,,,51.81858,-4.61392,,,,,,,,,,,,,,,,TF_000240
+Wildmill,WMI,Transport for Wales,,,51.52006,-3.5802,,,,,,,,,,,,,,,,TF_000241
+Wrenbury,WRE,Transport for Wales,,,53.0197184,-2.59624734,,,,,,,,,,,,,,,,TF_000242
+Wrexham Central,WXC,Transport for Wales,,,53.04620654,-2.999062482,,,,,,,,,,,,,,,,TF_000243
+Wrexham General,WRX,Transport for Wales,,,53.04988,-3.00146,,,,,,,,,,,,,,,,TF_000244
+Ynyswen,YNW,Transport for Wales,,,51.66496961,-3.521614997,,,,,,,,,,,,,,,,TF_000245
+Yorton,YRT,Transport for Wales,,,52.80896814,-2.736464904,,,,,,,,,,,,,,,,TF_000246
+Ystrad Mynach,YSM,Transport for Wales,,,51.64093139,-3.241305784,,,,,,,,,,,,,,,,TF_000247
+Ystrad Rhondda,YSR,Transport for Wales,,,51.64363752,-3.466701338,,,,,,,,,,,,,,,,TF_000248

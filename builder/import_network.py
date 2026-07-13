@@ -24,7 +24,9 @@ def main():
     operator_code = config["operator_code"]
     operator_name = config["operator"]
 
-    source = Path("data/Knowledgebase/NT_network_data.json")
+    source = Path(
+    f"data/Knowledgebase/{operator_code}_network_data.json"
+)
 
     with open(source, encoding="utf-8") as f:
         data = json.load(f)

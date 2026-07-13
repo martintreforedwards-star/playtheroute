@@ -20,7 +20,29 @@ def build_master(config):
     master_path = Path(master_file)
 
     if master_path.exists():
-        return master_file
+
+        import pandas as pd
+
+    df = pd.read_csv(master_path)
+
+    if "station_id" not in df.columns:
+
+        prefix = config.get(
+    "network",
+    config.get(
+        "name",
+        ""
+    )
+)[:2].upper()
+
+        df["station_id"] = [
+            f"{prefix}_{i:06d}"
+            for i in range(1, len(df) + 1)
+        ]
+
+        save_master(df, master_file)
+
+    return master_file
 
     print("Creating master dataset...")
 

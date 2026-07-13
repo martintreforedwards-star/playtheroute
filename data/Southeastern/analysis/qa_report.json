@@ -1,0 +1,131 @@
+{
+  "network": "southeastern",
+  "summary": {
+    "pass": 22,
+    "warn": 0,
+    "fail": 0,
+    "info": 2
+  },
+  "results": [
+    {
+      "section": "General",
+      "level": "INFO",
+      "message": "Starting QA audit..."
+    },
+    {
+      "section": "General",
+      "level": "INFO",
+      "message": "Running Structure Audit"
+    },
+    {
+      "section": "Files",
+      "level": "PASS",
+      "message": "Network config found"
+    },
+    {
+      "section": "Files",
+      "level": "PASS",
+      "message": "Master CSV found"
+    },
+    {
+      "section": "Files",
+      "level": "PASS",
+      "message": "Enriched CSV found"
+    },
+    {
+      "section": "Files",
+      "level": "PASS",
+      "message": "Network JSON found"
+    },
+    {
+      "section": "Files",
+      "level": "PASS",
+      "message": "Route membership found"
+    },
+    {
+      "section": "Files",
+      "level": "PASS",
+      "message": "Network membership found"
+    },
+    {
+      "section": "Master CSV",
+      "level": "PASS",
+      "message": "Master CSV loaded (165 rows)"
+    },
+    {
+      "section": "Master CSV",
+      "level": "PASS",
+      "message": "Master CSV: column 'station_id' present"
+    },
+    {
+      "section": "Master CSV",
+      "level": "PASS",
+      "message": "Master CSV: column 'crs' present"
+    },
+    {
+      "section": "Master CSV",
+      "level": "PASS",
+      "message": "Master CSV: column 'station_name' present"
+    },
+    {
+      "section": "Master CSV",
+      "level": "PASS",
+      "message": "Master CSV: 'station_id' unique"
+    },
+    {
+      "section": "Master CSV",
+      "level": "PASS",
+      "message": "Master CSV: 'crs' unique"
+    },
+    {
+      "section": "Master CSV",
+      "level": "PASS",
+      "message": "Master CSV: 'crs' complete"
+    },
+    {
+      "section": "Enriched CSV",
+      "level": "PASS",
+      "message": "Enriched CSV loaded (165 rows)"
+    },
+    {
+      "section": "Enriched CSV",
+      "level": "PASS",
+      "message": "Enriched CSV: column 'station_id' present"
+    },
+    {
+      "section": "Enriched CSV",
+      "level": "PASS",
+      "message": "Enriched CSV: column 'crs' present"
+    },
+    {
+      "section": "Enriched CSV",
+      "level": "PASS",
+      "message": "Enriched CSV: column 'latitude' present"
+    },
+    {
+      "section": "Enriched CSV",
+      "level": "PASS",
+      "message": "Enriched CSV: column 'longitude' present"
+    },
+    {
+      "section": "Enriched CSV",
+      "level": "PASS",
+      "message": "Enriched CSV: 'station_id' unique"
+    },
+    {
+      "section": "Enriched CSV",
+      "level": "PASS",
+      "message": "Enriched CSV: 'crs' unique"
+    },
+    {
+      "section": "Enriched CSV",
+      "level": "PASS",
+      "message": "Enriched CSV: 'latitude' complete"
+    },
+    {
+      "section": "Enriched CSV",
+      "level": "PASS",
+      "message": "Enriched CSV: 'longitude' complete"
+    }
+  ]
+}

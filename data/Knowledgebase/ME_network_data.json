@@ -99,7 +99,7 @@
             "stationAccessibility": {
                 "stepFreeCategory": {
                     "category": "C, no step-free access to any platform",
-                    "notes": "<p>Category C: “This station does not have step-free access to any platform.”The nearest station with disabled access is Liverpool South Parkway for passengers travelling towards Hunts Cross and Brunswick for passengers travelling towards Liverpool.</p>",
+                    "notes": "<p>Category C: \u201cThis station does not have step-free access to any platform.\u201dThe nearest station with disabled access is Liverpool South Parkway for passengers travelling towards Hunts Cross and Brunswick for passengers travelling towards Liverpool.</p>",
                     "levelAccess": null
                 },
                 "nearestAccessibleStations": null,
@@ -760,7 +760,7 @@
             "stationAccessibility": {
                 "stepFreeCategory": {
                     "category": "A, Compliant step-free access to all platform(s)",
-                    "notes": "<p>Category A: “This station has step free access to all platforms / the platform.” Although a footbridge links platforms, both platforms can be accessed via a level crossing. Staff are on hand to assist those passengers requiring it.</p>",
+                    "notes": "<p>Category A: \u201cThis station has step free access to all platforms / the platform.\u201d Although a footbridge links platforms, both platforms can be accessed via a level crossing. Staff are on hand to assist those passengers requiring it.</p>",
                     "levelAccess": null
                 },
                 "nearestAccessibleStations": null,
@@ -1457,7 +1457,7 @@
             "stationAccessibility": {
                 "stepFreeCategory": {
                     "category": "A, Compliant step-free access to all platform(s)",
-                    "notes": "<p>Category A: “This station has step free access to all platforms / the platform.&quot; Access to the Ormskirk bound platform is via a ramped overbridge</p>",
+                    "notes": "<p>Category A: \u201cThis station has step free access to all platforms / the platform.&quot; Access to the Ormskirk bound platform is via a ramped overbridge</p>",
                     "levelAccess": null
                 },
                 "nearestAccessibleStations": null,
@@ -2141,7 +2141,7 @@
             "stationAccessibility": {
                 "stepFreeCategory": {
                     "category": "C, no step-free access to any platform",
-                    "notes": "<p>Category C: “This station does not have step-free access to any platform.” The nearest station with disabled access is Ormskirk.</p>",
+                    "notes": "<p>Category C: \u201cThis station does not have step-free access to any platform.\u201d The nearest station with disabled access is Ormskirk.</p>",
                     "levelAccess": null
                 },
                 "nearestAccessibleStations": null,
@@ -2613,8 +2613,8 @@
         },
         {
             "changeHistory": {
-                "changedBy": "AAP2",
-                "lastChangedDate": "2026-06-23T21:34:59.000Z"
+                "changedBy": "Contentful",
+                "lastChangedDate": "2026-07-07T11:36:59.587Z"
             },
             "name": "Bache",
             "slug": "bache",
@@ -2672,7 +2672,7 @@
             "stationAccessibility": {
                 "stepFreeCategory": {
                     "category": "B2, (refer to quick reference guide)",
-                    "notes": "<p>Category B: “This station has a degree of step-free access to the platform, which may be in both directions or in one direction only - please check details. This is an unstaffed station and you will need to book assistance in advance.</p>",
+                    "notes": "<p>Category B: \u201cThis station has a degree of step-free access to the platform, which may be in both directions or in one direction only - please check details. This is an unstaffed station and you will need to book assistance in advance.</p>",
                     "levelAccess": null
                 },
                 "nearestAccessibleStations": null,
@@ -2848,7 +2848,7 @@
                 ],
                 "collectOnlineBookedTickets": {
                     "pickUpAtTicketOffice": false,
-                    "pickUpAtTicketMachine": false
+                    "pickUpAtTicketMachine": true
                 },
                 "londonFareZone": null,
                 "payAsYouGo": {
@@ -3276,7 +3276,7 @@
             "stationAccessibility": {
                 "stepFreeCategory": {
                     "category": "C, no step-free access to any platform",
-                    "notes": "<p>Category C: “This station does not have step-free access to any platform.” The nearest station with disabled access is Kirkdale.</p>",
+                    "notes": "<p>Category C: \u201cThis station does not have step-free access to any platform.\u201d The nearest station with disabled access is Kirkdale.</p>",
                     "levelAccess": null
                 },
                 "nearestAccessibleStations": null,
@@ -3841,7 +3841,7 @@
             "stationAccessibility": {
                 "stepFreeCategory": {
                     "category": "A, Compliant step-free access to all platform(s)",
-                    "notes": "<p>Category A: “This station has step free access to all platforms / the platform.&quot; Access to platforms are via a subway.</p>",
+                    "notes": "<p>Category A: \u201cThis station has step free access to all platforms / the platform.&quot; Access to platforms are via a subway.</p>",
                     "levelAccess": null
                 },
                 "nearestAccessibleStations": null,
@@ -4508,7 +4508,7 @@
             "stationAccessibility": {
                 "stepFreeCategory": {
                     "category": "C, no step-free access to any platform",
-                    "notes": "<p>Category C: “This station does not have step-free access to any platform.” It is accessible for the platform interchange only. The nearest disabled accessible station is Leasowe.</p>",
+                    "notes": "<p>Category C: \u201cThis station does not have step-free access to any platform.\u201d It is accessible for the platform interchange only. The nearest disabled accessible station is Leasowe.</p>",
                     "levelAccess": null
                 },
                 "nearestAccessibleStations": null,
@@ -5147,7 +5147,7 @@
             "stationAccessibility": {
                 "stepFreeCategory": {
                     "category": "A, Compliant step-free access to all platform(s)",
-                    "notes": "<p>Category A: “This station has step free access to all platforms / the platform.” Although a footbridge links platforms, both platforms can be accessed via a level crossing. Staff are on hand to assist those passengers requiring it.</p>",
+                    "notes": "<p>Category A: \u201cThis station has step free access to all platforms / the platform.\u201d Although a footbridge links platforms, both platforms can be accessed via a level crossing. Staff are on hand to assist those passengers requiring it.</p>",
                     "levelAccess": null
                 },
                 "nearestAccessibleStations": null,
@@ -5847,7 +5847,7 @@
             "stationAccessibility": {
                 "stepFreeCategory": {
                     "category": "A, Compliant step-free access to all platform(s)",
-                    "notes": "<p>Category A: “This station has step free access to all platforms / the platform.” Lifts can be used to access platforms</p>",
+                    "notes": "<p>Category A: \u201cThis station has step free access to all platforms / the platform.\u201d Lifts can be used to access platforms</p>",
                     "levelAccess": null
                 },
                 "nearestAccessibleStations": null,
@@ -6447,7 +6447,7 @@
             "stationAccessibility": {
                 "stepFreeCategory": {
                     "category": "A, Compliant step-free access to all platform(s)",
-                    "notes": "<p>Category A: “This station has step free access to all platforms / the platform.” Lifts can be used to access platforms.</p>",
+                    "notes": "<p>Category A: \u201cThis station has step free access to all platforms / the platform.\u201d Lifts can be used to access platforms.</p>",
                     "levelAccess": null
                 },
                 "nearestAccessibleStations": null,
@@ -6962,8 +6962,8 @@
         },
         {
             "changeHistory": {
-                "changedBy": "AAP2",
-                "lastChangedDate": "2026-06-23T21:37:20.000Z"
+                "changedBy": "Contentful",
+                "lastChangedDate": "2026-07-06T12:48:41.401Z"
             },
             "name": "Birkenhead North",
             "slug": "birkenhead-north",
@@ -7051,7 +7051,7 @@
             "stationAccessibility": {
                 "stepFreeCategory": {
                     "category": "A, Compliant step-free access to all platform(s)",
-                    "notes": "<p>Category A: “This station has step free access to all platforms / the platform.” All platforms can be accessed via lift.</p>",
+                    "notes": "<p>Category A: \u201cThis station has step free access to all platforms / the platform.\u201d All platforms can be accessed via lift.</p>",
                     "levelAccess": null
                 },
                 "nearestAccessibleStations": null,
@@ -7619,7 +7619,7 @@
         {
             "changeHistory": {
                 "changedBy": "Contentful",
-                "lastChangedDate": "2026-07-01T11:51:57.258Z"
+                "lastChangedDate": "2026-07-05T11:23:15.864Z"
             },
             "name": "Birkenhead Park",
             "slug": "birkenhead-park",
@@ -8281,7 +8281,7 @@
             "stationAccessibility": {
                 "stepFreeCategory": {
                     "category": "A, Compliant step-free access to all platform(s)",
-                    "notes": "<p>Category A: “This station has step free access to all platforms / the platform”The underpass needs to be used to access Southport platform and car park.</p>",
+                    "notes": "<p>Category A: \u201cThis station has step free access to all platforms / the platform\u201dThe underpass needs to be used to access Southport platform and car park.</p>",
                     "levelAccess": null
                 },
                 "nearestAccessibleStations": null,
@@ -9047,7 +9047,7 @@
             "stationAccessibility": {
                 "stepFreeCategory": {
                     "category": "A, Compliant step-free access to all platform(s)",
-                    "notes": "<p>Category A: “This station has step free access to all platforms / the platform” The Ticket Office and platforms are both step free, however platforms are accessed by ramps that are very steep and over 30m long.</p>",
+                    "notes": "<p>Category A: \u201cThis station has step free access to all platforms / the platform\u201d The Ticket Office and platforms are both step free, however platforms are accessed by ramps that are very steep and over 30m long.</p>",
                     "levelAccess": null
                 },
                 "nearestAccessibleStations": null,
@@ -9626,7 +9626,7 @@
         {
             "changeHistory": {
                 "changedBy": "Contentful",
-                "lastChangedDate": "2026-07-02T11:38:47.507Z"
+                "lastChangedDate": "2026-07-06T10:35:54.859Z"
             },
             "name": "Bootle Oriel Road",
             "slug": "bootle-oriel-road",
@@ -9646,15 +9646,7 @@
                 "latitude": 53.44762574,
                 "longitude": -2.995221639
             },
-            "stationAlerts": [
-                {
-                    "name": "Bootle Oriel Road Station Alert",
-                    "title": null,
-                    "validFrom": "2023-03-21T08:03:00",
-                    "validTo": null,
-                    "alertText": "<p>The lifts will be out of order between platform 1 and the station entrance until further notice at Bootle Oriel Road station.</p><p>Un-booked assistance? No problem.</p><p>This station offers assistance to customers who have not pre-booked any passenger assistance. We recognise that some customers already travel without having pre-booked assistance. Assistance can still be pre-booked for travel from/to this station.</p>"
-                }
-            ],
+            "stationAlerts": null,
             "stationOperator": {
                 "name": "Merseyrail",
                 "slug": "merseyrail",
@@ -9722,7 +9714,7 @@
             "stationAccessibility": {
                 "stepFreeCategory": {
                     "category": "A, Compliant step-free access to all platform(s)",
-                    "notes": "<p>Category A: “This station has step free access to all platforms / the platform” The station can be accessed via ramps and platforms via lifts.</p>",
+                    "notes": "<p>Category A: \u201cThis station has step free access to all platforms / the platform\u201d The station can be accessed via ramps and platforms via lifts.</p>",
                     "levelAccess": null
                 },
                 "nearestAccessibleStations": null,
@@ -10377,7 +10369,7 @@
             "stationAccessibility": {
                 "stepFreeCategory": {
                     "category": "C, no step-free access to any platform",
-                    "notes": "<p>Category C: “This station does not have step-free access to any platform.” The nearest station with access is Bromborough Rake</p>",
+                    "notes": "<p>Category C: \u201cThis station does not have step-free access to any platform.\u201d The nearest station with access is Bromborough Rake</p>",
                     "levelAccess": null
                 },
                 "nearestAccessibleStations": null,
@@ -11012,7 +11004,7 @@
             "stationAccessibility": {
                 "stepFreeCategory": {
                     "category": "A, Compliant step-free access to all platform(s)",
-                    "notes": "<p>Category A: “This station has step free access to all platforms / the platform” Access to the Ticket Office is step free, platforms are accessed by ramps that are very steep.</p>",
+                    "notes": "<p>Category A: \u201cThis station has step free access to all platforms / the platform\u201d Access to the Ticket Office is step free, platforms are accessed by ramps that are very steep.</p>",
                     "levelAccess": null
                 },
                 "nearestAccessibleStations": null,
@@ -11572,7 +11564,7 @@
             "stationAccessibility": {
                 "stepFreeCategory": {
                     "category": "A, Compliant step-free access to all platform(s)",
-                    "notes": "<p>Category A: “This station has step free access to all platforms / the platform”Access to the Ticket Office is step free. Hunts Cross bound access is via a ramp. Liverpool bound access is via street level</p>",
+                    "notes": "<p>Category A: \u201cThis station has step free access to all platforms / the platform\u201dAccess to the Ticket Office is step free. Hunts Cross bound access is via a ramp. Liverpool bound access is via street level</p>",
                     "levelAccess": null
                 },
                 "nearestAccessibleStations": null,
@@ -12139,8 +12131,8 @@
         },
         {
             "changeHistory": {
-                "changedBy": "AAP2",
-                "lastChangedDate": "2026-06-23T21:49:25.000Z"
+                "changedBy": "Contentful",
+                "lastChangedDate": "2026-07-07T12:34:17.033Z"
             },
             "name": "Capenhurst",
             "slug": "capenhurst",
@@ -12198,7 +12190,7 @@
             "stationAccessibility": {
                 "stepFreeCategory": {
                     "category": "B2, (refer to quick reference guide)",
-                    "notes": "<p>Category B: “This station has a degree of step-free access to the platform, which may be in both directions or in one direction only - please check details.”Access to the Liverpool bound would be via public highway. the nearest station with full access is Chester. this station is unstaffed and you will book assistance in advance.</p>",
+                    "notes": "<p>Category B: \u201cThis station has a degree of step-free access to the platform, which may be in both directions or in one direction only - please check details.\u201dAccess to the Liverpool bound would be via public highway. the nearest station with full access is Chester. this station is unstaffed and you will book assistance in advance.</p>",
                     "levelAccess": null
                 },
                 "nearestAccessibleStations": null,
@@ -12331,7 +12323,7 @@
                 ],
                 "collectOnlineBookedTickets": {
                     "pickUpAtTicketOffice": false,
-                    "pickUpAtTicketMachine": false
+                    "pickUpAtTicketMachine": true
                 },
                 "londonFareZone": null,
                 "payAsYouGo": {
@@ -12734,7 +12726,7 @@
             "stationAccessibility": {
                 "stepFreeCategory": {
                     "category": "A, Compliant step-free access to all platform(s)",
-                    "notes": "<p>Category A: “This station has step free access to all platforms / the platform” Lifts can be used to access platforms.</p>",
+                    "notes": "<p>Category A: \u201cThis station has step free access to all platforms / the platform\u201d Lifts can be used to access platforms.</p>",
                     "levelAccess": null
                 },
                 "nearestAccessibleStations": null,
@@ -13360,7 +13352,7 @@
             "stationAccessibility": {
                 "stepFreeCategory": {
                     "category": "C, no step-free access to any platform",
-                    "notes": "<p>Category C: “This station does not have step-free access to any platform.”Platforms are accessible via steps. The nearest station with disabled access is Liverpool South Parkway.</p>",
+                    "notes": "<p>Category C: \u201cThis station does not have step-free access to any platform.\u201dPlatforms are accessible via steps. The nearest station with disabled access is Liverpool South Parkway.</p>",
                     "levelAccess": null
                 },
                 "nearestAccessibleStations": null,
@@ -13964,7 +13956,7 @@
             "stationAccessibility": {
                 "stepFreeCategory": {
                     "category": "B3, step-free access only to some platforms",
-                    "notes": "<p>Category B: “This station has a degree of step-free access to the platform, which may be in both directions or in one direction only - please check details.”Eastham Rake has restricted access. The Ticket Office is step free. Access to the Hooton bound platform is via an 84 metre ramp with 3 rest platforms and handrails. Access to the Liverpool bound platform is by stepped ramps only.</p>",
+                    "notes": "<p>Category B: \u201cThis station has a degree of step-free access to the platform, which may be in both directions or in one direction only - please check details.\u201dEastham Rake has restricted access. The Ticket Office is step free. Access to the Hooton bound platform is via an 84 metre ramp with 3 rest platforms and handrails. Access to the Liverpool bound platform is by stepped ramps only.</p>",
                     "levelAccess": null
                 },
                 "nearestAccessibleStations": null,
@@ -14555,7 +14547,7 @@
             "stationAccessibility": {
                 "stepFreeCategory": {
                     "category": "B3, step-free access only to some platforms",
-                    "notes": "<p>Category B: “This station has a degree of step-free access to the platform, which may be in both directions or in one direction only - please check details.”Access to the Liverpool platform from the car park is step free. Footbridge only to other platform. Please note, assistance can only be provided between 06.05 and 14.00 when station is staffed</p>",
+                    "notes": "<p>Category B: \u201cThis station has a degree of step-free access to the platform, which may be in both directions or in one direction only - please check details.\u201dAccess to the Liverpool platform from the car park is step free. Footbridge only to other platform. Please note, assistance can only be provided between 06.05 and 14.00 when station is staffed</p>",
                     "levelAccess": null
                 },
                 "nearestAccessibleStations": null,
@@ -15153,8 +15145,8 @@
         },
         {
             "changeHistory": {
-                "changedBy": "AAP2",
-                "lastChangedDate": "2026-06-23T21:19:28.000Z"
+                "changedBy": "Contentful",
+                "lastChangedDate": "2026-07-09T08:44:17.245Z"
             },
             "name": "Fazakerley",
             "slug": "fazakerley",
@@ -15174,15 +15166,7 @@
                 "latitude": 53.46878354,
                 "longitude": -2.93545612
             },
-            "stationAlerts": [
-                {
-                    "name": "Fazakerley Station Alert",
-                    "title": null,
-                    "validFrom": "2023-03-21T08:03:00",
-                    "validTo": null,
-                    "alertText": "<p>The lifts are out of order between the Headbolt-bound platform and the station entrance at Fazakerley station.</p><p>Un-booked assistance? No problem.</p><p>This station offers assistance to customers who have not pre-booked any passenger assistance. We recognise that some customers already travel without having pre-booked assistance. Assistance can still be pre-booked for travel from/to this station</p>"
-                }
-            ],
+            "stationAlerts": null,
             "stationOperator": {
                 "name": "Merseyrail",
                 "slug": "merseyrail",
@@ -15250,7 +15234,7 @@
             "stationAccessibility": {
                 "stepFreeCategory": {
                     "category": "A, Compliant step-free access to all platform(s)",
-                    "notes": "<p>Category A: “This station has step free access to all platforms / the platform” The station can be accessed via ramps and platforms via lifts.</p>",
+                    "notes": "<p>Category A: \u201cThis station has step free access to all platforms / the platform\u201d The station can be accessed via ramps and platforms via lifts.</p>",
                     "levelAccess": null
                 },
                 "nearestAccessibleStations": null,
@@ -15882,7 +15866,7 @@
             "stationAccessibility": {
                 "stepFreeCategory": {
                     "category": "A, Compliant step-free access to all platform(s)",
-                    "notes": "<p>Category A: “This station has step free access to all platforms / the platform” The station can be accessed via street level and platforms via lifts.</p>",
+                    "notes": "<p>Category A: \u201cThis station has step free access to all platforms / the platform\u201d The station can be accessed via street level and platforms via lifts.</p>",
                     "levelAccess": null
                 },
                 "nearestAccessibleStations": null,
@@ -16647,7 +16631,7 @@
             "stationAccessibility": {
                 "stepFreeCategory": {
                     "category": "A, Compliant step-free access to all platform(s)",
-                    "notes": "<p>Category A: “This station has step free access to all platforms / the platform” The station can be accessed via street level/ramps.</p>",
+                    "notes": "<p>Category A: \u201cThis station has step free access to all platforms / the platform\u201d The station can be accessed via street level/ramps.</p>",
                     "levelAccess": null
                 },
                 "nearestAccessibleStations": null,
@@ -17332,7 +17316,7 @@
             "stationAccessibility": {
                 "stepFreeCategory": {
                     "category": "C, no step-free access to any platform",
-                    "notes": "<p>Category C: “This station does not have step-free access to any platform.” The nearest station with access is Birkenhead Central.</p>",
+                    "notes": "<p>Category C: \u201cThis station does not have step-free access to any platform.\u201d The nearest station with access is Birkenhead Central.</p>",
                     "levelAccess": null
                 },
                 "nearestAccessibleStations": null,
@@ -17935,7 +17919,7 @@
             "stationAccessibility": {
                 "stepFreeCategory": {
                     "category": "A, Compliant step-free access to all platform(s)",
-                    "notes": "<p>Category A: “This station has step free access to all platforms / the platform” Although a footbridge links platforms, both platforms can be accessed via a level crossing. Staff are on hand to assist those passengers requiring it.</p>",
+                    "notes": "<p>Category A: \u201cThis station has step free access to all platforms / the platform\u201d Although a footbridge links platforms, both platforms can be accessed via a level crossing. Staff are on hand to assist those passengers requiring it.</p>",
                     "levelAccess": null
                 },
                 "nearestAccessibleStations": null,
@@ -18551,7 +18535,7 @@
             "stationAccessibility": {
                 "stepFreeCategory": {
                     "category": "A, Compliant step-free access to all platform(s)",
-                    "notes": "<p>Category A: “This station has step free access to all platforms / the platform” The Ticket office is step free and ramps can be used to access platforms.</p>",
+                    "notes": "<p>Category A: \u201cThis station has step free access to all platforms / the platform\u201d The Ticket office is step free and ramps can be used to access platforms.</p>",
                     "levelAccess": null
                 },
                 "nearestAccessibleStations": null,
@@ -19192,7 +19176,7 @@
             "stationAccessibility": {
                 "stepFreeCategory": {
                     "category": "B1, (refer to quick reference guide)",
-                    "notes": "<p>Category B: “This station has a degree of step-free access to the platform, which may be in both directions or in one direction only - please check details.”Access at Hightown station is restricted. Platforms are linked by a stepped footbridge, however platforms can be accessed from the public road.</p>",
+                    "notes": "<p>Category B: \u201cThis station has a degree of step-free access to the platform, which may be in both directions or in one direction only - please check details.\u201dAccess at Hightown station is restricted. Platforms are linked by a stepped footbridge, however platforms can be accessed from the public road.</p>",
                     "levelAccess": null
                 },
                 "nearestAccessibleStations": null,
@@ -20236,7 +20220,7 @@
         {
             "changeHistory": {
                 "changedBy": "Contentful",
-                "lastChangedDate": "2026-07-01T00:34:23.052Z"
+                "lastChangedDate": "2026-07-11T20:57:15.739Z"
             },
             "name": "Hooton",
             "slug": "hooton",
@@ -20256,7 +20240,15 @@
                 "latitude": 53.29721539,
                 "longitude": -2.977016928
             },
-            "stationAlerts": null,
+            "stationAlerts": [
+                {
+                    "name": "Hooton Lift",
+                    "title": null,
+                    "validFrom": "2026-02-20T00:00:00",
+                    "validTo": null,
+                    "alertText": "<p>The lifts are out of order between station entrance and the platforms at Hooton station.\n</p>"
+                }
+            ],
             "stationOperator": {
                 "name": "Merseyrail",
                 "slug": "merseyrail",
@@ -20329,7 +20321,7 @@
             "stationAccessibility": {
                 "stepFreeCategory": {
                     "category": "A, Compliant step-free access to all platform(s)",
-                    "notes": "<p>Category A: “This station has step free access to all platforms / the platform” The Ticket office is step free and lifts can be used to access platforms.</p>",
+                    "notes": "<p>Category A: \u201cThis station has step free access to all platforms / the platform\u201d The Ticket office is step free and lifts can be used to access platforms.</p>",
                     "levelAccess": null
                 },
                 "nearestAccessibleStations": null,
@@ -21055,7 +21047,7 @@
             "stationAccessibility": {
                 "stepFreeCategory": {
                     "category": "A, Compliant step-free access to all platform(s)",
-                    "notes": "<p>Category A: “This station has step free access to all platforms / the platform” Although a footbridge links platforms, both platforms can be accessed via a level crossing. Staff are on hand to assist those passengers requiring it.</p>",
+                    "notes": "<p>Category A: \u201cThis station has step free access to all platforms / the platform\u201d Although a footbridge links platforms, both platforms can be accessed via a level crossing. Staff are on hand to assist those passengers requiring it.</p>",
                     "levelAccess": null
                 },
                 "nearestAccessibleStations": null,
@@ -21650,8 +21642,8 @@
         },
         {
             "changeHistory": {
-                "changedBy": "AAP2",
-                "lastChangedDate": "2026-06-23T21:11:17.000Z"
+                "changedBy": "Contentful",
+                "lastChangedDate": "2026-07-11T04:52:41.329Z"
             },
             "name": "Hunts Cross",
             "slug": "hunts-cross",
@@ -22408,7 +22400,7 @@
             "stationAccessibility": {
                 "stepFreeCategory": {
                     "category": "A, Compliant step-free access to all platform(s)",
-                    "notes": "<p>Category A: “This station has step free access to all platforms / the platform” The Ticket office is step free and ramps can be used to access platforms.</p>",
+                    "notes": "<p>Category A: \u201cThis station has step free access to all platforms / the platform\u201d The Ticket office is step free and ramps can be used to access platforms.</p>",
                     "levelAccess": null
                 },
                 "nearestAccessibleStations": null,
@@ -23084,7 +23076,7 @@
             "stationAccessibility": {
                 "stepFreeCategory": {
                     "category": "A, Compliant step-free access to all platform(s)",
-                    "notes": "<p>Category A: “This station has step free access to all platforms / the platform” Access to the Ticket Office is step free, both platforms can be accessed via lifts.</p>",
+                    "notes": "<p>Category A: \u201cThis station has step free access to all platforms / the platform\u201d Access to the Ticket Office is step free, both platforms can be accessed via lifts.</p>",
                     "levelAccess": null
                 },
                 "nearestAccessibleStations": null,
@@ -23725,7 +23717,7 @@
             "stationAccessibility": {
                 "stepFreeCategory": {
                     "category": "A, Compliant step-free access to all platform(s)",
-                    "notes": "<p>Category A: “This station has step free access to all platforms / the platform”Access to the car park, ticket office and platforms is all step free. Ramps can be used to access platforms.</p>",
+                    "notes": "<p>Category A: \u201cThis station has step free access to all platforms / the platform\u201dAccess to the car park, ticket office and platforms is all step free. Ramps can be used to access platforms.</p>",
                     "levelAccess": null
                 },
                 "nearestAccessibleStations": null,
@@ -24321,8 +24313,8 @@
         },
         {
             "changeHistory": {
-                "changedBy": "AAP2",
-                "lastChangedDate": "2026-06-23T21:45:09.000Z"
+                "changedBy": "Contentful",
+                "lastChangedDate": "2026-07-07T09:40:20.373Z"
             },
             "name": "Little Sutton",
             "slug": "little-sutton",
@@ -24377,7 +24369,7 @@
             "stationAccessibility": {
                 "stepFreeCategory": {
                     "category": "B2, (refer to quick reference guide)",
-                    "notes": "<p>Category B: “This station has a degree of step-free access to the platform, which may be in both directions or in one direction only - please check details.”Little Sutton is an unstaffed station, you will need to book assistance in advance. The nearest station with full disabled access is Hooton which has lifts.</p>",
+                    "notes": "<p>Category B: \u201cThis station has a degree of step-free access to the platform, which may be in both directions or in one direction only - please check details.\u201dLittle Sutton is an unstaffed station, you will need to book assistance in advance. The nearest station with full disabled access is Hooton which has lifts.</p>",
                     "levelAccess": null
                 },
                 "nearestAccessibleStations": null,
@@ -24553,7 +24545,7 @@
                 ],
                 "collectOnlineBookedTickets": {
                     "pickUpAtTicketOffice": false,
-                    "pickUpAtTicketMachine": false
+                    "pickUpAtTicketMachine": true
                 },
                 "londonFareZone": null,
                 "payAsYouGo": {
@@ -24806,7 +24798,7 @@
         {
             "changeHistory": {
                 "changedBy": "Contentful",
-                "lastChangedDate": "2026-06-26T09:56:33.471Z"
+                "lastChangedDate": "2026-07-09T09:20:32.577Z"
             },
             "name": "Liverpool Central",
             "slug": "liverpool-central",
@@ -24826,7 +24818,15 @@
                 "latitude": 53.40461053,
                 "longitude": -2.979159936
             },
-            "stationAlerts": null,
+            "stationAlerts": [
+                {
+                    "name": "Liverpool Central Station Alert",
+                    "title": null,
+                    "validFrom": "2025-08-24T08:03:00",
+                    "validTo": null,
+                    "alertText": "<p>The lifts are out of order between the station entrance and the Wirral platform at Liverpool Central station.</p>"
+                }
+            ],
             "stationOperator": {
                 "name": "Merseyrail",
                 "slug": "merseyrail",
@@ -24904,7 +24904,7 @@
             "stationAccessibility": {
                 "stepFreeCategory": {
                     "category": "A, Compliant step-free access to all platform(s)",
-                    "notes": "<p>Category A: “This station has step free access to all platforms / the platform” All platforms can be accessed via lift</p>",
+                    "notes": "<p>Category A: \u201cThis station has step free access to all platforms / the platform\u201d All platforms can be accessed via lift</p>",
                     "levelAccess": null
                 },
                 "nearestAccessibleStations": null,
@@ -25529,7 +25529,7 @@
             "stationAccessibility": {
                 "stepFreeCategory": {
                     "category": "A, Compliant step-free access to all platform(s)",
-                    "notes": "<p>Category A: “This station has step free access to all platforms / the platform”The Ticket Office is step free via James Street only and platforms can be accessed via lifts</p>",
+                    "notes": "<p>Category A: \u201cThis station has step free access to all platforms / the platform\u201dThe Ticket Office is step free via James Street only and platforms can be accessed via lifts</p>",
                     "levelAccess": null
                 },
                 "nearestAccessibleStations": null,
@@ -26133,7 +26133,7 @@
             "stationAccessibility": {
                 "stepFreeCategory": {
                     "category": "A, Compliant step-free access to all platform(s)",
-                    "notes": "<p>Category A: “This station has step free access to all platforms / the platform” Platforms are accessible via lifts.</p>",
+                    "notes": "<p>Category A: \u201cThis station has step free access to all platforms / the platform\u201d Platforms are accessible via lifts.</p>",
                     "levelAccess": null
                 },
                 "nearestAccessibleStations": null,
@@ -26766,8 +26766,8 @@
         },
         {
             "changeHistory": {
-                "changedBy": "AAP2",
-                "lastChangedDate": "2026-06-23T21:28:19.000Z"
+                "changedBy": "Contentful",
+                "lastChangedDate": "2026-07-07T12:38:41.470Z"
             },
             "name": "Maghull",
             "slug": "maghull",
@@ -26868,7 +26868,7 @@
             "stationAccessibility": {
                 "stepFreeCategory": {
                     "category": "A, Compliant step-free access to all platform(s)",
-                    "notes": "<p>Category A: “This station has step free access to all platforms / the platform” The car park and ticket office are step free. Interchange via level crossing.</p>",
+                    "notes": "<p>Category A: \u201cThis station has step free access to all platforms / the platform\u201d The car park and ticket office are step free. Interchange via level crossing.</p>",
                     "levelAccess": null
                 },
                 "nearestAccessibleStations": null,
@@ -27462,7 +27462,7 @@
             "stationAccessibility": {
                 "stepFreeCategory": {
                     "category": "A, Compliant step-free access to all platform(s)",
-                    "notes": "<p>Category A: “This station has step free access to all platforms / the platform” Ticket office and platforms can be accessed via lifts</p>",
+                    "notes": "<p>Category A: \u201cThis station has step free access to all platforms / the platform\u201d Ticket office and platforms can be accessed via lifts</p>",
                     "levelAccess": null
                 },
                 "nearestAccessibleStations": null,
@@ -28166,7 +28166,7 @@
             "stationAccessibility": {
                 "stepFreeCategory": {
                     "category": "B3, step-free access only to some platforms",
-                    "notes": "<p>Category B: “This station has a degree of step-free access to the platform, which may be in both directions or in one direction only - please check details.”The ticket office is step free. Full accessability on the Liverpool bound platform. West Kirby bound platform is accessable via a stepped footbridge.</p>",
+                    "notes": "<p>Category B: \u201cThis station has a degree of step-free access to the platform, which may be in both directions or in one direction only - please check details.\u201dThe ticket office is step free. Full accessability on the Liverpool bound platform. West Kirby bound platform is accessable via a stepped footbridge.</p>",
                     "levelAccess": null
                 },
                 "nearestAccessibleStations": null,
@@ -28660,8 +28660,8 @@
         },
         {
             "changeHistory": {
-                "changedBy": "AAP2",
-                "lastChangedDate": "2026-06-23T21:46:29.000Z"
+                "changedBy": "Contentful",
+                "lastChangedDate": "2026-07-09T08:40:54.049Z"
             },
             "name": "Meols",
             "slug": "meols",
@@ -29412,7 +29412,7 @@
             "stationAccessibility": {
                 "stepFreeCategory": {
                     "category": "A, Compliant step-free access to all platform(s)",
-                    "notes": "<p>Category A: “This station has step free access to all platforms / the platform” Platforms via Moorfields entrance are accessible via lifts. However the Old Hall Street entrance has no disabled access.</p>",
+                    "notes": "<p>Category A: \u201cThis station has step free access to all platforms / the platform\u201d Platforms via Moorfields entrance are accessible via lifts. However the Old Hall Street entrance has no disabled access.</p>",
                     "levelAccess": null
                 },
                 "nearestAccessibleStations": null,
@@ -30003,7 +30003,7 @@
             "stationAccessibility": {
                 "stepFreeCategory": {
                     "category": "A, Compliant step-free access to all platform(s)",
-                    "notes": "<p>Category A: “This station has step free access to all platforms / the platform” Step free access available to West Kirby platform from car park. Access to Liverpool platform is via a public road. Access between platforms by stepped footbridge or public road (over 200m).</p>",
+                    "notes": "<p>Category A: \u201cThis station has step free access to all platforms / the platform\u201d Step free access available to West Kirby platform from car park. Access to Liverpool platform is via a public road. Access between platforms by stepped footbridge or public road (over 200m).</p>",
                     "levelAccess": null
                 },
                 "nearestAccessibleStations": null,
@@ -30690,7 +30690,7 @@
             "stationAccessibility": {
                 "stepFreeCategory": {
                     "category": "A, Compliant step-free access to all platform(s)",
-                    "notes": "<p>Category A: “This station has step free access to all platforms / the platform” Ticket office and platforms are step free.</p>",
+                    "notes": "<p>Category A: \u201cThis station has step free access to all platforms / the platform\u201d Ticket office and platforms are step free.</p>",
                     "levelAccess": null
                 },
                 "nearestAccessibleStations": null,
@@ -31176,7 +31176,7 @@
         {
             "changeHistory": {
                 "changedBy": "Contentful",
-                "lastChangedDate": "2026-06-27T07:00:55.519Z"
+                "lastChangedDate": "2026-07-12T10:38:36.431Z"
             },
             "name": "Old Roan",
             "slug": "old-roan",
@@ -31196,15 +31196,7 @@
                 "latitude": 53.48690801,
                 "longitude": -2.951077083
             },
-            "stationAlerts": [
-                {
-                    "name": "Old Roan Station Alert",
-                    "title": null,
-                    "validFrom": "2023-03-21T08:03:00",
-                    "validTo": null,
-                    "alertText": "<p>The lifts are out of order on platform 1 at Old Roan station.</p>"
-                }
-            ],
+            "stationAlerts": null,
             "stationOperator": {
                 "name": "Merseyrail",
                 "slug": "merseyrail",
@@ -31875,7 +31867,7 @@
             "stationAccessibility": {
                 "stepFreeCategory": {
                     "category": "A, Compliant step-free access to all platform(s)",
-                    "notes": "<p>Category A: “This station has step free access to all platforms / the platform” Ticket office and platforms are step free, however car park has uneven ramp access.</p>",
+                    "notes": "<p>Category A: \u201cThis station has step free access to all platforms / the platform\u201d Ticket office and platforms are step free, however car park has uneven ramp access.</p>",
                     "levelAccess": null
                 },
                 "nearestAccessibleStations": null,
@@ -32490,7 +32482,7 @@
             "stationAccessibility": {
                 "stepFreeCategory": {
                     "category": "A, Compliant step-free access to all platform(s)",
-                    "notes": "<p>Category A: “This station has step free access to all platforms / the platform” Access to platforms is available via a lift.</p>",
+                    "notes": "<p>Category A: \u201cThis station has step free access to all platforms / the platform\u201d Access to platforms is available via a lift.</p>",
                     "levelAccess": null
                 },
                 "nearestAccessibleStations": null,
@@ -33068,7 +33060,7 @@
             "stationAccessibility": {
                 "stepFreeCategory": {
                     "category": "A, Compliant step-free access to all platform(s)",
-                    "notes": "<p>Category A: “This station has step free access to all platforms / the platform” This station is unstaffed. You will need to book assistance in advance.</p>",
+                    "notes": "<p>Category A: \u201cThis station has step free access to all platforms / the platform\u201d This station is unstaffed. You will need to book assistance in advance.</p>",
                     "levelAccess": null
                 },
                 "nearestAccessibleStations": null,
@@ -33537,7 +33529,7 @@
             "stationAccessibility": {
                 "stepFreeCategory": {
                     "category": "C, no step-free access to any platform",
-                    "notes": "<p>Category C: “This station does not have step-free access to any platform.” The nearest disabled accessible station is Bebington</p>",
+                    "notes": "<p>Category C: \u201cThis station does not have step-free access to any platform.\u201d The nearest disabled accessible station is Bebington</p>",
                     "levelAccess": null
                 },
                 "nearestAccessibleStations": null,
@@ -34144,7 +34136,7 @@
             "stationAccessibility": {
                 "stepFreeCategory": {
                     "category": "C, no step-free access to any platform",
-                    "notes": "<p>Category C: “This station does not have step-free access to any platform.” The nearest disabled accessible station is Orrell Park</p>",
+                    "notes": "<p>Category C: \u201cThis station does not have step-free access to any platform.\u201d The nearest disabled accessible station is Orrell Park</p>",
                     "levelAccess": null
                 },
                 "nearestAccessibleStations": null,
@@ -35235,8 +35227,8 @@
         },
         {
             "changeHistory": {
-                "changedBy": "AAP2",
-                "lastChangedDate": "2026-06-23T21:12:24.000Z"
+                "changedBy": "Contentful",
+                "lastChangedDate": "2026-07-11T09:35:30.887Z"
             },
             "name": "Sandhills",
             "slug": "sandhills",
@@ -35332,7 +35324,7 @@
             "stationAccessibility": {
                 "stepFreeCategory": {
                     "category": "A, Compliant step-free access to all platform(s)",
-                    "notes": "<p>Category A: “This station has step free access to all platforms / the platform” Platforms are accessed via lifts and ramps.</p>",
+                    "notes": "<p>Category A: \u201cThis station has step free access to all platforms / the platform\u201d Platforms are accessed via lifts and ramps.</p>",
                     "levelAccess": null
                 },
                 "nearestAccessibleStations": null,
@@ -35907,7 +35899,7 @@
             "stationAccessibility": {
                 "stepFreeCategory": {
                     "category": "A, Compliant step-free access to all platform(s)",
-                    "notes": "<p>Category A: “This station has step free access to all platforms / the platform”Ticket office and platforms are step free, however they are accessed by a ramp that is over 30m long.</p>",
+                    "notes": "<p>Category A: \u201cThis station has step free access to all platforms / the platform\u201dTicket office and platforms are step free, however they are accessed by a ramp that is over 30m long.</p>",
                     "levelAccess": null
                 },
                 "nearestAccessibleStations": null,
@@ -36547,7 +36539,7 @@
             "stationAccessibility": {
                 "stepFreeCategory": {
                     "category": "A, Compliant step-free access to all platform(s)",
-                    "notes": "<p>Category A: “This station has step free access to all platforms / the platform” Ticket office is step free. Both platforms accessed via concourse.</p>",
+                    "notes": "<p>Category A: \u201cThis station has step free access to all platforms / the platform\u201d Ticket office is step free. Both platforms accessed via concourse.</p>",
                     "levelAccess": null
                 },
                 "nearestAccessibleStations": null,
@@ -37198,7 +37190,7 @@
             "stationAccessibility": {
                 "stepFreeCategory": {
                     "category": "C, no step-free access to any platform",
-                    "notes": "<p>Category C: “This station does not have step-free access to any platform.” The nearest disabled accessible station is Bromborough Rake.</p>",
+                    "notes": "<p>Category C: \u201cThis station does not have step-free access to any platform.\u201d The nearest disabled accessible station is Bromborough Rake.</p>",
                     "levelAccess": null
                 },
                 "nearestAccessibleStations": null,
@@ -39069,7 +39061,7 @@
             "stationAccessibility": {
                 "stepFreeCategory": {
                     "category": "B1, (refer to quick reference guide)",
-                    "notes": "<p>Category B: “This station has a degree of step-free access to the platform, which may be in both directions or in one direction only - please check details.” Car park and ticket office are step free. New Brighton platform accessed via road and ramp approx 250m walk. Liverpool bound platform has disabled access.</p>",
+                    "notes": "<p>Category B: \u201cThis station has a degree of step-free access to the platform, which may be in both directions or in one direction only - please check details.\u201d Car park and ticket office are step free. New Brighton platform accessed via road and ramp approx 250m walk. Liverpool bound platform has disabled access.</p>",
                     "levelAccess": null
                 },
                 "nearestAccessibleStations": null,
@@ -39753,7 +39745,7 @@
             "stationAccessibility": {
                 "stepFreeCategory": {
                     "category": "C, no step-free access to any platform",
-                    "notes": "<p>Category C: “This station does not have step-free access to any platform.” The nearest disabled accessible station is New Brighton</p>",
+                    "notes": "<p>Category C: \u201cThis station does not have step-free access to any platform.\u201d The nearest disabled accessible station is New Brighton</p>",
                     "levelAccess": null
                 },
                 "nearestAccessibleStations": null,
@@ -40976,7 +40968,7 @@
             "stationAccessibility": {
                 "stepFreeCategory": {
                     "category": "A, Compliant step-free access to all platform(s)",
-                    "notes": "<p>Category A: “This station has step free access to all platforms / the platform”</p>",
+                    "notes": "<p>Category A: \u201cThis station has step free access to all platforms / the platform\u201d</p>",
                     "levelAccess": null
                 },
                 "nearestAccessibleStations": null,
@@ -41557,7 +41549,7 @@
             "stationAccessibility": {
                 "stepFreeCategory": {
                     "category": "A, Compliant step-free access to all platform(s)",
-                    "notes": "<p>Category A: “This station has step free access to all platforms / the platform”</p>",
+                    "notes": "<p>Category A: \u201cThis station has step free access to all platforms / the platform\u201d</p>",
                     "levelAccess": null
                 },
                 "nearestAccessibleStations": null,

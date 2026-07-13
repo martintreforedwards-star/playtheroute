@@ -38,70 +38,6 @@
   ],
   "columnPool": [
     {
-      "display": "Chester Line",
-      "type": "field",
-      "field": "region",
-      "value": "Chester Line",
-      "weight": "medium",
-      "category": "geography"
-    },
-    {
-      "display": "Ellesmere Port Line",
-      "type": "field",
-      "field": "region",
-      "value": "Ellesmere Port Line",
-      "weight": "medium",
-      "category": "geography"
-    },
-    {
-      "display": "Headbolt Lane Line",
-      "type": "field",
-      "field": "region",
-      "value": "Headbolt Lane Line",
-      "weight": "medium",
-      "category": "geography"
-    },
-    {
-      "display": "Hunts Cross Line",
-      "type": "field",
-      "field": "region",
-      "value": "Hunts Cross Line",
-      "weight": "medium",
-      "category": "geography"
-    },
-    {
-      "display": "New Brighton Line",
-      "type": "field",
-      "field": "region",
-      "value": "New Brighton Line",
-      "weight": "medium",
-      "category": "geography"
-    },
-    {
-      "display": "Ormskirk Line",
-      "type": "field",
-      "field": "region",
-      "value": "Ormskirk Line",
-      "weight": "medium",
-      "category": "geography"
-    },
-    {
-      "display": "Southport Line",
-      "type": "field",
-      "field": "region",
-      "value": "Southport Line",
-      "weight": "medium",
-      "category": "geography"
-    },
-    {
-      "display": "West Kirby Line",
-      "type": "field",
-      "field": "region",
-      "value": "West Kirby Line",
-      "weight": "medium",
-      "category": "geography"
-    },
-    {
       "display": "Multiple",
       "type": "field",
       "field": "word_count_band",
@@ -118,18 +54,10 @@
       "category": "name"
     },
     {
-      "display": "Few",
+      "display": "Low",
       "type": "field",
-      "field": "route_diversity_band",
-      "value": "few",
-      "weight": "medium",
-      "category": "service"
-    },
-    {
-      "display": "Many",
-      "type": "field",
-      "field": "route_diversity_band",
-      "value": "many",
+      "field": "service_density",
+      "value": "low",
       "weight": "medium",
       "category": "service"
     },
@@ -140,70 +68,6 @@
       "value": "single",
       "weight": "medium",
       "category": "service"
-    },
-    {
-      "display": "Chester Line",
-      "type": "array_contains",
-      "field": "route_groups",
-      "value": "Chester Line",
-      "weight": "medium",
-      "category": "route"
-    },
-    {
-      "display": "Ellesmere Port Line",
-      "type": "array_contains",
-      "field": "route_groups",
-      "value": "Ellesmere Port Line",
-      "weight": "medium",
-      "category": "route"
-    },
-    {
-      "display": "Headbolt Lane Line",
-      "type": "array_contains",
-      "field": "route_groups",
-      "value": "Headbolt Lane Line",
-      "weight": "medium",
-      "category": "route"
-    },
-    {
-      "display": "Hunts Cross Line",
-      "type": "array_contains",
-      "field": "route_groups",
-      "value": "Hunts Cross Line",
-      "weight": "medium",
-      "category": "route"
-    },
-    {
-      "display": "New Brighton Line",
-      "type": "array_contains",
-      "field": "route_groups",
-      "value": "New Brighton Line",
-      "weight": "medium",
-      "category": "route"
-    },
-    {
-      "display": "Ormskirk Line",
-      "type": "array_contains",
-      "field": "route_groups",
-      "value": "Ormskirk Line",
-      "weight": "medium",
-      "category": "route"
-    },
-    {
-      "display": "Southport Line",
-      "type": "array_contains",
-      "field": "route_groups",
-      "value": "Southport Line",
-      "weight": "medium",
-      "category": "route"
-    },
-    {
-      "display": "West Kirby Line",
-      "type": "array_contains",
-      "field": "route_groups",
-      "value": "West Kirby Line",
-      "weight": "medium",
-      "category": "route"
     },
     {
       "display": "Contains And",

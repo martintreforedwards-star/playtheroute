@@ -1,21 +1,12 @@
 {
   "name": "Northern",
-
   "network": "Northern",
-
   "master": "data/Northern/northern_master.csv",
-
   "route_groups": "data/Northern/route_membership.csv",
-
   "missing_times": "data/Northern/missing_times.csv",
-
   "rules": "builder/configs/northern_rules.json",
-
   "clue_template": "data/clues/southeastern-clues.json",
-
   "clues": "data/Northern/northern-clues.json",
-
   "enriched": "data/Northern/northern_enriched.csv",
-
   "output": "data/Northern/northern.json"
 }

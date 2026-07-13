@@ -1640,14 +1640,14 @@
                         "charges": {
                             "perHourRate": null,
                             "offPeakRate": null,
-                            "dailyRate": "£2.20",
+                            "dailyRate": "\u00a32.20",
                             "saturdayRate": null,
                             "sundayRate": null,
-                            "weeklyRate": "£8.80",
-                            "monthlyRate": "£34.00",
+                            "weeklyRate": "\u00a38.80",
+                            "monthlyRate": "\u00a334.00",
                             "threeMonthlyRate": null,
                             "sixMonthlyRate": null,
-                            "annualRate": "£352.00"
+                            "annualRate": "\u00a3352.00"
                         },
                         "notes": "<p>Download and use the RingGo app or pay online at <a href=\"http://www.ringgo.co.uk/\" title=\"\">www.RingGo.co.uk</a> </p><p>Use RingGo Code 45800 Or You can call 0113 8090070, RingGo Code 45800</p><p>Daily Charge: &#163;2.20</p><p>Up to 2 hours (no return) &#163;0.60</p><p>Up to 4 hours (no return) &#163;1.20</p><p>Overnight Parking (1600-0759) &#163;0.60</p>",
                         "accessibleSpacesNotes": null,
@@ -3396,7 +3396,7 @@
                                 "primaryTelephoneNumber": "0800 200 6060",
                                 "emailAddress": "enquiries@northernrailway.co.uk",
                                 "operatorName": "Northern",
-                                "note": "<p><strong>Car Park Charges:</strong></p><p>DAILY &#163;3.00</p><p>WEEKLY &#163;12.00</p><p>MONTHLY &#163;38.00</p><p>ANNUAL &#163;375.00</p><p>Download and use the RingGo app or pay online at <a href=\"http://www.RingGo.co.uk\" title=\"\">www.RingGo.co.uk</a> Use RingGo Code 35700Or You can call 0113 8090070, RingGo Code 35700&#173;&#173; ​​​​​​​</p>"
+                                "note": "<p><strong>Car Park Charges:</strong></p><p>DAILY &#163;3.00</p><p>WEEKLY &#163;12.00</p><p>MONTHLY &#163;38.00</p><p>ANNUAL &#163;375.00</p><p>Download and use the RingGo app or pay online at <a href=\"http://www.RingGo.co.uk\" title=\"\">www.RingGo.co.uk</a> Use RingGo Code 35700Or You can call 0113 8090070, RingGo Code 35700&#173;&#173; \u200b\u200b\u200b\u200b\u200b\u200b\u200b</p>"
                             }
                         },
                         "openingHours": [
@@ -3433,14 +3433,14 @@
                         "charges": {
                             "perHourRate": null,
                             "offPeakRate": null,
-                            "dailyRate": "£6.60",
+                            "dailyRate": "\u00a36.60",
                             "saturdayRate": null,
                             "sundayRate": null,
-                            "weeklyRate": "£26.40",
-                            "monthlyRate": "£101.00",
+                            "weeklyRate": "\u00a326.40",
+                            "monthlyRate": "\u00a3101.00",
                             "threeMonthlyRate": null,
                             "sixMonthlyRate": null,
-                            "annualRate": "£1,056.00"
+                            "annualRate": "\u00a31,056.00"
                         },
                         "notes": "<p>Daily Charge: &#163;6.60\nUp to 2 hours (no return) &#163;1.70\nUp to 4 hours (no return) &#163;3.30\nOvernight Parking (1600-0759) &#163;1.70\n</p>",
                         "accessibleSpacesNotes": null,
@@ -4585,14 +4585,14 @@
                         "charges": {
                             "perHourRate": null,
                             "offPeakRate": null,
-                            "dailyRate": "£2.20",
+                            "dailyRate": "\u00a32.20",
                             "saturdayRate": null,
                             "sundayRate": null,
-                            "weeklyRate": "£8.80",
-                            "monthlyRate": "£34.00",
+                            "weeklyRate": "\u00a38.80",
+                            "monthlyRate": "\u00a334.00",
                             "threeMonthlyRate": null,
                             "sixMonthlyRate": null,
-                            "annualRate": "£352.00"
+                            "annualRate": "\u00a3352.00"
                         },
                         "notes": "<p>Daily Charge: &#163;2.20\nUp to 2 hours (no return) &#163;0.60\nUp to 4 hours (no return) &#163;1.10\nOvernight Parking (1600-0759) &#163;0.60\n</p>",
                         "accessibleSpacesNotes": null,
@@ -5060,7 +5060,7 @@
         {
             "changeHistory": {
                 "changedBy": "Contentful",
-                "lastChangedDate": "2026-07-06T21:22:11.187Z"
+                "lastChangedDate": "2026-07-10T09:42:41.550Z"
             },
             "name": "Altrincham",
             "slug": "altrincham",
@@ -5364,8 +5364,8 @@
                             "openingStatus": "Specific Hours",
                             "openPeriod": [
                                 {
-                                    "startTime": "06:40:00.000",
-                                    "endTime": "20:20:00.000"
+                                    "startTime": "07:00:00.000",
+                                    "endTime": "18:20:00.000"
                                 }
                             ]
                         },
@@ -5376,8 +5376,8 @@
                             "openingStatus": "Specific Hours",
                             "openPeriod": [
                                 {
-                                    "startTime": "07:10:00.000",
-                                    "endTime": "20:20:00.000"
+                                    "startTime": "07:00:00.000",
+                                    "endTime": "18:20:00.000"
                                 }
                             ]
                         },
@@ -6820,7 +6820,7 @@
             "stationAccessibility": {
                 "stepFreeCategory": {
                     "category": "B2, (refer to quick reference guide)",
-                    "notes": "<ul><li>Category B Station</li></ul><p>There is now a Northern team member available from the first train of the day until the last, every day. This means customers can rely on staff being present throughout the station’s operating hours. If you need help crossing the tracks using the barrow crossing, a member of staff will always be on hand to assist. You’ll find our team at the Appleby ticket office, ready to support all customers, including those with accessibility needs. You can also book Passenger Assistance in advance at <a href=\"https://eur03.safelinks.protection.outlook.com/?url=https%3A%2F%2Furldefense.com%2Fv3%2F__http%3A%2Fnorthernrailway.co.uk%2Fpassenger-assist__%3B!!OyO3LyAn!9FY4DvmWZRgjjb9SitPjKz3N4LkzCw25XGhH58LU3h8NAOinTvGnZzd5rrAORpl3j6MNkvtRLn0mqN6rsC5zI9dKjlHl4jN8xxySRPr6C_RbXA%24&data=05%7C02%7CDutyManager%40nrcommcentre.com%7C25b9d58ff6bc4be9179f08ddeed4e2af%7Ca1a72d9c49e64f6d9af65aafa1183bfd%7C0%7C0%7C638929320522512878%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&sdata=Qeba8LO6AtHGtTBu%2BBt5huzAR%2BwUYxHTE0n9w3rVFFo%3D&reserved=0\" title=\"\">northernrailway.co.uk/passenger-assist</a> or by calling 0800 138 5560. Northern is committed to making rail travel more accessible and inclusive for everyone.</p>",
+                    "notes": "<ul><li>Category B Station</li></ul><p>There is now a Northern team member available from the first train of the day until the last, every day. This means customers can rely on staff being present throughout the station\u2019s operating hours. If you need help crossing the tracks using the barrow crossing, a member of staff will always be on hand to assist. You\u2019ll find our team at the Appleby ticket office, ready to support all customers, including those with accessibility needs. You can also book Passenger Assistance in advance at <a href=\"https://eur03.safelinks.protection.outlook.com/?url=https%3A%2F%2Furldefense.com%2Fv3%2F__http%3A%2Fnorthernrailway.co.uk%2Fpassenger-assist__%3B!!OyO3LyAn!9FY4DvmWZRgjjb9SitPjKz3N4LkzCw25XGhH58LU3h8NAOinTvGnZzd5rrAORpl3j6MNkvtRLn0mqN6rsC5zI9dKjlHl4jN8xxySRPr6C_RbXA%24&data=05%7C02%7CDutyManager%40nrcommcentre.com%7C25b9d58ff6bc4be9179f08ddeed4e2af%7Ca1a72d9c49e64f6d9af65aafa1183bfd%7C0%7C0%7C638929320522512878%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&sdata=Qeba8LO6AtHGtTBu%2BBt5huzAR%2BwUYxHTE0n9w3rVFFo%3D&reserved=0\" title=\"\">northernrailway.co.uk/passenger-assist</a> or by calling 0800 138 5560. Northern is committed to making rail travel more accessible and inclusive for everyone.</p>",
                     "levelAccess": null
                 },
                 "nearestAccessibleStations": null,
@@ -7397,7 +7397,7 @@
                         "charges": {
                             "perHourRate": null,
                             "offPeakRate": null,
-                            "dailyRate": "£2.00",
+                            "dailyRate": "\u00a32.00",
                             "saturdayRate": null,
                             "sundayRate": null,
                             "weeklyRate": null,
@@ -9772,7 +9772,7 @@
                         "charges": {
                             "perHourRate": null,
                             "offPeakRate": null,
-                            "dailyRate": "£4.20",
+                            "dailyRate": "\u00a34.20",
                             "saturdayRate": null,
                             "sundayRate": null,
                             "weeklyRate": null,
@@ -11148,7 +11148,7 @@
                         "charges": {
                             "perHourRate": null,
                             "offPeakRate": null,
-                            "dailyRate": "£5.50",
+                            "dailyRate": "\u00a35.50",
                             "saturdayRate": null,
                             "sundayRate": null,
                             "weeklyRate": null,
@@ -12265,7 +12265,7 @@
                         "charges": {
                             "perHourRate": null,
                             "offPeakRate": null,
-                            "dailyRate": "£4.30",
+                            "dailyRate": "\u00a34.30",
                             "saturdayRate": null,
                             "sundayRate": null,
                             "weeklyRate": null,
@@ -12776,7 +12776,7 @@
                         "charges": {
                             "perHourRate": null,
                             "offPeakRate": null,
-                            "dailyRate": "£2.30",
+                            "dailyRate": "\u00a32.30",
                             "saturdayRate": null,
                             "sundayRate": null,
                             "weeklyRate": null,
@@ -14506,14 +14506,14 @@
                         "charges": {
                             "perHourRate": null,
                             "offPeakRate": null,
-                            "dailyRate": "£2.20",
+                            "dailyRate": "\u00a32.20",
                             "saturdayRate": null,
                             "sundayRate": null,
-                            "weeklyRate": "£8.80",
-                            "monthlyRate": "£34.00",
+                            "weeklyRate": "\u00a38.80",
+                            "monthlyRate": "\u00a334.00",
                             "threeMonthlyRate": null,
                             "sixMonthlyRate": null,
-                            "annualRate": "£352.00"
+                            "annualRate": "\u00a3352.00"
                         },
                         "notes": "<p>Download and use the RingGo app or pay online at <a href=\"http://www.ringgo.co.uk/\" title=\"\">www.RingGo.co.uk</a> </p><p>Use RingGo Code 45801 Or You can call 0113 8090070, RingGo Code 45801</p><p>Daily Charge: &#163;2.20</p><p>Up to 2 hours (no return) &#163;0.60</p><p>Up to 4 hours (no return) &#163;1.10</p><p>Overnight Parking (1600-0759) &#163;0.60</p>",
                         "accessibleSpacesNotes": null,
@@ -17135,14 +17135,14 @@
                         "charges": {
                             "perHourRate": null,
                             "offPeakRate": null,
-                            "dailyRate": "£4.40",
+                            "dailyRate": "\u00a34.40",
                             "saturdayRate": null,
                             "sundayRate": null,
-                            "weeklyRate": "£17.60",
-                            "monthlyRate": "£68.00",
+                            "weeklyRate": "\u00a317.60",
+                            "monthlyRate": "\u00a368.00",
                             "threeMonthlyRate": null,
                             "sixMonthlyRate": null,
-                            "annualRate": "£704.00"
+                            "annualRate": "\u00a3704.00"
                         },
                         "notes": "<p>Daily Charge: &#163;4.40\nUp to 2 hours (no return) &#163;0.60\nUp to 4 hours (no return) &#163;2.20\nOvernight Parking (1600-0759) &#163;1.10\n</p><p>Download and use the RingGo app or pay online at <a href=\"http://www.RingGo.co.uk\" title=\"\">www.RingGo.co.uk</a> Use RingGo Code 35701Or You can call 0113 8090070, RingGo Code 35701</p><p></p>",
                         "accessibleSpacesNotes": null,
@@ -22232,14 +22232,14 @@
                         "charges": {
                             "perHourRate": null,
                             "offPeakRate": null,
-                            "dailyRate": "£4.40",
+                            "dailyRate": "\u00a34.40",
                             "saturdayRate": null,
                             "sundayRate": null,
-                            "weeklyRate": "£17.60",
-                            "monthlyRate": "£68.00",
+                            "weeklyRate": "\u00a317.60",
+                            "monthlyRate": "\u00a368.00",
                             "threeMonthlyRate": null,
                             "sixMonthlyRate": null,
-                            "annualRate": "£704.00"
+                            "annualRate": "\u00a3704.00"
                         },
                         "notes": "<p>Daily Charge: &#163;4.40\nUp to 2 hours (no return) &#163;1.10\nUp to 4 hours (no return) &#163;2.20\nOvernight Parking (1600-0759) &#163;1.10\n</p>",
                         "accessibleSpacesNotes": null,
@@ -25383,14 +25383,14 @@
                         "charges": {
                             "perHourRate": null,
                             "offPeakRate": null,
-                            "dailyRate": "£3.30",
+                            "dailyRate": "\u00a33.30",
                             "saturdayRate": null,
                             "sundayRate": null,
-                            "weeklyRate": "£13.20",
-                            "monthlyRate": "£51.00",
+                            "weeklyRate": "\u00a313.20",
+                            "monthlyRate": "\u00a351.00",
                             "threeMonthlyRate": null,
                             "sixMonthlyRate": null,
-                            "annualRate": "£528.00"
+                            "annualRate": "\u00a3528.00"
                         },
                         "notes": "<p>Daily Charge: &#163;3.30\nUp to 2 hours (no return) &#163;0.80\nUp to 4 hours (no return) &#163;1.70\nOvernight Parking (1600-0759) &#163;0.80\n</p>",
                         "accessibleSpacesNotes": null,
@@ -26166,14 +26166,14 @@
                         "charges": {
                             "perHourRate": null,
                             "offPeakRate": null,
-                            "dailyRate": "£13.20",
+                            "dailyRate": "\u00a313.20",
                             "saturdayRate": null,
                             "sundayRate": null,
-                            "weeklyRate": "£52.80",
-                            "monthlyRate": "£203.00",
+                            "weeklyRate": "\u00a352.80",
+                            "monthlyRate": "\u00a3203.00",
                             "threeMonthlyRate": null,
                             "sixMonthlyRate": null,
-                            "annualRate": "£2,112.00"
+                            "annualRate": "\u00a32,112.00"
                         },
                         "notes": "<p>Daily Charge: &#163;13.20\nUp to 2 hours (no return) &#163;3.30\nUp to 4 hours (no return) &#163;6.60\nOvernight Parking (1600-0759) &#163;3.30\n</p><p>Customer wishing to use the car park will have to pay for parking via the ticket office inside the station.</p>",
                         "accessibleSpacesNotes": null,
@@ -30463,14 +30463,14 @@
                         "charges": {
                             "perHourRate": null,
                             "offPeakRate": null,
-                            "dailyRate": "£3.30",
+                            "dailyRate": "\u00a33.30",
                             "saturdayRate": null,
                             "sundayRate": null,
-                            "weeklyRate": "£13.20",
-                            "monthlyRate": "£51.00",
+                            "weeklyRate": "\u00a313.20",
+                            "monthlyRate": "\u00a351.00",
                             "threeMonthlyRate": null,
                             "sixMonthlyRate": null,
-                            "annualRate": "£528.00"
+                            "annualRate": "\u00a3528.00"
                         },
                         "notes": "<p>Daily Charge: &#163;3.30\nUp to 2 hours (no return) &#163;0.80\nUp to 4 hours (no return) &#163;1.70\nOvernight Parking (1600-0759) &#163;0.80\n</p>",
                         "accessibleSpacesNotes": null,
@@ -33782,8 +33782,8 @@
         },
         {
             "changeHistory": {
-                "changedBy": "AAP2",
-                "lastChangedDate": "2026-06-23T21:57:24.000Z"
+                "changedBy": "Contentful",
+                "lastChangedDate": "2026-07-09T10:47:43.556Z"
             },
             "name": "Bridlington",
             "slug": "bridlington",
@@ -33803,7 +33803,15 @@
                 "latitude": 54.08414656,
                 "longitude": -0.198719149
             },
-            "stationAlerts": null,
+            "stationAlerts": [
+                {
+                    "name": "Bridlington Lifts",
+                    "title": null,
+                    "validFrom": "2026-04-15T00:00:00",
+                    "validTo": null,
+                    "alertText": "<p>The lifts are currently out of order at Bridlington station.</p>"
+                }
+            ],
             "stationOperator": {
                 "name": "Northern",
                 "slug": "northern",
@@ -34444,14 +34452,14 @@
                         "charges": {
                             "perHourRate": null,
                             "offPeakRate": null,
-                            "dailyRate": "£3.30",
+                            "dailyRate": "\u00a33.30",
                             "saturdayRate": null,
                             "sundayRate": null,
-                            "weeklyRate": "£13.20",
-                            "monthlyRate": "£51.00",
+                            "weeklyRate": "\u00a313.20",
+                            "monthlyRate": "\u00a351.00",
                             "threeMonthlyRate": null,
                             "sixMonthlyRate": null,
-                            "annualRate": "£528.00"
+                            "annualRate": "\u00a3528.00"
                         },
                         "notes": "<p>Daily Charge: &#163;3.30\nUp to 2 hours (no return) &#163;0.80\nUp to 4 hours (no return) &#163;1.70\nOvernight Parking (1600-0759) &#163;0.80\n</p>",
                         "accessibleSpacesNotes": null,
@@ -35436,7 +35444,7 @@
             "stationAccessibility": {
                 "stepFreeCategory": {
                     "category": null,
-                    "notes": "<ul><li>Category B Station</li></ul><p>Access to both platforms via ramps and road bridge – please note, ramps are steeper than usual. Step free access from the car park to the station entrance</p><p>To find our more about travelling around this station, please see the 360 map <a href=\"https://tourmkr.com/F1o0sP1FIV/35707566p&230.79h&84.72t\" title=\"\">click here</a></p>",
+                    "notes": "<ul><li>Category B Station</li></ul><p>Access to both platforms via ramps and road bridge \u2013 please note, ramps are steeper than usual. Step free access from the car park to the station entrance</p><p>To find our more about travelling around this station, please see the 360 map <a href=\"https://tourmkr.com/F1o0sP1FIV/35707566p&230.79h&84.72t\" title=\"\">click here</a></p>",
                     "levelAccess": null
                 },
                 "nearestAccessibleStations": {
@@ -40455,14 +40463,14 @@
                         "charges": {
                             "perHourRate": null,
                             "offPeakRate": null,
-                            "dailyRate": "£2.20",
+                            "dailyRate": "\u00a32.20",
                             "saturdayRate": null,
                             "sundayRate": null,
-                            "weeklyRate": "£8.80",
-                            "monthlyRate": "£34.00",
+                            "weeklyRate": "\u00a38.80",
+                            "monthlyRate": "\u00a334.00",
                             "threeMonthlyRate": null,
                             "sixMonthlyRate": null,
-                            "annualRate": "£352.00"
+                            "annualRate": "\u00a3352.00"
                         },
                         "notes": "<p>Daily Charge: &#163;2.20\nUp to 2 hours (no return) &#163;0.60\nUp to 4 hours (no return) &#163;1.10\nOvernight Parking (1600-0759) &#163;0.60\n</p>",
                         "accessibleSpacesNotes": null,
@@ -43540,14 +43548,14 @@
                         "charges": {
                             "perHourRate": null,
                             "offPeakRate": null,
-                            "dailyRate": "£2.20",
+                            "dailyRate": "\u00a32.20",
                             "saturdayRate": null,
                             "sundayRate": null,
-                            "weeklyRate": "£8.80",
-                            "monthlyRate": "£34.00",
+                            "weeklyRate": "\u00a38.80",
+                            "monthlyRate": "\u00a334.00",
                             "threeMonthlyRate": null,
                             "sixMonthlyRate": null,
-                            "annualRate": "£352.00"
+                            "annualRate": "\u00a3352.00"
                         },
                         "notes": "<p>Download and use the RingGo app or pay online at <a href=\"http://www.ringgo.co.uk/\" title=\"\">www.RingGo.co.uk</a> </p><p>Use RingGo Code 45802 Or You can call 0113 8090070, RingGo Code 45802</p><p>Daily Charge: &#163;2.20</p><p>Up to 2 hours (no return) &#163;0.60</p><p>Up to 4 hours (no return) &#163;1.10</p><p>Overnight Parking (1600-0759) &#163;0.60</p>",
                         "accessibleSpacesNotes": null,
@@ -44701,14 +44709,14 @@
                         "charges": {
                             "perHourRate": null,
                             "offPeakRate": null,
-                            "dailyRate": "£2.20",
+                            "dailyRate": "\u00a32.20",
                             "saturdayRate": null,
                             "sundayRate": null,
-                            "weeklyRate": "£8.80",
-                            "monthlyRate": "£34.00",
+                            "weeklyRate": "\u00a38.80",
+                            "monthlyRate": "\u00a334.00",
                             "threeMonthlyRate": null,
                             "sixMonthlyRate": null,
-                            "annualRate": "£352.00"
+                            "annualRate": "\u00a3352.00"
                         },
                         "notes": "<p>Daily Charge: &#163;2.20\nUp to 2 hours (no return) &#163;0.60\nUp to 4 hours (no return) &#163;1.10\nOvernight Parking (1600-0759) &#163;0.60\n</p>",
                         "accessibleSpacesNotes": null,
@@ -45721,14 +45729,14 @@
                         "charges": {
                             "perHourRate": null,
                             "offPeakRate": null,
-                            "dailyRate": "£4.40",
+                            "dailyRate": "\u00a34.40",
                             "saturdayRate": null,
                             "sundayRate": null,
-                            "weeklyRate": "£17.60",
-                            "monthlyRate": "£68.00",
+                            "weeklyRate": "\u00a317.60",
+                            "monthlyRate": "\u00a368.00",
                             "threeMonthlyRate": null,
                             "sixMonthlyRate": null,
-                            "annualRate": "£704.00"
+                            "annualRate": "\u00a3704.00"
                         },
                         "notes": "<p>Daily Charge: &#163;4.40\nUp to 2 hours (no return) &#163;1.10\nUp to 4 hours (no return) &#163;2.20\nOvernight Parking (1600-0759) &#163;1.10\n</p>",
                         "accessibleSpacesNotes": null,
@@ -46835,14 +46843,14 @@
                         "charges": {
                             "perHourRate": null,
                             "offPeakRate": null,
-                            "dailyRate": "£4.40",
+                            "dailyRate": "\u00a34.40",
                             "saturdayRate": null,
                             "sundayRate": null,
-                            "weeklyRate": "£17.60",
-                            "monthlyRate": "£68.00",
+                            "weeklyRate": "\u00a317.60",
+                            "monthlyRate": "\u00a368.00",
                             "threeMonthlyRate": null,
                             "sixMonthlyRate": null,
-                            "annualRate": "£704.00"
+                            "annualRate": "\u00a3704.00"
                         },
                         "notes": "<p>Daily Charge: &#163;4.40\nUp to 2 hours (no return) &#163;1.10\nUp to 4 hours (no return) &#163;2.20\nOvernight Parking (1600-0759) &#163;1.10\n</p><p>Download and use the RingGo app or pay online at <a href=\"http://www.RingGo.co.uk\" title=\"\">www.RingGo.co.uk</a> Use RingGo Code 35706Or You can call 0113 8090070, RingGo Code 35706</p>",
                         "accessibleSpacesNotes": null,
@@ -47335,16 +47343,16 @@
                         "charges": {
                             "perHourRate": null,
                             "offPeakRate": null,
-                            "dailyRate": "£3.30",
+                            "dailyRate": "\u00a33.30",
                             "saturdayRate": null,
                             "sundayRate": null,
-                            "weeklyRate": "£13.20",
-                            "monthlyRate": "£51.00",
+                            "weeklyRate": "\u00a313.20",
+                            "monthlyRate": "\u00a351.00",
                             "threeMonthlyRate": null,
                             "sixMonthlyRate": null,
-                            "annualRate": "£528.00"
+                            "annualRate": "\u00a3528.00"
                         },
-                        "notes": "<p>Daily Charge: &#163;3.30\nUp to 2 hours (no return) &#163;0.80\nUp to 4 hours (no return) &#163;1.70\nOvernight Parking (1600-0759) &#163;0.80\n</p><p>​​​​​​</p><p>Please pay for your parking through RinGgo</p><p>Call 0113 8090070, location Code 35738</p><p>or&#160;Download and use the RingGo app</p><p>or&#160;pay online at <a href=\"http://www.RingGo.co.uk\" title=\"\">www.RingGo.co.uk</a></p>",
+                        "notes": "<p>Daily Charge: &#163;3.30\nUp to 2 hours (no return) &#163;0.80\nUp to 4 hours (no return) &#163;1.70\nOvernight Parking (1600-0759) &#163;0.80\n</p><p>\u200b\u200b\u200b\u200b\u200b\u200b</p><p>Please pay for your parking through RinGgo</p><p>Call 0113 8090070, location Code 35738</p><p>or&#160;Download and use the RingGo app</p><p>or&#160;pay online at <a href=\"http://www.RingGo.co.uk\" title=\"\">www.RingGo.co.uk</a></p>",
                         "accessibleSpacesNotes": null,
                         "accessibleLocations": null
                     }
@@ -52800,14 +52808,14 @@
                         "charges": {
                             "perHourRate": null,
                             "offPeakRate": null,
-                            "dailyRate": "£3.30",
+                            "dailyRate": "\u00a33.30",
                             "saturdayRate": null,
                             "sundayRate": null,
-                            "weeklyRate": "£13.20",
-                            "monthlyRate": "£51.00",
+                            "weeklyRate": "\u00a313.20",
+                            "monthlyRate": "\u00a351.00",
                             "threeMonthlyRate": null,
                             "sixMonthlyRate": null,
-                            "annualRate": "£528.00"
+                            "annualRate": "\u00a3528.00"
                         },
                         "notes": "<p>Daily Charge: &#163;3.30\nUp to 2 hours (no return) &#163;0.80\nUp to 4 hours (no return) &#163;1.70\nOvernight Parking (1600-0759) &#163;0.80\n</p><p>RingGo Code 5720</p><p>Register www.MyRingGo.com or call 01138090070</p>",
                         "accessibleSpacesNotes": null,
@@ -53317,16 +53325,16 @@
                         "charges": {
                             "perHourRate": null,
                             "offPeakRate": null,
-                            "dailyRate": "£2.00",
+                            "dailyRate": "\u00a32.00",
                             "saturdayRate": null,
                             "sundayRate": null,
-                            "weeklyRate": "£8.00",
-                            "monthlyRate": "£31.00",
+                            "weeklyRate": "\u00a38.00",
+                            "monthlyRate": "\u00a331.00",
                             "threeMonthlyRate": null,
                             "sixMonthlyRate": null,
-                            "annualRate": "£320.00"
+                            "annualRate": "\u00a3320.00"
                         },
-                        "notes": "<p>From Monday 7th April 2025, we’re introducing parking charges at more stations on our network to help maximise car park capacity for rail users.</p><p>\nCosts will be a maximum of &#163;2 per day, with locations offering a short-stay option for 50p and resident permits for parking from 4pm to 8am. As is the case in our other locations, we’ll be using RingGo to ensure payments can be made through an app, online, and by phone as well as at our self-serve ticket machines. \n</p><p>Chinley location code 45816</p>",
+                        "notes": "<p>From Monday 7th April 2025, we\u2019re introducing parking charges at more stations on our network to help maximise car park capacity for rail users.</p><p>\nCosts will be a maximum of &#163;2 per day, with locations offering a short-stay option for 50p and resident permits for parking from 4pm to 8am. As is the case in our other locations, we\u2019ll be using RingGo to ensure payments can be made through an app, online, and by phone as well as at our self-serve ticket machines. \n</p><p>Chinley location code 45816</p>",
                         "accessibleSpacesNotes": null,
                         "accessibleLocations": null
                     }
@@ -54024,7 +54032,7 @@
                                 "primaryTelephoneNumber": "0800 200 6060",
                                 "emailAddress": "enquiries@northernrailway.co.uk",
                                 "operatorName": "Northern",
-                                "note": "<p>Daily Car Park Tariff for Chorley is &#163;3.00 before 09.30 hrs Monday - Friday, &#163;2.50 after 09.30 hrs</p><p>Monday - Friday and all day Saturday, Sunday &amp; Bank Holidays</p><p>Download and use the RingGo app or pay online at <a href=\"http://www.RingGo.co.uk\" title=\"\">www.RingGo.co.uk</a> Use RingGo Code 5705&#173;&#173;Or You can call 0113 8090070, RingGo Code 5705 ​​​​​​​</p>"
+                                "note": "<p>Daily Car Park Tariff for Chorley is &#163;3.00 before 09.30 hrs Monday - Friday, &#163;2.50 after 09.30 hrs</p><p>Monday - Friday and all day Saturday, Sunday &amp; Bank Holidays</p><p>Download and use the RingGo app or pay online at <a href=\"http://www.RingGo.co.uk\" title=\"\">www.RingGo.co.uk</a> Use RingGo Code 5705&#173;&#173;Or You can call 0113 8090070, RingGo Code 5705 \u200b\u200b\u200b\u200b\u200b\u200b\u200b</p>"
                             }
                         },
                         "openingHours": [
@@ -54061,14 +54069,14 @@
                         "charges": {
                             "perHourRate": null,
                             "offPeakRate": null,
-                            "dailyRate": "£3.30",
+                            "dailyRate": "\u00a33.30",
                             "saturdayRate": null,
                             "sundayRate": null,
-                            "weeklyRate": "£13.20",
-                            "monthlyRate": "£51.00",
+                            "weeklyRate": "\u00a313.20",
+                            "monthlyRate": "\u00a351.00",
                             "threeMonthlyRate": null,
                             "sixMonthlyRate": null,
-                            "annualRate": "£528.00"
+                            "annualRate": "\u00a3528.00"
                         },
                         "notes": "<p>Daily Charge: &#163;3.30\nUp to 2 hours (no return) &#163;0.80\nUp to 4 hours (no return) &#163;1.70\nOvernight Parking (1600-0759) &#163;0.80\n</p>",
                         "accessibleSpacesNotes": null,
@@ -55024,14 +55032,14 @@
                         "charges": {
                             "perHourRate": null,
                             "offPeakRate": null,
-                            "dailyRate": "£2.20",
+                            "dailyRate": "\u00a32.20",
                             "saturdayRate": null,
                             "sundayRate": null,
-                            "weeklyRate": "£8.80",
-                            "monthlyRate": "£34.00",
+                            "weeklyRate": "\u00a38.80",
+                            "monthlyRate": "\u00a334.00",
                             "threeMonthlyRate": null,
                             "sixMonthlyRate": null,
-                            "annualRate": "£352.00"
+                            "annualRate": "\u00a3352.00"
                         },
                         "notes": "<p>Download and use the RingGo app or pay online at <a href=\"http://www.ringgo.co.uk/\" title=\"\">www.RingGo.co.uk</a> </p><p>Use RingGo Code 45803 Or You can call 0113 8090070, RingGo Code 45803</p><p>Daily Charge: &#163;2.20</p><p>Up to 2 hours (no return) &#163;0.60</p><p>Up to 4 hours (no return) &#163;1.10</p><p>Overnight Parking (1600-0759) &#163;0.60</p>",
                         "accessibleSpacesNotes": null,
@@ -57081,14 +57089,14 @@
                         "charges": {
                             "perHourRate": null,
                             "offPeakRate": null,
-                            "dailyRate": "£2.20",
+                            "dailyRate": "\u00a32.20",
                             "saturdayRate": null,
                             "sundayRate": null,
-                            "weeklyRate": "£8.80",
-                            "monthlyRate": "£34.00",
+                            "weeklyRate": "\u00a38.80",
+                            "monthlyRate": "\u00a334.00",
                             "threeMonthlyRate": null,
                             "sixMonthlyRate": null,
-                            "annualRate": "£352.00"
+                            "annualRate": "\u00a3352.00"
                         },
                         "notes": "<p>Download and use the RingGo app or pay online at <a href=\"http://www.ringgo.co.uk/\" title=\"\">www.RingGo.co.uk</a> </p><p>Use RingGo Code 45804 Or You can call 0113 8090070, RingGo Code 45804</p><p>Daily Charge: &#163;2.20</p><p>Up to 2 hours (no return) &#163;0.60</p><p>Up to 4 hours (no return) &#163;1.10</p><p>Overnight Parking (1600-0759) &#163;0.60</p>",
                         "accessibleSpacesNotes": null,
@@ -58170,14 +58178,14 @@
                         "charges": {
                             "perHourRate": null,
                             "offPeakRate": null,
-                            "dailyRate": "£3.30",
+                            "dailyRate": "\u00a33.30",
                             "saturdayRate": null,
                             "sundayRate": null,
-                            "weeklyRate": "£13.20",
-                            "monthlyRate": "£51.00",
+                            "weeklyRate": "\u00a313.20",
+                            "monthlyRate": "\u00a351.00",
                             "threeMonthlyRate": null,
                             "sixMonthlyRate": null,
-                            "annualRate": "£528.00"
+                            "annualRate": "\u00a3528.00"
                         },
                         "notes": "<p>Daily Charge: &#163;3.30\nUp to 2 hours (no return) &#163;0.80\nUp to 4 hours (no return) &#163;1.70\nOvernight Parking (1600-0759) &#163;0.80\n</p>",
                         "accessibleSpacesNotes": null,
@@ -59218,14 +59226,14 @@
                         "charges": {
                             "perHourRate": null,
                             "offPeakRate": null,
-                            "dailyRate": "£2.20",
+                            "dailyRate": "\u00a32.20",
                             "saturdayRate": null,
                             "sundayRate": null,
-                            "weeklyRate": "£8.80",
-                            "monthlyRate": "£34.00",
+                            "weeklyRate": "\u00a38.80",
+                            "monthlyRate": "\u00a334.00",
                             "threeMonthlyRate": null,
                             "sixMonthlyRate": null,
-                            "annualRate": "£352.00"
+                            "annualRate": "\u00a3352.00"
                         },
                         "notes": "<p>Daily Charge: &#163;2.20\nUp to 2 hours (no return) &#163;0.60\nUp to 4 hours (no return) &#163;1.10\nOvernight Parking (1600-0759) &#163;0.60\n</p>",
                         "accessibleSpacesNotes": null,
@@ -61641,14 +61649,14 @@
                         "charges": {
                             "perHourRate": null,
                             "offPeakRate": null,
-                            "dailyRate": "£2.20",
+                            "dailyRate": "\u00a32.20",
                             "saturdayRate": null,
                             "sundayRate": null,
-                            "weeklyRate": "£8.80",
-                            "monthlyRate": "£34.00",
+                            "weeklyRate": "\u00a38.80",
+                            "monthlyRate": "\u00a334.00",
                             "threeMonthlyRate": null,
                             "sixMonthlyRate": null,
-                            "annualRate": "£352.00"
+                            "annualRate": "\u00a3352.00"
                         },
                         "notes": "<p>\nDaily Charge: &#163;2.20\nUp to 2 hours (no return) &#163;0.60\nUp to 4 hours (no return) &#163;1.10\nOvernight Parking (1600-0759) &#163;0.60\n</p><p>RingGo Code 5718</p><p>Register www.MyRingGo.com or call 01138090070</p>",
                         "accessibleSpacesNotes": null,
@@ -64270,14 +64278,14 @@
                         "charges": {
                             "perHourRate": null,
                             "offPeakRate": null,
-                            "dailyRate": "£2.20",
+                            "dailyRate": "\u00a32.20",
                             "saturdayRate": null,
                             "sundayRate": null,
-                            "weeklyRate": "£8.80",
+                            "weeklyRate": "\u00a38.80",
                             "monthlyRate": null,
                             "threeMonthlyRate": null,
                             "sixMonthlyRate": null,
-                            "annualRate": "£352.00"
+                            "annualRate": "\u00a3352.00"
                         },
                         "notes": "<p>Download and use the RingGo app or pay online at <a href=\"http://www.ringgo.co.uk/\" title=\"\">www.RingGo.co.uk</a> </p><p>Use RingGo Code 45805 Or You can call 0113 8090070, RingGo Code 45805</p><p>Daily Charge: &#163;2.20</p><p>Up to 2 hours (no return) &#163;0.60</p><p>Up to 4 hours (no return) &#163;1.10</p><p>Overnight Parking (1600-0759) &#163;0.60</p>",
                         "accessibleSpacesNotes": null,
@@ -69117,7 +69125,7 @@
                 "replacementBus": {
                     "maps": [],
                     "available": true,
-                    "notes": "<p><em>Rail replacement services pick up/drop off at the bus stops on both Deighton Road and Leeds Road. All services stop at both locations, so customers may use whichever is most convenient.</em></p><p><em>For journeys towards Brighouse, Dewsbury and Wakefield Kirkgate</em></p><p><em>Stop 1 – Deighton Road: The bus stop opposite Riddings Road. What3words: draw.nearly.builds</em></p><p><em>Stop 3 – A62 Leeds Road: The bus stop outside ID-Workz Auto Parts Store adjacent to the junction with Deighton Road. What3words: leader.trains.rider</em></p><p><em>For journeys towards Huddersfield</em></p><p><em>Stop 2 – Deighton Road: The bus stop adjacent to Riddings Road. What3words: fault.robots.chef</em></p><p><em>Stop 4 – A62 Leeds Road: The bus stop outside the VW Car Dealership. What3words: cure.spit.overnight</em></p>"
+                    "notes": "<p><em>Rail replacement services pick up/drop off at the bus stops on both Deighton Road and Leeds Road. All services stop at both locations, so customers may use whichever is most convenient.</em></p><p><em>For journeys towards Brighouse, Dewsbury and Wakefield Kirkgate</em></p><p><em>Stop 1 \u2013 Deighton Road: The bus stop opposite Riddings Road. What3words: draw.nearly.builds</em></p><p><em>Stop 3 \u2013 A62 Leeds Road: The bus stop outside ID-Workz Auto Parts Store adjacent to the junction with Deighton Road. What3words: leader.trains.rider</em></p><p><em>For journeys towards Huddersfield</em></p><p><em>Stop 2 \u2013 Deighton Road: The bus stop adjacent to Riddings Road. What3words: fault.robots.chef</em></p><p><em>Stop 4 \u2013 A62 Leeds Road: The bus stop outside the VW Car Dealership. What3words: cure.spit.overnight</em></p>"
                 },
                 "bus": {
                     "available": true,
@@ -69882,16 +69890,16 @@
                         "charges": {
                             "perHourRate": null,
                             "offPeakRate": null,
-                            "dailyRate": "£2.00",
+                            "dailyRate": "\u00a32.00",
                             "saturdayRate": null,
                             "sundayRate": null,
-                            "weeklyRate": "£8.00",
-                            "monthlyRate": "£31.00",
+                            "weeklyRate": "\u00a38.00",
+                            "monthlyRate": "\u00a331.00",
                             "threeMonthlyRate": null,
                             "sixMonthlyRate": null,
-                            "annualRate": "£320.00"
+                            "annualRate": "\u00a3320.00"
                         },
-                        "notes": "<p>From Monday 7th April 2025, we’re introducing parking charges at more stations on our network to help maximise car park capacity for rail users.</p><p>\nCosts will be a maximum of &#163;2 per day, with locations offering a short-stay option for 50p and resident permits for parking from 4pm to 8am. As is the case in our other locations, we’ll be using RingGo to ensure payments can be made through an app, online, and by phone as well as at our self-serve ticket machines. </p><p>Delamere Location code: 45818\n</p>",
+                        "notes": "<p>From Monday 7th April 2025, we\u2019re introducing parking charges at more stations on our network to help maximise car park capacity for rail users.</p><p>\nCosts will be a maximum of &#163;2 per day, with locations offering a short-stay option for 50p and resident permits for parking from 4pm to 8am. As is the case in our other locations, we\u2019ll be using RingGo to ensure payments can be made through an app, online, and by phone as well as at our self-serve ticket machines. </p><p>Delamere Location code: 45818\n</p>",
                         "accessibleSpacesNotes": null,
                         "accessibleLocations": null
                     }
@@ -73032,14 +73040,14 @@
                         "charges": {
                             "perHourRate": null,
                             "offPeakRate": null,
-                            "dailyRate": "£2.20",
+                            "dailyRate": "\u00a32.20",
                             "saturdayRate": null,
                             "sundayRate": null,
-                            "weeklyRate": "£8.80",
-                            "monthlyRate": "£34.00",
+                            "weeklyRate": "\u00a38.80",
+                            "monthlyRate": "\u00a334.00",
                             "threeMonthlyRate": null,
                             "sixMonthlyRate": null,
-                            "annualRate": "£352.00"
+                            "annualRate": "\u00a3352.00"
                         },
                         "notes": "<p>Download and use the RingGo app or pay online at <a href=\"http://www.ringgo.co.uk/\" title=\"\">www.RingGo.co.uk</a> </p><p>Use RingGo Code 45806 Or You can call 0113 8090070, RingGo Code 45806</p><p>Daily Charge: &#163;2.20</p><p>Up to 2 hours (no return) &#163;0.60</p><p>Up to 4 hours (no return) &#163;1.10</p><p>Overnight Parking (1600-0759) &#163;0.60</p>",
                         "accessibleSpacesNotes": null,
@@ -75244,14 +75252,14 @@
                         "charges": {
                             "perHourRate": null,
                             "offPeakRate": null,
-                            "dailyRate": "£2.20",
+                            "dailyRate": "\u00a32.20",
                             "saturdayRate": null,
                             "sundayRate": null,
-                            "weeklyRate": "£8.80",
-                            "monthlyRate": "£34.00",
+                            "weeklyRate": "\u00a38.80",
+                            "monthlyRate": "\u00a334.00",
                             "threeMonthlyRate": null,
                             "sixMonthlyRate": null,
-                            "annualRate": "£352.00"
+                            "annualRate": "\u00a3352.00"
                         },
                         "notes": "<p>Daily Charge: &#163;2.20\nUp to 2 hours (no return) &#163;0.60\nUp to 4 hours (no return) &#163;1.10\nOvernight Parking (1600-0759) &#163;0.60\n</p><p>RingGo Code 5722</p><p>Register www.MyRingGo.com or call 01138090070</p>",
                         "accessibleSpacesNotes": null,
@@ -76210,14 +76218,14 @@
                         "charges": {
                             "perHourRate": null,
                             "offPeakRate": null,
-                            "dailyRate": "£2.20",
+                            "dailyRate": "\u00a32.20",
                             "saturdayRate": null,
                             "sundayRate": null,
-                            "weeklyRate": "£8.80",
-                            "monthlyRate": "£34.00",
+                            "weeklyRate": "\u00a38.80",
+                            "monthlyRate": "\u00a334.00",
                             "threeMonthlyRate": null,
                             "sixMonthlyRate": null,
-                            "annualRate": "£352.00"
+                            "annualRate": "\u00a3352.00"
                         },
                         "notes": "<p>Daily Charge: &#163;2.20\nUp to 2 hours (no return) &#163;0.60\nUp to 4 hours (no return) &#163;1.10\nOvernight Parking (1600-0759) &#163;0.60\n</p>",
                         "accessibleSpacesNotes": null,
@@ -77193,14 +77201,14 @@
                         "charges": {
                             "perHourRate": null,
                             "offPeakRate": null,
-                            "dailyRate": "£4.40",
+                            "dailyRate": "\u00a34.40",
                             "saturdayRate": null,
                             "sundayRate": null,
-                            "weeklyRate": "£17.60",
-                            "monthlyRate": "£68.00",
+                            "weeklyRate": "\u00a317.60",
+                            "monthlyRate": "\u00a368.00",
                             "threeMonthlyRate": null,
                             "sixMonthlyRate": null,
-                            "annualRate": "£704.00"
+                            "annualRate": "\u00a3704.00"
                         },
                         "notes": "<p>Daily Charge: &#163;4.40\nUp to 2 hours (no return) &#163;1.10\nUp to 4 hours (no return) &#163;2.20\nOvernight Parking (1600-0759) &#163;1.10\n</p><p>RingGo Code 5721</p><p>Register www.MyRingGo.com or call 01138090070</p>",
                         "accessibleSpacesNotes": null,
@@ -78669,7 +78677,7 @@
                         }
                     ],
                     "available": true,
-                    "notes": "<p>Rail replacement services towards Micklefield, York &amp; Selby depart from the bus stop on Fairburn Drive  (45017707) – station side of the road.  Rail replacement services towards Leeds depart from the bus stop on Fairburn Drive (45011708) - opposite side of the road.</p><p>What3words - Towards Micklefield, York &amp; Selby - bats.bronze.supposes &amp; towards Leeds  - bedrooms.wink.outnumber\n</p>"
+                    "notes": "<p>Rail replacement services towards Micklefield, York &amp; Selby depart from the bus stop on Fairburn Drive  (45017707) \u2013 station side of the road.  Rail replacement services towards Leeds depart from the bus stop on Fairburn Drive (45011708) - opposite side of the road.</p><p>What3words - Towards Micklefield, York &amp; Selby - bats.bronze.supposes &amp; towards Leeds  - bedrooms.wink.outnumber\n</p>"
                 },
                 "bus": {
                     "available": true,
@@ -82112,8 +82120,8 @@
         },
         {
             "changeHistory": {
-                "changedBy": "AAP2",
-                "lastChangedDate": "2026-06-23T21:47:13.000Z"
+                "changedBy": "Contentful",
+                "lastChangedDate": "2026-07-10T15:40:42.110Z"
             },
             "name": "Elsecar",
             "slug": "elsecar",
@@ -83501,14 +83509,14 @@
                         "charges": {
                             "perHourRate": null,
                             "offPeakRate": null,
-                            "dailyRate": "£2.20",
+                            "dailyRate": "\u00a32.20",
                             "saturdayRate": null,
                             "sundayRate": null,
-                            "weeklyRate": "£8.80",
-                            "monthlyRate": "£34.00",
+                            "weeklyRate": "\u00a38.80",
+                            "monthlyRate": "\u00a334.00",
                             "threeMonthlyRate": null,
                             "sixMonthlyRate": null,
-                            "annualRate": "£352.00"
+                            "annualRate": "\u00a3352.00"
                         },
                         "notes": "<p>Daily Charge: &#163;2.20\nUp to 2 hours (no return) &#163;0.60\nUp to 4 hours (no return) &#163;1.10\nOvernight Parking (1600-0759) &#163;0.60\n</p>",
                         "accessibleSpacesNotes": null,
@@ -85835,14 +85843,14 @@
                         "charges": {
                             "perHourRate": null,
                             "offPeakRate": null,
-                            "dailyRate": "£2.20",
+                            "dailyRate": "\u00a32.20",
                             "saturdayRate": null,
                             "sundayRate": null,
-                            "weeklyRate": "£8.80",
-                            "monthlyRate": "£34.00",
+                            "weeklyRate": "\u00a38.80",
+                            "monthlyRate": "\u00a334.00",
                             "threeMonthlyRate": null,
                             "sixMonthlyRate": null,
-                            "annualRate": "£352.00"
+                            "annualRate": "\u00a3352.00"
                         },
                         "notes": "<p>Pay by RingGo location code 35734</p><p>Daily Charge: &#163;2.20\nUp to 2 hours (no return) &#163;0.60\nUp to 4 hours (no return) &#163;1.10\nOvernight Parking (1600-0759) &#163;0.60\n</p>",
                         "accessibleSpacesNotes": null,
@@ -95771,14 +95779,14 @@
                         "charges": {
                             "perHourRate": null,
                             "offPeakRate": null,
-                            "dailyRate": "£6.60",
+                            "dailyRate": "\u00a36.60",
                             "saturdayRate": null,
                             "sundayRate": null,
-                            "weeklyRate": "£26.40",
-                            "monthlyRate": "£101.00",
+                            "weeklyRate": "\u00a326.40",
+                            "monthlyRate": "\u00a3101.00",
                             "threeMonthlyRate": null,
                             "sixMonthlyRate": null,
-                            "annualRate": "£1,056.00"
+                            "annualRate": "\u00a31,056.00"
                         },
                         "notes": "<p>Daily Charge: &#163;6.60\nUp to 2 hours (no return) &#163;1.70\nUp to 4 hours (no return) &#163;3.30\nOvernight Parking (1600-0759) &#163;1.70\n</p><p>Download and use the RingGo app or pay online at <a href=\"http://www.ringgo.co.uk/\" title=\"\">www.RingGo.co.uk</a> Use RingGo Code 35708 Or You can call 0113 8090070, RingGo Code 35708 </p>",
                         "accessibleSpacesNotes": null,
@@ -97284,14 +97292,14 @@
                         "charges": {
                             "perHourRate": null,
                             "offPeakRate": null,
-                            "dailyRate": "£2.20",
+                            "dailyRate": "\u00a32.20",
                             "saturdayRate": null,
                             "sundayRate": null,
-                            "weeklyRate": "£8.80",
-                            "monthlyRate": "£34.00",
+                            "weeklyRate": "\u00a38.80",
+                            "monthlyRate": "\u00a334.00",
                             "threeMonthlyRate": null,
                             "sixMonthlyRate": null,
-                            "annualRate": "£352.00"
+                            "annualRate": "\u00a3352.00"
                         },
                         "notes": "<p>Daily Charge: &#163;2.20\nUp to 2 hours (no return) &#163;0.60\nUp to 4 hours (no return) &#163;1.10\nOvernight Parking (1600-0759) &#163;0.60\n</p>",
                         "accessibleSpacesNotes": null,
@@ -97751,14 +97759,14 @@
                         "charges": {
                             "perHourRate": null,
                             "offPeakRate": null,
-                            "dailyRate": "£2.20",
+                            "dailyRate": "\u00a32.20",
                             "saturdayRate": null,
                             "sundayRate": null,
-                            "weeklyRate": "£8.80",
-                            "monthlyRate": "£34.00",
+                            "weeklyRate": "\u00a38.80",
+                            "monthlyRate": "\u00a334.00",
                             "threeMonthlyRate": null,
                             "sixMonthlyRate": null,
-                            "annualRate": "£352.00"
+                            "annualRate": "\u00a3352.00"
                         },
                         "notes": "<p>Daily Charge: &#163;2.20\nUp to 2 hours (no return) &#163;0.60\nUp to 4 hours (no return) &#163;1.10\nOvernight Parking (1600-0759) &#163;0.60\n</p>",
                         "accessibleSpacesNotes": null,
@@ -98962,14 +98970,14 @@
                         "charges": {
                             "perHourRate": null,
                             "offPeakRate": null,
-                            "dailyRate": "£4.40",
+                            "dailyRate": "\u00a34.40",
                             "saturdayRate": null,
                             "sundayRate": null,
-                            "weeklyRate": "£17.60",
-                            "monthlyRate": "£68.00",
+                            "weeklyRate": "\u00a317.60",
+                            "monthlyRate": "\u00a368.00",
                             "threeMonthlyRate": null,
                             "sixMonthlyRate": null,
-                            "annualRate": "£704.00"
+                            "annualRate": "\u00a3704.00"
                         },
                         "notes": "<p>Daily Charge: &#163;4.40\nUp to 2 hours (no return) &#163;1.10\nUp to 4 hours (no return) &#163;2.20\nOvernight Parking (1600-0759) &#163;1.10</p><p>Please note that daily ticket lasts until 23.59 hrs on the day of purchase. After 16.00 hours, if you wish to purchase a ticket to park the car overnight, you can do so and this is valid until 08.00 hours the following day. </p><p>Download and use the RingGo app or pay online at <a href=\"http://www.RingGo.co.uk\" title=\"\">www.RingGo.co.uk</a> Use RingGo Code 35711Or You can call 0113 8090070, RingGo Code 35711</p>",
                         "accessibleSpacesNotes": null,
@@ -101574,14 +101582,14 @@
                         "charges": {
                             "perHourRate": null,
                             "offPeakRate": null,
-                            "dailyRate": "£4.40",
+                            "dailyRate": "\u00a34.40",
                             "saturdayRate": null,
                             "sundayRate": null,
-                            "weeklyRate": "£17.60",
-                            "monthlyRate": "£68.00",
+                            "weeklyRate": "\u00a317.60",
+                            "monthlyRate": "\u00a368.00",
                             "threeMonthlyRate": null,
                             "sixMonthlyRate": null,
-                            "annualRate": "£704.00"
+                            "annualRate": "\u00a3704.00"
                         },
                         "notes": "<p>Download and use the RingGo app or pay online at <a href=\"http://www.RingGo.co.uk\" title=\"\">www.RingGo.co.uk</a> Use RingGo Code 35712Or You can call 0113 8090070, RingGo Code 35712&#173;&#173;</p><p>Daily Charge: &#163;4.40\nUp to 2 hours (no return) &#163;1.10\nUp to 4 hours (no return) &#163;2.20\nOvernight Parking (1600-0759) &#163;1.10\n</p>",
                         "accessibleSpacesNotes": null,
@@ -105999,7 +106007,7 @@
         {
             "changeHistory": {
                 "changedBy": "Contentful",
-                "lastChangedDate": "2026-07-07T19:26:37.597Z"
+                "lastChangedDate": "2026-07-12T04:22:09.063Z"
             },
             "name": "Halifax",
             "slug": "halifax",
@@ -106021,11 +106029,11 @@
             },
             "stationAlerts": [
                 {
-                    "name": "Halifax Station Alert ",
-                    "title": "Halifax Toilets",
-                    "validFrom": "2026-07-07T20:26:00",
+                    "name": "Halifax Lift   ",
+                    "title": null,
+                    "validFrom": "2025-05-09T00:00:00",
                     "validTo": null,
-                    "alertText": "<p>The lifts are out of order between the platforms and the concourse at Halifax station.</p>"
+                    "alertText": "<p>The lifts are out of order at Halifax station.\n </p>"
                 }
             ],
             "stationOperator": {
@@ -108602,8 +108610,8 @@
         },
         {
             "changeHistory": {
-                "changedBy": "AAP2",
-                "lastChangedDate": "2026-06-23T21:50:49.000Z"
+                "changedBy": "Contentful",
+                "lastChangedDate": "2026-06-08T12:33:24.940Z"
             },
             "name": "Hapton",
             "slug": "hapton",
@@ -108659,7 +108667,7 @@
                     "accessibleToiletsAvailable": false,
                     "changingPlacesToiletsAvailable": false,
                     "babyChangingAvailable": false,
-                    "locations": [],
+                    "locations": null,
                     "available": false,
                     "openingTimes": null,
                     "openingHoursNotes": null,
@@ -108671,13 +108679,13 @@
             },
             "stationAccessibility": {
                 "stepFreeCategory": {
-                    "category": "B2, (refer to quick reference guide)",
+                    "category": null,
                     "notes": "<ul><li>Category B Station</li></ul><p>Blackburn and Colne platforms: step free access from Manchester Road down a fairly steep 40 metre ramp with handrail.</p><p>To find our more about travelling around this station, please see the 360 map <a href=\"https://tourmkr.com/F1yJJB0O1Q/37011305p&339.39h&85.36t\" title=\"\">click here</a></p>",
-                    "levelAccess": null
+                    "levelAccess": false
                 },
                 "nearestAccessibleStations": null,
                 "ticketBarriers": {
-                    "names": [],
+                    "names": null,
                     "available": false,
                     "openingTimes": null,
                     "openingHoursNotes": null,
@@ -108686,7 +108694,7 @@
                     "location": null
                 },
                 "trainRamp": {
-                    "storage": "Ramps are available on the train to provide assistance",
+                    "storage": null,
                     "available": true,
                     "openingTimes": null,
                     "openingHoursNotes": null,
@@ -108694,11 +108702,8 @@
                     "notes": null,
                     "location": null
                 },
-                "tactilePaving": "There are tactile warnings on all platforms in use",
-                "inductionLoop": {
-                    "provision": "Induction loops are throughout this station",
-                    "ticketCounters": null
-                },
+                "tactilePaving": null,
+                "inductionLoop": null,
                 "wheelchairsAvailable": false,
                 "escalatorInformation": null,
                 "passengerAssistance": [
@@ -108747,18 +108752,13 @@
                     "notes": "<p>Assistance is provided by the conductor at this station, please wait on the platform for the train to arrive.</p><p>We can also provide help when you travel, even if it has not been booked in advance. You can turn up at this station if it is accessible to you and request assistance onto a train from a member of staff directly, or by using a help point. Boarding ramps are carried on all of our trains.</p><p>We want everyone to travel with confidence. That is why, if you are planning on travelling on national rail services, you can request an assistance booking in advance - now up to 2 hours before your journey is due to start, any time of the day. For more information about Passenger Assist and how to request an assistance booking via Passenger Assist, please <a href=\"https://www.nationalrail.co.uk/stations_destinations/passenger-assist.aspx\" title=\"\">click here.</a></p>",
                     "location": null
                 },
-                "helpPoints": {
-                    "available": false,
-                    "location": null,
-                    "notes": null,
-                    "inductionLoop": null
-                },
+                "helpPoints": null,
                 "informationAvailableFromStaff": null,
                 "customerInformation": [
                     "DepartureScreens",
                     "Announcements"
                 ],
-                "announcements": "Announcements are made both visually and audibly",
+                "announcements": null,
                 "customerServiceNotes": "<p>08002006060</p>"
             },
             "transportLinks": {
@@ -108789,11 +108789,7 @@
                 },
                 "taxi": null
             },
-            "lifts": {
-                "available": false,
-                "statement": "There are no lifts",
-                "liftsInfo": []
-            },
+            "lifts": null,
             "ticketBuying": {
                 "ticketOffice": {
                     "available": false,
@@ -108804,16 +108800,10 @@
                     "location": null
                 },
                 "ticketSalesNotes": null,
-                "ticketMachinesAvailable": true,
-                "vending": [],
-                "travelCentres": [],
-                "ticketMachines": [
-                    {
-                        "name": "Ticket buying and collection on Platform 1",
-                        "hasManoeuvringSpace": "There is space in front of the ticket machine to manoeuvre a wheelchair",
-                        "isWheelchairHeight": "The controls are at a suitable height for wheelchair users"
-                    }
-                ],
+                "ticketMachinesAvailable": false,
+                "vending": null,
+                "travelCentres": null,
+                "ticketMachines": null,
                 "collectOnlineBookedTickets": {
                     "pickUpAtTicketOffice": false,
                     "pickUpAtTicketMachine": true
@@ -108845,7 +108835,7 @@
                 }
             },
             "loungesAndWaiting": {
-                "shelteredWaitingAvailable": true,
+                "shelteredWaitingAvailable": false,
                 "waitingFacility": {
                     "available": false,
                     "openingTimes": null,
@@ -108865,8 +108855,8 @@
                 "firstClass": null,
                 "waitingRooms": null,
                 "firstClassLounges": null,
-                "quietRoom": "There is no quiet room at this station",
-                "faithRoom": "There is no multi-faith room at this station"
+                "quietRoom": null,
+                "faithRoom": null
             },
             "stationFacilities": {
                 "cctvAvailable": false,
@@ -108943,51 +108933,8 @@
                 "requestStop": null,
                 "limitedService": null
             },
-            "helpAndSupport": {
-                "helpPoints": {
-                    "available": false,
-                    "location": null,
-                    "notes": null,
-                    "inductionLoop": "Induction loops are throughout this station"
-                },
-                "announcements": "Announcements are made both visually and audibly",
-                "inductionLoops": "Induction loops are throughout this station",
-                "printedLocalInformation": "There is accessible printed information available",
-                "customerInformationScreens": [
-                    "DepartureScreens",
-                    "Announcements"
-                ],
-                "staffInformation": null,
-                "informationPoints": "There are information points",
-                "accessibilityInformation": "There is information about accessibility",
-                "staffHelp": {
-                    "available": false,
-                    "openingTimes": null,
-                    "openingHoursNotes": null,
-                    "operatorContactDetails": null,
-                    "notes": null,
-                    "location": null
-                }
-            },
-            "platformFacilities": {
-                "entranceLevels": "The platforms are below the level of the main entrance of the station",
-                "tactileWarnings": "There are tactile warnings on all platforms in use",
-                "numberOfPlatforms": 2,
-                "platforms": [
-                    {
-                        "name": "Platform 1",
-                        "waitingType": "There is seating/waiting under an open-sided shelter on this platform",
-                        "seatingAtIntervals": "Seating is limited on this platform",
-                        "helpPointClose": "There is no Help Point close to this platform"
-                    },
-                    {
-                        "name": "Platform 2",
-                        "waitingType": "There is seating/waiting under an open-sided shelter on this platform",
-                        "seatingAtIntervals": "Seating is limited on this platform",
-                        "helpPointClose": "There is no Help Point close to this platform"
-                    }
-                ]
-            },
+            "helpAndSupport": null,
+            "platformFacilities": null,
             "cycling": {
                 "cycleStorageAvailable": false,
                 "cycleHireNotes": "<p>Not available at this station.</p>",
@@ -109002,29 +108949,8 @@
                 "sheltered": false,
                 "cctv": false
             },
-            "dropOffPickUp": {
-                "available": true,
-                "notes": "<p>No designated area is provided. Street set down only available.</p>",
-                "location": null,
-                "points": [
-                    {
-                        "name": "Drop-off/pick-up",
-                        "sameSideAsStation": "The drop-off and/or pick-up point is on the same side of the road as the station",
-                        "waitingAreaForDisabledPickup": "This is a combined drop-off and pick-up point",
-                        "typeOfFacility": null,
-                        "carAccommodationCount": "There is space for 1 vehicle at a time to drop-off and/or pick-up",
-                        "easyToDeployRamp": null,
-                        "helpPointClose": "There is no Help Point close to the drop-off and/or pick-up point"
-                    }
-                ]
-            },
-            "carParks": {
-                "parkingSpacesAvailable": null,
-                "numberOfSpaces": null,
-                "accessibleParkingSpacesAvailable": false,
-                "numberOfAccessibleSpaces": 0,
-                "carParks": []
-            }
+            "dropOffPickUp": null,
+            "carParks": null
         },
         {
             "changeHistory": {
@@ -110228,14 +110154,14 @@
                         "charges": {
                             "perHourRate": null,
                             "offPeakRate": null,
-                            "dailyRate": "£6.60",
+                            "dailyRate": "\u00a36.60",
                             "saturdayRate": null,
                             "sundayRate": null,
-                            "weeklyRate": "£26.40",
-                            "monthlyRate": "£101.00",
+                            "weeklyRate": "\u00a326.40",
+                            "monthlyRate": "\u00a3101.00",
                             "threeMonthlyRate": null,
                             "sixMonthlyRate": null,
-                            "annualRate": "£1,056.00"
+                            "annualRate": "\u00a31,056.00"
                         },
                         "notes": "<p>Daily Charge: &#163;6.60\nUp to 2 hours (no return) &#163;1.70\nUp to 4 hours (no return) &#163;3.30\nOvernight Parking (1600-0759) &#163;1.70\n</p><p>Download and use the RingGo app or pay online at <a href=\"http://www.RingGo.co.uk\" title=\"\">www.RingGo.co.uk</a> Use RingGo Code 5711Or You can call 0113 8090070, RingGo Code 5711</p>",
                         "accessibleSpacesNotes": null,
@@ -110912,7 +110838,7 @@
                         "charges": {
                             "perHourRate": null,
                             "offPeakRate": null,
-                            "dailyRate": "£0.00",
+                            "dailyRate": "\u00a30.00",
                             "saturdayRate": null,
                             "sundayRate": null,
                             "weeklyRate": null,
@@ -110921,7 +110847,7 @@
                             "sixMonthlyRate": null,
                             "annualRate": null
                         },
-                        "notes": "<p>Information as at 22/05/25 taken from the Hartlepool Council site</p><p>User 1 – 2hrs - &#163;1.60 / 3hrs - &#163;2.10 / 10hrs - &#163;2.60 ~ User 2 – 24hrs &#163;5 .70 (up to 7x24hrs) </p>",
+                        "notes": "<p>Information as at 22/05/25 taken from the Hartlepool Council site</p><p>User 1 \u2013 2hrs - &#163;1.60 / 3hrs - &#163;2.10 / 10hrs - &#163;2.60 ~ User 2 \u2013 24hrs &#163;5 .70 (up to 7x24hrs) </p>",
                         "accessibleSpacesNotes": "<p>For information please see <a href=\"https://www.hartlepool.gov.uk/directory_record/59/transport_interchange\" title=\"\">Town Centre Car Parks - Transport Interchange | Hartlepool Borough Council</a> </p>",
                         "accessibleLocations": null
                     }
@@ -111900,14 +111826,14 @@
                         "charges": {
                             "perHourRate": null,
                             "offPeakRate": null,
-                            "dailyRate": "£2.20",
+                            "dailyRate": "\u00a32.20",
                             "saturdayRate": null,
                             "sundayRate": null,
-                            "weeklyRate": "£8.80",
-                            "monthlyRate": "£34.00",
+                            "weeklyRate": "\u00a38.80",
+                            "monthlyRate": "\u00a334.00",
                             "threeMonthlyRate": null,
                             "sixMonthlyRate": null,
-                            "annualRate": "£352.00"
+                            "annualRate": "\u00a3352.00"
                         },
                         "notes": "<p>Download and use the RingGo app or pay online at <a href=\"http://www.ringgo.co.uk/\" title=\"\">www.RingGo.co.uk</a> </p><p>Use RingGo Code 45807 Or You can call 0113 8090070, RingGo Code 45807</p><p>Daily Charge: &#163;2.20</p><p>Up to 2 hours (no return) &#163;0.60</p><p>Up to 4 hours (no return) &#163;1.10</p><p>Overnight Parking (1600-0759) &#163;0.60</p>",
                         "accessibleSpacesNotes": null,
@@ -112976,14 +112902,14 @@
                         "charges": {
                             "perHourRate": null,
                             "offPeakRate": null,
-                            "dailyRate": "£2.20",
+                            "dailyRate": "\u00a32.20",
                             "saturdayRate": null,
                             "sundayRate": null,
-                            "weeklyRate": "£8.80",
-                            "monthlyRate": "£34.00",
+                            "weeklyRate": "\u00a38.80",
+                            "monthlyRate": "\u00a334.00",
                             "threeMonthlyRate": null,
                             "sixMonthlyRate": null,
-                            "annualRate": "£352.00"
+                            "annualRate": "\u00a3352.00"
                         },
                         "notes": "<p>Download and use the RingGo app or pay online at <a href=\"http://www.ringgo.co.uk/\" title=\"\">www.RingGo.co.uk</a> </p><p>Use RingGo Code 45808 Or You can call 0113 8090070, RingGo Code 45808</p><p>Daily Charge: &#163;2.20</p><p>Up to 2 hours (no return) &#163;0.60</p><p>Up to 4 hours (no return) &#163;1.10</p><p>Overnight Parking (1600-0759) &#163;0.60</p>",
                         "accessibleSpacesNotes": null,
@@ -118390,7 +118316,7 @@
             "stationAccessibility": {
                 "stepFreeCategory": {
                     "category": "B2, (refer to quick reference guide)",
-                    "notes": "<p><strong>Category B Station</strong></p><p>There is now a Northern team member available from the first train of the day until the last, every day. This means customers can rely on staff being present throughout the station’s operating hours. If you need help crossing the tracks using the barrow crossing, a member of staff will always be on hand to assist. You’ll find our team at the Hexham ticket office, ready to support all customers, including those with accessibility needs. You can also book Passenger Assistance in advance at <a href=\"https://eur03.safelinks.protection.outlook.com/?url=https%3A%2F%2Furldefense.com%2Fv3%2F__http%3A%2Fnorthernrailway.co.uk%2Fpassenger-assist__%3B!!OyO3LyAn!9FY4DvmWZRgjjb9SitPjKz3N4LkzCw25XGhH58LU3h8NAOinTvGnZzd5rrAORpl3j6MNkvtRLn0mqN6rsC5zI9dKjlHl4jN8xxySRPr6C_RbXA%24&data=05%7C02%7CDutyManager%40nrcommcentre.com%7C25b9d58ff6bc4be9179f08ddeed4e2af%7Ca1a72d9c49e64f6d9af65aafa1183bfd%7C0%7C0%7C638929320522570892%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&sdata=rIkL6syHCcsa8cX4ussLsVShA%2BuDn1lGYnBOgX6gGmU%3D&reserved=0\" title=\"\">northernrailway.co.uk/passenger-assist</a> or by calling 0800 138 5560. Northern is committed to making rail travel more accessible and inclusive for everyone.</p><p>For customers who arrive on platform 1 (Newcastle bound) and need assistance, please use the call button located at the bottom of the stairs, which alerts the ticket office. </p><p>To find our more about travelling around this station, please see the 360 map <a href=\"https://tourmkr.com/F1h9VxgWaO/35604718p&68.12h&89.37t\" title=\"\">click here</a></p>",
+                    "notes": "<p><strong>Category B Station</strong></p><p>There is now a Northern team member available from the first train of the day until the last, every day. This means customers can rely on staff being present throughout the station\u2019s operating hours. If you need help crossing the tracks using the barrow crossing, a member of staff will always be on hand to assist. You\u2019ll find our team at the Hexham ticket office, ready to support all customers, including those with accessibility needs. You can also book Passenger Assistance in advance at <a href=\"https://eur03.safelinks.protection.outlook.com/?url=https%3A%2F%2Furldefense.com%2Fv3%2F__http%3A%2Fnorthernrailway.co.uk%2Fpassenger-assist__%3B!!OyO3LyAn!9FY4DvmWZRgjjb9SitPjKz3N4LkzCw25XGhH58LU3h8NAOinTvGnZzd5rrAORpl3j6MNkvtRLn0mqN6rsC5zI9dKjlHl4jN8xxySRPr6C_RbXA%24&data=05%7C02%7CDutyManager%40nrcommcentre.com%7C25b9d58ff6bc4be9179f08ddeed4e2af%7Ca1a72d9c49e64f6d9af65aafa1183bfd%7C0%7C0%7C638929320522570892%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&sdata=rIkL6syHCcsa8cX4ussLsVShA%2BuDn1lGYnBOgX6gGmU%3D&reserved=0\" title=\"\">northernrailway.co.uk/passenger-assist</a> or by calling 0800 138 5560. Northern is committed to making rail travel more accessible and inclusive for everyone.</p><p>For customers who arrive on platform 1 (Newcastle bound) and need assistance, please use the call button located at the bottom of the stairs, which alerts the ticket office. </p><p>To find our more about travelling around this station, please see the 360 map <a href=\"https://tourmkr.com/F1h9VxgWaO/35604718p&68.12h&89.37t\" title=\"\">click here</a></p>",
                     "levelAccess": null
                 },
                 "nearestAccessibleStations": null,
@@ -119001,14 +118927,14 @@
                         "charges": {
                             "perHourRate": null,
                             "offPeakRate": null,
-                            "dailyRate": "£2.20",
+                            "dailyRate": "\u00a32.20",
                             "saturdayRate": null,
                             "sundayRate": null,
-                            "weeklyRate": "£8.80",
-                            "monthlyRate": "£34.00",
+                            "weeklyRate": "\u00a38.80",
+                            "monthlyRate": "\u00a334.00",
                             "threeMonthlyRate": null,
                             "sixMonthlyRate": null,
-                            "annualRate": "£352.00"
+                            "annualRate": "\u00a3352.00"
                         },
                         "notes": "<p>Daily Charge: &#163;2.20\nUp to 2 hours (no return) &#163;0.60\nUp to 4 hours (no return) &#163;1.10\nOvernight Parking (1600-0759) &#163;0.60\n</p>",
                         "accessibleSpacesNotes": null,
@@ -120699,14 +120625,14 @@
                         "charges": {
                             "perHourRate": null,
                             "offPeakRate": null,
-                            "dailyRate": "£3.30",
+                            "dailyRate": "\u00a33.30",
                             "saturdayRate": null,
                             "sundayRate": null,
-                            "weeklyRate": "£13.20",
-                            "monthlyRate": "£51.00",
+                            "weeklyRate": "\u00a313.20",
+                            "monthlyRate": "\u00a351.00",
                             "threeMonthlyRate": null,
                             "sixMonthlyRate": null,
-                            "annualRate": "£528.00"
+                            "annualRate": "\u00a3528.00"
                         },
                         "notes": "<p>Daily Charge: &#163;3.30\nUp to 2 hours (no return) &#163;0.80\nUp to 4 hours (no return) &#163;1.70\nOvernight Parking (1600-0759) &#163;0.80\n</p><p>RingGo Code 5727</p><p>Register www.MyRingGo.com or call 01138090070</p>",
                         "accessibleSpacesNotes": null,
@@ -121600,14 +121526,14 @@
                         "charges": {
                             "perHourRate": null,
                             "offPeakRate": null,
-                            "dailyRate": "£2.20",
+                            "dailyRate": "\u00a32.20",
                             "saturdayRate": null,
                             "sundayRate": null,
-                            "weeklyRate": "£8.80",
-                            "monthlyRate": "£34.00",
+                            "weeklyRate": "\u00a38.80",
+                            "monthlyRate": "\u00a334.00",
                             "threeMonthlyRate": null,
                             "sixMonthlyRate": null,
-                            "annualRate": "£352.00"
+                            "annualRate": "\u00a3352.00"
                         },
                         "notes": "<p>Daily Charge: &#163;2.20\nUp to 2 hours (no return) &#163;0.60\nUp to 4 hours (no return) &#163;1.10\nOvernight Parking (1600-0759) &#163;0.60\n</p><p>Download and use the RingGo app or pay online at <a href=\"http://www.RingGo.co.uk\" title=\"\">www.RingGo.co.uk</a> Use RingGo Code 35736Or You can call 0113 8090070, RingGo Code 35736</p>",
                         "accessibleSpacesNotes": null,
@@ -127071,8 +126997,8 @@
         },
         {
             "changeHistory": {
-                "changedBy": "AAP2",
-                "lastChangedDate": "2026-06-23T21:45:21.000Z"
+                "changedBy": "Contentful",
+                "lastChangedDate": "2026-07-10T14:01:25.120Z"
             },
             "name": "Huyton",
             "slug": "huyton",
@@ -127098,7 +127024,7 @@
                     "title": null,
                     "validFrom": "2026-05-20T00:00:00",
                     "validTo": null,
-                    "alertText": "<p>All toilets are out of order at Huyton station.</p>"
+                    "alertText": "<p>All toilets are out of order at Huyton station.</p><p>The lift on platform 1 is currently out of order at Huyton station.</p>"
                 }
             ],
             "stationOperator": {
@@ -132204,7 +132130,7 @@
                         "charges": {
                             "perHourRate": null,
                             "offPeakRate": null,
-                            "dailyRate": "£1.00",
+                            "dailyRate": "\u00a31.00",
                             "saturdayRate": null,
                             "sundayRate": null,
                             "weeklyRate": null,
@@ -139063,14 +138989,14 @@
                         "charges": {
                             "perHourRate": null,
                             "offPeakRate": null,
-                            "dailyRate": "£4.40",
+                            "dailyRate": "\u00a34.40",
                             "saturdayRate": null,
                             "sundayRate": null,
-                            "weeklyRate": "£17.60",
-                            "monthlyRate": "£68.00",
+                            "weeklyRate": "\u00a317.60",
+                            "monthlyRate": "\u00a368.00",
                             "threeMonthlyRate": null,
                             "sixMonthlyRate": null,
-                            "annualRate": "£704.00"
+                            "annualRate": "\u00a3704.00"
                         },
                         "notes": "<p>Daily Charge: &#163;4.40\nUp to 2 hours (no return) &#163;1.10\nUp to 4 hours (no return) &#163;2.20\nOvernight Parking (1600-0759) &#163;1.10\n</p>",
                         "accessibleSpacesNotes": "<p>Parking is free for disabled customers displaying a valid International Blue Badge</p>",
@@ -140512,14 +140438,14 @@
                         "charges": {
                             "perHourRate": null,
                             "offPeakRate": null,
-                            "dailyRate": "£2.20",
+                            "dailyRate": "\u00a32.20",
                             "saturdayRate": null,
                             "sundayRate": null,
-                            "weeklyRate": "£8.80",
-                            "monthlyRate": "£34.00",
+                            "weeklyRate": "\u00a38.80",
+                            "monthlyRate": "\u00a334.00",
                             "threeMonthlyRate": null,
                             "sixMonthlyRate": null,
-                            "annualRate": "£352.00"
+                            "annualRate": "\u00a3352.00"
                         },
                         "notes": "<p>Download and use the RingGo app or pay online at <a href=\"http://www.ringgo.co.uk/\" title=\"\">www.RingGo.co.uk</a> </p><p>Use RingGo Code 45809 Or You can call 0113 8090070, RingGo Code 45809</p><p>Daily Charge: &#163;2.20</p><p>Up to 2 hours (no return) &#163;0.60</p><p>Up to 4 hours (no return) &#163;1.10</p><p>Overnight Parking (1600-0759) &#163;0.60</p>",
                         "accessibleSpacesNotes": null,
@@ -141154,7 +141080,7 @@
                 "replacementBus": {
                     "maps": [],
                     "available": true,
-                    "notes": "<p>Rail replacement buses will pick up/drop off at the service bus stops on Marshalls Cross Road.  Station side at bus stop B towards St Helens/Liverpool and bust top C (opposite side) towards Newton-le-Willows/Manchester.</p><p>What3words – Towards St Helens/Liverpool - blank.thankful.tastes &amp; towards Newton-le-Willows/Manchester - december.stability.hampers</p>"
+                    "notes": "<p>Rail replacement buses will pick up/drop off at the service bus stops on Marshalls Cross Road.  Station side at bus stop B towards St Helens/Liverpool and bust top C (opposite side) towards Newton-le-Willows/Manchester.</p><p>What3words \u2013 Towards St Helens/Liverpool - blank.thankful.tastes &amp; towards Newton-le-Willows/Manchester - december.stability.hampers</p>"
                 },
                 "bus": {
                     "available": true,
@@ -143279,10 +143205,10 @@
                         "charges": {
                             "perHourRate": null,
                             "offPeakRate": null,
-                            "dailyRate": "£1.00",
+                            "dailyRate": "\u00a31.00",
                             "saturdayRate": null,
                             "sundayRate": null,
-                            "weeklyRate": "£4.00",
+                            "weeklyRate": "\u00a34.00",
                             "monthlyRate": null,
                             "threeMonthlyRate": null,
                             "sixMonthlyRate": null,
@@ -145097,7 +145023,7 @@
                 "replacementBus": {
                     "maps": [],
                     "available": true,
-                    "notes": "<p>Pick up/drop off at the public bus stops outside St Bedes Primary School (outside school towards Saltburn &amp; Opposite school towards Middlesbrough)</p><p>What3words – Towards Saltburn bugs.shape.enjoy &amp; towards Middlesbrough lakes.taped.heavy </p>"
+                    "notes": "<p>Pick up/drop off at the public bus stops outside St Bedes Primary School (outside school towards Saltburn &amp; Opposite school towards Middlesbrough)</p><p>What3words \u2013 Towards Saltburn bugs.shape.enjoy &amp; towards Middlesbrough lakes.taped.heavy </p>"
                 },
                 "bus": {
                     "available": true,
@@ -153564,7 +153490,7 @@
                 "cycleHireNotes": "<p>Not available at this station.</p>",
                 "spaces": {
                     "numberOfSpaces": 20,
-                    "notes": "<p>Sign up for cycle storage here <a href=\"https://www.russellsbicycleshed.co.uk/cycle-hubs-sign-up\" title=\"\">Cycle Hubs Sign Up — Russell’s Bicycle Shed</a> </p>"
+                    "notes": "<p>Sign up for cycle storage here <a href=\"https://www.russellsbicycleshed.co.uk/cycle-hubs-sign-up\" title=\"\">Cycle Hubs Sign Up \u2014 Russell\u2019s Bicycle Shed</a> </p>"
                 },
                 "typesOfStorage": [
                     "Compounds"
@@ -153917,7 +153843,7 @@
                 "statement": "There are lifts",
                 "liftsInfo": [
                     {
-                        "name": "Lift 1 – Platform 1",
+                        "name": "Lift 1 \u2013 Platform 1",
                         "operationalAnnouncements": "There are audio announcements provided outside and inside this lift",
                         "liftControls": "Lift controls should be accessible to most people",
                         "liftManoeuvrability": "The lift has a 1.5 metre turning circle inside",
@@ -160840,7 +160766,7 @@
                         "charges": {
                             "perHourRate": null,
                             "offPeakRate": null,
-                            "dailyRate": "£3.00",
+                            "dailyRate": "\u00a33.00",
                             "saturdayRate": null,
                             "sundayRate": null,
                             "weeklyRate": null,
@@ -160858,8 +160784,8 @@
         },
         {
             "changeHistory": {
-                "changedBy": "AAP2",
-                "lastChangedDate": "2026-06-23T21:19:37.000Z"
+                "changedBy": "Contentful",
+                "lastChangedDate": "2026-07-09T11:18:25.806Z"
             },
             "name": "Morley",
             "slug": "morley",
@@ -160879,7 +160805,15 @@
                 "latitude": 53.74994099,
                 "longitude": -1.590971837
             },
-            "stationAlerts": null,
+            "stationAlerts": [
+                {
+                    "name": "Morley Station Alert",
+                    "title": null,
+                    "validFrom": "2026-05-29T00:00:00",
+                    "validTo": null,
+                    "alertText": "<p>The lifts are out of order between platform 1 and the rest of the station at Morley station.</p>"
+                }
+            ],
             "stationOperator": {
                 "name": "Northern",
                 "slug": "northern",
@@ -162026,14 +161960,14 @@
                         "charges": {
                             "perHourRate": null,
                             "offPeakRate": null,
-                            "dailyRate": "£4.40",
+                            "dailyRate": "\u00a34.40",
                             "saturdayRate": null,
                             "sundayRate": null,
-                            "weeklyRate": "£17.60",
-                            "monthlyRate": "£68.00",
+                            "weeklyRate": "\u00a317.60",
+                            "monthlyRate": "\u00a368.00",
                             "threeMonthlyRate": null,
                             "sixMonthlyRate": null,
-                            "annualRate": "£704.00"
+                            "annualRate": "\u00a3704.00"
                         },
                         "notes": "<p>Daily Charge: &#163;4.40\nUp to 2 hours (no return) &#163;1.10\nUp to 4 hours (no return) &#163;2.20\nOvernight Parking (1600-0759) &#163;1.10\n</p><p>RingGo Code 5719</p><p>Register www.MyRingGo.com or call 01138090070</p>",
                         "accessibleSpacesNotes": null,
@@ -162913,7 +162847,7 @@
                     "title": "Rail replacement - Mossley",
                     "validFrom": "2025-09-01T19:00:00",
                     "validTo": null,
-                    "alertText": "<p>Rail replacement buses pick up / drop off at the bus stops on Manchester Road (A635) near The Britannia Inn.</p><p><em>Part of the car park at Mossley station will be temporarily closed while engineering works are taking place as part of the Transpennine Route Upgrade.</em></p><p><em>Customers will not be able to access the car park on the following dates:</em></p><p><em>&#183; Friday 17 July at 22:00 – Monday 20 July at 22:00.</em></p><p><em>Pedestrian access will remain in place at the station.</em></p><p><em>Customers are advised to check details of their journey before travelling. Further information is available via information posters at the station or through contacting the Northern customer experience centre telephone number on 0800 200 6060.</em></p>"
+                    "alertText": "<p>Rail replacement buses pick up / drop off at the bus stops on Manchester Road (A635) near The Britannia Inn.</p><p><em>Part of the car park at Mossley station will be temporarily closed while engineering works are taking place as part of the Transpennine Route Upgrade.</em></p><p><em>Customers will not be able to access the car park on the following dates:</em></p><p><em>&#183; Friday 17 July at 22:00 \u2013 Monday 20 July at 22:00.</em></p><p><em>Pedestrian access will remain in place at the station.</em></p><p><em>Customers are advised to check details of their journey before travelling. Further information is available via information posters at the station or through contacting the Northern customer experience centre telephone number on 0800 200 6060.</em></p>"
                 }
             ],
             "stationOperator": {
@@ -165002,14 +164936,14 @@
                         "charges": {
                             "perHourRate": null,
                             "offPeakRate": null,
-                            "dailyRate": "£2.20",
+                            "dailyRate": "\u00a32.20",
                             "saturdayRate": null,
                             "sundayRate": null,
-                            "weeklyRate": "£8.80",
-                            "monthlyRate": "£34.00",
+                            "weeklyRate": "\u00a38.80",
+                            "monthlyRate": "\u00a334.00",
                             "threeMonthlyRate": null,
                             "sixMonthlyRate": null,
-                            "annualRate": "£352.00"
+                            "annualRate": "\u00a3352.00"
                         },
                         "notes": "<p>Download and use the RingGo app or pay online at <a href=\"http://www.ringgo.co.uk/\" title=\"\">www.RingGo.co.uk</a> </p><p>Use RingGo Code 45810 Or You can call 0113 8090070, RingGo Code 45810</p><p>Daily Charge: &#163;2.20</p><p>Up to 2 hours (no return) &#163;0.60</p><p>Up to 4 hours (no return) &#163;1.10</p><p>Overnight Parking (1600-0759) &#163;0.60</p>",
                         "accessibleSpacesNotes": null,
@@ -168963,14 +168897,14 @@
                         "charges": {
                             "perHourRate": null,
                             "offPeakRate": null,
-                            "dailyRate": "£2.20",
+                            "dailyRate": "\u00a32.20",
                             "saturdayRate": null,
                             "sundayRate": null,
-                            "weeklyRate": "£8.80",
-                            "monthlyRate": "£34.00",
+                            "weeklyRate": "\u00a38.80",
+                            "monthlyRate": "\u00a334.00",
                             "threeMonthlyRate": null,
                             "sixMonthlyRate": null,
-                            "annualRate": "£352.00"
+                            "annualRate": "\u00a3352.00"
                         },
                         "notes": "<p>Download and use the RingGo app or pay online at <a href=\"http://www.ringgo.co.uk/\" title=\"\">www.RingGo.co.uk</a> </p><p>Use RingGo Code 45811 Or You can call 0113 8090070, RingGo Code 45811</p><p>Daily Charge: &#163;2.20</p><p>Up to 2 hours (no return) &#163;0.60</p><p>Up to 4 hours (no return) &#163;1.10</p><p>Overnight Parking (1600-0759) &#163;0.60</p>",
                         "accessibleSpacesNotes": null,
@@ -168981,8 +168915,8 @@
         },
         {
             "changeHistory": {
-                "changedBy": "AAP2",
-                "lastChangedDate": "2026-06-23T21:25:28.000Z"
+                "changedBy": "Contentful",
+                "lastChangedDate": "2026-07-09T08:25:19.698Z"
             },
             "name": "New Pudsey",
             "slug": "new-pudsey",
@@ -169196,7 +169130,7 @@
                         }
                     ],
                     "available": true,
-                    "notes": "<p>Rail replacement services pick up/drop off at the junction of the Ring Road and Owlcotes Lane - 100 yards from the station.</p><p>What3words - span.jolly.spins</p>"
+                    "notes": "<p>Rail replacement services pick up/drop off at the junction of the Ring Road and Owlcotes Lane - 100 yards from the station.</p><p>What3words - span.jolly.spins</p><p><strong>09.07.2026 - NB - Due to current roadworks on this stretch, a temporary bus stops has been erected. During this time our rail replacement services will call at the temporary bus stop which is before the turn off to Owlcotes Lane. </strong></p><p><strong>What3words - lined.extend.gossip</strong></p><p></p>"
                 },
                 "bus": {
                     "available": true,
@@ -173359,14 +173293,14 @@
                         "charges": {
                             "perHourRate": null,
                             "offPeakRate": null,
-                            "dailyRate": "£2.20",
+                            "dailyRate": "\u00a32.20",
                             "saturdayRate": null,
                             "sundayRate": null,
-                            "weeklyRate": "£8.80",
-                            "monthlyRate": "£34.00",
+                            "weeklyRate": "\u00a38.80",
+                            "monthlyRate": "\u00a334.00",
                             "threeMonthlyRate": null,
                             "sixMonthlyRate": null,
-                            "annualRate": "£352.00"
+                            "annualRate": "\u00a3352.00"
                         },
                         "notes": "<p>Daily Charge: &#163;2.20\nUp to 2 hours (no return) &#163;0.60\nUp to 4 hours (no return) &#163;1.10\nOvernight Parking (1600-0759) &#163;0.60\n</p>",
                         "accessibleSpacesNotes": null,
@@ -175235,14 +175169,14 @@
                         "charges": {
                             "perHourRate": null,
                             "offPeakRate": null,
-                            "dailyRate": "£2.20",
+                            "dailyRate": "\u00a32.20",
                             "saturdayRate": null,
                             "sundayRate": null,
-                            "weeklyRate": "£8.80",
-                            "monthlyRate": "£34.00",
+                            "weeklyRate": "\u00a38.80",
+                            "monthlyRate": "\u00a334.00",
                             "threeMonthlyRate": null,
                             "sixMonthlyRate": null,
-                            "annualRate": "£352.00"
+                            "annualRate": "\u00a3352.00"
                         },
                         "notes": "<p>Download and use the RingGo app or pay online at <a href=\"http://www.ringgo.co.uk/\" title=\"\">www.RingGo.co.uk</a> </p><p>Use RingGo Code 45812 Or You can call 0113 8090070, RingGo Code 45812</p><p>Daily Charge: &#163;2.20</p><p>Up to 2 hours (no return) &#163;0.60</p><p>Up to 4 hours (no return) &#163;1.10</p><p>Overnight Parking (1600-0759) &#163;0.60</p>",
                         "accessibleSpacesNotes": null,
@@ -175740,14 +175674,14 @@
                         "charges": {
                             "perHourRate": null,
                             "offPeakRate": null,
-                            "dailyRate": "£3.30",
+                            "dailyRate": "\u00a33.30",
                             "saturdayRate": null,
                             "sundayRate": null,
-                            "weeklyRate": "£13.20",
-                            "monthlyRate": "£51.00",
+                            "weeklyRate": "\u00a313.20",
+                            "monthlyRate": "\u00a351.00",
                             "threeMonthlyRate": null,
                             "sixMonthlyRate": null,
-                            "annualRate": "£528.00"
+                            "annualRate": "\u00a3528.00"
                         },
                         "notes": "<p>Daily Charge: &#163;3.30\nUp to 2 hours (no return) &#163;0.80\nUp to 4 hours (no return) &#163;1.70\nOvernight Parking (1600-0759) &#163;0.80\n</p>",
                         "accessibleSpacesNotes": null,
@@ -181209,7 +181143,7 @@
                         }
                     ],
                     "available": true,
-                    "notes": "<p>Rail replacement services pick up/drop off at the bus stop on Station Road on platform one side of the level crossing for services towards Harrogate. Opposite side of the road (station side) for services towards York.</p><p>What3words – Towards Harrogate - river.horses.status &amp; towards York - itself.sung.free</p>"
+                    "notes": "<p>Rail replacement services pick up/drop off at the bus stop on Station Road on platform one side of the level crossing for services towards Harrogate. Opposite side of the road (station side) for services towards York.</p><p>What3words \u2013 Towards Harrogate - river.horses.status &amp; towards York - itself.sung.free</p>"
                 },
                 "bus": {
                     "available": true,
@@ -181530,14 +181464,14 @@
                         "charges": {
                             "perHourRate": null,
                             "offPeakRate": null,
-                            "dailyRate": "£2.20",
+                            "dailyRate": "\u00a32.20",
                             "saturdayRate": null,
                             "sundayRate": null,
-                            "weeklyRate": "£8.80",
+                            "weeklyRate": "\u00a38.80",
                             "monthlyRate": null,
                             "threeMonthlyRate": null,
                             "sixMonthlyRate": null,
-                            "annualRate": "£352.00"
+                            "annualRate": "\u00a3352.00"
                         },
                         "notes": "<p>Daily Charge: &#163;2.20\nUp to 2 hours (no return) &#163;0.60\nUp to 4 hours (no return) &#163;1.10\nOvernight Parking (1600-0759) &#163;0.60\n</p>",
                         "accessibleSpacesNotes": null,
@@ -182178,14 +182112,14 @@
                         "charges": {
                             "perHourRate": null,
                             "offPeakRate": null,
-                            "dailyRate": "£2.20",
+                            "dailyRate": "\u00a32.20",
                             "saturdayRate": null,
                             "sundayRate": null,
-                            "weeklyRate": "£8.80",
-                            "monthlyRate": "£34.00",
+                            "weeklyRate": "\u00a38.80",
+                            "monthlyRate": "\u00a334.00",
                             "threeMonthlyRate": null,
                             "sixMonthlyRate": null,
-                            "annualRate": "£352.00"
+                            "annualRate": "\u00a3352.00"
                         },
                         "notes": "<p>Daily Charge: &#163;2.20\nUp to 2 hours (no return) &#163;0.60\nUp to 4 hours (no return) &#163;1.10\nOvernight Parking (1600-0759) &#163;0.60\n</p>",
                         "accessibleSpacesNotes": null,
@@ -182888,14 +182822,14 @@
                         "charges": {
                             "perHourRate": null,
                             "offPeakRate": null,
-                            "dailyRate": "£2.20",
+                            "dailyRate": "\u00a32.20",
                             "saturdayRate": null,
                             "sundayRate": null,
-                            "weeklyRate": "£8.80",
-                            "monthlyRate": "£34.00",
+                            "weeklyRate": "\u00a38.80",
+                            "monthlyRate": "\u00a334.00",
                             "threeMonthlyRate": null,
                             "sixMonthlyRate": null,
-                            "annualRate": "£352.00"
+                            "annualRate": "\u00a3352.00"
                         },
                         "notes": "<p>Daily Charge: &#163;2.20\nUp to 2 hours (no return) &#163;0.60\nUp to 4 hours (no return) &#163;1.10\nOvernight Parking (1600-0759) &#163;0.60\n</p><p>RingGo Code 5725</p><p>Register www.MyRingGo.com or call 01138090070</p>",
                         "accessibleSpacesNotes": null,
@@ -184023,14 +183957,14 @@
                         "charges": {
                             "perHourRate": null,
                             "offPeakRate": null,
-                            "dailyRate": "£2.20",
+                            "dailyRate": "\u00a32.20",
                             "saturdayRate": null,
                             "sundayRate": null,
-                            "weeklyRate": "£8.80",
-                            "monthlyRate": "£34.00",
+                            "weeklyRate": "\u00a38.80",
+                            "monthlyRate": "\u00a334.00",
                             "threeMonthlyRate": null,
                             "sixMonthlyRate": null,
-                            "annualRate": "£352.00"
+                            "annualRate": "\u00a3352.00"
                         },
                         "notes": "<p>Daily Charge: &#163;2.20\nUp to 2 hours (no return) &#163;0.60\nUp to 4 hours (no return) &#163;1.10\nOvernight Parking (1600-0759) &#163;0.60\n</p><p>&#160;RingGo Code 5726</p><p>Register www.MyRingGo.com or call 01138090070</p>",
                         "accessibleSpacesNotes": null,
@@ -186733,7 +186667,7 @@
                 "replacementBus": {
                     "maps": [],
                     "available": true,
-                    "notes": "<p>Rail replacement Services to Huddersfield will use Bus Stop 45015132 on Huddersfield Road at Ravensthorpe Gyratory. \nRail replacement Services to Dewsbury/Leeds will use Bus Stop 45015131 on Huddersfield Road outside Barry’s Builders Merchant. </p><p>What3words - Towards Huddersfield - tilt.client.villa &amp; towards Dewsbury/Leeds - less.mutual.supper</p>"
+                    "notes": "<p>Rail replacement Services to Huddersfield will use Bus Stop 45015132 on Huddersfield Road at Ravensthorpe Gyratory. \nRail replacement Services to Dewsbury/Leeds will use Bus Stop 45015131 on Huddersfield Road outside Barry\u2019s Builders Merchant. </p><p>What3words - Towards Huddersfield - tilt.client.villa &amp; towards Dewsbury/Leeds - less.mutual.supper</p>"
                 },
                 "bus": {
                     "available": true,
@@ -188431,14 +188365,14 @@
                         "charges": {
                             "perHourRate": null,
                             "offPeakRate": null,
-                            "dailyRate": "£3.30",
+                            "dailyRate": "\u00a33.30",
                             "saturdayRate": null,
                             "sundayRate": null,
-                            "weeklyRate": "£13.20",
-                            "monthlyRate": "£51.00",
+                            "weeklyRate": "\u00a313.20",
+                            "monthlyRate": "\u00a351.00",
                             "threeMonthlyRate": null,
                             "sixMonthlyRate": null,
-                            "annualRate": "£528.00"
+                            "annualRate": "\u00a3528.00"
                         },
                         "notes": "<p>Daily Charge: &#163;3.30\nUp to 2 hours (no return) &#163;0.80\nUp to 4 hours (no return) &#163;1.70\nOvernight Parking (1600-0759) &#163;0.80\n</p>",
                         "accessibleSpacesNotes": null,
@@ -191030,7 +190964,7 @@
                 "replacementBus": {
                     "maps": [],
                     "available": true,
-                    "notes": "<p>Rail replacement buses will pick up/drop off at the bus stop opposite the Central Methodist Church if travelling towards Hebden Bridge and at the bus stop outside Georgiou’s Barbers if travelling towards Burnley Manchester Road &amp; Walsden.</p><p>What3words - Towards Blackburn - spit.heats.scam &amp; towards Colne - teeth.glaze.trying</p>"
+                    "notes": "<p>Rail replacement buses will pick up/drop off at the bus stop opposite the Central Methodist Church if travelling towards Hebden Bridge and at the bus stop outside Georgiou\u2019s Barbers if travelling towards Burnley Manchester Road &amp; Walsden.</p><p>What3words - Towards Blackburn - spit.heats.scam &amp; towards Colne - teeth.glaze.trying</p>"
                 },
                 "bus": {
                     "available": true,
@@ -196654,7 +196588,7 @@
                 "replacementBus": {
                     "maps": [],
                     "available": true,
-                    "notes": "<p>Pick Up / Drop Off at the bus stops on Chapel Street.</p><p>What3words - Towards Manchester – note.famed.stone &amp; towards Wigan – froth.blitz.bland</p>"
+                    "notes": "<p>Pick Up / Drop Off at the bus stops on Chapel Street.</p><p>What3words - Towards Manchester \u2013 note.famed.stone &amp; towards Wigan \u2013 froth.blitz.bland</p>"
                 },
                 "bus": {
                     "available": true,
@@ -197535,8 +197469,8 @@
         },
         {
             "changeHistory": {
-                "changedBy": "Contentful",
-                "lastChangedDate": "2026-06-26T15:53:08.620Z"
+                "changedBy": "AAP2",
+                "lastChangedDate": "2026-07-10T10:41:02.000Z"
             },
             "name": "Saltaire",
             "slug": "saltaire",
@@ -197632,7 +197566,7 @@
                 "escalatorInformation": null,
                 "passengerAssistance": [
                     {
-                        "name": "Saltaire Passenger Assistance Meeting Point 0",
+                        "name": "Saltaire Passenger Assistance Meeting Point",
                         "available": true,
                         "notes": "<p>Please wait on the platform in view of the station/on-train staff and make yourself known when the train arrives so they can assist you.</p>",
                         "location": "<p>Platform</p>"
@@ -197725,12 +197659,12 @@
             },
             "ticketBuying": {
                 "ticketOffice": {
-                    "available": true,
+                    "available": false,
                     "openingTimes": null,
                     "openingHoursNotes": "<p>unstaffed</p>",
                     "operatorContactDetails": null,
                     "notes": null,
-                    "location": "<p>Platform 1</p>"
+                    "location": "<p>no ticket office</p>"
                 },
                 "ticketSalesNotes": null,
                 "ticketMachinesAvailable": true,
@@ -200661,14 +200595,14 @@
                         "charges": {
                             "perHourRate": null,
                             "offPeakRate": null,
-                            "dailyRate": "£2.20",
+                            "dailyRate": "\u00a32.20",
                             "saturdayRate": null,
                             "sundayRate": null,
-                            "weeklyRate": "£8.80",
-                            "monthlyRate": "£34.00",
+                            "weeklyRate": "\u00a38.80",
+                            "monthlyRate": "\u00a334.00",
                             "threeMonthlyRate": null,
                             "sixMonthlyRate": null,
-                            "annualRate": "£352.00"
+                            "annualRate": "\u00a3352.00"
                         },
                         "notes": "<p>Daily Charge: &#163;2.20\nUp to 2 hours (no return) &#163;0.60\nUp to 4 hours (no return) &#163;1.10\nOvernight Parking (1600-0759) &#163;0.60\n</p>",
                         "accessibleSpacesNotes": null,
@@ -201463,7 +201397,7 @@
                         }
                     ],
                     "available": true,
-                    "notes": "<p>Rail replacement services pick up/drop off at the bus stops on Station Road. The bus stop opposite Spar for services towards Newcastle and the bus stop outside Sam’s Chop Suey House for services towards Middlesbrough. </p><p>What3words - Towards Newcastle - gazed.piles.life &amp; towards Middlesbrough - carry.scenes.lame </p>"
+                    "notes": "<p>Rail replacement services pick up/drop off at the bus stops on Station Road. The bus stop opposite Spar for services towards Newcastle and the bus stop outside Sam\u2019s Chop Suey House for services towards Middlesbrough. </p><p>What3words - Towards Newcastle - gazed.piles.life &amp; towards Middlesbrough - carry.scenes.lame </p>"
                 },
                 "bus": {
                     "available": true,
@@ -202938,7 +202872,7 @@
                 "replacementBus": {
                     "maps": [],
                     "available": true,
-                    "notes": "<p>Rail replacement pick up point is the bus stops on the A192, near Wheatridge, NE25 0QX.</p><p>what3words: Ripen.Friday.crackling – Direction of Newcastle and Commoners.oiled.secrets - Direction of Ashington</p>"
+                    "notes": "<p>Rail replacement pick up point is the bus stops on the A192, near Wheatridge, NE25 0QX.</p><p>what3words: Ripen.Friday.crackling \u2013 Direction of Newcastle and Commoners.oiled.secrets - Direction of Ashington</p>"
                 },
                 "bus": {
                     "available": true,
@@ -203759,7 +203693,7 @@
             "stationAccessibility": {
                 "stepFreeCategory": {
                     "category": "B2, (refer to quick reference guide)",
-                    "notes": "<ul><li>Category B Station</li></ul><p>There is now a Northern team member available from the first train of the day until the last, every day. This means customers can rely on staff being present throughout the station’s operating hours. If you need help crossing the tracks using the barrow crossing, a member of staff will always be on hand to assist. You’ll find our team at the Settle ticket office, ready to support all customers, including those with accessibility needs. You can also book Passenger Assistance in advance at <a href=\"https://eur03.safelinks.protection.outlook.com/?url=https%3A%2F%2Furldefense.com%2Fv3%2F__http%3A%2Fnorthernrailway.co.uk%2Fpassenger-assist__%3B!!OyO3LyAn!9FY4DvmWZRgjjb9SitPjKz3N4LkzCw25XGhH58LU3h8NAOinTvGnZzd5rrAORpl3j6MNkvtRLn0mqN6rsC5zI9dKjlHl4jN8xxySRPr6C_RbXA%24&data=05%7C02%7CDutyManager%40nrcommcentre.com%7C25b9d58ff6bc4be9179f08ddeed4e2af%7Ca1a72d9c49e64f6d9af65aafa1183bfd%7C0%7C0%7C638929320522512878%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&sdata=Qeba8LO6AtHGtTBu%2BBt5huzAR%2BwUYxHTE0n9w3rVFFo%3D&reserved=0\" title=\"\">northernrailway.co.uk/passenger-assist</a> or by calling 0800 138 5560. </p>",
+                    "notes": "<ul><li>Category B Station</li></ul><p>There is now a Northern team member available from the first train of the day until the last, every day. This means customers can rely on staff being present throughout the station\u2019s operating hours. If you need help crossing the tracks using the barrow crossing, a member of staff will always be on hand to assist. You\u2019ll find our team at the Settle ticket office, ready to support all customers, including those with accessibility needs. You can also book Passenger Assistance in advance at <a href=\"https://eur03.safelinks.protection.outlook.com/?url=https%3A%2F%2Furldefense.com%2Fv3%2F__http%3A%2Fnorthernrailway.co.uk%2Fpassenger-assist__%3B!!OyO3LyAn!9FY4DvmWZRgjjb9SitPjKz3N4LkzCw25XGhH58LU3h8NAOinTvGnZzd5rrAORpl3j6MNkvtRLn0mqN6rsC5zI9dKjlHl4jN8xxySRPr6C_RbXA%24&data=05%7C02%7CDutyManager%40nrcommcentre.com%7C25b9d58ff6bc4be9179f08ddeed4e2af%7Ca1a72d9c49e64f6d9af65aafa1183bfd%7C0%7C0%7C638929320522512878%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&sdata=Qeba8LO6AtHGtTBu%2BBt5huzAR%2BwUYxHTE0n9w3rVFFo%3D&reserved=0\" title=\"\">northernrailway.co.uk/passenger-assist</a> or by calling 0800 138 5560. </p>",
                     "levelAccess": null
                 },
                 "nearestAccessibleStations": null,
@@ -204313,7 +204247,7 @@
                         "charges": {
                             "perHourRate": null,
                             "offPeakRate": null,
-                            "dailyRate": "£2.00",
+                            "dailyRate": "\u00a32.00",
                             "saturdayRate": null,
                             "sundayRate": null,
                             "weeklyRate": null,
@@ -208977,14 +208911,14 @@
                         "charges": {
                             "perHourRate": null,
                             "offPeakRate": null,
-                            "dailyRate": "£6.60",
+                            "dailyRate": "\u00a36.60",
                             "saturdayRate": null,
                             "sundayRate": null,
-                            "weeklyRate": "£26.40",
-                            "monthlyRate": "£101.00",
+                            "weeklyRate": "\u00a326.40",
+                            "monthlyRate": "\u00a3101.00",
                             "threeMonthlyRate": null,
                             "sixMonthlyRate": null,
-                            "annualRate": "£1,056.00"
+                            "annualRate": "\u00a31,056.00"
                         },
                         "notes": "<p>Daily Charge: &#163;6.60\nUp to 2 hours (no return) &#163;1.70\nUp to 4 hours (no return) &#163;3.30\nOvernight Parking (1600-0759) &#163;1.70\n</p>",
                         "accessibleSpacesNotes": null,
@@ -210866,14 +210800,14 @@
                         "charges": {
                             "perHourRate": null,
                             "offPeakRate": null,
-                            "dailyRate": "£2.20",
+                            "dailyRate": "\u00a32.20",
                             "saturdayRate": null,
                             "sundayRate": null,
-                            "weeklyRate": "£8.80",
-                            "monthlyRate": "£34.00",
+                            "weeklyRate": "\u00a38.80",
+                            "monthlyRate": "\u00a334.00",
                             "threeMonthlyRate": null,
                             "sixMonthlyRate": null,
-                            "annualRate": "£352.00"
+                            "annualRate": "\u00a3352.00"
                         },
                         "notes": "<p>Daily Charge: &#163;2.20\nUp to 2 hours (no return) &#163;0.60\nUp to 4 hours (no return) &#163;1.10\nOvernight Parking (1600-0759) &#163;0.60\n</p>",
                         "accessibleSpacesNotes": null,
@@ -212310,14 +212244,14 @@
                         "charges": {
                             "perHourRate": null,
                             "offPeakRate": null,
-                            "dailyRate": "£2.20",
+                            "dailyRate": "\u00a32.20",
                             "saturdayRate": null,
                             "sundayRate": null,
-                            "weeklyRate": "£8.80",
-                            "monthlyRate": "£34.00",
+                            "weeklyRate": "\u00a38.80",
+                            "monthlyRate": "\u00a334.00",
                             "threeMonthlyRate": null,
                             "sixMonthlyRate": null,
-                            "annualRate": "£352.00"
+                            "annualRate": "\u00a3352.00"
                         },
                         "notes": "<p>Up to 2 hours (No Return) &#163;0.60</p><p>Up to 4 hours (No Return) &#163;1.10</p><p>Overnight Parking &#163;0.60</p>",
                         "accessibleSpacesNotes": null,
@@ -213843,14 +213777,14 @@
                         "charges": {
                             "perHourRate": null,
                             "offPeakRate": null,
-                            "dailyRate": "£4.40",
+                            "dailyRate": "\u00a34.40",
                             "saturdayRate": null,
                             "sundayRate": null,
-                            "weeklyRate": "£17.60",
-                            "monthlyRate": "£68.00",
+                            "weeklyRate": "\u00a317.60",
+                            "monthlyRate": "\u00a368.00",
                             "threeMonthlyRate": null,
                             "sixMonthlyRate": null,
-                            "annualRate": "£704.00"
+                            "annualRate": "\u00a3704.00"
                         },
                         "notes": "<p>Daily Charge: &#163;4.40\nUp to 2 hours (no return) &#163;1.10\nUp to 4 hours (no return) &#163;2.20\nOvernight Parking (1600-0759) &#163;1.10\n</p>",
                         "accessibleSpacesNotes": null,
@@ -217957,16 +217891,16 @@
                         "charges": {
                             "perHourRate": null,
                             "offPeakRate": null,
-                            "dailyRate": "£2.00",
+                            "dailyRate": "\u00a32.00",
                             "saturdayRate": null,
                             "sundayRate": null,
-                            "weeklyRate": "£8.00",
-                            "monthlyRate": "£31.00",
+                            "weeklyRate": "\u00a38.00",
+                            "monthlyRate": "\u00a331.00",
                             "threeMonthlyRate": null,
                             "sixMonthlyRate": null,
-                            "annualRate": "£320.00"
+                            "annualRate": "\u00a3320.00"
                         },
-                        "notes": "<p>From Monday 7th April 2025, we’re introducing parking charges at more stations on our network to help maximise car park capacity for rail users.\nCosts will be a maximum of &#163;2 per day, with locations offering a short-stay option for 50p and resident permits for parking from 4pm to 8am. As is the case in our other locations, we’ll be using RingGo to ensure payments can be made through an app, online, and by phone as well as at our self-serve ticket machines. \n</p><p>Stocksfield location code 45820</p>",
+                        "notes": "<p>From Monday 7th April 2025, we\u2019re introducing parking charges at more stations on our network to help maximise car park capacity for rail users.\nCosts will be a maximum of &#163;2 per day, with locations offering a short-stay option for 50p and resident permits for parking from 4pm to 8am. As is the case in our other locations, we\u2019ll be using RingGo to ensure payments can be made through an app, online, and by phone as well as at our self-serve ticket machines. \n</p><p>Stocksfield location code 45820</p>",
                         "accessibleSpacesNotes": null,
                         "accessibleLocations": null
                     }
@@ -223225,7 +223159,7 @@
             "stationAccessibility": {
                 "stepFreeCategory": {
                     "category": "B3, step-free access only to some platforms",
-                    "notes": "<ul><li>Category B Station</li></ul><p>There is now a Northern team member available from the first train of the day until the last, every day. This means customers can rely on staff being present throughout the station’s operating hours. If you need help crossing the tracks using the barrow crossing, a member of staff will always be on hand to assist. You’ll find our team at the Thorne North ticket office, ready to support all customers, including those with accessibility needs. You can also book Passenger Assistance in advance at <a href=\"https://eur03.safelinks.protection.outlook.com/?url=https%3A%2F%2Furldefense.com%2Fv3%2F__http%3A%2Fnorthernrailway.co.uk%2Fpassenger-assist__%3B!!OyO3LyAn!9FY4DvmWZRgjjb9SitPjKz3N4LkzCw25XGhH58LU3h8NAOinTvGnZzd5rrAORpl3j6MNkvtRLn0mqN6rsC5zI9dKjlHl4jN8xxySRPr6C_RbXA%24&data=05%7C02%7CDutyManager%40nrcommcentre.com%7C25b9d58ff6bc4be9179f08ddeed4e2af%7Ca1a72d9c49e64f6d9af65aafa1183bfd%7C0%7C0%7C638929320522512878%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&sdata=Qeba8LO6AtHGtTBu%2BBt5huzAR%2BwUYxHTE0n9w3rVFFo%3D&reserved=0\" title=\"\">northernrailway.co.uk/passenger-assist</a> or by calling 0800 138 5560. Northern is committed to making rail travel more accessible and inclusive for everyone.</p><p>To find our more about travelling around this station, please see the 360 map <a href=\"https://tourmkr.com/F1fYyI9eUU/35723905p&328.15h&88.58t\" title=\"\">click here</a></p>",
+                    "notes": "<ul><li>Category B Station</li></ul><p>There is now a Northern team member available from the first train of the day until the last, every day. This means customers can rely on staff being present throughout the station\u2019s operating hours. If you need help crossing the tracks using the barrow crossing, a member of staff will always be on hand to assist. You\u2019ll find our team at the Thorne North ticket office, ready to support all customers, including those with accessibility needs. You can also book Passenger Assistance in advance at <a href=\"https://eur03.safelinks.protection.outlook.com/?url=https%3A%2F%2Furldefense.com%2Fv3%2F__http%3A%2Fnorthernrailway.co.uk%2Fpassenger-assist__%3B!!OyO3LyAn!9FY4DvmWZRgjjb9SitPjKz3N4LkzCw25XGhH58LU3h8NAOinTvGnZzd5rrAORpl3j6MNkvtRLn0mqN6rsC5zI9dKjlHl4jN8xxySRPr6C_RbXA%24&data=05%7C02%7CDutyManager%40nrcommcentre.com%7C25b9d58ff6bc4be9179f08ddeed4e2af%7Ca1a72d9c49e64f6d9af65aafa1183bfd%7C0%7C0%7C638929320522512878%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&sdata=Qeba8LO6AtHGtTBu%2BBt5huzAR%2BwUYxHTE0n9w3rVFFo%3D&reserved=0\" title=\"\">northernrailway.co.uk/passenger-assist</a> or by calling 0800 138 5560. Northern is committed to making rail travel more accessible and inclusive for everyone.</p><p>To find our more about travelling around this station, please see the 360 map <a href=\"https://tourmkr.com/F1fYyI9eUU/35723905p&328.15h&88.58t\" title=\"\">click here</a></p>",
                     "levelAccess": null
                 },
                 "nearestAccessibleStations": null,
@@ -224888,7 +224822,7 @@
                         }
                     ],
                     "available": true,
-                    "notes": "<p>Rail replacement services pick up/drop off at the bus stops on Halifax Road.  Bus stop outside the Central Methodist Church towards Hebden Bridge and bus stop outside Georgiou’s Barbers towards Burnley/Walsden.</p><p>What3words - Towards Hebden Bridge - toxic.fully.juggles &amp; towards Burnley/Walsden - exploring.zones.distracts</p>"
+                    "notes": "<p>Rail replacement services pick up/drop off at the bus stops on Halifax Road.  Bus stop outside the Central Methodist Church towards Hebden Bridge and bus stop outside Georgiou\u2019s Barbers towards Burnley/Walsden.</p><p>What3words - Towards Hebden Bridge - toxic.fully.juggles &amp; towards Burnley/Walsden - exploring.zones.distracts</p>"
                 },
                 "bus": {
                     "available": true,
@@ -226188,7 +226122,7 @@
             "stationAccessibility": {
                 "stepFreeCategory": {
                     "category": "B3, step-free access only to some platforms",
-                    "notes": "<ul><li>Mobility Scooter friendly station</li><li>Category B Station</li></ul><p>There is now a Northern team member available from the first train of the day until the last, every day. This means customers can rely on staff being present throughout the station’s operating hours. If you need help crossing the tracks using the barrow crossing, a member of staff will always be on hand to assist. You’ll find our team at the Ulverston ticket office, ready to support all customers, including those with accessibility needs. You can also book Passenger Assistance in advance at <a href=\"https://eur03.safelinks.protection.outlook.com/?url=https%3A%2F%2Furldefense.com%2Fv3%2F__http%3A%2Fnorthernrailway.co.uk%2Fpassenger-assist__%3B!!OyO3LyAn!9FY4DvmWZRgjjb9SitPjKz3N4LkzCw25XGhH58LU3h8NAOinTvGnZzd5rrAORpl3j6MNkvtRLn0mqN6rsC5zI9dKjlHl4jN8xxySRPr6C_RbXA%24&data=05%7C02%7CDutyManager%40nrcommcentre.com%7C25b9d58ff6bc4be9179f08ddeed4e2af%7Ca1a72d9c49e64f6d9af65aafa1183bfd%7C0%7C0%7C638929320522449203%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&sdata=TSIvLpeLVgSUJ76zCef6fz9W7y%2BFyFAfzkgS2RDR16Q%3D&reserved=0\" title=\"\">northernrailway.co.uk/passenger-assist</a> or by calling 0800 138 5560. Northern is committed to making rail travel more accessible and inclusive for everyone.</p><p>Step free access to platform 1. Stepped subway to platforms 2-3.</p><p>To find our more about travelling around this station, please see the 360 map <a href=\"https://tourmkr.com/F1XuSEs8Ru/35933337p&46.2h&76.8t\" title=\"\">click here</a>.</p>",
+                    "notes": "<ul><li>Mobility Scooter friendly station</li><li>Category B Station</li></ul><p>There is now a Northern team member available from the first train of the day until the last, every day. This means customers can rely on staff being present throughout the station\u2019s operating hours. If you need help crossing the tracks using the barrow crossing, a member of staff will always be on hand to assist. You\u2019ll find our team at the Ulverston ticket office, ready to support all customers, including those with accessibility needs. You can also book Passenger Assistance in advance at <a href=\"https://eur03.safelinks.protection.outlook.com/?url=https%3A%2F%2Furldefense.com%2Fv3%2F__http%3A%2Fnorthernrailway.co.uk%2Fpassenger-assist__%3B!!OyO3LyAn!9FY4DvmWZRgjjb9SitPjKz3N4LkzCw25XGhH58LU3h8NAOinTvGnZzd5rrAORpl3j6MNkvtRLn0mqN6rsC5zI9dKjlHl4jN8xxySRPr6C_RbXA%24&data=05%7C02%7CDutyManager%40nrcommcentre.com%7C25b9d58ff6bc4be9179f08ddeed4e2af%7Ca1a72d9c49e64f6d9af65aafa1183bfd%7C0%7C0%7C638929320522449203%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&sdata=TSIvLpeLVgSUJ76zCef6fz9W7y%2BFyFAfzkgS2RDR16Q%3D&reserved=0\" title=\"\">northernrailway.co.uk/passenger-assist</a> or by calling 0800 138 5560. Northern is committed to making rail travel more accessible and inclusive for everyone.</p><p>Step free access to platform 1. Stepped subway to platforms 2-3.</p><p>To find our more about travelling around this station, please see the 360 map <a href=\"https://tourmkr.com/F1XuSEs8Ru/35933337p&46.2h&76.8t\" title=\"\">click here</a>.</p>",
                     "levelAccess": null
                 },
                 "nearestAccessibleStations": null,
@@ -226747,14 +226681,14 @@
                         "charges": {
                             "perHourRate": null,
                             "offPeakRate": null,
-                            "dailyRate": "£3.30",
+                            "dailyRate": "\u00a33.30",
                             "saturdayRate": null,
                             "sundayRate": null,
-                            "weeklyRate": "£13.20",
-                            "monthlyRate": "£51.00",
+                            "weeklyRate": "\u00a313.20",
+                            "monthlyRate": "\u00a351.00",
                             "threeMonthlyRate": null,
                             "sixMonthlyRate": null,
-                            "annualRate": "£528.00"
+                            "annualRate": "\u00a3528.00"
                         },
                         "notes": "<p>Up to 2 hours (No Return) &#163;0.80</p><p>Up to 4 hours (No Return) &#163;1.70</p><p>Overnight Parking &#163;0.80</p><p>Download and use the RingGo app or pay online at <a href=\"http://www.RingGo.co.uk\" title=\"\">www.RingGo.co.uk</a> Use RingGo Code 35720 Or You can call 0113 8090070, RingGo Code 35720</p>",
                         "accessibleSpacesNotes": null,
@@ -228382,14 +228316,14 @@
                         "charges": {
                             "perHourRate": null,
                             "offPeakRate": null,
-                            "dailyRate": "£3.30",
+                            "dailyRate": "\u00a33.30",
                             "saturdayRate": null,
                             "sundayRate": null,
-                            "weeklyRate": "£13.20",
-                            "monthlyRate": "£51.00",
+                            "weeklyRate": "\u00a313.20",
+                            "monthlyRate": "\u00a351.00",
                             "threeMonthlyRate": null,
                             "sixMonthlyRate": null,
-                            "annualRate": "£528.00"
+                            "annualRate": "\u00a3528.00"
                         },
                         "notes": "<p>Up to 2 hours (No Return) &#163;0.80</p><p>Up to 4 hours (No Return) &#163;1.70</p><p>Season Tickets available from the Travel Centre at Leeds City Station</p>",
                         "accessibleSpacesNotes": null,
@@ -230082,14 +230016,14 @@
                         "charges": {
                             "perHourRate": null,
                             "offPeakRate": null,
-                            "dailyRate": "£4.40",
+                            "dailyRate": "\u00a34.40",
                             "saturdayRate": null,
                             "sundayRate": null,
-                            "weeklyRate": "£17.60",
-                            "monthlyRate": "£68.00",
+                            "weeklyRate": "\u00a317.60",
+                            "monthlyRate": "\u00a368.00",
                             "threeMonthlyRate": null,
                             "sixMonthlyRate": null,
-                            "annualRate": "£704.00"
+                            "annualRate": "\u00a3704.00"
                         },
                         "notes": "<p>Up to 2 hours (No Return) &#163;1.10</p><p>Up to 4 hours(No Return) &#163;2.20</p><p>Download and use the RingGo app or pay online at <a href=\"http://www.RingGo.co.uk\" title=\"\">www.RingGo.co.uk</a> Use RingGo Code 35722 Or You can call 0113 8090070, RingGo Code 35722</p>",
                         "accessibleSpacesNotes": null,
@@ -231811,14 +231745,14 @@
                         "charges": {
                             "perHourRate": null,
                             "offPeakRate": null,
-                            "dailyRate": "£2.20",
+                            "dailyRate": "\u00a32.20",
                             "saturdayRate": null,
                             "sundayRate": null,
-                            "weeklyRate": "£8.80",
-                            "monthlyRate": "£34.00",
+                            "weeklyRate": "\u00a38.80",
+                            "monthlyRate": "\u00a334.00",
                             "threeMonthlyRate": null,
                             "sixMonthlyRate": null,
-                            "annualRate": "£352.00"
+                            "annualRate": "\u00a3352.00"
                         },
                         "notes": "<p>Daily Charge: &#163;2.20\nUp to 2 hours (no return) &#163;0.60\nUp to 4 hours (no return) &#163;1.10\nOvernight Parking (1600-0759) &#163;0.60\n</p>",
                         "accessibleSpacesNotes": null,
@@ -234552,14 +234486,14 @@
                         "charges": {
                             "perHourRate": null,
                             "offPeakRate": null,
-                            "dailyRate": "£2.00",
+                            "dailyRate": "\u00a32.00",
                             "saturdayRate": null,
                             "sundayRate": null,
-                            "weeklyRate": "£8.00",
-                            "monthlyRate": "£31.00",
+                            "weeklyRate": "\u00a38.00",
+                            "monthlyRate": "\u00a331.00",
                             "threeMonthlyRate": null,
                             "sixMonthlyRate": null,
-                            "annualRate": "£320.00"
+                            "annualRate": "\u00a3320.00"
                         },
                         "notes": "<p>Daily Charge: &#163;2.00</p><p>Up to 2 hours (no return) &#163;0.50</p><p>Up to 4 hours (no return) &#163;1.00</p><p>Overnight Parking (1600-0759) &#163;0.50</p>",
                         "accessibleSpacesNotes": null,
@@ -236148,14 +236082,14 @@
                         "charges": {
                             "perHourRate": null,
                             "offPeakRate": null,
-                            "dailyRate": "£13.20",
+                            "dailyRate": "\u00a313.20",
                             "saturdayRate": null,
                             "sundayRate": null,
-                            "weeklyRate": "£52.80",
-                            "monthlyRate": "£203.00",
+                            "weeklyRate": "\u00a352.80",
+                            "monthlyRate": "\u00a3203.00",
                             "threeMonthlyRate": null,
                             "sixMonthlyRate": null,
-                            "annualRate": "£2,112.00"
+                            "annualRate": "\u00a32,112.00"
                         },
                         "notes": "<p>The Tariff for this car park is:</p><p>Up to 2 hours &#163;3.30</p><p>Up to 4 hours &#163;6.60</p><p>Up to one day &#163;13.20</p><p>Overnight &#163;3.30 - (Overnight tickets can be extended the following day (via the RingGo APP)</p><p>Charges apply 00.00 -23.59 every day</p><p></p>",
                         "accessibleSpacesNotes": null,
@@ -236971,14 +236905,14 @@
                         "charges": {
                             "perHourRate": null,
                             "offPeakRate": null,
-                            "dailyRate": "£4.40",
+                            "dailyRate": "\u00a34.40",
                             "saturdayRate": null,
                             "sundayRate": null,
-                            "weeklyRate": "£17.60",
-                            "monthlyRate": "£68.00",
+                            "weeklyRate": "\u00a317.60",
+                            "monthlyRate": "\u00a368.00",
                             "threeMonthlyRate": null,
                             "sixMonthlyRate": null,
-                            "annualRate": "£708.00"
+                            "annualRate": "\u00a3708.00"
                         },
                         "notes": "<p>Daily Charge: &#163;4.40</p><p>Up to 2 hours (no return) &#163;1.10</p><p>Up to 4 hours (no return) &#163;2.20</p><p>Overnight Parking (1600-0759) &#163;1.10</p><p>RingGo station code 5715&#160;</p><p>Register www.MyRingGo.com or call 01138090070</p>",
                         "accessibleSpacesNotes": null,
@@ -240400,16 +240334,16 @@
                         "cctv": false,
                         "freeParking": false,
                         "charges": {
-                            "perHourRate": "£2.00",
+                            "perHourRate": "\u00a32.00",
                             "offPeakRate": null,
-                            "dailyRate": "£8.80",
+                            "dailyRate": "\u00a38.80",
                             "saturdayRate": null,
                             "sundayRate": null,
-                            "weeklyRate": "£35.20",
-                            "monthlyRate": "£135.00",
+                            "weeklyRate": "\u00a335.20",
+                            "monthlyRate": "\u00a3135.00",
                             "threeMonthlyRate": null,
                             "sixMonthlyRate": null,
-                            "annualRate": "£1,408.00"
+                            "annualRate": "\u00a31,408.00"
                         },
                         "notes": "<p>Up to 2 hours (No Return) &#163;2.20</p><p>Up to 4 Hours (No Return) &#163;4.40</p><p><strong>Premium Parking</strong> (<em>available at the front of the station</em>)</p><p>Daily Rate &#163;13.20</p><p>Weekly: &#163;52.80</p><p>Monthly: &#163;203</p><p>Annual: &#163;2,112</p><p>Up to 2 hours (No Return) &#163;3.30</p><p>Up to 4 hours (No Return) &#163;6.60</p><p>Overnight Parking &#163;3.30</p>",
                         "accessibleSpacesNotes": null,
@@ -241091,16 +241025,16 @@
                         "charges": {
                             "perHourRate": null,
                             "offPeakRate": null,
-                            "dailyRate": "£8.80",
+                            "dailyRate": "\u00a38.80",
                             "saturdayRate": null,
                             "sundayRate": null,
-                            "weeklyRate": "£35.20",
-                            "monthlyRate": "£135.00",
+                            "weeklyRate": "\u00a335.20",
+                            "monthlyRate": "\u00a3135.00",
                             "threeMonthlyRate": null,
                             "sixMonthlyRate": null,
-                            "annualRate": "£1,408.00"
+                            "annualRate": "\u00a31,408.00"
                         },
-                        "notes": "<p>The Tariff for this car park is:</p><p>Up to one hour &#163;2.2.0</p><p>Up to 4 hours &#163;4.40</p><p>Overnight &#163;2.20 - (Overnight tickets can be extended the following day (via the RingGo APP)</p><p>​​​​​​​Download and use the RingGo app or pay online at <a href=\"http://www.RingGo.co.uk\" title=\"\">www.RingGo.co.uk</a> Use RingGo Code 35723Or You can call 0113 8090070, RingGo Code 35723</p>",
+                        "notes": "<p>The Tariff for this car park is:</p><p>Up to one hour &#163;2.2.0</p><p>Up to 4 hours &#163;4.40</p><p>Overnight &#163;2.20 - (Overnight tickets can be extended the following day (via the RingGo APP)</p><p>\u200b\u200b\u200b\u200b\u200b\u200b\u200bDownload and use the RingGo app or pay online at <a href=\"http://www.RingGo.co.uk\" title=\"\">www.RingGo.co.uk</a> Use RingGo Code 35723Or You can call 0113 8090070, RingGo Code 35723</p>",
                         "accessibleSpacesNotes": null,
                         "accessibleLocations": null
                     }
@@ -245050,14 +244984,14 @@
                         "charges": {
                             "perHourRate": null,
                             "offPeakRate": null,
-                            "dailyRate": "£2.20",
+                            "dailyRate": "\u00a32.20",
                             "saturdayRate": null,
                             "sundayRate": null,
-                            "weeklyRate": "£8.80",
-                            "monthlyRate": "£34.00",
+                            "weeklyRate": "\u00a38.80",
+                            "monthlyRate": "\u00a334.00",
                             "threeMonthlyRate": null,
                             "sixMonthlyRate": null,
-                            "annualRate": "£352.00"
+                            "annualRate": "\u00a3352.00"
                         },
                         "notes": "<p>Daily Charge: &#163;2.20</p><p>Up to 2 hours (no return) &#163;0.60</p><p>Up to 4 hours (no return) &#163;1.10</p><p>Overnight Parking (1600-0759) &#163;0.60</p>",
                         "accessibleSpacesNotes": null,
@@ -245988,14 +245922,14 @@
                         "charges": {
                             "perHourRate": null,
                             "offPeakRate": null,
-                            "dailyRate": "£2.20",
+                            "dailyRate": "\u00a32.20",
                             "saturdayRate": null,
                             "sundayRate": null,
-                            "weeklyRate": "£8.80",
-                            "monthlyRate": "£34.00",
+                            "weeklyRate": "\u00a38.80",
+                            "monthlyRate": "\u00a334.00",
                             "threeMonthlyRate": null,
                             "sixMonthlyRate": null,
-                            "annualRate": "£352.00"
+                            "annualRate": "\u00a3352.00"
                         },
                         "notes": "<p>Ticket Machine Available</p><p>RingGo Code 35748</p><p>Register www.MyRingGo.com or call 01138090070</p><p>Daily Charge: &#163;2.20\nUp to 2 hours (no return) &#163;0.60\nUp to 4 hours (no return) &#163;1.10\nOvernight Parking (1600-0759) &#163;0.60\n</p>",
                         "accessibleSpacesNotes": null,

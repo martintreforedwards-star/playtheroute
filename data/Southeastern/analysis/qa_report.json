@@ -1,10 +1,10 @@
 {
   "network": "southeastern",
   "summary": {
-    "pass": 22,
-    "warn": 0,
-    "fail": 0,
-    "info": 2
+    "pass": 41,
+    "warn": 4,
+    "fail": 2,
+    "info": 11
   },
   "results": [
     {
@@ -126,6 +126,176 @@
       "section": "Enriched CSV",
       "level": "PASS",
       "message": "Enriched CSV: 'longitude' complete"
+    },
+    {
+      "section": "Enriched CSV",
+      "level": "INFO",
+      "message": "Running Content Audit"
+    },
+    {
+      "section": "Content",
+      "level": "PASS",
+      "message": "latitude: 165/165 (100.0%)"
+    },
+    {
+      "section": "Content",
+      "level": "PASS",
+      "message": "longitude: 165/165 (100.0%)"
+    },
+    {
+      "section": "Content",
+      "level": "PASS",
+      "message": "route_count: 165/165 (100.0%)"
+    },
+    {
+      "section": "Content",
+      "level": "PASS",
+      "message": "service_count: 165/165 (100.0%)"
+    },
+    {
+      "section": "Content",
+      "level": "WARN",
+      "message": "difficulty_score column missing"
+    },
+    {
+      "section": "Content",
+      "level": "WARN",
+      "message": "accessibility_score column missing"
+    },
+    {
+      "section": "Content",
+      "level": "INFO",
+      "message": "county: 0/165 (0.0%)"
+    },
+    {
+      "section": "Content",
+      "level": "INFO",
+      "message": "region: 0/165 (0.0%)"
+    },
+    {
+      "section": "Content",
+      "level": "INFO",
+      "message": "Running Routes Audit"
+    },
+    {
+      "section": "Routes",
+      "level": "PASS",
+      "message": "Master stations: 165"
+    },
+    {
+      "section": "Routes",
+      "level": "PASS",
+      "message": "Route memberships: 165"
+    },
+    {
+      "section": "Routes",
+      "level": "PASS",
+      "message": "All stations have route memberships"
+    },
+    {
+      "section": "Routes",
+      "level": "PASS",
+      "message": "No unknown CRS in route memberships"
+    },
+    {
+      "section": "Routes",
+      "level": "PASS",
+      "message": "No duplicate route memberships"
+    },
+    {
+      "section": "Routes",
+      "level": "PASS",
+      "message": "No duplicate CRS/route_group pairs"
+    },
+    {
+      "section": "Routes",
+      "level": "FAIL",
+      "message": "165 blank route_group values"
+    },
+    {
+      "section": "Routes",
+      "level": "FAIL",
+      "message": "No route groups defined"
+    },
+    {
+      "section": "Routes",
+      "level": "INFO",
+      "message": "Running Gameplay Audit"
+    },
+    {
+      "section": "Gameplay",
+      "level": "PASS",
+      "message": "Stations: 165"
+    },
+    {
+      "section": "Gameplay",
+      "level": "PASS",
+      "message": "route_count: 165/165 (100.0%)"
+    },
+    {
+      "section": "Gameplay",
+      "level": "PASS",
+      "message": "service_count: 165/165 (100.0%)"
+    },
+    {
+      "section": "Gameplay",
+      "level": "PASS",
+      "message": "latitude: 165/165 (100.0%)"
+    },
+    {
+      "section": "Gameplay",
+      "level": "PASS",
+      "message": "longitude: 165/165 (100.0%)"
+    },
+    {
+      "section": "Gameplay",
+      "level": "PASS",
+      "message": "Playable stations: 165/165 (100.0%)"
+    },
+    {
+      "section": "Gameplay",
+      "level": "PASS",
+      "message": "Stations with services: 165/165 (100.0%)"
+    },
+    {
+      "section": "Gameplay",
+      "level": "INFO",
+      "message": "Running Wordplay Audit"
+    },
+    {
+      "section": "Wordplay",
+      "level": "PASS",
+      "message": "Wordplay entries: 165"
+    },
+    {
+      "section": "Wordplay",
+      "level": "PASS",
+      "message": "Wordplay available"
+    },
+    {
+      "section": "Wordplay",
+      "level": "INFO",
+      "message": "Running Facts Audit"
+    },
+    {
+      "section": "Facts",
+      "level": "WARN",
+      "message": "Station facts file not found"
+    },
+    {
+      "section": "Facts",
+      "level": "INFO",
+      "message": "Running Certification Audit"
+    },
+    {
+      "section": "Certification",
+      "level": "WARN",
+      "message": "Network is PROVISIONAL"
+    },
+    {
+      "section": "Certification",
+      "level": "INFO",
+      "message": "Overall QA score: 87.2%"
     }
   ]
 }

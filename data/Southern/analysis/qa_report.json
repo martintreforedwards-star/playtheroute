@@ -1,0 +1,116 @@
+{
+  "network": "southern",
+  "summary": {
+    "pass": 2,
+    "warn": 2,
+    "fail": 8,
+    "info": 9
+  },
+  "results": [
+    {
+      "section": "General",
+      "level": "INFO",
+      "message": "Starting QA audit..."
+    },
+    {
+      "section": "General",
+      "level": "INFO",
+      "message": "Running Structure Audit"
+    },
+    {
+      "section": "Files",
+      "level": "PASS",
+      "message": "Network config found"
+    },
+    {
+      "section": "Files",
+      "level": "FAIL",
+      "message": "Master CSV missing"
+    },
+    {
+      "section": "Files",
+      "level": "FAIL",
+      "message": "Enriched CSV missing"
+    },
+    {
+      "section": "Files",
+      "level": "FAIL",
+      "message": "Network JSON missing"
+    },
+    {
+      "section": "Files",
+      "level": "FAIL",
+      "message": "Route membership missing"
+    },
+    {
+      "section": "Files",
+      "level": "PASS",
+      "message": "Network membership found"
+    },
+    {
+      "section": "Enriched CSV",
+      "level": "INFO",
+      "message": "Running Content Audit"
+    },
+    {
+      "section": "Content",
+      "level": "FAIL",
+      "message": "Enriched CSV missing"
+    },
+    {
+      "section": "Content",
+      "level": "INFO",
+      "message": "Running Routes Audit"
+    },
+    {
+      "section": "Routes",
+      "level": "FAIL",
+      "message": "Master CSV missing"
+    },
+    {
+      "section": "Routes",
+      "level": "INFO",
+      "message": "Running Gameplay Audit"
+    },
+    {
+      "section": "Gameplay",
+      "level": "FAIL",
+      "message": "Enriched CSV missing"
+    },
+    {
+      "section": "Gameplay",
+      "level": "INFO",
+      "message": "Running Wordplay Audit"
+    },
+    {
+      "section": "Wordplay",
+      "level": "WARN",
+      "message": "Wordplay file not found"
+    },
+    {
+      "section": "Wordplay",
+      "level": "INFO",
+      "message": "Running Facts Audit"
+    },
+    {
+      "section": "Facts",
+      "level": "WARN",
+      "message": "Station facts file not found"
+    },
+    {
+      "section": "Facts",
+      "level": "INFO",
+      "message": "Running Certification Audit"
+    },
+    {
+      "section": "Certification",
+      "level": "FAIL",
+      "message": "Network is NOT READY"
+    },
+    {
+      "section": "Certification",
+      "level": "INFO",
+      "message": "Overall QA score: 16.7%"
+    }
+  ]
+}

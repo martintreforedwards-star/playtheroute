@@ -1,0 +1,202 @@
+station_name,crs,operator,route,county,latitude,longitude,major_interchange,terminus,branch_junction,nearest_landmark,nearest_landmark_km,nearest_castle,nearest_castle_km,nearest_cathedral,nearest_cathedral_km,nearest_museum,nearest_museum_km,nearest_country_house,nearest_country_house_km,nearest_nature_reserve,nearest_nature_reserve_km,station_id
+Aldermaston,AMT,Great Western Railway,,,51.40201112,-1.138770296,,,,,,,,,,,,,,,,GR_000001
+Appleford,APF,Great Western Railway,,,51.63964272,-1.242139074,,,,,,,,,,,,,,,,GR_000002
+Ascott-under-Wychwood,AUW,Great Western Railway,,,51.86734048,-1.564058135,,,,,,,,,,,,,,,,GR_000003
+Ashchurch for Tewkesbury,ASC,Great Western Railway,,,51.99916912,-2.109057444,,,,,,,,,,,,,,,,GR_000004
+Ashley Down,ASD,Great Western Railway,,,51.4786762,-2.5771154,,,,,,,,,,,,,,,,GR_000005
+Avoncliff,AVF,Great Western Railway,,,51.33964614,-2.281339394,,,,,,,,,,,,,,,,GR_000006
+Avonmouth,AVN,Great Western Railway,,,51.50012646,-2.698421372,,,,,,,,,,,,,,,,GR_000007
+Barnstaple,BNP,Great Western Railway,,,51.07396111,-4.063153416,,,,,,,,,,,,,,,,GR_000008
+Bath Spa,BTH,Great Western Railway,,,51.37768276,-2.357034178,,,,,,,,,,,,,,,,GR_000009
+Bedminster,BMT,Great Western Railway,,,51.44008674,-2.594156901,,,,,,,,,,,,,,,,GR_000010
+Bedwyn,BDW,Great Western Railway,,,51.37963498,-1.598795279,,,,,,,,,,,,,,,,GR_000011
+Bere Alston,BAS,Great Western Railway,,,50.4855868,-4.200398271,,,,,,,,,,,,,,,,GR_000012
+Bere Ferrers,BFE,Great Western Railway,,,50.45085678,-4.181881299,,,,,,,,,,,,,,,,GR_000013
+Betchworth,BTO,Great Western Railway,,,51.24818664,-0.266974147,,,,,,,,,,,,,,,,GR_000014
+Blackwater,BAW,Great Western Railway,,,51.33181014,-0.777022615,,,,,,,,,,,,,,,,GR_000015
+Bodmin Parkway,BOD,Great Western Railway,,,50.44585588,-4.662971107,,,,,,,,,,,,,,,,GR_000016
+Bourne End,BNE,Great Western Railway,,,51.57711651,-0.710471017,,,,,,,,,,,,,,,,GR_000017
+Bradford-on-Avon,BOA,Great Western Railway,,,51.34490956,-2.252339918,,,,,,,,,,,,,,,,GR_000018
+Bramley (Hampshire),BMY,Great Western Railway,,,51.33007866,-1.060987012,,,,,,,,,,,,,,,,GR_000019
+Bridgwater,BWT,Great Western Railway,,,51.12807318,-2.99028809,,,,,,,,,,,,,,,,GR_000020
+Bristol Parkway,BPW,Great Western Railway,,,51.51383574,-2.542659527,,,,,,,,,,,,,,,,GR_000021
+Bruton,BRU,Great Western Railway,,,51.11162818,-2.447079134,,,,,,,,,,,,,,,,GR_000022
+Bugle,BGL,Great Western Railway,,,50.39994328,-4.791841896,,,,,,,,,,,,,,,,GR_000023
+Calstock,CSK,Great Western Railway,,,50.49757193,-4.208711079,,,,,,,,,,,,,,,,GR_000024
+Cam & Dursley,CDU,Great Western Railway,,,51.71761608,-2.359096838,,,,,,,,,,,,,,,,GR_000025
+Camborne,CBN,Great Western Railway,,,50.21042369,-5.297472083,,,,,,,,,,,,,,,,GR_000026
+Carbis Bay,CBB,Great Western Railway,,,50.19715063,-5.464037988,,,,,,,,,,,,,,,,GR_000027
+Castle Bar Park,CBP,Great Western Railway,,,51.52297874,-0.331404502,,,,,,,,,,,,,,,,GR_000028
+Castle Cary,CLC,Great Western Railway,,,51.09980387,-2.522802166,,,,,,,,,,,,,,,,GR_000029
+Causeland,CAU,Great Western Railway,,,50.40568197,-4.466485305,,,,,,,,,,,,,,,,GR_000030
+Chapelton (Devon),CPN,Great Western Railway,,,51.01582131,-4.02437053,,,,,,,,,,,,,,,,GR_000031
+Charlbury,CBY,Great Western Railway,,,51.8724362,-1.489697044,,,,,,,,,,,,,,,,GR_000032
+Cheltenham Spa,CNM,Great Western Railway,,,51.897399,-2.099625825,,,,,,,,,,,,,,,,GR_000033
+Chetnole,CNO,Great Western Railway,,,50.86648406,-2.574046181,,,,,,,,,,,,,,,,GR_000034
+Chilworth,CHL,Great Western Railway,,,51.21521009,-0.524818359,,,,,,,,,,,,,,,,GR_000035
+Chippenham,CPM,Great Western Railway,,,51.46248638,-2.115402682,,,,,,,,,,,,,,,,GR_000036
+Cholsey,CHO,Great Western Railway,,,51.57020166,-1.158018612,,,,,,,,,,,,,,,,GR_000037
+Clifton Down,CFN,Great Western Railway,,,51.46454417,-2.611749153,,,,,,,,,,,,,,,,GR_000038
+Combe (Oxon),CME,Great Western Railway,,,51.83234296,-1.392901935,,,,,,,,,,,,,,,,GR_000039
+Cookham,COO,Great Western Railway,,,51.5574608,-0.722076986,,,,,,,,,,,,,,,,GR_000040
+Coombe Junction Halt,COE,Great Western Railway,,,50.44547073,-4.48193626,,,,,,,,,,,,,,,,GR_000041
+Copplestone,COP,Great Western Railway,,,50.81445919,-3.751601158,,,,,,,,,,,,,,,,GR_000042
+Crediton,CDI,Great Western Railway,,,50.78342809,-3.646879885,,,,,,,,,,,,,,,,GR_000043
+Crowthorne,CRN,Great Western Railway,,,51.36672944,-0.819274953,,,,,,,,,,,,,,,,GR_000044
+Culham,CUM,Great Western Railway,,,51.65379512,-1.236511134,,,,,,,,,,,,,,,,GR_000045
+Dawlish,DWL,Great Western Railway,,,50.58080594,-3.464647817,,,,,,,,,,,,,,,,GR_000046
+Dawlish Warren,DWW,Great Western Railway,,,50.59905091,-3.444018179,,,,,,,,,,,,,,,,GR_000047
+Devonport,DPT,Great Western Railway,,,50.3781945,-4.171511893,,,,,,,,,,,,,,,,GR_000048
+Didcot Parkway,DID,Great Western Railway,,,51.61095504,-1.242891296,,,,,,,,,,,,,,,,GR_000049
+Digby & Sowton,DIG,Great Western Railway,,,50.71370499,-3.473885692,,,,,,,,,,,,,,,,GR_000050
+Dilton Marsh,DMH,Great Western Railway,,,51.24799152,-2.207421924,,,,,,,,,,,,,,,,GR_000051
+Dockyard (Devonport),DOC,Great Western Railway,,,50.38224968,-4.175917265,,,,,,,,,,,,,,,,GR_000052
+Dorchester West,DCW,Great Western Railway,,,50.71094047,-2.442548773,,,,,,,,,,,,,,,,GR_000053
+Dorking (Deepdene),DPD,Great Western Railway,,,51.23880129,-0.324631668,,,,,,,,,,,,,,,,GR_000054
+Dorking West,DKT,Great Western Railway,,,51.23622304,-0.339967488,,,,,,,,,,,,,,,,GR_000055
+Drayton Green,DRG,Great Western Railway,,,51.51602938,-0.329640681,,,,,,,,,,,,,,,,GR_000056
+Eggesford,EGG,Great Western Railway,,,50.88773166,-3.874777657,,,,,,,,,,,,,,,,GR_000057
+Evesham,EVE,Great Western Railway,,,52.09840414,-1.947313868,,,,,,,,,,,,,,,,GR_000058
+Exeter Central,EXC,Great Western Railway,,,50.72652351,-3.532947602,,,,,,,,,,,,,,,,GR_000059
+Exeter St Davids,EXD,Great Western Railway,,,50.72915216,-3.543660789,,,,,,,,,,,,,,,,GR_000060
+Exeter St Thomas,EXT,Great Western Railway,,,50.71655803,-3.539818783,,,,,,,,,,,,,,,,GR_000061
+Exmouth,EXM,Great Western Railway,,,50.6216214,-3.41499267,,,,,,,,,,,,,,,,GR_000062
+Exton,EXN,Great Western Railway,,,50.66829151,-3.444117811,,,,,,,,,,,,,,,,GR_000063
+Falmouth Docks,FAL,Great Western Railway,,,50.15069317,-5.056082925,,,,,,,,,,,,,,,,GR_000064
+Falmouth Town,FMT,Great Western Railway,,,50.14836368,-5.065272382,,,,,,,,,,,,,,,,GR_000065
+Farnborough North,FNN,Great Western Railway,,,51.30204484,-0.743026722,,,,,,,,,,,,,,,,GR_000066
+Filton Abbey Wood,FIT,Great Western Railway,,,51.50493962,-2.562437257,,,,,,,,,,,,,,,,GR_000067
+Finstock,FIN,Great Western Railway,,,51.85279021,-1.469345759,,,,,,,,,,,,,,,,GR_000068
+Freshford,FFD,Great Western Railway,,,51.34202505,-2.301023075,,,,,,,,,,,,,,,,GR_000069
+Frome,FRO,Great Western Railway,,,51.22726268,-2.310012271,,,,,,,,,,,,,,,,GR_000070
+Furze Platt,FZP,Great Western Railway,,,51.53301767,-0.728471069,,,,,,,,,,,,,,,,GR_000071
+Gloucester,GCR,Great Western Railway,,,51.86541548,-2.238656564,,,,,,,,,,,,,,,,GR_000072
+Gomshall,GOM,Great Western Railway,,,51.21947014,-0.442056348,,,,,,,,,,,,,,,,GR_000073
+Goring & Streatley,GOR,Great Western Railway,,,51.52149065,-1.13304466,,,,,,,,,,,,,,,,GR_000074
+Gunnislake,GSL,Great Western Railway,,,50.51606725,-4.219449323,,,,,,,,,,,,,,,,GR_000075
+Hanborough,HND,Great Western Railway,,,51.82516517,-1.373525679,,,,,,,,,,,,,,,,GR_000076
+Hayle,HYL,Great Western Railway,,,50.18623531,-5.419529634,,,,,,,,,,,,,,,,GR_000077
+Henley-on-Thames,HOT,Great Western Railway,,,51.53417793,-0.900215287,,,,,,,,,,,,,,,,GR_000078
+Heyford,HYD,Great Western Railway,,,51.91919985,-1.299267568,,,,,,,,,,,,,,,,GR_000079
+Highbridge & Burnham,HIG,Great Western Railway,,,51.21815016,-2.972173138,,,,,,,,,,,,,,,,GR_000080
+Honeybourne,HYB,Great Western Railway,,,52.10142923,-1.834981487,,,,,,,,,,,,,,,,GR_000081
+Hungerford,HGD,Great Western Railway,,,51.41490602,-1.512293535,,,,,,,,,,,,,,,,GR_000082
+Ivybridge,IVY,Great Western Railway,,,50.39357854,-3.904458214,,,,,,,,,,,,,,,,GR_000083
+Kemble,KEM,Great Western Railway,,,51.67627148,-2.023096483,,,,,,,,,,,,,,,,GR_000084
+Keyham,KEY,Great Western Railway,,,50.38974606,-4.179074345,,,,,,,,,,,,,,,,GR_000085
+Keynsham,KYN,Great Western Railway,,,51.41716993,-2.494633256,,,,,,,,,,,,,,,,GR_000086
+Kingham,KGM,Great Western Railway,,,51.90225045,-1.6287933,,,,,,,,,,,,,,,,GR_000087
+Kings Nympton,KGN,Great Western Railway,,,50.93597779,-3.905610885,,,,,,,,,,,,,,,,GR_000088
+Kintbury,KIT,Great Western Railway,,,51.40251723,-1.445993627,,,,,,,,,,,,,,,,GR_000089
+Lapford,LAP,Great Western Railway,,,50.85743381,-3.811468159,,,,,,,,,,,,,,,,GR_000090
+Lawrence Hill,LWH,Great Western Railway,,,51.45821869,-2.564165806,,,,,,,,,,,,,,,,GR_000091
+Lelant,LEL,Great Western Railway,,,50.18411125,-5.436611903,,,,,,,,,,,,,,,,GR_000092
+Lelant Saltings,LTS,Great Western Railway,,,50.1792896,-5.441449302,,,,,,,,,,,,,,,,GR_000093
+Liskeard,LSK,Great Western Railway,,,50.44684832,-4.467498917,,,,,,,,,,,,,,,,GR_000094
+Looe,LOO,Great Western Railway,,,50.3592157,-4.456201102,,,,,,,,,,,,,,,,GR_000095
+Lostwithiel,LOS,Great Western Railway,,,50.40749717,-4.665464131,,,,,,,,,,,,,,,,GR_000096
+Luxulyan,LUX,Great Western Railway,,,50.39029491,-4.74751507,,,,,,,,,,,,,,,,GR_000097
+Lympstone Commando,LYC,Great Western Railway,,,50.66222519,-3.440861256,,,,,,,,,,,,,,,,GR_000098
+Lympstone Village,LYM,Great Western Railway,,,50.64867164,-3.431393476,,,,,,,,,,,,,,,,GR_000099
+Maiden Newton,MDN,Great Western Railway,,,50.77999537,-2.569440541,,,,,,,,,,,,,,,,GR_000100
+Maidenhead,MAI,Great Western Railway,,,51.51866595,-0.722658698,,,,,,,,,,,,,,,,GR_000101
+Marlow,MLW,Great Western Railway,,,51.57099199,-0.766429862,,,,,,,,,,,,,,,,GR_000102
+Marsh Barton,MBT,Great Western Railway,,,50.7063522,-3.5207435,,,,,,,,,,,,,,,,GR_000103
+Melksham,MKM,Great Western Railway,,,51.37981906,-2.144507047,,,,,,,,,,,,,,,,GR_000104
+Menheniot,MEN,Great Western Railway,,,50.42622082,-4.40925881,,,,,,,,,,,,,,,,GR_000105
+Midgham,MDG,Great Western Railway,,,51.39596936,-1.177708473,,,,,,,,,,,,,,,,GR_000106
+Montpelier,MTP,Great Western Railway,,,51.46889519,-2.587332548,,,,,,,,,,,,,,,,GR_000107
+Morchard Road,MRD,Great Western Railway,,,50.83189161,-3.776395869,,,,,,,,,,,,,,,,GR_000108
+Moreton-in-Marsh,MIM,Great Western Railway,,,51.99228415,-1.700388972,,,,,,,,,,,,,,,,GR_000109
+Mortimer,MOR,Great Western Railway,,,51.37207211,-1.03550347,,,,,,,,,,,,,,,,GR_000110
+Nailsea & Backwell,NLS,Great Western Railway,,,51.41940681,-2.750646299,,,,,,,,,,,,,,,,GR_000111
+Newbury,NBY,Great Western Railway,,,51.39764427,-1.322862459,,,,,,,,,,,,,,,,GR_000112
+Newbury Racecourse,NRC,Great Western Railway,,,51.39845548,-1.307799999,,,,,,,,,,,,,,,,GR_000113
+Newcourt,NCO,Great Western Railway,,,50.7023,-3.472551,,,,,,,,,,,,,,,,GR_000114
+Newquay,NQY,Great Western Railway,,,50.41508811,-5.075708631,,,,,,,,,,,,,,,,GR_000115
+Newton Abbot,NTA,Great Western Railway,,,50.52956986,-3.599193375,,,,,,,,,,,,,,,,GR_000116
+Newton St Cyres,NTC,Great Western Railway,,,50.77891926,-3.589414088,,,,,,,,,,,,,,,,GR_000117
+North Camp,NCM,Great Western Railway,,,51.27579399,-0.731198355,,,,,,,,,,,,,,,,GR_000118
+Okehampton,OKE,Great Western Railway,,,50.737521,-3.995299,,,,,,,,,,,,,,,,GR_000119
+Okehampton Interchange,OKI,Great Western Railway,,,50.74346356296393,-3.975920588263536,,,,,,,,,,,,,,,,GR_000120
+Oldfield Park,OLF,Great Western Railway,,,51.37920116,-2.3802945,,,,,,,,,,,,,,,,GR_000121
+Oxford,OXF,Great Western Railway,,,51.75350075,-1.270151173,,,,,,,,,,,,,,,,GR_000122
+Paignton,PGN,Great Western Railway,,,50.43470781,-3.564338773,,,,,,,,,,,,,,,,GR_000123
+Pangbourne,PAN,Great Western Railway,,,51.4853982,-1.090464668,,,,,,,,,,,,,,,,GR_000124
+Par,PAR,Great Western Railway,,,50.35531723,-4.704719639,,,,,,,,,,,,,,,,GR_000125
+Parson Street,PSN,Great Western Railway,,,51.43353995,-2.608313932,,,,,,,,,,,,,,,,GR_000126
+Patchway,PWY,Great Western Railway,,,51.52592522,-2.562695774,,,,,,,,,,,,,,,,GR_000127
+Penmere,PNM,Great Western Railway,,,50.1497831,-5.083003855,,,,,,,,,,,,,,,,GR_000128
+Penryn (Cornwall),PYN,Great Western Railway,,,50.17026855,-5.110935401,,,,,,,,,,,,,,,,GR_000129
+Penzance,PNZ,Great Western Railway,,,50.12168229,-5.532467153,,,,,,,,,,,,,,,,GR_000130
+Perranwell,PRW,Great Western Railway,,,50.21648441,-5.111839596,,,,,,,,,,,,,,,,GR_000131
+Pershore,PSH,Great Western Railway,,,52.13029348,-2.07154008,,,,,,,,,,,,,,,,GR_000132
+Pewsey,PEW,Great Western Railway,,,51.34218734,-1.770675036,,,,,,,,,,,,,,,,GR_000133
+Pilning,PIL,Great Western Railway,,,51.55662016,-2.627119757,,,,,,,,,,,,,,,,GR_000134
+Plymouth,PLY,Great Western Railway,,,50.37781736,-4.143363131,,,,,,,,,,,,,,,,GR_000135
+Polsloe Bridge,POL,Great Western Railway,,,50.73106987,-3.501496022,,,,,,,,,,,,,,,,GR_000136
+Portsmouth Arms,PMA,Great Western Railway,,,50.95699912,-3.950613811,,,,,,,,,,,,,,,,GR_000137
+Portway Park & Ride,PRI,Great Western Railway,,,51.4901288,-2.6888666,,,,,,,,,,,,,,,,GR_000138
+Quintrell Downs,QUI,Great Western Railway,,,50.40396942,-5.029806255,,,,,,,,,,,,,,,,GR_000139
+Radley,RAD,Great Western Railway,,,51.68620873,-1.240479351,,,,,,,,,,,,,,,,GR_000140
+Reading Green Park,RGP,Great Western Railway,,,51.4266639,-0.9996331,,,,,,,,,,,,,,,,GR_000141
+Reading West,RDW,Great Western Railway,,,51.45545321,-0.990294679,,,,,,,,,,,,,,,,GR_000142
+Redland,RDA,Great Western Railway,,,51.46838591,-2.599131362,,,,,,,,,,,,,,,,GR_000143
+Redruth,RED,Great Western Railway,,,50.2332413,-5.225974546,,,,,,,,,,,,,,,,GR_000144
+Roche,ROC,Great Western Railway,,,50.41826529,-4.830229067,,,,,,,,,,,,,,,,GR_000145
+Saltash,STS,Great Western Railway,,,50.40734763,-4.20915696,,,,,,,,,,,,,,,,GR_000146
+Sampford Courtenay,SMC,Great Western Railway,,,50.778968,-3.937485,,,,,,,,,,,,,,,,GR_000147
+Sandhurst (Berks),SND,Great Western Railway,,,51.34647568,-0.803914472,,,,,,,,,,,,,,,,GR_000148
+Sandplace,SDP,Great Western Railway,,,50.38674429,-4.464517438,,,,,,,,,,,,,,,,GR_000149
+Sea Mills,SML,Great Western Railway,,,51.47953406,-2.650110484,,,,,,,,,,,,,,,,GR_000150
+Severn Beach,SVB,Great Western Railway,,,51.55955383,-2.66427711,,,,,,,,,,,,,,,,GR_000151
+Shalford (Surrey),SFR,Great Western Railway,,,51.21431997,-0.566799182,,,,,,,,,,,,,,,,GR_000152
+Shiplake,SHI,Great Western Railway,,,51.51121587,-0.882524379,,,,,,,,,,,,,,,,GR_000153
+Shipton,SIP,Great Western Railway,,,51.86565386,-1.5926996,,,,,,,,,,,,,,,,GR_000154
+Shirehampton,SHH,Great Western Railway,,,51.48458989,-2.678266118,,,,,,,,,,,,,,,,GR_000155
+Slough,SLO,Great Western Railway,,,51.51187689,-0.591504981,,,,,,,,,,,,,,,,GR_000156
+South Greenford,SGN,Great Western Railway,,,51.53321485,-0.336653369,,,,,,,,,,,,,,,,GR_000157
+St Andrews Road,SAR,Great Western Railway,,,51.51279724,-2.696698481,,,,,,,,,,,,,,,,GR_000158
+St Austell,SAU,Great Western Railway,,,50.33950737,-4.789405571,,,,,,,,,,,,,,,,GR_000159
+St Budeaux Ferry Road,SBF,Great Western Railway,,,50.40138693,-4.186644684,,,,,,,,,,,,,,,,GR_000160
+St Budeaux Victoria Road,SBV,Great Western Railway,,,50.4021693,-4.188088002,,,,,,,,,,,,,,,,GR_000161
+St Columb Road,SCR,Great Western Railway,,,50.39905812,-4.940828131,,,,,,,,,,,,,,,,GR_000162
+St Erth,SER,Great Western Railway,,,50.1704777,-5.444317521,,,,,,,,,,,,,,,,GR_000163
+St Germans,SGM,Great Western Railway,,,50.39426531,-4.30845147,,,,,,,,,,,,,,,,GR_000164
+St Ives (Cornwall),SIV,Great Western Railway,,,50.20864501,-5.47678695,,,,,,,,,,,,,,,,GR_000165
+St James Park (Exeter),SJP,Great Western Railway,,,50.73068086,-3.523164103,,,,,,,,,,,,,,,,GR_000166
+St Keyne Wishing Well Halt,SKN,Great Western Railway,,,50.42305549,-4.461615382,,,,,,,,,,,,,,,,GR_000167
+Stapleton Road,SRD,Great Western Railway,,,51.46750636,-2.566223864,,,,,,,,,,,,,,,,GR_000168
+Starcross,SCS,Great Western Railway,,,50.62778455,-3.447726133,,,,,,,,,,,,,,,,GR_000169
+Stonehouse,SHU,Great Western Railway,,,51.74588546,-2.279510293,,,,,,,,,,,,,,,,GR_000170
+Stroud (Glos),STD,Great Western Railway,,,51.74457443,-2.219392567,,,,,,,,,,,,,,,,GR_000171
+Swindon (Wilts),SWI,Great Western Railway,,,51.56547293,-1.785510103,,,,,,,,,,,,,,,,GR_000172
+Tackley,TAC,Great Western Railway,,,51.88132548,-1.297226956,,,,,,,,,,,,,,,,GR_000173
+Taunton,TAU,Great Western Railway,,,51.02365625,-3.102132918,,,,,,,,,,,,,,,,GR_000174
+Teignmouth,TGM,Great Western Railway,,,50.54804676,-3.494686366,,,,,,,,,,,,,,,,GR_000175
+Thatcham,THA,Great Western Railway,,,51.39383879,-1.243189177,,,,,,,,,,,,,,,,GR_000176
+Theale,THE,Great Western Railway,,,51.43344686,-1.074967204,,,,,,,,,,,,,,,,GR_000177
+Thornford,THO,Great Western Railway,,,50.91195034,-2.57972607,,,,,,,,,,,,,,,,GR_000178
+Tilehurst,TLH,Great Western Railway,,,51.47150508,-1.029822977,,,,,,,,,,,,,,,,GR_000179
+Tiverton Parkway,TVP,Great Western Railway,,,50.9175286,-3.359957026,,,,,,,,,,,,,,,,GR_000180
+Topsham,TOP,Great Western Railway,,,50.68604362,-3.463675278,,,,,,,,,,,,,,,,GR_000181
+Torquay,TQY,Great Western Railway,,,50.46116534,-3.54366854,,,,,,,,,,,,,,,,GR_000182
+Torre,TRR,Great Western Railway,,,50.4731714,-3.546441301,,,,,,,,,,,,,,,,GR_000183
+Totnes,TOT,Great Western Railway,,,50.43584686,-3.688721847,,,,,,,,,,,,,,,,GR_000184
+Trowbridge,TRO,Great Western Railway,,,51.31982565,-2.21434677,,,,,,,,,,,,,,,,GR_000185
+Truro,TRU,Great Western Railway,,,50.26382962,-5.064866947,,,,,,,,,,,,,,,,GR_000186
+Twyford,TWY,Great Western Railway,,,51.47553018,-0.863294993,,,,,,,,,,,,,,,,GR_000187
+Umberleigh,UMB,Great Western Railway,,,50.99674639,-3.98292199,,,,,,,,,,,,,,,,GR_000188
+Wargrave,WGV,Great Western Railway,,,51.49815593,-0.876519321,,,,,,,,,,,,,,,,GR_000189
+Warminster,WMN,Great Western Railway,,,51.2067679,-2.176745956,,,,,,,,,,,,,,,,GR_000190
+Westbury,WSB,Great Western Railway,,,51.26697915,-2.199193897,,,,,,,,,,,,,,,,GR_000191
+Weston Milton,WNM,Great Western Railway,,,51.34877468,-2.943343959,,,,,,,,,,,,,,,,GR_000192
+Weston-super-Mare,WSM,Great Western Railway,,,51.34431671,-2.971681531,,,,,,,,,,,,,,,,GR_000193
+Windsor & Eton Central,WNC,Great Western Railway,,,51.48327262,-0.610374922,,,,,,,,,,,,,,,,GR_000194
+Worcestershire Parkway,WOP,Great Western Railway,,,52.155817,-2.161471,,,,,,,,,,,,,,,,GR_000195
+Worle,WOR,Great Western Railway,,,51.35803344,-2.909638886,,,,,,,,,,,,,,,,GR_000196
+Yate,YAE,Great Western Railway,,,51.54060333,-2.432524509,,,,,,,,,,,,,,,,GR_000197
+Yatton ,YAT,Great Western Railway,,,51.39101195,-2.82779361,,,,,,,,,,,,,,,,GR_000198
+Yeoford,YEO,Great Western Railway,,,50.7768865,-3.726083161,,,,,,,,,,,,,,,,GR_000199
+Yeovil Pen Mill,YVP,Great Western Railway,,,50.94451153,-2.613439339,,,,,,,,,,,,,,,,GR_000200
+Yetminster,YET,Great Western Railway,,,50.89615639,-2.572988939,,,,,,,,,,,,,,,,GR_000201

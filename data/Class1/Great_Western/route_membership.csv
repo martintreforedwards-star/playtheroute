@@ -1,0 +1,202 @@
+station_id,network,route_station_id,route_group,crs,station_name
+GR_000001,Great_Western,GR0001,,AMT,Aldermaston
+GR_000002,Great_Western,GR0002,,APF,Appleford
+GR_000003,Great_Western,GR0003,,AUW,Ascott-under-Wychwood
+GR_000004,Great_Western,GR0004,,ASC,Ashchurch for Tewkesbury
+GR_000005,Great_Western,GR0005,,ASD,Ashley Down
+GR_000006,Great_Western,GR0006,,AVF,Avoncliff
+GR_000007,Great_Western,GR0007,,AVN,Avonmouth
+GR_000008,Great_Western,GR0008,,BNP,Barnstaple
+GR_000009,Great_Western,GR0009,,BTH,Bath Spa
+GR_000010,Great_Western,GR0010,,BMT,Bedminster
+GR_000011,Great_Western,GR0011,,BDW,Bedwyn
+GR_000012,Great_Western,GR0012,,BAS,Bere Alston
+GR_000013,Great_Western,GR0013,,BFE,Bere Ferrers
+GR_000014,Great_Western,GR0014,,BTO,Betchworth
+GR_000015,Great_Western,GR0015,,BAW,Blackwater
+GR_000016,Great_Western,GR0016,,BOD,Bodmin Parkway
+GR_000017,Great_Western,GR0017,,BNE,Bourne End
+GR_000018,Great_Western,GR0018,,BOA,Bradford-on-Avon
+GR_000019,Great_Western,GR0019,,BMY,Bramley (Hampshire)
+GR_000020,Great_Western,GR0020,,BWT,Bridgwater
+GR_000021,Great_Western,GR0021,,BPW,Bristol Parkway
+GR_000022,Great_Western,GR0022,,BRU,Bruton
+GR_000023,Great_Western,GR0023,,BGL,Bugle
+GR_000024,Great_Western,GR0024,,CSK,Calstock
+GR_000025,Great_Western,GR0025,,CDU,Cam & Dursley
+GR_000026,Great_Western,GR0026,,CBN,Camborne
+GR_000027,Great_Western,GR0027,,CBB,Carbis Bay
+GR_000028,Great_Western,GR0028,,CBP,Castle Bar Park
+GR_000029,Great_Western,GR0029,,CLC,Castle Cary
+GR_000030,Great_Western,GR0030,,CAU,Causeland
+GR_000031,Great_Western,GR0031,,CPN,Chapelton (Devon)
+GR_000032,Great_Western,GR0032,,CBY,Charlbury
+GR_000033,Great_Western,GR0033,,CNM,Cheltenham Spa
+GR_000034,Great_Western,GR0034,,CNO,Chetnole
+GR_000035,Great_Western,GR0035,,CHL,Chilworth
+GR_000036,Great_Western,GR0036,,CPM,Chippenham
+GR_000037,Great_Western,GR0037,,CHO,Cholsey
+GR_000038,Great_Western,GR0038,,CFN,Clifton Down
+GR_000039,Great_Western,GR0039,,CME,Combe (Oxon)
+GR_000040,Great_Western,GR0040,,COO,Cookham
+GR_000041,Great_Western,GR0041,,COE,Coombe Junction Halt
+GR_000042,Great_Western,GR0042,,COP,Copplestone
+GR_000043,Great_Western,GR0043,,CDI,Crediton
+GR_000044,Great_Western,GR0044,,CRN,Crowthorne
+GR_000045,Great_Western,GR0045,,CUM,Culham
+GR_000046,Great_Western,GR0046,,DWL,Dawlish
+GR_000047,Great_Western,GR0047,,DWW,Dawlish Warren
+GR_000048,Great_Western,GR0048,,DPT,Devonport
+GR_000049,Great_Western,GR0049,,DID,Didcot Parkway
+GR_000050,Great_Western,GR0050,,DIG,Digby & Sowton
+GR_000051,Great_Western,GR0051,,DMH,Dilton Marsh
+GR_000052,Great_Western,GR0052,,DOC,Dockyard (Devonport)
+GR_000053,Great_Western,GR0053,,DCW,Dorchester West
+GR_000054,Great_Western,GR0054,,DPD,Dorking (Deepdene)
+GR_000055,Great_Western,GR0055,,DKT,Dorking West
+GR_000056,Great_Western,GR0056,,DRG,Drayton Green
+GR_000057,Great_Western,GR0057,,EGG,Eggesford
+GR_000058,Great_Western,GR0058,,EVE,Evesham
+GR_000059,Great_Western,GR0059,,EXC,Exeter Central
+GR_000060,Great_Western,GR0060,,EXD,Exeter St Davids
+GR_000061,Great_Western,GR0061,,EXT,Exeter St Thomas
+GR_000062,Great_Western,GR0062,,EXM,Exmouth
+GR_000063,Great_Western,GR0063,,EXN,Exton
+GR_000064,Great_Western,GR0064,,FAL,Falmouth Docks
+GR_000065,Great_Western,GR0065,,FMT,Falmouth Town
+GR_000066,Great_Western,GR0066,,FNN,Farnborough North
+GR_000067,Great_Western,GR0067,,FIT,Filton Abbey Wood
+GR_000068,Great_Western,GR0068,,FIN,Finstock
+GR_000069,Great_Western,GR0069,,FFD,Freshford
+GR_000070,Great_Western,GR0070,,FRO,Frome
+GR_000071,Great_Western,GR0071,,FZP,Furze Platt
+GR_000072,Great_Western,GR0072,,GCR,Gloucester
+GR_000073,Great_Western,GR0073,,GOM,Gomshall
+GR_000074,Great_Western,GR0074,,GOR,Goring & Streatley
+GR_000075,Great_Western,GR0075,,GSL,Gunnislake
+GR_000076,Great_Western,GR0076,,HND,Hanborough
+GR_000077,Great_Western,GR0077,,HYL,Hayle
+GR_000078,Great_Western,GR0078,,HOT,Henley-on-Thames
+GR_000079,Great_Western,GR0079,,HYD,Heyford
+GR_000080,Great_Western,GR0080,,HIG,Highbridge & Burnham
+GR_000081,Great_Western,GR0081,,HYB,Honeybourne
+GR_000082,Great_Western,GR0082,,HGD,Hungerford
+GR_000083,Great_Western,GR0083,,IVY,Ivybridge
+GR_000084,Great_Western,GR0084,,KEM,Kemble
+GR_000085,Great_Western,GR0085,,KEY,Keyham
+GR_000086,Great_Western,GR0086,,KYN,Keynsham
+GR_000087,Great_Western,GR0087,,KGM,Kingham
+GR_000088,Great_Western,GR0088,,KGN,Kings Nympton
+GR_000089,Great_Western,GR0089,,KIT,Kintbury
+GR_000090,Great_Western,GR0090,,LAP,Lapford
+GR_000091,Great_Western,GR0091,,LWH,Lawrence Hill
+GR_000092,Great_Western,GR0092,,LEL,Lelant
+GR_000093,Great_Western,GR0093,,LTS,Lelant Saltings
+GR_000094,Great_Western,GR0094,,LSK,Liskeard
+GR_000095,Great_Western,GR0095,,LOO,Looe
+GR_000096,Great_Western,GR0096,,LOS,Lostwithiel
+GR_000097,Great_Western,GR0097,,LUX,Luxulyan
+GR_000098,Great_Western,GR0098,,LYC,Lympstone Commando
+GR_000099,Great_Western,GR0099,,LYM,Lympstone Village
+GR_000100,Great_Western,GR0100,,MDN,Maiden Newton
+GR_000101,Great_Western,GR0101,,MAI,Maidenhead
+GR_000102,Great_Western,GR0102,,MLW,Marlow
+GR_000103,Great_Western,GR0103,,MBT,Marsh Barton
+GR_000104,Great_Western,GR0104,,MKM,Melksham
+GR_000105,Great_Western,GR0105,,MEN,Menheniot
+GR_000106,Great_Western,GR0106,,MDG,Midgham
+GR_000107,Great_Western,GR0107,,MTP,Montpelier
+GR_000108,Great_Western,GR0108,,MRD,Morchard Road
+GR_000109,Great_Western,GR0109,,MIM,Moreton-in-Marsh
+GR_000110,Great_Western,GR0110,,MOR,Mortimer
+GR_000111,Great_Western,GR0111,,NLS,Nailsea & Backwell
+GR_000112,Great_Western,GR0112,,NBY,Newbury
+GR_000113,Great_Western,GR0113,,NRC,Newbury Racecourse
+GR_000114,Great_Western,GR0114,,NCO,Newcourt
+GR_000115,Great_Western,GR0115,,NQY,Newquay
+GR_000116,Great_Western,GR0116,,NTA,Newton Abbot
+GR_000117,Great_Western,GR0117,,NTC,Newton St Cyres
+GR_000118,Great_Western,GR0118,,NCM,North Camp
+GR_000119,Great_Western,GR0119,,OKE,Okehampton
+GR_000120,Great_Western,GR0120,,OKI,Okehampton Interchange
+GR_000121,Great_Western,GR0121,,OLF,Oldfield Park
+GR_000122,Great_Western,GR0122,,OXF,Oxford
+GR_000123,Great_Western,GR0123,,PGN,Paignton
+GR_000124,Great_Western,GR0124,,PAN,Pangbourne
+GR_000125,Great_Western,GR0125,,PAR,Par
+GR_000126,Great_Western,GR0126,,PSN,Parson Street
+GR_000127,Great_Western,GR0127,,PWY,Patchway
+GR_000128,Great_Western,GR0128,,PNM,Penmere
+GR_000129,Great_Western,GR0129,,PYN,Penryn (Cornwall)
+GR_000130,Great_Western,GR0130,,PNZ,Penzance
+GR_000131,Great_Western,GR0131,,PRW,Perranwell
+GR_000132,Great_Western,GR0132,,PSH,Pershore
+GR_000133,Great_Western,GR0133,,PEW,Pewsey
+GR_000134,Great_Western,GR0134,,PIL,Pilning
+GR_000135,Great_Western,GR0135,,PLY,Plymouth
+GR_000136,Great_Western,GR0136,,POL,Polsloe Bridge
+GR_000137,Great_Western,GR0137,,PMA,Portsmouth Arms
+GR_000138,Great_Western,GR0138,,PRI,Portway Park & Ride
+GR_000139,Great_Western,GR0139,,QUI,Quintrell Downs
+GR_000140,Great_Western,GR0140,,RAD,Radley
+GR_000141,Great_Western,GR0141,,RGP,Reading Green Park
+GR_000142,Great_Western,GR0142,,RDW,Reading West
+GR_000143,Great_Western,GR0143,,RDA,Redland
+GR_000144,Great_Western,GR0144,,RED,Redruth
+GR_000145,Great_Western,GR0145,,ROC,Roche
+GR_000146,Great_Western,GR0146,,STS,Saltash
+GR_000147,Great_Western,GR0147,,SMC,Sampford Courtenay
+GR_000148,Great_Western,GR0148,,SND,Sandhurst (Berks)
+GR_000149,Great_Western,GR0149,,SDP,Sandplace
+GR_000150,Great_Western,GR0150,,SML,Sea Mills
+GR_000151,Great_Western,GR0151,,SVB,Severn Beach
+GR_000152,Great_Western,GR0152,,SFR,Shalford (Surrey)
+GR_000153,Great_Western,GR0153,,SHI,Shiplake
+GR_000154,Great_Western,GR0154,,SIP,Shipton
+GR_000155,Great_Western,GR0155,,SHH,Shirehampton
+GR_000156,Great_Western,GR0156,,SLO,Slough
+GR_000157,Great_Western,GR0157,,SGN,South Greenford
+GR_000158,Great_Western,GR0158,,SAR,St Andrews Road
+GR_000159,Great_Western,GR0159,,SAU,St Austell
+GR_000160,Great_Western,GR0160,,SBF,St Budeaux Ferry Road
+GR_000161,Great_Western,GR0161,,SBV,St Budeaux Victoria Road
+GR_000162,Great_Western,GR0162,,SCR,St Columb Road
+GR_000163,Great_Western,GR0163,,SER,St Erth
+GR_000164,Great_Western,GR0164,,SGM,St Germans
+GR_000165,Great_Western,GR0165,,SIV,St Ives (Cornwall)
+GR_000166,Great_Western,GR0166,,SJP,St James Park (Exeter)
+GR_000167,Great_Western,GR0167,,SKN,St Keyne Wishing Well Halt
+GR_000168,Great_Western,GR0168,,SRD,Stapleton Road
+GR_000169,Great_Western,GR0169,,SCS,Starcross
+GR_000170,Great_Western,GR0170,,SHU,Stonehouse
+GR_000171,Great_Western,GR0171,,STD,Stroud (Glos)
+GR_000172,Great_Western,GR0172,,SWI,Swindon (Wilts)
+GR_000173,Great_Western,GR0173,,TAC,Tackley
+GR_000174,Great_Western,GR0174,,TAU,Taunton
+GR_000175,Great_Western,GR0175,,TGM,Teignmouth
+GR_000176,Great_Western,GR0176,,THA,Thatcham
+GR_000177,Great_Western,GR0177,,THE,Theale
+GR_000178,Great_Western,GR0178,,THO,Thornford
+GR_000179,Great_Western,GR0179,,TLH,Tilehurst
+GR_000180,Great_Western,GR0180,,TVP,Tiverton Parkway
+GR_000181,Great_Western,GR0181,,TOP,Topsham
+GR_000182,Great_Western,GR0182,,TQY,Torquay
+GR_000183,Great_Western,GR0183,,TRR,Torre
+GR_000184,Great_Western,GR0184,,TOT,Totnes
+GR_000185,Great_Western,GR0185,,TRO,Trowbridge
+GR_000186,Great_Western,GR0186,,TRU,Truro
+GR_000187,Great_Western,GR0187,,TWY,Twyford
+GR_000188,Great_Western,GR0188,,UMB,Umberleigh
+GR_000189,Great_Western,GR0189,,WGV,Wargrave
+GR_000190,Great_Western,GR0190,,WMN,Warminster
+GR_000191,Great_Western,GR0191,,WSB,Westbury
+GR_000192,Great_Western,GR0192,,WNM,Weston Milton
+GR_000193,Great_Western,GR0193,,WSM,Weston-super-Mare
+GR_000194,Great_Western,GR0194,,WNC,Windsor & Eton Central
+GR_000195,Great_Western,GR0195,,WOP,Worcestershire Parkway
+GR_000196,Great_Western,GR0196,,WOR,Worle
+GR_000197,Great_Western,GR0197,,YAE,Yate
+GR_000198,Great_Western,GR0198,,YAT,Yatton 
+GR_000199,Great_Western,GR0199,,YEO,Yeoford
+GR_000200,Great_Western,GR0200,,YVP,Yeovil Pen Mill
+GR_000201,Great_Western,GR0201,,YET,Yetminster

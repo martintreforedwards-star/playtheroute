@@ -1,0 +1,37 @@
+station_id,network,route_station_id,route_group,crs,station_name
+CH_000001,Chiltern,CH0001,,AYS,Aylesbury
+CH_000002,Chiltern,CH0002,,AVP,Aylesbury Vale Parkway
+CH_000003,Chiltern,CH0003,,BAN,Banbury
+CH_000004,Chiltern,CH0004,,BCF,Beaconsfield
+CH_000005,Chiltern,CH0005,,BCS,Bicester North
+CH_000006,Chiltern,CH0006,,BIT,Bicester Village
+CH_000007,Chiltern,CH0007,,BMO,Birmingham Moor Street
+CH_000008,Chiltern,CH0008,,DNM,Denham
+CH_000009,Chiltern,CH0009,,DGC,Denham Golf Club
+CH_000010,Chiltern,CH0010,,DDG,Dorridge
+CH_000011,Chiltern,CH0011,,GER,Gerrards Cross
+CH_000012,Chiltern,CH0012,,GMN,Great Missenden
+CH_000013,Chiltern,CH0013,,HDM,Haddenham & Thame Parkway
+CH_000014,Chiltern,CH0014,,HTN,Hatton
+CH_000015,Chiltern,CH0015,,HWY,High Wycombe
+CH_000016,Chiltern,CH0016,,ISP,Islip
+CH_000017,Chiltern,CH0017,,KGS,Kings Sutton
+CH_000018,Chiltern,CH0018,,LPW,Lapworth
+CH_000019,Chiltern,CH0019,,LMS,Leamington Spa
+CH_000020,Chiltern,CH0020,,LTK,Little Kimble
+CH_000021,Chiltern,CH0021,,MYB,London Marylebone
+CH_000022,Chiltern,CH0022,,MRS,Monks Risborough
+CH_000023,Chiltern,CH0023,,NLT,Northolt Park
+CH_000024,Chiltern,CH0024,,OXP,Oxford Parkway
+CH_000025,Chiltern,CH0025,,PRR,Princes Risborough
+CH_000026,Chiltern,CH0026,,SDR,Saunderton
+CH_000027,Chiltern,CH0027,,SRG,Seer Green & Jordans
+CH_000028,Chiltern,CH0028,,SOL,Solihull
+CH_000029,Chiltern,CH0029,,SKM,Stoke Mandeville
+CH_000030,Chiltern,CH0030,,SUD,Sudbury & Harrow Road
+CH_000031,Chiltern,CH0031,,SDH,Sudbury Hill Harrow
+CH_000032,Chiltern,CH0032,,WRW,Warwick
+CH_000033,Chiltern,CH0033,,WRP,Warwick Parkway
+CH_000034,Chiltern,CH0034,,WCX,Wembley Stadium
+CH_000035,Chiltern,CH0035,,WND,Wendover
+CH_000036,Chiltern,CH0036,,WNO,Winslow

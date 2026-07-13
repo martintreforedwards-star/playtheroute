@@ -1,0 +1,37 @@
+station_name,crs,operator,route,county,latitude,longitude,major_interchange,terminus,branch_junction,nearest_landmark,nearest_landmark_km,nearest_castle,nearest_castle_km,nearest_cathedral,nearest_cathedral_km,nearest_museum,nearest_museum_km,nearest_country_house,nearest_country_house_km,nearest_nature_reserve,nearest_nature_reserve_km,station_id
+Aylesbury,AYS,Chiltern Railways,,,51.8136436,-0.8175109,,,,,,,,,,,,,,,,CH_000001
+Aylesbury Vale Parkway,AVP,Chiltern Railways,,,51.83124585608368,-0.8598321335907055,,,,,,,,,,,,,,,,CH_000002
+Banbury,BAN,Chiltern Railways,,,52.06031282,-1.328130455,,,,,,,,,,,,,,,,CH_000003
+Beaconsfield,BCF,Chiltern Railways,,,51.61129066,-0.643817675,,,,,,,,,,,,,,,,CH_000004
+Bicester North,BCS,Chiltern Railways,,,51.90349153,-1.150376878,,,,,,,,,,,,,,,,CH_000005
+Bicester Village,BIT,Chiltern Railways,,,51.89263668409826,-1.1494282023043747,,,,,,,,,,,,,,,,CH_000006
+Birmingham Moor Street,BMO,Chiltern Railways,,,52.479088,-1.89246908,,,,,,,,,,,,,,,,CH_000007
+Denham,DNM,Chiltern Railways,,,51.5788354,-0.497428347,,,,,,,,,,,,,,,,CH_000008
+Denham Golf Club,DGC,Chiltern Railways,,,51.58059592,-0.517778734,,,,,,,,,,,,,,,,CH_000009
+Dorridge,DDG,Chiltern Railways,,,52.37208286,-1.752908156,,,,,,,,,,,,,,,,CH_000010
+Gerrards Cross,GER,Chiltern Railways,,,51.58902157,-0.555268471,,,,,,,,,,,,,,,,CH_000011
+Great Missenden,GMN,Chiltern Railways,,,51.70352072,-0.709137756,,,,,,,,,,,,,,,,CH_000012
+Haddenham & Thame Parkway,HDM,Chiltern Railways,,,51.77085986,-0.942139967,,,,,,,,,,,,,,,,CH_000013
+Hatton,HTN,Chiltern Railways,,,52.29528991,-1.672981218,,,,,,,,,,,,,,,,CH_000014
+High Wycombe,HWY,Chiltern Railways,,,51.62958615,-0.74540803,,,,,,,,,,,,,,,,CH_000015
+Islip,ISP,Chiltern Railways,,,51.82576003,-1.238178071,,,,,,,,,,,,,,,,CH_000016
+Kings Sutton,KGS,Chiltern Railways,,,52.02135474,-1.280927148,,,,,,,,,,,,,,,,CH_000017
+Lapworth,LPW,Chiltern Railways,,,52.34127509,-1.725484472,,,,,,,,,,,,,,,,CH_000018
+Leamington Spa,LMS,Chiltern Railways,,,52.28450186,-1.536212243,,,,,,,,,,,,,,,,CH_000019
+Little Kimble,LTK,Chiltern Railways,,,51.752274,-0.808458,,,,,,,,,,,,,,,,CH_000020
+London Marylebone,MYB,Chiltern Railways,,,51.5225334244457,-0.1626514249185695,,,,,,,,,,,,,,,,CH_000021
+Monks Risborough,MRS,Chiltern Railways,,,51.73576572,-0.829333579,,,,,,,,,,,,,,,,CH_000022
+Northolt Park,NLT,Chiltern Railways,,,51.55763535,-0.359421311,,,,,,,,,,,,,,,,CH_000023
+Oxford Parkway,OXP,Chiltern Railways,,,51.80355006506105,-1.274979798469263,,,,,,,,,,,,,,,,CH_000024
+Princes Risborough,PRR,Chiltern Railways,,,51.71786322,-0.843881476,,,,,,,,,,,,,,,,CH_000025
+Saunderton,SDR,Chiltern Railways,,,51.67590446,-0.825468633,,,,,,,,,,,,,,,,CH_000026
+Seer Green & Jordans,SRG,Chiltern Railways,,,51.60966864,-0.607428365,,,,,,,,,,,,,,,,CH_000027
+Solihull,SOL,Chiltern Railways,,,52.414621,-1.7893935,,,,,,,,,,,,,,,,CH_000028
+Stoke Mandeville,SKM,Chiltern Railways,,,51.78780029,-0.784084548,,,,,,,,,,,,,,,,CH_000029
+Sudbury & Harrow Road,SUD,Chiltern Railways,,,51.5545018,-0.315970143,,,,,,,,,,,,,,,,CH_000030
+Sudbury Hill Harrow,SDH,Chiltern Railways,,,51.55838698,-0.336167829,,,,,,,,,,,,,,,,CH_000031
+Warwick,WRW,Chiltern Railways,,,52.28655133,-1.581858014,,,,,,,,,,,,,,,,CH_000032
+Warwick Parkway,WRP,Chiltern Railways,,,52.28611497,-1.612062229,,,,,,,,,,,,,,,,CH_000033
+Wembley Stadium,WCX,Chiltern Railways,,,51.55469663,-0.285958395,,,,,,,,,,,,,,,,CH_000034
+Wendover,WND,Chiltern Railways,,,51.76176123,-0.747369763,,,,,,,,,,,,,,,,CH_000035
+Winslow,WNO,Chiltern Railways,,,51.948515,-0.88707,,,,,,,,,,,,,,,,CH_000036

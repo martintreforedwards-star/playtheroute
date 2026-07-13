@@ -1,0 +1,103 @@
+station_name,crs,operator,route,county,latitude,longitude,major_interchange,terminus,branch_junction,nearest_landmark,nearest_landmark_km,nearest_castle,nearest_castle_km,nearest_cathedral,nearest_cathedral_km,nearest_museum,nearest_museum_km,nearest_country_house,nearest_country_house_km,nearest_nature_reserve,nearest_nature_reserve_km,station_id
+Alfreton,ALF,East Midlands Railway,,,53.10045706,-1.369688632,,,,,,,,,,,,,,,,EA_000001
+Alsager,ASG,East Midlands Railway,,,53.09275298,-2.298612158,,,,,,,,,,,,,,,,EA_000002
+Ambergate,AMB,East Midlands Railway,,,53.06054078,-1.48069344,,,,,,,,,,,,,,,,EA_000003
+Ancaster,ANC,East Midlands Railway,,,52.98793249,-0.535615122,,,,,,,,,,,,,,,,EA_000004
+Aslockton,ALK,East Midlands Railway,,,52.95139426,-0.898543361,,,,,,,,,,,,,,,,EA_000005
+Attenborough,ATB,East Midlands Railway,,,52.9063664,-1.231269105,,,,,,,,,,,,,,,,EA_000006
+Barrow Haven,BAV,East Midlands Railway,,,53.6971445,-0.391442806,,,,,,,,,,,,,,,,EA_000007
+Barrow-upon-Soar,BWS,East Midlands Railway,,,52.75028353,-1.149568919,,,,,,,,,,,,,,,,EA_000008
+Barton-on-Humber,BAU,East Midlands Railway,,,53.68883974,-0.443251195,,,,,,,,,,,,,,,,EA_000009
+Beeston,BEE,East Midlands Railway,,,52.92077475,-1.207661803,,,,,,,,,,,,,,,,EA_000010
+Belper,BLP,East Midlands Railway,,,53.02459133,-1.482616227,,,,,,,,,,,,,,,,EA_000011
+Bingham,BIN,East Midlands Railway,,,52.95457509,-0.952051798,,,,,,,,,,,,,,,,EA_000012
+Bleasby,BSB,East Midlands Railway,,,53.04169182,-0.942482306,,,,,,,,,,,,,,,,EA_000013
+Blythe Bridge,BYB,East Midlands Railway,,,52.96816538,-2.066959695,,,,,,,,,,,,,,,,EA_000014
+Boston,BSN,East Midlands Railway,,,52.97811818,-0.031002264,,,,,,,,,,,,,,,,EA_000015
+Bottesford,BTF,East Midlands Railway,,,52.94500577,-0.796014823,,,,,,,,,,,,,,,,EA_000016
+Bulwell,BLW,East Midlands Railway,,,52.99971765,-1.196233543,,,,,,,,,,,,,,,,EA_000017
+Burton Joyce,BUJ,East Midlands Railway,,,52.98409116,-1.040713371,,,,,,,,,,,,,,,,EA_000018
+Burton-on-Trent,BUT,East Midlands Railway,,,52.80583306,-1.642462026,,,,,,,,,,,,,,,,EA_000019
+Carlton,CTO,East Midlands Railway,,,52.96497797,-1.079253189,,,,,,,,,,,,,,,,EA_000020
+Chesterfield,CHD,East Midlands Railway,,,53.23824054,-1.420109085,,,,,,,,,,,,,,,,EA_000021
+Collingham,CLM,East Midlands Railway,,,53.14411144,-0.750383181,,,,,,,,,,,,,,,,EA_000022
+Corby,COR,East Midlands Railway,,,52.488051,-0.689243,,,,,,,,,,,,,,,,EA_000023
+Creswell,CWD,East Midlands Railway,,,53.26403988,-1.215873919,,,,,,,,,,,,,,,,EA_000024
+Cromford,CMF,East Midlands Railway,,,53.11294781,-1.548786122,,,,,,,,,,,,,,,,EA_000025
+Derby,DBY,East Midlands Railway,,,52.91618036,-1.463073262,,,,,,,,,,,,,,,,EA_000026
+Duffield,DFI,East Midlands Railway,,,52.98774917,-1.486035917,,,,,,,,,,,,,,,,EA_000027
+East Midlands Parkway,EMD,East Midlands Railway,,,52.864306,-1.264687,,,,,,,,,,,,,,,,EA_000028
+Elton & Orston,ELO,East Midlands Railway,,,52.95188523,-0.855364249,,,,,,,,,,,,,,,,EA_000029
+Fiskerton,FSK,East Midlands Railway,,,53.06029715,-0.912182054,,,,,,,,,,,,,,,,EA_000030
+Gainsborough Lea Road,GBL,East Midlands Railway,,,53.38611247,-0.768583076,,,,,,,,,,,,,,,,EA_000031
+Goxhill,GOX,East Midlands Railway,,,53.67671563,-0.337125453,,,,,,,,,,,,,,,,EA_000032
+Great Coates,GCT,East Midlands Railway,,,53.57577255,-0.130229747,,,,,,,,,,,,,,,,EA_000033
+Grimsby Docks,GMD,East Midlands Railway,,,53.57433986,-0.075615006,,,,,,,,,,,,,,,,EA_000034
+Habrough,HAB,East Midlands Railway,,,53.60553503,-0.267975846,,,,,,,,,,,,,,,,EA_000035
+Havenhouse,HVN,East Midlands Railway,,,53.11449084,0.273177619,,,,,,,,,,,,,,,,EA_000036
+Healing,HLI,East Midlands Railway,,,53.5818177,-0.160630049,,,,,,,,,,,,,,,,EA_000037
+Heckington,HEC,East Midlands Railway,,,52.97733733,-0.293936548,,,,,,,,,,,,,,,,EA_000038
+Hinckley (Leics),HNK,East Midlands Railway,,,52.53501671,-1.371919253,,,,,,,,,,,,,,,,EA_000039
+Hubberts Bridge,HBB,East Midlands Railway,,,52.97564369,-0.110071823,,,,,,,,,,,,,,,,EA_000040
+Hucknall,HKN,East Midlands Railway,,,53.03830732,-1.195814321,,,,,,,,,,,,,,,,EA_000041
+Hykeham,HKM,East Midlands Railway,,,53.19536728,-0.598164171,,,,,,,,,,,,,,,,EA_000042
+Ilkeston,ILN,East Midlands Railway,,,52.9794,-1.2949,,,,,,,,,,,,,,,,EA_000043
+Kettering,KET,East Midlands Railway,,,52.39356783,-0.731555547,,,,,,,,,,,,,,,,EA_000044
+Kidsgrove,KDG,East Midlands Railway,,,53.08658326,-2.244818788,,,,,,,,,,,,,,,,EA_000045
+Kirkby-in-Ashfield,KKB,East Midlands Railway,,,53.10012396,-1.253060759,,,,,,,,,,,,,,,,EA_000046
+Langley Mill,LGM,East Midlands Railway,,,53.01808321,-1.331236345,,,,,,,,,,,,,,,,EA_000047
+Langwith-Whaley Thorns,LAG,East Midlands Railway,,,53.23253667,-1.209707864,,,,,,,,,,,,,,,,EA_000048
+Leicester,LEI,East Midlands Railway,,,52.63144566,-1.125278584,,,,,,,,,,,,,,,,EA_000049
+Lincoln,LCN,East Midlands Railway,,,53.22610544,-0.539919855,,,,,,,,,,,,,,,,EA_000050
+Long Eaton,LGE,East Midlands Railway,,,52.88514513,-1.288104264,,,,,,,,,,,,,,,,EA_000051
+Longport,LPT,East Midlands Railway,,,53.04169194,-2.216225493,,,,,,,,,,,,,,,,EA_000052
+Longton,LGN,East Midlands Railway,,,52.989671,-2.137010067,,,,,,,,,,,,,,,,EA_000053
+Loughborough,LBO,East Midlands Railway,,,52.77897038,-1.195932923,,,,,,,,,,,,,,,,EA_000054
+Lowdham,LOW,East Midlands Railway,,,53.00692902,-0.997582237,,,,,,,,,,,,,,,,EA_000055
+Mansfield,MFT,East Midlands Railway,,,53.14255896,-1.197157497,,,,,,,,,,,,,,,,EA_000056
+Mansfield Woodhouse,MSW,East Midlands Railway,,,53.16145454,-1.199796358,,,,,,,,,,,,,,,,EA_000057
+Market Harborough,MHR,East Midlands Railway,,,52.48040756,-0.908871723,,,,,,,,,,,,,,,,EA_000058
+Market Rasen,MKR,East Midlands Railway,,,53.38447725,-0.337094278,,,,,,,,,,,,,,,,EA_000059
+Matlock,MAT,East Midlands Railway,,,53.13815608,-1.558986118,,,,,,,,,,,,,,,,EA_000060
+Matlock Bath,MTB,East Midlands Railway,,,53.12197042,-1.557657491,,,,,,,,,,,,,,,,EA_000061
+Melton Mowbray,MMO,East Midlands Railway,,,52.7606833,-0.885577764,,,,,,,,,,,,,,,,EA_000062
+Metheringham,MGM,East Midlands Railway,,,53.13890433,-0.391447021,,,,,,,,,,,,,,,,EA_000063
+Narborough,NBR,East Midlands Railway,,,52.57131212,-1.203351787,,,,,,,,,,,,,,,,EA_000064
+Netherfield,NET,East Midlands Railway,,,52.96147483,-1.07962538,,,,,,,,,,,,,,,,EA_000065
+New Clee,NCE,East Midlands Railway,,,53.57446029,-0.05914558,,,,,,,,,,,,,,,,EA_000066
+New Holland,NHL,East Midlands Railway,,,53.70193475,-0.360203766,,,,,,,,,,,,,,,,EA_000067
+Newark Castle,NCT,East Midlands Railway,,,53.08002714,-0.81315172,,,,,,,,,,,,,,,,EA_000068
+Newstead,NSD,East Midlands Railway,,,53.07171822,-1.22235722,,,,,,,,,,,,,,,,EA_000069
+Nottingham,NOT,East Midlands Railway,,,52.94717947,-1.14688808,,,,,,,,,,,,,,,,EA_000070
+Oakham,OKM,East Midlands Railway,,,52.67223558,-0.73416278,,,,,,,,,,,,,,,,EA_000071
+Peartree,PEA,East Midlands Railway,,,52.89806425,-1.472677646,,,,,,,,,,,,,,,,EA_000072
+Radcliffe (Nottinghamshire),RDF,East Midlands Railway,,,52.94890755,-1.036580335,,,,,,,,,,,,,,,,EA_000073
+Rauceby,RAU,East Midlands Railway,,,52.98522476,-0.456602942,,,,,,,,,,,,,,,,EA_000074
+Rolleston,ROL,East Midlands Railway,,,53.06574736,-0.898762153,,,,,,,,,,,,,,,,EA_000075
+Ruskington,RKT,East Midlands Railway,,,53.04148456,-0.380756379,,,,,,,,,,,,,,,,EA_000076
+Saxilby,SXY,East Midlands Railway,,,53.26722423,-0.664040791,,,,,,,,,,,,,,,,EA_000077
+Sheffield,SHF,East Midlands Railway,,,53.37823538,-1.462104529,,,,,,,,,,,,,,,,EA_000078
+Shirebrook,SHB,East Midlands Railway,,,53.20426177,-1.202442721,,,,,,,,,,,,,,,,EA_000079
+Sileby,SIL,East Midlands Railway,,,52.73102158,-1.10966224,,,,,,,,,,,,,,,,EA_000080
+Skegness,SKG,East Midlands Railway,,,53.1430765,0.333903847,,,,,,,,,,,,,,,,EA_000081
+Sleaford,SLR,East Midlands Railway,,,52.99549349,-0.41034233,,,,,,,,,,,,,,,,EA_000082
+South Wigston,SWS,East Midlands Railway,,,52.58224354,-1.134080764,,,,,,,,,,,,,,,,EA_000083
+Spalding,SPA,East Midlands Railway,,,52.78882937,-0.156873182,,,,,,,,,,,,,,,,EA_000084
+Spondon,SPO,East Midlands Railway,,,52.91188874,-1.411093591,,,,,,,,,,,,,,,,EA_000085
+Stallingborough,SLL,East Midlands Railway,,,53.58711418,-0.183667548,,,,,,,,,,,,,,,,EA_000086
+Stamford (Lincs),SMD,East Midlands Railway,,,52.64740704,-0.480499424,,,,,,,,,,,,,,,,EA_000087
+Sutton Parkway,SPK,East Midlands Railway,,,53.11420865,-1.245645184,,,,,,,,,,,,,,,,EA_000088
+Swinderby,SWD,East Midlands Railway,,,53.16958189,-0.70268215,,,,,,,,,,,,,,,,EA_000089
+Swineshead,SWE,East Midlands Railway,,,52.96983174,-0.187156156,,,,,,,,,,,,,,,,EA_000090
+Syston,SYS,East Midlands Railway,,,52.6946713,-1.082139486,,,,,,,,,,,,,,,,EA_000091
+Thornton Abbey,TNA,East Midlands Railway,,,53.65397075,-0.323493815,,,,,,,,,,,,,,,,EA_000092
+Thorpe Culvert,TPC,East Midlands Railway,,,53.12279894,0.199481891,,,,,,,,,,,,,,,,EA_000093
+Thurgarton,THU,East Midlands Railway,,,53.02922431,-0.962023239,,,,,,,,,,,,,,,,EA_000094
+Tutbury & Hatton,TUT,East Midlands Railway,,,52.86437892,-1.682087757,,,,,,,,,,,,,,,,EA_000095
+Ulceby,ULC,East Midlands Railway,,,53.61905841,-0.302046812,,,,,,,,,,,,,,,,EA_000096
+Uttoxeter,UTT,East Midlands Railway,,,52.89708125,-1.857261595,,,,,,,,,,,,,,,,EA_000097
+Wainfleet,WFL,East Midlands Railway,,,53.10514887,0.234736319,,,,,,,,,,,,,,,,EA_000098
+Wellingborough,WEL,East Midlands Railway,,,52.30379284,-0.676643216,,,,,,,,,,,,,,,,EA_000099
+Whatstandwell,WTS,East Midlands Railway,,,53.08311502,-1.504309244,,,,,,,,,,,,,,,,EA_000100
+Whitwell (Derbyshire),WWL,East Midlands Railway,,,53.28038058,-1.199376401,,,,,,,,,,,,,,,,EA_000101
+Willington,WIL,East Midlands Railway,,,52.85366357,-1.563360192,,,,,,,,,,,,,,,,EA_000102

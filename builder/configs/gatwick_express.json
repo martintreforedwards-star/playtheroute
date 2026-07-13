@@ -1,0 +1,12 @@
+{
+  "name": "Gatwick_Express",
+  "network": "Gatwick_Express",
+  "master": "data/Gatwick_Express/gatwick_express_master.csv",
+  "route_groups": "data/Gatwick_Express/route_membership.csv",
+  "missing_times": "data/Gatwick_Express/missing_times.csv",
+  "rules": "builder/configs/gatwick_express_rules.json",
+  "clue_template": "data/clues/southeastern-clues.json",
+  "clues": "data/Gatwick_Express/gatwick_express-clues.json",
+  "enriched": "data/Gatwick_Express/gatwick_express_enriched.csv",
+  "output": "data/Gatwick_Express/gatwick_express.json"
+}

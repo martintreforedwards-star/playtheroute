@@ -1,0 +1,38 @@
+station_id,network,route_station_id,route_group,crs,station_name
+LO_000001,London_Northwestern,LO0001,,ACB,Acton Bridge (Cheshire)
+LO_000002,London_Northwestern,LO0002,,APS,Apsley
+LO_000003,London_Northwestern,LO0003,,APG,Aspley Guise
+LO_000004,London_Northwestern,LO0004,,ATH,Atherstone
+LO_000005,London_Northwestern,LO0005,,BSJ,Bedford St Johns
+LO_000006,London_Northwestern,LO0006,,BKM,Berkhamsted
+LO_000007,London_Northwestern,LO0007,,BLY,Bletchley
+LO_000008,London_Northwestern,LO0008,,BWB,Bow Brickhill
+LO_000009,London_Northwestern,LO0009,,BWO,Bricket Wood
+LO_000010,London_Northwestern,LO0010,,CED,Cheddington
+LO_000011,London_Northwestern,LO0011,,FEN,Fenny Stratford
+LO_000012,London_Northwestern,LO0012,,GSN,Garston (Hertfordshire)
+LO_000013,London_Northwestern,LO0013,,HTF,Hartford (Cheshire)
+LO_000014,London_Northwestern,LO0014,,HML,Hemel Hempstead
+LO_000015,London_Northwestern,LO0015,,HWW,How Wood (Hertfordshire)
+LO_000016,London_Northwestern,LO0016,,KMH,Kempston Hardwick
+LO_000017,London_Northwestern,LO0017,,KGL,Kings Langley
+LO_000018,London_Northwestern,LO0018,,LBZ,Leighton Buzzard
+LO_000019,London_Northwestern,LO0019,,LID,Lidlington
+LO_000020,London_Northwestern,LO0020,,LBK,Long Buckby
+LO_000021,London_Northwestern,LO0021,,MLB,Millbrook (Bedfordshire)
+LO_000022,London_Northwestern,LO0022,,MKC,Milton Keynes Central
+LO_000023,London_Northwestern,LO0023,,NMP,Northampton
+LO_000024,London_Northwestern,LO0024,,NUN,Nuneaton
+LO_000025,London_Northwestern,LO0025,,PKT,Park Street
+LO_000026,London_Northwestern,LO0026,,PSW,Polesworth
+LO_000027,London_Northwestern,LO0027,,RID,Ridgmont
+LO_000028,London_Northwestern,LO0028,,SAA,St Albans Abbey
+LO_000029,London_Northwestern,LO0029,,SWR,Stewartby
+LO_000030,London_Northwestern,LO0030,,TAM,Tamworth
+LO_000031,London_Northwestern,LO0031,,TRI,Tring
+LO_000032,London_Northwestern,LO0032,,WFJ,Watford Junction
+LO_000033,London_Northwestern,LO0033,,WFN,Watford North
+LO_000034,London_Northwestern,LO0034,,WED,Wedgwood
+LO_000035,London_Northwestern,LO0035,,WSF,Winsford
+LO_000036,London_Northwestern,LO0036,,WOB,Woburn Sands
+LO_000037,London_Northwestern,LO0037,,WOL,Wolverton

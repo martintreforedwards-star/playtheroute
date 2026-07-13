@@ -1,0 +1,129 @@
+station_id,station_name,crs,operator,route,county,latitude,longitude,major_interchange,terminus,branch_junction,nearest_landmark,nearest_landmark_km,nearest_castle,nearest_castle_km,nearest_cathedral,nearest_cathedral_km,nearest_museum,nearest_museum_km,nearest_country_house,nearest_country_house_km,nearest_nature_reserve,nearest_nature_reserve_km
+CM001,London Marylebone,MYB,Chiltern Railways,Main Line,Greater London,51.5225,-0.1631,,,,Bekonscot Model Village,34.64,Oxford Castle,80.08,Coventry Cathedral,134.83,Roald Dahl Museum,42.64,National Trust Cliveden,36.38,Chiltern Hills,48.2
+CM002,Wembley Stadium,WCX,Chiltern Railways,Main Line,Greater London,51.5566,-0.2796,,,,Bekonscot Model Village,25.89,Oxford Castle,71.23,Coventry Cathedral,126.63,Roald Dahl Museum,33.75,National Trust Cliveden,28.1,Chiltern Hills,39.3
+CM003,South Ruislip,SRU,Chiltern Railways,Main Line,Greater London,51.5569,-0.3991,,,,Bekonscot Model Village,17.92,Oxford Castle,63.42,Coventry Cathedral,121.33,Roald Dahl Museum,26.81,National Trust Cliveden,19.83,Chiltern Hills,31.92
+CM004,West Ruislip,WRU,Chiltern Railways,Main Line,Greater London,51.5697,-0.4378,,,,Bekonscot Model Village,14.93,Oxford Castle,60.42,Coventry Cathedral,118.56,Roald Dahl Museum,23.82,National Trust Cliveden,17.21,Chiltern Hills,28.89
+CM005,Denham,DNM,Chiltern Railways,Main Line,Buckinghamshire,51.5785,-0.5178,,,,Bekonscot Model Village,9.38,Oxford Castle,54.9,Coventry Cathedral,114.46,Roald Dahl Museum,19.08,National Trust Cliveden,11.85,Chiltern Hills,23.7
+CM006,Denham Golf Club,DGC,Chiltern Railways,Main Line,Buckinghamshire,51.5809,-0.517,,,,Bekonscot Model Village,9.34,Oxford Castle,54.85,Coventry Cathedral,114.28,Roald Dahl Museum,18.92,National Trust Cliveden,11.95,Chiltern Hills,23.6
+CM007,Gerrards Cross,GER,Chiltern Railways,Main Line,Buckinghamshire,51.589,-0.555,,,,Bekonscot Model Village,6.57,Oxford Castle,52.08,Coventry Cathedral,112.02,Roald Dahl Museum,16.5,National Trust Cliveden,9.69,Chiltern Hills,20.93
+CM008,Seer Green & Jordans,SRJ,Chiltern Railways,Main Line,Buckinghamshire,51.611,-0.607,,,,Bekonscot Model Village,2.65,Oxford Castle,47.87,Coventry Cathedral,107.96,Roald Dahl Museum,12.38,National Trust Cliveden,8.03,Chiltern Hills,16.59
+CM009,Beaconsfield,BCF,Chiltern Railways,Main Line,Buckinghamshire,51.6117,-0.6434,,,,Bekonscot Model Village,0.43,Oxford Castle,45.48,Coventry Cathedral,106.49,Roald Dahl Museum,11.09,National Trust Cliveden,6.66,Chiltern Hills,14.6
+CM010,High Wycombe,HWY,Chiltern Railways,Main Line,Buckinghamshire,51.629,-0.745,,,,Hughenden Manor,2.56,Oxford Castle,38.24,Coventry Cathedral,101.14,Roald Dahl Museum,8.62,Hughenden Manor,2.56,Chiltern Hills,8.76
+CM011,Saunderton,SDR,Chiltern Railways,Main Line,Buckinghamshire,51.675,-0.825,,,,Chiltern Hills,3.27,Oxford Castle,31.37,Coventry Cathedral,93.94,Roald Dahl Museum,8.65,Hughenden Manor,5.06,Chiltern Hills,3.27
+CM012,Princes Risborough,PRR,Chiltern Railways,Main Line,Buckinghamshire,51.725,-0.844,,,,Chiltern Hills,4.11,Oxford Castle,29.01,Coventry Cathedral,88.48,Roald Dahl Museum,9.68,Hughenden Manor,10.11,Chiltern Hills,4.11
+CM013,Haddenham & Thame Parkway,HDM,Chiltern Railways,Main Line,Buckinghamshire,51.77,-0.942,,,,Waddesdon Manor,8.11,Oxford Castle,22.18,Coventry Cathedral,80.8,Roald Dahl Museum,17.75,Waddesdon Manor,8.11,Chiltern Hills,12.5
+CM014,Bicester Village,BIT,Chiltern Railways,Main Line,Oxfordshire,51.893,-1.149,,,,Bicester Village,0.3,Oxford Castle,17.53,Coventry Cathedral,62.29,Oxford University Museum of Natural History,16.59,Blenheim Palace,15.46,Port Meadow,16.13
+CM015,Kings Sutton,KGS,Chiltern Railways,Main Line,Northamptonshire,52.018,-1.281,,,,Bicester Heritage,14.99,Oxford Castle,29.6,Coventry Cathedral,46.05,Oxford University Museum of Natural History,28.85,Blenheim Palace,19.7,Wychwood Forest,26.25
+CM016,Banbury,BAN,Chiltern Railways,Main Line,Oxfordshire,52.06,-1.329,,,,Bicester Heritage,20.67,Warwick Castle,30.02,Coventry Cathedral,40.59,Oxford University Museum of Natural History,33.85,Blenheim Palace,23.68,Wychwood Forest,27.83
+CM017,Leamington Spa,LMS,Chiltern Railways,Main Line,Warwickshire,52.285,-1.535,,,,Warwick Castle,3.45,Warwick Castle,3.45,Coventry Cathedral,13.84,Coventry Transport Museum,13.99,Charlecote Park,12.09,Coombe Abbey Park,16.79
+CM018,Warwick,WRW,Chiltern Railways,Main Line,Warwickshire,52.286,-1.582,,,,Warwick Castle,0.73,Warwick Castle,0.73,Coventry Cathedral,14.52,Coventry Transport Museum,14.58,Packwood House,10.78,Coombe Abbey Park,18.59
+CM019,Warwick Parkway,WRP,Chiltern Railways,Main Line,Warwickshire,52.286,-1.613,,,,Warwick Castle,2.04,Warwick Castle,2.04,Coventry Cathedral,15.38,Coventry Transport Museum,15.4,Packwood House,9.17,Coombe Abbey Park,20.02
+CM020,Hatton,HTN,Chiltern Railways,Main Line,Warwickshire,52.295,-1.672,,,,Packwood House,6,Warwick Castle,6.16,Coventry Cathedral,16.85,Coventry Transport Museum,16.78,Packwood House,6,Coombe Abbey Park,22.44
+CM021,Dorridge,DDG,Chiltern Railways,Main Line,West Midlands,52.372,-1.753,,,,Baddesley Clinton,2.31,Kenilworth Castle,12.16,Birmingham Cathedral,15.46,Thinktank Birmingham,14.97,Baddesley Clinton,2.31,Sutton Park,21.99
+CM022,Solihull,SOL,Chiltern Railways,Main Line,West Midlands,52.414,-1.789,,,,Baddesley Clinton,7.54,Kenilworth Castle,16.04,Birmingham Cathedral,10.32,Thinktank Birmingham,9.82,Baddesley Clinton,7.54,Sutton Park,16.96
+CM023,Birmingham Moor Street,BMO,Chiltern Railways,Main Line,West Midlands,52.479,-1.893,,,,Bullring Birmingham,0.23,Dudley Castle,13.49,Birmingham Cathedral,0.27,Thinktank Birmingham,0.41,Baddesley Clinton,17.36,Sandwell Valley Country Park,7.78
+CM024,Birmingham Snow Hill,BSW,Chiltern Railways,Main Line,West Midlands,52.483,-1.899,,,,Birmingham Cathedral,0.41,Dudley Castle,12.97,Birmingham Cathedral,0.41,Birmingham Museum and Art Gallery,0.43,Baddesley Clinton,17.96,Sandwell Valley Country Park,7.18
+CM025,Harrow-on-the-Hill,,Chiltern Railways,Amersham Line,Greater London,,,,,,,,,,,,,,,,,
+CM026,Northolt Park,,Chiltern Railways,Amersham Line,Greater London,,,,,,,,,,,,,,,,,
+CM027,Sudbury Hill Harrow,,Chiltern Railways,Amersham Line,Greater London,,,,,,,,,,,,,,,,,
+CM028,Sudbury & Harrow Road,,Chiltern Railways,Amersham Line,Greater London,,,,,,,,,,,,,,,,,
+CM029,Amersham,,Chiltern Railways,Amersham Line,Buckinghamshire,,,,,,,,,,,,,,,,,
+CM030,Great Missenden,,Chiltern Railways,Amersham Line,Buckinghamshire,,,,,,,,,,,,,,,,,
+CM031,Wendover,,Chiltern Railways,Amersham Line,Buckinghamshire,,,,,,,,,,,,,,,,,
+CM032,Stoke Mandeville,,Chiltern Railways,Amersham Line,Buckinghamshire,,,,,,,,,,,,,,,,,
+CM033,Aylesbury,,Chiltern Railways,Amersham Line,Buckinghamshire,,,,,,,,,,,,,,,,,
+CM034,Aylesbury Vale Parkway,,Chiltern Railways,Amersham Line,Buckinghamshire,,,,,,,,,,,,,,,,,
+CM035,Monks Risborough,,Chiltern Railways,Aylesbury Branch,Buckinghamshire,,,,,,,,,,,,,,,,,
+CM036,Little Kimble,,Chiltern Railways,Aylesbury Branch,Buckinghamshire,,,,,,,,,,,,,,,,,
+CM037,Bicester North,,Chiltern Railways,Oxford Branch,Buckinghamshire,,,,,,,,,,,,,,,,,
+CM038,Oxford Parkway,,Chiltern Railways,Oxford Branch,Oxfordshire,,,,,,,,,,,,,,,,,
+CM039,Oxford,,Chiltern Railways,Oxford Branch,Northamptonshire,,,,,,,,,,,,,,,,,
+CM040,Islip,,Chiltern Railways,Oxford Branch,Oxfordshire,,,,,,,,,,,,,,,,,
+CM041,Bearley,,Chiltern Railways,Stratford Branch,Warwickshire,,,,,,,,,,,,,,,,,
+CM042,Stratford-upon-Avon Parkway,,Chiltern Railways,Stratford Branch,Warwickshire,,,,,,,,,,,,,,,,,
+CM043,Stratford-upon-Avon,,Chiltern Railways,Stratford Branch,Warwickshire,,,,,,,,,,,,,,,,,
+CM044,Lapworth,,Chiltern Railways,Stratford Branch,Warwickshire,,,,,,,,,,,,,,,,,
+CM045,Birmingham New Street,BHM,West Midlands Railway,Cross-City,West Midlands,,,,,,,,,,,,,,,,,
+CM046,Five Ways,FWY,West Midlands Railway,Cross-City,West Midlands,,,,,,,,,,,,,,,,,
+CM047,University,UNI,West Midlands Railway,Cross-City,West Midlands,,,,,,,,,,,,,,,,,
+CM048,Selly Oak,SLY,West Midlands Railway,Cross-City,West Midlands,,,,,,,,,,,,,,,,,
+CM049,Bournville,BRV,West Midlands Railway,Cross-City,West Midlands,,,,,,,,,,,,,,,,,
+CM050,King's Norton,KNN,West Midlands Railway,Cross-City,West Midlands,,,,,,,,,,,,,,,,,
+CM051,Northfield,NFD,West Midlands Railway,Cross-City,West Midlands,,,,,,,,,,,,,,,,,
+CM052,Longbridge,LON,West Midlands Railway,Cross-City,West Midlands,,,,,,,,,,,,,,,,,
+CM053,Barnt Green,BGN,West Midlands Railway,Cross-City,Worcestershire,,,,,,,,,,,,,,,,,
+CM054,Alvechurch,ALV,West Midlands Railway,Cross-City,Worcestershire,,,,,,,,,,,,,,,,,
+CM055,Redditch,RDC,West Midlands Railway,Cross-City,Worcestershire,,,,,,,,,,,,,,,,,
+CM056,Bromsgrove,BMV,West Midlands Railway,Cross-City,Worcestershire,,,,,,,,,,,,,,,,,
+CM057,Aston,AST,West Midlands Railway,Cross-City,West Midlands,,,,,,,,,,,,,,,,,
+CM058,Gravelly Hill,GVH,West Midlands Railway,Cross-City,West Midlands,,,,,,,,,,,,,,,,,
+CM059,Erdington,ERD,West Midlands Railway,Cross-City,West Midlands,,,,,,,,,,,,,,,,,
+CM060,Chester Road,CRD,West Midlands Railway,Cross-City,West Midlands,,,,,,,,,,,,,,,,,
+CM061,Wylde Green,WYL,West Midlands Railway,Cross-City,West Midlands,,,,,,,,,,,,,,,,,
+CM062,Sutton Coldfield,SUT,West Midlands Railway,Cross-City,West Midlands,,,,,,,,,,,,,,,,,
+CM063,Four Oaks,FOK,West Midlands Railway,Cross-City,West Midlands,,,,,,,,,,,,,,,,,
+CM064,Blake Street,BKT,West Midlands Railway,Cross-City,Staffordshire,,,,,,,,,,,,,,,,,
+CM065,Shenstone,SEN,West Midlands Railway,Cross-City,Staffordshire,,,,,,,,,,,,,,,,,
+CM066,Lichfield City,LIC,West Midlands Railway,Cross-City,Staffordshire,,,,,,,,,,,,,,,,,
+CM067,Lichfield Trent Valley,LTV,West Midlands Railway,Cross-City,Staffordshire,,,,,,,,,,,,,,,,,
+CM068,Smethwick Galton Bridge,SGB,West Midlands Railway,Wolverhampton,West Midlands,,,,,,,,,,,,,,,,,
+CM069,Sandwell & Dudley,SAD,West Midlands Railway,Wolverhampton,West Midlands,,,,,,,,,,,,,,,,,
+CM070,Dudley Port,DDP,West Midlands Railway,Wolverhampton,West Midlands,,,,,,,,,,,,,,,,,
+CM071,Tipton,TIP,West Midlands Railway,Wolverhampton,West Midlands,,,,,,,,,,,,,,,,,
+CM072,Coseley,COS,West Midlands Railway,Wolverhampton,West Midlands,,,,,,,,,,,,,,,,,
+CM073,Wolverhampton,WVH,West Midlands Railway,Wolverhampton,West Midlands,,,,,,,,,,,,,,,,,
+CM074,Adderley Park,ADD,West Midlands Railway,Coventry,West Midlands,,,,,,,,,,,,,,,,,
+CM075,Stechford,SCF,West Midlands Railway,Coventry,West Midlands,,,,,,,,,,,,,,,,,
+CM076,Lea Hall,LEH,West Midlands Railway,Coventry,West Midlands,,,,,,,,,,,,,,,,,
+CM077,Marston Green,MGN,West Midlands Railway,Coventry,West Midlands,,,,,,,,,,,,,,,,,
+CM078,Birmingham International,BHI,West Midlands Railway,Coventry,West Midlands,,,,,,,,,,,,,,,,,
+CM079,Hampton-in-Arden,HIA,West Midlands Railway,Coventry,West Midlands,,,,,,,,,,,,,,,,,
+CM080,Berkswell,BKW,West Midlands Railway,Coventry,West Midlands,,,,,,,,,,,,,,,,,
+CM081,Tile Hill,THL,West Midlands Railway,Coventry,West Midlands,,,,,,,,,,,,,,,,,
+CM082,Canley,CAN,West Midlands Railway,Coventry,West Midlands,,,,,,,,,,,,,,,,,
+CM083,Coventry,COV,West Midlands Railway,Coventry,West Midlands,,,,,,,,,,,,,,,,,
+CM084,Duddeston,DUD,West Midlands Railway,Walsall,West Midlands,,,,,,,,,,,,,,,,,
+CM085,Witton,WTT,West Midlands Railway,Walsall,West Midlands,,,,,,,,,,,,,,,,,
+CM086,Perry Barr,PRY,West Midlands Railway,Walsall,West Midlands,,,,,,,,,,,,,,,,,
+CM087,Hamstead,HSD,West Midlands Railway,Walsall,West Midlands,,,,,,,,,,,,,,,,,
+CM088,Tame Bridge Parkway,TBP,West Midlands Railway,Walsall,West Midlands,,,,,,,,,,,,,,,,,
+CM089,Bescot Stadium,BSC,West Midlands Railway,Walsall,West Midlands,,,,,,,,,,,,,,,,,
+CM090,Walsall,WSL,West Midlands Railway,Walsall,West Midlands,,,,,,,,,,,,,,,,,
+CM091,Bloxwich,BLX,West Midlands Railway,Walsall,West Midlands,,,,,,,,,,,,,,,,,
+CM092,Bloxwich North,BWN,West Midlands Railway,Walsall,West Midlands,,,,,,,,,,,,,,,,,
+CM093,Landywood,LWY,West Midlands Railway,Cannock,Staffordshire,,,,,,,,,,,,,,,,,
+CM094,Cannock,CNK,West Midlands Railway,Cannock,Staffordshire,,,,,,,,,,,,,,,,,
+CM095,Hednesford,HNF,West Midlands Railway,Cannock,Staffordshire,,,,,,,,,,,,,,,,,
+CM096,Rugeley Town,RGT,West Midlands Railway,Cannock,Staffordshire,,,,,,,,,,,,,,,,,
+CM097,Rugeley Trent Valley,RVT,West Midlands Railway,Cannock,Staffordshire,,,,,,,,,,,,,,,,,
+CM098,Wellington,WGN,West Midlands Railway,Shrewsbury,Shropshire,,,,,,,,,,,,,,,,,
+CM099,Telford Central,TFC,West Midlands Railway,Shrewsbury,Shropshire,,,,,,,,,,,,,,,,,
+CM100,Oakengates,OKN,West Midlands Railway,Shrewsbury,Shropshire,,,,,,,,,,,,,,,,,
+CM101,Shifnal,SHF,West Midlands Railway,Shrewsbury,Shropshire,,,,,,,,,,,,,,,,,
+CM102,Cosford,COS,West Midlands Railway,Shrewsbury,Shropshire,,,,,,,,,,,,,,,,,
+CM103,Albrighton,ALB,West Midlands Railway,Shrewsbury,Shropshire,,,,,,,,,,,,,,,,,
+CM104,Shrewsbury,SHR,West Midlands Railway,Shrewsbury,Shropshire,,,,,,,,,,,,,,,,,
+CM105,Kidderminster,KID,West Midlands Railway,Hereford,Worcestershire,,,,,,,,,,,,,,,,,
+CM106,Hartlebury,HTB,West Midlands Railway,Hereford,Worcestershire,,,,,,,,,,,,,,,,,
+CM107,Droitwich Spa,DTW,West Midlands Railway,Hereford,Worcestershire,,,,,,,,,,,,,,,,,
+CM108,Worcester Foregate Street,WOF,West Midlands Railway,Hereford,Worcestershire,,,,,,,,,,,,,,,,,
+CM109,Worcester Shrub Hill,WOS,West Midlands Railway,Hereford,Worcestershire,,,,,,,,,,,,,,,,,
+CM110,Malvern Link,MVL,West Midlands Railway,Hereford,Worcestershire,,,,,,,,,,,,,,,,,
+CM111,Great Malvern,GMV,West Midlands Railway,Hereford,Worcestershire,,,,,,,,,,,,,,,,,
+CM112,Colwall,CWL,West Midlands Railway,Hereford,Herefordshire,,,,,,,,,,,,,,,,,
+CM113,Ledbury,LED,West Midlands Railway,Hereford,Herefordshire,,,,,,,,,,,,,,,,,
+CM114,Hereford,HFD,West Midlands Railway,Hereford,Herefordshire,,,,,,,,,,,,,,,,,
+CM115,Jewellery Quarter,JEQ,West Midlands Railway,Snow Hill,West Midlands
+CM116,The Hawthorns,THW,West Midlands Railway,Snow Hill,West Midlands
+CM117,Langley Green,LGG,West Midlands Railway,Snow Hill,West Midlands
+CM118,Rowley Regis,ROW,West Midlands Railway,Snow Hill,West Midlands
+CM119,Old Hill,OHL,West Midlands Railway,Snow Hill,West Midlands
+CM120,Cradley Heath,CRA,West Midlands Railway,Snow Hill,West Midlands
+CM121,Lye,LYE,West Midlands Railway,Snow Hill,West Midlands
+CM122,Stourbridge Junction,SBJ,West Midlands Railway,Snow Hill,West Midlands
+CM123,Stourbridge Town,SBT,West Midlands Railway,Branch,West Midlands
+CM124,Hagley,HAG,West Midlands Railway,Worcester,Worcestershire
+CM125,Blakedown,BKD,West Midlands Railway,Worcester,Worcestershire
+CM126,Nuneaton,NUN,West Midlands Railway,Coventry,Warwickshire
+CM127,Bedworth,BDW,West Midlands Railway,Coventry,Warwickshire
+CM128,Bermuda Park,BMP,West Midlands Railway,Coventry,Warwickshire

@@ -1,0 +1,138 @@
+station_id,station_name,crs,operator,route,county,latitude,longitude,major_interchange,terminus,branch_junction,nearest_landmark,nearest_landmark_km,nearest_castle,nearest_castle_km,nearest_cathedral,nearest_cathedral_km,nearest_museum,nearest_museum_km,nearest_country_house,nearest_country_house_km,nearest_nature_reserve,nearest_nature_reserve_km,route_count,service_count,service_density,route_diversity_band,time_from_london,time_band,accessibility_score,difficulty_score
+SR001,Angmering,ANG,,,,50.816704,-0.489559,False,,,,,,,,,,,,,,,1,1,low,few,40.5,30-60,2,8
+SR002,Ashurst,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+SR002,Balcombe,BAB,,,,51.05624,-0.137881,False,,,,,,,,,,,,,,,1,1,low,few,18.0,0-30,2,8
+SR003,Balham,BAL,,,,51.443169,-0.152403,False,,,,,,,,,,,,,,,2,2,medium,some,9.0,0-30,4,6
+SR004,Barnham,BAA,,,,50.831135,-0.639627,False,,,,,,,,,,,,,,,1,1,low,few,27.0,0-30,2,8
+SR005,Basingstoke,BSK,,,,51.26804,-1.086896,False,,,,,,,,,,,,,,,1,1,low,few,44.0,30-60,2,8
+SR006,Bat & Ball,BBL,,,,51.289703,0.194258,False,,,,,,,,,,,,,,,1,1,low,few,27.0,0-30,2,8
+SR007,Battle,BAT,,,,50.91312,0.495169,False,,,,,,,,,,,,,,,1,1,low,few,81.0,60-120,2,8
+SR008,Berwick,BRK,,,,50.840569,0.164587,False,,,,,,,,,,,,,,,1,1,low,few,40.5,30-60,2,8
+SR009,Bexhill,BEX,,,,50.840679,0.475678,False,,,,,,,,,,,,,,,1,1,low,few,76.5,60-120,2,8
+SR011,Blackfriars,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+SR012,Bognor Regis,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+SR010,Bosham,BOH,,,,50.843262,-0.846655,False,,,,,,,,,,,,,,,1,1,low,few,40.5,30-60,2,8
+SR011,Brighton,BTN,,,,50.829659,-0.141234,True,,,,,,,,,,,,,,,3,3,medium,some,18.0,0-30,6,4
+SR012,Burgess Hill,BUG,,,,50.953552,-0.127749,False,,,,,,,,,,,,,,,1,1,low,few,22.5,0-30,2,8
+SR016,Buxted,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+SR013,Carshalton,CSH,,,,51.367859,-0.16693,False,,,,,,,,,,,,,,,1,1,low,few,45.0,30-60,2,8
+SR014,Chichester,CCH,,,,50.831821,-0.783032,False,,,,,,,,,,,,,,,1,1,low,few,31.5,30-60,2,8
+SR019,City Thameslink,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+SR015,Clapham Junction,CLJ,,,,51.464134,-0.170281,True,,,,,,,,,,,,,,,4,4,high,many,4.5,0-30,8,2
+SR016,Collington,CLL,,,,50.839272,0.457142,False,,,,,,,,,,,,,,,1,1,low,few,72.0,60-120,2,8
+SR017,Cooden Beach,COB,,,,50.83271,0.426969,False,,,,,,,,,,,,,,,1,1,low,few,67.5,60-120,2,8
+SR018,Cosham,CSA,,,,50.841644,-1.068259,False,,,,,,,,,,,,,,,1,1,low,few,54.0,30-60,2,8
+SR019,Coulsdon South,CDS,,,,51.315231,-0.13746,False,,,,,,,,,,,,,,,1,1,low,few,18.0,0-30,2,8
+SR025,Cowden,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+SR026,Crowborough,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+SR027,Dorking,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+SR028,Dorking West,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+SR029,Dormans,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+SR020,Dunton Green,DNG,,,,51.296425,0.171616,False,,,,,,,,,,,,,,,1,1,low,few,31.5,30-60,2,8
+SR021,Durrington-on-Sea,DUR,,,,50.817463,-0.411463,False,,,,,,,,,,,,,,,1,1,low,few,31.5,30-60,2,8
+SR022,Earlswood,ELD,,,,51.227631,-0.171078,False,,,,,,,,,,,,,,,1,1,low,few,22.5,0-30,2,8
+SR023,East Croydon,ECR,,,,51.375679,-0.093335,False,,,,,,,,,,,,,,,1,1,low,few,4.5,0-30,2,8
+SR034,East Grinstead,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+SR035,East Worthing,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+SR024,Eastbourne,EBN,,,,50.769085,0.281847,False,,,,,,,,,,,,,,,1,1,low,few,54.0,30-60,2,8
+SR037,Edenbridge Town,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+SR025,Emsworth,EMS,,,,50.851326,-0.938784,False,,,,,,,,,,,,,,,1,1,low,few,36.0,30-60,2,8
+SR039,Eridge,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+SR026,Etchingham,ETC,,,,51.010479,0.441935,False,,,,,,,,,,,,,,,1,1,low,few,72.0,60-120,2,8
+SR027,Eynsford,EYN,,,,51.362377,0.203465,False,,,,,,,,,,,,,,,1,1,low,few,13.5,0-30,2,8
+SR028,Falmer,FMR,,,,50.862064,-0.087364,False,,,,,,,,,,,,,,,1,1,low,few,27.0,0-30,2,8
+SR029,Fareham,FRM,,,,50.853352,-1.19162,False,,,,,,,,,,,,,,,1,1,low,few,63.0,60-120,2,8
+SR030,Farningham Road,FNR,,,,51.401337,0.235533,False,,,,,,,,,,,,,,,1,1,low,few,9.0,0-30,2,8
+SR045,Farringdon,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+SR031,Fishbourne,FSB,,,,50.839352,-0.815495,False,,,,,,,,,,,,,,,1,1,low,few,36.0,30-60,2,8
+SR032,Ford,FOD,,,,50.829506,-0.578611,False,,,,,,,,,,,,,,,1,1,low,few,31.5,30-60,2,8
+SR033,Frant,FRT,,,,51.104321,0.294034,False,,,,,,,,,,,,,,,1,1,low,few,58.5,30-60,2,8
+SR034,Fratton,FTN,,,,50.795818,-1.073422,False,,,,,,,,,,,,,,,1,1,low,few,45.0,30-60,2,8
+SR035,Gatwick Airport,GTW,,,,51.156425,-0.161022,False,,,,,,,,,,,,,,,1,1,low,few,9.0,0-30,2,8
+SR036,Glynde,GLY,,,,50.859398,0.06883,False,,,,,,,,,,,,,,,1,1,low,few,36.0,30-60,2,8
+SR037,Goring-by-Sea,GBS,,,,50.817753,-0.432751,False,,,,,,,,,,,,,,,1,1,low,few,36.0,30-60,2,8
+SR038,Hackbridge,HCB,,,,51.378437,-0.15358,False,,,,,,,,,,,,,,,1,1,low,few,40.5,30-60,2,8
+SR039,Hampden Park,HMD,,,,50.796124,0.278906,False,,,,,,,,,,,,,,,1,1,low,few,49.5,30-60,2,8
+SR040,Hassocks,HSK,,,,50.923264,-0.146043,False,,,,,,,,,,,,,,,1,1,low,few,27.0,0-30,2,8
+SR041,Hastings,HGS,,,,50.858288,0.57608,True,,,,,,,,,,,,,,,2,2,medium,some,85.5,60-120,4,6
+SR042,Havant,HAV,,,,50.854416,-0.982763,True,,,,,,,,,,,,,,,1,1,low,few,31.5,30-60,2,8
+SR043,Haywards Heath,HHE,,,,51.00536,-0.105717,False,,,,,,,,,,,,,,,1,1,low,few,13.5,0-30,2,8
+SR044,Hedge End,HDE,,,,50.927773,-1.297056,False,,,,,,,,,,,,,,,1,1,low,few,62.0,60-120,2,8
+SR060,Hever,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+SR045,High Brooms,HIB,,,,51.149609,0.277686,False,,,,,,,,,,,,,,,1,1,low,few,49.5,30-60,2,8
+SR046,Hildenborough,HLB,,,,51.214451,0.226465,False,,,,,,,,,,,,,,,1,1,low,few,40.5,30-60,2,8
+SR047,Hilsea,HLS,,,,50.828075,-1.058592,False,,,,,,,,,,,,,,,1,1,low,few,49.5,30-60,2,8
+SR064,Holmwood,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+SR048,Horley,HOR,,,,51.168137,-0.161994,False,,,,,,,,,,,,,,,1,1,low,few,13.5,0-30,2,8
+SR066,Horsham,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+SR049,Hove,HOV,,,,50.835514,-0.170824,False,,,,,,,,,,,,,,,1,1,low,few,22.5,0-30,2,8
+SR068,Hurst Green,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+SR050,Kensington Olympia,KPA,,,,51.497753,-0.210189,False,,,,,,,,,,,,,,,1,1,low,few,13.5,0-30,2,8
+SR051,Lancing,LAC,,,,50.827015,-0.323103,False,,,,,,,,,,,,,,,1,1,low,few,27.0,0-30,2,8
+SR052,Lewes,LWS,,,,50.870281,0.012455,False,,,,,,,,,,,,,,,1,1,low,few,31.5,30-60,2,8
+SR072,Lingfield,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+SR053,Littlehampton,LIT,,,,50.810226,-0.546547,False,,,,,,,,,,,,,,,1,1,low,few,36.0,30-60,2,8
+SR054,London Bridge,LBG,,,,51.505035,-0.085058,True,,,,,,,,,,,,,,,1,1,low,few,0.0,,2,8
+SR055,London Road (Brighton),LRB,,,,50.836773,-0.136696,False,,,,,,,,,,,,,,,1,1,low,few,22.5,0-30,2,8
+SR056,London Victoria,VIC,,,,51.4966,-0.1448,True,,,,,,,,,,,,,,,2,2,medium,some,0.0,,4,6
+SR057,London Waterloo,WAT,,,,51.501865,-0.111126,True,,,,,,,,,,,,,,,1,1,low,few,0.0,,2,8
+SR058,Merstham,MHM,,,,51.264164,-0.149555,False,,,,,,,,,,,,,,,1,1,low,few,22.5,0-30,2,8
+SR059,Mitcham Eastfields,MTC,,,,51.407725,-0.154764,False,,,,,,,,,,,,,,,1,1,low,few,31.5,30-60,2,8
+SR060,Mitcham Junction,MIJ,,,,51.392887,-0.157308,False,,,,,,,,,,,,,,,1,1,low,few,36.0,30-60,2,8
+SR061,Moulsecoomb,MCB,,,,50.844616,-0.12076,False,,,,,,,,,,,,,,,1,1,low,few,22.5,0-30,2,8
+SR062,Norbury,NRB,,,,51.411236,-0.123492,False,,,,,,,,,,,,,,,1,1,low,few,18.0,0-30,2,8
+SR063,Normans Bay,NSB,,,,50.825382,0.389669,False,,,,,,,,,,,,,,,1,1,low,few,63.0,60-120,2,8
+SR084,Ockley,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+SR064,Otford,OTF,,,,51.312141,0.196757,False,,,,,,,,,,,,,,,1,1,low,few,22.5,0-30,2,8
+SR086,Oxted,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+SR065,Pevensey & Westham,PEV,,,,50.815899,0.325291,False,,,,,,,,,,,,,,,1,1,low,few,58.5,30-60,2,8
+SR066,Polegate,PLG,,,,50.820934,0.251705,False,,,,,,,,,,,,,,,1,1,low,few,45.0,30-60,2,8
+SR067,Portchester,PTC,,,,50.848389,-1.126361,False,,,,,,,,,,,,,,,1,1,low,few,58.5,30-60,2,8
+SR068,Portslade,PLD,,,,50.836044,-0.204898,False,,,,,,,,,,,,,,,1,1,low,few,27.0,0-30,2,8
+SR069,Portsmouth & Southsea,PMS,,,,50.797756,-1.090417,False,,,,,,,,,,,,,,,1,1,low,few,40.5,30-60,2,8
+SR070,Portsmouth Harbour,PMH,,,,50.796097,-1.108895,True,,,,,,,,,,,,,,,1,1,low,few,36.0,30-60,2,8
+SR071,Preston Park,PRP,,,,50.846054,-0.154787,False,,,,,,,,,,,,,,,1,1,low,few,27.0,0-30,2,8
+SR072,Purley,PUR,,,,51.337334,-0.113592,False,,,,,,,,,,,,,,,1,1,low,few,13.5,0-30,2,8
+SR073,Redhill,RDH,,,,51.240124,-0.164851,False,,,,,,,,,,,,,,,1,1,low,few,27.0,0-30,2,8
+SR074,Robertsbridge,RBR,,,,50.984726,0.469092,False,,,,,,,,,,,,,,,1,1,low,few,76.5,60-120,2,8
+SR075,Salfords,SAF,,,,51.201412,-0.162096,False,,,,,,,,,,,,,,,1,1,low,few,18.0,0-30,2,8
+SR076,Selhurst,SRS,,,,51.392704,-0.089759,False,,,,,,,,,,,,,,,1,1,low,few,9.0,0-30,2,8
+SR077,Sevenoaks,SEV,,,,51.27734,0.182193,False,,,,,,,,,,,,,,,1,1,low,few,36.0,30-60,2,8
+SR078,Shepherds Bush,SPB,,,,51.506,-0.218,True,,,,,,,,,,,,,,,1,1,low,few,18.0,0-30,2,8
+SR079,Shoreham (Kent),SEH,,,,51.332092,0.187665,False,,,,,,,,,,,,,,,1,1,low,few,18.0,0-30,2,8
+SR080,Shoreham-by-Sea,SSE,,,,50.834358,-0.271709,False,,,,,,,,,,,,,,,1,1,low,few,31.5,30-60,2,8
+SR081,South Croydon,SCY,,,,51.362194,-0.093903,False,,,,,,,,,,,,,,,1,1,low,few,9.0,0-30,2,8
+SR082,Southampton Central,SOU,,,,50.907742,-1.413983,True,,,,,,,,,,,,,,,2,2,medium,some,53.0,30-60,4,6
+SR083,Southbourne,SOB,,,,50.848343,-0.907601,False,,,,,,,,,,,,,,,1,1,low,few,40.5,30-60,2,8
+SR084,Southwick,SWK,,,,50.832928,-0.236254,False,,,,,,,,,,,,,,,1,1,low,few,31.5,30-60,2,8
+SR085,St Denys,SDN,,,,50.921997,-1.3882,False,,,,,,,,,,,,,,,1,1,low,few,57.5,30-60,2,8
+SR086,St Leonards Warrior Square,SLQ,,,,50.855942,0.560326,False,,,,,,,,,,,,,,,1,1,low,few,85.5,60-120,2,8
+SR109,St Pancras International,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+SR087,Stonegate,SOG,,,,51.020184,0.364016,False,,,,,,,,,,,,,,,1,1,low,few,67.5,60-120,2,8
+SR088,Streatham,STE,,,,51.425755,-0.131535,False,,,,,,,,,,,,,,,1,1,low,few,27.0,0-30,2,8
+SR089,Streatham Common,SRC,,,,51.418629,-0.136136,False,,,,,,,,,,,,,,,1,1,low,few,13.5,0-30,2,8
+SR090,Streatham Hill,SRH,,,,51.43829,-0.128136,False,,,,,,,,,,,,,,,1,1,low,few,13.5,0-30,2,8
+SR091,Sutton,SUO,,,,51.360126,-0.190223,True,,,,,,,,,,,,,,,1,1,low,few,49.5,30-60,2,8
+SR092,Swanley,SAY,,,,51.392727,0.16755,False,,,,,,,,,,,,,,,1,1,low,few,4.5,0-30,2,8
+SR093,Swanwick,SNW,,,,50.875427,-1.265151,False,,,,,,,,,,,,,,,1,1,low,few,66.5,60-120,2,8
+SR094,Thornton Heath,TTH,,,,51.399181,-0.100981,False,,,,,,,,,,,,,,,1,1,low,few,13.5,0-30,2,8
+SR095,Three Bridges,TBD,,,,51.116863,-0.161162,False,,,,,,,,,,,,,,,1,1,low,few,13.5,0-30,2,8
+SR096,Tonbridge,TON,,,,51.191132,0.269715,False,,,,,,,,,,,,,,,1,1,low,few,45.0,30-60,2,8
+SR097,Tulse Hill,TUH,,,,51.439713,-0.10506,False,,,,,,,,,,,,,,,1,1,low,few,22.5,0-30,2,8
+SR098,Tunbridge Wells,TBW,,,,51.130119,0.262435,False,,,,,,,,,,,,,,,1,1,low,few,54.0,30-60,2,8
+SR122,Uckfield,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+SR123,Upper Warlingham,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+SR099,Wadhurst,WAD,,,,51.07338,0.312483,False,,,,,,,,,,,,,,,1,1,low,few,63.0,60-120,2,8
+SR125,Wallington,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+SR100,Wandsworth Common,WSW,,,,51.446072,-0.165239,False,,,,,,,,,,,,,,,1,1,low,few,9.0,0-30,2,8
+SR127,Warnham,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+SR101,West Brompton,WBP,,,,51.487289,-0.195265,False,,,,,,,,,,,,,,,1,1,low,few,9.0,0-30,2,8
+SR102,West Norwood,WNW,,,,51.431583,-0.102517,False,,,,,,,,,,,,,,,1,1,low,few,18.0,0-30,2,8
+SR103,West St Leonards,WLD,,,,50.85368,0.540303,False,,,,,,,,,,,,,,,1,1,low,few,81.0,60-120,2,8
+SR131,West Sutton,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+SR104,West Worthing,WWO,,,,50.818111,-0.392983,False,,,,,,,,,,,,,,,1,1,low,few,27.0,0-30,2,8
+SR133,Whyteleafe,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+SR105,Winchester,WIN,,,,51.067303,-1.320628,False,,,,,,,,,,,,,,,1,1,low,few,48.5,30-60,2,8
+SR106,Wivelsfield,WVF,,,,50.964249,-0.121633,False,,,,,,,,,,,,,,,1,1,low,few,18.0,0-30,2,8
+SR136,Woldingham,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+SR107,Worthing,WRH,,,,50.818768,-0.375924,False,,,,,,,,,,,,,,,1,1,low,few,22.5,0-30,2,8

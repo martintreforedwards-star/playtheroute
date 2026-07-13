@@ -1,0 +1,48 @@
+station_name,crs,operator,route,county,latitude,longitude,major_interchange,terminus,branch_junction,nearest_landmark,nearest_landmark_km,nearest_castle,nearest_castle_km,nearest_cathedral,nearest_cathedral_km,nearest_museum,nearest_museum_km,nearest_country_house,nearest_country_house_km,nearest_nature_reserve,nearest_nature_reserve_km,station_id
+Alexandra Palace,AAP,Great Northern,,,51.59829,-0.12014,,,,,,,,,,,,,,,,GR_000001
+Arlesey,ARL,Great Northern,,,52.02604,-0.26632,,,,,,,,,,,,,,,,GR_000002
+Ashwell & Morden,AWM,Great Northern,,,52.03078,-0.10978,,,,,,,,,,,,,,,,GR_000003
+Baldock,BDK,Great Northern,,,51.99288,-0.18756,,,,,,,,,,,,,,,,GR_000004
+Bayford,BAY,Great Northern,,,51.75772,-0.0956,,,,,,,,,,,,,,,,GR_000005
+Biggleswade,BIW,Great Northern,,,52.08469,-0.26118,,,,,,,,,,,,,,,,GR_000006
+Bowes Park,BOP,Great Northern,,,51.60728,-0.11977,,,,,,,,,,,,,,,,GR_000007
+Brookmans Park,BPK,Great Northern,,,51.72106,-0.20455,,,,,,,,,,,,,,,,GR_000008
+Crews Hill,CWH,Great Northern,,,51.68449,-0.10688,,,,,,,,,,,,,,,,GR_000009
+Cuffley,CUF,Great Northern,,,51.70872,-0.10978,,,,,,,,,,,,,,,,GR_000010
+Downham Market,DOW,Great Northern,,,52.60413,0.365691,,,,,,,,,,,,,,,,GR_000011
+Drayton Park,DYP,Great Northern,,,51.55309,-0.10571,,,,,,,,,,,,,,,,GR_000012
+Enfield Chase,ENC,Great Northern,,,51.65276,-0.09071,,,,,,,,,,,,,,,,GR_000013
+Essex Road,EXR,Great Northern,,,51.54071,-0.09627,,,,,,,,,,,,,,,,GR_000014
+Finsbury Park,FPK,Great Northern,,,51.56478,-0.10565,,,,,,,,,,,,,,,,GR_000015
+Foxton,FXN,Great Northern,,,52.11913,0.056536,,,,,,,,,,,,,,,,GR_000016
+Gordon Hill,GDH,Great Northern,,,51.66352,-0.09431,,,,,,,,,,,,,,,,GR_000017
+Grange Park,GPK,Great Northern,,,51.64262,-0.09735,,,,,,,,,,,,,,,,GR_000018
+Hadley Wood,HDW,Great Northern,,,51.66841,-0.17653,,,,,,,,,,,,,,,,GR_000019
+Harringay,HGY,Great Northern,,,51.57737,-0.10513,,,,,,,,,,,,,,,,GR_000020
+Hatfield (Herts),HAT,Great Northern,,,51.76388,-0.21559,,,,,,,,,,,,,,,,GR_000021
+Hertford North,HFN,Great Northern,,,51.79886,-0.09178,,,,,,,,,,,,,,,,GR_000022
+Hitchin,HIT,Great Northern,,,51.95329,-0.26348,,,,,,,,,,,,,,,,GR_000023
+Hornsey,HRN,Great Northern,,,51.58647,-0.11197,,,,,,,,,,,,,,,,GR_000024
+Huntingdon,HUN,Great Northern,,,52.32866,-0.19206,,,,,,,,,,,,,,,,GR_000025
+Kings Lynn,KLN,Great Northern,,,52.75381,0.403525,,,,,,,,,,,,,,,,GR_000026
+Knebworth,KBW,Great Northern,,,51.86686,-0.18728,,,,,,,,,,,,,,,,GR_000027
+Letchworth Garden City,LET,Great Northern,,,51.97997,-0.22926,,,,,,,,,,,,,,,,GR_000028
+Littleport,LTP,Great Northern,,,52.4624,0.316567,,,,,,,,,,,,,,,,GR_000029
+Meldreth,MEL,Great Northern,,,52.09073,0.008953,,,,,,,,,,,,,,,,GR_000030
+New Barnet,NBA,Great Northern,,,51.64857,-0.17299,,,,,,,,,,,,,,,,GR_000031
+New Southgate,NSG,Great Northern,,,51.61412,-0.14303,,,,,,,,,,,,,,,,GR_000032
+Oakleigh Park,OKL,Great Northern,,,51.63769,-0.16621,,,,,,,,,,,,,,,,GR_000033
+Palmers Green,PAL,Great Northern,,,51.61882,-0.11034,,,,,,,,,,,,,,,,GR_000034
+Potters Bar,PBR,Great Northern,,,51.69729,-0.19236,,,,,,,,,,,,,,,,GR_000035
+Royston,RYS,Great Northern,,,52.05309,-0.02691,,,,,,,,,,,,,,,,GR_000036
+Sandy,SDY,Great Northern,,,52.12474,-0.28117,,,,,,,,,,,,,,,,GR_000037
+Shepreth,STH,Great Northern,,,52.11417,0.031332,,,,,,,,,,,,,,,,GR_000038
+St Neots ,SNO,Great Northern,,,52.23158,-0.24741,,,,,,,,,,,,,,,,GR_000039
+Stevenage,SVG,Great Northern,,,51.90169,-0.20711,,,,,,,,,,,,,,,,GR_000040
+Waterbeach,WBC,Great Northern,,,52.26245,0.197386,,,,,,,,,,,,,,,,GR_000041
+Watlington,WTG,Great Northern,,,52.67319,0.383327,,,,,,,,,,,,,,,,GR_000042
+Watton-at-Stone,WAS,Great Northern,,,51.85636,-0.11972,,,,,,,,,,,,,,,,GR_000043
+Welham Green,WMG,Great Northern,,,51.73635,-0.21069,,,,,,,,,,,,,,,,GR_000044
+Welwyn Garden City,WGC,Great Northern,,,51.80105,-0.20407,,,,,,,,,,,,,,,,GR_000045
+Welwyn North,WLW,Great Northern,,,51.8235,-0.19209,,,,,,,,,,,,,,,,GR_000046
+Winchmore Hill,WIH,Great Northern,,,51.63395,-0.10089,,,,,,,,,,,,,,,,GR_000047

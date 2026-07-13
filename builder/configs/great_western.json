@@ -1,0 +1,12 @@
+{
+  "name": "Great_Western",
+  "network": "Great_Western",
+  "master": "data/Great_Western/great_western_master.csv",
+  "route_groups": "data/Great_Western/route_membership.csv",
+  "missing_times": "data/Great_Western/missing_times.csv",
+  "rules": "builder/configs/great_western_rules.json",
+  "clue_template": "data/clues/southeastern-clues.json",
+  "clues": "data/Great_Western/great_western-clues.json",
+  "enriched": "data/Great_Western/great_western_enriched.csv",
+  "output": "data/Great_Western/great_western.json"
+}

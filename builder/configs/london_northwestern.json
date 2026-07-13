@@ -1,0 +1,12 @@
+{
+  "name": "London_Northwestern",
+  "network": "London_Northwestern",
+  "master": "data/London_Northwestern/london_northwestern_master.csv",
+  "route_groups": "data/London_Northwestern/route_membership.csv",
+  "missing_times": "data/London_Northwestern/missing_times.csv",
+  "rules": "builder/configs/london_northwestern_rules.json",
+  "clue_template": "data/clues/southeastern-clues.json",
+  "clues": "data/London_Northwestern/london_northwestern-clues.json",
+  "enriched": "data/London_Northwestern/london_northwestern_enriched.csv",
+  "output": "data/London_Northwestern/london_northwestern.json"
+}

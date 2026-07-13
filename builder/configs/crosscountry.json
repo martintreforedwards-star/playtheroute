@@ -1,0 +1,12 @@
+{
+  "name": "CrossCountry",
+  "network": "CrossCountry",
+  "master": "data/CrossCountry/crosscountry_master.csv",
+  "route_groups": "data/CrossCountry/route_membership.csv",
+  "missing_times": "data/CrossCountry/missing_times.csv",
+  "rules": "builder/configs/crosscountry_rules.json",
+  "clue_template": "data/clues/southeastern-clues.json",
+  "clues": "data/CrossCountry/crosscountry-clues.json",
+  "enriched": "data/CrossCountry/crosscountry_enriched.csv",
+  "output": "data/CrossCountry/crosscountry.json"
+}

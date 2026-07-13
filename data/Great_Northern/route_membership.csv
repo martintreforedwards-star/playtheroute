@@ -1,0 +1,48 @@
+station_id,network,route_station_id,route_group,crs,station_name
+GR_000001,Great_Northern,GR0001,,AAP,Alexandra Palace
+GR_000002,Great_Northern,GR0002,,ARL,Arlesey
+GR_000003,Great_Northern,GR0003,,AWM,Ashwell & Morden
+GR_000004,Great_Northern,GR0004,,BDK,Baldock
+GR_000005,Great_Northern,GR0005,,BAY,Bayford
+GR_000006,Great_Northern,GR0006,,BIW,Biggleswade
+GR_000007,Great_Northern,GR0007,,BOP,Bowes Park
+GR_000008,Great_Northern,GR0008,,BPK,Brookmans Park
+GR_000009,Great_Northern,GR0009,,CWH,Crews Hill
+GR_000010,Great_Northern,GR0010,,CUF,Cuffley
+GR_000011,Great_Northern,GR0011,,DOW,Downham Market
+GR_000012,Great_Northern,GR0012,,DYP,Drayton Park
+GR_000013,Great_Northern,GR0013,,ENC,Enfield Chase
+GR_000014,Great_Northern,GR0014,,EXR,Essex Road
+GR_000015,Great_Northern,GR0015,,FPK,Finsbury Park
+GR_000016,Great_Northern,GR0016,,FXN,Foxton
+GR_000017,Great_Northern,GR0017,,GDH,Gordon Hill
+GR_000018,Great_Northern,GR0018,,GPK,Grange Park
+GR_000019,Great_Northern,GR0019,,HDW,Hadley Wood
+GR_000020,Great_Northern,GR0020,,HGY,Harringay
+GR_000021,Great_Northern,GR0021,,HAT,Hatfield (Herts)
+GR_000022,Great_Northern,GR0022,,HFN,Hertford North
+GR_000023,Great_Northern,GR0023,,HIT,Hitchin
+GR_000024,Great_Northern,GR0024,,HRN,Hornsey
+GR_000025,Great_Northern,GR0025,,HUN,Huntingdon
+GR_000026,Great_Northern,GR0026,,KLN,Kings Lynn
+GR_000027,Great_Northern,GR0027,,KBW,Knebworth
+GR_000028,Great_Northern,GR0028,,LET,Letchworth Garden City
+GR_000029,Great_Northern,GR0029,,LTP,Littleport
+GR_000030,Great_Northern,GR0030,,MEL,Meldreth
+GR_000031,Great_Northern,GR0031,,NBA,New Barnet
+GR_000032,Great_Northern,GR0032,,NSG,New Southgate
+GR_000033,Great_Northern,GR0033,,OKL,Oakleigh Park
+GR_000034,Great_Northern,GR0034,,PAL,Palmers Green
+GR_000035,Great_Northern,GR0035,,PBR,Potters Bar
+GR_000036,Great_Northern,GR0036,,RYS,Royston
+GR_000037,Great_Northern,GR0037,,SDY,Sandy
+GR_000038,Great_Northern,GR0038,,STH,Shepreth
+GR_000039,Great_Northern,GR0039,,SNO,St Neots 
+GR_000040,Great_Northern,GR0040,,SVG,Stevenage
+GR_000041,Great_Northern,GR0041,,WBC,Waterbeach
+GR_000042,Great_Northern,GR0042,,WTG,Watlington
+GR_000043,Great_Northern,GR0043,,WAS,Watton-at-Stone
+GR_000044,Great_Northern,GR0044,,WMG,Welham Green
+GR_000045,Great_Northern,GR0045,,WGC,Welwyn Garden City
+GR_000046,Great_Northern,GR0046,,WLW,Welwyn North
+GR_000047,Great_Northern,GR0047,,WIH,Winchmore Hill

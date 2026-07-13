@@ -1,0 +1,103 @@
+station_id,network,route_station_id,route_group,crs,station_name
+EA_000001,East_Midlands,EA0001,,ALF,Alfreton
+EA_000002,East_Midlands,EA0002,,ASG,Alsager
+EA_000003,East_Midlands,EA0003,,AMB,Ambergate
+EA_000004,East_Midlands,EA0004,,ANC,Ancaster
+EA_000005,East_Midlands,EA0005,,ALK,Aslockton
+EA_000006,East_Midlands,EA0006,,ATB,Attenborough
+EA_000007,East_Midlands,EA0007,,BAV,Barrow Haven
+EA_000008,East_Midlands,EA0008,,BWS,Barrow-upon-Soar
+EA_000009,East_Midlands,EA0009,,BAU,Barton-on-Humber
+EA_000010,East_Midlands,EA0010,,BEE,Beeston
+EA_000011,East_Midlands,EA0011,,BLP,Belper
+EA_000012,East_Midlands,EA0012,,BIN,Bingham
+EA_000013,East_Midlands,EA0013,,BSB,Bleasby
+EA_000014,East_Midlands,EA0014,,BYB,Blythe Bridge
+EA_000015,East_Midlands,EA0015,,BSN,Boston
+EA_000016,East_Midlands,EA0016,,BTF,Bottesford
+EA_000017,East_Midlands,EA0017,,BLW,Bulwell
+EA_000018,East_Midlands,EA0018,,BUJ,Burton Joyce
+EA_000019,East_Midlands,EA0019,,BUT,Burton-on-Trent
+EA_000020,East_Midlands,EA0020,,CTO,Carlton
+EA_000021,East_Midlands,EA0021,,CHD,Chesterfield
+EA_000022,East_Midlands,EA0022,,CLM,Collingham
+EA_000023,East_Midlands,EA0023,,COR,Corby
+EA_000024,East_Midlands,EA0024,,CWD,Creswell
+EA_000025,East_Midlands,EA0025,,CMF,Cromford
+EA_000026,East_Midlands,EA0026,,DBY,Derby
+EA_000027,East_Midlands,EA0027,,DFI,Duffield
+EA_000028,East_Midlands,EA0028,,EMD,East Midlands Parkway
+EA_000029,East_Midlands,EA0029,,ELO,Elton & Orston
+EA_000030,East_Midlands,EA0030,,FSK,Fiskerton
+EA_000031,East_Midlands,EA0031,,GBL,Gainsborough Lea Road
+EA_000032,East_Midlands,EA0032,,GOX,Goxhill
+EA_000033,East_Midlands,EA0033,,GCT,Great Coates
+EA_000034,East_Midlands,EA0034,,GMD,Grimsby Docks
+EA_000035,East_Midlands,EA0035,,HAB,Habrough
+EA_000036,East_Midlands,EA0036,,HVN,Havenhouse
+EA_000037,East_Midlands,EA0037,,HLI,Healing
+EA_000038,East_Midlands,EA0038,,HEC,Heckington
+EA_000039,East_Midlands,EA0039,,HNK,Hinckley (Leics)
+EA_000040,East_Midlands,EA0040,,HBB,Hubberts Bridge
+EA_000041,East_Midlands,EA0041,,HKN,Hucknall
+EA_000042,East_Midlands,EA0042,,HKM,Hykeham
+EA_000043,East_Midlands,EA0043,,ILN,Ilkeston
+EA_000044,East_Midlands,EA0044,,KET,Kettering
+EA_000045,East_Midlands,EA0045,,KDG,Kidsgrove
+EA_000046,East_Midlands,EA0046,,KKB,Kirkby-in-Ashfield
+EA_000047,East_Midlands,EA0047,,LGM,Langley Mill
+EA_000048,East_Midlands,EA0048,,LAG,Langwith-Whaley Thorns
+EA_000049,East_Midlands,EA0049,,LEI,Leicester
+EA_000050,East_Midlands,EA0050,,LCN,Lincoln
+EA_000051,East_Midlands,EA0051,,LGE,Long Eaton
+EA_000052,East_Midlands,EA0052,,LPT,Longport
+EA_000053,East_Midlands,EA0053,,LGN,Longton
+EA_000054,East_Midlands,EA0054,,LBO,Loughborough
+EA_000055,East_Midlands,EA0055,,LOW,Lowdham
+EA_000056,East_Midlands,EA0056,,MFT,Mansfield
+EA_000057,East_Midlands,EA0057,,MSW,Mansfield Woodhouse
+EA_000058,East_Midlands,EA0058,,MHR,Market Harborough
+EA_000059,East_Midlands,EA0059,,MKR,Market Rasen
+EA_000060,East_Midlands,EA0060,,MAT,Matlock
+EA_000061,East_Midlands,EA0061,,MTB,Matlock Bath
+EA_000062,East_Midlands,EA0062,,MMO,Melton Mowbray
+EA_000063,East_Midlands,EA0063,,MGM,Metheringham
+EA_000064,East_Midlands,EA0064,,NBR,Narborough
+EA_000065,East_Midlands,EA0065,,NET,Netherfield
+EA_000066,East_Midlands,EA0066,,NCE,New Clee
+EA_000067,East_Midlands,EA0067,,NHL,New Holland
+EA_000068,East_Midlands,EA0068,,NCT,Newark Castle
+EA_000069,East_Midlands,EA0069,,NSD,Newstead
+EA_000070,East_Midlands,EA0070,,NOT,Nottingham
+EA_000071,East_Midlands,EA0071,,OKM,Oakham
+EA_000072,East_Midlands,EA0072,,PEA,Peartree
+EA_000073,East_Midlands,EA0073,,RDF,Radcliffe (Nottinghamshire)
+EA_000074,East_Midlands,EA0074,,RAU,Rauceby
+EA_000075,East_Midlands,EA0075,,ROL,Rolleston
+EA_000076,East_Midlands,EA0076,,RKT,Ruskington
+EA_000077,East_Midlands,EA0077,,SXY,Saxilby
+EA_000078,East_Midlands,EA0078,,SHF,Sheffield
+EA_000079,East_Midlands,EA0079,,SHB,Shirebrook
+EA_000080,East_Midlands,EA0080,,SIL,Sileby
+EA_000081,East_Midlands,EA0081,,SKG,Skegness
+EA_000082,East_Midlands,EA0082,,SLR,Sleaford
+EA_000083,East_Midlands,EA0083,,SWS,South Wigston
+EA_000084,East_Midlands,EA0084,,SPA,Spalding
+EA_000085,East_Midlands,EA0085,,SPO,Spondon
+EA_000086,East_Midlands,EA0086,,SLL,Stallingborough
+EA_000087,East_Midlands,EA0087,,SMD,Stamford (Lincs)
+EA_000088,East_Midlands,EA0088,,SPK,Sutton Parkway
+EA_000089,East_Midlands,EA0089,,SWD,Swinderby
+EA_000090,East_Midlands,EA0090,,SWE,Swineshead
+EA_000091,East_Midlands,EA0091,,SYS,Syston
+EA_000092,East_Midlands,EA0092,,TNA,Thornton Abbey
+EA_000093,East_Midlands,EA0093,,TPC,Thorpe Culvert
+EA_000094,East_Midlands,EA0094,,THU,Thurgarton
+EA_000095,East_Midlands,EA0095,,TUT,Tutbury & Hatton
+EA_000096,East_Midlands,EA0096,,ULC,Ulceby
+EA_000097,East_Midlands,EA0097,,UTT,Uttoxeter
+EA_000098,East_Midlands,EA0098,,WFL,Wainfleet
+EA_000099,East_Midlands,EA0099,,WEL,Wellingborough
+EA_000100,East_Midlands,EA0100,,WTS,Whatstandwell
+EA_000101,East_Midlands,EA0101,,WWL,Whitwell (Derbyshire)
+EA_000102,East_Midlands,EA0102,,WIL,Willington

@@ -1,0 +1,12 @@
+{
+  "name": "East_Midlands",
+  "network": "East_Midlands",
+  "master": "data/East_Midlands/east_midlands_master.csv",
+  "route_groups": "data/East_Midlands/route_membership.csv",
+  "missing_times": "data/East_Midlands/missing_times.csv",
+  "rules": "builder/configs/east_midlands_rules.json",
+  "clue_template": "data/clues/southeastern-clues.json",
+  "clues": "data/East_Midlands/east_midlands-clues.json",
+  "enriched": "data/East_Midlands/east_midlands_enriched.csv",
+  "output": "data/East_Midlands/east_midlands.json"
+}

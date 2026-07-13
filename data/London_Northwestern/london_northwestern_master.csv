@@ -1,0 +1,38 @@
+station_name,crs,operator,route,county,latitude,longitude,major_interchange,terminus,branch_junction,nearest_landmark,nearest_landmark_km,nearest_castle,nearest_castle_km,nearest_cathedral,nearest_cathedral_km,nearest_museum,nearest_museum_km,nearest_country_house,nearest_country_house_km,nearest_nature_reserve,nearest_nature_reserve_km,station_id
+Acton Bridge (Cheshire),ACB,London Northwestern Railway,,,53.26598504,-2.60266626,,,,,,,,,,,,,,,,LO_000001
+Apsley,APS,London Northwestern Railway,,,51.73252418,-0.462924369,,,,,,,,,,,,,,,,LO_000002
+Aspley Guise,APG,London Northwestern Railway,,,52.02124786,-0.632327027,,,,,,,,,,,,,,,,LO_000003
+Atherstone,ATH,London Northwestern Railway,,,52.5789821,-1.552812353,,,,,,,,,,,,,,,,LO_000004
+Bedford St Johns,BSJ,London Northwestern Railway,,,52.12949203,-0.467502781,,,,,,,,,,,,,,,,LO_000005
+Berkhamsted,BKM,London Northwestern Railway,,,51.76313738,-0.562005134,,,,,,,,,,,,,,,,LO_000006
+Bletchley,BLY,London Northwestern Railway,,,51.99534498,-0.736316135,,,,,,,,,,,,,,,,LO_000007
+Bow Brickhill,BWB,London Northwestern Railway,,,52.00431141,-0.696072267,,,,,,,,,,,,,,,,LO_000008
+Bricket Wood,BWO,London Northwestern Railway,,,51.70542949,-0.359116315,,,,,,,,,,,,,,,,LO_000009
+Cheddington,CED,London Northwestern Railway,,,51.85792469,-0.662146256,,,,,,,,,,,,,,,,LO_000010
+Fenny Stratford,FEN,London Northwestern Railway,,,51.99989996,-0.717672768,,,,,,,,,,,,,,,,LO_000011
+Garston (Hertfordshire),GSN,London Northwestern Railway,,,51.68672373,-0.381667092,,,,,,,,,,,,,,,,LO_000012
+Hartford (Cheshire),HTF,London Northwestern Railway,,,53.24177232,-2.553625248,,,,,,,,,,,,,,,,LO_000013
+Hemel Hempstead,HML,London Northwestern Railway,,,51.74233574,-0.490764101,,,,,,,,,,,,,,,,LO_000014
+How Wood (Hertfordshire),HWW,London Northwestern Railway,,,51.71774404,-0.344671247,,,,,,,,,,,,,,,,LO_000015
+Kempston Hardwick,KMH,London Northwestern Railway,,,52.09223124,-0.503916852,,,,,,,,,,,,,,,,LO_000016
+Kings Langley,KGL,London Northwestern Railway,,,51.70635749,-0.438410982,,,,,,,,,,,,,,,,LO_000017
+Leighton Buzzard,LBZ,London Northwestern Railway,,,51.91631391,-0.677001817,,,,,,,,,,,,,,,,LO_000018
+Lidlington,LID,London Northwestern Railway,,,52.04154787,-0.558918711,,,,,,,,,,,,,,,,LO_000019
+Long Buckby,LBK,London Northwestern Railway,,,52.29472704,-1.08647082,,,,,,,,,,,,,,,,LO_000020
+Millbrook (Bedfordshire),MLB,London Northwestern Railway,,,52.05384836,-0.532692607,,,,,,,,,,,,,,,,LO_000021
+Milton Keynes Central,MKC,London Northwestern Railway,,,52.03429998,-0.774142566,,,,,,,,,,,,,,,,LO_000022
+Northampton,NMP,London Northwestern Railway,,,52.23750925,-0.906652319,,,,,,,,,,,,,,,,LO_000023
+Nuneaton,NUN,London Northwestern Railway,,,52.52638876,-1.463873901,,,,,,,,,,,,,,,,LO_000024
+Park Street,PKT,London Northwestern Railway,,,51.72546034,-0.340277192,,,,,,,,,,,,,,,,LO_000025
+Polesworth,PSW,London Northwestern Railway,,,52.6259325,-1.609950777,,,,,,,,,,,,,,,,LO_000026
+Ridgmont,RID,London Northwestern Railway,,,52.02641391,-0.594548449,,,,,,,,,,,,,,,,LO_000027
+St Albans Abbey,SAA,London Northwestern Railway,,,51.74473607,-0.342569292,,,,,,,,,,,,,,,,LO_000028
+Stewartby,SWR,London Northwestern Railway,,,52.06909177,-0.520681291,,,,,,,,,,,,,,,,LO_000029
+Tamworth,TAM,London Northwestern Railway,,,52.63712963,-1.687269406,,,,,,,,,,,,,,,,LO_000030
+Tring,TRI,London Northwestern Railway,,,51.8007459,-0.622433028,,,,,,,,,,,,,,,,LO_000031
+Watford Junction,WFJ,London Northwestern Railway,,,51.66352959,-0.396519634,,,,,,,,,,,,,,,,LO_000032
+Watford North,WFN,London Northwestern Railway,,,51.67570486,-0.389928129,,,,,,,,,,,,,,,,LO_000033
+Wedgwood,WED,London Northwestern Railway,,,52.95106237,-2.17082355,,,,,,,,,,,,,,,,LO_000034
+Winsford,WSF,London Northwestern Railway,,,53.1905328,-2.494593885,,,,,,,,,,,,,,,,LO_000035
+Woburn Sands,WOB,London Northwestern Railway,,,52.01816252,-0.654077198,,,,,,,,,,,,,,,,LO_000036
+Wolverton,WOL,London Northwestern Railway,,,52.06589044,-0.804264138,,,,,,,,,,,,,,,,LO_000037

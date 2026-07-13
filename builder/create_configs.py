@@ -5,12 +5,26 @@ from pathlib import Path
 OPERATORS = {
     "AW": "Transport for Wales",
     "CC": "c2c",
+    "CH": "Chiltern Railways",
+    "EM": "East Midlands Railway",
+    "GC": "Grand Central",
+    "GN": "Great Northern",
+    "GW": "Great Western Railway",
+    "GX": "Gatwick Express",
+    "HT": "Hull Trains",
     "LE": "Greater Anglia",
+    "LN": "London Northwestern Railway",
+    "LR": "Lumo",
+    "LS": "LNER",
     "ME": "Merseyrail",
     "NT": "Northern",
     "SE": "Southeastern",
     "SN": "Southern",
     "SW": "South Western Railway",
+    "SX": "Essex Thameside",
+    "TP": "TransPennine Express",
+    "VT": "Avanti West Coast",
+    "XC": "CrossCountry",
 }
 
 

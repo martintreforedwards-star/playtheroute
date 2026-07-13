@@ -1,0 +1,273 @@
+{
+  "rowPool": [
+    {
+      "display": "Terminus",
+      "type": "field",
+      "field": "is_terminus",
+      "value": true,
+      "weight": "medium"
+    },
+    {
+      "display": "Not a Terminus",
+      "type": "field",
+      "field": "is_terminus",
+      "value": false,
+      "weight": "high"
+    },
+    {
+      "display": "Interchange",
+      "type": "field",
+      "field": "is_interchange",
+      "value": true,
+      "weight": "medium"
+    },
+    {
+      "display": "Branch Line",
+      "type": "field",
+      "field": "is_branch_line",
+      "value": true,
+      "weight": "medium"
+    },
+    {
+      "display": "Main Line",
+      "type": "field",
+      "field": "is_mainline",
+      "value": true,
+      "weight": "medium"
+    }
+  ],
+  "columnPool": [
+    {
+      "display": "Multiple",
+      "type": "field",
+      "field": "word_count_band",
+      "value": "multiple",
+      "weight": "medium",
+      "category": "name"
+    },
+    {
+      "display": "Low",
+      "type": "field",
+      "field": "service_density",
+      "value": "low",
+      "weight": "medium",
+      "category": "service"
+    },
+    {
+      "display": "Single",
+      "type": "field",
+      "field": "route_diversity_band",
+      "value": "single",
+      "weight": "medium",
+      "category": "service"
+    },
+    {
+      "display": "Contains And",
+      "type": "field",
+      "field": "contains_and",
+      "value": true,
+      "weight": "medium",
+      "category": "name"
+    },
+    {
+      "display": "Contains Apostrophe",
+      "type": "field",
+      "field": "contains_apostrophe",
+      "value": true,
+      "weight": "medium",
+      "category": "name"
+    },
+    {
+      "display": "Contains Bridge",
+      "type": "field",
+      "field": "contains_bridge",
+      "value": true,
+      "weight": "medium",
+      "category": "name"
+    },
+    {
+      "display": "Contains Central",
+      "type": "field",
+      "field": "contains_central",
+      "value": true,
+      "weight": "medium",
+      "category": "name"
+    },
+    {
+      "display": "Contains Cross",
+      "type": "field",
+      "field": "contains_cross",
+      "value": true,
+      "weight": "medium",
+      "category": "name"
+    },
+    {
+      "display": "Contains Digits",
+      "type": "field",
+      "field": "contains_digits",
+      "value": true,
+      "weight": "medium",
+      "category": "name"
+    },
+    {
+      "display": "Contains East",
+      "type": "field",
+      "field": "contains_east",
+      "value": true,
+      "weight": "medium",
+      "category": "name"
+    },
+    {
+      "display": "Contains Green",
+      "type": "field",
+      "field": "contains_green",
+      "value": true,
+      "weight": "medium",
+      "category": "name"
+    },
+    {
+      "display": "Contains Hill",
+      "type": "field",
+      "field": "contains_hill",
+      "value": true,
+      "weight": "medium",
+      "category": "name"
+    },
+    {
+      "display": "Contains Hyphen",
+      "type": "field",
+      "field": "contains_hyphen",
+      "value": true,
+      "weight": "medium",
+      "category": "name"
+    },
+    {
+      "display": "Contains Junction",
+      "type": "field",
+      "field": "contains_junction",
+      "value": true,
+      "weight": "medium",
+      "category": "name"
+    },
+    {
+      "display": "Contains Lane",
+      "type": "field",
+      "field": "contains_lane",
+      "value": true,
+      "weight": "medium",
+      "category": "name"
+    },
+    {
+      "display": "Contains Lower",
+      "type": "field",
+      "field": "contains_lower",
+      "value": true,
+      "weight": "medium",
+      "category": "name"
+    },
+    {
+      "display": "Contains Mount",
+      "type": "field",
+      "field": "contains_mount",
+      "value": true,
+      "weight": "medium",
+      "category": "name"
+    },
+    {
+      "display": "Contains New",
+      "type": "field",
+      "field": "contains_new",
+      "value": true,
+      "weight": "medium",
+      "category": "name"
+    },
+    {
+      "display": "Contains North",
+      "type": "field",
+      "field": "contains_north",
+      "value": true,
+      "weight": "medium",
+      "category": "name"
+    },
+    {
+      "display": "Contains Old",
+      "type": "field",
+      "field": "contains_old",
+      "value": true,
+      "weight": "medium",
+      "category": "name"
+    },
+    {
+      "display": "Contains Parkway",
+      "type": "field",
+      "field": "contains_parkway",
+      "value": true,
+      "weight": "medium",
+      "category": "name"
+    },
+    {
+      "display": "Contains Road",
+      "type": "field",
+      "field": "contains_road",
+      "value": true,
+      "weight": "medium",
+      "category": "name"
+    },
+    {
+      "display": "Contains South",
+      "type": "field",
+      "field": "contains_south",
+      "value": true,
+      "weight": "medium",
+      "category": "name"
+    },
+    {
+      "display": "Contains Square",
+      "type": "field",
+      "field": "contains_square",
+      "value": true,
+      "weight": "medium",
+      "category": "name"
+    },
+    {
+      "display": "Contains Street",
+      "type": "field",
+      "field": "contains_street",
+      "value": true,
+      "weight": "medium",
+      "category": "name"
+    },
+    {
+      "display": "Contains Upper",
+      "type": "field",
+      "field": "contains_upper",
+      "value": true,
+      "weight": "medium",
+      "category": "name"
+    },
+    {
+      "display": "Contains West",
+      "type": "field",
+      "field": "contains_west",
+      "value": true,
+      "weight": "medium",
+      "category": "name"
+    },
+    {
+      "display": "Starts With St",
+      "type": "field",
+      "field": "starts_with_st",
+      "value": true,
+      "weight": "medium",
+      "category": "name"
+    },
+    {
+      "display": "Starts With The",
+      "type": "field",
+      "field": "starts_with_the",
+      "value": true,
+      "weight": "medium",
+      "category": "name"
+    }
+  ]
+}

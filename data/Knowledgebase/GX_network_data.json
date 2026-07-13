@@ -1,0 +1,602 @@
+{
+    "stations": [
+        {
+            "changeHistory": {
+                "changedBy": "AAP2",
+                "lastChangedDate": "2026-06-23T22:21:03.000Z"
+            },
+            "name": "Gatwick Airport",
+            "slug": "gatwick-airport",
+            "sixteenCharacterName": "GATWICK AIRPORT",
+            "crsCode": "GTW",
+            "nationalLocationCode": "541600",
+            "minimumConnectionTime": 10,
+            "address": {
+                "addressLine1": "Gatwick Airport station",
+                "addressLine2": "South Terminal",
+                "addressLine3": "Gatwick Airport",
+                "addressLine4": "West Sussex",
+                "addressLine5": null,
+                "postcode": "RH6 0RD"
+            },
+            "location": {
+                "latitude": 51.15648532,
+                "longitude": -0.161040264
+            },
+            "stationAlerts": null,
+            "stationOperator": {
+                "name": "Gatwick Express",
+                "slug": "gatwick-express",
+                "operatorCode": "GX"
+            },
+            "staffingLevel": "Full Time",
+            "stationMap": {
+                "name": "Gatwick Airport - Station Map - Concourse",
+                "url": "https://assets.nationalrail.co.uk/e8xgegruud3g/1m8hi7KLZqHtXyavavX5Bw/bc40b0c27cf73a1b15a64ffcbab2c870/Gatwick_Airport_SME.pdf"
+            },
+            "informationServices": {
+                "openingTimes": [
+                    {
+                        "daysOfTheWeek": [
+                            "Monday",
+                            "Tuesday",
+                            "Wednesday",
+                            "Thursday",
+                            "Friday",
+                            "Saturday",
+                            "Sunday"
+                        ],
+                        "openingStatus": "24 Hours",
+                        "openPeriod": []
+                    }
+                ]
+            },
+            "toiletsAndChanging": {
+                "toilets": {
+                    "accessibleToiletsAvailable": true,
+                    "changingPlacesToiletsAvailable": false,
+                    "babyChangingAvailable": true,
+                    "locations": [
+                        {
+                            "name": "Accessible Toilet, Platforms 1 and 2",
+                            "radarKeyAvailable": null,
+                            "accessibleHandles": null
+                        },
+                        {
+                            "name": "Male toilet, Platforms 1 and 2",
+                            "radarKeyAvailable": null,
+                            "accessibleHandles": null
+                        },
+                        {
+                            "name": "Female toilet, Platforms 1 and 2",
+                            "radarKeyAvailable": null,
+                            "accessibleHandles": null
+                        }
+                    ],
+                    "available": true,
+                    "openingTimes": null,
+                    "openingHoursNotes": null,
+                    "operatorContactDetails": null,
+                    "notes": null,
+                    "location": "<p>Platforms 1 and 2 and within the airport terminal. </p>"
+                },
+                "showers": null
+            },
+            "stationAccessibility": {
+                "stepFreeCategory": {
+                    "category": "A, Compliant step-free access to all platform(s)",
+                    "notes": "<p>This is a Category A station: This station has step-free access to all platforms. </p><p>The assistance meeting point is at the assistance desk on the main concourse. </p>",
+                    "levelAccess": null
+                },
+                "nearestAccessibleStations": null,
+                "ticketBarriers": {
+                    "names": [
+                        "Ticket barriers, Main Concourse"
+                    ],
+                    "available": true,
+                    "openingTimes": null,
+                    "openingHoursNotes": null,
+                    "operatorContactDetails": null,
+                    "notes": null,
+                    "location": null
+                },
+                "trainRamp": {
+                    "storage": "Ramps are kept at this station to provide assistance",
+                    "available": true,
+                    "openingTimes": null,
+                    "openingHoursNotes": null,
+                    "operatorContactDetails": null,
+                    "notes": null,
+                    "location": null
+                },
+                "tactilePaving": "There are tactile warnings on all platforms in use",
+                "inductionLoop": {
+                    "provision": "Induction loops are throughout this station",
+                    "ticketCounters": null
+                },
+                "wheelchairsAvailable": true,
+                "escalatorInformation": null,
+                "passengerAssistance": [
+                    {
+                        "name": "Gatwick Airport Passenger Assistance Meeting Point 0",
+                        "available": true,
+                        "notes": "<p>The assistance desk on the main concourse. If no staff are present, please contact staff at the ticket gates, ticket office or platform.</p>",
+                        "location": "<p>Assistance Meeting Point</p>"
+                    }
+                ]
+            },
+            "staffAssistance": {
+                "staffHelp": {
+                    "available": true,
+                    "openingTimes": [
+                        {
+                            "daysOfTheWeek": [
+                                "Monday",
+                                "Tuesday",
+                                "Wednesday",
+                                "Thursday",
+                                "Friday",
+                                "Saturday",
+                                "Sunday"
+                            ],
+                            "openingStatus": "24 Hours",
+                            "openPeriod": []
+                        }
+                    ],
+                    "openingHoursNotes": null,
+                    "operatorContactDetails": null,
+                    "notes": null,
+                    "location": null
+                },
+                "helpline": {
+                    "available": true,
+                    "openingTimes": [
+                        {
+                            "daysOfTheWeek": [
+                                "Monday",
+                                "Tuesday",
+                                "Wednesday",
+                                "Thursday",
+                                "Friday",
+                                "Saturday",
+                                "Sunday"
+                            ],
+                            "openingStatus": "24 Hours",
+                            "openPeriod": []
+                        }
+                    ],
+                    "openingHoursNotes": "<p>The assisted helpline is not available on Christmas Day.</p>",
+                    "operatorContactDetails": {
+                        "name": "Gatwick Airport Help Line Contact Details",
+                        "primaryTelephoneNumber": null,
+                        "emailAddress": null,
+                        "operatorName": null,
+                        "note": "<p>For help with planning your journey or to book assistance, please contact our assisted travel helpline to discuss your requirements on:</p><ul><li>Phone - 0800 138 1016 </li><li>Textphone - 0800 138 1018</li></ul><p></p>"
+                    },
+                    "notes": "<p>Staff are available at this station at all times for providing assistance getting on and off the train and assistance around the station and to the platform. Assistance can be provided unbooked (turn up and go) or pre booked up to two hours before departure by contacting Assisted Travel.</p><p>Whether you pre book assistance or travel unbooked, please contact a member of staff on arrival. We recommend arriving 20 minutes prior to your train departing. This is to allow us to make sure arrangements are in place at your destination, or interchange, station such as the availability of staff and lifts. If there is insufficient time to check these arrangements, we may assist you onto the next available train.</p><p>For further information on assisted travel please see:</p><p><a href=\"https://www.gatwickexpress.com/travel-information/travel-help/assisted-travel\" title=\"\">Accessibility at the station - Gatwick Express.</a></p>",
+                    "location": null
+                },
+                "helpPoints": {
+                    "available": false,
+                    "location": null,
+                    "notes": null,
+                    "inductionLoop": null
+                },
+                "informationAvailableFromStaff": [
+                    "Yes - from help point",
+                    "Yes - from information point"
+                ],
+                "customerInformation": [
+                    "DepartureScreens",
+                    "Announcements"
+                ],
+                "announcements": "Announcements are made both visually and audibly",
+                "customerServiceNotes": null
+            },
+            "transportLinks": {
+                "replacementBus": {
+                    "maps": [
+                        {
+                            "name": "Gatwick Airport - Rail Replacement Bus Map",
+                            "url": "https://assets.nationalrail.co.uk/e8xgegruud3g/763iUfPbBQb9TyeeS2Wza2/be027c391fe863ed6a286eaafde54195/2025-01_CI_GX_RRB_GTW_DR.pdf"
+                        }
+                    ],
+                    "available": true,
+                    "notes": "<p>Please click the link for details regarding the rail replacement bus location.</p>"
+                },
+                "bus": {
+                    "available": true,
+                    "notes": "<p>Information to plan your onward journey is available in the \u2018Onward Travel Information Map\u2019, located in the \u2018Maps\u2019 section below.</p>"
+                },
+                "underground": {
+                    "available": false,
+                    "notes": null
+                },
+                "airport": {
+                    "available": true,
+                    "notes": "<p>Large international airport, the South Terminal is located adjacent to station. For flights to/from the North Terminal a short walk and monorail ride is necessary.</p>"
+                },
+                "port": {
+                    "available": false,
+                    "notes": null
+                },
+                "carHire": {
+                    "available": true,
+                    "notes": "<p>Yes, various companies operate from both North and South airport terminals, 200 yards from the station.</p>"
+                },
+                "taxi": null
+            },
+            "lifts": {
+                "available": true,
+                "statement": "There are lifts",
+                "liftsInfo": [
+                    {
+                        "name": "Lift 6, Platforms 5 & 6",
+                        "operationalAnnouncements": "There are audio announcements provided outside and inside this lift",
+                        "liftControls": "Lift controls should be accessible to most people",
+                        "liftManoeuvrability": "The lift is a through lift which has a 1.5 metre turning circle inside",
+                        "openingWidth": "Lift has clear door widths greater than 1.1m wide"
+                    },
+                    {
+                        "name": "Lift 1, Platforms 3 & 4",
+                        "operationalAnnouncements": "There are audio announcements provided outside and inside this lift",
+                        "liftControls": "Lift controls should be accessible to most people",
+                        "liftManoeuvrability": "The lift is a through lift with no turning circle",
+                        "openingWidth": "Lift has clear door widths greater than 1.1m wide"
+                    }
+                ]
+            },
+            "ticketBuying": {
+                "ticketOffice": {
+                    "available": true,
+                    "openingTimes": [
+                        {
+                            "daysOfTheWeek": [
+                                "Public Holidays",
+                                "Sunday",
+                                "Friday",
+                                "Saturday",
+                                "Thursday",
+                                "Wednesday",
+                                "Tuesday",
+                                "Monday"
+                            ],
+                            "openingStatus": "24 Hours",
+                            "openPeriod": null
+                        }
+                    ],
+                    "openingHoursNotes": null,
+                    "operatorContactDetails": null,
+                    "notes": null,
+                    "location": "<p>Concourse</p>"
+                },
+                "ticketSalesNotes": "<p>Staff are always available on the station to assist with the ticket vending machines. </p>",
+                "ticketMachinesAvailable": true,
+                "vending": [
+                    {
+                        "name": "Ticket machines, Main Concourse",
+                        "countersAvailable": "There are ticket counters here",
+                        "countersWheelchairAccessible": "There is a Low-Level counter here",
+                        "inductionLoopAvailable": "There is an induction loop at the low-level ticket counter",
+                        "vendingMachineAvailable": "There are ticket machines here",
+                        "hasManoeuvringSpace": "There is space in front of the ticket machine to manoeuvre a wheelchair",
+                        "isWheelchairHeight": "The controls may be at a suitable height for some people"
+                    }
+                ],
+                "travelCentres": [],
+                "ticketMachines": [
+                    {
+                        "name": "Ticket machines, Main Concourse",
+                        "hasManoeuvringSpace": "There is space in front of the ticket machine to manoeuvre a wheelchair",
+                        "isWheelchairHeight": "The controls may be at a suitable height for some people"
+                    }
+                ],
+                "collectOnlineBookedTickets": {
+                    "pickUpAtTicketOffice": false,
+                    "pickUpAtTicketMachine": true
+                },
+                "londonFareZone": null,
+                "payAsYouGo": {
+                    "oyster": {
+                        "purchaseOyster": false,
+                        "topUpOyster": {
+                            "atTicketOffice": false,
+                            "atTicketMachine": true
+                        },
+                        "useOyster": true,
+                        "notes": "<p>Oyster top-up is only available from the self-service ticket machine. Oyster Cards cannot be purchased at this station. Always check Oyster is accepted at your destination before you tap in.</p>"
+                    },
+                    "smartCards": {
+                        "smartCardsIssued": false,
+                        "topUpSmartCard": {
+                            "atTicketOffice": true,
+                            "atTicketMachine": true
+                        },
+                        "smartcardsValidators": true,
+                        "notes": "<p>For more information on using the <a href=\"https://www.southernrailway.com/keygo\" title=\"\">Southern</a> or <a href=\"https://www.thameslinkrailway.com/keygo\" title=\"\">Thameslink</a> &#39;Key&#39; smartcards, please visit their websites. </p>"
+                    },
+                    "contactless": {
+                        "contactlessCards": true,
+                        "notes": "<p>Always check pay as you go with contactless is accepted at your destination before you tap in. For more information visit <a href=\"https://www.gatwickexpress.com/tickets/pay-as-you-go/contactless-travel\" title=\"\">gatwickexpress.com/contactless</a>.</p>"
+                    }
+                }
+            },
+            "loungesAndWaiting": {
+                "shelteredWaitingAvailable": true,
+                "waitingFacility": {
+                    "available": true,
+                    "openingTimes": null,
+                    "openingHoursNotes": null,
+                    "operatorContactDetails": null,
+                    "notes": null,
+                    "location": "<p>Heated waiting areas are available on platforms</p>"
+                },
+                "seatingArea": {
+                    "available": false,
+                    "openingTimes": null,
+                    "openingHoursNotes": null,
+                    "operatorContactDetails": null,
+                    "notes": null,
+                    "location": null
+                },
+                "firstClass": null,
+                "waitingRooms": null,
+                "firstClassLounges": null,
+                "quietRoom": "There is no quiet room at this station",
+                "faithRoom": "There is no multi-faith room at this station"
+            },
+            "stationFacilities": {
+                "cctvAvailable": true,
+                "wifi": {
+                    "available": false,
+                    "openingTimes": null,
+                    "openingHoursNotes": null,
+                    "operatorContactDetails": null,
+                    "notes": "<p>There is no WIFI at this station. However, WIFI is available onboard trains which serve this station. More information about onboard WIFI can be found on the <a href=\"https://www.gatwickexpress.com/wifi\" title=\"\">Gatwick Express website</a>. </p><p></p><p></p><p>\n</p>",
+                    "location": null
+                },
+                "refreshments": {
+                    "available": true,
+                    "openingTimes": null,
+                    "openingHoursNotes": null,
+                    "operatorContactDetails": null,
+                    "notes": null,
+                    "location": null
+                },
+                "shops": {
+                    "available": true,
+                    "openingTimes": null,
+                    "openingHoursNotes": null,
+                    "operatorContactDetails": null,
+                    "notes": null,
+                    "location": "<p>Available in the airport terminal.</p>"
+                },
+                "payPhones": false,
+                "luggageStorage": {
+                    "available": true,
+                    "openingTimes": null,
+                    "openingHoursNotes": null,
+                    "operatorContactDetails": {
+                        "name": "Gatwick Airport Luggage Storage Contact Details",
+                        "primaryTelephoneNumber": null,
+                        "emailAddress": null,
+                        "operatorName": null,
+                        "note": "<p>Available in the airport terminal. Visit the <a href=\"https://www.gatwickairport.com/premium-services/luggage-storage.html\" title=\"\">London Gatwick Airport website</a> for more information. </p><p></p><p></p>"
+                    },
+                    "notes": "<p>Available in the airport terminal. Visit the <a href=\"https://www.gatwickairport.com/premium-services/luggage-storage.html\" title=\"\">London Gatwick Airport website</a> for more information. </p>",
+                    "location": null
+                },
+                "lostProperty": {
+                    "available": true,
+                    "openingTimes": null,
+                    "openingHoursNotes": null,
+                    "operatorContactDetails": {
+                        "name": "Gatwick Airport Lost Property Contact Details",
+                        "primaryTelephoneNumber": "0345 850 1530",
+                        "emailAddress": null,
+                        "operatorName": "Gatwick Express Lost Property ",
+                        "note": "<p><a href=\"https://www.gatwickexpress.com/lostproperty\" title=\"\">Lost property | Gatwick Express</a></p>"
+                    },
+                    "notes": "<p>If you have lost something at our station or onboard our trains, please visit&#160;<a href=\"https://www.gatwickexpress.com/help-and-support/journey-problems/lost-property\" title=\"\">our website</a>&#160;and use the webform to register your lost item.</p><p>Some of our trains serve stations which are managed by other train operators (see below) or other operators services will call at Gatwick Airport. You should consider logging your lost item with them, just in case it&#39;s been handed in at one of their stations. </p><ul><li><a href=\"https://www.thameslinkrailway.com/lostproperty\" title=\"\">Thameslink</a></li><li><a href=\"https://www.southernrailway.com/lostproperty\" title=\"\">Southern </a></li><li><a href=\"https://www.gwr.com/help-and-support/lost-property\" title=\"\">Great Western Railway </a></li></ul><p>If you have found an item of lost property, please hand it in to a member of staff.</p>",
+                    "location": null
+                },
+                "trolleys": {
+                    "available": true,
+                    "openingTimes": null,
+                    "openingHoursNotes": null,
+                    "operatorContactDetails": null,
+                    "notes": null,
+                    "location": "<p>Luggage trolleys are available in the airport terminal. However, these are not available or allowed on the station platforms. </p>"
+                },
+                "atm": {
+                    "available": true,
+                    "openingTimes": null,
+                    "openingHoursNotes": null,
+                    "operatorContactDetails": null,
+                    "notes": "<p>Located outside the station&#160;as well as&#160;on concourse</p>",
+                    "location": null
+                },
+                "currencyExchange": {
+                    "available": true,
+                    "openingTimes": null,
+                    "openingHoursNotes": null,
+                    "operatorContactDetails": null,
+                    "notes": null,
+                    "location": "<p>Available in the airport terminal. </p>"
+                },
+                "postBox": {
+                    "available": true,
+                    "openingTimes": null,
+                    "openingHoursNotes": null,
+                    "operatorContactDetails": null,
+                    "notes": null,
+                    "location": "<p>Located in the Airport Terminal</p>"
+                },
+                "defibrillator": null,
+                "requestStop": null,
+                "limitedService": null
+            },
+            "helpAndSupport": {
+                "helpPoints": {
+                    "available": false,
+                    "location": null,
+                    "notes": null,
+                    "inductionLoop": "Induction loops are throughout this station"
+                },
+                "announcements": "Announcements are made both visually and audibly",
+                "inductionLoops": "Induction loops are throughout this station",
+                "printedLocalInformation": "There is accessible printed information available",
+                "customerInformationScreens": [
+                    "DepartureScreens",
+                    "Announcements"
+                ],
+                "staffInformation": [
+                    "Yes - from help point",
+                    "Yes - from information point"
+                ],
+                "informationPoints": "There are information points",
+                "accessibilityInformation": "There is information about accessibility",
+                "staffHelp": {
+                    "available": true,
+                    "openingTimes": [
+                        {
+                            "daysOfTheWeek": [
+                                "Monday",
+                                "Tuesday",
+                                "Wednesday",
+                                "Thursday",
+                                "Friday",
+                                "Saturday",
+                                "Sunday"
+                            ],
+                            "openingStatus": "24 Hours",
+                            "openPeriod": []
+                        }
+                    ],
+                    "openingHoursNotes": null,
+                    "operatorContactDetails": null,
+                    "notes": null,
+                    "location": null
+                }
+            },
+            "platformFacilities": {
+                "entranceLevels": "The platforms are below the level of the main entrance of the station",
+                "tactileWarnings": "There are tactile warnings on all platforms in use",
+                "numberOfPlatforms": 7,
+                "platforms": [
+                    {
+                        "name": "Platform 3",
+                        "waitingType": "There is seating/waiting in an enclosed shelter on this platform",
+                        "seatingAtIntervals": "There is seating provided at more than 50 metres apart",
+                        "helpPointClose": "There is no Help Point close to this platform"
+                    },
+                    {
+                        "name": "Platform 4",
+                        "waitingType": "There is seating/waiting under a roof or canopy on this platform",
+                        "seatingAtIntervals": "Seating is limited on this platform",
+                        "helpPointClose": "There is no Help Point close to this platform"
+                    },
+                    {
+                        "name": "Platform 5",
+                        "waitingType": null,
+                        "seatingAtIntervals": "There is no seating on this platform",
+                        "helpPointClose": "There is no Help Point close to this platform"
+                    },
+                    {
+                        "name": "Platform 6",
+                        "waitingType": "There is seating/waiting in an enclosed shelter on this platform",
+                        "seatingAtIntervals": "Seating is limited on this platform",
+                        "helpPointClose": "There is no Help Point close to this platform"
+                    },
+                    {
+                        "name": "Platform 7",
+                        "waitingType": "There is seating/waiting under a roof or canopy on this platform",
+                        "seatingAtIntervals": "There is seating provided at more than 50 metres apart",
+                        "helpPointClose": "There is no Help Point close to this platform"
+                    },
+                    {
+                        "name": "Platform 1",
+                        "waitingType": "There is seating/waiting in an enclosed shelter on this platform",
+                        "seatingAtIntervals": "There is seating provided at more than 50 metres apart",
+                        "helpPointClose": "There is no Help Point close to this platform"
+                    },
+                    {
+                        "name": "Platform 2",
+                        "waitingType": "There is seating/waiting in an enclosed shelter on this platform",
+                        "seatingAtIntervals": "There is seating provided at more than 50 metres apart",
+                        "helpPointClose": "There is no Help Point close to this platform"
+                    }
+                ]
+            },
+            "cycling": {
+                "cycleStorageAvailable": false,
+                "cycleHireNotes": null,
+                "spaces": {
+                    "numberOfSpaces": 0,
+                    "notes": null
+                },
+                "typesOfStorage": null,
+                "location": null,
+                "sheltered": false,
+                "cctv": false
+            },
+            "dropOffPickUp": null,
+            "carParks": {
+                "parkingSpacesAvailable": false,
+                "numberOfSpaces": 0,
+                "accessibleParkingSpacesAvailable": true,
+                "numberOfAccessibleSpaces": 0,
+                "carParks": [
+                    {
+                        "name": "Airport Car Park",
+                        "operator": {
+                            "contactDetails": {
+                                "postalAddress": null,
+                                "url": "https://www.gatwickairport.com/parking.html",
+                                "name": "Gatwick Airport Car Park Contact Details",
+                                "primaryTelephoneNumber": null,
+                                "emailAddress": null,
+                                "operatorName": "Gatwick Airport",
+                                "note": null
+                            }
+                        },
+                        "openingHours": [
+                            {
+                                "daysOfTheWeek": [
+                                    "Monday",
+                                    "Tuesday",
+                                    "Wednesday",
+                                    "Thursday",
+                                    "Friday",
+                                    "Saturday",
+                                    "Sunday"
+                                ],
+                                "openingStatus": "24 Hours",
+                                "openPeriod": []
+                            }
+                        ],
+                        "numberOfSpaces": 0,
+                        "numberOfAccessibleSpaces": null,
+                        "cctv": false,
+                        "freeParking": false,
+                        "charges": {
+                            "perHourRate": null,
+                            "offPeakRate": null,
+                            "dailyRate": null,
+                            "saturdayRate": null,
+                            "sundayRate": null,
+                            "weeklyRate": null,
+                            "monthlyRate": null,
+                            "threeMonthlyRate": null,
+                            "sixMonthlyRate": null,
+                            "annualRate": null
+                        },
+                        "notes": null,
+                        "accessibleSpacesNotes": null,
+                        "accessibleLocations": null
+                    }
+                ]
+            }
+        }
+    ]
+}

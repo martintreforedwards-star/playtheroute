@@ -2,9 +2,9 @@
 QA Report framework for The Route Builder.
 """
 
+import json
 from dataclasses import asdict, dataclass
 from pathlib import Path
-import json
 
 
 @dataclass
@@ -25,16 +25,48 @@ class QAReport:
         self.current_section = name
 
     def pass_check(self, message):
-        self.results.append(QAResult(self.current_section, "PASS", message))
+        self.results.append(
+            QAResult(self.current_section, "PASS", message)
+        )
 
     def warning(self, message):
-        self.results.append(QAResult(self.current_section, "WARN", message))
+        self.results.append(
+            QAResult(self.current_section, "WARN", message)
+        )
 
     def fail(self, message):
-        self.results.append(QAResult(self.current_section, "FAIL", message))
+        self.results.append(
+            QAResult(self.current_section, "FAIL", message)
+        )
 
     def info(self, message):
-        self.results.append(QAResult(self.current_section, "INFO", message))
+        self.results.append(
+            QAResult(self.current_section, "INFO", message)
+        )
+
+    def metric(self, field, complete, total, threshold, severity):
+
+        percentage = (complete / total) * 100 if total else 0
+
+        message = (
+            f"{field}: {complete}/{total} ({percentage:.1f}%)"
+        )
+
+        # Informational fields never affect PASS/WARN/FAIL
+        if severity == "INFO":
+            self.info(message)
+            return
+
+        # Passed threshold
+        if percentage >= threshold:
+            self.pass_check(message)
+            return
+
+        # Below threshold
+        if severity == "WARN":
+            self.warning(message)
+        else:
+            self.fail(message)
 
     @property
     def pass_count(self):
@@ -53,6 +85,7 @@ class QAReport:
         return sum(r.level == "INFO" for r in self.results)
 
     def print_report(self):
+
         print()
         print("=" * 60)
         print("The Route QA Audit")
@@ -63,6 +96,7 @@ class QAReport:
         current = None
 
         for result in self.results:
+
             if result.section != current:
                 current = result.section
                 print()

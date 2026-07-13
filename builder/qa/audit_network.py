@@ -7,11 +7,12 @@ from pathlib import Path
 
 from builder.qa.audit_structure import audit_structure
 from builder.qa.report import QAReport
+from builder.qa.audit_content import audit_content
 
 AUDITS = [
     ("Structure", audit_structure),
+    ("Content", audit_content),
 ]
-
 
 def main():
 

@@ -35,3 +35,14 @@ ENRICHED_SCHEMA = {
         "longitude",
     ],
 }
+
+CONTENT_SCHEMA = {
+    "latitude": {"threshold": 100, "severity": "FAIL"},
+    "longitude": {"threshold": 100, "severity": "FAIL"},
+    "route_count": {"threshold": 100, "severity": "FAIL"},
+    "service_count": {"threshold": 100, "severity": "FAIL"},
+    "difficulty_score": {"threshold": 100, "severity": "WARN"},
+    "accessibility_score": {"threshold": 100, "severity": "WARN"},
+  "county": {"threshold": 0, "severity": "INFO"},
+"region": {"threshold": 0, "severity": "INFO"},
+}

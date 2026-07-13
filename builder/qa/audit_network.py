@@ -4,14 +4,23 @@ Master QA runner.
 
 import argparse
 from pathlib import Path
-
+from builder.qa.audit_routes import audit_routes
 from builder.qa.audit_structure import audit_structure
 from builder.qa.report import QAReport
 from builder.qa.audit_content import audit_content
+from builder.qa.audit_gameplay import audit_gameplay
+from builder.qa.audit_wordplay import audit_wordplay
+from builder.qa.audit_facts import audit_facts
+from builder.qa.audit_certification import audit_certification
 
 AUDITS = [
     ("Structure", audit_structure),
     ("Content", audit_content),
+    ("Routes", audit_routes),
+    ("Gameplay", audit_gameplay),
+    ("Wordplay", audit_wordplay),
+    ("Facts", audit_facts),
+    ("Certification", audit_certification),
 ]
 
 def main():

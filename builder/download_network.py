@@ -6,7 +6,7 @@ headers = {
     "x-apikey": API_KEY,
     "User-Agent": "RDG"
 }
-URL = "https://api1.raildata.org.uk/1010-nationalrail-knowledgebase-stations-feed-_json_---production5_0/stations/tocs/AW"
+URL = "https://api1.raildata.org.uk/1010-nationalrail-knowledgebase-stations-feed-_json_---production5_0/stations/tocs/NT"
 
 response = requests.get(URL, headers=headers)
 

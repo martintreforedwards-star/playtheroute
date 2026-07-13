@@ -54,6 +54,14 @@
       "category": "name"
     },
     {
+      "display": "Low",
+      "type": "field",
+      "field": "service_density",
+      "value": "low",
+      "weight": "medium",
+      "category": "service"
+    },
+    {
       "display": "Single",
       "type": "field",
       "field": "route_diversity_band",

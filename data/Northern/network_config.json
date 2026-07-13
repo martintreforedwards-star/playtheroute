@@ -1,5 +1,6 @@
 {
   "network": "Northern",
   "network_id": "northern",
-  "operator_code": "NT"
+  "operator_code": "NT",
+  "operator": "Northern"
 }

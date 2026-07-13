@@ -6,7 +6,7 @@ headers = {
     "x-apikey": API_KEY,
     "User-Agent": "RDG"
 }
-URL = "https://api1.raildata.org.uk/1010-nationalrail-knowledgebase-stations-feed-_json_---production5_0/stations/tocs/NT"
+URL = "https://api1.raildata.org.uk/1010-nationalrail-knowledgebase-stations-feed-_json_---production5_0/stations/tocs/SW"
 
 response = requests.get(URL, headers=headers)
 
@@ -17,7 +17,7 @@ if response.status_code == 200:
     Path("data/Knowledgebase").mkdir(parents=True, exist_ok=True)
 
     with open(
-        "data/Knowledgebase/TFW_network_data.json",
+        "data/Knowledgebase/SW_network_data.json",
         "w",
         encoding="utf-8"
     ) as f:

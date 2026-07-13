@@ -1,0 +1,180 @@
+station_name,crs,operator,route,county,latitude,longitude,major_interchange,terminus,branch_junction,nearest_landmark,nearest_landmark_km,nearest_castle,nearest_castle_km,nearest_cathedral,nearest_cathedral_km,nearest_museum,nearest_museum_km,nearest_country_house,nearest_country_house_km,nearest_nature_reserve,nearest_nature_reserve_km,station_id
+Addlestone,ASN,South Western Railway,,,51.37304695,-0.484448913,,,,,,,,,,,,,,,,SW_000001
+Aldershot,AHT,South Western Railway,,,51.24641674,-0.759860484,,,,,,,,,,,,,,,,SW_000002
+Alton,AON,South Western Railway,,,51.15196497,-0.966920228,,,,,,,,,,,,,,,,SW_000003
+Andover,ADV,South Western Railway,,,51.21154584,-1.49223998,,,,,,,,,,,,,,,,SW_000004
+Ascot (Berks),ACT,South Western Railway,,,51.40624634,-0.675830536,,,,,,,,,,,,,,,,SW_000005
+Ash,ASH,South Western Railway,,,51.24959566,-0.712804737,,,,,,,,,,,,,,,,SW_000006
+Ash Vale,AHV,South Western Railway,,,51.27224595,-0.72164797,,,,,,,,,,,,,,,,SW_000007
+Ashford (Surrey),AFS,South Western Railway,,,51.43651024,-0.468062256,,,,,,,,,,,,,,,,SW_000008
+Ashurst New Forest,ANF,South Western Railway,,,50.88984033,-1.526640531,,,,,,,,,,,,,,,,SW_000009
+Axminster,AXM,South Western Railway,,,50.7785826,-3.00522804,,,,,,,,,,,,,,,,SW_000010
+Bagshot,BAG,South Western Railway,,,51.36436905,-0.688659892,,,,,,,,,,,,,,,,SW_000011
+Barnes,BNS,South Western Railway,,,51.46706806,-0.240724454,,,,,,,,,,,,,,,,SW_000012
+Barnes Bridge,BNI,South Western Railway,,,51.47173404,-0.252064268,,,,,,,,,,,,,,,,SW_000013
+Basingstoke,BSK,South Western Railway,,,51.26835654,-1.087259112,,,,,,,,,,,,,,,,SW_000014
+Beaulieu Road,BEU,South Western Railway,,,50.85503752,-1.504758891,,,,,,,,,,,,,,,,SW_000015
+Bedhampton,BDH,South Western Railway,,,50.85394444,-0.995823664,,,,,,,,,,,,,,,,SW_000016
+Bentley (Hampshire),BTY,South Western Railway,,,51.18122986,-0.868130903,,,,,,,,,,,,,,,,SW_000017
+Berrylands,BRS,South Western Railway,,,51.39904691,-0.28071427,,,,,,,,,,,,,,,,SW_000018
+Bitterne,BTE,South Western Railway,,,50.91844496,-1.376987648,,,,,,,,,,,,,,,,SW_000019
+Bookham,BKA,South Western Railway,,,51.28873731,-0.384010514,,,,,,,,,,,,,,,,SW_000020
+Botley,BOE,South Western Railway,,,50.91680133,-1.258806196,,,,,,,,,,,,,,,,SW_000021
+Bournemouth,BMH,South Western Railway,,,50.72752854,-1.863941342,,,,,,,,,,,,,,,,SW_000022
+Bracknell,BCE,South Western Railway,,,51.41309494,-0.751703019,,,,,,,,,,,,,,,,SW_000023
+Branksome,BSM,South Western Railway,,,50.72757992,-1.919197826,,,,,,,,,,,,,,,,SW_000024
+Brentford,BFD,South Western Railway,,,51.48785748,-0.309064381,,,,,,,,,,,,,,,,SW_000025
+Brockenhurst,BCU,South Western Railway,,,50.81682895,-1.573542545,,,,,,,,,,,,,,,,SW_000026
+Brookwood,BKO,South Western Railway,,,51.30375762,-0.635744681,,,,,,,,,,,,,,,,SW_000027
+Bursledon,BUO,South Western Railway,,,50.88438037,-1.305281384,,,,,,,,,,,,,,,,SW_000028
+Byfleet & New Haw,BFN,South Western Railway,,,51.34979727,-0.481381942,,,,,,,,,,,,,,,,SW_000029
+Camberley,CAM,South Western Railway,,,51.33645865,-0.744669753,,,,,,,,,,,,,,,,SW_000030
+Chandlers Ford,CFR,South Western Railway,,,50.98299772,-1.384401049,,,,,,,,,,,,,,,,SW_000031
+Chertsey,CHY,South Western Railway,,,51.38716506,-0.509665587,,,,,,,,,,,,,,,,SW_000032
+Chessington North,CSN,South Western Railway,,,51.36426238,-0.300405044,,,,,,,,,,,,,,,,SW_000033
+Chessington South,CSS,South Western Railway,,,51.35655091,-0.308159205,,,,,,,,,,,,,,,,SW_000034
+Chiswick,CHK,South Western Railway,,,51.48114063,-0.267834947,,,,,,,,,,,,,,,,SW_000035
+Christchurch,CHR,South Western Railway,,,50.73820038,-1.784549578,,,,,,,,,,,,,,,,SW_000036
+Clandon,CLA,South Western Railway,,,51.26400351,-0.502759414,,,,,,,,,,,,,,,,SW_000037
+Claygate,CLG,South Western Railway,,,51.36121463,-0.348236165,,,,,,,,,,,,,,,,SW_000038
+Cobham & Stoke d'Abernon,CSD,South Western Railway,,,51.31810024,-0.389336167,,,,,,,,,,,,,,,,SW_000039
+Cosham,CSA,South Western Railway,,,50.84208432,-1.06754988,,,,,,,,,,,,,,,,SW_000040
+Cranbrook (Devon),CBK,South Western Railway,,,50.749689,-3.4222744,,,,,,,,,,,,,,,,SW_000041
+Crewkerne,CKN,South Western Railway,,,50.87203517,-2.778487421,,,,,,,,,,,,,,,,SW_000042
+Datchet,DAT,South Western Railway,,,51.4830933498849,-0.5794429779052734,,,,,,,,,,,,,,,,SW_000043
+Dean (Wilts),DEN,South Western Railway,,,51.0422304,-1.634809477,,,,,,,,,,,,,,,,SW_000044
+Dorchester South,DCH,South Western Railway,,,50.70927877,-2.437250357,,,,,,,,,,,,,,,,SW_000045
+Earley,EAR,South Western Railway,,,51.44109521,-0.917992325,,,,,,,,,,,,,,,,SW_000046
+Earlsfield,EAD,South Western Railway,,,51.44199132,-0.188445946,,,,,,,,,,,,,,,,SW_000047
+Eastleigh,ESL,South Western Railway,,,50.96924196,-1.350088939,,,,,,,,,,,,,,,,SW_000048
+Effingham Junction,EFF,South Western Railway,,,51.29149416,-0.419956236,,,,,,,,,,,,,,,,SW_000049
+Egham,EGH,South Western Railway,,,51.42964981,-0.54650574,,,,,,,,,,,,,,,,SW_000050
+Esher,ESH,South Western Railway,,,51.37989226,-0.353326233,,,,,,,,,,,,,,,,SW_000051
+Ewell West,EWW,South Western Railway,,,51.35004515,-0.256986854,,,,,,,,,,,,,,,,SW_000052
+Fareham,FRM,South Western Railway,,,50.85302175,-1.192037892,,,,,,,,,,,,,,,,SW_000053
+Farnborough (Main),FNB,South Western Railway,,,51.29660513,-0.755725906,,,,,,,,,,,,,,,,SW_000054
+Farncombe,FNC,South Western Railway,,,51.19715045,-0.604545436,,,,,,,,,,,,,,,,SW_000055
+Farnham,FNH,South Western Railway,,,51.21190211,-0.792428907,,,,,,,,,,,,,,,,SW_000056
+Feltham,FEL,South Western Railway,,,51.4479016,-0.409827793,,,,,,,,,,,,,,,,SW_000057
+Feniton,FNT,South Western Railway,,,50.78644387,-3.285357243,,,,,,,,,,,,,,,,SW_000058
+Fleet,FLE,South Western Railway,,,51.29063459,-0.830808013,,,,,,,,,,,,,,,,SW_000059
+Fratton,FTN,South Western Railway,,,50.79632515,-1.073980501,,,,,,,,,,,,,,,,SW_000060
+Frimley,FML,South Western Railway,,,51.31186216,-0.746991209,,,,,,,,,,,,,,,,SW_000061
+Fulwell,FLW,South Western Railway,,,51.43393799,-0.349469931,,,,,,,,,,,,,,,,SW_000062
+Gillingham Dorset,GIL,South Western Railway,,,51.03402105,-2.272639221,,,,,,,,,,,,,,,,SW_000063
+Godalming,GOD,South Western Railway,,,51.18658296,-0.618859352,,,,,,,,,,,,,,,,SW_000064
+Grateley,GRT,South Western Railway,,,51.17005721,-1.620784549,,,,,,,,,,,,,,,,SW_000065
+Hamble,HME,South Western Railway,,,50.8713636,-1.329166492,,,,,,,,,,,,,,,,SW_000066
+Hampton (London),HMP,South Western Railway,,,51.41590963,-0.372108616,,,,,,,,,,,,,,,,SW_000067
+Hampton Court,HMC,South Western Railway,,,51.40255764,-0.342750055,,,,,,,,,,,,,,,,SW_000068
+Hampton Wick,HMW,South Western Railway,,,51.41452673,-0.31249094,,,,,,,,,,,,,,,,SW_000069
+Hamworthy,HAM,South Western Railway,,,50.72517822,-2.019367161,,,,,,,,,,,,,,,,SW_000070
+Haslemere,HSL,South Western Railway,,,51.08884213,-0.719371718,,,,,,,,,,,,,,,,SW_000071
+Havant,HAV,South Western Railway,,,50.85441478,-0.981606362,,,,,,,,,,,,,,,,SW_000072
+Hedge End,HDE,South Western Railway,,,50.93231017,-1.294506472,,,,,,,,,,,,,,,,SW_000073
+Hersham,HER,South Western Railway,,,51.37698201,-0.389799091,,,,,,,,,,,,,,,,SW_000074
+Hilsea,HLS,South Western Railway,,,50.82812716,-1.058584319,,,,,,,,,,,,,,,,SW_000075
+Hinchley Wood,HYW,South Western Railway,,,51.37499946,-0.340526968,,,,,,,,,,,,,,,,SW_000076
+Hinton Admiral,HNA,South Western Railway,,,50.75262651,-1.714128129,,,,,,,,,,,,,,,,SW_000077
+Holton Heath,HOL,South Western Railway,,,50.71139466,-2.07785667,,,,,,,,,,,,,,,,SW_000078
+Honiton,HON,South Western Railway,,,50.79657202,-3.186745856,,,,,,,,,,,,,,,,SW_000079
+Hook,HOK,South Western Railway,,,51.27999802,-0.961641845,,,,,,,,,,,,,,,,SW_000080
+Horsley,HSY,South Western Railway,,,51.2793455,-0.435400001,,,,,,,,,,,,,,,,SW_000081
+Hounslow,HOU,South Western Railway,,,51.46252802,-0.361826888,,,,,,,,,,,,,,,,SW_000082
+Isleworth,ISL,South Western Railway,,,51.47476682,-0.336908528,,,,,,,,,,,,,,,,SW_000083
+Kempton Park,KMP,South Western Railway,,,51.4209856,-0.409741053,,,,,,,,,,,,,,,,SW_000084
+Kew Bridge,KWB,South Western Railway,,,51.48936263,-0.28884221,,,,,,,,,,,,,,,,SW_000085
+Kingston,KNG,South Western Railway,,,51.41275341,-0.301166881,,,,,,,,,,,,,,,,SW_000086
+Liphook,LIP,South Western Railway,,,51.07130974,-0.800231253,,,,,,,,,,,,,,,,SW_000087
+Liss,LIS,South Western Railway,,,51.04356403,-0.892872687,,,,,,,,,,,,,,,,SW_000088
+London Road (Guildford),LRD,South Western Railway,,,51.24064745,-0.565064166,,,,,,,,,,,,,,,,SW_000089
+Longcross,LNG,South Western Railway,,,51.38517473,-0.594565138,,,,,,,,,,,,,,,,SW_000090
+Lymington Pier,LYP,South Western Railway,,,50.75828671,-1.529457537,,,,,,,,,,,,,,,,SW_000091
+Lymington Town,LYT,South Western Railway,,,50.76089855,-1.537172813,,,,,,,,,,,,,,,,SW_000092
+Malden Manor,MAL,South Western Railway,,,51.38463927,-0.261133898,,,,,,,,,,,,,,,,SW_000093
+Martins Heron,MAO,South Western Railway,,,51.40759741,-0.724677798,,,,,,,,,,,,,,,,SW_000094
+Micheldever,MIC,South Western Railway,,,51.18239077,-1.260678431,,,,,,,,,,,,,,,,SW_000095
+Milford (Surrey),MLF,South Western Railway,,,51.163315,-0.636946048,,,,,,,,,,,,,,,,SW_000096
+Millbrook (Hants),MBK,South Western Railway,,,50.91148638,-1.433849643,,,,,,,,,,,,,,,,SW_000097
+Moreton (Dorset),MTN,South Western Railway,,,50.70110851,-2.312902315,,,,,,,,,,,,,,,,SW_000098
+Mortlake,MTL,South Western Railway,,,51.46835266,-0.266591584,,,,,,,,,,,,,,,,SW_000099
+Motspur Park,MOT,South Western Railway,,,51.39510266,-0.239174525,,,,,,,,,,,,,,,,SW_000100
+Mottisfont & Dunbridge,DBG,South Western Railway,,,51.03379277,-1.546724812,,,,,,,,,,,,,,,,SW_000101
+Netley,NTL,South Western Railway,,,50.8748526,-1.341766118,,,,,,,,,,,,,,,,SW_000102
+New Malden,NEM,South Western Railway,,,51.40407643,-0.255939507,,,,,,,,,,,,,,,,SW_000103
+New Milton,NWM,South Western Railway,,,50.75573929,-1.65781268,,,,,,,,,,,,,,,,SW_000104
+Norbiton,NBT,South Western Railway,,,51.41249564,-0.28409246,,,,,,,,,,,,,,,,SW_000105
+North Sheen,NSH,South Western Railway,,,51.46540691,-0.286427277,,,,,,,,,,,,,,,,SW_000106
+Overton,OVR,South Western Railway,,,51.25405532,-1.260016842,,,,,,,,,,,,,,,,SW_000107
+Oxshott,OXS,South Western Railway,,,51.33639577,-0.362408246,,,,,,,,,,,,,,,,SW_000108
+Parkstone (Dorset),PKS,South Western Railway,,,50.72310029,-1.948956257,,,,,,,,,,,,,,,,SW_000109
+Petersfield,PTR,South Western Railway,,,51.00671834,-0.941143838,,,,,,,,,,,,,,,,SW_000110
+Pinhoe,PIN,South Western Railway,,,50.73756769,-3.47151678,,,,,,,,,,,,,,,,SW_000111
+Pokesdown,POK,South Western Railway,,,50.73107393,-1.825106845,,,,,,,,,,,,,,,,SW_000112
+Poole,POO,South Western Railway,,,50.71941418,-1.983326736,,,,,,,,,,,,,,,,SW_000113
+Portchester,PTC,South Western Railway,,,50.84873765,-1.124238788,,,,,,,,,,,,,,,,SW_000114
+Portsmouth & Southsea,PMS,South Western Railway,,,50.79848174,-1.090909302,,,,,,,,,,,,,,,,SW_000115
+Portsmouth Harbour,PMH,South Western Railway,,,50.79694873,-1.10783895,,,,,,,,,,,,,,,,SW_000116
+Putney,PUT,South Western Railway,,,51.46130596,-0.216473031,,,,,,,,,,,,,,,,SW_000117
+Queenstown Road (Battersea),QRB,South Western Railway,,,51.47461422,-0.146833069,,,,,,,,,,,,,,,,SW_000118
+Raynes Park,RAY,South Western Railway,,,51.40935291,-0.22999932,,,,,,,,,,,,,,,,SW_000119
+Redbridge,RDB,South Western Railway,,,50.91993012,-1.470167863,,,,,,,,,,,,,,,,SW_000120
+Richmond (London),RMD,South Western Railway,,,51.46310164,-0.301039568,,,,,,,,,,,,,,,,SW_000121
+Romsey,ROM,South Western Railway,,,50.99252174,-1.493151814,,,,,,,,,,,,,,,,SW_000122
+Rowlands Castle,RLN,South Western Railway,,,50.89216101,-0.957464705,,,,,,,,,,,,,,,,SW_000123
+Salisbury,SAL,South Western Railway,,,51.07054404,-1.806389093,,,,,,,,,,,,,,,,SW_000124
+Shawford,SHW,South Western Railway,,,51.02181488,-1.328195204,,,,,,,,,,,,,,,,SW_000125
+Shepperton,SHP,South Western Railway,,,51.39680664,-0.446776819,,,,,,,,,,,,,,,,SW_000126
+Sherborne,SHE,South Western Railway,,,50.94400636,-2.513081696,,,,,,,,,,,,,,,,SW_000127
+Sholing,SHO,South Western Railway,,,50.89674031,-1.364351502,,,,,,,,,,,,,,,,SW_000128
+Southampton Airport Parkway,SOA,South Western Railway,,,50.95080673,-1.363101804,,,,,,,,,,,,,,,,SW_000129
+Southampton Central,SOU,South Western Railway,,,50.90743864,-1.413602474,,,,,,,,,,,,,,,,SW_000130
+St Denys,SDN,South Western Railway,,,50.92204734,-1.388193499,,,,,,,,,,,,,,,,SW_000131
+St Margarets (London),SMG,South Western Railway,,,51.45510669,-0.320350685,,,,,,,,,,,,,,,,SW_000132
+Staines,SNS,South Western Railway,,,51.43245842,-0.503156805,,,,,,,,,,,,,,,,SW_000133
+Stoneleigh,SNL,South Western Railway,,,51.3634013,-0.248665136,,,,,,,,,,,,,,,,SW_000134
+Strawberry Hill,STW,South Western Railway,,,51.43973402,-0.339620394,,,,,,,,,,,,,,,,SW_000135
+Sunbury,SUU,South Western Railway,,,51.4183156,-0.41777264,,,,,,,,,,,,,,,,SW_000136
+Sunningdale,SNG,South Western Railway,,,51.39194259,-0.633036903,,,,,,,,,,,,,,,,SW_000137
+Sunnymeads,SNY,South Western Railway,,,51.46990139,-0.559005825,,,,,,,,,,,,,,,,SW_000138
+Surbiton,SUR,South Western Railway,,,51.39246129,-0.303959858,,,,,,,,,,,,,,,,SW_000139
+Swanwick,SNW,South Western Railway,,,50.87565884,-1.265855068,,,,,,,,,,,,,,,,SW_000140
+Sway,SWY,South Western Railway,,,50.78469022,-1.610008474,,,,,,,,,,,,,,,,SW_000141
+Swaythling,SWG,South Western Railway,,,50.94113949,-1.376413966,,,,,,,,,,,,,,,,SW_000142
+Syon Lane,SYL,South Western Railway,,,51.48179326,-0.32513115,,,,,,,,,,,,,,,,SW_000143
+Teddington,TED,South Western Railway,,,51.42452799,-0.332691888,,,,,,,,,,,,,,,,SW_000144
+Templecombe,TMC,South Western Railway,,,51.00113031,-2.417513122,,,,,,,,,,,,,,,,SW_000145
+Thames Ditton,THD,South Western Railway,,,51.38900668,-0.33901409,,,,,,,,,,,,,,,,SW_000146
+Tisbury,TIS,South Western Railway,,,51.06083999,-2.079012098,,,,,,,,,,,,,,,,SW_000147
+Tolworth,TOL,South Western Railway,,,51.37681954,-0.279679278,,,,,,,,,,,,,,,,SW_000148
+Totton,TTN,South Western Railway,,,50.91800544,-1.482139753,,,,,,,,,,,,,,,,SW_000149
+Twickenham,TWI,South Western Railway,,,51.45037655,-0.329159686,,,,,,,,,,,,,,,,SW_000150
+Upper Halliford,UPH,South Western Railway,,,51.41306951,-0.43089616,,,,,,,,,,,,,,,,SW_000151
+Upwey,UPW,South Western Railway,,,50.64825691,-2.466146876,,,,,,,,,,,,,,,,SW_000152
+Vauxhall,VXH,South Western Railway,,,51.48619345,-0.122870783,,,,,,,,,,,,,,,,SW_000153
+Virginia Water,VIR,South Western Railway,,,51.40195798,-0.562220659,,,,,,,,,,,,,,,,SW_000154
+Walton-on-Thames,WAL,South Western Railway,,,51.37293218,-0.414625196,,,,,,,,,,,,,,,,SW_000155
+Wanborough,WAN,South Western Railway,,,51.24452137,-0.667585828,,,,,,,,,,,,,,,,SW_000156
+Wandsworth Town,WNT,South Western Railway,,,51.46105105,-0.188123102,,,,,,,,,,,,,,,,SW_000157
+Wareham (Dorset),WRM,South Western Railway,,,50.69287417,-2.11525952,,,,,,,,,,,,,,,,SW_000158
+West Byfleet,WBY,South Western Railway,,,51.33922612,-0.505478144,,,,,,,,,,,,,,,,SW_000159
+Weybridge,WYB,South Western Railway,,,51.361772,-0.457715753,,,,,,,,,,,,,,,,SW_000160
+Weymouth,WEY,South Western Railway,,,50.61601612,-2.454887722,,,,,,,,,,,,,,,,SW_000161
+Whimple,WHM,South Western Railway,,,50.76801832,-3.354340682,,,,,,,,,,,,,,,,SW_000162
+Whitchurch (Hampshire),WCH,South Western Railway,,,51.23741109,-1.338181206,,,,,,,,,,,,,,,,SW_000163
+Whitton (London),WTN,South Western Railway,,,51.44961063,-0.357683876,,,,,,,,,,,,,,,,SW_000164
+Wimbledon,WIM,South Western Railway,,,51.42158552,-0.206498827,,,,,,,,,,,,,,,,SW_000165
+Winchester,WIN,South Western Railway,,,51.06720512,-1.319703002,,,,,,,,,,,,,,,,SW_000166
+Winchfield,WNF,South Western Railway,,,51.28494989,-0.906981902,,,,,,,,,,,,,,,,SW_000167
+Windsor & Eton Riverside,WNR,South Western Railway,,,51.48565491,-0.606528915,,,,,,,,,,,,,,,,SW_000168
+Winnersh,WNS,South Western Railway,,,51.43027741,-0.87686164,,,,,,,,,,,,,,,,SW_000169
+Winnersh Triangle,WTI,South Western Railway,,,51.4367367,-0.89133506,,,,,,,,,,,,,,,,SW_000170
+Witley,WTY,South Western Railway,,,51.13315687,-0.645781144,,,,,,,,,,,,,,,,SW_000171
+Woking,WOK,South Western Railway,,,51.31846927,-0.556954188,,,,,,,,,,,,,,,,SW_000172
+Wokingham,WKM,South Western Railway,,,51.41122172,-0.842545198,,,,,,,,,,,,,,,,SW_000173
+Wool,WOO,South Western Railway,,,50.68162341,-2.221475875,,,,,,,,,,,,,,,,SW_000174
+Woolston,WLS,South Western Railway,,,50.89891313,-1.377063456,,,,,,,,,,,,,,,,SW_000175
+Worcester Park,WCP,South Western Railway,,,51.3812537,-0.245167023,,,,,,,,,,,,,,,,SW_000176
+Worplesdon,WPL,South Western Railway,,,51.2890166,-0.582573597,,,,,,,,,,,,,,,,SW_000177
+Wraysbury,WRY,South Western Railway,,,51.45771219,-0.541915109,,,,,,,,,,,,,,,,SW_000178
+Yeovil Junction,YVJ,South Western Railway,,,50.92472896,-2.613179136,,,,,,,,,,,,,,,,SW_000179

@@ -1,0 +1,155 @@
+station_id,network,route_station_id,route_group,crs,station_name
+SO_000001,Southern,SO0001,,AGT,Aldrington
+SO_000002,Southern,SO0002,,AMY,Amberley
+SO_000003,Southern,SO0003,,ANG,Angmering
+SO_000004,Southern,SO0004,,APD,Appledore (Kent)
+SO_000005,Southern,SO0005,,ARU,Arundel
+SO_000006,Southern,SO0006,,AHD,Ashtead
+SO_000007,Southern,SO0007,,AHS,Ashurst (Kent)
+SO_000008,Southern,SO0008,,BAB,Balcombe
+SO_000009,Southern,SO0009,,BAL,Balham
+SO_000010,Southern,SO0010,,BAD,Banstead
+SO_000011,Southern,SO0011,,BAA,Barnham
+SO_000012,Southern,SO0012,,BAK,Battersea Park
+SO_000013,Southern,SO0013,,BLM,Belmont
+SO_000014,Southern,SO0014,,BRK,Berwick (Sussex)
+SO_000015,Southern,SO0015,,BEX,Bexhill
+SO_000016,Southern,SO0016,,BIG,Billingshurst
+SO_000017,Southern,SO0017,,BIK,Birkbeck
+SO_000018,Southern,SO0018,,BIP,Bishopstone (Sussex)
+SO_000019,Southern,SO0019,,BOG,Bognor Regis
+SO_000020,Southern,SO0020,,BOH,Bosham
+SO_000021,Southern,SO0021,,BXW,Box Hill & Westhumble
+SO_000022,Southern,SO0022,,BTN,Brighton
+SO_000023,Southern,SO0023,,BUG,Burgess Hill
+SO_000024,Southern,SO0024,,BXD,Buxted
+SO_000025,Southern,SO0025,,CSH,Carshalton
+SO_000026,Southern,SO0026,,CSB,Carshalton Beeches
+SO_000027,Southern,SO0027,,CAT,Caterham
+SO_000028,Southern,SO0028,,CHE,Cheam
+SO_000029,Southern,SO0029,,CCH,Chichester
+SO_000030,Southern,SO0030,,CHP,Chipstead
+SO_000031,Southern,SO0031,,CHH,Christs Hospital
+SO_000032,Southern,SO0032,,CLL,Collington
+SO_000033,Southern,SO0033,,COB,Cooden Beach
+SO_000034,Southern,SO0034,,CBR,Cooksbridge
+SO_000035,Southern,SO0035,,CDS,Coulsdon South
+SO_000036,Southern,SO0036,,CDN,Coulsdon Town
+SO_000037,Southern,SO0037,,CWN,Cowden (Kent)
+SO_000038,Southern,SO0038,,CRW,Crawley
+SO_000039,Southern,SO0039,,COH,Crowborough
+SO_000040,Southern,SO0040,,DLH,Doleham
+SO_000041,Southern,SO0041,,DKG,Dorking (Main)
+SO_000042,Southern,SO0042,,DMS,Dormans
+SO_000043,Southern,SO0043,,DUR,Durrington-on-Sea
+SO_000044,Southern,SO0044,,ELD,Earlswood Surrey
+SO_000045,Southern,SO0045,,ECR,East Croydon 
+SO_000046,Southern,SO0046,,EDW,East Dulwich
+SO_000047,Southern,SO0047,,EGR,East Grinstead
+SO_000048,Southern,SO0048,,EWR,East Worthing
+SO_000049,Southern,SO0049,,EBN,Eastbourne
+SO_000050,Southern,SO0050,,EBR,Edenbridge (Kent)
+SO_000051,Southern,SO0051,,EBT,Edenbridge Town
+SO_000052,Southern,SO0052,,EMS,Emsworth
+SO_000053,Southern,SO0053,,EPS,Epsom (Surrey)
+SO_000054,Southern,SO0054,,EPD,Epsom Downs
+SO_000055,Southern,SO0055,,ERI,Eridge
+SO_000056,Southern,SO0056,,EWE,Ewell East
+SO_000057,Southern,SO0057,,FMR,Falmer
+SO_000058,Southern,SO0058,,FGT,Faygate
+SO_000059,Southern,SO0059,,FSB,Fishbourne (Sussex)
+SO_000060,Southern,SO0060,,FSG,Fishersgate
+SO_000061,Southern,SO0061,,FOD,Ford
+SO_000062,Southern,SO0062,,GIP,Gipsy Hill
+SO_000063,Southern,SO0063,,GLY,Glynde
+SO_000064,Southern,SO0064,,GDN,Godstone
+SO_000065,Southern,SO0065,,GBS,Goring-by-Sea
+SO_000066,Southern,SO0066,,HCB,Hackbridge
+SO_000067,Southern,SO0067,,HMT,Ham Street
+SO_000068,Southern,SO0068,,HMD,Hampden Park (Sussex)
+SO_000069,Southern,SO0069,,HSK,Hassocks
+SO_000070,Southern,SO0070,,HHE,Haywards Heath
+SO_000071,Southern,SO0071,,HEV,Hever
+SO_000072,Southern,SO0072,,HLM,Holmwood
+SO_000073,Southern,SO0073,,HOR,Horley
+SO_000074,Southern,SO0074,,HRH,Horsham
+SO_000075,Southern,SO0075,,HOV,Hove
+SO_000076,Southern,SO0076,,HUR,Hurst Green
+SO_000077,Southern,SO0077,,IFI,Ifield
+SO_000078,Southern,SO0078,,KLY,Kenley
+SO_000079,Southern,SO0079,,KND,Kingswood
+SO_000080,Southern,SO0080,,LAC,Lancing
+SO_000081,Southern,SO0081,,LHD,Leatherhead
+SO_000082,Southern,SO0082,,LIH,Leigh (Kent)
+SO_000083,Southern,SO0083,,LWS,Lewes
+SO_000084,Southern,SO0084,,LFD,Lingfield
+SO_000085,Southern,SO0085,,LIT,Littlehampton
+SO_000086,Southern,SO0086,,LVN,Littlehaven
+SO_000087,Southern,SO0087,,LRB,London Road (Brighton)
+SO_000088,Southern,SO0088,,MHM,Merstham
+SO_000089,Southern,SO0089,,MTC,Mitcham Eastfields
+SO_000090,Southern,SO0090,,MIJ,Mitcham Junction
+SO_000091,Southern,SO0091,,MCB,Moulsecoomb
+SO_000092,Southern,SO0092,,NVH,Newhaven Harbour
+SO_000093,Southern,SO0093,,NVN,Newhaven Town
+SO_000094,Southern,SO0094,,NRB,Norbury
+SO_000095,Southern,SO0095,,NSB,Normans Bay
+SO_000096,Southern,SO0096,,NDL,North Dulwich
+SO_000097,Southern,SO0097,,NUT,Nutbourne
+SO_000098,Southern,SO0098,,NUF,Nutfield
+SO_000099,Southern,SO0099,,OLY,Ockley
+SO_000100,Southern,SO0100,,ORE,Ore
+SO_000101,Southern,SO0101,,OXT,Oxted
+SO_000102,Southern,SO0102,,PMR,Peckham Rye
+SO_000103,Southern,SO0103,,PHR,Penshurst
+SO_000104,Southern,SO0104,,PEV,Pevensey & Westham
+SO_000105,Southern,SO0105,,PEB,Pevensey Bay
+SO_000106,Southern,SO0106,,PMP,Plumpton
+SO_000107,Southern,SO0107,,PLG,Polegate
+SO_000108,Southern,SO0108,,PLD,Portslade
+SO_000109,Southern,SO0109,,PRP,Preston Park
+SO_000110,Southern,SO0110,,PUL,Pulborough
+SO_000111,Southern,SO0111,,PUR,Purley
+SO_000112,Southern,SO0112,,PUO,Purley Oaks
+SO_000113,Southern,SO0113,,QRP,Queens Road (Peckham)
+SO_000114,Southern,SO0114,,RDH,Redhill
+SO_000115,Southern,SO0115,,RHM,Reedham (London)
+SO_000116,Southern,SO0116,,REI,Reigate
+SO_000117,Southern,SO0117,,RDD,Riddlesdown
+SO_000118,Southern,SO0118,,RYE,Rye (Sussex)
+SO_000119,Southern,SO0119,,SAF,Salfords (Surrey)
+SO_000120,Southern,SO0120,,SNR,Sanderstead
+SO_000121,Southern,SO0121,,SEF,Seaford Sussex
+SO_000122,Southern,SO0122,,SRS,Selhurst
+SO_000123,Southern,SO0123,,SSE,Shoreham-by-Sea
+SO_000124,Southern,SO0124,,SBM,South Bermondsey
+SO_000125,Southern,SO0125,,SCY,South Croydon
+SO_000126,Southern,SO0126,,SOB,Southbourne
+SO_000127,Southern,SO0127,,SEE,Southease
+SO_000128,Southern,SO0128,,SWK,Southwick
+SO_000129,Southern,SO0129,,STE,Streatham (Greater London)
+SO_000130,Southern,SO0130,,SRC,Streatham Common
+SO_000131,Southern,SO0131,,SRH,Streatham Hill
+SO_000132,Southern,SO0132,,SUO,Sutton (London)
+SO_000133,Southern,SO0133,,TAD,Tadworth
+SO_000134,Southern,SO0134,,TAT,Tattenham Corner
+SO_000135,Southern,SO0135,,TTH,Thornton Heath
+SO_000136,Southern,SO0136,,TBD,Three Bridges
+SO_000137,Southern,SO0137,,TOK,Three Oaks
+SO_000138,Southern,SO0138,,TUH,Tulse Hill
+SO_000139,Southern,SO0139,,UCK,Uckfield
+SO_000140,Southern,SO0140,,UWL,Upper Warlingham
+SO_000141,Southern,SO0141,,WDO,Waddon
+SO_000142,Southern,SO0142,,WLT,Wallington
+SO_000143,Southern,SO0143,,WSW,Wandsworth Common
+SO_000144,Southern,SO0144,,WBL,Warblington
+SO_000145,Southern,SO0145,,WNH,Warnham
+SO_000146,Southern,SO0146,,WNW,West Norwood
+SO_000147,Southern,SO0147,,WWO,West Worthing
+SO_000148,Southern,SO0148,,WHY,Whyteleafe
+SO_000149,Southern,SO0149,,WHS,Whyteleafe South
+SO_000150,Southern,SO0150,,WSE,Winchelsea
+SO_000151,Southern,SO0151,,WVF,Wivelsfield
+SO_000152,Southern,SO0152,,WOH,Woldingham
+SO_000153,Southern,SO0153,,WME,Woodmansterne
+SO_000154,Southern,SO0154,,WRH,Worthing

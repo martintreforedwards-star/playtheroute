@@ -1,0 +1,12 @@
+{
+  "name": "SWR",
+  "network": "SWR",
+  "master": "data/SWR/swr_master.csv",
+  "route_groups": "data/SWR/route_membership.csv",
+  "missing_times": "data/SWR/missing_times.csv",
+  "rules": "builder/configs/swr_rules.json",
+  "clue_template": "data/clues/southeastern-clues.json",
+  "clues": "data/SWR/swr-clues.json",
+  "enriched": "data/SWR/swr_enriched.csv",
+  "output": "data/SWR/swr.json"
+}

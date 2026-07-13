@@ -1,0 +1,155 @@
+station_name,crs,operator,route,county,latitude,longitude,major_interchange,terminus,branch_junction,nearest_landmark,nearest_landmark_km,nearest_castle,nearest_castle_km,nearest_cathedral,nearest_cathedral_km,nearest_museum,nearest_museum_km,nearest_country_house,nearest_country_house_km,nearest_nature_reserve,nearest_nature_reserve_km,station_id
+Aldrington,AGT,Southern,,,50.83636472,-0.181209698,,,,,,,,,,,,,,,,SO_000001
+Amberley,AMY,Southern,,,50.896668,-0.541989047,,,,,,,,,,,,,,,,SO_000002
+Angmering,ANG,Southern,,,50.8165699,-0.4893894,,,,,,,,,,,,,,,,SO_000003
+Appledore (Kent),APD,Southern,,,51.0332352,0.816355536,,,,,,,,,,,,,,,,SO_000004
+Arundel,ARU,Southern,,,50.84820145,-0.546171346,,,,,,,,,,,,,,,,SO_000005
+Ashtead,AHD,Southern,,,51.31788158,-0.308147338,,,,,,,,,,,,,,,,SO_000006
+Ashurst (Kent),AHS,Southern,,,51.12865582,0.152661963,,,,,,,,,,,,,,,,SO_000007
+Balcombe,BAB,Southern,,,51.05551334,-0.136932431,,,,,,,,,,,,,,,,SO_000008
+Balham,BAL,Southern,,,51.44322754,-0.152421221,,,,,,,,,,,,,,,,SO_000009
+Banstead,BAD,Southern,,,51.32934844,-0.213158063,,,,,,,,,,,,,,,,SO_000010
+Barnham,BAA,Southern,,,50.83089289,-0.639679689,,,,,,,,,,,,,,,,SO_000011
+Battersea Park,BAK,Southern,,,51.47733308,-0.148162967,,,,,,,,,,,,,,,,SO_000012
+Belmont,BLM,Southern,,,51.34413926,-0.199487206,,,,,,,,,,,,,,,,SO_000013
+Berwick (Sussex),BRK,Southern,,,50.84037214,0.166026428,,,,,,,,,,,,,,,,SO_000014
+Bexhill,BEX,Southern,,,50.84103549,0.477034087,,,,,,,,,,,,,,,,SO_000015
+Billingshurst,BIG,Southern,,,51.01519557,-0.450295608,,,,,,,,,,,,,,,,SO_000016
+Birkbeck,BIK,Southern,,,51.40390126,-0.056235874,,,,,,,,,,,,,,,,SO_000017
+Bishopstone (Sussex),BIP,Southern,,,50.78013589,0.082763046,,,,,,,,,,,,,,,,SO_000018
+Bognor Regis,BOG,Southern,,,50.78655324,-0.676179036,,,,,,,,,,,,,,,,SO_000019
+Bosham,BOH,Southern,,,50.8427348,-0.847436637,,,,,,,,,,,,,,,,SO_000020
+Box Hill & Westhumble,BXW,Southern,,,51.25400939,-0.328478447,,,,,,,,,,,,,,,,SO_000021
+Brighton,BTN,Southern,,,50.82895322,-0.141225193,,,,,,,,,,,,,,,,SO_000022
+Burgess Hill,BUG,Southern,,,50.95361465,-0.127769062,,,,,,,,,,,,,,,,SO_000023
+Buxted,BXD,Southern,,,50.99001094,0.131447718,,,,,,,,,,,,,,,,SO_000024
+Carshalton,CSH,Southern,,,51.3684549,-0.166366115,,,,,,,,,,,,,,,,SO_000025
+Carshalton Beeches,CSB,Southern,,,51.35741124,-0.169794788,,,,,,,,,,,,,,,,SO_000026
+Caterham,CAT,Southern,,,51.28213943,-0.078302765,,,,,,,,,,,,,,,,SO_000027
+Cheam,CHE,Southern,,,51.35547926,-0.214166523,,,,,,,,,,,,,,,,SO_000028
+Chichester,CCH,Southern,,,50.83204016,-0.781752603,,,,,,,,,,,,,,,,SO_000029
+Chipstead,CHP,Southern,,,51.30932005,-0.169427771,,,,,,,,,,,,,,,,SO_000030
+Christs Hospital,CHH,Southern,,,51.0506779,-0.363547086,,,,,,,,,,,,,,,,SO_000031
+Collington,CLL,Southern,,,50.8392821,0.457878337,,,,,,,,,,,,,,,,SO_000032
+Cooden Beach,COB,Southern,,,50.83336546,0.426874784,,,,,,,,,,,,,,,,SO_000033
+Cooksbridge,CBR,Southern,,,50.90375256,-0.009198424,,,,,,,,,,,,,,,,SO_000034
+Coulsdon South,CDS,Southern,,,51.31583718,-0.137884398,,,,,,,,,,,,,,,,SO_000035
+Coulsdon Town,CDN,Southern,,,51.322434,-0.13432,,,,,,,,,,,,,,,,SO_000036
+Cowden (Kent),CWN,Southern,,,51.15563114,0.110041555,,,,,,,,,,,,,,,,SO_000037
+Crawley,CRW,Southern,,,51.1122072,-0.186672649,,,,,,,,,,,,,,,,SO_000038
+Crowborough,COH,Southern,,,51.04638117,0.188023149,,,,,,,,,,,,,,,,SO_000039
+Doleham,DLH,Southern,,,50.9187472,0.610702875,,,,,,,,,,,,,,,,SO_000040
+Dorking (Main),DKG,Southern,,,51.240927,-0.32423924,,,,,,,,,,,,,,,,SO_000041
+Dormans,DMS,Southern,,,51.15578598,-0.004302625,,,,,,,,,,,,,,,,SO_000042
+Durrington-on-Sea,DUR,Southern,,,50.81752228,-0.411461916,,,,,,,,,,,,,,,,SO_000043
+Earlswood Surrey,ELD,Southern,,,51.22732507,-0.170821639,,,,,,,,,,,,,,,,SO_000044
+East Croydon ,ECR,Southern,,,51.37500564,-0.092276539,,,,,,,,,,,,,,,,SO_000045
+East Dulwich,EDW,Southern,,,51.46132011,-0.080717696,,,,,,,,,,,,,,,,SO_000046
+East Grinstead,EGR,Southern,,,51.12626697,-0.017895018,,,,,,,,,,,,,,,,SO_000047
+East Worthing,EWR,Southern,,,50.82163957,-0.354885361,,,,,,,,,,,,,,,,SO_000048
+Eastbourne,EBN,Southern,,,50.76936955,0.281258504,,,,,,,,,,,,,,,,SO_000049
+Edenbridge (Kent),EBR,Southern,,,51.20843113,0.060654046,,,,,,,,,,,,,,,,SO_000050
+Edenbridge Town,EBT,Southern,,,51.20007799,0.067180931,,,,,,,,,,,,,,,,SO_000051
+Emsworth,EMS,Southern,,,50.85138028,-0.93878361,,,,,,,,,,,,,,,,SO_000052
+Epsom (Surrey),EPS,Southern,,,51.3343926,-0.268778341,,,,,,,,,,,,,,,,SO_000053
+Epsom Downs,EPD,Southern,,,51.323687,-0.238954739,,,,,,,,,,,,,,,,SO_000054
+Eridge,ERI,Southern,,,51.08895742,0.201442672,,,,,,,,,,,,,,,,SO_000055
+Ewell East,EWE,Southern,,,51.34529966,-0.241529469,,,,,,,,,,,,,,,,SO_000056
+Falmer,FMR,Southern,,,50.86212415,-0.087383616,,,,,,,,,,,,,,,,SO_000057
+Faygate,FGT,Southern,,,51.09588376,-0.26302061,,,,,,,,,,,,,,,,SO_000058
+Fishbourne (Sussex),FSB,Southern,,,50.83903838,-0.815088781,,,,,,,,,,,,,,,,SO_000059
+Fishersgate,FSG,Southern,,,50.83422898,-0.219411,,,,,,,,,,,,,,,,SO_000060
+Ford,FOD,Southern,,,50.82956237,-0.578615542,,,,,,,,,,,,,,,,SO_000061
+Gipsy Hill,GIP,Southern,,,51.42445509,-0.083830832,,,,,,,,,,,,,,,,SO_000062
+Glynde,GLY,Southern,,,50.85916668,0.07008355,,,,,,,,,,,,,,,,SO_000063
+Godstone,GDN,Southern,,,51.21815351,-0.050080252,,,,,,,,,,,,,,,,SO_000064
+Goring-by-Sea,GBS,Southern,,,50.8177157,-0.433076924,,,,,,,,,,,,,,,,SO_000065
+Hackbridge,HCB,Southern,,,51.37787262,-0.153904728,,,,,,,,,,,,,,,,SO_000066
+Ham Street,HMT,Southern,,,51.0683774,0.854521617,,,,,,,,,,,,,,,,SO_000067
+Hampden Park (Sussex),HMD,Southern,,,50.79639828,0.27936748,,,,,,,,,,,,,,,,SO_000068
+Hassocks,HSK,Southern,,,50.92461282,-0.145952423,,,,,,,,,,,,,,,,SO_000069
+Haywards Heath,HHE,Southern,,,51.00525294,-0.105306765,,,,,,,,,,,,,,,,SO_000070
+Hever,HEV,Southern,,,51.18140581,0.0950779,,,,,,,,,,,,,,,,SO_000071
+Holmwood,HLM,Southern,,,51.18099754,-0.321090928,,,,,,,,,,,,,,,,SO_000072
+Horley,HOR,Southern,,,51.16877025,-0.161052239,,,,,,,,,,,,,,,,SO_000073
+Horsham,HRH,Southern,,,51.06605718,-0.319258917,,,,,,,,,,,,,,,,SO_000074
+Hove,HOV,Southern,,,50.8352109,-0.170687991,,,,,,,,,,,,,,,,SO_000075
+Hurst Green,HUR,Southern,,,51.24442735,0.003945749,,,,,,,,,,,,,,,,SO_000076
+Ifield,IFI,Southern,,,51.11561646,-0.214772632,,,,,,,,,,,,,,,,SO_000077
+Kenley,KLY,Southern,,,51.32460105,-0.101215735,,,,,,,,,,,,,,,,SO_000078
+Kingswood,KND,Southern,,,51.29486144,-0.211456639,,,,,,,,,,,,,,,,SO_000079
+Lancing,LAC,Southern,,,50.82707775,-0.323099956,,,,,,,,,,,,,,,,SO_000080
+Leatherhead,LHD,Southern,,,51.29875147,-0.333064888,,,,,,,,,,,,,,,,SO_000081
+Leigh (Kent),LIH,Southern,,,51.19389559,0.210506799,,,,,,,,,,,,,,,,SO_000082
+Lewes,LWS,Southern,,,50.87062711,0.011335211,,,,,,,,,,,,,,,,SO_000083
+Lingfield,LFD,Southern,,,51.17644755,-0.007158941,,,,,,,,,,,,,,,,SO_000084
+Littlehampton,LIT,Southern,,,50.81010344,-0.545991819,,,,,,,,,,,,,,,,SO_000085
+Littlehaven,LVN,Southern,,,51.0797438,-0.307969555,,,,,,,,,,,,,,,,SO_000086
+London Road (Brighton),LRB,Southern,,,50.83665742,-0.136501977,,,,,,,,,,,,,,,,SO_000087
+Merstham,MHM,Southern,,,51.26415181,-0.150223451,,,,,,,,,,,,,,,,SO_000088
+Mitcham Eastfields,MTC,Southern,,,51.40840457,-0.15396924,,,,,,,,,,,,,,,,SO_000089
+Mitcham Junction,MIJ,Southern,,,51.39294461,-0.157322869,,,,,,,,,,,,,,,,SO_000090
+Moulsecoomb,MCB,Southern,,,50.84671673,-0.118840894,,,,,,,,,,,,,,,,SO_000091
+Newhaven Harbour,NVH,Southern,,,50.78978441,0.054998379,,,,,,,,,,,,,,,,SO_000092
+Newhaven Town,NVN,Southern,,,50.79484885,0.054950925,,,,,,,,,,,,,,,,SO_000093
+Norbury,NRB,Southern,,,51.41144749,-0.121922189,,,,,,,,,,,,,,,,SO_000094
+Normans Bay,NSB,Southern,,,50.82609675,0.389476518,,,,,,,,,,,,,,,,SO_000095
+North Dulwich,NDL,Southern,,,51.45451316,-0.087912394,,,,,,,,,,,,,,,,SO_000096
+Nutbourne,NUT,Southern,,,50.8460569,-0.882951949,,,,,,,,,,,,,,,,SO_000097
+Nutfield,NUF,Southern,,,51.22686567,-0.133758333,,,,,,,,,,,,,,,,SO_000098
+Ockley,OLY,Southern,,,51.15150662,-0.336003059,,,,,,,,,,,,,,,,SO_000099
+Ore,ORE,Southern,,,50.86694236,0.591574525,,,,,,,,,,,,,,,,SO_000100
+Oxted,OXT,Southern,,,51.25790506,-0.004812996,,,,,,,,,,,,,,,,SO_000101
+Peckham Rye,PMR,Southern,,,51.47003714,-0.069394247,,,,,,,,,,,,,,,,SO_000102
+Penshurst,PHR,Southern,,,51.19733253,0.173483045,,,,,,,,,,,,,,,,SO_000103
+Pevensey & Westham,PEV,Southern,,,50.81579197,0.324820485,,,,,,,,,,,,,,,,SO_000104
+Pevensey Bay,PEB,Southern,,,50.81745345,0.342920162,,,,,,,,,,,,,,,,SO_000105
+Plumpton,PMP,Southern,,,50.9286601,-0.060178055,,,,,,,,,,,,,,,,SO_000106
+Polegate,PLG,Southern,,,50.82121828,0.245732124,,,,,,,,,,,,,,,,SO_000107
+Portslade,PLD,Southern,,,50.83567693,-0.205323859,,,,,,,,,,,,,,,,SO_000108
+Preston Park,PRP,Southern,,,50.84593878,-0.155167744,,,,,,,,,,,,,,,,SO_000109
+Pulborough,PUL,Southern,,,50.95734852,-0.516553376,,,,,,,,,,,,,,,,SO_000110
+Purley,PUR,Southern,,,51.33739162,-0.113608701,,,,,,,,,,,,,,,,SO_000111
+Purley Oaks,PUO,Southern,,,51.34704533,-0.098851969,,,,,,,,,,,,,,,,SO_000112
+Queens Road (Peckham),QRP,Southern,,,51.47406855,-0.057574233,,,,,,,,,,,,,,,,SO_000113
+Redhill,RDH,Southern,,,51.24019809,-0.165898311,,,,,,,,,,,,,,,,SO_000114
+Reedham (London),RHM,Southern,,,51.33216069,-0.12387235,,,,,,,,,,,,,,,,SO_000115
+Reigate,REI,Southern,,,51.24195549,-0.203824541,,,,,,,,,,,,,,,,SO_000116
+Riddlesdown,RDD,Southern,,,51.33266611,-0.099446924,,,,,,,,,,,,,,,,SO_000117
+Rye (Sussex),RYE,Southern,,,50.95236602,0.730706155,,,,,,,,,,,,,,,,SO_000118
+Salfords (Surrey),SAF,Southern,,,51.20174387,-0.162487674,,,,,,,,,,,,,,,,SO_000119
+Sanderstead,SNR,Southern,,,51.34828313,-0.093673971,,,,,,,,,,,,,,,,SO_000120
+Seaford Sussex,SEF,Southern,,,50.77283582,0.100140227,,,,,,,,,,,,,,,,SO_000121
+Selhurst,SRS,Southern,,,51.39169797,-0.087945474,,,,,,,,,,,,,,,,SO_000122
+Shoreham-by-Sea,SSE,Southern,,,50.83442192,-0.271709718,,,,,,,,,,,,,,,,SO_000123
+South Bermondsey,SBM,Southern,,,51.48813928,-0.054671432,,,,,,,,,,,,,,,,SO_000124
+South Croydon,SCY,Southern,,,51.36296514,-0.093452155,,,,,,,,,,,,,,,,SO_000125
+Southbourne,SOB,Southern,,,50.84826453,-0.90811384,,,,,,,,,,,,,,,,SO_000126
+Southease,SEE,Southern,,,50.83134913,0.030650137,,,,,,,,,,,,,,,,SO_000127
+Southwick,SWK,Southern,,,50.83248265,-0.237073077,,,,,,,,,,,,,,,,SO_000128
+Streatham (Greater London),STE,Southern,,,51.42581015,-0.131546583,,,,,,,,,,,,,,,,SO_000129
+Streatham Common,SRC,Southern,,,51.41868917,-0.136151833,,,,,,,,,,,,,,,,SO_000130
+Streatham Hill,SRH,Southern,,,51.4383461,-0.128157209,,,,,,,,,,,,,,,,SO_000131
+Sutton (London),SUO,Southern,,,51.35953356,-0.191213151,,,,,,,,,,,,,,,,SO_000132
+Tadworth,TAD,Southern,,,51.29163611,-0.23596467,,,,,,,,,,,,,,,,SO_000133
+Tattenham Corner,TAT,Southern,,,51.30918237,-0.242609371,,,,,,,,,,,,,,,,SO_000134
+Thornton Heath,TTH,Southern,,,51.3992396,-0.101001212,,,,,,,,,,,,,,,,SO_000135
+Three Bridges,TBD,Southern,,,51.11691722,-0.161183058,,,,,,,,,,,,,,,,SO_000136
+Three Oaks,TOK,Southern,,,50.90088723,0.61337309,,,,,,,,,,,,,,,,SO_000137
+Tulse Hill,TUH,Southern,,,51.43977376,-0.105075902,,,,,,,,,,,,,,,,SO_000138
+Uckfield,UCK,Southern,,,50.96867258,0.096456894,,,,,,,,,,,,,,,,SO_000139
+Upper Warlingham,UWL,Southern,,,51.30851045,-0.077947217,,,,,,,,,,,,,,,,SO_000140
+Waddon,WDO,Southern,,,51.36739826,-0.117332121,,,,,,,,,,,,,,,,SO_000141
+Wallington,WLT,Southern,,,51.3603868,-0.150830146,,,,,,,,,,,,,,,,SO_000142
+Wandsworth Common,WSW,Southern,,,51.4461876,-0.163383008,,,,,,,,,,,,,,,,SO_000143
+Warblington,WBL,Southern,,,50.8534334,-0.967150888,,,,,,,,,,,,,,,,SO_000144
+Warnham,WNH,Southern,,,51.09289508,-0.329453706,,,,,,,,,,,,,,,,SO_000145
+West Norwood,WNW,Southern,,,51.43180353,-0.103808815,,,,,,,,,,,,,,,,SO_000146
+West Worthing,WWO,Southern,,,50.81834832,-0.392977891,,,,,,,,,,,,,,,,SO_000147
+Whyteleafe,WHY,Southern,,,51.30995682,-0.081143929,,,,,,,,,,,,,,,,SO_000148
+Whyteleafe South,WHS,Southern,,,51.3035526,-0.076691014,,,,,,,,,,,,,,,,SO_000149
+Winchelsea,WSE,Southern,,,50.93376133,0.702271814,,,,,,,,,,,,,,,,SO_000150
+Wivelsfield,WVF,Southern,,,50.96378293,-0.120837577,,,,,,,,,,,,,,,,SO_000151
+Woldingham,WOH,Southern,,,51.29015597,-0.051864564,,,,,,,,,,,,,,,,SO_000152
+Woodmansterne,WME,Southern,,,51.3190192,-0.154259672,,,,,,,,,,,,,,,,SO_000153
+Worthing,WRH,Southern,,,50.8184932,-0.376163686,,,,,,,,,,,,,,,,SO_000154

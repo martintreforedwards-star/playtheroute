@@ -1,5 +1,7 @@
 from pathlib import Path
 
+import pandas as pd
+
 from builder.network_source import load_network
 from builder.save_master import save_master
 
@@ -19,37 +21,33 @@ def build_master(config):
 
     master_path = Path(master_file)
 
+    # Existing master - ensure station_id exists
     if master_path.exists():
 
-        import pandas as pd
+        df = pd.read_csv(master_path)
 
-    df = pd.read_csv(master_path)
+        if "station_id" not in df.columns:
 
-    if "station_id" not in df.columns:
+            prefix = config.get(
+                "network",
+                config.get("name", "")
+            )[:2].upper()
 
-        prefix = config.get(
-    "network",
-    config.get(
-        "name",
-        ""
-    )
-)[:2].upper()
+            df["station_id"] = [
+                f"{prefix}_{i:06d}"
+                for i in range(1, len(df) + 1)
+            ]
 
-        df["station_id"] = [
-            f"{prefix}_{i:06d}"
-            for i in range(1, len(df) + 1)
-        ]
+            save_master(df, master_file)
 
-        save_master(df, master_file)
-
-    return master_file
+        return master_file
 
     print("Creating master dataset...")
 
     df = load_network(config["network"].lower())
 
-    # Generate permanent station IDs
     prefix = config["network"][:2].upper()
+
     df["station_id"] = [
         f"{prefix}_{i:06d}"
         for i in range(1, len(df) + 1)

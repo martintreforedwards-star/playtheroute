@@ -1,0 +1,166 @@
+station_id,network,route_station_id,route_group,crs,station_name
+SO_000001,Southeastern,SO0001,,ADM,Adisham
+SO_000002,Southeastern,SO0002,,AYP,Albany Park
+SO_000003,Southeastern,SO0003,,AFK,Ashford International
+SO_000004,Southeastern,SO0004,,AYL,Aylesford
+SO_000005,Southeastern,SO0005,,AYH,Aylesham
+SO_000006,Southeastern,SO0006,,BMG,Barming
+SO_000007,Southeastern,SO0007,,BNH,Barnehurst
+SO_000008,Southeastern,SO0008,,BBL,Bat & Ball
+SO_000009,Southeastern,SO0009,,BAT,Battle
+SO_000010,Southeastern,SO0010,,BSD,Bearsted
+SO_000011,Southeastern,SO0011,,BKJ,Beckenham Junction
+SO_000012,Southeastern,SO0012,,BKS,Bekesbourne
+SO_000013,Southeastern,SO0013,,BEG,Beltring
+SO_000014,Southeastern,SO0014,,BVD,Belvedere
+SO_000015,Southeastern,SO0015,,BXY,Bexley
+SO_000016,Southeastern,SO0016,,BXH,Bexleyheath
+SO_000017,Southeastern,SO0017,,BKL,Bickley
+SO_000018,Southeastern,SO0018,,BCH,Birchington-on-Sea
+SO_000019,Southeastern,SO0019,,BKH,Blackheath
+SO_000020,Southeastern,SO0020,,BRG,Borough Green & Wrotham
+SO_000021,Southeastern,SO0021,,BRX,Brixton
+SO_000022,Southeastern,SO0022,,BSR,Broadstairs
+SO_000023,Southeastern,SO0023,,BMN,Bromley North
+SO_000024,Southeastern,SO0024,,BMS,Bromley South
+SO_000025,Southeastern,SO0025,,CBE,Canterbury East
+SO_000026,Southeastern,SO0026,,CBW,Canterbury West
+SO_000027,Southeastern,SO0027,,CFB,Catford Bridge
+SO_000028,Southeastern,SO0028,,CHG,Charing (Kent)
+SO_000029,Southeastern,SO0029,,CTN,Charlton
+SO_000030,Southeastern,SO0030,,CRT,Chartham
+SO_000031,Southeastern,SO0031,,CTM,Chatham
+SO_000032,Southeastern,SO0032,,CLD,Chelsfield
+SO_000033,Southeastern,SO0033,,CSW,Chestfield & Swalecliffe
+SO_000034,Southeastern,SO0034,,CIL,Chilham
+SO_000035,Southeastern,SO0035,,CIT,Chislehurst
+SO_000036,Southeastern,SO0036,,CLK,Clock House
+SO_000037,Southeastern,SO0037,,CRY,Crayford
+SO_000038,Southeastern,SO0038,,CWU,Crowhurst
+SO_000039,Southeastern,SO0039,,CUX,Cuxton
+SO_000040,Southeastern,SO0040,,DFD,Dartford
+SO_000041,Southeastern,SO0041,,DEA,Deal
+SO_000042,Southeastern,SO0042,,DEP,Deptford
+SO_000043,Southeastern,SO0043,,DVP,Dover Priory
+SO_000044,Southeastern,SO0044,,DMP,Dumpton Park
+SO_000045,Southeastern,SO0045,,DNG,Dunton Green
+SO_000046,Southeastern,SO0046,,EFL,East Farleigh
+SO_000047,Southeastern,SO0047,,EML,East Malling
+SO_000048,Southeastern,SO0048,,EDN,Eden Park
+SO_000049,Southeastern,SO0049,,ELE,Elmers End
+SO_000050,Southeastern,SO0050,,ESD,Elmstead Woods
+SO_000051,Southeastern,SO0051,,ELW,Eltham
+SO_000052,Southeastern,SO0052,,ERH,Erith
+SO_000053,Southeastern,SO0053,,ETC,Etchingham
+SO_000054,Southeastern,SO0054,,EYN,Eynsford
+SO_000055,Southeastern,SO0055,,FCN,Falconwood
+SO_000056,Southeastern,SO0056,,FNR,Farningham Road
+SO_000057,Southeastern,SO0057,,FAV,Faversham
+SO_000058,Southeastern,SO0058,,FKC,Folkestone Central
+SO_000059,Southeastern,SO0059,,FKW,Folkestone West
+SO_000060,Southeastern,SO0060,,FRT,Frant
+SO_000061,Southeastern,SO0061,,GLM,Gillingham Kent
+SO_000062,Southeastern,SO0062,,GRV,Gravesend
+SO_000063,Southeastern,SO0063,,GNH,Greenhithe for Bluewater
+SO_000064,Southeastern,SO0064,,GNW,Greenwich
+SO_000065,Southeastern,SO0065,,GRP,Grove Park
+SO_000066,Southeastern,SO0066,,HAI,Halling
+SO_000067,Southeastern,SO0067,,HRM,Harrietsham
+SO_000068,Southeastern,SO0068,,HGS,Hastings
+SO_000069,Southeastern,SO0069,,HYS,Hayes (Kent)
+SO_000070,Southeastern,SO0070,,HCN,Headcorn
+SO_000071,Southeastern,SO0071,,HNB,Herne Bay
+SO_000072,Southeastern,SO0072,,HNH,Herne Hill
+SO_000073,Southeastern,SO0073,,HIB,High Brooms
+SO_000074,Southeastern,SO0074,,HGM,Higham
+SO_000075,Southeastern,SO0075,,HLB,Hildenborough
+SO_000076,Southeastern,SO0076,,HGR,Hither Green
+SO_000077,Southeastern,SO0077,,HBN,Hollingbourne
+SO_000078,Southeastern,SO0078,,KSN,Kearsney (Kent)
+SO_000079,Southeastern,SO0079,,KMS,Kemsing
+SO_000080,Southeastern,SO0080,,KML,Kemsley
+SO_000081,Southeastern,SO0081,,KTH,Kent House
+SO_000082,Southeastern,SO0082,,KDB,Kidbrooke
+SO_000083,Southeastern,SO0083,,KCK,Knockholt
+SO_000084,Southeastern,SO0084,,LAD,Ladywell
+SO_000085,Southeastern,SO0085,,LEE,Lee (London)
+SO_000086,Southeastern,SO0086,,LEN,Lenham
+SO_000087,Southeastern,SO0087,,LEW,Lewisham
+SO_000088,Southeastern,SO0088,,WAE,London Waterloo East
+SO_000089,Southeastern,SO0089,,LGF,Longfield
+SO_000090,Southeastern,SO0090,,LSY,Lower Sydenham
+SO_000091,Southeastern,SO0091,,MDB,Maidstone Barracks
+SO_000092,Southeastern,SO0092,,MDE,Maidstone East
+SO_000093,Southeastern,SO0093,,MDW,Maidstone West
+SO_000094,Southeastern,SO0094,,MRN,Marden (Kent)
+SO_000095,Southeastern,SO0095,,MAR,Margate
+SO_000096,Southeastern,SO0096,,MTM,Martin Mill
+SO_000097,Southeastern,SO0097,,MZH,Maze Hill
+SO_000098,Southeastern,SO0098,,MEP,Meopham
+SO_000099,Southeastern,SO0099,,MSR,Minster
+SO_000100,Southeastern,SO0100,,MTG,Mottingham
+SO_000101,Southeastern,SO0101,,NBC,New Beckenham
+SO_000102,Southeastern,SO0102,,NWX,New Cross
+SO_000103,Southeastern,SO0103,,NEH,New Eltham
+SO_000104,Southeastern,SO0104,,NHE,New Hythe
+SO_000105,Southeastern,SO0105,,NGT,Newington
+SO_000106,Southeastern,SO0106,,NFL,Northfleet
+SO_000107,Southeastern,SO0107,,ORP,Orpington
+SO_000108,Southeastern,SO0108,,OTF,Otford
+SO_000109,Southeastern,SO0109,,PDW,Paddock Wood
+SO_000110,Southeastern,SO0110,,PNE,Penge East
+SO_000111,Southeastern,SO0111,,PET,Petts Wood
+SO_000112,Southeastern,SO0112,,PLC,Pluckley
+SO_000113,Southeastern,SO0113,,PLU,Plumstead
+SO_000114,Southeastern,SO0114,,QBR,Queenborough
+SO_000115,Southeastern,SO0115,,RAI,Rainham (Kent)
+SO_000116,Southeastern,SO0116,,RAM,Ramsgate
+SO_000117,Southeastern,SO0117,,RBR,Robertsbridge
+SO_000118,Southeastern,SO0118,,RTR,Rochester
+SO_000119,Southeastern,SO0119,,SDG,Sandling
+SO_000120,Southeastern,SO0120,,SDW,Sandwich
+SO_000121,Southeastern,SO0121,,SEG,Selling
+SO_000122,Southeastern,SO0122,,SEV,Sevenoaks
+SO_000123,Southeastern,SO0123,,SSS,Sheerness-on-Sea
+SO_000124,Southeastern,SO0124,,SPH,Shepherds Well
+SO_000125,Southeastern,SO0125,,SEH,Shoreham (Kent)
+SO_000126,Southeastern,SO0126,,SRT,Shortlands
+SO_000127,Southeastern,SO0127,,SID,Sidcup
+SO_000128,Southeastern,SO0128,,SIT,Sittingbourne
+SO_000129,Southeastern,SO0129,,SGR,Slade Green
+SO_000130,Southeastern,SO0130,,SDA,Snodland
+SO_000131,Southeastern,SO0131,,SWO,Snowdown
+SO_000132,Southeastern,SO0132,,SOR,Sole Street
+SO_000133,Southeastern,SO0133,,SAJ,St Johns (London)
+SO_000134,Southeastern,SO0134,,SLQ,St Leonards Warrior Square
+SO_000135,Southeastern,SO0135,,SMY,St Mary Cray
+SO_000136,Southeastern,SO0136,,SPU,Staplehurst
+SO_000137,Southeastern,SO0137,,SCG,Stone Crossing
+SO_000138,Southeastern,SO0138,,SOG,Stonegate
+SO_000139,Southeastern,SO0139,,SOO,Strood (Kent)
+SO_000140,Southeastern,SO0140,,STU,Sturry
+SO_000141,Southeastern,SO0141,,SUP,Sundridge Park
+SO_000142,Southeastern,SO0142,,SWL,Swale
+SO_000143,Southeastern,SO0143,,SAY,Swanley
+SO_000144,Southeastern,SO0144,,SWM,Swanscombe
+SO_000145,Southeastern,SO0145,,SYH,Sydenham Hill
+SO_000146,Southeastern,SO0146,,TEY,Teynham
+SO_000147,Southeastern,SO0147,,THP,Thanet Parkway
+SO_000148,Southeastern,SO0148,,TON,Tonbridge
+SO_000149,Southeastern,SO0149,,TBW,Tunbridge Wells
+SO_000150,Southeastern,SO0150,,WAD,Wadhurst
+SO_000151,Southeastern,SO0151,,WAM,Walmer
+SO_000152,Southeastern,SO0152,,WTR,Wateringbury
+SO_000153,Southeastern,SO0153,,WLI,Welling
+SO_000154,Southeastern,SO0154,,WDU,West Dulwich
+SO_000155,Southeastern,SO0155,,WMA,West Malling
+SO_000156,Southeastern,SO0156,,WLD,West St Leonards
+SO_000157,Southeastern,SO0157,,WWI,West Wickham
+SO_000158,Southeastern,SO0158,,WCB,Westcombe Park
+SO_000159,Southeastern,SO0159,,WHA,Westenhanger
+SO_000160,Southeastern,SO0160,,WGA,Westgate-on-Sea
+SO_000161,Southeastern,SO0161,,WHI,Whitstable
+SO_000162,Southeastern,SO0162,,WWA,Woolwich Arsenal
+SO_000163,Southeastern,SO0163,,WWD,Woolwich Dockyard
+SO_000164,Southeastern,SO0164,,WYE,Wye
+SO_000165,Southeastern,SO0165,,YAL,Yalding

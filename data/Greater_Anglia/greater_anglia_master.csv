@@ -1,0 +1,137 @@
+station_name,crs,operator,route,county,latitude,longitude,major_interchange,terminus,branch_junction,nearest_landmark,nearest_landmark_km,nearest_castle,nearest_castle_km,nearest_cathedral,nearest_cathedral_km,nearest_museum,nearest_museum_km,nearest_country_house,nearest_country_house_km,nearest_nature_reserve,nearest_nature_reserve_km,station_id
+Acle,ACL,Greater Anglia,,,52.63470623,1.543930278,,,,,,,,,,,,,,,,GR_000001
+Alresford (Essex),ALR,Greater Anglia,,,51.85400474,0.996704746,,,,,,,,,,,,,,,,GR_000002
+Althorne (Essex),ALN,Greater Anglia,,,51.64787695,0.752499154,,,,,,,,,,,,,,,,GR_000003
+Attleborough,ATL,Greater Anglia,,,52.51426479,1.022679778,,,,,,,,,,,,,,,,GR_000004
+Audley End,AUD,Greater Anglia,,,52.00445153,0.2071621,,,,,,,,,,,,,,,,GR_000005
+Battlesbridge,BLB,Greater Anglia,,,51.62486557,0.56580343,,,,,,,,,,,,,,,,GR_000006
+Beaulieu Park,BPA,Greater Anglia,,,51.7626912,0.5153919,,,,,,,,,,,,,,,,GR_000007
+Beccles,BCC,Greater Anglia,,,52.45854162,1.569508099,,,,,,,,,,,,,,,,GR_000008
+Berney Arms,BYA,Greater Anglia,,,52.58980986,1.630392836,,,,,,,,,,,,,,,,GR_000009
+Billericay,BIC,Greater Anglia,,,51.62889045,0.418635763,,,,,,,,,,,,,,,,GR_000010
+Bishops Stortford,BIS,Greater Anglia,,,51.86669627,0.164908628,,,,,,,,,,,,,,,,GR_000011
+Braintree,BTR,Greater Anglia,,,51.87540511,0.556698654,,,,,,,,,,,,,,,,GR_000012
+Braintree Freeport,BTP,Greater Anglia,,,51.86901047,0.567449428,,,,,,,,,,,,,,,,GR_000013
+Brampton (Suffolk),BRP,Greater Anglia,,,52.39545244,1.543824133,,,,,,,,,,,,,,,,GR_000014
+Brandon,BND,Greater Anglia,,,52.45402845,0.62473398,,,,,,,,,,,,,,,,GR_000015
+Brimsdown,BMD,Greater Anglia,,,51.65528087,-0.03103974,,,,,,,,,,,,,,,,GR_000016
+Broxbourne,BXB,Greater Anglia,,,51.74691233,-0.011077941,,,,,,,,,,,,,,,,GR_000017
+Brundall,BDA,Greater Anglia,,,52.61980542,1.439275107,,,,,,,,,,,,,,,,GR_000018
+Brundall Gardens,BGA,Greater Anglia,,,52.62309579,1.418842092,,,,,,,,,,,,,,,,GR_000019
+Buckenham,BUC,Greater Anglia,,,52.59776177,1.47033814,,,,,,,,,,,,,,,,GR_000020
+Bures,BUE,Greater Anglia,,,51.97099242,0.769005125,,,,,,,,,,,,,,,,GR_000021
+Burnham-on-Crouch,BUU,Greater Anglia,,,51.83777485955504,2.3081857979999976,,,,,,,,,,,,,,,,GR_000022
+Bury St Edmunds,BSE,Greater Anglia,,,52.25377846,0.713310161,,,,,,,,,,,,,,,,GR_000023
+Cambridge,CBG,Greater Anglia,,,52.1945746,0.137554552,,,,,,,,,,,,,,,,GR_000024
+Cambridge North,CMB,Greater Anglia,,,52.223,0.1577,,,,,,,,,,,,,,,,GR_000025
+Cambridge South,CMS,Greater Anglia,,,52.1742564489718,0.1315267202389906,,,,,,,,,,,,,,,,GR_000026
+Cantley,CNY,Greater Anglia,,,52.57877082,1.513426069,,,,,,,,,,,,,,,,GR_000027
+Chappel & Wakes Colne,CWC,Greater Anglia,,,51.92592031,0.758518905,,,,,,,,,,,,,,,,GR_000028
+Chelmsford,CHM,Greater Anglia,,,51.73638236,0.468580339,,,,,,,,,,,,,,,,GR_000029
+Cheshunt,CHN,Greater Anglia,,,51.70287691,-0.023951585,,,,,,,,,,,,,,,,GR_000030
+Clacton-on-Sea,CLT,Greater Anglia,,,51.79401273,1.154105287,,,,,,,,,,,,,,,,GR_000031
+Colchester,COL,Greater Anglia,,,51.90061619,0.89347015,,,,,,,,,,,,,,,,GR_000032
+Colchester Town,CET,Greater Anglia,,,51.8865294,0.904148555,,,,,,,,,,,,,,,,GR_000033
+Cressing (Essex),CES,Greater Anglia,,,51.85234942,0.577973167,,,,,,,,,,,,,,,,GR_000034
+Cromer,CMR,Greater Anglia,,,52.9301088,1.292833615,,,,,,,,,,,,,,,,GR_000035
+Darsham,DSM,Greater Anglia,,,52.27301314,1.523482074,,,,,,,,,,,,,,,,GR_000036
+Derby Road (Ipswich),DBR,Greater Anglia,,,52.05057196,1.182659486,,,,,,,,,,,,,,,,GR_000037
+Diss,DIS,Greater Anglia,,,52.37367539,1.123713427,,,,,,,,,,,,,,,,GR_000038
+Dovercourt,DVC,Greater Anglia,,,51.93875208,1.280629166,,,,,,,,,,,,,,,,GR_000039
+Dullingham,DUL,Greater Anglia,,,52.20166503,0.366671696,,,,,,,,,,,,,,,,GR_000040
+Eccles Road,ECS,Greater Anglia,,,52.47090467,0.969929467,,,,,,,,,,,,,,,,GR_000041
+Elmswell,ESW,Greater Anglia,,,52.23805444,0.912598515,,,,,,,,,,,,,,,,GR_000042
+Elsenham (Essex),ESM,Greater Anglia,,,51.92055206,0.228072408,,,,,,,,,,,,,,,,GR_000043
+Ely,ELY,Greater Anglia,,,52.39124961,0.266833823,,,,,,,,,,,,,,,,GR_000044
+Enfield Lock,ENL,Greater Anglia,,,51.67088281,-0.02833834,,,,,,,,,,,,,,,,GR_000045
+Felixstowe,FLX,Greater Anglia,,,51.96708668,1.35045546,,,,,,,,,,,,,,,,GR_000046
+Frinton-on-Sea,FRI,Greater Anglia,,,51.83769342,1.243187057,,,,,,,,,,,,,,,,GR_000047
+Great Bentley,GRB,Greater Anglia,,,51.85177166,1.065164898,,,,,,,,,,,,,,,,GR_000048
+Great Chesterford,GRC,Greater Anglia,,,52.05982142,0.193523039,,,,,,,,,,,,,,,,GR_000049
+Great Yarmouth,GYM,Greater Anglia,,,52.61218298,1.720906278,,,,,,,,,,,,,,,,GR_000050
+Gunton,GNT,Greater Anglia,,,52.86613631,1.348766988,,,,,,,,,,,,,,,,GR_000051
+Haddiscoe,HAD,Greater Anglia,,,52.52889004,1.622411116,,,,,,,,,,,,,,,,GR_000052
+Halesworth,HAS,Greater Anglia,,,52.34669719,1.505698126,,,,,,,,,,,,,,,,GR_000053
+Harling Road,HRD,Greater Anglia,,,52.45371021,0.909152671,,,,,,,,,,,,,,,,GR_000054
+Harlow Mill,HWM,Greater Anglia,,,51.79036827,0.132320656,,,,,,,,,,,,,,,,GR_000055
+Harlow Town,HWN,Greater Anglia,,,51.78107298,0.095143791,,,,,,,,,,,,,,,,GR_000056
+Harwich International,HPQ,Greater Anglia,,,51.9473035,1.25514186,,,,,,,,,,,,,,,,GR_000057
+Harwich Town,HWC,Greater Anglia,,,51.94415922,1.286700168,,,,,,,,,,,,,,,,GR_000058
+Hatfield Peverel,HAP,Greater Anglia,,,51.779875,0.592135742,,,,,,,,,,,,,,,,GR_000059
+Hertford East,HFE,Greater Anglia,,,51.79903842,-0.07293406,,,,,,,,,,,,,,,,GR_000060
+Hockley,HOC,Greater Anglia,,,51.60356168,0.65901386,,,,,,,,,,,,,,,,GR_000061
+Hoveton & Wroxham,HXM,Greater Anglia,,,52.71559814,1.408008889,,,,,,,,,,,,,,,,GR_000062
+Hythe (Essex),HYH,Greater Anglia,,,51.88565263,0.927535333,,,,,,,,,,,,,,,,GR_000063
+Ingatestone,INT,Greater Anglia,,,51.66705103,0.384252139,,,,,,,,,,,,,,,,GR_000064
+Ipswich,IPS,Greater Anglia,,,52.05060957,1.144440623,,,,,,,,,,,,,,,,GR_000065
+Kelvedon,KEL,Greater Anglia,,,51.84071438,0.702401142,,,,,,,,,,,,,,,,GR_000066
+Kennett,KNE,Greater Anglia,,,52.27728025,0.490476315,,,,,,,,,,,,,,,,GR_000067
+Kirby Cross,KBX,Greater Anglia,,,51.84140899,1.215008216,,,,,,,,,,,,,,,,GR_000068
+Lakenheath,LAK,Greater Anglia,,,52.4475127,0.533892607,,,,,,,,,,,,,,,,GR_000069
+Lea Bridge,LEB,Greater Anglia,,,51.567669,-0.035556,,,,,,,,,,,,,,,,GR_000070
+Lingwood,LGD,Greater Anglia,,,52.62223679,1.489863333,,,,,,,,,,,,,,,,GR_000071
+Lowestoft,LWT,Greater Anglia,,,52.47445691,1.749727847,,,,,,,,,,,,,,,,GR_000072
+Manea,MNE,Greater Anglia,,,52.49785289,0.177697575,,,,,,,,,,,,,,,,GR_000073
+Manningtree,MNG,Greater Anglia,,,51.94906612,1.045251421,,,,,,,,,,,,,,,,GR_000074
+March,MCH,Greater Anglia,,,52.55990987,0.091199581,,,,,,,,,,,,,,,,GR_000075
+Marks Tey,MKT,Greater Anglia,,,51.88095194,0.783345532,,,,,,,,,,,,,,,,GR_000076
+Melton (Suffolk),MES,Greater Anglia,,,52.10445728,1.338257583,,,,,,,,,,,,,,,,GR_000077
+Meridian Water,MRW,Greater Anglia,,,51.6110012,-0.0493156,,,,,,,,,,,,,,,,GR_000078
+Mistley,MIS,Greater Anglia,,,51.94364535,1.081412598,,,,,,,,,,,,,,,,GR_000079
+Needham Market,NMT,Greater Anglia,,,52.15260095,1.05527234,,,,,,,,,,,,,,,,GR_000080
+Newmarket,NMK,Greater Anglia,,,52.23795928,0.406217482,,,,,,,,,,,,,,,,GR_000081
+Newport (Essex),NWE,Greater Anglia,,,51.97987781,0.215142617,,,,,,,,,,,,,,,,GR_000082
+North Fambridge,NFA,Greater Anglia,,,51.64859041,0.681672508,,,,,,,,,,,,,,,,GR_000083
+North Walsham,NWA,Greater Anglia,,,52.81691581,1.384466116,,,,,,,,,,,,,,,,GR_000084
+Northumberland Park London,NUM,Greater Anglia,,,51.60170041,-0.05357565,,,,,,,,,,,,,,,,GR_000085
+Norwich,NRW,Greater Anglia,,,52.62717818,1.306828331,,,,,,,,,,,,,,,,GR_000086
+Oulton Broad North,OUN,Greater Anglia,,,52.47777986,1.715729717,,,,,,,,,,,,,,,,GR_000087
+Oulton Broad South,OUS,Greater Anglia,,,52.46974778,1.707982367,,,,,,,,,,,,,,,,GR_000088
+Ponders End,PON,Greater Anglia,,,51.64274862,-0.034473536,,,,,,,,,,,,,,,,GR_000089
+Prittlewell,PRL,Greater Anglia,,,51.55069115,0.71068991,,,,,,,,,,,,,,,,GR_000090
+Rayleigh,RLG,Greater Anglia,,,51.58945508,0.600638611,,,,,,,,,,,,,,,,GR_000091
+Reedham (Norfolk),REE,Greater Anglia,,,52.5645259,1.559666375,,,,,,,,,,,,,,,,GR_000092
+Rochford,RFD,Greater Anglia,,,51.58173343,0.702317091,,,,,,,,,,,,,,,,GR_000093
+Roughton Road,RNR,Greater Anglia,,,52.91804369,1.299803414,,,,,,,,,,,,,,,,GR_000094
+Roydon,RYN,Greater Anglia,,,51.77548937,0.036262005,,,,,,,,,,,,,,,,GR_000095
+Rye House,RYH,Greater Anglia,,,51.76941544,0.005637565,,,,,,,,,,,,,,,,GR_000096
+Salhouse,SAH,Greater Anglia,,,52.67560081,1.391426504,,,,,,,,,,,,,,,,GR_000097
+Sawbridgeworth,SAW,Greater Anglia,,,51.81435127,0.160425068,,,,,,,,,,,,,,,,GR_000098
+Saxmundham,SAX,Greater Anglia,,,52.21491694,1.490176361,,,,,,,,,,,,,,,,GR_000099
+Shelford (Cambs),SED,Greater Anglia,,,52.14884103,0.139981977,,,,,,,,,,,,,,,,GR_000100
+Shenfield,SNF,Greater Anglia,,,51.63088441,0.329854866,,,,,,,,,,,,,,,,GR_000101
+Sheringham,SHM,Greater Anglia,,,52.94088541,1.211327178,,,,,,,,,,,,,,,,GR_000102
+Shippea Hill,SPP,Greater Anglia,,,52.43023398,0.413355863,,,,,,,,,,,,,,,,GR_000103
+Soham,SOJ,Greater Anglia,,,52.334139,0.327694,,,,,,,,,,,,,,,,GR_000104
+Somerleyton,SYT,Greater Anglia,,,52.51025111,1.652277542,,,,,,,,,,,,,,,,GR_000105
+South Woodham Ferrers,SOF,Greater Anglia,,,51.64966861,0.6066729,,,,,,,,,,,,,,,,GR_000106
+Southend Victoria,SOV,Greater Anglia,,,51.54151627,0.711514592,,,,,,,,,,,,,,,,GR_000107
+Southminster,SMN,Greater Anglia,,,51.66063093,0.835210668,,,,,,,,,,,,,,,,GR_000108
+Spooner Row,SPN,Greater Anglia,,,52.53501919,1.086491641,,,,,,,,,,,,,,,,GR_000109
+St Margarets (Herts),SMT,Greater Anglia,,,51.7878436,0.001278525,,,,,,,,,,,,,,,,GR_000110
+Stansted Airport,SSD,Greater Anglia,,,51.8885966,0.26081836,,,,,,,,,,,,,,,,GR_000111
+Stansted Mountfitchet,SST,Greater Anglia,,,51.90131018,0.19974645,,,,,,,,,,,,,,,,GR_000112
+Stowmarket,SMK,Greater Anglia,,,52.18972565,1.000016541,,,,,,,,,,,,,,,,GR_000113
+Sudbury (Suffolk),SUY,Greater Anglia,,,52.03628673,0.735461571,,,,,,,,,,,,,,,,GR_000114
+Thetford,TTF,Greater Anglia,,,52.41914509,0.745078426,,,,,,,,,,,,,,,,GR_000115
+Thorpe-le-Soken,TLS,Greater Anglia,,,51.84777684,1.161641452,,,,,,,,,,,,,,,,GR_000116
+Thurston,TRS,Greater Anglia,,,52.25026767,0.809509861,,,,,,,,,,,,,,,,GR_000117
+Tottenham Hale,TOM,Greater Anglia,,,51.58831639,-0.059922399,,,,,,,,,,,,,,,,GR_000118
+Trimley,TRM,Greater Anglia,,,51.9765436,1.319555915,,,,,,,,,,,,,,,,GR_000119
+Waltham Cross,WLC,Greater Anglia,,,51.68507019,-0.026550053,,,,,,,,,,,,,,,,GR_000120
+Walton-on-the-Naze,WON,Greater Anglia,,,51.84620069,1.267920697,,,,,,,,,,,,,,,,GR_000121
+Ware (Herts),WAR,Greater Anglia,,,51.80796409,-0.028772714,,,,,,,,,,,,,,,,GR_000122
+Weeley,WEE,Greater Anglia,,,51.85311063,1.115494594,,,,,,,,,,,,,,,,GR_000123
+West Runton,WRN,Greater Anglia,,,52.9355503,1.245465306,,,,,,,,,,,,,,,,GR_000124
+Westerfield,WFI,Greater Anglia,,,52.08087836,1.166130957,,,,,,,,,,,,,,,,GR_000125
+White Notley,WNY,Greater Anglia,,,51.8389241,0.595875952,,,,,,,,,,,,,,,,GR_000126
+Whittlesea,WLE,Greater Anglia,,,52.54995569,-0.118225461,,,,,,,,,,,,,,,,GR_000127
+Whittlesford Parkway,WLF,Greater Anglia,,,52.10360009,0.165618606,,,,,,,,,,,,,,,,GR_000128
+Wickford,WIC,Greater Anglia,,,51.61502928,0.519193939,,,,,,,,,,,,,,,,GR_000129
+Wickham Market,WCM,Greater Anglia,,,52.15112006,1.39868855,,,,,,,,,,,,,,,,GR_000130
+Witham,WTM,Greater Anglia,,,51.80597989,0.639143614,,,,,,,,,,,,,,,,GR_000131
+Wivenhoe,WIV,Greater Anglia,,,51.85654276,0.956146009,,,,,,,,,,,,,,,,GR_000132
+Woodbridge,WDB,Greater Anglia,,,52.09046452,1.317791422,,,,,,,,,,,,,,,,GR_000133
+Worstead,WRT,Greater Anglia,,,52.77731601,1.404230785,,,,,,,,,,,,,,,,GR_000134
+Wrabness,WRB,Greater Anglia,,,51.93945868,1.171915943,,,,,,,,,,,,,,,,GR_000135
+Wymondham,WMD,Greater Anglia,,,52.56486065,1.117662312,,,,,,,,,,,,,,,,GR_000136

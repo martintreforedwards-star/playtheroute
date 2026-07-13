@@ -1,0 +1,166 @@
+station_name,crs,operator,route,county,latitude,longitude,major_interchange,terminus,branch_junction,nearest_landmark,nearest_landmark_km,nearest_castle,nearest_castle_km,nearest_cathedral,nearest_cathedral_km,nearest_museum,nearest_museum_km,nearest_country_house,nearest_country_house_km,nearest_nature_reserve,nearest_nature_reserve_km,station_id
+Adisham,ADM,Southeastern,,,51.24120466,1.19910096,,,,,,,,,,,,,,,,SO_000001
+Albany Park,AYP,Southeastern,,,51.43580211,0.126411748,,,,,,,,,,,,,,,,SO_000002
+Ashford International,AFK,Southeastern,,,51.14370672,0.876213658,,,,,,,,,,,,,,,,SO_000003
+Aylesford,AYL,Southeastern,,,51.30131524,0.466175982,,,,,,,,,,,,,,,,SO_000004
+Aylesham,AYH,Southeastern,,,51.227257,1.209464797,,,,,,,,,,,,,,,,SO_000005
+Barming,BMG,Southeastern,,,51.2848921,0.478963755,,,,,,,,,,,,,,,,SO_000006
+Barnehurst,BNH,Southeastern,,,51.46484925,0.160876915,,,,,,,,,,,,,,,,SO_000007
+Bat & Ball,BBL,Southeastern,,,51.28975825,0.194239522,,,,,,,,,,,,,,,,SO_000008
+Battle,BAT,Southeastern,,,50.91291092,0.494707026,,,,,,,,,,,,,,,,SO_000009
+Bearsted,BSD,Southeastern,,,51.27581786,0.577588734,,,,,,,,,,,,,,,,SO_000010
+Beckenham Junction,BKJ,Southeastern,,,51.41150888,-0.027152,,,,,,,,,,,,,,,,SO_000011
+Bekesbourne,BKS,Southeastern,,,51.26136142,1.136717912,,,,,,,,,,,,,,,,SO_000012
+Beltring,BEG,Southeastern,,,51.20470355,0.403498536,,,,,,,,,,,,,,,,SO_000013
+Belvedere,BVD,Southeastern,,,51.49199068,0.152076006,,,,,,,,,,,,,,,,SO_000014
+Bexley,BXY,Southeastern,,,51.44080011,0.148229166,,,,,,,,,,,,,,,,SO_000015
+Bexleyheath,BXH,Southeastern,,,51.46355285,0.133460723,,,,,,,,,,,,,,,,SO_000016
+Bickley,BKL,Southeastern,,,51.40039232,0.044255507,,,,,,,,,,,,,,,,SO_000017
+Birchington-on-Sea,BCH,Southeastern,,,51.37749929,1.301424075,,,,,,,,,,,,,,,,SO_000018
+Blackheath,BKH,Southeastern,,,51.46576408,0.008302376,,,,,,,,,,,,,,,,SO_000019
+Borough Green & Wrotham,BRG,Southeastern,,,51.29321653,0.306260165,,,,,,,,,,,,,,,,SO_000020
+Brixton,BRX,Southeastern,,,51.46330207,-0.114179004,,,,,,,,,,,,,,,,SO_000021
+Broadstairs,BSR,Southeastern,,,51.36068061,1.433579788,,,,,,,,,,,,,,,,SO_000022
+Bromley North,BMN,Southeastern,,,51.40895308,0.017315524,,,,,,,,,,,,,,,,SO_000023
+Bromley South,BMS,Southeastern,,,51.40007,0.017419,,,,,,,,,,,,,,,,SO_000024
+Canterbury East,CBE,Southeastern,,,51.27427221,1.075977014,,,,,,,,,,,,,,,,SO_000025
+Canterbury West,CBW,Southeastern,,,51.28427401,1.075311762,,,,,,,,,,,,,,,,SO_000026
+Catford Bridge,CFB,Southeastern,,,51.44474435,-0.024856205,,,,,,,,,,,,,,,,SO_000027
+Charing (Kent),CHG,Southeastern,,,51.20810222,0.790345573,,,,,,,,,,,,,,,,SO_000028
+Charlton,CTN,Southeastern,,,51.48686666,0.03098034,,,,,,,,,,,,,,,,SO_000029
+Chartham,CRT,Southeastern,,,51.25726956,1.01806042,,,,,,,,,,,,,,,,SO_000030
+Chatham,CTM,Southeastern,,,51.38037808,0.521158168,,,,,,,,,,,,,,,,SO_000031
+Chelsfield,CLD,Southeastern,,,51.3562555,0.109079893,,,,,,,,,,,,,,,,SO_000032
+Chestfield & Swalecliffe,CSW,Southeastern,,,51.36032694,1.067706206,,,,,,,,,,,,,,,,SO_000033
+Chilham,CIL,Southeastern,,,51.24461449,0.97591547,,,,,,,,,,,,,,,,SO_000034
+Chislehurst,CIT,Southeastern,,,51.40555763,0.057426909,,,,,,,,,,,,,,,,SO_000035
+Clock House,CLK,Southeastern,,,51.40858783,-0.040650863,,,,,,,,,,,,,,,,SO_000036
+Crayford,CRY,Southeastern,,,51.4483295,0.178807049,,,,,,,,,,,,,,,,SO_000037
+Crowhurst,CWU,Southeastern,,,50.88857369,0.501354995,,,,,,,,,,,,,,,,SO_000038
+Cuxton,CUX,Southeastern,,,51.37392606,0.46171433,,,,,,,,,,,,,,,,SO_000039
+Dartford,DFD,Southeastern,,,51.44737254,0.219261557,,,,,,,,,,,,,,,,SO_000040
+Deal,DEA,Southeastern,,,51.22304659,1.398864195,,,,,,,,,,,,,,,,SO_000041
+Deptford,DEP,Southeastern,,,51.4788514,-0.026263166,,,,,,,,,,,,,,,,SO_000042
+Dover Priory,DVP,Southeastern,,,51.12570009,1.305307618,,,,,,,,,,,,,,,,SO_000043
+Dumpton Park,DMP,Southeastern,,,51.34570515,1.425837546,,,,,,,,,,,,,,,,SO_000044
+Dunton Green,DNG,Southeastern,,,51.29648798,0.170948548,,,,,,,,,,,,,,,,SO_000045
+East Farleigh,EFL,Southeastern,,,51.25523373,0.484734574,,,,,,,,,,,,,,,,SO_000046
+East Malling,EML,Southeastern,,,51.28580685,0.439284828,,,,,,,,,,,,,,,,SO_000047
+Eden Park,EDN,Southeastern,,,51.39081565,-0.026605004,,,,,,,,,,,,,,,,SO_000048
+Elmers End,ELE,Southeastern,,,51.39830239,-0.049428828,,,,,,,,,,,,,,,,SO_000049
+Elmstead Woods,ESD,Southeastern,,,51.41711905,0.044282703,,,,,,,,,,,,,,,,SO_000050
+Eltham,ELW,Southeastern,,,51.45564856,0.052337616,,,,,,,,,,,,,,,,SO_000051
+Erith,ERH,Southeastern,,,51.48168188,0.174635475,,,,,,,,,,,,,,,,SO_000052
+Etchingham,ETC,Southeastern,,,51.0105441,0.442373902,,,,,,,,,,,,,,,,SO_000053
+Eynsford,EYN,Southeastern,,,51.36271986,0.204405917,,,,,,,,,,,,,,,,SO_000054
+Falconwood,FCN,Southeastern,,,51.45914359,0.078550785,,,,,,,,,,,,,,,,SO_000055
+Farningham Road,FNR,Southeastern,,,51.40139519,0.235524653,,,,,,,,,,,,,,,,SO_000056
+Faversham,FAV,Southeastern,,,51.31171034,0.891062265,,,,,,,,,,,,,,,,SO_000057
+Folkestone Central,FKC,Southeastern,,,51.08288631,1.169492303,,,,,,,,,,,,,,,,SO_000058
+Folkestone West,FKW,Southeastern,,,51.08458538,1.153912918,,,,,,,,,,,,,,,,SO_000059
+Frant,FRT,Southeastern,,,51.10402068,0.2945567,,,,,,,,,,,,,,,,SO_000060
+Gillingham Kent,GLM,Southeastern,,,51.38672166,0.550513828,,,,,,,,,,,,,,,,SO_000061
+Gravesend,GRV,Southeastern,,,51.44134993,0.366646481,,,,,,,,,,,,,,,,SO_000062
+Greenhithe for Bluewater,GNH,Southeastern,,,51.45076146,0.278856807,,,,,,,,,,,,,,,,SO_000063
+Greenwich,GNW,Southeastern,,,51.47783848,-0.014209644,,,,,,,,,,,,,,,,SO_000064
+Grove Park,GRP,Southeastern,,,51.43044575,0.022578266,,,,,,,,,,,,,,,,SO_000065
+Halling,HAI,Southeastern,,,51.35234,0.444666,,,,,,,,,,,,,,,,SO_000066
+Harrietsham,HRM,Southeastern,,,51.24482814,0.672410147,,,,,,,,,,,,,,,,SO_000067
+Hastings,HGS,Southeastern,,,50.85759003,0.576461455,,,,,,,,,,,,,,,,SO_000068
+Hayes (Kent),HYS,Southeastern,,,51.37580244,0.010109755,,,,,,,,,,,,,,,,SO_000069
+Headcorn,HCN,Southeastern,,,51.16571639,0.627491294,,,,,,,,,,,,,,,,SO_000070
+Herne Bay,HNB,Southeastern,,,51.36459088,1.117735579,,,,,,,,,,,,,,,,SO_000071
+Herne Hill,HNH,Southeastern,,,51.45320752,-0.101640876,,,,,,,,,,,,,,,,SO_000072
+High Brooms,HIB,Southeastern,,,51.14939826,0.277345661,,,,,,,,,,,,,,,,SO_000073
+Higham,HGM,Southeastern,,,51.42656006,0.466283903,,,,,,,,,,,,,,,,SO_000074
+Hildenborough,HLB,Southeastern,,,51.21448142,0.227602385,,,,,,,,,,,,,,,,SO_000075
+Hither Green,HGR,Southeastern,,,51.45243221,-0.000918992,,,,,,,,,,,,,,,,SO_000076
+Hollingbourne,HBN,Southeastern,,,51.26517489,0.627857882,,,,,,,,,,,,,,,,SO_000077
+Kearsney (Kent),KSN,Southeastern,,,51.14937599,1.272074581,,,,,,,,,,,,,,,,SO_000078
+Kemsing,KMS,Southeastern,,,51.29718469,0.247441908,,,,,,,,,,,,,,,,SO_000079
+Kemsley,KML,Southeastern,,,51.3624387,0.735371031,,,,,,,,,,,,,,,,SO_000080
+Kent House,KTH,Southeastern,,,51.4127206,-0.0457951,,,,,,,,,,,,,,,,SO_000081
+Kidbrooke,KDB,Southeastern,,,51.46272143,0.028324303,,,,,,,,,,,,,,,,SO_000082
+Knockholt,KCK,Southeastern,,,51.34578876,0.130857676,,,,,,,,,,,,,,,,SO_000083
+Ladywell,LAD,Southeastern,,,51.45624704,-0.019033585,,,,,,,,,,,,,,,,SO_000084
+Lee (London),LEE,Southeastern,,,51.44949014,0.013345094,,,,,,,,,,,,,,,,SO_000085
+Lenham,LEN,Southeastern,,,51.234481,0.70777074,,,,,,,,,,,,,,,,SO_000086
+Lewisham,LEW,Southeastern,,,51.46569471,-0.014017114,,,,,,,,,,,,,,,,SO_000087
+London Waterloo East,WAE,Southeastern,,,51.50408038,-0.108893287,,,,,,,,,,,,,,,,SO_000088
+Longfield,LGF,Southeastern,,,51.39615545,0.300379852,,,,,,,,,,,,,,,,SO_000089
+Lower Sydenham,LSY,Southeastern,,,51.42483262,-0.033338978,,,,,,,,,,,,,,,,SO_000090
+Maidstone Barracks,MDB,Southeastern,,,51.27716608,0.513966736,,,,,,,,,,,,,,,,SO_000091
+Maidstone East,MDE,Southeastern,,,51.27782671,0.521301857,,,,,,,,,,,,,,,,SO_000092
+Maidstone West,MDW,Southeastern,,,51.2704626,0.515780027,,,,,,,,,,,,,,,,SO_000093
+Marden (Kent),MRN,Southeastern,,,51.17516959,0.493174606,,,,,,,,,,,,,,,,SO_000094
+Margate,MAR,Southeastern,,,51.38543564,1.372020955,,,,,,,,,,,,,,,,SO_000095
+Martin Mill,MTM,Southeastern,,,51.17067872,1.348232601,,,,,,,,,,,,,,,,SO_000096
+Maze Hill,MZH,Southeastern,,,51.48293643,0.003295611,,,,,,,,,,,,,,,,SO_000097
+Meopham,MEP,Southeastern,,,51.3864239,0.356954369,,,,,,,,,,,,,,,,SO_000098
+Minster,MSR,Southeastern,,,51.32917959,1.31723234,,,,,,,,,,,,,,,,SO_000099
+Mottingham,MTG,Southeastern,,,51.4398558,0.050334368,,,,,,,,,,,,,,,,SO_000100
+New Beckenham,NBC,Southeastern,,,51.41677126,-0.035267105,,,,,,,,,,,,,,,,SO_000101
+New Cross,NWX,Southeastern,,,51.47635659,-0.032995347,,,,,,,,,,,,,,,,SO_000102
+New Eltham,NEH,Southeastern,,,51.43770471,0.070382648,,,,,,,,,,,,,,,,SO_000103
+New Hythe,NHE,Southeastern,,,51.3130007,0.454934662,,,,,,,,,,,,,,,,SO_000104
+Newington,NGT,Southeastern,,,51.35334004,0.668581912,,,,,,,,,,,,,,,,SO_000105
+Northfleet,NFL,Southeastern,,,51.44584818,0.3243358,,,,,,,,,,,,,,,,SO_000106
+Orpington,ORP,Southeastern,,,51.37352201,0.089038526,,,,,,,,,,,,,,,,SO_000107
+Otford,OTF,Southeastern,,,51.31315635,0.196790978,,,,,,,,,,,,,,,,SO_000108
+Paddock Wood,PDW,Southeastern,,,51.182248409002085,0.3891563415527344,,,,,,,,,,,,,,,,SO_000109
+Penge East,PNE,Southeastern,,,51.41933448,-0.054142784,,,,,,,,,,,,,,,,SO_000110
+Petts Wood,PET,Southeastern,,,51.38861936,0.074490155,,,,,,,,,,,,,,,,SO_000111
+Pluckley,PLC,Southeastern,,,51.15647459,0.747408729,,,,,,,,,,,,,,,,SO_000112
+Plumstead,PLU,Southeastern,,,51.48979844,0.084266668,,,,,,,,,,,,,,,,SO_000113
+Queenborough,QBR,Southeastern,,,51.41563685,0.749680178,,,,,,,,,,,,,,,,SO_000114
+Rainham (Kent),RAI,Southeastern,,,51.36630481,0.611346972,,,,,,,,,,,,,,,,SO_000115
+Ramsgate,RAM,Southeastern,,,51.34102927,1.406056398,,,,,,,,,,,,,,,,SO_000116
+Robertsbridge,RBR,Southeastern,,,50.98493079,0.468786411,,,,,,,,,,,,,,,,SO_000117
+Rochester,RTR,Southeastern,,,51.38554918,0.510288532,,,,,,,,,,,,,,,,SO_000118
+Sandling,SDG,Southeastern,,,51.0903696,1.066064128,,,,,,,,,,,,,,,,SO_000119
+Sandwich,SDW,Southeastern,,,51.26990727,1.342584118,,,,,,,,,,,,,,,,SO_000120
+Selling,SEG,Southeastern,,,51.27735954,0.94088939,,,,,,,,,,,,,,,,SO_000121
+Sevenoaks,SEV,Southeastern,,,51.27686256,0.18168053,,,,,,,,,,,,,,,,SO_000122
+Sheerness-on-Sea,SSS,Southeastern,,,51.44106166,0.758547575,,,,,,,,,,,,,,,,SO_000123
+Shepherds Well,SPH,Southeastern,,,51.18840091,1.229922503,,,,,,,,,,,,,,,,SO_000124
+Shoreham (Kent),SEH,Southeastern,,,51.3322173,0.188901812,,,,,,,,,,,,,,,,SO_000125
+Shortlands,SRT,Southeastern,,,51.40560506,0.002789316,,,,,,,,,,,,,,,,SO_000126
+Sidcup,SID,Southeastern,,,51.4344201,0.103326599,,,,,,,,,,,,,,,,SO_000127
+Sittingbourne,SIT,Southeastern,,,51.34197466,0.734697529,,,,,,,,,,,,,,,,SO_000128
+Slade Green,SGR,Southeastern,,,51.46778867,0.190504422,,,,,,,,,,,,,,,,SO_000129
+Snodland,SDA,Southeastern,,,51.33022897,0.448246314,,,,,,,,,,,,,,,,SO_000130
+Snowdown,SWO,Southeastern,,,51.21530252,1.213717174,,,,,,,,,,,,,,,,SO_000131
+Sole Street,SOR,Southeastern,,,51.38314549,0.378100359,,,,,,,,,,,,,,,,SO_000132
+St Johns (London),SAJ,Southeastern,,,51.46899802,-0.023232814,,,,,,,,,,,,,,,,SO_000133
+St Leonards Warrior Square,SLQ,Southeastern,,,50.8558633,0.560522005,,,,,,,,,,,,,,,,SO_000134
+St Mary Cray,SMY,Southeastern,,,51.39477941,0.107257724,,,,,,,,,,,,,,,,SO_000135
+Staplehurst,SPU,Southeastern,,,51.17146994,0.550445835,,,,,,,,,,,,,,,,SO_000136
+Stone Crossing,SCG,Southeastern,,,51.45133235,0.263786194,,,,,,,,,,,,,,,,SO_000137
+Stonegate,SOG,Southeastern,,,51.01996612,0.363883611,,,,,,,,,,,,,,,,SO_000138
+Strood (Kent),SOO,Southeastern,,,51.39654864,0.50019436,,,,,,,,,,,,,,,,SO_000139
+Sturry,STU,Southeastern,,,51.30107408,1.122265331,,,,,,,,,,,,,,,,SO_000140
+Sundridge Park,SUP,Southeastern,,,51.4133967,0.020387427,,,,,,,,,,,,,,,,SO_000141
+Swale,SWL,Southeastern,,,51.38923548,0.747147474,,,,,,,,,,,,,,,,SO_000142
+Swanley,SAY,Southeastern,,,51.39338728,0.169237354,,,,,,,,,,,,,,,,SO_000143
+Swanscombe,SWM,Southeastern,,,51.44907248,0.309545118,,,,,,,,,,,,,,,,SO_000144
+Sydenham Hill,SYH,Southeastern,,,51.43271634,-0.080334335,,,,,,,,,,,,,,,,SO_000145
+Teynham,TEY,Southeastern,,,51.33338995,0.807440692,,,,,,,,,,,,,,,,SO_000146
+Thanet Parkway,THP,Southeastern,,,51.3324511,1.3579215,,,,,,,,,,,,,,,,SO_000147
+Tonbridge,TON,Southeastern,,,51.19143689,0.27077344,,,,,,,,,,,,,,,,SO_000148
+Tunbridge Wells,TBW,Southeastern,,,51.13022674,0.262823237,,,,,,,,,,,,,,,,SO_000149
+Wadhurst,WAD,Southeastern,,,51.07346089,0.313187922,,,,,,,,,,,,,,,,SO_000150
+Walmer,WAM,Southeastern,,,51.20332393,1.382891124,,,,,,,,,,,,,,,,SO_000151
+Wateringbury,WTR,Southeastern,,,51.24973116,0.422470344,,,,,,,,,,,,,,,,SO_000152
+Welling,WLI,Southeastern,,,51.46484348,0.101846038,,,,,,,,,,,,,,,,SO_000153
+West Dulwich,WDU,Southeastern,,,51.44062348,-0.090938887,,,,,,,,,,,,,,,,SO_000154
+West Malling,WMA,Southeastern,,,51.29201798,0.418657268,,,,,,,,,,,,,,,,SO_000155
+West St Leonards,WLD,Southeastern,,,50.85314724,0.539940339,,,,,,,,,,,,,,,,SO_000156
+West Wickham,WWI,Southeastern,,,51.38130201,-0.014425183,,,,,,,,,,,,,,,,SO_000157
+Westcombe Park,WCB,Southeastern,,,51.48448685,0.017767227,,,,,,,,,,,,,,,,SO_000158
+Westenhanger,WHA,Southeastern,,,51.09487937,1.037707764,,,,,,,,,,,,,,,,SO_000159
+Westgate-on-Sea,WGA,Southeastern,,,51.38145254,1.338378497,,,,,,,,,,,,,,,,SO_000160
+Whitstable,WHI,Southeastern,,,51.35758066,1.033302028,,,,,,,,,,,,,,,,SO_000161
+Woolwich Arsenal,WWA,Southeastern,,,51.48987374,0.069864616,,,,,,,,,,,,,,,,SO_000162
+Woolwich Dockyard,WWD,Southeastern,,,51.49113057,0.05465135,,,,,,,,,,,,,,,,SO_000163
+Wye,WYE,Southeastern,,,51.18501369,0.929321854,,,,,,,,,,,,,,,,SO_000164
+Yalding,YAL,Southeastern,,,51.22647911,0.412167502,,,,,,,,,,,,,,,,SO_000165

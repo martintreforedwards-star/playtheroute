@@ -1,0 +1,12 @@
+{
+  "name": "C2C_GA",
+  "network": "C2C_GA",
+  "master": "data/C2C_GA/c2c_ga_master.csv",
+  "route_groups": "data/C2C_GA/route_membership.csv",
+  "missing_times": "data/C2C_GA/missing_times.csv",
+  "rules": "builder/configs/c2c_ga_rules.json",
+  "clue_template": "data/clues/southeastern-clues.json",
+  "clues": "data/C2C_GA/c2c_ga-clues.json",
+  "enriched": "data/C2C_GA/c2c_ga_enriched.csv",
+  "output": "data/C2C_GA/c2c_ga.json"
+}

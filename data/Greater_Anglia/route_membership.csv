@@ -1,0 +1,137 @@
+station_id,network,route_station_id,route_group,crs,station_name
+GR_000001,Greater_Anglia,GR0001,,ACL,Acle
+GR_000002,Greater_Anglia,GR0002,,ALR,Alresford (Essex)
+GR_000003,Greater_Anglia,GR0003,,ALN,Althorne (Essex)
+GR_000004,Greater_Anglia,GR0004,,ATL,Attleborough
+GR_000005,Greater_Anglia,GR0005,,AUD,Audley End
+GR_000006,Greater_Anglia,GR0006,,BLB,Battlesbridge
+GR_000007,Greater_Anglia,GR0007,,BPA,Beaulieu Park
+GR_000008,Greater_Anglia,GR0008,,BCC,Beccles
+GR_000009,Greater_Anglia,GR0009,,BYA,Berney Arms
+GR_000010,Greater_Anglia,GR0010,,BIC,Billericay
+GR_000011,Greater_Anglia,GR0011,,BIS,Bishops Stortford
+GR_000012,Greater_Anglia,GR0012,,BTR,Braintree
+GR_000013,Greater_Anglia,GR0013,,BTP,Braintree Freeport
+GR_000014,Greater_Anglia,GR0014,,BRP,Brampton (Suffolk)
+GR_000015,Greater_Anglia,GR0015,,BND,Brandon
+GR_000016,Greater_Anglia,GR0016,,BMD,Brimsdown
+GR_000017,Greater_Anglia,GR0017,,BXB,Broxbourne
+GR_000018,Greater_Anglia,GR0018,,BDA,Brundall
+GR_000019,Greater_Anglia,GR0019,,BGA,Brundall Gardens
+GR_000020,Greater_Anglia,GR0020,,BUC,Buckenham
+GR_000021,Greater_Anglia,GR0021,,BUE,Bures
+GR_000022,Greater_Anglia,GR0022,,BUU,Burnham-on-Crouch
+GR_000023,Greater_Anglia,GR0023,,BSE,Bury St Edmunds
+GR_000024,Greater_Anglia,GR0024,,CBG,Cambridge
+GR_000025,Greater_Anglia,GR0025,,CMB,Cambridge North
+GR_000026,Greater_Anglia,GR0026,,CMS,Cambridge South
+GR_000027,Greater_Anglia,GR0027,,CNY,Cantley
+GR_000028,Greater_Anglia,GR0028,,CWC,Chappel & Wakes Colne
+GR_000029,Greater_Anglia,GR0029,,CHM,Chelmsford
+GR_000030,Greater_Anglia,GR0030,,CHN,Cheshunt
+GR_000031,Greater_Anglia,GR0031,,CLT,Clacton-on-Sea
+GR_000032,Greater_Anglia,GR0032,,COL,Colchester
+GR_000033,Greater_Anglia,GR0033,,CET,Colchester Town
+GR_000034,Greater_Anglia,GR0034,,CES,Cressing (Essex)
+GR_000035,Greater_Anglia,GR0035,,CMR,Cromer
+GR_000036,Greater_Anglia,GR0036,,DSM,Darsham
+GR_000037,Greater_Anglia,GR0037,,DBR,Derby Road (Ipswich)
+GR_000038,Greater_Anglia,GR0038,,DIS,Diss
+GR_000039,Greater_Anglia,GR0039,,DVC,Dovercourt
+GR_000040,Greater_Anglia,GR0040,,DUL,Dullingham
+GR_000041,Greater_Anglia,GR0041,,ECS,Eccles Road
+GR_000042,Greater_Anglia,GR0042,,ESW,Elmswell
+GR_000043,Greater_Anglia,GR0043,,ESM,Elsenham (Essex)
+GR_000044,Greater_Anglia,GR0044,,ELY,Ely
+GR_000045,Greater_Anglia,GR0045,,ENL,Enfield Lock
+GR_000046,Greater_Anglia,GR0046,,FLX,Felixstowe
+GR_000047,Greater_Anglia,GR0047,,FRI,Frinton-on-Sea
+GR_000048,Greater_Anglia,GR0048,,GRB,Great Bentley
+GR_000049,Greater_Anglia,GR0049,,GRC,Great Chesterford
+GR_000050,Greater_Anglia,GR0050,,GYM,Great Yarmouth
+GR_000051,Greater_Anglia,GR0051,,GNT,Gunton
+GR_000052,Greater_Anglia,GR0052,,HAD,Haddiscoe
+GR_000053,Greater_Anglia,GR0053,,HAS,Halesworth
+GR_000054,Greater_Anglia,GR0054,,HRD,Harling Road
+GR_000055,Greater_Anglia,GR0055,,HWM,Harlow Mill
+GR_000056,Greater_Anglia,GR0056,,HWN,Harlow Town
+GR_000057,Greater_Anglia,GR0057,,HPQ,Harwich International
+GR_000058,Greater_Anglia,GR0058,,HWC,Harwich Town
+GR_000059,Greater_Anglia,GR0059,,HAP,Hatfield Peverel
+GR_000060,Greater_Anglia,GR0060,,HFE,Hertford East
+GR_000061,Greater_Anglia,GR0061,,HOC,Hockley
+GR_000062,Greater_Anglia,GR0062,,HXM,Hoveton & Wroxham
+GR_000063,Greater_Anglia,GR0063,,HYH,Hythe (Essex)
+GR_000064,Greater_Anglia,GR0064,,INT,Ingatestone
+GR_000065,Greater_Anglia,GR0065,,IPS,Ipswich
+GR_000066,Greater_Anglia,GR0066,,KEL,Kelvedon
+GR_000067,Greater_Anglia,GR0067,,KNE,Kennett
+GR_000068,Greater_Anglia,GR0068,,KBX,Kirby Cross
+GR_000069,Greater_Anglia,GR0069,,LAK,Lakenheath
+GR_000070,Greater_Anglia,GR0070,,LEB,Lea Bridge
+GR_000071,Greater_Anglia,GR0071,,LGD,Lingwood
+GR_000072,Greater_Anglia,GR0072,,LWT,Lowestoft
+GR_000073,Greater_Anglia,GR0073,,MNE,Manea
+GR_000074,Greater_Anglia,GR0074,,MNG,Manningtree
+GR_000075,Greater_Anglia,GR0075,,MCH,March
+GR_000076,Greater_Anglia,GR0076,,MKT,Marks Tey
+GR_000077,Greater_Anglia,GR0077,,MES,Melton (Suffolk)
+GR_000078,Greater_Anglia,GR0078,,MRW,Meridian Water
+GR_000079,Greater_Anglia,GR0079,,MIS,Mistley
+GR_000080,Greater_Anglia,GR0080,,NMT,Needham Market
+GR_000081,Greater_Anglia,GR0081,,NMK,Newmarket
+GR_000082,Greater_Anglia,GR0082,,NWE,Newport (Essex)
+GR_000083,Greater_Anglia,GR0083,,NFA,North Fambridge
+GR_000084,Greater_Anglia,GR0084,,NWA,North Walsham
+GR_000085,Greater_Anglia,GR0085,,NUM,Northumberland Park London
+GR_000086,Greater_Anglia,GR0086,,NRW,Norwich
+GR_000087,Greater_Anglia,GR0087,,OUN,Oulton Broad North
+GR_000088,Greater_Anglia,GR0088,,OUS,Oulton Broad South
+GR_000089,Greater_Anglia,GR0089,,PON,Ponders End
+GR_000090,Greater_Anglia,GR0090,,PRL,Prittlewell
+GR_000091,Greater_Anglia,GR0091,,RLG,Rayleigh
+GR_000092,Greater_Anglia,GR0092,,REE,Reedham (Norfolk)
+GR_000093,Greater_Anglia,GR0093,,RFD,Rochford
+GR_000094,Greater_Anglia,GR0094,,RNR,Roughton Road
+GR_000095,Greater_Anglia,GR0095,,RYN,Roydon
+GR_000096,Greater_Anglia,GR0096,,RYH,Rye House
+GR_000097,Greater_Anglia,GR0097,,SAH,Salhouse
+GR_000098,Greater_Anglia,GR0098,,SAW,Sawbridgeworth
+GR_000099,Greater_Anglia,GR0099,,SAX,Saxmundham
+GR_000100,Greater_Anglia,GR0100,,SED,Shelford (Cambs)
+GR_000101,Greater_Anglia,GR0101,,SNF,Shenfield
+GR_000102,Greater_Anglia,GR0102,,SHM,Sheringham
+GR_000103,Greater_Anglia,GR0103,,SPP,Shippea Hill
+GR_000104,Greater_Anglia,GR0104,,SOJ,Soham
+GR_000105,Greater_Anglia,GR0105,,SYT,Somerleyton
+GR_000106,Greater_Anglia,GR0106,,SOF,South Woodham Ferrers
+GR_000107,Greater_Anglia,GR0107,,SOV,Southend Victoria
+GR_000108,Greater_Anglia,GR0108,,SMN,Southminster
+GR_000109,Greater_Anglia,GR0109,,SPN,Spooner Row
+GR_000110,Greater_Anglia,GR0110,,SMT,St Margarets (Herts)
+GR_000111,Greater_Anglia,GR0111,,SSD,Stansted Airport
+GR_000112,Greater_Anglia,GR0112,,SST,Stansted Mountfitchet
+GR_000113,Greater_Anglia,GR0113,,SMK,Stowmarket
+GR_000114,Greater_Anglia,GR0114,,SUY,Sudbury (Suffolk)
+GR_000115,Greater_Anglia,GR0115,,TTF,Thetford
+GR_000116,Greater_Anglia,GR0116,,TLS,Thorpe-le-Soken
+GR_000117,Greater_Anglia,GR0117,,TRS,Thurston
+GR_000118,Greater_Anglia,GR0118,,TOM,Tottenham Hale
+GR_000119,Greater_Anglia,GR0119,,TRM,Trimley
+GR_000120,Greater_Anglia,GR0120,,WLC,Waltham Cross
+GR_000121,Greater_Anglia,GR0121,,WON,Walton-on-the-Naze
+GR_000122,Greater_Anglia,GR0122,,WAR,Ware (Herts)
+GR_000123,Greater_Anglia,GR0123,,WEE,Weeley
+GR_000124,Greater_Anglia,GR0124,,WRN,West Runton
+GR_000125,Greater_Anglia,GR0125,,WFI,Westerfield
+GR_000126,Greater_Anglia,GR0126,,WNY,White Notley
+GR_000127,Greater_Anglia,GR0127,,WLE,Whittlesea
+GR_000128,Greater_Anglia,GR0128,,WLF,Whittlesford Parkway
+GR_000129,Greater_Anglia,GR0129,,WIC,Wickford
+GR_000130,Greater_Anglia,GR0130,,WCM,Wickham Market
+GR_000131,Greater_Anglia,GR0131,,WTM,Witham
+GR_000132,Greater_Anglia,GR0132,,WIV,Wivenhoe
+GR_000133,Greater_Anglia,GR0133,,WDB,Woodbridge
+GR_000134,Greater_Anglia,GR0134,,WRT,Worstead
+GR_000135,Greater_Anglia,GR0135,,WRB,Wrabness
+GR_000136,Greater_Anglia,GR0136,,WMD,Wymondham

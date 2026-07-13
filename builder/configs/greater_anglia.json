@@ -1,0 +1,21 @@
+{
+  "name": "Greater_Anglia",
+
+  "network": "Greater_Anglia",
+
+  "master": "data/Greater_Anglia/greater_anglia_master.csv",
+
+  "route_groups": "data/Greater_Anglia/route_membership.csv",
+
+  "missing_times": "data/Greater_Anglia/missing_times.csv",
+
+  "rules": "builder/configs/greater_anglia_rules.json",
+
+  "clue_template": "data/clues/southeastern-clues.json",
+
+  "clues": "data/Greater_Anglia/greater_anglia-clues.json",
+
+  "enriched": "data/Greater_Anglia/greater_anglia_enriched.csv",
+
+  "output": "data/Greater_Anglia/greater_anglia.json"
+}

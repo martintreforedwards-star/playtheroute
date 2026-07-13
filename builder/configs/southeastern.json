@@ -1,0 +1,12 @@
+{
+  "name": "Southeastern",
+  "network": "Southeastern",
+  "master": "data/Southeastern/southeastern_master.csv",
+  "route_groups": "data/Southeastern/route_membership.csv",
+  "missing_times": "data/Southeastern/missing_times.csv",
+  "rules": "builder/configs/southeastern_rules.json",
+  "clue_template": "data/clues/southeastern-clues.json",
+  "clues": "data/Southeastern/southeastern-clues.json",
+  "enriched": "data/Southeastern/southeastern_enriched.csv",
+  "output": "data/Southeastern/southeastern.json"
+}

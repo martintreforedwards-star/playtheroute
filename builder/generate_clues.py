@@ -195,23 +195,14 @@ def generate_wordplay_columns(wordplay):
     return columns
 
 
-def generate(network):
+def generate(config):
 
-    data_root = Path("data")
+    network = config["network"]
+    network_dir = Path(config["data_root"])
 
-    folder = None
-    for p in data_root.iterdir():
-        if p.is_dir() and p.name.lower() == network.lower():
-            folder = p
-            network = p.name
-            break
+    stations = load_json(Path(config["output"]))
 
-    if folder is None:
-        folder = data_root / network
-
-    stations = load_json(folder / f"{network.lower()}.json")
-
-    analysis_folder = folder / "analysis"
+    analysis_folder = network_dir / "analysis"
     wordplay_file = analysis_folder / f"{network.lower()}_wordplay.json"
 
     if wordplay_file.exists():
@@ -227,7 +218,7 @@ def generate(network):
         ),
     }
 
-    output = folder / f"{network.lower()}-clues.json"
+    output = Path(config["clues"])
 
     save_json(output, clue_file)
 
@@ -237,10 +228,11 @@ def generate(network):
 if __name__ == "__main__":
 
     import sys
+    from builder.config import load_config
 
     if len(sys.argv) != 2:
         print("Usage:")
         print("python builder/generate_clues.py <network>")
         sys.exit(1)
 
-    generate(sys.argv[1])
+    generate(load_config(sys.argv[1]))

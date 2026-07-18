@@ -1,21 +1,24 @@
 {
   "name": "Southern",
-
   "network": "Southern",
 
-  "master": "data/Southern/southern_master.csv",
+  "data_root": "data/Class1/Southern",
 
-  "route_groups": "data/Southern/route_membership.csv",
+  "knowledgebase": "data/Knowledgebase/SN_network_data.json",
 
-  "missing_times": "data/Southern/missing_times.csv",
+  "master": "data/Class1/Southern/southern_master.csv",
+  "route_groups": "data/Class1/Southern/route_membership.csv",
+  "missing_times": "data/Class1/Southern/missing_times.csv",
 
   "rules": "builder/configs/southern_rules.json",
 
   "clue_template": "data/clues/southeastern-clues.json",
+  "clues": "data/Class1/Southern/southern-clues.json",
 
-  "clues": "data/Southern/southern-clues.json",
+  "enriched": "data/Class1/Southern/southern_enriched.csv",
+  "output": "data/Class1/Southern/southern.json",
 
-  "enriched": "data/Southern/southern_enriched.csv",
+  "reference": "data/Class1/Southern/reference",
 
-  "output": "data/Southern/southern.json"
+  "aggregated": "data/Class1/Southern/southern_aggregated.csv"
 }

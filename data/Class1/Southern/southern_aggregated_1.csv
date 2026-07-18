@@ -1,0 +1,138 @@
+station_id,station_name,crs,operator,route,county,latitude,longitude,major_interchange,terminus,branch_junction,nearest_landmark,nearest_landmark_km,nearest_castle,nearest_castle_km,nearest_cathedral,nearest_cathedral_km,nearest_museum,nearest_museum_km,nearest_country_house,nearest_country_house_km,nearest_nature_reserve,nearest_nature_reserve_km,route_count,service_count,service_density,route_diversity_band,time_from_london,time_band,accessibility_score,difficulty_score,route_groups,region,is_branch_line,is_mainline,is_coastal,word_count_band,is_interchange,is_terminus,route_station_id,canonical_time_to_london,time_group,is_high_speed,distance_band
+SR001,Angmering,ANG,,,,50.816704,-0.489559,FALSE,,,,,,,,,,,,,,,1,1,low,few,40.5,30-60,2,8,['West Coastway'],West Coastway,FALSE,TRUE,TRUE,single,FALSE,FALSE,SR001,40.5,30-60,FALSE,commuter
+SR002,Ashurst,,,,,,,,,,,,,,,,,,,,,,,,,,55,,,,['Uckfield Branch'],Uckfield Branch,TRUE,FALSE,FALSE,single,FALSE,FALSE,SR002,55,,FALSE,commuter
+SR002,Balcombe,BAB,,,,51.05624,-0.137881,FALSE,,,,,,,,,,,,,,,1,1,low,few,18,0-30,2,8,['Brighton Main Line'],Brighton Main Line,FALSE,TRUE,FALSE,single,FALSE,FALSE,SR002,18,0-30,FALSE,inner
+SR003,Balham,BAL,,,,51.443169,-0.152403,FALSE,,,,,,,,,,,,,,,2,2,medium,some,9,0-30,4,6,['Sutton & Metro'],Sutton & Metro,FALSE,TRUE,FALSE,single,FALSE,FALSE,SR003,9,0-30,FALSE,inner
+SR004,Barnham,BAA,,,,50.831135,-0.639627,FALSE,,,,,,,,,,,,,,,1,1,low,few,27,0-30,2,8,"['West Coastway', 'Arun Valley']",West Coastway,FALSE,TRUE,TRUE,single,FALSE,FALSE,SR004,27,0-30,FALSE,outer
+SR005,Basingstoke,BSK,,,,51.26804,-1.086896,FALSE,,,,,,,,,,,,,,,1,1,low,few,44,30-60,2,8,['Portsmouth Direct'],Portsmouth Direct,FALSE,TRUE,FALSE,single,FALSE,FALSE,SR005,44,30-60,FALSE,commuter
+SR006,Bat & Ball,BBL,,,,51.289703,0.194258,FALSE,,,,,,,,,,,,,,,1,1,low,few,27,0-30,2,8,['Southern Thameslink Branches'],Southern Thameslink Branches,FALSE,TRUE,FALSE,multiple,FALSE,FALSE,SR006,27,0-30,FALSE,outer
+SR007,Battle,BAT,,,,50.91312,0.495169,FALSE,,,,,,,,,,,,,,,1,1,low,few,81,60-120,2,8,['East Coastway'],East Coastway,FALSE,TRUE,TRUE,single,FALSE,FALSE,SR007,81,60-120,FALSE,regional
+SR008,Berwick,BRK,,,,50.840569,0.164587,FALSE,,,,,,,,,,,,,,,1,1,low,few,40.5,30-60,2,8,['East Coastway'],East Coastway,FALSE,TRUE,TRUE,single,FALSE,FALSE,SR008,40.5,30-60,FALSE,commuter
+SR009,Bexhill,BEX,,,,50.840679,0.475678,FALSE,,,,,,,,,,,,,,,1,1,low,few,76.5,60-120,2,8,['East Coastway'],East Coastway,FALSE,TRUE,TRUE,single,FALSE,FALSE,SR009,76.5,60-120,FALSE,regional
+SR011,Blackfriars,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,"['Thameslink Core', 'Southern Thameslink Branches']",Thameslink Core,FALSE,TRUE,FALSE,single,FALSE,FALSE,SR011,0,,FALSE,inner
+SR012,Bognor Regis,,,,,,,,,,,,,,,,,,,,,,,,,,95,,,,['West Coastway'],West Coastway,FALSE,TRUE,TRUE,multiple,FALSE,FALSE,SR012,95,,FALSE,regional
+SR010,Bosham,BOH,,,,50.843262,-0.846655,FALSE,,,,,,,,,,,,,,,1,1,low,few,40.5,30-60,2,8,['West Coastway'],West Coastway,FALSE,TRUE,TRUE,single,FALSE,FALSE,SR010,40.5,30-60,FALSE,commuter
+SR011,Brighton,BTN,,,,50.829659,-0.141234,TRUE,,,,,,,,,,,,,,,3,3,medium,some,18,0-30,6,4,"['Brighton Main Line', 'East Coastway', 'West Coastway']",Brighton Main Line,FALSE,TRUE,TRUE,single,TRUE,FALSE,SR011,18,0-30,FALSE,inner
+SR012,Burgess Hill,BUG,,,,50.953552,-0.127749,FALSE,,,,,,,,,,,,,,,1,1,low,few,22.5,0-30,2,8,['Brighton Main Line'],Brighton Main Line,FALSE,TRUE,FALSE,multiple,FALSE,FALSE,SR012,22.5,0-30,FALSE,outer
+SR016,Buxted,,,,,,,,,,,,,,,,,,,,,,,,,,75,,,,['Uckfield Branch'],Uckfield Branch,TRUE,FALSE,FALSE,single,FALSE,FALSE,SR016,75,,FALSE,regional
+SR013,Carshalton,CSH,,,,51.367859,-0.16693,FALSE,,,,,,,,,,,,,,,1,1,low,few,45,30-60,2,8,['Sutton & Metro'],Sutton & Metro,FALSE,TRUE,FALSE,single,FALSE,FALSE,SR013,45,30-60,FALSE,commuter
+SR014,Chichester,CCH,,,,50.831821,-0.783032,FALSE,,,,,,,,,,,,,,,1,1,low,few,31.5,30-60,2,8,['West Coastway'],West Coastway,FALSE,TRUE,TRUE,single,FALSE,FALSE,SR014,31.5,30-60,FALSE,outer
+SR019,City Thameslink,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,"['Thameslink Core', 'Southern Thameslink Branches']",Thameslink Core,FALSE,TRUE,FALSE,multiple,FALSE,FALSE,SR019,0,,FALSE,inner
+SR015,Clapham Junction,CLJ,,,,51.464134,-0.170281,TRUE,,,,,,,,,,,,,,,4,4,high,many,4.5,0-30,8,2,"['Brighton Main Line', 'Portsmouth Direct']",Brighton Main Line,FALSE,TRUE,FALSE,multiple,TRUE,FALSE,SR015,4.5,0-30,FALSE,inner
+SR016,Collington,CLL,,,,50.839272,0.457142,FALSE,,,,,,,,,,,,,,,1,1,low,few,72,60-120,2,8,['East Coastway'],East Coastway,FALSE,TRUE,TRUE,single,FALSE,FALSE,SR016,72,60-120,FALSE,regional
+SR017,Cooden Beach,COB,,,,50.83271,0.426969,FALSE,,,,,,,,,,,,,,,1,1,low,few,67.5,60-120,2,8,['East Coastway'],East Coastway,FALSE,TRUE,TRUE,multiple,FALSE,FALSE,SR017,67.5,60-120,FALSE,regional
+SR018,Cosham,CSA,,,,50.841644,-1.068259,FALSE,,,,,,,,,,,,,,,1,1,low,few,54,30-60,2,8,['Portsmouth Direct'],Portsmouth Direct,FALSE,TRUE,FALSE,single,FALSE,FALSE,SR018,54,30-60,FALSE,commuter
+SR019,Coulsdon South,CDS,,,,51.315231,-0.13746,FALSE,,,,,,,,,,,,,,,1,1,low,few,18,0-30,2,8,['Brighton Main Line'],Brighton Main Line,FALSE,TRUE,FALSE,multiple,FALSE,FALSE,SR019,18,0-30,FALSE,inner
+SR025,Cowden,,,,,,,,,,,,,,,,,,,,,,,,,,60,,,,['Uckfield Branch'],Uckfield Branch,TRUE,FALSE,FALSE,single,FALSE,FALSE,SR025,60,,FALSE,commuter
+SR026,Crowborough,,,,,,,,,,,,,,,,,,,,,,,,,,60,,,,['Uckfield Branch'],Uckfield Branch,TRUE,FALSE,FALSE,single,FALSE,FALSE,SR026,60,,FALSE,commuter
+SR027,Dorking,,,,,,,,,,,,,,,,,,,,,,,,,,55,,,,['Arun Valley'],Arun Valley,FALSE,TRUE,FALSE,single,FALSE,FALSE,SR027,55,,FALSE,commuter
+SR028,Dorking West,,,,,,,,,,,,,,,,,,,,,,,,,,60,,,,['Arun Valley'],Arun Valley,FALSE,TRUE,FALSE,multiple,FALSE,FALSE,SR028,60,,FALSE,commuter
+SR029,Dormans,,,,,,,,,,,,,,,,,,,,,,,,,,55,,,,['East Grinstead Branch'],East Grinstead Branch,TRUE,FALSE,FALSE,single,FALSE,FALSE,SR029,55,,FALSE,commuter
+SR020,Dunton Green,DNG,,,,51.296425,0.171616,FALSE,,,,,,,,,,,,,,,1,1,low,few,31.5,30-60,2,8,['Southern Thameslink Branches'],Southern Thameslink Branches,FALSE,TRUE,FALSE,multiple,FALSE,FALSE,SR020,31.5,30-60,FALSE,outer
+SR021,Durrington-on-Sea,DUR,,,,50.817463,-0.411463,FALSE,,,,,,,,,,,,,,,1,1,low,few,31.5,30-60,2,8,['West Coastway'],West Coastway,FALSE,TRUE,TRUE,single,FALSE,FALSE,SR021,31.5,30-60,FALSE,outer
+SR022,Earlswood,ELD,,,,51.227631,-0.171078,FALSE,,,,,,,,,,,,,,,1,1,low,few,22.5,0-30,2,8,['Brighton Main Line'],Brighton Main Line,FALSE,TRUE,FALSE,single,FALSE,FALSE,SR022,22.5,0-30,FALSE,outer
+SR023,East Croydon,ECR,,,,51.375679,-0.093335,FALSE,,,,,,,,,,,,,,,1,1,low,few,4.5,0-30,2,8,"['Brighton Main Line', 'East Grinstead Branch', 'Uckfield Branch']",Brighton Main Line,TRUE,FALSE,FALSE,multiple,FALSE,FALSE,SR023,4.5,0-30,FALSE,inner
+SR034,East Grinstead,,,,,,,,,,,,,,,,,,,,,,,,,,60,,,,['East Grinstead Branch'],East Grinstead Branch,TRUE,FALSE,FALSE,multiple,FALSE,FALSE,SR034,60,,FALSE,commuter
+SR035,East Worthing,,,,,,,,,,,,,,,,,,,,,,,,,,65,,,,['West Coastway'],West Coastway,FALSE,TRUE,TRUE,multiple,FALSE,FALSE,SR035,65,,FALSE,regional
+SR024,Eastbourne,EBN,,,,50.769085,0.281847,FALSE,,,,,,,,,,,,,,,1,1,low,few,54,30-60,2,8,['East Coastway'],East Coastway,FALSE,TRUE,TRUE,single,FALSE,FALSE,SR024,54,30-60,FALSE,commuter
+SR037,Edenbridge Town,,,,,,,,,,,,,,,,,,,,,,,,,,70,,,,['Uckfield Branch'],Uckfield Branch,TRUE,FALSE,FALSE,multiple,FALSE,FALSE,SR037,70,,FALSE,regional
+SR025,Emsworth,EMS,,,,50.851326,-0.938784,FALSE,,,,,,,,,,,,,,,1,1,low,few,36,30-60,2,8,['West Coastway'],West Coastway,FALSE,TRUE,TRUE,single,FALSE,FALSE,SR025,36,30-60,FALSE,outer
+SR039,Eridge,,,,,,,,,,,,,,,,,,,,,,,,,,70,,,,['Uckfield Branch'],Uckfield Branch,TRUE,FALSE,FALSE,single,FALSE,FALSE,SR039,70,,FALSE,regional
+SR026,Etchingham,ETC,,,,51.010479,0.441935,FALSE,,,,,,,,,,,,,,,1,1,low,few,72,60-120,2,8,['East Coastway'],East Coastway,FALSE,TRUE,TRUE,single,FALSE,FALSE,SR026,72,60-120,FALSE,regional
+SR027,Eynsford,EYN,,,,51.362377,0.203465,FALSE,,,,,,,,,,,,,,,1,1,low,few,13.5,0-30,2,8,['Southern Thameslink Branches'],Southern Thameslink Branches,FALSE,TRUE,FALSE,single,FALSE,FALSE,SR027,13.5,0-30,FALSE,inner
+SR028,Falmer,FMR,,,,50.862064,-0.087364,FALSE,,,,,,,,,,,,,,,1,1,low,few,27,0-30,2,8,['East Coastway'],East Coastway,FALSE,TRUE,TRUE,single,FALSE,FALSE,SR028,27,0-30,FALSE,outer
+SR029,Fareham,FRM,,,,50.853352,-1.19162,FALSE,,,,,,,,,,,,,,,1,1,low,few,63,60-120,2,8,['Portsmouth Direct'],Portsmouth Direct,FALSE,TRUE,FALSE,single,FALSE,FALSE,SR029,63,60-120,FALSE,regional
+SR030,Farningham Road,FNR,,,,51.401337,0.235533,FALSE,,,,,,,,,,,,,,,1,1,low,few,9,0-30,2,8,['Southern Thameslink Branches'],Southern Thameslink Branches,FALSE,TRUE,FALSE,multiple,FALSE,FALSE,SR030,9,0-30,FALSE,inner
+SR045,Farringdon,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,"['Thameslink Core', 'Southern Thameslink Branches']",Thameslink Core,FALSE,TRUE,FALSE,single,FALSE,FALSE,SR045,0,,FALSE,inner
+SR031,Fishbourne,FSB,,,,50.839352,-0.815495,FALSE,,,,,,,,,,,,,,,1,1,low,few,36,30-60,2,8,['West Coastway'],West Coastway,FALSE,TRUE,TRUE,single,FALSE,FALSE,SR031,36,30-60,FALSE,outer
+SR032,Ford,FOD,,,,50.829506,-0.578611,FALSE,,,,,,,,,,,,,,,1,1,low,few,31.5,30-60,2,8,"['West Coastway', 'Arun Valley']",West Coastway,FALSE,TRUE,TRUE,single,FALSE,FALSE,SR032,31.5,30-60,FALSE,outer
+SR033,Frant,FRT,,,,51.104321,0.294034,FALSE,,,,,,,,,,,,,,,1,1,low,few,58.5,30-60,2,8,['Uckfield Branch'],Uckfield Branch,TRUE,FALSE,FALSE,single,FALSE,FALSE,SR033,58.5,30-60,FALSE,commuter
+SR034,Fratton,FTN,,,,50.795818,-1.073422,FALSE,,,,,,,,,,,,,,,1,1,low,few,45,30-60,2,8,"['West Coastway', 'Portsmouth Direct']",West Coastway,FALSE,TRUE,TRUE,single,FALSE,FALSE,SR034,45,30-60,FALSE,commuter
+SR035,Gatwick Airport,GTW,,,,51.156425,-0.161022,FALSE,,,,,,,,,,,,,,,1,1,low,few,9,0-30,2,8,['Brighton Main Line'],Brighton Main Line,FALSE,TRUE,FALSE,multiple,FALSE,FALSE,SR035,9,0-30,FALSE,inner
+SR036,Glynde,GLY,,,,50.859398,0.06883,FALSE,,,,,,,,,,,,,,,1,1,low,few,36,30-60,2,8,['East Coastway'],East Coastway,FALSE,TRUE,TRUE,single,FALSE,FALSE,SR036,36,30-60,FALSE,outer
+SR037,Goring-by-Sea,GBS,,,,50.817753,-0.432751,FALSE,,,,,,,,,,,,,,,1,1,low,few,36,30-60,2,8,['West Coastway'],West Coastway,FALSE,TRUE,TRUE,single,FALSE,FALSE,SR037,36,30-60,FALSE,outer
+SR038,Hackbridge,HCB,,,,51.378437,-0.15358,FALSE,,,,,,,,,,,,,,,1,1,low,few,40.5,30-60,2,8,['Sutton & Metro'],Sutton & Metro,FALSE,TRUE,FALSE,single,FALSE,FALSE,SR038,40.5,30-60,FALSE,commuter
+SR039,Hampden Park,HMD,,,,50.796124,0.278906,FALSE,,,,,,,,,,,,,,,1,1,low,few,49.5,30-60,2,8,['East Coastway'],East Coastway,FALSE,TRUE,TRUE,multiple,FALSE,FALSE,SR039,49.5,30-60,FALSE,commuter
+SR040,Hassocks,HSK,,,,50.923264,-0.146043,FALSE,,,,,,,,,,,,,,,1,1,low,few,27,0-30,2,8,['Brighton Main Line'],Brighton Main Line,FALSE,TRUE,FALSE,single,FALSE,FALSE,SR040,27,0-30,FALSE,outer
+SR041,Hastings,HGS,,,,50.858288,0.57608,TRUE,,,,,,,,,,,,,,,2,2,medium,some,85.5,60-120,4,6,['East Coastway'],East Coastway,FALSE,TRUE,TRUE,single,TRUE,FALSE,SR041,85.5,60-120,FALSE,regional
+SR042,Havant,HAV,,,,50.854416,-0.982763,TRUE,,,,,,,,,,,,,,,1,1,low,few,31.5,30-60,2,8,"['West Coastway', 'Portsmouth Direct']",West Coastway,FALSE,TRUE,TRUE,single,TRUE,FALSE,SR042,31.5,30-60,FALSE,outer
+SR043,Haywards Heath,HHE,,,,51.00536,-0.105717,FALSE,,,,,,,,,,,,,,,1,1,low,few,13.5,0-30,2,8,['Brighton Main Line'],Brighton Main Line,FALSE,TRUE,FALSE,multiple,FALSE,FALSE,SR043,13.5,0-30,FALSE,inner
+SR044,Hedge End,HDE,,,,50.927773,-1.297056,FALSE,,,,,,,,,,,,,,,1,1,low,few,62,60-120,2,8,['Portsmouth Direct'],Portsmouth Direct,FALSE,TRUE,FALSE,multiple,FALSE,FALSE,SR044,62,60-120,FALSE,regional
+SR060,Hever,,,,,,,,,,,,,,,,,,,,,,,,,,65,,,,['Uckfield Branch'],Uckfield Branch,TRUE,FALSE,FALSE,single,FALSE,FALSE,SR060,65,,FALSE,regional
+SR045,High Brooms,HIB,,,,51.149609,0.277686,FALSE,,,,,,,,,,,,,,,1,1,low,few,49.5,30-60,2,8,['Uckfield Branch'],Uckfield Branch,TRUE,FALSE,FALSE,multiple,FALSE,FALSE,SR045,49.5,30-60,FALSE,commuter
+SR046,Hildenborough,HLB,,,,51.214451,0.226465,FALSE,,,,,,,,,,,,,,,1,1,low,few,40.5,30-60,2,8,['Southern Thameslink Branches'],Southern Thameslink Branches,FALSE,TRUE,FALSE,single,FALSE,FALSE,SR046,40.5,30-60,FALSE,commuter
+SR047,Hilsea,HLS,,,,50.828075,-1.058592,FALSE,,,,,,,,,,,,,,,1,1,low,few,49.5,30-60,2,8,['Portsmouth Direct'],Portsmouth Direct,FALSE,TRUE,FALSE,single,FALSE,FALSE,SR047,49.5,30-60,FALSE,commuter
+SR064,Holmwood,,,,,,,,,,,,,,,,,,,,,,,,,,70,,,,['Arun Valley'],Arun Valley,FALSE,TRUE,FALSE,single,FALSE,FALSE,SR064,70,,FALSE,regional
+SR048,Horley,HOR,,,,51.168137,-0.161994,FALSE,,,,,,,,,,,,,,,1,1,low,few,13.5,0-30,2,8,['Brighton Main Line'],Brighton Main Line,FALSE,TRUE,FALSE,single,FALSE,FALSE,SR048,13.5,0-30,FALSE,inner
+SR066,Horsham,,,,,,,,,,,,,,,,,,,,,,,,,,55,,,,['Arun Valley'],Arun Valley,FALSE,TRUE,FALSE,single,FALSE,FALSE,SR066,55,,FALSE,commuter
+SR049,Hove,HOV,,,,50.835514,-0.170824,FALSE,,,,,,,,,,,,,,,1,1,low,few,22.5,0-30,2,8,['West Coastway'],West Coastway,FALSE,TRUE,TRUE,single,FALSE,FALSE,SR049,22.5,0-30,FALSE,outer
+SR068,Hurst Green,,,,,,,,,,,,,,,,,,,,,,,,,,45,,,,"['East Grinstead Branch', 'Uckfield Branch']",East Grinstead Branch,TRUE,FALSE,FALSE,multiple,FALSE,FALSE,SR068,45,,FALSE,commuter
+SR050,Kensington Olympia,KPA,,,,51.497753,-0.210189,FALSE,,,,,,,,,,,,,,,1,1,low,few,13.5,0-30,2,8,['Southern Thameslink Branches'],Southern Thameslink Branches,FALSE,TRUE,FALSE,multiple,FALSE,FALSE,SR050,13.5,0-30,FALSE,inner
+SR051,Lancing,LAC,,,,50.827015,-0.323103,FALSE,,,,,,,,,,,,,,,1,1,low,few,27,0-30,2,8,['West Coastway'],West Coastway,FALSE,TRUE,TRUE,single,FALSE,FALSE,SR051,27,0-30,FALSE,outer
+SR052,Lewes,LWS,,,,50.870281,0.012455,FALSE,,,,,,,,,,,,,,,1,1,low,few,31.5,30-60,2,8,['East Coastway'],East Coastway,FALSE,TRUE,TRUE,single,FALSE,FALSE,SR052,31.5,30-60,FALSE,outer
+SR072,Lingfield,,,,,,,,,,,,,,,,,,,,,,,,,,50,,,,['East Grinstead Branch'],East Grinstead Branch,TRUE,FALSE,FALSE,single,FALSE,FALSE,SR072,50,,FALSE,commuter
+SR053,Littlehampton,LIT,,,,50.810226,-0.546547,FALSE,,,,,,,,,,,,,,,1,1,low,few,36,30-60,2,8,['West Coastway'],West Coastway,FALSE,TRUE,TRUE,single,FALSE,FALSE,SR053,36,30-60,FALSE,outer
+SR054,London Bridge,LBG,,,,51.505035,-0.085058,TRUE,,,,,,,,,,,,,,,1,1,low,few,0,,2,8,"['Thameslink Core', 'Southern Thameslink Branches']",Thameslink Core,FALSE,TRUE,FALSE,multiple,TRUE,FALSE,SR054,0,,FALSE,inner
+SR055,London Road (Brighton),LRB,,,,50.836773,-0.136696,FALSE,,,,,,,,,,,,,,,1,1,low,few,22.5,0-30,2,8,['Brighton Main Line'],Brighton Main Line,FALSE,TRUE,FALSE,multiple,FALSE,FALSE,SR055,22.5,0-30,FALSE,outer
+SR056,London Victoria,VIC,,,,51.4966,-0.1448,TRUE,,,,,,,,,,,,,,,2,2,medium,some,0,,4,6,"['Brighton Main Line', 'Portsmouth Direct']",Brighton Main Line,FALSE,TRUE,FALSE,multiple,TRUE,FALSE,SR056,0,,FALSE,inner
+SR057,London Waterloo,WAT,,,,51.501865,-0.111126,TRUE,,,,,,,,,,,,,,,1,1,low,few,0,,2,8,['Southern Thameslink Branches'],Southern Thameslink Branches,FALSE,TRUE,FALSE,multiple,TRUE,FALSE,SR057,0,,FALSE,inner
+SR058,Merstham,MHM,,,,51.264164,-0.149555,FALSE,,,,,,,,,,,,,,,1,1,low,few,22.5,0-30,2,8,['Brighton Main Line'],Brighton Main Line,FALSE,TRUE,FALSE,single,FALSE,FALSE,SR058,22.5,0-30,FALSE,outer
+SR059,Mitcham Eastfields,MTC,,,,51.407725,-0.154764,FALSE,,,,,,,,,,,,,,,1,1,low,few,31.5,30-60,2,8,['Sutton & Metro'],Sutton & Metro,FALSE,TRUE,FALSE,multiple,FALSE,FALSE,SR059,31.5,30-60,FALSE,outer
+SR060,Mitcham Junction,MIJ,,,,51.392887,-0.157308,FALSE,,,,,,,,,,,,,,,1,1,low,few,36,30-60,2,8,['Sutton & Metro'],Sutton & Metro,FALSE,TRUE,FALSE,multiple,FALSE,FALSE,SR060,36,30-60,FALSE,outer
+SR061,Moulsecoomb,MCB,,,,50.844616,-0.12076,FALSE,,,,,,,,,,,,,,,1,1,low,few,22.5,0-30,2,8,['East Coastway'],East Coastway,FALSE,TRUE,TRUE,single,FALSE,FALSE,SR061,22.5,0-30,FALSE,outer
+SR062,Norbury,NRB,,,,51.411236,-0.123492,FALSE,,,,,,,,,,,,,,,1,1,low,few,18,0-30,2,8,['Sutton & Metro'],Sutton & Metro,FALSE,TRUE,FALSE,single,FALSE,FALSE,SR062,18,0-30,FALSE,inner
+SR063,Normans Bay,NSB,,,,50.825382,0.389669,FALSE,,,,,,,,,,,,,,,1,1,low,few,63,60-120,2,8,['East Coastway'],East Coastway,FALSE,TRUE,TRUE,multiple,FALSE,FALSE,SR063,63,60-120,FALSE,regional
+SR084,Ockley,,,,,,,,,,,,,,,,,,,,,,,,,,65,,,,['Arun Valley'],Arun Valley,FALSE,TRUE,FALSE,single,FALSE,FALSE,SR084,65,,FALSE,regional
+SR064,Otford,OTF,,,,51.312141,0.196757,FALSE,,,,,,,,,,,,,,,1,1,low,few,22.5,0-30,2,8,['Southern Thameslink Branches'],Southern Thameslink Branches,FALSE,TRUE,FALSE,single,FALSE,FALSE,SR064,22.5,0-30,FALSE,outer
+SR086,Oxted,,,,,,,,,,,,,,,,,,,,,,,,,,40,,,,"['East Grinstead Branch', 'Uckfield Branch']",East Grinstead Branch,TRUE,FALSE,FALSE,single,FALSE,FALSE,SR086,40,,FALSE,outer
+SR065,Pevensey & Westham,PEV,,,,50.815899,0.325291,FALSE,,,,,,,,,,,,,,,1,1,low,few,58.5,30-60,2,8,['East Coastway'],East Coastway,FALSE,TRUE,TRUE,multiple,FALSE,FALSE,SR065,58.5,30-60,FALSE,commuter
+SR066,Polegate,PLG,,,,50.820934,0.251705,FALSE,,,,,,,,,,,,,,,1,1,low,few,45,30-60,2,8,['East Coastway'],East Coastway,FALSE,TRUE,TRUE,single,FALSE,FALSE,SR066,45,30-60,FALSE,commuter
+SR067,Portchester,PTC,,,,50.848389,-1.126361,FALSE,,,,,,,,,,,,,,,1,1,low,few,58.5,30-60,2,8,['Portsmouth Direct'],Portsmouth Direct,FALSE,TRUE,FALSE,single,FALSE,FALSE,SR067,58.5,30-60,FALSE,commuter
+SR068,Portslade,PLD,,,,50.836044,-0.204898,FALSE,,,,,,,,,,,,,,,1,1,low,few,27,0-30,2,8,['West Coastway'],West Coastway,FALSE,TRUE,TRUE,single,FALSE,FALSE,SR068,27,0-30,FALSE,outer
+SR069,Portsmouth & Southsea,PMS,,,,50.797756,-1.090417,FALSE,,,,,,,,,,,,,,,1,1,low,few,40.5,30-60,2,8,"['West Coastway', 'Portsmouth Direct']",West Coastway,FALSE,TRUE,TRUE,multiple,FALSE,FALSE,SR069,40.5,30-60,FALSE,commuter
+SR070,Portsmouth Harbour,PMH,,,,50.796097,-1.108895,TRUE,,,,,,,,,,,,,,,1,1,low,few,36,30-60,2,8,"['West Coastway', 'Portsmouth Direct']",West Coastway,FALSE,TRUE,TRUE,multiple,TRUE,FALSE,SR070,36,30-60,FALSE,outer
+SR071,Preston Park,PRP,,,,50.846054,-0.154787,FALSE,,,,,,,,,,,,,,,1,1,low,few,27,0-30,2,8,['Brighton Main Line'],Brighton Main Line,FALSE,TRUE,FALSE,multiple,FALSE,FALSE,SR071,27,0-30,FALSE,outer
+SR072,Purley,PUR,,,,51.337334,-0.113592,FALSE,,,,,,,,,,,,,,,1,1,low,few,13.5,0-30,2,8,['Brighton Main Line'],Brighton Main Line,FALSE,TRUE,FALSE,single,FALSE,FALSE,SR072,13.5,0-30,FALSE,inner
+SR073,Redhill,RDH,,,,51.240124,-0.164851,FALSE,,,,,,,,,,,,,,,1,1,low,few,27,0-30,2,8,['Brighton Main Line'],Brighton Main Line,FALSE,TRUE,FALSE,single,FALSE,FALSE,SR073,27,0-30,FALSE,outer
+SR074,Robertsbridge,RBR,,,,50.984726,0.469092,FALSE,,,,,,,,,,,,,,,1,1,low,few,76.5,60-120,2,8,['East Coastway'],East Coastway,FALSE,TRUE,TRUE,single,FALSE,FALSE,SR074,76.5,60-120,FALSE,regional
+SR075,Salfords,SAF,,,,51.201412,-0.162096,FALSE,,,,,,,,,,,,,,,1,1,low,few,18,0-30,2,8,['Brighton Main Line'],Brighton Main Line,FALSE,TRUE,FALSE,single,FALSE,FALSE,SR075,18,0-30,FALSE,inner
+SR076,Selhurst,SRS,,,,51.392704,-0.089759,FALSE,,,,,,,,,,,,,,,1,1,low,few,9,0-30,2,8,['Sutton & Metro'],Sutton & Metro,FALSE,TRUE,FALSE,single,FALSE,FALSE,SR076,9,0-30,FALSE,inner
+SR077,Sevenoaks,SEV,,,,51.27734,0.182193,FALSE,,,,,,,,,,,,,,,1,1,low,few,36,30-60,2,8,['Southern Thameslink Branches'],Southern Thameslink Branches,FALSE,TRUE,FALSE,single,FALSE,FALSE,SR077,36,30-60,FALSE,outer
+SR078,Shepherds Bush,SPB,,,,51.506,-0.218,TRUE,,,,,,,,,,,,,,,1,1,low,few,18,0-30,2,8,['Southern Thameslink Branches'],Southern Thameslink Branches,FALSE,TRUE,FALSE,multiple,TRUE,FALSE,SR078,18,0-30,FALSE,inner
+SR079,Shoreham (Kent),SEH,,,,51.332092,0.187665,FALSE,,,,,,,,,,,,,,,1,1,low,few,18,0-30,2,8,['Southern Thameslink Branches'],Southern Thameslink Branches,FALSE,TRUE,FALSE,multiple,FALSE,FALSE,SR079,18,0-30,FALSE,inner
+SR080,Shoreham-by-Sea,SSE,,,,50.834358,-0.271709,FALSE,,,,,,,,,,,,,,,1,1,low,few,31.5,30-60,2,8,['West Coastway'],West Coastway,FALSE,TRUE,TRUE,single,FALSE,FALSE,SR080,31.5,30-60,FALSE,outer
+SR081,South Croydon,SCY,,,,51.362194,-0.093903,FALSE,,,,,,,,,,,,,,,1,1,low,few,9,0-30,2,8,"['East Grinstead Branch', 'Uckfield Branch']",East Grinstead Branch,TRUE,FALSE,FALSE,multiple,FALSE,FALSE,SR081,9,0-30,FALSE,inner
+SR082,Southampton Central,SOU,,,,50.907742,-1.413983,TRUE,,,,,,,,,,,,,,,2,2,medium,some,53,30-60,4,6,['Portsmouth Direct'],Portsmouth Direct,FALSE,TRUE,FALSE,multiple,TRUE,FALSE,SR082,53,30-60,FALSE,commuter
+SR083,Southbourne,SOB,,,,50.848343,-0.907601,FALSE,,,,,,,,,,,,,,,1,1,low,few,40.5,30-60,2,8,['West Coastway'],West Coastway,FALSE,TRUE,TRUE,single,FALSE,FALSE,SR083,40.5,30-60,FALSE,commuter
+SR084,Southwick,SWK,,,,50.832928,-0.236254,FALSE,,,,,,,,,,,,,,,1,1,low,few,31.5,30-60,2,8,['West Coastway'],West Coastway,FALSE,TRUE,TRUE,single,FALSE,FALSE,SR084,31.5,30-60,FALSE,outer
+SR085,St Denys,SDN,,,,50.921997,-1.3882,FALSE,,,,,,,,,,,,,,,1,1,low,few,57.5,30-60,2,8,['Portsmouth Direct'],Portsmouth Direct,FALSE,TRUE,FALSE,multiple,FALSE,FALSE,SR085,57.5,30-60,FALSE,commuter
+SR086,St Leonards Warrior Square,SLQ,,,,50.855942,0.560326,FALSE,,,,,,,,,,,,,,,1,1,low,few,85.5,60-120,2,8,['East Coastway'],East Coastway,FALSE,TRUE,TRUE,multiple,FALSE,FALSE,SR086,85.5,60-120,FALSE,regional
+SR109,St Pancras International,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,"['Thameslink Core', 'Southern Thameslink Branches']",Thameslink Core,FALSE,TRUE,FALSE,multiple,FALSE,FALSE,SR109,0,,FALSE,inner
+SR087,Stonegate,SOG,,,,51.020184,0.364016,FALSE,,,,,,,,,,,,,,,1,1,low,few,67.5,60-120,2,8,['East Coastway'],East Coastway,FALSE,TRUE,TRUE,single,FALSE,FALSE,SR087,67.5,60-120,FALSE,regional
+SR088,Streatham,STE,,,,51.425755,-0.131535,FALSE,,,,,,,,,,,,,,,1,1,low,few,27,0-30,2,8,['Sutton & Metro'],Sutton & Metro,FALSE,TRUE,FALSE,single,FALSE,FALSE,SR088,27,0-30,FALSE,outer
+SR089,Streatham Common,SRC,,,,51.418629,-0.136136,FALSE,,,,,,,,,,,,,,,1,1,low,few,13.5,0-30,2,8,['Sutton & Metro'],Sutton & Metro,FALSE,TRUE,FALSE,multiple,FALSE,FALSE,SR089,13.5,0-30,FALSE,inner
+SR090,Streatham Hill,SRH,,,,51.43829,-0.128136,FALSE,,,,,,,,,,,,,,,1,1,low,few,13.5,0-30,2,8,['Sutton & Metro'],Sutton & Metro,FALSE,TRUE,FALSE,multiple,FALSE,FALSE,SR090,13.5,0-30,FALSE,inner
+SR091,Sutton,SUO,,,,51.360126,-0.190223,TRUE,,,,,,,,,,,,,,,1,1,low,few,49.5,30-60,2,8,['Sutton & Metro'],Sutton & Metro,FALSE,TRUE,FALSE,single,TRUE,FALSE,SR091,49.5,30-60,FALSE,commuter
+SR092,Swanley,SAY,,,,51.392727,0.16755,FALSE,,,,,,,,,,,,,,,1,1,low,few,4.5,0-30,2,8,['Southern Thameslink Branches'],Southern Thameslink Branches,FALSE,TRUE,FALSE,single,FALSE,FALSE,SR092,4.5,0-30,FALSE,inner
+SR093,Swanwick,SNW,,,,50.875427,-1.265151,FALSE,,,,,,,,,,,,,,,1,1,low,few,66.5,60-120,2,8,['Portsmouth Direct'],Portsmouth Direct,FALSE,TRUE,FALSE,single,FALSE,FALSE,SR093,66.5,60-120,FALSE,regional
+SR094,Thornton Heath,TTH,,,,51.399181,-0.100981,FALSE,,,,,,,,,,,,,,,1,1,low,few,13.5,0-30,2,8,['Sutton & Metro'],Sutton & Metro,FALSE,TRUE,FALSE,multiple,FALSE,FALSE,SR094,13.5,0-30,FALSE,inner
+SR095,Three Bridges,TBD,,,,51.116863,-0.161162,FALSE,,,,,,,,,,,,,,,1,1,low,few,13.5,0-30,2,8,['Brighton Main Line'],Brighton Main Line,FALSE,TRUE,FALSE,multiple,FALSE,FALSE,SR095,13.5,0-30,FALSE,inner
+SR096,Tonbridge,TON,,,,51.191132,0.269715,FALSE,,,,,,,,,,,,,,,1,1,low,few,45,30-60,2,8,['Southern Thameslink Branches'],Southern Thameslink Branches,FALSE,TRUE,FALSE,single,FALSE,FALSE,SR096,45,30-60,FALSE,commuter
+SR097,Tulse Hill,TUH,,,,51.439713,-0.10506,FALSE,,,,,,,,,,,,,,,1,1,low,few,22.5,0-30,2,8,['Sutton & Metro'],Sutton & Metro,FALSE,TRUE,FALSE,multiple,FALSE,FALSE,SR097,22.5,0-30,FALSE,outer
+SR098,Tunbridge Wells,TBW,,,,51.130119,0.262435,FALSE,,,,,,,,,,,,,,,1,1,low,few,54,30-60,2,8,['Uckfield Branch'],Uckfield Branch,TRUE,FALSE,FALSE,multiple,FALSE,FALSE,SR098,54,30-60,FALSE,commuter
+SR122,Uckfield,,,,,,,,,,,,,,,,,,,,,,,,,,85,,,,['Uckfield Branch'],Uckfield Branch,TRUE,FALSE,FALSE,single,FALSE,FALSE,SR122,85,,FALSE,regional
+SR123,Upper Warlingham,,,,,,,,,,,,,,,,,,,,,,,,,,40,,,,['Sutton & Metro'],Sutton & Metro,FALSE,TRUE,FALSE,multiple,FALSE,FALSE,SR123,40,,FALSE,outer
+SR099,Wadhurst,WAD,,,,51.07338,0.312483,FALSE,,,,,,,,,,,,,,,1,1,low,few,63,60-120,2,8,['Uckfield Branch'],Uckfield Branch,TRUE,FALSE,FALSE,single,FALSE,FALSE,SR099,63,60-120,FALSE,regional
+SR125,Wallington,,,,,,,,,,,,,,,,,,,,,,,,,,25,,,,['Sutton & Metro'],Sutton & Metro,FALSE,TRUE,FALSE,single,FALSE,FALSE,SR125,25,,FALSE,outer
+SR100,Wandsworth Common,WSW,,,,51.446072,-0.165239,FALSE,,,,,,,,,,,,,,,1,1,low,few,9,0-30,2,8,['Sutton & Metro'],Sutton & Metro,FALSE,TRUE,FALSE,multiple,FALSE,FALSE,SR100,9,0-30,FALSE,inner
+SR127,Warnham,,,,,,,,,,,,,,,,,,,,,,,,,,60,,,,['Arun Valley'],Arun Valley,FALSE,TRUE,FALSE,single,FALSE,FALSE,SR127,60,,FALSE,commuter
+SR101,West Brompton,WBP,,,,51.487289,-0.195265,FALSE,,,,,,,,,,,,,,,1,1,low,few,9,0-30,2,8,['Southern Thameslink Branches'],Southern Thameslink Branches,FALSE,TRUE,FALSE,multiple,FALSE,FALSE,SR101,9,0-30,FALSE,inner
+SR102,West Norwood,WNW,,,,51.431583,-0.102517,FALSE,,,,,,,,,,,,,,,1,1,low,few,18,0-30,2,8,['Sutton & Metro'],Sutton & Metro,FALSE,TRUE,FALSE,multiple,FALSE,FALSE,SR102,18,0-30,FALSE,inner
+SR103,West St Leonards,WLD,,,,50.85368,0.540303,FALSE,,,,,,,,,,,,,,,1,1,low,few,81,60-120,2,8,['East Coastway'],East Coastway,FALSE,TRUE,TRUE,multiple,FALSE,FALSE,SR103,81,60-120,FALSE,regional
+SR131,West Sutton,,,,,,,,,,,,,,,,,,,,,,,,,,30,,,,['Sutton & Metro'],Sutton & Metro,FALSE,TRUE,FALSE,multiple,FALSE,FALSE,SR131,30,,FALSE,outer
+SR104,West Worthing,WWO,,,,50.818111,-0.392983,FALSE,,,,,,,,,,,,,,,1,1,low,few,27,0-30,2,8,['West Coastway'],West Coastway,FALSE,TRUE,TRUE,multiple,FALSE,FALSE,SR104,27,0-30,FALSE,outer
+SR133,Whyteleafe,,,,,,,,,,,,,,,,,,,,,,,,,,35,,,,['Sutton & Metro'],Sutton & Metro,FALSE,TRUE,FALSE,single,FALSE,FALSE,SR133,35,,FALSE,outer
+SR105,Winchester,WIN,,,,51.067303,-1.320628,FALSE,,,,,,,,,,,,,,,1,1,low,few,48.5,30-60,2,8,['Portsmouth Direct'],Portsmouth Direct,FALSE,TRUE,FALSE,single,FALSE,FALSE,SR105,48.5,30-60,FALSE,commuter
+SR106,Wivelsfield,WVF,,,,50.964249,-0.121633,FALSE,,,,,,,,,,,,,,,1,1,low,few,18,0-30,2,8,['Brighton Main Line'],Brighton Main Line,FALSE,TRUE,FALSE,single,FALSE,FALSE,SR106,18,0-30,FALSE,inner
+SR136,Woldingham,,,,,,,,,,,,,,,,,,,,,,,,,,45,,,,['Sutton & Metro'],Sutton & Metro,FALSE,TRUE,FALSE,single,FALSE,FALSE,SR136,45,,FALSE,commuter
+SR107,Worthing,WRH,,,,50.818768,-0.375924,FALSE,,,,,,,,,,,,,,,1,1,low,few,22.5,0-30,2,8,['West Coastway'],West Coastway,FALSE,TRUE,TRUE,single,FALSE,FALSE,SR107,22.5,0-30,FALSE,outer

@@ -37,30 +37,30 @@ def main():
     print(f"\n=== Building {requested_network} ===")
     print(f"Network : {network}")
 
-    # Stage 1 - Master
+    # Stage 1
     build_master(config)
 
-    # Stage 2 - Memberships
+    # Stage 2
     print("Building network memberships...")
     generate_network_membership(config)
     print("Network memberships complete.")
 
-    # Stage 3 - Enrichment
+    # Stage 3
     stations = enrich(config)
 
     print("\nColumns returned from enrichment:")
     print(stations.columns.tolist())
 
-    # Stage 4 - JSON
+    # Stage 4
     build_json(config)
 
-    # Stage 5 - Analysis
-    analyse(network)
+    # Stage 5
+    analyse(config)
 
-    # Stage 6 - Clues
-    generate(network)
+    # Stage 6
+    generate(config)
 
-    # Stage 7 - Validation
+    # Stage 7
     validate(stations)
 
     print("\nBuild complete.")

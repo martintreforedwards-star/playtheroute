@@ -58,21 +58,12 @@ def analyse_station(name):
     }
 
 
-def analyse(network):
+def analyse(config):
 
-    data_root = Path("data")
+    network = config["network"]
+    network_dir = Path(config["data_root"])
 
-    network_dir = None
-    for p in data_root.iterdir():
-        if p.is_dir() and p.name.lower() == network.lower():
-            network_dir = p
-            network = p.name
-            break
-
-    if network_dir is None:
-        network_dir = data_root / network
-
-    input_file = network_dir / f"{network.lower()}.json"
+    input_file = Path(config["output"])
     output_dir = network_dir / "analysis"
 
     print(f"Analysis directory: {output_dir.resolve()}")
@@ -103,4 +94,6 @@ if __name__ == "__main__":
         print("python builder/analyser/analyse_network.py <network>")
         raise SystemExit
 
-    analyse(sys.argv[1])
+    from builder.config import load_config
+
+    analyse(load_config(sys.argv[1]))

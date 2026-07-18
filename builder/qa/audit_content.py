@@ -2,10 +2,9 @@
 Content audit.
 """
 
-from pathlib import Path
-
 import pandas as pd
 
+from builder.qa.paths import network_path
 from builder.qa.schema import CONTENT_SCHEMA
 
 
@@ -13,11 +12,10 @@ def audit_content(network, report):
 
     report.section("Content")
 
-    root = Path.cwd()
-    network_title = network.capitalize()
+    network_dir = network_path(network)
 
     enriched_csv = (
-        root / "data" / network_title / f"{network}_enriched.csv"
+        network_dir / f"{network}_enriched.csv"
     )
 
     if not enriched_csv.exists():
@@ -38,20 +36,22 @@ def audit_content(network, report):
         severity = rules["severity"]
 
         if field not in df.columns:
+
             if severity == "WARN":
                 report.warning(f"{field} column missing")
+            elif severity == "INFO":
+                report.info(f"{field} column missing")
             else:
                 report.fail(f"{field} column missing")
+
             continue
 
         complete = df[field].notna().sum()
 
-        percentage = (complete / total) * 100 if total else 0
-
         report.metric(
-    field,
-    complete,
-    total,
-    threshold,
-    severity,
-)
+            field,
+            complete,
+            total,
+            threshold,
+            severity,
+        )

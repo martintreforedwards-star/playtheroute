@@ -2,21 +2,19 @@
 Facts audit.
 """
 
-from pathlib import Path
 import json
+
+from builder.qa.paths import network_path
 
 
 def audit_facts(network, report):
 
     report.section("Facts")
 
-    root = Path.cwd()
-    network_title = network.capitalize()
+    network_dir = network_path(network)
 
     facts_file = (
-        root
-        / "data"
-        / network_title
+        network_dir
         / "analysis"
         / "station-facts.json"
     )
@@ -54,7 +52,7 @@ def audit_facts(network, report):
         else:
             text = str(value)
 
-        if str(text).strip():
+        if text.strip():
             populated += 1
 
     report.metric(

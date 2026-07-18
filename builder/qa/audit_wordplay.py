@@ -2,22 +2,19 @@
 Wordplay audit.
 """
 
-from pathlib import Path
-
 import json
+
+from builder.qa.paths import network_path
 
 
 def audit_wordplay(network, report):
 
     report.section("Wordplay")
 
-    root = Path.cwd()
-    network_title = network.capitalize()
+    network_dir = network_path(network)
 
     wordplay_file = (
-        root
-        / "data"
-        / network_title
+        network_dir
         / "analysis"
         / f"{network}_wordplay.json"
     )
@@ -26,8 +23,12 @@ def audit_wordplay(network, report):
         report.warning("Wordplay file not found")
         return
 
-    with open(wordplay_file, encoding="utf-8") as f:
-        data = json.load(f)
+    try:
+        with open(wordplay_file, encoding="utf-8") as f:
+            data = json.load(f)
+    except Exception as ex:
+        report.fail(f"Unable to read wordplay ({ex})")
+        return
 
     report.pass_check(f"Wordplay entries: {len(data)}")
 

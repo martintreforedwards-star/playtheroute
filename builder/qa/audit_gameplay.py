@@ -2,27 +2,30 @@
 Gameplay audit.
 """
 
-from pathlib import Path
-
 import pandas as pd
+
+from builder.qa.paths import network_path
 
 
 def audit_gameplay(network, report):
 
     report.section("Gameplay")
 
-    root = Path.cwd()
-    network_title = network.capitalize()
+    network_dir = network_path(network)
 
     enriched_csv = (
-        root / "data" / network_title / f"{network}_enriched.csv"
+        network_dir / f"{network}_enriched.csv"
     )
 
     if not enriched_csv.exists():
         report.fail("Enriched CSV missing")
         return
 
-    df = pd.read_csv(enriched_csv)
+    try:
+        df = pd.read_csv(enriched_csv)
+    except Exception as ex:
+        report.fail(f"Unable to read Enriched CSV ({ex})")
+        return
 
     report.pass_check(f"Stations: {len(df)}")
 
@@ -63,11 +66,11 @@ def audit_gameplay(network, report):
 
     if "service_count" in df.columns:
 
-        playable = (df["service_count"] > 0).sum()
+        serviced = (df["service_count"] > 0).sum()
 
         report.metric(
             "Stations with services",
-            playable,
+            serviced,
             len(df),
             100,
             "FAIL",

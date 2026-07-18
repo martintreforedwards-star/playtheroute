@@ -2,24 +2,23 @@
 Route audit.
 """
 
-from pathlib import Path
-
 import pandas as pd
+
+from builder.qa.paths import network_path
 
 
 def audit_routes(network, report):
 
     report.section("Routes")
 
-    root = Path.cwd()
-    network_title = network.capitalize()
+    network_dir = network_path(network)
 
     master_csv = (
-        root / "data" / network_title / f"{network}_master.csv"
+        network_dir / f"{network}_master.csv"
     )
 
     membership_csv = (
-        root / "data" / network_title / "route_membership.csv"
+        network_dir / "route_membership.csv"
     )
 
     if not master_csv.exists():
@@ -30,8 +29,12 @@ def audit_routes(network, report):
         report.fail("Route membership missing")
         return
 
-    master = pd.read_csv(master_csv)
-    membership = pd.read_csv(membership_csv)
+    try:
+        master = pd.read_csv(master_csv)
+        membership = pd.read_csv(membership_csv)
+    except Exception as ex:
+        report.fail(f"Unable to read route data ({ex})")
+        return
 
     report.pass_check(f"Master stations: {len(master)}")
     report.pass_check(f"Route memberships: {len(membership)}")
@@ -65,31 +68,44 @@ def audit_routes(network, report):
             f"{duplicates} duplicate route memberships"
         )
 
-    route_duplicates = membership.duplicated(
-        subset=["crs", "route_group"]
-    ).sum()
+    if "route_group" in membership.columns:
 
-    if route_duplicates == 0:
-        report.pass_check("No duplicate CRS/route_group pairs")
-    else:
-        report.fail(
-            f"{route_duplicates} duplicate CRS/route_group pairs"
+        route_duplicates = membership.duplicated(
+            subset=["crs", "route_group"]
+        ).sum()
+
+        if route_duplicates == 0:
+            report.pass_check(
+                "No duplicate CRS/route_group pairs"
+            )
+        else:
+            report.fail(
+                f"{route_duplicates} duplicate CRS/route_group pairs"
+            )
+
+        blank_routes = membership["route_group"].isna().sum()
+
+        if blank_routes == 0:
+            report.pass_check(
+                "All route_group values populated"
+            )
+        else:
+            report.fail(
+                f"{blank_routes} blank route_group values"
+            )
+
+        unique_routes = (
+            membership["route_group"]
+            .dropna()
+            .nunique()
         )
 
-    blank_routes = membership["route_group"].isna().sum()
+        if unique_routes > 0:
+            report.pass_check(
+                f"Unique route groups: {unique_routes}"
+            )
+        else:
+            report.fail("No route groups defined")
 
-    if blank_routes == 0:
-        report.pass_check("All route_group values populated")
     else:
-        report.fail(
-            f"{blank_routes} blank route_group values"
-        )
-
-    unique_routes = membership["route_group"].dropna().nunique()
-
-    if unique_routes > 0:
-        report.pass_check(
-            f"Unique route groups: {unique_routes}"
-        )
-    else:
-        report.fail("No route groups defined")
+        report.warning("route_group column missing")

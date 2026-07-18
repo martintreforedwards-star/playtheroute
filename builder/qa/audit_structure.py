@@ -6,6 +6,7 @@ from pathlib import Path
 
 import pandas as pd
 
+from builder.qa.paths import network_path
 from builder.qa.schema import (
     MASTER_SCHEMA,
     ENRICHED_SCHEMA,
@@ -46,9 +47,13 @@ def validate_csv(
     for column in required_columns:
 
         if column in df.columns:
-            report.pass_check(f"{description}: column '{column}' present")
+            report.pass_check(
+                f"{description}: column '{column}' present"
+            )
         else:
-            report.fail(f"{description}: column '{column}' missing")
+            report.fail(
+                f"{description}: column '{column}' missing"
+            )
 
     for column in unique_columns:
 
@@ -58,7 +63,9 @@ def validate_csv(
         duplicates = df[column].duplicated().sum()
 
         if duplicates == 0:
-            report.pass_check(f"{description}: '{column}' unique")
+            report.pass_check(
+                f"{description}: '{column}' unique"
+            )
         else:
             report.fail(
                 f"{description}: {duplicates} duplicate '{column}' values"
@@ -72,7 +79,9 @@ def validate_csv(
         blanks = df[column].isna().sum()
 
         if blanks == 0:
-            report.pass_check(f"{description}: '{column}' complete")
+            report.pass_check(
+                f"{description}: '{column}' complete"
+            )
         else:
             report.fail(
                 f"{description}: {blanks} blank '{column}' values"
@@ -82,15 +91,11 @@ def validate_csv(
 def audit_structure(network, report):
 
     root = Path.cwd()
-    network_title = network.capitalize()
+    network_dir = network_path(network)
 
-    master_csv = (
-        root / "data" / network_title / f"{network}_master.csv"
-    )
+    master_csv = network_dir / f"{network}_master.csv"
 
-    enriched_csv = (
-        root / "data" / network_title / f"{network}_enriched.csv"
-    )
+    enriched_csv = network_dir / f"{network}_enriched.csv"
 
     files = [
         (
@@ -106,11 +111,11 @@ def audit_structure(network, report):
             "Enriched CSV",
         ),
         (
-            root / "data" / network_title / f"{network}.json",
+            network_dir / f"{network}.json",
             "Network JSON",
         ),
         (
-            root / "data" / network_title / "route_membership.csv",
+            network_dir / "route_membership.csv",
             "Route membership",
         ),
         (

@@ -9,6 +9,8 @@ from builder.config import load_config
 from builder.assemble import build_master
 from builder.generate_network_membership import generate_network_membership
 from builder.enrichment import enrich
+from builder.enrichers.derive_terminus import derive_terminus
+from builder.import_reference_data import import_reference_data
 from builder.validators import validate
 from builder.json_builder import build_json
 from builder.analyser.analyse_network import analyse
@@ -37,30 +39,27 @@ def main():
     print(f"\n=== Building {requested_network} ===")
     print(f"Network : {network}")
 
-    # Stage 1
     build_master(config)
 
-    # Stage 2
     print("Building network memberships...")
     generate_network_membership(config)
     print("Network memberships complete.")
 
-    # Stage 3
     stations = enrich(config)
+
+    derive_terminus(config)
+
+    stations = import_reference_data(config, stations)
 
     print("\nColumns returned from enrichment:")
     print(stations.columns.tolist())
 
-    # Stage 4
     build_json(config)
 
-    # Stage 5
     analyse(config)
 
-    # Stage 6
     generate(config)
 
-    # Stage 7
     validate(stations)
 
     print("\nBuild complete.")

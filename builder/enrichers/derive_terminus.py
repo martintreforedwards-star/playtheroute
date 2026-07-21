@@ -5,10 +5,8 @@ import pandas as pd
 
 def derive_terminus(config):
     """
-    Populate the terminus flag from the Service Builder output.
-
-    service_patterns.csv already contains CRS codes in the
-    origin and destination columns.
+    Populate the terminus field with the destination terminus (CRS)
+    reachable from each station using service_patterns.csv.
     """
 
     network = config["network"]
@@ -28,39 +26,33 @@ def derive_terminus(config):
         print("WARN  Aggregated station file not found")
         return
 
-    patterns = pd.read_csv(patterns_file)
-    stations = pd.read_csv(stations_file)
+    patterns = pd.read_csv(patterns_file, dtype=str).fillna("")
+    stations = pd.read_csv(stations_file, dtype=str).fillna("")
 
-    termini = set()
+    station_lookup = {}
 
-    if "origin" in patterns.columns:
-        termini.update(
-            patterns["origin"]
-            .dropna()
-            .astype(str)
-            .str.strip()
-            .str.upper()
-        )
+    for _, row in patterns.iterrows():
 
-    if "destination" in patterns.columns:
-        termini.update(
-            patterns["destination"]
-            .dropna()
-            .astype(str)
-            .str.strip()
-            .str.upper()
-        )
+        destination = row["destination"].strip().upper()
+        stations_text = row["stations"].strip()
 
-    stations["terminus"] = (
-        stations["crs"]
-        .fillna("")
-        .astype(str)
-        .str.strip()
-        .str.upper()
-        .isin(termini)
+        if not destination or not stations_text:
+            continue
+
+        stations_on_path = [
+            s.strip().upper()
+            for s in stations_text.split("|")
+            if s.strip()
+        ]
+
+        for crs in stations_on_path:
+            station_lookup.setdefault(crs, set()).add(destination)
+
+    stations["terminus"] = stations["crs"].str.upper().map(
+        lambda crs: "|".join(sorted(station_lookup.get(crs, [])))
     )
 
     stations.to_csv(stations_file, index=False)
 
-    print(f"INFO  Termini identified : {len(termini)}")
+    print(f"INFO  Stations with termini : {len(station_lookup)}")
     print(f"PASS  Updated {stations_file}")

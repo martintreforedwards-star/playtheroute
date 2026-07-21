@@ -1,0 +1,207 @@
+station_name,crs,terminus
+Aldrington,AGT,False
+Ashtead,AHD,False
+Ashurst (Kent),AHS,False
+Amberley,AMY,False
+Angmering,ANG,False
+Appledore (Kent),APD,False
+Arundel,ARU,False
+Ashurst,ASH,False
+Barnham,BAA,True
+Balcombe,BAB,False
+Banstead,BAD,False
+Battersea Park,BAK,True
+Balham,BAL,True
+Battle,BAT,False
+Bat & Ball,BBL,False
+Bexhill,BEX,False
+Blackfriars,BFR,True
+Billingshurst,BIG,False
+Birkbeck,BIK,True
+Bishopstone (Sussex),BIP,False
+Belmont,BLM,False
+Bognor Regis,BOG,True
+Bosham,BOH,False
+Berwick (Sussex),BRK,False
+Basingstoke,BSK,True
+Brighton,BTN,True
+Burgess Hill,BUG,False
+Buxted,BXD,False
+Box Hill & Westhumble,BXW,False
+Caterham,CAT,True
+Cooksbridge,CBR,False
+Chichester,CCH,True
+Coulsdon Town,CDN,False
+Coulsdon South,CDS,False
+Cheam,CHE,False
+Christs Hospital,CHH,False
+Chipstead,CHP,False
+Clapham Junction,CLJ,False
+Collington,CLL,False
+Cooden Beach,COB,False
+Crowborough,COH,True
+Crawley,CRW,False
+Cosham,CSA,False
+Carshalton Beeches,CSB,False
+Carshalton,CSH,False
+City Thameslink,CTK,False
+Cowden (Kent),CWN,False
+Dorking (Main),DKG,True
+Dorking West,DKT,False
+Doleham,DLH,False
+Dormans,DMS,False
+Dunton Green,DNG,False
+Durrington-on-Sea,DUR,False
+Eastbourne,EBN,True
+Edenbridge (Kent),EBR,False
+Edenbridge Town,EBT,False
+East Croydon ,ECR,True
+East Dulwich,EDW,False
+East Grinstead,EGR,True
+Earlswood Surrey,ELD,False
+Emsworth,EMS,False
+Epsom Downs,EPD,True
+Epsom (Surrey),EPS,True
+Eridge,ERI,False
+Etchingham,ETC,False
+Ewell East,EWE,False
+East Worthing,EWR,False
+Eynsford,EYN,False
+Faygate,FGT,False
+Falmer,FMR,False
+Farningham Road,FNR,False
+Ford,FOD,False
+Fareham,FRM,True
+Frant,FRT,False
+Fishbourne (Sussex),FSB,False
+Fishersgate,FSG,False
+Fratton,FTN,True
+Goring-by-Sea,GBS,False
+Godstone,GDN,False
+Gipsy Hill,GIP,False
+Glynde,GLY,False
+Gatwick Airport,GTW,True
+Havant,HAV,True
+Hackbridge,HCB,False
+Hedge End,HDE,False
+Hever,HEV,False
+Hurst Green,HGD,False
+Hastings,HGS,True
+Haywards Heath,HHE,True
+High Brooms,HIB,False
+Hildenborough,HLB,False
+Holmwood,HLM,False
+Hilsea,HLS,False
+Hampden Park (Sussex),HMD,False
+Ham Street,HMT,False
+Horley,HOR,True
+Hove,HOV,True
+Horsham,HRH,True
+Hassocks,HSK,False
+Hurst Green,HUR,False
+Ifield,IFI,False
+Kenley,KLY,False
+Kingswood,KND,False
+Kensington Olympia,KPA,False
+Lancing,LAC,False
+London Bridge,LBG,False
+Lingfield,LFD,False
+Leatherhead,LHD,False
+Leigh (Kent),LIH,False
+Littlehampton,LIT,True
+London Road (Brighton),LRB,False
+Littlehaven,LVN,False
+Lewes,LWS,True
+Moulsecoomb,MCB,False
+Merstham,MHM,False
+Mitcham Junction,MIJ,False
+Mitcham Eastfields,MTC,False
+North Dulwich,NDL,False
+Norbury,NRB,False
+Normans Bay,NSB,False
+Nutfield,NUF,False
+Nutbourne,NUT,False
+Newhaven Harbour,NVH,True
+Newhaven Town,NVN,False
+Ockley,OCK,False
+Ockley,OLY,False
+Ore,ORE,True
+Otford,OTF,False
+Oxted,OXT,True
+Pevensey Bay,PEB,False
+Pevensey & Westham,PEV,False
+Penshurst,PHR,False
+Portslade,PLD,False
+Polegate,PLG,True
+Portsmouth Harbour,PMH,True
+Plumpton,PMP,True
+Peckham Rye,PMR,False
+Portsmouth & Southsea,PMS,True
+Preston Park,PRP,False
+Portchester,PTC,False
+Pulborough,PUL,False
+Purley Oaks,PUO,False
+Purley,PUR,True
+Queens Road (Peckham),QRP,False
+Robertsbridge,RBR,False
+Riddlesdown,RDD,False
+Redhill,RDH,True
+Reigate,REI,True
+Reedham (London),RHM,False
+Rye (Sussex),RYE,False
+Salfords (Surrey),SAF,False
+Swanley,SAY,True
+South Bermondsey,SBM,False
+South Croydon,SCY,False
+St Denys,SDN,False
+Southease,SEE,False
+Seaford Sussex,SEF,True
+Shoreham (Kent),SEH,False
+Sevenoaks,SEV,True
+St Leonards Warrior Square,SLQ,False
+Sanderstead,SNR,False
+Swanwick,SNW,False
+Southbourne,SOB,False
+Stonegate,SOG,False
+Southampton Central,SOU,True
+Shepherds Bush,SPB,True
+Streatham Common,SRC,False
+Streatham Hill,SRH,True
+Selhurst,SRS,True
+Shoreham-by-Sea,SSE,False
+Streatham (Greater London),STE,False
+St Pancras International,STP,True
+Sutton (London),SUO,True
+Southwick,SWK,False
+Tadworth,TAD,False
+Tattenham Corner,TAT,True
+Three Bridges,TBD,True
+Tunbridge Wells,TBW,True
+Three Oaks,TOK,False
+Tonbridge,TON,True
+Thornton Heath,TTH,False
+Tulse Hill,TUH,False
+Uckfield,UCK,True
+Upper Warlingham,UWL,False
+London Victoria,VIC,False
+Wadhurst,WAD,False
+London Waterloo,WAT,False
+Warblington,WBL,False
+West Brompton,WBP,True
+Waddon,WDO,False
+Whyteleafe South,WHS,False
+Whyteleafe,WHY,False
+Winchester,WIN,True
+West St Leonards,WLD,False
+Wallington,WLT,False
+Woodmansterne,WME,False
+Warnham,WNH,False
+West Norwood,WNW,False
+Woldingham,WOH,False
+Worthing,WRH,True
+Winchelsea,WSE,False
+West Sutton,WSU,False
+Wandsworth Common,WSW,True
+Wivelsfield,WVF,False
+West Worthing,WWO,True
+Farringdon,ZFD,False

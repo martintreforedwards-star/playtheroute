@@ -2,9 +2,17 @@ import csv
 from collections import defaultdict
 
 
-def build_routes(divergences):
+def build_routes(patterns, divergences):
 
     graph = defaultdict(set)
+
+    #
+    # Ensure every service pattern exists in the graph,
+    # even if it has no divergence.
+    #
+
+    for pattern in patterns:
+        graph[pattern["pattern_id"]]
 
     #
     # Build an undirected graph
@@ -23,9 +31,7 @@ def build_routes(divergences):
     #
 
     visited = set()
-
     routes = []
-
     route_number = 1
 
     for start in sorted(graph):
@@ -34,7 +40,6 @@ def build_routes(divergences):
             continue
 
         stack = [start]
-
         component = []
 
         visited.add(start)
@@ -42,7 +47,6 @@ def build_routes(divergences):
         while stack:
 
             node = stack.pop()
-
             component.append(node)
 
             for neighbour in graph[node]:
@@ -50,7 +54,6 @@ def build_routes(divergences):
                 if neighbour not in visited:
 
                     visited.add(neighbour)
-
                     stack.append(neighbour)
 
         component.sort()
@@ -58,14 +61,34 @@ def build_routes(divergences):
         routes.append({
 
             "route_id": f"R{route_number:05d}",
-
             "patterns": component,
-
             "pattern_count": len(component),
 
         })
 
         route_number += 1
+
+    #
+    # Validation
+    #
+
+    assigned_patterns = sum(
+        route["pattern_count"]
+        for route in routes
+    )
+
+    if assigned_patterns != len(patterns):
+
+        raise RuntimeError(
+            f"Route Builder Error: "
+            f"{assigned_patterns:,} of {len(patterns):,} "
+            f"service patterns were assigned to routes."
+        )
+
+    print(
+        f"✓ Assigned all {assigned_patterns:,} "
+        f"service patterns to {len(routes):,} routes."
+    )
 
     return routes
 

@@ -119,7 +119,7 @@ def main():
     print()
     print("Building candidate routes...")
 
-    routes = build_routes(divergences)
+    routes = build_routes(patterns, divergences)
 
     save_routes(routes)
 

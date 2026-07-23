@@ -1,364 +1,364 @@
-station_id,station_name,crs,operator,route,county,latitude,longitude,major_interchange,terminus,branch_junction,nearest_landmark,nearest_landmark_km,nearest_castle,nearest_castle_km,nearest_cathedral,nearest_cathedral_km,nearest_museum,nearest_museum_km,nearest_country_house,nearest_country_house_km,nearest_nature_reserve,nearest_nature_reserve_km,route_count,service_count,service_density,route_diversity_band,time_from_london,time_band,accessibility_score,difficulty_score,route_groups,region,is_interchange,is_terminus,word_count_band,is_branch_line,is_mainline,is_coastal,route_station_id,canonical_time_to_london,time_group,is_high_speed,distance_band
-SCR001,Aberdeen,ABD,Scotrail,,,57.143127,-2.097464,,,,,,,,,,,,,,,,1,,,single,,,,,['Aberdeen Line'],Aberdeen Line,False,False,single,False,True,False,SCR001,,,False,regional
-SCR002,Aberdour,AUR,Scotrail,,,56.054646,-3.300575,,,,,,,,,,,,,,,,0,,,single,,,,,[],,False,False,single,False,True,False,SCR002,,,False,regional
-SCR003,Achanalt,AAT,Scotrail,,,57.609921,-4.914243,,,,,,,,,,,,,,,,0,,,single,,,,,[],,False,False,single,False,True,False,SCR003,,,False,regional
-SCR004,Achnasheen,ACN,Scotrail,,,57.579205,-5.072421,,,,,,,,,,,,,,,,1,,,single,,,,,['Kyle Line'],Kyle Line,False,False,single,True,False,True,SCR004,,,False,regional
-SCR005,Achnashellach,ACH,Scotrail,,,57.482697,-5.333001,,,,,,,,,,,,,,,,1,,,single,,,,,['Kyle Line'],Kyle Line,False,False,single,True,False,True,SCR005,,,False,regional
-SCR006,Addiewell,ADW,Scotrail,,,55.843449,-3.60655,,,,,,,,,,,,,,,,0,,,single,,,,,[],,False,False,single,False,True,False,SCR006,,,False,regional
-SCR007,Airbles,AIR,Scotrail,,,55.782504,-3.994447,,,,,,,,,,,,,,,,1,,,single,,,,,['Lanark Line'],Lanark Line,False,False,single,True,False,False,SCR007,,,False,regional
-SCR008,Airdrie,ADR,Scotrail,,,55.864029,-3.982952,,,,,,,,,,,,,,,,0,,,single,,,,,[],,False,False,single,False,True,False,SCR008,,,False,regional
-SCR009,Alexandra Parade,AXP,Scotrail,,,55.863724,-4.211465,,,,,,,,,,,,,,,,0,,,single,,,,,[],,False,False,multiple,False,True,False,SCR009,,,False,regional
-SCR010,Alexandria,ALX,Scotrail,,,55.98513,-4.577534,,,,,,,,,,,,,,,,0,,,single,,,,,[],,False,False,single,False,True,False,SCR010,,,False,regional
-SCR011,Alloa,ALO,Scotrail,,,56.1179,-3.7872,,,,,,,,,,,,,,,,0,,,single,,,,,[],,False,False,single,False,True,False,SCR011,,,False,regional
-SCR012,Alness,ASS,Scotrail,,,57.694477,-4.249743,,,,,,,,,,,,,,,,1,,,single,,,,,['Far North Line'],Far North Line,False,False,single,True,False,True,SCR012,,,False,regional
-SCR013,Altnabreac,ABC,Scotrail,,,58.388439,-3.705279,,,,,,,,,,,,,,,,1,,,single,,,,,['Far North Line'],Far North Line,False,False,single,True,False,True,SCR013,,,False,regional
-SCR014,Anderston,AND,Scotrail,,,55.859924,-4.271969,,,,,,,,,,,,,,,,1,,,single,,,,,['Argyle Line'],Argyle Line,False,False,single,False,True,False,SCR014,,,False,regional
-SCR015,Annan,ANN,Scotrail,,,54.98386,-3.262603,,,,,,,,,,,,,,,,0,,,single,,,,,[],,False,False,single,False,True,False,SCR015,,,False,regional
-SCR016,Anniesland,ANL,Scotrail,,,55.889553,-4.321684,,,,,,,,,,,,,,,,1,,,single,,,,,['Argyle Line'],Argyle Line,False,False,single,False,True,False,SCR016,,,False,regional
-SCR017,Arbroath,ARB,Scotrail,,,56.559628,-2.588928,,,,,,,,,,,,,,,,1,,,single,,,,,['Aberdeen Line'],Aberdeen Line,False,False,single,False,True,False,SCR017,,,False,regional
-SCR018,Ardgay,ARD,Scotrail,,,57.881119,-4.362604,,,,,,,,,,,,,,,,1,,,single,,,,,['Far North Line'],Far North Line,False,False,single,True,False,True,SCR018,,,False,regional
-SCR019,Ardlui,AUI,Scotrail,,,56.302025,-4.721712,,,,,,,,,,,,,,,,0,,,single,,,,,[],,False,False,single,False,True,False,SCR019,,,False,regional
-SCR020,Ardrossan Harbour,ADS,Scotrail,,,55.640854,-4.823461,,,,,,,,,,,,,,,,1,,,single,,,,,['Ardrossan Branch'],Ardrossan Branch,False,False,multiple,True,False,True,SCR020,,,False,regional
-SCR021,Ardrossan South Beach,ASB,Scotrail,,,55.640495,-4.799593,,,,,,,,,,,,,,,,2,,,few,,,,,"['Largs Branch', 'Ardrossan Branch']",Largs Branch,False,False,multiple,True,False,True,SCR021,,,False,regional
-SCR022,Ardrossan Town,ADN,Scotrail,,,55.639313,-4.812212,,,,,,,,,,,,,,,,1,,,single,,,,,['Ardrossan Branch'],Ardrossan Branch,False,False,multiple,True,False,True,SCR022,,,False,regional
-SCR023,Argyle Street,AGS,Scotrail,,,55.855938,-4.244574,,,,,,,,,,,,,,,,1,,,single,,,,,['Argyle Line'],Argyle Line,False,False,multiple,False,True,False,SCR023,,,False,regional
-SCR024,Arisaig,ARG,Scotrail,,,56.912617,-5.839141,,,,,,,,,,,,,,,,1,,,single,,,,,['West Highland Line'],West Highland Line,False,False,single,False,True,True,SCR024,,,False,regional
-SCR025,Armadale,ARM,Scotrail,,,55.88639,-3.68504,,,,,,,,,,,,,,,,0,,,single,,,,,[],,False,False,single,False,True,False,SCR025,,,False,regional
-SCR026,Arrochar & Tarbet,ART,Scotrail,,,56.204021,-4.722822,,,,,,,,,,,,,,,,1,,,single,,,,,['West Highland Line'],West Highland Line,False,False,multiple,False,True,True,SCR026,,,False,regional
-SCR027,Ashfield,ASF,Scotrail,,,55.889214,-4.2433,,,,,,,,,,,,,,,,0,,,single,,,,,[],,False,False,single,False,True,False,SCR027,,,False,regional
-SCR028,Attadale,ATT,Scotrail,,,57.394871,-5.456549,,,,,,,,,,,,,,,,1,,,single,,,,,['Kyle Line'],Kyle Line,False,False,single,True,False,True,SCR028,,,False,regional
-SCR029,Auchinleck,AUK,Scotrail,,,55.47031,-4.295389,,,,,,,,,,,,,,,,0,,,single,,,,,[],,False,False,single,False,True,False,SCR029,,,False,regional
-SCR030,Aviemore,AVM,Scotrail,,,57.18914,-3.828348,,,,,,,,,,,,,,,,1,,,single,,,,,['Highland Main Line'],Highland Main Line,False,False,single,False,True,False,SCR030,,,False,regional
-SCR031,Ayr,AYR,Scotrail,,,55.458248,-4.626878,,,,,,,,,,,,,,,,2,,,few,,,,,"['Ayrshire Coast', 'Stranraer Line']",Ayrshire Coast,False,False,single,False,True,True,SCR031,,,False,regional
-SCR032,Baillieston,BIO,Scotrail,,,55.844761,-4.11454,,,,,,,,,,,,,,,,0,,,single,,,,,[],,False,False,single,False,True,False,SCR032,,,False,regional
-SCR033,Balloch Central,BHC,Scotrail,,,56.002983,-4.583539,,,,,,,,,,,,,,,,0,,,single,,,,,[],,False,False,multiple,False,True,False,SCR033,,,False,regional
-SCR034,Balmossie,BSI,Scotrail,,,56.475548,-2.83764,,,,,,,,,,,,,,,,0,,,single,,,,,[],,False,False,single,False,True,False,SCR034,,,False,regional
-SCR035,Banavie,BNV,Scotrail,,,56.84338,-5.095477,,,,,,,,,,,,,,,,1,,,single,,,,,['West Highland Line'],West Highland Line,False,False,single,False,True,True,SCR035,,,False,regional
-SCR036,Barassie,BSS,Scotrail,,,55.5611,-4.651181,,,,,,,,,,,,,,,,0,,,single,,,,,[],,False,False,single,False,True,False,SCR036,,,False,regional
-SCR037,Bargeddie,BGI,Scotrail,,,55.851776,-4.071789,,,,,,,,,,,,,,,,0,,,single,,,,,[],,False,False,single,False,True,False,SCR037,,,False,regional
-SCR038,Barnhill,BNL,Scotrail,,,55.877895,-4.223463,,,,,,,,,,,,,,,,0,,,single,,,,,[],,False,False,single,False,True,False,SCR038,,,False,regional
-SCR039,Barrhead,BRR,Scotrail,,,55.804535,-4.396411,,,,,,,,,,,,,,,,1,,,single,,,,,['Neilston Line'],Neilston Line,False,False,single,True,False,False,SCR039,,,False,regional
-SCR040,Barrhill,BRL,Scotrail,,,55.097031,-4.781834,,,,,,,,,,,,,,,,1,,,single,,,,,['Stranraer Line'],Stranraer Line,False,False,single,False,True,False,SCR040,,,False,regional
-SCR041,Barry Links,BYL,Scotrail,,,56.493206,-2.745444,,,,,,,,,,,,,,,,0,,,single,,,,,[],,False,False,multiple,False,True,False,SCR041,,,False,regional
-SCR042,Bathgate,BHG,Scotrail,,,55.898678,-3.644019,,,,,,,,,,,,,,,,0,,,single,,,,,[],,False,False,single,False,True,False,SCR042,,,False,regional
-SCR043,Bearsden,BRN,Scotrail,,,55.917202,-4.332945,,,,,,,,,,,,,,,,1,,,single,,,,,['Argyle Line'],Argyle Line,False,False,single,False,True,False,SCR043,,,False,regional
-SCR044,Beasdale,BSL,Scotrail,,,56.899624,-5.763864,,,,,,,,,,,,,,,,1,,,single,,,,,['West Highland Line'],West Highland Line,False,False,single,False,True,True,SCR044,,,False,regional
-SCR045,Beauly,BEL,Scotrail,,,57.478,-4.4698,,,,,,,,,,,,,,,,0,,,single,,,,,[],,False,False,single,False,True,False,SCR045,,,False,regional
-SCR046,Bellgrove,BLG,Scotrail,,,55.857182,-4.22547,,,,,,,,,,,,,,,,0,,,single,,,,,[],,False,False,single,False,True,False,SCR046,,,False,regional
-SCR047,Bellshill,BLH,Scotrail,,,55.816605,-4.025222,,,,,,,,,,,,,,,,1,,,single,,,,,['Shotts Line'],Shotts Line,False,False,single,False,True,False,SCR047,,,False,regional
-SCR048,Bishopbriggs,BBG,Scotrail,,,55.903927,-4.224958,,,,,,,,,,,,,,,,0,,,single,,,,,[],,False,False,single,False,True,False,SCR048,,,False,regional
-SCR049,Bishopton,BPT,Scotrail,,,55.902206,-4.501637,,,,,,,,,,,,,,,,1,,,single,,,,,['Inverclyde Line'],Inverclyde Line,False,False,single,False,True,True,SCR049,,,False,regional
-SCR050,Blackridge,BKR,Scotrail,,,55.88368,-3.75047,,,,,,,,,,,,,,,,0,,,single,,,,,[],,False,False,single,False,True,False,SCR050,,,False,regional
-SCR051,Blair Atholl,BLA,Scotrail,,,56.765614,-3.85025,,,,,,,,,,,,,,,,1,,,single,,,,,['Highland Main Line'],Highland Main Line,False,False,multiple,False,True,False,SCR051,,,False,regional
-SCR052,Blairhill,BAI,Scotrail,,,55.866653,-4.04221,,,,,,,,,,,,,,,,0,,,single,,,,,[],,False,False,single,False,True,False,SCR052,,,False,regional
-SCR053,Blantyre,BLT,Scotrail,,,55.7976,-4.086466,,,,,,,,,,,,,,,,1,,,single,,,,,['Argyle Line'],Argyle Line,False,False,single,False,True,False,SCR053,,,False,regional
-SCR054,Bogston,BGS,Scotrail,,,55.937267,-4.713676,,,,,,,,,,,,,,,,1,,,single,,,,,['Inverclyde Line'],Inverclyde Line,False,False,single,False,True,True,SCR054,,,False,regional
-SCR055,Bowling,BWG,Scotrail,,,55.931129,-4.493879,,,,,,,,,,,,,,,,0,,,single,,,,,[],,False,False,single,False,True,False,SCR055,,,False,regional
-SCR056,Branchton,BCN,Scotrail,,,55.940647,-4.803598,,,,,,,,,,,,,,,,1,,,single,,,,,['Wemyss Bay Branch'],Wemyss Bay Branch,False,False,single,False,True,False,SCR056,,,False,regional
-SCR057,Breich,BRC,Scotrail,,,55.827351,-3.668147,,,,,,,,,,,,,,,,0,,,single,,,,,[],,False,False,single,False,True,False,SCR057,,,False,regional
-SCR058,Bridge of Allan,BEA,Scotrail,,,56.157429,-3.956166,,,,,,,,,,,,,,,,0,,,single,,,,,[],,False,False,multiple,False,True,False,SCR058,,,False,regional
-SCR059,Bridge of Orchy,BRO,Scotrail,,,56.515926,-4.763048,,,,,,,,,,,,,,,,1,,,single,,,,,['West Highland Line'],West Highland Line,False,False,multiple,False,True,True,SCR059,,,False,regional
-SCR060,Bridgeton,BDG,Scotrail,,,55.849968,-4.226668,,,,,,,,,,,,,,,,0,,,single,,,,,[],,False,False,single,False,True,False,SCR060,,,False,regional
-SCR061,Brora,BRA,Scotrail,,,58.012657,-3.853251,,,,,,,,,,,,,,,,1,,,single,,,,,['Far North Line'],Far North Line,False,False,single,True,False,True,SCR061,,,False,regional
-SCR062,Broughty Ferry,BYF,Scotrail,,,56.467213,-2.873153,,,,,,,,,,,,,,,,0,,,single,,,,,[],,False,False,multiple,False,True,False,SCR062,,,False,regional
-SCR063,Brunstane,BSU,Scotrail,,,55.94143,-3.10064,,,,,,,,,,,,,,,,1,,,single,,,,,['Borders Railway'],Borders Railway,False,False,single,True,False,False,SCR063,,,False,regional
-SCR064,Burnside,BUI,Scotrail,,,55.817123,-4.204029,,,,,,,,,,,,,,,,1,,,single,,,,,['East Kilbride Line'],East Kilbride Line,False,False,single,False,True,False,SCR064,,,False,regional
-SCR065,Burntisland,BTS,Scotrail,,,56.057133,-3.233214,,,,,,,,,,,,,,,,0,,,single,,,,,[],,False,False,single,False,True,False,SCR065,,,False,regional
-SCR066,Busby,BUS,Scotrail,,,55.780109,-4.262551,,,,,,,,,,,,,,,,0,,,single,,,,,[],,False,False,single,False,True,False,SCR066,,,False,regional
-SCR067,Caldercruix,CAC,Scotrail,,,55.88791,-3.88978,,,,,,,,,,,,,,,,0,,,single,,,,,[],,False,False,single,False,True,False,SCR067,,,False,regional
-SCR068,Cambuslang,CBL,Scotrail,,,55.819458,-4.173839,,,,,,,,,,,,,,,,1,,,single,,,,,['Argyle Line'],Argyle Line,False,False,single,False,True,False,SCR068,,,False,regional
-SCR069,Camelon,CMO,Scotrail,,,56.006775,-3.817015,,,,,,,,,,,,,,,,0,,,single,,,,,[],,False,False,single,False,True,False,SCR069,,,False,regional
-SCR070,Cameron Bridge,CBX,Scotrail,,,56.189693,-3.046855,,,,,,,,,,,,,,,,0,,,single,,,,,[],,False,False,multiple,False,True,False,SCR070,,,False,regional
-SCR071,Cardenden,CDD,Scotrail,,,56.141308,-3.261651,,,,,,,,,,,,,,,,0,,,single,,,,,[],,False,False,single,False,True,False,SCR071,,,False,regional
-SCR072,Cardonald,CDO,Scotrail,,,55.853252,-4.340297,,,,,,,,,,,,,,,,0,,,single,,,,,[],,False,False,single,False,True,False,SCR072,,,False,regional
-SCR073,Cardross,CDR,Scotrail,,,55.960163,-4.652782,,,,,,,,,,,,,,,,0,,,single,,,,,[],,False,False,single,False,True,False,SCR073,,,False,regional
-SCR074,Carfin,CRF,Scotrail,,,55.806938,-3.956112,,,,,,,,,,,,,,,,0,,,single,,,,,[],,False,False,single,False,True,False,SCR074,,,False,regional
-SCR075,Carluke,CLU,Scotrail,,,55.730408,-3.848761,,,,,,,,,,,,,,,,1,,,single,,,,,['Lanark Line'],Lanark Line,False,False,single,True,False,False,SCR075,,,False,regional
-SCR076,Carmyle,CML,Scotrail,,,55.834053,-4.161873,,,,,,,,,,,,,,,,0,,,single,,,,,[],,False,False,single,False,True,False,SCR076,,,False,regional
-SCR077,Carnoustie,CAN,Scotrail,,,56.500618,-2.7066,,,,,,,,,,,,,,,,0,,,single,,,,,[],,False,False,single,False,True,False,SCR077,,,False,regional
-SCR078,Carntyne,CAY,Scotrail,,,55.854412,-4.17898,,,,,,,,,,,,,,,,0,,,single,,,,,[],,False,False,single,False,True,False,SCR078,,,False,regional
-SCR079,Carrbridge,CAG,Scotrail,,,57.279873,-3.829541,,,,,,,,,,,,,,,,1,,,single,,,,,['Highland Main Line'],Highland Main Line,False,False,single,False,True,False,SCR079,,,False,regional
-SCR080,Carstairs,CRS,Scotrail,,,55.69075,-3.668696,,,,,,,,,,,,,,,,1,,,single,,,,,['Carstairs Corridor'],Carstairs Corridor,False,False,single,False,True,False,SCR080,,,False,regional
-SCR081,Cartsdyke,CDY,Scotrail,,,55.942261,-4.731633,,,,,,,,,,,,,,,,1,,,single,,,,,['Inverclyde Line'],Inverclyde Line,False,False,single,False,True,True,SCR081,,,False,regional
-SCR082,Cathcart,CCT,Scotrail,,,55.817879,-4.261552,,,,,,,,,,,,,,,,1,,,single,,,,,['Cathcart Circle'],Cathcart Circle,False,False,single,False,True,False,SCR082,,,False,regional
-SCR083,Charing Cross (Glasgow),CHC,Scotrail,,,55.865345,-4.270689,,,,,,,,,,,,,,,,0,,,single,,,,,[],,False,False,multiple,False,True,False,SCR083,,,False,regional
-SCR084,Chatelherault,CTE,Scotrail,,,55.76521,-4.00466,,,,,,,,,,,,,,,,0,,,single,,,,,[],,False,False,single,False,True,False,SCR084,,,False,regional
-SCR085,Clarkston,CKS,Scotrail,,,55.789753,-4.275865,,,,,,,,,,,,,,,,0,,,single,,,,,[],,False,False,single,False,True,False,SCR085,,,False,regional
-SCR086,Cleland,CEA,Scotrail,,,55.804073,-3.909695,,,,,,,,,,,,,,,,0,,,single,,,,,[],,False,False,single,False,True,False,SCR086,,,False,regional
-SCR087,Clydebank,CYK,Scotrail,,,55.900562,-4.403927,,,,,,,,,,,,,,,,0,,,single,,,,,[],,False,False,single,False,True,False,SCR087,,,False,regional
-SCR088,Coatbridge Central,CBC,Scotrail,,,55.863213,-4.032443,,,,,,,,,,,,,,,,0,,,single,,,,,[],,False,False,multiple,False,True,False,SCR088,,,False,regional
-SCR089,Coatbridge Sunnyside,CBS,Scotrail,,,55.866886,-4.027847,,,,,,,,,,,,,,,,0,,,single,,,,,[],,False,False,multiple,False,True,False,SCR089,,,False,regional
-SCR090,Coatdyke,COA,Scotrail,,,55.864567,-4.005343,,,,,,,,,,,,,,,,0,,,single,,,,,[],,False,False,single,False,True,False,SCR090,,,False,regional
-SCR091,Connel Ferry,CON,Scotrail,,,56.451981,-5.384973,,,,,,,,,,,,,,,,1,,,single,,,,,['Oban Branch'],Oban Branch,False,False,multiple,True,False,False,SCR091,,,False,regional
-SCR092,Conon Bridge,CBD,Scotrail,,,57.5617,-4.4404,,,,,,,,,,,,,,,,0,,,single,,,,,[],,False,False,multiple,False,True,False,SCR092,,,False,regional
-SCR093,Corkerhill,CKH,Scotrail,,,55.836494,-4.323322,,,,,,,,,,,,,,,,0,,,single,,,,,[],,False,False,single,False,True,False,SCR093,,,False,regional
-SCR094,Corpach,CPA,Scotrail,,,56.842724,-5.121662,,,,,,,,,,,,,,,,1,,,single,,,,,['West Highland Line'],West Highland Line,False,False,single,False,True,True,SCR094,,,False,regional
-SCR095,Corrour,CRR,Scotrail,,,56.760181,-4.690966,,,,,,,,,,,,,,,,1,,,single,,,,,['West Highland Line'],West Highland Line,False,False,single,False,True,True,SCR095,,,False,regional
-SCR096,Cowdenbeath,COW,Scotrail,,,56.111679,-3.344314,,,,,,,,,,,,,,,,1,,,single,,,,,['Fife Circle'],Fife Circle,False,False,single,False,True,False,SCR096,,,False,regional
-SCR097,Craigendoran,CGD,Scotrail,,,55.99485,-4.711291,,,,,,,,,,,,,,,,0,,,single,,,,,[],,False,False,single,False,True,False,SCR097,,,False,regional
-SCR098,Crianlarich,CNR,Scotrail,,,56.389652,-4.617778,,,,,,,,,,,,,,,,2,,,few,,,,,"['West Highland Line', 'Oban Branch']",West Highland Line,False,False,single,True,False,True,SCR098,,,False,regional
-SCR099,Croftfoot,CFF,Scotrail,,,55.818455,-4.229643,,,,,,,,,,,,,,,,1,,,single,,,,,['East Kilbride Line'],East Kilbride Line,False,False,single,False,True,False,SCR099,,,False,regional
-SCR100,Crookston,CKT,Scotrail,,,55.84388,-4.36049,,,,,,,,,,,,,,,,0,,,single,,,,,[],,False,False,single,False,True,False,SCR100,,,False,regional
-SCR101,Crosshill,COI,Scotrail,,,55.833225,-4.257648,,,,,,,,,,,,,,,,1,,,single,,,,,['East Kilbride Line'],East Kilbride Line,False,False,single,False,True,False,SCR101,,,False,regional
-SCR102,Crossmyloof,CMY,Scotrail,,,55.833626,-4.284813,,,,,,,,,,,,,,,,1,,,single,,,,,['Cathcart Circle'],Cathcart Circle,False,False,single,False,True,False,SCR102,,,False,regional
-SCR103,Croy,CRO,Scotrail,,,55.955734,-4.035697,,,,,,,,,,,,,,,,1,,,single,,,,,['Edinburgh–Glasgow Main Line'],Edinburgh–Glasgow Main Line,False,False,single,False,True,False,SCR103,,,False,regional
-SCR104,Culrain,CUA,Scotrail,,,57.919842,-4.405676,,,,,,,,,,,,,,,,0,,,single,,,,,[],,False,False,single,False,True,False,SCR104,,,False,regional
-SCR105,Cumbernauld,CUB,Scotrail,,,55.941326,-3.982089,,,,,,,,,,,,,,,,0,,,single,,,,,[],,False,False,single,False,True,False,SCR105,,,False,regional
-SCR106,Cupar,CUP,Scotrail,,,56.317043,-3.008772,,,,,,,,,,,,,,,,0,,,single,,,,,[],,False,False,single,False,True,False,SCR106,,,False,regional
-SCR107,Curriehill,CUH,Scotrail,,,55.901703,-3.317849,,,,,,,,,,,,,,,,0,,,single,,,,,[],,False,False,single,False,True,False,SCR107,,,False,regional
-SCR108,Dalgety Bay,DAG,Scotrail,,,56.044178,-3.354809,,,,,,,,,,,,,,,,0,,,single,,,,,[],,False,False,multiple,False,True,False,SCR108,,,False,regional
-SCR109,Dalmally,DAL,Scotrail,,,56.400272,-4.9832,,,,,,,,,,,,,,,,1,,,single,,,,,['Oban Branch'],Oban Branch,False,False,single,True,False,False,SCR109,,,False,regional
-SCR110,Dalmarnock,DAK,Scotrail,,,55.839371,-4.21647,,,,,,,,,,,,,,,,1,,,single,,,,,['Argyle Line'],Argyle Line,False,False,single,False,True,False,SCR110,,,False,regional
-SCR111,Dalmeny,DAM,Scotrail,,,55.986362,-3.381645,,,,,,,,,,,,,,,,0,,,single,,,,,[],,False,False,single,False,True,False,SCR111,,,False,regional
-SCR112,Dalmuir,DMR,Scotrail,,,55.911793,-4.427038,,,,,,,,,,,,,,,,0,,,single,,,,,[],,False,False,single,False,True,False,SCR112,,,False,regional
-SCR113,Dalreoch,DLR,Scotrail,,,55.947365,-4.578226,,,,,,,,,,,,,,,,0,,,single,,,,,[],,False,False,single,False,True,False,SCR113,,,False,regional
-SCR114,Dalry,DLY,Scotrail,,,55.705395,-4.711899,,,,,,,,,,,,,,,,0,,,single,,,,,[],,False,False,single,False,True,False,SCR114,,,False,regional
-SCR115,Dalwhinnie,DLW,Scotrail,,,56.934334,-4.246498,,,,,,,,,,,,,,,,1,,,single,,,,,['Highland Main Line'],Highland Main Line,False,False,single,False,True,False,SCR115,,,False,regional
-SCR116,Dingwall,DIN,Scotrail,,,57.594238,-4.422611,,,,,,,,,,,,,,,,2,,,few,,,,,"['Kyle Line', 'Far North Line']",Kyle Line,False,False,single,True,False,True,SCR116,,,False,regional
-SCR117,Drem,DRM,Scotrail,,,56.005981,-2.785752,,,,,,,,,,,,,,,,0,,,single,,,,,[],,False,False,single,False,True,False,SCR117,,,False,regional
-SCR118,Drumchapel,DMC,Scotrail,,,55.904926,-4.364204,,,,,,,,,,,,,,,,0,,,single,,,,,[],,False,False,single,False,True,False,SCR118,,,False,regional
-SCR119,Drumfrochar,DFR,Scotrail,,,55.941292,-4.774822,,,,,,,,,,,,,,,,0,,,single,,,,,[],,False,False,single,False,True,False,SCR119,,,False,regional
-SCR120,Drumgelloch,DRU,Scotrail,,,55.867233,-3.95114,,,,,,,,,,,,,,,,0,,,single,,,,,[],,False,False,single,False,True,False,SCR120,,,False,regional
-SCR121,Drumry,DMY,Scotrail,,,55.904495,-4.386583,,,,,,,,,,,,,,,,0,,,single,,,,,[],,False,False,single,False,True,False,SCR121,,,False,regional
-SCR122,Duirinish,DRN,Scotrail,,,57.319847,-5.692103,,,,,,,,,,,,,,,,1,,,single,,,,,['Kyle Line'],Kyle Line,False,False,single,True,False,True,SCR122,,,False,regional
-SCR123,Duke Street,DST,Scotrail,,,55.859207,-4.212814,,,,,,,,,,,,,,,,0,,,single,,,,,[],,False,False,multiple,False,True,False,SCR123,,,False,regional
-SCR124,Dumbarton Central,DBC,Scotrail,,,55.946705,-4.56697,,,,,,,,,,,,,,,,0,,,single,,,,,[],,False,False,multiple,False,True,False,SCR124,,,False,regional
-SCR125,Dumbarton East,DBE,Scotrail,,,55.942478,-4.55387,,,,,,,,,,,,,,,,0,,,single,,,,,[],,False,False,multiple,False,True,False,SCR125,,,False,regional
-SCR126,Dumbreck,DUM,Scotrail,,,55.841255,-4.309216,,,,,,,,,,,,,,,,0,,,single,,,,,[],,False,False,single,False,True,False,SCR126,,,False,regional
-SCR127,Dumfries,DMF,Scotrail,,,55.072395,-3.605261,,,,,,,,,,,,,,,,0,,,single,,,,,[],,False,False,single,False,True,False,SCR127,,,False,regional
-SCR128,Dunbar,DUN,Scotrail,,,55.998428,-2.514625,,,,,,,,,,,,,,,,0,,,single,,,,,[],,False,False,single,False,True,False,SCR128,,,False,regional
-SCR129,Dunblane,DBL,Scotrail,,,56.186001,-3.967296,,,,,,,,,,,,,,,,0,,,single,,,,,[],,False,False,single,False,True,False,SCR129,,,False,regional
-SCR130,Duncraig,DCG,Scotrail,,,57.336727,-5.637282,,,,,,,,,,,,,,,,1,,,single,,,,,['Kyle Line'],Kyle Line,False,False,single,True,False,True,SCR130,,,False,regional
-SCR131,Dundee,DEE,Scotrail,,,56.456669,-2.970576,,,,,,,,,,,,,,,,1,,,single,,,,,['Aberdeen Line'],Aberdeen Line,False,False,single,False,True,False,SCR131,,,False,regional
-SCR132,Dunfermline City,DFE,Scotrail,,,56.068233,-3.452033,,,,,,,,,,,,,,,,1,,,single,,,,,['Fife Circle'],Fife Circle,False,False,multiple,False,True,False,SCR132,,,False,regional
-SCR133,Dunfermline Queen Margaret,DFL,Scotrail,,,56.080706,-3.42164,,,,,,,,,,,,,,,,0,,,single,,,,,[],,False,False,multiple,False,True,False,SCR133,,,False,regional
-SCR134,Dunkeld & Birnam,DKD,Scotrail,,,56.557301,-3.578097,,,,,,,,,,,,,,,,0,,,single,,,,,[],,False,False,multiple,False,True,False,SCR134,,,False,regional
-SCR135,Dunlop,DNL,Scotrail,,,55.711926,-4.532435,,,,,,,,,,,,,,,,0,,,single,,,,,[],,False,False,single,False,True,False,SCR135,,,False,regional
-SCR136,Dunrobin Castle,DNO,Scotrail,,,57.986111,-3.946595,,,,,,,,,,,,,,,,1,,,single,,,,,['Far North Line'],Far North Line,False,False,multiple,True,False,True,SCR136,,,False,regional
-SCR137,Dyce,DYC,Scotrail,,,57.205002,-2.191978,,,,,,,,,,,,,,,,0,,,single,,,,,[],,False,False,single,False,True,False,SCR137,,,False,regional
-SCR138,East Kilbride,EKL,Scotrail,,,55.765388,-4.18199,,,,,,,,,,,,,,,,1,,,single,,,,,['East Kilbride Line'],East Kilbride Line,False,False,multiple,False,True,False,SCR138,,,False,regional
-SCR139,East Linton,ELT,Scotrail,,,55.9856,-2.6579,,,,,,,,,,,,,,,,0,,,single,,,,,[],,False,False,multiple,False,True,False,SCR139,,,False,regional
-SCR140,Easterhouse,EST,Scotrail,,,55.860157,-4.107389,,,,,,,,,,,,,,,,0,,,single,,,,,[],,False,False,single,False,True,False,SCR140,,,False,regional
-SCR141,Edinburgh Gateway,EGY,Scotrail,,,55.941,-3.32,,,,,,,,,,,,,,,,0,,,single,,,,,[],,False,False,multiple,False,True,False,SCR141,,,False,regional
-SCR142,Edinburgh Park,EDP,Scotrail,,,55.927615,-3.307829,,,,,,,,,,,,,,,,0,,,single,,,,,[],,False,False,multiple,False,True,False,SCR142,,,False,regional
-SCR143,Edinburgh Waverley,EDB,Scotrail,,,55.952442,-3.188236,,,,,,,,,,,,,,,,6,,,many,,,,,"['Edinburgh–Glasgow Main Line', 'Shotts Line', 'Carstairs Corridor', 'Aberdeen Line', 'Fife Circle', 'Borders Railway']",Edinburgh–Glasgow Main Line,False,False,multiple,True,False,False,SCR143,,,False,regional
-SCR144,Elgin,ELG,Scotrail,,,57.64299,-3.31163,,,,,,,,,,,,,,,,0,,,single,,,,,[],,False,False,single,False,True,False,SCR144,,,False,regional
-SCR145,Eskbank,EKB,Scotrail,,,55.88956,-3.07845,,,,,,,,,,,,,,,,1,,,single,,,,,['Borders Railway'],Borders Railway,False,False,single,True,False,False,SCR145,,,False,regional
-SCR146,Exhibition Centre,EXG,Scotrail,,,55.860619,-4.283207,,,,,,,,,,,,,,,,1,,,single,,,,,['Argyle Line'],Argyle Line,False,False,multiple,False,True,False,SCR146,,,False,regional
-SCR147,Fairlie,FRL,Scotrail,,,55.752514,-4.853834,,,,,,,,,,,,,,,,1,,,single,,,,,['Largs Branch'],Largs Branch,False,False,single,True,False,True,SCR147,,,False,regional
-SCR148,Falkirk Grahamston,FKG,Scotrail,,,56.002735,-3.786359,,,,,,,,,,,,,,,,0,,,single,,,,,[],,False,False,multiple,False,True,False,SCR148,,,False,regional
-SCR149,Falkirk High,FKK,Scotrail,,,55.991863,-3.792276,,,,,,,,,,,,,,,,1,,,single,,,,,['Edinburgh–Glasgow Main Line'],Edinburgh–Glasgow Main Line,False,False,multiple,False,True,False,SCR149,,,False,regional
-SCR150,Falls of Cruachan,FOC,Scotrail,,,56.386242,-5.114992,,,,,,,,,,,,,,,,1,,,single,,,,,['Oban Branch'],Oban Branch,False,False,multiple,True,False,False,SCR150,,,False,regional
-SCR151,Fauldhouse,FLD,Scotrail,,,55.822163,-3.719006,,,,,,,,,,,,,,,,0,,,single,,,,,[],,False,False,single,False,True,False,SCR151,,,False,regional
-SCR152,Fearn,FRN,Scotrail,,,57.777828,-3.994245,,,,,,,,,,,,,,,,1,,,single,,,,,['Far North Line'],Far North Line,False,False,single,True,False,True,SCR152,,,False,regional
-SCR153,Forres,FOR,Scotrail,,,57.609661,-3.62847,,,,,,,,,,,,,,,,0,,,single,,,,,[],,False,False,single,False,True,False,SCR153,,,False,regional
-SCR154,Forsinard,FRS,Scotrail,,,58.356998,-3.896903,,,,,,,,,,,,,,,,1,,,single,,,,,['Far North Line'],Far North Line,False,False,single,True,False,True,SCR154,,,False,regional
-SCR155,Fort Matilda,FTM,Scotrail,,,55.958809,-4.7953,,,,,,,,,,,,,,,,0,,,single,,,,,[],,False,False,multiple,False,True,False,SCR155,,,False,regional
-SCR156,Fort William,FTW,Scotrail,,,56.820625,-5.106721,,,,,,,,,,,,,,,,1,,,single,,,,,['West Highland Line'],West Highland Line,False,False,multiple,False,True,True,SCR156,,,False,regional
-SCR157,Galashiels,GAL,Scotrail,,,55.610426,-2.809693,,,,,,,,,,,,,,,,1,,,single,,,,,['Borders Railway'],Borders Railway,False,False,single,True,False,False,SCR157,,,False,regional
-SCR158,Garelochhead,GCH,Scotrail,,,56.079449,-4.826544,,,,,,,,,,,,,,,,0,,,single,,,,,[],,False,False,single,False,True,False,SCR158,,,False,regional
-SCR159,Garrowhill,GAR,Scotrail,,,55.855286,-4.129497,,,,,,,,,,,,,,,,0,,,single,,,,,[],,False,False,single,False,True,False,SCR159,,,False,regional
-SCR160,Garscadden,GRS,Scotrail,,,55.88784,-4.364757,,,,,,,,,,,,,,,,0,,,single,,,,,[],,False,False,single,False,True,False,SCR160,,,False,regional
-SCR161,Gartcosh,GRH,Scotrail,,,55.885,-4.078,,,,,,,,,,,,,,,,0,,,single,,,,,[],,False,False,single,False,True,False,SCR161,,,False,regional
-SCR162,Garve,GVE,Scotrail,,,57.613129,-4.688429,,,,,,,,,,,,,,,,1,,,single,,,,,['Kyle Line'],Kyle Line,False,False,single,True,False,True,SCR162,,,False,regional
-SCR163,Georgemas Junction,GGJ,Scotrail,,,58.513721,-3.45212,,,,,,,,,,,,,,,,1,,,single,,,,,['Far North Line'],Far North Line,False,False,multiple,True,False,True,SCR163,,,False,regional
-SCR164,Giffnock,GFN,Scotrail,,,55.804688,-4.294289,,,,,,,,,,,,,,,,0,,,single,,,,,[],,False,False,single,False,True,False,SCR164,,,False,regional
-SCR165,Gilshochill,GSC,Scotrail,,,55.897295,-4.28201,,,,,,,,,,,,,,,,0,,,single,,,,,[],,False,False,single,False,True,False,SCR165,,,False,regional
-SCR166,Girvan,GIR,Scotrail,,,55.246517,-4.848927,,,,,,,,,,,,,,,,1,,,single,,,,,['Stranraer Line'],Stranraer Line,False,False,single,False,True,False,SCR166,,,False,regional
-SCR167,Glasgow Central,GLC,Scotrail,,,55.860157,-4.259208,,,,,,,,,,,,,,,,9,,,many,,,,,"['Shotts Line', 'Carstairs Corridor', 'Ayrshire Coast', 'Inverclyde Line', 'Cathcart Circle', 'Cathcart Circle', 'Neilston Line', 'East Kilbride Line', 'Argyle Line']",Shotts Line,False,False,multiple,True,False,True,SCR167,,,False,regional
-SCR168,Glasgow Queen Street,GLQ,Scotrail,,,55.863003,-4.251385,,,,,,,,,,,,,,,,2,,,few,,,,,"['Edinburgh–Glasgow Main Line', 'West Highland Line']",Edinburgh–Glasgow Main Line,False,False,multiple,False,True,True,SCR168,,,False,regional
-SCR169,Gleneagles,GLE,Scotrail,,,56.274902,-3.7312,,,,,,,,,,,,,,,,0,,,single,,,,,[],,False,False,single,False,True,False,SCR169,,,False,regional
-SCR170,Glenfinnan,GLF,Scotrail,,,56.872753,-5.449219,,,,,,,,,,,,,,,,1,,,single,,,,,['West Highland Line'],West Highland Line,False,False,single,False,True,True,SCR170,,,False,regional
-SCR171,Glengarnock,GLG,Scotrail,,,55.738579,-4.674364,,,,,,,,,,,,,,,,0,,,single,,,,,[],,False,False,single,False,True,False,SCR171,,,False,regional
-SCR172,Glenrothes with Thornton,GLT,Scotrail,,,56.162224,-3.143189,,,,,,,,,,,,,,,,0,,,single,,,,,[],,False,False,multiple,False,True,False,SCR172,,,False,regional
-SCR173,Golf Street,GOF,Scotrail,,,56.497852,-2.719541,,,,,,,,,,,,,,,,0,,,single,,,,,[],,False,False,multiple,False,True,False,SCR173,,,False,regional
-SCR174,Golspie,GOL,Scotrail,,,57.971092,-3.98806,,,,,,,,,,,,,,,,1,,,single,,,,,['Far North Line'],Far North Line,False,False,single,True,False,True,SCR174,,,False,regional
-SCR175,Gorebridge,GBG,Scotrail,,,55.836732,-3.046099,,,,,,,,,,,,,,,,1,,,single,,,,,['Borders Railway'],Borders Railway,False,False,single,True,False,False,SCR175,,,False,regional
-SCR176,Gourock,GRK,Scotrail,,,55.962788,-4.818021,,,,,,,,,,,,,,,,1,,,single,,,,,['Inverclyde Line'],Inverclyde Line,False,False,single,False,True,True,SCR176,,,False,regional
-SCR177,Greenfaulds,GRL,Scotrail,,,55.932064,-3.999232,,,,,,,,,,,,,,,,0,,,single,,,,,[],,False,False,single,False,True,False,SCR177,,,False,regional
-SCR178,Greenock Central,GKC,Scotrail,,,55.945385,-4.752692,,,,,,,,,,,,,,,,1,,,single,,,,,['Inverclyde Line'],Inverclyde Line,False,False,multiple,False,True,True,SCR178,,,False,regional
-SCR179,Greenock West,GKW,Scotrail,,,55.94772,-4.768866,,,,,,,,,,,,,,,,1,,,single,,,,,['Inverclyde Line'],Inverclyde Line,False,False,multiple,False,True,True,SCR179,,,False,regional
-SCR180,Gretna Green,GEA,Scotrail,,,55.001934,-3.064608,,,,,,,,,,,,,,,,0,,,single,,,,,[],,False,False,multiple,False,True,False,SCR180,,,False,regional
-SCR181,Hairmyres,HMY,Scotrail,,,55.762012,-4.220047,,,,,,,,,,,,,,,,1,,,single,,,,,['East Kilbride Line'],East Kilbride Line,False,False,single,False,True,False,SCR181,,,False,regional
-SCR182,Hamilton Central,HNC,Scotrail,,,55.773239,-4.038928,,,,,,,,,,,,,,,,1,,,single,,,,,['Argyle Line'],Argyle Line,False,False,multiple,False,True,False,SCR182,,,False,regional
-SCR183,Hamilton West,HNW,Scotrail,,,55.779232,-4.056781,,,,,,,,,,,,,,,,0,,,single,,,,,[],,False,False,multiple,False,True,False,SCR183,,,False,regional
-SCR184,Hartwood,HTW,Scotrail,,,55.810532,-3.839792,,,,,,,,,,,,,,,,0,,,single,,,,,[],,False,False,single,False,True,False,SCR184,,,False,regional
-SCR185,Hawkhead,HKH,Scotrail,,,55.843136,-4.398792,,,,,,,,,,,,,,,,0,,,single,,,,,[],,False,False,single,False,True,False,SCR185,,,False,regional
-SCR186,Haymarket,HYM,Scotrail,,,55.945854,-3.218458,,,,,,,,,,,,,,,,4,,,many,,,,,"['Edinburgh–Glasgow Main Line', 'Carstairs Corridor', 'Aberdeen Line', 'Fife Circle']",Edinburgh–Glasgow Main Line,False,False,single,False,True,False,SCR186,,,False,regional
-SCR187,Helensburgh Central,HLC,Scotrail,,,56.004261,-4.732803,,,,,,,,,,,,,,,,0,,,single,,,,,[],,False,False,multiple,False,True,False,SCR187,,,False,regional
-SCR188,Helensburgh Upper,HLU,Scotrail,,,56.013268,-4.73184,,,,,,,,,,,,,,,,1,,,single,,,,,['West Highland Line'],West Highland Line,False,False,multiple,False,True,True,SCR188,,,False,regional
-SCR189,Helmsdale,HMS,Scotrail,,,58.117737,-3.660068,,,,,,,,,,,,,,,,1,,,single,,,,,['Far North Line'],Far North Line,False,False,single,True,False,True,SCR189,,,False,regional
-SCR190,High Street,HST,Scotrail,,,55.858719,-4.239953,,,,,,,,,,,,,,,,0,,,single,,,,,[],,False,False,multiple,False,True,False,SCR190,,,False,regional
-SCR191,Hillfoot,HLF,Scotrail,,,55.920143,-4.32032,,,,,,,,,,,,,,,,1,,,single,,,,,['Argyle Line'],Argyle Line,False,False,single,False,True,False,SCR191,,,False,regional
-SCR192,Hillington East,HLE,Scotrail,,,55.854778,-4.354768,,,,,,,,,,,,,,,,0,,,single,,,,,[],,False,False,multiple,False,True,False,SCR192,,,False,regional
-SCR193,Hillington West,HLW,Scotrail,,,55.85537,-4.370778,,,,,,,,,,,,,,,,0,,,single,,,,,[],,False,False,multiple,False,True,False,SCR193,,,False,regional
-SCR194,Holytown,HLY,Scotrail,,,55.812943,-3.973967,,,,,,,,,,,,,,,,0,,,single,,,,,[],,False,False,single,False,True,False,SCR194,,,False,regional
-SCR195,Howwood,HOZ,Scotrail,,,55.811,-4.56,,,,,,,,,,,,,,,,0,,,single,,,,,[],,False,False,single,False,True,False,SCR195,,,False,regional
-SCR196,Huntly,HNT,Scotrail,,,57.444401,-2.776354,,,,,,,,,,,,,,,,0,,,single,,,,,[],,False,False,single,False,True,False,SCR196,,,False,regional
-SCR197,Hyndland,HYN,Scotrail,,,55.879803,-4.314715,,,,,,,,,,,,,,,,0,,,single,,,,,[],,False,False,single,False,True,False,SCR197,,,False,regional
-SCR198,Insch,INS,Scotrail,,,57.33749,-2.616279,,,,,,,,,,,,,,,,0,,,single,,,,,[],,False,False,single,False,True,False,SCR198,,,False,regional
-SCR199,Invergordon,IGD,Scotrail,,,57.688587,-4.175563,,,,,,,,,,,,,,,,1,,,single,,,,,['Far North Line'],Far North Line,False,False,single,True,False,True,SCR199,,,False,regional
-SCR200,Invergowrie,ING,Scotrail,,,56.456795,-3.057897,,,,,,,,,,,,,,,,0,,,single,,,,,[],,False,False,single,False,True,False,SCR200,,,False,regional
-SCR201,Inverkeithing,INK,Scotrail,,,56.034725,-3.39621,,,,,,,,,,,,,,,,1,,,single,,,,,['Fife Circle'],Fife Circle,False,False,single,False,True,False,SCR201,,,False,regional
-SCR202,Inverkip,INP,Scotrail,,,55.905781,-4.873089,,,,,,,,,,,,,,,,1,,,single,,,,,['Wemyss Bay Branch'],Wemyss Bay Branch,False,False,single,False,True,False,SCR202,,,False,regional
-SCR203,Inverness,INV,Scotrail,,,57.480194,-4.223199,,,,,,,,,,,,,,,,3,,,few,,,,,"['Highland Main Line', 'Kyle Line', 'Far North Line']",Highland Main Line,False,False,single,True,False,True,SCR203,,,False,regional
-SCR204,Inverness Airport,IVA,Scotrail,,,57.5335,-4.0552,,,,,,,,,,,,,,,,0,,,single,,,,,[],,False,False,multiple,False,True,False,SCR204,,,False,regional
-SCR205,Invershin,INH,Scotrail,,,57.925362,-4.399288,,,,,,,,,,,,,,,,0,,,single,,,,,[],,False,False,single,False,True,False,SCR205,,,False,regional
-SCR206,Inverurie,INR,Scotrail,,,57.286343,-2.373224,,,,,,,,,,,,,,,,0,,,single,,,,,[],,False,False,single,False,True,False,SCR206,,,False,regional
-SCR207,Irvine,IRV,Scotrail,,,55.610916,-4.675196,,,,,,,,,,,,,,,,1,,,single,,,,,['Ayrshire Coast'],Ayrshire Coast,False,False,single,False,True,True,SCR207,,,False,regional
-SCR208,Johnstone,JHN,Scotrail,,,55.834759,-4.50369,,,,,,,,,,,,,,,,1,,,single,,,,,['Ayrshire Coast'],Ayrshire Coast,False,False,single,False,True,True,SCR208,,,False,regional
-SCR209,Jordanhill,JOR,Scotrail,,,55.882282,-4.326053,,,,,,,,,,,,,,,,0,,,single,,,,,[],,False,False,single,False,True,False,SCR209,,,False,regional
-SCR210,Keith,KEH,Scotrail,,,57.550976,-2.954062,,,,,,,,,,,,,,,,0,,,single,,,,,[],,False,False,single,False,True,False,SCR210,,,False,regional
-SCR211,Kelvindale,KVD,Scotrail,,,55.8933,-4.3106,,,,,,,,,,,,,,,,0,,,single,,,,,[],,False,False,single,False,True,False,SCR211,,,False,regional
-SCR212,Kennishead,KNS,Scotrail,,,55.813099,-4.325119,,,,,,,,,,,,,,,,1,,,single,,,,,['Neilston Line'],Neilston Line,False,False,single,True,False,False,SCR212,,,False,regional
-SCR213,Kildonan,KIL,Scotrail,,,58.171432,-3.869993,,,,,,,,,,,,,,,,1,,,single,,,,,['Far North Line'],Far North Line,False,False,single,True,False,True,SCR213,,,False,regional
-SCR214,Kilmarnock,KMK,Scotrail,,,55.612835,-4.499048,,,,,,,,,,,,,,,,0,,,single,,,,,[],,False,False,single,False,True,False,SCR214,,,False,regional
-SCR215,Kilmaurs,KLM,Scotrail,,,55.636425,-4.532331,,,,,,,,,,,,,,,,0,,,single,,,,,[],,False,False,single,False,True,False,SCR215,,,False,regional
-SCR216,Kilpatrick,KPT,Scotrail,,,55.924755,-4.453454,,,,,,,,,,,,,,,,0,,,single,,,,,[],,False,False,single,False,True,False,SCR216,,,False,regional
-SCR217,Kilwinning,KWN,Scotrail,,,55.655994,-4.710071,,,,,,,,,,,,,,,,3,,,few,,,,,"['Ayrshire Coast', 'Largs Branch', 'Ardrossan Branch']",Ayrshire Coast,False,False,single,True,False,True,SCR217,,,False,regional
-SCR218,Kinbrace,KBC,Scotrail,,,58.258408,-3.941063,,,,,,,,,,,,,,,,1,,,single,,,,,['Far North Line'],Far North Line,False,False,single,True,False,True,SCR218,,,False,regional
-SCR219,Kinghorn,KGH,Scotrail,,,56.069389,-3.174161,,,,,,,,,,,,,,,,0,,,single,,,,,[],,False,False,single,False,True,False,SCR219,,,False,regional
-SCR220,Kings Park,KGP,Scotrail,,,55.819935,-4.247294,,,,,,,,,,,,,,,,1,,,single,,,,,['East Kilbride Line'],East Kilbride Line,False,False,multiple,False,True,False,SCR220,,,False,regional
-SCR221,Kingsknowe,KGE,Scotrail,,,55.919323,-3.265634,,,,,,,,,,,,,,,,0,,,single,,,,,[],,False,False,single,False,True,False,SCR221,,,False,regional
-SCR222,Kingussie,KIN,Scotrail,,,57.07785,-4.052227,,,,,,,,,,,,,,,,1,,,single,,,,,['Highland Main Line'],Highland Main Line,False,False,single,False,True,False,SCR222,,,False,regional
-SCR223,Kintore,KTR,Scotrail,,,57.243611,-2.350278,,,,,,,,,,,,,,,,0,,,single,,,,,[],,False,False,single,False,True,False,SCR223,,,False,regional
-SCR224,Kirkcaldy,KDY,Scotrail,,,56.112579,-3.167445,,,,,,,,,,,,,,,,1,,,single,,,,,['Fife Circle'],Fife Circle,False,False,single,False,True,False,SCR224,,,False,regional
-SCR225,Kirkconnel,KRK,Scotrail,,,55.38834,-3.998533,,,,,,,,,,,,,,,,0,,,single,,,,,[],,False,False,single,False,True,False,SCR225,,,False,regional
-SCR226,Kirkhill,KKH,Scotrail,,,55.814156,-4.168751,,,,,,,,,,,,,,,,1,,,single,,,,,['East Kilbride Line'],East Kilbride Line,False,False,single,False,True,False,SCR226,,,False,regional
-SCR227,Kirknewton,KKN,Scotrail,,,55.888744,-3.432526,,,,,,,,,,,,,,,,0,,,single,,,,,[],,False,False,single,False,True,False,SCR227,,,False,regional
-SCR228,Kirkwood,KWD,Scotrail,,,55.85577,-4.048037,,,,,,,,,,,,,,,,0,,,single,,,,,[],,False,False,single,False,True,False,SCR228,,,False,regional
-SCR229,Kyle of Lochalsh,KYL,Scotrail,,,57.280567,-5.713067,,,,,,,,,,,,,,,,1,,,single,,,,,['Kyle Line'],Kyle Line,False,False,multiple,True,False,True,SCR229,,,False,regional
-SCR230,Ladybank,LDY,Scotrail,,,56.273834,-3.122284,,,,,,,,,,,,,,,,1,,,single,,,,,['Fife Circle'],Fife Circle,False,False,single,False,True,False,SCR230,,,False,regional
-SCR231,Lairg,LRG,Scotrail,,,58.001701,-4.401,,,,,,,,,,,,,,,,1,,,single,,,,,['Far North Line'],Far North Line,False,False,single,True,False,True,SCR231,,,False,regional
-SCR232,Lanark,LNK,Scotrail,,,55.673119,-3.772901,,,,,,,,,,,,,,,,1,,,single,,,,,['Lanark Line'],Lanark Line,False,False,single,True,False,False,SCR232,,,False,regional
-SCR233,Langbank,LGB,Scotrail,,,55.924725,-4.586326,,,,,,,,,,,,,,,,0,,,single,,,,,[],,False,False,single,False,True,False,SCR233,,,False,regional
-SCR234,Langside,LGS,Scotrail,,,55.821175,-4.277696,,,,,,,,,,,,,,,,1,,,single,,,,,['Cathcart Circle'],Cathcart Circle,False,False,single,False,True,False,SCR234,,,False,regional
-SCR235,Larbert,LBT,Scotrail,,,56.022751,-3.830604,,,,,,,,,,,,,,,,0,,,single,,,,,[],,False,False,single,False,True,False,SCR235,,,False,regional
-SCR236,Largs,LAR,Scotrail,,,55.792637,-4.867942,,,,,,,,,,,,,,,,1,,,single,,,,,['Largs Branch'],Largs Branch,False,False,single,True,False,True,SCR236,,,False,regional
-SCR237,Larkhall,LRH,Scotrail,,,55.739258,-3.974445,,,,,,,,,,,,,,,,0,,,single,,,,,[],,False,False,single,False,True,False,SCR237,,,False,regional
-SCR238,Laurencekirk,LAU,Scotrail,,,56.835945,-2.466345,,,,,,,,,,,,,,,,0,,,single,,,,,[],,False,False,single,False,True,False,SCR238,,,False,regional
-SCR239,Lenzie,LNZ,Scotrail,,,55.921364,-4.153932,,,,,,,,,,,,,,,,1,,,single,,,,,['Edinburgh–Glasgow Main Line'],Edinburgh–Glasgow Main Line,False,False,single,False,True,False,SCR239,,,False,regional
-SCR240,Leuchars,LEU,Scotrail,,,56.375427,-2.893734,,,,,,,,,,,,,,,,2,,,few,,,,,"['Aberdeen Line', 'Fife Circle']",Aberdeen Line,False,False,single,False,True,False,SCR240,,,False,regional
-SCR241,Leven,LEV,Scotrail,,,56.1923,-3.002,,,,,,,,,,,,,,,,0,,,single,,,,,[],,False,False,single,False,True,False,SCR241,,,False,regional
-SCR242,Linlithgow,LIN,Scotrail,,,55.975689,-3.596,,,,,,,,,,,,,,,,1,,,single,,,,,['Edinburgh–Glasgow Main Line'],Edinburgh–Glasgow Main Line,False,False,single,False,True,False,SCR242,,,False,regional
-SCR243,Livingston North,LSN,Scotrail,,,55.901736,-3.543357,,,,,,,,,,,,,,,,0,,,single,,,,,[],,False,False,multiple,False,True,False,SCR243,,,False,regional
-SCR244,Livingston South,LVG,Scotrail,,,55.871712,-3.503823,,,,,,,,,,,,,,,,1,,,single,,,,,['Shotts Line'],Shotts Line,False,False,multiple,False,True,False,SCR244,,,False,regional
-SCR245,Loch Awe,LHA,Scotrail,,,56.402481,-5.040117,,,,,,,,,,,,,,,,1,,,single,,,,,['Oban Branch'],Oban Branch,False,False,multiple,True,False,False,SCR245,,,False,regional
-SCR246,Loch Eil Outward Bound,LHE,Scotrail,,,56.855343,-5.191638,,,,,,,,,,,,,,,,1,,,single,,,,,['West Highland Line'],West Highland Line,False,False,multiple,False,True,True,SCR246,,,False,regional
-SCR247,Lochailort,LCL,Scotrail,,,56.881035,-5.663456,,,,,,,,,,,,,,,,1,,,single,,,,,['West Highland Line'],West Highland Line,False,False,single,False,True,True,SCR247,,,False,regional
-SCR248,Locheilside,LCS,Scotrail,,,56.855473,-5.290086,,,,,,,,,,,,,,,,1,,,single,,,,,['West Highland Line'],West Highland Line,False,False,single,False,True,True,SCR248,,,False,regional
-SCR249,Lochgelly,LCG,Scotrail,,,56.13538,-3.312958,,,,,,,,,,,,,,,,0,,,single,,,,,[],,False,False,single,False,True,False,SCR249,,,False,regional
-SCR250,Lochluichart,LCC,Scotrail,,,57.621277,-4.809628,,,,,,,,,,,,,,,,0,,,single,,,,,[],,False,False,single,False,True,False,SCR250,,,False,regional
-SCR251,Lochwinnoch,LHW,Scotrail,,,55.786549,-4.617038,,,,,,,,,,,,,,,,0,,,single,,,,,[],,False,False,single,False,True,False,SCR251,,,False,regional
-SCR252,Lockerbie,LOC,Scotrail,,,55.123085,-3.353242,,,,,,,,,,,,,,,,0,,,single,,,,,[],,False,False,single,False,True,False,SCR252,,,False,regional
-SCR253,Longniddry,LND,Scotrail,,,55.976524,-2.889308,,,,,,,,,,,,,,,,0,,,single,,,,,[],,False,False,single,False,True,False,SCR253,,,False,regional
-SCR254,Mallaig,MLG,Scotrail,,,57.005497,-5.8306,,,,,,,,,,,,,,,,1,,,single,,,,,['West Highland Line'],West Highland Line,False,False,single,False,True,True,SCR254,,,False,regional
-SCR255,Markinch,MNC,Scotrail,,,56.200069,-3.131414,,,,,,,,,,,,,,,,1,,,single,,,,,['Fife Circle'],Fife Circle,False,False,single,False,True,False,SCR255,,,False,regional
-SCR256,Maryhill,MYH,Scotrail,,,55.898026,-4.301396,,,,,,,,,,,,,,,,0,,,single,,,,,[],,False,False,single,False,True,False,SCR256,,,False,regional
-SCR257,Maxwell Park,MAX,Scotrail,,,55.837124,-4.289813,,,,,,,,,,,,,,,,0,,,single,,,,,[],,False,False,multiple,False,True,False,SCR257,,,False,regional
-SCR258,Maybole,MAY,Scotrail,,,55.354485,-4.686269,,,,,,,,,,,,,,,,1,,,single,,,,,['Stranraer Line'],Stranraer Line,False,False,single,False,True,False,SCR258,,,False,regional
-SCR259,Merryton,MEY,Scotrail,,,55.749013,-3.978667,,,,,,,,,,,,,,,,0,,,single,,,,,[],,False,False,single,False,True,False,SCR259,,,False,regional
-SCR260,Milliken Park,MIN,Scotrail,,,55.825157,-4.533405,,,,,,,,,,,,,,,,0,,,single,,,,,[],,False,False,multiple,False,True,False,SCR260,,,False,regional
-SCR261,Milngavie,MLN,Scotrail,,,55.94091,-4.315152,,,,,,,,,,,,,,,,1,,,single,,,,,['Argyle Line'],Argyle Line,False,False,single,False,True,False,SCR261,,,False,regional
-SCR262,Monifieth,MON,Scotrail,,,56.480167,-2.818249,,,,,,,,,,,,,,,,0,,,single,,,,,[],,False,False,single,False,True,False,SCR262,,,False,regional
-SCR263,Montrose,MTS,Scotrail,,,56.71286,-2.47207,,,,,,,,,,,,,,,,1,,,single,,,,,['Aberdeen Line'],Aberdeen Line,False,False,single,False,True,False,SCR263,,,False,regional
-SCR264,Morar,MRR,Scotrail,,,56.969788,-5.821991,,,,,,,,,,,,,,,,1,,,single,,,,,['West Highland Line'],West Highland Line,False,False,single,False,True,True,SCR264,,,False,regional
-SCR265,Mosspark,MPK,Scotrail,,,55.838947,-4.336232,,,,,,,,,,,,,,,,0,,,single,,,,,[],,False,False,single,False,True,False,SCR265,,,False,regional
-SCR266,Motherwell,MTH,Scotrail,,,55.791927,-3.995234,,,,,,,,,,,,,,,,3,,,few,,,,,"['Carstairs Corridor', 'Argyle Line', 'Lanark Line']",Carstairs Corridor,False,False,single,True,False,False,SCR266,,,False,regional
-SCR267,Mount Florida,MFL,Scotrail,,,55.826859,-4.262067,,,,,,,,,,,,,,,,2,,,few,,,,,"['Cathcart Circle', 'East Kilbride Line']",Cathcart Circle,False,False,multiple,False,True,False,SCR267,,,False,regional
-SCR268,Mount Vernon,MTV,Scotrail,,,55.839882,-4.136638,,,,,,,,,,,,,,,,0,,,single,,,,,[],,False,False,multiple,False,True,False,SCR268,,,False,regional
-SCR269,Muir of Ord,MOO,Scotrail,,,57.518017,-4.460981,,,,,,,,,,,,,,,,0,,,single,,,,,[],,False,False,multiple,False,True,False,SCR269,,,False,regional
-SCR270,Muirend,MUI,Scotrail,,,55.810459,-4.273888,,,,,,,,,,,,,,,,0,,,single,,,,,[],,False,False,single,False,True,False,SCR270,,,False,regional
-SCR271,Musselburgh,MUB,Scotrail,,,55.930225,-3.062719,,,,,,,,,,,,,,,,0,,,single,,,,,[],,False,False,single,False,True,False,SCR271,,,False,regional
-SCR272,Nairn,NRN,Scotrail,,,57.580227,-3.873024,,,,,,,,,,,,,,,,0,,,single,,,,,[],,False,False,single,False,True,False,SCR272,,,False,regional
-SCR273,Neilston,NEI,Scotrail,,,55.782364,-4.426945,,,,,,,,,,,,,,,,1,,,single,,,,,['Neilston Line'],Neilston Line,False,False,single,True,False,False,SCR273,,,False,regional
-SCR274,New Cumnock,NCK,Scotrail,,,55.402271,-4.182457,,,,,,,,,,,,,,,,0,,,single,,,,,[],,False,False,multiple,False,True,False,SCR274,,,False,regional
-SCR275,Newcraighall,NEW,Scotrail,,,55.932619,-3.091582,,,,,,,,,,,,,,,,1,,,single,,,,,['Borders Railway'],Borders Railway,False,False,single,True,False,False,SCR275,,,False,regional
-SCR276,Newton,NTN,Scotrail,,,55.819256,-4.133907,,,,,,,,,,,,,,,,2,,,few,,,,,"['East Kilbride Line', 'Argyle Line']",East Kilbride Line,False,False,single,False,True,False,SCR276,,,False,regional
-SCR277,Newton-On-Ayr,NOA,Scotrail,,,55.473541,-4.62632,,,,,,,,,,,,,,,,0,,,single,,,,,[],,False,False,single,False,True,False,SCR277,,,False,regional
-SCR278,Newtongrange,NEG,Scotrail,,,55.865652,-3.066151,,,,,,,,,,,,,,,,1,,,single,,,,,['Borders Railway'],Borders Railway,False,False,single,True,False,False,SCR278,,,False,regional
-SCR279,Newtonmore,NWR,Scotrail,,,57.059673,-4.118831,,,,,,,,,,,,,,,,0,,,single,,,,,[],,False,False,single,False,True,False,SCR279,,,False,regional
-SCR280,Nitshill,NIT,Scotrail,,,55.811531,-4.360126,,,,,,,,,,,,,,,,1,,,single,,,,,['Neilston Line'],Neilston Line,False,False,single,True,False,False,SCR280,,,False,regional
-SCR281,North Berwick,NBW,Scotrail,,,56.057545,-2.728989,,,,,,,,,,,,,,,,0,,,single,,,,,[],,False,False,multiple,False,True,False,SCR281,,,False,regional
-SCR282,North Queensferry,NQU,Scotrail,,,56.013168,-3.395426,,,,,,,,,,,,,,,,0,,,single,,,,,[],,False,False,multiple,False,True,False,SCR282,,,False,regional
-SCR283,Oban,OBN,Scotrail,,,56.411758,-5.473841,,,,,,,,,,,,,,,,1,,,single,,,,,['Oban Branch'],Oban Branch,False,False,single,True,False,False,SCR283,,,False,regional
-SCR284,Paisley Canal,PCN,Scotrail,,,55.840878,-4.422606,,,,,,,,,,,,,,,,0,,,single,,,,,[],,False,False,multiple,False,True,False,SCR284,,,False,regional
-SCR285,Paisley Gilmour Street,PYG,Scotrail,,,55.848026,-4.424646,,,,,,,,,,,,,,,,2,,,few,,,,,"['Ayrshire Coast', 'Inverclyde Line']",Ayrshire Coast,False,False,multiple,False,True,True,SCR285,,,False,regional
-SCR286,Paisley St James,PYJ,Scotrail,,,55.852165,-4.442486,,,,,,,,,,,,,,,,0,,,single,,,,,[],,False,False,multiple,False,True,False,SCR286,,,False,regional
-SCR287,Partick,PTK,Scotrail,,,55.869987,-4.310921,,,,,,,,,,,,,,,,1,,,single,,,,,['Argyle Line'],Argyle Line,False,False,single,False,True,False,SCR287,,,False,regional
-SCR288,Patterton,PTT,Scotrail,,,55.790443,-4.334935,,,,,,,,,,,,,,,,0,,,single,,,,,[],,False,False,single,False,True,False,SCR288,,,False,regional
-SCR289,Perth,PTH,Scotrail,,,56.39275,-3.440068,,,,,,,,,,,,,,,,1,,,single,,,,,['Highland Main Line'],Highland Main Line,False,False,single,False,True,False,SCR289,,,False,regional
-SCR290,Pitlochry,PIT,Scotrail,,,56.70256,-3.736085,,,,,,,,,,,,,,,,1,,,single,,,,,['Highland Main Line'],Highland Main Line,False,False,single,False,True,False,SCR290,,,False,regional
-SCR291,Plockton,PLK,Scotrail,,,57.333172,-5.666848,,,,,,,,,,,,,,,,1,,,single,,,,,['Kyle Line'],Kyle Line,False,False,single,True,False,True,SCR291,,,False,regional
-SCR292,Pollokshaws East,PWE,Scotrail,,,55.824589,-4.287476,,,,,,,,,,,,,,,,1,,,single,,,,,['Cathcart Circle'],Cathcart Circle,False,False,multiple,False,True,False,SCR292,,,False,regional
-SCR293,Pollokshaws West,PWW,Scotrail,,,55.824318,-4.301826,,,,,,,,,,,,,,,,0,,,single,,,,,[],,False,False,multiple,False,True,False,SCR293,,,False,regional
-SCR294,Pollokshields East,PLE,Scotrail,,,55.841103,-4.269287,,,,,,,,,,,,,,,,1,,,single,,,,,['Cathcart Circle'],Cathcart Circle,False,False,multiple,False,True,False,SCR294,,,False,regional
-SCR295,Pollokshields West,PLW,Scotrail,,,55.83736,-4.277043,,,,,,,,,,,,,,,,1,,,single,,,,,['Neilston Line'],Neilston Line,False,False,multiple,True,False,False,SCR295,,,False,regional
-SCR296,Polmont,PMT,Scotrail,,,55.984856,-3.716614,,,,,,,,,,,,,,,,1,,,single,,,,,['Edinburgh–Glasgow Main Line'],Edinburgh–Glasgow Main Line,False,False,single,False,True,False,SCR296,,,False,regional
-SCR297,Port Glasgow,PTG,Scotrail,,,55.9342,-4.689432,,,,,,,,,,,,,,,,2,,,few,,,,,"['Inverclyde Line', 'Wemyss Bay Branch']",Inverclyde Line,False,False,multiple,False,True,True,SCR297,,,False,regional
-SCR298,Portlethen,PLN,Scotrail,,,57.060455,-2.128577,,,,,,,,,,,,,,,,0,,,single,,,,,[],,False,False,single,False,True,False,SCR298,,,False,regional
-SCR299,Possilpark & Parkhouse,PPK,Scotrail,,,55.890717,-4.259381,,,,,,,,,,,,,,,,0,,,single,,,,,[],,False,False,multiple,False,True,False,SCR299,,,False,regional
-SCR300,Prestonpans,PST,Scotrail,,,55.953426,-2.973665,,,,,,,,,,,,,,,,0,,,single,,,,,[],,False,False,single,False,True,False,SCR300,,,False,regional
-SCR301,Prestwick International Airport,PRA,Scotrail,,,55.511513,-4.616166,,,,,,,,,,,,,,,,1,,,single,,,,,['Ayrshire Coast'],Ayrshire Coast,False,False,multiple,False,True,True,SCR301,,,False,regional
-SCR302,Prestwick Town,PTW,Scotrail,,,55.501675,-4.613935,,,,,,,,,,,,,,,,1,,,single,,,,,['Ayrshire Coast'],Ayrshire Coast,False,False,multiple,False,True,True,SCR302,,,False,regional
-SCR303,Priesthill & Darnley,PTL,Scotrail,,,55.812737,-4.344246,,,,,,,,,,,,,,,,1,,,single,,,,,['Neilston Line'],Neilston Line,False,False,multiple,True,False,False,SCR303,,,False,regional
-SCR304,Queens Park (Glasgow),QPK,Scotrail,,,55.835747,-4.267368,,,,,,,,,,,,,,,,1,,,single,,,,,['Cathcart Circle'],Cathcart Circle,False,False,multiple,False,True,False,SCR304,,,False,regional
-SCR305,Rannoch,RAN,Scotrail,,,56.685318,-4.576208,,,,,,,,,,,,,,,,1,,,single,,,,,['West Highland Line'],West Highland Line,False,False,single,False,True,True,SCR305,,,False,regional
-SCR306,Renton,RTN,Scotrail,,,55.970566,-4.586181,,,,,,,,,,,,,,,,0,,,single,,,,,[],,False,False,single,False,True,False,SCR306,,,False,regional
-SCR307,Reston,RSN,Scotrail,,,55.8506,-2.1972,,,,,,,,,,,,,,,,0,,,single,,,,,[],,False,False,single,False,True,False,SCR307,,,False,regional
-SCR308,Robroyston,RRN,Scotrail,,,55.887581,-4.172291,,,,,,,,,,,,,,,,0,,,single,,,,,[],,False,False,single,False,True,False,SCR308,,,False,regional
-SCR309,Rogart,ROG,Scotrail,,,57.988979,-4.158224,,,,,,,,,,,,,,,,1,,,single,,,,,['Far North Line'],Far North Line,False,False,single,True,False,True,SCR309,,,False,regional
-SCR310,Rosyth,ROS,Scotrail,,,56.046055,-3.427114,,,,,,,,,,,,,,,,1,,,single,,,,,['Fife Circle'],Fife Circle,False,False,single,False,True,False,SCR310,,,False,regional
-SCR311,Roy Bridge,RYB,Scotrail,,,56.888184,-4.83645,,,,,,,,,,,,,,,,1,,,single,,,,,['West Highland Line'],West Highland Line,False,False,multiple,False,True,True,SCR311,,,False,regional
-SCR312,Rutherglen,RUT,Scotrail,,,55.830448,-4.212766,,,,,,,,,,,,,,,,0,,,single,,,,,[],,False,False,single,False,True,False,SCR312,,,False,regional
-SCR313,Saltcoats,SLT,Scotrail,,,55.633648,-4.784804,,,,,,,,,,,,,,,,2,,,few,,,,,"['Largs Branch', 'Ardrossan Branch']",Largs Branch,False,False,single,True,False,True,SCR313,,,False,regional
-SCR314,Sanquhar,SQH,Scotrail,,,55.370633,-3.923437,,,,,,,,,,,,,,,,0,,,single,,,,,[],,False,False,single,False,True,False,SCR314,,,False,regional
-SCR315,Scotscalder,SCT,Scotrail,,,58.482891,-3.553764,,,,,,,,,,,,,,,,1,,,single,,,,,['Far North Line'],Far North Line,False,False,single,True,False,True,SCR315,,,False,regional
-SCR316,Scotstounhill,SCH,Scotrail,,,55.884491,-4.351765,,,,,,,,,,,,,,,,0,,,single,,,,,[],,False,False,single,False,True,False,SCR316,,,False,regional
-SCR317,Shawfair,SFI,Scotrail,,,55.91993,-3.07872,,,,,,,,,,,,,,,,1,,,single,,,,,['Borders Railway'],Borders Railway,False,False,single,True,False,False,SCR317,,,False,regional
-SCR318,Shawlands,SHL,Scotrail,,,55.828987,-4.292521,,,,,,,,,,,,,,,,0,,,single,,,,,[],,False,False,single,False,True,False,SCR318,,,False,regional
-SCR319,Shettleston,SLS,Scotrail,,,55.852959,-4.159731,,,,,,,,,,,,,,,,0,,,single,,,,,[],,False,False,single,False,True,False,SCR319,,,False,regional
-SCR320,Shieldmuir,SDM,Scotrail,,,55.775532,-3.952944,,,,,,,,,,,,,,,,1,,,single,,,,,['Lanark Line'],Lanark Line,False,False,single,True,False,False,SCR320,,,False,regional
-SCR321,Shotts,SHS,Scotrail,,,55.818302,-3.80024,,,,,,,,,,,,,,,,1,,,single,,,,,['Shotts Line'],Shotts Line,False,False,single,False,True,False,SCR321,,,False,regional
-SCR322,Singer,SIN,Scotrail,,,55.907711,-4.405983,,,,,,,,,,,,,,,,0,,,single,,,,,[],,False,False,single,False,True,False,SCR322,,,False,regional
-SCR323,Slateford,SLA,Scotrail,,,55.926731,-3.243476,,,,,,,,,,,,,,,,0,,,single,,,,,[],,False,False,single,False,True,False,SCR323,,,False,regional
-SCR324,South Gyle,SGL,Scotrail,,,55.936951,-3.298234,,,,,,,,,,,,,,,,0,,,single,,,,,[],,False,False,multiple,False,True,False,SCR324,,,False,regional
-SCR325,Spean Bridge,SBR,Scotrail,,,56.889839,-4.920321,,,,,,,,,,,,,,,,1,,,single,,,,,['West Highland Line'],West Highland Line,False,False,multiple,False,True,True,SCR325,,,False,regional
-SCR326,Springburn,SPR,Scotrail,,,55.881363,-4.230064,,,,,,,,,,,,,,,,0,,,single,,,,,[],,False,False,single,False,True,False,SCR326,,,False,regional
-SCR327,Springfield,SPF,Scotrail,,,56.295116,-3.051808,,,,,,,,,,,,,,,,0,,,single,,,,,[],,False,False,single,False,True,False,SCR327,,,False,regional
-SCR328,Stepps,SPS,Scotrail,,,55.890026,-4.147389,,,,,,,,,,,,,,,,0,,,single,,,,,[],,False,False,single,False,True,False,SCR328,,,False,regional
-SCR329,Stevenston,STV,Scotrail,,,55.633533,-4.749829,,,,,,,,,,,,,,,,2,,,few,,,,,"['Largs Branch', 'Ardrossan Branch']",Largs Branch,False,False,single,True,False,True,SCR329,,,False,regional
-SCR330,Stewarton,STT,Scotrail,,,55.681633,-4.519346,,,,,,,,,,,,,,,,0,,,single,,,,,[],,False,False,single,False,True,False,SCR330,,,False,regional
-SCR331,Stirling,STG,Scotrail,,,56.119114,-3.934915,,,,,,,,,,,,,,,,0,,,single,,,,,[],,False,False,single,False,True,False,SCR331,,,False,regional
-SCR332,Stonehaven,STN,Scotrail,,,56.966888,-2.225286,,,,,,,,,,,,,,,,1,,,single,,,,,['Aberdeen Line'],Aberdeen Line,False,False,single,False,True,False,SCR332,,,False,regional
-SCR333,Stow,SOI,Scotrail,,,55.691398,-2.857782,,,,,,,,,,,,,,,,1,,,single,,,,,['Borders Railway'],Borders Railway,False,False,single,True,False,False,SCR333,,,False,regional
-SCR334,Stranraer,STR,Scotrail,,,54.909626,-5.024806,,,,,,,,,,,,,,,,1,,,single,,,,,['Stranraer Line'],Stranraer Line,False,False,single,False,True,False,SCR334,,,False,regional
-SCR335,Strathcarron,STC,Scotrail,,,57.422585,-5.429166,,,,,,,,,,,,,,,,1,,,single,,,,,['Kyle Line'],Kyle Line,False,False,single,True,False,True,SCR335,,,False,regional
-SCR336,Stromeferry,STF,Scotrail,,,57.352688,-5.550702,,,,,,,,,,,,,,,,1,,,single,,,,,['Kyle Line'],Kyle Line,False,False,single,True,False,True,SCR336,,,False,regional
-SCR337,Summerston,SUM,Scotrail,,,55.89835,-4.283814,,,,,,,,,,,,,,,,0,,,single,,,,,[],,False,False,single,False,True,False,SCR337,,,False,regional
-SCR338,Tain,TAI,Scotrail,,,57.814651,-4.051826,,,,,,,,,,,,,,,,1,,,single,,,,,['Far North Line'],Far North Line,False,False,single,True,False,True,SCR338,,,False,regional
-SCR339,Taynuilt,TAY,Scotrail,,,56.430714,-5.23868,,,,,,,,,,,,,,,,1,,,single,,,,,['Oban Branch'],Oban Branch,False,False,single,True,False,False,SCR339,,,False,regional
-SCR340,Thornliebank,THB,Scotrail,,,55.810642,-4.312201,,,,,,,,,,,,,,,,0,,,single,,,,,[],,False,False,single,False,True,False,SCR340,,,False,regional
-SCR341,Thorntonhall,THT,Scotrail,,,55.767746,-4.250674,,,,,,,,,,,,,,,,1,,,single,,,,,['East Kilbride Line'],East Kilbride Line,False,False,single,False,True,False,SCR341,,,False,regional
-SCR342,Thurso,THS,Scotrail,,,58.590092,-3.527548,,,,,,,,,,,,,,,,1,,,single,,,,,['Far North Line'],Far North Line,False,False,single,True,False,True,SCR342,,,False,regional
-SCR343,Troon,TRN,Scotrail,,,55.543045,-4.654731,,,,,,,,,,,,,,,,1,,,single,,,,,['Ayrshire Coast'],Ayrshire Coast,False,False,single,False,True,True,SCR343,,,False,regional
-SCR344,Tulloch,TUL,Scotrail,,,56.883984,-4.701509,,,,,,,,,,,,,,,,1,,,single,,,,,['West Highland Line'],West Highland Line,False,False,single,False,True,True,SCR344,,,False,regional
-SCR345,Tweedbank,TWB,Scotrail,,,55.604394,-2.764936,,,,,,,,,,,,,,,,1,,,single,,,,,['Borders Railway'],Borders Railway,False,False,single,True,False,False,SCR345,,,False,regional
-SCR346,Tyndrum Lower,TYL,Scotrail,,,56.433407,-4.714873,,,,,,,,,,,,,,,,1,,,single,,,,,['Oban Branch'],Oban Branch,False,False,multiple,True,False,False,SCR346,,,False,regional
-SCR347,Uddingston,UDD,Scotrail,,,55.823669,-4.086266,,,,,,,,,,,,,,,,0,,,single,,,,,[],,False,False,single,False,True,False,SCR347,,,False,regional
-SCR348,Uphall,UHA,Scotrail,,,55.919395,-3.499279,,,,,,,,,,,,,,,,0,,,single,,,,,[],,False,False,single,False,True,False,SCR348,,,False,regional
-SCR349,Upper Tyndrum,UTY,Scotrail,,,56.434551,-4.7036,,,,,,,,,,,,,,,,0,,,single,,,,,[],,False,False,multiple,False,True,False,SCR349,,,False,regional
-SCR350,Wallyford,WAF,Scotrail,,,55.942322,-3.013417,,,,,,,,,,,,,,,,0,,,single,,,,,[],,False,False,single,False,True,False,SCR350,,,False,regional
-SCR351,Wemyss Bay,WMS,Scotrail,,,55.876656,-4.888525,,,,,,,,,,,,,,,,1,,,single,,,,,['Wemyss Bay Branch'],Wemyss Bay Branch,False,False,multiple,False,True,False,SCR351,,,False,regional
-SCR352,West Calder,WCL,Scotrail,,,55.853848,-3.567045,,,,,,,,,,,,,,,,1,,,single,,,,,['Shotts Line'],Shotts Line,False,False,multiple,False,True,False,SCR352,,,False,regional
-SCR353,West Kilbride,WKB,Scotrail,,,55.696842,-4.851365,,,,,,,,,,,,,,,,1,,,single,,,,,['Largs Branch'],Largs Branch,False,False,multiple,True,False,True,SCR353,,,False,regional
-SCR354,Wester Hailes,WTA,Scotrail,,,55.913727,-3.284654,,,,,,,,,,,,,,,,0,,,single,,,,,[],,False,False,multiple,False,True,False,SCR354,,,False,regional
-SCR355,Westerton,WES,Scotrail,,,55.905479,-4.335444,,,,,,,,,,,,,,,,1,,,single,,,,,['Argyle Line'],Argyle Line,False,False,single,False,True,False,SCR355,,,False,regional
-SCR356,Whifflet,WFF,Scotrail,,,55.852596,-4.022313,,,,,,,,,,,,,,,,0,,,single,,,,,[],,False,False,single,False,True,False,SCR356,,,False,regional
-SCR357,Whinhill,WNL,Scotrail,,,55.938396,-4.746744,,,,,,,,,,,,,,,,0,,,single,,,,,[],,False,False,single,False,True,False,SCR357,,,False,regional
-SCR358,Whitecraigs,WCR,Scotrail,,,55.790001,-4.310977,,,,,,,,,,,,,,,,0,,,single,,,,,[],,False,False,single,False,True,False,SCR358,,,False,regional
-SCR359,Wick,WCK,Scotrail,,,58.441788,-3.097965,,,,,,,,,,,,,,,,1,,,single,,,,,['Far North Line'],Far North Line,False,False,single,True,False,True,SCR359,,,False,regional
-SCR360,Williamwood,WLM,Scotrail,,,55.79398,-4.290462,,,,,,,,,,,,,,,,0,,,single,,,,,[],,False,False,single,False,True,False,SCR360,,,False,regional
-SCR361,Wishaw,WSH,Scotrail,,,55.772346,-3.927267,,,,,,,,,,,,,,,,1,,,single,,,,,['Lanark Line'],Lanark Line,False,False,single,True,False,False,SCR361,,,False,regional
-SCR362,Woodhall,WDL,Scotrail,,,55.931339,-4.655614,,,,,,,,,,,,,,,,1,,,single,,,,,['Inverclyde Line'],Inverclyde Line,False,False,single,False,True,True,SCR362,,,False,regional
-SCR363,Yoker,YOK,Scotrail,,,55.892792,-4.387464,,,,,,,,,,,,,,,,0,,,single,,,,,[],,False,False,single,False,True,False,SCR363,,,False,regional
+station_id,station_name,crs,operator,route,county,latitude,longitude,major_interchange,is_interchange,is_terminus,branch_junction,route_count,service_count,service_density,route_diversity_band,time_from_london,time_band,accessibility_score,difficulty_score,route_groups,region,is_interchange,is_terminus,word_count_band,is_branch_line,is_mainline,is_coastal,route_station_id,canonical_time_to_london,time_group,is_high_speed,distance_band,nearest_landmark,nearest_landmark_km,nearest_castle,nearest_castle_km,nearest_cathedral,nearest_cathedral_km,nearest_museum,nearest_museum_km,nearest_country_house,nearest_country_house_km,nearest_nature_reserve,nearest_nature_reserve_km
+SCR001,Aberdeen,ABD,Scotrail,,,57.143127,-2.097464,,FALSE,FALSE,,1,,,single,,,,,['Aberdeen Line'],Aberdeen Line,FALSE,FALSE,single,FALSE,TRUE,FALSE,SCR001,,,FALSE,regional,,,,,,,,,,,,
+SCR002,Aberdour,AUR,Scotrail,,,56.054646,-3.300575,,FALSE,FALSE,,0,,,single,,,,,[],,FALSE,FALSE,single,FALSE,TRUE,FALSE,SCR002,,,FALSE,regional,,,,,,,,,,,,
+SCR003,Achanalt,AAT,Scotrail,,,57.609921,-4.914243,,FALSE,FALSE,,0,,,single,,,,,[],,FALSE,FALSE,single,FALSE,TRUE,FALSE,SCR003,,,FALSE,regional,,,,,,,,,,,,
+SCR004,Achnasheen,ACN,Scotrail,,,57.579205,-5.072421,,FALSE,FALSE,,1,,,single,,,,,['Kyle Line'],Kyle Line,FALSE,FALSE,single,TRUE,FALSE,TRUE,SCR004,,,FALSE,regional,,,,,,,,,,,,
+SCR005,Achnashellach,ACH,Scotrail,,,57.482697,-5.333001,,FALSE,FALSE,,1,,,single,,,,,['Kyle Line'],Kyle Line,FALSE,FALSE,single,TRUE,FALSE,TRUE,SCR005,,,FALSE,regional,,,,,,,,,,,,
+SCR006,Addiewell,ADW,Scotrail,,,55.843449,-3.60655,,FALSE,FALSE,,0,,,single,,,,,[],,FALSE,FALSE,single,FALSE,TRUE,FALSE,SCR006,,,FALSE,regional,,,,,,,,,,,,
+SCR007,Airbles,AIR,Scotrail,,,55.782504,-3.994447,,FALSE,FALSE,,1,,,single,,,,,['Lanark Line'],Lanark Line,FALSE,FALSE,single,TRUE,FALSE,FALSE,SCR007,,,FALSE,regional,,,,,,,,,,,,
+SCR008,Airdrie,ADR,Scotrail,,,55.864029,-3.982952,,FALSE,FALSE,,0,,,single,,,,,[],,FALSE,FALSE,single,FALSE,TRUE,FALSE,SCR008,,,FALSE,regional,,,,,,,,,,,,
+SCR009,Alexandra Parade,AXP,Scotrail,,,55.863724,-4.211465,,FALSE,FALSE,,0,,,single,,,,,[],,FALSE,FALSE,multiple,FALSE,TRUE,FALSE,SCR009,,,FALSE,regional,,,,,,,,,,,,
+SCR010,Alexandria,ALX,Scotrail,,,55.98513,-4.577534,,FALSE,FALSE,,0,,,single,,,,,[],,FALSE,FALSE,single,FALSE,TRUE,FALSE,SCR010,,,FALSE,regional,,,,,,,,,,,,
+SCR011,Alloa,ALO,Scotrail,,,56.1179,-3.7872,,FALSE,FALSE,,0,,,single,,,,,[],,FALSE,FALSE,single,FALSE,TRUE,FALSE,SCR011,,,FALSE,regional,,,,,,,,,,,,
+SCR012,Alness,ASS,Scotrail,,,57.694477,-4.249743,,FALSE,FALSE,,1,,,single,,,,,['Far North Line'],Far North Line,FALSE,FALSE,single,TRUE,FALSE,TRUE,SCR012,,,FALSE,regional,,,,,,,,,,,,
+SCR013,Altnabreac,ABC,Scotrail,,,58.388439,-3.705279,,FALSE,FALSE,,1,,,single,,,,,['Far North Line'],Far North Line,FALSE,FALSE,single,TRUE,FALSE,TRUE,SCR013,,,FALSE,regional,,,,,,,,,,,,
+SCR014,Anderston,AND,Scotrail,,,55.859924,-4.271969,,FALSE,FALSE,,1,,,single,,,,,['Argyle Line'],Argyle Line,FALSE,FALSE,single,FALSE,TRUE,FALSE,SCR014,,,FALSE,regional,,,,,,,,,,,,
+SCR015,Annan,ANN,Scotrail,,,54.98386,-3.262603,,FALSE,FALSE,,0,,,single,,,,,[],,FALSE,FALSE,single,FALSE,TRUE,FALSE,SCR015,,,FALSE,regional,,,,,,,,,,,,
+SCR016,Anniesland,ANL,Scotrail,,,55.889553,-4.321684,,FALSE,FALSE,,1,,,single,,,,,['Argyle Line'],Argyle Line,FALSE,FALSE,single,FALSE,TRUE,FALSE,SCR016,,,FALSE,regional,,,,,,,,,,,,
+SCR017,Arbroath,ARB,Scotrail,,,56.559628,-2.588928,,FALSE,FALSE,,1,,,single,,,,,['Aberdeen Line'],Aberdeen Line,FALSE,FALSE,single,FALSE,TRUE,FALSE,SCR017,,,FALSE,regional,,,,,,,,,,,,
+SCR018,Ardgay,ARD,Scotrail,,,57.881119,-4.362604,,FALSE,FALSE,,1,,,single,,,,,['Far North Line'],Far North Line,FALSE,FALSE,single,TRUE,FALSE,TRUE,SCR018,,,FALSE,regional,,,,,,,,,,,,
+SCR019,Ardlui,AUI,Scotrail,,,56.302025,-4.721712,,FALSE,FALSE,,0,,,single,,,,,[],,FALSE,FALSE,single,FALSE,TRUE,FALSE,SCR019,,,FALSE,regional,,,,,,,,,,,,
+SCR020,Ardrossan Harbour,ADS,Scotrail,,,55.640854,-4.823461,,FALSE,FALSE,,1,,,single,,,,,['Ardrossan Branch'],Ardrossan Branch,FALSE,FALSE,multiple,TRUE,FALSE,TRUE,SCR020,,,FALSE,regional,,,,,,,,,,,,
+SCR021,Ardrossan South Beach,ASB,Scotrail,,,55.640495,-4.799593,,FALSE,FALSE,,2,,,few,,,,,"['Largs Branch', 'Ardrossan Branch']",Largs Branch,FALSE,FALSE,multiple,TRUE,FALSE,TRUE,SCR021,,,FALSE,regional,,,,,,,,,,,,
+SCR022,Ardrossan Town,ADN,Scotrail,,,55.639313,-4.812212,,FALSE,FALSE,,1,,,single,,,,,['Ardrossan Branch'],Ardrossan Branch,FALSE,FALSE,multiple,TRUE,FALSE,TRUE,SCR022,,,FALSE,regional,,,,,,,,,,,,
+SCR023,Argyle Street,AGS,Scotrail,,,55.855938,-4.244574,,FALSE,FALSE,,1,,,single,,,,,['Argyle Line'],Argyle Line,FALSE,FALSE,multiple,FALSE,TRUE,FALSE,SCR023,,,FALSE,regional,,,,,,,,,,,,
+SCR024,Arisaig,ARG,Scotrail,,,56.912617,-5.839141,,FALSE,FALSE,,1,,,single,,,,,['West Highland Line'],West Highland Line,FALSE,FALSE,single,FALSE,TRUE,TRUE,SCR024,,,FALSE,regional,,,,,,,,,,,,
+SCR025,Armadale,ARM,Scotrail,,,55.88639,-3.68504,,FALSE,FALSE,,0,,,single,,,,,[],,FALSE,FALSE,single,FALSE,TRUE,FALSE,SCR025,,,FALSE,regional,,,,,,,,,,,,
+SCR026,Arrochar & Tarbet,ART,Scotrail,,,56.204021,-4.722822,,FALSE,FALSE,,1,,,single,,,,,['West Highland Line'],West Highland Line,FALSE,FALSE,multiple,FALSE,TRUE,TRUE,SCR026,,,FALSE,regional,,,,,,,,,,,,
+SCR027,Ashfield,ASF,Scotrail,,,55.889214,-4.2433,,FALSE,FALSE,,0,,,single,,,,,[],,FALSE,FALSE,single,FALSE,TRUE,FALSE,SCR027,,,FALSE,regional,,,,,,,,,,,,
+SCR028,Attadale,ATT,Scotrail,,,57.394871,-5.456549,,FALSE,FALSE,,1,,,single,,,,,['Kyle Line'],Kyle Line,FALSE,FALSE,single,TRUE,FALSE,TRUE,SCR028,,,FALSE,regional,,,,,,,,,,,,
+SCR029,Auchinleck,AUK,Scotrail,,,55.47031,-4.295389,,FALSE,FALSE,,0,,,single,,,,,[],,FALSE,FALSE,single,FALSE,TRUE,FALSE,SCR029,,,FALSE,regional,,,,,,,,,,,,
+SCR030,Aviemore,AVM,Scotrail,,,57.18914,-3.828348,,FALSE,FALSE,,1,,,single,,,,,['Highland Main Line'],Highland Main Line,FALSE,FALSE,single,FALSE,TRUE,FALSE,SCR030,,,FALSE,regional,,,,,,,,,,,,
+SCR031,Ayr,AYR,Scotrail,,,55.458248,-4.626878,,FALSE,FALSE,,2,,,few,,,,,"['Ayrshire Coast', 'Stranraer Line']",Ayrshire Coast,FALSE,FALSE,single,FALSE,TRUE,TRUE,SCR031,,,FALSE,regional,,,,,,,,,,,,
+SCR032,Baillieston,BIO,Scotrail,,,55.844761,-4.11454,,FALSE,FALSE,,0,,,single,,,,,[],,FALSE,FALSE,single,FALSE,TRUE,FALSE,SCR032,,,FALSE,regional,,,,,,,,,,,,
+SCR033,Balloch Central,BHC,Scotrail,,,56.002983,-4.583539,,FALSE,FALSE,,0,,,single,,,,,[],,FALSE,FALSE,multiple,FALSE,TRUE,FALSE,SCR033,,,FALSE,regional,,,,,,,,,,,,
+SCR034,Balmossie,BSI,Scotrail,,,56.475548,-2.83764,,FALSE,FALSE,,0,,,single,,,,,[],,FALSE,FALSE,single,FALSE,TRUE,FALSE,SCR034,,,FALSE,regional,,,,,,,,,,,,
+SCR035,Banavie,BNV,Scotrail,,,56.84338,-5.095477,,FALSE,FALSE,,1,,,single,,,,,['West Highland Line'],West Highland Line,FALSE,FALSE,single,FALSE,TRUE,TRUE,SCR035,,,FALSE,regional,,,,,,,,,,,,
+SCR036,Barassie,BSS,Scotrail,,,55.5611,-4.651181,,FALSE,FALSE,,0,,,single,,,,,[],,FALSE,FALSE,single,FALSE,TRUE,FALSE,SCR036,,,FALSE,regional,,,,,,,,,,,,
+SCR037,Bargeddie,BGI,Scotrail,,,55.851776,-4.071789,,FALSE,FALSE,,0,,,single,,,,,[],,FALSE,FALSE,single,FALSE,TRUE,FALSE,SCR037,,,FALSE,regional,,,,,,,,,,,,
+SCR038,Barnhill,BNL,Scotrail,,,55.877895,-4.223463,,FALSE,FALSE,,0,,,single,,,,,[],,FALSE,FALSE,single,FALSE,TRUE,FALSE,SCR038,,,FALSE,regional,,,,,,,,,,,,
+SCR039,Barrhead,BRR,Scotrail,,,55.804535,-4.396411,,FALSE,FALSE,,1,,,single,,,,,['Neilston Line'],Neilston Line,FALSE,FALSE,single,TRUE,FALSE,FALSE,SCR039,,,FALSE,regional,,,,,,,,,,,,
+SCR040,Barrhill,BRL,Scotrail,,,55.097031,-4.781834,,FALSE,FALSE,,1,,,single,,,,,['Stranraer Line'],Stranraer Line,FALSE,FALSE,single,FALSE,TRUE,FALSE,SCR040,,,FALSE,regional,,,,,,,,,,,,
+SCR041,Barry Links,BYL,Scotrail,,,56.493206,-2.745444,,FALSE,FALSE,,0,,,single,,,,,[],,FALSE,FALSE,multiple,FALSE,TRUE,FALSE,SCR041,,,FALSE,regional,,,,,,,,,,,,
+SCR042,Bathgate,BHG,Scotrail,,,55.898678,-3.644019,,FALSE,FALSE,,0,,,single,,,,,[],,FALSE,FALSE,single,FALSE,TRUE,FALSE,SCR042,,,FALSE,regional,,,,,,,,,,,,
+SCR043,Bearsden,BRN,Scotrail,,,55.917202,-4.332945,,FALSE,FALSE,,1,,,single,,,,,['Argyle Line'],Argyle Line,FALSE,FALSE,single,FALSE,TRUE,FALSE,SCR043,,,FALSE,regional,,,,,,,,,,,,
+SCR044,Beasdale,BSL,Scotrail,,,56.899624,-5.763864,,FALSE,FALSE,,1,,,single,,,,,['West Highland Line'],West Highland Line,FALSE,FALSE,single,FALSE,TRUE,TRUE,SCR044,,,FALSE,regional,,,,,,,,,,,,
+SCR045,Beauly,BEL,Scotrail,,,57.478,-4.4698,,FALSE,FALSE,,0,,,single,,,,,[],,FALSE,FALSE,single,FALSE,TRUE,FALSE,SCR045,,,FALSE,regional,,,,,,,,,,,,
+SCR046,Bellgrove,BLG,Scotrail,,,55.857182,-4.22547,,FALSE,FALSE,,0,,,single,,,,,[],,FALSE,FALSE,single,FALSE,TRUE,FALSE,SCR046,,,FALSE,regional,,,,,,,,,,,,
+SCR047,Bellshill,BLH,Scotrail,,,55.816605,-4.025222,,FALSE,FALSE,,1,,,single,,,,,['Shotts Line'],Shotts Line,FALSE,FALSE,single,FALSE,TRUE,FALSE,SCR047,,,FALSE,regional,,,,,,,,,,,,
+SCR048,Bishopbriggs,BBG,Scotrail,,,55.903927,-4.224958,,FALSE,FALSE,,0,,,single,,,,,[],,FALSE,FALSE,single,FALSE,TRUE,FALSE,SCR048,,,FALSE,regional,,,,,,,,,,,,
+SCR049,Bishopton,BPT,Scotrail,,,55.902206,-4.501637,,FALSE,FALSE,,1,,,single,,,,,['Inverclyde Line'],Inverclyde Line,FALSE,FALSE,single,FALSE,TRUE,TRUE,SCR049,,,FALSE,regional,,,,,,,,,,,,
+SCR050,Blackridge,BKR,Scotrail,,,55.88368,-3.75047,,FALSE,FALSE,,0,,,single,,,,,[],,FALSE,FALSE,single,FALSE,TRUE,FALSE,SCR050,,,FALSE,regional,,,,,,,,,,,,
+SCR051,Blair Atholl,BLA,Scotrail,,,56.765614,-3.85025,,FALSE,FALSE,,1,,,single,,,,,['Highland Main Line'],Highland Main Line,FALSE,FALSE,multiple,FALSE,TRUE,FALSE,SCR051,,,FALSE,regional,,,,,,,,,,,,
+SCR052,Blairhill,BAI,Scotrail,,,55.866653,-4.04221,,FALSE,FALSE,,0,,,single,,,,,[],,FALSE,FALSE,single,FALSE,TRUE,FALSE,SCR052,,,FALSE,regional,,,,,,,,,,,,
+SCR053,Blantyre,BLT,Scotrail,,,55.7976,-4.086466,,FALSE,FALSE,,1,,,single,,,,,['Argyle Line'],Argyle Line,FALSE,FALSE,single,FALSE,TRUE,FALSE,SCR053,,,FALSE,regional,,,,,,,,,,,,
+SCR054,Bogston,BGS,Scotrail,,,55.937267,-4.713676,,FALSE,FALSE,,1,,,single,,,,,['Inverclyde Line'],Inverclyde Line,FALSE,FALSE,single,FALSE,TRUE,TRUE,SCR054,,,FALSE,regional,,,,,,,,,,,,
+SCR055,Bowling,BWG,Scotrail,,,55.931129,-4.493879,,FALSE,FALSE,,0,,,single,,,,,[],,FALSE,FALSE,single,FALSE,TRUE,FALSE,SCR055,,,FALSE,regional,,,,,,,,,,,,
+SCR056,Branchton,BCN,Scotrail,,,55.940647,-4.803598,,FALSE,FALSE,,1,,,single,,,,,['Wemyss Bay Branch'],Wemyss Bay Branch,FALSE,FALSE,single,FALSE,TRUE,FALSE,SCR056,,,FALSE,regional,,,,,,,,,,,,
+SCR057,Breich,BRC,Scotrail,,,55.827351,-3.668147,,FALSE,FALSE,,0,,,single,,,,,[],,FALSE,FALSE,single,FALSE,TRUE,FALSE,SCR057,,,FALSE,regional,,,,,,,,,,,,
+SCR058,Bridge of Allan,BEA,Scotrail,,,56.157429,-3.956166,,FALSE,FALSE,,0,,,single,,,,,[],,FALSE,FALSE,multiple,FALSE,TRUE,FALSE,SCR058,,,FALSE,regional,,,,,,,,,,,,
+SCR059,Bridge of Orchy,BRO,Scotrail,,,56.515926,-4.763048,,FALSE,FALSE,,1,,,single,,,,,['West Highland Line'],West Highland Line,FALSE,FALSE,multiple,FALSE,TRUE,TRUE,SCR059,,,FALSE,regional,,,,,,,,,,,,
+SCR060,Bridgeton,BDG,Scotrail,,,55.849968,-4.226668,,FALSE,FALSE,,0,,,single,,,,,[],,FALSE,FALSE,single,FALSE,TRUE,FALSE,SCR060,,,FALSE,regional,,,,,,,,,,,,
+SCR061,Brora,BRA,Scotrail,,,58.012657,-3.853251,,FALSE,FALSE,,1,,,single,,,,,['Far North Line'],Far North Line,FALSE,FALSE,single,TRUE,FALSE,TRUE,SCR061,,,FALSE,regional,,,,,,,,,,,,
+SCR062,Broughty Ferry,BYF,Scotrail,,,56.467213,-2.873153,,FALSE,FALSE,,0,,,single,,,,,[],,FALSE,FALSE,multiple,FALSE,TRUE,FALSE,SCR062,,,FALSE,regional,,,,,,,,,,,,
+SCR063,Brunstane,BSU,Scotrail,,,55.94143,-3.10064,,FALSE,FALSE,,1,,,single,,,,,['Borders Railway'],Borders Railway,FALSE,FALSE,single,TRUE,FALSE,FALSE,SCR063,,,FALSE,regional,,,,,,,,,,,,
+SCR064,Burnside,BUI,Scotrail,,,55.817123,-4.204029,,FALSE,FALSE,,1,,,single,,,,,['East Kilbride Line'],East Kilbride Line,FALSE,FALSE,single,FALSE,TRUE,FALSE,SCR064,,,FALSE,regional,,,,,,,,,,,,
+SCR065,Burntisland,BTS,Scotrail,,,56.057133,-3.233214,,FALSE,FALSE,,0,,,single,,,,,[],,FALSE,FALSE,single,FALSE,TRUE,FALSE,SCR065,,,FALSE,regional,,,,,,,,,,,,
+SCR066,Busby,BUS,Scotrail,,,55.780109,-4.262551,,FALSE,FALSE,,0,,,single,,,,,[],,FALSE,FALSE,single,FALSE,TRUE,FALSE,SCR066,,,FALSE,regional,,,,,,,,,,,,
+SCR067,Caldercruix,CAC,Scotrail,,,55.88791,-3.88978,,FALSE,FALSE,,0,,,single,,,,,[],,FALSE,FALSE,single,FALSE,TRUE,FALSE,SCR067,,,FALSE,regional,,,,,,,,,,,,
+SCR068,Cambuslang,CBL,Scotrail,,,55.819458,-4.173839,,FALSE,FALSE,,1,,,single,,,,,['Argyle Line'],Argyle Line,FALSE,FALSE,single,FALSE,TRUE,FALSE,SCR068,,,FALSE,regional,,,,,,,,,,,,
+SCR069,Camelon,CMO,Scotrail,,,56.006775,-3.817015,,FALSE,FALSE,,0,,,single,,,,,[],,FALSE,FALSE,single,FALSE,TRUE,FALSE,SCR069,,,FALSE,regional,,,,,,,,,,,,
+SCR070,Cameron Bridge,CBX,Scotrail,,,56.189693,-3.046855,,FALSE,FALSE,,0,,,single,,,,,[],,FALSE,FALSE,multiple,FALSE,TRUE,FALSE,SCR070,,,FALSE,regional,,,,,,,,,,,,
+SCR071,Cardenden,CDD,Scotrail,,,56.141308,-3.261651,,FALSE,FALSE,,0,,,single,,,,,[],,FALSE,FALSE,single,FALSE,TRUE,FALSE,SCR071,,,FALSE,regional,,,,,,,,,,,,
+SCR072,Cardonald,CDO,Scotrail,,,55.853252,-4.340297,,FALSE,FALSE,,0,,,single,,,,,[],,FALSE,FALSE,single,FALSE,TRUE,FALSE,SCR072,,,FALSE,regional,,,,,,,,,,,,
+SCR073,Cardross,CDR,Scotrail,,,55.960163,-4.652782,,FALSE,FALSE,,0,,,single,,,,,[],,FALSE,FALSE,single,FALSE,TRUE,FALSE,SCR073,,,FALSE,regional,,,,,,,,,,,,
+SCR074,Carfin,CRF,Scotrail,,,55.806938,-3.956112,,FALSE,FALSE,,0,,,single,,,,,[],,FALSE,FALSE,single,FALSE,TRUE,FALSE,SCR074,,,FALSE,regional,,,,,,,,,,,,
+SCR075,Carluke,CLU,Scotrail,,,55.730408,-3.848761,,FALSE,FALSE,,1,,,single,,,,,['Lanark Line'],Lanark Line,FALSE,FALSE,single,TRUE,FALSE,FALSE,SCR075,,,FALSE,regional,,,,,,,,,,,,
+SCR076,Carmyle,CML,Scotrail,,,55.834053,-4.161873,,FALSE,FALSE,,0,,,single,,,,,[],,FALSE,FALSE,single,FALSE,TRUE,FALSE,SCR076,,,FALSE,regional,,,,,,,,,,,,
+SCR077,Carnoustie,CAN,Scotrail,,,56.500618,-2.7066,,FALSE,FALSE,,0,,,single,,,,,[],,FALSE,FALSE,single,FALSE,TRUE,FALSE,SCR077,,,FALSE,regional,,,,,,,,,,,,
+SCR078,Carntyne,CAY,Scotrail,,,55.854412,-4.17898,,FALSE,FALSE,,0,,,single,,,,,[],,FALSE,FALSE,single,FALSE,TRUE,FALSE,SCR078,,,FALSE,regional,,,,,,,,,,,,
+SCR079,Carrbridge,CAG,Scotrail,,,57.279873,-3.829541,,FALSE,FALSE,,1,,,single,,,,,['Highland Main Line'],Highland Main Line,FALSE,FALSE,single,FALSE,TRUE,FALSE,SCR079,,,FALSE,regional,,,,,,,,,,,,
+SCR080,Carstairs,CRS,Scotrail,,,55.69075,-3.668696,,FALSE,FALSE,,1,,,single,,,,,['Carstairs Corridor'],Carstairs Corridor,FALSE,FALSE,single,FALSE,TRUE,FALSE,SCR080,,,FALSE,regional,,,,,,,,,,,,
+SCR081,Cartsdyke,CDY,Scotrail,,,55.942261,-4.731633,,FALSE,FALSE,,1,,,single,,,,,['Inverclyde Line'],Inverclyde Line,FALSE,FALSE,single,FALSE,TRUE,TRUE,SCR081,,,FALSE,regional,,,,,,,,,,,,
+SCR082,Cathcart,CCT,Scotrail,,,55.817879,-4.261552,,FALSE,FALSE,,1,,,single,,,,,['Cathcart Circle'],Cathcart Circle,FALSE,FALSE,single,FALSE,TRUE,FALSE,SCR082,,,FALSE,regional,,,,,,,,,,,,
+SCR083,Charing Cross (Glasgow),CHC,Scotrail,,,55.865345,-4.270689,,FALSE,FALSE,,0,,,single,,,,,[],,FALSE,FALSE,multiple,FALSE,TRUE,FALSE,SCR083,,,FALSE,regional,,,,,,,,,,,,
+SCR084,Chatelherault,CTE,Scotrail,,,55.76521,-4.00466,,FALSE,FALSE,,0,,,single,,,,,[],,FALSE,FALSE,single,FALSE,TRUE,FALSE,SCR084,,,FALSE,regional,,,,,,,,,,,,
+SCR085,Clarkston,CKS,Scotrail,,,55.789753,-4.275865,,FALSE,FALSE,,0,,,single,,,,,[],,FALSE,FALSE,single,FALSE,TRUE,FALSE,SCR085,,,FALSE,regional,,,,,,,,,,,,
+SCR086,Cleland,CEA,Scotrail,,,55.804073,-3.909695,,FALSE,FALSE,,0,,,single,,,,,[],,FALSE,FALSE,single,FALSE,TRUE,FALSE,SCR086,,,FALSE,regional,,,,,,,,,,,,
+SCR087,Clydebank,CYK,Scotrail,,,55.900562,-4.403927,,FALSE,FALSE,,0,,,single,,,,,[],,FALSE,FALSE,single,FALSE,TRUE,FALSE,SCR087,,,FALSE,regional,,,,,,,,,,,,
+SCR088,Coatbridge Central,CBC,Scotrail,,,55.863213,-4.032443,,FALSE,FALSE,,0,,,single,,,,,[],,FALSE,FALSE,multiple,FALSE,TRUE,FALSE,SCR088,,,FALSE,regional,,,,,,,,,,,,
+SCR089,Coatbridge Sunnyside,CBS,Scotrail,,,55.866886,-4.027847,,FALSE,FALSE,,0,,,single,,,,,[],,FALSE,FALSE,multiple,FALSE,TRUE,FALSE,SCR089,,,FALSE,regional,,,,,,,,,,,,
+SCR090,Coatdyke,COA,Scotrail,,,55.864567,-4.005343,,FALSE,FALSE,,0,,,single,,,,,[],,FALSE,FALSE,single,FALSE,TRUE,FALSE,SCR090,,,FALSE,regional,,,,,,,,,,,,
+SCR091,Connel Ferry,CON,Scotrail,,,56.451981,-5.384973,,FALSE,FALSE,,1,,,single,,,,,['Oban Branch'],Oban Branch,FALSE,FALSE,multiple,TRUE,FALSE,FALSE,SCR091,,,FALSE,regional,,,,,,,,,,,,
+SCR092,Conon Bridge,CBD,Scotrail,,,57.5617,-4.4404,,FALSE,FALSE,,0,,,single,,,,,[],,FALSE,FALSE,multiple,FALSE,TRUE,FALSE,SCR092,,,FALSE,regional,,,,,,,,,,,,
+SCR093,Corkerhill,CKH,Scotrail,,,55.836494,-4.323322,,FALSE,FALSE,,0,,,single,,,,,[],,FALSE,FALSE,single,FALSE,TRUE,FALSE,SCR093,,,FALSE,regional,,,,,,,,,,,,
+SCR094,Corpach,CPA,Scotrail,,,56.842724,-5.121662,,FALSE,FALSE,,1,,,single,,,,,['West Highland Line'],West Highland Line,FALSE,FALSE,single,FALSE,TRUE,TRUE,SCR094,,,FALSE,regional,,,,,,,,,,,,
+SCR095,Corrour,CRR,Scotrail,,,56.760181,-4.690966,,FALSE,FALSE,,1,,,single,,,,,['West Highland Line'],West Highland Line,FALSE,FALSE,single,FALSE,TRUE,TRUE,SCR095,,,FALSE,regional,,,,,,,,,,,,
+SCR096,Cowdenbeath,COW,Scotrail,,,56.111679,-3.344314,,FALSE,FALSE,,1,,,single,,,,,['Fife Circle'],Fife Circle,FALSE,FALSE,single,FALSE,TRUE,FALSE,SCR096,,,FALSE,regional,,,,,,,,,,,,
+SCR097,Craigendoran,CGD,Scotrail,,,55.99485,-4.711291,,FALSE,FALSE,,0,,,single,,,,,[],,FALSE,FALSE,single,FALSE,TRUE,FALSE,SCR097,,,FALSE,regional,,,,,,,,,,,,
+SCR098,Crianlarich,CNR,Scotrail,,,56.389652,-4.617778,,FALSE,FALSE,,2,,,few,,,,,"['West Highland Line', 'Oban Branch']",West Highland Line,FALSE,FALSE,single,TRUE,FALSE,TRUE,SCR098,,,FALSE,regional,,,,,,,,,,,,
+SCR099,Croftfoot,CFF,Scotrail,,,55.818455,-4.229643,,FALSE,FALSE,,1,,,single,,,,,['East Kilbride Line'],East Kilbride Line,FALSE,FALSE,single,FALSE,TRUE,FALSE,SCR099,,,FALSE,regional,,,,,,,,,,,,
+SCR100,Crookston,CKT,Scotrail,,,55.84388,-4.36049,,FALSE,FALSE,,0,,,single,,,,,[],,FALSE,FALSE,single,FALSE,TRUE,FALSE,SCR100,,,FALSE,regional,,,,,,,,,,,,
+SCR101,Crosshill,COI,Scotrail,,,55.833225,-4.257648,,FALSE,FALSE,,1,,,single,,,,,['East Kilbride Line'],East Kilbride Line,FALSE,FALSE,single,FALSE,TRUE,FALSE,SCR101,,,FALSE,regional,,,,,,,,,,,,
+SCR102,Crossmyloof,CMY,Scotrail,,,55.833626,-4.284813,,FALSE,FALSE,,1,,,single,,,,,['Cathcart Circle'],Cathcart Circle,FALSE,FALSE,single,FALSE,TRUE,FALSE,SCR102,,,FALSE,regional,,,,,,,,,,,,
+SCR103,Croy,CRO,Scotrail,,,55.955734,-4.035697,,FALSE,FALSE,,1,,,single,,,,,['Edinburgh–Glasgow Main Line'],Edinburgh–Glasgow Main Line,FALSE,FALSE,single,FALSE,TRUE,FALSE,SCR103,,,FALSE,regional,,,,,,,,,,,,
+SCR104,Culrain,CUA,Scotrail,,,57.919842,-4.405676,,FALSE,FALSE,,0,,,single,,,,,[],,FALSE,FALSE,single,FALSE,TRUE,FALSE,SCR104,,,FALSE,regional,,,,,,,,,,,,
+SCR105,Cumbernauld,CUB,Scotrail,,,55.941326,-3.982089,,FALSE,FALSE,,0,,,single,,,,,[],,FALSE,FALSE,single,FALSE,TRUE,FALSE,SCR105,,,FALSE,regional,,,,,,,,,,,,
+SCR106,Cupar,CUP,Scotrail,,,56.317043,-3.008772,,FALSE,FALSE,,0,,,single,,,,,[],,FALSE,FALSE,single,FALSE,TRUE,FALSE,SCR106,,,FALSE,regional,,,,,,,,,,,,
+SCR107,Curriehill,CUH,Scotrail,,,55.901703,-3.317849,,FALSE,FALSE,,0,,,single,,,,,[],,FALSE,FALSE,single,FALSE,TRUE,FALSE,SCR107,,,FALSE,regional,,,,,,,,,,,,
+SCR108,Dalgety Bay,DAG,Scotrail,,,56.044178,-3.354809,,FALSE,FALSE,,0,,,single,,,,,[],,FALSE,FALSE,multiple,FALSE,TRUE,FALSE,SCR108,,,FALSE,regional,,,,,,,,,,,,
+SCR109,Dalmally,DAL,Scotrail,,,56.400272,-4.9832,,FALSE,FALSE,,1,,,single,,,,,['Oban Branch'],Oban Branch,FALSE,FALSE,single,TRUE,FALSE,FALSE,SCR109,,,FALSE,regional,,,,,,,,,,,,
+SCR110,Dalmarnock,DAK,Scotrail,,,55.839371,-4.21647,,FALSE,FALSE,,1,,,single,,,,,['Argyle Line'],Argyle Line,FALSE,FALSE,single,FALSE,TRUE,FALSE,SCR110,,,FALSE,regional,,,,,,,,,,,,
+SCR111,Dalmeny,DAM,Scotrail,,,55.986362,-3.381645,,FALSE,FALSE,,0,,,single,,,,,[],,FALSE,FALSE,single,FALSE,TRUE,FALSE,SCR111,,,FALSE,regional,,,,,,,,,,,,
+SCR112,Dalmuir,DMR,Scotrail,,,55.911793,-4.427038,,FALSE,FALSE,,0,,,single,,,,,[],,FALSE,FALSE,single,FALSE,TRUE,FALSE,SCR112,,,FALSE,regional,,,,,,,,,,,,
+SCR113,Dalreoch,DLR,Scotrail,,,55.947365,-4.578226,,FALSE,FALSE,,0,,,single,,,,,[],,FALSE,FALSE,single,FALSE,TRUE,FALSE,SCR113,,,FALSE,regional,,,,,,,,,,,,
+SCR114,Dalry,DLY,Scotrail,,,55.705395,-4.711899,,FALSE,FALSE,,0,,,single,,,,,[],,FALSE,FALSE,single,FALSE,TRUE,FALSE,SCR114,,,FALSE,regional,,,,,,,,,,,,
+SCR115,Dalwhinnie,DLW,Scotrail,,,56.934334,-4.246498,,FALSE,FALSE,,1,,,single,,,,,['Highland Main Line'],Highland Main Line,FALSE,FALSE,single,FALSE,TRUE,FALSE,SCR115,,,FALSE,regional,,,,,,,,,,,,
+SCR116,Dingwall,DIN,Scotrail,,,57.594238,-4.422611,,FALSE,FALSE,,2,,,few,,,,,"['Kyle Line', 'Far North Line']",Kyle Line,FALSE,FALSE,single,TRUE,FALSE,TRUE,SCR116,,,FALSE,regional,,,,,,,,,,,,
+SCR117,Drem,DRM,Scotrail,,,56.005981,-2.785752,,FALSE,FALSE,,0,,,single,,,,,[],,FALSE,FALSE,single,FALSE,TRUE,FALSE,SCR117,,,FALSE,regional,,,,,,,,,,,,
+SCR118,Drumchapel,DMC,Scotrail,,,55.904926,-4.364204,,FALSE,FALSE,,0,,,single,,,,,[],,FALSE,FALSE,single,FALSE,TRUE,FALSE,SCR118,,,FALSE,regional,,,,,,,,,,,,
+SCR119,Drumfrochar,DFR,Scotrail,,,55.941292,-4.774822,,FALSE,FALSE,,0,,,single,,,,,[],,FALSE,FALSE,single,FALSE,TRUE,FALSE,SCR119,,,FALSE,regional,,,,,,,,,,,,
+SCR120,Drumgelloch,DRU,Scotrail,,,55.867233,-3.95114,,FALSE,FALSE,,0,,,single,,,,,[],,FALSE,FALSE,single,FALSE,TRUE,FALSE,SCR120,,,FALSE,regional,,,,,,,,,,,,
+SCR121,Drumry,DMY,Scotrail,,,55.904495,-4.386583,,FALSE,FALSE,,0,,,single,,,,,[],,FALSE,FALSE,single,FALSE,TRUE,FALSE,SCR121,,,FALSE,regional,,,,,,,,,,,,
+SCR122,Duirinish,DRN,Scotrail,,,57.319847,-5.692103,,FALSE,FALSE,,1,,,single,,,,,['Kyle Line'],Kyle Line,FALSE,FALSE,single,TRUE,FALSE,TRUE,SCR122,,,FALSE,regional,,,,,,,,,,,,
+SCR123,Duke Street,DST,Scotrail,,,55.859207,-4.212814,,FALSE,FALSE,,0,,,single,,,,,[],,FALSE,FALSE,multiple,FALSE,TRUE,FALSE,SCR123,,,FALSE,regional,,,,,,,,,,,,
+SCR124,Dumbarton Central,DBC,Scotrail,,,55.946705,-4.56697,,FALSE,FALSE,,0,,,single,,,,,[],,FALSE,FALSE,multiple,FALSE,TRUE,FALSE,SCR124,,,FALSE,regional,,,,,,,,,,,,
+SCR125,Dumbarton East,DBE,Scotrail,,,55.942478,-4.55387,,FALSE,FALSE,,0,,,single,,,,,[],,FALSE,FALSE,multiple,FALSE,TRUE,FALSE,SCR125,,,FALSE,regional,,,,,,,,,,,,
+SCR126,Dumbreck,DUM,Scotrail,,,55.841255,-4.309216,,FALSE,FALSE,,0,,,single,,,,,[],,FALSE,FALSE,single,FALSE,TRUE,FALSE,SCR126,,,FALSE,regional,,,,,,,,,,,,
+SCR127,Dumfries,DMF,Scotrail,,,55.072395,-3.605261,,FALSE,FALSE,,0,,,single,,,,,[],,FALSE,FALSE,single,FALSE,TRUE,FALSE,SCR127,,,FALSE,regional,,,,,,,,,,,,
+SCR128,Dunbar,DUN,Scotrail,,,55.998428,-2.514625,,FALSE,FALSE,,0,,,single,,,,,[],,FALSE,FALSE,single,FALSE,TRUE,FALSE,SCR128,,,FALSE,regional,,,,,,,,,,,,
+SCR129,Dunblane,DBL,Scotrail,,,56.186001,-3.967296,,FALSE,FALSE,,0,,,single,,,,,[],,FALSE,FALSE,single,FALSE,TRUE,FALSE,SCR129,,,FALSE,regional,,,,,,,,,,,,
+SCR130,Duncraig,DCG,Scotrail,,,57.336727,-5.637282,,FALSE,FALSE,,1,,,single,,,,,['Kyle Line'],Kyle Line,FALSE,FALSE,single,TRUE,FALSE,TRUE,SCR130,,,FALSE,regional,,,,,,,,,,,,
+SCR131,Dundee,DEE,Scotrail,,,56.456669,-2.970576,,FALSE,FALSE,,1,,,single,,,,,['Aberdeen Line'],Aberdeen Line,FALSE,FALSE,single,FALSE,TRUE,FALSE,SCR131,,,FALSE,regional,,,,,,,,,,,,
+SCR132,Dunfermline City,DFE,Scotrail,,,56.068233,-3.452033,,FALSE,FALSE,,1,,,single,,,,,['Fife Circle'],Fife Circle,FALSE,FALSE,multiple,FALSE,TRUE,FALSE,SCR132,,,FALSE,regional,,,,,,,,,,,,
+SCR133,Dunfermline Queen Margaret,DFL,Scotrail,,,56.080706,-3.42164,,FALSE,FALSE,,0,,,single,,,,,[],,FALSE,FALSE,multiple,FALSE,TRUE,FALSE,SCR133,,,FALSE,regional,,,,,,,,,,,,
+SCR134,Dunkeld & Birnam,DKD,Scotrail,,,56.557301,-3.578097,,FALSE,FALSE,,0,,,single,,,,,[],,FALSE,FALSE,multiple,FALSE,TRUE,FALSE,SCR134,,,FALSE,regional,,,,,,,,,,,,
+SCR135,Dunlop,DNL,Scotrail,,,55.711926,-4.532435,,FALSE,FALSE,,0,,,single,,,,,[],,FALSE,FALSE,single,FALSE,TRUE,FALSE,SCR135,,,FALSE,regional,,,,,,,,,,,,
+SCR136,Dunrobin Castle,DNO,Scotrail,,,57.986111,-3.946595,,FALSE,FALSE,,1,,,single,,,,,['Far North Line'],Far North Line,FALSE,FALSE,multiple,TRUE,FALSE,TRUE,SCR136,,,FALSE,regional,,,,,,,,,,,,
+SCR137,Dyce,DYC,Scotrail,,,57.205002,-2.191978,,FALSE,FALSE,,0,,,single,,,,,[],,FALSE,FALSE,single,FALSE,TRUE,FALSE,SCR137,,,FALSE,regional,,,,,,,,,,,,
+SCR138,East Kilbride,EKL,Scotrail,,,55.765388,-4.18199,,FALSE,FALSE,,1,,,single,,,,,['East Kilbride Line'],East Kilbride Line,FALSE,FALSE,multiple,FALSE,TRUE,FALSE,SCR138,,,FALSE,regional,,,,,,,,,,,,
+SCR139,East Linton,ELT,Scotrail,,,55.9856,-2.6579,,FALSE,FALSE,,0,,,single,,,,,[],,FALSE,FALSE,multiple,FALSE,TRUE,FALSE,SCR139,,,FALSE,regional,,,,,,,,,,,,
+SCR140,Easterhouse,EST,Scotrail,,,55.860157,-4.107389,,FALSE,FALSE,,0,,,single,,,,,[],,FALSE,FALSE,single,FALSE,TRUE,FALSE,SCR140,,,FALSE,regional,,,,,,,,,,,,
+SCR141,Edinburgh Gateway,EGY,Scotrail,,,55.941,-3.32,,FALSE,FALSE,,0,,,single,,,,,[],,FALSE,FALSE,multiple,FALSE,TRUE,FALSE,SCR141,,,FALSE,regional,,,,,,,,,,,,
+SCR142,Edinburgh Park,EDP,Scotrail,,,55.927615,-3.307829,,FALSE,FALSE,,0,,,single,,,,,[],,FALSE,FALSE,multiple,FALSE,TRUE,FALSE,SCR142,,,FALSE,regional,,,,,,,,,,,,
+SCR143,Edinburgh Waverley,EDB,Scotrail,,,55.952442,-3.188236,,FALSE,FALSE,,6,,,many,,,,,"['Edinburgh–Glasgow Main Line', 'Shotts Line', 'Carstairs Corridor', 'Aberdeen Line', 'Fife Circle', 'Borders Railway']",Edinburgh–Glasgow Main Line,FALSE,FALSE,multiple,TRUE,FALSE,FALSE,SCR143,,,FALSE,regional,,,,,,,,,,,,
+SCR144,Elgin,ELG,Scotrail,,,57.64299,-3.31163,,FALSE,FALSE,,0,,,single,,,,,[],,FALSE,FALSE,single,FALSE,TRUE,FALSE,SCR144,,,FALSE,regional,,,,,,,,,,,,
+SCR145,Eskbank,EKB,Scotrail,,,55.88956,-3.07845,,FALSE,FALSE,,1,,,single,,,,,['Borders Railway'],Borders Railway,FALSE,FALSE,single,TRUE,FALSE,FALSE,SCR145,,,FALSE,regional,,,,,,,,,,,,
+SCR146,Exhibition Centre,EXG,Scotrail,,,55.860619,-4.283207,,FALSE,FALSE,,1,,,single,,,,,['Argyle Line'],Argyle Line,FALSE,FALSE,multiple,FALSE,TRUE,FALSE,SCR146,,,FALSE,regional,,,,,,,,,,,,
+SCR147,Fairlie,FRL,Scotrail,,,55.752514,-4.853834,,FALSE,FALSE,,1,,,single,,,,,['Largs Branch'],Largs Branch,FALSE,FALSE,single,TRUE,FALSE,TRUE,SCR147,,,FALSE,regional,,,,,,,,,,,,
+SCR148,Falkirk Grahamston,FKG,Scotrail,,,56.002735,-3.786359,,FALSE,FALSE,,0,,,single,,,,,[],,FALSE,FALSE,multiple,FALSE,TRUE,FALSE,SCR148,,,FALSE,regional,,,,,,,,,,,,
+SCR149,Falkirk High,FKK,Scotrail,,,55.991863,-3.792276,,FALSE,FALSE,,1,,,single,,,,,['Edinburgh–Glasgow Main Line'],Edinburgh–Glasgow Main Line,FALSE,FALSE,multiple,FALSE,TRUE,FALSE,SCR149,,,FALSE,regional,,,,,,,,,,,,
+SCR150,Falls of Cruachan,FOC,Scotrail,,,56.386242,-5.114992,,FALSE,FALSE,,1,,,single,,,,,['Oban Branch'],Oban Branch,FALSE,FALSE,multiple,TRUE,FALSE,FALSE,SCR150,,,FALSE,regional,,,,,,,,,,,,
+SCR151,Fauldhouse,FLD,Scotrail,,,55.822163,-3.719006,,FALSE,FALSE,,0,,,single,,,,,[],,FALSE,FALSE,single,FALSE,TRUE,FALSE,SCR151,,,FALSE,regional,,,,,,,,,,,,
+SCR152,Fearn,FRN,Scotrail,,,57.777828,-3.994245,,FALSE,FALSE,,1,,,single,,,,,['Far North Line'],Far North Line,FALSE,FALSE,single,TRUE,FALSE,TRUE,SCR152,,,FALSE,regional,,,,,,,,,,,,
+SCR153,Forres,FOR,Scotrail,,,57.609661,-3.62847,,FALSE,FALSE,,0,,,single,,,,,[],,FALSE,FALSE,single,FALSE,TRUE,FALSE,SCR153,,,FALSE,regional,,,,,,,,,,,,
+SCR154,Forsinard,FRS,Scotrail,,,58.356998,-3.896903,,FALSE,FALSE,,1,,,single,,,,,['Far North Line'],Far North Line,FALSE,FALSE,single,TRUE,FALSE,TRUE,SCR154,,,FALSE,regional,,,,,,,,,,,,
+SCR155,Fort Matilda,FTM,Scotrail,,,55.958809,-4.7953,,FALSE,FALSE,,0,,,single,,,,,[],,FALSE,FALSE,multiple,FALSE,TRUE,FALSE,SCR155,,,FALSE,regional,,,,,,,,,,,,
+SCR156,Fort William,FTW,Scotrail,,,56.820625,-5.106721,,FALSE,FALSE,,1,,,single,,,,,['West Highland Line'],West Highland Line,FALSE,FALSE,multiple,FALSE,TRUE,TRUE,SCR156,,,FALSE,regional,,,,,,,,,,,,
+SCR157,Galashiels,GAL,Scotrail,,,55.610426,-2.809693,,FALSE,FALSE,,1,,,single,,,,,['Borders Railway'],Borders Railway,FALSE,FALSE,single,TRUE,FALSE,FALSE,SCR157,,,FALSE,regional,,,,,,,,,,,,
+SCR158,Garelochhead,GCH,Scotrail,,,56.079449,-4.826544,,FALSE,FALSE,,0,,,single,,,,,[],,FALSE,FALSE,single,FALSE,TRUE,FALSE,SCR158,,,FALSE,regional,,,,,,,,,,,,
+SCR159,Garrowhill,GAR,Scotrail,,,55.855286,-4.129497,,FALSE,FALSE,,0,,,single,,,,,[],,FALSE,FALSE,single,FALSE,TRUE,FALSE,SCR159,,,FALSE,regional,,,,,,,,,,,,
+SCR160,Garscadden,GRS,Scotrail,,,55.88784,-4.364757,,FALSE,FALSE,,0,,,single,,,,,[],,FALSE,FALSE,single,FALSE,TRUE,FALSE,SCR160,,,FALSE,regional,,,,,,,,,,,,
+SCR161,Gartcosh,GRH,Scotrail,,,55.885,-4.078,,FALSE,FALSE,,0,,,single,,,,,[],,FALSE,FALSE,single,FALSE,TRUE,FALSE,SCR161,,,FALSE,regional,,,,,,,,,,,,
+SCR162,Garve,GVE,Scotrail,,,57.613129,-4.688429,,FALSE,FALSE,,1,,,single,,,,,['Kyle Line'],Kyle Line,FALSE,FALSE,single,TRUE,FALSE,TRUE,SCR162,,,FALSE,regional,,,,,,,,,,,,
+SCR163,Georgemas Junction,GGJ,Scotrail,,,58.513721,-3.45212,,FALSE,FALSE,,1,,,single,,,,,['Far North Line'],Far North Line,FALSE,FALSE,multiple,TRUE,FALSE,TRUE,SCR163,,,FALSE,regional,,,,,,,,,,,,
+SCR164,Giffnock,GFN,Scotrail,,,55.804688,-4.294289,,FALSE,FALSE,,0,,,single,,,,,[],,FALSE,FALSE,single,FALSE,TRUE,FALSE,SCR164,,,FALSE,regional,,,,,,,,,,,,
+SCR165,Gilshochill,GSC,Scotrail,,,55.897295,-4.28201,,FALSE,FALSE,,0,,,single,,,,,[],,FALSE,FALSE,single,FALSE,TRUE,FALSE,SCR165,,,FALSE,regional,,,,,,,,,,,,
+SCR166,Girvan,GIR,Scotrail,,,55.246517,-4.848927,,FALSE,FALSE,,1,,,single,,,,,['Stranraer Line'],Stranraer Line,FALSE,FALSE,single,FALSE,TRUE,FALSE,SCR166,,,FALSE,regional,,,,,,,,,,,,
+SCR167,Glasgow Central,GLC,Scotrail,,,55.860157,-4.259208,,FALSE,FALSE,,9,,,many,,,,,"['Shotts Line', 'Carstairs Corridor', 'Ayrshire Coast', 'Inverclyde Line', 'Cathcart Circle', 'Cathcart Circle', 'Neilston Line', 'East Kilbride Line', 'Argyle Line']",Shotts Line,FALSE,FALSE,multiple,TRUE,FALSE,TRUE,SCR167,,,FALSE,regional,,,,,,,,,,,,
+SCR168,Glasgow Queen Street,GLQ,Scotrail,,,55.863003,-4.251385,,FALSE,FALSE,,2,,,few,,,,,"['Edinburgh–Glasgow Main Line', 'West Highland Line']",Edinburgh–Glasgow Main Line,FALSE,FALSE,multiple,FALSE,TRUE,TRUE,SCR168,,,FALSE,regional,,,,,,,,,,,,
+SCR169,Gleneagles,GLE,Scotrail,,,56.274902,-3.7312,,FALSE,FALSE,,0,,,single,,,,,[],,FALSE,FALSE,single,FALSE,TRUE,FALSE,SCR169,,,FALSE,regional,,,,,,,,,,,,
+SCR170,Glenfinnan,GLF,Scotrail,,,56.872753,-5.449219,,FALSE,FALSE,,1,,,single,,,,,['West Highland Line'],West Highland Line,FALSE,FALSE,single,FALSE,TRUE,TRUE,SCR170,,,FALSE,regional,,,,,,,,,,,,
+SCR171,Glengarnock,GLG,Scotrail,,,55.738579,-4.674364,,FALSE,FALSE,,0,,,single,,,,,[],,FALSE,FALSE,single,FALSE,TRUE,FALSE,SCR171,,,FALSE,regional,,,,,,,,,,,,
+SCR172,Glenrothes with Thornton,GLT,Scotrail,,,56.162224,-3.143189,,FALSE,FALSE,,0,,,single,,,,,[],,FALSE,FALSE,multiple,FALSE,TRUE,FALSE,SCR172,,,FALSE,regional,,,,,,,,,,,,
+SCR173,Golf Street,GOF,Scotrail,,,56.497852,-2.719541,,FALSE,FALSE,,0,,,single,,,,,[],,FALSE,FALSE,multiple,FALSE,TRUE,FALSE,SCR173,,,FALSE,regional,,,,,,,,,,,,
+SCR174,Golspie,GOL,Scotrail,,,57.971092,-3.98806,,FALSE,FALSE,,1,,,single,,,,,['Far North Line'],Far North Line,FALSE,FALSE,single,TRUE,FALSE,TRUE,SCR174,,,FALSE,regional,,,,,,,,,,,,
+SCR175,Gorebridge,GBG,Scotrail,,,55.836732,-3.046099,,FALSE,FALSE,,1,,,single,,,,,['Borders Railway'],Borders Railway,FALSE,FALSE,single,TRUE,FALSE,FALSE,SCR175,,,FALSE,regional,,,,,,,,,,,,
+SCR176,Gourock,GRK,Scotrail,,,55.962788,-4.818021,,FALSE,FALSE,,1,,,single,,,,,['Inverclyde Line'],Inverclyde Line,FALSE,FALSE,single,FALSE,TRUE,TRUE,SCR176,,,FALSE,regional,,,,,,,,,,,,
+SCR177,Greenfaulds,GRL,Scotrail,,,55.932064,-3.999232,,FALSE,FALSE,,0,,,single,,,,,[],,FALSE,FALSE,single,FALSE,TRUE,FALSE,SCR177,,,FALSE,regional,,,,,,,,,,,,
+SCR178,Greenock Central,GKC,Scotrail,,,55.945385,-4.752692,,FALSE,FALSE,,1,,,single,,,,,['Inverclyde Line'],Inverclyde Line,FALSE,FALSE,multiple,FALSE,TRUE,TRUE,SCR178,,,FALSE,regional,,,,,,,,,,,,
+SCR179,Greenock West,GKW,Scotrail,,,55.94772,-4.768866,,FALSE,FALSE,,1,,,single,,,,,['Inverclyde Line'],Inverclyde Line,FALSE,FALSE,multiple,FALSE,TRUE,TRUE,SCR179,,,FALSE,regional,,,,,,,,,,,,
+SCR180,Gretna Green,GEA,Scotrail,,,55.001934,-3.064608,,FALSE,FALSE,,0,,,single,,,,,[],,FALSE,FALSE,multiple,FALSE,TRUE,FALSE,SCR180,,,FALSE,regional,,,,,,,,,,,,
+SCR181,Hairmyres,HMY,Scotrail,,,55.762012,-4.220047,,FALSE,FALSE,,1,,,single,,,,,['East Kilbride Line'],East Kilbride Line,FALSE,FALSE,single,FALSE,TRUE,FALSE,SCR181,,,FALSE,regional,,,,,,,,,,,,
+SCR182,Hamilton Central,HNC,Scotrail,,,55.773239,-4.038928,,FALSE,FALSE,,1,,,single,,,,,['Argyle Line'],Argyle Line,FALSE,FALSE,multiple,FALSE,TRUE,FALSE,SCR182,,,FALSE,regional,,,,,,,,,,,,
+SCR183,Hamilton West,HNW,Scotrail,,,55.779232,-4.056781,,FALSE,FALSE,,0,,,single,,,,,[],,FALSE,FALSE,multiple,FALSE,TRUE,FALSE,SCR183,,,FALSE,regional,,,,,,,,,,,,
+SCR184,Hartwood,HTW,Scotrail,,,55.810532,-3.839792,,FALSE,FALSE,,0,,,single,,,,,[],,FALSE,FALSE,single,FALSE,TRUE,FALSE,SCR184,,,FALSE,regional,,,,,,,,,,,,
+SCR185,Hawkhead,HKH,Scotrail,,,55.843136,-4.398792,,FALSE,FALSE,,0,,,single,,,,,[],,FALSE,FALSE,single,FALSE,TRUE,FALSE,SCR185,,,FALSE,regional,,,,,,,,,,,,
+SCR186,Haymarket,HYM,Scotrail,,,55.945854,-3.218458,,FALSE,FALSE,,4,,,many,,,,,"['Edinburgh–Glasgow Main Line', 'Carstairs Corridor', 'Aberdeen Line', 'Fife Circle']",Edinburgh–Glasgow Main Line,FALSE,FALSE,single,FALSE,TRUE,FALSE,SCR186,,,FALSE,regional,,,,,,,,,,,,
+SCR187,Helensburgh Central,HLC,Scotrail,,,56.004261,-4.732803,,FALSE,FALSE,,0,,,single,,,,,[],,FALSE,FALSE,multiple,FALSE,TRUE,FALSE,SCR187,,,FALSE,regional,,,,,,,,,,,,
+SCR188,Helensburgh Upper,HLU,Scotrail,,,56.013268,-4.73184,,FALSE,FALSE,,1,,,single,,,,,['West Highland Line'],West Highland Line,FALSE,FALSE,multiple,FALSE,TRUE,TRUE,SCR188,,,FALSE,regional,,,,,,,,,,,,
+SCR189,Helmsdale,HMS,Scotrail,,,58.117737,-3.660068,,FALSE,FALSE,,1,,,single,,,,,['Far North Line'],Far North Line,FALSE,FALSE,single,TRUE,FALSE,TRUE,SCR189,,,FALSE,regional,,,,,,,,,,,,
+SCR190,High Street,HST,Scotrail,,,55.858719,-4.239953,,FALSE,FALSE,,0,,,single,,,,,[],,FALSE,FALSE,multiple,FALSE,TRUE,FALSE,SCR190,,,FALSE,regional,,,,,,,,,,,,
+SCR191,Hillfoot,HLF,Scotrail,,,55.920143,-4.32032,,FALSE,FALSE,,1,,,single,,,,,['Argyle Line'],Argyle Line,FALSE,FALSE,single,FALSE,TRUE,FALSE,SCR191,,,FALSE,regional,,,,,,,,,,,,
+SCR192,Hillington East,HLE,Scotrail,,,55.854778,-4.354768,,FALSE,FALSE,,0,,,single,,,,,[],,FALSE,FALSE,multiple,FALSE,TRUE,FALSE,SCR192,,,FALSE,regional,,,,,,,,,,,,
+SCR193,Hillington West,HLW,Scotrail,,,55.85537,-4.370778,,FALSE,FALSE,,0,,,single,,,,,[],,FALSE,FALSE,multiple,FALSE,TRUE,FALSE,SCR193,,,FALSE,regional,,,,,,,,,,,,
+SCR194,Holytown,HLY,Scotrail,,,55.812943,-3.973967,,FALSE,FALSE,,0,,,single,,,,,[],,FALSE,FALSE,single,FALSE,TRUE,FALSE,SCR194,,,FALSE,regional,,,,,,,,,,,,
+SCR195,Howwood,HOZ,Scotrail,,,55.811,-4.56,,FALSE,FALSE,,0,,,single,,,,,[],,FALSE,FALSE,single,FALSE,TRUE,FALSE,SCR195,,,FALSE,regional,,,,,,,,,,,,
+SCR196,Huntly,HNT,Scotrail,,,57.444401,-2.776354,,FALSE,FALSE,,0,,,single,,,,,[],,FALSE,FALSE,single,FALSE,TRUE,FALSE,SCR196,,,FALSE,regional,,,,,,,,,,,,
+SCR197,Hyndland,HYN,Scotrail,,,55.879803,-4.314715,,FALSE,FALSE,,0,,,single,,,,,[],,FALSE,FALSE,single,FALSE,TRUE,FALSE,SCR197,,,FALSE,regional,,,,,,,,,,,,
+SCR198,Insch,INS,Scotrail,,,57.33749,-2.616279,,FALSE,FALSE,,0,,,single,,,,,[],,FALSE,FALSE,single,FALSE,TRUE,FALSE,SCR198,,,FALSE,regional,,,,,,,,,,,,
+SCR199,Invergordon,IGD,Scotrail,,,57.688587,-4.175563,,FALSE,FALSE,,1,,,single,,,,,['Far North Line'],Far North Line,FALSE,FALSE,single,TRUE,FALSE,TRUE,SCR199,,,FALSE,regional,,,,,,,,,,,,
+SCR200,Invergowrie,ING,Scotrail,,,56.456795,-3.057897,,FALSE,FALSE,,0,,,single,,,,,[],,FALSE,FALSE,single,FALSE,TRUE,FALSE,SCR200,,,FALSE,regional,,,,,,,,,,,,
+SCR201,Inverkeithing,INK,Scotrail,,,56.034725,-3.39621,,FALSE,FALSE,,1,,,single,,,,,['Fife Circle'],Fife Circle,FALSE,FALSE,single,FALSE,TRUE,FALSE,SCR201,,,FALSE,regional,,,,,,,,,,,,
+SCR202,Inverkip,INP,Scotrail,,,55.905781,-4.873089,,FALSE,FALSE,,1,,,single,,,,,['Wemyss Bay Branch'],Wemyss Bay Branch,FALSE,FALSE,single,FALSE,TRUE,FALSE,SCR202,,,FALSE,regional,,,,,,,,,,,,
+SCR203,Inverness,INV,Scotrail,,,57.480194,-4.223199,,FALSE,FALSE,,3,,,few,,,,,"['Highland Main Line', 'Kyle Line', 'Far North Line']",Highland Main Line,FALSE,FALSE,single,TRUE,FALSE,TRUE,SCR203,,,FALSE,regional,,,,,,,,,,,,
+SCR204,Inverness Airport,IVA,Scotrail,,,57.5335,-4.0552,,FALSE,FALSE,,0,,,single,,,,,[],,FALSE,FALSE,multiple,FALSE,TRUE,FALSE,SCR204,,,FALSE,regional,,,,,,,,,,,,
+SCR205,Invershin,INH,Scotrail,,,57.925362,-4.399288,,FALSE,FALSE,,0,,,single,,,,,[],,FALSE,FALSE,single,FALSE,TRUE,FALSE,SCR205,,,FALSE,regional,,,,,,,,,,,,
+SCR206,Inverurie,INR,Scotrail,,,57.286343,-2.373224,,FALSE,FALSE,,0,,,single,,,,,[],,FALSE,FALSE,single,FALSE,TRUE,FALSE,SCR206,,,FALSE,regional,,,,,,,,,,,,
+SCR207,Irvine,IRV,Scotrail,,,55.610916,-4.675196,,FALSE,FALSE,,1,,,single,,,,,['Ayrshire Coast'],Ayrshire Coast,FALSE,FALSE,single,FALSE,TRUE,TRUE,SCR207,,,FALSE,regional,,,,,,,,,,,,
+SCR208,Johnstone,JHN,Scotrail,,,55.834759,-4.50369,,FALSE,FALSE,,1,,,single,,,,,['Ayrshire Coast'],Ayrshire Coast,FALSE,FALSE,single,FALSE,TRUE,TRUE,SCR208,,,FALSE,regional,,,,,,,,,,,,
+SCR209,Jordanhill,JOR,Scotrail,,,55.882282,-4.326053,,FALSE,FALSE,,0,,,single,,,,,[],,FALSE,FALSE,single,FALSE,TRUE,FALSE,SCR209,,,FALSE,regional,,,,,,,,,,,,
+SCR210,Keith,KEH,Scotrail,,,57.550976,-2.954062,,FALSE,FALSE,,0,,,single,,,,,[],,FALSE,FALSE,single,FALSE,TRUE,FALSE,SCR210,,,FALSE,regional,,,,,,,,,,,,
+SCR211,Kelvindale,KVD,Scotrail,,,55.8933,-4.3106,,FALSE,FALSE,,0,,,single,,,,,[],,FALSE,FALSE,single,FALSE,TRUE,FALSE,SCR211,,,FALSE,regional,,,,,,,,,,,,
+SCR212,Kennishead,KNS,Scotrail,,,55.813099,-4.325119,,FALSE,FALSE,,1,,,single,,,,,['Neilston Line'],Neilston Line,FALSE,FALSE,single,TRUE,FALSE,FALSE,SCR212,,,FALSE,regional,,,,,,,,,,,,
+SCR213,Kildonan,KIL,Scotrail,,,58.171432,-3.869993,,FALSE,FALSE,,1,,,single,,,,,['Far North Line'],Far North Line,FALSE,FALSE,single,TRUE,FALSE,TRUE,SCR213,,,FALSE,regional,,,,,,,,,,,,
+SCR214,Kilmarnock,KMK,Scotrail,,,55.612835,-4.499048,,FALSE,FALSE,,0,,,single,,,,,[],,FALSE,FALSE,single,FALSE,TRUE,FALSE,SCR214,,,FALSE,regional,,,,,,,,,,,,
+SCR215,Kilmaurs,KLM,Scotrail,,,55.636425,-4.532331,,FALSE,FALSE,,0,,,single,,,,,[],,FALSE,FALSE,single,FALSE,TRUE,FALSE,SCR215,,,FALSE,regional,,,,,,,,,,,,
+SCR216,Kilpatrick,KPT,Scotrail,,,55.924755,-4.453454,,FALSE,FALSE,,0,,,single,,,,,[],,FALSE,FALSE,single,FALSE,TRUE,FALSE,SCR216,,,FALSE,regional,,,,,,,,,,,,
+SCR217,Kilwinning,KWN,Scotrail,,,55.655994,-4.710071,,FALSE,FALSE,,3,,,few,,,,,"['Ayrshire Coast', 'Largs Branch', 'Ardrossan Branch']",Ayrshire Coast,FALSE,FALSE,single,TRUE,FALSE,TRUE,SCR217,,,FALSE,regional,,,,,,,,,,,,
+SCR218,Kinbrace,KBC,Scotrail,,,58.258408,-3.941063,,FALSE,FALSE,,1,,,single,,,,,['Far North Line'],Far North Line,FALSE,FALSE,single,TRUE,FALSE,TRUE,SCR218,,,FALSE,regional,,,,,,,,,,,,
+SCR219,Kinghorn,KGH,Scotrail,,,56.069389,-3.174161,,FALSE,FALSE,,0,,,single,,,,,[],,FALSE,FALSE,single,FALSE,TRUE,FALSE,SCR219,,,FALSE,regional,,,,,,,,,,,,
+SCR220,Kings Park,KGP,Scotrail,,,55.819935,-4.247294,,FALSE,FALSE,,1,,,single,,,,,['East Kilbride Line'],East Kilbride Line,FALSE,FALSE,multiple,FALSE,TRUE,FALSE,SCR220,,,FALSE,regional,,,,,,,,,,,,
+SCR221,Kingsknowe,KGE,Scotrail,,,55.919323,-3.265634,,FALSE,FALSE,,0,,,single,,,,,[],,FALSE,FALSE,single,FALSE,TRUE,FALSE,SCR221,,,FALSE,regional,,,,,,,,,,,,
+SCR222,Kingussie,KIN,Scotrail,,,57.07785,-4.052227,,FALSE,FALSE,,1,,,single,,,,,['Highland Main Line'],Highland Main Line,FALSE,FALSE,single,FALSE,TRUE,FALSE,SCR222,,,FALSE,regional,,,,,,,,,,,,
+SCR223,Kintore,KTR,Scotrail,,,57.243611,-2.350278,,FALSE,FALSE,,0,,,single,,,,,[],,FALSE,FALSE,single,FALSE,TRUE,FALSE,SCR223,,,FALSE,regional,,,,,,,,,,,,
+SCR224,Kirkcaldy,KDY,Scotrail,,,56.112579,-3.167445,,FALSE,FALSE,,1,,,single,,,,,['Fife Circle'],Fife Circle,FALSE,FALSE,single,FALSE,TRUE,FALSE,SCR224,,,FALSE,regional,,,,,,,,,,,,
+SCR225,Kirkconnel,KRK,Scotrail,,,55.38834,-3.998533,,FALSE,FALSE,,0,,,single,,,,,[],,FALSE,FALSE,single,FALSE,TRUE,FALSE,SCR225,,,FALSE,regional,,,,,,,,,,,,
+SCR226,Kirkhill,KKH,Scotrail,,,55.814156,-4.168751,,FALSE,FALSE,,1,,,single,,,,,['East Kilbride Line'],East Kilbride Line,FALSE,FALSE,single,FALSE,TRUE,FALSE,SCR226,,,FALSE,regional,,,,,,,,,,,,
+SCR227,Kirknewton,KKN,Scotrail,,,55.888744,-3.432526,,FALSE,FALSE,,0,,,single,,,,,[],,FALSE,FALSE,single,FALSE,TRUE,FALSE,SCR227,,,FALSE,regional,,,,,,,,,,,,
+SCR228,Kirkwood,KWD,Scotrail,,,55.85577,-4.048037,,FALSE,FALSE,,0,,,single,,,,,[],,FALSE,FALSE,single,FALSE,TRUE,FALSE,SCR228,,,FALSE,regional,,,,,,,,,,,,
+SCR229,Kyle of Lochalsh,KYL,Scotrail,,,57.280567,-5.713067,,FALSE,FALSE,,1,,,single,,,,,['Kyle Line'],Kyle Line,FALSE,FALSE,multiple,TRUE,FALSE,TRUE,SCR229,,,FALSE,regional,,,,,,,,,,,,
+SCR230,Ladybank,LDY,Scotrail,,,56.273834,-3.122284,,FALSE,FALSE,,1,,,single,,,,,['Fife Circle'],Fife Circle,FALSE,FALSE,single,FALSE,TRUE,FALSE,SCR230,,,FALSE,regional,,,,,,,,,,,,
+SCR231,Lairg,LRG,Scotrail,,,58.001701,-4.401,,FALSE,FALSE,,1,,,single,,,,,['Far North Line'],Far North Line,FALSE,FALSE,single,TRUE,FALSE,TRUE,SCR231,,,FALSE,regional,,,,,,,,,,,,
+SCR232,Lanark,LNK,Scotrail,,,55.673119,-3.772901,,FALSE,FALSE,,1,,,single,,,,,['Lanark Line'],Lanark Line,FALSE,FALSE,single,TRUE,FALSE,FALSE,SCR232,,,FALSE,regional,,,,,,,,,,,,
+SCR233,Langbank,LGB,Scotrail,,,55.924725,-4.586326,,FALSE,FALSE,,0,,,single,,,,,[],,FALSE,FALSE,single,FALSE,TRUE,FALSE,SCR233,,,FALSE,regional,,,,,,,,,,,,
+SCR234,Langside,LGS,Scotrail,,,55.821175,-4.277696,,FALSE,FALSE,,1,,,single,,,,,['Cathcart Circle'],Cathcart Circle,FALSE,FALSE,single,FALSE,TRUE,FALSE,SCR234,,,FALSE,regional,,,,,,,,,,,,
+SCR235,Larbert,LBT,Scotrail,,,56.022751,-3.830604,,FALSE,FALSE,,0,,,single,,,,,[],,FALSE,FALSE,single,FALSE,TRUE,FALSE,SCR235,,,FALSE,regional,,,,,,,,,,,,
+SCR236,Largs,LAR,Scotrail,,,55.792637,-4.867942,,FALSE,FALSE,,1,,,single,,,,,['Largs Branch'],Largs Branch,FALSE,FALSE,single,TRUE,FALSE,TRUE,SCR236,,,FALSE,regional,,,,,,,,,,,,
+SCR237,Larkhall,LRH,Scotrail,,,55.739258,-3.974445,,FALSE,FALSE,,0,,,single,,,,,[],,FALSE,FALSE,single,FALSE,TRUE,FALSE,SCR237,,,FALSE,regional,,,,,,,,,,,,
+SCR238,Laurencekirk,LAU,Scotrail,,,56.835945,-2.466345,,FALSE,FALSE,,0,,,single,,,,,[],,FALSE,FALSE,single,FALSE,TRUE,FALSE,SCR238,,,FALSE,regional,,,,,,,,,,,,
+SCR239,Lenzie,LNZ,Scotrail,,,55.921364,-4.153932,,FALSE,FALSE,,1,,,single,,,,,['Edinburgh–Glasgow Main Line'],Edinburgh–Glasgow Main Line,FALSE,FALSE,single,FALSE,TRUE,FALSE,SCR239,,,FALSE,regional,,,,,,,,,,,,
+SCR240,Leuchars,LEU,Scotrail,,,56.375427,-2.893734,,FALSE,FALSE,,2,,,few,,,,,"['Aberdeen Line', 'Fife Circle']",Aberdeen Line,FALSE,FALSE,single,FALSE,TRUE,FALSE,SCR240,,,FALSE,regional,,,,,,,,,,,,
+SCR241,Leven,LEV,Scotrail,,,56.1923,-3.002,,FALSE,FALSE,,0,,,single,,,,,[],,FALSE,FALSE,single,FALSE,TRUE,FALSE,SCR241,,,FALSE,regional,,,,,,,,,,,,
+SCR242,Linlithgow,LIN,Scotrail,,,55.975689,-3.596,,FALSE,FALSE,,1,,,single,,,,,['Edinburgh–Glasgow Main Line'],Edinburgh–Glasgow Main Line,FALSE,FALSE,single,FALSE,TRUE,FALSE,SCR242,,,FALSE,regional,,,,,,,,,,,,
+SCR243,Livingston North,LSN,Scotrail,,,55.901736,-3.543357,,FALSE,FALSE,,0,,,single,,,,,[],,FALSE,FALSE,multiple,FALSE,TRUE,FALSE,SCR243,,,FALSE,regional,,,,,,,,,,,,
+SCR244,Livingston South,LVG,Scotrail,,,55.871712,-3.503823,,FALSE,FALSE,,1,,,single,,,,,['Shotts Line'],Shotts Line,FALSE,FALSE,multiple,FALSE,TRUE,FALSE,SCR244,,,FALSE,regional,,,,,,,,,,,,
+SCR245,Loch Awe,LHA,Scotrail,,,56.402481,-5.040117,,FALSE,FALSE,,1,,,single,,,,,['Oban Branch'],Oban Branch,FALSE,FALSE,multiple,TRUE,FALSE,FALSE,SCR245,,,FALSE,regional,,,,,,,,,,,,
+SCR246,Loch Eil Outward Bound,LHE,Scotrail,,,56.855343,-5.191638,,FALSE,FALSE,,1,,,single,,,,,['West Highland Line'],West Highland Line,FALSE,FALSE,multiple,FALSE,TRUE,TRUE,SCR246,,,FALSE,regional,,,,,,,,,,,,
+SCR247,Lochailort,LCL,Scotrail,,,56.881035,-5.663456,,FALSE,FALSE,,1,,,single,,,,,['West Highland Line'],West Highland Line,FALSE,FALSE,single,FALSE,TRUE,TRUE,SCR247,,,FALSE,regional,,,,,,,,,,,,
+SCR248,Locheilside,LCS,Scotrail,,,56.855473,-5.290086,,FALSE,FALSE,,1,,,single,,,,,['West Highland Line'],West Highland Line,FALSE,FALSE,single,FALSE,TRUE,TRUE,SCR248,,,FALSE,regional,,,,,,,,,,,,
+SCR249,Lochgelly,LCG,Scotrail,,,56.13538,-3.312958,,FALSE,FALSE,,0,,,single,,,,,[],,FALSE,FALSE,single,FALSE,TRUE,FALSE,SCR249,,,FALSE,regional,,,,,,,,,,,,
+SCR250,Lochluichart,LCC,Scotrail,,,57.621277,-4.809628,,FALSE,FALSE,,0,,,single,,,,,[],,FALSE,FALSE,single,FALSE,TRUE,FALSE,SCR250,,,FALSE,regional,,,,,,,,,,,,
+SCR251,Lochwinnoch,LHW,Scotrail,,,55.786549,-4.617038,,FALSE,FALSE,,0,,,single,,,,,[],,FALSE,FALSE,single,FALSE,TRUE,FALSE,SCR251,,,FALSE,regional,,,,,,,,,,,,
+SCR252,Lockerbie,LOC,Scotrail,,,55.123085,-3.353242,,FALSE,FALSE,,0,,,single,,,,,[],,FALSE,FALSE,single,FALSE,TRUE,FALSE,SCR252,,,FALSE,regional,,,,,,,,,,,,
+SCR253,Longniddry,LND,Scotrail,,,55.976524,-2.889308,,FALSE,FALSE,,0,,,single,,,,,[],,FALSE,FALSE,single,FALSE,TRUE,FALSE,SCR253,,,FALSE,regional,,,,,,,,,,,,
+SCR254,Mallaig,MLG,Scotrail,,,57.005497,-5.8306,,FALSE,FALSE,,1,,,single,,,,,['West Highland Line'],West Highland Line,FALSE,FALSE,single,FALSE,TRUE,TRUE,SCR254,,,FALSE,regional,,,,,,,,,,,,
+SCR255,Markinch,MNC,Scotrail,,,56.200069,-3.131414,,FALSE,FALSE,,1,,,single,,,,,['Fife Circle'],Fife Circle,FALSE,FALSE,single,FALSE,TRUE,FALSE,SCR255,,,FALSE,regional,,,,,,,,,,,,
+SCR256,Maryhill,MYH,Scotrail,,,55.898026,-4.301396,,FALSE,FALSE,,0,,,single,,,,,[],,FALSE,FALSE,single,FALSE,TRUE,FALSE,SCR256,,,FALSE,regional,,,,,,,,,,,,
+SCR257,Maxwell Park,MAX,Scotrail,,,55.837124,-4.289813,,FALSE,FALSE,,0,,,single,,,,,[],,FALSE,FALSE,multiple,FALSE,TRUE,FALSE,SCR257,,,FALSE,regional,,,,,,,,,,,,
+SCR258,Maybole,MAY,Scotrail,,,55.354485,-4.686269,,FALSE,FALSE,,1,,,single,,,,,['Stranraer Line'],Stranraer Line,FALSE,FALSE,single,FALSE,TRUE,FALSE,SCR258,,,FALSE,regional,,,,,,,,,,,,
+SCR259,Merryton,MEY,Scotrail,,,55.749013,-3.978667,,FALSE,FALSE,,0,,,single,,,,,[],,FALSE,FALSE,single,FALSE,TRUE,FALSE,SCR259,,,FALSE,regional,,,,,,,,,,,,
+SCR260,Milliken Park,MIN,Scotrail,,,55.825157,-4.533405,,FALSE,FALSE,,0,,,single,,,,,[],,FALSE,FALSE,multiple,FALSE,TRUE,FALSE,SCR260,,,FALSE,regional,,,,,,,,,,,,
+SCR261,Milngavie,MLN,Scotrail,,,55.94091,-4.315152,,FALSE,FALSE,,1,,,single,,,,,['Argyle Line'],Argyle Line,FALSE,FALSE,single,FALSE,TRUE,FALSE,SCR261,,,FALSE,regional,,,,,,,,,,,,
+SCR262,Monifieth,MON,Scotrail,,,56.480167,-2.818249,,FALSE,FALSE,,0,,,single,,,,,[],,FALSE,FALSE,single,FALSE,TRUE,FALSE,SCR262,,,FALSE,regional,,,,,,,,,,,,
+SCR263,Montrose,MTS,Scotrail,,,56.71286,-2.47207,,FALSE,FALSE,,1,,,single,,,,,['Aberdeen Line'],Aberdeen Line,FALSE,FALSE,single,FALSE,TRUE,FALSE,SCR263,,,FALSE,regional,,,,,,,,,,,,
+SCR264,Morar,MRR,Scotrail,,,56.969788,-5.821991,,FALSE,FALSE,,1,,,single,,,,,['West Highland Line'],West Highland Line,FALSE,FALSE,single,FALSE,TRUE,TRUE,SCR264,,,FALSE,regional,,,,,,,,,,,,
+SCR265,Mosspark,MPK,Scotrail,,,55.838947,-4.336232,,FALSE,FALSE,,0,,,single,,,,,[],,FALSE,FALSE,single,FALSE,TRUE,FALSE,SCR265,,,FALSE,regional,,,,,,,,,,,,
+SCR266,Motherwell,MTH,Scotrail,,,55.791927,-3.995234,,FALSE,FALSE,,3,,,few,,,,,"['Carstairs Corridor', 'Argyle Line', 'Lanark Line']",Carstairs Corridor,FALSE,FALSE,single,TRUE,FALSE,FALSE,SCR266,,,FALSE,regional,,,,,,,,,,,,
+SCR267,Mount Florida,MFL,Scotrail,,,55.826859,-4.262067,,FALSE,FALSE,,2,,,few,,,,,"['Cathcart Circle', 'East Kilbride Line']",Cathcart Circle,FALSE,FALSE,multiple,FALSE,TRUE,FALSE,SCR267,,,FALSE,regional,,,,,,,,,,,,
+SCR268,Mount Vernon,MTV,Scotrail,,,55.839882,-4.136638,,FALSE,FALSE,,0,,,single,,,,,[],,FALSE,FALSE,multiple,FALSE,TRUE,FALSE,SCR268,,,FALSE,regional,,,,,,,,,,,,
+SCR269,Muir of Ord,MOO,Scotrail,,,57.518017,-4.460981,,FALSE,FALSE,,0,,,single,,,,,[],,FALSE,FALSE,multiple,FALSE,TRUE,FALSE,SCR269,,,FALSE,regional,,,,,,,,,,,,
+SCR270,Muirend,MUI,Scotrail,,,55.810459,-4.273888,,FALSE,FALSE,,0,,,single,,,,,[],,FALSE,FALSE,single,FALSE,TRUE,FALSE,SCR270,,,FALSE,regional,,,,,,,,,,,,
+SCR271,Musselburgh,MUB,Scotrail,,,55.930225,-3.062719,,FALSE,FALSE,,0,,,single,,,,,[],,FALSE,FALSE,single,FALSE,TRUE,FALSE,SCR271,,,FALSE,regional,,,,,,,,,,,,
+SCR272,Nairn,NRN,Scotrail,,,57.580227,-3.873024,,FALSE,FALSE,,0,,,single,,,,,[],,FALSE,FALSE,single,FALSE,TRUE,FALSE,SCR272,,,FALSE,regional,,,,,,,,,,,,
+SCR273,Neilston,NEI,Scotrail,,,55.782364,-4.426945,,FALSE,FALSE,,1,,,single,,,,,['Neilston Line'],Neilston Line,FALSE,FALSE,single,TRUE,FALSE,FALSE,SCR273,,,FALSE,regional,,,,,,,,,,,,
+SCR274,New Cumnock,NCK,Scotrail,,,55.402271,-4.182457,,FALSE,FALSE,,0,,,single,,,,,[],,FALSE,FALSE,multiple,FALSE,TRUE,FALSE,SCR274,,,FALSE,regional,,,,,,,,,,,,
+SCR275,Newcraighall,NEW,Scotrail,,,55.932619,-3.091582,,FALSE,FALSE,,1,,,single,,,,,['Borders Railway'],Borders Railway,FALSE,FALSE,single,TRUE,FALSE,FALSE,SCR275,,,FALSE,regional,,,,,,,,,,,,
+SCR276,Newton,NTN,Scotrail,,,55.819256,-4.133907,,FALSE,FALSE,,2,,,few,,,,,"['East Kilbride Line', 'Argyle Line']",East Kilbride Line,FALSE,FALSE,single,FALSE,TRUE,FALSE,SCR276,,,FALSE,regional,,,,,,,,,,,,
+SCR277,Newton-On-Ayr,NOA,Scotrail,,,55.473541,-4.62632,,FALSE,FALSE,,0,,,single,,,,,[],,FALSE,FALSE,single,FALSE,TRUE,FALSE,SCR277,,,FALSE,regional,,,,,,,,,,,,
+SCR278,Newtongrange,NEG,Scotrail,,,55.865652,-3.066151,,FALSE,FALSE,,1,,,single,,,,,['Borders Railway'],Borders Railway,FALSE,FALSE,single,TRUE,FALSE,FALSE,SCR278,,,FALSE,regional,,,,,,,,,,,,
+SCR279,Newtonmore,NWR,Scotrail,,,57.059673,-4.118831,,FALSE,FALSE,,0,,,single,,,,,[],,FALSE,FALSE,single,FALSE,TRUE,FALSE,SCR279,,,FALSE,regional,,,,,,,,,,,,
+SCR280,Nitshill,NIT,Scotrail,,,55.811531,-4.360126,,FALSE,FALSE,,1,,,single,,,,,['Neilston Line'],Neilston Line,FALSE,FALSE,single,TRUE,FALSE,FALSE,SCR280,,,FALSE,regional,,,,,,,,,,,,
+SCR281,North Berwick,NBW,Scotrail,,,56.057545,-2.728989,,FALSE,FALSE,,0,,,single,,,,,[],,FALSE,FALSE,multiple,FALSE,TRUE,FALSE,SCR281,,,FALSE,regional,,,,,,,,,,,,
+SCR282,North Queensferry,NQU,Scotrail,,,56.013168,-3.395426,,FALSE,FALSE,,0,,,single,,,,,[],,FALSE,FALSE,multiple,FALSE,TRUE,FALSE,SCR282,,,FALSE,regional,,,,,,,,,,,,
+SCR283,Oban,OBN,Scotrail,,,56.411758,-5.473841,,FALSE,FALSE,,1,,,single,,,,,['Oban Branch'],Oban Branch,FALSE,FALSE,single,TRUE,FALSE,FALSE,SCR283,,,FALSE,regional,,,,,,,,,,,,
+SCR284,Paisley Canal,PCN,Scotrail,,,55.840878,-4.422606,,FALSE,FALSE,,0,,,single,,,,,[],,FALSE,FALSE,multiple,FALSE,TRUE,FALSE,SCR284,,,FALSE,regional,,,,,,,,,,,,
+SCR285,Paisley Gilmour Street,PYG,Scotrail,,,55.848026,-4.424646,,FALSE,FALSE,,2,,,few,,,,,"['Ayrshire Coast', 'Inverclyde Line']",Ayrshire Coast,FALSE,FALSE,multiple,FALSE,TRUE,TRUE,SCR285,,,FALSE,regional,,,,,,,,,,,,
+SCR286,Paisley St James,PYJ,Scotrail,,,55.852165,-4.442486,,FALSE,FALSE,,0,,,single,,,,,[],,FALSE,FALSE,multiple,FALSE,TRUE,FALSE,SCR286,,,FALSE,regional,,,,,,,,,,,,
+SCR287,Partick,PTK,Scotrail,,,55.869987,-4.310921,,FALSE,FALSE,,1,,,single,,,,,['Argyle Line'],Argyle Line,FALSE,FALSE,single,FALSE,TRUE,FALSE,SCR287,,,FALSE,regional,,,,,,,,,,,,
+SCR288,Patterton,PTT,Scotrail,,,55.790443,-4.334935,,FALSE,FALSE,,0,,,single,,,,,[],,FALSE,FALSE,single,FALSE,TRUE,FALSE,SCR288,,,FALSE,regional,,,,,,,,,,,,
+SCR289,Perth,PTH,Scotrail,,,56.39275,-3.440068,,FALSE,FALSE,,1,,,single,,,,,['Highland Main Line'],Highland Main Line,FALSE,FALSE,single,FALSE,TRUE,FALSE,SCR289,,,FALSE,regional,,,,,,,,,,,,
+SCR290,Pitlochry,PIT,Scotrail,,,56.70256,-3.736085,,FALSE,FALSE,,1,,,single,,,,,['Highland Main Line'],Highland Main Line,FALSE,FALSE,single,FALSE,TRUE,FALSE,SCR290,,,FALSE,regional,,,,,,,,,,,,
+SCR291,Plockton,PLK,Scotrail,,,57.333172,-5.666848,,FALSE,FALSE,,1,,,single,,,,,['Kyle Line'],Kyle Line,FALSE,FALSE,single,TRUE,FALSE,TRUE,SCR291,,,FALSE,regional,,,,,,,,,,,,
+SCR292,Pollokshaws East,PWE,Scotrail,,,55.824589,-4.287476,,FALSE,FALSE,,1,,,single,,,,,['Cathcart Circle'],Cathcart Circle,FALSE,FALSE,multiple,FALSE,TRUE,FALSE,SCR292,,,FALSE,regional,,,,,,,,,,,,
+SCR293,Pollokshaws West,PWW,Scotrail,,,55.824318,-4.301826,,FALSE,FALSE,,0,,,single,,,,,[],,FALSE,FALSE,multiple,FALSE,TRUE,FALSE,SCR293,,,FALSE,regional,,,,,,,,,,,,
+SCR294,Pollokshields East,PLE,Scotrail,,,55.841103,-4.269287,,FALSE,FALSE,,1,,,single,,,,,['Cathcart Circle'],Cathcart Circle,FALSE,FALSE,multiple,FALSE,TRUE,FALSE,SCR294,,,FALSE,regional,,,,,,,,,,,,
+SCR295,Pollokshields West,PLW,Scotrail,,,55.83736,-4.277043,,FALSE,FALSE,,1,,,single,,,,,['Neilston Line'],Neilston Line,FALSE,FALSE,multiple,TRUE,FALSE,FALSE,SCR295,,,FALSE,regional,,,,,,,,,,,,
+SCR296,Polmont,PMT,Scotrail,,,55.984856,-3.716614,,FALSE,FALSE,,1,,,single,,,,,['Edinburgh–Glasgow Main Line'],Edinburgh–Glasgow Main Line,FALSE,FALSE,single,FALSE,TRUE,FALSE,SCR296,,,FALSE,regional,,,,,,,,,,,,
+SCR297,Port Glasgow,PTG,Scotrail,,,55.9342,-4.689432,,FALSE,FALSE,,2,,,few,,,,,"['Inverclyde Line', 'Wemyss Bay Branch']",Inverclyde Line,FALSE,FALSE,multiple,FALSE,TRUE,TRUE,SCR297,,,FALSE,regional,,,,,,,,,,,,
+SCR298,Portlethen,PLN,Scotrail,,,57.060455,-2.128577,,FALSE,FALSE,,0,,,single,,,,,[],,FALSE,FALSE,single,FALSE,TRUE,FALSE,SCR298,,,FALSE,regional,,,,,,,,,,,,
+SCR299,Possilpark & Parkhouse,PPK,Scotrail,,,55.890717,-4.259381,,FALSE,FALSE,,0,,,single,,,,,[],,FALSE,FALSE,multiple,FALSE,TRUE,FALSE,SCR299,,,FALSE,regional,,,,,,,,,,,,
+SCR300,Prestonpans,PST,Scotrail,,,55.953426,-2.973665,,FALSE,FALSE,,0,,,single,,,,,[],,FALSE,FALSE,single,FALSE,TRUE,FALSE,SCR300,,,FALSE,regional,,,,,,,,,,,,
+SCR301,Prestwick International Airport,PRA,Scotrail,,,55.511513,-4.616166,,FALSE,FALSE,,1,,,single,,,,,['Ayrshire Coast'],Ayrshire Coast,FALSE,FALSE,multiple,FALSE,TRUE,TRUE,SCR301,,,FALSE,regional,,,,,,,,,,,,
+SCR302,Prestwick Town,PTW,Scotrail,,,55.501675,-4.613935,,FALSE,FALSE,,1,,,single,,,,,['Ayrshire Coast'],Ayrshire Coast,FALSE,FALSE,multiple,FALSE,TRUE,TRUE,SCR302,,,FALSE,regional,,,,,,,,,,,,
+SCR303,Priesthill & Darnley,PTL,Scotrail,,,55.812737,-4.344246,,FALSE,FALSE,,1,,,single,,,,,['Neilston Line'],Neilston Line,FALSE,FALSE,multiple,TRUE,FALSE,FALSE,SCR303,,,FALSE,regional,,,,,,,,,,,,
+SCR304,Queens Park (Glasgow),QPK,Scotrail,,,55.835747,-4.267368,,FALSE,FALSE,,1,,,single,,,,,['Cathcart Circle'],Cathcart Circle,FALSE,FALSE,multiple,FALSE,TRUE,FALSE,SCR304,,,FALSE,regional,,,,,,,,,,,,
+SCR305,Rannoch,RAN,Scotrail,,,56.685318,-4.576208,,FALSE,FALSE,,1,,,single,,,,,['West Highland Line'],West Highland Line,FALSE,FALSE,single,FALSE,TRUE,TRUE,SCR305,,,FALSE,regional,,,,,,,,,,,,
+SCR306,Renton,RTN,Scotrail,,,55.970566,-4.586181,,FALSE,FALSE,,0,,,single,,,,,[],,FALSE,FALSE,single,FALSE,TRUE,FALSE,SCR306,,,FALSE,regional,,,,,,,,,,,,
+SCR307,Reston,RSN,Scotrail,,,55.8506,-2.1972,,FALSE,FALSE,,0,,,single,,,,,[],,FALSE,FALSE,single,FALSE,TRUE,FALSE,SCR307,,,FALSE,regional,,,,,,,,,,,,
+SCR308,Robroyston,RRN,Scotrail,,,55.887581,-4.172291,,FALSE,FALSE,,0,,,single,,,,,[],,FALSE,FALSE,single,FALSE,TRUE,FALSE,SCR308,,,FALSE,regional,,,,,,,,,,,,
+SCR309,Rogart,ROG,Scotrail,,,57.988979,-4.158224,,FALSE,FALSE,,1,,,single,,,,,['Far North Line'],Far North Line,FALSE,FALSE,single,TRUE,FALSE,TRUE,SCR309,,,FALSE,regional,,,,,,,,,,,,
+SCR310,Rosyth,ROS,Scotrail,,,56.046055,-3.427114,,FALSE,FALSE,,1,,,single,,,,,['Fife Circle'],Fife Circle,FALSE,FALSE,single,FALSE,TRUE,FALSE,SCR310,,,FALSE,regional,,,,,,,,,,,,
+SCR311,Roy Bridge,RYB,Scotrail,,,56.888184,-4.83645,,FALSE,FALSE,,1,,,single,,,,,['West Highland Line'],West Highland Line,FALSE,FALSE,multiple,FALSE,TRUE,TRUE,SCR311,,,FALSE,regional,,,,,,,,,,,,
+SCR312,Rutherglen,RUT,Scotrail,,,55.830448,-4.212766,,FALSE,FALSE,,0,,,single,,,,,[],,FALSE,FALSE,single,FALSE,TRUE,FALSE,SCR312,,,FALSE,regional,,,,,,,,,,,,
+SCR313,Saltcoats,SLT,Scotrail,,,55.633648,-4.784804,,FALSE,FALSE,,2,,,few,,,,,"['Largs Branch', 'Ardrossan Branch']",Largs Branch,FALSE,FALSE,single,TRUE,FALSE,TRUE,SCR313,,,FALSE,regional,,,,,,,,,,,,
+SCR314,Sanquhar,SQH,Scotrail,,,55.370633,-3.923437,,FALSE,FALSE,,0,,,single,,,,,[],,FALSE,FALSE,single,FALSE,TRUE,FALSE,SCR314,,,FALSE,regional,,,,,,,,,,,,
+SCR315,Scotscalder,SCT,Scotrail,,,58.482891,-3.553764,,FALSE,FALSE,,1,,,single,,,,,['Far North Line'],Far North Line,FALSE,FALSE,single,TRUE,FALSE,TRUE,SCR315,,,FALSE,regional,,,,,,,,,,,,
+SCR316,Scotstounhill,SCH,Scotrail,,,55.884491,-4.351765,,FALSE,FALSE,,0,,,single,,,,,[],,FALSE,FALSE,single,FALSE,TRUE,FALSE,SCR316,,,FALSE,regional,,,,,,,,,,,,
+SCR317,Shawfair,SFI,Scotrail,,,55.91993,-3.07872,,FALSE,FALSE,,1,,,single,,,,,['Borders Railway'],Borders Railway,FALSE,FALSE,single,TRUE,FALSE,FALSE,SCR317,,,FALSE,regional,,,,,,,,,,,,
+SCR318,Shawlands,SHL,Scotrail,,,55.828987,-4.292521,,FALSE,FALSE,,0,,,single,,,,,[],,FALSE,FALSE,single,FALSE,TRUE,FALSE,SCR318,,,FALSE,regional,,,,,,,,,,,,
+SCR319,Shettleston,SLS,Scotrail,,,55.852959,-4.159731,,FALSE,FALSE,,0,,,single,,,,,[],,FALSE,FALSE,single,FALSE,TRUE,FALSE,SCR319,,,FALSE,regional,,,,,,,,,,,,
+SCR320,Shieldmuir,SDM,Scotrail,,,55.775532,-3.952944,,FALSE,FALSE,,1,,,single,,,,,['Lanark Line'],Lanark Line,FALSE,FALSE,single,TRUE,FALSE,FALSE,SCR320,,,FALSE,regional,,,,,,,,,,,,
+SCR321,Shotts,SHS,Scotrail,,,55.818302,-3.80024,,FALSE,FALSE,,1,,,single,,,,,['Shotts Line'],Shotts Line,FALSE,FALSE,single,FALSE,TRUE,FALSE,SCR321,,,FALSE,regional,,,,,,,,,,,,
+SCR322,Singer,SIN,Scotrail,,,55.907711,-4.405983,,FALSE,FALSE,,0,,,single,,,,,[],,FALSE,FALSE,single,FALSE,TRUE,FALSE,SCR322,,,FALSE,regional,,,,,,,,,,,,
+SCR323,Slateford,SLA,Scotrail,,,55.926731,-3.243476,,FALSE,FALSE,,0,,,single,,,,,[],,FALSE,FALSE,single,FALSE,TRUE,FALSE,SCR323,,,FALSE,regional,,,,,,,,,,,,
+SCR324,South Gyle,SGL,Scotrail,,,55.936951,-3.298234,,FALSE,FALSE,,0,,,single,,,,,[],,FALSE,FALSE,multiple,FALSE,TRUE,FALSE,SCR324,,,FALSE,regional,,,,,,,,,,,,
+SCR325,Spean Bridge,SBR,Scotrail,,,56.889839,-4.920321,,FALSE,FALSE,,1,,,single,,,,,['West Highland Line'],West Highland Line,FALSE,FALSE,multiple,FALSE,TRUE,TRUE,SCR325,,,FALSE,regional,,,,,,,,,,,,
+SCR326,Springburn,SPR,Scotrail,,,55.881363,-4.230064,,FALSE,FALSE,,0,,,single,,,,,[],,FALSE,FALSE,single,FALSE,TRUE,FALSE,SCR326,,,FALSE,regional,,,,,,,,,,,,
+SCR327,Springfield,SPF,Scotrail,,,56.295116,-3.051808,,FALSE,FALSE,,0,,,single,,,,,[],,FALSE,FALSE,single,FALSE,TRUE,FALSE,SCR327,,,FALSE,regional,,,,,,,,,,,,
+SCR328,Stepps,SPS,Scotrail,,,55.890026,-4.147389,,FALSE,FALSE,,0,,,single,,,,,[],,FALSE,FALSE,single,FALSE,TRUE,FALSE,SCR328,,,FALSE,regional,,,,,,,,,,,,
+SCR329,Stevenston,STV,Scotrail,,,55.633533,-4.749829,,FALSE,FALSE,,2,,,few,,,,,"['Largs Branch', 'Ardrossan Branch']",Largs Branch,FALSE,FALSE,single,TRUE,FALSE,TRUE,SCR329,,,FALSE,regional,,,,,,,,,,,,
+SCR330,Stewarton,STT,Scotrail,,,55.681633,-4.519346,,FALSE,FALSE,,0,,,single,,,,,[],,FALSE,FALSE,single,FALSE,TRUE,FALSE,SCR330,,,FALSE,regional,,,,,,,,,,,,
+SCR331,Stirling,STG,Scotrail,,,56.119114,-3.934915,,FALSE,FALSE,,0,,,single,,,,,[],,FALSE,FALSE,single,FALSE,TRUE,FALSE,SCR331,,,FALSE,regional,,,,,,,,,,,,
+SCR332,Stonehaven,STN,Scotrail,,,56.966888,-2.225286,,FALSE,FALSE,,1,,,single,,,,,['Aberdeen Line'],Aberdeen Line,FALSE,FALSE,single,FALSE,TRUE,FALSE,SCR332,,,FALSE,regional,,,,,,,,,,,,
+SCR333,Stow,SOI,Scotrail,,,55.691398,-2.857782,,FALSE,FALSE,,1,,,single,,,,,['Borders Railway'],Borders Railway,FALSE,FALSE,single,TRUE,FALSE,FALSE,SCR333,,,FALSE,regional,,,,,,,,,,,,
+SCR334,Stranraer,STR,Scotrail,,,54.909626,-5.024806,,FALSE,FALSE,,1,,,single,,,,,['Stranraer Line'],Stranraer Line,FALSE,FALSE,single,FALSE,TRUE,FALSE,SCR334,,,FALSE,regional,,,,,,,,,,,,
+SCR335,Strathcarron,STC,Scotrail,,,57.422585,-5.429166,,FALSE,FALSE,,1,,,single,,,,,['Kyle Line'],Kyle Line,FALSE,FALSE,single,TRUE,FALSE,TRUE,SCR335,,,FALSE,regional,,,,,,,,,,,,
+SCR336,Stromeferry,STF,Scotrail,,,57.352688,-5.550702,,FALSE,FALSE,,1,,,single,,,,,['Kyle Line'],Kyle Line,FALSE,FALSE,single,TRUE,FALSE,TRUE,SCR336,,,FALSE,regional,,,,,,,,,,,,
+SCR337,Summerston,SUM,Scotrail,,,55.89835,-4.283814,,FALSE,FALSE,,0,,,single,,,,,[],,FALSE,FALSE,single,FALSE,TRUE,FALSE,SCR337,,,FALSE,regional,,,,,,,,,,,,
+SCR338,Tain,TAI,Scotrail,,,57.814651,-4.051826,,FALSE,FALSE,,1,,,single,,,,,['Far North Line'],Far North Line,FALSE,FALSE,single,TRUE,FALSE,TRUE,SCR338,,,FALSE,regional,,,,,,,,,,,,
+SCR339,Taynuilt,TAY,Scotrail,,,56.430714,-5.23868,,FALSE,FALSE,,1,,,single,,,,,['Oban Branch'],Oban Branch,FALSE,FALSE,single,TRUE,FALSE,FALSE,SCR339,,,FALSE,regional,,,,,,,,,,,,
+SCR340,Thornliebank,THB,Scotrail,,,55.810642,-4.312201,,FALSE,FALSE,,0,,,single,,,,,[],,FALSE,FALSE,single,FALSE,TRUE,FALSE,SCR340,,,FALSE,regional,,,,,,,,,,,,
+SCR341,Thorntonhall,THT,Scotrail,,,55.767746,-4.250674,,FALSE,FALSE,,1,,,single,,,,,['East Kilbride Line'],East Kilbride Line,FALSE,FALSE,single,FALSE,TRUE,FALSE,SCR341,,,FALSE,regional,,,,,,,,,,,,
+SCR342,Thurso,THS,Scotrail,,,58.590092,-3.527548,,FALSE,FALSE,,1,,,single,,,,,['Far North Line'],Far North Line,FALSE,FALSE,single,TRUE,FALSE,TRUE,SCR342,,,FALSE,regional,,,,,,,,,,,,
+SCR343,Troon,TRN,Scotrail,,,55.543045,-4.654731,,FALSE,FALSE,,1,,,single,,,,,['Ayrshire Coast'],Ayrshire Coast,FALSE,FALSE,single,FALSE,TRUE,TRUE,SCR343,,,FALSE,regional,,,,,,,,,,,,
+SCR344,Tulloch,TUL,Scotrail,,,56.883984,-4.701509,,FALSE,FALSE,,1,,,single,,,,,['West Highland Line'],West Highland Line,FALSE,FALSE,single,FALSE,TRUE,TRUE,SCR344,,,FALSE,regional,,,,,,,,,,,,
+SCR345,Tweedbank,TWB,Scotrail,,,55.604394,-2.764936,,FALSE,FALSE,,1,,,single,,,,,['Borders Railway'],Borders Railway,FALSE,FALSE,single,TRUE,FALSE,FALSE,SCR345,,,FALSE,regional,,,,,,,,,,,,
+SCR346,Tyndrum Lower,TYL,Scotrail,,,56.433407,-4.714873,,FALSE,FALSE,,1,,,single,,,,,['Oban Branch'],Oban Branch,FALSE,FALSE,multiple,TRUE,FALSE,FALSE,SCR346,,,FALSE,regional,,,,,,,,,,,,
+SCR347,Uddingston,UDD,Scotrail,,,55.823669,-4.086266,,FALSE,FALSE,,0,,,single,,,,,[],,FALSE,FALSE,single,FALSE,TRUE,FALSE,SCR347,,,FALSE,regional,,,,,,,,,,,,
+SCR348,Uphall,UHA,Scotrail,,,55.919395,-3.499279,,FALSE,FALSE,,0,,,single,,,,,[],,FALSE,FALSE,single,FALSE,TRUE,FALSE,SCR348,,,FALSE,regional,,,,,,,,,,,,
+SCR349,Upper Tyndrum,UTY,Scotrail,,,56.434551,-4.7036,,FALSE,FALSE,,0,,,single,,,,,[],,FALSE,FALSE,multiple,FALSE,TRUE,FALSE,SCR349,,,FALSE,regional,,,,,,,,,,,,
+SCR350,Wallyford,WAF,Scotrail,,,55.942322,-3.013417,,FALSE,FALSE,,0,,,single,,,,,[],,FALSE,FALSE,single,FALSE,TRUE,FALSE,SCR350,,,FALSE,regional,,,,,,,,,,,,
+SCR351,Wemyss Bay,WMS,Scotrail,,,55.876656,-4.888525,,FALSE,FALSE,,1,,,single,,,,,['Wemyss Bay Branch'],Wemyss Bay Branch,FALSE,FALSE,multiple,FALSE,TRUE,FALSE,SCR351,,,FALSE,regional,,,,,,,,,,,,
+SCR352,West Calder,WCL,Scotrail,,,55.853848,-3.567045,,FALSE,FALSE,,1,,,single,,,,,['Shotts Line'],Shotts Line,FALSE,FALSE,multiple,FALSE,TRUE,FALSE,SCR352,,,FALSE,regional,,,,,,,,,,,,
+SCR353,West Kilbride,WKB,Scotrail,,,55.696842,-4.851365,,FALSE,FALSE,,1,,,single,,,,,['Largs Branch'],Largs Branch,FALSE,FALSE,multiple,TRUE,FALSE,TRUE,SCR353,,,FALSE,regional,,,,,,,,,,,,
+SCR354,Wester Hailes,WTA,Scotrail,,,55.913727,-3.284654,,FALSE,FALSE,,0,,,single,,,,,[],,FALSE,FALSE,multiple,FALSE,TRUE,FALSE,SCR354,,,FALSE,regional,,,,,,,,,,,,
+SCR355,Westerton,WES,Scotrail,,,55.905479,-4.335444,,FALSE,FALSE,,1,,,single,,,,,['Argyle Line'],Argyle Line,FALSE,FALSE,single,FALSE,TRUE,FALSE,SCR355,,,FALSE,regional,,,,,,,,,,,,
+SCR356,Whifflet,WFF,Scotrail,,,55.852596,-4.022313,,FALSE,FALSE,,0,,,single,,,,,[],,FALSE,FALSE,single,FALSE,TRUE,FALSE,SCR356,,,FALSE,regional,,,,,,,,,,,,
+SCR357,Whinhill,WNL,Scotrail,,,55.938396,-4.746744,,FALSE,FALSE,,0,,,single,,,,,[],,FALSE,FALSE,single,FALSE,TRUE,FALSE,SCR357,,,FALSE,regional,,,,,,,,,,,,
+SCR358,Whitecraigs,WCR,Scotrail,,,55.790001,-4.310977,,FALSE,FALSE,,0,,,single,,,,,[],,FALSE,FALSE,single,FALSE,TRUE,FALSE,SCR358,,,FALSE,regional,,,,,,,,,,,,
+SCR359,Wick,WCK,Scotrail,,,58.441788,-3.097965,,FALSE,FALSE,,1,,,single,,,,,['Far North Line'],Far North Line,FALSE,FALSE,single,TRUE,FALSE,TRUE,SCR359,,,FALSE,regional,,,,,,,,,,,,
+SCR360,Williamwood,WLM,Scotrail,,,55.79398,-4.290462,,FALSE,FALSE,,0,,,single,,,,,[],,FALSE,FALSE,single,FALSE,TRUE,FALSE,SCR360,,,FALSE,regional,,,,,,,,,,,,
+SCR361,Wishaw,WSH,Scotrail,,,55.772346,-3.927267,,FALSE,FALSE,,1,,,single,,,,,['Lanark Line'],Lanark Line,FALSE,FALSE,single,TRUE,FALSE,FALSE,SCR361,,,FALSE,regional,,,,,,,,,,,,
+SCR362,Woodhall,WDL,Scotrail,,,55.931339,-4.655614,,FALSE,FALSE,,1,,,single,,,,,['Inverclyde Line'],Inverclyde Line,FALSE,FALSE,single,FALSE,TRUE,TRUE,SCR362,,,FALSE,regional,,,,,,,,,,,,
+SCR363,Yoker,YOK,Scotrail,,,55.892792,-4.387464,,FALSE,FALSE,,0,,,single,,,,,[],,FALSE,FALSE,single,FALSE,TRUE,FALSE,SCR363,,,FALSE,regional,,,,,,,,,,,,

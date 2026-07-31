@@ -6,13 +6,27 @@ import pandas as pd
 MASTER = Path("data/Masters")
 
 
+def station_name(crs, lookup):
+    """Return the station name for a CRS code."""
+    return lookup.get(crs, crs)
+
+
 def main():
 
     route_id = input("Route ID: ").strip().upper()
 
-    routes = pd.read_csv(MASTER / "route_candidates.csv")
+    routes = pd.read_csv(MASTER / "pattern_routes.csv")
     patterns = pd.read_csv(MASTER / "service_patterns.csv")
     tree = pd.read_csv(MASTER / "route_tree.csv")
+    stations = pd.read_csv(MASTER / "stations.csv")
+
+    station_lookup = (
+        stations
+        .dropna(subset=["crs", "station_name"])
+        .drop_duplicates(subset=["crs"])
+        .set_index("crs")["station_name"]
+        .to_dict()
+    )
 
     members = routes[routes["route_id"] == route_id]
 
@@ -47,7 +61,9 @@ def main():
 
         print(
             f"{row['pattern_id']}   "
-            f"{row['origin']} → {row['destination']}   "
+            f"{station_name(row['origin'], station_lookup)}"
+            f" → "
+            f"{station_name(row['destination'], station_lookup)}   "
             f"{row['station_count']:2} stations   "
             f"{row['service_count']:4} services"
         )
@@ -67,8 +83,8 @@ def main():
 
             print(
                 f"{row['branch_pattern']}   "
-                f"after {row['split_after']}   "
-                f"→ {row['destination']}   "
+                f"after {station_name(row['split_after'], station_lookup)}   "
+                f"→ {station_name(row['destination'], station_lookup)}   "
                 f"({row['shared_prefix']} shared stations)"
             )
 
@@ -87,10 +103,7 @@ def main():
 
     if station_lists:
 
-        shortest = min(
-            station_lists,
-            key=len,
-        )
+        shortest = min(station_lists, key=len)
 
         for i, station in enumerate(shortest):
 
@@ -108,7 +121,7 @@ def main():
     if common:
 
         for station in common:
-            print(station)
+            print(station_name(station, station_lookup))
 
     else:
 
@@ -121,13 +134,23 @@ def main():
 
     print("Origins")
     print("-------")
-    print(", ".join(origins))
+    print(
+        ", ".join(
+            station_name(crs, station_lookup)
+            for crs in origins
+        )
+    )
 
     print()
 
     print("Destinations")
     print("------------")
-    print(", ".join(destinations))
+    print(
+        ", ".join(
+            station_name(crs, station_lookup)
+            for crs in destinations
+        )
+    )
 
 
 if __name__ == "__main__":

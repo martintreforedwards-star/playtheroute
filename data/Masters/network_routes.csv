@@ -1,0 +1,2104 @@
+route_id,route_name,route_group,origin,primary_destination,pattern_count,service_count,branch_count,corridor_length,corridor_end
+R00001,,,West Kirby,West Kirby,1,118,0,27,West Kirby
+R00002,,,Orpington,Luton,5,180,4,7,Shortlands
+R00003,,,XHZ,West Croydon,4,305,3,12,Surrey Quays
+R00004,,,London Marylebone,Oxford,33,166,32,5,West Ruislip
+R00005,,,New Brighton,New Brighton,1,120,0,19,New Brighton
+R00006,,,Sheffield,Adwick,2,44,1,7,Doncaster
+R00007,,,Slough,Windsor & Eton Central,1,110,0,2,Windsor & Eton Central
+R00008,,,Kenton,Queens Park (London),2,180,1,8,Queens Park (London)
+R00009,,,XSL,XSL,1,22,0,1,XSL
+R00010,,,Surrey Quays,Dalston Junction,2,150,1,10,Dalston Junction
+R00011,,,Huddersfield,Sheffield,1,34,0,17,Sheffield
+R00012,,,Oxford,London Marylebone,9,50,8,9,High Wycombe
+R00013,,,Sheerness-On-Sea,Sittingbourne,1,56,0,5,Sittingbourne
+R00014,,,London Charing Cross,Gravesend,25,311,24,5,Hither Green
+R00015,,,Oxford,Oxford Parkway,1,2,0,3,Oxford Parkway
+R00016,,,Stonebridge Park,Queens Park (London),2,167,1,5,Queens Park (London)
+R00017,,,London Marylebone,Aylesbury Vale Parkway,2,70,1,11,Aylesbury
+R00018,,,Dartford,London Charing Cross,1,68,0,15,London Charing Cross
+R00019,,,Oxford Parkway,Oxford,1,2,0,3,Oxford
+R00020,,,Dalston Junction,Surrey Quays,5,288,4,10,Surrey Quays
+R00021,,,Wandsworth Road,Dalston Junction,2,140,1,15,Dalston Junction
+R00022,,,Bourne End,Maidenhead,1,28,0,4,Maidenhead
+R00023,,,Cardiff Central,Cheltenham Spa,5,38,4,7,Gloucester
+R00024,,,Battersea Park,Dalston Junction,1,4,0,16,Dalston Junction
+R00025,,,Marlow,Maidenhead,1,24,0,5,Maidenhead
+R00026,,,Sittingbourne,Sheerness-On-Sea,1,56,0,5,Sheerness-On-Sea
+R00027,,,York,Bridlington,4,8,3,5,Selby
+R00028,,,Bristol Temple Meads,Worcester Foregate Street,4,34,3,6,Gloucester
+R00029,,,Stansted Airport,Birmingham New Street,3,40,2,5,Cambridge
+R00030,,,Hamilton West,XCN,1,2,0,7,XCN
+R00031,,,Swindon,Westbury,1,14,0,5,Westbury
+R00032,,,Exeter St Davids,Exmouth,1,5,0,11,Exmouth
+R00033,,,Oxford,London Marylebone,7,24,6,10,High Wycombe
+R00034,,,London Paddington,Didcot Parkway,48,389,47,6,Reading
+R00035,,,Dundee,Edinburgh Waverley,3,32,2,8,Inverkeithing
+R00036,,,Banbury,London Marylebone,3,8,2,9,High Wycombe
+R00037,,,Redditch,Four Oaks,3,72,2,11,Birmingham New Street
+R00038,,,Sheffield,Huddersfield,6,75,5,6,Barnsley
+R00039,,,London Marylebone,High Wycombe,6,24,5,7,West Ruislip
+R00040,,,LIF,Bromsgrove,3,72,2,15,Birmingham New Street
+R00041,,,High Wycombe,London Marylebone,3,12,2,8,South Ruislip
+R00042,,,Taunton,Bristol Temple Meads,5,14,4,9,Parson Street
+R00043,,,Portsmouth Harbour,Horsham,5,62,4,5,Havant
+R00044,,,Hastings,London Charing Cross,5,19,4,5,Robertsbridge
+R00045,,,Perth,Edinburgh Waverley,2,33,1,9,Inverkeithing
+R00046,,,Hastings,London Charing Cross,6,51,5,8,Etchingham
+R00047,,,Bognor Regis,Barnham,1,72,0,2,Barnham
+R00048,,,Edinburgh Waverley,Perth,3,42,2,5,Inverkeithing
+R00049,,,Littlehampton,Bognor Regis,1,6,0,4,Bognor Regis
+R00050,,,Twyford,Henley-On-Thames,1,18,0,4,Henley-On-Thames
+R00051,,,Brighton,Ore,5,10,4,5,Glynde
+R00052,,,Ore,London Charing Cross,1,2,0,21,London Charing Cross
+R00053,,,Birmingham Snow Hill,London Marylebone,7,23,6,6,Dorridge
+R00054,,,Birkbeck,XSU,1,64,0,10,XSU
+R00055,,,Warminster,Bristol Temple Meads,2,6,1,5,Bradford-On-Avon
+R00056,,,London Euston,Manchester Piccadilly,52,495,51,5,Watford Junction
+R00057,,,Westbury,Swindon,2,16,1,5,Swindon
+R00058,,,Birmingham International,Aberystwyth,6,32,5,9,Wolverhampton
+R00059,,,Manchester Victoria,Southport,4,32,3,10,Hindley
+R00060,,,London Marylebone,West Ruislip,2,8,1,5,Sudbury Hill Harrow
+R00061,,,Manchester Airport,Cleethorpes,1,1,0,23,Cleethorpes
+R00062,,,Cleethorpes,Liverpool Lime Street,8,36,7,5,Barnetby
+R00063,,,Liverpool Lime Street,Cleethorpes,24,69,23,5,Hough Green
+R00064,,,Bradford Interchange,Leeds,3,40,2,5,Mirfield
+R00065,,,Westbury,Salisbury,1,2,0,3,Salisbury
+R00066,,,Sunderland,London Kings Cross,1,12,0,27,London Kings Cross
+R00067,,,Westbury,Salisbury,1,2,0,4,Salisbury
+R00068,,,Pwllheli,Machynlleth,1,16,0,27,Machynlleth
+R00069,,,Southport,Manchester Victoria,4,18,3,15,Bolton
+R00070,,,Weston-Super-Mare,Severn Beach,6,34,5,6,Parson Street
+R00071,,,Buxton,Manchester Piccadilly,3,26,2,7,Disley
+R00072,,,Birmingham Moor Street,London Marylebone,5,46,4,5,Dorridge
+R00073,,,London Kings Cross,Edinburgh Waverley,28,335,27,5,Potters Bar
+R00074,,,Southport,Manchester Oxford Road,3,47,2,7,Wigan Wallgate
+R00075,,,West Croydon,Dalston Junction,2,146,1,20,Dalston Junction
+R00076,,,Luton,Rainham (Kent),6,72,5,16,London Blackfriars
+R00077,,,Manchester Piccadilly,London Euston,15,66,14,8,Crewe
+R00078,,,Halifax,Hull,3,34,2,5,Leeds
+R00079,,,Rainham (Kent),Luton,7,74,6,14,Dartford
+R00080,,,Rhymney,Bridgend,1,28,0,24,Bridgend
+R00081,,,YMH,Lymington Pier,1,36,0,2,Lymington Pier
+R00082,,,Hull,Halifax,13,86,12,5,Selby
+R00083,,,Tonbridge,Tunbridge Wells,1,8,0,3,Tunbridge Wells
+R00084,,,Wigan Wallgate,Manchester Victoria,1,6,0,12,Manchester Victoria
+R00085,,,Worcester Foregate Street,Bristol Temple Meads,1,22,0,11,Bristol Temple Meads
+R00086,,,Lymington Pier,YMH,1,36,0,2,YMH
+R00087,,,Girvan,Ayr,1,10,0,3,Ayr
+R00088,,,Dorridge,Worcester Foregate Street,8,36,7,7,XOH
+R00089,,,Worcester Shrub Hill,Bristol Temple Meads,3,8,2,5,Gloucester
+R00090,,,Liverpool Lime Street,Blackpool North,5,39,4,5,St Helens Central
+R00091,,,Balham,East Grinstead,1,70,0,13,East Grinstead
+R00092,,,West Hampstead Thameslink,Orpington,7,16,6,6,London Blackfriars
+R00093,,,Tring,London Euston,2,54,1,5,Watford Junction
+R00094,,,York,London Kings Cross,2,14,1,8,Huntingdon
+R00095,,,West Ruislip,London Marylebone,1,8,0,7,London Marylebone
+R00096,,,Paisley Canal,Glasgow Central,1,61,0,7,Glasgow Central
+R00097,,,East Grinstead,Balham,8,86,7,5,Oxted
+R00098,,,Glenrothes with Thornton,Edinburgh Waverley,2,8,1,8,Inverkeithing
+R00099,,,Gourock,Glasgow Central,3,76,2,5,Cartsdyke
+R00100,,,Glasgow Central,Liverpool Lime Street,1,2,0,19,Liverpool Lime Street
+R00101,,,Clitheroe,Manchester Victoria,4,38,3,5,Blackburn
+R00102,,,Edinburgh Waverley,Manchester Airport,5,31,4,13,XOU
+R00103,,,IBS,ULP,1,4,0,2,ULP
+R00104,,,Walsall,Wolverhampton,3,67,2,5,XRA
+R00105,,,Didcot Parkway,London Paddington,5,73,4,6,Reading
+R00106,,,Helensburgh Central,Edinburgh Waverley,9,72,8,7,Dalmuir
+R00107,,,Glasgow Central,Glasgow Central,2,74,1,6,Langside
+R00108,,,Lancaster,Manchester Airport,1,2,0,10,Manchester Airport
+R00109,,,Newark Northgate,Lincoln Central,2,8,1,5,Lincoln Central
+R00110,,,Blackburn,Blackpool North,1,2,0,11,Blackpool North
+R00111,,,Sheffield,Leeds,4,40,3,8,Moorthorpe
+R00112,,,Oxenholme Lake District,Liverpool Lime Street,2,4,1,5,XOU
+R00113,,,Peterborough,Lincoln Central,2,28,1,6,Lincoln Central
+R00114,,,Glasgow Central,London Euston,8,58,7,13,XOU
+R00115,,,Stratford-upon-Avon,Kidderminster,3,32,2,30,Stourbridge Junction
+R00116,,,Glasgow Central,East Kilbride,2,72,1,7,Busby
+R00117,,,Lincoln Central,Peterborough,1,28,0,6,Peterborough
+R00118,,,East Kilbride,Glasgow Central,1,50,0,10,Glasgow Central
+R00119,,,Blackpool North,York,5,33,4,11,Bradford Interchange
+R00120,,,East Kilbride,Glasgow Central,1,26,0,9,Glasgow Central
+R00121,,,York,Blackpool North,2,28,1,9,Halifax
+R00122,,,Orpington,London Cannon Street,4,74,3,8,XPY
+R00123,,,Leven,Edinburgh Waverley,2,37,1,11,Edinburgh Gateway
+R00124,,,Banbury,London Paddington,1,2,0,11,London Paddington
+R00125,,,London Cannon Street,Orpington,12,114,11,6,Hither Green
+R00126,,,Stratford-upon-Avon,Worcester Foregate Street,2,16,1,17,SMW
+R00127,,,Newton,Glasgow Central,2,72,1,5,Kings Park
+R00128,,,Letchworth Garden City,London Kings Cross,2,23,1,11,Alexandra Palace
+R00129,,,London Kings Cross,Letchworth Garden City,5,69,4,8,Welwyn Garden City
+R00130,,,Manchester Airport,Blackpool North,10,105,9,5,Deansgate
+R00131,,,Milton Keynes Central,London Euston,1,62,0,17,London Euston
+R00132,,,XCN,Edinburgh Waverley,1,5,0,2,Edinburgh Waverley
+R00133,,,Neilston,Glasgow Central,2,76,1,7,Mount Florida
+R00134,,,High Wycombe,London Marylebone,1,6,0,12,London Marylebone
+R00135,,,Glasgow Central,Neilston,3,146,2,5,Mount Florida
+R00136,,,XCN,Hamilton West,1,2,0,7,Hamilton West
+R00137,,,Shoeburyness,London Fenchurch Street,9,158,8,7,Leigh-on-Sea
+R00138,,,Hebden Bridge,York,1,2,0,12,York
+R00139,,,Edinburgh Waverley,Aberdeen,5,27,4,5,Kirkcaldy
+R00140,,,BDC,BDC,1,7,0,1,BDC
+R00141,,,Aberystwyth,Bangor (Gwynedd),2,14,1,6,CFS
+R00142,,,Manchester Airport,Barrow-In-Furness,5,29,4,6,Deansgate
+R00143,,,Dalwhinnie,Dundee,1,2,0,4,Dundee
+R00144,,,Stratford (London),Bishops Stortford,13,68,12,5,Tottenham Hale
+R00145,,,Glasgow Queen Street,Alloa,3,73,2,6,Stirling
+R00146,,,Gerrards Cross,London Marylebone,1,4,0,9,London Marylebone
+R00147,,,DOG,Bangor (Gwynedd),1,2,0,5,Bangor (Gwynedd)
+R00148,,,Kyle of Lochalsh,Kyle of Lochalsh,1,2,0,1,Kyle of Lochalsh
+R00149,,,Oban,Oban,1,1,0,5,Oban
+R00150,,,Watford High Street,London Euston,1,146,0,15,London Euston
+R00151,,,Stansted Airport,London Liverpool Street,4,145,3,6,Cheshunt
+R00152,,,Windsor & Eton Central,Slough,1,110,0,2,Slough
+R00153,,,Kyle of Lochalsh,Carrbridge,1,2,0,2,Carrbridge
+R00154,,,Penzance,St Ives,1,2,0,5,St Ives
+R00155,,,High Wycombe,London Marylebone,1,5,0,8,London Marylebone
+R00156,,,Nottingham,Leicester,3,33,2,7,Loughborough
+R00157,,,St Ives,St Erth,1,22,0,4,St Erth
+R00158,,,London Marylebone,High Wycombe,14,22,13,6,West Ruislip
+R00159,,,CFS,Aberystwyth,1,2,0,6,Aberystwyth
+R00160,,,Bangor (Gwynedd),Aberystwyth,2,14,1,5,DOG
+R00161,,,St Erth,St Ives,1,2,0,5,St Ives
+R00162,,,Edinburgh Waverley,Dunblane,2,77,1,10,Stirling
+R00163,,,Largs,Glasgow Central,2,36,1,10,Lochwinnoch
+R00164,,,Glasgow Central,Gourock,1,50,0,10,Gourock
+R00165,,,Peterborough,Lincoln Central,1,2,0,5,Lincoln Central
+R00166,,,Glasgow Central,Largs,5,74,4,6,Lochwinnoch
+R00167,,,Doncaster,Lincoln Central,1,10,0,4,Lincoln Central
+R00168,,,St Erth,St Ives,1,22,0,4,St Ives
+R00169,,,Dunblane,Edinburgh Waverley,1,74,0,12,Edinburgh Waverley
+R00170,,,Lincoln Central,Doncaster,1,8,0,4,Doncaster
+R00171,,,Tweedbank,Edinburgh Waverley,1,63,0,10,Edinburgh Waverley
+R00172,,,St Ives,St Erth,1,2,0,5,St Erth
+R00173,,,Bedford,Bletchley,1,34,0,12,Bletchley
+R00174,,,Shepherds Bush,Imperial Wharf,1,20,0,4,Imperial Wharf
+R00175,,,Edinburgh Waverley,Tweedbank,1,61,0,10,Tweedbank
+R00176,,,St Erth,St Ives,1,30,0,3,St Ives
+R00177,,,Imperial Wharf,Stratford (London),3,166,2,5,XMB
+R00178,,,Bletchley,Bedford,1,34,0,12,Bedford
+R00179,,,Edinburgh Waverley,Helensburgh Central,12,96,11,6,Bathgate
+R00180,,,North Berwick,Edinburgh Waverley,2,44,1,7,Edinburgh Waverley
+R00181,,,Edinburgh Waverley,North Berwick,2,36,1,6,Drem
+R00182,,,St Ives,St Erth,1,30,0,3,St Erth
+R00183,,,Edinburgh Waverley,Glasgow Central,5,42,4,7,Kirknewton
+R00184,,,Glasgow Central,Edinburgh Waverley,2,32,1,10,Fauldhouse
+R00185,,,Carnforth,Carnforth,1,2,0,4,Carnforth
+R00186,,,Cardiff Central,Milford Haven,2,6,1,16,Clarbeston Road
+R00187,,,Birmingham New Street,Leicester,8,66,7,8,Hinckley
+R00188,,,Gillingham (Kent),Dartford,6,12,5,5,Strood
+R00189,,,Leicester,Loughborough,1,2,0,2,Loughborough
+R00190,,,Wemyss Bay,Glasgow Central,3,62,2,6,Port Glasgow
+R00191,,,Aberystwyth,Carmarthen,1,28,0,4,Carmarthen
+R00192,,,Loughborough,Leicester,1,2,0,5,Leicester
+R00193,,,Rochdale,Leeds,2,32,1,7,Halifax
+R00194,,,Grantham,Nottingham,1,3,0,8,Nottingham
+R00195,,,Boston,Nottingham,1,2,0,13,Nottingham
+R00196,,,Skegness,Nottingham,2,4,1,6,Hubberts Bridge
+R00197,,,Skegness,Nottingham,4,24,3,8,Ancaster
+R00198,,,Aberystwyth,Carmarthen,1,4,0,3,Carmarthen
+R00199,,,Balham,Brighton,36,272,35,5,XJS
+R00200,,,Aberystwyth,Carmarthen,1,2,0,3,Carmarthen
+R00201,,,Wembley Stadium,London Marylebone,1,5,0,3,London Marylebone
+R00202,,,Carmarthen,Aberystwyth,1,4,0,3,Aberystwyth
+R00203,,,Lowestoft,Norwich,3,36,2,6,Cantley
+R00204,,,Carmarthen,Aberystwyth,1,28,0,4,Aberystwyth
+R00205,,,Skegness,Nottingham,1,2,0,15,Nottingham
+R00206,,,Blackpool North,Liverpool Lime Street,10,64,9,6,XOU
+R00207,,,Norwich,London Liverpool Street,2,64,1,11,Shenfield
+R00208,,,Norwich,Great Yarmouth,1,34,0,7,Great Yarmouth
+R00209,,,Princes Risborough,London Marylebone,1,1,0,9,London Marylebone
+R00210,,,Cromer,Norwich,1,2,0,9,Norwich
+R00211,,,Okehampton,XAZ,1,8,0,3,XAZ
+R00212,,,Hayes (Kent),London Charing Cross,4,150,3,9,Ladywell
+R00213,,,Wigan North Western,Liverpool Lime Street,1,2,0,6,Liverpool Lime Street
+R00214,,,Leicester,Nottingham,3,30,2,8,XTR
+R00215,,,Cheshunt,London Liverpool Street,1,74,0,18,London Liverpool Street
+R00216,,,Boston,Skegness,1,2,0,3,Skegness
+R00217,,,Peterborough,Horsham,20,90,19,5,Biggleswade
+R00218,,,Nottingham,Skegness,5,16,4,5,Bottesford
+R00219,,,XAZ,Okehampton,1,8,0,3,Okehampton
+R00220,,,Nottingham,Skegness,3,10,2,5,Grantham
+R00221,,,Ashford International,London Charing Cross,7,59,6,7,Maidstone East
+R00222,,,Nottingham,Skegness,8,14,7,5,Aslockton
+R00223,,,Carmarthen,Aberystwyth,1,2,0,3,Aberystwyth
+R00224,,,ZEL,Kenton,2,306,1,6,Stonebridge Park
+R00225,,,Okehampton,XCV,1,14,0,2,XCV
+R00226,,,Banbury,London Marylebone,1,1,0,16,London Marylebone
+R00227,,,Aberystwyth,DOG,1,2,0,3,DOG
+R00228,,,Sheffield,Scarborough,8,36,7,5,Doncaster
+R00229,,,Bangor (Gwynedd),PGR,1,2,0,3,PGR
+R00230,,,PGR,Bangor (Gwynedd),1,2,0,3,Bangor (Gwynedd)
+R00231,,,Rochdale,Leeds,6,40,5,6,Hebden Bridge
+R00232,,,DOG,Aberystwyth,1,2,0,3,Aberystwyth
+R00233,,,Reading,Gatwick Airport,2,6,1,16,Salfords
+R00234,,,BEO,Neath,1,24,0,3,Neath
+R00235,,,Anniesland,Glasgow Queen Street,1,50,0,8,Glasgow Queen Street
+R00236,,,London Euston,Watford High Street,2,148,1,6,WJL
+R00237,,,XCV,Okehampton,1,14,0,2,Okehampton
+R00238,,,Wandsworth Common,Ore,5,5,4,8,South Croydon
+R00239,,,Littlehampton,Balham,7,73,6,7,Worthing
+R00240,,,Epsom,XSU,2,70,1,10,Norwood Junction
+R00241,,,Caterham,XSU,2,70,1,9,Norwood Junction
+R00242,,,Battersea Park,Epsom Downs,4,110,3,7,Selhurst
+R00243,,,Battersea Park,XSU,1,68,0,14,XSU
+R00244,,,BEO,YST,1,4,0,2,YST
+R00245,,,Neath,BEO,1,22,0,3,BEO
+R00246,,,Stratford-upon-Avon,Leamington Spa,3,20,2,5,Claverdon
+R00247,,,Glasgow Queen Street,Anniesland,1,50,0,8,Anniesland
+R00248,,,Bognor Regis,Balham,2,64,1,11,Littlehaven
+R00249,,,Blackburn,Rochdale,2,20,1,6,Littleborough
+R00250,,,Neath,YST,1,4,0,2,YST
+R00251,,,HNY,SGQ,1,12,0,5,SGQ
+R00252,,,Stratford (London),Kew Gardens,5,321,4,10,Camden Road
+R00253,,,XSU,Caterham,12,187,11,5,Norwood Junction
+R00254,,,Tunbridge Wells,London Charing Cross,5,50,4,5,Sevenoaks
+R00255,,,Betws-Y-Coed,CEN,1,2,0,2,CEN
+R00256,,,Ramsgate,Ashford International,6,30,5,8,Dover Priory
+R00257,,,Bangor (Gwynedd),CEN,1,10,0,4,CEN
+R00258,,,Kew Gardens,Stratford (London),2,161,1,5,WJH
+R00259,,,Exeter Central,Barnstaple,4,21,3,6,Morchard Road
+R00260,,,Leeds,Sheffield,2,72,1,5,Fitzwilliam
+R00261,,,Romford,XUP,1,64,0,3,XUP
+R00262,,,Haywards Heath,Eastbourne,2,2,1,6,XRH
+R00263,,,XUP,Romford,1,64,0,3,Romford
+R00264,,,Barnstaple,Exeter St Davids,1,2,0,8,Exeter St Davids
+R00265,,,Balham,Brighton,1,1,0,23,Brighton
+R00266,,,Rhymney,Barry Island,7,36,6,5,Bargoed
+R00267,,,Penarth,Cardiff Central,1,10,0,4,Cardiff Central
+R00268,,,Frome,Westbury,1,4,0,2,Westbury
+R00269,,,Bangor (Gwynedd),Betws-Y-Coed,1,2,0,3,Betws-Y-Coed
+R00270,,,Wigan North Western,Liverpool Lime Street,2,66,1,9,Roby
+R00271,,,Brighton,Balham,5,107,4,7,Gatwick Airport
+R00272,,,CEN,Bangor (Gwynedd),1,12,0,4,Bangor (Gwynedd)
+R00273,,,Maidenhead,Marlow,1,24,0,5,Marlow
+R00274,,,Marlow,Bourne End,1,28,0,2,Bourne End
+R00275,,,Ayr,Stranraer,1,6,0,5,Stranraer
+R00276,,,Maidenhead,Bourne End,1,28,0,4,Bourne End
+R00277,,,Rochdale,Blackburn,1,20,0,7,Blackburn
+R00278,,,Rhymney,Barry Island,1,2,0,24,Barry Island
+R00279,,,Bourne End,Marlow,1,28,0,2,Marlow
+R00280,,,Maesteg,Ebbw Vale Town,2,34,1,11,Cardiff Central
+R00281,,,Porthmadog,Blaenau Ffestiniog,1,20,0,2,Blaenau Ffestiniog
+R00282,,,Reigate,Balham,3,70,2,6,Purley
+R00283,,,Manchester Piccadilly,London Euston,11,122,10,8,Stone
+R00284,,,Leeds,Rochdale,2,38,1,5,Halifax
+R00285,,,CFS,Blaenau Ffestiniog,1,10,0,4,Blaenau Ffestiniog
+R00286,,,Birmingham New Street,London Euston,2,52,1,6,Coventry
+R00287,,,Glasgow Queen Street,Oban,1,2,0,23,Oban
+R00288,,,Troon,Troon,1,12,0,1,Troon
+R00289,,,Airdrie,Balloch Central,4,59,3,14,Hyndland
+R00290,,,Sheffield,Manchester Piccadilly,4,34,3,8,Chinley
+R00291,,,Blaenau Ffestiniog,CFS,1,8,0,4,CFS
+R00292,,,Porthmadog,CFS,1,4,0,3,CFS
+R00293,,,Birmingham New Street,Hereford,5,42,4,10,Droitwich Spa
+R00294,,,London Blackfriars,Beckenham Junction,1,6,0,6,Beckenham Junction
+R00295,,,Blaenau Ffestiniog,Porthmadog,1,24,0,2,Porthmadog
+R00296,,,London St Pancras International,Corby,8,205,7,6,St Albans
+R00297,,,Lee,London Cannon Street,1,4,0,21,London Cannon Street
+R00298,,,Sheffield,London St Pancras International,5,62,4,5,Spondon
+R00299,,,Nottingham,London St Pancras International,1,25,0,17,London St Pancras International
+R00300,,,York,Newcastle,1,2,0,7,Newcastle
+R00301,,,Oxford Parkway,Barnes,1,2,0,15,Barnes
+R00302,,,Middlesbrough,Newcastle,2,12,1,12,Newcastle
+R00303,,,Hull,Sheffield,2,4,1,7,Doncaster
+R00304,,,Nottingham,London St Pancras International,3,5,2,5,Loughborough
+R00305,,,Edinburgh Waverley,Newcastle,1,14,0,10,Newcastle
+R00306,,,Nunthorpe,Newcastle,2,22,1,5,Middlesbrough
+R00307,,,Bridlington,Hull,9,27,8,7,Hull
+R00308,,,Bromley North,Grove Park,1,84,0,3,Grove Park
+R00309,,,CFS,Porthmadog,1,2,0,3,Porthmadog
+R00310,,,Grove Park,Bromley North,1,84,0,3,Bromley North
+R00311,,,Liverpool Lime Street,Birmingham New Street,6,90,5,6,Acton Bridge
+R00312,,,York,Scarborough,1,32,0,4,Scarborough
+R00313,,,Newcastle,Edinburgh Waverley,2,18,1,6,Dunbar
+R00314,,,Chester,London Euston,1,12,0,20,London Euston
+R00315,,,Stonebridge Park,Kenton,1,2,0,4,Kenton
+R00316,,,Manchester Piccadilly,York,6,47,5,9,Huddersfield
+R00317,,,Scarborough,Sheffield,6,31,5,6,Bridlington
+R00318,,,Ashington,Newcastle,2,62,1,6,NOP
+R00319,,,London Kings Cross,Stevenage,12,17,11,6,Alexandra Palace
+R00320,,,Newcastle,Ashington,1,42,0,8,Ashington
+R00321,,,Edinburgh Waverley,London Kings Cross,16,87,15,8,Morpeth
+R00322,,,Earlsfield,Dorking,3,79,2,9,Leatherhead
+R00323,,,Colchester,London Liverpool Street,4,4,3,9,Shenfield
+R00324,,,Middlesbrough,Carlisle,7,28,6,7,Brockley Whins
+R00325,,,Exeter St Davids,Barnstaple,2,4,1,5,Morchard Road
+R00326,,,Manchester Airport,York,3,4,2,8,Marsden
+R00327,,,Newcastle,Morpeth,1,30,0,4,Morpeth
+R00328,,,Retford,Leeds,3,6,2,8,Sheffield
+R00329,,,Weymouth,New Malden,9,42,8,6,Wareham
+R00330,,,Machynlleth,Pwllheli,1,16,0,27,Pwllheli
+R00331,,,New Malden,Weymouth,22,131,21,5,Basingstoke
+R00332,,,Lincoln Central,Leeds,2,34,1,11,Sheffield
+R00333,,,Didcot Parkway,Banbury,1,16,0,9,Banbury
+R00334,,,Leeds,Nottingham,3,56,2,6,Sheffield
+R00335,,,Leeds,Sheffield,1,2,0,13,Sheffield
+R00336,,,Norwich,Stansted Airport,10,56,9,7,Ely
+R00337,,,Manchester Victoria,Clitheroe,2,4,1,7,Bromley Cross
+R00338,,,Exeter Central,Barnstaple,3,6,2,7,Morchard Road
+R00339,,,Cardiff Central,Barry Island,2,16,1,8,Barry
+R00340,,,Manchester Victoria,Clitheroe,3,62,2,6,Bromley Cross
+R00341,,,Reading,York,4,16,3,16,Birmingham New Street
+R00342,,,Cheltenham Spa,London Paddington,3,32,2,6,Swindon
+R00343,,,Ramsgate,Faversham,10,50,9,10,Faversham
+R00344,,,Birmingham New Street,Nottingham,7,40,6,5,XKI
+R00345,,,Dover Priory,Faversham,5,50,4,11,Faversham
+R00346,,,Plymouth,Penzance,1,12,0,14,Penzance
+R00347,,,Nottingham,Cardiff Central,7,39,6,6,Derby
+R00348,,,Bristol Temple Meads,Warminster,7,30,6,9,Westbury
+R00349,,,Manchester Piccadilly,Chester,1,4,0,8,Chester
+R00350,,,Exeter St Davids,Penzance,7,18,6,8,Plymouth
+R00351,,,Plymouth,Penzance,1,2,0,18,Penzance
+R00352,,,Chester,Manchester Piccadilly,2,4,1,6,Newton-Le-Willows
+R00353,,,Stranraer,Ayr,3,10,2,5,Ayr
+R00354,,,Glasgow Central,Plymouth,1,4,0,63,Plymouth
+R00355,,,Kilmarnock,Girvan,3,16,2,5,Ayr
+R00356,,,Perth,Edinburgh Waverley,1,4,0,16,Edinburgh Waverley
+R00357,,,Leven,Edinburgh Waverley,1,32,0,16,Edinburgh Waverley
+R00358,,,Leeds,York,6,41,5,5,Micklefield
+R00359,,,Sheffield,Lincoln Central,3,10,2,7,Worksop
+R00360,,,York,Leeds,3,34,2,7,Leeds
+R00361,,,Bradford Forster Square,London Kings Cross,1,14,0,23,London Kings Cross
+R00362,,,Hereford,Birmingham New Street,7,42,6,8,Worcester Foregate Street
+R00363,,,Whitehaven,Corkickle,1,18,0,2,Corkickle
+R00364,,,Princes Risborough,Aylesbury,1,29,0,4,Aylesbury
+R00365,,,Skipton,London Kings Cross,1,2,0,24,London Kings Cross
+R00366,,,Corkickle,Whitehaven,1,18,0,2,Whitehaven
+R00367,,,Sheffield,Leeds,1,32,0,5,Leeds
+R00368,,,Evesham,Oxford,1,2,0,8,Oxford
+R00369,,,Leeds,Sheffield,2,34,1,5,Sheffield
+R00370,,,Leeds,London Kings Cross,3,36,2,10,Huntingdon
+R00371,,,Exmouth,Paignton,6,54,5,11,Exeter St Davids
+R00372,,,Paignton,Exmouth,17,82,16,7,Dawlish Warren
+R00373,,,Lincoln Central,London Kings Cross,1,12,0,16,London Kings Cross
+R00374,,,Leeds,Skipton,2,58,1,9,Skipton
+R00375,,,Springburn,Milngavie,3,66,2,10,Hyndland
+R00376,,,Whitehaven,Millom,1,2,0,10,Millom
+R00377,,,Bradford Forster Square,Ilkley,1,54,0,9,Ilkley
+R00378,,,Dalmuir,Motherwell,8,124,7,8,Partick
+R00379,,,Bristol Temple Meads,Gloucester,2,6,1,5,Gloucester
+R00380,,,Aylesbury Vale Parkway,Aylesbury,1,4,0,2,Aylesbury
+R00381,,,Oxford,Worcester Shrub Hill,1,2,0,9,Worcester Shrub Hill
+R00382,,,Queens Park (London),Kenton,4,350,3,5,Stonebridge Park
+R00383,,,Glasgow Central,Carlisle,5,32,4,6,Kilmarnock
+R00384,,,London Fenchurch Street,Grays,4,92,3,7,Grays
+R00385,,,Shrewsbury,Swansea,2,10,1,32,Llanelli
+R00386,,,Manchester Piccadilly,Hadfield,1,2,0,5,Hadfield
+R00387,,,Worcester Shrub Hill,London Paddington,4,8,3,7,Kingham
+R00388,,,Barnstaple,Exeter St Davids,2,2,1,10,Exeter St Davids
+R00389,,,Aylesbury,Aylesbury Vale Parkway,1,2,0,2,Aylesbury Vale Parkway
+R00390,,,Tring,London Euston,3,10,2,5,Apsley
+R00391,,,Millom,Workington,1,2,0,13,Workington
+R00392,,,Exeter St Davids,Exmouth,1,4,0,7,Exmouth
+R00393,,,Glasgow Central,Paisley Canal,1,62,0,7,Paisley Canal
+R00394,,,Maryport,Sellafield,2,4,1,6,Whitehaven
+R00395,,,Shrewsbury,Birmingham New Street,3,32,2,7,Cosford
+R00396,,,Leamington Spa,Birmingham Moor Street,3,8,2,6,Dorridge
+R00397,,,Leamington Spa,Stratford-upon-Avon,1,15,0,8,Stratford-upon-Avon
+R00398,,,Sutton (London),St Albans,4,72,3,16,London Blackfriars
+R00399,,,Littlehampton,Portsmouth & Southsea,2,3,1,11,Havant
+R00400,,,Stratford-upon-Avon,Banbury,1,2,0,6,Banbury
+R00401,,,Weston-Super-Mare,London Paddington,1,12,0,17,London Paddington
+R00402,,,Dover Priory,Faversham,1,2,0,8,Faversham
+R00403,,,East Croydon,Watford Junction,3,100,2,5,Streatham Common
+R00404,,,York,Leeds,1,2,0,6,Leeds
+R00405,,,Bicester North,Birmingham Moor Street,1,2,0,13,Birmingham Moor Street
+R00406,,,Aylesbury,Princes Risborough,1,29,0,4,Princes Risborough
+R00407,,,Huddersfield,Bradford Interchange,1,2,0,5,Bradford Interchange
+R00408,,,Manchester Victoria,Southport,1,2,0,15,Southport
+R00409,,,Manchester Piccadilly,Newcastle,14,82,13,7,Huddersfield
+R00410,,,Crewe,Stafford,1,34,0,7,Stafford
+R00411,,,Lewes,Seaford,1,2,0,6,Seaford
+R00412,,,Oxted,Crowborough,1,1,0,8,Crowborough
+R00413,,,XVJ,Ashford International,15,135,14,8,XLY
+R00414,,,Faversham,Dover Priory,1,4,0,11,Dover Priory
+R00415,,,Herne Hill,London Blackfriars,1,2,0,4,London Blackfriars
+R00416,,,St Albans,Sutton (London),3,132,2,16,Herne Hill
+R00417,,,Portsmouth Harbour,New Malden,5,38,4,5,Petersfield
+R00418,,,Manchester Airport,Holyhead,4,34,3,14,Chester
+R00419,,,Kings Lynn,Downham Market,1,2,0,3,Downham Market
+R00420,,,Downham Market,Kings Lynn,1,5,0,3,Kings Lynn
+R00421,,,Wrexham General,Crewe,1,30,0,3,Crewe
+R00422,,,RDZ,Gatwick Airport,7,40,6,9,Ash
+R00423,,,Downham Market,Ely,1,2,0,3,Ely
+R00424,,,Ely,Downham Market,1,3,0,3,Downham Market
+R00425,,,Leamington Spa,Birmingham Moor Street,1,4,0,9,Birmingham Moor Street
+R00426,,,Glasgow Central,Wemyss Bay,4,76,3,5,Paisley Gilmour Street
+R00427,,,Gatwick Airport,RDZ,2,2,1,11,Guildford
+R00428,,,Bristol Temple Meads,Bath Spa,1,2,0,4,Bath Spa
+R00429,,,Aylesbury,London Marylebone,3,6,2,7,Beaconsfield
+R00430,,,Severn Beach,Bristol Temple Meads,3,44,2,12,Bristol Temple Meads
+R00431,,,Southampton Central,Poole,4,24,3,11,Bournemouth
+R00432,,,Wakefield Kirkgate,Manchester Piccadilly,1,1,0,14,Manchester Piccadilly
+R00433,,,Newcastle,Ashington,1,22,0,7,Ashington
+R00434,,,London Fenchurch Street,Shoeburyness,3,96,2,8,Pitsea
+R00435,,,Aylesbury,London Marylebone,1,2,0,12,London Marylebone
+R00436,,,Faversham,Ramsgate,5,16,4,10,Ramsgate
+R00437,,,XVJ,Gillingham (Kent),3,42,2,9,XMU
+R00438,,,Metrocentre,Newcastle,1,6,0,3,Newcastle
+R00439,,,Salisbury,Bristol Temple Meads,1,16,0,12,Bristol Temple Meads
+R00440,,,Basingstoke,New Malden,5,58,4,5,Farnborough Main
+R00441,,,Nottingham,Leeds,4,38,3,5,Chesterfield
+R00442,,,Redruth,Redruth,1,58,0,1,Redruth
+R00443,,,Darlington,Newcastle,1,2,0,4,Newcastle
+R00444,,,London Fenchurch Street,Southend Central,5,80,4,7,Grays
+R00445,,,Bodmin Parkway,PDT,1,26,0,4,PDT
+R00446,,,Leamington Spa,Birmingham Moor Street,1,2,0,9,Birmingham Moor Street
+R00447,,,PDT,Bodmin Parkway,1,34,0,4,Bodmin Parkway
+R00448,,,Bicester Village,Oxford,1,2,0,3,Oxford
+R00449,,,Scarborough,Leeds,5,8,4,5,Church Fenton
+R00450,,,Scarborough,York,1,28,0,4,York
+R00451,,,Eastbourne,Balham,4,31,3,6,Lewes
+R00452,,,Balham,Reigate,3,73,2,6,XJS
+R00453,,,York,Manchester Piccadilly,3,34,2,5,Wakefield Kirkgate
+R00454,,,Liverpool Lime Street,Wigan North Western,8,113,7,6,Huyton
+R00455,,,Penzance,Plymouth,13,46,12,11,Liskeard
+R00456,,,Manchester Piccadilly,York,1,2,0,13,York
+R00457,,,Barrow-In-Furness,Manchester Airport,8,30,7,5,Cark
+R00458,,,Earlsfield,Woking,2,77,1,11,Woking
+R00459,,,Lincoln Central,Crewe,4,10,3,5,Newark Castle
+R00460,,,Bridlington,York,4,10,3,8,Hull
+R00461,,,Gravesend,Maidstone West,1,2,0,6,Maidstone West
+R00462,,,Leeds,Scarborough,1,2,0,7,Scarborough
+R00463,,,Carlisle,Newcastle,1,16,0,10,Newcastle
+R00464,,,Inverness,Edinburgh Waverley,6,14,5,5,Dalwhinnie
+R00465,,,Newcastle,London Kings Cross,10,50,9,6,York
+R00466,,,Manchester Piccadilly,Redcar Central,3,3,2,13,Mirfield
+R00467,,,Glasgow Queen Street,Dundee,16,73,15,5,Stirling
+R00468,,,York,Manchester Piccadilly,3,6,2,5,Leeds
+R00469,,,Gillingham (Kent),London Cannon Street,6,52,5,5,Sole Street
+R00470,,,Glasgow Queen Street,Edinburgh Waverley,3,94,2,9,Edinburgh Waverley
+R00471,,,Princes Risborough,London Marylebone,2,5,1,5,Gerrards Cross
+R00472,,,Glasgow Central,Edinburgh Waverley,1,22,0,9,Edinburgh Waverley
+R00473,,,Newcastle,Manchester Piccadilly,7,36,6,7,York
+R00474,,,Aviemore,Aviemore,1,2,0,1,Aviemore
+R00475,,,Kyle of Lochalsh,Kyle of Lochalsh,1,4,0,2,Kyle of Lochalsh
+R00476,,,Aviemore,Dundee,1,1,0,14,Dundee
+R00477,,,Harrogate,London Kings Cross,1,14,0,23,London Kings Cross
+R00478,,,Elgin,Kyle of Lochalsh,1,2,0,5,Kyle of Lochalsh
+R00479,,,Gerrards Cross,London Marylebone,1,2,0,7,London Marylebone
+R00480,,,Milngavie,Springburn,10,88,9,7,Partick
+R00481,,,Sudbury Suffolk,Marks Tey,1,36,0,4,Marks Tey
+R00482,,,Chesterfield,Leeds,1,2,0,9,Leeds
+R00483,,,Marks Tey,Sudbury Suffolk,1,36,0,4,Sudbury Suffolk
+R00484,,,Ipswich,Cambridge,3,38,2,6,Bury St Edmunds
+R00485,,,Doncaster,London Kings Cross,3,4,2,7,Huntingdon
+R00486,,,Leeds,Saltburn,3,5,2,5,York
+R00487,,,Morecambe,Leeds,1,10,0,17,Leeds
+R00488,,,Maidstone East,London Charing Cross,1,38,0,14,London Charing Cross
+R00489,,,Ashford International,London Charing Cross,1,2,0,17,London Charing Cross
+R00490,,,Basingstoke,Reading,1,74,0,6,Reading
+R00491,,,London Cannon Street,Dartford,5,142,4,5,Lewisham
+R00492,,,Ipswich,Lowestoft,2,30,1,12,Lowestoft
+R00493,,,Colchester,Ipswich,1,2,0,3,Ipswich
+R00494,,,Skipton,Leeds,4,126,3,8,Shipley
+R00495,,,Leeds,Nottingham,1,2,0,13,Nottingham
+R00496,,,Berwick-Upon-Tweed,London Kings Cross,1,2,0,27,London Kings Cross
+R00497,,,London Charing Cross,Hayes (Kent),1,66,0,13,Hayes (Kent)
+R00498,,,Bournemouth,Manchester Piccadilly,2,28,1,27,Birmingham New Street
+R00499,,,Felixstowe,Ipswich,1,36,0,5,Ipswich
+R00500,,,Moorfields,Chester,1,2,0,18,Chester
+R00501,,,Ipswich,Felixstowe,1,36,0,5,Felixstowe
+R00502,,,Hooton,Chester,2,4,1,27,Hooton
+R00503,,,Eastbourne,Ashford International,2,3,1,12,Hastings
+R00504,,,Oxford,Reading,1,2,0,6,Reading
+R00505,,,Chester,Chester,2,116,1,18,XLV
+R00506,,,Corby,London St Pancras International,2,68,1,5,Flitwick
+R00507,,,Newcastle,London Kings Cross,1,2,0,23,London Kings Cross
+R00508,,,Blackpool North,Manchester Airport,3,41,2,9,Chorley
+R00509,,,Cambridge,Ipswich,2,36,1,10,Ipswich
+R00510,,,Gospel Oak,Barking Riverside,1,136,0,14,Barking Riverside
+R00511,,,Ellesmere Port,Ellesmere Port,3,72,2,20,Birkenhead Hamilton Square
+R00512,,,Manchester Piccadilly,Chester,1,37,0,16,Chester
+R00513,,,Matlock,Lincoln Central,7,38,6,5,Ambergate
+R00514,,,XVJ,Orpington,3,150,2,12,XLY
+R00515,,,Derby,Matlock,1,2,0,8,Matlock
+R00516,,,London Charing Cross,Dartford,3,72,2,5,Blackheath
+R00517,,,Ore,Balham,13,66,12,5,Bexhill
+R00518,,,Guildford,HWX,1,44,0,3,HWX
+R00519,,,Chester,Manchester Piccadilly,3,41,2,15,Stockport
+R00520,,,Rose Hill Marple,Manchester Piccadilly,4,40,3,6,Guide Bridge
+R00521,,,Windermere,Oxenholme Lake District,3,32,2,5,Oxenholme Lake District
+R00522,,,London Charing Cross,Hayes (Kent),2,4,1,5,New Beckenham
+R00523,,,Okehampton,BUA,1,10,0,3,BUA
+R00524,,,Ashford International,London Charing Cross,2,4,1,12,XPY
+R00525,,,Tonbridge,London Charing Cross,2,3,1,6,XPE
+R00526,,,Dartford,London Cannon Street,4,72,3,10,Charlton
+R00527,,,Manchester Piccadilly,Crewe,5,40,4,6,Heald Green
+R00528,,,Ashford International,XVJ,1,1,0,21,XVJ
+R00529,,,Leeds,Knottingley,1,34,0,8,Knottingley
+R00530,,,Brighton,Seaford,9,108,8,5,Lewes
+R00531,,,Chathill,Newcastle,1,4,0,9,Newcastle
+R00532,,,Knottingley,Leeds,2,32,1,7,Wakefield Westgate
+R00533,,,BUA,Okehampton,1,10,0,2,Okehampton
+R00534,,,Morpeth,Newcastle,1,32,0,4,Newcastle
+R00535,,,Epsom Downs,Battersea Park,2,70,1,8,West Croydon
+R00536,,,Gravesend,London Charing Cross,4,80,3,8,XRT
+R00537,,,Norwich,Sheringham,3,34,2,6,North Walsham
+R00538,,,CPG,BWR,1,30,0,4,BWR
+R00539,,,Minster,XVJ,1,2,0,30,XVJ
+R00540,,,London Paddington,Heathrow Terminal 4 Rail,2,3,1,5,Heathrow Terminals 1-2-3 Rail
+R00541,,,Sheringham,Norwich,1,4,0,9,Norwich
+R00542,,,Folkestone Central,XVJ,1,2,0,28,XVJ
+R00543,,,Sheringham,Norwich,1,22,0,11,Norwich
+R00544,,,Sheringham,Norwich,1,2,0,10,Norwich
+R00545,,,Sheringham,Norwich,1,2,0,8,Norwich
+R00546,,,APN,Sunderland,2,160,1,13,Sunderland
+R00547,,,Sheringham,Norwich,1,4,0,7,Norwich
+R00548,,,Moreton-In-Marsh,BWR,1,4,0,3,BWR
+R00549,,,Sheringham,Norwich,1,2,0,6,Norwich
+R00550,,,Penzance,London Paddington,5,19,4,10,Liskeard
+R00551,,,Headbolt Lane,Liverpool Central,1,128,0,8,Liverpool Central
+R00552,,,Chester,Hooton,1,2,0,4,Hooton
+R00553,,,Liverpool Central,Headbolt Lane,1,126,0,8,Headbolt Lane
+R00554,,,Fishguard Harbour,RSB,1,5,0,2,RSB
+R00555,,,RSB,Fishguard Harbour,1,4,0,2,Fishguard Harbour
+R00556,,,SHZ,APN,3,187,2,16,SGH
+R00557,,,Liverpool Central,Southport,1,142,0,17,Southport
+R00558,,,Rock Ferry,Ellesmere Port,1,2,0,23,Ellesmere Port
+R00559,,,Cardiff Central,Pembroke Dock,5,30,4,5,Bridgend
+R00560,,,BWR,CPG,1,30,0,4,CPG
+R00561,,,Shrewsbury,Chester,3,8,2,6,Chester
+R00562,,,Manchester Piccadilly,Crewe,5,72,4,5,Cheadle Hulme
+R00563,,,Hooton,Ellesmere Port,1,2,0,4,Ellesmere Port
+R00564,,,ZHS,ZUM,2,6,1,7,ZTU
+R00565,,,Chester,Liverpool Lime Street,2,4,1,5,ALE
+R00566,,,Stratford (London),Meridian Water,1,68,0,6,Meridian Water
+R00567,,,ZET,ZUM,1,4,0,8,ZUM
+R00568,,,Holyhead,Manchester Airport,4,32,3,15,Chester
+R00569,,,Meridian Water,Stratford (London),1,68,0,6,Stratford (London)
+R00570,,,Penarth,Coryton,2,112,1,5,Cardiff Queen Street
+R00571,,,Aberystwyth,Birmingham International,4,32,3,6,Machynlleth
+R00572,,,REG,SHZ,1,12,0,17,SHZ
+R00573,,,Coryton,Penarth,2,66,1,8,Cardiff Central
+R00574,,,Edinburgh Waverley,Leven,3,62,2,6,Inverkeithing
+R00575,,,XSU,Battersea Park,6,83,5,7,Sydenham
+R00576,,,BWR,Moreton-In-Marsh,1,6,0,3,Moreton-In-Marsh
+R00577,,,Newcastle,Metrocentre,1,4,0,3,Metrocentre
+R00578,,,Saltburn,York,3,6,2,10,Thirsk
+R00579,,,Llandudno Junction,Birmingham International,6,16,5,8,Chester
+R00580,,,St Ives,Penzance,1,2,0,5,Penzance
+R00581,,,Birmingham New Street,Aberystwyth,3,6,2,6,Wolverhampton
+R00582,,,Plymouth,Edinburgh Waverley,19,48,18,8,Exeter St Davids
+R00583,,,Didcot Parkway,Oxford,3,22,2,5,Oxford
+R00584,,,Truro,Falmouth Docks,1,44,0,6,Falmouth Docks
+R00585,,,Oxford,Banbury,1,4,0,6,Banbury
+R00586,,,Newcastle,Darlington,1,2,0,4,Darlington
+R00587,,,Wilmslow,Manchester Piccadilly,2,8,1,9,Manchester Piccadilly
+R00588,,,Crewe,Manchester Piccadilly,1,28,0,14,Manchester Piccadilly
+R00589,,,Crewe,London Euston,1,2,0,21,London Euston
+R00590,,,Holyhead,Cardiff Central,5,19,4,7,Bangor (Gwynedd)
+R00591,,,Truro,Falmouth Docks,1,16,0,5,Falmouth Docks
+R00592,,,Cardiff Central,Holyhead,12,37,11,5,Abergavenny
+R00593,,,Caerphilly,Penarth,3,54,2,6,Cardiff Central
+R00594,,,Cardiff Central,Treherbert,3,75,2,9,Pontypridd
+R00595,,,Harwich International,HVH,1,5,0,2,HVH
+R00596,,,HVH,Harwich International,1,5,0,2,Harwich International
+R00597,,,Woking,Alton,1,6,0,7,Alton
+R00598,,,New Malden,Alton,1,59,0,12,Alton
+R00599,,,Alton,New Malden,6,66,5,7,Woking
+R00600,,,Carmarthen,London Paddington,5,20,4,6,Llanelli
+R00601,,,Ebbw Vale Town,Maesteg,5,65,4,8,Pye Corner
+R00602,,,Crewe,Birmingham New Street,4,6,3,5,Wolverhampton
+R00603,,,London Blackfriars,Beckenham Junction,1,4,0,9,Beckenham Junction
+R00604,,,Barnstaple,Exeter Central,3,8,2,8,Crediton
+R00605,,,Barry Island,Bargoed,7,90,6,9,Cardiff Central
+R00606,,,Barnstaple,Exeter Central,1,10,0,10,Exeter Central
+R00607,,,Barnstaple,Exeter Central,1,2,0,14,Exeter Central
+R00608,,,Slade Green,London Cannon Street,1,12,0,14,London Cannon Street
+R00609,,,Barnstaple,Exeter Central,2,6,1,7,Crediton
+R00610,,,London Charing Cross,Sevenoaks,8,150,7,6,Hither Green
+R00611,,,Maidstone East,Ashford International,1,2,0,7,Ashford International
+R00612,,,Barnstaple,Exeter Central,1,2,0,13,Exeter Central
+R00613,,,Newcastle,Chathill,1,2,0,9,Chathill
+R00614,,,Leeds,York,3,72,2,8,Harrogate
+R00615,,,LSM,Oban,1,2,0,2,Oban
+R00616,,,New Malden,Alton,1,2,0,10,Alton
+R00617,,,Dartford,London Charing Cross,2,72,1,10,Lewisham
+R00618,,,Penrith,KWK,1,58,0,2,KWK
+R00619,,,Glasgow Queen Street,Dundee,1,2,0,20,Dundee
+R00620,,,Kings Lynn,London Kings Cross,5,55,4,12,Foxton
+R00621,,,London Paddington,Heathrow Terminal 5 Rail,1,146,0,4,Heathrow Terminal 5 Rail
+R00622,,,Cardiff Central,Penarth,1,6,0,4,Penarth
+R00623,,,Leeds,Ilkley,1,74,0,6,Ilkley
+R00624,,,Barnehurst,London Cannon Street,1,8,0,12,London Cannon Street
+R00625,,,Edinburgh Waverley,Glasgow Queen Street,2,93,1,8,Bishopbriggs
+R00626,,,Poole,New Malden,5,14,4,6,Christchurch
+R00627,,,Eastbourne,Brighton,6,38,5,8,Lewes
+R00628,,,Ely,London Kings Cross,9,31,8,6,XSP
+R00629,,,Southampton Central,Bournemouth,3,16,2,6,Brockenhurst
+R00630,,,Hastings,Eastbourne,1,2,0,8,Eastbourne
+R00631,,,Bournemouth,Winchester,7,24,6,7,Brockenhurst
+R00632,,,Dorking,Earlsfield,5,43,4,5,Epsom
+R00633,,,Horsham,Bognor Regis,1,58,0,10,Bognor Regis
+R00634,,,Manchester Piccadilly,Hazel Grove,6,67,5,7,Hazel Grove
+R00635,,,Manchester Piccadilly,Buxton,1,2,0,12,Buxton
+R00636,,,Sunderland,SGH,1,3,0,11,SGH
+R00637,,,Oban,Oban,1,6,0,3,Oban
+R00638,,,Birmingham New Street,London Euston,5,65,4,12,Northampton
+R00639,,,Barnsley,Sheffield,1,6,0,6,Sheffield
+R00640,,,Manchester Airport,Liverpool Lime Street,9,45,8,7,Manchester Piccadilly
+R00641,,,Leeds,Knottingley,2,36,1,7,Knottingley
+R00642,,,Birmingham New Street,Wolverhampton,1,2,0,8,Wolverhampton
+R00643,,,New Malden,Portsmouth & Southsea,2,6,1,18,Portsmouth & Southsea
+R00644,,,Darlington,Newcastle,1,2,0,3,Newcastle
+R00645,,,Strawberry Hill,Queenstown Road (Battersea),1,2,0,7,Queenstown Road (Battersea)
+R00646,,,Brockenhurst,Lymington Pier,1,66,0,3,Lymington Pier
+R00647,,,Blackpool North,Manchester Airport,3,4,2,5,Preston
+R00648,,,Lymington Pier,Brockenhurst,1,66,0,3,Brockenhurst
+R00649,,,Hazel Grove,Manchester Piccadilly,1,18,0,7,Manchester Piccadilly
+R00650,,,KWK,Penrith,1,56,0,2,Penrith
+R00651,,,Leeds,Blackburn,3,3,2,8,Blackburn
+R00652,,,Leeds,Rochdale,3,37,2,6,Halifax
+R00653,,,Barnham,Bognor Regis,1,74,0,2,Bognor Regis
+R00654,,,London Cannon Street,London Cannon Street,3,98,2,14,Slade Green
+R00655,,,Three Bridges,Portsmouth Harbour,1,2,0,25,Portsmouth Harbour
+R00656,,,Havant,Wandsworth Common,1,1,0,36,Wandsworth Common
+R00657,,,Portsmouth Harbour,New Malden,6,45,5,6,Havant
+R00658,,,Portsmouth Harbour,Horsham,2,4,1,6,Southbourne
+R00659,,,Portsmouth & Southsea,Horsham,1,4,0,17,Horsham
+R00660,,,Cambridge,London Kings Cross,10,63,9,7,Royston
+R00661,,,Nottingham,Crewe,7,15,6,7,Derby
+R00662,,,Redcar Central,Manchester Piccadilly,4,30,3,9,York
+R00663,,,Brockley,Crystal Palace,1,2,0,5,Crystal Palace
+R00664,,,Ashford International,Ramsgate,2,3,1,6,Folkestone Central
+R00665,,,Salisbury,New Malden,2,24,1,6,Basingstoke
+R00666,,,East Croydon,Uckfield,1,1,0,16,Uckfield
+R00667,,,Uckfield,XSU,2,38,1,10,Oxted
+R00668,,,Ashford International,Canterbury West,2,8,1,5,Canterbury West
+R00669,,,Doncaster,Leeds,1,38,0,9,Leeds
+R00670,,,Salisbury,Exeter St Davids,1,4,0,15,Exeter St Davids
+R00671,,,Tonbridge,Ramsgate,1,2,0,22,Ramsgate
+R00672,,,Yeovil Junction,New Malden,1,2,0,15,New Malden
+R00673,,,Manchester Piccadilly,Buxton,2,4,1,5,Hazel Grove
+R00674,,,Maidstone West,Balham,1,2,0,14,Balham
+R00675,,,Yeovil Pen Mill,New Malden,1,4,0,16,New Malden
+R00676,,,Shalford,Balham,1,2,0,12,Balham
+R00677,,,Honiton,New Malden,1,2,0,18,New Malden
+R00678,,,SGH,CIC,1,2,0,12,CIC
+R00679,,,CIC,APN,1,2,0,14,APN
+R00680,,,Okehampton,Exeter St Davids,1,6,0,3,Exeter St Davids
+R00681,,,Exeter St Davids,Okehampton,1,8,0,3,Okehampton
+R00682,,,Bargoed,Barry Island,2,30,1,14,Cardiff Central
+R00683,,,Exeter Central,Okehampton,1,15,0,4,Okehampton
+R00684,,,Dover Priory,Faversham,1,2,0,19,Faversham
+R00685,,,Perth,Glasgow Queen Street,2,4,1,5,Stirling
+R00686,,,Exeter Central,Okehampton,1,5,0,5,Okehampton
+R00687,,,Aberdeen,Montrose,9,28,8,5,Montrose
+R00688,,,Dundee,Glasgow Queen Street,2,26,1,7,Stirling
+R00689,,,Middlesbrough,London Kings Cross,1,2,0,25,London Kings Cross
+R00690,,,Aberdeen,Edinburgh Waverley,8,51,7,6,Carnoustie
+R00691,,,Portsmouth Harbour,Ryde Pier Head,1,36,0,2,Ryde Pier Head
+R00692,,,Arbroath,Glasgow Queen Street,2,4,1,8,Dundee
+R00693,,,New Mills Central,Manchester Piccadilly,2,6,1,6,Reddish North
+R00694,,,Gillingham (Dorset),New Malden,1,4,0,12,New Malden
+R00695,,,XSU,Birkbeck,5,140,4,6,Tulse Hill
+R00696,,,Exeter St Davids,Okehampton,1,2,0,4,Okehampton
+R00697,,,West Croydon,Battersea Park,1,56,0,9,Battersea Park
+R00698,,,Okehampton,Exeter Central,1,12,0,4,Exeter Central
+R00699,,,Queenstown Road (Battersea),Addlestone,6,101,5,11,Hounslow
+R00700,,,Basingstoke,Salisbury,1,2,0,6,Salisbury
+R00701,,,Battersea Park,West Croydon,1,58,0,9,West Croydon
+R00702,,,Stevenage,Moorgate,2,74,1,13,Alexandra Palace
+R00703,,,Okehampton,Exeter Central,1,12,0,5,Exeter Central
+R00704,,,Inverness,Glasgow Queen Street,6,13,5,10,Perth
+R00705,,,Welwyn Garden City,Moorgate,4,102,3,10,Alexandra Palace
+R00706,,,Glasgow Central,Lanark,2,68,1,5,Motherwell
+R00707,,,Moorgate,Welwyn Garden City,12,212,11,6,Finsbury Park
+R00708,,,Motherwell,Cumbernauld,1,4,0,5,Cumbernauld
+R00709,,,Cardiff Central,Caerphilly,6,14,5,6,Caerphilly
+R00710,,,Salisbury,Gillingham (Dorset),1,2,0,3,Gillingham (Dorset)
+R00711,,,Exeter St Davids,New Malden,4,28,3,10,Yeovil Junction
+R00712,,,Axminster,Exeter St Davids,1,2,0,8,Exeter St Davids
+R00713,,,Gillingham (Dorset),Exeter St Davids,1,2,0,13,Exeter St Davids
+R00714,,,Edinburgh Waverley,Dundee,2,33,1,8,Ladybank
+R00715,,,Farnham,Queenstown Road (Battersea),1,4,0,20,Queenstown Road (Battersea)
+R00716,,,Ryde Pier Head,Portsmouth Harbour,1,36,0,2,Portsmouth Harbour
+R00717,,,Crystal Palace,Dalston Junction,2,149,1,16,Dalston Junction
+R00718,,,Queenstown Road (Battersea),Windsor & Eton Riverside,5,85,4,5,Twickenham
+R00719,,,Bedwyn,Newbury,1,31,0,4,Newbury
+R00720,,,Yeovil Pen Mill,Salisbury,2,6,1,5,Westbury
+R00721,,,Leeds,Sheffield,1,38,0,13,Sheffield
+R00722,,,Yeovil Junction,Salisbury,1,6,0,8,Salisbury
+R00723,,,Hazel Grove,Manchester Piccadilly,1,4,0,5,Manchester Piccadilly
+R00724,,,Crewe,Manchester Piccadilly,3,37,2,7,Wilmslow
+R00725,,,New Malden,Portsmouth Harbour,4,62,3,6,Godalming
+R00726,,,Bedwyn,Reading,3,4,2,5,Newbury Racecourse
+R00727,,,Horsham,Peterborough,6,28,5,7,Gatwick Airport
+R00728,,,Bargoed,Barry Island,2,24,1,13,Cardiff Central
+R00729,,,Hebden Bridge,Leeds,2,30,1,8,Morley
+R00730,,,Blackburn,Manchester Victoria,1,26,0,8,Manchester Victoria
+R00731,,,Tonbridge,Strood,2,13,1,14,Strood
+R00732,,,Maidstone West,Strood,1,2,0,8,Strood
+R00733,,,Strood,Paddock Wood,3,70,2,8,Maidstone West
+R00734,,,Paddock Wood,Strood,1,56,0,13,Strood
+R00735,,,Stourbridge Town,Stourbridge Town,1,428,0,1,Stourbridge Town
+R00736,,,Halifax,Leeds,1,2,0,6,Leeds
+R00737,,,New Malden,Haslemere,6,44,5,7,Godalming
+R00738,,,Manchester Piccadilly,Manchester Airport,1,4,0,3,Manchester Airport
+R00739,,,Barnham,Portsmouth Harbour,2,3,1,9,Havant
+R00740,,,Chichester,Brighton,1,6,0,18,Brighton
+R00741,,,Basingstoke,Reading,1,2,0,5,Reading
+R00742,,,Brighton,Southampton Central,9,89,8,6,Lancing
+R00743,,,Portsmouth & Southsea,Brighton,2,26,1,17,Southwick
+R00744,,,Barnstaple,Exmouth,1,3,0,20,Exmouth
+R00745,,,Addlestone,Queenstown Road (Battersea),3,70,2,5,Staines
+R00746,,,New Malden,Portsmouth Harbour,5,35,4,5,Fleet
+R00747,,,Portsmouth Harbour,New Malden,8,40,7,10,Eastleigh
+R00748,,,Brighton,Portsmouth Harbour,2,6,1,12,XXA
+R00749,,,London Kings Cross,Kings Lynn,7,7,6,5,Alexandra Palace
+R00750,,,Inverness,Aberdeen,4,36,3,5,Elgin
+R00751,,,Redhill,Gatwick Airport,1,21,0,5,Gatwick Airport
+R00752,,,Westbury,Warminster,1,4,0,3,Warminster
+R00753,,,Earlsfield,Southampton Central,2,2,1,9,Weybridge
+R00754,,,Greenford,West Ealing,2,64,1,5,West Ealing
+R00755,,,West Ealing,Greenford,1,62,0,5,Greenford
+R00756,,,Salisbury,Yeovil Junction,1,2,0,8,Yeovil Junction
+R00757,,,Weymouth,New Malden,1,24,0,25,New Malden
+R00758,,,Crewe,Manchester Piccadilly,2,8,1,5,Wilmslow
+R00759,,,Four Oaks,Redditch,2,70,1,7,Aston
+R00760,,,Liverpool Lime Street,Llandudno,2,33,1,7,Chester
+R00761,,,Exeter St Davids,New Malden,1,10,0,23,New Malden
+R00762,,,Sutton (London),St Albans,6,75,5,5,Mitcham Eastfields
+R00763,,,Crewe,Chester,1,4,0,2,Chester
+R00764,,,Lincoln Central,Newark Northgate,3,8,2,5,Newark Northgate
+R00765,,,Cleethorpes,Barton-On-Humber,3,8,2,8,Habrough
+R00766,,,Cardiff Bay,Pontypridd,1,8,0,9,Pontypridd
+R00767,,,Lincoln Central,Newark Northgate,1,2,0,2,Newark Northgate
+R00768,,,Kidderminster,Stratford-upon-Avon,3,46,2,13,Birmingham Snow Hill
+R00769,,,York,Bridlington,4,16,3,5,Howden
+R00770,,,Birmingham Moor Street,Stratford-upon-Avon,1,2,0,19,Stratford-upon-Avon
+R00771,,,Manchester Piccadilly,Sheffield,1,26,0,16,Sheffield
+R00772,,,Manchester Piccadilly,Sheffield,1,4,0,15,Sheffield
+R00773,,,Kidderminster,Whitlocks End,2,12,1,23,Whitlocks End
+R00774,,,Newhaven Harbour,Brighton,1,4,0,9,Brighton
+R00775,,,Stourbridge Junction,Stratford-upon-Avon,1,2,0,30,Stratford-upon-Avon
+R00776,,,Worcester Foregate Street,Dorridge,4,32,3,7,Stourbridge Junction
+R00777,,,Plymouth,Gunnislake,1,2,0,5,Gunnislake
+R00778,,,Gunnislake,Plymouth,1,18,0,9,Plymouth
+R00779,,,Plymouth,Gunnislake,1,16,0,9,Gunnislake
+R00780,,,Southampton Central,Manchester Piccadilly,4,8,3,5,XEW
+R00781,,,Manchester Piccadilly,Rose Hill Marple,1,20,0,10,Rose Hill Marple
+R00782,,,Southampton Central,New Malden,3,6,2,10,Basingstoke
+R00783,,,Winchester,Southampton Central,4,22,3,5,Southampton Airport Parkway
+R00784,,,Gloucester,Worcester Foregate Street,1,2,0,6,Worcester Foregate Street
+R00785,,,Hereford,Cardiff Central,1,2,0,6,Cardiff Central
+R00786,,,Poole,Winchester,1,2,0,19,Winchester
+R00787,,,Norwich,Great Yarmouth,2,6,1,6,Reedham (Norfolk)
+R00788,,,Birmingham Snow Hill,Whitlocks End,2,4,1,5,Tyseley
+R00789,,,Henley-On-Thames,Twyford,1,16,0,4,Twyford
+R00790,,,Manchester Piccadilly,New Mills Central,3,42,2,9,Marple
+R00791,,,Bishops Stortford,Stratford (London),4,38,3,7,Cheshunt
+R00792,,,Nottingham,Norwich,1,1,0,20,Norwich
+R00793,,,Bishops Stortford,Stratford (London),1,14,0,12,Stratford (London)
+R00794,,,Barking,Southend Central,1,2,0,14,Southend Central
+R00795,,,Kenton,Queens Park (London),1,236,0,8,Queens Park (London)
+R00796,,,Milford Haven,Cardiff Central,8,25,7,7,Carmarthen
+R00797,,,Queenstown Road (Battersea),Wokingham,4,77,3,8,Virginia Water
+R00798,,,RDZ,Queenstown Road (Battersea),4,72,3,9,Sunningdale
+R00799,,,Guildford,Earlsfield,5,118,4,5,Effingham Junction
+R00800,,,Woking,Earlsfield,3,74,2,5,Walton-On-Thames
+R00801,,,Guildford,Earlsfield,3,4,2,10,New Malden
+R00802,,,Earlsfield,Queenstown Road (Battersea),4,92,3,7,Teddington
+R00803,,,Earlsfield,Chessington South,1,69,0,7,Chessington South
+R00804,,,Queenstown Road (Battersea),Earlsfield,7,101,6,9,Twickenham
+R00805,,,New Malden,Basingstoke,2,5,1,9,Basingstoke
+R00806,,,Tring,London Euston,1,2,0,11,London Euston
+R00807,,,Windsor & Eton Riverside,Queenstown Road (Battersea),2,74,1,5,Staines
+R00808,,,Brockenhurst,Poole,2,4,1,10,Poole
+R00809,,,Grantham,Nottingham,1,1,0,7,Nottingham
+R00810,,,Nottingham,London St Pancras International,3,34,2,7,Leicester
+R00811,,,Staines,RDZ,1,2,0,12,RDZ
+R00812,,,Southampton Central,Brighton,8,68,7,7,Fareham
+R00813,,,SCN,HNY,1,12,0,5,HNY
+R00814,,,Barrow-In-Furness,Corkickle,3,14,2,6,Millom
+R00815,,,Manchester Victoria,Bradford Interchange,1,3,0,11,Bradford Interchange
+R00816,,,Northampton,Birmingham New Street,2,8,1,9,Birmingham International
+R00817,,,Corkickle,Barrow-In-Furness,3,8,2,14,Barrow-In-Furness
+R00818,,,Norwood Junction,Battersea Park,1,6,0,8,Battersea Park
+R00819,,,Royston,London Kings Cross,2,2,1,11,Hatfield
+R00820,,,Northampton,Crewe,2,4,1,5,Atherstone
+R00821,,,LVS,DGS,1,4,0,2,DGS
+R00822,,,Stonebridge Park,Kenton,1,2,0,4,Kenton
+R00823,,,DGS,LVS,1,4,0,2,LVS
+R00824,,,Newport (South Wales),Ebbw Vale Town,1,27,0,9,Ebbw Vale Town
+R00825,,,XOA,Nottingham,1,1,0,18,Nottingham
+R00826,,,Llanelli,Cardiff Central,2,3,1,9,Port Talbot Parkway
+R00827,,,Ribblehead,Leeds,1,2,0,15,Leeds
+R00828,,,Llanelli,Swansea,1,1,0,3,Swansea
+R00829,,,London Euston,Milton Keynes Central,5,88,4,6,Watford Junction
+R00830,,,Nottingham,Liverpool Lime Street,2,2,1,13,Hazel Grove
+R00831,,,Ilkley,Leeds,2,126,1,5,Guiseley
+R00832,,,London Liverpool Street,Southend Victoria,36,372,35,5,Maryland
+R00833,,,Lowestoft,Ipswich,2,34,1,12,Ipswich
+R00834,,,Kyle of Lochalsh,UIG,1,4,0,5,UIG
+R00835,,,ULP,IBS,1,4,0,2,IBS
+R00836,,,Preston,Colne,2,39,1,8,Blackburn
+R00837,,,Brockley,West Croydon,1,2,0,9,West Croydon
+R00838,,,Coventry,London Euston,2,2,1,5,XHN
+R00839,,,Adwick,Sheffield,1,34,0,9,Sheffield
+R00840,,,Bridgend,Rhymney,2,36,1,11,Cardiff Central
+R00841,,,Northampton,London Euston,3,14,2,8,Tring
+R00842,,,Sheffield,Manchester Airport,1,1,0,22,Manchester Airport
+R00843,,,Milton Keynes Central,Birmingham New Street,1,2,0,15,Birmingham New Street
+R00844,,,Corby,Kettering,1,2,0,2,Kettering
+R00845,,,Crewe,London Euston,4,36,3,8,XIM
+R00846,,,Sheffield,Norwich,1,2,0,22,Norwich
+R00847,,,Darlington,Saltburn,3,36,2,6,Middlesbrough
+R00848,,,Bradford Forster Square,Leeds,1,54,0,6,Leeds
+R00849,,,Leeds,Bradford Forster Square,1,52,0,6,Bradford Forster Square
+R00850,,,Shenfield,Heathrow Terminal 5 Rail,4,332,3,13,Stratford (London)
+R00851,,,Reading,Basingstoke,1,76,0,6,Basingstoke
+R00852,,,Kettering,Melton Mowbray,1,2,0,5,Melton Mowbray
+R00853,,,Melton Mowbray,Kettering,1,2,0,5,Kettering
+R00854,,,XVJ,Dover Priory,5,9,4,11,Swanley
+R00855,,,RDZ,Ascot,2,2,1,6,Ascot
+R00856,,,Gillingham (Kent),XVJ,1,2,0,16,XVJ
+R00857,,,Canterbury West,XVJ,1,2,0,16,XVJ
+R00858,,,Motherwell,Dalmuir,2,36,1,16,Hyndland
+R00859,,,West Brompton,Chertsey,1,2,0,12,Chertsey
+R00860,,,Chertsey,Balham,1,2,0,17,Balham
+R00861,,,Ascot,Queenstown Road (Battersea),1,2,0,12,Queenstown Road (Battersea)
+R00862,,,Dover Priory,XVJ,2,4,1,5,Ashford International
+R00863,,,Wolverhampton,Walsall,5,75,4,5,Sandwell & Dudley
+R00864,,,Shepperton,Earlsfield,3,20,2,5,Fulwell
+R00865,,,Hounslow,Queenstown Road (Battersea),1,4,0,11,Queenstown Road (Battersea)
+R00866,,,New Malden,Basingstoke,5,46,4,5,Byfleet & New Haw
+R00867,,,Raynes Park,Guildford,1,4,0,14,Guildford
+R00868,,,Bath Spa,Bath Spa,1,4,0,1,Bath Spa
+R00869,,,Southampton Central,Bournemouth,1,2,0,5,Bournemouth
+R00870,,,Guildford,Earlsfield,1,4,0,13,Earlsfield
+R00871,,,Edinburgh Waverley,Glasgow Central,1,2,0,6,Glasgow Central
+R00872,,,Colchester Town,London Liverpool Street,4,32,3,5,Witham
+R00873,,,Derby,Newcastle,1,2,0,13,Newcastle
+R00874,,,Braintree,London Liverpool Street,5,44,4,5,Witham
+R00875,,,Reading,Newcastle,1,4,0,36,Newcastle
+R00876,,,Epsom,Earlsfield,1,2,0,7,Earlsfield
+R00877,,,Southampton Central,Portsmouth & Southsea,2,36,1,15,Portsmouth & Southsea
+R00878,,,Portsmouth & Southsea,Southampton Central,1,36,0,15,Southampton Central
+R00879,,,Bletchley,London Euston,3,8,2,8,Hemel Hempstead
+R00880,,,Birmingham New Street,Cardiff Central,1,1,0,22,Cardiff Central
+R00881,,,Clacton-On-Sea,London Liverpool Street,4,6,3,8,Colchester
+R00882,,,Clacton-On-Sea,London Liverpool Street,5,36,4,6,Marks Tey
+R00883,,,Whitlocks End,Kidderminster,4,30,3,7,XOH
+R00884,,,Leamington Spa,Birmingham Snow Hill,1,2,0,11,Birmingham Snow Hill
+R00885,,,Carmarthen,Swansea,1,2,0,5,Swansea
+R00886,,,Nottingham,Birmingham New Street,2,8,1,8,TAH
+R00887,,,Swansea,Llanelli,1,4,0,3,Llanelli
+R00888,,,Ipswich,London Liverpool Street,3,12,2,5,Witham
+R00889,,,Nottingham,Birmingham New Street,1,10,0,13,Birmingham New Street
+R00890,,,Ipswich,London Liverpool Street,2,24,1,6,Witham
+R00891,,,Manchester Piccadilly,Chester,1,6,0,9,Chester
+R00892,,,Stratford-upon-Avon,Birmingham Snow Hill,1,2,0,16,Birmingham Snow Hill
+R00893,,,Warrington Bank Quay,Manchester Piccadilly,1,1,0,5,Manchester Piccadilly
+R00894,,,Stratford-upon-Avon,Birmingham Snow Hill,1,2,0,8,Birmingham Snow Hill
+R00895,,,Colchester Town,Colchester,1,32,0,2,Colchester
+R00896,,,Worcester Foregate Street,Stratford-upon-Avon,6,28,5,6,Blakedown
+R00897,,,Chester,Manchester Piccadilly,3,3,2,7,Newton-Le-Willows
+R00898,,,Southend Victoria,London Liverpool Street,6,118,5,9,Shenfield
+R00899,,,Coventry,Birmingham New Street,1,1,0,12,Birmingham New Street
+R00900,,,Nottingham,Birmingham New Street,1,2,0,14,Birmingham New Street
+R00901,,,Worcester Shrub Hill,Dorridge,5,10,4,7,Stourbridge Junction
+R00902,,,Birmingham New Street,Manchester Piccadilly,4,11,3,5,Wolverhampton
+R00903,,,Fareham,Southampton Central,1,2,0,9,Southampton Central
+R00904,,,Leamington Spa,Stratford-upon-Avon,1,2,0,4,Stratford-upon-Avon
+R00905,,,Selhurst,Battersea Park,2,12,1,5,Balham
+R00906,,,CRP,Ayr,1,2,0,2,Ayr
+R00907,,,Rugeley Trent Valley,Birmingham International,5,70,4,10,Tame Bridge Parkway
+R00908,,,Ayr,CRP,1,2,0,2,CRP
+R00909,,,Birmingham New Street,Kings Norton,1,57,0,8,Kings Norton
+R00910,,,Surbiton,Berrylands,1,78,0,2,Berrylands
+R00911,,,Kings Norton,Birmingham New Street,1,59,0,8,Birmingham New Street
+R00912,,,UIG,Kyle of Lochalsh,1,4,0,5,Kyle of Lochalsh
+R00913,,,London Blackfriars,Sevenoaks,2,56,1,15,XLY
+R00914,,,Littlehampton,Southampton Central,1,1,0,16,Southampton Central
+R00915,,,KCG,KCG,1,48,0,1,KCG
+R00916,,,Crewe,Shrewsbury,5,23,4,6,Wem
+R00917,,,Swansea,London Paddington,4,5,3,5,Port Talbot Parkway
+R00918,,,Exeter St Davids,London Paddington,1,2,0,21,London Paddington
+R00919,,,DUO,DUO,1,98,0,1,DUO
+R00920,,,Carmarthen,Milford Haven,1,8,0,7,Milford Haven
+R00921,,,Carmarthen,Pembroke Dock,1,2,0,11,Pembroke Dock
+R00922,,,Carmarthen,Fishguard Harbour,1,2,0,6,Fishguard Harbour
+R00923,,,Cheltenham Spa,Cardiff Central,1,32,0,8,Cardiff Central
+R00924,,,Bristol Temple Meads,Cardiff Central,1,2,0,8,Cardiff Central
+R00925,,,Radyr,Cardiff Central,1,1,0,6,Cardiff Central
+R00926,,,New Malden,Guildford,3,6,2,9,Woking
+R00927,,,Gatwick Airport,Reading,7,65,6,12,Guildford
+R00928,,,New Malden,Guildford,1,2,0,11,Guildford
+R00929,,,Earlsfield,Guildford,1,73,0,13,Guildford
+R00930,,,West Worthing,Brighton,1,2,0,11,Brighton
+R00931,,,Wakefield Kirkgate,Manchester Piccadilly,1,1,0,11,Manchester Piccadilly
+R00932,,,Seaford,Brighton,1,38,0,10,Brighton
+R00933,,,Seaford,Brighton,1,35,0,11,Brighton
+R00934,,,Sleights,Whitby,1,2,0,3,Whitby
+R00935,,,Bristol Temple Meads,Manchester Piccadilly,5,24,4,12,Kings Norton
+R00936,,,Whitby,XPK,1,8,0,6,XPK
+R00937,,,XPK,Whitby,1,6,0,6,Whitby
+R00938,,,Edinburgh Waverley,North Berwick,1,2,0,5,North Berwick
+R00939,,,Crewe,Liverpool Lime Street,2,6,1,6,ALE
+R00940,,,Huddersfield,Leeds,1,2,0,8,Leeds
+R00941,,,Frome,London Paddington,1,2,0,16,London Paddington
+R00942,,,Leeds,York,1,2,0,7,York
+R00943,,,Raynes Park,Shepperton,3,55,2,6,Teddington
+R00944,,,Manchester Piccadilly,Liverpool Lime Street,1,2,0,17,Liverpool Lime Street
+R00945,,,Kingston,Shepperton,1,2,0,8,Shepperton
+R00946,,,Shepperton,Raynes Park,2,59,1,12,Raynes Park
+R00947,,,Manchester Airport,Blackpool North,1,1,0,23,Blackpool North
+R00948,,,Cardiff Central,Nottingham,5,26,4,19,Birmingham New Street
+R00949,,,York,Sheffield,2,6,1,6,Moorthorpe
+R00950,,,Ashford International,Eastbourne,4,36,3,5,Winchelsea
+R00951,,,Sutton (London),Battersea Park,3,34,2,7,Selhurst
+R00952,,,Streatham Hill,XSU,1,6,0,11,XSU
+R00953,,,Battersea Park,Horsham,6,76,5,8,Cheam
+R00954,,,Cambridge,Norwich,6,20,5,5,XYE
+R00955,,,West Croydon,Sutton (London),1,2,0,5,Sutton (London)
+R00956,,,Purley,Tattenham Corner,1,74,0,8,Tattenham Corner
+R00957,,,Shepperton,Queenstown Road (Battersea),1,2,0,12,Queenstown Road (Battersea)
+R00958,,,Farnham,Guildford,1,70,0,5,Guildford
+R00959,,,Guildford,Farnham,1,70,0,5,Farnham
+R00960,,,Ardgay,Inverness,1,4,0,10,Inverness
+R00961,,,Earlsfield,Hampton Court,1,72,0,6,Hampton Court
+R00962,,,Hampton Court,Earlsfield,2,74,1,5,Raynes Park
+R00963,,,Chinley,Manchester Piccadilly,1,2,0,12,Manchester Piccadilly
+R00964,,,Manchester Piccadilly,London Euston,3,4,2,5,Chelford
+R00965,,,Streatham Hill,XSU,1,2,0,6,XSU
+R00966,,,Nottingham,Bournemouth,1,2,0,39,Bournemouth
+R00967,,,Chichester,Brighton,1,24,0,19,Brighton
+R00968,,,Brighton,Bedford,24,112,23,5,XKM
+R00969,,,Brighton,Chichester,9,50,8,11,West Worthing
+R00970,,,Cambridge,Brighton,5,63,4,10,Stevenage
+R00971,,,Kentish Town,Orpington,4,22,3,5,London Blackfriars
+R00972,,,Bedford,Brighton,10,130,9,6,Luton
+R00973,,,Leicester,Birmingham New Street,1,10,0,10,Birmingham New Street
+R00974,,,Leicester,Birmingham New Street,2,26,1,11,Birmingham New Street
+R00975,,,Birmingham New Street,Paignton,5,8,4,5,Kings Norton
+R00976,,,Manchester Piccadilly,Hadfield,1,42,0,11,Hadfield
+R00977,,,Derby,Cardiff Central,2,4,1,10,Five Ways
+R00978,,,Leigh-on-Sea,London Fenchurch Street,2,10,1,5,Laindon
+R00979,,,Watford Junction,East Croydon,3,38,2,10,Imperial Wharf
+R00980,,,Wandsworth Town,Addlestone,1,2,0,16,Addlestone
+R00981,,,Gerrards Cross,London Marylebone,1,2,0,7,London Marylebone
+R00982,,,High Wycombe,London Marylebone,2,4,1,6,South Ruislip
+R00983,,,Newcastle,Nunthorpe,4,32,3,12,Middlesbrough
+R00984,,,Newbury,London Paddington,2,19,1,5,Reading
+R00985,,,Portsmouth Harbour,Cardiff Central,5,32,4,5,Fareham
+R00986,,,Surbiton,Earlsfield,1,1,0,4,Earlsfield
+R00987,,,Kingston,Queenstown Road (Battersea),1,2,0,13,Queenstown Road (Battersea)
+R00988,,,Dalmuir,Larkhall,2,70,1,8,Partick
+R00989,,,Birmingham New Street,Reading,1,4,0,16,Reading
+R00990,,,Eastbourne,Ore,3,4,2,8,Hastings
+R00991,,,York,Reading,1,4,0,31,Reading
+R00992,,,Derby,Nottingham,2,5,1,7,Nottingham
+R00993,,,Hertford North,Moorgate,3,31,2,11,Alexandra Palace
+R00994,,,Cambridge,Stansted Airport,1,8,0,5,Stansted Airport
+R00995,,,Manchester Piccadilly,Hadfield,2,28,1,10,Dinting
+R00996,,,Basingstoke,New Malden,1,2,0,6,New Malden
+R00997,,,Raynes Park,Chessington South,1,2,0,6,Chessington South
+R00998,,,Chessington South,Earlsfield,2,71,1,6,Raynes Park
+R00999,,,Shrewsbury,Birmingham New Street,2,33,1,12,Wolverhampton
+R01000,,,Harwich International,London Liverpool Street,2,4,1,5,Marks Tey
+R01001,,,Nuneaton,Leamington Spa,1,36,0,7,Leamington Spa
+R01002,,,Birmingham International,Rugeley Trent Valley,2,32,1,6,Birmingham New Street
+R01003,,,Hunts Cross,Ormskirk,3,130,2,7,Liverpool Central
+R01004,,,Birmingham International,Rugeley Trent Valley,2,36,1,7,Birmingham New Street
+R01005,,,Ascot,Aldershot,2,74,1,6,Aldershot
+R01006,,,Aldershot,Ascot,1,70,0,6,Ascot
+R01007,,,Hadfield,Manchester Piccadilly,4,70,3,9,Guide Bridge
+R01008,,,Battersea Park,Epsom,1,1,0,11,Epsom
+R01009,,,Hove,Bognor Regis,2,2,1,10,West Worthing
+R01010,,,Imperial Wharf,Shepherds Bush,1,16,0,4,Shepherds Bush
+R01011,,,Havant,Balham,1,1,0,22,Balham
+R01012,,,Tattenham Corner,Purley,1,70,0,8,Purley
+R01013,,,Manchester Piccadilly,Stoke-On-Trent,3,38,2,8,Macclesfield
+R01014,,,Cardiff Queen Street,Cardiff Bay,1,124,0,2,Cardiff Bay
+R01015,,,Ashford International,Dover Priory,1,3,0,6,Dover Priory
+R01016,,,East Croydon,Uckfield,1,1,0,13,Uckfield
+R01017,,,Mallaig,Mallaig,1,1,0,5,Mallaig
+R01018,,,Lancaster,Barrow-In-Furness,5,18,4,6,Grange-Over-Sands
+R01019,,,Barking Riverside,Gospel Oak,1,142,0,14,Gospel Oak
+R01020,,,Haslemere,New Malden,1,16,0,10,New Malden
+R01021,,,Larkhall,Dalmuir,3,68,2,17,Hyndland
+R01022,,,KLS,HUS,1,32,0,2,HUS
+R01023,,,HUS,Kings Lynn,1,32,0,2,Kings Lynn
+R01024,,,Twickenham,Queenstown Road (Battersea),1,6,0,13,Queenstown Road (Battersea)
+R01025,,,XAD,LUB,1,234,0,2,LUB
+R01026,,,LUB,XAD,1,230,0,2,XAD
+R01027,,,Salisbury,Romsey,1,34,0,13,Romsey
+R01028,,,Dundee,Arbroath,3,10,2,5,Arbroath
+R01029,,,Sutton (London),XSU,1,2,0,15,XSU
+R01030,,,Stoke-On-Trent,Manchester Piccadilly,2,32,1,10,Stockport
+R01031,,,Stoke-On-Trent,Manchester Piccadilly,2,4,1,11,Stockport
+R01032,,,Staines,Queenstown Road (Battersea),1,2,0,14,Queenstown Road (Battersea)
+R01033,,,Blackburn,Manchester Victoria,1,2,0,9,Manchester Victoria
+R01034,,,Westbury,Bristol Temple Meads,2,6,1,9,Bristol Temple Meads
+R01035,,,Romsey,Salisbury,1,34,0,13,Salisbury
+R01036,,,Selhurst,XSU,1,4,0,11,XSU
+R01037,,,London Paddington,Heathrow Terminal 5 Rail,5,6,4,5,Hayes & Harlington
+R01038,,,Heathrow Terminal 5 Rail,Shenfield,3,65,2,6,Ealing Broadway
+R01039,,,Brighton,Portsmouth Harbour,1,1,0,29,Portsmouth Harbour
+R01040,,,Wigan Wallgate,Manchester Victoria,2,4,1,6,Walkden
+R01041,,,Tonbridge,Strood,1,1,0,12,Strood
+R01042,,,Horsham,Battersea Park,2,34,1,17,Balham
+R01043,,,Barnham,Portsmouth Harbour,1,2,0,7,Portsmouth Harbour
+R01044,,,Brighton,Lewes,1,1,0,3,Lewes
+R01045,,,Chichester,Littlehampton,1,12,0,4,Littlehampton
+R01046,,,Eastleigh,Portsmouth Harbour,1,6,0,10,Portsmouth Harbour
+R01047,,,Llandudno,Liverpool Lime Street,3,30,2,10,Chester
+R01048,,,Woking,Portsmouth Harbour,1,2,0,20,Portsmouth Harbour
+R01049,,,Littlehampton,Chichester,1,10,0,4,Chichester
+R01050,,,Staines,Windsor & Eton Riverside,1,2,0,5,Windsor & Eton Riverside
+R01051,,,Staines,Queenstown Road (Battersea),2,4,1,7,Richmond
+R01052,,,Twickenham,Windsor & Eton Riverside,1,2,0,9,Windsor & Eton Riverside
+R01053,,,Manchester Victoria,Wigan Wallgate,5,38,4,10,Hindley
+R01054,,,Birmingham New Street,Liverpool Lime Street,5,68,4,6,Wolverhampton
+R01055,,,Wolverhampton,London Euston,1,7,0,24,London Euston
+R01056,,,Oxford,London Paddington,3,9,2,6,Maidenhead
+R01057,,,Bedwyn,Reading,3,5,2,6,Theale
+R01058,,,PBN,SPX,1,36,0,16,SPX
+R01059,,,Liverpool Lime Street,Warrington Central,9,64,8,6,Hunts Cross
+R01060,,,York,Selby,1,4,0,2,Selby
+R01061,,,Liverpool Lime Street,Manchester Victoria,4,41,3,5,Rainhill
+R01062,,,Machynlleth,Aberystwyth,1,6,0,6,Aberystwyth
+R01063,,,Chester,Cardiff Central,4,7,3,6,Shrewsbury
+R01064,,,Hounslow,Queenstown Road (Battersea),1,2,0,11,Queenstown Road (Battersea)
+R01065,,,TBT,UIG,1,1,0,4,UIG
+R01066,,,Yeovil Pen Mill,Yeovil Junction,1,4,0,2,Yeovil Junction
+R01067,,,Bournemouth,Weymouth,1,6,0,12,Weymouth
+R01068,,,Fareham,New Malden,1,2,0,19,New Malden
+R01069,,,Poole,Bournemouth,1,22,0,4,Bournemouth
+R01070,,,Portsmouth & Southsea,New Malden,3,10,2,5,Havant
+R01071,,,WJH,Kew Gardens,1,4,0,5,Kew Gardens
+R01072,,,Bournemouth,Poole,1,15,0,4,Poole
+R01073,,,Manchester Airport,Sheffield,1,1,0,12,Sheffield
+R01074,,,Milton Keynes Central,London Euston,1,2,0,16,London Euston
+R01075,,,Manchester Piccadilly,Rose Hill Marple,1,20,0,9,Rose Hill Marple
+R01076,,,London St Pancras International,Sheffield,4,5,3,19,Kettering
+R01077,,,Glasgow Central,Manchester Airport,4,4,3,12,XOU
+R01078,,,Stafford,Crewe,1,36,0,7,Crewe
+R01079,,,Southampton Central,New Malden,1,2,0,21,New Malden
+R01080,,,Fareham,New Malden,1,4,0,13,New Malden
+R01081,,,Manchester Piccadilly,Rose Hill Marple,1,2,0,9,Rose Hill Marple
+R01082,,,New Mills Central,Manchester Piccadilly,1,36,0,11,Manchester Piccadilly
+R01083,,,Fareham,New Malden,1,2,0,14,New Malden
+R01084,,,Havant,New Malden,1,2,0,12,New Malden
+R01085,,,Manchester Piccadilly,New Mills Central,1,2,0,12,New Mills Central
+R01086,,,Wigan North Western,Manchester Victoria,1,12,0,4,Manchester Victoria
+R01087,,,Sheffield,Manchester Airport,1,1,0,12,Manchester Airport
+R01088,,,Manchester Airport,Manchester Piccadilly,1,4,0,3,Manchester Piccadilly
+R01089,,,SPX,PBN,3,58,2,15,XXX
+R01090,,,Margate,Ashford International,3,39,2,10,Ashford International
+R01091,,,Manchester Victoria,Southport,1,2,0,18,Southport
+R01092,,,Camden Road,Stratford (London),1,2,0,10,Stratford (London)
+R01093,,,WJL,Stratford (London),1,2,0,20,Stratford (London)
+R01094,,,Southend Central,London Fenchurch Street,3,51,2,6,Pitsea
+R01095,,,West Brompton,Shalford,1,1,0,15,Shalford
+R01096,,,Pitsea,London Fenchurch Street,3,30,2,5,Grays
+R01097,,,XVJ,Bath Spa,2,2,1,11,Woking
+R01098,,,Bradford Forster Square,Skipton,2,56,1,10,Skipton
+R01099,,,Folkestone West,XVJ,1,2,0,18,XVJ
+R01100,,,XVJ,Maidstone West,1,1,0,17,Maidstone West
+R01101,,,Lairg,Inverness,1,2,0,13,Inverness
+R01102,,,Birmingham New Street,Birmingham International,3,5,2,6,Birmingham International
+R01103,,,Bath Spa,Barnes,1,1,0,18,Barnes
+R01104,,,Haywards Heath,Lewes,1,1,0,4,Lewes
+R01105,,,WJH,Imperial Wharf,1,10,0,6,Imperial Wharf
+R01106,,,Birmingham New Street,Cardiff Central,1,1,0,21,Cardiff Central
+R01107,,,Newcastle,Carlisle,5,28,4,5,Prudhoe
+R01108,,,West Malling,East Malling,1,2,0,2,East Malling
+R01109,,,Rhoose Cardiff Airport,XCF,1,36,0,2,XCF
+R01110,,,ZUM,ZUM,6,212,5,7,ZTU
+R01111,,,Newcastle,Hexham,5,28,4,6,Prudhoe
+R01112,,,Swanley,Bickley,1,2,0,3,Bickley
+R01113,,,Chester,Chester,1,4,0,1,Chester
+R01114,,,Carlisle,Middlesbrough,8,44,7,8,Hexham
+R01115,,,Chester,Crewe,1,9,0,2,Crewe
+R01116,,,Crystal Palace,XSU,1,4,0,9,XSU
+R01117,,,Eastbourne,Ashford International,2,31,1,12,Three Oaks
+R01118,,,Hexham,Newcastle,4,28,3,8,Metrocentre
+R01119,,,Shrewsbury,Stafford,1,2,0,7,Stafford
+R01120,,,XCF,Rhoose Cardiff Airport,1,36,0,2,Rhoose Cardiff Airport
+R01121,,,ZTH,ZUM,2,17,1,7,ZTU
+R01122,,,Wellingborough,Bedford,1,2,0,2,Bedford
+R01123,,,Crewe,Cardiff Central,1,1,0,16,Cardiff Central
+R01124,,,Swansea,Cardiff Central,1,1,0,8,Cardiff Central
+R01125,,,Leeds,Carlisle,5,26,4,7,Hellifield
+R01126,,,Ayr,Girvan,1,6,0,3,Girvan
+R01127,,,Glasgow Central,Edinburgh Waverley,1,8,0,10,Edinburgh Waverley
+R01128,,,Edinburgh Waverley,Glasgow Central,2,8,1,8,Motherwell
+R01129,,,Edinburgh Waverley,Inverness,5,11,4,7,Dunblane
+R01130,,,Aberdeen,Inverness,1,18,0,12,Inverness
+R01131,,,Wilmslow,Manchester Piccadilly,1,1,0,7,Manchester Piccadilly
+R01132,,,Elgin,Inverness,1,12,0,5,Inverness
+R01133,,,Knutsford,Manchester Piccadilly,1,1,0,8,Manchester Piccadilly
+R01134,,,Eastbourne,Ashford International,1,2,0,18,Ashford International
+R01135,,,Stockport,Manchester Piccadilly,1,1,0,4,Manchester Piccadilly
+R01136,,,Whifflet,Dalmuir,2,28,1,15,Hyndland
+R01137,,,Motherwell,Dalmuir,2,36,1,16,Hyndland
+R01138,,,Glasgow Queen Street,Oban,2,10,1,14,Loch Awe
+R01139,,,Oban,Glasgow Queen Street,2,8,1,8,Crianlarich
+R01140,,,Crianlarich,Mallaig,1,6,0,19,Mallaig
+R01141,,,Fort William,Mallaig,1,2,0,11,Mallaig
+R01142,,,Montrose,Aberdeen,2,20,1,5,Aberdeen
+R01143,,,Edinburgh Waverley,Carstairs,1,3,0,4,Carstairs
+R01144,,,Twickenham,Teddington,1,2,0,3,Teddington
+R01145,,,Lanark,Glasgow Central,3,72,2,5,Motherwell
+R01146,,,Havant,Fratton,1,2,0,4,Fratton
+R01147,,,Woking,Surbiton,1,2,0,2,Surbiton
+R01148,,,Birmingham New Street,Four Oaks,1,2,0,9,Four Oaks
+R01149,,,Edinburgh Waverley,Dunbar,1,10,0,7,Dunbar
+R01150,,,Ardrossan South Beach,Glasgow Central,2,6,1,11,Paisley Gilmour Street
+R01151,,,Bristol Temple Meads,London Paddington,2,40,1,9,Maidenhead
+R01152,,,Cowdenbeath,Edinburgh Waverley,2,28,1,5,Inverkeithing
+R01153,,,Coventry,Birmingham New Street,1,1,0,9,Birmingham New Street
+R01154,,,Headbolt Lane,Manchester Victoria,1,28,0,15,Manchester Victoria
+R01155,,,Bathgate,Milngavie,2,6,1,9,Shettleston
+R01156,,,Wick,Inverness,3,8,2,11,Brora
+R01157,,,Inverness,Kyle of Lochalsh,7,23,6,5,Dingwall
+R01158,,,Bromsgrove,Four Oaks,4,70,3,10,Birmingham New Street
+R01159,,,Inverness,Wick,1,2,0,25,Wick
+R01160,,,Kyle of Lochalsh,Inverness,1,8,0,17,Inverness
+R01161,,,Manchester Victoria,Headbolt Lane,5,34,4,6,Atherton
+R01162,,,HNY,SGQ,1,2,0,5,SGQ
+R01163,,,Balham,Battersea Park,1,2,0,3,Battersea Park
+R01164,,,Twyford,Twyford,1,54,0,7,Twyford
+R01165,,,Leeds,Hebden Bridge,1,30,0,9,Hebden Bridge
+R01166,,,Arbroath,Dundee,1,10,0,5,Dundee
+R01167,,,Wigan Wallgate,Manchester Victoria,1,34,0,12,Manchester Victoria
+R01168,,,Hastings,Balham,8,12,7,6,Cooden Beach
+R01169,,,Doncaster,Edinburgh Waverley,1,4,0,15,Edinburgh Waverley
+R01170,,,Leeds,Bradford Interchange,5,38,4,5,Dewsbury
+R01171,,,Horsham,Peterborough,8,51,7,6,Gatwick Airport
+R01172,,,Hebden Bridge,Leeds,1,2,0,7,Leeds
+R01173,,,Balloch Central,Airdrie,4,66,3,9,Dalmuir
+R01174,,,Kilmarnock,Glasgow Central,2,48,1,5,Barrhead
+R01175,,,Auchinleck,Glasgow Central,1,2,0,7,Glasgow Central
+R01176,,,Motherwell,Edinburgh Waverley,1,2,0,19,Edinburgh Waverley
+R01177,,,Glasgow Central,Kilmarnock,2,60,1,7,Barrhead
+R01178,,,Wigan North Western,Manchester Victoria,1,2,0,12,Manchester Victoria
+R01179,,,EDA,Haymarket,1,261,0,2,Haymarket
+R01180,,,Three Bridges,Bedford,10,65,9,6,Redhill
+R01181,,,Rugby,Northampton,1,2,0,3,Northampton
+R01182,,,SCN,HNY,1,2,0,5,HNY
+R01183,,,Rochdale,Manchester Victoria,1,68,0,5,Manchester Victoria
+R01184,,,Heathrow Terminal 5 Rail,Shenfield,2,14,1,14,WHX
+R01185,,,Perth,Inverurie,1,2,0,13,Inverurie
+R01186,,,Girvan,Kilmarnock,1,8,0,7,Kilmarnock
+R01187,,,Gatwick Airport,Redhill,5,17,4,5,Redhill
+R01188,,,Stratford-upon-Avon,Worcester Foregate Street,1,6,0,27,Worcester Foregate Street
+R01189,,,Fort William,Fort William,1,12,0,1,Fort William
+R01190,,,Fort William,Mallaig,1,4,0,4,Mallaig
+R01191,,,Mallaig,Fort William,1,4,0,3,Fort William
+R01192,,,Ayr,Kilmarnock,1,6,0,5,Kilmarnock
+R01193,,,Mallaig,Mallaig,1,4,0,2,Mallaig
+R01194,,,Carstairs,Glasgow Central,2,4,1,5,Motherwell
+R01195,,,Selby,Leeds,1,2,0,6,Leeds
+R01196,,,Manchester Victoria,Rochdale,1,68,0,5,Rochdale
+R01197,,,Derby,Nottingham,1,1,0,5,Nottingham
+R01198,,,Liverpool Lime Street,Birmingham New Street,3,28,2,7,Acton Bridge
+R01199,,,Anderston,Carstairs,1,2,0,9,Carstairs
+R01200,,,Cardiff Bay,Cardiff Queen Street,1,122,0,2,Cardiff Queen Street
+R01201,,,Glasgow Central,Edinburgh Waverley,2,4,1,6,Carstairs
+R01202,,,Dunbar,Edinburgh Waverley,1,12,0,7,Edinburgh Waverley
+R01203,,,London Liverpool Street,Stansted Airport,21,307,20,5,Tottenham Hale
+R01204,,,Glasgow Central,Ayr,3,10,2,7,Kilwinning
+R01205,,,Ardrossan Harbour,Glasgow Central,2,32,1,9,Lochwinnoch
+R01206,,,Treherbert,Cardiff Central,1,64,0,19,Cardiff Central
+R01207,,,Crewe,Lincoln Central,9,32,8,8,Tutbury & Hatton
+R01208,,,Glasgow Central,Ardrossan Harbour,1,2,0,13,Ardrossan Harbour
+R01209,,,Ardrossan Harbour,Glasgow Central,1,2,0,10,Glasgow Central
+R01210,,,Cambridge North,London Liverpool Street,5,34,4,12,Bishops Stortford
+R01211,,,Gourock,Glasgow Central,1,2,0,8,Glasgow Central
+R01212,,,Glasgow Central,Ayr,1,66,0,13,Ayr
+R01213,,,Ayr,Glasgow Central,4,76,3,9,Dalry
+R01214,,,Avonmouth,Severn Beach,1,2,0,3,Severn Beach
+R01215,,,Carlisle,Dumfries,2,32,1,5,Dumfries
+R01216,,,Manchester Victoria,Rochdale,1,72,0,2,Rochdale
+R01217,,,Taunton,London Paddington,2,4,1,9,Bristol Temple Meads
+R01218,,,Berrylands,New Malden,1,72,0,2,New Malden
+R01219,,,New Malden,Berrylands,1,73,0,2,Berrylands
+R01220,,,Great Malvern,Birmingham New Street,3,6,2,9,Longbridge
+R01221,,,Shotts,Edinburgh Waverley,1,2,0,14,Edinburgh Waverley
+R01222,,,Great Malvern,London Paddington,4,20,3,5,Worcester Shrub Hill
+R01223,,,Worcester Foregate Street,Birmingham New Street,1,2,0,11,Birmingham New Street
+R01224,,,New Malden,Basingstoke,2,4,1,7,Brookwood
+R01225,,,Birmingham New Street,Four Oaks,3,7,2,10,Four Oaks
+R01226,,,New Malden,Basingstoke,1,9,0,13,Basingstoke
+R01227,,,Glasgow Central,Gourock,1,2,0,12,Gourock
+R01228,,,SAO,Leuchars,1,226,0,2,Leuchars
+R01229,,,Glasgow Central,Gourock,1,2,0,8,Gourock
+R01230,,,EDA,Inverkeithing,1,96,0,2,Inverkeithing
+R01231,,,Worcester Shrub Hill,Birmingham New Street,1,4,0,11,Birmingham New Street
+R01232,,,Cardiff Central,Coryton,1,2,0,8,Coryton
+R01233,,,Rochdale,Manchester Victoria,1,76,0,2,Manchester Victoria
+R01234,,,St Albans Abbey,Watford Junction,1,44,0,7,Watford Junction
+R01235,,,Exeter St Davids,London Paddington,1,4,0,16,London Paddington
+R01236,,,Worcester Shrub Hill,Hereford,1,4,0,9,Hereford
+R01237,,,Newquay,London Paddington,2,4,1,18,Castle Cary
+R01238,,,Bristol Parkway,Carmarthen,1,2,0,18,Carmarthen
+R01239,,,Gatwick Airport,Bedford,1,4,0,27,Bedford
+R01240,,,Horley,Redhill,1,1,0,4,Redhill
+R01241,,,Bedford,Brighton,19,29,18,5,Luton
+R01242,,,Corkickle,Barrow-In-Furness,4,10,3,6,Seascale
+R01243,,,Inverkeithing,EDA,1,94,0,2,EDA
+R01244,,,Edinburgh Waverley,Leven,6,41,5,7,Inverkeithing
+R01245,,,Glasgow Central,Ayr,1,2,0,10,Ayr
+R01246,,,Cardiff Central,Portsmouth Harbour,14,86,13,5,Patchway
+R01247,,,Birmingham New Street,Liverpool Lime Street,2,20,1,11,Winsford
+R01248,,,Nantwich,BIB,1,1,0,14,BIB
+R01249,,,Heathrow Terminal 5 Rail,London Paddington,1,147,0,4,London Paddington
+R01250,,,Berrylands,Surbiton,1,72,0,2,Surbiton
+R01251,,,Crewe,Liverpool Lime Street,2,2,1,7,ALE
+R01252,,,XSU,East Grinstead,1,1,0,20,East Grinstead
+R01253,,,Teddington,Earlsfield,1,4,0,7,Earlsfield
+R01254,,,Ayr,Glasgow Central,2,4,1,7,Dalry
+R01255,,,Glasgow Central,Ayr,1,2,0,16,Ayr
+R01256,,,Birmingham New Street,Liverpool Lime Street,1,4,0,19,Liverpool Lime Street
+R01257,,,SPL,East Grinstead,2,2,1,7,New Cross Gate
+R01258,,,Edinburgh Waverley,Dundee,1,2,0,13,Dundee
+R01259,,,Birmingham New Street,Wolverhampton,3,8,2,10,Wolverhampton
+R01260,,,Dundee,Edinburgh Waverley,2,4,1,8,Burntisland
+R01261,,,Shrewsbury,Aberystwyth,1,8,0,10,Aberystwyth
+R01262,,,Luton,Gatwick Airport,3,8,2,23,Earlswood (Surrey)
+R01263,,,Oxford,London Paddington,1,26,0,8,London Paddington
+R01264,,,Bedford,Three Bridges,4,7,3,20,South Croydon
+R01265,,,Cardiff Central,Manchester Piccadilly,2,12,1,8,Craven Arms
+R01266,,,Swansea,Milford Haven,5,13,4,6,Ferryside
+R01267,,,Rugby,London Euston,1,2,0,14,London Euston
+R01268,,,Stansted Airport,Norwich,3,24,2,6,Cambridge
+R01269,,,Southend Victoria,London Liverpool Street,1,2,0,11,London Liverpool Street
+R01270,,,Edinburgh Waverley,Glasgow Central,5,26,4,5,West Calder
+R01271,,,Perth,Edinburgh Waverley,1,2,0,10,Edinburgh Waverley
+R01272,,,Haywards Heath,Bedford,2,4,1,7,Redhill
+R01273,,,Perth,Edinburgh Waverley,1,1,0,11,Edinburgh Waverley
+R01274,,,Carlisle,Leeds,4,14,3,7,Garsdale
+R01275,,,Wolverhampton,Walsall,1,2,0,16,Walsall
+R01276,,,Milton Keynes Central,Northampton,1,2,0,4,Northampton
+R01277,,,Leuchars,SAO,1,228,0,2,SAO
+R01278,,,Battersea Park,East Grinstead,1,1,0,15,East Grinstead
+R01279,,,Tring,London Euston,1,2,0,7,London Euston
+R01280,,,Birmingham New Street,Coventry,3,10,2,7,Birmingham International
+R01281,,,Stirling,London Euston,2,4,1,6,Whifflet
+R01282,,,Preston,Ormskirk,1,34,0,5,Ormskirk
+R01283,,,Sevenoaks,London Blackfriars,6,74,5,13,Shortlands
+R01284,,,XOA,Longbeck,1,1,0,18,Longbeck
+R01285,,,Stockport,Hazel Grove,1,2,0,4,Hazel Grove
+R01286,,,London Liverpool Street,Enfield Town,8,183,7,5,Hackney Downs
+R01287,,,RDZ,Gatwick Airport,2,18,1,12,Dorking Deepdene
+R01288,,,Norwich,Lowestoft,3,32,2,5,Reedham (Norfolk)
+R01289,,,Norwich,Sheringham,1,2,0,7,Sheringham
+R01290,,,RDZ,Gatwick Airport,1,2,0,21,Gatwick Airport
+R01291,,,RDZ,Gatwick Airport,1,2,0,19,Gatwick Airport
+R01292,,,Sheffield,Nottingham,1,6,0,7,Nottingham
+R01293,,,Glasgow Central,Wemyss Bay,1,8,0,9,Wemyss Bay
+R01294,,,Inverness Airport,INB,1,52,0,2,INB
+R01295,,,Oban,Dalmally,4,6,3,5,Dalmally
+R01296,,,AMS,SPX,1,10,0,18,SPX
+R01297,,,Mallaig,Glasgow Queen Street,3,8,2,11,Fort William
+R01298,,,Worcester Foregate Street,London Paddington,3,6,2,8,Kingham
+R01299,,,Didcot Parkway,London Paddington,1,2,0,8,London Paddington
+R01300,,,Bradford Forster Square,Shipley,1,6,0,3,Shipley
+R01301,,,Brighouse,Leeds,1,2,0,7,Leeds
+R01302,,,INB,Inverness Airport,1,48,0,2,Inverness Airport
+R01303,,,Glasgow Central,Edinburgh Waverley,1,2,0,15,Edinburgh Waverley
+R01304,,,Dumfries,Carlisle,1,20,0,5,Carlisle
+R01305,,,Whitby,Middlesbrough,2,12,1,18,Middlesbrough
+R01306,,,Barrhead,Glasgow Central,1,26,0,7,Glasgow Central
+R01307,,,Holyhead,London Euston,7,18,6,13,Chester
+R01308,,,Aylesbury,London Marylebone,1,26,0,11,London Marylebone
+R01309,,,Haymarket,EDA,1,257,0,2,EDA
+R01310,,,Longbridge,LIF,1,2,0,22,LIF
+R01311,,,Royston,London Kings Cross,1,2,0,17,London Kings Cross
+R01312,,,Ipswich,Peterborough,1,12,0,11,Peterborough
+R01313,,,Gordon Hill,Moorgate,1,2,0,13,Moorgate
+R01314,,,Inverurie,Aberdeen,1,28,0,4,Aberdeen
+R01315,,,Huntly,Aberdeen,1,2,0,6,Aberdeen
+R01316,,,Aberdeen,Inverurie,1,30,0,4,Inverurie
+R01317,,,Exeter St Davids,Barnstaple,1,2,0,5,Barnstaple
+R01318,,,Finsbury Park,Moorgate,1,12,0,6,Moorgate
+R01319,,,Gloucester,Westbury,7,28,6,5,Bristol Temple Meads
+R01320,,,Colne,Preston,1,36,0,19,Preston
+R01321,,,Blackpool South,Preston,2,38,1,8,Kirkham & Wesham
+R01322,,,Buxton,Manchester Piccadilly,3,26,2,6,Disley
+R01323,,,Alexandra Palace,Moorgate,1,4,0,8,Moorgate
+R01324,,,Motherwell,Carstairs,1,2,0,5,Carstairs
+R01325,,,Plymouth,Penzance,2,6,1,9,Liskeard
+R01326,,,ZUM,Kew Gardens,1,4,0,4,Kew Gardens
+R01327,,,Inverurie,Montrose,1,12,0,8,Montrose
+R01328,,,Canterbury West,XSI,1,1,0,3,XSI
+R01329,,,Bristol Temple Meads,Exeter St Davids,1,2,0,8,Exeter St Davids
+R01330,,,XSI,Canterbury West,1,1,0,3,Canterbury West
+R01331,,,Bristol Temple Meads,Exeter St Davids,1,2,0,7,Exeter St Davids
+R01332,,,Bristol Temple Meads,Exeter St Davids,2,6,1,11,Taunton
+R01333,,,Canterbury West,XVJ,1,1,0,27,XVJ
+R01334,,,Gloucester,Bristol Temple Meads,2,10,1,6,Bristol Temple Meads
+R01335,,,XYA,Spondon,2,2,1,5,XWH
+R01336,,,FKE,Folkestone West,1,1,0,3,Folkestone West
+R01337,,,Folkestone West,FKE,1,1,0,6,FKE
+R01338,,,Dartford,Gillingham (Kent),2,9,1,13,Gillingham (Kent)
+R01339,,,ZKB,ZUM,1,10,0,8,ZUM
+R01340,,,Ipswich,Norwich,1,2,0,4,Norwich
+R01341,,,ZDE,ZUM,1,12,0,8,ZUM
+R01342,,,BXS,SPX,1,11,0,16,SPX
+R01343,,,Glasgow Central,Lanark,1,2,0,8,Lanark
+R01344,,,Filton Abbey Wood,Bristol Temple Meads,1,28,0,5,Bristol Temple Meads
+R01345,,,Southport,Liverpool Central,1,144,0,17,Liverpool Central
+R01346,,,Bristol Temple Meads,Filton Abbey Wood,1,26,0,5,Filton Abbey Wood
+R01347,,,Oban,Oban,1,1,0,4,Oban
+R01348,,,Cambridge,Stansted Airport,6,16,5,5,Audley End
+R01349,,,Harwich International,Lowestoft,1,2,0,14,Lowestoft
+R01350,,,Colchester,Colchester Town,1,34,0,2,Colchester Town
+R01351,,,Walton-On-The-Naze,Colchester,1,32,0,11,Colchester
+R01352,,,Colchester,Walton-On-The-Naze,1,34,0,11,Walton-On-The-Naze
+R01353,,,Warrington Central,Liverpool Lime Street,1,30,0,11,Liverpool Lime Street
+R01354,,,London Fenchurch Street,Shoeburyness,5,86,4,5,Laindon
+R01355,,,Selby,Hull,1,1,0,7,Hull
+R01356,,,Bishops Stortford,Cambridge,1,2,0,11,Cambridge
+R01357,,,Peterborough,Ipswich,2,16,1,11,Ipswich
+R01358,,,Bury St Edmunds,Ipswich,1,4,0,6,Ipswich
+R01359,,,Harwich International,Cambridge,1,2,0,13,Cambridge
+R01360,,,Manchester Victoria,Wigan North Western,1,12,0,4,Wigan North Western
+R01361,,,Bristol Temple Meads,Avonmouth,2,42,1,10,Avonmouth
+R01362,,,Sheffield,Cleethorpes,1,2,0,13,Cleethorpes
+R01363,,,Brighton,Ore,5,17,4,8,Eastbourne
+R01364,,,Aberdare,Merthyr Tydfil,3,68,2,11,Radyr
+R01365,,,Alderley Edge,Manchester Piccadilly,1,30,0,8,Manchester Piccadilly
+R01366,,,Nottingham,Worksop,4,36,3,8,Mansfield Woodhouse
+R01367,,,Wandsworth Common,Worthing,2,2,1,15,Three Bridges
+R01368,,,Dumfries,Glasgow Central,1,2,0,11,Glasgow Central
+R01369,,,Motherwell,Lanark,1,6,0,5,Lanark
+R01370,,,CFC,Wareham,1,1,0,3,Wareham
+R01371,,,Wareham,SGE,1,3,0,6,SGE
+R01372,,,SGE,Wareham,1,3,0,6,Wareham
+R01373,,,Newbury,Reading,2,40,1,8,Reading
+R01374,,,London Paddington,Heathrow Terminal 5 Rail,3,4,2,6,Hayes & Harlington
+R01375,,,Wareham,CFC,1,1,0,3,CFC
+R01376,,,Avonmouth,Weston-Super-Mare,2,24,1,10,Bristol Temple Meads
+R01377,,,PAQ,SHQ,1,107,0,15,SHQ
+R01378,,,Nunthorpe,Carlisle,1,2,0,21,Carlisle
+R01379,,,Clifton Down,Bristol Temple Meads,1,2,0,6,Bristol Temple Meads
+R01380,,,Macclesfield,Manchester Piccadilly,1,2,0,8,Manchester Piccadilly
+R01381,,,London Paddington,Heathrow Terminal 5 Rail,4,17,3,7,Hayes & Harlington
+R01382,,,Stansted Airport,London Liverpool Street,1,6,0,13,London Liverpool Street
+R01383,,,Hertford North,Letchworth Garden City,1,4,0,5,Letchworth Garden City
+R01384,,,Finsbury Park,Hertford North,1,3,0,12,Hertford North
+R01385,,,Epsom,Battersea Park,1,2,0,7,Battersea Park
+R01386,,,Alexandra Palace,Stevenage,1,6,0,7,Stevenage
+R01387,,,Balham,Epsom,1,2,0,6,Epsom
+R01388,,,York,Manchester Airport,5,7,4,5,Leeds
+R01389,,,Oxford,Didcot Parkway,1,14,0,5,Didcot Parkway
+R01390,,,Lewes,Eastbourne,1,2,0,4,Eastbourne
+R01391,,,Dorking,Battersea Park,1,26,0,12,Battersea Park
+R01392,,,Didcot Parkway,Oxford,1,16,0,4,Oxford
+R01393,,,Haywards Heath,Lewes,1,2,0,2,Lewes
+R01394,,,Oxted,East Grinstead,1,2,0,5,East Grinstead
+R01395,,,Holyhead,DFP,1,5,0,2,DFP
+R01396,,,Scunthorpe,Doncaster,2,16,1,7,Doncaster
+R01397,,,Oxford,Didcot Parkway,1,16,0,4,Didcot Parkway
+R01398,,,Hull,York,2,3,1,5,Howden
+R01399,,,Norwood Junction,XSU,1,8,0,10,XSU
+R01400,,,York,Bridlington,1,4,0,15,Bridlington
+R01401,,,ARA,Mallaig,1,5,0,2,Mallaig
+R01402,,,London Fenchurch Street,Shoeburyness,3,7,2,5,Upminster
+R01403,,,Nottingham,Newark Castle,3,6,2,7,Fiskerton
+R01404,,,York,Bridlington,3,7,2,6,Hull
+R01405,,,Hertford East,London Liverpool Street,7,84,6,6,Cheshunt
+R01406,,,Lincoln Central,Grimsby Town,3,4,2,5,Stallingborough
+R01407,,,Hull,Bridlington,2,7,1,7,Bridlington
+R01408,,,Bridlington,Hull,1,4,0,5,Hull
+R01409,,,Hull,Bridlington,1,1,0,5,Bridlington
+R01410,,,Aylesbury Vale Parkway,London Marylebone,1,40,0,12,London Marylebone
+R01411,,,Sheffield,York,1,4,0,10,York
+R01412,,,Ambergate,Cleethorpes,1,2,0,26,Cleethorpes
+R01413,,,XFB,Stafford,1,2,0,21,Stafford
+R01414,,,Salisbury,Worcester Foregate Street,1,2,0,16,Worcester Foregate Street
+R01415,,,Epsom,Battersea Park,1,4,0,9,Battersea Park
+R01416,,,Reading,London Paddington,7,93,6,6,Slough
+R01417,,,Penzance,Newquay,1,2,0,13,Newquay
+R01418,,,Newquay,Par,1,4,0,7,Par
+R01419,,,Bognor Regis,Brighton,2,7,1,5,XXA
+R01420,,,Par,Newquay,1,4,0,7,Newquay
+R01421,,,Newquay,Par,1,14,0,4,Par
+R01422,,,Par,Newquay,1,12,0,6,Newquay
+R01423,,,Newquay,Par,1,12,0,6,Par
+R01424,,,Par,Newquay,1,12,0,4,Newquay
+R01425,,,Lincoln Central,Matlock,6,20,5,6,Newark Castle
+R01426,,,Lincoln Central,Crewe,1,6,0,25,Crewe
+R01427,,,Lincoln Central,Crewe,1,6,0,24,Crewe
+R01428,,,Newark Castle,Crewe,1,4,0,23,Crewe
+R01429,,,Barton-On-Humber,Cleethorpes,2,16,1,11,Grimsby Town
+R01430,,,Ormskirk,Hunts Cross,2,124,1,13,Liverpool Central
+R01431,,,PDX,Shenfield,3,298,2,6,WHX
+R01432,,,XOA,Hanwell,1,2,0,27,Hanwell
+R01433,,,Worksop,Nottingham,1,14,0,12,Nottingham
+R01434,,,Worksop,Nottingham,1,14,0,12,Nottingham
+R01435,,,Mansfield Woodhouse,Nottingham,2,8,1,6,Hucknall
+R01436,,,Worksop,Nottingham,1,6,0,13,Nottingham
+R01437,,,Watford Junction,St Albans Abbey,1,2,0,3,St Albans Abbey
+R01438,,,Sheffield,Derby,1,4,0,4,Derby
+R01439,,,Watford Junction,St Albans Abbey,1,36,0,7,St Albans Abbey
+R01440,,,Grimsby Town,Matlock,1,4,0,26,Matlock
+R01441,,,Cleethorpes,Matlock,4,12,3,10,Hykeham
+R01442,,,Birmingham New Street,LIF,1,1,0,8,LIF
+R01443,,,Bristol Temple Meads,Newquay,3,6,2,5,Weston-Super-Mare
+R01444,,,Gloucester,Salisbury,2,4,1,12,Salisbury
+R01445,,,Reading,Redhill,2,6,1,9,Ash
+R01446,,,Westbury,Weymouth,1,2,0,12,Weymouth
+R01447,,,Sheffield,London St Pancras International,2,4,1,5,Derby
+R01448,,,Liskeard,Plymouth,1,2,0,9,Plymouth
+R01449,,,Aberdeen,Aberdeen,1,6,0,1,Aberdeen
+R01450,,,Sheffield,Derby,3,4,2,5,XTR
+R01451,,,Nottingham,Mansfield Woodhouse,1,4,0,7,Mansfield Woodhouse
+R01452,,,Sheffield,Liverpool Lime Street,1,2,0,21,Liverpool Lime Street
+R01453,,,Cleethorpes,Barton-On-Humber,1,10,0,12,Barton-On-Humber
+R01454,,,Manchester Piccadilly,Glasgow Central,2,2,1,5,Wigan North Western
+R01455,,,Leicester,Sheffield,1,4,0,10,Sheffield
+R01456,,,Derby,Sheffield,1,2,0,6,Sheffield
+R01457,,,Crewe,Liverpool Lime Street,1,1,0,3,Liverpool Lime Street
+R01458,,,Henley-On-Thames,Reading,1,3,0,5,Reading
+R01459,,,Huddersfield,Brighouse,1,14,0,2,Brighouse
+R01460,,,Blackburn,Clitheroe,1,4,0,5,Clitheroe
+R01461,,,Brighouse,Huddersfield,1,14,0,2,Huddersfield
+R01462,,,Frome,Bristol Temple Meads,2,6,1,10,Bristol Temple Meads
+R01463,,,Bath Spa,Bristol Temple Meads,1,2,0,4,Bristol Temple Meads
+R01464,,,Glasgow Central,Edinburgh Waverley,2,6,1,5,Holytown
+R01465,,,Bristol Temple Meads,Cardiff Central,1,2,0,9,Cardiff Central
+R01466,,,Bromley South,Gillingham (Kent),1,2,0,9,Gillingham (Kent)
+R01467,,,Exeter St Davids,Cardiff Central,4,22,3,6,Weston-Super-Mare
+R01468,,,Derby,EMA,1,105,0,2,EMA
+R01469,,,EMA,Derby,1,109,0,2,Derby
+R01470,,,Norwich,Stansted Airport,1,2,0,17,Stansted Airport
+R01471,,,Leamington Spa,Nuneaton,1,36,0,7,Nuneaton
+R01472,,,Ely,Norwich,1,2,0,7,Norwich
+R01473,,,Par,Plymouth,1,2,0,12,Plymouth
+R01474,,,Kingussie,Dundee,1,1,0,5,Dundee
+R01475,,,Leeds,Skipton,1,14,0,11,Skipton
+R01476,,,Redhill,RDZ,3,6,2,9,Guildford
+R01477,,,Norwich,Lowestoft,1,4,0,10,Lowestoft
+R01478,,,Weymouth,Gloucester,5,17,4,9,Castle Cary
+R01479,,,Southampton Central,Bristol Temple Meads,1,2,0,16,Bristol Temple Meads
+R01480,,,Hull,Doncaster,5,16,4,6,Gilberdyke
+R01481,,,Elgin,Kyle of Lochalsh,1,2,0,3,Kyle of Lochalsh
+R01482,,,Elgin,Elgin,1,2,0,1,Elgin
+R01483,,,Beccles,Norwich,1,2,0,10,Norwich
+R01484,,,Preston,Blackpool South,1,28,0,9,Blackpool South
+R01485,,,Hull,Bridlington,2,8,1,8,Bridlington
+R01486,,,Stratford-upon-Avon,Birmingham Moor Street,1,2,0,6,Birmingham Moor Street
+R01487,,,Great Yarmouth,Norwich,1,36,0,7,Norwich
+R01488,,,Birmingham Moor Street,Stratford-upon-Avon,1,2,0,7,Stratford-upon-Avon
+R01489,,,XOH,Birmingham Moor Street,1,2,0,2,Birmingham Moor Street
+R01490,,,Birmingham Moor Street,XOH,1,2,0,2,XOH
+R01491,,,Stevenage,Hertford North,1,2,0,3,Hertford North
+R01492,,,Stevenage,Finsbury Park,2,6,1,7,Alexandra Palace
+R01493,,,Finsbury Park,Stevenage,1,1,0,8,Stevenage
+R01494,,,London Kings Cross,Cambridge,7,10,6,9,Hitchin
+R01495,,,Norwich,Great Yarmouth,1,4,0,6,Great Yarmouth
+R01496,,,Birmingham Snow Hill,Leamington Spa,1,2,0,13,Leamington Spa
+R01497,,,Birmingham New Street,Rugeley Trent Valley,2,5,1,11,Walsall
+R01498,,,Birmingham New Street,Shrewsbury,2,33,1,5,Bescot Stadium
+R01499,,,Elgin,Elgin,1,2,0,2,Elgin
+R01500,,,Maidstone East,Ashford International,1,2,0,4,Ashford International
+R01501,,,Bromley South,Ashford International,1,2,0,11,Ashford International
+R01502,,,Lewisham,Gravesend,1,4,0,12,Gravesend
+R01503,,,XVJ,Gillingham (Kent),1,1,0,29,Gillingham (Kent)
+R01504,,,Derby,Sheffield,1,3,0,3,Sheffield
+R01505,,,Petersfield,Portsmouth Harbour,1,2,0,8,Portsmouth Harbour
+R01506,,,Oxford,Worcestershire Parkway,1,2,0,9,Worcestershire Parkway
+R01507,,,Slough,Taplow,1,5,0,3,Taplow
+R01508,,,Stourbridge Junction,London Marylebone,1,2,0,30,London Marylebone
+R01509,,,Bath Spa,Frome,1,2,0,5,Frome
+R01510,,,Polegate,Hastings,2,3,1,7,Pevensey & Westham
+R01511,,,Haywards Heath,Brighton,1,1,0,7,Brighton
+R01512,,,Epsom,Horsham,1,2,0,9,Horsham
+R01513,,,Kings Sutton,London Marylebone,1,2,0,17,London Marylebone
+R01514,,,Chelmsford,Stafford,1,1,0,22,Stafford
+R01515,,,Wolverhampton,London Euston,1,2,0,23,London Euston
+R01516,,,HWX,Guildford,1,40,0,3,Guildford
+R01517,,,Welwyn Garden City,London Kings Cross,1,1,0,14,London Kings Cross
+R01518,,,Chester,Llandudno Junction,3,6,2,8,Llandudno Junction
+R01519,,,Woking,HWX,1,36,0,2,HWX
+R01520,,,HWX,Woking,1,38,0,2,Woking
+R01521,,,Battersea Park,East Grinstead,1,1,0,14,East Grinstead
+R01522,,,Walsall,London Euston,1,1,0,27,London Euston
+R01523,,,Middlesbrough,Carlisle,1,2,0,22,Carlisle
+R01524,,,SOY,ULP,1,4,0,2,ULP
+R01525,,,Sheffield,Barnsley,1,2,0,3,Barnsley
+R01526,,,Crewe,Holyhead,1,2,0,17,Holyhead
+R01527,,,Doncaster,Sheffield,1,6,0,7,Sheffield
+R01528,,,XAA,Berwick-Upon-Tweed,1,12,0,5,Berwick-Upon-Tweed
+R01529,,,Berwick-Upon-Tweed,XAA,1,12,0,5,XAA
+R01530,,,XLB,Leeds,1,53,0,2,Leeds
+R01531,,,Crewe,Wrexham General,1,34,0,3,Wrexham General
+R01532,,,Leeds,Horsforth,1,2,0,4,Horsforth
+R01533,,,Saltburn,Darlington,3,68,2,12,Darlington
+R01534,,,Bishop Auckland,Saltburn,1,32,0,16,Saltburn
+R01535,,,Banbury,Didcot Parkway,3,24,2,5,Oxford
+R01536,,,Leeds,XLB,1,57,0,2,XLB
+R01537,,,Pembroke Dock,Cardiff Central,6,19,5,11,Carmarthen
+R01538,,,Wrexham General,Bidston,1,10,0,13,Bidston
+R01539,,,Wrexham Central,Bidston,1,30,0,14,Bidston
+R01540,,,Bishops Stortford,London Liverpool Street,1,1,0,12,London Liverpool Street
+R01541,,,Bidston,Wrexham Central,2,42,1,13,Wrexham General
+R01542,,,Ormskirk,Preston,1,34,0,5,Preston
+R01543,,,Skipton,Lancaster,1,2,0,11,Lancaster
+R01544,,,Dundee,Aberdeen,1,2,0,8,Aberdeen
+R01545,,,Leeds,Morecambe,1,2,0,18,Morecambe
+R01546,,,Chester,Birmingham International,1,1,0,32,Birmingham International
+R01547,,,Ryde St Johns Road,Shanklin,1,2,0,6,Shanklin
+R01548,,,Ryde Pier Head,Shanklin,1,48,0,8,Shanklin
+R01549,,,Saltburn,Saltburn,1,1,0,1,Saltburn
+R01550,,,London Liverpool Street,Chingford,1,151,0,9,Chingford
+R01551,,,Lancaster,Leeds,3,6,2,11,Skipton
+R01552,,,Llandudno,XOA,1,1,0,15,XOA
+R01553,,,Stafford,Nottingham,2,3,1,5,Nuneaton
+R01554,,,Shrewsbury,Cardiff Central,2,3,1,11,Cardiff Central
+R01555,,,Leeds,Skipton,1,2,0,10,Skipton
+R01556,,,XVJ,Gravesend,2,73,1,14,Dartford
+R01557,,,Chingford,London Liverpool Street,2,148,1,7,Hackney Downs
+R01558,,,Warrington Central,Manchester Oxford Road,1,4,0,12,Manchester Oxford Road
+R01559,,,Warrington Central,Manchester Oxford Road,2,10,1,5,Flixton
+R01560,,,Warrington Central,Manchester Oxford Road,1,2,0,9,Manchester Oxford Road
+R01561,,,Gillingham (Kent),Dover Priory,1,2,0,16,Dover Priory
+R01562,,,Manchester Oxford Road,Liverpool Lime Street,7,24,6,5,Urmston
+R01563,,,Manchester Oxford Road,Liverpool Lime Street,1,2,0,18,Liverpool Lime Street
+R01564,,,Manchester Oxford Road,Liverpool Lime Street,3,6,2,5,Irlam
+R01565,,,Purley,XSU,1,2,0,14,XSU
+R01566,,,Manchester Oxford Road,Liverpool Lime Street,3,16,2,10,Warrington Central
+R01567,,,Acton Central,Kew Gardens,1,2,0,4,Kew Gardens
+R01568,,,SPX,Faversham,10,149,9,8,XXJ
+R01569,,,Ryde Pier Head,Ryde St Johns Road,1,2,0,3,Ryde St Johns Road
+R01570,,,Liverpool Lime Street,Manchester Oxford Road,1,2,0,19,Manchester Oxford Road
+R01571,,,Ryde St Johns Road,Ryde Pier Head,1,2,0,3,Ryde Pier Head
+R01572,,,Shanklin,Ryde Pier Head,2,50,1,6,Ryde St Johns Road
+R01573,,,Prudhoe,Newcastle,1,2,0,6,Newcastle
+R01574,,,Worksop,Sheffield,1,2,0,7,Sheffield
+R01575,,,Orpington,XVJ,2,2,1,7,Ravensbourne
+R01576,,,Doncaster,Scunthorpe,1,16,0,7,Scunthorpe
+R01577,,,Doncaster,Adwick,1,2,0,3,Adwick
+R01578,,,Sevenoaks,London Charing Cross,1,74,0,16,London Charing Cross
+R01579,,,Rutherglen,Dalmuir,1,2,0,13,Dalmuir
+R01580,,,Preston,Blackpool South,1,6,0,10,Blackpool South
+R01581,,,ABX,Heathrow Terminal 4 Rail,14,330,13,10,PDX
+R01582,,,Wemyss Bay,RTY,1,28,0,2,RTY
+R01583,,,RTY,Wemyss Bay,1,28,0,2,Wemyss Bay
+R01584,,,Largs,Largs,1,72,0,3,Largs
+R01585,,,Kidderminster,Stratford-upon-Avon,1,2,0,23,Stratford-upon-Avon
+R01586,,,Alexandra Palace,Moorgate,1,2,0,9,Moorgate
+R01587,,,Dover Priory,London Charing Cross,4,4,3,7,Ashford International
+R01588,,,Carlisle,Whitehaven,1,36,0,10,Whitehaven
+R01589,,,Whitehaven,Carlisle,1,34,0,10,Carlisle
+R01590,,,Beckenham Junction,London Blackfriars,1,10,0,9,London Blackfriars
+R01591,,,Hyndland,Springburn,4,6,3,6,Bellgrove
+R01592,,,Gravesend,XVJ,1,64,0,17,XVJ
+R01593,,,Stratford (London),Heathrow Terminal 4 Rail,1,2,0,15,Heathrow Terminal 4 Rail
+R01594,,,Lancaster,Morecambe,1,34,0,3,Morecambe
+R01595,,,Gidea Park,London Liverpool Street,3,16,2,10,Stratford (London)
+R01596,,,Letchworth Garden City,London Kings Cross,3,3,2,5,Gordon Hill
+R01597,,,Shrewsbury,Crewe,1,18,0,8,Crewe
+R01598,,,Lancaster,Heysham Port,1,2,0,4,Heysham Port
+R01599,,,Wolverhampton,Glasgow Central,2,2,1,10,Wigan North Western
+R01600,,,Three Bridges,Bedford,1,1,0,42,Bedford
+R01601,,,Dover Priory,Faversham,1,2,0,5,Faversham
+R01602,,,Llandudno Junction,Llandudno,1,28,0,3,Llandudno
+R01603,,,Wembley Central,Queens Park (London),1,104,0,6,Queens Park (London)
+R01604,,,Surbiton,Raynes Park,1,2,0,3,Raynes Park
+R01605,,,Leeds,Hull,1,3,0,8,Hull
+R01606,,,Stevenage,London Kings Cross,1,1,0,16,London Kings Cross
+R01607,,,Gillingham (Kent),Sheerness-On-Sea,1,2,0,7,Sheerness-On-Sea
+R01608,,,Leeds,Rochdale,1,2,0,12,Rochdale
+R01609,,,London Charing Cross,Hayes (Kent),1,74,0,13,Hayes (Kent)
+R01610,,,DGS,DGS,1,2,0,1,DGS
+R01611,,,Sandhills,Southport,1,2,0,15,Southport
+R01612,,,York,Leeds,1,62,0,14,Leeds
+R01613,,,York,Leeds,2,4,1,7,Leeds
+R01614,,,Beverley,Hull,1,4,0,3,Hull
+R01615,,,Margate,XVJ,1,1,0,26,XVJ
+R01616,,,Hull,Beverley,1,4,0,3,Beverley
+R01617,,,Knottingley,Leeds,1,34,0,7,Leeds
+R01618,,,SDI,SPX,1,1,0,4,SPX
+R01619,,,Manchester Oxford Road,Wigan North Western,1,2,0,12,Wigan North Western
+R01620,,,Goole,Hull,1,2,0,7,Hull
+R01621,,,Barrow-In-Furness,Manchester Airport,2,2,1,10,XOU
+R01622,,,Millom,Barrow-In-Furness,2,8,1,6,Barrow-In-Furness
+R01623,,,Leeds,Hull,1,1,0,9,Hull
+R01624,,,XSU,Caterham,1,2,0,14,Caterham
+R01625,,,Thorpe Bay,London Fenchurch Street,6,18,5,8,Pitsea
+R01626,,,Liverpool Lime Street,Blackpool North,1,2,0,18,Blackpool North
+R01627,,,XVJ,Dover Priory,1,1,0,38,Dover Priory
+R01628,,,Three Bridges,Bedford,1,3,0,33,Bedford
+R01629,,,Raynes Park,Guildford,2,3,1,6,Woking
+R01630,,,Brighton,Ore,4,12,3,5,XRH
+R01631,,,Darlington,York,1,2,0,4,York
+R01632,,,Glasgow Central,Dumbreck,1,6,0,2,Dumbreck
+R01633,,,Dumbreck,Glasgow Central,1,6,0,2,Glasgow Central
+R01634,,,Selhurst,Epsom Downs,1,2,0,10,Epsom Downs
+R01635,,,York,Darlington,1,2,0,4,Darlington
+R01636,,,Ashford International,London Cannon Street,3,6,2,7,Tonbridge
+R01637,,,Ramsgate,London Charing Cross,5,40,4,10,Ashford International
+R01638,,,SHQ,PAQ,1,98,0,15,PAQ
+R01639,,,Dover Priory,London Charing Cross,5,37,4,5,XSI
+R01640,,,Paisley Canal,Glasgow Central,1,2,0,5,Glasgow Central
+R01641,,,Glasgow Central,Paisley Canal,1,2,0,5,Paisley Canal
+R01642,,,Berrylands,Raynes Park,1,2,0,3,Raynes Park
+R01643,,,Merthyr Tydfil,Aberdare,2,66,1,15,Cardiff Central
+R01644,,,London Paddington,Reading,2,5,1,5,West Drayton
+R01645,,,Canterbury West,London Charing Cross,2,6,1,5,Ashford International
+R01646,,,Hertford North,Stevenage,1,1,0,3,Stevenage
+R01647,,,Lewes,Seaford,1,2,0,7,Seaford
+R01648,,,Polegate,Lewes,1,1,0,2,Lewes
+R01649,,,Plumpton,Lewes,1,1,0,2,Lewes
+R01650,,,Lewes,Polegate,1,1,0,3,Polegate
+R01651,,,East Croydon,Oxted,1,2,0,6,Oxted
+R01652,,,London Paddington,Reading,2,5,1,5,Hayes & Harlington
+R01653,,,London Liverpool Street,Southend Victoria,3,7,2,5,Ilford
+R01654,,,Derby,London St Pancras International,1,1,0,23,London St Pancras International
+R01655,,,XVJ,Gillingham (Kent),1,4,0,21,Gillingham (Kent)
+R01656,,,Heathrow Terminal 5 Rail,London Paddington,1,1,0,6,London Paddington
+R01657,,,Reading,London Paddington,2,2,1,5,Langley
+R01658,,,Reading,London Paddington,1,4,0,9,London Paddington
+R01659,,,Oban,Oban,1,2,0,3,Oban
+R01660,,,Ramsgate,Ashford International,4,11,3,13,XSI
+R01661,,,Oban,Oban,1,8,0,3,Oban
+R01662,,,Bristol Temple Meads,Weymouth,1,2,0,18,Weymouth
+R01663,,,London Kings Cross,Welwyn Garden City,1,2,0,11,Welwyn Garden City
+R01664,,,Norwich,Ipswich,1,2,0,4,Ipswich
+R01665,,,BIB,Slough,1,1,0,13,Slough
+R01666,,,Glasgow Central,Dumfries,1,2,0,14,Dumfries
+R01667,,,Fratton,Bristol Temple Meads,1,2,0,24,Bristol Temple Meads
+R01668,,,Glasgow Central,Neilston,1,2,0,8,Neilston
+R01669,,,Reading,Newbury,2,43,1,8,Newbury
+R01670,,,Port Talbot Parkway,Llanelli,1,1,0,9,Llanelli
+R01671,,,PNQ,SMQ,1,2,0,2,SMQ
+R01672,,,Llandrindod,Shrewsbury,1,2,0,13,Shrewsbury
+R01673,,,Edinburgh Waverley,Dundee,1,1,0,12,Dundee
+R01674,,,Tonbridge,London Cannon Street,2,4,1,9,XPY
+R01675,,,Falkirk Grahamston,Glasgow Queen Street,1,38,0,9,Glasgow Queen Street
+R01676,,,Crayford,London Cannon Street,3,14,2,5,New Eltham
+R01677,,,Bognor Regis,Littlehampton,1,4,0,4,Littlehampton
+R01678,,,Manchester Oxford Road,Southport,2,30,1,12,Parbold
+R01679,,,Romiley,Stockport,1,1,0,2,Stockport
+R01680,,,Stoke-On-Trent,Stockport,1,1,0,3,Stockport
+R01681,,,Tunbridge Wells,Tonbridge,1,2,0,3,Tonbridge
+R01682,,,London Blackfriars,Rochester,2,4,1,13,Swanley
+R01683,,,Dorking,Battersea Park,1,6,0,13,Battersea Park
+R01684,,,Epsom Downs,Sutton (London),1,2,0,2,Sutton (London)
+R01685,,,Enfield Town,London Liverpool Street,1,100,0,16,London Liverpool Street
+R01686,,,Beverley,London Kings Cross,1,1,0,40,London Kings Cross
+R01687,,,Beverley,London Kings Cross,1,3,0,25,London Kings Cross
+R01688,,,Welwyn Garden City,London Kings Cross,1,1,0,12,London Kings Cross
+R01689,,,Redhill,Tonbridge,1,48,0,7,Tonbridge
+R01690,,,West Ealing,XOA,1,2,0,26,XOA
+R01691,,,Lancaster,London Euston,2,3,1,10,Stafford
+R01692,,,Heathrow Terminal 4 Rail,Shenfield,2,140,1,14,WHX
+R01693,,,Hull,Sheffield,1,1,0,12,Sheffield
+R01694,,,Maidenhead,London Paddington,2,40,1,10,Ealing Broadway
+R01695,,,Hull,Scarborough,1,1,0,8,Scarborough
+R01696,,,Witham,Braintree,1,8,0,5,Braintree
+R01697,,,Lancaster,London Euston,1,1,0,34,London Euston
+R01698,,,Pontypridd,Cardiff Bay,2,12,1,8,Cardiff Queen Street
+R01699,,,Stanford-Le-Hope,London Fenchurch Street,2,4,1,8,Barking
+R01700,,,Stanford-Le-Hope,Pitsea,1,6,0,2,Pitsea
+R01701,,,Maidenhead,London Paddington,3,19,2,9,Southall
+R01702,,,XVJ,Gillingham (Kent),1,1,0,18,Gillingham (Kent)
+R01703,,,Tilehurst,Pangbourne,1,3,0,2,Pangbourne
+R01704,,,Pangbourne,Tilehurst,1,3,0,2,Tilehurst
+R01705,,,Taplow,Slough,1,4,0,3,Slough
+R01706,,,Wrexham General,London Euston,1,2,0,21,London Euston
+R01707,,,Haywards Heath,Brighton,1,1,0,5,Brighton
+R01708,,,Lewes,Brighton,1,3,0,5,Brighton
+R01709,,,Crowborough,Uckfield,1,1,0,3,Uckfield
+R01710,,,Birmingham New Street,Holyhead,1,1,0,27,Holyhead
+R01711,,,Ely,Cambridge,1,1,0,4,Cambridge
+R01712,,,Bristol Temple Meads,Portsmouth Harbour,3,4,2,5,Westbury
+R01713,,,Wigan Wallgate,Southport,1,2,0,10,Southport
+R01714,,,Selby,Hull,1,1,0,5,Hull
+R01715,,,Bristol Parkway,Westbury,2,4,1,13,Westbury
+R01716,,,Bristol Temple Meads,Bristol Parkway,1,4,0,5,Bristol Parkway
+R01717,,,Carlisle,Leeds,1,2,0,14,Leeds
+R01718,,,Weston-Super-Mare,BWE,1,56,0,3,BWE
+R01719,,,Reading,ABX,2,10,1,9,Ealing Broadway
+R01720,,,Bathgate,Edinburgh Waverley,1,12,0,6,Edinburgh Waverley
+R01721,,,Selby,Leeds,1,2,0,6,Leeds
+R01722,,,BWE,Weston-Super-Mare,1,62,0,3,Weston-Super-Mare
+R01723,,,Bristol Temple Meads,London Paddington,1,2,0,13,London Paddington
+R01724,,,Derby,London St Pancras International,2,2,1,14,Flitwick
+R01725,,,Swindon,Worcester Shrub Hill,2,4,1,6,Cheltenham Spa
+R01726,,,Sheffield,Cleethorpes,2,2,1,7,Hatfield & Stainforth
+R01727,,,Doncaster,Liverpool Lime Street,2,2,1,10,Hazel Grove
+R01728,,,Birmingham New Street,Newport (South Wales),1,1,0,8,Newport (South Wales)
+R01729,,,Tonbridge,Redhill,1,48,0,7,Redhill
+R01730,,,Bicester Village,Oxford,1,2,0,4,Oxford
+R01731,,,Newbury,London Paddington,1,9,0,9,London Paddington
+R01732,,,Worcester Shrub Hill,London Paddington,1,2,0,17,London Paddington
+R01733,,,Worcester Foregate Street,London Paddington,1,2,0,19,London Paddington
+R01734,,,Chester,Birmingham International,1,1,0,21,Birmingham International
+R01735,,,London Liverpool Street,Stansted Airport,1,2,0,11,Stansted Airport
+R01736,,,Gatwick Airport,Bedford,1,2,0,30,Bedford
+R01737,,,Welwyn Garden City,Sevenoaks,1,20,0,37,Sevenoaks
+R01738,,,Shrewsbury,Fishguard Harbour,1,1,0,27,Fishguard Harbour
+R01739,,,Finsbury Park,Sevenoaks,1,4,0,29,Sevenoaks
+R01740,,,Swansea,London Paddington,1,25,0,21,London Paddington
+R01741,,,Clarbeston Road,Fishguard Harbour,1,2,0,3,Fishguard Harbour
+R01742,,,RTY,RTY,1,1,0,3,RTY
+R01743,,,Westbury,Frome,1,2,0,2,Frome
+R01744,,,Westbury,Gloucester,1,6,0,11,Gloucester
+R01745,,,New Cross,London Cannon Street,1,2,0,24,London Cannon Street
+R01746,,,Cardiff Central,Ebbw Vale Town,1,2,0,9,Ebbw Vale Town
+R01747,,,Bath Spa,Filton Abbey Wood,1,2,0,7,Filton Abbey Wood
+R01748,,,London Paddington,Greenford,1,1,0,8,Greenford
+R01749,,,Liverpool Central,Ormskirk,1,4,0,13,Ormskirk
+R01750,,,Cheltenham Spa,Bristol Temple Meads,1,2,0,7,Bristol Temple Meads
+R01751,,,Fratton,Portsmouth Harbour,1,2,0,3,Portsmouth Harbour
+R01752,,,New Malden,Alton,1,1,0,9,Alton
+R01753,,,Sheffield,Retford,1,2,0,5,Retford
+R01754,,,Shipley,Bradford Forster Square,1,6,0,3,Bradford Forster Square
+R01755,,,Three Bridges,Bedford,2,2,1,11,XLJ
+R01756,,,Barnsley,Huddersfield,1,1,0,12,Huddersfield
+R01757,,,Huddersfield,Brighouse,1,30,0,3,Brighouse
+R01758,,,Brighouse,Huddersfield,1,32,0,3,Huddersfield
+R01759,,,Sandhills,Hunts Cross,1,6,0,9,Hunts Cross
+R01760,,,Queenstown Road (Battersea),Basingstoke,1,2,0,15,Basingstoke
+R01761,,,Manchester Piccadilly,Sheffield,1,1,0,11,Sheffield
+R01762,,,Newbury,Bedwyn,1,33,0,4,Bedwyn
+R01763,,,Reading,Newbury,1,2,0,4,Newbury
+R01764,,,Stevenage,London Kings Cross,1,1,0,12,London Kings Cross
+R01765,,,Huddersfield,Halifax,1,6,0,4,Halifax
+R01766,,,Selby,York,1,2,0,5,York
+R01767,,,Selby,Halifax,2,3,1,7,Leeds
+R01768,,,XVJ,Dartford,1,1,0,15,Dartford
+R01769,,,Deighton,Huddersfield,1,2,0,2,Huddersfield
+R01770,,,Cardiff Central,Carmarthen,1,1,0,12,Carmarthen
+R01771,,,Halifax,Huddersfield,1,4,0,4,Huddersfield
+R01772,,,Leicester,Nottingham,1,2,0,10,Nottingham
+R01773,,,Fishguard Harbour,Carmarthen,3,12,2,6,Carmarthen
+R01774,,,Guildford,Portsmouth Harbour,1,2,0,13,Portsmouth Harbour
+R01775,,,RBU,HWX,1,100,0,2,HWX
+R01776,,,Battersea Park,Horsham,1,1,0,16,Horsham
+R01777,,,London Paddington,Reading,1,1,0,8,Reading
+R01778,,,HWX,RBU,1,100,0,2,RBU
+R01779,,,Haywards Heath,Eastbourne,1,1,0,8,Eastbourne
+R01780,,,Battersea Park,Three Bridges,5,5,4,6,South Croydon
+R01781,,,Heathrow Terminal 4 Rail,London Paddington,1,1,0,6,London Paddington
+R01782,,,Cardiff Central,Carmarthen,2,2,1,5,Bridgend
+R01783,,,Barnstaple,CMA,1,20,0,4,CMA
+R01784,,,Bristol Temple Meads,Penzance,1,2,0,25,Penzance
+R01785,,,CMA,Barnstaple,1,18,0,4,Barnstaple
+R01786,,,Cardiff Bay,Cardiff Central,1,2,0,3,Cardiff Central
+R01787,,,Welshpool,Aberystwyth,1,2,0,9,Aberystwyth
+R01788,,,Llandudno,Llandudno Junction,1,26,0,3,Llandudno Junction
+R01789,,,Manchester Piccadilly,Chester,1,1,0,11,Chester
+R01790,,,Carstairs,Garscadden,1,2,0,15,Garscadden
+R01791,,,Raynes Park,Portsmouth Harbour,1,2,0,24,Portsmouth Harbour
+R01792,,,Hyndland,Motherwell,1,2,0,16,Motherwell
+R01793,,,Barnstaple,LLP,1,20,0,4,LLP
+R01794,,,Battersea Park,Streatham Hill,1,2,0,4,Streatham Hill
+R01795,,,Edinburgh Waverley,XCN,1,3,0,2,XCN
+R01796,,,Dundee,Edinburgh Waverley,1,2,0,9,Edinburgh Waverley
+R01797,,,Barnstaple,LCP,1,2,0,3,LCP
+R01798,,,LLP,Barnstaple,1,24,0,4,Barnstaple
+R01799,,,Taunton,XBV,1,42,0,6,XBV
+R01800,,,London Charing Cross,Gravesend,3,3,2,6,Lewisham
+R01801,,,Great Ayton,Newcastle,1,4,0,17,Newcastle
+R01802,,,XBV,Taunton,1,42,0,6,Taunton
+R01803,,,Hull,Doncaster,3,21,2,5,Gilberdyke
+R01804,,,Manchester Victoria,Blackburn,1,2,0,9,Blackburn
+R01805,,,Dalmuir,Balloch Central,1,2,0,7,Balloch Central
+R01806,,,Tottenham Hale,Stansted Airport,1,1,0,8,Stansted Airport
+R01807,,,Dalmuir,Balloch Central,1,2,0,9,Balloch Central
+R01808,,,Cumbernauld,Dalmuir,3,34,2,20,Hyndland
+R01809,,,Cardiff Central,Aberdare,1,5,0,17,Aberdare
+R01810,,,Barnstaple,Exeter St Davids,1,1,0,4,Exeter St Davids
+R01811,,,Totnes,XSC,1,26,0,3,XSC
+R01812,,,Great Yarmouth,Norwich,1,2,0,6,Norwich
+R01813,,,Huddersfield,Manchester Piccadilly,1,2,0,7,Manchester Piccadilly
+R01814,,,Totnes,KBS,1,2,0,2,KBS
+R01815,,,Manchester Piccadilly,Leeds,1,1,0,3,Leeds
+R01816,,,Leeds,Manchester Piccadilly,1,1,0,3,Manchester Piccadilly
+R01817,,,KBS,Totnes,1,2,0,2,Totnes
+R01818,,,XSC,Totnes,1,26,0,3,Totnes
+R01819,,,Plymouth,Penzance,1,2,0,15,Penzance
+R01820,,,Earlsfield,Woking,1,1,0,8,Woking
+R01821,,,Yeovil Pen Mill,Yeovil Junction,1,22,0,3,Yeovil Junction
+R01822,,,Yeovil Junction,Yeovil Pen Mill,1,22,0,3,Yeovil Pen Mill
+R01823,,,Harwich Town,Manningtree,4,44,3,6,Manningtree
+R01824,,,Colchester,Harwich Town,1,6,0,7,Harwich Town
+R01825,,,Yeovil Junction,Yeovil Pen Mill,1,4,0,2,Yeovil Pen Mill
+R01826,,,Swansea,Cardiff Central,1,6,0,13,Cardiff Central
+R01827,,,ARA,ARA,1,1,0,3,ARA
+R01828,,,Mallaig,ARA,1,3,0,2,ARA
+R01829,,,Reading,London Paddington,2,5,1,5,Southall
+R01830,,,Llandudno Junction,Blaenau Ffestiniog,1,2,0,5,Blaenau Ffestiniog
+R01831,,,Blaenau Ffestiniog,Llandudno,1,12,0,13,Llandudno
+R01832,,,Llandudno,Blaenau Ffestiniog,1,10,0,13,Blaenau Ffestiniog
+R01833,,,Glasgow Queen Street,Falkirk Grahamston,2,68,1,7,Cumbernauld
+R01834,,,Birmingham New Street,Rugeley Trent Valley,1,1,0,15,Rugeley Trent Valley
+R01835,,,Cardiff Central,Milford Haven,1,2,0,27,Milford Haven
+R01836,,,Fishguard Harbour,Clarbeston Road,1,2,0,3,Clarbeston Road
+R01837,,,Dalmuir,Helensburgh Central,1,2,0,7,Helensburgh Central
+R01838,,,Carmarthen,Tenby,1,4,0,3,Tenby
+R01839,,,Tenby,Carmarthen,1,4,0,3,Carmarthen
+R01840,,,Battersea Park,East Croydon,1,1,0,4,East Croydon
+R01841,,,Dingwall,Inverness,1,2,0,5,Inverness
+R01842,,,Invergordon,Inverness,1,2,0,7,Inverness
+R01843,,,Tain,Inverness,1,2,0,9,Inverness
+R01844,,,Garscadden,Springburn,3,4,2,9,Bellgrove
+R01845,,,Edinburgh Waverley,Glasgow Central,1,2,0,7,Glasgow Central
+R01846,,,Glasgow Central,East Kilbride,1,2,0,8,East Kilbride
+R01847,,,Glasgow Central,East Kilbride,1,2,0,6,East Kilbride
+R01848,,,Nottingham,Liverpool Lime Street,1,2,0,24,Liverpool Lime Street
+R01849,,,Cumbernauld,Glasgow Queen Street,1,28,0,7,Glasgow Queen Street
+R01850,,,Shoeburyness,London Fenchurch Street,1,2,0,14,London Fenchurch Street
+R01851,,,Llanelli,Llandovery,1,2,0,12,Llandovery
+R01852,,,Swansea,Shrewsbury,1,8,0,34,Shrewsbury
+R01853,,,Glenrothes with Thornton,Edinburgh Waverley,1,2,0,11,Edinburgh Waverley
+R01854,,,Oxford,Bristol Temple Meads,1,14,0,6,Bristol Temple Meads
+R01855,,,Bristol Temple Meads,Oxford,1,16,0,6,Oxford
+R01856,,,Alton,Farnham,1,2,0,3,Farnham
+R01857,,,Oxford,Bristol Temple Meads,1,2,0,5,Bristol Temple Meads
+R01858,,,Battersea Park,Horsham,1,1,0,19,Horsham
+R01859,,,WJL,London Euston,1,2,0,6,London Euston
+R01860,,,Leven,Edinburgh Waverley,1,1,0,11,Edinburgh Waverley
+R01861,,,Poole,New Malden,1,2,0,19,New Malden
+R01862,,,Grays,London Fenchurch Street,1,28,0,8,London Fenchurch Street
+R01863,,,Middlesbrough,Redcar Central,1,34,0,3,Redcar Central
+R01864,,,Leigh-on-Sea,London Fenchurch Street,1,2,0,8,London Fenchurch Street
+R01865,,,Fort William,Edinburgh Waverley,2,3,1,24,Linlithgow
+R01866,,,Shrewsbury,Llandrindod,1,2,0,5,Llandrindod
+R01867,,,Stevenage,Welwyn Garden City,1,2,0,4,Welwyn Garden City
+R01868,,,Witham,London Liverpool Street,1,2,0,12,London Liverpool Street
+R01869,,,Stevenage,Royston,1,2,0,6,Royston
+R01870,,,Dundee,Arbroath,1,2,0,4,Arbroath
+R01871,,,Witham,London Liverpool Street,1,4,0,10,London Liverpool Street
+R01872,,,Wrexham General,Chester,1,4,0,2,Chester
+R01873,,,Perth,Arbroath,1,2,0,6,Arbroath
+R01874,,,Crewe,Shrewsbury,1,2,0,7,Shrewsbury
+R01875,,,Bathgate,Milngavie,1,2,0,20,Milngavie
+R01876,,,Bathgate,Milngavie,1,6,0,17,Milngavie
+R01877,,,Swansea,London Paddington,1,1,0,22,London Paddington
+R01878,,,SMQ,PNQ,1,2,0,2,PNQ
+R01879,,,Garscadden,Edinburgh Waverley,1,2,0,22,Edinburgh Waverley
+R01880,,,Airdrie,Milngavie,1,3,0,15,Milngavie
+R01881,,,Colchester,London Liverpool Street,1,2,0,12,London Liverpool Street
+R01882,,,Witham,London Liverpool Street,1,4,0,11,London Liverpool Street
+R01883,,,XOA,Carnforth,1,2,0,3,Carnforth
+R01884,,,Barton-On-Humber,HUU,1,18,0,2,HUU
+R01885,,,HUU,Barton-On-Humber,1,18,0,2,Barton-On-Humber
+R01886,,,Birmingham New Street,Bromsgrove,2,6,1,9,Barnt Green
+R01887,,,Cambridge,London Liverpool Street,5,17,4,11,Bishops Stortford
+R01888,,,Huddersfield,Leeds,1,1,0,6,Leeds
+R01889,,,Salisbury,Romsey,1,2,0,12,Romsey
+R01890,,,Salisbury,Salisbury,1,2,0,16,Salisbury
+R01891,,,Southminster,Wickford,4,52,3,7,Wickford
+R01892,,,Manchester Victoria,Liverpool Lime Street,2,38,1,8,Rainhill
+R01893,,,Derby,Matlock,1,2,0,9,Matlock
+R01894,,,London Paddington,Greenford,1,1,0,7,Greenford
+R01895,,,Hebden Bridge,Leeds,1,2,0,9,Leeds
+R01896,,,Laindon,London Fenchurch Street,1,8,0,7,London Fenchurch Street
+R01897,,,Grays,London Fenchurch Street,1,58,0,8,London Fenchurch Street
+R01898,,,Battersea Park,Brighton,1,1,0,25,Brighton
+R01899,,,Birmingham Snow Hill,Kidderminster,1,2,0,13,Kidderminster
+R01900,,,Great Yarmouth,Norwich,2,4,1,5,Brundall
+R01901,,,Great Yarmouth,Norwich,1,4,0,6,Norwich
+R01902,,,Blackpool North,Manchester Airport,1,1,0,26,Manchester Airport
+R01903,,,Barking,Grays,1,4,0,5,Grays
+R01904,,,Clacton-On-Sea,London Liverpool Street,2,4,1,10,Witham
+R01905,,,Glasgow Central,London Euston,3,3,2,13,XOU
+R01906,,,Walton-On-The-Naze,London Liverpool Street,1,2,0,19,London Liverpool Street
+R01907,,,Gatwick Airport,Balham,1,1,0,8,Balham
+R01908,,,Saltburn,Manchester Piccadilly,1,1,0,35,Manchester Piccadilly
+R01909,,,Manchester Piccadilly,Redcar Central,1,2,0,21,Redcar Central
+R01910,,,Gatwick Airport,Balham,1,1,0,13,Balham
+R01911,,,Middlesbrough,Whitby,2,15,1,5,Nunthorpe
+R01912,,,Heathrow Terminal 4 Rail,London Paddington,1,1,0,7,London Paddington
+R01913,,,Woking,Queenstown Road (Battersea),1,2,0,21,Queenstown Road (Battersea)
+R01914,,,Kettering,Nottingham,1,2,0,9,Nottingham
+R01915,,,Liverpool Lime Street,Wigan North Western,1,1,0,9,Wigan North Western
+R01916,,,Manningtree,Harwich Town,1,34,0,6,Harwich Town
+R01917,,,Cambridge North,London Liverpool Street,1,18,0,17,London Liverpool Street
+R01918,,,TBR,Tilbury Town,1,52,0,2,Tilbury Town
+R01919,,,Pontypridd,Aberdare,1,2,0,8,Aberdare
+R01920,,,DPS,Holyhead,1,9,0,2,Holyhead
+R01921,,,Tilbury Town,TBR,1,52,0,2,TBR
+R01922,,,Haywards Heath,Worthing,1,1,0,10,Worthing
+R01923,,,Walton-On-The-Naze,Clacton-On-Sea,1,2,0,5,Clacton-On-Sea
+R01924,,,Stratford-upon-Avon,Worcester Foregate Street,1,2,0,28,Worcester Foregate Street
+R01925,,,Ardrossan Harbour,Ardrossan Harbour,1,10,0,3,Ardrossan Harbour
+R01926,,,ULP,SOY,1,4,0,2,SOY
+R01927,,,Llandovery,Swansea,1,2,0,14,Swansea
+R01928,,,Stalybridge,Huddersfield,1,2,0,6,Huddersfield
+R01929,,,Alloa,Glasgow Queen Street,1,70,0,7,Glasgow Queen Street
+R01930,,,Southampton Central,Brighton,2,4,1,9,Emsworth
+R01931,,,Stirling,Glasgow Queen Street,1,2,0,6,Glasgow Queen Street
+R01932,,,Colchester,Peterborough,1,2,0,13,Peterborough
+R01933,,,Alloa,Stirling,1,2,0,2,Stirling
+R01934,,,Shenfield,Braintree,1,2,0,8,Braintree
+R01935,,,Chelmsford,Braintree,1,2,0,7,Braintree
+R01936,,,Ingatestone,Colchester,1,2,0,8,Colchester
+R01937,,,Sudbury Suffolk,Colchester,1,2,0,5,Colchester
+R01938,,,High Wycombe,London Marylebone,2,5,1,7,South Ruislip
+R01939,,,Balham,Three Bridges,1,1,0,14,Three Bridges
+R01940,,,Peterborough,Nottingham,1,2,0,16,Nottingham
+R01941,,,High Wycombe,London Marylebone,1,8,0,9,London Marylebone
+R01942,,,Heathrow Terminal 5 Rail,London Paddington,1,1,0,5,London Paddington
+R01943,,,Bristol Temple Meads,London Paddington,2,2,1,9,Maidenhead
+R01944,,,LCB,LCB,1,3,0,3,LCB
+R01945,,,Oban,CTB,1,2,0,2,CTB
+R01946,,,CTB,Oban,1,2,0,2,Oban
+R01947,,,CRU,Oban,1,4,0,2,Oban
+R01948,,,Oban,CRU,1,3,0,2,CRU
+R01949,,,Lancaster,Windermere,1,2,0,7,Windermere
+R01950,,,Doncaster,Hull,5,32,4,5,Goole
+R01951,,,Castleford,Leeds,1,2,0,4,Leeds
+R01952,,,Manchester Victoria,Liverpool Lime Street,1,2,0,16,Liverpool Lime Street
+R01953,,,Oxenholme Lake District,Windermere,1,22,0,5,Windermere
+R01954,,,Cambridge,Cambridge North,1,2,0,2,Cambridge North
+R01955,,,Windermere,Oxenholme Lake District,1,2,0,3,Oxenholme Lake District
+R01956,,,SCB,SOS,1,6,0,2,SOS
+R01957,,,Wickford,Southminster,1,48,0,7,Southminster
+R01958,,,Didcot Parkway,London Paddington,1,1,0,10,London Paddington
+R01959,,,SOS,SCB,1,4,0,2,SCB
+R01960,,,Oxenholme Lake District,Windermere,1,2,0,3,Windermere
+R01961,,,Leeds,Harrogate,1,2,0,4,Harrogate
+R01962,,,Reading,Didcot Parkway,1,2,0,6,Didcot Parkway
+R01963,,,Leeds,Harrogate,1,2,0,3,Harrogate
+R01964,,,Goole,Leeds,1,4,0,12,Leeds
+R01965,,,Workington,Carlisle,1,2,0,7,Carlisle
+R01966,,,Preston,Barrow-In-Furness,1,2,0,13,Barrow-In-Furness
+R01967,,,Broadstairs,SPX,2,2,1,8,Faversham
+R01968,,,Manchester Piccadilly,Nottingham,1,2,0,15,Nottingham
+R01969,,,Broadstairs,London Cannon Street,2,6,1,6,Faversham
+R01970,,,Whitehaven,Carlisle,1,2,0,8,Carlisle
+R01971,,,Ramsgate,SPX,1,22,0,26,SPX
+R01972,,,Bristol Temple Meads,Cardiff Central,1,2,0,7,Cardiff Central
+R01973,,,York,Hull,1,1,0,11,Hull
+R01974,,,Blackpool North,York,1,2,0,21,York
+R01975,,,Faversham,London Cannon Street,3,5,2,9,XRJ
+R01976,,,Faversham,London Cannon Street,2,39,1,8,XRJ
+R01977,,,Morecambe,Lancaster,1,36,0,3,Lancaster
+R01978,,,Queenstown Road (Battersea),Earlsfield,1,6,0,16,Earlsfield
+R01979,,,Dundee,Glasgow Queen Street,1,2,0,16,Glasgow Queen Street
+R01980,,,Gatwick Airport,Brighton,1,1,0,8,Brighton
+R01981,,,Queenstown Road (Battersea),Addlestone,1,6,0,17,Addlestone
+R01982,,,Norwich,Cambridge,1,2,0,11,Cambridge
+R01983,,,Norwich,Cambridge,1,2,0,13,Cambridge
+R01984,,,Exeter St Davids,Paignton,1,2,0,11,Paignton
+R01985,,,Exeter St Davids,Paignton,1,2,0,10,Paignton
+R01986,,,Clacton-On-Sea,Walton-On-The-Naze,1,2,0,5,Walton-On-The-Naze
+R01987,,,Exeter St Davids,Paignton,1,2,0,12,Paignton
+R01988,,,Walton-On-The-Naze,Thorpe-Le-Soken,1,4,0,4,Thorpe-Le-Soken
+R01989,,,Exmouth,Paignton,3,18,2,5,Digby & Sowton
+R01990,,,Thorpe-Le-Soken,Walton-On-The-Naze,1,6,0,4,Walton-On-The-Naze
+R01991,,,Horsforth,Leeds,1,2,0,4,Leeds
+R01992,,,Redhill,Gatwick Airport,1,1,0,3,Gatwick Airport
+R01993,,,Broxbourne,Hertford East,1,2,0,5,Hertford East
+R01994,,,Heysham Port,Lancaster,1,2,0,4,Lancaster
+R01995,,,Ashford International,SPX,1,2,0,16,SPX
+R01996,,,Bristol Temple Meads,Exmouth,1,2,0,21,Exmouth
+R01997,,,Margate,SPX,1,1,0,28,SPX
+R01998,,,Harrogate,Leeds,2,14,1,5,Horsforth
+R01999,,,Bridgend,Ebbw Vale Town,1,2,0,13,Ebbw Vale Town
+R02000,,,Peterborough,DEB,1,24,0,5,DEB
+R02001,,,Lancaster,Morecambe,1,2,0,6,Morecambe
+R02002,,,KLB,Peterborough,1,10,0,3,Peterborough
+R02003,,,Darlington,Bishop Auckland,1,4,0,6,Bishop Auckland
+R02004,,,Peterborough,SWB,1,18,0,4,SWB
+R02005,,,Canterbury West,SPX,1,4,0,18,SPX
+R02006,,,SWB,Peterborough,1,16,0,4,Peterborough
+R02007,,,DEB,Peterborough,1,28,0,5,Peterborough
+R02008,,,Falmouth Docks,Truro,2,44,1,6,Truro
+R02009,,,Selby,York,1,2,0,2,York
+R02010,,,Falmouth Docks,Truro,1,16,0,5,Truro
+R02011,,,Hellifield,York,1,1,0,9,York
+R02012,,,Sheffield,Leeds,1,2,0,7,Leeds
+R02013,,,Stockport,Chester,2,4,1,11,Greenbank
+R02014,,,Peterborough,KLB,1,12,0,3,KLB
+R02015,,,Sandwich,SPX,2,4,1,10,XSI
+R02016,,,BFA,CRP,1,2,0,2,CRP
+R02017,,,CRP,BFA,1,2,0,2,BFA
+R02018,,,Darlington,CGT,1,54,0,3,CGT
+R02019,,,Middlesbrough,Whitby,1,2,0,11,Whitby
+R02020,,,Seaford,Lewes,1,1,0,6,Lewes
+R02021,,,Haywards Heath,Plumpton,1,1,0,2,Plumpton
+R02022,,,Lewes,Eastbourne,1,1,0,6,Eastbourne
+R02023,,,Balham,Epsom,1,1,0,10,Epsom
+R02024,,,Liskeard,Looe,1,16,0,5,Looe
+R02025,,,East Croydon,East Grinstead,1,1,0,3,East Grinstead
+R02026,,,Liskeard,Looe,1,4,0,6,Looe
+R02027,,,Huddersfield,Leeds,1,1,0,9,Leeds
+R02028,,,Liskeard,Looe,1,6,0,2,Looe
+R02029,,,Knaresborough,Leeds,1,2,0,10,Leeds
+R02030,,,Leeds,Harrogate,1,2,0,7,Harrogate
+R02031,,,CGT,Darlington,1,58,0,3,Darlington
+R02032,,,Wigan North Western,Liverpool Lime Street,1,2,0,10,Liverpool Lime Street
+R02033,,,Helsby,Ellesmere Port,1,4,0,3,Ellesmere Port
+R02034,,,Liskeard,Plymouth,1,2,0,5,Plymouth
+R02035,,,Ellesmere Port,Helsby,1,2,0,3,Helsby
+R02036,,,Haymarket,North Berwick,1,2,0,8,North Berwick
+R02037,,,Bishops Stortford,Stratford (London),1,2,0,15,Stratford (London)
+R02038,,,Maidstone West,SPX,1,4,0,17,SPX
+R02039,,,Ellesmere Port,Liverpool Lime Street,1,2,0,16,Liverpool Lime Street
+R02040,,,Dalmally,Oban,1,2,0,5,Oban
+R02041,,,West Ruislip,London Marylebone,1,2,0,8,London Marylebone
+R02042,,,Bishops Stortford,Stratford (London),1,2,0,15,Stratford (London)
+R02043,,,Kew Gardens,ZUM,1,2,0,4,ZUM
+R02044,,,York,Manchester Piccadilly,1,1,0,24,Manchester Piccadilly
+R02045,,,York,Redcar Central,1,2,0,9,Redcar Central
+R02046,,,Looe,Liskeard,1,16,0,5,Liskeard
+R02047,,,Looe,Liskeard,1,4,0,6,Liskeard
+R02048,,,Looe,Liskeard,1,6,0,2,Liskeard
+R02049,,,Watford Junction,Watford Junction,1,80,0,1,Watford Junction
+R02050,,,DFP,Holyhead,1,4,0,2,Holyhead
+R02051,,,Holyhead,DPS,1,8,0,2,DPS
+R02052,,,Warrington Central,Liverpool Lime Street,1,2,0,12,Liverpool Lime Street
+R02053,,,Warrington Central,Liverpool Lime Street,1,2,0,11,Liverpool Lime Street
+R02054,,,Worcester Shrub Hill,Oxford,1,2,0,10,Oxford
+R02055,,,Newbury Racecourse,Bedwyn,1,1,0,5,Bedwyn
+R02056,,,Oxford,Worcester Shrub Hill,1,2,0,11,Worcester Shrub Hill
+R02057,,,UIG,LCH,1,1,0,4,LCH
+R02058,,,Mallaig,Mallaig,1,1,0,8,Mallaig
+R02059,,,Ardrossan Harbour,BDC,1,1,0,2,BDC
+R02060,,,Pitsea,Stanford-Le-Hope,1,4,0,2,Stanford-Le-Hope
+R02061,,,Carstairs,Edinburgh Waverley,1,2,0,4,Edinburgh Waverley
+R02062,,,Edinburgh Waverley,Fort William,1,1,0,34,Fort William
+R02063,,,Beckenham Junction,London Blackfriars,1,2,0,6,London Blackfriars
+R02064,,,Strood,London Charing Cross,1,4,0,18,London Charing Cross
+R02065,,,Beckenham Junction,XVJ,1,2,0,5,XVJ
+R02066,,,Orpington,London Charing Cross,1,1,0,10,London Charing Cross
+R02067,,,Reading,Bedwyn,1,2,0,6,Bedwyn
+R02068,,,Reading,Newbury,1,2,0,5,Newbury
+R02069,,,LCH,UIG,1,1,0,4,UIG
+R02070,,,UIG,TBT,1,1,0,4,TBT
+R02071,,,Newcastle,Chathill,1,2,0,6,Chathill
+R02072,,,Maidstone East,London Blackfriars,1,2,0,20,London Blackfriars
+R02073,,,Orpington,London Charing Cross,1,3,0,9,London Charing Cross
+R02074,,,Wolverhampton,Shrewsbury,1,1,0,5,Shrewsbury
+R02075,,,Tame Bridge Parkway,Shrewsbury,1,1,0,13,Shrewsbury
+R02076,,,Shrewsbury,Birmingham New Street,1,2,0,11,Birmingham New Street
+R02077,,,Kings Norton,Birmingham New Street,1,1,0,5,Birmingham New Street
+R02078,,,Tonbridge,Hastings,1,2,0,14,Hastings
+R02079,,,Birmingham New Street,Kings Norton,1,1,0,5,Kings Norton
+R02080,,,Thirsk,Shildon,1,1,0,7,Shildon
+R02081,,,New Cross,Dartford,1,2,0,13,Dartford
+R02082,,,Leamington Spa,Stratford-upon-Avon,1,1,0,7,Stratford-upon-Avon
+R02083,,,Leeds,Selby,1,1,0,2,Selby
+R02084,,,Cardiff Central,Carmarthen,1,1,0,11,Carmarthen
+R02085,,,Selby,Leeds,1,1,0,2,Leeds
+R02086,,,Manchester Piccadilly,London Euston,1,2,0,36,London Euston
+R02087,,,London Fenchurch Street,Grays,1,2,0,8,Grays
+R02088,,,Blackpool North,Crewe,1,1,0,11,Crewe
+R02089,,,Barnham,Southampton Central,1,1,0,13,Southampton Central
+R02090,,,Gatwick Airport,Brighton,1,1,0,6,Brighton
+R02091,,,Wembley Stadium,West Ruislip,1,1,0,4,West Ruislip
+R02092,,,London Marylebone,Wembley Stadium,1,5,0,3,Wembley Stadium
+R02093,,,Tonbridge,London Charing Cross,1,1,0,21,London Charing Cross
+R02094,,,Dover Priory,SPX,1,1,0,20,SPX
+R02095,,,Huddersfield,Leeds,1,1,0,7,Leeds
+R02096,,,Gobowen,Gobowen,1,1,0,1,Gobowen
+R02097,,,Edinburgh Waverley,Fort William,1,1,0,27,Fort William
+R02098,,,Margate,Ashford International,1,1,0,15,Ashford International
+R02099,,,Manchester Piccadilly,Manchester Airport,1,1,0,6,Manchester Airport
+R02100,,,Westbury,Bath Spa,1,1,0,4,Bath Spa
+R02101,,,Bath Spa,Westbury,1,1,0,4,Westbury
+R02102,,,Barnes,Oxford Parkway,1,1,0,14,Oxford Parkway
+R02103,,,Hove,Balham,1,1,0,12,Balham

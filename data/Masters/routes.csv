@@ -1,0 +1,2104 @@
+route_id,origin,operational_destination,primary_destination,is_public_route,pattern_count,service_count,unique_station_count,branch_count,corridor_length,corridor_end,longest_pattern,longest_pattern_length,average_pattern_length
+R00001,West Kirby,West Kirby,West Kirby,True,1,118,15,0,27,West Kirby,SP000001,27,27.0
+R00002,Orpington,XVJ,Luton,True,5,180,41,4,7,Shortlands,SP000190,33,22.2
+R00003,XHZ,West Croydon,West Croydon,True,4,305,27,3,12,Surrey Quays,SP000003,21,16.8
+R00004,London Marylebone,Oxford,Oxford,True,33,166,49,32,5,West Ruislip,SP004191,37,18.4
+R00005,New Brighton,New Brighton,New Brighton,True,1,120,11,0,19,New Brighton,SP000005,19,19.0
+R00006,Sheffield,Adwick,Adwick,True,2,44,9,1,7,Doncaster,SP000006,9,8.0
+R00007,Slough,Windsor & Eton Central,Windsor & Eton Central,True,1,110,2,0,2,Windsor & Eton Central,SP000007,2,2.0
+R00008,Kenton,ZEL,Queens Park (London),True,2,180,9,1,8,Queens Park (London),SP000008,9,8.5
+R00009,XSL,XSL,XSL,False,1,22,1,0,1,XSL,SP000009,1,1.0
+R00010,Surrey Quays,Dalston Junction,Dalston Junction,True,2,150,12,1,10,Dalston Junction,SP002204,12,11.0
+R00011,Huddersfield,Sheffield,Sheffield,True,1,34,17,0,17,Sheffield,SP000011,17,17.0
+R00012,Oxford,London Marylebone,London Marylebone,True,9,50,20,8,9,High Wycombe,SP004560,19,17.0
+R00013,Sheerness-On-Sea,Sittingbourne,Sittingbourne,True,1,56,5,0,5,Sittingbourne,SP000013,5,5.0
+R00014,London Charing Cross,Gravesend,Gravesend,True,25,311,98,24,5,Hither Green,SP003400,32,20.9
+R00015,Oxford,Oxford Parkway,Oxford Parkway,True,1,2,2,0,3,Oxford Parkway,SP000016,3,3.0
+R00016,Stonebridge Park,ZEL,Queens Park (London),True,2,167,6,1,5,Queens Park (London),SP000017,6,5.5
+R00017,London Marylebone,Aylesbury Vale Parkway,Aylesbury Vale Parkway,True,2,70,12,1,11,Aylesbury,SP000018,12,11.5
+R00018,Dartford,London Charing Cross,London Charing Cross,True,1,68,15,0,15,London Charing Cross,SP000020,15,15.0
+R00019,Oxford Parkway,Oxford,Oxford,True,1,2,2,0,3,Oxford,SP000022,3,3.0
+R00020,Dalston Junction,Surrey Quays,Surrey Quays,True,5,288,26,4,10,Surrey Quays,SP004580,19,15.0
+R00021,Wandsworth Road,Dalston Junction,Dalston Junction,True,2,140,17,1,15,Dalston Junction,SP001701,17,16.0
+R00022,Bourne End,Maidenhead,Maidenhead,True,1,28,4,0,4,Maidenhead,SP000026,4,4.0
+R00023,Cardiff Central,Cheltenham Spa,Cheltenham Spa,True,5,38,46,4,7,Gloucester,SP004105,36,21.0
+R00024,Battersea Park,Dalston Junction,Dalston Junction,True,1,4,16,0,16,Dalston Junction,SP000028,16,16.0
+R00025,Marlow,Maidenhead,Maidenhead,True,1,24,5,0,5,Maidenhead,SP000029,5,5.0
+R00026,Sittingbourne,Sheerness-On-Sea,Sheerness-On-Sea,True,1,56,5,0,5,Sheerness-On-Sea,SP000030,5,5.0
+R00027,York,Bridlington,Bridlington,True,4,8,20,3,5,Selby,SP003407,19,13.8
+R00028,Bristol Temple Meads,Worcester Foregate Street,Worcester Foregate Street,True,4,34,14,3,6,Gloucester,SP003494,14,10.2
+R00029,Stansted Airport,Birmingham New Street,Birmingham New Street,True,3,40,28,2,5,Cambridge,SP001577,28,19.7
+R00030,Hamilton West,XCN,XCN,False,1,2,7,0,7,XCN,SP000036,7,7.0
+R00031,Swindon,Westbury,Westbury,True,1,14,5,0,5,Westbury,SP000037,5,5.0
+R00032,Exeter St Davids,Exmouth,Exmouth,True,1,5,11,0,11,Exmouth,SP000038,11,11.0
+R00033,Oxford,London Marylebone,London Marylebone,True,7,24,21,6,10,High Wycombe,SP004488,19,16.7
+R00034,London Paddington,Didcot Parkway,Didcot Parkway,True,48,389,119,47,6,Reading,SP000840,36,18.6
+R00035,Dundee,Edinburgh Waverley,Edinburgh Waverley,True,3,32,14,2,8,Inverkeithing,SP004619,14,12.3
+R00036,Banbury,London Marylebone,London Marylebone,True,3,8,17,2,9,High Wycombe,SP000645,16,15.7
+R00037,Redditch,Four Oaks,Four Oaks,True,3,72,20,2,11,Birmingham New Street,SP001479,20,16.7
+R00038,Sheffield,Huddersfield,Huddersfield,True,6,75,24,5,6,Barnsley,SP000047,17,10.8
+R00039,London Marylebone,High Wycombe,High Wycombe,True,6,24,13,5,7,West Ruislip,SP000049,13,10.0
+R00040,LIF,Bromsgrove,Bromsgrove,True,3,72,24,2,15,Birmingham New Street,SP003934,24,20.3
+R00041,High Wycombe,London Marylebone,London Marylebone,True,3,12,13,2,8,South Ruislip,SP000051,13,12.0
+R00042,Taunton,Bristol Temple Meads,Bristol Temple Meads,True,5,14,39,4,9,Parson Street,SP001449,22,18.0
+R00043,Portsmouth Harbour,Horsham,Horsham,True,5,62,37,4,5,Havant,SP001162,25,18.8
+R00044,Hastings,London Charing Cross,London Charing Cross,True,5,19,25,4,5,Robertsbridge,SP000174,22,20.4
+R00045,Perth,Edinburgh Waverley,Edinburgh Waverley,True,2,33,15,1,9,Inverkeithing,SP001531,15,14.0
+R00046,Hastings,London Charing Cross,London Charing Cross,True,6,51,33,5,8,Etchingham,SP004566,31,24.3
+R00047,Bognor Regis,Barnham,Barnham,True,1,72,2,0,2,Barnham,SP000058,2,2.0
+R00048,Edinburgh Waverley,Perth,Perth,True,3,42,22,2,5,Inverkeithing,SP003757,14,13.0
+R00049,Littlehampton,Bognor Regis,Bognor Regis,True,1,6,4,0,4,Bognor Regis,SP000062,4,4.0
+R00050,Twyford,Henley-On-Thames,Henley-On-Thames,True,1,18,4,0,4,Henley-On-Thames,SP000064,4,4.0
+R00051,Brighton,Ore,Ore,True,5,10,18,4,5,Glynde,SP004553,20,14.8
+R00052,Ore,London Charing Cross,London Charing Cross,True,1,2,21,0,21,London Charing Cross,SP000066,21,21.0
+R00053,Birmingham Snow Hill,London Marylebone,London Marylebone,True,7,23,28,6,6,Dorridge,SP004634,27,20.1
+R00054,Birkbeck,XSU,XSU,False,1,64,10,0,10,XSU,SP000068,10,10.0
+R00055,Warminster,Bristol Temple Meads,Bristol Temple Meads,True,2,6,15,1,5,Bradford-On-Avon,SP003486,13,12.0
+R00056,London Euston,Manchester Piccadilly,Manchester Piccadilly,True,52,495,150,51,5,Watford Junction,SP004232,68,28.1
+R00057,Westbury,Swindon,Swindon,True,2,16,10,1,5,Swindon,SP001252,10,7.5
+R00058,Birmingham International,Aberystwyth,Aberystwyth,True,6,32,56,5,9,Wolverhampton,SP002825,32,25.5
+R00059,Manchester Victoria,Southport,Southport,True,4,32,22,3,10,Hindley,SP000579,21,15.2
+R00060,London Marylebone,West Ruislip,West Ruislip,True,2,8,8,1,5,Sudbury Hill Harrow,SP000078,8,7.5
+R00061,Manchester Airport,Cleethorpes,Cleethorpes,True,1,1,23,0,23,Cleethorpes,SP000079,23,23.0
+R00062,Cleethorpes,Liverpool Lime Street,Liverpool Lime Street,True,8,36,49,7,5,Barnetby,SP000080,32,23.9
+R00063,Liverpool Lime Street,Cleethorpes,Cleethorpes,True,24,69,95,23,5,Hough Green,SP004143,41,29.5
+R00064,Bradford Interchange,Leeds,Leeds,True,3,40,31,2,5,Mirfield,SP000083,25,20.0
+R00065,Westbury,Salisbury,Salisbury,True,1,2,3,0,3,Salisbury,SP000084,3,3.0
+R00066,Sunderland,London Kings Cross,London Kings Cross,True,1,12,27,0,27,London Kings Cross,SP000087,27,27.0
+R00067,Westbury,Salisbury,Salisbury,True,1,2,4,0,4,Salisbury,SP000090,4,4.0
+R00068,Pwllheli,Machynlleth,Machynlleth,True,1,16,27,0,27,Machynlleth,SP000092,27,27.0
+R00069,Southport,Manchester Victoria,Manchester Victoria,True,4,18,24,3,15,Bolton,SP000095,21,20.0
+R00070,Weston-Super-Mare,Severn Beach,Severn Beach,True,6,34,32,5,6,Parson Street,SP000097,19,14.2
+R00071,Buxton,Manchester Piccadilly,Manchester Piccadilly,True,3,26,15,2,7,Disley,SP000098,15,14.0
+R00072,Birmingham Moor Street,London Marylebone,London Marylebone,True,5,46,27,4,5,Dorridge,SP002430,26,18.8
+R00073,London Kings Cross,Edinburgh Waverley,Edinburgh Waverley,True,28,335,124,27,5,Potters Bar,SP003669,50,25.1
+R00074,Southport,Manchester Oxford Road,Manchester Oxford Road,True,3,47,20,2,7,Wigan Wallgate,SP000103,18,13.3
+R00075,West Croydon,XHZ,Dalston Junction,True,2,146,22,1,20,Dalston Junction,SP000104,22,21.0
+R00076,Luton,Rainham (Kent),Rainham (Kent),True,6,72,76,5,16,London Blackfriars,SP000110,42,27.5
+R00077,Manchester Piccadilly,London Euston,London Euston,True,15,66,110,14,8,Crewe,SP004565,47,30.7
+R00078,Halifax,Hull,Hull,True,3,34,17,2,5,Leeds,SP001872,17,12.3
+R00079,Rainham (Kent),Luton,Luton,True,7,74,51,6,14,Dartford,SP000131,45,31.9
+R00080,Rhymney,Bridgend,Bridgend,True,1,28,24,0,24,Bridgend,SP000116,24,24.0
+R00081,YMH,Lymington Pier,Lymington Pier,True,1,36,2,0,2,Lymington Pier,SP000119,2,2.0
+R00082,Hull,Halifax,Halifax,True,13,86,52,12,5,Selby,SP001593,23,14.1
+R00083,Tonbridge,Tunbridge Wells,Tunbridge Wells,True,1,8,3,0,3,Tunbridge Wells,SP000123,3,3.0
+R00084,Wigan Wallgate,Manchester Victoria,Manchester Victoria,True,1,6,12,0,12,Manchester Victoria,SP000125,12,12.0
+R00085,Worcester Foregate Street,Bristol Temple Meads,Bristol Temple Meads,True,1,22,11,0,11,Bristol Temple Meads,SP000127,11,11.0
+R00086,Lymington Pier,YMH,YMH,False,1,36,2,0,2,YMH,SP000130,2,2.0
+R00087,Girvan,Ayr,Ayr,True,1,10,3,0,3,Ayr,SP000132,3,3.0
+R00088,Dorridge,Worcester Foregate Street,Worcester Foregate Street,True,8,36,27,7,7,XOH,SP000175,26,22.4
+R00089,Worcester Shrub Hill,Bristol Temple Meads,Bristol Temple Meads,True,3,8,22,2,5,Gloucester,SP003436,17,12.0
+R00090,Liverpool Lime Street,Blackpool North,Blackpool North,True,5,39,28,4,5,St Helens Central,SP000209,20,14.0
+R00091,Balham,East Grinstead,East Grinstead,True,1,70,13,0,13,East Grinstead,SP000137,13,13.0
+R00092,West Hampstead Thameslink,Orpington,Orpington,True,7,16,79,6,6,London Blackfriars,SP003915,35,27.0
+R00093,Tring,London Euston,London Euston,True,2,54,10,1,5,Watford Junction,SP001284,10,9.5
+R00094,York,London Kings Cross,London Kings Cross,True,2,14,28,1,8,Huntingdon,SP003701,28,23.5
+R00095,West Ruislip,London Marylebone,London Marylebone,True,1,8,7,0,7,London Marylebone,SP000141,7,7.0
+R00096,Paisley Canal,Glasgow Central,Glasgow Central,True,1,61,7,0,7,Glasgow Central,SP000142,7,7.0
+R00097,East Grinstead,Balham,Balham,True,8,86,41,7,5,Oxted,SP002157,33,19.5
+R00098,Glenrothes with Thornton,Edinburgh Waverley,Edinburgh Waverley,True,2,8,14,1,8,Inverkeithing,SP000144,14,12.5
+R00099,Gourock,Glasgow Central,Glasgow Central,True,3,76,16,2,5,Cartsdyke,SP000146,16,11.7
+R00100,Glasgow Central,Liverpool Lime Street,Liverpool Lime Street,True,1,2,19,0,19,Liverpool Lime Street,SP000147,19,19.0
+R00101,Clitheroe,Manchester Victoria,Manchester Victoria,True,4,38,15,3,5,Blackburn,SP003398,14,11.5
+R00102,Edinburgh Waverley,Manchester Airport,Manchester Airport,True,5,31,69,4,13,XOU,SP003562,57,38.4
+R00103,IBS,ULP,ULP,False,1,4,2,0,2,ULP,SP000150,2,2.0
+R00104,Walsall,Wolverhampton,Wolverhampton,True,3,67,44,2,5,XRA,SP002268,32,21.0
+R00105,Didcot Parkway,London Paddington,London Paddington,True,5,73,18,4,6,Reading,SP000176,17,12.6
+R00106,Helensburgh Central,Edinburgh Waverley,Edinburgh Waverley,True,9,72,40,8,7,Dalmuir,SP000155,36,31.7
+R00107,Glasgow Central,Glasgow Central,Glasgow Central,True,2,74,16,1,6,Langside,SP000156,12,11.5
+R00108,Lancaster,Manchester Airport,Manchester Airport,True,1,2,10,0,10,Manchester Airport,SP000157,10,10.0
+R00109,Newark Northgate,Lincoln Central,Lincoln Central,True,2,8,10,1,5,Lincoln Central,SP000158,10,7.5
+R00110,Blackburn,Blackpool North,Blackpool North,True,1,2,11,0,11,Blackpool North,SP000159,11,11.0
+R00111,Sheffield,Leeds,Leeds,True,4,40,20,3,8,Moorthorpe,SP000160,13,12.5
+R00112,Oxenholme Lake District,Liverpool Lime Street,Liverpool Lime Street,True,2,4,20,1,5,XOU,SP004264,14,12.5
+R00113,Peterborough,Lincoln Central,Lincoln Central,True,2,28,9,1,6,Lincoln Central,SP003405,9,7.5
+R00114,Glasgow Central,London Euston,London Euston,True,8,58,81,7,13,XOU,SP004044,57,33.0
+R00115,Stratford-upon-Avon,Kidderminster,Kidderminster,True,3,32,36,2,30,Stourbridge Junction,SP000164,36,33.7
+R00116,Glasgow Central,East Kilbride,East Kilbride,True,2,72,10,1,7,Busby,SP000165,10,9.5
+R00117,Lincoln Central,Peterborough,Peterborough,True,1,28,6,0,6,Peterborough,SP000166,6,6.0
+R00118,East Kilbride,Glasgow Central,Glasgow Central,True,1,50,10,0,10,Glasgow Central,SP000167,10,10.0
+R00119,Blackpool North,York,York,True,5,33,19,4,11,Bradford Interchange,SP004106,19,15.8
+R00120,East Kilbride,Glasgow Central,Glasgow Central,True,1,26,9,0,9,Glasgow Central,SP000171,9,9.0
+R00121,York,Blackpool North,Blackpool North,True,2,28,19,1,9,Halifax,SP000197,19,18.5
+R00122,Orpington,London Cannon Street,London Cannon Street,True,4,74,15,3,8,XPY,SP003107,13,12.0
+R00123,Leven,Edinburgh Waverley,Edinburgh Waverley,True,2,37,14,1,11,Edinburgh Gateway,SP000888,14,13.5
+R00124,Banbury,London Paddington,London Paddington,True,1,2,11,0,11,London Paddington,SP000179,11,11.0
+R00125,London Cannon Street,Orpington,Orpington,True,12,114,104,11,6,Hither Green,SP001031,33,23.4
+R00126,Stratford-upon-Avon,Worcester Foregate Street,Worcester Foregate Street,True,2,16,29,1,17,SMW,SP000347,29,27.5
+R00127,Newton,Glasgow Central,Glasgow Central,True,2,72,15,1,5,Kings Park,SP000182,11,10.5
+R00128,Letchworth Garden City,London Kings Cross,London Kings Cross,True,2,23,15,1,11,Alexandra Palace,SP000183,15,14.5
+R00129,London Kings Cross,Letchworth Garden City,Letchworth Garden City,True,5,69,23,4,8,Welwyn Garden City,SP002757,23,19.4
+R00130,Manchester Airport,Blackpool North,Blackpool North,True,10,105,48,9,5,Deansgate,SP000189,22,18.0
+R00131,Milton Keynes Central,London Euston,London Euston,True,1,62,17,0,17,London Euston,SP000191,17,17.0
+R00132,XCN,Edinburgh Waverley,Edinburgh Waverley,True,1,5,2,0,2,Edinburgh Waverley,SP000193,2,2.0
+R00133,Neilston,Glasgow Central,Glasgow Central,True,2,76,11,1,7,Mount Florida,SP000200,11,9.5
+R00134,High Wycombe,London Marylebone,London Marylebone,True,1,6,12,0,12,London Marylebone,SP000201,12,12.0
+R00135,Glasgow Central,Neilston,Neilston,True,3,146,21,2,5,Mount Florida,SP002685,12,11.0
+R00136,XCN,Hamilton West,Hamilton West,True,1,2,7,0,7,Hamilton West,SP000203,7,7.0
+R00137,Shoeburyness,London Fenchurch Street,London Fenchurch Street,True,9,158,24,8,7,Leigh-on-Sea,SP001898,20,15.8
+R00138,Hebden Bridge,York,York,True,1,2,12,0,12,York,SP000207,12,12.0
+R00139,Edinburgh Waverley,Aberdeen,Aberdeen,True,5,27,26,4,5,Kirkcaldy,SP003718,18,15.2
+R00140,BDC,BDC,BDC,False,1,7,1,0,1,BDC,SP000210,1,1.0
+R00141,Aberystwyth,Bangor (Gwynedd),Bangor (Gwynedd),True,2,14,7,1,6,CFS,SP000211,7,6.5
+R00142,Manchester Airport,Barrow-In-Furness,Barrow-In-Furness,True,5,29,45,4,6,Deansgate,SP000251,35,23.0
+R00143,Dalwhinnie,Dundee,Dundee,True,1,2,3,0,4,Dundee,SP000214,4,4.0
+R00144,Stratford (London),Bishops Stortford,Bishops Stortford,True,13,68,21,12,5,Tottenham Hale,SP000704,16,14.2
+R00145,Glasgow Queen Street,Alloa,Alloa,True,3,73,20,2,6,Stirling,SP004293,19,10.7
+R00146,Gerrards Cross,London Marylebone,London Marylebone,True,1,4,9,0,9,London Marylebone,SP000217,9,9.0
+R00147,DOG,Bangor (Gwynedd),Bangor (Gwynedd),True,1,2,5,0,5,Bangor (Gwynedd),SP000218,5,5.0
+R00148,Kyle of Lochalsh,Kyle of Lochalsh,Kyle of Lochalsh,True,1,2,1,0,1,Kyle of Lochalsh,SP000219,1,1.0
+R00149,Oban,Oban,Oban,True,1,1,3,0,5,Oban,SP000220,5,5.0
+R00150,Watford High Street,London Euston,London Euston,True,1,146,15,0,15,London Euston,SP000221,15,15.0
+R00151,Stansted Airport,London Liverpool Street,London Liverpool Street,True,4,145,16,3,6,Cheshunt,SP003747,14,11.2
+R00152,Windsor & Eton Central,Slough,Slough,True,1,110,2,0,2,Slough,SP000223,2,2.0
+R00153,Kyle of Lochalsh,Carrbridge,Carrbridge,True,1,2,2,0,2,Carrbridge,SP000225,2,2.0
+R00154,Penzance,St Ives,St Ives,True,1,2,5,0,5,St Ives,SP000228,5,5.0
+R00155,High Wycombe,London Marylebone,London Marylebone,True,1,5,8,0,8,London Marylebone,SP000230,8,8.0
+R00156,Nottingham,Leicester,Leicester,True,3,33,46,2,7,Loughborough,SP002465,28,20.7
+R00157,St Ives,St Erth,St Erth,True,1,22,4,0,4,St Erth,SP000233,4,4.0
+R00158,London Marylebone,High Wycombe,High Wycombe,True,14,22,38,13,6,West Ruislip,SP000240,26,14.9
+R00159,CFS,Aberystwyth,Aberystwyth,True,1,2,6,0,6,Aberystwyth,SP000236,6,6.0
+R00160,Bangor (Gwynedd),Aberystwyth,Aberystwyth,True,2,14,7,1,5,DOG,SP000237,7,6.0
+R00161,St Erth,St Ives,St Ives,True,1,2,5,0,5,St Ives,SP000238,5,5.0
+R00162,Edinburgh Waverley,Dunblane,Dunblane,True,2,77,21,1,10,Stirling,SP004504,20,16.0
+R00163,Largs,Glasgow Central,Glasgow Central,True,2,36,15,1,10,Lochwinnoch,SP000242,15,14.0
+R00164,Glasgow Central,Gourock,Gourock,True,1,50,10,0,10,Gourock,SP000243,10,10.0
+R00165,Peterborough,Lincoln Central,Lincoln Central,True,1,2,5,0,5,Lincoln Central,SP000244,5,5.0
+R00166,Glasgow Central,Largs,Largs,True,5,74,17,4,6,Lochwinnoch,SP000245,15,13.6
+R00167,Doncaster,Lincoln Central,Lincoln Central,True,1,10,4,0,4,Lincoln Central,SP000246,4,4.0
+R00168,St Erth,St Ives,St Ives,True,1,22,4,0,4,St Ives,SP000247,4,4.0
+R00169,Dunblane,Edinburgh Waverley,Edinburgh Waverley,True,1,74,12,0,12,Edinburgh Waverley,SP000250,12,12.0
+R00170,Lincoln Central,Doncaster,Doncaster,True,1,8,4,0,4,Doncaster,SP000252,4,4.0
+R00171,Tweedbank,Edinburgh Waverley,Edinburgh Waverley,True,1,63,10,0,10,Edinburgh Waverley,SP000253,10,10.0
+R00172,St Ives,St Erth,St Erth,True,1,2,5,0,5,St Erth,SP000254,5,5.0
+R00173,Bedford,Bletchley,Bletchley,True,1,34,12,0,12,Bletchley,SP000256,12,12.0
+R00174,Shepherds Bush,Imperial Wharf,Imperial Wharf,True,1,20,4,0,4,Imperial Wharf,SP000257,4,4.0
+R00175,Edinburgh Waverley,Tweedbank,Tweedbank,True,1,61,10,0,10,Tweedbank,SP000258,10,10.0
+R00176,St Erth,St Ives,St Ives,True,1,30,3,0,3,St Ives,SP000259,3,3.0
+R00177,Imperial Wharf,Stratford (London),Stratford (London),True,3,166,30,2,5,XMB,SP000260,25,13.7
+R00178,Bletchley,Bedford,Bedford,True,1,34,12,0,12,Bedford,SP000261,12,12.0
+R00179,Edinburgh Waverley,Helensburgh Central,Helensburgh Central,True,12,96,45,11,6,Bathgate,SP000559,36,26.4
+R00180,North Berwick,Edinburgh Waverley,Edinburgh Waverley,True,2,44,8,1,7,Edinburgh Waverley,SP004436,8,7.5
+R00181,Edinburgh Waverley,North Berwick,North Berwick,True,2,36,9,1,6,Drem,SP003653,8,7.5
+R00182,St Ives,St Erth,St Erth,True,1,30,3,0,3,St Erth,SP000265,3,3.0
+R00183,Edinburgh Waverley,Glasgow Central,Glasgow Central,True,5,42,27,4,7,Kirknewton,SP004448,22,17.8
+R00184,Glasgow Central,Edinburgh Waverley,Edinburgh Waverley,True,2,32,21,1,10,Fauldhouse,SP000269,21,19.5
+R00185,Carnforth,Carnforth,Carnforth,True,1,2,2,0,4,Carnforth,SP000270,4,4.0
+R00186,Cardiff Central,Milford Haven,Milford Haven,True,2,6,21,1,16,Clarbeston Road,SP003581,19,18.5
+R00187,Birmingham New Street,Leicester,Leicester,True,8,66,28,7,8,Hinckley,SP001485,28,19.6
+R00188,Gillingham (Kent),Dartford,Dartford,True,6,12,62,5,5,Strood,SP001661,44,26.8
+R00189,Leicester,Loughborough,Loughborough,True,1,2,2,0,2,Loughborough,SP000275,2,2.0
+R00190,Wemyss Bay,Glasgow Central,Glasgow Central,True,3,62,15,2,6,Port Glasgow,SP002689,15,11.7
+R00191,Aberystwyth,Carmarthen,Carmarthen,True,1,28,4,0,4,Carmarthen,SP000277,4,4.0
+R00192,Loughborough,Leicester,Leicester,True,1,2,5,0,5,Leicester,SP000278,5,5.0
+R00193,Rochdale,Leeds,Leeds,True,2,32,12,1,7,Halifax,SP000279,12,10.5
+R00194,Grantham,Nottingham,Nottingham,True,1,3,8,0,8,Nottingham,SP000280,8,8.0
+R00195,Boston,Nottingham,Nottingham,True,1,2,13,0,13,Nottingham,SP000281,13,13.0
+R00196,Skegness,Nottingham,Nottingham,True,2,4,17,1,6,Hubberts Bridge,SP000282,17,16.5
+R00197,Skegness,Nottingham,Nottingham,True,4,24,15,3,8,Ancaster,SP000285,14,13.2
+R00198,Aberystwyth,Carmarthen,Carmarthen,True,1,4,3,0,3,Carmarthen,SP000284,3,3.0
+R00199,Balham,Brighton,Brighton,True,36,272,78,35,5,XJS,SP000639,33,22.4
+R00200,Aberystwyth,Carmarthen,Carmarthen,True,1,2,3,0,3,Carmarthen,SP000287,3,3.0
+R00201,Wembley Stadium,London Marylebone,London Marylebone,True,1,5,3,0,3,London Marylebone,SP000288,3,3.0
+R00202,Carmarthen,Aberystwyth,Aberystwyth,True,1,4,3,0,3,Aberystwyth,SP000289,3,3.0
+R00203,Lowestoft,Norwich,Norwich,True,3,36,19,2,6,Cantley,SP000290,18,12.3
+R00204,Carmarthen,Aberystwyth,Aberystwyth,True,1,28,4,0,4,Aberystwyth,SP000291,4,4.0
+R00205,Skegness,Nottingham,Nottingham,True,1,2,15,0,15,Nottingham,SP000292,15,15.0
+R00206,Blackpool North,Liverpool Lime Street,Liverpool Lime Street,True,10,64,35,9,6,XOU,SP000740,20,15.8
+R00207,Norwich,London Liverpool Street,London Liverpool Street,True,2,64,24,1,11,Shenfield,SP001251,24,20.5
+R00208,Norwich,Great Yarmouth,Great Yarmouth,True,1,34,7,0,7,Great Yarmouth,SP000300,7,7.0
+R00209,Princes Risborough,London Marylebone,London Marylebone,True,1,1,9,0,9,London Marylebone,SP000302,9,9.0
+R00210,Cromer,Norwich,Norwich,True,1,2,9,0,9,Norwich,SP000304,9,9.0
+R00211,Okehampton,XAZ,XAZ,False,1,8,3,0,3,XAZ,SP000306,3,3.0
+R00212,Hayes (Kent),London Charing Cross,London Charing Cross,True,4,150,15,3,9,Ladywell,SP000723,13,12.0
+R00213,Wigan North Western,Liverpool Lime Street,Liverpool Lime Street,True,1,2,6,0,6,Liverpool Lime Street,SP000308,6,6.0
+R00214,Leicester,Nottingham,Nottingham,True,3,30,20,2,8,XTR,SP002558,20,13.7
+R00215,Cheshunt,London Liverpool Street,London Liverpool Street,True,1,74,18,0,18,London Liverpool Street,SP000310,18,18.0
+R00216,Boston,Skegness,Skegness,True,1,2,3,0,3,Skegness,SP000314,3,3.0
+R00217,Peterborough,Horsham,Horsham,True,20,90,60,19,5,Biggleswade,SP000575,52,32.4
+R00218,Nottingham,Skegness,Skegness,True,5,16,18,4,5,Bottesford,SP000320,15,12.6
+R00219,XAZ,Okehampton,Okehampton,True,1,8,3,0,3,Okehampton,SP000317,3,3.0
+R00220,Nottingham,Skegness,Skegness,True,3,10,24,2,5,Grantham,SP001352,17,11.7
+R00221,Ashford International,XVJ,London Charing Cross,True,7,59,43,6,7,Maidstone East,SP004613,31,25.0
+R00222,Nottingham,Skegness,Skegness,True,8,14,20,7,5,Aslockton,SP000321,17,14.6
+R00223,Carmarthen,Aberystwyth,Aberystwyth,True,1,2,3,0,3,Aberystwyth,SP000322,3,3.0
+R00224,ZEL,Kenton,Kenton,True,2,306,9,1,6,Stonebridge Park,SP000438,9,7.5
+R00225,Okehampton,XCV,XCV,False,1,14,2,0,2,XCV,SP000325,2,2.0
+R00226,Banbury,London Marylebone,London Marylebone,True,1,1,16,0,16,London Marylebone,SP000331,16,16.0
+R00227,Aberystwyth,DOG,DOG,False,1,2,3,0,3,DOG,SP000332,3,3.0
+R00228,Sheffield,Scarborough,Scarborough,True,8,36,30,7,5,Doncaster,SP002726,28,18.2
+R00229,Bangor (Gwynedd),PGR,PGR,False,1,2,3,0,3,PGR,SP000335,3,3.0
+R00230,PGR,Bangor (Gwynedd),Bangor (Gwynedd),True,1,2,3,0,3,Bangor (Gwynedd),SP000336,3,3.0
+R00231,Rochdale,Leeds,Leeds,True,6,40,14,5,6,Hebden Bridge,SP001733,14,12.2
+R00232,DOG,Aberystwyth,Aberystwyth,True,1,2,3,0,3,Aberystwyth,SP000339,3,3.0
+R00233,Reading,Gatwick Airport,Gatwick Airport,True,2,6,18,1,16,Salfords,SP000340,18,17.5
+R00234,BEO,Neath,Neath,True,1,24,3,0,3,Neath,SP000341,3,3.0
+R00235,Anniesland,Glasgow Queen Street,Glasgow Queen Street,True,1,50,8,0,8,Glasgow Queen Street,SP000342,8,8.0
+R00236,London Euston,Watford High Street,Watford High Street,True,2,148,15,1,6,WJL,SP000343,15,10.5
+R00237,XCV,Okehampton,Okehampton,True,1,14,2,0,2,Okehampton,SP000344,2,2.0
+R00238,Wandsworth Common,Ore,Ore,True,5,5,53,4,8,South Croydon,SP000345,43,21.8
+R00239,Littlehampton,Balham,Balham,True,7,73,44,6,7,Worthing,SP000378,37,24.3
+R00240,Epsom,XSU,XSU,False,2,70,18,1,10,Norwood Junction,SP003033,18,16.0
+R00241,Caterham,XSU,XSU,False,2,70,17,1,9,Norwood Junction,SP003694,17,15.0
+R00242,Battersea Park,Epsom Downs,Epsom Downs,True,4,110,17,3,7,Selhurst,SP002206,16,11.0
+R00243,Battersea Park,XSU,XSU,False,1,68,14,0,14,XSU,SP000352,14,14.0
+R00244,BEO,YST,YST,False,1,4,2,0,2,YST,SP000353,2,2.0
+R00245,Neath,BEO,BEO,False,1,22,3,0,3,BEO,SP000354,3,3.0
+R00246,Stratford-upon-Avon,Leamington Spa,Leamington Spa,True,3,20,50,2,5,Claverdon,SP000355,29,21.0
+R00247,Glasgow Queen Street,Anniesland,Anniesland,True,1,50,8,0,8,Anniesland,SP000356,8,8.0
+R00248,Bognor Regis,Balham,Balham,True,2,64,29,1,11,Littlehaven,SP000946,29,24.5
+R00249,Blackburn,Rochdale,Rochdale,True,2,20,8,1,6,Littleborough,SP003687,8,7.5
+R00250,Neath,YST,YST,False,1,4,2,0,2,YST,SP000359,2,2.0
+R00251,HNY,SGQ,SGQ,False,1,12,5,0,5,SGQ,SP000360,5,5.0
+R00252,Stratford (London),Kew Gardens,Kew Gardens,True,5,321,30,4,10,Camden Road,SP000444,25,19.8
+R00253,XSU,Caterham,Caterham,True,12,187,76,11,5,Norwood Junction,SP002506,27,15.6
+R00254,Tunbridge Wells,London Charing Cross,London Charing Cross,True,5,50,22,4,5,Sevenoaks,SP002915,19,16.6
+R00255,Betws-Y-Coed,CEN,CEN,False,1,2,2,0,2,CEN,SP000365,2,2.0
+R00256,Ramsgate,SPX,Ashford International,True,6,30,46,5,8,Dover Priory,SP003664,31,21.0
+R00257,Bangor (Gwynedd),CEN,CEN,False,1,10,4,0,4,CEN,SP000367,4,4.0
+R00258,Kew Gardens,Stratford (London),Stratford (London),True,2,161,24,1,5,WJH,SP000665,24,14.5
+R00259,Exeter Central,Barnstaple,Barnstaple,True,4,21,11,3,6,Morchard Road,SP000369,11,10.0
+R00260,Leeds,Sheffield,Sheffield,True,2,72,17,1,5,Fitzwilliam,SP000370,13,11.0
+R00261,Romford,XUP,XUP,False,1,64,3,0,3,XUP,SP000371,3,3.0
+R00262,Haywards Heath,Eastbourne,Eastbourne,True,2,2,11,1,6,XRH,SP002275,11,10.5
+R00263,XUP,Romford,Romford,True,1,64,3,0,3,Romford,SP000373,3,3.0
+R00264,Barnstaple,Exeter St Davids,Exeter St Davids,True,1,2,8,0,8,Exeter St Davids,SP000374,8,8.0
+R00265,Balham,Brighton,Brighton,True,1,1,23,0,23,Brighton,SP000375,23,23.0
+R00266,Rhymney,Barry Island,Barry Island,True,7,36,31,6,5,Bargoed,SP003472,26,22.1
+R00267,Penarth,Cardiff Central,Cardiff Central,True,1,10,4,0,4,Cardiff Central,SP000379,4,4.0
+R00268,Frome,Westbury,Westbury,True,1,4,2,0,2,Westbury,SP000380,2,2.0
+R00269,Bangor (Gwynedd),Betws-Y-Coed,Betws-Y-Coed,True,1,2,3,0,3,Betws-Y-Coed,SP000381,3,3.0
+R00270,Wigan North Western,Liverpool Lime Street,Liverpool Lime Street,True,2,66,13,1,9,Roby,SP000382,13,12.5
+R00271,Brighton,Balham,Balham,True,5,107,57,4,7,Gatwick Airport,SP002168,36,31.0
+R00272,CEN,Bangor (Gwynedd),Bangor (Gwynedd),True,1,12,4,0,4,Bangor (Gwynedd),SP000384,4,4.0
+R00273,Maidenhead,Marlow,Marlow,True,1,24,5,0,5,Marlow,SP000385,5,5.0
+R00274,Marlow,Bourne End,Bourne End,True,1,28,2,0,2,Bourne End,SP000387,2,2.0
+R00275,Ayr,Stranraer,Stranraer,True,1,6,5,0,5,Stranraer,SP000388,5,5.0
+R00276,Maidenhead,Bourne End,Bourne End,True,1,28,4,0,4,Bourne End,SP000389,4,4.0
+R00277,Rochdale,Blackburn,Blackburn,True,1,20,7,0,7,Blackburn,SP000390,7,7.0
+R00278,Rhymney,Barry Island,Barry Island,True,1,2,24,0,24,Barry Island,SP000391,24,24.0
+R00279,Bourne End,Marlow,Marlow,True,1,28,2,0,2,Marlow,SP000393,2,2.0
+R00280,Maesteg,Ebbw Vale Town,Ebbw Vale Town,True,2,34,20,1,11,Cardiff Central,SP000394,20,19.5
+R00281,Porthmadog,Blaenau Ffestiniog,Blaenau Ffestiniog,True,1,20,2,0,2,Blaenau Ffestiniog,SP000395,2,2.0
+R00282,Reigate,Balham,Balham,True,3,70,15,2,6,Purley,SP001151,14,12.0
+R00283,Manchester Piccadilly,London Euston,London Euston,True,11,122,91,10,8,Stone,SP001666,44,32.5
+R00284,Leeds,Rochdale,Rochdale,True,2,38,11,1,5,Halifax,SP000399,11,8.0
+R00285,CFS,Blaenau Ffestiniog,Blaenau Ffestiniog,True,1,10,4,0,4,Blaenau Ffestiniog,SP000400,4,4.0
+R00286,Birmingham New Street,London Euston,London Euston,True,2,52,40,1,6,Coventry,SP001598,27,23.0
+R00287,Glasgow Queen Street,Oban,Oban,True,1,2,23,0,23,Oban,SP000403,23,23.0
+R00288,Troon,Troon,Troon,True,1,12,1,0,1,Troon,SP000404,1,1.0
+R00289,Airdrie,Balloch Central,Balloch Central,True,4,59,37,3,14,Hyndland,SP000405,28,24.2
+R00290,Sheffield,Manchester Piccadilly,Manchester Piccadilly,True,4,34,21,3,8,Chinley,SP001641,19,14.8
+R00291,Blaenau Ffestiniog,CFS,CFS,False,1,8,4,0,4,CFS,SP000407,4,4.0
+R00292,Porthmadog,CFS,CFS,False,1,4,3,0,3,CFS,SP000408,3,3.0
+R00293,Birmingham New Street,Hereford,Hereford,True,5,42,19,4,10,Droitwich Spa,SP002146,19,14.6
+R00294,London Blackfriars,Beckenham Junction,Beckenham Junction,True,1,6,6,0,6,Beckenham Junction,SP000410,6,6.0
+R00295,Blaenau Ffestiniog,Porthmadog,Porthmadog,True,1,24,2,0,2,Porthmadog,SP000411,2,2.0
+R00296,London St Pancras International,Corby,Corby,True,8,205,30,7,6,St Albans,SP002994,23,18.9
+R00297,Lee,London Cannon Street,London Cannon Street,True,1,4,21,0,21,London Cannon Street,SP000414,21,21.0
+R00298,Sheffield,London St Pancras International,London St Pancras International,True,5,62,30,4,5,Spondon,SP002652,30,24.4
+R00299,Nottingham,London St Pancras International,London St Pancras International,True,1,25,17,0,17,London St Pancras International,SP000417,17,17.0
+R00300,York,Newcastle,Newcastle,True,1,2,7,0,7,Newcastle,SP000418,7,7.0
+R00301,Oxford Parkway,Barnes,Barnes,True,1,2,15,0,15,Barnes,SP000419,15,15.0
+R00302,Middlesbrough,Newcastle,Newcastle,True,2,12,24,1,12,Newcastle,SP002812,24,18.0
+R00303,Hull,Sheffield,Sheffield,True,2,4,13,1,7,Doncaster,SP000454,13,12.0
+R00304,Nottingham,London St Pancras International,London St Pancras International,True,3,5,36,2,5,Loughborough,SP002674,21,16.0
+R00305,Edinburgh Waverley,Newcastle,Newcastle,True,1,14,10,0,10,Newcastle,SP000423,10,10.0
+R00306,Nunthorpe,Newcastle,Newcastle,True,2,22,16,1,5,Middlesbrough,SP000424,16,10.5
+R00307,Bridlington,Hull,Hull,True,9,27,28,8,7,Hull,SP000425,18,14.3
+R00308,Bromley North,Grove Park,Grove Park,True,1,84,3,0,3,Grove Park,SP000426,3,3.0
+R00309,CFS,Porthmadog,Porthmadog,True,1,2,3,0,3,Porthmadog,SP000427,3,3.0
+R00310,Grove Park,Bromley North,Bromley North,True,1,84,3,0,3,Bromley North,SP000429,3,3.0
+R00311,Liverpool Lime Street,Birmingham New Street,Birmingham New Street,True,6,90,41,5,6,Acton Bridge,SP001792,32,23.3
+R00312,York,Scarborough,Scarborough,True,1,32,4,0,4,Scarborough,SP000434,4,4.0
+R00313,Newcastle,Edinburgh Waverley,Edinburgh Waverley,True,2,18,10,1,6,Dunbar,SP000435,10,9.5
+R00314,Chester,London Euston,London Euston,True,1,12,20,0,20,London Euston,SP000436,20,20.0
+R00315,Stonebridge Park,Kenton,Kenton,True,1,2,4,0,4,Kenton,SP000437,4,4.0
+R00316,Manchester Piccadilly,York,York,True,6,47,26,5,9,Huddersfield,SP000593,19,15.5
+R00317,Scarborough,Sheffield,Sheffield,True,6,31,28,5,6,Bridlington,SP002990,21,18.2
+R00318,Ashington,Newcastle,Newcastle,True,2,62,8,1,6,NOP,SP000671,8,7.5
+R00319,London Kings Cross,Stevenage,Stevenage,True,12,17,48,11,6,Alexandra Palace,SP002765,29,19.8
+R00320,Newcastle,Ashington,Ashington,True,1,42,8,0,8,Ashington,SP000443,8,8.0
+R00321,Edinburgh Waverley,London Kings Cross,London Kings Cross,True,16,87,114,15,8,Morpeth,SP001876,71,39.8
+R00322,Earlsfield,Dorking,Dorking,True,3,79,17,2,9,Leatherhead,SP001376,15,13.0
+R00323,Colchester,London Liverpool Street,London Liverpool Street,True,4,4,23,3,9,Shenfield,SP000448,23,19.5
+R00324,Middlesbrough,Carlisle,Carlisle,True,7,28,25,6,7,Brockley Whins,SP002520,24,17.0
+R00325,Exeter St Davids,Barnstaple,Barnstaple,True,2,4,12,1,5,Morchard Road,SP000456,12,10.0
+R00326,Manchester Airport,York,York,True,3,4,23,2,8,Marsden,SP000453,19,15.3
+R00327,Newcastle,Morpeth,Morpeth,True,1,30,4,0,4,Morpeth,SP000455,4,4.0
+R00328,Retford,Leeds,Leeds,True,3,6,20,2,8,Sheffield,SP000458,14,12.0
+R00329,Weymouth,New Malden,New Malden,True,9,42,38,8,6,Wareham,SP002488,35,24.4
+R00330,Machynlleth,Pwllheli,Pwllheli,True,1,16,27,0,27,Pwllheli,SP000460,27,27.0
+R00331,New Malden,Weymouth,Weymouth,True,22,131,60,21,5,Basingstoke,SP001233,34,20.6
+R00332,Lincoln Central,Leeds,Leeds,True,2,34,16,1,11,Sheffield,SP000465,16,13.5
+R00333,Didcot Parkway,Banbury,Banbury,True,1,16,9,0,9,Banbury,SP000466,9,9.0
+R00334,Leeds,Nottingham,Nottingham,True,3,56,22,2,6,Sheffield,SP000467,16,11.3
+R00335,Leeds,Sheffield,Sheffield,True,1,2,13,0,13,Sheffield,SP000468,13,13.0
+R00336,Norwich,Stansted Airport,Stansted Airport,True,10,56,58,9,7,Ely,SP004518,46,26.0
+R00337,Manchester Victoria,Clitheroe,Clitheroe,True,2,4,14,1,7,Bromley Cross,SP000470,14,11.5
+R00338,Exeter Central,Barnstaple,Barnstaple,True,3,6,14,2,7,Morchard Road,SP000473,14,12.0
+R00339,Cardiff Central,Barry Island,Barry Island,True,2,16,12,1,8,Barry,SP000472,11,10.0
+R00340,Manchester Victoria,Clitheroe,Clitheroe,True,3,62,13,2,6,Bromley Cross,SP000474,13,10.0
+R00341,Reading,York,York,True,4,16,53,3,16,Birmingham New Street,SP001413,36,33.8
+R00342,Cheltenham Spa,London Paddington,London Paddington,True,3,32,19,2,6,Swindon,SP003435,19,13.0
+R00343,Ramsgate,XVJ,Faversham,True,10,50,46,9,10,Faversham,SP004587,38,26.5
+R00344,Birmingham New Street,Nottingham,Nottingham,True,7,40,40,6,5,XKI,SP000480,33,16.9
+R00345,Dover Priory,XVJ,Faversham,True,5,50,39,4,11,Faversham,SP004588,39,29.0
+R00346,Plymouth,Penzance,Penzance,True,1,12,14,0,14,Penzance,SP000482,14,14.0
+R00347,Nottingham,Cardiff Central,Cardiff Central,True,7,39,52,6,6,Derby,SP003381,33,21.7
+R00348,Bristol Temple Meads,Warminster,Warminster,True,7,30,36,6,9,Westbury,SP003409,24,13.9
+R00349,Manchester Piccadilly,Chester,Chester,True,1,4,8,0,8,Chester,SP000485,8,8.0
+R00350,Exeter St Davids,Penzance,Penzance,True,7,18,26,6,8,Plymouth,SP002357,25,20.9
+R00351,Plymouth,Penzance,Penzance,True,1,2,18,0,18,Penzance,SP000488,18,18.0
+R00352,Chester,Manchester Piccadilly,Manchester Piccadilly,True,2,4,8,1,6,Newton-Le-Willows,SP001500,8,7.5
+R00353,Stranraer,Ayr,Ayr,True,3,10,14,2,5,Ayr,SP000490,14,9.3
+R00354,Glasgow Central,Plymouth,Plymouth,True,1,4,63,0,63,Plymouth,SP000492,63,63.0
+R00355,Kilmarnock,Girvan,Girvan,True,3,16,9,2,5,Ayr,SP000497,9,7.0
+R00356,Perth,Edinburgh Waverley,Edinburgh Waverley,True,1,4,16,0,16,Edinburgh Waverley,SP000499,16,16.0
+R00357,Leven,Edinburgh Waverley,Edinburgh Waverley,True,1,32,16,0,16,Edinburgh Waverley,SP000500,16,16.0
+R00358,Leeds,York,York,True,6,41,19,5,5,Micklefield,SP002530,16,9.5
+R00359,Sheffield,Lincoln Central,Lincoln Central,True,3,10,12,2,7,Worksop,SP002934,11,8.7
+R00360,York,Leeds,Leeds,True,3,34,22,2,7,Leeds,SP004276,22,14.3
+R00361,Bradford Forster Square,London Kings Cross,London Kings Cross,True,1,14,23,0,23,London Kings Cross,SP000506,23,23.0
+R00362,Hereford,Birmingham New Street,Birmingham New Street,True,7,42,46,6,8,Worcester Foregate Street,SP002309,32,21.3
+R00363,Whitehaven,Corkickle,Corkickle,True,1,18,2,0,2,Corkickle,SP000509,2,2.0
+R00364,Princes Risborough,Aylesbury,Aylesbury,True,1,29,4,0,4,Aylesbury,SP000510,4,4.0
+R00365,Skipton,London Kings Cross,London Kings Cross,True,1,2,24,0,24,London Kings Cross,SP000511,24,24.0
+R00366,Corkickle,Whitehaven,Whitehaven,True,1,18,2,0,2,Whitehaven,SP000512,2,2.0
+R00367,Sheffield,Leeds,Leeds,True,1,32,5,0,5,Leeds,SP000513,5,5.0
+R00368,Evesham,Oxford,Oxford,True,1,2,8,0,8,Oxford,SP000514,8,8.0
+R00369,Leeds,Sheffield,Sheffield,True,2,34,41,1,5,Sheffield,SP001644,41,23.0
+R00370,Leeds,London Kings Cross,London Kings Cross,True,3,36,35,2,10,Huntingdon,SP001054,32,24.7
+R00371,Exmouth,Paignton,Paignton,True,6,54,48,5,11,Exeter St Davids,SP003514,27,20.2
+R00372,Paignton,Exmouth,Exmouth,True,17,82,81,16,7,Dawlish Warren,SP001556,44,20.1
+R00373,Lincoln Central,London Kings Cross,London Kings Cross,True,1,12,16,0,16,London Kings Cross,SP000519,16,16.0
+R00374,Leeds,Skipton,Skipton,True,2,58,23,1,9,Skipton,SP000520,23,16.0
+R00375,Springburn,Milngavie,Milngavie,True,3,66,29,2,10,Hyndland,SP002027,24,17.3
+R00376,Whitehaven,Millom,Millom,True,1,2,10,0,10,Millom,SP000524,10,10.0
+R00377,Bradford Forster Square,Ilkley,Ilkley,True,1,54,9,0,9,Ilkley,SP000525,9,9.0
+R00378,Dalmuir,Motherwell,Motherwell,True,8,124,57,7,8,Partick,SP003916,30,23.2
+R00379,Bristol Temple Meads,Gloucester,Gloucester,True,2,6,43,1,5,Gloucester,SP001522,43,24.0
+R00380,Aylesbury Vale Parkway,Aylesbury,Aylesbury,True,1,4,2,0,2,Aylesbury,SP000530,2,2.0
+R00381,Oxford,Worcester Shrub Hill,Worcester Shrub Hill,True,1,2,9,0,9,Worcester Shrub Hill,SP000532,9,9.0
+R00382,Queens Park (London),Kenton,Kenton,True,4,350,9,3,5,Stonebridge Park,SP001318,8,6.8
+R00383,Glasgow Central,Carlisle,Carlisle,True,5,32,21,4,6,Kilmarnock,SP000535,15,10.8
+R00384,London Fenchurch Street,Grays,Grays,True,4,92,16,3,7,Grays,SP000594,16,11.8
+R00385,Shrewsbury,Swansea,Swansea,True,2,10,34,1,32,Llanelli,SP000538,34,33.0
+R00386,Manchester Piccadilly,Hadfield,Hadfield,True,1,2,5,0,5,Hadfield,SP000539,5,5.0
+R00387,Worcester Shrub Hill,London Paddington,London Paddington,True,4,8,31,3,7,Kingham,SP003441,24,19.8
+R00388,Barnstaple,Exeter St Davids,Exeter St Davids,True,2,2,11,1,10,Exeter St Davids,SP004373,11,10.5
+R00389,Aylesbury,Aylesbury Vale Parkway,Aylesbury Vale Parkway,True,1,2,2,0,2,Aylesbury Vale Parkway,SP000542,2,2.0
+R00390,Tring,London Euston,London Euston,True,3,10,12,2,5,Apsley,SP001287,12,11.3
+R00391,Millom,Workington,Workington,True,1,2,13,0,13,Workington,SP000544,13,13.0
+R00392,Exeter St Davids,Exmouth,Exmouth,True,1,4,7,0,7,Exmouth,SP000545,7,7.0
+R00393,Glasgow Central,Paisley Canal,Paisley Canal,True,1,62,7,0,7,Paisley Canal,SP000546,7,7.0
+R00394,Maryport,Sellafield,Sellafield,True,2,4,9,1,6,Whitehaven,SP000547,9,7.5
+R00395,Shrewsbury,Birmingham New Street,Birmingham New Street,True,3,32,18,2,7,Cosford,SP002065,18,15.0
+R00396,Leamington Spa,Birmingham Moor Street,Birmingham Moor Street,True,3,8,28,2,6,Dorridge,SP004102,28,16.3
+R00397,Leamington Spa,Stratford-upon-Avon,Stratford-upon-Avon,True,1,15,8,0,8,Stratford-upon-Avon,SP000561,8,8.0
+R00398,Sutton (London),St Albans,St Albans,True,4,72,35,3,16,London Blackfriars,SP001203,35,32.2
+R00399,Littlehampton,Portsmouth & Southsea,Portsmouth & Southsea,True,2,3,24,1,11,Havant,SP000563,21,17.5
+R00400,Stratford-upon-Avon,Banbury,Banbury,True,1,2,6,0,6,Banbury,SP000564,6,6.0
+R00401,Weston-Super-Mare,London Paddington,London Paddington,True,1,12,17,0,17,London Paddington,SP000566,17,17.0
+R00402,Dover Priory,Faversham,Faversham,True,1,2,8,0,8,Faversham,SP000567,8,8.0
+R00403,East Croydon,XSU,Watford Junction,True,3,100,25,2,5,Streatham Common,SP001637,16,12.0
+R00404,York,Leeds,Leeds,True,1,2,6,0,6,Leeds,SP000569,6,6.0
+R00405,Bicester North,Birmingham Moor Street,Birmingham Moor Street,True,1,2,13,0,13,Birmingham Moor Street,SP000571,13,13.0
+R00406,Aylesbury,Princes Risborough,Princes Risborough,True,1,29,4,0,4,Princes Risborough,SP000572,4,4.0
+R00407,Huddersfield,Bradford Interchange,Bradford Interchange,True,1,2,5,0,5,Bradford Interchange,SP000574,5,5.0
+R00408,Manchester Victoria,Southport,Southport,True,1,2,15,0,15,Southport,SP000577,15,15.0
+R00409,Manchester Piccadilly,Newcastle,Newcastle,True,14,82,40,13,7,Huddersfield,SP003072,24,18.7
+R00410,Crewe,Stafford,Stafford,True,1,34,7,0,7,Stafford,SP000580,7,7.0
+R00411,Lewes,Seaford,Seaford,True,1,2,5,0,6,Seaford,SP000582,6,6.0
+R00412,Oxted,Crowborough,Crowborough,True,1,1,8,0,8,Crowborough,SP000583,8,8.0
+R00413,XVJ,Ashford International,Ashford International,True,15,135,72,14,8,XLY,SP000964,34,26.9
+R00414,Faversham,Dover Priory,Dover Priory,True,1,4,11,0,11,Dover Priory,SP000585,11,11.0
+R00415,Herne Hill,London Blackfriars,London Blackfriars,True,1,2,4,0,4,London Blackfriars,SP000586,4,4.0
+R00416,St Albans,Sutton (London),Sutton (London),True,3,132,32,2,16,Herne Hill,SP001608,28,22.3
+R00417,Portsmouth Harbour,New Malden,New Malden,True,5,38,18,4,5,Petersfield,SP003038,17,14.0
+R00418,Manchester Airport,Holyhead,Holyhead,True,4,34,31,3,14,Chester,SP002828,31,23.5
+R00419,Kings Lynn,Downham Market,Downham Market,True,1,2,3,0,3,Downham Market,SP000592,3,3.0
+R00420,Downham Market,Kings Lynn,Kings Lynn,True,1,5,3,0,3,Kings Lynn,SP000595,3,3.0
+R00421,Wrexham General,Crewe,Crewe,True,1,30,3,0,3,Crewe,SP000596,3,3.0
+R00422,RDZ,Gatwick Airport,Gatwick Airport,True,7,40,22,6,9,Ash,SP002293,22,19.3
+R00423,Downham Market,Ely,Ely,True,1,2,3,0,3,Ely,SP000598,3,3.0
+R00424,Ely,Downham Market,Downham Market,True,1,3,3,0,3,Downham Market,SP000600,3,3.0
+R00425,Leamington Spa,Birmingham Moor Street,Birmingham Moor Street,True,1,4,9,0,9,Birmingham Moor Street,SP000601,9,9.0
+R00426,Glasgow Central,Wemyss Bay,Wemyss Bay,True,4,76,21,3,5,Paisley Gilmour Street,SP002323,16,14.0
+R00427,Gatwick Airport,RDZ,RDZ,False,2,2,21,1,11,Guildford,SP004101,21,19.0
+R00428,Bristol Temple Meads,Bath Spa,Bath Spa,True,1,2,4,0,4,Bath Spa,SP000608,4,4.0
+R00429,Aylesbury,London Marylebone,London Marylebone,True,3,6,19,2,7,Beaconsfield,SP000650,18,16.7
+R00430,Severn Beach,Bristol Temple Meads,Bristol Temple Meads,True,3,44,30,2,12,Bristol Temple Meads,SP004524,23,18.0
+R00431,Southampton Central,Poole,Poole,True,4,24,22,3,11,Bournemouth,SP001835,22,15.0
+R00432,Wakefield Kirkgate,Manchester Piccadilly,Manchester Piccadilly,True,1,1,14,0,14,Manchester Piccadilly,SP000616,14,14.0
+R00433,Newcastle,Ashington,Ashington,True,1,22,7,0,7,Ashington,SP000618,7,7.0
+R00434,London Fenchurch Street,Shoeburyness,Shoeburyness,True,3,96,16,2,8,Pitsea,SP000619,16,14.7
+R00435,Aylesbury,London Marylebone,London Marylebone,True,1,2,12,0,12,London Marylebone,SP000621,12,12.0
+R00436,Faversham,Ramsgate,Ramsgate,True,5,16,62,4,10,Ramsgate,SP003263,42,28.6
+R00437,XVJ,Gillingham (Kent),Gillingham (Kent),True,3,42,42,2,9,XMU,SP003609,35,27.0
+R00438,Metrocentre,Newcastle,Newcastle,True,1,6,3,0,3,Newcastle,SP000624,3,3.0
+R00439,Salisbury,Bristol Temple Meads,Bristol Temple Meads,True,1,16,12,0,12,Bristol Temple Meads,SP000625,12,12.0
+R00440,Basingstoke,New Malden,New Malden,True,5,58,16,4,5,Farnborough Main,SP000626,13,10.2
+R00441,Nottingham,Leeds,Leeds,True,4,38,28,3,5,Chesterfield,SP003705,23,12.0
+R00442,Redruth,Redruth,Redruth,True,1,58,1,0,1,Redruth,SP000629,1,1.0
+R00443,Darlington,Newcastle,Newcastle,True,1,2,4,0,4,Newcastle,SP000630,4,4.0
+R00444,London Fenchurch Street,Southend Central,Southend Central,True,5,80,19,4,7,Grays,SP000632,19,12.6
+R00445,Bodmin Parkway,PDT,PDT,False,1,26,4,0,4,PDT,SP000633,4,4.0
+R00446,Leamington Spa,Birmingham Moor Street,Birmingham Moor Street,True,1,2,9,0,9,Birmingham Moor Street,SP000635,9,9.0
+R00447,PDT,Bodmin Parkway,Bodmin Parkway,True,1,34,4,0,4,Bodmin Parkway,SP000636,4,4.0
+R00448,Bicester Village,Oxford,Oxford,True,1,2,3,0,3,Oxford,SP000637,3,3.0
+R00449,Scarborough,Leeds,Leeds,True,5,8,23,4,5,Church Fenton,SP003531,19,15.8
+R00450,Scarborough,York,York,True,1,28,4,0,4,York,SP000641,4,4.0
+R00451,Eastbourne,Balham,Balham,True,4,31,22,3,6,Lewes,SP004505,21,18.8
+R00452,Balham,Reigate,Reigate,True,3,73,40,2,6,XJS,SP003454,35,20.7
+R00453,York,Manchester Piccadilly,Manchester Piccadilly,True,3,34,18,2,5,Wakefield Kirkgate,SP003083,18,12.7
+R00454,Liverpool Lime Street,Wigan North Western,Wigan North Western,True,8,113,39,7,6,Huyton,SP000795,23,16.4
+R00455,Penzance,Plymouth,Plymouth,True,13,46,104,12,11,Liskeard,SP001628,73,27.1
+R00456,Manchester Piccadilly,York,York,True,1,2,13,0,13,York,SP000656,13,13.0
+R00457,Barrow-In-Furness,Manchester Airport,Manchester Airport,True,8,30,33,7,5,Cark,SP004592,31,20.1
+R00458,Earlsfield,Woking,Woking,True,2,77,12,1,11,Woking,SP001513,12,11.5
+R00459,Lincoln Central,Crewe,Crewe,True,4,10,43,3,5,Newark Castle,SP000662,26,21.2
+R00460,Bridlington,York,York,True,4,10,18,3,8,Hull,SP003555,17,13.5
+R00461,Gravesend,Maidstone West,Maidstone West,True,1,2,6,0,6,Maidstone West,SP000664,6,6.0
+R00462,Leeds,Scarborough,Scarborough,True,1,2,7,0,7,Scarborough,SP000669,7,7.0
+R00463,Carlisle,Newcastle,Newcastle,True,1,16,10,0,10,Newcastle,SP000674,10,10.0
+R00464,Inverness,Edinburgh Waverley,Edinburgh Waverley,True,6,14,53,5,5,Dalwhinnie,SP001006,49,21.3
+R00465,Newcastle,London Kings Cross,London Kings Cross,True,10,50,96,9,6,York,SP001667,50,34.2
+R00466,Manchester Piccadilly,Redcar Central,Redcar Central,True,3,3,46,2,13,Mirfield,SP000706,33,27.3
+R00467,Glasgow Queen Street,Dundee,Dundee,True,16,73,41,15,5,Stirling,SP004298,25,16.1
+R00468,York,Manchester Piccadilly,Manchester Piccadilly,True,3,6,56,2,5,Leeds,SP001648,45,25.0
+R00469,Gillingham (Kent),XVJ,London Cannon Street,True,6,52,37,5,5,Sole Street,SP000682,25,20.5
+R00470,Glasgow Queen Street,Edinburgh Waverley,Edinburgh Waverley,True,3,94,43,2,9,Edinburgh Waverley,SP003542,40,29.7
+R00471,Princes Risborough,London Marylebone,London Marylebone,True,2,5,12,1,5,Gerrards Cross,SP002794,12,11.0
+R00472,Glasgow Central,Edinburgh Waverley,Edinburgh Waverley,True,1,22,9,0,9,Edinburgh Waverley,SP000686,9,9.0
+R00473,Newcastle,Manchester Piccadilly,Manchester Piccadilly,True,7,36,44,6,7,York,SP003042,32,22.9
+R00474,Aviemore,Aviemore,Aviemore,True,1,2,1,0,1,Aviemore,SP000690,1,1.0
+R00475,Kyle of Lochalsh,Kyle of Lochalsh,Kyle of Lochalsh,True,1,4,1,0,2,Kyle of Lochalsh,SP000691,2,2.0
+R00476,Aviemore,Dundee,Dundee,True,1,1,14,0,14,Dundee,SP000693,14,14.0
+R00477,Harrogate,London Kings Cross,London Kings Cross,True,1,14,23,0,23,London Kings Cross,SP000695,23,23.0
+R00478,Elgin,Kyle of Lochalsh,Kyle of Lochalsh,True,1,2,5,0,5,Kyle of Lochalsh,SP000699,5,5.0
+R00479,Gerrards Cross,London Marylebone,London Marylebone,True,1,2,7,0,7,London Marylebone,SP000703,7,7.0
+R00480,Milngavie,Springburn,Springburn,True,10,88,56,9,7,Partick,SP003909,29,21.2
+R00481,Sudbury Suffolk,Marks Tey,Marks Tey,True,1,36,4,0,4,Marks Tey,SP000709,4,4.0
+R00482,Chesterfield,Leeds,Leeds,True,1,2,9,0,9,Leeds,SP000710,9,9.0
+R00483,Marks Tey,Sudbury Suffolk,Sudbury Suffolk,True,1,36,4,0,4,Sudbury Suffolk,SP000711,4,4.0
+R00484,Ipswich,Cambridge,Cambridge,True,3,38,17,2,6,Bury St Edmunds,SP002716,14,10.0
+R00485,Doncaster,London Kings Cross,London Kings Cross,True,3,4,29,2,7,Huntingdon,SP001072,29,25.0
+R00486,Leeds,Saltburn,Saltburn,True,3,5,26,2,5,York,SP000915,18,12.7
+R00487,Morecambe,Leeds,Leeds,True,1,10,17,0,17,Leeds,SP000720,17,17.0
+R00488,Maidstone East,London Charing Cross,London Charing Cross,True,1,38,14,0,14,London Charing Cross,SP000721,14,14.0
+R00489,Ashford International,London Charing Cross,London Charing Cross,True,1,2,17,0,17,London Charing Cross,SP000722,17,17.0
+R00490,Basingstoke,Reading,Reading,True,1,74,6,0,6,Reading,SP000724,6,6.0
+R00491,London Cannon Street,Dartford,Dartford,True,5,142,44,4,5,Lewisham,SP001142,26,19.8
+R00492,Ipswich,Lowestoft,Lowestoft,True,2,30,19,1,12,Lowestoft,SP004386,19,15.5
+R00493,Colchester,Ipswich,Ipswich,True,1,2,3,0,3,Ipswich,SP000727,3,3.0
+R00494,Skipton,Leeds,Leeds,True,4,126,13,3,8,Shipley,SP000728,11,10.0
+R00495,Leeds,Nottingham,Nottingham,True,1,2,13,0,13,Nottingham,SP000729,13,13.0
+R00496,Berwick-Upon-Tweed,London Kings Cross,London Kings Cross,True,1,2,27,0,27,London Kings Cross,SP000730,27,27.0
+R00497,London Charing Cross,Hayes (Kent),Hayes (Kent),True,1,66,13,0,13,Hayes (Kent),SP000732,13,13.0
+R00498,Bournemouth,Manchester Piccadilly,Manchester Piccadilly,True,2,28,42,1,27,Birmingham New Street,SP000733,42,34.5
+R00499,Felixstowe,Ipswich,Ipswich,True,1,36,5,0,5,Ipswich,SP000734,5,5.0
+R00500,Moorfields,Chester,Chester,True,1,2,18,0,18,Chester,SP000735,18,18.0
+R00501,Ipswich,Felixstowe,Felixstowe,True,1,36,5,0,5,Felixstowe,SP000736,5,5.0
+R00502,Hooton,Chester,Chester,True,2,4,21,1,27,Hooton,SP000738,30,30.0
+R00503,Eastbourne,Ashford International,Ashford International,True,2,3,20,1,12,Hastings,SP000739,20,16.0
+R00504,Oxford,Reading,Reading,True,1,2,6,0,6,Reading,SP000741,6,6.0
+R00505,Chester,Chester,Chester,True,2,116,18,1,18,XLV,SP000742,33,25.5
+R00506,Corby,London St Pancras International,London St Pancras International,True,2,68,19,1,5,Flitwick,SP001963,19,16.0
+R00507,Newcastle,London Kings Cross,London Kings Cross,True,1,2,23,0,23,London Kings Cross,SP000744,23,23.0
+R00508,Blackpool North,Manchester Airport,Manchester Airport,True,3,41,22,2,9,Chorley,SP003724,22,20.7
+R00509,Cambridge,Ipswich,Ipswich,True,2,36,12,1,10,Ipswich,SP002708,12,11.0
+R00510,Gospel Oak,Barking Riverside,Barking Riverside,True,1,136,14,0,14,Barking Riverside,SP000748,14,14.0
+R00511,Ellesmere Port,Ellesmere Port,Ellesmere Port,True,3,72,21,2,20,Birkenhead Hamilton Square,SP000824,33,28.7
+R00512,Manchester Piccadilly,Chester,Chester,True,1,37,16,0,16,Chester,SP000751,16,16.0
+R00513,Matlock,Lincoln Central,Lincoln Central,True,7,38,34,6,5,Ambergate,SP004172,30,20.4
+R00514,XVJ,Orpington,Orpington,True,3,150,53,2,12,XLY,SP003720,38,26.7
+R00515,Derby,Matlock,Matlock,True,1,2,8,0,8,Matlock,SP000755,8,8.0
+R00516,London Charing Cross,Dartford,Dartford,True,3,72,27,2,5,Blackheath,SP002505,19,15.7
+R00517,Ore,Balham,Balham,True,13,66,36,12,5,Bexhill,SP000758,29,21.2
+R00518,Guildford,HWX,HWX,False,1,44,3,0,3,HWX,SP000762,3,3.0
+R00519,Chester,Manchester Piccadilly,Manchester Piccadilly,True,3,41,18,2,15,Stockport,SP002469,18,16.3
+R00520,Rose Hill Marple,Manchester Piccadilly,Manchester Piccadilly,True,4,40,10,3,6,Guide Bridge,SP000764,10,9.0
+R00521,Windermere,Oxenholme Lake District,Oxenholme Lake District,True,3,32,19,2,5,Oxenholme Lake District,SP000765,19,10.7
+R00522,London Charing Cross,Hayes (Kent),Hayes (Kent),True,2,4,20,1,5,New Beckenham,SP003200,18,12.5
+R00523,Okehampton,BUA,BUA,False,1,10,3,0,3,BUA,SP000767,3,3.0
+R00524,Ashford International,London Charing Cross,London Charing Cross,True,2,4,18,1,12,XPY,SP000770,16,15.5
+R00525,Tonbridge,London Charing Cross,London Charing Cross,True,2,3,18,1,6,XPE,SP000771,15,14.0
+R00526,Dartford,London Cannon Street,London Cannon Street,True,4,72,22,3,10,Charlton,SP000773,16,15.5
+R00527,Manchester Piccadilly,Crewe,Crewe,True,5,40,15,4,6,Heald Green,SP002950,15,11.6
+R00528,Ashford International,XVJ,XVJ,False,1,1,21,0,21,XVJ,SP000775,21,21.0
+R00529,Leeds,Knottingley,Knottingley,True,1,34,8,0,8,Knottingley,SP000776,8,8.0
+R00530,Brighton,Seaford,Seaford,True,9,108,27,8,5,Lewes,SP000777,24,14.8
+R00531,Chathill,Newcastle,Newcastle,True,1,4,9,0,9,Newcastle,SP000778,9,9.0
+R00532,Knottingley,Leeds,Leeds,True,2,32,8,1,7,Wakefield Westgate,SP000781,8,7.5
+R00533,BUA,Okehampton,Okehampton,True,1,10,2,0,2,Okehampton,SP000782,2,2.0
+R00534,Morpeth,Newcastle,Newcastle,True,1,32,4,0,4,Newcastle,SP000785,4,4.0
+R00535,Epsom Downs,Battersea Park,Battersea Park,True,2,70,16,1,8,West Croydon,SP000786,16,12.0
+R00536,Gravesend,London Charing Cross,London Charing Cross,True,4,80,33,3,8,XRT,SP000788,22,20.5
+R00537,Norwich,Sheringham,Sheringham,True,3,34,11,2,6,North Walsham,SP000790,11,10.0
+R00538,CPG,BWR,BWR,False,1,30,4,0,4,BWR,SP000793,4,4.0
+R00539,Minster,XVJ,XVJ,False,1,2,30,0,30,XVJ,SP000794,30,30.0
+R00540,London Paddington,Heathrow Terminal 4 Rail,Heathrow Terminal 4 Rail,True,2,3,7,1,5,Heathrow Terminals 1-2-3 Rail,SP000796,6,6.0
+R00541,Sheringham,Norwich,Norwich,True,1,4,9,0,9,Norwich,SP000797,9,9.0
+R00542,Folkestone Central,XVJ,XVJ,False,1,2,28,0,28,XVJ,SP000798,28,28.0
+R00543,Sheringham,Norwich,Norwich,True,1,22,11,0,11,Norwich,SP000800,11,11.0
+R00544,Sheringham,Norwich,Norwich,True,1,2,10,0,10,Norwich,SP000802,10,10.0
+R00545,Sheringham,Norwich,Norwich,True,1,2,8,0,8,Norwich,SP000803,8,8.0
+R00546,APN,SHZ,Sunderland,True,2,160,18,1,13,Sunderland,SP000804,18,15.5
+R00547,Sheringham,Norwich,Norwich,True,1,4,7,0,7,Norwich,SP000805,7,7.0
+R00548,Moreton-In-Marsh,BWR,BWR,False,1,4,3,0,3,BWR,SP000807,3,3.0
+R00549,Sheringham,Norwich,Norwich,True,1,2,6,0,6,Norwich,SP000808,6,6.0
+R00550,Penzance,London Paddington,London Paddington,True,5,19,62,4,10,Liskeard,SP002867,52,39.4
+R00551,Headbolt Lane,Liverpool Central,Liverpool Central,True,1,128,8,0,8,Liverpool Central,SP000810,8,8.0
+R00552,Chester,Hooton,Hooton,True,1,2,4,0,4,Hooton,SP000811,4,4.0
+R00553,Liverpool Central,Headbolt Lane,Headbolt Lane,True,1,126,8,0,8,Headbolt Lane,SP000812,8,8.0
+R00554,Fishguard Harbour,RSB,RSB,False,1,5,2,0,2,RSB,SP000813,2,2.0
+R00555,RSB,Fishguard Harbour,Fishguard Harbour,True,1,4,2,0,2,Fishguard Harbour,SP000815,2,2.0
+R00556,SHZ,APN,APN,False,3,187,18,2,16,SGH,SP000817,18,17.0
+R00557,Liverpool Central,Southport,Southport,True,1,142,17,0,17,Southport,SP000818,17,17.0
+R00558,Rock Ferry,Ellesmere Port,Ellesmere Port,True,1,2,18,0,23,Ellesmere Port,SP000819,23,23.0
+R00559,Cardiff Central,Pembroke Dock,Pembroke Dock,True,5,30,36,4,5,Bridgend,SP000820,30,15.8
+R00560,BWR,CPG,CPG,False,1,30,4,0,4,CPG,SP000822,4,4.0
+R00561,Shrewsbury,Chester,Chester,True,3,8,14,2,6,Chester,SP002835,14,10.7
+R00562,Manchester Piccadilly,Crewe,Crewe,True,5,72,58,4,5,Cheadle Hulme,SP003145,49,18.8
+R00563,Hooton,Ellesmere Port,Ellesmere Port,True,1,2,4,0,4,Ellesmere Port,SP000826,4,4.0
+R00564,ZHS,ZUM,ZUM,False,2,6,6,1,7,ZTU,SP000827,8,8.0
+R00565,Chester,Liverpool Lime Street,Liverpool Lime Street,True,2,4,9,1,5,ALE,SP003604,9,8.0
+R00566,Stratford (London),Meridian Water,Meridian Water,True,1,68,6,0,6,Meridian Water,SP000829,6,6.0
+R00567,ZET,ZUM,ZUM,False,1,4,5,0,8,ZUM,SP000830,8,8.0
+R00568,Holyhead,Manchester Airport,Manchester Airport,True,4,32,30,3,15,Chester,SP002839,30,23.0
+R00569,Meridian Water,Stratford (London),Stratford (London),True,1,68,6,0,6,Stratford (London),SP000832,6,6.0
+R00570,Penarth,Coryton,Coryton,True,2,112,15,1,5,Cardiff Queen Street,SP001330,11,10.0
+R00571,Aberystwyth,Birmingham International,Birmingham International,True,4,32,32,3,6,Machynlleth,SP000837,32,18.0
+R00572,REG,SHZ,SHZ,False,1,12,17,0,17,SHZ,SP000838,17,17.0
+R00573,Coryton,Penarth,Penarth,True,2,66,11,1,8,Cardiff Central,SP000841,11,9.5
+R00574,Edinburgh Waverley,Leven,Leven,True,3,62,17,2,6,Inverkeithing,SP003396,13,11.0
+R00575,XSU,Battersea Park,Battersea Park,True,6,83,34,5,7,Sydenham,SP003838,18,14.3
+R00576,BWR,Moreton-In-Marsh,Moreton-In-Marsh,True,1,6,3,0,3,Moreton-In-Marsh,SP000844,3,3.0
+R00577,Newcastle,Metrocentre,Metrocentre,True,1,4,3,0,3,Metrocentre,SP000845,3,3.0
+R00578,Saltburn,York,York,True,3,6,39,2,10,Thirsk,SP000846,26,20.3
+R00579,Llandudno Junction,Birmingham International,Birmingham International,True,6,16,47,5,8,Chester,SP000847,27,17.8
+R00580,St Ives,Penzance,Penzance,True,1,2,5,0,5,Penzance,SP000849,5,5.0
+R00581,Birmingham New Street,Aberystwyth,Aberystwyth,True,3,6,46,2,6,Wolverhampton,SP003346,28,25.7
+R00582,Plymouth,Edinburgh Waverley,Edinburgh Waverley,True,19,48,115,18,8,Exeter St Davids,SP001626,74,38.1
+R00583,Didcot Parkway,Oxford,Oxford,True,3,22,20,2,5,Oxford,SP002407,15,10.0
+R00584,Truro,Falmouth Docks,Falmouth Docks,True,1,44,6,0,6,Falmouth Docks,SP000854,6,6.0
+R00585,Oxford,Banbury,Banbury,True,1,4,6,0,6,Banbury,SP000855,6,6.0
+R00586,Newcastle,Darlington,Darlington,True,1,2,4,0,4,Darlington,SP000856,4,4.0
+R00587,Wilmslow,Manchester Piccadilly,Manchester Piccadilly,True,2,8,25,1,9,Manchester Piccadilly,SP003672,25,17.0
+R00588,Crewe,Manchester Piccadilly,Manchester Piccadilly,True,1,28,14,0,14,Manchester Piccadilly,SP000861,14,14.0
+R00589,Crewe,London Euston,London Euston,True,1,2,21,0,21,London Euston,SP000864,21,21.0
+R00590,Holyhead,Cardiff Central,Cardiff Central,True,5,19,48,4,7,Bangor (Gwynedd),SP002840,35,26.2
+R00591,Truro,Falmouth Docks,Falmouth Docks,True,1,16,5,0,5,Falmouth Docks,SP000866,5,5.0
+R00592,Cardiff Central,Holyhead,Holyhead,True,12,37,52,11,5,Abergavenny,SP002902,33,20.7
+R00593,Caerphilly,Penarth,Penarth,True,3,54,16,2,6,Cardiff Central,SP004274,14,9.7
+R00594,Cardiff Central,Treherbert,Treherbert,True,3,75,25,2,9,Pontypridd,SP003693,19,14.3
+R00595,Harwich International,HVH,HVH,False,1,5,2,0,2,HVH,SP000872,2,2.0
+R00596,HVH,Harwich International,Harwich International,True,1,5,2,0,2,Harwich International,SP000874,2,2.0
+R00597,Woking,Alton,Alton,True,1,6,7,0,7,Alton,SP000876,7,7.0
+R00598,New Malden,Alton,Alton,True,1,59,12,0,12,Alton,SP000879,12,12.0
+R00599,Alton,New Malden,New Malden,True,6,66,14,5,7,Woking,SP001750,13,11.0
+R00600,Carmarthen,London Paddington,London Paddington,True,5,20,84,4,6,Llanelli,SP000884,37,27.2
+R00601,Ebbw Vale Town,Maesteg,Maesteg,True,5,65,20,4,8,Pye Corner,SP000886,20,13.4
+R00602,Crewe,Birmingham New Street,Birmingham New Street,True,4,6,32,3,5,Wolverhampton,SP001804,28,15.2
+R00603,London Blackfriars,Beckenham Junction,Beckenham Junction,True,1,4,9,0,9,Beckenham Junction,SP000893,9,9.0
+R00604,Barnstaple,Exeter Central,Exeter Central,True,3,8,16,2,8,Crediton,SP000899,15,11.7
+R00605,Barry Island,Bargoed,Bargoed,True,7,90,26,6,9,Cardiff Central,SP001134,26,18.9
+R00606,Barnstaple,Exeter Central,Exeter Central,True,1,10,10,0,10,Exeter Central,SP000901,10,10.0
+R00607,Barnstaple,Exeter Central,Exeter Central,True,1,2,14,0,14,Exeter Central,SP000902,14,14.0
+R00608,Slade Green,London Cannon Street,London Cannon Street,True,1,12,14,0,14,London Cannon Street,SP000903,14,14.0
+R00609,Barnstaple,Exeter Central,Exeter Central,True,2,6,21,1,7,Crediton,SP000913,20,14.5
+R00610,London Charing Cross,Sevenoaks,Sevenoaks,True,8,150,45,7,6,Hither Green,SP003156,27,18.0
+R00611,Maidstone East,Ashford International,Ashford International,True,1,2,7,0,7,Ashford International,SP000910,7,7.0
+R00612,Barnstaple,Exeter Central,Exeter Central,True,1,2,13,0,13,Exeter Central,SP000911,13,13.0
+R00613,Newcastle,Chathill,Chathill,True,1,2,9,0,9,Chathill,SP000912,9,9.0
+R00614,Leeds,York,York,True,3,72,14,2,8,Harrogate,SP000914,14,10.7
+R00615,LSM,Oban,Oban,True,1,2,2,0,2,Oban,SP000916,2,2.0
+R00616,New Malden,Alton,Alton,True,1,2,10,0,10,Alton,SP000917,10,10.0
+R00617,Dartford,London Charing Cross,London Charing Cross,True,2,72,17,1,10,Lewisham,SP003012,14,13.5
+R00618,Penrith,KWK,KWK,False,1,58,2,0,2,KWK,SP000919,2,2.0
+R00619,Glasgow Queen Street,Dundee,Dundee,True,1,2,20,0,20,Dundee,SP000921,20,20.0
+R00620,Kings Lynn,London Kings Cross,London Kings Cross,True,5,55,39,4,12,Foxton,SP002904,35,29.0
+R00621,London Paddington,Heathrow Terminal 5 Rail,Heathrow Terminal 5 Rail,True,1,146,4,0,4,Heathrow Terminal 5 Rail,SP000924,4,4.0
+R00622,Cardiff Central,Penarth,Penarth,True,1,6,4,0,4,Penarth,SP000925,4,4.0
+R00623,Leeds,Ilkley,Ilkley,True,1,74,6,0,6,Ilkley,SP000926,6,6.0
+R00624,Barnehurst,London Cannon Street,London Cannon Street,True,1,8,12,0,12,London Cannon Street,SP000927,12,12.0
+R00625,Edinburgh Waverley,Glasgow Queen Street,Glasgow Queen Street,True,2,93,14,1,8,Bishopbriggs,SP004623,13,11.0
+R00626,Poole,New Malden,New Malden,True,5,14,27,4,6,Christchurch,SP003842,26,20.8
+R00627,Eastbourne,Brighton,Brighton,True,6,38,38,5,8,Lewes,SP004595,29,18.2
+R00628,Ely,London Kings Cross,London Kings Cross,True,9,31,45,8,6,XSP,SP004171,26,21.4
+R00629,Southampton Central,Bournemouth,Bournemouth,True,3,16,15,2,6,Brockenhurst,SP000936,15,13.0
+R00630,Hastings,Eastbourne,Eastbourne,True,1,2,8,0,8,Eastbourne,SP000939,8,8.0
+R00631,Bournemouth,Winchester,Winchester,True,7,24,25,6,7,Brockenhurst,SP002944,22,19.6
+R00632,Dorking,Earlsfield,Earlsfield,True,5,43,26,4,5,Epsom,SP003283,15,13.4
+R00633,Horsham,Bognor Regis,Bognor Regis,True,1,58,10,0,10,Bognor Regis,SP000948,10,10.0
+R00634,Manchester Piccadilly,Hazel Grove,Hazel Grove,True,6,67,23,5,7,Hazel Grove,SP000949,15,13.0
+R00635,Manchester Piccadilly,Buxton,Buxton,True,1,2,12,0,12,Buxton,SP000956,12,12.0
+R00636,Sunderland,SGH,SGH,False,1,3,11,0,11,SGH,SP000957,11,11.0
+R00637,Oban,Oban,Oban,True,1,6,2,0,3,Oban,SP000959,3,3.0
+R00638,Birmingham New Street,London Euston,London Euston,True,5,65,29,4,12,Northampton,SP004063,29,21.6
+R00639,Barnsley,Sheffield,Sheffield,True,1,6,6,0,6,Sheffield,SP000965,6,6.0
+R00640,Manchester Airport,Liverpool Lime Street,Liverpool Lime Street,True,9,45,108,8,7,Manchester Piccadilly,SP004489,37,25.0
+R00641,Leeds,Knottingley,Knottingley,True,2,36,12,1,7,Knottingley,SP004252,12,9.5
+R00642,Birmingham New Street,Wolverhampton,Wolverhampton,True,1,2,8,0,8,Wolverhampton,SP000969,8,8.0
+R00643,New Malden,Portsmouth & Southsea,Portsmouth & Southsea,True,2,6,19,1,18,Portsmouth & Southsea,SP003523,19,18.5
+R00644,Darlington,Newcastle,Newcastle,True,1,2,3,0,3,Newcastle,SP000975,3,3.0
+R00645,Strawberry Hill,Queenstown Road (Battersea),Queenstown Road (Battersea),True,1,2,7,0,7,Queenstown Road (Battersea),SP000976,7,7.0
+R00646,Brockenhurst,Lymington Pier,Lymington Pier,True,1,66,3,0,3,Lymington Pier,SP000977,3,3.0
+R00647,Blackpool North,Manchester Airport,Manchester Airport,True,3,4,50,2,5,Preston,SP002612,25,20.3
+R00648,Lymington Pier,Brockenhurst,Brockenhurst,True,1,66,3,0,3,Brockenhurst,SP000980,3,3.0
+R00649,Hazel Grove,Manchester Piccadilly,Manchester Piccadilly,True,1,18,7,0,7,Manchester Piccadilly,SP000981,7,7.0
+R00650,KWK,Penrith,Penrith,True,1,56,2,0,2,Penrith,SP000983,2,2.0
+R00651,Leeds,Blackburn,Blackburn,True,3,3,19,2,8,Blackburn,SP003998,19,14.3
+R00652,Leeds,Rochdale,Rochdale,True,3,37,14,2,6,Halifax,SP001009,14,10.7
+R00653,Barnham,Bognor Regis,Bognor Regis,True,1,74,2,0,2,Bognor Regis,SP000989,2,2.0
+R00654,London Cannon Street,London Cannon Street,London Cannon Street,True,3,98,35,2,14,Slade Green,SP000990,27,23.0
+R00655,Three Bridges,Portsmouth Harbour,Portsmouth Harbour,True,1,2,25,0,25,Portsmouth Harbour,SP000992,25,25.0
+R00656,Havant,Wandsworth Common,Wandsworth Common,True,1,1,36,0,36,Wandsworth Common,SP000993,36,36.0
+R00657,Portsmouth Harbour,New Malden,New Malden,True,6,45,51,5,6,Havant,SP001858,26,20.0
+R00658,Portsmouth Harbour,Horsham,Horsham,True,2,4,16,1,6,Southbourne,SP000995,15,12.0
+R00659,Portsmouth & Southsea,Horsham,Horsham,True,1,4,17,0,17,Horsham,SP000997,17,17.0
+R00660,Cambridge,London Kings Cross,London Kings Cross,True,10,63,62,9,7,Royston,SP002171,57,30.1
+R00661,Nottingham,Crewe,Crewe,True,7,15,55,6,7,Derby,SP001635,35,17.7
+R00662,Redcar Central,Manchester Piccadilly,Manchester Piccadilly,True,4,30,22,3,9,York,SP001040,22,16.2
+R00663,Brockley,Crystal Palace,Crystal Palace,True,1,2,5,0,5,Crystal Palace,SP001016,5,5.0
+R00664,Ashford International,Ramsgate,Ramsgate,True,2,3,16,1,6,Folkestone Central,SP001021,15,11.5
+R00665,Salisbury,New Malden,New Malden,True,2,24,12,1,6,Basingstoke,SP001032,10,9.0
+R00666,East Croydon,Uckfield,Uckfield,True,1,1,16,0,16,Uckfield,SP001019,16,16.0
+R00667,Uckfield,XSU,XSU,False,2,38,26,1,10,Oxted,SP001022,26,22.0
+R00668,Ashford International,Canterbury West,Canterbury West,True,2,8,12,1,5,Canterbury West,SP001024,12,8.5
+R00669,Doncaster,Leeds,Leeds,True,1,38,9,0,9,Leeds,SP001025,9,9.0
+R00670,Salisbury,Exeter St Davids,Exeter St Davids,True,1,4,15,0,15,Exeter St Davids,SP001027,15,15.0
+R00671,Tonbridge,Ramsgate,Ramsgate,True,1,2,22,0,22,Ramsgate,SP001028,22,22.0
+R00672,Yeovil Junction,New Malden,New Malden,True,1,2,15,0,15,New Malden,SP001034,15,15.0
+R00673,Manchester Piccadilly,Buxton,Buxton,True,2,4,13,1,5,Hazel Grove,SP003987,13,12.0
+R00674,Maidstone West,Balham,Balham,True,1,2,14,0,14,Balham,SP001036,14,14.0
+R00675,Yeovil Pen Mill,New Malden,New Malden,True,1,4,16,0,16,New Malden,SP001037,16,16.0
+R00676,Shalford,Balham,Balham,True,1,2,12,0,12,Balham,SP001038,12,12.0
+R00677,Honiton,New Malden,New Malden,True,1,2,18,0,18,New Malden,SP001039,18,18.0
+R00678,SGH,CIC,CIC,False,1,2,12,0,12,CIC,SP001043,12,12.0
+R00679,CIC,APN,APN,False,1,2,14,0,14,APN,SP001045,14,14.0
+R00680,Okehampton,Exeter St Davids,Exeter St Davids,True,1,6,3,0,3,Exeter St Davids,SP001046,3,3.0
+R00681,Exeter St Davids,Okehampton,Okehampton,True,1,8,3,0,3,Okehampton,SP001050,3,3.0
+R00682,Bargoed,Barry Island,Barry Island,True,2,30,22,1,14,Cardiff Central,SP001128,22,18.0
+R00683,Exeter Central,Okehampton,Okehampton,True,1,15,4,0,4,Okehampton,SP001053,4,4.0
+R00684,Dover Priory,Faversham,Faversham,True,1,2,19,0,19,Faversham,SP001057,19,19.0
+R00685,Perth,Glasgow Queen Street,Glasgow Queen Street,True,2,4,10,1,5,Stirling,SP001058,10,9.5
+R00686,Exeter Central,Okehampton,Okehampton,True,1,5,5,0,5,Okehampton,SP001059,5,5.0
+R00687,Aberdeen,Montrose,Montrose,True,9,28,30,8,5,Montrose,SP004615,19,14.7
+R00688,Dundee,Glasgow Queen Street,Glasgow Queen Street,True,2,26,12,1,7,Stirling,SP002822,12,11.5
+R00689,Middlesbrough,London Kings Cross,London Kings Cross,True,1,2,25,0,25,London Kings Cross,SP001063,25,25.0
+R00690,Aberdeen,Edinburgh Waverley,Edinburgh Waverley,True,8,51,105,7,6,Carnoustie,SP001655,73,29.2
+R00691,Portsmouth Harbour,Ryde Pier Head,Ryde Pier Head,True,1,36,2,0,2,Ryde Pier Head,SP001066,2,2.0
+R00692,Arbroath,Glasgow Queen Street,Glasgow Queen Street,True,2,4,18,1,8,Dundee,SP001069,18,13.0
+R00693,New Mills Central,Manchester Piccadilly,Manchester Piccadilly,True,2,6,9,1,6,Reddish North,SP002951,9,8.5
+R00694,Gillingham (Dorset),New Malden,New Malden,True,1,4,12,0,12,New Malden,SP001074,12,12.0
+R00695,XSU,Birkbeck,Birkbeck,True,5,140,22,4,6,Tulse Hill,SP001579,12,11.0
+R00696,Exeter St Davids,Okehampton,Okehampton,True,1,2,4,0,4,Okehampton,SP001078,4,4.0
+R00697,West Croydon,Battersea Park,Battersea Park,True,1,56,9,0,9,Battersea Park,SP001079,9,9.0
+R00698,Okehampton,Exeter Central,Exeter Central,True,1,12,4,0,4,Exeter Central,SP001080,4,4.0
+R00699,Queenstown Road (Battersea),Addlestone,Addlestone,True,6,101,28,5,11,Hounslow,SP001289,21,17.2
+R00700,Basingstoke,Salisbury,Salisbury,True,1,2,6,0,6,Salisbury,SP001084,6,6.0
+R00701,Battersea Park,West Croydon,West Croydon,True,1,58,9,0,9,West Croydon,SP001085,9,9.0
+R00702,Stevenage,Moorgate,Moorgate,True,2,74,21,1,13,Alexandra Palace,SP001087,21,20.5
+R00703,Okehampton,Exeter Central,Exeter Central,True,1,12,5,0,5,Exeter Central,SP001088,5,5.0
+R00704,Inverness,Glasgow Queen Street,Glasgow Queen Street,True,6,13,72,5,10,Perth,SP004228,68,32.3
+R00705,Welwyn Garden City,Moorgate,Moorgate,True,4,102,20,3,10,Alexandra Palace,SP001091,18,15.8
+R00706,Glasgow Central,Lanark,Lanark,True,2,68,9,1,5,Motherwell,SP001093,9,7.0
+R00707,Moorgate,Welwyn Garden City,Welwyn Garden City,True,12,212,32,11,6,Finsbury Park,SP003174,23,16.9
+R00708,Motherwell,Cumbernauld,Cumbernauld,True,1,4,5,0,5,Cumbernauld,SP001096,5,5.0
+R00709,Cardiff Central,Caerphilly,Caerphilly,True,6,14,18,5,6,Caerphilly,SP001147,18,14.0
+R00710,Salisbury,Gillingham (Dorset),Gillingham (Dorset),True,1,2,3,0,3,Gillingham (Dorset),SP001098,3,3.0
+R00711,Exeter St Davids,New Malden,New Malden,True,4,28,24,3,10,Yeovil Junction,SP001201,24,15.8
+R00712,Axminster,Exeter St Davids,Exeter St Davids,True,1,2,8,0,8,Exeter St Davids,SP001101,8,8.0
+R00713,Gillingham (Dorset),Exeter St Davids,Exeter St Davids,True,1,2,13,0,13,Exeter St Davids,SP001102,13,13.0
+R00714,Edinburgh Waverley,Dundee,Dundee,True,2,33,12,1,8,Ladybank,SP001103,12,11.5
+R00715,Farnham,Queenstown Road (Battersea),Queenstown Road (Battersea),True,1,4,20,0,20,Queenstown Road (Battersea),SP001104,20,20.0
+R00716,Ryde Pier Head,Portsmouth Harbour,Portsmouth Harbour,True,1,36,2,0,2,Portsmouth Harbour,SP001105,2,2.0
+R00717,Crystal Palace,XHZ,Dalston Junction,True,2,149,18,1,16,Dalston Junction,SP001106,18,17.0
+R00718,Queenstown Road (Battersea),Windsor & Eton Riverside,Windsor & Eton Riverside,True,5,85,28,4,5,Twickenham,SP001107,17,11.2
+R00719,Bedwyn,Newbury,Newbury,True,1,31,4,0,4,Newbury,SP001111,4,4.0
+R00720,Yeovil Pen Mill,Salisbury,Salisbury,True,2,6,19,1,5,Westbury,SP002735,17,12.0
+R00721,Leeds,Sheffield,Sheffield,True,1,38,13,0,13,Sheffield,SP001114,13,13.0
+R00722,Yeovil Junction,Salisbury,Salisbury,True,1,6,8,0,8,Salisbury,SP001116,8,8.0
+R00723,Hazel Grove,Manchester Piccadilly,Manchester Piccadilly,True,1,4,5,0,5,Manchester Piccadilly,SP001117,5,5.0
+R00724,Crewe,Manchester Piccadilly,Manchester Piccadilly,True,3,37,19,2,7,Wilmslow,SP002625,14,12.0
+R00725,New Malden,Portsmouth Harbour,Portsmouth Harbour,True,4,62,19,3,6,Godalming,SP003123,19,15.0
+R00726,Bedwyn,Reading,Reading,True,3,4,16,2,5,Newbury Racecourse,SP001652,13,9.7
+R00727,Horsham,Peterborough,Peterborough,True,6,28,82,5,7,Gatwick Airport,SP002025,56,40.3
+R00728,Bargoed,Barry Island,Barry Island,True,2,24,21,1,13,Cardiff Central,SP001131,21,17.0
+R00729,Hebden Bridge,Leeds,Leeds,True,2,30,10,1,8,Morley,SP004057,10,9.5
+R00730,Blackburn,Manchester Victoria,Manchester Victoria,True,1,26,8,0,8,Manchester Victoria,SP001136,8,8.0
+R00731,Tonbridge,Strood,Strood,True,2,13,18,1,14,Strood,SP001195,18,16.0
+R00732,Maidstone West,Strood,Strood,True,1,2,8,0,8,Strood,SP001145,8,8.0
+R00733,Strood,Paddock Wood,Paddock Wood,True,3,70,14,2,8,Maidstone West,SP001153,14,11.7
+R00734,Paddock Wood,Strood,Strood,True,1,56,13,0,13,Strood,SP001148,13,13.0
+R00735,Stourbridge Town,Stourbridge Town,Stourbridge Town,True,1,428,1,0,1,Stourbridge Town,SP001154,1,1.0
+R00736,Halifax,Leeds,Leeds,True,1,2,6,0,6,Leeds,SP001155,6,6.0
+R00737,New Malden,Haslemere,Haslemere,True,6,44,30,5,7,Godalming,SP001849,26,17.7
+R00738,Manchester Piccadilly,Manchester Airport,Manchester Airport,True,1,4,3,0,3,Manchester Airport,SP001158,3,3.0
+R00739,Barnham,Portsmouth Harbour,Portsmouth Harbour,True,2,3,21,1,9,Havant,SP004226,18,15.0
+R00740,Chichester,Brighton,Brighton,True,1,6,18,0,18,Brighton,SP001160,18,18.0
+R00741,Basingstoke,Reading,Reading,True,1,2,5,0,5,Reading,SP001161,5,5.0
+R00742,Brighton,Southampton Central,Southampton Central,True,9,89,41,8,6,Lancing,SP002189,27,24.4
+R00743,Portsmouth & Southsea,Brighton,Brighton,True,2,26,22,1,17,Southwick,SP001169,22,21.0
+R00744,Barnstaple,Exmouth,Exmouth,True,1,3,20,0,20,Exmouth,SP001166,20,20.0
+R00745,Addlestone,Queenstown Road (Battersea),Queenstown Road (Battersea),True,3,70,18,2,5,Staines,SP001170,18,13.0
+R00746,New Malden,Portsmouth Harbour,Portsmouth Harbour,True,5,35,49,4,5,Fleet,SP001382,34,21.0
+R00747,Portsmouth Harbour,New Malden,New Malden,True,8,40,26,7,10,Eastleigh,SP001882,26,19.4
+R00748,Brighton,Portsmouth Harbour,Portsmouth Harbour,True,2,6,27,1,12,XXA,SP001174,26,19.5
+R00749,London Kings Cross,Kings Lynn,Kings Lynn,True,7,7,88,6,5,Alexandra Palace,SP003855,60,36.1
+R00750,Inverness,Aberdeen,Aberdeen,True,4,36,31,3,5,Elgin,SP001178,31,18.8
+R00751,Redhill,Gatwick Airport,Gatwick Airport,True,1,21,5,0,5,Gatwick Airport,SP001180,5,5.0
+R00752,Westbury,Warminster,Warminster,True,1,4,3,0,3,Warminster,SP001182,3,3.0
+R00753,Earlsfield,Southampton Central,Southampton Central,True,2,2,59,1,9,Weybridge,SP001183,37,36.0
+R00754,Greenford,West Ealing,West Ealing,True,2,64,7,1,5,West Ealing,SP004088,7,6.0
+R00755,West Ealing,Greenford,Greenford,True,1,62,5,0,5,Greenford,SP001185,5,5.0
+R00756,Salisbury,Yeovil Junction,Yeovil Junction,True,1,2,8,0,8,Yeovil Junction,SP001188,8,8.0
+R00757,Weymouth,New Malden,New Malden,True,1,24,25,0,25,New Malden,SP001189,25,25.0
+R00758,Crewe,Manchester Piccadilly,Manchester Piccadilly,True,2,8,10,1,5,Wilmslow,SP001191,8,8.0
+R00759,Four Oaks,Redditch,Redditch,True,2,70,20,1,7,Aston,SP003949,20,19.5
+R00760,Liverpool Lime Street,Llandudno,Llandudno,True,2,33,16,1,7,Chester,SP002819,16,11.5
+R00761,Exeter St Davids,New Malden,New Malden,True,1,10,23,0,23,New Malden,SP001202,23,23.0
+R00762,Sutton (London),St Albans,St Albans,True,6,75,36,5,5,Mitcham Eastfields,SP003019,30,20.7
+R00763,Crewe,Chester,Chester,True,1,4,2,0,2,Chester,SP001208,2,2.0
+R00764,Lincoln Central,Newark Northgate,Newark Northgate,True,3,8,15,2,5,Newark Northgate,SP002539,15,11.0
+R00765,Cleethorpes,Barton-On-Humber,Barton-On-Humber,True,3,8,53,2,8,Habrough,SP004490,41,23.3
+R00766,Cardiff Bay,Pontypridd,Pontypridd,True,1,8,9,0,9,Pontypridd,SP001214,9,9.0
+R00767,Lincoln Central,Newark Northgate,Newark Northgate,True,1,2,2,0,2,Newark Northgate,SP001215,2,2.0
+R00768,Kidderminster,Stratford-upon-Avon,Stratford-upon-Avon,True,3,46,32,2,13,Birmingham Snow Hill,SP001216,32,22.3
+R00769,York,Bridlington,Bridlington,True,4,16,18,3,5,Howden,SP003559,15,12.0
+R00770,Birmingham Moor Street,Stratford-upon-Avon,Stratford-upon-Avon,True,1,2,19,0,19,Stratford-upon-Avon,SP001220,19,19.0
+R00771,Manchester Piccadilly,Sheffield,Sheffield,True,1,26,16,0,16,Sheffield,SP001221,16,16.0
+R00772,Manchester Piccadilly,Sheffield,Sheffield,True,1,4,15,0,15,Sheffield,SP001223,15,15.0
+R00773,Kidderminster,Whitlocks End,Whitlocks End,True,2,12,33,1,23,Whitlocks End,SP001248,33,28.0
+R00774,Newhaven Harbour,Brighton,Brighton,True,1,4,9,0,9,Brighton,SP001225,9,9.0
+R00775,Stourbridge Junction,Stratford-upon-Avon,Stratford-upon-Avon,True,1,2,30,0,30,Stratford-upon-Avon,SP001231,30,30.0
+R00776,Worcester Foregate Street,Dorridge,Dorridge,True,4,32,42,3,7,Stourbridge Junction,SP002610,36,29.2
+R00777,Plymouth,Gunnislake,Gunnislake,True,1,2,5,0,5,Gunnislake,SP001234,5,5.0
+R00778,Gunnislake,Plymouth,Plymouth,True,1,18,9,0,9,Plymouth,SP001235,9,9.0
+R00779,Plymouth,Gunnislake,Gunnislake,True,1,16,9,0,9,Gunnislake,SP001236,9,9.0
+R00780,Southampton Central,Manchester Piccadilly,Manchester Piccadilly,True,4,8,79,3,5,XEW,SP001505,54,36.2
+R00781,Manchester Piccadilly,Rose Hill Marple,Rose Hill Marple,True,1,20,10,0,10,Rose Hill Marple,SP001238,10,10.0
+R00782,Southampton Central,New Malden,New Malden,True,3,6,20,2,10,Basingstoke,SP003918,20,17.7
+R00783,Winchester,Southampton Central,Southampton Central,True,4,22,18,3,5,Southampton Airport Parkway,SP001242,17,11.5
+R00784,Gloucester,Worcester Foregate Street,Worcester Foregate Street,True,1,2,6,0,6,Worcester Foregate Street,SP001243,6,6.0
+R00785,Hereford,Cardiff Central,Cardiff Central,True,1,2,6,0,6,Cardiff Central,SP001250,6,6.0
+R00786,Poole,Winchester,Winchester,True,1,2,19,0,19,Winchester,SP001253,19,19.0
+R00787,Norwich,Great Yarmouth,Great Yarmouth,True,2,6,12,1,6,Reedham (Norfolk),SP001254,10,9.0
+R00788,Birmingham Snow Hill,Whitlocks End,Whitlocks End,True,2,4,18,1,5,Tyseley,SP001473,13,11.5
+R00789,Henley-On-Thames,Twyford,Twyford,True,1,16,4,0,4,Twyford,SP001257,4,4.0
+R00790,Manchester Piccadilly,New Mills Central,New Mills Central,True,3,42,19,2,9,Marple,SP002964,18,13.7
+R00791,Bishops Stortford,Stratford (London),Stratford (London),True,4,38,18,3,7,Cheshunt,SP001259,18,15.5
+R00792,Nottingham,Norwich,Norwich,True,1,1,19,0,20,Norwich,SP001262,20,20.0
+R00793,Bishops Stortford,Stratford (London),Stratford (London),True,1,14,12,0,12,Stratford (London),SP001264,12,12.0
+R00794,Barking,Southend Central,Southend Central,True,1,2,14,0,14,Southend Central,SP001266,14,14.0
+R00795,Kenton,Queens Park (London),Queens Park (London),True,1,236,8,0,8,Queens Park (London),SP001267,8,8.0
+R00796,Milford Haven,Cardiff Central,Cardiff Central,True,8,25,51,7,7,Carmarthen,SP003713,43,25.9
+R00797,Queenstown Road (Battersea),RDZ,Wokingham,True,4,77,18,3,8,Virginia Water,SP001269,18,15.8
+R00798,RDZ,Queenstown Road (Battersea),Queenstown Road (Battersea),True,4,72,20,3,9,Sunningdale,SP001270,19,17.0
+R00799,Guildford,Earlsfield,Earlsfield,True,5,118,21,4,5,Effingham Junction,SP001272,15,13.2
+R00800,Woking,Earlsfield,Earlsfield,True,3,74,11,2,5,Walton-On-Thames,SP001409,11,9.0
+R00801,Guildford,Earlsfield,Earlsfield,True,3,4,13,2,10,New Malden,SP001478,12,11.7
+R00802,Earlsfield,Queenstown Road (Battersea),Queenstown Road (Battersea),True,4,92,23,3,7,Teddington,SP001275,17,11.8
+R00803,Earlsfield,Chessington South,Chessington South,True,1,69,7,0,7,Chessington South,SP001276,7,7.0
+R00804,Queenstown Road (Battersea),Earlsfield,Earlsfield,True,7,101,31,6,9,Twickenham,SP001280,21,15.1
+R00805,New Malden,Basingstoke,Basingstoke,True,2,5,18,1,9,Basingstoke,SP001281,18,13.5
+R00806,Tring,London Euston,London Euston,True,1,2,11,0,11,London Euston,SP001283,11,11.0
+R00807,Windsor & Eton Riverside,Queenstown Road (Battersea),Queenstown Road (Battersea),True,2,74,14,1,5,Staines,SP001288,14,9.5
+R00808,Brockenhurst,Poole,Poole,True,2,4,18,1,10,Poole,SP001834,18,14.0
+R00809,Grantham,Nottingham,Nottingham,True,1,1,7,0,7,Nottingham,SP001293,7,7.0
+R00810,Nottingham,London St Pancras International,London St Pancras International,True,3,34,20,2,7,Leicester,SP004260,20,15.3
+R00811,Staines,RDZ,RDZ,False,1,2,12,0,12,RDZ,SP001301,12,12.0
+R00812,Southampton Central,Brighton,Brighton,True,8,68,46,7,7,Fareham,SP004200,34,25.0
+R00813,SCN,HNY,HNY,False,1,12,5,0,5,HNY,SP001303,5,5.0
+R00814,Barrow-In-Furness,Corkickle,Corkickle,True,3,14,16,2,6,Millom,SP001304,16,12.0
+R00815,Manchester Victoria,Bradford Interchange,Bradford Interchange,True,1,3,11,0,11,Bradford Interchange,SP001305,11,11.0
+R00816,Northampton,Birmingham New Street,Birmingham New Street,True,2,8,14,1,9,Birmingham International,SP001781,14,13.0
+R00817,Corkickle,Barrow-In-Furness,Barrow-In-Furness,True,3,8,25,2,14,Barrow-In-Furness,SP002164,25,21.0
+R00818,Norwood Junction,Battersea Park,Battersea Park,True,1,6,8,0,8,Battersea Park,SP001308,8,8.0
+R00819,Royston,London Kings Cross,London Kings Cross,True,2,2,23,1,11,Hatfield,SP001312,23,20.0
+R00820,Northampton,Crewe,Crewe,True,2,4,14,1,5,Atherstone,SP001314,14,13.5
+R00821,LVS,DGS,DGS,False,1,4,2,0,2,DGS,SP001315,2,2.0
+R00822,Stonebridge Park,Kenton,Kenton,True,1,2,4,0,4,Kenton,SP001316,4,4.0
+R00823,DGS,LVS,LVS,False,1,4,2,0,2,LVS,SP001317,2,2.0
+R00824,Newport (South Wales),Ebbw Vale Town,Ebbw Vale Town,True,1,27,9,0,9,Ebbw Vale Town,SP001319,9,9.0
+R00825,XOA,Nottingham,Nottingham,True,1,1,18,0,18,Nottingham,SP001320,18,18.0
+R00826,Llanelli,Cardiff Central,Cardiff Central,True,2,3,15,1,9,Port Talbot Parkway,SP003745,15,12.0
+R00827,Ribblehead,Leeds,Leeds,True,1,2,15,0,15,Leeds,SP001323,15,15.0
+R00828,Llanelli,Swansea,Swansea,True,1,1,3,0,3,Swansea,SP001324,3,3.0
+R00829,London Euston,Milton Keynes Central,Milton Keynes Central,True,5,88,20,4,6,Watford Junction,SP002648,20,16.6
+R00830,Nottingham,Liverpool Lime Street,Liverpool Lime Street,True,2,2,31,1,13,Hazel Grove,SP001328,31,28.0
+R00831,Ilkley,Leeds,Leeds,True,2,126,10,1,5,Guiseley,SP001965,9,7.5
+R00832,London Liverpool Street,Southend Victoria,Southend Victoria,True,36,372,59,35,5,Maryland,SP002519,25,17.4
+R00833,Lowestoft,Ipswich,Ipswich,True,2,34,14,1,12,Ipswich,SP002431,14,13.0
+R00834,Kyle of Lochalsh,UIG,UIG,False,1,4,5,0,5,UIG,SP001334,5,5.0
+R00835,ULP,IBS,IBS,False,1,4,2,0,2,IBS,SP001335,2,2.0
+R00836,Preston,Colne,Colne,True,2,39,19,1,8,Blackburn,SP001338,19,13.5
+R00837,Brockley,West Croydon,West Croydon,True,1,2,9,0,9,West Croydon,SP001340,9,9.0
+R00838,Coventry,London Euston,London Euston,True,2,2,16,1,5,XHN,SP001341,16,15.5
+R00839,Adwick,Sheffield,Sheffield,True,1,34,9,0,9,Sheffield,SP001342,9,9.0
+R00840,Bridgend,Rhymney,Rhymney,True,2,36,26,1,11,Cardiff Central,SP001363,26,18.5
+R00841,Northampton,London Euston,London Euston,True,3,14,17,2,8,Tring,SP001853,17,15.7
+R00842,Sheffield,Manchester Airport,Manchester Airport,True,1,1,22,0,22,Manchester Airport,SP001347,22,22.0
+R00843,Milton Keynes Central,Birmingham New Street,Birmingham New Street,True,1,2,15,0,15,Birmingham New Street,SP001348,15,15.0
+R00844,Corby,Kettering,Kettering,True,1,2,2,0,2,Kettering,SP001349,2,2.0
+R00845,Crewe,London Euston,London Euston,True,4,36,27,3,8,XIM,SP001351,25,18.0
+R00846,Sheffield,Norwich,Norwich,True,1,2,21,0,22,Norwich,SP001353,22,22.0
+R00847,Darlington,Saltburn,Saltburn,True,3,36,12,2,6,Middlesbrough,SP002729,12,9.7
+R00848,Bradford Forster Square,Leeds,Leeds,True,1,54,6,0,6,Leeds,SP001357,6,6.0
+R00849,Leeds,Bradford Forster Square,Bradford Forster Square,True,1,52,6,0,6,Bradford Forster Square,SP001359,6,6.0
+R00850,Shenfield,PDX,Heathrow Terminal 5 Rail,True,4,332,30,3,13,Stratford (London),SP003284,27,21.8
+R00851,Reading,Basingstoke,Basingstoke,True,1,76,6,0,6,Basingstoke,SP001364,6,6.0
+R00852,Kettering,Melton Mowbray,Melton Mowbray,True,1,2,5,0,5,Melton Mowbray,SP001368,5,5.0
+R00853,Melton Mowbray,Kettering,Kettering,True,1,2,5,0,5,Kettering,SP001369,5,5.0
+R00854,XVJ,Dover Priory,Dover Priory,True,5,9,42,4,11,Swanley,SP001372,29,24.8
+R00855,RDZ,Ascot,Ascot,True,2,2,10,1,6,Ascot,SP004600,10,8.0
+R00856,Gillingham (Kent),XVJ,XVJ,False,1,2,16,0,16,XVJ,SP001375,16,16.0
+R00857,Canterbury West,XVJ,XVJ,False,1,2,16,0,16,XVJ,SP001377,16,16.0
+R00858,Motherwell,Dalmuir,Dalmuir,True,2,36,27,1,16,Hyndland,SP001378,22,22.0
+R00859,West Brompton,Chertsey,Chertsey,True,1,2,12,0,12,Chertsey,SP001379,12,12.0
+R00860,Chertsey,Balham,Balham,True,1,2,17,0,17,Balham,SP001380,17,17.0
+R00861,Ascot,Queenstown Road (Battersea),Queenstown Road (Battersea),True,1,2,12,0,12,Queenstown Road (Battersea),SP001383,12,12.0
+R00862,Dover Priory,XVJ,XVJ,False,2,4,29,1,5,Ashford International,SP001384,20,19.5
+R00863,Wolverhampton,Walsall,Walsall,True,5,75,51,4,5,Sandwell & Dudley,SP002230,34,25.0
+R00864,Shepperton,Earlsfield,Earlsfield,True,3,20,22,2,5,Fulwell,SP001388,15,12.7
+R00865,Hounslow,Queenstown Road (Battersea),Queenstown Road (Battersea),True,1,4,11,0,11,Queenstown Road (Battersea),SP001391,11,11.0
+R00866,New Malden,Basingstoke,Basingstoke,True,5,46,31,4,5,Byfleet & New Haw,SP001392,26,19.2
+R00867,Raynes Park,Guildford,Guildford,True,1,4,14,0,14,Guildford,SP001393,14,14.0
+R00868,Bath Spa,Bath Spa,Bath Spa,True,1,4,1,0,1,Bath Spa,SP001394,1,1.0
+R00869,Southampton Central,Bournemouth,Bournemouth,True,1,2,5,0,5,Bournemouth,SP001395,5,5.0
+R00870,Guildford,Earlsfield,Earlsfield,True,1,4,13,0,13,Earlsfield,SP001400,13,13.0
+R00871,Edinburgh Waverley,Glasgow Central,Glasgow Central,True,1,2,6,0,6,Glasgow Central,SP001403,6,6.0
+R00872,Colchester Town,London Liverpool Street,London Liverpool Street,True,4,32,16,3,5,Witham,SP002391,16,15.0
+R00873,Derby,Newcastle,Newcastle,True,1,2,13,0,13,Newcastle,SP001407,13,13.0
+R00874,Braintree,London Liverpool Street,London Liverpool Street,True,5,44,16,4,5,Witham,SP003888,16,11.8
+R00875,Reading,Newcastle,Newcastle,True,1,4,35,0,36,Newcastle,SP001411,36,36.0
+R00876,Epsom,Earlsfield,Earlsfield,True,1,2,7,0,7,Earlsfield,SP001414,7,7.0
+R00877,Southampton Central,Portsmouth & Southsea,Portsmouth & Southsea,True,2,36,16,1,15,Portsmouth & Southsea,SP003920,16,15.5
+R00878,Portsmouth & Southsea,Southampton Central,Southampton Central,True,1,36,15,0,15,Southampton Central,SP001419,15,15.0
+R00879,Bletchley,London Euston,London Euston,True,3,8,16,2,8,Hemel Hempstead,SP001420,16,15.0
+R00880,Birmingham New Street,Cardiff Central,Cardiff Central,True,1,1,22,0,22,Cardiff Central,SP001421,22,22.0
+R00881,Clacton-On-Sea,London Liverpool Street,London Liverpool Street,True,4,6,29,3,8,Colchester,SP004001,27,19.0
+R00882,Clacton-On-Sea,London Liverpool Street,London Liverpool Street,True,5,36,25,4,6,Marks Tey,SP004334,24,18.8
+R00883,Whitlocks End,Kidderminster,Kidderminster,True,4,30,23,3,7,XOH,SP003988,23,19.0
+R00884,Leamington Spa,Birmingham Snow Hill,Birmingham Snow Hill,True,1,2,11,0,11,Birmingham Snow Hill,SP001432,11,11.0
+R00885,Carmarthen,Swansea,Swansea,True,1,2,5,0,5,Swansea,SP001435,5,5.0
+R00886,Nottingham,Birmingham New Street,Birmingham New Street,True,2,8,14,1,8,TAH,SP001436,14,13.5
+R00887,Swansea,Llanelli,Llanelli,True,1,4,3,0,3,Llanelli,SP001437,3,3.0
+R00888,Ipswich,London Liverpool Street,London Liverpool Street,True,3,12,22,2,5,Witham,SP004046,21,16.7
+R00889,Nottingham,Birmingham New Street,Birmingham New Street,True,1,10,13,0,13,Birmingham New Street,SP001439,13,13.0
+R00890,Ipswich,London Liverpool Street,London Liverpool Street,True,2,24,16,1,6,Witham,SP001441,16,15.5
+R00891,Manchester Piccadilly,Chester,Chester,True,1,6,9,0,9,Chester,SP001442,9,9.0
+R00892,Stratford-upon-Avon,Birmingham Snow Hill,Birmingham Snow Hill,True,1,2,16,0,16,Birmingham Snow Hill,SP001443,16,16.0
+R00893,Warrington Bank Quay,Manchester Piccadilly,Manchester Piccadilly,True,1,1,5,0,5,Manchester Piccadilly,SP001445,5,5.0
+R00894,Stratford-upon-Avon,Birmingham Snow Hill,Birmingham Snow Hill,True,1,2,8,0,8,Birmingham Snow Hill,SP001446,8,8.0
+R00895,Colchester Town,Colchester,Colchester,True,1,32,2,0,2,Colchester,SP001447,2,2.0
+R00896,Worcester Foregate Street,Stratford-upon-Avon,Stratford-upon-Avon,True,6,28,36,5,6,Blakedown,SP001480,29,25.5
+R00897,Chester,Manchester Piccadilly,Manchester Piccadilly,True,3,3,16,2,7,Newton-Le-Willows,SP002223,16,13.0
+R00898,Southend Victoria,London Liverpool Street,London Liverpool Street,True,6,118,24,5,9,Shenfield,SP002869,22,18.7
+R00899,Coventry,Birmingham New Street,Birmingham New Street,True,1,1,12,0,12,Birmingham New Street,SP001455,12,12.0
+R00900,Nottingham,Birmingham New Street,Birmingham New Street,True,1,2,14,0,14,Birmingham New Street,SP001456,14,14.0
+R00901,Worcester Shrub Hill,Dorridge,Dorridge,True,5,10,33,4,7,Stourbridge Junction,SP002773,31,25.4
+R00902,Birmingham New Street,Manchester Piccadilly,Manchester Piccadilly,True,4,11,45,3,5,Wolverhampton,SP003786,22,17.5
+R00903,Fareham,Southampton Central,Southampton Central,True,1,2,9,0,9,Southampton Central,SP001469,9,9.0
+R00904,Leamington Spa,Stratford-upon-Avon,Stratford-upon-Avon,True,1,2,4,0,4,Stratford-upon-Avon,SP001471,4,4.0
+R00905,Selhurst,Battersea Park,Battersea Park,True,2,12,17,1,5,Balham,SP001567,15,11.0
+R00906,CRP,Ayr,Ayr,True,1,2,2,0,2,Ayr,SP001481,2,2.0
+R00907,Rugeley Trent Valley,Birmingham International,Birmingham International,True,5,70,32,4,10,Tame Bridge Parkway,SP001482,27,19.0
+R00908,Ayr,CRP,CRP,False,1,2,2,0,2,CRP,SP001484,2,2.0
+R00909,Birmingham New Street,Kings Norton,Kings Norton,True,1,57,8,0,8,Kings Norton,SP001486,8,8.0
+R00910,Surbiton,Berrylands,Berrylands,True,1,78,2,0,2,Berrylands,SP001487,2,2.0
+R00911,Kings Norton,Birmingham New Street,Birmingham New Street,True,1,59,8,0,8,Birmingham New Street,SP001488,8,8.0
+R00912,UIG,Kyle of Lochalsh,Kyle of Lochalsh,True,1,4,5,0,5,Kyle of Lochalsh,SP001489,5,5.0
+R00913,London Blackfriars,Sevenoaks,Sevenoaks,True,2,56,27,1,15,XLY,SP001490,24,21.0
+R00914,Littlehampton,Southampton Central,Southampton Central,True,1,1,16,0,16,Southampton Central,SP001491,16,16.0
+R00915,KCG,KCG,KCG,False,1,48,1,0,1,KCG,SP001492,1,1.0
+R00916,Crewe,Shrewsbury,Shrewsbury,True,5,23,52,4,6,Wem,SP002856,38,24.2
+R00917,Swansea,London Paddington,London Paddington,True,4,5,33,3,5,Port Talbot Parkway,SP003464,29,23.8
+R00918,Exeter St Davids,London Paddington,London Paddington,True,1,2,21,0,21,London Paddington,SP001496,21,21.0
+R00919,DUO,DUO,DUO,False,1,98,1,0,1,DUO,SP001497,1,1.0
+R00920,Carmarthen,Milford Haven,Milford Haven,True,1,8,7,0,7,Milford Haven,SP001498,7,7.0
+R00921,Carmarthen,Pembroke Dock,Pembroke Dock,True,1,2,11,0,11,Pembroke Dock,SP001502,11,11.0
+R00922,Carmarthen,Fishguard Harbour,Fishguard Harbour,True,1,2,6,0,6,Fishguard Harbour,SP001503,6,6.0
+R00923,Cheltenham Spa,Cardiff Central,Cardiff Central,True,1,32,8,0,8,Cardiff Central,SP001506,8,8.0
+R00924,Bristol Temple Meads,Cardiff Central,Cardiff Central,True,1,2,8,0,8,Cardiff Central,SP001507,8,8.0
+R00925,Radyr,Cardiff Central,Cardiff Central,True,1,1,6,0,6,Cardiff Central,SP001509,6,6.0
+R00926,New Malden,Guildford,Guildford,True,3,6,13,2,9,Woking,SP001517,11,10.7
+R00927,Gatwick Airport,RDZ,Reading,True,7,65,23,6,12,Guildford,SP002355,22,20.1
+R00928,New Malden,Guildford,Guildford,True,1,2,11,0,11,Guildford,SP001518,11,11.0
+R00929,Earlsfield,Guildford,Guildford,True,1,73,13,0,13,Guildford,SP001519,13,13.0
+R00930,West Worthing,Brighton,Brighton,True,1,2,11,0,11,Brighton,SP001521,11,11.0
+R00931,Wakefield Kirkgate,Manchester Piccadilly,Manchester Piccadilly,True,1,1,11,0,11,Manchester Piccadilly,SP001523,11,11.0
+R00932,Seaford,Brighton,Brighton,True,1,38,10,0,10,Brighton,SP001524,10,10.0
+R00933,Seaford,Brighton,Brighton,True,1,35,11,0,11,Brighton,SP001527,11,11.0
+R00934,Sleights,Whitby,Whitby,True,1,2,3,0,3,Whitby,SP001532,3,3.0
+R00935,Bristol Temple Meads,Manchester Piccadilly,Manchester Piccadilly,True,5,24,64,4,12,Kings Norton,SP003965,47,27.8
+R00936,Whitby,XPK,XPK,False,1,8,6,0,6,XPK,SP001534,6,6.0
+R00937,XPK,Whitby,Whitby,True,1,6,6,0,6,Whitby,SP001535,6,6.0
+R00938,Edinburgh Waverley,North Berwick,North Berwick,True,1,2,5,0,5,North Berwick,SP001538,5,5.0
+R00939,Crewe,Liverpool Lime Street,Liverpool Lime Street,True,2,6,9,1,6,ALE,SP002212,9,8.5
+R00940,Huddersfield,Leeds,Leeds,True,1,2,8,0,8,Leeds,SP001540,8,8.0
+R00941,Frome,London Paddington,London Paddington,True,1,2,16,0,16,London Paddington,SP001544,16,16.0
+R00942,Leeds,York,York,True,1,2,7,0,7,York,SP001545,7,7.0
+R00943,Raynes Park,Shepperton,Shepperton,True,3,55,13,2,6,Teddington,SP001551,12,10.0
+R00944,Manchester Piccadilly,Liverpool Lime Street,Liverpool Lime Street,True,1,2,17,0,17,Liverpool Lime Street,SP001548,17,17.0
+R00945,Kingston,Shepperton,Shepperton,True,1,2,8,0,8,Shepperton,SP001549,8,8.0
+R00946,Shepperton,Raynes Park,Raynes Park,True,2,59,13,1,12,Raynes Park,SP001554,13,12.5
+R00947,Manchester Airport,Blackpool North,Blackpool North,True,1,1,23,0,23,Blackpool North,SP001557,23,23.0
+R00948,Cardiff Central,Nottingham,Nottingham,True,5,26,58,4,19,Birmingham New Street,SP001625,51,33.8
+R00949,York,Sheffield,Sheffield,True,2,6,13,1,6,Moorthorpe,SP001564,13,11.5
+R00950,Ashford International,Eastbourne,Eastbourne,True,4,36,18,3,5,Winchelsea,SP001570,18,13.0
+R00951,Sutton (London),Battersea Park,Battersea Park,True,3,34,20,2,7,Selhurst,SP002535,17,12.3
+R00952,Streatham Hill,XSU,XSU,False,1,6,11,0,11,XSU,SP001573,11,11.0
+R00953,Battersea Park,Horsham,Horsham,True,6,76,18,5,8,Cheam,SP002531,18,13.2
+R00954,Cambridge,Norwich,Norwich,True,6,20,35,5,5,XYE,SP001576,22,13.0
+R00955,West Croydon,Sutton (London),Sutton (London),True,1,2,5,0,5,Sutton (London),SP001580,5,5.0
+R00956,Purley,Tattenham Corner,Tattenham Corner,True,1,74,8,0,8,Tattenham Corner,SP001583,8,8.0
+R00957,Shepperton,Queenstown Road (Battersea),Queenstown Road (Battersea),True,1,2,12,0,12,Queenstown Road (Battersea),SP001585,12,12.0
+R00958,Farnham,Guildford,Guildford,True,1,70,5,0,5,Guildford,SP001586,5,5.0
+R00959,Guildford,Farnham,Farnham,True,1,70,5,0,5,Farnham,SP001587,5,5.0
+R00960,Ardgay,Inverness,Inverness,True,1,4,10,0,10,Inverness,SP001588,10,10.0
+R00961,Earlsfield,Hampton Court,Hampton Court,True,1,72,6,0,6,Hampton Court,SP001589,6,6.0
+R00962,Hampton Court,Earlsfield,Earlsfield,True,2,74,6,1,5,Raynes Park,SP001590,6,5.5
+R00963,Chinley,Manchester Piccadilly,Manchester Piccadilly,True,1,2,12,0,12,Manchester Piccadilly,SP001596,12,12.0
+R00964,Manchester Piccadilly,London Euston,London Euston,True,3,4,71,2,5,Chelford,SP001599,57,45.3
+R00965,Streatham Hill,XSU,XSU,False,1,2,6,0,6,XSU,SP001600,6,6.0
+R00966,Nottingham,Bournemouth,Bournemouth,True,1,2,38,0,39,Bournemouth,SP001601,39,39.0
+R00967,Chichester,Brighton,Brighton,True,1,24,19,0,19,Brighton,SP001602,19,19.0
+R00968,Brighton,Bedford,Bedford,True,24,112,90,23,5,XKM,SP001819,59,36.6
+R00969,Brighton,Chichester,Chichester,True,9,50,38,8,11,West Worthing,SP003094,34,19.3
+R00970,Cambridge,Brighton,Brighton,True,5,63,42,4,10,Stevenage,SP001607,37,28.8
+R00971,Kentish Town,Orpington,Orpington,True,4,22,56,3,5,London Blackfriars,SP002746,31,24.5
+R00972,Bedford,Brighton,Brighton,True,10,130,83,9,6,Luton,SP001686,49,36.6
+R00973,Leicester,Birmingham New Street,Birmingham New Street,True,1,10,10,0,10,Birmingham New Street,SP001613,10,10.0
+R00974,Leicester,Birmingham New Street,Birmingham New Street,True,2,26,24,1,11,Birmingham New Street,SP001656,24,17.5
+R00975,Birmingham New Street,Paignton,Paignton,True,5,8,39,4,5,Kings Norton,SP001658,28,19.8
+R00976,Manchester Piccadilly,Hadfield,Hadfield,True,1,42,11,0,11,Hadfield,SP001632,11,11.0
+R00977,Derby,Cardiff Central,Cardiff Central,True,2,4,42,1,10,Five Ways,SP001660,34,30.5
+R00978,Leigh-on-Sea,London Fenchurch Street,London Fenchurch Street,True,2,10,11,1,5,Laindon,SP001896,11,10.5
+R00979,Watford Junction,East Croydon,East Croydon,True,3,38,17,2,10,Imperial Wharf,SP003341,17,14.3
+R00980,Wandsworth Town,Addlestone,Addlestone,True,1,2,16,0,16,Addlestone,SP001639,16,16.0
+R00981,Gerrards Cross,London Marylebone,London Marylebone,True,1,2,7,0,7,London Marylebone,SP001646,7,7.0
+R00982,High Wycombe,London Marylebone,London Marylebone,True,2,4,10,1,6,South Ruislip,SP001647,10,9.5
+R00983,Newcastle,Nunthorpe,Nunthorpe,True,4,32,29,3,12,Middlesbrough,SP003052,29,18.5
+R00984,Newbury,London Paddington,London Paddington,True,2,19,10,1,5,Reading,SP001651,10,7.5
+R00985,Portsmouth Harbour,Cardiff Central,Cardiff Central,True,5,32,33,4,5,Fareham,SP003455,30,24.2
+R00986,Surbiton,Earlsfield,Earlsfield,True,1,1,4,0,4,Earlsfield,SP001662,4,4.0
+R00987,Kingston,Queenstown Road (Battersea),Queenstown Road (Battersea),True,1,2,13,0,13,Queenstown Road (Battersea),SP001664,13,13.0
+R00988,Dalmuir,Larkhall,Larkhall,True,2,70,35,1,8,Partick,SP001668,23,21.5
+R00989,Birmingham New Street,Reading,Reading,True,1,4,16,0,16,Reading,SP001682,16,16.0
+R00990,Eastbourne,Ore,Ore,True,3,4,15,2,8,Hastings,SP001685,15,10.7
+R00991,York,Reading,Reading,True,1,4,30,0,31,Reading,SP001687,31,31.0
+R00992,Derby,Nottingham,Nottingham,True,2,5,31,1,7,Nottingham,SP002654,34,20.5
+R00993,Hertford North,Moorgate,Moorgate,True,3,31,19,2,11,Alexandra Palace,SP001692,19,16.3
+R00994,Cambridge,Stansted Airport,Stansted Airport,True,1,8,5,0,5,Stansted Airport,SP001694,5,5.0
+R00995,Manchester Piccadilly,Hadfield,Hadfield,True,2,28,12,1,10,Dinting,SP001696,12,12.0
+R00996,Basingstoke,New Malden,New Malden,True,1,2,6,0,6,New Malden,SP001697,6,6.0
+R00997,Raynes Park,Chessington South,Chessington South,True,1,2,6,0,6,Chessington South,SP001699,6,6.0
+R00998,Chessington South,Earlsfield,Earlsfield,True,2,71,7,1,6,Raynes Park,SP001700,7,6.5
+R00999,Shrewsbury,Birmingham New Street,Birmingham New Street,True,2,33,23,1,12,Wolverhampton,SP001707,20,18.5
+R01000,Harwich International,London Liverpool Street,London Liverpool Street,True,2,4,17,1,5,Marks Tey,SP001708,17,16.0
+R01001,Nuneaton,Leamington Spa,Leamington Spa,True,1,36,7,0,7,Leamington Spa,SP001709,7,7.0
+R01002,Birmingham International,Rugeley Trent Valley,Rugeley Trent Valley,True,2,32,18,1,6,Birmingham New Street,SP001710,18,12.0
+R01003,Hunts Cross,Ormskirk,Ormskirk,True,3,130,19,2,7,Liverpool Central,SP001711,19,11.7
+R01004,Birmingham International,Rugeley Trent Valley,Rugeley Trent Valley,True,2,36,19,1,7,Birmingham New Street,SP001712,19,13.0
+R01005,Ascot,Aldershot,Aldershot,True,2,74,7,1,6,Aldershot,SP003311,7,6.5
+R01006,Aldershot,Ascot,Ascot,True,1,70,6,0,6,Ascot,SP001716,6,6.0
+R01007,Hadfield,Manchester Piccadilly,Manchester Piccadilly,True,4,70,14,3,9,Guide Bridge,SP001721,13,12.0
+R01008,Battersea Park,Epsom,Epsom,True,1,1,11,0,11,Epsom,SP001723,11,11.0
+R01009,Hove,Bognor Regis,Bognor Regis,True,2,2,17,1,10,West Worthing,SP001724,17,16.0
+R01010,Imperial Wharf,Shepherds Bush,Shepherds Bush,True,1,16,4,0,4,Shepherds Bush,SP001725,4,4.0
+R01011,Havant,Balham,Balham,True,1,1,22,0,22,Balham,SP001728,22,22.0
+R01012,Tattenham Corner,Purley,Purley,True,1,70,8,0,8,Purley,SP001729,8,8.0
+R01013,Manchester Piccadilly,Stoke-On-Trent,Stoke-On-Trent,True,3,38,12,2,8,Macclesfield,SP001731,12,10.3
+R01014,Cardiff Queen Street,Cardiff Bay,Cardiff Bay,True,1,124,2,0,2,Cardiff Bay,SP001732,2,2.0
+R01015,Ashford International,Dover Priory,Dover Priory,True,1,3,6,0,6,Dover Priory,SP001737,6,6.0
+R01016,East Croydon,Uckfield,Uckfield,True,1,1,13,0,13,Uckfield,SP001738,13,13.0
+R01017,Mallaig,Mallaig,Mallaig,True,1,1,3,0,5,Mallaig,SP001739,5,5.0
+R01018,Lancaster,Barrow-In-Furness,Barrow-In-Furness,True,5,18,27,4,6,Grange-Over-Sands,SP002170,27,18.2
+R01019,Barking Riverside,Gospel Oak,Gospel Oak,True,1,142,14,0,14,Gospel Oak,SP001745,14,14.0
+R01020,Haslemere,New Malden,New Malden,True,1,16,10,0,10,New Malden,SP001746,10,10.0
+R01021,Larkhall,Dalmuir,Dalmuir,True,3,68,28,2,17,Hyndland,SP001748,23,21.0
+R01022,KLS,HUS,HUS,False,1,32,2,0,2,HUS,SP001751,2,2.0
+R01023,HUS,Kings Lynn,Kings Lynn,True,1,32,2,0,2,Kings Lynn,SP001752,2,2.0
+R01024,Twickenham,Queenstown Road (Battersea),Queenstown Road (Battersea),True,1,6,13,0,13,Queenstown Road (Battersea),SP001753,13,13.0
+R01025,XAD,LUB,LUB,False,1,234,2,0,2,LUB,SP001754,2,2.0
+R01026,LUB,XAD,XAD,False,1,230,2,0,2,XAD,SP001755,2,2.0
+R01027,Salisbury,Romsey,Romsey,True,1,34,12,0,13,Romsey,SP001757,13,13.0
+R01028,Dundee,Arbroath,Arbroath,True,3,10,21,2,5,Arbroath,SP002439,21,12.0
+R01029,Sutton (London),XSU,XSU,False,1,2,15,0,15,XSU,SP001760,15,15.0
+R01030,Stoke-On-Trent,Manchester Piccadilly,Manchester Piccadilly,True,2,32,12,1,10,Stockport,SP002499,12,11.5
+R01031,Stoke-On-Trent,Manchester Piccadilly,Manchester Piccadilly,True,2,4,14,1,11,Stockport,SP001765,14,13.0
+R01032,Staines,Queenstown Road (Battersea),Queenstown Road (Battersea),True,1,2,14,0,14,Queenstown Road (Battersea),SP001766,14,14.0
+R01033,Blackburn,Manchester Victoria,Manchester Victoria,True,1,2,9,0,9,Manchester Victoria,SP001767,9,9.0
+R01034,Westbury,Bristol Temple Meads,Bristol Temple Meads,True,2,6,17,1,9,Bristol Temple Meads,SP001768,17,13.0
+R01035,Romsey,Salisbury,Salisbury,True,1,34,12,0,13,Salisbury,SP001769,13,13.0
+R01036,Selhurst,XSU,XSU,False,1,4,11,0,11,XSU,SP001770,11,11.0
+R01037,London Paddington,Heathrow Terminal 5 Rail,Heathrow Terminal 5 Rail,True,5,6,57,4,5,Hayes & Harlington,SP002921,34,24.2
+R01038,Heathrow Terminal 5 Rail,Shenfield,Shenfield,True,3,65,27,2,6,Ealing Broadway,SP003522,25,13.3
+R01039,Brighton,Portsmouth Harbour,Portsmouth Harbour,True,1,1,29,0,29,Portsmouth Harbour,SP001773,29,29.0
+R01040,Wigan Wallgate,Manchester Victoria,Manchester Victoria,True,2,4,11,1,6,Walkden,SP001776,11,10.5
+R01041,Tonbridge,Strood,Strood,True,1,1,12,0,12,Strood,SP001779,12,12.0
+R01042,Horsham,Battersea Park,Battersea Park,True,2,34,19,1,17,Balham,SP003286,19,18.5
+R01043,Barnham,Portsmouth Harbour,Portsmouth Harbour,True,1,2,7,0,7,Portsmouth Harbour,SP001785,7,7.0
+R01044,Brighton,Lewes,Lewes,True,1,1,3,0,3,Lewes,SP001788,3,3.0
+R01045,Chichester,Littlehampton,Littlehampton,True,1,12,4,0,4,Littlehampton,SP001790,4,4.0
+R01046,Eastleigh,Portsmouth Harbour,Portsmouth Harbour,True,1,6,10,0,10,Portsmouth Harbour,SP001793,10,10.0
+R01047,Llandudno,Liverpool Lime Street,Liverpool Lime Street,True,3,30,33,2,10,Chester,SP003585,26,17.7
+R01048,Woking,Portsmouth Harbour,Portsmouth Harbour,True,1,2,20,0,20,Portsmouth Harbour,SP001795,20,20.0
+R01049,Littlehampton,Chichester,Chichester,True,1,10,4,0,4,Chichester,SP001797,4,4.0
+R01050,Staines,Windsor & Eton Riverside,Windsor & Eton Riverside,True,1,2,5,0,5,Windsor & Eton Riverside,SP001799,5,5.0
+R01051,Staines,Queenstown Road (Battersea),Queenstown Road (Battersea),True,2,4,13,1,7,Richmond,SP004313,13,11.5
+R01052,Twickenham,Windsor & Eton Riverside,Windsor & Eton Riverside,True,1,2,9,0,9,Windsor & Eton Riverside,SP001801,9,9.0
+R01053,Manchester Victoria,Wigan Wallgate,Wigan Wallgate,True,5,38,24,4,10,Hindley,SP002390,17,13.4
+R01054,Birmingham New Street,Liverpool Lime Street,Liverpool Lime Street,True,5,68,29,4,6,Wolverhampton,SP001803,18,14.4
+R01055,Wolverhampton,London Euston,London Euston,True,1,7,24,0,24,London Euston,SP001805,24,24.0
+R01056,Oxford,London Paddington,London Paddington,True,3,9,15,2,6,Maidenhead,SP003392,15,11.3
+R01057,Bedwyn,Reading,Reading,True,3,5,13,2,6,Theale,SP003430,13,11.0
+R01058,PBN,SPX,SPX,False,1,36,16,0,16,SPX,SP001809,16,16.0
+R01059,Liverpool Lime Street,Warrington Central,Warrington Central,True,9,64,24,8,6,Hunts Cross,SP001962,21,16.0
+R01060,York,Selby,Selby,True,1,4,2,0,2,Selby,SP001813,2,2.0
+R01061,Liverpool Lime Street,Manchester Victoria,Manchester Victoria,True,4,41,37,3,5,Rainhill,SP004077,32,17.0
+R01062,Machynlleth,Aberystwyth,Aberystwyth,True,1,6,6,0,6,Aberystwyth,SP001817,6,6.0
+R01063,Chester,Cardiff Central,Cardiff Central,True,4,7,38,3,6,Shrewsbury,SP001818,28,17.5
+R01064,Hounslow,Queenstown Road (Battersea),Queenstown Road (Battersea),True,1,2,11,0,11,Queenstown Road (Battersea),SP001824,11,11.0
+R01065,TBT,UIG,UIG,False,1,1,3,0,4,UIG,SP001825,4,4.0
+R01066,Yeovil Pen Mill,Yeovil Junction,Yeovil Junction,True,1,4,2,0,2,Yeovil Junction,SP001828,2,2.0
+R01067,Bournemouth,Weymouth,Weymouth,True,1,6,12,0,12,Weymouth,SP001832,12,12.0
+R01068,Fareham,New Malden,New Malden,True,1,2,19,0,19,New Malden,SP001833,19,19.0
+R01069,Poole,Bournemouth,Bournemouth,True,1,22,4,0,4,Bournemouth,SP001836,4,4.0
+R01070,Portsmouth & Southsea,New Malden,New Malden,True,3,10,29,2,5,Havant,SP001837,19,17.3
+R01071,WJH,Kew Gardens,Kew Gardens,True,1,4,5,0,5,Kew Gardens,SP001839,5,5.0
+R01072,Bournemouth,Poole,Poole,True,1,15,4,0,4,Poole,SP001840,4,4.0
+R01073,Manchester Airport,Sheffield,Sheffield,True,1,1,12,0,12,Sheffield,SP001841,12,12.0
+R01074,Milton Keynes Central,London Euston,London Euston,True,1,2,16,0,16,London Euston,SP001842,16,16.0
+R01075,Manchester Piccadilly,Rose Hill Marple,Rose Hill Marple,True,1,20,9,0,9,Rose Hill Marple,SP001843,9,9.0
+R01076,London St Pancras International,Sheffield,Sheffield,True,4,5,38,3,19,Kettering,SP001848,30,27.0
+R01077,Glasgow Central,Manchester Airport,Manchester Airport,True,4,4,59,3,12,XOU,SP004000,43,32.0
+R01078,Stafford,Crewe,Crewe,True,1,36,7,0,7,Crewe,SP001852,7,7.0
+R01079,Southampton Central,New Malden,New Malden,True,1,2,21,0,21,New Malden,SP001854,21,21.0
+R01080,Fareham,New Malden,New Malden,True,1,4,13,0,13,New Malden,SP001855,13,13.0
+R01081,Manchester Piccadilly,Rose Hill Marple,Rose Hill Marple,True,1,2,9,0,9,Rose Hill Marple,SP001859,9,9.0
+R01082,New Mills Central,Manchester Piccadilly,Manchester Piccadilly,True,1,36,11,0,11,Manchester Piccadilly,SP001862,11,11.0
+R01083,Fareham,New Malden,New Malden,True,1,2,14,0,14,New Malden,SP001864,14,14.0
+R01084,Havant,New Malden,New Malden,True,1,2,12,0,12,New Malden,SP001865,12,12.0
+R01085,Manchester Piccadilly,New Mills Central,New Mills Central,True,1,2,12,0,12,New Mills Central,SP001870,12,12.0
+R01086,Wigan North Western,Manchester Victoria,Manchester Victoria,True,1,12,4,0,4,Manchester Victoria,SP001879,4,4.0
+R01087,Sheffield,Manchester Airport,Manchester Airport,True,1,1,12,0,12,Manchester Airport,SP001881,12,12.0
+R01088,Manchester Airport,Manchester Piccadilly,Manchester Piccadilly,True,1,4,3,0,3,Manchester Piccadilly,SP001884,3,3.0
+R01089,SPX,PBN,PBN,False,3,58,19,2,15,XXX,SP002311,18,16.7
+R01090,Margate,SPX,Ashford International,True,3,39,25,2,10,Ashford International,SP004357,25,19.7
+R01091,Manchester Victoria,Southport,Southport,True,1,2,18,0,18,Southport,SP001890,18,18.0
+R01092,Camden Road,Stratford (London),Stratford (London),True,1,2,10,0,10,Stratford (London),SP001891,10,10.0
+R01093,WJL,Stratford (London),Stratford (London),True,1,2,20,0,20,Stratford (London),SP001894,20,20.0
+R01094,Southend Central,London Fenchurch Street,London Fenchurch Street,True,3,51,23,2,6,Pitsea,SP001897,17,16.0
+R01095,West Brompton,Shalford,Shalford,True,1,1,15,0,15,Shalford,SP001899,15,15.0
+R01096,Pitsea,London Fenchurch Street,London Fenchurch Street,True,3,30,15,2,5,Grays,SP001900,12,11.7
+R01097,XVJ,Bath Spa,Bath Spa,True,2,2,37,1,11,Woking,SP004649,31,25.0
+R01098,Bradford Forster Square,Skipton,Skipton,True,2,56,20,1,10,Skipton,SP002786,20,15.0
+R01099,Folkestone West,XVJ,XVJ,False,1,2,18,0,18,XVJ,SP001903,18,18.0
+R01100,XVJ,Maidstone West,Maidstone West,True,1,1,17,0,17,Maidstone West,SP001906,17,17.0
+R01101,Lairg,Inverness,Inverness,True,1,2,13,0,13,Inverness,SP001908,13,13.0
+R01102,Birmingham New Street,Birmingham International,Birmingham International,True,3,5,27,2,6,Birmingham International,SP001910,27,14.7
+R01103,Bath Spa,Barnes,Barnes,True,1,1,18,0,18,Barnes,SP001911,18,18.0
+R01104,Haywards Heath,Lewes,Lewes,True,1,1,4,0,4,Lewes,SP001912,4,4.0
+R01105,WJH,Imperial Wharf,Imperial Wharf,True,1,10,6,0,6,Imperial Wharf,SP001913,6,6.0
+R01106,Birmingham New Street,Cardiff Central,Cardiff Central,True,1,1,21,0,21,Cardiff Central,SP001914,21,21.0
+R01107,Newcastle,Carlisle,Carlisle,True,5,28,16,4,5,Prudhoe,SP002820,16,12.4
+R01108,West Malling,East Malling,East Malling,True,1,2,2,0,2,East Malling,SP001918,2,2.0
+R01109,Rhoose Cardiff Airport,XCF,XCF,False,1,36,2,0,2,XCF,SP001919,2,2.0
+R01110,ZUM,ZUM,ZUM,False,6,212,9,5,7,ZTU,SP001921,8,8.0
+R01111,Newcastle,Hexham,Hexham,True,5,28,17,4,6,Prudhoe,SP002924,17,12.4
+R01112,Swanley,Bickley,Bickley,True,1,2,3,0,3,Bickley,SP001923,3,3.0
+R01113,Chester,Chester,Chester,True,1,4,1,0,1,Chester,SP001924,1,1.0
+R01114,Carlisle,Middlesbrough,Middlesbrough,True,8,44,28,7,8,Hexham,SP002813,24,19.4
+R01115,Chester,Crewe,Crewe,True,1,9,2,0,2,Crewe,SP001926,2,2.0
+R01116,Crystal Palace,XSU,XSU,False,1,4,9,0,9,XSU,SP001927,9,9.0
+R01117,Eastbourne,Ashford International,Ashford International,True,2,31,18,1,12,Three Oaks,SP001969,18,17.5
+R01118,Hexham,Newcastle,Newcastle,True,4,28,28,3,8,Metrocentre,SP002957,25,14.2
+R01119,Shrewsbury,Stafford,Stafford,True,1,2,7,0,7,Stafford,SP001931,7,7.0
+R01120,XCF,Rhoose Cardiff Airport,Rhoose Cardiff Airport,True,1,36,2,0,2,Rhoose Cardiff Airport,SP001932,2,2.0
+R01121,ZTH,ZUM,ZUM,False,2,17,6,1,7,ZTU,SP001966,8,8.0
+R01122,Wellingborough,Bedford,Bedford,True,1,2,2,0,2,Bedford,SP001935,2,2.0
+R01123,Crewe,Cardiff Central,Cardiff Central,True,1,1,16,0,16,Cardiff Central,SP001937,16,16.0
+R01124,Swansea,Cardiff Central,Cardiff Central,True,1,1,8,0,8,Cardiff Central,SP001938,8,8.0
+R01125,Leeds,Carlisle,Carlisle,True,5,26,28,4,7,Hellifield,SP001942,19,16.0
+R01126,Ayr,Girvan,Girvan,True,1,6,3,0,3,Girvan,SP001943,3,3.0
+R01127,Glasgow Central,Edinburgh Waverley,Edinburgh Waverley,True,1,8,10,0,10,Edinburgh Waverley,SP001950,10,10.0
+R01128,Edinburgh Waverley,Glasgow Central,Glasgow Central,True,2,8,10,1,8,Motherwell,SP003639,10,9.5
+R01129,Edinburgh Waverley,Inverness,Inverness,True,5,11,26,4,7,Dunblane,SP003644,18,16.8
+R01130,Aberdeen,Inverness,Inverness,True,1,18,12,0,12,Inverness,SP001958,12,12.0
+R01131,Wilmslow,Manchester Piccadilly,Manchester Piccadilly,True,1,1,7,0,7,Manchester Piccadilly,SP001959,7,7.0
+R01132,Elgin,Inverness,Inverness,True,1,12,5,0,5,Inverness,SP001960,5,5.0
+R01133,Knutsford,Manchester Piccadilly,Manchester Piccadilly,True,1,1,8,0,8,Manchester Piccadilly,SP001961,8,8.0
+R01134,Eastbourne,Ashford International,Ashford International,True,1,2,18,0,18,Ashford International,SP001964,18,18.0
+R01135,Stockport,Manchester Piccadilly,Manchester Piccadilly,True,1,1,4,0,4,Manchester Piccadilly,SP001967,4,4.0
+R01136,Whifflet,Dalmuir,Dalmuir,True,2,28,26,1,15,Hyndland,SP001968,21,21.0
+R01137,Motherwell,Dalmuir,Dalmuir,True,2,36,27,1,16,Hyndland,SP001971,22,22.0
+R01138,Glasgow Queen Street,Oban,Oban,True,2,10,18,1,14,Loch Awe,SP001972,18,17.5
+R01139,Oban,Glasgow Queen Street,Glasgow Queen Street,True,2,8,18,1,8,Crianlarich,SP001973,18,13.0
+R01140,Crianlarich,Mallaig,Mallaig,True,1,6,19,0,19,Mallaig,SP001975,19,19.0
+R01141,Fort William,Mallaig,Mallaig,True,1,2,11,0,11,Mallaig,SP001976,11,11.0
+R01142,Montrose,Aberdeen,Aberdeen,True,2,20,8,1,5,Aberdeen,SP002382,8,6.5
+R01143,Edinburgh Waverley,Carstairs,Carstairs,True,1,3,4,0,4,Carstairs,SP001978,4,4.0
+R01144,Twickenham,Teddington,Teddington,True,1,2,3,0,3,Teddington,SP001979,3,3.0
+R01145,Lanark,Glasgow Central,Glasgow Central,True,3,72,9,2,5,Motherwell,SP001980,9,7.3
+R01146,Havant,Fratton,Fratton,True,1,2,4,0,4,Fratton,SP001981,4,4.0
+R01147,Woking,Surbiton,Surbiton,True,1,2,2,0,2,Surbiton,SP001982,2,2.0
+R01148,Birmingham New Street,Four Oaks,Four Oaks,True,1,2,9,0,9,Four Oaks,SP001984,9,9.0
+R01149,Edinburgh Waverley,Dunbar,Dunbar,True,1,10,7,0,7,Dunbar,SP001985,7,7.0
+R01150,Ardrossan South Beach,Glasgow Central,Glasgow Central,True,2,6,13,1,11,Paisley Gilmour Street,SP001986,13,12.5
+R01151,Bristol Temple Meads,London Paddington,London Paddington,True,2,40,16,1,9,Maidenhead,SP002106,16,14.0
+R01152,Cowdenbeath,Edinburgh Waverley,Edinburgh Waverley,True,2,28,10,1,5,Inverkeithing,SP003749,10,9.0
+R01153,Coventry,Birmingham New Street,Birmingham New Street,True,1,1,9,0,9,Birmingham New Street,SP001989,9,9.0
+R01154,Headbolt Lane,Manchester Victoria,Manchester Victoria,True,1,28,15,0,15,Manchester Victoria,SP001990,15,15.0
+R01155,Bathgate,Milngavie,Milngavie,True,2,6,31,1,9,Shettleston,SP001994,25,23.0
+R01156,Wick,Inverness,Inverness,True,3,8,26,2,11,Brora,SP001996,27,26.0
+R01157,Inverness,Kyle of Lochalsh,Kyle of Lochalsh,True,7,23,38,6,5,Dingwall,SP001997,27,14.4
+R01158,Bromsgrove,LIF,Four Oaks,True,4,70,24,3,10,Birmingham New Street,SP002346,24,19.0
+R01159,Inverness,Wick,Wick,True,1,2,24,0,25,Wick,SP001999,25,25.0
+R01160,Kyle of Lochalsh,Inverness,Inverness,True,1,8,17,0,17,Inverness,SP002002,17,17.0
+R01161,Manchester Victoria,Headbolt Lane,Headbolt Lane,True,5,34,16,4,6,Atherton,SP002011,15,12.0
+R01162,HNY,SGQ,SGQ,False,1,2,5,0,5,SGQ,SP002007,5,5.0
+R01163,Balham,Battersea Park,Battersea Park,True,1,2,3,0,3,Battersea Park,SP002008,3,3.0
+R01164,Twyford,Twyford,Twyford,True,1,54,4,0,7,Twyford,SP002009,7,7.0
+R01165,Leeds,Hebden Bridge,Hebden Bridge,True,1,30,9,0,9,Hebden Bridge,SP002010,9,9.0
+R01166,Arbroath,Dundee,Dundee,True,1,10,5,0,5,Dundee,SP002014,5,5.0
+R01167,Wigan Wallgate,Manchester Victoria,Manchester Victoria,True,1,34,12,0,12,Manchester Victoria,SP002017,12,12.0
+R01168,Hastings,Balham,Balham,True,8,12,34,7,6,Cooden Beach,SP002993,29,22.9
+R01169,Doncaster,Edinburgh Waverley,Edinburgh Waverley,True,1,4,15,0,15,Edinburgh Waverley,SP002022,15,15.0
+R01170,Leeds,Bradford Interchange,Bradford Interchange,True,5,38,14,4,5,Dewsbury,SP002551,10,7.6
+R01171,Horsham,Peterborough,Peterborough,True,8,51,52,7,6,Gatwick Airport,SP004482,41,34.2
+R01172,Hebden Bridge,Leeds,Leeds,True,1,2,7,0,7,Leeds,SP002029,7,7.0
+R01173,Balloch Central,Airdrie,Airdrie,True,4,66,37,3,9,Dalmuir,SP003655,28,22.0
+R01174,Kilmarnock,Glasgow Central,Glasgow Central,True,2,48,11,1,5,Barrhead,SP002032,11,8.5
+R01175,Auchinleck,Glasgow Central,Glasgow Central,True,1,2,7,0,7,Glasgow Central,SP002034,7,7.0
+R01176,Motherwell,Edinburgh Waverley,Edinburgh Waverley,True,1,2,19,0,19,Edinburgh Waverley,SP002036,19,19.0
+R01177,Glasgow Central,Kilmarnock,Kilmarnock,True,2,60,11,1,7,Barrhead,SP002037,11,9.0
+R01178,Wigan North Western,Manchester Victoria,Manchester Victoria,True,1,2,12,0,12,Manchester Victoria,SP002040,12,12.0
+R01179,EDA,Haymarket,Haymarket,True,1,261,2,0,2,Haymarket,SP002041,2,2.0
+R01180,Three Bridges,Bedford,Bedford,True,10,65,66,9,6,Redhill,SP004196,42,32.7
+R01181,Rugby,Northampton,Northampton,True,1,2,3,0,3,Northampton,SP002043,3,3.0
+R01182,SCN,HNY,HNY,False,1,2,5,0,5,HNY,SP002044,5,5.0
+R01183,Rochdale,Manchester Victoria,Manchester Victoria,True,1,68,5,0,5,Manchester Victoria,SP002045,5,5.0
+R01184,Heathrow Terminal 5 Rail,Shenfield,Shenfield,True,2,14,31,1,14,WHX,SP002046,27,22.5
+R01185,Perth,Inverurie,Inverurie,True,1,2,13,0,13,Inverurie,SP002047,13,13.0
+R01186,Girvan,Kilmarnock,Kilmarnock,True,1,8,7,0,7,Kilmarnock,SP002049,7,7.0
+R01187,Gatwick Airport,Redhill,Redhill,True,5,17,57,4,5,Redhill,SP002050,31,18.0
+R01188,Stratford-upon-Avon,Worcester Foregate Street,Worcester Foregate Street,True,1,6,27,0,27,Worcester Foregate Street,SP002052,27,27.0
+R01189,Fort William,Fort William,Fort William,True,1,12,1,0,1,Fort William,SP002058,1,1.0
+R01190,Fort William,Mallaig,Mallaig,True,1,4,4,0,4,Mallaig,SP002059,4,4.0
+R01191,Mallaig,Fort William,Fort William,True,1,4,3,0,3,Fort William,SP002060,3,3.0
+R01192,Ayr,Kilmarnock,Kilmarnock,True,1,6,5,0,5,Kilmarnock,SP002061,5,5.0
+R01193,Mallaig,Mallaig,Mallaig,True,1,4,1,0,2,Mallaig,SP002064,2,2.0
+R01194,Carstairs,Glasgow Central,Glasgow Central,True,2,4,9,1,5,Motherwell,SP002400,9,7.5
+R01195,Selby,Leeds,Leeds,True,1,2,6,0,6,Leeds,SP002072,6,6.0
+R01196,Manchester Victoria,Rochdale,Rochdale,True,1,68,5,0,5,Rochdale,SP002074,5,5.0
+R01197,Derby,Nottingham,Nottingham,True,1,1,5,0,5,Nottingham,SP002076,5,5.0
+R01198,Liverpool Lime Street,Birmingham New Street,Birmingham New Street,True,3,28,19,2,7,Acton Bridge,SP002079,19,15.3
+R01199,Anderston,Carstairs,Carstairs,True,1,2,9,0,9,Carstairs,SP002080,9,9.0
+R01200,Cardiff Bay,Cardiff Queen Street,Cardiff Queen Street,True,1,122,2,0,2,Cardiff Queen Street,SP002082,2,2.0
+R01201,Glasgow Central,Edinburgh Waverley,Edinburgh Waverley,True,2,4,13,1,6,Carstairs,SP002478,13,11.0
+R01202,Dunbar,Edinburgh Waverley,Edinburgh Waverley,True,1,12,7,0,7,Edinburgh Waverley,SP002086,7,7.0
+R01203,London Liverpool Street,Stansted Airport,Stansted Airport,True,21,307,36,20,5,Tottenham Hale,SP004567,29,19.0
+R01204,Glasgow Central,Ayr,Ayr,True,3,10,19,2,7,Kilwinning,SP002172,14,12.7
+R01205,Ardrossan Harbour,Glasgow Central,Glasgow Central,True,2,32,14,1,9,Lochwinnoch,SP002320,14,13.0
+R01206,Treherbert,Cardiff Central,Cardiff Central,True,1,64,19,0,19,Cardiff Central,SP002091,19,19.0
+R01207,Crewe,Lincoln Central,Lincoln Central,True,9,32,29,8,8,Tutbury & Hatton,SP002587,28,24.9
+R01208,Glasgow Central,Ardrossan Harbour,Ardrossan Harbour,True,1,2,13,0,13,Ardrossan Harbour,SP002093,13,13.0
+R01209,Ardrossan Harbour,Glasgow Central,Glasgow Central,True,1,2,10,0,10,Glasgow Central,SP002094,10,10.0
+R01210,Cambridge North,London Liverpool Street,London Liverpool Street,True,5,34,26,4,12,Bishops Stortford,SP004079,24,22.8
+R01211,Gourock,Glasgow Central,Glasgow Central,True,1,2,8,0,8,Glasgow Central,SP002099,8,8.0
+R01212,Glasgow Central,Ayr,Ayr,True,1,66,13,0,13,Ayr,SP002100,13,13.0
+R01213,Ayr,Glasgow Central,Glasgow Central,True,4,76,19,3,9,Dalry,SP003834,19,15.5
+R01214,Avonmouth,Severn Beach,Severn Beach,True,1,2,3,0,3,Severn Beach,SP002102,3,3.0
+R01215,Carlisle,Dumfries,Dumfries,True,2,32,15,1,5,Dumfries,SP002103,15,10.0
+R01216,Manchester Victoria,Rochdale,Rochdale,True,1,72,2,0,2,Rochdale,SP002105,2,2.0
+R01217,Taunton,London Paddington,London Paddington,True,2,4,26,1,9,Bristol Temple Meads,SP002110,20,17.5
+R01218,Berrylands,New Malden,New Malden,True,1,72,2,0,2,New Malden,SP002111,2,2.0
+R01219,New Malden,Berrylands,Berrylands,True,1,73,2,0,2,Berrylands,SP002114,2,2.0
+R01220,Great Malvern,Birmingham New Street,Birmingham New Street,True,3,6,15,2,9,Longbridge,SP002116,15,14.0
+R01221,Shotts,Edinburgh Waverley,Edinburgh Waverley,True,1,2,14,0,14,Edinburgh Waverley,SP002118,14,14.0
+R01222,Great Malvern,London Paddington,London Paddington,True,4,20,42,3,5,Worcester Shrub Hill,SP003437,23,18.5
+R01223,Worcester Foregate Street,Birmingham New Street,Birmingham New Street,True,1,2,11,0,11,Birmingham New Street,SP002120,11,11.0
+R01224,New Malden,Basingstoke,Basingstoke,True,2,4,17,1,7,Brookwood,SP002124,12,12.0
+R01225,Birmingham New Street,LIF,Four Oaks,True,3,7,15,2,10,Four Oaks,SP004043,15,12.7
+R01226,New Malden,Basingstoke,Basingstoke,True,1,9,13,0,13,Basingstoke,SP002127,13,13.0
+R01227,Glasgow Central,Gourock,Gourock,True,1,2,12,0,12,Gourock,SP002128,12,12.0
+R01228,SAO,Leuchars,Leuchars,True,1,226,2,0,2,Leuchars,SP002130,2,2.0
+R01229,Glasgow Central,Gourock,Gourock,True,1,2,8,0,8,Gourock,SP002131,8,8.0
+R01230,EDA,Inverkeithing,Inverkeithing,True,1,96,2,0,2,Inverkeithing,SP002132,2,2.0
+R01231,Worcester Shrub Hill,Birmingham New Street,Birmingham New Street,True,1,4,11,0,11,Birmingham New Street,SP002134,11,11.0
+R01232,Cardiff Central,Coryton,Coryton,True,1,2,8,0,8,Coryton,SP002135,8,8.0
+R01233,Rochdale,Manchester Victoria,Manchester Victoria,True,1,76,2,0,2,Manchester Victoria,SP002139,2,2.0
+R01234,St Albans Abbey,Watford Junction,Watford Junction,True,1,44,7,0,7,Watford Junction,SP002140,7,7.0
+R01235,Exeter St Davids,London Paddington,London Paddington,True,1,4,16,0,16,London Paddington,SP002141,16,16.0
+R01236,Worcester Shrub Hill,Hereford,Hereford,True,1,4,9,0,9,Hereford,SP002142,9,9.0
+R01237,Newquay,London Paddington,London Paddington,True,2,4,30,1,18,Castle Cary,SP002147,30,29.0
+R01238,Bristol Parkway,Carmarthen,Carmarthen,True,1,2,18,0,18,Carmarthen,SP002150,18,18.0
+R01239,Gatwick Airport,Bedford,Bedford,True,1,4,27,0,27,Bedford,SP002152,27,27.0
+R01240,Horley,Redhill,Redhill,True,1,1,4,0,4,Redhill,SP002153,4,4.0
+R01241,Bedford,Brighton,Brighton,True,19,29,65,18,5,Luton,SP002831,48,39.2
+R01242,Corkickle,Barrow-In-Furness,Barrow-In-Furness,True,4,10,28,3,6,Seascale,SP002167,28,21.5
+R01243,Inverkeithing,EDA,EDA,False,1,94,2,0,2,EDA,SP002169,2,2.0
+R01244,Edinburgh Waverley,Leven,Leven,True,6,41,35,5,7,Inverkeithing,SP002178,22,15.5
+R01245,Glasgow Central,Ayr,Ayr,True,1,2,10,0,10,Ayr,SP002180,10,10.0
+R01246,Cardiff Central,Portsmouth Harbour,Portsmouth Harbour,True,14,86,75,13,5,Patchway,SP003379,40,20.4
+R01247,Birmingham New Street,Liverpool Lime Street,Liverpool Lime Street,True,2,20,19,1,11,Winsford,SP002215,19,18.5
+R01248,Nantwich,BIB,BIB,False,1,1,14,0,14,BIB,SP002184,14,14.0
+R01249,Heathrow Terminal 5 Rail,London Paddington,London Paddington,True,1,147,4,0,4,London Paddington,SP002186,4,4.0
+R01250,Berrylands,Surbiton,Surbiton,True,1,72,2,0,2,Surbiton,SP002192,2,2.0
+R01251,Crewe,Liverpool Lime Street,Liverpool Lime Street,True,2,2,11,1,7,ALE,SP002193,11,10.5
+R01252,XSU,East Grinstead,East Grinstead,True,1,1,20,0,20,East Grinstead,SP002194,20,20.0
+R01253,Teddington,Earlsfield,Earlsfield,True,1,4,7,0,7,Earlsfield,SP002197,7,7.0
+R01254,Ayr,Glasgow Central,Glasgow Central,True,2,4,15,1,7,Dalry,SP002198,14,13.0
+R01255,Glasgow Central,Ayr,Ayr,True,1,2,16,0,16,Ayr,SP002199,16,16.0
+R01256,Birmingham New Street,Liverpool Lime Street,Liverpool Lime Street,True,1,4,19,0,19,Liverpool Lime Street,SP002203,19,19.0
+R01257,SPL,East Grinstead,East Grinstead,True,2,2,23,1,7,New Cross Gate,SP002205,23,20.0
+R01258,Edinburgh Waverley,Dundee,Dundee,True,1,2,13,0,13,Dundee,SP002207,13,13.0
+R01259,Birmingham New Street,Wolverhampton,Wolverhampton,True,3,8,34,2,10,Wolverhampton,SP004022,23,18.0
+R01260,Dundee,Edinburgh Waverley,Edinburgh Waverley,True,2,4,13,1,8,Burntisland,SP002211,13,12.5
+R01261,Shrewsbury,Aberystwyth,Aberystwyth,True,1,8,10,0,10,Aberystwyth,SP002217,10,10.0
+R01262,Luton,Gatwick Airport,Gatwick Airport,True,3,8,27,2,23,Earlswood (Surrey),SP002225,27,26.0
+R01263,Oxford,London Paddington,London Paddington,True,1,26,8,0,8,London Paddington,SP002220,8,8.0
+R01264,Bedford,Three Bridges,Three Bridges,True,4,7,36,3,20,South Croydon,SP002249,30,27.0
+R01265,Cardiff Central,Manchester Piccadilly,Manchester Piccadilly,True,2,12,23,1,8,Craven Arms,SP002224,23,22.0
+R01266,Swansea,Milford Haven,Milford Haven,True,5,13,25,4,6,Ferryside,SP002226,18,12.0
+R01267,Rugby,London Euston,London Euston,True,1,2,14,0,14,London Euston,SP002228,14,14.0
+R01268,Stansted Airport,Norwich,Norwich,True,3,24,23,2,6,Cambridge,SP002232,23,14.7
+R01269,Southend Victoria,London Liverpool Street,London Liverpool Street,True,1,2,11,0,11,London Liverpool Street,SP002235,11,11.0
+R01270,Edinburgh Waverley,Glasgow Central,Glasgow Central,True,5,26,17,4,5,West Calder,SP004456,17,13.0
+R01271,Perth,Edinburgh Waverley,Edinburgh Waverley,True,1,2,10,0,10,Edinburgh Waverley,SP002237,10,10.0
+R01272,Haywards Heath,Bedford,Bedford,True,2,4,35,1,7,Redhill,SP002240,35,34.5
+R01273,Perth,Edinburgh Waverley,Edinburgh Waverley,True,1,1,11,0,11,Edinburgh Waverley,SP002250,11,11.0
+R01274,Carlisle,Leeds,Leeds,True,4,14,20,3,7,Garsdale,SP003499,20,18.2
+R01275,Wolverhampton,Walsall,Walsall,True,1,2,16,0,16,Walsall,SP002253,16,16.0
+R01276,Milton Keynes Central,Northampton,Northampton,True,1,2,4,0,4,Northampton,SP002254,4,4.0
+R01277,Leuchars,SAO,SAO,False,1,228,2,0,2,SAO,SP002257,2,2.0
+R01278,Battersea Park,East Grinstead,East Grinstead,True,1,1,15,0,15,East Grinstead,SP002258,15,15.0
+R01279,Tring,London Euston,London Euston,True,1,2,7,0,7,London Euston,SP002260,7,7.0
+R01280,Birmingham New Street,Coventry,Coventry,True,3,10,15,2,7,Birmingham International,SP004631,15,11.3
+R01281,Stirling,London Euston,London Euston,True,2,4,43,1,6,Whifflet,SP002267,42,41.5
+R01282,Preston,Ormskirk,Ormskirk,True,1,34,5,0,5,Ormskirk,SP002270,5,5.0
+R01283,Sevenoaks,London Blackfriars,London Blackfriars,True,6,74,45,5,13,Shortlands,SP002292,40,30.7
+R01284,XOA,Longbeck,Longbeck,True,1,1,17,0,18,Longbeck,SP002272,18,18.0
+R01285,Stockport,Hazel Grove,Hazel Grove,True,1,2,4,0,4,Hazel Grove,SP002279,4,4.0
+R01286,London Liverpool Street,Enfield Town,Enfield Town,True,8,183,56,7,5,Hackney Downs,SP002542,31,18.8
+R01287,RDZ,Gatwick Airport,Gatwick Airport,True,2,18,18,1,12,Dorking Deepdene,SP002283,18,17.5
+R01288,Norwich,Lowestoft,Lowestoft,True,3,32,12,2,5,Reedham (Norfolk),SP002714,11,8.7
+R01289,Norwich,Sheringham,Sheringham,True,1,2,7,0,7,Sheringham,SP002287,7,7.0
+R01290,RDZ,Gatwick Airport,Gatwick Airport,True,1,2,21,0,21,Gatwick Airport,SP002290,21,21.0
+R01291,RDZ,Gatwick Airport,Gatwick Airport,True,1,2,19,0,19,Gatwick Airport,SP002291,19,19.0
+R01292,Sheffield,Nottingham,Nottingham,True,1,6,7,0,7,Nottingham,SP002295,7,7.0
+R01293,Glasgow Central,Wemyss Bay,Wemyss Bay,True,1,8,9,0,9,Wemyss Bay,SP002296,9,9.0
+R01294,Inverness Airport,INB,INB,False,1,52,2,0,2,INB,SP002298,2,2.0
+R01295,Oban,Dalmally,Dalmally,True,4,6,21,3,5,Dalmally,SP002300,21,15.8
+R01296,AMS,SPX,SPX,False,1,10,18,0,18,SPX,SP002304,18,18.0
+R01297,Mallaig,Glasgow Queen Street,Glasgow Queen Street,True,3,8,37,2,11,Fort William,SP002418,34,24.7
+R01298,Worcester Foregate Street,London Paddington,London Paddington,True,3,6,21,2,8,Kingham,SP003438,20,19.3
+R01299,Didcot Parkway,London Paddington,London Paddington,True,1,2,8,0,8,London Paddington,SP002314,8,8.0
+R01300,Bradford Forster Square,Shipley,Shipley,True,1,6,3,0,3,Shipley,SP002316,3,3.0
+R01301,Brighouse,Leeds,Leeds,True,1,2,7,0,7,Leeds,SP002318,7,7.0
+R01302,INB,Inverness Airport,Inverness Airport,True,1,48,2,0,2,Inverness Airport,SP002321,2,2.0
+R01303,Glasgow Central,Edinburgh Waverley,Edinburgh Waverley,True,1,2,15,0,15,Edinburgh Waverley,SP002322,15,15.0
+R01304,Dumfries,Carlisle,Carlisle,True,1,20,5,0,5,Carlisle,SP002325,5,5.0
+R01305,Whitby,Middlesbrough,Middlesbrough,True,2,12,29,1,18,Middlesbrough,SP002326,29,23.5
+R01306,Barrhead,Glasgow Central,Glasgow Central,True,1,26,7,0,7,Glasgow Central,SP002331,7,7.0
+R01307,Holyhead,London Euston,London Euston,True,7,18,60,6,13,Chester,SP003340,38,25.7
+R01308,Aylesbury,London Marylebone,London Marylebone,True,1,26,11,0,11,London Marylebone,SP002334,11,11.0
+R01309,Haymarket,EDA,EDA,False,1,257,2,0,2,EDA,SP002338,2,2.0
+R01310,Longbridge,LIF,LIF,False,1,2,22,0,22,LIF,SP002345,22,22.0
+R01311,Royston,London Kings Cross,London Kings Cross,True,1,2,17,0,17,London Kings Cross,SP002347,17,17.0
+R01312,Ipswich,Peterborough,Peterborough,True,1,12,11,0,11,Peterborough,SP002348,11,11.0
+R01313,Gordon Hill,Moorgate,Moorgate,True,1,2,13,0,13,Moorgate,SP002349,13,13.0
+R01314,Inverurie,Aberdeen,Aberdeen,True,1,28,4,0,4,Aberdeen,SP002350,4,4.0
+R01315,Huntly,Aberdeen,Aberdeen,True,1,2,6,0,6,Aberdeen,SP002351,6,6.0
+R01316,Aberdeen,Inverurie,Inverurie,True,1,30,4,0,4,Inverurie,SP002352,4,4.0
+R01317,Exeter St Davids,Barnstaple,Barnstaple,True,1,2,5,0,5,Barnstaple,SP002356,5,5.0
+R01318,Finsbury Park,Moorgate,Moorgate,True,1,12,6,0,6,Moorgate,SP002358,6,6.0
+R01319,Gloucester,Westbury,Westbury,True,7,28,35,6,5,Bristol Temple Meads,SP003501,23,15.9
+R01320,Colne,Preston,Preston,True,1,36,19,0,19,Preston,SP002362,19,19.0
+R01321,Blackpool South,Preston,Preston,True,2,38,10,1,8,Kirkham & Wesham,SP002955,10,9.5
+R01322,Buxton,Manchester Piccadilly,Manchester Piccadilly,True,3,26,14,2,6,Disley,SP002367,14,13.0
+R01323,Alexandra Palace,Moorgate,Moorgate,True,1,4,8,0,8,Moorgate,SP002370,8,8.0
+R01324,Motherwell,Carstairs,Carstairs,True,1,2,5,0,5,Carstairs,SP002372,5,5.0
+R01325,Plymouth,Penzance,Penzance,True,2,6,19,1,9,Liskeard,SP002374,19,14.0
+R01326,ZUM,Kew Gardens,Kew Gardens,True,1,4,4,0,4,Kew Gardens,SP002376,4,4.0
+R01327,Inverurie,Montrose,Montrose,True,1,12,8,0,8,Montrose,SP002378,8,8.0
+R01328,Canterbury West,XSI,XSI,False,1,1,3,0,3,XSI,SP002380,3,3.0
+R01329,Bristol Temple Meads,Exeter St Davids,Exeter St Davids,True,1,2,8,0,8,Exeter St Davids,SP002381,8,8.0
+R01330,XSI,Canterbury West,Canterbury West,True,1,1,3,0,3,Canterbury West,SP002384,3,3.0
+R01331,Bristol Temple Meads,Exeter St Davids,Exeter St Davids,True,1,2,7,0,7,Exeter St Davids,SP002385,7,7.0
+R01332,Bristol Temple Meads,Exeter St Davids,Exeter St Davids,True,2,6,13,1,11,Taunton,SP002396,13,12.0
+R01333,Canterbury West,XVJ,XVJ,False,1,1,27,0,27,XVJ,SP002387,27,27.0
+R01334,Gloucester,Bristol Temple Meads,Bristol Temple Meads,True,2,10,18,1,6,Bristol Temple Meads,SP002389,18,12.0
+R01335,XYA,Spondon,Spondon,True,2,2,35,1,5,XWH,SP003004,22,20.0
+R01336,FKE,Folkestone West,Folkestone West,True,1,1,3,0,3,Folkestone West,SP002406,3,3.0
+R01337,Folkestone West,FKE,FKE,False,1,1,4,0,6,FKE,SP002408,6,6.0
+R01338,Dartford,Gillingham (Kent),Gillingham (Kent),True,2,9,14,1,13,Gillingham (Kent),SP002409,14,13.5
+R01339,ZKB,ZUM,ZUM,False,1,10,5,0,8,ZUM,SP002413,8,8.0
+R01340,Ipswich,Norwich,Norwich,True,1,2,4,0,4,Norwich,SP002416,4,4.0
+R01341,ZDE,ZUM,ZUM,False,1,12,5,0,8,ZUM,SP002419,8,8.0
+R01342,BXS,SPX,SPX,False,1,11,16,0,16,SPX,SP002421,16,16.0
+R01343,Glasgow Central,Lanark,Lanark,True,1,2,8,0,8,Lanark,SP002422,8,8.0
+R01344,Filton Abbey Wood,Bristol Temple Meads,Bristol Temple Meads,True,1,28,5,0,5,Bristol Temple Meads,SP002425,5,5.0
+R01345,Southport,Liverpool Central,Liverpool Central,True,1,144,17,0,17,Liverpool Central,SP002426,17,17.0
+R01346,Bristol Temple Meads,Filton Abbey Wood,Filton Abbey Wood,True,1,26,5,0,5,Filton Abbey Wood,SP002427,5,5.0
+R01347,Oban,Oban,Oban,True,1,1,3,0,4,Oban,SP002432,4,4.0
+R01348,Cambridge,Stansted Airport,Stansted Airport,True,6,16,30,5,5,Audley End,SP004225,22,17.3
+R01349,Harwich International,Lowestoft,Lowestoft,True,1,2,14,0,14,Lowestoft,SP002434,14,14.0
+R01350,Colchester,Colchester Town,Colchester Town,True,1,34,2,0,2,Colchester Town,SP002435,2,2.0
+R01351,Walton-On-The-Naze,Colchester,Colchester,True,1,32,11,0,11,Colchester,SP002436,11,11.0
+R01352,Colchester,Walton-On-The-Naze,Walton-On-The-Naze,True,1,34,11,0,11,Walton-On-The-Naze,SP002437,11,11.0
+R01353,Warrington Central,Liverpool Lime Street,Liverpool Lime Street,True,1,30,11,0,11,Liverpool Lime Street,SP002440,11,11.0
+R01354,London Fenchurch Street,Shoeburyness,Shoeburyness,True,5,86,15,4,5,Laindon,SP002441,15,10.8
+R01355,Selby,Hull,Hull,True,1,1,7,0,7,Hull,SP002443,7,7.0
+R01356,Bishops Stortford,Cambridge,Cambridge,True,1,2,11,0,11,Cambridge,SP002445,11,11.0
+R01357,Peterborough,Ipswich,Ipswich,True,2,16,13,1,11,Ipswich,SP002448,13,12.0
+R01358,Bury St Edmunds,Ipswich,Ipswich,True,1,4,6,0,6,Ipswich,SP002449,6,6.0
+R01359,Harwich International,Cambridge,Cambridge,True,1,2,13,0,13,Cambridge,SP002450,13,13.0
+R01360,Manchester Victoria,Wigan North Western,Wigan North Western,True,1,12,4,0,4,Wigan North Western,SP002451,4,4.0
+R01361,Bristol Temple Meads,Avonmouth,Avonmouth,True,2,42,12,1,10,Avonmouth,SP002452,12,11.0
+R01362,Sheffield,Cleethorpes,Cleethorpes,True,1,2,13,0,13,Cleethorpes,SP002457,13,13.0
+R01363,Brighton,Ore,Ore,True,5,17,17,4,8,Eastbourne,SP002458,18,14.8
+R01364,Aberdare,Merthyr Tydfil,Merthyr Tydfil,True,3,68,24,2,11,Radyr,SP002460,30,19.7
+R01365,Alderley Edge,Manchester Piccadilly,Manchester Piccadilly,True,1,30,8,0,8,Manchester Piccadilly,SP002463,8,8.0
+R01366,Nottingham,Worksop,Worksop,True,4,36,13,3,8,Mansfield Woodhouse,SP002464,13,11.2
+R01367,Wandsworth Common,Worthing,Worthing,True,2,2,57,1,15,Three Bridges,SP004594,40,36.0
+R01368,Dumfries,Glasgow Central,Glasgow Central,True,1,2,11,0,11,Glasgow Central,SP002468,11,11.0
+R01369,Motherwell,Lanark,Lanark,True,1,6,5,0,5,Lanark,SP002477,5,5.0
+R01370,CFC,Wareham,Wareham,True,1,1,3,0,3,Wareham,SP002480,3,3.0
+R01371,Wareham,SGE,SGE,False,1,3,6,0,6,SGE,SP002482,6,6.0
+R01372,SGE,Wareham,Wareham,True,1,3,6,0,6,Wareham,SP002483,6,6.0
+R01373,Newbury,Reading,Reading,True,2,40,13,1,8,Reading,SP003431,13,10.5
+R01374,London Paddington,Heathrow Terminal 5 Rail,Heathrow Terminal 5 Rail,True,3,4,26,2,6,Hayes & Harlington,SP002486,23,13.0
+R01375,Wareham,CFC,CFC,False,1,1,3,0,3,CFC,SP002487,3,3.0
+R01376,Avonmouth,Weston-Super-Mare,Weston-Super-Mare,True,2,24,17,1,10,Bristol Temple Meads,SP002752,17,13.5
+R01377,PAQ,SHQ,SHQ,False,1,107,15,0,15,SHQ,SP002490,15,15.0
+R01378,Nunthorpe,Carlisle,Carlisle,True,1,2,21,0,21,Carlisle,SP002491,21,21.0
+R01379,Clifton Down,Bristol Temple Meads,Bristol Temple Meads,True,1,2,6,0,6,Bristol Temple Meads,SP002495,6,6.0
+R01380,Macclesfield,Manchester Piccadilly,Manchester Piccadilly,True,1,2,8,0,8,Manchester Piccadilly,SP002496,8,8.0
+R01381,London Paddington,Heathrow Terminal 5 Rail,Heathrow Terminal 5 Rail,True,4,17,60,3,7,Hayes & Harlington,SP003412,57,22.8
+R01382,Stansted Airport,London Liverpool Street,London Liverpool Street,True,1,6,13,0,13,London Liverpool Street,SP002501,13,13.0
+R01383,Hertford North,Letchworth Garden City,Letchworth Garden City,True,1,4,5,0,5,Letchworth Garden City,SP002508,5,5.0
+R01384,Finsbury Park,Hertford North,Hertford North,True,1,3,12,0,12,Hertford North,SP002510,12,12.0
+R01385,Epsom,Battersea Park,Battersea Park,True,1,2,7,0,7,Battersea Park,SP002511,7,7.0
+R01386,Alexandra Palace,Stevenage,Stevenage,True,1,6,7,0,7,Stevenage,SP002513,7,7.0
+R01387,Balham,Epsom,Epsom,True,1,2,6,0,6,Epsom,SP002515,6,6.0
+R01388,York,Manchester Airport,Manchester Airport,True,5,7,30,4,5,Leeds,SP002518,26,16.8
+R01389,Oxford,Didcot Parkway,Didcot Parkway,True,1,14,5,0,5,Didcot Parkway,SP002523,5,5.0
+R01390,Lewes,Eastbourne,Eastbourne,True,1,2,4,0,4,Eastbourne,SP002524,4,4.0
+R01391,Dorking,Battersea Park,Battersea Park,True,1,26,12,0,12,Battersea Park,SP002525,12,12.0
+R01392,Didcot Parkway,Oxford,Oxford,True,1,16,4,0,4,Oxford,SP002526,4,4.0
+R01393,Haywards Heath,Lewes,Lewes,True,1,2,2,0,2,Lewes,SP002527,2,2.0
+R01394,Oxted,East Grinstead,East Grinstead,True,1,2,5,0,5,East Grinstead,SP002528,5,5.0
+R01395,Holyhead,DFP,DFP,False,1,5,2,0,2,DFP,SP002529,2,2.0
+R01396,Scunthorpe,Doncaster,Doncaster,True,2,16,12,1,7,Doncaster,SP002947,12,9.5
+R01397,Oxford,Didcot Parkway,Didcot Parkway,True,1,16,4,0,4,Didcot Parkway,SP002533,4,4.0
+R01398,Hull,York,York,True,2,3,10,1,5,Howden,SP003951,10,9.5
+R01399,Norwood Junction,XSU,XSU,False,1,8,10,0,10,XSU,SP002540,10,10.0
+R01400,York,Bridlington,Bridlington,True,1,4,15,0,15,Bridlington,SP002543,15,15.0
+R01401,ARA,Mallaig,Mallaig,True,1,5,2,0,2,Mallaig,SP002544,2,2.0
+R01402,London Fenchurch Street,Shoeburyness,Shoeburyness,True,3,7,23,2,5,Upminster,SP002549,17,15.0
+R01403,Nottingham,Newark Castle,Newark Castle,True,3,6,21,2,7,Fiskerton,SP002560,21,14.3
+R01404,York,Bridlington,Bridlington,True,3,7,13,2,6,Hull,SP002555,13,10.3
+R01405,Hertford East,London Liverpool Street,London Liverpool Street,True,7,84,24,6,6,Cheshunt,SP004344,19,15.1
+R01406,Lincoln Central,Grimsby Town,Grimsby Town,True,3,4,11,2,5,Stallingborough,SP002557,11,8.0
+R01407,Hull,Bridlington,Bridlington,True,2,7,12,1,7,Bridlington,SP003084,12,9.5
+R01408,Bridlington,Hull,Hull,True,1,4,5,0,5,Hull,SP002567,5,5.0
+R01409,Hull,Bridlington,Bridlington,True,1,1,5,0,5,Bridlington,SP002569,5,5.0
+R01410,Aylesbury Vale Parkway,London Marylebone,London Marylebone,True,1,40,12,0,12,London Marylebone,SP002571,12,12.0
+R01411,Sheffield,York,York,True,1,4,10,0,10,York,SP002572,10,10.0
+R01412,Ambergate,Cleethorpes,Cleethorpes,True,1,2,26,0,26,Cleethorpes,SP002574,26,26.0
+R01413,XFB,Stafford,Stafford,True,1,2,21,0,21,Stafford,SP002575,21,21.0
+R01414,Salisbury,Worcester Foregate Street,Worcester Foregate Street,True,1,2,16,0,16,Worcester Foregate Street,SP002576,16,16.0
+R01415,Epsom,Battersea Park,Battersea Park,True,1,4,9,0,9,Battersea Park,SP002579,9,9.0
+R01416,Reading,ABX,London Paddington,True,7,93,26,6,6,Slough,SP003363,25,17.9
+R01417,Penzance,Newquay,Newquay,True,1,2,13,0,13,Newquay,SP002584,13,13.0
+R01418,Newquay,Par,Par,True,1,4,7,0,7,Par,SP002586,7,7.0
+R01419,Bognor Regis,Brighton,Brighton,True,2,7,37,1,5,XXA,SP002588,23,21.0
+R01420,Par,Newquay,Newquay,True,1,4,7,0,7,Newquay,SP002590,7,7.0
+R01421,Newquay,Par,Par,True,1,14,4,0,4,Par,SP002592,4,4.0
+R01422,Par,Newquay,Newquay,True,1,12,6,0,6,Newquay,SP002594,6,6.0
+R01423,Newquay,Par,Par,True,1,12,6,0,6,Par,SP002595,6,6.0
+R01424,Par,Newquay,Newquay,True,1,12,4,0,4,Newquay,SP002597,4,4.0
+R01425,Lincoln Central,Matlock,Matlock,True,6,20,52,5,6,Newark Castle,SP002605,27,22.3
+R01426,Lincoln Central,Crewe,Crewe,True,1,6,25,0,25,Crewe,SP002603,25,25.0
+R01427,Lincoln Central,Crewe,Crewe,True,1,6,24,0,24,Crewe,SP002604,24,24.0
+R01428,Newark Castle,Crewe,Crewe,True,1,4,23,0,23,Crewe,SP002606,23,23.0
+R01429,Barton-On-Humber,Cleethorpes,Cleethorpes,True,2,16,14,1,11,Grimsby Town,SP002659,14,13.0
+R01430,Ormskirk,Hunts Cross,Hunts Cross,True,2,124,19,1,13,Liverpool Central,SP002613,19,16.0
+R01431,PDX,Shenfield,Shenfield,True,3,298,23,2,6,WHX,SP002616,19,11.7
+R01432,XOA,Hanwell,Hanwell,True,1,2,27,0,27,Hanwell,SP002617,27,27.0
+R01433,Worksop,Nottingham,Nottingham,True,1,14,12,0,12,Nottingham,SP002618,12,12.0
+R01434,Worksop,Nottingham,Nottingham,True,1,14,12,0,12,Nottingham,SP002619,12,12.0
+R01435,Mansfield Woodhouse,Nottingham,Nottingham,True,2,8,8,1,6,Hucknall,SP002620,8,7.5
+R01436,Worksop,Nottingham,Nottingham,True,1,6,13,0,13,Nottingham,SP002624,13,13.0
+R01437,Watford Junction,St Albans Abbey,St Albans Abbey,True,1,2,3,0,3,St Albans Abbey,SP002626,3,3.0
+R01438,Sheffield,Derby,Derby,True,1,4,4,0,4,Derby,SP002627,4,4.0
+R01439,Watford Junction,St Albans Abbey,St Albans Abbey,True,1,36,7,0,7,St Albans Abbey,SP002629,7,7.0
+R01440,Grimsby Town,Matlock,Matlock,True,1,4,26,0,26,Matlock,SP002630,26,26.0
+R01441,Cleethorpes,Matlock,Matlock,True,4,12,32,3,10,Hykeham,SP002676,32,26.8
+R01442,Birmingham New Street,LIF,LIF,False,1,1,8,0,8,LIF,SP002633,8,8.0
+R01443,Bristol Temple Meads,Newquay,Newquay,True,3,6,24,2,5,Weston-Super-Mare,SP002635,24,13.0
+R01444,Gloucester,Salisbury,Salisbury,True,2,4,16,1,12,Salisbury,SP004400,16,14.0
+R01445,Reading,Redhill,Redhill,True,2,6,19,1,9,Ash,SP002638,19,18.5
+R01446,Westbury,Weymouth,Weymouth,True,1,2,12,0,12,Weymouth,SP002640,12,12.0
+R01447,Sheffield,London St Pancras International,London St Pancras International,True,2,4,21,1,5,Derby,SP002643,21,13.0
+R01448,Liskeard,Plymouth,Plymouth,True,1,2,9,0,9,Plymouth,SP002651,9,9.0
+R01449,Aberdeen,Aberdeen,Aberdeen,True,1,6,1,0,1,Aberdeen,SP002653,1,1.0
+R01450,Sheffield,Derby,Derby,True,3,4,32,2,5,XTR,SP002656,34,22.0
+R01451,Nottingham,Mansfield Woodhouse,Mansfield Woodhouse,True,1,4,7,0,7,Mansfield Woodhouse,SP002657,7,7.0
+R01452,Sheffield,Liverpool Lime Street,Liverpool Lime Street,True,1,2,21,0,21,Liverpool Lime Street,SP002660,21,21.0
+R01453,Cleethorpes,Barton-On-Humber,Barton-On-Humber,True,1,10,12,0,12,Barton-On-Humber,SP002662,12,12.0
+R01454,Manchester Piccadilly,Glasgow Central,Glasgow Central,True,2,2,20,1,5,Wigan North Western,SP002665,20,19.5
+R01455,Leicester,Sheffield,Sheffield,True,1,4,10,0,10,Sheffield,SP002666,10,10.0
+R01456,Derby,Sheffield,Sheffield,True,1,2,6,0,6,Sheffield,SP002667,6,6.0
+R01457,Crewe,Liverpool Lime Street,Liverpool Lime Street,True,1,1,3,0,3,Liverpool Lime Street,SP002670,3,3.0
+R01458,Henley-On-Thames,Reading,Reading,True,1,3,5,0,5,Reading,SP002680,5,5.0
+R01459,Huddersfield,Brighouse,Brighouse,True,1,14,2,0,2,Brighouse,SP002681,2,2.0
+R01460,Blackburn,Clitheroe,Clitheroe,True,1,4,5,0,5,Clitheroe,SP002683,5,5.0
+R01461,Brighouse,Huddersfield,Huddersfield,True,1,14,2,0,2,Huddersfield,SP002686,2,2.0
+R01462,Frome,Bristol Temple Meads,Bristol Temple Meads,True,2,6,16,1,10,Bristol Temple Meads,SP003450,16,13.0
+R01463,Bath Spa,Bristol Temple Meads,Bristol Temple Meads,True,1,2,4,0,4,Bristol Temple Meads,SP002690,4,4.0
+R01464,Glasgow Central,Edinburgh Waverley,Edinburgh Waverley,True,2,6,22,1,5,Holytown,SP002691,22,17.0
+R01465,Bristol Temple Meads,Cardiff Central,Cardiff Central,True,1,2,9,0,9,Cardiff Central,SP002692,9,9.0
+R01466,Bromley South,Gillingham (Kent),Gillingham (Kent),True,1,2,9,0,9,Gillingham (Kent),SP002693,9,9.0
+R01467,Exeter St Davids,Cardiff Central,Cardiff Central,True,4,22,21,3,6,Weston-Super-Mare,SP002695,21,16.5
+R01468,Derby,EMA,EMA,False,1,105,2,0,2,EMA,SP002698,2,2.0
+R01469,EMA,Derby,Derby,True,1,109,2,0,2,Derby,SP002699,2,2.0
+R01470,Norwich,Stansted Airport,Stansted Airport,True,1,2,17,0,17,Stansted Airport,SP002700,17,17.0
+R01471,Leamington Spa,Nuneaton,Nuneaton,True,1,36,7,0,7,Nuneaton,SP002702,7,7.0
+R01472,Ely,Norwich,Norwich,True,1,2,7,0,7,Norwich,SP002703,7,7.0
+R01473,Par,Plymouth,Plymouth,True,1,2,12,0,12,Plymouth,SP002706,12,12.0
+R01474,Kingussie,Dundee,Dundee,True,1,1,5,0,5,Dundee,SP002709,5,5.0
+R01475,Leeds,Skipton,Skipton,True,1,14,11,0,11,Skipton,SP002713,11,11.0
+R01476,Redhill,RDZ,RDZ,False,3,6,20,2,9,Guildford,SP002717,19,17.7
+R01477,Norwich,Lowestoft,Lowestoft,True,1,4,10,0,10,Lowestoft,SP002721,10,10.0
+R01478,Weymouth,Gloucester,Gloucester,True,5,17,24,4,9,Castle Cary,SP002722,24,20.0
+R01479,Southampton Central,Bristol Temple Meads,Bristol Temple Meads,True,1,2,16,0,16,Bristol Temple Meads,SP002723,16,16.0
+R01480,Hull,Doncaster,Doncaster,True,5,16,28,4,6,Gilberdyke,SP002734,16,13.4
+R01481,Elgin,Kyle of Lochalsh,Kyle of Lochalsh,True,1,2,3,0,3,Kyle of Lochalsh,SP002728,3,3.0
+R01482,Elgin,Elgin,Elgin,True,1,2,1,0,1,Elgin,SP002730,1,1.0
+R01483,Beccles,Norwich,Norwich,True,1,2,10,0,10,Norwich,SP002731,10,10.0
+R01484,Preston,Blackpool South,Blackpool South,True,1,28,9,0,9,Blackpool South,SP002733,9,9.0
+R01485,Hull,Bridlington,Bridlington,True,2,8,13,1,8,Bridlington,SP002740,13,10.5
+R01486,Stratford-upon-Avon,Birmingham Moor Street,Birmingham Moor Street,True,1,2,6,0,6,Birmingham Moor Street,SP002737,6,6.0
+R01487,Great Yarmouth,Norwich,Norwich,True,1,36,7,0,7,Norwich,SP002738,7,7.0
+R01488,Birmingham Moor Street,Stratford-upon-Avon,Stratford-upon-Avon,True,1,2,7,0,7,Stratford-upon-Avon,SP002741,7,7.0
+R01489,XOH,Birmingham Moor Street,Birmingham Moor Street,True,1,2,2,0,2,Birmingham Moor Street,SP002742,2,2.0
+R01490,Birmingham Moor Street,XOH,XOH,False,1,2,2,0,2,XOH,SP002745,2,2.0
+R01491,Stevenage,Hertford North,Hertford North,True,1,2,3,0,3,Hertford North,SP002748,3,3.0
+R01492,Stevenage,Finsbury Park,Finsbury Park,True,2,6,8,1,7,Alexandra Palace,SP002749,8,7.5
+R01493,Finsbury Park,Stevenage,Stevenage,True,1,1,8,0,8,Stevenage,SP002750,8,8.0
+R01494,London Kings Cross,Cambridge,Cambridge,True,7,10,38,6,9,Hitchin,SP002960,22,17.1
+R01495,Norwich,Great Yarmouth,Great Yarmouth,True,1,4,6,0,6,Great Yarmouth,SP002756,6,6.0
+R01496,Birmingham Snow Hill,Leamington Spa,Leamington Spa,True,1,2,13,0,13,Leamington Spa,SP002760,13,13.0
+R01497,Birmingham New Street,Rugeley Trent Valley,Rugeley Trent Valley,True,2,5,18,1,11,Walsall,SP002763,18,14.5
+R01498,Birmingham New Street,Shrewsbury,Shrewsbury,True,2,33,28,1,5,Bescot Stadium,SP003959,20,16.5
+R01499,Elgin,Elgin,Elgin,True,1,2,1,0,2,Elgin,SP002767,2,2.0
+R01500,Maidstone East,Ashford International,Ashford International,True,1,2,4,0,4,Ashford International,SP002768,4,4.0
+R01501,Bromley South,Ashford International,Ashford International,True,1,2,11,0,11,Ashford International,SP002769,11,11.0
+R01502,Lewisham,Gravesend,Gravesend,True,1,4,12,0,12,Gravesend,SP002770,12,12.0
+R01503,XVJ,Gillingham (Kent),Gillingham (Kent),True,1,1,28,0,29,Gillingham (Kent),SP002774,29,29.0
+R01504,Derby,Sheffield,Sheffield,True,1,3,3,0,3,Sheffield,SP002776,3,3.0
+R01505,Petersfield,Portsmouth Harbour,Portsmouth Harbour,True,1,2,8,0,8,Portsmouth Harbour,SP002778,8,8.0
+R01506,Oxford,Worcestershire Parkway,Worcestershire Parkway,True,1,2,9,0,9,Worcestershire Parkway,SP002779,9,9.0
+R01507,Slough,Taplow,Taplow,True,1,5,3,0,3,Taplow,SP002781,3,3.0
+R01508,Stourbridge Junction,London Marylebone,London Marylebone,True,1,2,30,0,30,London Marylebone,SP002784,30,30.0
+R01509,Bath Spa,Frome,Frome,True,1,2,5,0,5,Frome,SP002785,5,5.0
+R01510,Polegate,Hastings,Hastings,True,2,3,13,1,7,Pevensey & Westham,SP002788,15,14.0
+R01511,Haywards Heath,Brighton,Brighton,True,1,1,7,0,7,Brighton,SP002789,7,7.0
+R01512,Epsom,Horsham,Horsham,True,1,2,9,0,9,Horsham,SP002790,9,9.0
+R01513,Kings Sutton,London Marylebone,London Marylebone,True,1,2,17,0,17,London Marylebone,SP002796,17,17.0
+R01514,Chelmsford,Stafford,Stafford,True,1,1,22,0,22,Stafford,SP002798,22,22.0
+R01515,Wolverhampton,London Euston,London Euston,True,1,2,23,0,23,London Euston,SP002799,23,23.0
+R01516,HWX,Guildford,Guildford,True,1,40,3,0,3,Guildford,SP002800,3,3.0
+R01517,Welwyn Garden City,London Kings Cross,London Kings Cross,True,1,1,14,0,14,London Kings Cross,SP002801,14,14.0
+R01518,Chester,Llandudno Junction,Llandudno Junction,True,3,6,18,2,8,Llandudno Junction,SP003592,18,13.7
+R01519,Woking,HWX,HWX,False,1,36,2,0,2,HWX,SP002805,2,2.0
+R01520,HWX,Woking,Woking,True,1,38,2,0,2,Woking,SP002806,2,2.0
+R01521,Battersea Park,East Grinstead,East Grinstead,True,1,1,14,0,14,East Grinstead,SP002808,14,14.0
+R01522,Walsall,London Euston,London Euston,True,1,1,27,0,27,London Euston,SP002817,27,27.0
+R01523,Middlesbrough,Carlisle,Carlisle,True,1,2,22,0,22,Carlisle,SP002818,22,22.0
+R01524,SOY,ULP,ULP,False,1,4,2,0,2,ULP,SP002823,2,2.0
+R01525,Sheffield,Barnsley,Barnsley,True,1,2,3,0,3,Barnsley,SP002827,3,3.0
+R01526,Crewe,Holyhead,Holyhead,True,1,2,17,0,17,Holyhead,SP002829,17,17.0
+R01527,Doncaster,Sheffield,Sheffield,True,1,6,7,0,7,Sheffield,SP002833,7,7.0
+R01528,XAA,Berwick-Upon-Tweed,Berwick-Upon-Tweed,True,1,12,5,0,5,Berwick-Upon-Tweed,SP002837,5,5.0
+R01529,Berwick-Upon-Tweed,XAA,XAA,False,1,12,5,0,5,XAA,SP002838,5,5.0
+R01530,XLB,Leeds,Leeds,True,1,53,2,0,2,Leeds,SP002842,2,2.0
+R01531,Crewe,Wrexham General,Wrexham General,True,1,34,3,0,3,Wrexham General,SP002843,3,3.0
+R01532,Leeds,Horsforth,Horsforth,True,1,2,4,0,4,Horsforth,SP002845,4,4.0
+R01533,Saltburn,Darlington,Darlington,True,3,68,20,2,12,Darlington,SP003352,17,14.7
+R01534,Bishop Auckland,Saltburn,Saltburn,True,1,32,16,0,16,Saltburn,SP002849,16,16.0
+R01535,Banbury,Didcot Parkway,Didcot Parkway,True,3,24,9,2,5,Oxford,SP002851,9,7.3
+R01536,Leeds,XLB,XLB,False,1,57,2,0,2,XLB,SP002855,2,2.0
+R01537,Pembroke Dock,Cardiff Central,Cardiff Central,True,6,19,34,5,11,Carmarthen,SP002861,30,25.3
+R01538,Wrexham General,Bidston,Bidston,True,1,10,13,0,13,Bidston,SP002862,13,13.0
+R01539,Wrexham Central,Bidston,Bidston,True,1,30,14,0,14,Bidston,SP002865,14,14.0
+R01540,Bishops Stortford,London Liverpool Street,London Liverpool Street,True,1,1,12,0,12,London Liverpool Street,SP002866,12,12.0
+R01541,Bidston,Wrexham Central,Wrexham Central,True,2,42,14,1,13,Wrexham General,SP002871,14,13.5
+R01542,Ormskirk,Preston,Preston,True,1,34,5,0,5,Preston,SP002873,5,5.0
+R01543,Skipton,Lancaster,Lancaster,True,1,2,11,0,11,Lancaster,SP002874,11,11.0
+R01544,Dundee,Aberdeen,Aberdeen,True,1,2,8,0,8,Aberdeen,SP002875,8,8.0
+R01545,Leeds,Morecambe,Morecambe,True,1,2,18,0,18,Morecambe,SP002876,18,18.0
+R01546,Chester,Birmingham International,Birmingham International,True,1,1,32,0,32,Birmingham International,SP002878,32,32.0
+R01547,Ryde St Johns Road,Shanklin,Shanklin,True,1,2,6,0,6,Shanklin,SP002879,6,6.0
+R01548,Ryde Pier Head,Shanklin,Shanklin,True,1,48,8,0,8,Shanklin,SP002880,8,8.0
+R01549,Saltburn,Saltburn,Saltburn,True,1,1,1,0,1,Saltburn,SP002881,1,1.0
+R01550,London Liverpool Street,Chingford,Chingford,True,1,151,9,0,9,Chingford,SP002884,9,9.0
+R01551,Lancaster,Leeds,Leeds,True,3,6,16,2,11,Skipton,SP002885,16,14.0
+R01552,Llandudno,XOA,XOA,False,1,1,15,0,15,XOA,SP002886,15,15.0
+R01553,Stafford,XFB,Nottingham,True,2,3,26,1,5,Nuneaton,SP002887,21,15.5
+R01554,Shrewsbury,Cardiff Central,Cardiff Central,True,2,3,30,1,11,Cardiff Central,SP002888,30,20.5
+R01555,Leeds,Skipton,Skipton,True,1,2,10,0,10,Skipton,SP002889,10,10.0
+R01556,XVJ,Gravesend,Gravesend,True,2,73,17,1,14,Dartford,SP002909,17,15.5
+R01557,Chingford,London Liverpool Street,London Liverpool Street,True,2,148,11,1,7,Hackney Downs,SP004058,11,10.0
+R01558,Warrington Central,Manchester Oxford Road,Manchester Oxford Road,True,1,4,12,0,12,Manchester Oxford Road,SP002895,12,12.0
+R01559,Warrington Central,Manchester Oxford Road,Manchester Oxford Road,True,2,10,11,1,5,Flixton,SP002896,11,9.5
+R01560,Warrington Central,Manchester Oxford Road,Manchester Oxford Road,True,1,2,9,0,9,Manchester Oxford Road,SP002897,9,9.0
+R01561,Gillingham (Kent),Dover Priory,Dover Priory,True,1,2,16,0,16,Dover Priory,SP002899,16,16.0
+R01562,Manchester Oxford Road,Liverpool Lime Street,Liverpool Lime Street,True,7,24,22,6,5,Urmston,SP002901,22,17.3
+R01563,Manchester Oxford Road,Liverpool Lime Street,Liverpool Lime Street,True,1,2,18,0,18,Liverpool Lime Street,SP002903,18,18.0
+R01564,Manchester Oxford Road,Liverpool Lime Street,Liverpool Lime Street,True,3,6,18,2,5,Irlam,SP002905,18,13.7
+R01565,Purley,XSU,XSU,False,1,2,14,0,14,XSU,SP002907,14,14.0
+R01566,Manchester Oxford Road,Liverpool Lime Street,Liverpool Lime Street,True,3,16,20,2,10,Warrington Central,SP004005,20,16.0
+R01567,Acton Central,Kew Gardens,Kew Gardens,True,1,2,4,0,4,Kew Gardens,SP002913,4,4.0
+R01568,SPX,Faversham,Faversham,True,10,149,56,9,8,XXJ,SP004396,28,22.8
+R01569,Ryde Pier Head,Ryde St Johns Road,Ryde St Johns Road,True,1,2,3,0,3,Ryde St Johns Road,SP002919,3,3.0
+R01570,Liverpool Lime Street,Manchester Oxford Road,Manchester Oxford Road,True,1,2,19,0,19,Manchester Oxford Road,SP002920,19,19.0
+R01571,Ryde St Johns Road,Ryde Pier Head,Ryde Pier Head,True,1,2,3,0,3,Ryde Pier Head,SP002922,3,3.0
+R01572,Shanklin,Ryde Pier Head,Ryde Pier Head,True,2,50,8,1,6,Ryde St Johns Road,SP002925,8,7.0
+R01573,Prudhoe,Newcastle,Newcastle,True,1,2,6,0,6,Newcastle,SP002928,6,6.0
+R01574,Worksop,Sheffield,Sheffield,True,1,2,7,0,7,Sheffield,SP002936,7,7.0
+R01575,Orpington,XVJ,XVJ,False,2,2,11,1,7,Ravensbourne,SP002937,11,10.5
+R01576,Doncaster,Scunthorpe,Scunthorpe,True,1,16,7,0,7,Scunthorpe,SP002938,7,7.0
+R01577,Doncaster,Adwick,Adwick,True,1,2,3,0,3,Adwick,SP002949,3,3.0
+R01578,Sevenoaks,London Charing Cross,London Charing Cross,True,1,74,16,0,16,London Charing Cross,SP002952,16,16.0
+R01579,Rutherglen,Dalmuir,Dalmuir,True,1,2,13,0,13,Dalmuir,SP002959,13,13.0
+R01580,Preston,Blackpool South,Blackpool South,True,1,6,10,0,10,Blackpool South,SP002961,10,10.0
+R01581,ABX,Heathrow Terminal 4 Rail,Heathrow Terminal 4 Rail,True,14,330,28,13,10,PDX,SP003204,25,18.7
+R01582,Wemyss Bay,RTY,RTY,False,1,28,2,0,2,RTY,SP002970,2,2.0
+R01583,RTY,Wemyss Bay,Wemyss Bay,True,1,28,2,0,2,Wemyss Bay,SP002972,2,2.0
+R01584,Largs,Largs,Largs,True,1,72,2,0,3,Largs,SP002974,3,3.0
+R01585,Kidderminster,Stratford-upon-Avon,Stratford-upon-Avon,True,1,2,23,0,23,Stratford-upon-Avon,SP002977,23,23.0
+R01586,Alexandra Palace,Moorgate,Moorgate,True,1,2,9,0,9,Moorgate,SP002984,9,9.0
+R01587,Dover Priory,London Charing Cross,London Charing Cross,True,4,4,46,3,7,Ashford International,SP003159,29,24.2
+R01588,Carlisle,Whitehaven,Whitehaven,True,1,36,10,0,10,Whitehaven,SP002997,10,10.0
+R01589,Whitehaven,Carlisle,Carlisle,True,1,34,10,0,10,Carlisle,SP003002,10,10.0
+R01590,Beckenham Junction,London Blackfriars,London Blackfriars,True,1,10,9,0,9,London Blackfriars,SP003007,9,9.0
+R01591,Hyndland,Springburn,Springburn,True,4,6,28,3,6,Bellgrove,SP003894,20,16.0
+R01592,Gravesend,XVJ,XVJ,False,1,64,17,0,17,XVJ,SP003010,17,17.0
+R01593,Stratford (London),Heathrow Terminal 4 Rail,Heathrow Terminal 4 Rail,True,1,2,15,0,15,Heathrow Terminal 4 Rail,SP003013,15,15.0
+R01594,Lancaster,Morecambe,Morecambe,True,1,34,3,0,3,Morecambe,SP003016,3,3.0
+R01595,Gidea Park,London Liverpool Street,London Liverpool Street,True,3,16,27,2,10,Stratford (London),SP003017,24,17.7
+R01596,Letchworth Garden City,London Kings Cross,London Kings Cross,True,3,3,16,2,5,Gordon Hill,SP003018,16,12.3
+R01597,Shrewsbury,Crewe,Crewe,True,1,18,8,0,8,Crewe,SP003021,8,8.0
+R01598,Lancaster,Heysham Port,Heysham Port,True,1,2,4,0,4,Heysham Port,SP003022,4,4.0
+R01599,Wolverhampton,Glasgow Central,Glasgow Central,True,2,2,23,1,10,Wigan North Western,SP003028,23,22.5
+R01600,Three Bridges,Bedford,Bedford,True,1,1,42,0,42,Bedford,SP003034,42,42.0
+R01601,Dover Priory,Faversham,Faversham,True,1,2,5,0,5,Faversham,SP003049,5,5.0
+R01602,Llandudno Junction,Llandudno,Llandudno,True,1,28,3,0,3,Llandudno,SP003050,3,3.0
+R01603,Wembley Central,Queens Park (London),Queens Park (London),True,1,104,6,0,6,Queens Park (London),SP003053,6,6.0
+R01604,Surbiton,Raynes Park,Raynes Park,True,1,2,3,0,3,Raynes Park,SP003054,3,3.0
+R01605,Leeds,Hull,Hull,True,1,3,8,0,8,Hull,SP003056,8,8.0
+R01606,Stevenage,London Kings Cross,London Kings Cross,True,1,1,16,0,16,London Kings Cross,SP003063,16,16.0
+R01607,Gillingham (Kent),Sheerness-On-Sea,Sheerness-On-Sea,True,1,2,7,0,7,Sheerness-On-Sea,SP003065,7,7.0
+R01608,Leeds,Rochdale,Rochdale,True,1,2,12,0,12,Rochdale,SP003066,12,12.0
+R01609,London Charing Cross,Hayes (Kent),Hayes (Kent),True,1,74,13,0,13,Hayes (Kent),SP003068,13,13.0
+R01610,DGS,DGS,DGS,False,1,2,1,0,1,DGS,SP003071,1,1.0
+R01611,Sandhills,Southport,Southport,True,1,2,15,0,15,Southport,SP003077,15,15.0
+R01612,York,Leeds,Leeds,True,1,62,14,0,14,Leeds,SP003079,14,14.0
+R01613,York,Leeds,Leeds,True,2,4,19,1,7,Leeds,SP004221,19,13.0
+R01614,Beverley,Hull,Hull,True,1,4,3,0,3,Hull,SP003081,3,3.0
+R01615,Margate,XVJ,XVJ,False,1,1,26,0,26,XVJ,SP003085,26,26.0
+R01616,Hull,Beverley,Beverley,True,1,4,3,0,3,Beverley,SP003086,3,3.0
+R01617,Knottingley,Leeds,Leeds,True,1,34,7,0,7,Leeds,SP003087,7,7.0
+R01618,SDI,SPX,SPX,False,1,1,4,0,4,SPX,SP003091,4,4.0
+R01619,Manchester Oxford Road,Wigan North Western,Wigan North Western,True,1,2,12,0,12,Wigan North Western,SP003096,12,12.0
+R01620,Goole,Hull,Hull,True,1,2,7,0,7,Hull,SP003097,7,7.0
+R01621,Barrow-In-Furness,Manchester Airport,Manchester Airport,True,2,2,27,1,10,XOU,SP003100,27,23.5
+R01622,Millom,Barrow-In-Furness,Barrow-In-Furness,True,2,8,29,1,6,Barrow-In-Furness,SP003101,29,17.5
+R01623,Leeds,Hull,Hull,True,1,1,9,0,9,Hull,SP003104,9,9.0
+R01624,XSU,Caterham,Caterham,True,1,2,14,0,14,Caterham,SP003112,14,14.0
+R01625,Thorpe Bay,London Fenchurch Street,London Fenchurch Street,True,6,18,25,5,8,Pitsea,SP003113,19,16.3
+R01626,Liverpool Lime Street,Blackpool North,Blackpool North,True,1,2,18,0,18,Blackpool North,SP003129,18,18.0
+R01627,XVJ,Dover Priory,Dover Priory,True,1,1,38,0,38,Dover Priory,SP003136,38,38.0
+R01628,Three Bridges,Bedford,Bedford,True,1,3,33,0,33,Bedford,SP003137,33,33.0
+R01629,Raynes Park,Guildford,Guildford,True,2,3,17,1,6,Woking,SP003679,16,11.5
+R01630,Brighton,Ore,Ore,True,4,12,20,3,5,XRH,SP003143,20,18.8
+R01631,Darlington,York,York,True,1,2,4,0,4,York,SP003148,4,4.0
+R01632,Glasgow Central,Dumbreck,Dumbreck,True,1,6,2,0,2,Dumbreck,SP003151,2,2.0
+R01633,Dumbreck,Glasgow Central,Glasgow Central,True,1,6,2,0,2,Glasgow Central,SP003154,2,2.0
+R01634,Selhurst,Epsom Downs,Epsom Downs,True,1,2,10,0,10,Epsom Downs,SP003158,10,10.0
+R01635,York,Darlington,Darlington,True,1,2,4,0,4,Darlington,SP003160,4,4.0
+R01636,Ashford International,London Cannon Street,London Cannon Street,True,3,6,25,2,7,Tonbridge,SP003162,22,19.3
+R01637,Ramsgate,London Charing Cross,London Charing Cross,True,5,40,47,4,10,Ashford International,SP003163,32,21.8
+R01638,SHQ,PAQ,PAQ,False,1,98,15,0,15,PAQ,SP003165,15,15.0
+R01639,Dover Priory,London Charing Cross,London Charing Cross,True,5,37,43,4,5,XSI,SP003255,26,20.4
+R01640,Paisley Canal,Glasgow Central,Glasgow Central,True,1,2,5,0,5,Glasgow Central,SP003169,5,5.0
+R01641,Glasgow Central,Paisley Canal,Paisley Canal,True,1,2,5,0,5,Paisley Canal,SP003171,5,5.0
+R01642,Berrylands,Raynes Park,Raynes Park,True,1,2,3,0,3,Raynes Park,SP003172,3,3.0
+R01643,Merthyr Tydfil,Aberdare,Aberdare,True,2,66,25,1,15,Cardiff Central,SP003177,31,23.0
+R01644,London Paddington,Reading,Reading,True,2,5,11,1,5,West Drayton,SP003180,11,10.0
+R01645,Canterbury West,London Charing Cross,London Charing Cross,True,2,6,21,1,5,Ashford International,SP003209,21,13.0
+R01646,Hertford North,Stevenage,Stevenage,True,1,1,3,0,3,Stevenage,SP003183,3,3.0
+R01647,Lewes,Seaford,Seaford,True,1,2,6,0,7,Seaford,SP003192,7,7.0
+R01648,Polegate,Lewes,Lewes,True,1,1,2,0,2,Lewes,SP003193,2,2.0
+R01649,Plumpton,Lewes,Lewes,True,1,1,2,0,2,Lewes,SP003194,2,2.0
+R01650,Lewes,Polegate,Polegate,True,1,1,3,0,3,Polegate,SP003195,3,3.0
+R01651,East Croydon,Oxted,Oxted,True,1,2,6,0,6,Oxted,SP003196,6,6.0
+R01652,London Paddington,Reading,Reading,True,2,5,16,1,5,Hayes & Harlington,SP003199,14,10.5
+R01653,London Liverpool Street,Southend Victoria,Southend Victoria,True,3,7,22,2,5,Ilford,SP003297,16,13.3
+R01654,Derby,London St Pancras International,London St Pancras International,True,1,1,22,0,23,London St Pancras International,SP003210,23,23.0
+R01655,XVJ,Gillingham (Kent),Gillingham (Kent),True,1,4,21,0,21,Gillingham (Kent),SP003211,21,21.0
+R01656,Heathrow Terminal 5 Rail,London Paddington,London Paddington,True,1,1,6,0,6,London Paddington,SP003213,6,6.0
+R01657,Reading,London Paddington,London Paddington,True,2,2,12,1,5,Langley,SP004629,12,11.0
+R01658,Reading,London Paddington,London Paddington,True,1,4,9,0,9,London Paddington,SP003217,9,9.0
+R01659,Oban,Oban,Oban,True,1,2,2,0,3,Oban,SP003219,3,3.0
+R01660,Ramsgate,Ashford International,Ashford International,True,4,11,53,3,13,XSI,SP003237,38,28.8
+R01661,Oban,Oban,Oban,True,1,8,2,0,3,Oban,SP003222,3,3.0
+R01662,Bristol Temple Meads,Weymouth,Weymouth,True,1,2,18,0,18,Weymouth,SP003224,18,18.0
+R01663,London Kings Cross,Welwyn Garden City,Welwyn Garden City,True,1,2,11,0,11,Welwyn Garden City,SP003225,11,11.0
+R01664,Norwich,Ipswich,Ipswich,True,1,2,4,0,4,Ipswich,SP003227,4,4.0
+R01665,BIB,Slough,Slough,True,1,1,13,0,13,Slough,SP003230,13,13.0
+R01666,Glasgow Central,Dumfries,Dumfries,True,1,2,14,0,14,Dumfries,SP003231,14,14.0
+R01667,Fratton,Bristol Temple Meads,Bristol Temple Meads,True,1,2,24,0,24,Bristol Temple Meads,SP003234,24,24.0
+R01668,Glasgow Central,Neilston,Neilston,True,1,2,8,0,8,Neilston,SP003240,8,8.0
+R01669,Reading,Newbury,Newbury,True,2,43,11,1,8,Newbury,SP004052,11,9.5
+R01670,Port Talbot Parkway,Llanelli,Llanelli,True,1,1,9,0,9,Llanelli,SP003246,9,9.0
+R01671,PNQ,SMQ,SMQ,False,1,2,2,0,2,SMQ,SP003247,2,2.0
+R01672,Llandrindod,Shrewsbury,Shrewsbury,True,1,2,13,0,13,Shrewsbury,SP003256,13,13.0
+R01673,Edinburgh Waverley,Dundee,Dundee,True,1,1,12,0,12,Dundee,SP003257,12,12.0
+R01674,Tonbridge,London Cannon Street,London Cannon Street,True,2,4,15,1,9,XPY,SP003260,13,12.5
+R01675,Falkirk Grahamston,Glasgow Queen Street,Glasgow Queen Street,True,1,38,9,0,9,Glasgow Queen Street,SP003264,9,9.0
+R01676,Crayford,London Cannon Street,London Cannon Street,True,3,14,22,2,5,New Eltham,SP003265,16,13.3
+R01677,Bognor Regis,Littlehampton,Littlehampton,True,1,4,4,0,4,Littlehampton,SP003267,4,4.0
+R01678,Manchester Oxford Road,Southport,Southport,True,2,30,18,1,12,Parbold,SP003668,18,16.5
+R01679,Romiley,Stockport,Stockport,True,1,1,2,0,2,Stockport,SP003276,2,2.0
+R01680,Stoke-On-Trent,Stockport,Stockport,True,1,1,3,0,3,Stockport,SP003277,3,3.0
+R01681,Tunbridge Wells,Tonbridge,Tonbridge,True,1,2,3,0,3,Tonbridge,SP003278,3,3.0
+R01682,London Blackfriars,Rochester,Rochester,True,2,4,26,1,13,Swanley,SP004528,20,19.5
+R01683,Dorking,Battersea Park,Battersea Park,True,1,6,13,0,13,Battersea Park,SP003289,13,13.0
+R01684,Epsom Downs,Sutton (London),Sutton (London),True,1,2,2,0,2,Sutton (London),SP003291,2,2.0
+R01685,Enfield Town,London Liverpool Street,London Liverpool Street,True,1,100,16,0,16,London Liverpool Street,SP003295,16,16.0
+R01686,Beverley,London Kings Cross,London Kings Cross,True,1,1,40,0,40,London Kings Cross,SP003296,40,40.0
+R01687,Beverley,London Kings Cross,London Kings Cross,True,1,3,25,0,25,London Kings Cross,SP003299,25,25.0
+R01688,Welwyn Garden City,London Kings Cross,London Kings Cross,True,1,1,12,0,12,London Kings Cross,SP003301,12,12.0
+R01689,Redhill,Tonbridge,Tonbridge,True,1,48,7,0,7,Tonbridge,SP003302,7,7.0
+R01690,West Ealing,XOA,XOA,False,1,2,26,0,26,XOA,SP003308,26,26.0
+R01691,Lancaster,London Euston,London Euston,True,2,3,42,1,10,Stafford,SP003310,36,32.5
+R01692,Heathrow Terminal 4 Rail,ABX,Shenfield,True,2,140,31,1,14,WHX,SP003710,27,22.5
+R01693,Hull,Sheffield,Sheffield,True,1,1,12,0,12,Sheffield,SP003317,12,12.0
+R01694,Maidenhead,ABX,London Paddington,True,2,40,21,1,10,Ealing Broadway,SP003318,20,15.5
+R01695,Hull,Scarborough,Scarborough,True,1,1,8,0,8,Scarborough,SP003319,8,8.0
+R01696,Witham,Braintree,Braintree,True,1,8,5,0,5,Braintree,SP003320,5,5.0
+R01697,Lancaster,London Euston,London Euston,True,1,1,34,0,34,London Euston,SP003325,34,34.0
+R01698,Pontypridd,Cardiff Bay,Cardiff Bay,True,2,12,10,1,8,Cardiff Queen Street,SP003326,9,9.0
+R01699,Stanford-Le-Hope,London Fenchurch Street,London Fenchurch Street,True,2,4,11,1,8,Barking,SP004360,11,9.5
+R01700,Stanford-Le-Hope,Pitsea,Pitsea,True,1,6,2,0,2,Pitsea,SP003330,2,2.0
+R01701,Maidenhead,ABX,London Paddington,True,3,19,24,2,9,Southall,SP003332,23,18.3
+R01702,XVJ,Gillingham (Kent),Gillingham (Kent),True,1,1,18,0,18,Gillingham (Kent),SP003333,18,18.0
+R01703,Tilehurst,Pangbourne,Pangbourne,True,1,3,2,0,2,Pangbourne,SP003335,2,2.0
+R01704,Pangbourne,Tilehurst,Tilehurst,True,1,3,2,0,2,Tilehurst,SP003337,2,2.0
+R01705,Taplow,Slough,Slough,True,1,4,3,0,3,Slough,SP003339,3,3.0
+R01706,Wrexham General,London Euston,London Euston,True,1,2,21,0,21,London Euston,SP003342,21,21.0
+R01707,Haywards Heath,Brighton,Brighton,True,1,1,5,0,5,Brighton,SP003344,5,5.0
+R01708,Lewes,Brighton,Brighton,True,1,3,5,0,5,Brighton,SP003345,5,5.0
+R01709,Crowborough,Uckfield,Uckfield,True,1,1,3,0,3,Uckfield,SP003347,3,3.0
+R01710,Birmingham New Street,Holyhead,Holyhead,True,1,1,27,0,27,Holyhead,SP003348,27,27.0
+R01711,Ely,Cambridge,Cambridge,True,1,1,4,0,4,Cambridge,SP003350,4,4.0
+R01712,Bristol Temple Meads,Portsmouth Harbour,Portsmouth Harbour,True,3,4,38,2,5,Westbury,SP003354,23,20.3
+R01713,Wigan Wallgate,Southport,Southport,True,1,2,10,0,10,Southport,SP003361,10,10.0
+R01714,Selby,Hull,Hull,True,1,1,5,0,5,Hull,SP003373,5,5.0
+R01715,Bristol Parkway,Westbury,Westbury,True,2,4,25,1,13,Westbury,SP003461,25,19.0
+R01716,Bristol Temple Meads,Bristol Parkway,Bristol Parkway,True,1,4,5,0,5,Bristol Parkway,SP003383,5,5.0
+R01717,Carlisle,Leeds,Leeds,True,1,2,14,0,14,Leeds,SP003388,14,14.0
+R01718,Weston-Super-Mare,BWE,BWE,False,1,56,3,0,3,BWE,SP003390,3,3.0
+R01719,Reading,ABX,ABX,False,2,10,20,1,9,Ealing Broadway,SP003446,20,19.5
+R01720,Bathgate,Edinburgh Waverley,Edinburgh Waverley,True,1,12,6,0,6,Edinburgh Waverley,SP003397,6,6.0
+R01721,Selby,Leeds,Leeds,True,1,2,6,0,6,Leeds,SP003403,6,6.0
+R01722,BWE,Weston-Super-Mare,Weston-Super-Mare,True,1,62,3,0,3,Weston-Super-Mare,SP003406,3,3.0
+R01723,Bristol Temple Meads,London Paddington,London Paddington,True,1,2,13,0,13,London Paddington,SP003408,13,13.0
+R01724,Derby,London St Pancras International,London St Pancras International,True,2,2,29,1,14,Flitwick,SP003411,29,25.5
+R01725,Swindon,Worcester Shrub Hill,Worcester Shrub Hill,True,2,4,9,1,6,Cheltenham Spa,SP003416,9,7.5
+R01726,Sheffield,Cleethorpes,Cleethorpes,True,2,2,20,1,7,Hatfield & Stainforth,SP003419,20,17.0
+R01727,Doncaster,Liverpool Lime Street,Liverpool Lime Street,True,2,2,25,1,10,Hazel Grove,SP003421,25,24.0
+R01728,Birmingham New Street,Newport (South Wales),Newport (South Wales),True,1,1,8,0,8,Newport (South Wales),SP003422,8,8.0
+R01729,Tonbridge,Redhill,Redhill,True,1,48,7,0,7,Redhill,SP003424,7,7.0
+R01730,Bicester Village,Oxford,Oxford,True,1,2,4,0,4,Oxford,SP003426,4,4.0
+R01731,Newbury,London Paddington,London Paddington,True,1,9,9,0,9,London Paddington,SP003432,9,9.0
+R01732,Worcester Shrub Hill,London Paddington,London Paddington,True,1,2,17,0,17,London Paddington,SP003442,17,17.0
+R01733,Worcester Foregate Street,London Paddington,London Paddington,True,1,2,19,0,19,London Paddington,SP003445,19,19.0
+R01734,Chester,Birmingham International,Birmingham International,True,1,1,21,0,21,Birmingham International,SP003447,21,21.0
+R01735,London Liverpool Street,Stansted Airport,Stansted Airport,True,1,2,11,0,11,Stansted Airport,SP003449,11,11.0
+R01736,Gatwick Airport,Bedford,Bedford,True,1,2,30,0,30,Bedford,SP003451,30,30.0
+R01737,Welwyn Garden City,Sevenoaks,Sevenoaks,True,1,20,37,0,37,Sevenoaks,SP003453,37,37.0
+R01738,Shrewsbury,Fishguard Harbour,Fishguard Harbour,True,1,1,27,0,27,Fishguard Harbour,SP003456,27,27.0
+R01739,Finsbury Park,Sevenoaks,Sevenoaks,True,1,4,29,0,29,Sevenoaks,SP003457,29,29.0
+R01740,Swansea,London Paddington,London Paddington,True,1,25,21,0,21,London Paddington,SP003466,21,21.0
+R01741,Clarbeston Road,Fishguard Harbour,Fishguard Harbour,True,1,2,3,0,3,Fishguard Harbour,SP003471,3,3.0
+R01742,RTY,RTY,RTY,False,1,1,2,0,3,RTY,SP003477,3,3.0
+R01743,Westbury,Frome,Frome,True,1,2,2,0,2,Frome,SP003484,2,2.0
+R01744,Westbury,Gloucester,Gloucester,True,1,6,11,0,11,Gloucester,SP003487,11,11.0
+R01745,New Cross,London Cannon Street,London Cannon Street,True,1,2,24,0,24,London Cannon Street,SP003489,24,24.0
+R01746,Cardiff Central,Ebbw Vale Town,Ebbw Vale Town,True,1,2,9,0,9,Ebbw Vale Town,SP003490,9,9.0
+R01747,Bath Spa,Filton Abbey Wood,Filton Abbey Wood,True,1,2,7,0,7,Filton Abbey Wood,SP003505,7,7.0
+R01748,London Paddington,Greenford,Greenford,True,1,1,8,0,8,Greenford,SP003506,8,8.0
+R01749,Liverpool Central,Ormskirk,Ormskirk,True,1,4,13,0,13,Ormskirk,SP003507,13,13.0
+R01750,Cheltenham Spa,Bristol Temple Meads,Bristol Temple Meads,True,1,2,7,0,7,Bristol Temple Meads,SP003508,7,7.0
+R01751,Fratton,Portsmouth Harbour,Portsmouth Harbour,True,1,2,3,0,3,Portsmouth Harbour,SP003510,3,3.0
+R01752,New Malden,Alton,Alton,True,1,1,9,0,9,Alton,SP003518,9,9.0
+R01753,Sheffield,Retford,Retford,True,1,2,5,0,5,Retford,SP003520,5,5.0
+R01754,Shipley,Bradford Forster Square,Bradford Forster Square,True,1,6,3,0,3,Bradford Forster Square,SP003521,3,3.0
+R01755,Three Bridges,Bedford,Bedford,True,2,2,31,1,11,XLJ,SP003524,31,30.0
+R01756,Barnsley,Huddersfield,Huddersfield,True,1,1,12,0,12,Huddersfield,SP003533,12,12.0
+R01757,Huddersfield,Brighouse,Brighouse,True,1,30,3,0,3,Brighouse,SP003535,3,3.0
+R01758,Brighouse,Huddersfield,Huddersfield,True,1,32,3,0,3,Huddersfield,SP003536,3,3.0
+R01759,Sandhills,Hunts Cross,Hunts Cross,True,1,6,9,0,9,Hunts Cross,SP003538,9,9.0
+R01760,Queenstown Road (Battersea),Basingstoke,Basingstoke,True,1,2,15,0,15,Basingstoke,SP003539,15,15.0
+R01761,Manchester Piccadilly,Sheffield,Sheffield,True,1,1,11,0,11,Sheffield,SP003541,11,11.0
+R01762,Newbury,Bedwyn,Bedwyn,True,1,33,4,0,4,Bedwyn,SP003543,4,4.0
+R01763,Reading,Newbury,Newbury,True,1,2,4,0,4,Newbury,SP003548,4,4.0
+R01764,Stevenage,London Kings Cross,London Kings Cross,True,1,1,12,0,12,London Kings Cross,SP003558,12,12.0
+R01765,Huddersfield,Halifax,Halifax,True,1,6,4,0,4,Halifax,SP003561,4,4.0
+R01766,Selby,York,York,True,1,2,5,0,5,York,SP003563,5,5.0
+R01767,Selby,Halifax,Halifax,True,2,3,11,1,7,Leeds,SP004461,11,9.0
+R01768,XVJ,Dartford,Dartford,True,1,1,15,0,15,Dartford,SP003570,15,15.0
+R01769,Deighton,Huddersfield,Huddersfield,True,1,2,2,0,2,Huddersfield,SP003572,2,2.0
+R01770,Cardiff Central,Carmarthen,Carmarthen,True,1,1,12,0,12,Carmarthen,SP003574,12,12.0
+R01771,Halifax,Huddersfield,Huddersfield,True,1,4,4,0,4,Huddersfield,SP003575,4,4.0
+R01772,Leicester,Nottingham,Nottingham,True,1,2,10,0,10,Nottingham,SP003579,10,10.0
+R01773,Fishguard Harbour,Carmarthen,Carmarthen,True,3,12,41,2,6,Carmarthen,SP003712,41,22.0
+R01774,Guildford,Portsmouth Harbour,Portsmouth Harbour,True,1,2,13,0,13,Portsmouth Harbour,SP003583,13,13.0
+R01775,RBU,HWX,HWX,False,1,100,2,0,2,HWX,SP003584,2,2.0
+R01776,Battersea Park,Horsham,Horsham,True,1,1,16,0,16,Horsham,SP003589,16,16.0
+R01777,London Paddington,Reading,Reading,True,1,1,8,0,8,Reading,SP003591,8,8.0
+R01778,HWX,RBU,RBU,False,1,100,2,0,2,RBU,SP003601,2,2.0
+R01779,Haywards Heath,Eastbourne,Eastbourne,True,1,1,8,0,8,Eastbourne,SP003608,8,8.0
+R01780,Battersea Park,Three Bridges,Three Bridges,True,5,5,35,4,6,South Croydon,SP003673,24,17.4
+R01781,Heathrow Terminal 4 Rail,London Paddington,London Paddington,True,1,1,6,0,6,London Paddington,SP003613,6,6.0
+R01782,Cardiff Central,Carmarthen,Carmarthen,True,2,2,19,1,5,Bridgend,SP003622,13,12.0
+R01783,Barnstaple,CMA,CMA,False,1,20,4,0,4,CMA,SP003624,4,4.0
+R01784,Bristol Temple Meads,Penzance,Penzance,True,1,2,25,0,25,Penzance,SP003626,25,25.0
+R01785,CMA,Barnstaple,Barnstaple,True,1,18,4,0,4,Barnstaple,SP003628,4,4.0
+R01786,Cardiff Bay,Cardiff Central,Cardiff Central,True,1,2,3,0,3,Cardiff Central,SP003631,3,3.0
+R01787,Welshpool,Aberystwyth,Aberystwyth,True,1,2,9,0,9,Aberystwyth,SP003632,9,9.0
+R01788,Llandudno,Llandudno Junction,Llandudno Junction,True,1,26,3,0,3,Llandudno Junction,SP003633,3,3.0
+R01789,Manchester Piccadilly,Chester,Chester,True,1,1,11,0,11,Chester,SP003635,11,11.0
+R01790,Carstairs,Garscadden,Garscadden,True,1,2,15,0,15,Garscadden,SP003637,15,15.0
+R01791,Raynes Park,Portsmouth Harbour,Portsmouth Harbour,True,1,2,24,0,24,Portsmouth Harbour,SP003638,24,24.0
+R01792,Hyndland,Motherwell,Motherwell,True,1,2,16,0,16,Motherwell,SP003641,16,16.0
+R01793,Barnstaple,LLP,LLP,False,1,20,4,0,4,LLP,SP003642,4,4.0
+R01794,Battersea Park,Streatham Hill,Streatham Hill,True,1,2,4,0,4,Streatham Hill,SP003643,4,4.0
+R01795,Edinburgh Waverley,XCN,XCN,False,1,3,2,0,2,XCN,SP003645,2,2.0
+R01796,Dundee,Edinburgh Waverley,Edinburgh Waverley,True,1,2,9,0,9,Edinburgh Waverley,SP003646,9,9.0
+R01797,Barnstaple,LCP,LCP,False,1,2,3,0,3,LCP,SP003647,3,3.0
+R01798,LLP,Barnstaple,Barnstaple,True,1,24,4,0,4,Barnstaple,SP003648,4,4.0
+R01799,Taunton,XBV,XBV,False,1,42,6,0,6,XBV,SP003652,6,6.0
+R01800,London Charing Cross,Gravesend,Gravesend,True,3,3,36,2,6,Lewisham,SP003656,23,17.3
+R01801,Great Ayton,Newcastle,Newcastle,True,1,4,17,0,17,Newcastle,SP003659,17,17.0
+R01802,XBV,Taunton,Taunton,True,1,42,6,0,6,Taunton,SP003662,6,6.0
+R01803,Hull,Doncaster,Doncaster,True,3,21,14,2,5,Gilberdyke,SP003671,13,11.3
+R01804,Manchester Victoria,Blackburn,Blackburn,True,1,2,9,0,9,Blackburn,SP003674,9,9.0
+R01805,Dalmuir,Balloch Central,Balloch Central,True,1,2,7,0,7,Balloch Central,SP003680,7,7.0
+R01806,Tottenham Hale,Stansted Airport,Stansted Airport,True,1,1,8,0,8,Stansted Airport,SP003683,8,8.0
+R01807,Dalmuir,Balloch Central,Balloch Central,True,1,2,9,0,9,Balloch Central,SP003689,9,9.0
+R01808,Cumbernauld,Dalmuir,Dalmuir,True,3,34,34,2,20,Hyndland,SP003690,26,25.7
+R01809,Cardiff Central,Aberdare,Aberdare,True,1,5,17,0,17,Aberdare,SP003691,17,17.0
+R01810,Barnstaple,Exeter St Davids,Exeter St Davids,True,1,1,4,0,4,Exeter St Davids,SP003697,4,4.0
+R01811,Totnes,XSC,XSC,False,1,26,3,0,3,XSC,SP003700,3,3.0
+R01812,Great Yarmouth,Norwich,Norwich,True,1,2,6,0,6,Norwich,SP003703,6,6.0
+R01813,Huddersfield,Manchester Piccadilly,Manchester Piccadilly,True,1,2,7,0,7,Manchester Piccadilly,SP003706,7,7.0
+R01814,Totnes,KBS,KBS,False,1,2,2,0,2,KBS,SP003717,2,2.0
+R01815,Manchester Piccadilly,Leeds,Leeds,True,1,1,3,0,3,Leeds,SP003719,3,3.0
+R01816,Leeds,Manchester Piccadilly,Manchester Piccadilly,True,1,1,3,0,3,Manchester Piccadilly,SP003721,3,3.0
+R01817,KBS,Totnes,Totnes,True,1,2,2,0,2,Totnes,SP003722,2,2.0
+R01818,XSC,Totnes,Totnes,True,1,26,3,0,3,Totnes,SP003725,3,3.0
+R01819,Plymouth,Penzance,Penzance,True,1,2,15,0,15,Penzance,SP003726,15,15.0
+R01820,Earlsfield,Woking,Woking,True,1,1,8,0,8,Woking,SP003729,8,8.0
+R01821,Yeovil Pen Mill,Yeovil Junction,Yeovil Junction,True,1,22,3,0,3,Yeovil Junction,SP003733,3,3.0
+R01822,Yeovil Junction,Yeovil Pen Mill,Yeovil Pen Mill,True,1,22,3,0,3,Yeovil Pen Mill,SP003735,3,3.0
+R01823,Harwich Town,Manningtree,Manningtree,True,4,44,21,3,6,Manningtree,SP004318,21,13.5
+R01824,Colchester,Harwich Town,Harwich Town,True,1,6,7,0,7,Harwich Town,SP003740,7,7.0
+R01825,Yeovil Junction,Yeovil Pen Mill,Yeovil Pen Mill,True,1,4,2,0,2,Yeovil Pen Mill,SP003742,2,2.0
+R01826,Swansea,Cardiff Central,Cardiff Central,True,1,6,13,0,13,Cardiff Central,SP003746,13,13.0
+R01827,ARA,ARA,ARA,False,1,1,2,0,3,ARA,SP003752,3,3.0
+R01828,Mallaig,ARA,ARA,False,1,3,2,0,2,ARA,SP003753,2,2.0
+R01829,Reading,London Paddington,London Paddington,True,2,5,7,1,5,Southall,SP004630,7,6.5
+R01830,Llandudno Junction,Blaenau Ffestiniog,Blaenau Ffestiniog,True,1,2,5,0,5,Blaenau Ffestiniog,SP003762,5,5.0
+R01831,Blaenau Ffestiniog,Llandudno,Llandudno,True,1,12,13,0,13,Llandudno,SP003763,13,13.0
+R01832,Llandudno,Blaenau Ffestiniog,Blaenau Ffestiniog,True,1,10,13,0,13,Blaenau Ffestiniog,SP003764,13,13.0
+R01833,Glasgow Queen Street,Falkirk Grahamston,Falkirk Grahamston,True,2,68,9,1,7,Cumbernauld,SP003766,9,8.0
+R01834,Birmingham New Street,Rugeley Trent Valley,Rugeley Trent Valley,True,1,1,15,0,15,Rugeley Trent Valley,SP003769,15,15.0
+R01835,Cardiff Central,Milford Haven,Milford Haven,True,1,2,27,0,27,Milford Haven,SP003771,27,27.0
+R01836,Fishguard Harbour,Clarbeston Road,Clarbeston Road,True,1,2,3,0,3,Clarbeston Road,SP003772,3,3.0
+R01837,Dalmuir,Helensburgh Central,Helensburgh Central,True,1,2,7,0,7,Helensburgh Central,SP003775,7,7.0
+R01838,Carmarthen,Tenby,Tenby,True,1,4,3,0,3,Tenby,SP003789,3,3.0
+R01839,Tenby,Carmarthen,Carmarthen,True,1,4,3,0,3,Carmarthen,SP003790,3,3.0
+R01840,Battersea Park,East Croydon,East Croydon,True,1,1,4,0,4,East Croydon,SP003794,4,4.0
+R01841,Dingwall,Inverness,Inverness,True,1,2,5,0,5,Inverness,SP003798,5,5.0
+R01842,Invergordon,Inverness,Inverness,True,1,2,7,0,7,Inverness,SP003800,7,7.0
+R01843,Tain,Inverness,Inverness,True,1,2,9,0,9,Inverness,SP003803,9,9.0
+R01844,Garscadden,Springburn,Springburn,True,3,4,28,2,9,Bellgrove,SP003807,24,20.0
+R01845,Edinburgh Waverley,Glasgow Central,Glasgow Central,True,1,2,7,0,7,Glasgow Central,SP003808,7,7.0
+R01846,Glasgow Central,East Kilbride,East Kilbride,True,1,2,8,0,8,East Kilbride,SP003814,8,8.0
+R01847,Glasgow Central,East Kilbride,East Kilbride,True,1,2,6,0,6,East Kilbride,SP003815,6,6.0
+R01848,Nottingham,Liverpool Lime Street,Liverpool Lime Street,True,1,2,24,0,24,Liverpool Lime Street,SP003817,24,24.0
+R01849,Cumbernauld,Glasgow Queen Street,Glasgow Queen Street,True,1,28,7,0,7,Glasgow Queen Street,SP003818,7,7.0
+R01850,Shoeburyness,London Fenchurch Street,London Fenchurch Street,True,1,2,14,0,14,London Fenchurch Street,SP003821,14,14.0
+R01851,Llanelli,Llandovery,Llandovery,True,1,2,12,0,12,Llandovery,SP003826,12,12.0
+R01852,Swansea,Shrewsbury,Shrewsbury,True,1,8,34,0,34,Shrewsbury,SP003828,34,34.0
+R01853,Glenrothes with Thornton,Edinburgh Waverley,Edinburgh Waverley,True,1,2,11,0,11,Edinburgh Waverley,SP003832,11,11.0
+R01854,Oxford,Bristol Temple Meads,Bristol Temple Meads,True,1,14,6,0,6,Bristol Temple Meads,SP003836,6,6.0
+R01855,Bristol Temple Meads,Oxford,Oxford,True,1,16,6,0,6,Oxford,SP003837,6,6.0
+R01856,Alton,Farnham,Farnham,True,1,2,3,0,3,Farnham,SP003840,3,3.0
+R01857,Oxford,Bristol Temple Meads,Bristol Temple Meads,True,1,2,5,0,5,Bristol Temple Meads,SP003841,5,5.0
+R01858,Battersea Park,Horsham,Horsham,True,1,1,19,0,19,Horsham,SP003843,19,19.0
+R01859,WJL,London Euston,London Euston,True,1,2,6,0,6,London Euston,SP003847,6,6.0
+R01860,Leven,Edinburgh Waverley,Edinburgh Waverley,True,1,1,11,0,11,Edinburgh Waverley,SP003853,11,11.0
+R01861,Poole,New Malden,New Malden,True,1,2,19,0,19,New Malden,SP003854,19,19.0
+R01862,Grays,London Fenchurch Street,London Fenchurch Street,True,1,28,8,0,8,London Fenchurch Street,SP003857,8,8.0
+R01863,Middlesbrough,Redcar Central,Redcar Central,True,1,34,3,0,3,Redcar Central,SP003858,3,3.0
+R01864,Leigh-on-Sea,London Fenchurch Street,London Fenchurch Street,True,1,2,8,0,8,London Fenchurch Street,SP003860,8,8.0
+R01865,Fort William,Edinburgh Waverley,Edinburgh Waverley,True,2,3,27,1,24,Linlithgow,SP004220,28,27.5
+R01866,Shrewsbury,Llandrindod,Llandrindod,True,1,2,5,0,5,Llandrindod,SP003868,5,5.0
+R01867,Stevenage,Welwyn Garden City,Welwyn Garden City,True,1,2,4,0,4,Welwyn Garden City,SP003876,4,4.0
+R01868,Witham,London Liverpool Street,London Liverpool Street,True,1,2,12,0,12,London Liverpool Street,SP003877,12,12.0
+R01869,Stevenage,Royston,Royston,True,1,2,6,0,6,Royston,SP003879,6,6.0
+R01870,Dundee,Arbroath,Arbroath,True,1,2,4,0,4,Arbroath,SP003884,4,4.0
+R01871,Witham,London Liverpool Street,London Liverpool Street,True,1,4,10,0,10,London Liverpool Street,SP003885,10,10.0
+R01872,Wrexham General,Chester,Chester,True,1,4,2,0,2,Chester,SP003887,2,2.0
+R01873,Perth,Arbroath,Arbroath,True,1,2,6,0,6,Arbroath,SP003890,6,6.0
+R01874,Crewe,Shrewsbury,Shrewsbury,True,1,2,7,0,7,Shrewsbury,SP003891,7,7.0
+R01875,Bathgate,Milngavie,Milngavie,True,1,2,20,0,20,Milngavie,SP003895,20,20.0
+R01876,Bathgate,Milngavie,Milngavie,True,1,6,17,0,17,Milngavie,SP003896,17,17.0
+R01877,Swansea,London Paddington,London Paddington,True,1,1,22,0,22,London Paddington,SP003900,22,22.0
+R01878,SMQ,PNQ,PNQ,False,1,2,2,0,2,PNQ,SP003904,2,2.0
+R01879,Garscadden,Edinburgh Waverley,Edinburgh Waverley,True,1,2,22,0,22,Edinburgh Waverley,SP003906,22,22.0
+R01880,Airdrie,Milngavie,Milngavie,True,1,3,15,0,15,Milngavie,SP003911,15,15.0
+R01881,Colchester,London Liverpool Street,London Liverpool Street,True,1,2,12,0,12,London Liverpool Street,SP003914,12,12.0
+R01882,Witham,London Liverpool Street,London Liverpool Street,True,1,4,11,0,11,London Liverpool Street,SP003919,11,11.0
+R01883,XOA,Carnforth,Carnforth,True,1,2,2,0,3,Carnforth,SP003921,3,3.0
+R01884,Barton-On-Humber,HUU,HUU,False,1,18,2,0,2,HUU,SP003924,2,2.0
+R01885,HUU,Barton-On-Humber,Barton-On-Humber,True,1,18,2,0,2,Barton-On-Humber,SP003925,2,2.0
+R01886,Birmingham New Street,Bromsgrove,Bromsgrove,True,2,6,12,1,9,Barnt Green,SP004016,11,10.5
+R01887,Cambridge,London Liverpool Street,London Liverpool Street,True,5,17,25,4,11,Bishops Stortford,SP004166,25,20.2
+R01888,Huddersfield,Leeds,Leeds,True,1,1,6,0,6,Leeds,SP003941,6,6.0
+R01889,Salisbury,Romsey,Romsey,True,1,2,11,0,12,Romsey,SP003942,12,12.0
+R01890,Salisbury,Salisbury,Salisbury,True,1,2,12,0,16,Salisbury,SP003944,16,16.0
+R01891,Southminster,Wickford,Wickford,True,4,52,16,3,7,Wickford,SP004385,16,13.0
+R01892,Manchester Victoria,Liverpool Lime Street,Liverpool Lime Street,True,2,38,15,1,8,Rainhill,SP004251,15,13.5
+R01893,Derby,Matlock,Matlock,True,1,2,9,0,9,Matlock,SP003952,9,9.0
+R01894,London Paddington,Greenford,Greenford,True,1,1,7,0,7,Greenford,SP003957,7,7.0
+R01895,Hebden Bridge,Leeds,Leeds,True,1,2,9,0,9,Leeds,SP003961,9,9.0
+R01896,Laindon,London Fenchurch Street,London Fenchurch Street,True,1,8,7,0,7,London Fenchurch Street,SP003962,7,7.0
+R01897,Grays,London Fenchurch Street,London Fenchurch Street,True,1,58,8,0,8,London Fenchurch Street,SP003968,8,8.0
+R01898,Battersea Park,Brighton,Brighton,True,1,1,25,0,25,Brighton,SP003969,25,25.0
+R01899,Birmingham Snow Hill,Kidderminster,Kidderminster,True,1,2,13,0,13,Kidderminster,SP003973,13,13.0
+R01900,Great Yarmouth,Norwich,Norwich,True,2,4,8,1,5,Brundall,SP003981,8,7.5
+R01901,Great Yarmouth,Norwich,Norwich,True,1,4,6,0,6,Norwich,SP003983,6,6.0
+R01902,Blackpool North,Manchester Airport,Manchester Airport,True,1,1,26,0,26,Manchester Airport,SP003984,26,26.0
+R01903,Barking,Grays,Grays,True,1,4,5,0,5,Grays,SP003995,5,5.0
+R01904,Clacton-On-Sea,London Liverpool Street,London Liverpool Street,True,2,4,21,1,10,Witham,SP004006,21,20.0
+R01905,Glasgow Central,London Euston,London Euston,True,3,3,46,2,13,XOU,SP004110,44,39.7
+R01906,Walton-On-The-Naze,London Liverpool Street,London Liverpool Street,True,1,2,19,0,19,London Liverpool Street,SP004014,19,19.0
+R01907,Gatwick Airport,Balham,Balham,True,1,1,8,0,8,Balham,SP004018,8,8.0
+R01908,Saltburn,Manchester Piccadilly,Manchester Piccadilly,True,1,1,35,0,35,Manchester Piccadilly,SP004021,35,35.0
+R01909,Manchester Piccadilly,Redcar Central,Redcar Central,True,1,2,21,0,21,Redcar Central,SP004027,21,21.0
+R01910,Gatwick Airport,Balham,Balham,True,1,1,13,0,13,Balham,SP004032,13,13.0
+R01911,Middlesbrough,Whitby,Whitby,True,2,15,18,1,5,Nunthorpe,SP004035,18,11.5
+R01912,Heathrow Terminal 4 Rail,London Paddington,London Paddington,True,1,1,7,0,7,London Paddington,SP004041,7,7.0
+R01913,Woking,Queenstown Road (Battersea),Queenstown Road (Battersea),True,1,2,21,0,21,Queenstown Road (Battersea),SP004045,21,21.0
+R01914,Kettering,Nottingham,Nottingham,True,1,2,9,0,9,Nottingham,SP004054,9,9.0
+R01915,Liverpool Lime Street,Wigan North Western,Wigan North Western,True,1,1,9,0,9,Wigan North Western,SP004055,9,9.0
+R01916,Manningtree,Harwich Town,Harwich Town,True,1,34,6,0,6,Harwich Town,SP004062,6,6.0
+R01917,Cambridge North,London Liverpool Street,London Liverpool Street,True,1,18,17,0,17,London Liverpool Street,SP004069,17,17.0
+R01918,TBR,Tilbury Town,Tilbury Town,True,1,52,2,0,2,Tilbury Town,SP004070,2,2.0
+R01919,Pontypridd,Aberdare,Aberdare,True,1,2,8,0,8,Aberdare,SP004072,8,8.0
+R01920,DPS,Holyhead,Holyhead,True,1,9,2,0,2,Holyhead,SP004080,2,2.0
+R01921,Tilbury Town,TBR,TBR,False,1,52,2,0,2,TBR,SP004081,2,2.0
+R01922,Haywards Heath,Worthing,Worthing,True,1,1,10,0,10,Worthing,SP004085,10,10.0
+R01923,Walton-On-The-Naze,Clacton-On-Sea,Clacton-On-Sea,True,1,2,5,0,5,Clacton-On-Sea,SP004098,5,5.0
+R01924,Stratford-upon-Avon,Worcester Foregate Street,Worcester Foregate Street,True,1,2,28,0,28,Worcester Foregate Street,SP004103,28,28.0
+R01925,Ardrossan Harbour,Ardrossan Harbour,Ardrossan Harbour,True,1,10,2,0,3,Ardrossan Harbour,SP004109,3,3.0
+R01926,ULP,SOY,SOY,False,1,4,2,0,2,SOY,SP004112,2,2.0
+R01927,Llandovery,Swansea,Swansea,True,1,2,14,0,14,Swansea,SP004125,14,14.0
+R01928,Stalybridge,Huddersfield,Huddersfield,True,1,2,6,0,6,Huddersfield,SP004133,6,6.0
+R01929,Alloa,Glasgow Queen Street,Glasgow Queen Street,True,1,70,7,0,7,Glasgow Queen Street,SP004134,7,7.0
+R01930,Southampton Central,Brighton,Brighton,True,2,4,24,1,9,Emsworth,SP004136,23,18.0
+R01931,Stirling,Glasgow Queen Street,Glasgow Queen Street,True,1,2,6,0,6,Glasgow Queen Street,SP004139,6,6.0
+R01932,Colchester,Peterborough,Peterborough,True,1,2,13,0,13,Peterborough,SP004145,13,13.0
+R01933,Alloa,Stirling,Stirling,True,1,2,2,0,2,Stirling,SP004146,2,2.0
+R01934,Shenfield,Braintree,Braintree,True,1,2,8,0,8,Braintree,SP004148,8,8.0
+R01935,Chelmsford,Braintree,Braintree,True,1,2,7,0,7,Braintree,SP004151,7,7.0
+R01936,Ingatestone,Colchester,Colchester,True,1,2,8,0,8,Colchester,SP004154,8,8.0
+R01937,Sudbury Suffolk,Colchester,Colchester,True,1,2,5,0,5,Colchester,SP004158,5,5.0
+R01938,High Wycombe,London Marylebone,London Marylebone,True,2,5,11,1,7,South Ruislip,SP004577,11,10.5
+R01939,Balham,Three Bridges,Three Bridges,True,1,1,14,0,14,Three Bridges,SP004169,14,14.0
+R01940,Peterborough,Nottingham,Nottingham,True,1,2,16,0,16,Nottingham,SP004175,16,16.0
+R01941,High Wycombe,London Marylebone,London Marylebone,True,1,8,9,0,9,London Marylebone,SP004177,9,9.0
+R01942,Heathrow Terminal 5 Rail,London Paddington,London Paddington,True,1,1,5,0,5,London Paddington,SP004181,5,5.0
+R01943,Bristol Temple Meads,London Paddington,London Paddington,True,2,2,16,1,9,Maidenhead,SP004183,16,14.0
+R01944,LCB,LCB,LCB,False,1,3,2,0,3,LCB,SP004184,3,3.0
+R01945,Oban,CTB,CTB,False,1,2,2,0,2,CTB,SP004195,2,2.0
+R01946,CTB,Oban,Oban,True,1,2,2,0,2,Oban,SP004197,2,2.0
+R01947,CRU,Oban,Oban,True,1,4,2,0,2,Oban,SP004199,2,2.0
+R01948,Oban,CRU,CRU,False,1,3,2,0,2,CRU,SP004201,2,2.0
+R01949,Lancaster,Windermere,Windermere,True,1,2,7,0,7,Windermere,SP004211,7,7.0
+R01950,Doncaster,Hull,Hull,True,5,32,12,4,5,Goole,SP004279,12,9.8
+R01951,Castleford,Leeds,Leeds,True,1,2,4,0,4,Leeds,SP004214,4,4.0
+R01952,Manchester Victoria,Liverpool Lime Street,Liverpool Lime Street,True,1,2,16,0,16,Liverpool Lime Street,SP004215,16,16.0
+R01953,Oxenholme Lake District,Windermere,Windermere,True,1,22,5,0,5,Windermere,SP004216,5,5.0
+R01954,Cambridge,Cambridge North,Cambridge North,True,1,2,2,0,2,Cambridge North,SP004223,2,2.0
+R01955,Windermere,Oxenholme Lake District,Oxenholme Lake District,True,1,2,3,0,3,Oxenholme Lake District,SP004224,3,3.0
+R01956,SCB,SOS,SOS,False,1,6,2,0,2,SOS,SP004234,2,2.0
+R01957,Wickford,Southminster,Southminster,True,1,48,7,0,7,Southminster,SP004236,7,7.0
+R01958,Didcot Parkway,London Paddington,London Paddington,True,1,1,10,0,10,London Paddington,SP004238,10,10.0
+R01959,SOS,SCB,SCB,False,1,4,2,0,2,SCB,SP004239,2,2.0
+R01960,Oxenholme Lake District,Windermere,Windermere,True,1,2,3,0,3,Windermere,SP004240,3,3.0
+R01961,Leeds,Harrogate,Harrogate,True,1,2,4,0,4,Harrogate,SP004244,4,4.0
+R01962,Reading,Didcot Parkway,Didcot Parkway,True,1,2,6,0,6,Didcot Parkway,SP004245,6,6.0
+R01963,Leeds,Harrogate,Harrogate,True,1,2,3,0,3,Harrogate,SP004246,3,3.0
+R01964,Goole,Leeds,Leeds,True,1,4,12,0,12,Leeds,SP004254,12,12.0
+R01965,Workington,Carlisle,Carlisle,True,1,2,7,0,7,Carlisle,SP004255,7,7.0
+R01966,Preston,Barrow-In-Furness,Barrow-In-Furness,True,1,2,13,0,13,Barrow-In-Furness,SP004259,13,13.0
+R01967,Broadstairs,SPX,SPX,False,2,2,29,1,8,Faversham,SP004270,29,28.0
+R01968,Manchester Piccadilly,Nottingham,Nottingham,True,1,2,15,0,15,Nottingham,SP004272,15,15.0
+R01969,Broadstairs,SPX,London Cannon Street,True,2,6,38,1,6,Faversham,SP004535,26,25.5
+R01970,Whitehaven,Carlisle,Carlisle,True,1,2,8,0,8,Carlisle,SP004280,8,8.0
+R01971,Ramsgate,SPX,SPX,False,1,22,26,0,26,SPX,SP004281,26,26.0
+R01972,Bristol Temple Meads,Cardiff Central,Cardiff Central,True,1,2,7,0,7,Cardiff Central,SP004282,7,7.0
+R01973,York,Hull,Hull,True,1,1,11,0,11,Hull,SP004288,11,11.0
+R01974,Blackpool North,York,York,True,1,2,21,0,21,York,SP004295,21,21.0
+R01975,Faversham,SPX,London Cannon Street,True,3,5,39,2,9,XRJ,SP004532,26,23.0
+R01976,Faversham,SPX,London Cannon Street,True,2,39,32,1,8,XRJ,SP004303,20,20.0
+R01977,Morecambe,Lancaster,Lancaster,True,1,36,3,0,3,Lancaster,SP004304,3,3.0
+R01978,Queenstown Road (Battersea),Earlsfield,Earlsfield,True,1,6,16,0,16,Earlsfield,SP004306,16,16.0
+R01979,Dundee,Glasgow Queen Street,Glasgow Queen Street,True,1,2,16,0,16,Glasgow Queen Street,SP004308,16,16.0
+R01980,Gatwick Airport,Brighton,Brighton,True,1,1,8,0,8,Brighton,SP004309,8,8.0
+R01981,Queenstown Road (Battersea),Addlestone,Addlestone,True,1,6,17,0,17,Addlestone,SP004314,17,17.0
+R01982,Norwich,Cambridge,Cambridge,True,1,2,11,0,11,Cambridge,SP004320,11,11.0
+R01983,Norwich,Cambridge,Cambridge,True,1,2,13,0,13,Cambridge,SP004322,13,13.0
+R01984,Exeter St Davids,Paignton,Paignton,True,1,2,11,0,11,Paignton,SP004323,11,11.0
+R01985,Exeter St Davids,Paignton,Paignton,True,1,2,10,0,10,Paignton,SP004324,10,10.0
+R01986,Clacton-On-Sea,Walton-On-The-Naze,Walton-On-The-Naze,True,1,2,5,0,5,Walton-On-The-Naze,SP004325,5,5.0
+R01987,Exeter St Davids,Paignton,Paignton,True,1,2,12,0,12,Paignton,SP004326,12,12.0
+R01988,Walton-On-The-Naze,Thorpe-Le-Soken,Thorpe-Le-Soken,True,1,4,4,0,4,Thorpe-Le-Soken,SP004328,4,4.0
+R01989,Exmouth,Paignton,Paignton,True,3,18,20,2,5,Digby & Sowton,SP004364,20,19.0
+R01990,Thorpe-Le-Soken,Walton-On-The-Naze,Walton-On-The-Naze,True,1,6,4,0,4,Walton-On-The-Naze,SP004332,4,4.0
+R01991,Horsforth,Leeds,Leeds,True,1,2,4,0,4,Leeds,SP004335,4,4.0
+R01992,Redhill,Gatwick Airport,Gatwick Airport,True,1,1,3,0,3,Gatwick Airport,SP004337,3,3.0
+R01993,Broxbourne,Hertford East,Hertford East,True,1,2,5,0,5,Hertford East,SP004340,5,5.0
+R01994,Heysham Port,Lancaster,Lancaster,True,1,2,4,0,4,Lancaster,SP004343,4,4.0
+R01995,Ashford International,SPX,SPX,False,1,2,16,0,16,SPX,SP004346,16,16.0
+R01996,Bristol Temple Meads,Exmouth,Exmouth,True,1,2,21,0,21,Exmouth,SP004349,21,21.0
+R01997,Margate,SPX,SPX,False,1,1,28,0,28,SPX,SP004350,28,28.0
+R01998,Harrogate,Leeds,Leeds,True,2,14,8,1,5,Horsforth,SP004352,8,7.0
+R01999,Bridgend,Ebbw Vale Town,Ebbw Vale Town,True,1,2,13,0,13,Ebbw Vale Town,SP004353,13,13.0
+R02000,Peterborough,DEB,DEB,False,1,24,5,0,5,DEB,SP004354,5,5.0
+R02001,Lancaster,Morecambe,Morecambe,True,1,2,5,0,6,Morecambe,SP004355,6,6.0
+R02002,KLB,Peterborough,Peterborough,True,1,10,3,0,3,Peterborough,SP004356,3,3.0
+R02003,Darlington,Bishop Auckland,Bishop Auckland,True,1,4,6,0,6,Bishop Auckland,SP004358,6,6.0
+R02004,Peterborough,SWB,SWB,False,1,18,4,0,4,SWB,SP004359,4,4.0
+R02005,Canterbury West,SPX,SPX,False,1,4,18,0,18,SPX,SP004362,18,18.0
+R02006,SWB,Peterborough,Peterborough,True,1,16,4,0,4,Peterborough,SP004363,4,4.0
+R02007,DEB,Peterborough,Peterborough,True,1,28,5,0,5,Peterborough,SP004367,5,5.0
+R02008,Falmouth Docks,Truro,Truro,True,2,44,8,1,6,Truro,SP004369,8,7.0
+R02009,Selby,York,York,True,1,2,2,0,2,York,SP004370,2,2.0
+R02010,Falmouth Docks,Truro,Truro,True,1,16,5,0,5,Truro,SP004376,5,5.0
+R02011,Hellifield,York,York,True,1,1,9,0,9,York,SP004381,9,9.0
+R02012,Sheffield,Leeds,Leeds,True,1,2,7,0,7,Leeds,SP004383,7,7.0
+R02013,Stockport,Chester,Chester,True,2,4,15,1,11,Greenbank,SP004391,15,14.0
+R02014,Peterborough,KLB,KLB,False,1,12,3,0,3,KLB,SP004389,3,3.0
+R02015,Sandwich,SPX,SPX,False,2,4,28,1,10,XSI,SP004390,28,27.0
+R02016,BFA,CRP,CRP,False,1,2,2,0,2,CRP,SP004395,2,2.0
+R02017,CRP,BFA,BFA,False,1,2,2,0,2,BFA,SP004397,2,2.0
+R02018,Darlington,CGT,CGT,False,1,54,3,0,3,CGT,SP004405,3,3.0
+R02019,Middlesbrough,Whitby,Whitby,True,1,2,11,0,11,Whitby,SP004406,11,11.0
+R02020,Seaford,Lewes,Lewes,True,1,1,5,0,6,Lewes,SP004407,6,6.0
+R02021,Haywards Heath,Plumpton,Plumpton,True,1,1,2,0,2,Plumpton,SP004409,2,2.0
+R02022,Lewes,Eastbourne,Eastbourne,True,1,1,6,0,6,Eastbourne,SP004411,6,6.0
+R02023,Balham,Epsom,Epsom,True,1,1,10,0,10,Epsom,SP004413,10,10.0
+R02024,Liskeard,Looe,Looe,True,1,16,5,0,5,Looe,SP004415,5,5.0
+R02025,East Croydon,East Grinstead,East Grinstead,True,1,1,3,0,3,East Grinstead,SP004417,3,3.0
+R02026,Liskeard,Looe,Looe,True,1,4,6,0,6,Looe,SP004418,6,6.0
+R02027,Huddersfield,Leeds,Leeds,True,1,1,9,0,9,Leeds,SP004419,9,9.0
+R02028,Liskeard,Looe,Looe,True,1,6,2,0,2,Looe,SP004420,2,2.0
+R02029,Knaresborough,Leeds,Leeds,True,1,2,10,0,10,Leeds,SP004421,10,10.0
+R02030,Leeds,Harrogate,Harrogate,True,1,2,7,0,7,Harrogate,SP004423,7,7.0
+R02031,CGT,Darlington,Darlington,True,1,58,3,0,3,Darlington,SP004424,3,3.0
+R02032,Wigan North Western,Liverpool Lime Street,Liverpool Lime Street,True,1,2,10,0,10,Liverpool Lime Street,SP004427,10,10.0
+R02033,Helsby,Ellesmere Port,Ellesmere Port,True,1,4,3,0,3,Ellesmere Port,SP004430,3,3.0
+R02034,Liskeard,Plymouth,Plymouth,True,1,2,5,0,5,Plymouth,SP004431,5,5.0
+R02035,Ellesmere Port,Helsby,Helsby,True,1,2,3,0,3,Helsby,SP004432,3,3.0
+R02036,Haymarket,North Berwick,North Berwick,True,1,2,8,0,8,North Berwick,SP004434,8,8.0
+R02037,Bishops Stortford,Stratford (London),Stratford (London),True,1,2,15,0,15,Stratford (London),SP004437,15,15.0
+R02038,Maidstone West,SPX,SPX,False,1,4,17,0,17,SPX,SP004438,17,17.0
+R02039,Ellesmere Port,Liverpool Lime Street,Liverpool Lime Street,True,1,2,16,0,16,Liverpool Lime Street,SP004440,16,16.0
+R02040,Dalmally,Oban,Oban,True,1,2,5,0,5,Oban,SP004441,5,5.0
+R02041,West Ruislip,London Marylebone,London Marylebone,True,1,2,8,0,8,London Marylebone,SP004443,8,8.0
+R02042,Bishops Stortford,Stratford (London),Stratford (London),True,1,2,15,0,15,Stratford (London),SP004446,15,15.0
+R02043,Kew Gardens,ZUM,ZUM,False,1,2,4,0,4,ZUM,SP004458,4,4.0
+R02044,York,Manchester Piccadilly,Manchester Piccadilly,True,1,1,24,0,24,Manchester Piccadilly,SP004460,24,24.0
+R02045,York,Redcar Central,Redcar Central,True,1,2,9,0,9,Redcar Central,SP004462,9,9.0
+R02046,Looe,Liskeard,Liskeard,True,1,16,5,0,5,Liskeard,SP004463,5,5.0
+R02047,Looe,Liskeard,Liskeard,True,1,4,6,0,6,Liskeard,SP004464,6,6.0
+R02048,Looe,Liskeard,Liskeard,True,1,6,2,0,2,Liskeard,SP004467,2,2.0
+R02049,Watford Junction,Watford Junction,Watford Junction,True,1,80,1,0,1,Watford Junction,SP004469,1,1.0
+R02050,DFP,Holyhead,Holyhead,True,1,4,2,0,2,Holyhead,SP004473,2,2.0
+R02051,Holyhead,DPS,DPS,False,1,8,2,0,2,DPS,SP004475,2,2.0
+R02052,Warrington Central,Liverpool Lime Street,Liverpool Lime Street,True,1,2,12,0,12,Liverpool Lime Street,SP004478,12,12.0
+R02053,Warrington Central,Liverpool Lime Street,Liverpool Lime Street,True,1,2,11,0,11,Liverpool Lime Street,SP004480,11,11.0
+R02054,Worcester Shrub Hill,Oxford,Oxford,True,1,2,10,0,10,Oxford,SP004483,10,10.0
+R02055,Newbury Racecourse,Bedwyn,Bedwyn,True,1,1,5,0,5,Bedwyn,SP004484,5,5.0
+R02056,Oxford,Worcester Shrub Hill,Worcester Shrub Hill,True,1,2,11,0,11,Worcester Shrub Hill,SP004485,11,11.0
+R02057,UIG,LCH,LCH,False,1,1,3,0,4,LCH,SP004495,4,4.0
+R02058,Mallaig,Mallaig,Mallaig,True,1,1,5,0,8,Mallaig,SP004496,8,8.0
+R02059,Ardrossan Harbour,BDC,BDC,False,1,1,2,0,2,BDC,SP004497,2,2.0
+R02060,Pitsea,Stanford-Le-Hope,Stanford-Le-Hope,True,1,4,2,0,2,Stanford-Le-Hope,SP004499,2,2.0
+R02061,Carstairs,Edinburgh Waverley,Edinburgh Waverley,True,1,2,4,0,4,Edinburgh Waverley,SP004506,4,4.0
+R02062,Edinburgh Waverley,Fort William,Fort William,True,1,1,34,0,34,Fort William,SP004507,34,34.0
+R02063,Beckenham Junction,London Blackfriars,London Blackfriars,True,1,2,6,0,6,London Blackfriars,SP004508,6,6.0
+R02064,Strood,London Charing Cross,London Charing Cross,True,1,4,18,0,18,London Charing Cross,SP004510,18,18.0
+R02065,Beckenham Junction,XVJ,XVJ,False,1,2,5,0,5,XVJ,SP004511,5,5.0
+R02066,Orpington,London Charing Cross,London Charing Cross,True,1,1,10,0,10,London Charing Cross,SP004512,10,10.0
+R02067,Reading,Bedwyn,Bedwyn,True,1,2,6,0,6,Bedwyn,SP004517,6,6.0
+R02068,Reading,Newbury,Newbury,True,1,2,5,0,5,Newbury,SP004519,5,5.0
+R02069,LCH,UIG,UIG,False,1,1,3,0,4,UIG,SP004521,4,4.0
+R02070,UIG,TBT,TBT,False,1,1,3,0,4,TBT,SP004523,4,4.0
+R02071,Newcastle,Chathill,Chathill,True,1,2,6,0,6,Chathill,SP004525,6,6.0
+R02072,Maidstone East,London Blackfriars,London Blackfriars,True,1,2,20,0,20,London Blackfriars,SP004527,20,20.0
+R02073,Orpington,London Charing Cross,London Charing Cross,True,1,3,9,0,9,London Charing Cross,SP004530,9,9.0
+R02074,Wolverhampton,Shrewsbury,Shrewsbury,True,1,1,5,0,5,Shrewsbury,SP004539,5,5.0
+R02075,Tame Bridge Parkway,Shrewsbury,Shrewsbury,True,1,1,13,0,13,Shrewsbury,SP004540,13,13.0
+R02076,Shrewsbury,Birmingham New Street,Birmingham New Street,True,1,2,11,0,11,Birmingham New Street,SP004542,11,11.0
+R02077,Kings Norton,Birmingham New Street,Birmingham New Street,True,1,1,5,0,5,Birmingham New Street,SP004543,5,5.0
+R02078,Tonbridge,Hastings,Hastings,True,1,2,14,0,14,Hastings,SP004544,14,14.0
+R02079,Birmingham New Street,Kings Norton,Kings Norton,True,1,1,5,0,5,Kings Norton,SP004545,5,5.0
+R02080,Thirsk,Shildon,Shildon,True,1,1,7,0,7,Shildon,SP004548,7,7.0
+R02081,New Cross,Dartford,Dartford,True,1,2,13,0,13,Dartford,SP004550,13,13.0
+R02082,Leamington Spa,Stratford-upon-Avon,Stratford-upon-Avon,True,1,1,7,0,7,Stratford-upon-Avon,SP004556,7,7.0
+R02083,Leeds,Selby,Selby,True,1,1,2,0,2,Selby,SP004557,2,2.0
+R02084,Cardiff Central,Carmarthen,Carmarthen,True,1,1,11,0,11,Carmarthen,SP004558,11,11.0
+R02085,Selby,Leeds,Leeds,True,1,1,2,0,2,Leeds,SP004559,2,2.0
+R02086,Manchester Piccadilly,London Euston,London Euston,True,1,2,36,0,36,London Euston,SP004562,36,36.0
+R02087,London Fenchurch Street,Grays,Grays,True,1,2,8,0,8,Grays,SP004573,8,8.0
+R02088,Blackpool North,Crewe,Crewe,True,1,1,11,0,11,Crewe,SP004578,11,11.0
+R02089,Barnham,Southampton Central,Southampton Central,True,1,1,13,0,13,Southampton Central,SP004586,13,13.0
+R02090,Gatwick Airport,Brighton,Brighton,True,1,1,6,0,6,Brighton,SP004597,6,6.0
+R02091,Wembley Stadium,West Ruislip,West Ruislip,True,1,1,4,0,4,West Ruislip,SP004606,4,4.0
+R02092,London Marylebone,Wembley Stadium,Wembley Stadium,True,1,5,3,0,3,Wembley Stadium,SP004608,3,3.0
+R02093,Tonbridge,London Charing Cross,London Charing Cross,True,1,1,21,0,21,London Charing Cross,SP004612,21,21.0
+R02094,Dover Priory,SPX,SPX,False,1,1,20,0,20,SPX,SP004614,20,20.0
+R02095,Huddersfield,Leeds,Leeds,True,1,1,7,0,7,Leeds,SP004616,7,7.0
+R02096,Gobowen,Gobowen,Gobowen,True,1,1,1,0,1,Gobowen,SP004621,1,1.0
+R02097,Edinburgh Waverley,Fort William,Fort William,True,1,1,27,0,27,Fort William,SP004625,27,27.0
+R02098,Margate,Ashford International,Ashford International,True,1,1,15,0,15,Ashford International,SP004642,15,15.0
+R02099,Manchester Piccadilly,Manchester Airport,Manchester Airport,True,1,1,6,0,6,Manchester Airport,SP004644,6,6.0
+R02100,Westbury,Bath Spa,Bath Spa,True,1,1,4,0,4,Bath Spa,SP004646,4,4.0
+R02101,Bath Spa,Westbury,Westbury,True,1,1,4,0,4,Westbury,SP004647,4,4.0
+R02102,Barnes,Oxford Parkway,Oxford Parkway,True,1,1,14,0,14,Oxford Parkway,SP004648,14,14.0
+R02103,Hove,Balham,Balham,True,1,1,12,0,12,Balham,SP004650,12,12.0

@@ -1,1 +1,117 @@
-
+<svg width="700" height="200" viewBox="0 0 700 200"
+2
+xmlns="http://www.w3.org/2000/svg">
+3
+ 
+4
+<!-- Background -->
+5
+<rect width="700" height="200" fill="#00133D"/>
+6
+ 
+7
+<!-- Icon -->
+8
+<circle cx="100" cy="100" r="90"
+9
+stroke="#E6E6E6"
+10
+stroke-width="4"
+11
+fill="none"/>
+12
+ 
+13
+<path d="M80 140 L80 80 Q80 60 100 60 L140 60"
+14
+stroke="#E6E6E6"
+15
+stroke-width="6"
+16
+stroke-linecap="round"
+17
+stroke-linejoin="round"
+18
+fill="none"/>
+19
+ 
+20
+<path d="M80 100 L110 120"
+21
+stroke="#E6E6E6"
+22
+stroke-width="4"
+23
+stroke-linecap="round"
+24
+opacity="0.6"/>
+25
+ 
+26
+<circle cx="80" cy="100" r="7"
+27
+fill="white"
+28
+stroke="#34A853"
+29
+stroke-width="3"/>
+30
+ 
+31
+<circle cx="140" cy="60" r="7"
+32
+fill="white"
+33
+stroke="#EA4335"
+34
+stroke-width="3"/>
+35
+ 
+36
+<circle cx="110" cy="120" r="6"
+37
+fill="white"
+38
+stroke="#B0B0B0"
+39
+stroke-width="2"/>
+40
+ 
+41
+<!-- Wordmark -->
+42
+<text x="230" y="108"
+43
+fill="white"
+44
+font-family="Segoe UI, Aptos, Arial, sans-serif"
+45
+font-size="64"
+46
+font-weight="600">
+47
+The Route
+48
+</text>
+49
+ 
+50
+<!-- Superscript Copyright -->
+51
+<text x="515" y="72"
+52
+fill="white"
+53
+font-family="Segoe UI, Aptos, Arial, sans-serif"
+54
+font-size="28"
+55
+font-weight="400">
+56
+©
+57
+</text>
+58
+ 
+59
+</svg>

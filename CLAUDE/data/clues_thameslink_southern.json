@@ -1,0 +1,649 @@
+{
+  "rowPool": [
+    {
+      "type": "equals",
+      "field": "is_interchange",
+      "value": true,
+      "label": "Interchange station",
+      "weight": "medium",
+      "match_count": 74,
+      "id": "row_0"
+    },
+    {
+      "type": "equals",
+      "field": "is_coastal",
+      "value": true,
+      "label": "Coastal station",
+      "weight": "medium",
+      "match_count": 52,
+      "id": "row_1"
+    },
+    {
+      "type": "range",
+      "field": "terminus_max",
+      "min": 1,
+      "label": "Terminus station",
+      "weight": "medium",
+      "match_count": 80,
+      "id": "row_2"
+    },
+    {
+      "type": "equals",
+      "field": "region",
+      "value": "South London",
+      "label": "Region: South London",
+      "weight": "high",
+      "match_count": 40,
+      "id": "row_3"
+    },
+    {
+      "type": "equals",
+      "field": "region",
+      "value": "Sevenoaks",
+      "label": "Region: Sevenoaks",
+      "weight": "high",
+      "match_count": 13,
+      "id": "row_4"
+    },
+    {
+      "type": "equals",
+      "field": "region",
+      "value": "Reigate and Banstead",
+      "label": "Region: Reigate and Banstead",
+      "weight": "high",
+      "match_count": 12,
+      "id": "row_5"
+    },
+    {
+      "type": "equals",
+      "field": "region",
+      "value": "Rother",
+      "label": "Region: Rother",
+      "weight": "high",
+      "match_count": 12,
+      "id": "row_6"
+    },
+    {
+      "type": "equals",
+      "field": "region",
+      "value": "Tandridge",
+      "label": "Region: Tandridge",
+      "weight": "high",
+      "match_count": 12,
+      "id": "row_7"
+    },
+    {
+      "type": "equals",
+      "field": "region",
+      "value": "Wealden",
+      "label": "Region: Wealden",
+      "weight": "high",
+      "match_count": 10,
+      "id": "row_8"
+    },
+    {
+      "type": "equals",
+      "field": "region",
+      "value": "Lewes",
+      "label": "Region: Lewes",
+      "weight": "high",
+      "match_count": 9,
+      "id": "row_9"
+    },
+    {
+      "type": "equals",
+      "field": "region",
+      "value": "Brighton and Hove",
+      "label": "Region: Brighton and Hove",
+      "weight": "high",
+      "match_count": 8,
+      "id": "row_10"
+    },
+    {
+      "type": "equals",
+      "field": "region",
+      "value": "Horsham",
+      "label": "Region: Horsham",
+      "weight": "high",
+      "match_count": 8,
+      "id": "row_11"
+    },
+    {
+      "type": "equals",
+      "field": "region",
+      "value": "Mole Valley",
+      "label": "Region: Mole Valley",
+      "weight": "high",
+      "match_count": 7,
+      "id": "row_12"
+    },
+    {
+      "type": "range",
+      "field": "canonical_time_to_hub",
+      "max": 70.0,
+      "label": "Time to hub: shortest third",
+      "weight": "medium",
+      "match_count": 107,
+      "id": "row_13"
+    },
+    {
+      "type": "range",
+      "field": "canonical_time_to_hub",
+      "min": 70.0,
+      "max": 142.0,
+      "label": "Time to hub: middle third",
+      "weight": "medium",
+      "match_count": 79,
+      "id": "row_14"
+    },
+    {
+      "type": "range",
+      "field": "canonical_time_to_hub",
+      "min": 142.0,
+      "label": "Time to hub: longest third",
+      "weight": "medium",
+      "match_count": 77,
+      "id": "row_15"
+    }
+  ],
+  "columnPool": [
+    {
+      "type": "equals",
+      "field": "region",
+      "value": "South London",
+      "label": "Region: South London",
+      "category": "geography",
+      "match_count": 40,
+      "id": "col_0"
+    },
+    {
+      "type": "equals",
+      "field": "region",
+      "value": "Sevenoaks",
+      "label": "Region: Sevenoaks",
+      "category": "geography",
+      "match_count": 13,
+      "id": "col_1"
+    },
+    {
+      "type": "equals",
+      "field": "region",
+      "value": "Reigate and Banstead",
+      "label": "Region: Reigate and Banstead",
+      "category": "geography",
+      "match_count": 12,
+      "id": "col_2"
+    },
+    {
+      "type": "equals",
+      "field": "region",
+      "value": "Rother",
+      "label": "Region: Rother",
+      "category": "geography",
+      "match_count": 12,
+      "id": "col_3"
+    },
+    {
+      "type": "equals",
+      "field": "region",
+      "value": "Tandridge",
+      "label": "Region: Tandridge",
+      "category": "geography",
+      "match_count": 12,
+      "id": "col_4"
+    },
+    {
+      "type": "equals",
+      "field": "region",
+      "value": "Wealden",
+      "label": "Region: Wealden",
+      "category": "geography",
+      "match_count": 10,
+      "id": "col_5"
+    },
+    {
+      "type": "equals",
+      "field": "region",
+      "value": "Lewes",
+      "label": "Region: Lewes",
+      "category": "geography",
+      "match_count": 9,
+      "id": "col_6"
+    },
+    {
+      "type": "equals",
+      "field": "region",
+      "value": "Brighton and Hove",
+      "label": "Region: Brighton and Hove",
+      "category": "geography",
+      "match_count": 8,
+      "id": "col_7"
+    },
+    {
+      "type": "equals",
+      "field": "region",
+      "value": "Horsham",
+      "label": "Region: Horsham",
+      "category": "geography",
+      "match_count": 8,
+      "id": "col_8"
+    },
+    {
+      "type": "equals",
+      "field": "region",
+      "value": "Mole Valley",
+      "label": "Region: Mole Valley",
+      "category": "geography",
+      "match_count": 7,
+      "id": "col_9"
+    },
+    {
+      "type": "equals",
+      "field": "is_coastal",
+      "value": true,
+      "label": "Coastal station",
+      "category": "geography",
+      "match_count": 52,
+      "id": "col_10"
+    },
+    {
+      "type": "equals",
+      "field": "is_interchange",
+      "value": true,
+      "label": "Interchange station",
+      "category": "service",
+      "match_count": 74,
+      "id": "col_11"
+    },
+    {
+      "type": "range",
+      "field": "terminus_max",
+      "min": 1,
+      "label": "Terminus station",
+      "category": "service",
+      "match_count": 80,
+      "id": "col_12"
+    },
+    {
+      "type": "range",
+      "field": "canonical_time_to_hub",
+      "max": 70.0,
+      "label": "Time to hub: shortest third",
+      "category": "service",
+      "match_count": 107,
+      "id": "col_13"
+    },
+    {
+      "type": "range",
+      "field": "canonical_time_to_hub",
+      "min": 70.0,
+      "max": 142.0,
+      "label": "Time to hub: middle third",
+      "category": "service",
+      "match_count": 79,
+      "id": "col_14"
+    },
+    {
+      "type": "range",
+      "field": "canonical_time_to_hub",
+      "min": 142.0,
+      "label": "Time to hub: longest third",
+      "category": "service",
+      "match_count": 77,
+      "id": "col_15"
+    },
+    {
+      "type": "equals",
+      "field": "operator",
+      "value": "Thameslink",
+      "label": "Operator: Thameslink",
+      "category": "route",
+      "match_count": 23,
+      "id": "col_16"
+    },
+    {
+      "type": "array_contains",
+      "field": "route",
+      "value": "West Coastway",
+      "label": "Route: West Coastway",
+      "category": "route",
+      "match_count": 25,
+      "id": "col_17"
+    },
+    {
+      "type": "array_contains",
+      "field": "route",
+      "value": "Midland Electrics",
+      "label": "Route: Midland Electrics",
+      "category": "route",
+      "match_count": 23,
+      "id": "col_18"
+    },
+    {
+      "type": "array_contains",
+      "field": "route",
+      "value": "East Coastway",
+      "label": "Route: East Coastway",
+      "category": "route",
+      "match_count": 21,
+      "id": "col_19"
+    },
+    {
+      "type": "array_contains",
+      "field": "route",
+      "value": "Brighton Main Line",
+      "label": "Route: Brighton Main Line",
+      "category": "route",
+      "match_count": 20,
+      "id": "col_20"
+    },
+    {
+      "type": "array_contains",
+      "field": "route",
+      "value": "Sutton & Metro",
+      "label": "Route: Sutton & Metro",
+      "category": "route",
+      "match_count": 20,
+      "id": "col_21"
+    },
+    {
+      "type": "array_contains",
+      "field": "route",
+      "value": "Southern Thameslink Branches",
+      "label": "Route: Southern Thameslink Branches",
+      "category": "route",
+      "match_count": 19,
+      "id": "col_22"
+    },
+    {
+      "type": "array_contains",
+      "field": "route",
+      "value": "Uckfield Branch",
+      "label": "Route: Uckfield Branch",
+      "category": "route",
+      "match_count": 16,
+      "id": "col_23"
+    },
+    {
+      "type": "array_contains",
+      "field": "route",
+      "value": "Portsmouth Direct",
+      "label": "Route: Portsmouth Direct",
+      "category": "route",
+      "match_count": 16,
+      "id": "col_24"
+    },
+    {
+      "type": "array_contains",
+      "field": "route",
+      "value": "Midland Main Line",
+      "label": "Route: Midland Main Line",
+      "category": "route",
+      "match_count": 16,
+      "id": "col_25"
+    },
+    {
+      "type": "array_contains",
+      "field": "route",
+      "value": "Coastway East",
+      "label": "Route: Coastway East",
+      "category": "route",
+      "match_count": 13,
+      "id": "col_26"
+    },
+    {
+      "type": "array_contains",
+      "field": "route",
+      "value": "Coastway West",
+      "label": "Route: Coastway West",
+      "category": "route",
+      "match_count": 12,
+      "id": "col_27"
+    },
+    {
+      "type": "array_contains",
+      "field": "route",
+      "value": "Arun Valley Line",
+      "label": "Route: Arun Valley Line",
+      "category": "route",
+      "match_count": 11,
+      "id": "col_28"
+    },
+    {
+      "type": "array_contains",
+      "field": "route",
+      "value": "Coastway",
+      "label": "Route: Coastway",
+      "category": "route",
+      "match_count": 11,
+      "id": "col_29"
+    },
+    {
+      "type": "array_contains",
+      "field": "route",
+      "value": "Epsom Downs Line",
+      "label": "Route: Epsom Downs Line",
+      "category": "route",
+      "match_count": 11,
+      "id": "col_30"
+    },
+    {
+      "type": "array_contains",
+      "field": "route",
+      "value": "Mole Valley Line",
+      "label": "Route: Mole Valley Line",
+      "category": "route",
+      "match_count": 9,
+      "id": "col_31"
+    },
+    {
+      "type": "equals",
+      "field": "wordplay_category",
+      "value": "local_suffix",
+      "label": "Wordplay: local_suffix",
+      "category": "name",
+      "match_count": 79,
+      "id": "col_32"
+    },
+    {
+      "type": "equals",
+      "field": "wordplay_category",
+      "value": "structure",
+      "label": "Wordplay: structure",
+      "category": "name",
+      "match_count": 33,
+      "id": "col_33"
+    },
+    {
+      "type": "equals",
+      "field": "wordplay_category",
+      "value": "nature",
+      "label": "Wordplay: nature",
+      "category": "name",
+      "match_count": 9,
+      "id": "col_34"
+    },
+    {
+      "type": "array_contains",
+      "field": "wordplay_tags",
+      "value": "ham",
+      "label": "Name contains 'ham'",
+      "category": "name",
+      "match_count": 28,
+      "id": "col_35"
+    },
+    {
+      "type": "array_contains",
+      "field": "wordplay_tags",
+      "value": "ton",
+      "label": "Name contains 'ton'",
+      "category": "name",
+      "match_count": 25,
+      "id": "col_36"
+    },
+    {
+      "type": "array_contains",
+      "field": "wordplay_tags",
+      "value": "brackets",
+      "label": "Name contains 'brackets'",
+      "category": "name",
+      "match_count": 19,
+      "id": "col_37"
+    },
+    {
+      "type": "array_contains",
+      "field": "wordplay_tags",
+      "value": "don",
+      "label": "Name contains 'don'",
+      "category": "name",
+      "match_count": 16,
+      "id": "col_38"
+    },
+    {
+      "type": "array_contains",
+      "field": "wordplay_tags",
+      "value": "ey",
+      "label": "Name contains 'ey'",
+      "category": "name",
+      "match_count": 14,
+      "id": "col_39"
+    },
+    {
+      "type": "array_contains",
+      "field": "wordplay_tags",
+      "value": "ridge",
+      "label": "Name contains 'ridge'",
+      "category": "name",
+      "match_count": 9,
+      "id": "col_40"
+    },
+    {
+      "type": "array_contains",
+      "field": "wordplay_tags",
+      "value": "ley",
+      "label": "Name contains 'ley'",
+      "category": "name",
+      "match_count": 8,
+      "id": "col_41"
+    },
+    {
+      "type": "array_contains",
+      "field": "wordplay_tags",
+      "value": "ington",
+      "label": "Name contains 'ington'",
+      "category": "name",
+      "match_count": 7,
+      "id": "col_42"
+    },
+    {
+      "type": "array_contains",
+      "field": "wordplay_tags",
+      "value": "hill",
+      "label": "Name contains 'hill'",
+      "category": "name",
+      "match_count": 6,
+      "id": "col_43"
+    },
+    {
+      "type": "array_contains",
+      "field": "wordplay_tags",
+      "value": "saint",
+      "label": "Name contains 'saint'",
+      "category": "name",
+      "match_count": 6,
+      "id": "col_44"
+    },
+    {
+      "type": "array_contains",
+      "field": "wordplay_tags",
+      "value": "stead",
+      "label": "Name contains 'stead'",
+      "category": "name",
+      "match_count": 5,
+      "id": "col_45"
+    },
+    {
+      "type": "array_contains",
+      "field": "wordplay_tags",
+      "value": "ampersand",
+      "label": "Name contains 'ampersand'",
+      "category": "name",
+      "match_count": 5,
+      "id": "col_46"
+    },
+    {
+      "type": "array_contains",
+      "field": "wordplay_tags",
+      "value": "park",
+      "label": "Name contains 'park'",
+      "category": "name",
+      "match_count": 4,
+      "id": "col_47"
+    },
+    {
+      "type": "array_contains",
+      "field": "wordplay_tags",
+      "value": "green",
+      "label": "Name contains 'green'",
+      "category": "name",
+      "match_count": 3,
+      "id": "col_48"
+    },
+    {
+      "type": "array_contains",
+      "field": "wordplay_tags",
+      "value": "hyphen",
+      "label": "Name contains 'hyphen'",
+      "category": "name",
+      "match_count": 3,
+      "id": "col_49"
+    },
+    {
+      "type": "equals",
+      "field": "name_word_count",
+      "value": 1,
+      "label": "One-word name",
+      "category": "name",
+      "match_count": 137,
+      "id": "col_50"
+    },
+    {
+      "type": "range",
+      "field": "name_word_count",
+      "min": 3,
+      "label": "Three or more words in name",
+      "category": "name",
+      "match_count": 11,
+      "id": "col_51"
+    },
+    {
+      "type": "range",
+      "field": "name_letter_count",
+      "label": "Short name (≤6 letters)",
+      "min": 0,
+      "max": 6,
+      "category": "name",
+      "match_count": 27,
+      "id": "col_52"
+    },
+    {
+      "type": "range",
+      "field": "name_letter_count",
+      "label": "Medium name (7-10 letters)",
+      "min": 7,
+      "max": 10,
+      "category": "name",
+      "match_count": 95,
+      "id": "col_53"
+    },
+    {
+      "type": "range",
+      "field": "name_letter_count",
+      "label": "Long name (11+ letters)",
+      "min": 11,
+      "category": "name",
+      "match_count": 109,
+      "id": "col_54"
+    }
+  ]
+}

@@ -1,0 +1,649 @@
+{
+  "rowPool": [
+    {
+      "type": "equals",
+      "field": "is_interchange",
+      "value": true,
+      "label": "Interchange station",
+      "weight": "medium",
+      "match_count": 74,
+      "id": "row_0"
+    },
+    {
+      "type": "equals",
+      "field": "is_coastal",
+      "value": true,
+      "label": "Coastal station",
+      "weight": "medium",
+      "match_count": 59,
+      "id": "row_1"
+    },
+    {
+      "type": "range",
+      "field": "terminus_max",
+      "min": 1,
+      "label": "Terminus station",
+      "weight": "medium",
+      "match_count": 54,
+      "id": "row_2"
+    },
+    {
+      "type": "equals",
+      "field": "region",
+      "value": "Glasgow City",
+      "label": "Region: Glasgow City",
+      "weight": "medium",
+      "match_count": 59,
+      "id": "row_3"
+    },
+    {
+      "type": "equals",
+      "field": "region",
+      "value": "North Lanarkshire",
+      "label": "Region: North Lanarkshire",
+      "weight": "high",
+      "match_count": 25,
+      "id": "row_4"
+    },
+    {
+      "type": "equals",
+      "field": "region",
+      "value": "South Lanarkshire",
+      "label": "Region: South Lanarkshire",
+      "weight": "high",
+      "match_count": 19,
+      "id": "row_5"
+    },
+    {
+      "type": "equals",
+      "field": "region",
+      "value": "Highland",
+      "label": "Region: Highland",
+      "weight": "high",
+      "match_count": 15,
+      "id": "row_6"
+    },
+    {
+      "type": "equals",
+      "field": "region",
+      "value": "Argyll and Bute",
+      "label": "Region: Argyll and Bute",
+      "weight": "high",
+      "match_count": 14,
+      "id": "row_7"
+    },
+    {
+      "type": "equals",
+      "field": "region",
+      "value": "West Dunbartonshire",
+      "label": "Region: West Dunbartonshire",
+      "weight": "high",
+      "match_count": 13,
+      "id": "row_8"
+    },
+    {
+      "type": "equals",
+      "field": "region",
+      "value": "Inverclyde",
+      "label": "Region: Inverclyde",
+      "weight": "high",
+      "match_count": 13,
+      "id": "row_9"
+    },
+    {
+      "type": "equals",
+      "field": "region",
+      "value": "North Ayrshire",
+      "label": "Region: North Ayrshire",
+      "weight": "high",
+      "match_count": 12,
+      "id": "row_10"
+    },
+    {
+      "type": "equals",
+      "field": "region",
+      "value": "Renfrewshire",
+      "label": "Region: Renfrewshire",
+      "weight": "high",
+      "match_count": 10,
+      "id": "row_11"
+    },
+    {
+      "type": "equals",
+      "field": "region",
+      "value": "South Ayrshire",
+      "label": "Region: South Ayrshire",
+      "weight": "high",
+      "match_count": 9,
+      "id": "row_12"
+    },
+    {
+      "type": "range",
+      "field": "canonical_time_to_hub",
+      "max": 19.0,
+      "label": "Time to hub: shortest third",
+      "weight": "medium",
+      "match_count": 79,
+      "id": "row_13"
+    },
+    {
+      "type": "range",
+      "field": "canonical_time_to_hub",
+      "min": 19.0,
+      "max": 40.0,
+      "label": "Time to hub: middle third",
+      "weight": "medium",
+      "match_count": 82,
+      "id": "row_14"
+    },
+    {
+      "type": "range",
+      "field": "canonical_time_to_hub",
+      "min": 40.0,
+      "label": "Time to hub: longest third",
+      "weight": "medium",
+      "match_count": 79,
+      "id": "row_15"
+    }
+  ],
+  "columnPool": [
+    {
+      "type": "equals",
+      "field": "region",
+      "value": "Glasgow City",
+      "label": "Region: Glasgow City",
+      "category": "geography",
+      "match_count": 59,
+      "id": "col_0"
+    },
+    {
+      "type": "equals",
+      "field": "region",
+      "value": "North Lanarkshire",
+      "label": "Region: North Lanarkshire",
+      "category": "geography",
+      "match_count": 25,
+      "id": "col_1"
+    },
+    {
+      "type": "equals",
+      "field": "region",
+      "value": "South Lanarkshire",
+      "label": "Region: South Lanarkshire",
+      "category": "geography",
+      "match_count": 19,
+      "id": "col_2"
+    },
+    {
+      "type": "equals",
+      "field": "region",
+      "value": "Highland",
+      "label": "Region: Highland",
+      "category": "geography",
+      "match_count": 15,
+      "id": "col_3"
+    },
+    {
+      "type": "equals",
+      "field": "region",
+      "value": "Argyll and Bute",
+      "label": "Region: Argyll and Bute",
+      "category": "geography",
+      "match_count": 14,
+      "id": "col_4"
+    },
+    {
+      "type": "equals",
+      "field": "region",
+      "value": "West Dunbartonshire",
+      "label": "Region: West Dunbartonshire",
+      "category": "geography",
+      "match_count": 13,
+      "id": "col_5"
+    },
+    {
+      "type": "equals",
+      "field": "region",
+      "value": "Inverclyde",
+      "label": "Region: Inverclyde",
+      "category": "geography",
+      "match_count": 13,
+      "id": "col_6"
+    },
+    {
+      "type": "equals",
+      "field": "region",
+      "value": "North Ayrshire",
+      "label": "Region: North Ayrshire",
+      "category": "geography",
+      "match_count": 12,
+      "id": "col_7"
+    },
+    {
+      "type": "equals",
+      "field": "region",
+      "value": "Renfrewshire",
+      "label": "Region: Renfrewshire",
+      "category": "geography",
+      "match_count": 10,
+      "id": "col_8"
+    },
+    {
+      "type": "equals",
+      "field": "region",
+      "value": "South Ayrshire",
+      "label": "Region: South Ayrshire",
+      "category": "geography",
+      "match_count": 9,
+      "id": "col_9"
+    },
+    {
+      "type": "equals",
+      "field": "is_coastal",
+      "value": true,
+      "label": "Coastal station",
+      "category": "geography",
+      "match_count": 59,
+      "id": "col_10"
+    },
+    {
+      "type": "equals",
+      "field": "is_interchange",
+      "value": true,
+      "label": "Interchange station",
+      "category": "service",
+      "match_count": 74,
+      "id": "col_11"
+    },
+    {
+      "type": "range",
+      "field": "terminus_max",
+      "min": 1,
+      "label": "Terminus station",
+      "category": "service",
+      "match_count": 54,
+      "id": "col_12"
+    },
+    {
+      "type": "range",
+      "field": "canonical_time_to_hub",
+      "max": 19.0,
+      "label": "Time to hub: shortest third",
+      "category": "service",
+      "match_count": 79,
+      "id": "col_13"
+    },
+    {
+      "type": "range",
+      "field": "canonical_time_to_hub",
+      "min": 19.0,
+      "max": 40.0,
+      "label": "Time to hub: middle third",
+      "category": "service",
+      "match_count": 82,
+      "id": "col_14"
+    },
+    {
+      "type": "range",
+      "field": "canonical_time_to_hub",
+      "min": 40.0,
+      "label": "Time to hub: longest third",
+      "category": "service",
+      "match_count": 79,
+      "id": "col_15"
+    },
+    {
+      "type": "array_contains",
+      "field": "route",
+      "value": "Argyle Line",
+      "label": "Route: Argyle Line",
+      "category": "route",
+      "match_count": 64,
+      "id": "col_16"
+    },
+    {
+      "type": "array_contains",
+      "field": "route",
+      "value": "North Clyde Electrics",
+      "label": "Route: North Clyde Electrics",
+      "category": "route",
+      "match_count": 39,
+      "id": "col_17"
+    },
+    {
+      "type": "array_contains",
+      "field": "route",
+      "value": "West Highland Line",
+      "label": "Route: West Highland Line",
+      "category": "route",
+      "match_count": 33,
+      "id": "col_18"
+    },
+    {
+      "type": "array_contains",
+      "field": "route",
+      "value": "Inverclyde Line",
+      "label": "Route: Inverclyde Line",
+      "category": "route",
+      "match_count": 16,
+      "id": "col_19"
+    },
+    {
+      "type": "array_contains",
+      "field": "route",
+      "value": "Road to the Isles",
+      "label": "Route: Road to the Isles",
+      "category": "route",
+      "match_count": 14,
+      "id": "col_20"
+    },
+    {
+      "type": "array_contains",
+      "field": "route",
+      "value": "East Kilbride Line",
+      "label": "Route: East Kilbride Line",
+      "category": "route",
+      "match_count": 14,
+      "id": "col_21"
+    },
+    {
+      "type": "array_contains",
+      "field": "route",
+      "value": "Cathcart Circle",
+      "label": "Route: Cathcart Circle",
+      "category": "route",
+      "match_count": 13,
+      "id": "col_22"
+    },
+    {
+      "type": "array_contains",
+      "field": "route",
+      "value": "Glasgow South Western Line",
+      "label": "Route: Glasgow South Western Line",
+      "category": "route",
+      "match_count": 12,
+      "id": "col_23"
+    },
+    {
+      "type": "array_contains",
+      "field": "route",
+      "value": "Neilston Line",
+      "label": "Route: Neilston Line",
+      "category": "route",
+      "match_count": 10,
+      "id": "col_24"
+    },
+    {
+      "type": "array_contains",
+      "field": "route",
+      "value": "Ayrshire Coast Line",
+      "label": "Route: Ayrshire Coast Line",
+      "category": "route",
+      "match_count": 10,
+      "id": "col_25"
+    },
+    {
+      "type": "array_contains",
+      "field": "route",
+      "value": "Shotts Line",
+      "label": "Route: Shotts Line",
+      "category": "route",
+      "match_count": 9,
+      "id": "col_26"
+    },
+    {
+      "type": "array_contains",
+      "field": "route",
+      "value": "Ayrshire Coast",
+      "label": "Route: Ayrshire Coast",
+      "category": "route",
+      "match_count": 8,
+      "id": "col_27"
+    },
+    {
+      "type": "array_contains",
+      "field": "route",
+      "value": "Cumbernauld Line",
+      "label": "Route: Cumbernauld Line",
+      "category": "route",
+      "match_count": 8,
+      "id": "col_28"
+    },
+    {
+      "type": "array_contains",
+      "field": "route",
+      "value": "Oban Branch",
+      "label": "Route: Oban Branch",
+      "category": "route",
+      "match_count": 7,
+      "id": "col_29"
+    },
+    {
+      "type": "array_contains",
+      "field": "route",
+      "value": "Largs Branch",
+      "label": "Route: Largs Branch",
+      "category": "route",
+      "match_count": 6,
+      "id": "col_30"
+    },
+    {
+      "type": "equals",
+      "field": "wordplay_category",
+      "value": "local_suffix",
+      "label": "Wordplay: local_suffix",
+      "category": "name",
+      "match_count": 42,
+      "id": "col_31"
+    },
+    {
+      "type": "equals",
+      "field": "wordplay_category",
+      "value": "gaelic_place",
+      "label": "Wordplay: gaelic_place",
+      "category": "name",
+      "match_count": 40,
+      "id": "col_32"
+    },
+    {
+      "type": "equals",
+      "field": "wordplay_category",
+      "value": "nature",
+      "label": "Wordplay: nature",
+      "category": "name",
+      "match_count": 9,
+      "id": "col_33"
+    },
+    {
+      "type": "equals",
+      "field": "wordplay_category",
+      "value": "structure",
+      "label": "Wordplay: structure",
+      "category": "name",
+      "match_count": 7,
+      "id": "col_34"
+    },
+    {
+      "type": "array_contains",
+      "field": "wordplay_tags",
+      "value": "ton",
+      "label": "Name contains 'ton'",
+      "category": "name",
+      "match_count": 28,
+      "id": "col_35"
+    },
+    {
+      "type": "array_contains",
+      "field": "wordplay_tags",
+      "value": "ridge",
+      "label": "Name contains 'ridge'",
+      "category": "name",
+      "match_count": 7,
+      "id": "col_36"
+    },
+    {
+      "type": "array_contains",
+      "field": "wordplay_tags",
+      "value": "kil",
+      "label": "Name contains 'kil'",
+      "category": "name",
+      "match_count": 6,
+      "id": "col_37"
+    },
+    {
+      "type": "array_contains",
+      "field": "wordplay_tags",
+      "value": "dal",
+      "label": "Name contains 'dal'",
+      "category": "name",
+      "match_count": 5,
+      "id": "col_38"
+    },
+    {
+      "type": "array_contains",
+      "field": "wordplay_tags",
+      "value": "park",
+      "label": "Name contains 'park'",
+      "category": "name",
+      "match_count": 5,
+      "id": "col_39"
+    },
+    {
+      "type": "array_contains",
+      "field": "wordplay_tags",
+      "value": "loch",
+      "label": "Name contains 'loch'",
+      "category": "name",
+      "match_count": 5,
+      "id": "col_40"
+    },
+    {
+      "type": "array_contains",
+      "field": "wordplay_tags",
+      "value": "ard",
+      "label": "Name contains 'ard'",
+      "category": "name",
+      "match_count": 4,
+      "id": "col_41"
+    },
+    {
+      "type": "array_contains",
+      "field": "wordplay_tags",
+      "value": "side",
+      "label": "Name contains 'side'",
+      "category": "name",
+      "match_count": 4,
+      "id": "col_42"
+    },
+    {
+      "type": "array_contains",
+      "field": "wordplay_tags",
+      "value": "drum",
+      "label": "Name contains 'drum'",
+      "category": "name",
+      "match_count": 4,
+      "id": "col_43"
+    },
+    {
+      "type": "array_contains",
+      "field": "wordplay_tags",
+      "value": "green",
+      "label": "Name contains 'green'",
+      "category": "name",
+      "match_count": 4,
+      "id": "col_44"
+    },
+    {
+      "type": "array_contains",
+      "field": "wordplay_tags",
+      "value": "ley",
+      "label": "Name contains 'ley'",
+      "category": "name",
+      "match_count": 4,
+      "id": "col_45"
+    },
+    {
+      "type": "array_contains",
+      "field": "wordplay_tags",
+      "value": "ey",
+      "label": "Name contains 'ey'",
+      "category": "name",
+      "match_count": 4,
+      "id": "col_46"
+    },
+    {
+      "type": "array_contains",
+      "field": "wordplay_tags",
+      "value": "pol",
+      "label": "Name contains 'pol'",
+      "category": "name",
+      "match_count": 4,
+      "id": "col_47"
+    },
+    {
+      "type": "array_contains",
+      "field": "wordplay_tags",
+      "value": "ampersand",
+      "label": "Name contains 'ampersand'",
+      "category": "name",
+      "match_count": 3,
+      "id": "col_48"
+    },
+    {
+      "type": "array_contains",
+      "field": "wordplay_tags",
+      "value": "hill",
+      "label": "Name contains 'hill'",
+      "category": "name",
+      "match_count": 3,
+      "id": "col_49"
+    },
+    {
+      "type": "equals",
+      "field": "name_word_count",
+      "value": 1,
+      "label": "One-word name",
+      "category": "name",
+      "match_count": 168,
+      "id": "col_50"
+    },
+    {
+      "type": "range",
+      "field": "name_word_count",
+      "min": 3,
+      "label": "Three or more words in name",
+      "category": "name",
+      "match_count": 10,
+      "id": "col_51"
+    },
+    {
+      "type": "range",
+      "field": "name_letter_count",
+      "label": "Short name (≤6 letters)",
+      "min": 0,
+      "max": 6,
+      "category": "name",
+      "match_count": 25,
+      "id": "col_52"
+    },
+    {
+      "type": "range",
+      "field": "name_letter_count",
+      "label": "Medium name (7-10 letters)",
+      "min": 7,
+      "max": 10,
+      "category": "name",
+      "match_count": 127,
+      "id": "col_53"
+    },
+    {
+      "type": "range",
+      "field": "name_letter_count",
+      "label": "Long name (11+ letters)",
+      "min": 11,
+      "category": "name",
+      "match_count": 79,
+      "id": "col_54"
+    }
+  ]
+}

@@ -1,0 +1,573 @@
+{
+  "rowPool": [
+    {
+      "type": "range",
+      "field": "terminus_max",
+      "min": 1,
+      "label": "Terminus station",
+      "weight": "high",
+      "match_count": 9,
+      "id": "row_0"
+    },
+    {
+      "type": "equals",
+      "field": "region",
+      "value": "North East London",
+      "label": "Region: North East London",
+      "weight": "medium",
+      "match_count": 29,
+      "id": "row_1"
+    },
+    {
+      "type": "equals",
+      "field": "region",
+      "value": "North London",
+      "label": "Region: North London",
+      "weight": "high",
+      "match_count": 14,
+      "id": "row_2"
+    },
+    {
+      "type": "equals",
+      "field": "region",
+      "value": "East London",
+      "label": "Region: East London",
+      "weight": "high",
+      "match_count": 10,
+      "id": "row_3"
+    },
+    {
+      "type": "equals",
+      "field": "region",
+      "value": "North West London",
+      "label": "Region: North West London",
+      "weight": "high",
+      "match_count": 10,
+      "id": "row_4"
+    },
+    {
+      "type": "equals",
+      "field": "region",
+      "value": "South East London",
+      "label": "Region: South East London",
+      "weight": "high",
+      "match_count": 6,
+      "id": "row_5"
+    },
+    {
+      "type": "equals",
+      "field": "region",
+      "value": "West London",
+      "label": "Region: West London",
+      "weight": "high",
+      "match_count": 3,
+      "id": "row_6"
+    },
+    {
+      "type": "equals",
+      "field": "region",
+      "value": "South London",
+      "label": "Region: South London",
+      "weight": "high",
+      "match_count": 3,
+      "id": "row_7"
+    },
+    {
+      "type": "range",
+      "field": "canonical_time_to_hub",
+      "max": 148.0,
+      "label": "Time to hub: shortest third",
+      "weight": "medium",
+      "match_count": 30,
+      "id": "row_8"
+    },
+    {
+      "type": "range",
+      "field": "canonical_time_to_hub",
+      "min": 148.0,
+      "max": 312.0,
+      "label": "Time to hub: middle third",
+      "weight": "medium",
+      "match_count": 32,
+      "id": "row_9"
+    },
+    {
+      "type": "range",
+      "field": "canonical_time_to_hub",
+      "min": 312.0,
+      "label": "Time to hub: longest third",
+      "weight": "medium",
+      "match_count": 31,
+      "id": "row_10"
+    },
+    {
+      "type": "range",
+      "field": "time_to_euston",
+      "max": 47.0,
+      "label": "Time to Euston: shortest third",
+      "weight": "medium",
+      "match_count": 27,
+      "id": "row_11"
+    },
+    {
+      "type": "range",
+      "field": "time_to_euston",
+      "min": 47.0,
+      "max": 66.0,
+      "label": "Time to Euston: middle third",
+      "weight": "medium",
+      "match_count": 27,
+      "id": "row_12"
+    },
+    {
+      "type": "range",
+      "field": "time_to_euston",
+      "min": 66.0,
+      "label": "Time to Euston: longest third",
+      "weight": "medium",
+      "match_count": 27,
+      "id": "row_13"
+    },
+    {
+      "type": "range",
+      "field": "time_to_liverpool_street",
+      "max": 25.0,
+      "label": "Time to Liverpool Street: shortest third",
+      "weight": "medium",
+      "match_count": 28,
+      "id": "row_14"
+    },
+    {
+      "type": "range",
+      "field": "time_to_liverpool_street",
+      "min": 25.0,
+      "max": 53.0,
+      "label": "Time to Liverpool Street: middle third",
+      "weight": "medium",
+      "match_count": 27,
+      "id": "row_15"
+    },
+    {
+      "type": "range",
+      "field": "time_to_liverpool_street",
+      "min": 53.0,
+      "label": "Time to Liverpool Street: longest third",
+      "weight": "medium",
+      "match_count": 28,
+      "id": "row_16"
+    },
+    {
+      "type": "range",
+      "field": "time_to_stratford",
+      "max": 25.0,
+      "label": "Time to Stratford: shortest third",
+      "weight": "medium",
+      "match_count": 27,
+      "id": "row_17"
+    },
+    {
+      "type": "range",
+      "field": "time_to_stratford",
+      "min": 25.0,
+      "max": 46.0,
+      "label": "Time to Stratford: middle third",
+      "weight": "medium",
+      "match_count": 27,
+      "id": "row_18"
+    },
+    {
+      "type": "range",
+      "field": "time_to_stratford",
+      "min": 46.0,
+      "label": "Time to Stratford: longest third",
+      "weight": "medium",
+      "match_count": 28,
+      "id": "row_19"
+    }
+  ],
+  "columnPool": [
+    {
+      "type": "equals",
+      "field": "region",
+      "value": "North East London",
+      "label": "Region: North East London",
+      "category": "geography",
+      "match_count": 29,
+      "id": "col_0"
+    },
+    {
+      "type": "equals",
+      "field": "region",
+      "value": "North London",
+      "label": "Region: North London",
+      "category": "geography",
+      "match_count": 14,
+      "id": "col_1"
+    },
+    {
+      "type": "equals",
+      "field": "region",
+      "value": "East London",
+      "label": "Region: East London",
+      "category": "geography",
+      "match_count": 10,
+      "id": "col_2"
+    },
+    {
+      "type": "equals",
+      "field": "region",
+      "value": "North West London",
+      "label": "Region: North West London",
+      "category": "geography",
+      "match_count": 10,
+      "id": "col_3"
+    },
+    {
+      "type": "equals",
+      "field": "region",
+      "value": "South East London",
+      "label": "Region: South East London",
+      "category": "geography",
+      "match_count": 6,
+      "id": "col_4"
+    },
+    {
+      "type": "equals",
+      "field": "region",
+      "value": "West London",
+      "label": "Region: West London",
+      "category": "geography",
+      "match_count": 3,
+      "id": "col_5"
+    },
+    {
+      "type": "equals",
+      "field": "region",
+      "value": "South London",
+      "label": "Region: South London",
+      "category": "geography",
+      "match_count": 3,
+      "id": "col_6"
+    },
+    {
+      "type": "range",
+      "field": "terminus_max",
+      "min": 1,
+      "label": "Terminus station",
+      "category": "service",
+      "match_count": 9,
+      "id": "col_7"
+    },
+    {
+      "type": "range",
+      "field": "canonical_time_to_hub",
+      "max": 148.0,
+      "label": "Time to hub: shortest third",
+      "category": "service",
+      "match_count": 30,
+      "id": "col_8"
+    },
+    {
+      "type": "range",
+      "field": "canonical_time_to_hub",
+      "min": 148.0,
+      "max": 312.0,
+      "label": "Time to hub: middle third",
+      "category": "service",
+      "match_count": 32,
+      "id": "col_9"
+    },
+    {
+      "type": "range",
+      "field": "canonical_time_to_hub",
+      "min": 312.0,
+      "label": "Time to hub: longest third",
+      "category": "service",
+      "match_count": 31,
+      "id": "col_10"
+    },
+    {
+      "type": "range",
+      "field": "time_to_euston",
+      "max": 47.0,
+      "label": "Time to Euston: shortest third",
+      "category": "service",
+      "match_count": 27,
+      "id": "col_11"
+    },
+    {
+      "type": "range",
+      "field": "time_to_euston",
+      "min": 47.0,
+      "max": 66.0,
+      "label": "Time to Euston: middle third",
+      "category": "service",
+      "match_count": 27,
+      "id": "col_12"
+    },
+    {
+      "type": "range",
+      "field": "time_to_euston",
+      "min": 66.0,
+      "label": "Time to Euston: longest third",
+      "category": "service",
+      "match_count": 27,
+      "id": "col_13"
+    },
+    {
+      "type": "range",
+      "field": "time_to_liverpool_street",
+      "max": 25.0,
+      "label": "Time to Liverpool Street: shortest third",
+      "category": "service",
+      "match_count": 28,
+      "id": "col_14"
+    },
+    {
+      "type": "range",
+      "field": "time_to_liverpool_street",
+      "min": 25.0,
+      "max": 53.0,
+      "label": "Time to Liverpool Street: middle third",
+      "category": "service",
+      "match_count": 27,
+      "id": "col_15"
+    },
+    {
+      "type": "range",
+      "field": "time_to_liverpool_street",
+      "min": 53.0,
+      "label": "Time to Liverpool Street: longest third",
+      "category": "service",
+      "match_count": 28,
+      "id": "col_16"
+    },
+    {
+      "type": "range",
+      "field": "time_to_stratford",
+      "max": 25.0,
+      "label": "Time to Stratford: shortest third",
+      "category": "service",
+      "match_count": 27,
+      "id": "col_17"
+    },
+    {
+      "type": "range",
+      "field": "time_to_stratford",
+      "min": 25.0,
+      "max": 46.0,
+      "label": "Time to Stratford: middle third",
+      "category": "service",
+      "match_count": 27,
+      "id": "col_18"
+    },
+    {
+      "type": "range",
+      "field": "time_to_stratford",
+      "min": 46.0,
+      "label": "Time to Stratford: longest third",
+      "category": "service",
+      "match_count": 28,
+      "id": "col_19"
+    },
+    {
+      "type": "array_contains",
+      "field": "route",
+      "value": "Windrush Line",
+      "label": "Route: Windrush Line",
+      "category": "route",
+      "match_count": 19,
+      "id": "col_20"
+    },
+    {
+      "type": "array_contains",
+      "field": "route",
+      "value": "Mildmay Line",
+      "label": "Route: Mildmay Line",
+      "category": "route",
+      "match_count": 17,
+      "id": "col_21"
+    },
+    {
+      "type": "array_contains",
+      "field": "route",
+      "value": "Suffragette Line",
+      "label": "Route: Suffragette Line",
+      "category": "route",
+      "match_count": 12,
+      "id": "col_22"
+    },
+    {
+      "type": "array_contains",
+      "field": "route",
+      "value": "Chingford Line",
+      "label": "Route: Chingford Line",
+      "category": "route",
+      "match_count": 10,
+      "id": "col_23"
+    },
+    {
+      "type": "array_contains",
+      "field": "route",
+      "value": "Enfield Town Line",
+      "label": "Route: Enfield Town Line",
+      "category": "route",
+      "match_count": 10,
+      "id": "col_24"
+    },
+    {
+      "type": "equals",
+      "field": "wordplay_category",
+      "value": "local_suffix",
+      "label": "Wordplay: local_suffix",
+      "category": "name",
+      "match_count": 32,
+      "id": "col_25"
+    },
+    {
+      "type": "equals",
+      "field": "wordplay_category",
+      "value": "nature",
+      "label": "Wordplay: nature",
+      "category": "name",
+      "match_count": 12,
+      "id": "col_26"
+    },
+    {
+      "type": "equals",
+      "field": "wordplay_category",
+      "value": "structure",
+      "label": "Wordplay: structure",
+      "category": "name",
+      "match_count": 3,
+      "id": "col_27"
+    },
+    {
+      "type": "array_contains",
+      "field": "wordplay_tags",
+      "value": "ton",
+      "label": "Name contains 'ton'",
+      "category": "name",
+      "match_count": 11,
+      "id": "col_28"
+    },
+    {
+      "type": "array_contains",
+      "field": "wordplay_tags",
+      "value": "ey",
+      "label": "Name contains 'ey'",
+      "category": "name",
+      "match_count": 8,
+      "id": "col_29"
+    },
+    {
+      "type": "array_contains",
+      "field": "wordplay_tags",
+      "value": "park",
+      "label": "Name contains 'park'",
+      "category": "name",
+      "match_count": 8,
+      "id": "col_30"
+    },
+    {
+      "type": "array_contains",
+      "field": "wordplay_tags",
+      "value": "bury",
+      "label": "Name contains 'bury'",
+      "category": "name",
+      "match_count": 5,
+      "id": "col_31"
+    },
+    {
+      "type": "array_contains",
+      "field": "wordplay_tags",
+      "value": "hill",
+      "label": "Name contains 'hill'",
+      "category": "name",
+      "match_count": 4,
+      "id": "col_32"
+    },
+    {
+      "type": "array_contains",
+      "field": "wordplay_tags",
+      "value": "stead",
+      "label": "Name contains 'stead'",
+      "category": "name",
+      "match_count": 4,
+      "id": "col_33"
+    },
+    {
+      "type": "array_contains",
+      "field": "wordplay_tags",
+      "value": "ley",
+      "label": "Name contains 'ley'",
+      "category": "name",
+      "match_count": 3,
+      "id": "col_34"
+    },
+    {
+      "type": "array_contains",
+      "field": "wordplay_tags",
+      "value": "green",
+      "label": "Name contains 'green'",
+      "category": "name",
+      "match_count": 3,
+      "id": "col_35"
+    },
+    {
+      "type": "array_contains",
+      "field": "wordplay_tags",
+      "value": "ford",
+      "label": "Name contains 'ford'",
+      "category": "name",
+      "match_count": 3,
+      "id": "col_36"
+    },
+    {
+      "type": "array_contains",
+      "field": "wordplay_tags",
+      "value": "ham",
+      "label": "Name contains 'ham'",
+      "category": "name",
+      "match_count": 3,
+      "id": "col_37"
+    },
+    {
+      "type": "equals",
+      "field": "name_word_count",
+      "value": 1,
+      "label": "One-word name",
+      "category": "name",
+      "match_count": 15,
+      "id": "col_38"
+    },
+    {
+      "type": "range",
+      "field": "name_word_count",
+      "min": 3,
+      "label": "Three or more words in name",
+      "category": "name",
+      "match_count": 16,
+      "id": "col_39"
+    },
+    {
+      "type": "range",
+      "field": "name_letter_count",
+      "label": "Medium name (7-10 letters)",
+      "min": 7,
+      "max": 10,
+      "category": "name",
+      "match_count": 21,
+      "id": "col_40"
+    },
+    {
+      "type": "range",
+      "field": "name_letter_count",
+      "label": "Long name (11+ letters)",
+      "min": 11,
+      "category": "name",
+      "match_count": 57,
+      "id": "col_41"
+    }
+  ]
+}

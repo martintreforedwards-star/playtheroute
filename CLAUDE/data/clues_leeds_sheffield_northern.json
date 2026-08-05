@@ -1,0 +1,640 @@
+{
+  "rowPool": [
+    {
+      "type": "equals",
+      "field": "is_interchange",
+      "value": true,
+      "label": "Interchange station",
+      "weight": "medium",
+      "match_count": 82,
+      "id": "row_0"
+    },
+    {
+      "type": "equals",
+      "field": "is_coastal",
+      "value": true,
+      "label": "Coastal station",
+      "weight": "high",
+      "match_count": 9,
+      "id": "row_1"
+    },
+    {
+      "type": "range",
+      "field": "terminus_max",
+      "min": 1,
+      "label": "Terminus station",
+      "weight": "medium",
+      "match_count": 37,
+      "id": "row_2"
+    },
+    {
+      "type": "equals",
+      "field": "canonical_hub",
+      "value": "Sheffield",
+      "label": "Hub: Sheffield",
+      "weight": "medium",
+      "match_count": 55,
+      "id": "row_3"
+    },
+    {
+      "type": "equals",
+      "field": "canonical_hub",
+      "value": "Leeds",
+      "label": "Hub: Leeds",
+      "weight": "medium",
+      "match_count": 113,
+      "id": "row_4"
+    },
+    {
+      "type": "equals",
+      "field": "region",
+      "value": "North Yorkshire",
+      "label": "Region: North Yorkshire",
+      "weight": "high",
+      "match_count": 28,
+      "id": "row_5"
+    },
+    {
+      "type": "equals",
+      "field": "region",
+      "value": "East Riding of Yorkshire",
+      "label": "Region: East Riding of Yorkshire",
+      "weight": "high",
+      "match_count": 20,
+      "id": "row_6"
+    },
+    {
+      "type": "equals",
+      "field": "region",
+      "value": "Leeds",
+      "label": "Region: Leeds",
+      "weight": "high",
+      "match_count": 17,
+      "id": "row_7"
+    },
+    {
+      "type": "equals",
+      "field": "region",
+      "value": "Wakefield",
+      "label": "Region: Wakefield",
+      "weight": "high",
+      "match_count": 16,
+      "id": "row_8"
+    },
+    {
+      "type": "equals",
+      "field": "region",
+      "value": "Bradford",
+      "label": "Region: Bradford",
+      "weight": "high",
+      "match_count": 15,
+      "id": "row_9"
+    },
+    {
+      "type": "equals",
+      "field": "region",
+      "value": "Kirklees",
+      "label": "Region: Kirklees",
+      "weight": "high",
+      "match_count": 12,
+      "id": "row_10"
+    },
+    {
+      "type": "equals",
+      "field": "region",
+      "value": "Barnsley",
+      "label": "Region: Barnsley",
+      "weight": "high",
+      "match_count": 10,
+      "id": "row_11"
+    },
+    {
+      "type": "equals",
+      "field": "region",
+      "value": "Doncaster",
+      "label": "Region: Doncaster",
+      "weight": "high",
+      "match_count": 9,
+      "id": "row_12"
+    },
+    {
+      "type": "equals",
+      "field": "region",
+      "value": "Westmorland and Furness",
+      "label": "Region: Westmorland and Furness",
+      "weight": "high",
+      "match_count": 8,
+      "id": "row_13"
+    },
+    {
+      "type": "equals",
+      "field": "region",
+      "value": "Calderdale",
+      "label": "Region: Calderdale",
+      "weight": "high",
+      "match_count": 5,
+      "id": "row_14"
+    },
+    {
+      "type": "range",
+      "field": "canonical_time_to_hub",
+      "max": 26.0,
+      "label": "Time to hub: shortest third",
+      "weight": "medium",
+      "match_count": 57,
+      "id": "row_15"
+    },
+    {
+      "type": "range",
+      "field": "canonical_time_to_hub",
+      "min": 26.0,
+      "max": 52.0,
+      "label": "Time to hub: middle third",
+      "weight": "medium",
+      "match_count": 56,
+      "id": "row_16"
+    },
+    {
+      "type": "range",
+      "field": "canonical_time_to_hub",
+      "min": 52.0,
+      "label": "Time to hub: longest third",
+      "weight": "medium",
+      "match_count": 58,
+      "id": "row_17"
+    }
+  ],
+  "columnPool": [
+    {
+      "type": "equals",
+      "field": "region",
+      "value": "North Yorkshire",
+      "label": "Region: North Yorkshire",
+      "category": "geography",
+      "match_count": 28,
+      "id": "col_0"
+    },
+    {
+      "type": "equals",
+      "field": "region",
+      "value": "East Riding of Yorkshire",
+      "label": "Region: East Riding of Yorkshire",
+      "category": "geography",
+      "match_count": 20,
+      "id": "col_1"
+    },
+    {
+      "type": "equals",
+      "field": "region",
+      "value": "Leeds",
+      "label": "Region: Leeds",
+      "category": "geography",
+      "match_count": 17,
+      "id": "col_2"
+    },
+    {
+      "type": "equals",
+      "field": "region",
+      "value": "Wakefield",
+      "label": "Region: Wakefield",
+      "category": "geography",
+      "match_count": 16,
+      "id": "col_3"
+    },
+    {
+      "type": "equals",
+      "field": "region",
+      "value": "Bradford",
+      "label": "Region: Bradford",
+      "category": "geography",
+      "match_count": 15,
+      "id": "col_4"
+    },
+    {
+      "type": "equals",
+      "field": "region",
+      "value": "Kirklees",
+      "label": "Region: Kirklees",
+      "category": "geography",
+      "match_count": 12,
+      "id": "col_5"
+    },
+    {
+      "type": "equals",
+      "field": "region",
+      "value": "Barnsley",
+      "label": "Region: Barnsley",
+      "category": "geography",
+      "match_count": 10,
+      "id": "col_6"
+    },
+    {
+      "type": "equals",
+      "field": "region",
+      "value": "Doncaster",
+      "label": "Region: Doncaster",
+      "category": "geography",
+      "match_count": 9,
+      "id": "col_7"
+    },
+    {
+      "type": "equals",
+      "field": "region",
+      "value": "Westmorland and Furness",
+      "label": "Region: Westmorland and Furness",
+      "category": "geography",
+      "match_count": 8,
+      "id": "col_8"
+    },
+    {
+      "type": "equals",
+      "field": "region",
+      "value": "Calderdale",
+      "label": "Region: Calderdale",
+      "category": "geography",
+      "match_count": 5,
+      "id": "col_9"
+    },
+    {
+      "type": "equals",
+      "field": "is_coastal",
+      "value": true,
+      "label": "Coastal station",
+      "category": "geography",
+      "match_count": 9,
+      "id": "col_10"
+    },
+    {
+      "type": "equals",
+      "field": "canonical_hub",
+      "value": "Sheffield",
+      "label": "Hub: Sheffield",
+      "category": "geography",
+      "match_count": 55,
+      "id": "col_11"
+    },
+    {
+      "type": "equals",
+      "field": "canonical_hub",
+      "value": "Leeds",
+      "label": "Hub: Leeds",
+      "category": "geography",
+      "match_count": 113,
+      "id": "col_12"
+    },
+    {
+      "type": "equals",
+      "field": "is_interchange",
+      "value": true,
+      "label": "Interchange station",
+      "category": "service",
+      "match_count": 82,
+      "id": "col_13"
+    },
+    {
+      "type": "range",
+      "field": "terminus_max",
+      "min": 1,
+      "label": "Terminus station",
+      "category": "service",
+      "match_count": 37,
+      "id": "col_14"
+    },
+    {
+      "type": "range",
+      "field": "canonical_time_to_hub",
+      "max": 26.0,
+      "label": "Time to hub: shortest third",
+      "category": "service",
+      "match_count": 57,
+      "id": "col_15"
+    },
+    {
+      "type": "range",
+      "field": "canonical_time_to_hub",
+      "min": 26.0,
+      "max": 52.0,
+      "label": "Time to hub: middle third",
+      "category": "service",
+      "match_count": 56,
+      "id": "col_16"
+    },
+    {
+      "type": "range",
+      "field": "canonical_time_to_hub",
+      "min": 52.0,
+      "label": "Time to hub: longest third",
+      "category": "service",
+      "match_count": 58,
+      "id": "col_17"
+    },
+    {
+      "type": "array_contains",
+      "field": "route",
+      "value": "Hull and Doncaster Branch",
+      "label": "Route: Hull and Doncaster Branch",
+      "category": "route",
+      "match_count": 33,
+      "id": "col_18"
+    },
+    {
+      "type": "array_contains",
+      "field": "route",
+      "value": "Hallam Line",
+      "label": "Route: Hallam Line",
+      "category": "route",
+      "match_count": 30,
+      "id": "col_19"
+    },
+    {
+      "type": "array_contains",
+      "field": "route",
+      "value": "Settle Carlisle Line",
+      "label": "Route: Settle Carlisle Line",
+      "category": "route",
+      "match_count": 28,
+      "id": "col_20"
+    },
+    {
+      "type": "array_contains",
+      "field": "route",
+      "value": "Selby Line",
+      "label": "Route: Selby Line",
+      "category": "route",
+      "match_count": 22,
+      "id": "col_21"
+    },
+    {
+      "type": "array_contains",
+      "field": "route",
+      "value": "Penistone Line",
+      "label": "Route: Penistone Line",
+      "category": "route",
+      "match_count": 21,
+      "id": "col_22"
+    },
+    {
+      "type": "array_contains",
+      "field": "route",
+      "value": "Bentham Line",
+      "label": "Route: Bentham Line",
+      "category": "route",
+      "match_count": 20,
+      "id": "col_23"
+    },
+    {
+      "type": "array_contains",
+      "field": "route",
+      "value": "Airedale Line",
+      "label": "Route: Airedale Line",
+      "category": "route",
+      "match_count": 19,
+      "id": "col_24"
+    },
+    {
+      "type": "array_contains",
+      "field": "route",
+      "value": "Pontefract Line",
+      "label": "Route: Pontefract Line",
+      "category": "route",
+      "match_count": 15,
+      "id": "col_25"
+    },
+    {
+      "type": "array_contains",
+      "field": "route",
+      "value": "Harrogate Line",
+      "label": "Route: Harrogate Line",
+      "category": "route",
+      "match_count": 14,
+      "id": "col_26"
+    },
+    {
+      "type": "array_contains",
+      "field": "route",
+      "value": "Dearne Valley Line",
+      "label": "Route: Dearne Valley Line",
+      "category": "route",
+      "match_count": 12,
+      "id": "col_27"
+    },
+    {
+      "type": "array_contains",
+      "field": "route",
+      "value": "Yorkshire Coast Line",
+      "label": "Route: Yorkshire Coast Line",
+      "category": "route",
+      "match_count": 11,
+      "id": "col_28"
+    },
+    {
+      "type": "array_contains",
+      "field": "route",
+      "value": "Wharfedale Line",
+      "label": "Route: Wharfedale Line",
+      "category": "route",
+      "match_count": 10,
+      "id": "col_29"
+    },
+    {
+      "type": "array_contains",
+      "field": "route",
+      "value": "Calder Vale Line",
+      "label": "Route: Calder Vale Line",
+      "category": "route",
+      "match_count": 9,
+      "id": "col_30"
+    },
+    {
+      "type": "array_contains",
+      "field": "route",
+      "value": "Huddersfield Line",
+      "label": "Route: Huddersfield Line",
+      "category": "route",
+      "match_count": 9,
+      "id": "col_31"
+    },
+    {
+      "type": "array_contains",
+      "field": "route",
+      "value": "Sheffield to Lincoln Line",
+      "label": "Route: Sheffield to Lincoln Line",
+      "category": "route",
+      "match_count": 7,
+      "id": "col_32"
+    },
+    {
+      "type": "equals",
+      "field": "wordplay_category",
+      "value": "local_suffix",
+      "label": "Wordplay: local_suffix",
+      "category": "name",
+      "match_count": 64,
+      "id": "col_33"
+    },
+    {
+      "type": "equals",
+      "field": "wordplay_category",
+      "value": "structure",
+      "label": "Wordplay: structure",
+      "category": "name",
+      "match_count": 15,
+      "id": "col_34"
+    },
+    {
+      "type": "array_contains",
+      "field": "wordplay_tags",
+      "value": "ey",
+      "label": "Name contains 'ey'",
+      "category": "name",
+      "match_count": 25,
+      "id": "col_35"
+    },
+    {
+      "type": "array_contains",
+      "field": "wordplay_tags",
+      "value": "ton",
+      "label": "Name contains 'ton'",
+      "category": "name",
+      "match_count": 24,
+      "id": "col_36"
+    },
+    {
+      "type": "array_contains",
+      "field": "wordplay_tags",
+      "value": "ley",
+      "label": "Name contains 'ley'",
+      "category": "name",
+      "match_count": 23,
+      "id": "col_37"
+    },
+    {
+      "type": "array_contains",
+      "field": "wordplay_tags",
+      "value": "by",
+      "label": "Name contains 'by'",
+      "category": "name",
+      "match_count": 9,
+      "id": "col_38"
+    },
+    {
+      "type": "array_contains",
+      "field": "wordplay_tags",
+      "value": "field",
+      "label": "Name contains 'field'",
+      "category": "name",
+      "match_count": 8,
+      "id": "col_39"
+    },
+    {
+      "type": "array_contains",
+      "field": "wordplay_tags",
+      "value": "ford",
+      "label": "Name contains 'ford'",
+      "category": "name",
+      "match_count": 7,
+      "id": "col_40"
+    },
+    {
+      "type": "array_contains",
+      "field": "wordplay_tags",
+      "value": "brackets",
+      "label": "Name contains 'brackets'",
+      "category": "name",
+      "match_count": 6,
+      "id": "col_41"
+    },
+    {
+      "type": "array_contains",
+      "field": "wordplay_tags",
+      "value": "ridge",
+      "label": "Name contains 'ridge'",
+      "category": "name",
+      "match_count": 5,
+      "id": "col_42"
+    },
+    {
+      "type": "array_contains",
+      "field": "wordplay_tags",
+      "value": "dale",
+      "label": "Name contains 'dale'",
+      "category": "name",
+      "match_count": 5,
+      "id": "col_43"
+    },
+    {
+      "type": "array_contains",
+      "field": "wordplay_tags",
+      "value": "ampersand",
+      "label": "Name contains 'ampersand'",
+      "category": "name",
+      "match_count": 5,
+      "id": "col_44"
+    },
+    {
+      "type": "array_contains",
+      "field": "wordplay_tags",
+      "value": "hyphen",
+      "label": "Name contains 'hyphen'",
+      "category": "name",
+      "match_count": 4,
+      "id": "col_45"
+    },
+    {
+      "type": "array_contains",
+      "field": "wordplay_tags",
+      "value": "park",
+      "label": "Name contains 'park'",
+      "category": "name",
+      "match_count": 3,
+      "id": "col_46"
+    },
+    {
+      "type": "equals",
+      "field": "name_word_count",
+      "value": 1,
+      "label": "One-word name",
+      "category": "name",
+      "match_count": 120,
+      "id": "col_47"
+    },
+    {
+      "type": "range",
+      "field": "name_word_count",
+      "min": 3,
+      "label": "Three or more words in name",
+      "category": "name",
+      "match_count": 5,
+      "id": "col_48"
+    },
+    {
+      "type": "range",
+      "field": "name_letter_count",
+      "label": "Short name (≤6 letters)",
+      "min": 0,
+      "max": 6,
+      "category": "name",
+      "match_count": 26,
+      "id": "col_49"
+    },
+    {
+      "type": "range",
+      "field": "name_letter_count",
+      "label": "Medium name (7-10 letters)",
+      "min": 7,
+      "max": 10,
+      "category": "name",
+      "match_count": 79,
+      "id": "col_50"
+    },
+    {
+      "type": "range",
+      "field": "name_letter_count",
+      "label": "Long name (11+ letters)",
+      "min": 11,
+      "category": "name",
+      "match_count": 63,
+      "id": "col_51"
+    }
+  ]
+}

@@ -1,0 +1,604 @@
+{
+  "rowPool": [
+    {
+      "type": "equals",
+      "field": "is_interchange",
+      "value": true,
+      "label": "Interchange station",
+      "weight": "high",
+      "match_count": 25,
+      "id": "row_0"
+    },
+    {
+      "type": "equals",
+      "field": "is_coastal",
+      "value": true,
+      "label": "Coastal station",
+      "weight": "medium",
+      "match_count": 44,
+      "id": "row_1"
+    },
+    {
+      "type": "range",
+      "field": "terminus_max",
+      "min": 1,
+      "label": "Terminus station",
+      "weight": "high",
+      "match_count": 18,
+      "id": "row_2"
+    },
+    {
+      "type": "equals",
+      "field": "canonical_hub",
+      "value": "Shrewsbury",
+      "label": "Hub: Shrewsbury",
+      "weight": "medium",
+      "match_count": 52,
+      "id": "row_3"
+    },
+    {
+      "type": "equals",
+      "field": "canonical_hub",
+      "value": "Wrexham/Chester",
+      "label": "Hub: Wrexham/Chester",
+      "weight": "medium",
+      "match_count": 66,
+      "id": "row_4"
+    },
+    {
+      "type": "equals",
+      "field": "region",
+      "value": "Gwynedd",
+      "label": "Region: Gwynedd",
+      "weight": "medium",
+      "match_count": 27,
+      "id": "row_5"
+    },
+    {
+      "type": "equals",
+      "field": "region",
+      "value": "Conwy",
+      "label": "Region: Conwy",
+      "weight": "high",
+      "match_count": 17,
+      "id": "row_6"
+    },
+    {
+      "type": "equals",
+      "field": "region",
+      "value": "Shropshire",
+      "label": "Region: Shropshire",
+      "weight": "high",
+      "match_count": 13,
+      "id": "row_7"
+    },
+    {
+      "type": "equals",
+      "field": "region",
+      "value": "Powys",
+      "label": "Region: Powys",
+      "weight": "high",
+      "match_count": 11,
+      "id": "row_8"
+    },
+    {
+      "type": "equals",
+      "field": "region",
+      "value": "Cheshire West and Chester",
+      "label": "Region: Cheshire West and Chester",
+      "weight": "high",
+      "match_count": 10,
+      "id": "row_9"
+    },
+    {
+      "type": "equals",
+      "field": "region",
+      "value": "Flintshire",
+      "label": "Region: Flintshire",
+      "weight": "high",
+      "match_count": 9,
+      "id": "row_10"
+    },
+    {
+      "type": "equals",
+      "field": "region",
+      "value": "Wirral",
+      "label": "Region: Wirral",
+      "weight": "high",
+      "match_count": 9,
+      "id": "row_11"
+    },
+    {
+      "type": "equals",
+      "field": "region",
+      "value": "Isle of Anglesey",
+      "label": "Region: Isle of Anglesey",
+      "weight": "high",
+      "match_count": 6,
+      "id": "row_12"
+    },
+    {
+      "type": "equals",
+      "field": "region",
+      "value": "Wrexham",
+      "label": "Region: Wrexham",
+      "weight": "high",
+      "match_count": 5,
+      "id": "row_13"
+    },
+    {
+      "type": "equals",
+      "field": "region",
+      "value": "Ceredigion",
+      "label": "Region: Ceredigion",
+      "weight": "high",
+      "match_count": 3,
+      "id": "row_14"
+    },
+    {
+      "type": "range",
+      "field": "canonical_time_to_hub",
+      "max": 42.0,
+      "label": "Time to hub: shortest third",
+      "weight": "medium",
+      "match_count": 40,
+      "id": "row_15"
+    },
+    {
+      "type": "range",
+      "field": "canonical_time_to_hub",
+      "min": 42.0,
+      "max": 93.0,
+      "label": "Time to hub: middle third",
+      "weight": "medium",
+      "match_count": 41,
+      "id": "row_16"
+    },
+    {
+      "type": "range",
+      "field": "canonical_time_to_hub",
+      "min": 93.0,
+      "label": "Time to hub: longest third",
+      "weight": "medium",
+      "match_count": 40,
+      "id": "row_17"
+    }
+  ],
+  "columnPool": [
+    {
+      "type": "equals",
+      "field": "region",
+      "value": "Gwynedd",
+      "label": "Region: Gwynedd",
+      "category": "geography",
+      "match_count": 27,
+      "id": "col_0"
+    },
+    {
+      "type": "equals",
+      "field": "region",
+      "value": "Conwy",
+      "label": "Region: Conwy",
+      "category": "geography",
+      "match_count": 17,
+      "id": "col_1"
+    },
+    {
+      "type": "equals",
+      "field": "region",
+      "value": "Shropshire",
+      "label": "Region: Shropshire",
+      "category": "geography",
+      "match_count": 13,
+      "id": "col_2"
+    },
+    {
+      "type": "equals",
+      "field": "region",
+      "value": "Powys",
+      "label": "Region: Powys",
+      "category": "geography",
+      "match_count": 11,
+      "id": "col_3"
+    },
+    {
+      "type": "equals",
+      "field": "region",
+      "value": "Cheshire West and Chester",
+      "label": "Region: Cheshire West and Chester",
+      "category": "geography",
+      "match_count": 10,
+      "id": "col_4"
+    },
+    {
+      "type": "equals",
+      "field": "region",
+      "value": "Flintshire",
+      "label": "Region: Flintshire",
+      "category": "geography",
+      "match_count": 9,
+      "id": "col_5"
+    },
+    {
+      "type": "equals",
+      "field": "region",
+      "value": "Wirral",
+      "label": "Region: Wirral",
+      "category": "geography",
+      "match_count": 9,
+      "id": "col_6"
+    },
+    {
+      "type": "equals",
+      "field": "region",
+      "value": "Isle of Anglesey",
+      "label": "Region: Isle of Anglesey",
+      "category": "geography",
+      "match_count": 6,
+      "id": "col_7"
+    },
+    {
+      "type": "equals",
+      "field": "region",
+      "value": "Wrexham",
+      "label": "Region: Wrexham",
+      "category": "geography",
+      "match_count": 5,
+      "id": "col_8"
+    },
+    {
+      "type": "equals",
+      "field": "region",
+      "value": "Ceredigion",
+      "label": "Region: Ceredigion",
+      "category": "geography",
+      "match_count": 3,
+      "id": "col_9"
+    },
+    {
+      "type": "equals",
+      "field": "is_coastal",
+      "value": true,
+      "label": "Coastal station",
+      "category": "geography",
+      "match_count": 44,
+      "id": "col_10"
+    },
+    {
+      "type": "equals",
+      "field": "canonical_hub",
+      "value": "Shrewsbury",
+      "label": "Hub: Shrewsbury",
+      "category": "geography",
+      "match_count": 52,
+      "id": "col_11"
+    },
+    {
+      "type": "equals",
+      "field": "canonical_hub",
+      "value": "Wrexham/Chester",
+      "label": "Hub: Wrexham/Chester",
+      "category": "geography",
+      "match_count": 66,
+      "id": "col_12"
+    },
+    {
+      "type": "equals",
+      "field": "is_interchange",
+      "value": true,
+      "label": "Interchange station",
+      "category": "service",
+      "match_count": 25,
+      "id": "col_13"
+    },
+    {
+      "type": "range",
+      "field": "terminus_max",
+      "min": 1,
+      "label": "Terminus station",
+      "category": "service",
+      "match_count": 18,
+      "id": "col_14"
+    },
+    {
+      "type": "range",
+      "field": "canonical_time_to_hub",
+      "max": 42.0,
+      "label": "Time to hub: shortest third",
+      "category": "service",
+      "match_count": 40,
+      "id": "col_15"
+    },
+    {
+      "type": "range",
+      "field": "canonical_time_to_hub",
+      "min": 42.0,
+      "max": 93.0,
+      "label": "Time to hub: middle third",
+      "category": "service",
+      "match_count": 41,
+      "id": "col_16"
+    },
+    {
+      "type": "range",
+      "field": "canonical_time_to_hub",
+      "min": 93.0,
+      "label": "Time to hub: longest third",
+      "category": "service",
+      "match_count": 40,
+      "id": "col_17"
+    },
+    {
+      "type": "equals",
+      "field": "operator",
+      "value": "TfW",
+      "label": "Operator: TfW",
+      "category": "route",
+      "match_count": 104,
+      "id": "col_18"
+    },
+    {
+      "type": "equals",
+      "field": "operator",
+      "value": "Merseyrail",
+      "label": "Operator: Merseyrail",
+      "category": "route",
+      "match_count": 11,
+      "id": "col_19"
+    },
+    {
+      "type": "equals",
+      "field": "operator",
+      "value": "Northern",
+      "label": "Operator: Northern",
+      "category": "route",
+      "match_count": 3,
+      "id": "col_20"
+    },
+    {
+      "type": "array_contains",
+      "field": "route",
+      "value": "North Wales Coast Line",
+      "label": "Route: North Wales Coast Line",
+      "category": "route",
+      "match_count": 45,
+      "id": "col_21"
+    },
+    {
+      "type": "array_contains",
+      "field": "route",
+      "value": "Cambrian Coast Line",
+      "label": "Route: Cambrian Coast Line",
+      "category": "route",
+      "match_count": 27,
+      "id": "col_22"
+    },
+    {
+      "type": "array_contains",
+      "field": "route",
+      "value": "Central Wales Line",
+      "label": "Route: Central Wales Line",
+      "category": "route",
+      "match_count": 21,
+      "id": "col_23"
+    },
+    {
+      "type": "array_contains",
+      "field": "route",
+      "value": "Heart of Wales Line",
+      "label": "Route: Heart of Wales Line",
+      "category": "route",
+      "match_count": 21,
+      "id": "col_24"
+    },
+    {
+      "type": "array_contains",
+      "field": "route",
+      "value": "Borderlands Line",
+      "label": "Route: Borderlands Line",
+      "category": "route",
+      "match_count": 13,
+      "id": "col_25"
+    },
+    {
+      "type": "array_contains",
+      "field": "route",
+      "value": "Conwy Valley Line",
+      "label": "Route: Conwy Valley Line",
+      "category": "route",
+      "match_count": 13,
+      "id": "col_26"
+    },
+    {
+      "type": "array_contains",
+      "field": "route",
+      "value": "Wirral Line",
+      "label": "Route: Wirral Line",
+      "category": "route",
+      "match_count": 11,
+      "id": "col_27"
+    },
+    {
+      "type": "array_contains",
+      "field": "route",
+      "value": "Marches Line",
+      "label": "Route: Marches Line",
+      "category": "route",
+      "match_count": 11,
+      "id": "col_28"
+    },
+    {
+      "type": "array_contains",
+      "field": "route",
+      "value": "North & West Line",
+      "label": "Route: North & West Line",
+      "category": "route",
+      "match_count": 11,
+      "id": "col_29"
+    },
+    {
+      "type": "array_contains",
+      "field": "route",
+      "value": "Cambrian Line",
+      "label": "Route: Cambrian Line",
+      "category": "route",
+      "match_count": 9,
+      "id": "col_30"
+    },
+    {
+      "type": "array_contains",
+      "field": "route",
+      "value": "Mid-Cheshire Line",
+      "label": "Route: Mid-Cheshire Line",
+      "category": "route",
+      "match_count": 3,
+      "id": "col_31"
+    },
+    {
+      "type": "equals",
+      "field": "wordplay_category",
+      "value": "welsh_place",
+      "label": "Wordplay: welsh_place",
+      "category": "name",
+      "match_count": 25,
+      "id": "col_32"
+    },
+    {
+      "type": "equals",
+      "field": "wordplay_category",
+      "value": "local_suffix",
+      "label": "Wordplay: local_suffix",
+      "category": "name",
+      "match_count": 15,
+      "id": "col_33"
+    },
+    {
+      "type": "equals",
+      "field": "wordplay_category",
+      "value": "structure",
+      "label": "Wordplay: structure",
+      "category": "name",
+      "match_count": 11,
+      "id": "col_34"
+    },
+    {
+      "type": "array_contains",
+      "field": "wordplay_tags",
+      "value": "llan",
+      "label": "Name contains 'llan'",
+      "category": "name",
+      "match_count": 13,
+      "id": "col_35"
+    },
+    {
+      "type": "array_contains",
+      "field": "wordplay_tags",
+      "value": "ton",
+      "label": "Name contains 'ton'",
+      "category": "name",
+      "match_count": 9,
+      "id": "col_36"
+    },
+    {
+      "type": "array_contains",
+      "field": "wordplay_tags",
+      "value": "pen",
+      "label": "Name contains 'pen'",
+      "category": "name",
+      "match_count": 8,
+      "id": "col_37"
+    },
+    {
+      "type": "array_contains",
+      "field": "wordplay_tags",
+      "value": "brackets",
+      "label": "Name contains 'brackets'",
+      "category": "name",
+      "match_count": 6,
+      "id": "col_38"
+    },
+    {
+      "type": "array_contains",
+      "field": "wordplay_tags",
+      "value": "hyphen",
+      "label": "Name contains 'hyphen'",
+      "category": "name",
+      "match_count": 5,
+      "id": "col_39"
+    },
+    {
+      "type": "array_contains",
+      "field": "wordplay_tags",
+      "value": "aber",
+      "label": "Name contains 'aber'",
+      "category": "name",
+      "match_count": 4,
+      "id": "col_40"
+    },
+    {
+      "type": "array_contains",
+      "field": "wordplay_tags",
+      "value": "ey",
+      "label": "Name contains 'ey'",
+      "category": "name",
+      "match_count": 4,
+      "id": "col_41"
+    },
+    {
+      "type": "array_contains",
+      "field": "wordplay_tags",
+      "value": "ham",
+      "label": "Name contains 'ham'",
+      "category": "name",
+      "match_count": 4,
+      "id": "col_42"
+    },
+    {
+      "type": "equals",
+      "field": "name_word_count",
+      "value": 1,
+      "label": "One-word name",
+      "category": "name",
+      "match_count": 87,
+      "id": "col_43"
+    },
+    {
+      "type": "range",
+      "field": "name_word_count",
+      "min": 3,
+      "label": "Three or more words in name",
+      "category": "name",
+      "match_count": 5,
+      "id": "col_44"
+    },
+    {
+      "type": "range",
+      "field": "name_letter_count",
+      "label": "Short name (≤6 letters)",
+      "min": 0,
+      "max": 6,
+      "category": "name",
+      "match_count": 19,
+      "id": "col_45"
+    },
+    {
+      "type": "range",
+      "field": "name_letter_count",
+      "label": "Medium name (7-10 letters)",
+      "min": 7,
+      "max": 10,
+      "category": "name",
+      "match_count": 63,
+      "id": "col_46"
+    },
+    {
+      "type": "range",
+      "field": "name_letter_count",
+      "label": "Long name (11+ letters)",
+      "min": 11,
+      "category": "name",
+      "match_count": 36,
+      "id": "col_47"
+    }
+  ]
+}

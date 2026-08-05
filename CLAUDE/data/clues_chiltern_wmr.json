@@ -1,0 +1,649 @@
+{
+  "rowPool": [
+    {
+      "type": "equals",
+      "field": "is_interchange",
+      "value": true,
+      "label": "Interchange station",
+      "weight": "medium",
+      "match_count": 39,
+      "id": "row_0"
+    },
+    {
+      "type": "range",
+      "field": "terminus_max",
+      "min": 1,
+      "label": "Terminus station",
+      "weight": "medium",
+      "match_count": 48,
+      "id": "row_1"
+    },
+    {
+      "type": "equals",
+      "field": "canonical_hub",
+      "value": "Birmingham New Street",
+      "label": "Hub: Birmingham New Street",
+      "weight": "medium",
+      "match_count": 124,
+      "id": "row_2"
+    },
+    {
+      "type": "equals",
+      "field": "canonical_hub",
+      "value": "London",
+      "label": "Hub: London",
+      "weight": "medium",
+      "match_count": 48,
+      "id": "row_3"
+    },
+    {
+      "type": "equals",
+      "field": "region",
+      "value": "Birmingham",
+      "label": "Region: Birmingham",
+      "weight": "high",
+      "match_count": 37,
+      "id": "row_4"
+    },
+    {
+      "type": "equals",
+      "field": "region",
+      "value": "Buckinghamshire",
+      "label": "Region: Buckinghamshire",
+      "weight": "high",
+      "match_count": 18,
+      "id": "row_5"
+    },
+    {
+      "type": "equals",
+      "field": "region",
+      "value": "Sandwell",
+      "label": "Region: Sandwell",
+      "weight": "high",
+      "match_count": 12,
+      "id": "row_6"
+    },
+    {
+      "type": "equals",
+      "field": "region",
+      "value": "Solihull",
+      "label": "Region: Solihull",
+      "weight": "high",
+      "match_count": 11,
+      "id": "row_7"
+    },
+    {
+      "type": "equals",
+      "field": "region",
+      "value": "Stratford-on-Avon",
+      "label": "Region: Stratford-on-Avon",
+      "weight": "high",
+      "match_count": 10,
+      "id": "row_8"
+    },
+    {
+      "type": "equals",
+      "field": "region",
+      "value": "Warwick",
+      "label": "Region: Warwick",
+      "weight": "high",
+      "match_count": 6,
+      "id": "row_9"
+    },
+    {
+      "type": "equals",
+      "field": "region",
+      "value": "Bromsgrove",
+      "label": "Region: Bromsgrove",
+      "weight": "high",
+      "match_count": 5,
+      "id": "row_10"
+    },
+    {
+      "type": "equals",
+      "field": "region",
+      "value": "Cherwell",
+      "label": "Region: Cherwell",
+      "weight": "high",
+      "match_count": 5,
+      "id": "row_11"
+    },
+    {
+      "type": "equals",
+      "field": "region",
+      "value": "Walsall",
+      "label": "Region: Walsall",
+      "weight": "high",
+      "match_count": 5,
+      "id": "row_12"
+    },
+    {
+      "type": "equals",
+      "field": "region",
+      "value": "West London",
+      "label": "Region: West London",
+      "weight": "high",
+      "match_count": 5,
+      "id": "row_13"
+    },
+    {
+      "type": "range",
+      "field": "canonical_time_to_hub",
+      "max": 26.0,
+      "label": "Time to hub: shortest third",
+      "weight": "medium",
+      "match_count": 58,
+      "id": "row_14"
+    },
+    {
+      "type": "range",
+      "field": "canonical_time_to_hub",
+      "min": 26.0,
+      "max": 62.0,
+      "label": "Time to hub: middle third",
+      "weight": "medium",
+      "match_count": 61,
+      "id": "row_15"
+    },
+    {
+      "type": "range",
+      "field": "canonical_time_to_hub",
+      "min": 62.0,
+      "label": "Time to hub: longest third",
+      "weight": "medium",
+      "match_count": 57,
+      "id": "row_16"
+    }
+  ],
+  "columnPool": [
+    {
+      "type": "equals",
+      "field": "region",
+      "value": "Birmingham",
+      "label": "Region: Birmingham",
+      "category": "geography",
+      "match_count": 37,
+      "id": "col_0"
+    },
+    {
+      "type": "equals",
+      "field": "region",
+      "value": "Buckinghamshire",
+      "label": "Region: Buckinghamshire",
+      "category": "geography",
+      "match_count": 18,
+      "id": "col_1"
+    },
+    {
+      "type": "equals",
+      "field": "region",
+      "value": "Sandwell",
+      "label": "Region: Sandwell",
+      "category": "geography",
+      "match_count": 12,
+      "id": "col_2"
+    },
+    {
+      "type": "equals",
+      "field": "region",
+      "value": "Solihull",
+      "label": "Region: Solihull",
+      "category": "geography",
+      "match_count": 11,
+      "id": "col_3"
+    },
+    {
+      "type": "equals",
+      "field": "region",
+      "value": "Stratford-on-Avon",
+      "label": "Region: Stratford-on-Avon",
+      "category": "geography",
+      "match_count": 10,
+      "id": "col_4"
+    },
+    {
+      "type": "equals",
+      "field": "region",
+      "value": "Warwick",
+      "label": "Region: Warwick",
+      "category": "geography",
+      "match_count": 6,
+      "id": "col_5"
+    },
+    {
+      "type": "equals",
+      "field": "region",
+      "value": "Bromsgrove",
+      "label": "Region: Bromsgrove",
+      "category": "geography",
+      "match_count": 5,
+      "id": "col_6"
+    },
+    {
+      "type": "equals",
+      "field": "region",
+      "value": "Cherwell",
+      "label": "Region: Cherwell",
+      "category": "geography",
+      "match_count": 5,
+      "id": "col_7"
+    },
+    {
+      "type": "equals",
+      "field": "region",
+      "value": "Walsall",
+      "label": "Region: Walsall",
+      "category": "geography",
+      "match_count": 5,
+      "id": "col_8"
+    },
+    {
+      "type": "equals",
+      "field": "region",
+      "value": "West London",
+      "label": "Region: West London",
+      "category": "geography",
+      "match_count": 5,
+      "id": "col_9"
+    },
+    {
+      "type": "equals",
+      "field": "canonical_hub",
+      "value": "Birmingham New Street",
+      "label": "Hub: Birmingham New Street",
+      "category": "geography",
+      "match_count": 124,
+      "id": "col_10"
+    },
+    {
+      "type": "equals",
+      "field": "canonical_hub",
+      "value": "London",
+      "label": "Hub: London",
+      "category": "geography",
+      "match_count": 48,
+      "id": "col_11"
+    },
+    {
+      "type": "equals",
+      "field": "is_interchange",
+      "value": true,
+      "label": "Interchange station",
+      "category": "service",
+      "match_count": 39,
+      "id": "col_12"
+    },
+    {
+      "type": "range",
+      "field": "terminus_max",
+      "min": 1,
+      "label": "Terminus station",
+      "category": "service",
+      "match_count": 48,
+      "id": "col_13"
+    },
+    {
+      "type": "range",
+      "field": "canonical_time_to_hub",
+      "max": 26.0,
+      "label": "Time to hub: shortest third",
+      "category": "service",
+      "match_count": 58,
+      "id": "col_14"
+    },
+    {
+      "type": "range",
+      "field": "canonical_time_to_hub",
+      "min": 26.0,
+      "max": 62.0,
+      "label": "Time to hub: middle third",
+      "category": "service",
+      "match_count": 61,
+      "id": "col_15"
+    },
+    {
+      "type": "range",
+      "field": "canonical_time_to_hub",
+      "min": 62.0,
+      "label": "Time to hub: longest third",
+      "category": "service",
+      "match_count": 57,
+      "id": "col_16"
+    },
+    {
+      "type": "equals",
+      "field": "operator",
+      "value": "West Midlands Railway",
+      "label": "Operator: West Midlands Railway",
+      "category": "route",
+      "match_count": 124,
+      "id": "col_17"
+    },
+    {
+      "type": "equals",
+      "field": "operator",
+      "value": "Chiltern Railways",
+      "label": "Operator: Chiltern Railways",
+      "category": "route",
+      "match_count": 48,
+      "id": "col_18"
+    },
+    {
+      "type": "array_contains",
+      "field": "route",
+      "value": "Shakespeare Line",
+      "label": "Route: Shakespeare Line",
+      "category": "route",
+      "match_count": 34,
+      "id": "col_19"
+    },
+    {
+      "type": "array_contains",
+      "field": "route",
+      "value": "Snow Hill Lines",
+      "label": "Route: Snow Hill Lines",
+      "category": "route",
+      "match_count": 34,
+      "id": "col_20"
+    },
+    {
+      "type": "array_contains",
+      "field": "route",
+      "value": "Shrewsbury to Wolverhampton Line",
+      "label": "Route: Shrewsbury to Wolverhampton Line",
+      "category": "route",
+      "match_count": 28,
+      "id": "col_21"
+    },
+    {
+      "type": "array_contains",
+      "field": "route",
+      "value": "Chase Line",
+      "label": "Route: Chase Line",
+      "category": "route",
+      "match_count": 25,
+      "id": "col_22"
+    },
+    {
+      "type": "array_contains",
+      "field": "route",
+      "value": "Cross-City",
+      "label": "Route: Cross-City",
+      "category": "route",
+      "match_count": 23,
+      "id": "col_23"
+    },
+    {
+      "type": "array_contains",
+      "field": "route",
+      "value": "Chiltern Line",
+      "label": "Route: Chiltern Line",
+      "category": "route",
+      "match_count": 19,
+      "id": "col_24"
+    },
+    {
+      "type": "array_contains",
+      "field": "route",
+      "value": "Amersham Line",
+      "label": "Route: Amersham Line",
+      "category": "route",
+      "match_count": 10,
+      "id": "col_25"
+    },
+    {
+      "type": "array_contains",
+      "field": "route",
+      "value": "West Coast Main Line",
+      "label": "Route: West Coast Main Line",
+      "category": "route",
+      "match_count": 7,
+      "id": "col_26"
+    },
+    {
+      "type": "array_contains",
+      "field": "route",
+      "value": "Elephant & Bear Line",
+      "label": "Route: Elephant & Bear Line",
+      "category": "route",
+      "match_count": 5,
+      "id": "col_27"
+    },
+    {
+      "type": "array_contains",
+      "field": "route",
+      "value": "Cotswolds & Malverns Line",
+      "label": "Route: Cotswolds & Malverns Line",
+      "category": "route",
+      "match_count": 5,
+      "id": "col_28"
+    },
+    {
+      "type": "array_contains",
+      "field": "route",
+      "value": "Oxford Branch",
+      "label": "Route: Oxford Branch",
+      "category": "route",
+      "match_count": 4,
+      "id": "col_29"
+    },
+    {
+      "type": "array_contains",
+      "field": "route",
+      "value": "Stratford Branch",
+      "label": "Route: Stratford Branch",
+      "category": "route",
+      "match_count": 4,
+      "id": "col_30"
+    },
+    {
+      "type": "array_contains",
+      "field": "route",
+      "value": "Cross City Line",
+      "label": "Route: Cross City Line",
+      "category": "route",
+      "match_count": 3,
+      "id": "col_31"
+    },
+    {
+      "type": "equals",
+      "field": "wordplay_category",
+      "value": "local_suffix",
+      "label": "Wordplay: local_suffix",
+      "category": "name",
+      "match_count": 73,
+      "id": "col_32"
+    },
+    {
+      "type": "equals",
+      "field": "wordplay_category",
+      "value": "nature",
+      "label": "Wordplay: nature",
+      "category": "name",
+      "match_count": 14,
+      "id": "col_33"
+    },
+    {
+      "type": "equals",
+      "field": "wordplay_category",
+      "value": "structure",
+      "label": "Wordplay: structure",
+      "category": "name",
+      "match_count": 13,
+      "id": "col_34"
+    },
+    {
+      "type": "array_contains",
+      "field": "wordplay_tags",
+      "value": "ey",
+      "label": "Name contains 'ey'",
+      "category": "name",
+      "match_count": 23,
+      "id": "col_35"
+    },
+    {
+      "type": "array_contains",
+      "field": "wordplay_tags",
+      "value": "ton",
+      "label": "Name contains 'ton'",
+      "category": "name",
+      "match_count": 23,
+      "id": "col_36"
+    },
+    {
+      "type": "array_contains",
+      "field": "wordplay_tags",
+      "value": "ley",
+      "label": "Name contains 'ley'",
+      "category": "name",
+      "match_count": 20,
+      "id": "col_37"
+    },
+    {
+      "type": "array_contains",
+      "field": "wordplay_tags",
+      "value": "ford",
+      "label": "Name contains 'ford'",
+      "category": "name",
+      "match_count": 10,
+      "id": "col_38"
+    },
+    {
+      "type": "array_contains",
+      "field": "wordplay_tags",
+      "value": "park",
+      "label": "Name contains 'park'",
+      "category": "name",
+      "match_count": 9,
+      "id": "col_39"
+    },
+    {
+      "type": "array_contains",
+      "field": "wordplay_tags",
+      "value": "ham",
+      "label": "Name contains 'ham'",
+      "category": "name",
+      "match_count": 8,
+      "id": "col_40"
+    },
+    {
+      "type": "array_contains",
+      "field": "wordplay_tags",
+      "value": "bury",
+      "label": "Name contains 'bury'",
+      "category": "name",
+      "match_count": 8,
+      "id": "col_41"
+    },
+    {
+      "type": "array_contains",
+      "field": "wordplay_tags",
+      "value": "ridge",
+      "label": "Name contains 'ridge'",
+      "category": "name",
+      "match_count": 8,
+      "id": "col_42"
+    },
+    {
+      "type": "array_contains",
+      "field": "wordplay_tags",
+      "value": "hill",
+      "label": "Name contains 'hill'",
+      "category": "name",
+      "match_count": 7,
+      "id": "col_43"
+    },
+    {
+      "type": "array_contains",
+      "field": "wordplay_tags",
+      "value": "green",
+      "label": "Name contains 'green'",
+      "category": "name",
+      "match_count": 7,
+      "id": "col_44"
+    },
+    {
+      "type": "array_contains",
+      "field": "wordplay_tags",
+      "value": "ampersand",
+      "label": "Name contains 'ampersand'",
+      "category": "name",
+      "match_count": 6,
+      "id": "col_45"
+    },
+    {
+      "type": "array_contains",
+      "field": "wordplay_tags",
+      "value": "field",
+      "label": "Name contains 'field'",
+      "category": "name",
+      "match_count": 5,
+      "id": "col_46"
+    },
+    {
+      "type": "array_contains",
+      "field": "wordplay_tags",
+      "value": "hyphen",
+      "label": "Name contains 'hyphen'",
+      "category": "name",
+      "match_count": 5,
+      "id": "col_47"
+    },
+    {
+      "type": "array_contains",
+      "field": "wordplay_tags",
+      "value": "heath",
+      "label": "Name contains 'heath'",
+      "category": "name",
+      "match_count": 3,
+      "id": "col_48"
+    },
+    {
+      "type": "equals",
+      "field": "name_word_count",
+      "value": 1,
+      "label": "One-word name",
+      "category": "name",
+      "match_count": 80,
+      "id": "col_49"
+    },
+    {
+      "type": "range",
+      "field": "name_word_count",
+      "min": 3,
+      "label": "Three or more words in name",
+      "category": "name",
+      "match_count": 21,
+      "id": "col_50"
+    },
+    {
+      "type": "range",
+      "field": "name_letter_count",
+      "label": "Short name (≤6 letters)",
+      "min": 0,
+      "max": 6,
+      "category": "name",
+      "match_count": 16,
+      "id": "col_51"
+    },
+    {
+      "type": "range",
+      "field": "name_letter_count",
+      "label": "Medium name (7-10 letters)",
+      "min": 7,
+      "max": 10,
+      "category": "name",
+      "match_count": 73,
+      "id": "col_52"
+    },
+    {
+      "type": "range",
+      "field": "name_letter_count",
+      "label": "Long name (11+ letters)",
+      "min": 11,
+      "category": "name",
+      "match_count": 83,
+      "id": "col_53"
+    }
+  ]
+}

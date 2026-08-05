@@ -1,0 +1,505 @@
+{
+  "rowPool": [
+    {
+      "type": "equals",
+      "field": "is_interchange",
+      "value": true,
+      "label": "Interchange station",
+      "weight": "medium",
+      "match_count": 50,
+      "id": "row_0"
+    },
+    {
+      "type": "equals",
+      "field": "is_coastal",
+      "value": true,
+      "label": "Coastal station",
+      "weight": "medium",
+      "match_count": 31,
+      "id": "row_1"
+    },
+    {
+      "type": "range",
+      "field": "terminus_max",
+      "min": 1,
+      "label": "Terminus station",
+      "weight": "medium",
+      "match_count": 37,
+      "id": "row_2"
+    },
+    {
+      "type": "equals",
+      "field": "region",
+      "value": "Weald",
+      "label": "Region: Weald",
+      "weight": "medium",
+      "match_count": 37,
+      "id": "row_3"
+    },
+    {
+      "type": "equals",
+      "field": "region",
+      "value": "Medway",
+      "label": "Region: Medway",
+      "weight": "high",
+      "match_count": 23,
+      "id": "row_4"
+    },
+    {
+      "type": "equals",
+      "field": "region",
+      "value": "East Kent",
+      "label": "Region: East Kent",
+      "weight": "high",
+      "match_count": 17,
+      "id": "row_5"
+    },
+    {
+      "type": "equals",
+      "field": "region",
+      "value": "Canterbury District",
+      "label": "Region: Canterbury District",
+      "weight": "high",
+      "match_count": 15,
+      "id": "row_6"
+    },
+    {
+      "type": "equals",
+      "field": "region",
+      "value": "North Kent",
+      "label": "Region: North Kent",
+      "weight": "high",
+      "match_count": 10,
+      "id": "row_7"
+    },
+    {
+      "type": "equals",
+      "field": "region",
+      "value": "Thanet",
+      "label": "Region: Thanet",
+      "weight": "high",
+      "match_count": 8,
+      "id": "row_8"
+    },
+    {
+      "type": "range",
+      "field": "canonical_time_to_hub",
+      "max": 52.0,
+      "label": "Time to hub: shortest third",
+      "weight": "medium",
+      "match_count": 39,
+      "id": "row_9"
+    },
+    {
+      "type": "range",
+      "field": "canonical_time_to_hub",
+      "min": 52.0,
+      "max": 74.0,
+      "label": "Time to hub: middle third",
+      "weight": "medium",
+      "match_count": 40,
+      "id": "row_10"
+    },
+    {
+      "type": "range",
+      "field": "canonical_time_to_hub",
+      "min": 74.0,
+      "label": "Time to hub: longest third",
+      "weight": "medium",
+      "match_count": 39,
+      "id": "row_11"
+    }
+  ],
+  "columnPool": [
+    {
+      "type": "equals",
+      "field": "region",
+      "value": "Weald",
+      "label": "Region: Weald",
+      "category": "geography",
+      "match_count": 37,
+      "id": "col_0"
+    },
+    {
+      "type": "equals",
+      "field": "region",
+      "value": "Medway",
+      "label": "Region: Medway",
+      "category": "geography",
+      "match_count": 23,
+      "id": "col_1"
+    },
+    {
+      "type": "equals",
+      "field": "region",
+      "value": "East Kent",
+      "label": "Region: East Kent",
+      "category": "geography",
+      "match_count": 17,
+      "id": "col_2"
+    },
+    {
+      "type": "equals",
+      "field": "region",
+      "value": "Canterbury District",
+      "label": "Region: Canterbury District",
+      "category": "geography",
+      "match_count": 15,
+      "id": "col_3"
+    },
+    {
+      "type": "equals",
+      "field": "region",
+      "value": "North Kent",
+      "label": "Region: North Kent",
+      "category": "geography",
+      "match_count": 10,
+      "id": "col_4"
+    },
+    {
+      "type": "equals",
+      "field": "region",
+      "value": "Thanet",
+      "label": "Region: Thanet",
+      "category": "geography",
+      "match_count": 8,
+      "id": "col_5"
+    },
+    {
+      "type": "equals",
+      "field": "is_coastal",
+      "value": true,
+      "label": "Coastal station",
+      "category": "geography",
+      "match_count": 31,
+      "id": "col_6"
+    },
+    {
+      "type": "equals",
+      "field": "is_interchange",
+      "value": true,
+      "label": "Interchange station",
+      "category": "service",
+      "match_count": 50,
+      "id": "col_7"
+    },
+    {
+      "type": "range",
+      "field": "terminus_max",
+      "min": 1,
+      "label": "Terminus station",
+      "category": "service",
+      "match_count": 37,
+      "id": "col_8"
+    },
+    {
+      "type": "range",
+      "field": "canonical_time_to_hub",
+      "max": 52.0,
+      "label": "Time to hub: shortest third",
+      "category": "service",
+      "match_count": 39,
+      "id": "col_9"
+    },
+    {
+      "type": "range",
+      "field": "canonical_time_to_hub",
+      "min": 52.0,
+      "max": 74.0,
+      "label": "Time to hub: middle third",
+      "category": "service",
+      "match_count": 40,
+      "id": "col_10"
+    },
+    {
+      "type": "range",
+      "field": "canonical_time_to_hub",
+      "min": 74.0,
+      "label": "Time to hub: longest third",
+      "category": "service",
+      "match_count": 39,
+      "id": "col_11"
+    },
+    {
+      "type": "array_contains",
+      "field": "route",
+      "value": "High Speed 1",
+      "label": "Route: High Speed 1",
+      "category": "route",
+      "match_count": 30,
+      "id": "col_12"
+    },
+    {
+      "type": "array_contains",
+      "field": "route",
+      "value": "North Kent",
+      "label": "Route: North Kent",
+      "category": "route",
+      "match_count": 14,
+      "id": "col_13"
+    },
+    {
+      "type": "array_contains",
+      "field": "route",
+      "value": "Medway Valley",
+      "label": "Route: Medway Valley",
+      "category": "route",
+      "match_count": 14,
+      "id": "col_14"
+    },
+    {
+      "type": "array_contains",
+      "field": "route",
+      "value": "Hastings Line Extended",
+      "label": "Route: Hastings Line Extended",
+      "category": "route",
+      "match_count": 14,
+      "id": "col_15"
+    },
+    {
+      "type": "array_contains",
+      "field": "route",
+      "value": "East Kent Coast",
+      "label": "Route: East Kent Coast",
+      "category": "route",
+      "match_count": 14,
+      "id": "col_16"
+    },
+    {
+      "type": "array_contains",
+      "field": "route",
+      "value": "Chatham Main Line",
+      "label": "Route: Chatham Main Line",
+      "category": "route",
+      "match_count": 13,
+      "id": "col_17"
+    },
+    {
+      "type": "array_contains",
+      "field": "route",
+      "value": "Maidstone East",
+      "label": "Route: Maidstone East",
+      "category": "route",
+      "match_count": 12,
+      "id": "col_18"
+    },
+    {
+      "type": "array_contains",
+      "field": "route",
+      "value": "Southeastern Main Line",
+      "label": "Route: Southeastern Main Line",
+      "category": "route",
+      "match_count": 10,
+      "id": "col_19"
+    },
+    {
+      "type": "array_contains",
+      "field": "route",
+      "value": "East Kent Local",
+      "label": "Route: East Kent Local",
+      "category": "route",
+      "match_count": 8,
+      "id": "col_20"
+    },
+    {
+      "type": "array_contains",
+      "field": "route",
+      "value": "Sevenoaks Metro",
+      "label": "Route: Sevenoaks Metro",
+      "category": "route",
+      "match_count": 7,
+      "id": "col_21"
+    },
+    {
+      "type": "array_contains",
+      "field": "route",
+      "value": "Canterbury East Line",
+      "label": "Route: Canterbury East Line",
+      "category": "route",
+      "match_count": 7,
+      "id": "col_22"
+    },
+    {
+      "type": "array_contains",
+      "field": "route",
+      "value": "Sevenoaks Main Line",
+      "label": "Route: Sevenoaks Main Line",
+      "category": "route",
+      "match_count": 6,
+      "id": "col_23"
+    },
+    {
+      "type": "array_contains",
+      "field": "route",
+      "value": "Hastings Line",
+      "label": "Route: Hastings Line",
+      "category": "route",
+      "match_count": 6,
+      "id": "col_24"
+    },
+    {
+      "type": "array_contains",
+      "field": "route",
+      "value": "Maidstone East Extended",
+      "label": "Route: Maidstone East Extended",
+      "category": "route",
+      "match_count": 6,
+      "id": "col_25"
+    },
+    {
+      "type": "array_contains",
+      "field": "route",
+      "value": "Ashford Canterbury",
+      "label": "Route: Ashford Canterbury",
+      "category": "route",
+      "match_count": 6,
+      "id": "col_26"
+    },
+    {
+      "type": "equals",
+      "field": "wordplay_category",
+      "value": "suffix",
+      "label": "Wordplay: suffix",
+      "category": "name",
+      "match_count": 34,
+      "id": "col_27"
+    },
+    {
+      "type": "equals",
+      "field": "wordplay_category",
+      "value": "structure",
+      "label": "Wordplay: structure",
+      "category": "name",
+      "match_count": 8,
+      "id": "col_28"
+    },
+    {
+      "type": "equals",
+      "field": "wordplay_category",
+      "value": "place",
+      "label": "Wordplay: place",
+      "category": "name",
+      "match_count": 4,
+      "id": "col_29"
+    },
+    {
+      "type": "array_contains",
+      "field": "wordplay_tags",
+      "value": "ham",
+      "label": "Name contains 'ham'",
+      "category": "name",
+      "match_count": 19,
+      "id": "col_30"
+    },
+    {
+      "type": "array_contains",
+      "field": "wordplay_tags",
+      "value": "ton",
+      "label": "Name contains 'ton'",
+      "category": "name",
+      "match_count": 13,
+      "id": "col_31"
+    },
+    {
+      "type": "array_contains",
+      "field": "wordplay_tags",
+      "value": "ford",
+      "label": "Name contains 'ford'",
+      "category": "name",
+      "match_count": 4,
+      "id": "col_32"
+    },
+    {
+      "type": "array_contains",
+      "field": "wordplay_tags",
+      "value": "green",
+      "label": "Name contains 'green'",
+      "category": "name",
+      "match_count": 3,
+      "id": "col_33"
+    },
+    {
+      "type": "array_contains",
+      "field": "wordplay_tags",
+      "value": "ampersand",
+      "label": "Name contains 'ampersand'",
+      "category": "name",
+      "match_count": 3,
+      "id": "col_34"
+    },
+    {
+      "type": "array_contains",
+      "field": "wordplay_tags",
+      "value": "hurst",
+      "label": "Name contains 'hurst'",
+      "category": "name",
+      "match_count": 3,
+      "id": "col_35"
+    },
+    {
+      "type": "array_contains",
+      "field": "wordplay_tags",
+      "value": "brackets",
+      "label": "Name contains 'brackets'",
+      "category": "name",
+      "match_count": 3,
+      "id": "col_36"
+    },
+    {
+      "type": "array_contains",
+      "field": "wordplay_tags",
+      "value": "hyphen",
+      "label": "Name contains 'hyphen'",
+      "category": "name",
+      "match_count": 3,
+      "id": "col_37"
+    },
+    {
+      "type": "equals",
+      "field": "name_word_count",
+      "value": 1,
+      "label": "One-word name",
+      "category": "name",
+      "match_count": 75,
+      "id": "col_38"
+    },
+    {
+      "type": "range",
+      "field": "name_word_count",
+      "min": 3,
+      "label": "Three or more words in name",
+      "category": "name",
+      "match_count": 7,
+      "id": "col_39"
+    },
+    {
+      "type": "range",
+      "field": "name_letter_count",
+      "label": "Short name (≤6 letters)",
+      "min": 0,
+      "max": 6,
+      "category": "name",
+      "match_count": 15,
+      "id": "col_40"
+    },
+    {
+      "type": "range",
+      "field": "name_letter_count",
+      "label": "Medium name (7-10 letters)",
+      "min": 7,
+      "max": 10,
+      "category": "name",
+      "match_count": 52,
+      "id": "col_41"
+    },
+    {
+      "type": "range",
+      "field": "name_letter_count",
+      "label": "Long name (11+ letters)",
+      "min": 11,
+      "category": "name",
+      "match_count": 44,
+      "id": "col_42"
+    }
+  ]
+}

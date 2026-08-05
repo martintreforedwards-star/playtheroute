@@ -1,0 +1,622 @@
+{
+  "rowPool": [
+    {
+      "type": "equals",
+      "field": "is_interchange",
+      "value": true,
+      "label": "Interchange station",
+      "weight": "medium",
+      "match_count": 76,
+      "id": "row_0"
+    },
+    {
+      "type": "equals",
+      "field": "is_coastal",
+      "value": true,
+      "label": "Coastal station",
+      "weight": "medium",
+      "match_count": 42,
+      "id": "row_1"
+    },
+    {
+      "type": "range",
+      "field": "terminus_max",
+      "min": 1,
+      "label": "Terminus station",
+      "weight": "medium",
+      "match_count": 62,
+      "id": "row_2"
+    },
+    {
+      "type": "equals",
+      "field": "region",
+      "value": "South West London",
+      "label": "Region: South West London",
+      "weight": "high",
+      "match_count": 27,
+      "id": "row_3"
+    },
+    {
+      "type": "equals",
+      "field": "region",
+      "value": "Elmbridge",
+      "label": "Region: Elmbridge",
+      "weight": "high",
+      "match_count": 10,
+      "id": "row_4"
+    },
+    {
+      "type": "equals",
+      "field": "region",
+      "value": "New Forest",
+      "label": "Region: New Forest",
+      "weight": "high",
+      "match_count": 9,
+      "id": "row_5"
+    },
+    {
+      "type": "equals",
+      "field": "region",
+      "value": "West London",
+      "label": "Region: West London",
+      "weight": "high",
+      "match_count": 9,
+      "id": "row_6"
+    },
+    {
+      "type": "equals",
+      "field": "region",
+      "value": "Southampton",
+      "label": "Region: Southampton",
+      "weight": "high",
+      "match_count": 9,
+      "id": "row_7"
+    },
+    {
+      "type": "equals",
+      "field": "region",
+      "value": "Dorset",
+      "label": "Region: Dorset",
+      "weight": "high",
+      "match_count": 9,
+      "id": "row_8"
+    },
+    {
+      "type": "equals",
+      "field": "region",
+      "value": "Guildford",
+      "label": "Region: Guildford",
+      "weight": "high",
+      "match_count": 8,
+      "id": "row_9"
+    },
+    {
+      "type": "equals",
+      "field": "region",
+      "value": "Isle of Wight",
+      "label": "Region: Isle of Wight",
+      "weight": "high",
+      "match_count": 8,
+      "id": "row_10"
+    },
+    {
+      "type": "equals",
+      "field": "region",
+      "value": "Bournemouth, Christchurch and Poole",
+      "label": "Region: Bournemouth, Christchurch and Poole",
+      "weight": "high",
+      "match_count": 7,
+      "id": "row_11"
+    },
+    {
+      "type": "equals",
+      "field": "region",
+      "value": "Eastleigh",
+      "label": "Region: Eastleigh",
+      "weight": "high",
+      "match_count": 7,
+      "id": "row_12"
+    },
+    {
+      "type": "range",
+      "field": "canonical_time_to_hub",
+      "max": 78.0,
+      "label": "Time to hub: shortest third",
+      "weight": "medium",
+      "match_count": 63,
+      "id": "row_13"
+    },
+    {
+      "type": "range",
+      "field": "canonical_time_to_hub",
+      "min": 78.0,
+      "max": 125.0,
+      "label": "Time to hub: middle third",
+      "weight": "medium",
+      "match_count": 65,
+      "id": "row_14"
+    },
+    {
+      "type": "range",
+      "field": "canonical_time_to_hub",
+      "min": 125.0,
+      "label": "Time to hub: longest third",
+      "weight": "medium",
+      "match_count": 62,
+      "id": "row_15"
+    }
+  ],
+  "columnPool": [
+    {
+      "type": "equals",
+      "field": "region",
+      "value": "South West London",
+      "label": "Region: South West London",
+      "category": "geography",
+      "match_count": 27,
+      "id": "col_0"
+    },
+    {
+      "type": "equals",
+      "field": "region",
+      "value": "Elmbridge",
+      "label": "Region: Elmbridge",
+      "category": "geography",
+      "match_count": 10,
+      "id": "col_1"
+    },
+    {
+      "type": "equals",
+      "field": "region",
+      "value": "New Forest",
+      "label": "Region: New Forest",
+      "category": "geography",
+      "match_count": 9,
+      "id": "col_2"
+    },
+    {
+      "type": "equals",
+      "field": "region",
+      "value": "West London",
+      "label": "Region: West London",
+      "category": "geography",
+      "match_count": 9,
+      "id": "col_3"
+    },
+    {
+      "type": "equals",
+      "field": "region",
+      "value": "Southampton",
+      "label": "Region: Southampton",
+      "category": "geography",
+      "match_count": 9,
+      "id": "col_4"
+    },
+    {
+      "type": "equals",
+      "field": "region",
+      "value": "Dorset",
+      "label": "Region: Dorset",
+      "category": "geography",
+      "match_count": 9,
+      "id": "col_5"
+    },
+    {
+      "type": "equals",
+      "field": "region",
+      "value": "Guildford",
+      "label": "Region: Guildford",
+      "category": "geography",
+      "match_count": 8,
+      "id": "col_6"
+    },
+    {
+      "type": "equals",
+      "field": "region",
+      "value": "Isle of Wight",
+      "label": "Region: Isle of Wight",
+      "category": "geography",
+      "match_count": 8,
+      "id": "col_7"
+    },
+    {
+      "type": "equals",
+      "field": "region",
+      "value": "Bournemouth, Christchurch and Poole",
+      "label": "Region: Bournemouth, Christchurch and Poole",
+      "category": "geography",
+      "match_count": 7,
+      "id": "col_8"
+    },
+    {
+      "type": "equals",
+      "field": "region",
+      "value": "Eastleigh",
+      "label": "Region: Eastleigh",
+      "category": "geography",
+      "match_count": 7,
+      "id": "col_9"
+    },
+    {
+      "type": "equals",
+      "field": "is_coastal",
+      "value": true,
+      "label": "Coastal station",
+      "category": "geography",
+      "match_count": 42,
+      "id": "col_10"
+    },
+    {
+      "type": "equals",
+      "field": "is_interchange",
+      "value": true,
+      "label": "Interchange station",
+      "category": "service",
+      "match_count": 76,
+      "id": "col_11"
+    },
+    {
+      "type": "range",
+      "field": "terminus_max",
+      "min": 1,
+      "label": "Terminus station",
+      "category": "service",
+      "match_count": 62,
+      "id": "col_12"
+    },
+    {
+      "type": "range",
+      "field": "canonical_time_to_hub",
+      "max": 78.0,
+      "label": "Time to hub: shortest third",
+      "category": "service",
+      "match_count": 63,
+      "id": "col_13"
+    },
+    {
+      "type": "range",
+      "field": "canonical_time_to_hub",
+      "min": 78.0,
+      "max": 125.0,
+      "label": "Time to hub: middle third",
+      "category": "service",
+      "match_count": 65,
+      "id": "col_14"
+    },
+    {
+      "type": "range",
+      "field": "canonical_time_to_hub",
+      "min": 125.0,
+      "label": "Time to hub: longest third",
+      "category": "service",
+      "match_count": 62,
+      "id": "col_15"
+    },
+    {
+      "type": "equals",
+      "field": "operator",
+      "value": "Island Line",
+      "label": "Operator: Island Line",
+      "category": "route",
+      "match_count": 8,
+      "id": "col_16"
+    },
+    {
+      "type": "array_contains",
+      "field": "route",
+      "value": "South West Main Line",
+      "label": "Route: South West Main Line",
+      "category": "route",
+      "match_count": 65,
+      "id": "col_17"
+    },
+    {
+      "type": "array_contains",
+      "field": "route",
+      "value": "Hounslow Loop",
+      "label": "Route: Hounslow Loop",
+      "category": "route",
+      "match_count": 42,
+      "id": "col_18"
+    },
+    {
+      "type": "array_contains",
+      "field": "route",
+      "value": "Kingston Loop",
+      "label": "Route: Kingston Loop",
+      "category": "route",
+      "match_count": 25,
+      "id": "col_19"
+    },
+    {
+      "type": "array_contains",
+      "field": "route",
+      "value": "Waterloo to Reading Line",
+      "label": "Route: Waterloo to Reading Line",
+      "category": "route",
+      "match_count": 22,
+      "id": "col_20"
+    },
+    {
+      "type": "array_contains",
+      "field": "route",
+      "value": "Windsor Line",
+      "label": "Route: Windsor Line",
+      "category": "route",
+      "match_count": 17,
+      "id": "col_21"
+    },
+    {
+      "type": "array_contains",
+      "field": "route",
+      "value": "New Guildford Line",
+      "label": "Route: New Guildford Line",
+      "category": "route",
+      "match_count": 17,
+      "id": "col_22"
+    },
+    {
+      "type": "array_contains",
+      "field": "route",
+      "value": "Solent Link",
+      "label": "Route: Solent Link",
+      "category": "route",
+      "match_count": 17,
+      "id": "col_23"
+    },
+    {
+      "type": "array_contains",
+      "field": "route",
+      "value": "Alton Line",
+      "label": "Route: Alton Line",
+      "category": "route",
+      "match_count": 14,
+      "id": "col_24"
+    },
+    {
+      "type": "array_contains",
+      "field": "route",
+      "value": "Shepperton Branch",
+      "label": "Route: Shepperton Branch",
+      "category": "route",
+      "match_count": 14,
+      "id": "col_25"
+    },
+    {
+      "type": "array_contains",
+      "field": "route",
+      "value": "Solent & Wessex",
+      "label": "Route: Solent & Wessex",
+      "category": "route",
+      "match_count": 12,
+      "id": "col_26"
+    },
+    {
+      "type": "array_contains",
+      "field": "route",
+      "value": "East Devon Line",
+      "label": "Route: East Devon Line",
+      "category": "route",
+      "match_count": 11,
+      "id": "col_27"
+    },
+    {
+      "type": "array_contains",
+      "field": "route",
+      "value": "Island Line",
+      "label": "Route: Island Line",
+      "category": "route",
+      "match_count": 8,
+      "id": "col_28"
+    },
+    {
+      "type": "array_contains",
+      "field": "route",
+      "value": "Chessington Branch",
+      "label": "Route: Chessington Branch",
+      "category": "route",
+      "match_count": 7,
+      "id": "col_29"
+    },
+    {
+      "type": "array_contains",
+      "field": "route",
+      "value": "Hampton Court Branch",
+      "label": "Route: Hampton Court Branch",
+      "category": "route",
+      "match_count": 6,
+      "id": "col_30"
+    },
+    {
+      "type": "array_contains",
+      "field": "route",
+      "value": "Lymington Branch Line",
+      "label": "Route: Lymington Branch Line",
+      "category": "route",
+      "match_count": 3,
+      "id": "col_31"
+    },
+    {
+      "type": "equals",
+      "field": "wordplay_category",
+      "value": "local_suffix",
+      "label": "Wordplay: local_suffix",
+      "category": "name",
+      "match_count": 64,
+      "id": "col_32"
+    },
+    {
+      "type": "equals",
+      "field": "wordplay_category",
+      "value": "structure",
+      "label": "Wordplay: structure",
+      "category": "name",
+      "match_count": 26,
+      "id": "col_33"
+    },
+    {
+      "type": "equals",
+      "field": "wordplay_category",
+      "value": "nature",
+      "label": "Wordplay: nature",
+      "category": "name",
+      "match_count": 4,
+      "id": "col_34"
+    },
+    {
+      "type": "array_contains",
+      "field": "wordplay_tags",
+      "value": "ton",
+      "label": "Name contains 'ton'",
+      "category": "name",
+      "match_count": 32,
+      "id": "col_35"
+    },
+    {
+      "type": "array_contains",
+      "field": "wordplay_tags",
+      "value": "brackets",
+      "label": "Name contains 'brackets'",
+      "category": "name",
+      "match_count": 18,
+      "id": "col_36"
+    },
+    {
+      "type": "array_contains",
+      "field": "wordplay_tags",
+      "value": "ey",
+      "label": "Name contains 'ey'",
+      "category": "name",
+      "match_count": 16,
+      "id": "col_37"
+    },
+    {
+      "type": "array_contains",
+      "field": "wordplay_tags",
+      "value": "ham",
+      "label": "Name contains 'ham'",
+      "category": "name",
+      "match_count": 13,
+      "id": "col_38"
+    },
+    {
+      "type": "array_contains",
+      "field": "wordplay_tags",
+      "value": "ley",
+      "label": "Name contains 'ley'",
+      "category": "name",
+      "match_count": 10,
+      "id": "col_39"
+    },
+    {
+      "type": "array_contains",
+      "field": "wordplay_tags",
+      "value": "don",
+      "label": "Name contains 'don'",
+      "category": "name",
+      "match_count": 9,
+      "id": "col_40"
+    },
+    {
+      "type": "array_contains",
+      "field": "wordplay_tags",
+      "value": "ford",
+      "label": "Name contains 'ford'",
+      "category": "name",
+      "match_count": 8,
+      "id": "col_41"
+    },
+    {
+      "type": "array_contains",
+      "field": "wordplay_tags",
+      "value": "park",
+      "label": "Name contains 'park'",
+      "category": "name",
+      "match_count": 6,
+      "id": "col_42"
+    },
+    {
+      "type": "array_contains",
+      "field": "wordplay_tags",
+      "value": "ampersand",
+      "label": "Name contains 'ampersand'",
+      "category": "name",
+      "match_count": 5,
+      "id": "col_43"
+    },
+    {
+      "type": "array_contains",
+      "field": "wordplay_tags",
+      "value": "ridge",
+      "label": "Name contains 'ridge'",
+      "category": "name",
+      "match_count": 5,
+      "id": "col_44"
+    },
+    {
+      "type": "array_contains",
+      "field": "wordplay_tags",
+      "value": "ington",
+      "label": "Name contains 'ington'",
+      "category": "name",
+      "match_count": 5,
+      "id": "col_45"
+    },
+    {
+      "type": "array_contains",
+      "field": "wordplay_tags",
+      "value": "saint",
+      "label": "Name contains 'saint'",
+      "category": "name",
+      "match_count": 3,
+      "id": "col_46"
+    },
+    {
+      "type": "equals",
+      "field": "name_word_count",
+      "value": 1,
+      "label": "One-word name",
+      "category": "name",
+      "match_count": 132,
+      "id": "col_47"
+    },
+    {
+      "type": "range",
+      "field": "name_word_count",
+      "min": 3,
+      "label": "Three or more words in name",
+      "category": "name",
+      "match_count": 9,
+      "id": "col_48"
+    },
+    {
+      "type": "range",
+      "field": "name_letter_count",
+      "label": "Short name (≤6 letters)",
+      "min": 0,
+      "max": 6,
+      "category": "name",
+      "match_count": 26,
+      "id": "col_49"
+    },
+    {
+      "type": "range",
+      "field": "name_letter_count",
+      "label": "Medium name (7-10 letters)",
+      "min": 7,
+      "max": 10,
+      "category": "name",
+      "match_count": 94,
+      "id": "col_50"
+    },
+    {
+      "type": "range",
+      "field": "name_letter_count",
+      "label": "Long name (11+ letters)",
+      "min": 11,
+      "category": "name",
+      "match_count": 70,
+      "id": "col_51"
+    }
+  ]
+}

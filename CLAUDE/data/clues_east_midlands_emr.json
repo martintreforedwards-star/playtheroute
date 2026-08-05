@@ -1,0 +1,586 @@
+{
+  "rowPool": [
+    {
+      "type": "equals",
+      "field": "is_interchange",
+      "value": true,
+      "label": "Interchange station",
+      "weight": "medium",
+      "match_count": 26,
+      "id": "row_0"
+    },
+    {
+      "type": "equals",
+      "field": "is_coastal",
+      "value": true,
+      "label": "Coastal station",
+      "weight": "high",
+      "match_count": 7,
+      "id": "row_1"
+    },
+    {
+      "type": "range",
+      "field": "terminus_max",
+      "min": 1,
+      "label": "Terminus station",
+      "weight": "high",
+      "match_count": 21,
+      "id": "row_2"
+    },
+    {
+      "type": "equals",
+      "field": "canonical_hub",
+      "value": "Derby",
+      "label": "Hub: Derby",
+      "weight": "medium",
+      "match_count": 23,
+      "id": "row_3"
+    },
+    {
+      "type": "equals",
+      "field": "canonical_hub",
+      "value": "Nottingham",
+      "label": "Hub: Nottingham",
+      "weight": "medium",
+      "match_count": 30,
+      "id": "row_4"
+    },
+    {
+      "type": "equals",
+      "field": "canonical_hub",
+      "value": "Lincoln",
+      "label": "Hub: Lincoln",
+      "weight": "medium",
+      "match_count": 35,
+      "id": "row_5"
+    },
+    {
+      "type": "equals",
+      "field": "canonical_hub",
+      "value": "Leicester",
+      "label": "Hub: Leicester",
+      "weight": "high",
+      "match_count": 15,
+      "id": "row_6"
+    },
+    {
+      "type": "equals",
+      "field": "region",
+      "value": "Newark and Sherwood",
+      "label": "Region: Newark and Sherwood",
+      "weight": "high",
+      "match_count": 7,
+      "id": "row_7"
+    },
+    {
+      "type": "equals",
+      "field": "region",
+      "value": "North East Lincolnshire",
+      "label": "Region: North East Lincolnshire",
+      "weight": "high",
+      "match_count": 7,
+      "id": "row_8"
+    },
+    {
+      "type": "equals",
+      "field": "region",
+      "value": "North Kesteven",
+      "label": "Region: North Kesteven",
+      "weight": "high",
+      "match_count": 7,
+      "id": "row_9"
+    },
+    {
+      "type": "equals",
+      "field": "region",
+      "value": "Amber Valley",
+      "label": "Region: Amber Valley",
+      "weight": "high",
+      "match_count": 6,
+      "id": "row_10"
+    },
+    {
+      "type": "equals",
+      "field": "region",
+      "value": "North Lincolnshire",
+      "label": "Region: North Lincolnshire",
+      "weight": "high",
+      "match_count": 6,
+      "id": "row_11"
+    },
+    {
+      "type": "equals",
+      "field": "region",
+      "value": "Rushcliffe",
+      "label": "Region: Rushcliffe",
+      "weight": "high",
+      "match_count": 5,
+      "id": "row_12"
+    },
+    {
+      "type": "equals",
+      "field": "region",
+      "value": "Gedling",
+      "label": "Region: Gedling",
+      "weight": "high",
+      "match_count": 4,
+      "id": "row_13"
+    },
+    {
+      "type": "equals",
+      "field": "region",
+      "value": "Charnwood",
+      "label": "Region: Charnwood",
+      "weight": "high",
+      "match_count": 4,
+      "id": "row_14"
+    },
+    {
+      "type": "equals",
+      "field": "region",
+      "value": "Bolsover",
+      "label": "Region: Bolsover",
+      "weight": "high",
+      "match_count": 4,
+      "id": "row_15"
+    },
+    {
+      "type": "equals",
+      "field": "region",
+      "value": "East Lindsey",
+      "label": "Region: East Lindsey",
+      "weight": "high",
+      "match_count": 4,
+      "id": "row_16"
+    },
+    {
+      "type": "range",
+      "field": "canonical_time_to_hub",
+      "max": 14.0,
+      "label": "Time to hub: shortest third",
+      "weight": "medium",
+      "match_count": 35,
+      "id": "row_17"
+    },
+    {
+      "type": "range",
+      "field": "canonical_time_to_hub",
+      "min": 14.0,
+      "max": 32.0,
+      "label": "Time to hub: middle third",
+      "weight": "medium",
+      "match_count": 38,
+      "id": "row_18"
+    },
+    {
+      "type": "range",
+      "field": "canonical_time_to_hub",
+      "min": 32.0,
+      "label": "Time to hub: longest third",
+      "weight": "medium",
+      "match_count": 35,
+      "id": "row_19"
+    }
+  ],
+  "columnPool": [
+    {
+      "type": "equals",
+      "field": "region",
+      "value": "Newark and Sherwood",
+      "label": "Region: Newark and Sherwood",
+      "category": "geography",
+      "match_count": 7,
+      "id": "col_0"
+    },
+    {
+      "type": "equals",
+      "field": "region",
+      "value": "North East Lincolnshire",
+      "label": "Region: North East Lincolnshire",
+      "category": "geography",
+      "match_count": 7,
+      "id": "col_1"
+    },
+    {
+      "type": "equals",
+      "field": "region",
+      "value": "North Kesteven",
+      "label": "Region: North Kesteven",
+      "category": "geography",
+      "match_count": 7,
+      "id": "col_2"
+    },
+    {
+      "type": "equals",
+      "field": "region",
+      "value": "Amber Valley",
+      "label": "Region: Amber Valley",
+      "category": "geography",
+      "match_count": 6,
+      "id": "col_3"
+    },
+    {
+      "type": "equals",
+      "field": "region",
+      "value": "North Lincolnshire",
+      "label": "Region: North Lincolnshire",
+      "category": "geography",
+      "match_count": 6,
+      "id": "col_4"
+    },
+    {
+      "type": "equals",
+      "field": "region",
+      "value": "Rushcliffe",
+      "label": "Region: Rushcliffe",
+      "category": "geography",
+      "match_count": 5,
+      "id": "col_5"
+    },
+    {
+      "type": "equals",
+      "field": "region",
+      "value": "Gedling",
+      "label": "Region: Gedling",
+      "category": "geography",
+      "match_count": 4,
+      "id": "col_6"
+    },
+    {
+      "type": "equals",
+      "field": "region",
+      "value": "Charnwood",
+      "label": "Region: Charnwood",
+      "category": "geography",
+      "match_count": 4,
+      "id": "col_7"
+    },
+    {
+      "type": "equals",
+      "field": "region",
+      "value": "Bolsover",
+      "label": "Region: Bolsover",
+      "category": "geography",
+      "match_count": 4,
+      "id": "col_8"
+    },
+    {
+      "type": "equals",
+      "field": "region",
+      "value": "East Lindsey",
+      "label": "Region: East Lindsey",
+      "category": "geography",
+      "match_count": 4,
+      "id": "col_9"
+    },
+    {
+      "type": "equals",
+      "field": "is_coastal",
+      "value": true,
+      "label": "Coastal station",
+      "category": "geography",
+      "match_count": 7,
+      "id": "col_10"
+    },
+    {
+      "type": "equals",
+      "field": "canonical_hub",
+      "value": "Derby",
+      "label": "Hub: Derby",
+      "category": "geography",
+      "match_count": 23,
+      "id": "col_11"
+    },
+    {
+      "type": "equals",
+      "field": "canonical_hub",
+      "value": "Nottingham",
+      "label": "Hub: Nottingham",
+      "category": "geography",
+      "match_count": 30,
+      "id": "col_12"
+    },
+    {
+      "type": "equals",
+      "field": "canonical_hub",
+      "value": "Lincoln",
+      "label": "Hub: Lincoln",
+      "category": "geography",
+      "match_count": 35,
+      "id": "col_13"
+    },
+    {
+      "type": "equals",
+      "field": "canonical_hub",
+      "value": "Leicester",
+      "label": "Hub: Leicester",
+      "category": "geography",
+      "match_count": 15,
+      "id": "col_14"
+    },
+    {
+      "type": "equals",
+      "field": "is_interchange",
+      "value": true,
+      "label": "Interchange station",
+      "category": "service",
+      "match_count": 26,
+      "id": "col_15"
+    },
+    {
+      "type": "range",
+      "field": "terminus_max",
+      "min": 1,
+      "label": "Terminus station",
+      "category": "service",
+      "match_count": 21,
+      "id": "col_16"
+    },
+    {
+      "type": "range",
+      "field": "canonical_time_to_hub",
+      "max": 14.0,
+      "label": "Time to hub: shortest third",
+      "category": "service",
+      "match_count": 35,
+      "id": "col_17"
+    },
+    {
+      "type": "range",
+      "field": "canonical_time_to_hub",
+      "min": 14.0,
+      "max": 32.0,
+      "label": "Time to hub: middle third",
+      "category": "service",
+      "match_count": 38,
+      "id": "col_18"
+    },
+    {
+      "type": "range",
+      "field": "canonical_time_to_hub",
+      "min": 32.0,
+      "label": "Time to hub: longest third",
+      "category": "service",
+      "match_count": 35,
+      "id": "col_19"
+    },
+    {
+      "type": "array_contains",
+      "field": "route",
+      "value": "Castle Line",
+      "label": "Route: Castle Line",
+      "category": "route",
+      "match_count": 43,
+      "id": "col_20"
+    },
+    {
+      "type": "array_contains",
+      "field": "route",
+      "value": "Poacher Line",
+      "label": "Route: Poacher Line",
+      "category": "route",
+      "match_count": 18,
+      "id": "col_21"
+    },
+    {
+      "type": "array_contains",
+      "field": "route",
+      "value": "Humber Linc Line",
+      "label": "Route: Humber Linc Line",
+      "category": "route",
+      "match_count": 12,
+      "id": "col_22"
+    },
+    {
+      "type": "array_contains",
+      "field": "route",
+      "value": "Robin Hood Line",
+      "label": "Route: Robin Hood Line",
+      "category": "route",
+      "match_count": 12,
+      "id": "col_23"
+    },
+    {
+      "type": "array_contains",
+      "field": "route",
+      "value": "Derwent Valley Line",
+      "label": "Route: Derwent Valley Line",
+      "category": "route",
+      "match_count": 8,
+      "id": "col_24"
+    },
+    {
+      "type": "array_contains",
+      "field": "route",
+      "value": "Erewash Valley",
+      "label": "Route: Erewash Valley",
+      "category": "route",
+      "match_count": 6,
+      "id": "col_25"
+    },
+    {
+      "type": "array_contains",
+      "field": "route",
+      "value": "Ivanhoe Line",
+      "label": "Route: Ivanhoe Line",
+      "category": "route",
+      "match_count": 5,
+      "id": "col_26"
+    },
+    {
+      "type": "equals",
+      "field": "wordplay_category",
+      "value": "local_suffix",
+      "label": "Wordplay: local_suffix",
+      "category": "name",
+      "match_count": 50,
+      "id": "col_27"
+    },
+    {
+      "type": "equals",
+      "field": "wordplay_category",
+      "value": "structure",
+      "label": "Wordplay: structure",
+      "category": "name",
+      "match_count": 11,
+      "id": "col_28"
+    },
+    {
+      "type": "array_contains",
+      "field": "wordplay_tags",
+      "value": "ton",
+      "label": "Name contains 'ton'",
+      "category": "name",
+      "match_count": 24,
+      "id": "col_29"
+    },
+    {
+      "type": "array_contains",
+      "field": "wordplay_tags",
+      "value": "by",
+      "label": "Name contains 'by'",
+      "category": "name",
+      "match_count": 11,
+      "id": "col_30"
+    },
+    {
+      "type": "array_contains",
+      "field": "wordplay_tags",
+      "value": "ham",
+      "label": "Name contains 'ham'",
+      "category": "name",
+      "match_count": 7,
+      "id": "col_31"
+    },
+    {
+      "type": "array_contains",
+      "field": "wordplay_tags",
+      "value": "field",
+      "label": "Name contains 'field'",
+      "category": "name",
+      "match_count": 7,
+      "id": "col_32"
+    },
+    {
+      "type": "array_contains",
+      "field": "wordplay_tags",
+      "value": "hyphen",
+      "label": "Name contains 'hyphen'",
+      "category": "name",
+      "match_count": 5,
+      "id": "col_33"
+    },
+    {
+      "type": "array_contains",
+      "field": "wordplay_tags",
+      "value": "well",
+      "label": "Name contains 'well'",
+      "category": "name",
+      "match_count": 4,
+      "id": "col_34"
+    },
+    {
+      "type": "array_contains",
+      "field": "wordplay_tags",
+      "value": "ford",
+      "label": "Name contains 'ford'",
+      "category": "name",
+      "match_count": 4,
+      "id": "col_35"
+    },
+    {
+      "type": "array_contains",
+      "field": "wordplay_tags",
+      "value": "brackets",
+      "label": "Name contains 'brackets'",
+      "category": "name",
+      "match_count": 4,
+      "id": "col_36"
+    },
+    {
+      "type": "array_contains",
+      "field": "wordplay_tags",
+      "value": "ey",
+      "label": "Name contains 'ey'",
+      "category": "name",
+      "match_count": 4,
+      "id": "col_37"
+    },
+    {
+      "type": "array_contains",
+      "field": "wordplay_tags",
+      "value": "ington",
+      "label": "Name contains 'ington'",
+      "category": "name",
+      "match_count": 3,
+      "id": "col_38"
+    },
+    {
+      "type": "equals",
+      "field": "name_word_count",
+      "value": 1,
+      "label": "One-word name",
+      "category": "name",
+      "match_count": 73,
+      "id": "col_39"
+    },
+    {
+      "type": "range",
+      "field": "name_word_count",
+      "min": 3,
+      "label": "Three or more words in name",
+      "category": "name",
+      "match_count": 7,
+      "id": "col_40"
+    },
+    {
+      "type": "range",
+      "field": "name_letter_count",
+      "label": "Short name (≤6 letters)",
+      "min": 0,
+      "max": 6,
+      "category": "name",
+      "match_count": 8,
+      "id": "col_41"
+    },
+    {
+      "type": "range",
+      "field": "name_letter_count",
+      "label": "Medium name (7-10 letters)",
+      "min": 7,
+      "max": 10,
+      "category": "name",
+      "match_count": 56,
+      "id": "col_42"
+    },
+    {
+      "type": "range",
+      "field": "name_letter_count",
+      "label": "Long name (11+ letters)",
+      "min": 11,
+      "category": "name",
+      "match_count": 39,
+      "id": "col_43"
+    }
+  ]
+}

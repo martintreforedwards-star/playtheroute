@@ -1,0 +1,694 @@
+{
+  "rowPool": [
+    {
+      "type": "equals",
+      "field": "is_interchange",
+      "value": true,
+      "label": "Interchange station",
+      "weight": "medium",
+      "match_count": 86,
+      "id": "row_0"
+    },
+    {
+      "type": "equals",
+      "field": "is_coastal",
+      "value": true,
+      "label": "Coastal station",
+      "weight": "medium",
+      "match_count": 45,
+      "id": "row_1"
+    },
+    {
+      "type": "range",
+      "field": "terminus_max",
+      "min": 1,
+      "label": "Terminus station",
+      "weight": "medium",
+      "match_count": 46,
+      "id": "row_2"
+    },
+    {
+      "type": "equals",
+      "field": "canonical_hub",
+      "value": "Cardiff Central",
+      "label": "Hub: Cardiff Central",
+      "weight": "medium",
+      "match_count": 95,
+      "id": "row_3"
+    },
+    {
+      "type": "equals",
+      "field": "canonical_hub",
+      "value": "Swansea",
+      "label": "Hub: Swansea",
+      "weight": "medium",
+      "match_count": 49,
+      "id": "row_4"
+    },
+    {
+      "type": "equals",
+      "field": "canonical_hub",
+      "value": "Bristol Temple Meads",
+      "label": "Hub: Bristol Temple Meads",
+      "weight": "high",
+      "match_count": 22,
+      "id": "row_5"
+    },
+    {
+      "type": "equals",
+      "field": "region",
+      "value": "Rhondda Cynon Taf",
+      "label": "Region: Rhondda Cynon Taf",
+      "weight": "high",
+      "match_count": 22,
+      "id": "row_6"
+    },
+    {
+      "type": "equals",
+      "field": "region",
+      "value": "Cardiff",
+      "label": "Region: Cardiff",
+      "weight": "high",
+      "match_count": 20,
+      "id": "row_7"
+    },
+    {
+      "type": "equals",
+      "field": "region",
+      "value": "Carmarthenshire",
+      "label": "Region: Carmarthenshire",
+      "weight": "high",
+      "match_count": 17,
+      "id": "row_8"
+    },
+    {
+      "type": "equals",
+      "field": "region",
+      "value": "Caerphilly",
+      "label": "Region: Caerphilly",
+      "weight": "high",
+      "match_count": 16,
+      "id": "row_9"
+    },
+    {
+      "type": "equals",
+      "field": "region",
+      "value": "Pembrokeshire",
+      "label": "Region: Pembrokeshire",
+      "weight": "high",
+      "match_count": 16,
+      "id": "row_10"
+    },
+    {
+      "type": "equals",
+      "field": "region",
+      "value": "Vale of Glamorgan",
+      "label": "Region: Vale of Glamorgan",
+      "weight": "high",
+      "match_count": 11,
+      "id": "row_11"
+    },
+    {
+      "type": "equals",
+      "field": "region",
+      "value": "Bristol, City of",
+      "label": "Region: Bristol, City of",
+      "weight": "high",
+      "match_count": 10,
+      "id": "row_12"
+    },
+    {
+      "type": "equals",
+      "field": "region",
+      "value": "Bridgend",
+      "label": "Region: Bridgend",
+      "weight": "high",
+      "match_count": 9,
+      "id": "row_13"
+    },
+    {
+      "type": "equals",
+      "field": "region",
+      "value": "Powys",
+      "label": "Region: Powys",
+      "weight": "high",
+      "match_count": 6,
+      "id": "row_14"
+    },
+    {
+      "type": "equals",
+      "field": "region",
+      "value": "Neath Port Talbot",
+      "label": "Region: Neath Port Talbot",
+      "weight": "high",
+      "match_count": 5,
+      "id": "row_15"
+    },
+    {
+      "type": "range",
+      "field": "canonical_time_to_hub",
+      "max": 24.0,
+      "label": "Time to hub: shortest third",
+      "weight": "medium",
+      "match_count": 57,
+      "id": "row_16"
+    },
+    {
+      "type": "range",
+      "field": "canonical_time_to_hub",
+      "min": 24.0,
+      "max": 49.0,
+      "label": "Time to hub: middle third",
+      "weight": "medium",
+      "match_count": 56,
+      "id": "row_17"
+    },
+    {
+      "type": "range",
+      "field": "canonical_time_to_hub",
+      "min": 49.0,
+      "label": "Time to hub: longest third",
+      "weight": "medium",
+      "match_count": 56,
+      "id": "row_18"
+    }
+  ],
+  "columnPool": [
+    {
+      "type": "equals",
+      "field": "region",
+      "value": "Rhondda Cynon Taf",
+      "label": "Region: Rhondda Cynon Taf",
+      "category": "geography",
+      "match_count": 22,
+      "id": "col_0"
+    },
+    {
+      "type": "equals",
+      "field": "region",
+      "value": "Cardiff",
+      "label": "Region: Cardiff",
+      "category": "geography",
+      "match_count": 20,
+      "id": "col_1"
+    },
+    {
+      "type": "equals",
+      "field": "region",
+      "value": "Carmarthenshire",
+      "label": "Region: Carmarthenshire",
+      "category": "geography",
+      "match_count": 17,
+      "id": "col_2"
+    },
+    {
+      "type": "equals",
+      "field": "region",
+      "value": "Caerphilly",
+      "label": "Region: Caerphilly",
+      "category": "geography",
+      "match_count": 16,
+      "id": "col_3"
+    },
+    {
+      "type": "equals",
+      "field": "region",
+      "value": "Pembrokeshire",
+      "label": "Region: Pembrokeshire",
+      "category": "geography",
+      "match_count": 16,
+      "id": "col_4"
+    },
+    {
+      "type": "equals",
+      "field": "region",
+      "value": "Vale of Glamorgan",
+      "label": "Region: Vale of Glamorgan",
+      "category": "geography",
+      "match_count": 11,
+      "id": "col_5"
+    },
+    {
+      "type": "equals",
+      "field": "region",
+      "value": "Bristol, City of",
+      "label": "Region: Bristol, City of",
+      "category": "geography",
+      "match_count": 10,
+      "id": "col_6"
+    },
+    {
+      "type": "equals",
+      "field": "region",
+      "value": "Bridgend",
+      "label": "Region: Bridgend",
+      "category": "geography",
+      "match_count": 9,
+      "id": "col_7"
+    },
+    {
+      "type": "equals",
+      "field": "region",
+      "value": "Powys",
+      "label": "Region: Powys",
+      "category": "geography",
+      "match_count": 6,
+      "id": "col_8"
+    },
+    {
+      "type": "equals",
+      "field": "region",
+      "value": "Neath Port Talbot",
+      "label": "Region: Neath Port Talbot",
+      "category": "geography",
+      "match_count": 5,
+      "id": "col_9"
+    },
+    {
+      "type": "equals",
+      "field": "is_coastal",
+      "value": true,
+      "label": "Coastal station",
+      "category": "geography",
+      "match_count": 45,
+      "id": "col_10"
+    },
+    {
+      "type": "equals",
+      "field": "canonical_hub",
+      "value": "Cardiff Central",
+      "label": "Hub: Cardiff Central",
+      "category": "geography",
+      "match_count": 95,
+      "id": "col_11"
+    },
+    {
+      "type": "equals",
+      "field": "canonical_hub",
+      "value": "Swansea",
+      "label": "Hub: Swansea",
+      "category": "geography",
+      "match_count": 49,
+      "id": "col_12"
+    },
+    {
+      "type": "equals",
+      "field": "canonical_hub",
+      "value": "Bristol Temple Meads",
+      "label": "Hub: Bristol Temple Meads",
+      "category": "geography",
+      "match_count": 22,
+      "id": "col_13"
+    },
+    {
+      "type": "equals",
+      "field": "is_interchange",
+      "value": true,
+      "label": "Interchange station",
+      "category": "service",
+      "match_count": 86,
+      "id": "col_14"
+    },
+    {
+      "type": "range",
+      "field": "terminus_max",
+      "min": 1,
+      "label": "Terminus station",
+      "category": "service",
+      "match_count": 46,
+      "id": "col_15"
+    },
+    {
+      "type": "range",
+      "field": "canonical_time_to_hub",
+      "max": 24.0,
+      "label": "Time to hub: shortest third",
+      "category": "service",
+      "match_count": 57,
+      "id": "col_16"
+    },
+    {
+      "type": "range",
+      "field": "canonical_time_to_hub",
+      "min": 24.0,
+      "max": 49.0,
+      "label": "Time to hub: middle third",
+      "category": "service",
+      "match_count": 56,
+      "id": "col_17"
+    },
+    {
+      "type": "range",
+      "field": "canonical_time_to_hub",
+      "min": 49.0,
+      "label": "Time to hub: longest third",
+      "category": "service",
+      "match_count": 56,
+      "id": "col_18"
+    },
+    {
+      "type": "equals",
+      "field": "operator",
+      "value": "TfW",
+      "label": "Operator: TfW",
+      "category": "route",
+      "match_count": 144,
+      "id": "col_19"
+    },
+    {
+      "type": "equals",
+      "field": "operator",
+      "value": "Great_Western",
+      "label": "Operator: Great_Western",
+      "category": "route",
+      "match_count": 22,
+      "id": "col_20"
+    },
+    {
+      "type": "array_contains",
+      "field": "route",
+      "value": "Swanline",
+      "label": "Route: Swanline",
+      "category": "route",
+      "match_count": 44,
+      "id": "col_21"
+    },
+    {
+      "type": "array_contains",
+      "field": "route",
+      "value": "Central Wales Line",
+      "label": "Route: Central Wales Line",
+      "category": "route",
+      "match_count": 42,
+      "id": "col_22"
+    },
+    {
+      "type": "array_contains",
+      "field": "route",
+      "value": "Heart of Wales Line",
+      "label": "Route: Heart of Wales Line",
+      "category": "route",
+      "match_count": 42,
+      "id": "col_23"
+    },
+    {
+      "type": "array_contains",
+      "field": "route",
+      "value": "Vale of Glamorgan Line",
+      "label": "Route: Vale of Glamorgan Line",
+      "category": "route",
+      "match_count": 31,
+      "id": "col_24"
+    },
+    {
+      "type": "array_contains",
+      "field": "route",
+      "value": "Coryton Line",
+      "label": "Route: Coryton Line",
+      "category": "route",
+      "match_count": 30,
+      "id": "col_25"
+    },
+    {
+      "type": "array_contains",
+      "field": "route",
+      "value": "Merthyr Line",
+      "label": "Route: Merthyr Line",
+      "category": "route",
+      "match_count": 25,
+      "id": "col_26"
+    },
+    {
+      "type": "array_contains",
+      "field": "route",
+      "value": "Treherbert Line",
+      "label": "Route: Treherbert Line",
+      "category": "route",
+      "match_count": 25,
+      "id": "col_27"
+    },
+    {
+      "type": "array_contains",
+      "field": "route",
+      "value": "Aberdare Line",
+      "label": "Route: Aberdare Line",
+      "category": "route",
+      "match_count": 24,
+      "id": "col_28"
+    },
+    {
+      "type": "array_contains",
+      "field": "route",
+      "value": "Ebbw Valley Line",
+      "label": "Route: Ebbw Valley Line",
+      "category": "route",
+      "match_count": 20,
+      "id": "col_29"
+    },
+    {
+      "type": "array_contains",
+      "field": "route",
+      "value": "Cardiff Bay Line",
+      "label": "Route: Cardiff Bay Line",
+      "category": "route",
+      "match_count": 10,
+      "id": "col_30"
+    },
+    {
+      "type": "array_contains",
+      "field": "route",
+      "value": "Severn Beach Line",
+      "label": "Route: Severn Beach Line",
+      "category": "route",
+      "match_count": 10,
+      "id": "col_31"
+    },
+    {
+      "type": "array_contains",
+      "field": "route",
+      "value": "Great Western Main Line",
+      "label": "Route: Great Western Main Line",
+      "category": "route",
+      "match_count": 9,
+      "id": "col_32"
+    },
+    {
+      "type": "array_contains",
+      "field": "route",
+      "value": "Marches Line",
+      "label": "Route: Marches Line",
+      "category": "route",
+      "match_count": 7,
+      "id": "col_33"
+    },
+    {
+      "type": "array_contains",
+      "field": "route",
+      "value": "City Line (Cardiff)",
+      "label": "Route: City Line (Cardiff)",
+      "category": "route",
+      "match_count": 6,
+      "id": "col_34"
+    },
+    {
+      "type": "array_contains",
+      "field": "route",
+      "value": "Gloucester to Newport Line",
+      "label": "Route: Gloucester to Newport Line",
+      "category": "route",
+      "match_count": 6,
+      "id": "col_35"
+    },
+    {
+      "type": "equals",
+      "field": "wordplay_category",
+      "value": "welsh_place",
+      "label": "Wordplay: welsh_place",
+      "category": "name",
+      "match_count": 44,
+      "id": "col_36"
+    },
+    {
+      "type": "equals",
+      "field": "wordplay_category",
+      "value": "structure",
+      "label": "Wordplay: structure",
+      "category": "name",
+      "match_count": 23,
+      "id": "col_37"
+    },
+    {
+      "type": "equals",
+      "field": "wordplay_category",
+      "value": "local_suffix",
+      "label": "Wordplay: local_suffix",
+      "category": "name",
+      "match_count": 15,
+      "id": "col_38"
+    },
+    {
+      "type": "equals",
+      "field": "wordplay_category",
+      "value": "nature",
+      "label": "Wordplay: nature",
+      "category": "name",
+      "match_count": 6,
+      "id": "col_39"
+    },
+    {
+      "type": "array_contains",
+      "field": "wordplay_tags",
+      "value": "llan",
+      "label": "Name contains 'llan'",
+      "category": "name",
+      "match_count": 16,
+      "id": "col_40"
+    },
+    {
+      "type": "array_contains",
+      "field": "wordplay_tags",
+      "value": "ton",
+      "label": "Name contains 'ton'",
+      "category": "name",
+      "match_count": 14,
+      "id": "col_41"
+    },
+    {
+      "type": "array_contains",
+      "field": "wordplay_tags",
+      "value": "brackets",
+      "label": "Name contains 'brackets'",
+      "category": "name",
+      "match_count": 8,
+      "id": "col_42"
+    },
+    {
+      "type": "array_contains",
+      "field": "wordplay_tags",
+      "value": "ampersand",
+      "label": "Name contains 'ampersand'",
+      "category": "name",
+      "match_count": 8,
+      "id": "col_43"
+    },
+    {
+      "type": "array_contains",
+      "field": "wordplay_tags",
+      "value": "pen",
+      "label": "Name contains 'pen'",
+      "category": "name",
+      "match_count": 7,
+      "id": "col_44"
+    },
+    {
+      "type": "array_contains",
+      "field": "wordplay_tags",
+      "value": "park",
+      "label": "Name contains 'park'",
+      "category": "name",
+      "match_count": 6,
+      "id": "col_45"
+    },
+    {
+      "type": "array_contains",
+      "field": "wordplay_tags",
+      "value": "pont",
+      "label": "Name contains 'pont'",
+      "category": "name",
+      "match_count": 6,
+      "id": "col_46"
+    },
+    {
+      "type": "array_contains",
+      "field": "wordplay_tags",
+      "value": "hyphen",
+      "label": "Name contains 'hyphen'",
+      "category": "name",
+      "match_count": 6,
+      "id": "col_47"
+    },
+    {
+      "type": "array_contains",
+      "field": "wordplay_tags",
+      "value": "tre",
+      "label": "Name contains 'tre'",
+      "category": "name",
+      "match_count": 5,
+      "id": "col_48"
+    },
+    {
+      "type": "array_contains",
+      "field": "wordplay_tags",
+      "value": "aber",
+      "label": "Name contains 'aber'",
+      "category": "name",
+      "match_count": 4,
+      "id": "col_49"
+    },
+    {
+      "type": "array_contains",
+      "field": "wordplay_tags",
+      "value": "ey",
+      "label": "Name contains 'ey'",
+      "category": "name",
+      "match_count": 4,
+      "id": "col_50"
+    },
+    {
+      "type": "array_contains",
+      "field": "wordplay_tags",
+      "value": "port",
+      "label": "Name contains 'port'",
+      "category": "name",
+      "match_count": 4,
+      "id": "col_51"
+    },
+    {
+      "type": "equals",
+      "field": "name_word_count",
+      "value": 1,
+      "label": "One-word name",
+      "category": "name",
+      "match_count": 108,
+      "id": "col_52"
+    },
+    {
+      "type": "range",
+      "field": "name_word_count",
+      "min": 3,
+      "label": "Three or more words in name",
+      "category": "name",
+      "match_count": 17,
+      "id": "col_53"
+    },
+    {
+      "type": "range",
+      "field": "name_letter_count",
+      "label": "Short name (≤6 letters)",
+      "min": 0,
+      "max": 6,
+      "category": "name",
+      "match_count": 18,
+      "id": "col_54"
+    },
+    {
+      "type": "range",
+      "field": "name_letter_count",
+      "label": "Medium name (7-10 letters)",
+      "min": 7,
+      "max": 10,
+      "category": "name",
+      "match_count": 87,
+      "id": "col_55"
+    },
+    {
+      "type": "range",
+      "field": "name_letter_count",
+      "label": "Long name (11+ letters)",
+      "min": 11,
+      "category": "name",
+      "match_count": 61,
+      "id": "col_56"
+    }
+  ]
+}

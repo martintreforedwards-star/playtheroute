@@ -1,0 +1,595 @@
+{
+  "rowPool": [
+    {
+      "type": "equals",
+      "field": "is_interchange",
+      "value": true,
+      "label": "Interchange station",
+      "weight": "medium",
+      "match_count": 27,
+      "id": "row_0"
+    },
+    {
+      "type": "equals",
+      "field": "is_coastal",
+      "value": true,
+      "label": "Coastal station",
+      "weight": "medium",
+      "match_count": 45,
+      "id": "row_1"
+    },
+    {
+      "type": "range",
+      "field": "terminus_max",
+      "min": 1,
+      "label": "Terminus station",
+      "weight": "high",
+      "match_count": 20,
+      "id": "row_2"
+    },
+    {
+      "type": "equals",
+      "field": "canonical_hub",
+      "value": "Liverpool (Lime St/Central)",
+      "label": "Hub: Liverpool (Lime St/Central)",
+      "weight": "medium",
+      "match_count": 88,
+      "id": "row_3"
+    },
+    {
+      "type": "equals",
+      "field": "canonical_hub",
+      "value": "Carlisle",
+      "label": "Hub: Carlisle",
+      "weight": "high",
+      "match_count": 13,
+      "id": "row_4"
+    },
+    {
+      "type": "equals",
+      "field": "region",
+      "value": "Liverpool",
+      "label": "Region: Liverpool",
+      "weight": "high",
+      "match_count": 19,
+      "id": "row_5"
+    },
+    {
+      "type": "equals",
+      "field": "region",
+      "value": "Sefton",
+      "label": "Region: Sefton",
+      "weight": "high",
+      "match_count": 17,
+      "id": "row_6"
+    },
+    {
+      "type": "equals",
+      "field": "region",
+      "value": "Wirral",
+      "label": "Region: Wirral",
+      "weight": "high",
+      "match_count": 17,
+      "id": "row_7"
+    },
+    {
+      "type": "equals",
+      "field": "region",
+      "value": "Cumberland",
+      "label": "Region: Cumberland",
+      "weight": "high",
+      "match_count": 13,
+      "id": "row_8"
+    },
+    {
+      "type": "equals",
+      "field": "region",
+      "value": "Fylde",
+      "label": "Region: Fylde",
+      "weight": "high",
+      "match_count": 6,
+      "id": "row_9"
+    },
+    {
+      "type": "equals",
+      "field": "region",
+      "value": "Knowsley",
+      "label": "Region: Knowsley",
+      "weight": "high",
+      "match_count": 6,
+      "id": "row_10"
+    },
+    {
+      "type": "equals",
+      "field": "region",
+      "value": "West Lancashire",
+      "label": "Region: West Lancashire",
+      "weight": "high",
+      "match_count": 5,
+      "id": "row_11"
+    },
+    {
+      "type": "equals",
+      "field": "region",
+      "value": "Cheshire West and Chester",
+      "label": "Region: Cheshire West and Chester",
+      "weight": "high",
+      "match_count": 5,
+      "id": "row_12"
+    },
+    {
+      "type": "equals",
+      "field": "region",
+      "value": "St. Helens",
+      "label": "Region: St. Helens",
+      "weight": "high",
+      "match_count": 4,
+      "id": "row_13"
+    },
+    {
+      "type": "equals",
+      "field": "region",
+      "value": "Westmorland and Furness",
+      "label": "Region: Westmorland and Furness",
+      "weight": "high",
+      "match_count": 3,
+      "id": "row_14"
+    },
+    {
+      "type": "range",
+      "field": "canonical_time_to_hub",
+      "max": 24.0,
+      "label": "Time to hub: shortest third",
+      "weight": "medium",
+      "match_count": 35,
+      "id": "row_15"
+    },
+    {
+      "type": "range",
+      "field": "canonical_time_to_hub",
+      "min": 24.0,
+      "max": 80.0,
+      "label": "Time to hub: middle third",
+      "weight": "medium",
+      "match_count": 38,
+      "id": "row_16"
+    },
+    {
+      "type": "range",
+      "field": "canonical_time_to_hub",
+      "min": 80.0,
+      "label": "Time to hub: longest third",
+      "weight": "medium",
+      "match_count": 34,
+      "id": "row_17"
+    }
+  ],
+  "columnPool": [
+    {
+      "type": "equals",
+      "field": "region",
+      "value": "Liverpool",
+      "label": "Region: Liverpool",
+      "category": "geography",
+      "match_count": 19,
+      "id": "col_0"
+    },
+    {
+      "type": "equals",
+      "field": "region",
+      "value": "Sefton",
+      "label": "Region: Sefton",
+      "category": "geography",
+      "match_count": 17,
+      "id": "col_1"
+    },
+    {
+      "type": "equals",
+      "field": "region",
+      "value": "Wirral",
+      "label": "Region: Wirral",
+      "category": "geography",
+      "match_count": 17,
+      "id": "col_2"
+    },
+    {
+      "type": "equals",
+      "field": "region",
+      "value": "Cumberland",
+      "label": "Region: Cumberland",
+      "category": "geography",
+      "match_count": 13,
+      "id": "col_3"
+    },
+    {
+      "type": "equals",
+      "field": "region",
+      "value": "Fylde",
+      "label": "Region: Fylde",
+      "category": "geography",
+      "match_count": 6,
+      "id": "col_4"
+    },
+    {
+      "type": "equals",
+      "field": "region",
+      "value": "Knowsley",
+      "label": "Region: Knowsley",
+      "category": "geography",
+      "match_count": 6,
+      "id": "col_5"
+    },
+    {
+      "type": "equals",
+      "field": "region",
+      "value": "West Lancashire",
+      "label": "Region: West Lancashire",
+      "category": "geography",
+      "match_count": 5,
+      "id": "col_6"
+    },
+    {
+      "type": "equals",
+      "field": "region",
+      "value": "Cheshire West and Chester",
+      "label": "Region: Cheshire West and Chester",
+      "category": "geography",
+      "match_count": 5,
+      "id": "col_7"
+    },
+    {
+      "type": "equals",
+      "field": "region",
+      "value": "St. Helens",
+      "label": "Region: St. Helens",
+      "category": "geography",
+      "match_count": 4,
+      "id": "col_8"
+    },
+    {
+      "type": "equals",
+      "field": "region",
+      "value": "Westmorland and Furness",
+      "label": "Region: Westmorland and Furness",
+      "category": "geography",
+      "match_count": 3,
+      "id": "col_9"
+    },
+    {
+      "type": "equals",
+      "field": "is_coastal",
+      "value": true,
+      "label": "Coastal station",
+      "category": "geography",
+      "match_count": 45,
+      "id": "col_10"
+    },
+    {
+      "type": "equals",
+      "field": "canonical_hub",
+      "value": "Liverpool (Lime St/Central)",
+      "label": "Hub: Liverpool (Lime St/Central)",
+      "category": "geography",
+      "match_count": 88,
+      "id": "col_11"
+    },
+    {
+      "type": "equals",
+      "field": "canonical_hub",
+      "value": "Carlisle",
+      "label": "Hub: Carlisle",
+      "category": "geography",
+      "match_count": 13,
+      "id": "col_12"
+    },
+    {
+      "type": "equals",
+      "field": "is_interchange",
+      "value": true,
+      "label": "Interchange station",
+      "category": "service",
+      "match_count": 27,
+      "id": "col_13"
+    },
+    {
+      "type": "range",
+      "field": "terminus_max",
+      "min": 1,
+      "label": "Terminus station",
+      "category": "service",
+      "match_count": 20,
+      "id": "col_14"
+    },
+    {
+      "type": "range",
+      "field": "canonical_time_to_hub",
+      "max": 24.0,
+      "label": "Time to hub: shortest third",
+      "category": "service",
+      "match_count": 35,
+      "id": "col_15"
+    },
+    {
+      "type": "range",
+      "field": "canonical_time_to_hub",
+      "min": 24.0,
+      "max": 80.0,
+      "label": "Time to hub: middle third",
+      "category": "service",
+      "match_count": 38,
+      "id": "col_16"
+    },
+    {
+      "type": "range",
+      "field": "canonical_time_to_hub",
+      "min": 80.0,
+      "label": "Time to hub: longest third",
+      "category": "service",
+      "match_count": 34,
+      "id": "col_17"
+    },
+    {
+      "type": "equals",
+      "field": "operator",
+      "value": "Northern",
+      "label": "Operator: Northern",
+      "category": "route",
+      "match_count": 45,
+      "id": "col_18"
+    },
+    {
+      "type": "equals",
+      "field": "operator",
+      "value": "Merseyrail",
+      "label": "Operator: Merseyrail",
+      "category": "route",
+      "match_count": 57,
+      "id": "col_19"
+    },
+    {
+      "type": "array_contains",
+      "field": "route",
+      "value": "Northern Line",
+      "label": "Route: Northern Line",
+      "category": "route",
+      "match_count": 36,
+      "id": "col_20"
+    },
+    {
+      "type": "array_contains",
+      "field": "route",
+      "value": "Wirral Line",
+      "label": "Route: Wirral Line",
+      "category": "route",
+      "match_count": 18,
+      "id": "col_21"
+    },
+    {
+      "type": "array_contains",
+      "field": "route",
+      "value": "Cumbrian Coast Line",
+      "label": "Route: Cumbrian Coast Line",
+      "category": "route",
+      "match_count": 16,
+      "id": "col_22"
+    },
+    {
+      "type": "array_contains",
+      "field": "route",
+      "value": "Furness Line",
+      "label": "Route: Furness Line",
+      "category": "route",
+      "match_count": 15,
+      "id": "col_23"
+    },
+    {
+      "type": "array_contains",
+      "field": "route",
+      "value": "Liverpool to Manchester Line",
+      "label": "Route: Liverpool to Manchester Line",
+      "category": "route",
+      "match_count": 12,
+      "id": "col_24"
+    },
+    {
+      "type": "array_contains",
+      "field": "route",
+      "value": "City Line (Merseyside)",
+      "label": "Route: City Line (Merseyside)",
+      "category": "route",
+      "match_count": 10,
+      "id": "col_25"
+    },
+    {
+      "type": "array_contains",
+      "field": "route",
+      "value": "Fylde Line",
+      "label": "Route: Fylde Line",
+      "category": "route",
+      "match_count": 8,
+      "id": "col_26"
+    },
+    {
+      "type": "array_contains",
+      "field": "route",
+      "value": "South Fylde Line",
+      "label": "Route: South Fylde Line",
+      "category": "route",
+      "match_count": 8,
+      "id": "col_27"
+    },
+    {
+      "type": "array_contains",
+      "field": "route",
+      "value": "Liverpool to Manchester Line via Warrington Central",
+      "label": "Route: Liverpool to Manchester Line via Warrington Central",
+      "category": "route",
+      "match_count": 6,
+      "id": "col_28"
+    },
+    {
+      "type": "equals",
+      "field": "wordplay_category",
+      "value": "local_suffix",
+      "label": "Wordplay: local_suffix",
+      "category": "name",
+      "match_count": 25,
+      "id": "col_29"
+    },
+    {
+      "type": "equals",
+      "field": "wordplay_category",
+      "value": "structure",
+      "label": "Wordplay: structure",
+      "category": "name",
+      "match_count": 15,
+      "id": "col_30"
+    },
+    {
+      "type": "equals",
+      "field": "wordplay_category",
+      "value": "nature",
+      "label": "Wordplay: nature",
+      "category": "name",
+      "match_count": 8,
+      "id": "col_31"
+    },
+    {
+      "type": "array_contains",
+      "field": "wordplay_tags",
+      "value": "ton",
+      "label": "Name contains 'ton'",
+      "category": "name",
+      "match_count": 16,
+      "id": "col_32"
+    },
+    {
+      "type": "array_contains",
+      "field": "wordplay_tags",
+      "value": "park",
+      "label": "Name contains 'park'",
+      "category": "name",
+      "match_count": 6,
+      "id": "col_33"
+    },
+    {
+      "type": "array_contains",
+      "field": "wordplay_tags",
+      "value": "brackets",
+      "label": "Name contains 'brackets'",
+      "category": "name",
+      "match_count": 6,
+      "id": "col_34"
+    },
+    {
+      "type": "array_contains",
+      "field": "wordplay_tags",
+      "value": "side",
+      "label": "Name contains 'side'",
+      "category": "name",
+      "match_count": 6,
+      "id": "col_35"
+    },
+    {
+      "type": "array_contains",
+      "field": "wordplay_tags",
+      "value": "ampersand",
+      "label": "Name contains 'ampersand'",
+      "category": "name",
+      "match_count": 5,
+      "id": "col_36"
+    },
+    {
+      "type": "array_contains",
+      "field": "wordplay_tags",
+      "value": "by",
+      "label": "Name contains 'by'",
+      "category": "name",
+      "match_count": 5,
+      "id": "col_37"
+    },
+    {
+      "type": "array_contains",
+      "field": "wordplay_tags",
+      "value": "ey",
+      "label": "Name contains 'ey'",
+      "category": "name",
+      "match_count": 5,
+      "id": "col_38"
+    },
+    {
+      "type": "array_contains",
+      "field": "wordplay_tags",
+      "value": "saint",
+      "label": "Name contains 'saint'",
+      "category": "name",
+      "match_count": 4,
+      "id": "col_39"
+    },
+    {
+      "type": "array_contains",
+      "field": "wordplay_tags",
+      "value": "dale",
+      "label": "Name contains 'dale'",
+      "category": "name",
+      "match_count": 3,
+      "id": "col_40"
+    },
+    {
+      "type": "array_contains",
+      "field": "wordplay_tags",
+      "value": "hill",
+      "label": "Name contains 'hill'",
+      "category": "name",
+      "match_count": 3,
+      "id": "col_41"
+    },
+    {
+      "type": "equals",
+      "field": "name_word_count",
+      "value": 1,
+      "label": "One-word name",
+      "category": "name",
+      "match_count": 48,
+      "id": "col_42"
+    },
+    {
+      "type": "range",
+      "field": "name_word_count",
+      "min": 3,
+      "label": "Three or more words in name",
+      "category": "name",
+      "match_count": 14,
+      "id": "col_43"
+    },
+    {
+      "type": "range",
+      "field": "name_letter_count",
+      "label": "Short name (≤6 letters)",
+      "min": 0,
+      "max": 6,
+      "category": "name",
+      "match_count": 11,
+      "id": "col_44"
+    },
+    {
+      "type": "range",
+      "field": "name_letter_count",
+      "label": "Medium name (7-10 letters)",
+      "min": 7,
+      "max": 10,
+      "category": "name",
+      "match_count": 47,
+      "id": "col_45"
+    },
+    {
+      "type": "range",
+      "field": "name_letter_count",
+      "label": "Long name (11+ letters)",
+      "min": 11,
+      "category": "name",
+      "match_count": 44,
+      "id": "col_46"
+    }
+  ]
+}

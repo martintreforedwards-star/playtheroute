@@ -58,8 +58,9 @@ body {
 }
 
 .logo {
-  width: 74px;
-  height: 74px;
+  width: 220px;
+  height: auto;
+  display: block;
 }
 
 .title-block h1 {
@@ -768,28 +769,10 @@ body {
 
   <a href="/">
     <img
-      src="logo.svg"
-      class="logo">
+      src="CLAUDE/newlogo.svg"
+      class="logo"
+      alt="The Route">
   </a>
-
-  <div class="title-block">
-
-<h1>
-  <a
-    href="/"
-    style="color:white;text-decoration:none;">
-    The Route
-    <span class="copyright-mark">(C)</span>
-  </a>
-</h1>
-
-    <div
-      class="subtitle"
-      id="modeSubtitle">
-      Southeastern Alpha 001
-    </div>
-
-  </div>
 
 </div>
 
@@ -974,6 +957,7 @@ body {
 
 </div>
 
+<script src="CLAUDE/data/daily_puzzle_selector.js"></script>
 <script>
 
 const boardState = [
@@ -1029,6 +1013,10 @@ const params =
 const gameMode =
   params.get("mode") ||
   "standard";
+
+const network =
+  params.get("network") ||
+  "southeastern";
 
 let expressTimer = null;
 let timeRemaining = 180;
@@ -1302,27 +1290,197 @@ function boardIsPlayable(rows, columns) {
 
   return true;
 }
+// ======================================================
+// NETWORK CONFIGURATION
+// Every network is defined here.
+// No other part of this file should contain network-specific paths.
+// ======================================================
+const NETWORKS = {
+  c2c_ga: {
+    stations: "CLAUDE/data/board_c2c_ga.json",
+    clues: "CLAUDE/data/clues_c2c_ga.json",
+    puzzlebank: "CLAUDE/data/puzzlebank_c2c_ga.json",
+    landmarks: "CLAUDE/data/c2c_ga_landmarks.json",
+    facts: "CLAUDE/data/station-facts.json"
+  },
 
+  chiltern_wmr: {
+    stations: "CLAUDE/data/board_chiltern_wmr.json",
+    clues: "CLAUDE/data/clues_chiltern_wmr.json",
+    puzzlebank: "CLAUDE/data/puzzlebank_chiltern_wmr.json",
+    landmarks: "CLAUDE/data/chiltern_wmr_landmarks.json",
+    facts: "CLAUDE/data/station-facts.json"
+  },
+
+  east_midlands_emr: {
+    stations: "CLAUDE/data/board_east_midlands_emr.json",
+    clues: "CLAUDE/data/clues_east_midlands_emr.json",
+    puzzlebank: "CLAUDE/data/puzzlebank_east_midlands_emr.json",
+    landmarks: "CLAUDE/data/east_midlands_emr_landmarks.json",
+    facts: "CLAUDE/data/station-facts.json"
+  },
+
+  edinburgh_scotrail: {
+    stations: "CLAUDE/data/board_edinburgh_scotrail.json",
+    clues: "CLAUDE/data/clues_edinburgh_scotrail.json",
+    puzzlebank: "CLAUDE/data/puzzlebank_edinburgh_scotrail.json",
+    landmarks: "CLAUDE/data/edinburgh_scotrail_landmarks.json",
+    facts: "CLAUDE/data/station-facts.json"
+  },
+
+  glasgow_scotrail: {
+    stations: "CLAUDE/data/board_glasgow_scotrail.json",
+    clues: "CLAUDE/data/clues_glasgow_scotrail.json",
+    puzzlebank: "CLAUDE/data/puzzlebank_glasgow_scotrail.json",
+    landmarks: "CLAUDE/data/glasgow_scotrail_landmarks.json",
+    facts: "CLAUDE/data/station-facts.json"
+  },
+
+  gwr_london: {
+    stations: "CLAUDE/data/board_gwr_london.json",
+    clues: "CLAUDE/data/clues_gwr_london.json",
+    puzzlebank: "CLAUDE/data/puzzlebank_gwr_london.json",
+    landmarks: "CLAUDE/data/gwr_london_landmarks.json",
+    facts: "CLAUDE/data/station-facts.json"
+  },
+
+  gwr_wales_corridor: {
+    stations: "CLAUDE/data/board_gwr_wales_corridor.json",
+    clues: "CLAUDE/data/clues_gwr_wales_corridor.json",
+    puzzlebank: "CLAUDE/data/puzzlebank_gwr_wales_corridor.json",
+    landmarks: "CLAUDE/data/gwr_wales_corridor_landmarks.json",
+    facts: "CLAUDE/data/station-facts.json"
+  },
+
+  highlands_ne_scotrail: {
+    stations: "CLAUDE/data/board_highlands_ne_scotrail.json",
+    clues: "CLAUDE/data/clues_highlands_ne_scotrail.json",
+    puzzlebank: "CLAUDE/data/puzzlebank_highlands_ne_scotrail.json",
+    landmarks: "CLAUDE/data/highlands_ne_scotrail_landmarks.json",
+    facts: "CLAUDE/data/station-facts.json"
+  },
+
+  leeds_sheffield_northern: {
+    stations: "CLAUDE/data/board_leeds_sheffield_northern.json",
+    clues: "CLAUDE/data/clues_leeds_sheffield_northern.json",
+    puzzlebank: "CLAUDE/data/puzzlebank_leeds_sheffield_northern.json",
+    landmarks: "CLAUDE/data/leeds_sheffield_northern_landmarks.json",
+    facts: "CLAUDE/data/station-facts.json"
+  },
+
+  liverpool_merseyside: {
+    stations: "CLAUDE/data/board_liverpool_merseyside.json",
+    clues: "CLAUDE/data/clues_liverpool_merseyside.json",
+    puzzlebank: "CLAUDE/data/puzzlebank_liverpool_merseyside.json",
+    landmarks: "CLAUDE/data/liverpool_merseyside_landmarks.json",
+    facts: "CLAUDE/data/station-facts.json"
+  },
+
+  london_nw_elizabeth_gn: {
+    stations: "CLAUDE/data/board_london_nw_elizabeth_gn.json",
+    clues: "CLAUDE/data/clues_london_nw_elizabeth_gn.json",
+    puzzlebank: "CLAUDE/data/puzzlebank_london_nw_elizabeth_gn.json",
+    landmarks: "CLAUDE/data/london_nw_elizabeth_gn_landmarks.json",
+    facts: "CLAUDE/data/station-facts.json"
+  },
+
+  london_overground: {
+    stations: "CLAUDE/data/board_london_overground.json",
+    clues: "CLAUDE/data/clues_london_overground.json",
+    puzzlebank: "CLAUDE/data/puzzlebank_london_overground.json",
+    landmarks: "CLAUDE/data/london_overground_landmarks.json",
+    facts: "CLAUDE/data/station-facts.json"
+  },
+
+  manchester_northern: {
+    stations: "CLAUDE/data/board_manchester_northern.json",
+    clues: "CLAUDE/data/clues_manchester_northern.json",
+    puzzlebank: "CLAUDE/data/puzzlebank_manchester_northern.json",
+    landmarks: "CLAUDE/data/manchester_northern_landmarks.json",
+    facts: "CLAUDE/data/station-facts.json"
+  },
+
+  newcastle_northern: {
+    stations: "CLAUDE/data/board_newcastle_northern.json",
+    clues: "CLAUDE/data/clues_newcastle_northern.json",
+    puzzlebank: "CLAUDE/data/puzzlebank_newcastle_northern.json",
+    landmarks: "CLAUDE/data/newcastle_northern_landmarks.json",
+    facts: "CLAUDE/data/station-facts.json"
+  },
+
+  semainline: {
+    stations: "CLAUDE/data/board_semainline.json",
+    clues: "CLAUDE/data/clues_semainline.json",
+    puzzlebank: "CLAUDE/data/puzzlebank_semainline.json",
+    landmarks: "CLAUDE/data/semainline_landmarks.json",
+    facts: "CLAUDE/data/station-facts.json"
+  },
+
+  semetro: {
+    stations: "CLAUDE/data/board_semetro.json",
+    clues: "CLAUDE/data/clues_semetro.json",
+    puzzlebank: "CLAUDE/data/puzzlebank_semetro.json",
+    landmarks: "CLAUDE/data/semetro_landmarks.json",
+    facts: "CLAUDE/data/station-facts.json"
+  },
+
+  shrewsbury_wrexham_chester: {
+    stations: "CLAUDE/data/board_shrewsbury_wrexham_chester.json",
+    clues: "CLAUDE/data/clues_shrewsbury_wrexham_chester.json",
+    puzzlebank: "CLAUDE/data/puzzlebank_shrewsbury_wrexham_chester.json",
+    landmarks: "CLAUDE/data/shrewsbury_wrexham_chester_landmarks.json",
+    facts: "CLAUDE/data/station-facts.json"
+  },
+
+  south_western: {
+    stations: "CLAUDE/data/board_south_western.json",
+    clues: "CLAUDE/data/clues_south_western.json",
+    puzzlebank: "CLAUDE/data/puzzlebank_south_western.json",
+    landmarks: "CLAUDE/data/south_western_landmarks.json",
+    facts: "CLAUDE/data/station-facts.json"
+  },
+
+  tfw_cymraeg: {
+    stations: "CLAUDE/data/board_tfw_cymraeg.json",
+    clues: "CLAUDE/data/clues_tfw_cymraeg.json",
+    puzzlebank: "CLAUDE/data/puzzlebank_tfw_cymraeg.json",
+    landmarks: "CLAUDE/data/tfw_cymraeg_landmarks.json",
+    facts: "CLAUDE/data/station-facts.json"
+  },
+
+  thameslink_southern: {
+    stations: "CLAUDE/data/board_thameslink_southern.json",
+    clues: "CLAUDE/data/clues_thameslink_southern.json",
+    puzzlebank: "CLAUDE/data/puzzlebank_thameslink_southern.json",
+    landmarks: "CLAUDE/data/thameslink_southern_landmarks.json",
+    facts: "CLAUDE/data/station-facts.json"
+  }
+
+};
+
+const files = NETWORKS[network];
 Promise.all([
-  fetch("data/stations/southeastern.json")
-    .then(r => r.json()),
-
-  fetch("data/clues/southeastern-clues.json")
-    .then(r => r.json()),
-
-  fetch("data/landmark-challenges.json")
-    .then(r => r.json()),
-
-  fetch("data/station-facts.json")
-    .then(r => r.json())
+  fetch(files.stations).then(r => r.json()),
+  fetch(files.clues).then(r => r.json()),
+  fetch(files.puzzlebank).then(r => r.json()),
+  fetch(files.landmarks).then(r => r.json()).catch(() => []),
+  fetch(files.facts).then(r => r.json()).catch(() => ({}))
 ])
-
-.then(([stationData, clueData, landmarkData, factData]) => {
+.then(([stationData, clueData, puzzleBank, landmarkData, factData]) => {
 
 stations = stationData;
 clueLibrary = clueData;
+// older data used "label", the renderer expects "display" - normalize both
+[...clueLibrary.rowPool, ...clueLibrary.columnPool].forEach(c => {
+  if (c.display === undefined) c.display = c.label;
+});
 landmarkChallenges = landmarkData;
 stationFacts = factData;
+
+const byId = id => clueLibrary.rowPool.find(c => c.id === id) || clueLibrary.columnPool.find(c => c.id === id);
+const todaysPuzzle = getTodaysPuzzle(network, puzzleBank);
+activeRows = todaysPuzzle.rows.map(byId);
+activeColumns = todaysPuzzle.columns.map(byId);
 
 let attempts = 0;
 const WORD_GROUPS = {
@@ -1469,82 +1627,7 @@ function pickPlayableColumn(pool, rowClues, minMatches = 2) {
 
   return weightedPick(candidates);
 }
-do {
-
-  const highRows =
-  clueLibrary.rowPool.filter(
-    c => c.weight === "high"
-  );
-
-const mediumRows =
-  clueLibrary.rowPool.filter(
-    c => c.weight === "medium"
-  );
-
-activeRows = [
-  weightedPick(highRows),
-  weightedPick(mediumRows)
-];
-
-const serviceColumns =
-  clueLibrary.columnPool.filter(
-    c => c.category === "service"
-  );
-
-const geographyColumns =
-  clueLibrary.columnPool.filter(
-    c => c.category === "geography"
-  );
-
-const routeColumns =
-  clueLibrary.columnPool.filter(
-    c => c.category === "route"
-  );
-
-const nameColumns =
-  clueLibrary.columnPool.filter(
-    c => c.category === "name"
-  );
-
-activeColumns = [
-
-  pickPlayableColumn(
-    serviceColumns,
-    activeRows
-  ),
-
-  pickPlayableColumn(
-    geographyColumns,
-    activeRows
-  ),
-
-  pickPlayableColumn(
-    routeColumns,
-    activeRows
-  ),
-
-  pickPlayableColumn(
-    nameColumns,
-    activeRows
-  )
-
-];
-
-
-activeColumns =
-  activeColumns.sort(
-    () => Math.random() - 0.5
-  );
-
-  attempts++;
-
-} while (
-  !boardIsPlayable(
-    activeRows,
-    activeColumns
-  ) &&
-  attempts < 1000
-);
+// board is precomputed for the day by getTodaysPuzzle() above - no live generation needed
 
 document.getElementById(
   "rowClue0"

@@ -29,103 +29,50 @@
     },
     {
       "type": "equals",
-      "field": "region",
-      "value": "Northumberland",
-      "label": "Region: Northumberland",
+      "field": "name_word_count",
+      "value": 1,
+      "label": "One-word name",
       "weight": "medium",
-      "match_count": 21,
+      "match_count": 61,
       "id": "row_3"
     },
     {
-      "type": "equals",
-      "field": "region",
-      "value": "North Yorkshire",
-      "label": "Region: North Yorkshire",
+      "type": "range",
+      "field": "name_word_count",
+      "min": 3,
+      "label": "Three or more words in name",
       "weight": "high",
-      "match_count": 13,
+      "match_count": 3,
       "id": "row_4"
     },
     {
-      "type": "equals",
-      "field": "region",
-      "value": "Cumberland",
-      "label": "Region: Cumberland",
+      "type": "range",
+      "field": "name_letter_count",
+      "label": "Short name (≤6 letters)",
+      "min": 0,
+      "max": 6,
       "weight": "high",
-      "match_count": 11,
+      "match_count": 13,
       "id": "row_5"
     },
     {
-      "type": "equals",
-      "field": "region",
-      "value": "Redcar and Cleveland",
-      "label": "Region: Redcar and Cleveland",
-      "weight": "high",
-      "match_count": 10,
+      "type": "range",
+      "field": "name_letter_count",
+      "label": "Medium name (7-10 letters)",
+      "min": 7,
+      "max": 10,
+      "weight": "medium",
+      "match_count": 45,
       "id": "row_6"
     },
     {
-      "type": "equals",
-      "field": "region",
-      "value": "County Durham",
-      "label": "Region: County Durham",
-      "weight": "high",
-      "match_count": 7,
+      "type": "range",
+      "field": "name_letter_count",
+      "label": "Long name (11+ letters)",
+      "min": 11,
+      "weight": "medium",
+      "match_count": 24,
       "id": "row_7"
-    },
-    {
-      "type": "equals",
-      "field": "region",
-      "value": "Stockton-on-Tees",
-      "label": "Region: Stockton-on-Tees",
-      "weight": "high",
-      "match_count": 5,
-      "id": "row_8"
-    },
-    {
-      "type": "equals",
-      "field": "region",
-      "value": "Gateshead",
-      "label": "Region: Gateshead",
-      "weight": "high",
-      "match_count": 4,
-      "id": "row_9"
-    },
-    {
-      "type": "equals",
-      "field": "region",
-      "value": "Darlington",
-      "label": "Region: Darlington",
-      "weight": "high",
-      "match_count": 3,
-      "id": "row_10"
-    },
-    {
-      "type": "range",
-      "field": "canonical_time_to_hub",
-      "max": 40.0,
-      "label": "Time to hub: shortest third",
-      "weight": "medium",
-      "match_count": 28,
-      "id": "row_11"
-    },
-    {
-      "type": "range",
-      "field": "canonical_time_to_hub",
-      "min": 40.0,
-      "max": 93.0,
-      "label": "Time to hub: middle third",
-      "weight": "medium",
-      "match_count": 29,
-      "id": "row_12"
-    },
-    {
-      "type": "range",
-      "field": "canonical_time_to_hub",
-      "min": 93.0,
-      "label": "Time to hub: longest third",
-      "weight": "medium",
-      "match_count": 27,
-      "id": "row_13"
     }
   ],
   "columnPool": [
@@ -202,40 +149,13 @@
       "id": "col_7"
     },
     {
-      "type": "equals",
-      "field": "is_coastal",
-      "value": true,
-      "label": "Coastal station",
-      "category": "geography",
-      "match_count": 22,
-      "id": "col_8"
-    },
-    {
-      "type": "equals",
-      "field": "is_interchange",
-      "value": true,
-      "label": "Interchange station",
-      "category": "service",
-      "match_count": 29,
-      "id": "col_9"
-    },
-    {
-      "type": "range",
-      "field": "terminus_max",
-      "min": 1,
-      "label": "Terminus station",
-      "category": "service",
-      "match_count": 20,
-      "id": "col_10"
-    },
-    {
       "type": "range",
       "field": "canonical_time_to_hub",
       "max": 40.0,
       "label": "Time to hub: shortest third",
       "category": "service",
       "match_count": 28,
-      "id": "col_11"
+      "id": "col_8"
     },
     {
       "type": "range",
@@ -245,7 +165,7 @@
       "label": "Time to hub: middle third",
       "category": "service",
       "match_count": 29,
-      "id": "col_12"
+      "id": "col_9"
     },
     {
       "type": "range",
@@ -254,7 +174,7 @@
       "label": "Time to hub: longest third",
       "category": "service",
       "match_count": 27,
-      "id": "col_13"
+      "id": "col_10"
     },
     {
       "type": "array_contains",
@@ -263,7 +183,7 @@
       "label": "Route: Hadrian's Wall Country Line",
       "category": "route",
       "match_count": 31,
-      "id": "col_14"
+      "id": "col_11"
     },
     {
       "type": "array_contains",
@@ -272,7 +192,7 @@
       "label": "Route: Tyne Valley Line",
       "category": "route",
       "match_count": 31,
-      "id": "col_15"
+      "id": "col_12"
     },
     {
       "type": "array_contains",
@@ -281,7 +201,7 @@
       "label": "Route: Esk Valley Railway",
       "category": "route",
       "match_count": 28,
-      "id": "col_16"
+      "id": "col_13"
     },
     {
       "type": "array_contains",
@@ -290,7 +210,7 @@
       "label": "Route: Tees Valley Line",
       "category": "route",
       "match_count": 18,
-      "id": "col_17"
+      "id": "col_14"
     },
     {
       "type": "array_contains",
@@ -299,7 +219,7 @@
       "label": "Route: Durham Coast Line",
       "category": "route",
       "match_count": 18,
-      "id": "col_18"
+      "id": "col_15"
     },
     {
       "type": "array_contains",
@@ -308,7 +228,7 @@
       "label": "Route: Northumberland Line",
       "category": "route",
       "match_count": 9,
-      "id": "col_19"
+      "id": "col_16"
     },
     {
       "type": "array_contains",
@@ -317,7 +237,7 @@
       "label": "Route: Cumbrian Coast Line",
       "category": "route",
       "match_count": 8,
-      "id": "col_20"
+      "id": "col_17"
     },
     {
       "type": "array_contains",
@@ -326,7 +246,7 @@
       "label": "Route: East Coast Main Line",
       "category": "route",
       "match_count": 5,
-      "id": "col_21"
+      "id": "col_18"
     },
     {
       "type": "array_contains",
@@ -335,7 +255,7 @@
       "label": "Route: Bishop Line",
       "category": "route",
       "match_count": 5,
-      "id": "col_22"
+      "id": "col_19"
     },
     {
       "type": "array_contains",
@@ -344,7 +264,7 @@
       "label": "Route: Heritage Line",
       "category": "route",
       "match_count": 5,
-      "id": "col_23"
+      "id": "col_20"
     },
     {
       "type": "equals",
@@ -353,7 +273,7 @@
       "label": "Wordplay: local_suffix",
       "category": "name",
       "match_count": 36,
-      "id": "col_24"
+      "id": "col_21"
     },
     {
       "type": "equals",
@@ -362,7 +282,7 @@
       "label": "Wordplay: structure",
       "category": "name",
       "match_count": 5,
-      "id": "col_25"
+      "id": "col_22"
     },
     {
       "type": "array_contains",
@@ -371,7 +291,7 @@
       "label": "Name contains 'ton'",
       "category": "name",
       "match_count": 22,
-      "id": "col_26"
+      "id": "col_23"
     },
     {
       "type": "array_contains",
@@ -380,7 +300,7 @@
       "label": "Name contains 'ington'",
       "category": "name",
       "match_count": 9,
-      "id": "col_27"
+      "id": "col_24"
     },
     {
       "type": "array_contains",
@@ -389,7 +309,7 @@
       "label": "Name contains 'by'",
       "category": "name",
       "match_count": 5,
-      "id": "col_28"
+      "id": "col_25"
     },
     {
       "type": "array_contains",
@@ -398,7 +318,7 @@
       "label": "Name contains 'ham'",
       "category": "name",
       "match_count": 4,
-      "id": "col_29"
+      "id": "col_26"
     },
     {
       "type": "array_contains",
@@ -407,7 +327,7 @@
       "label": "Name contains 'don'",
       "category": "name",
       "match_count": 4,
-      "id": "col_30"
+      "id": "col_27"
     },
     {
       "type": "array_contains",
@@ -416,7 +336,7 @@
       "label": "Name contains 'brackets'",
       "category": "name",
       "match_count": 4,
-      "id": "col_31"
+      "id": "col_28"
     },
     {
       "type": "array_contains",
@@ -425,54 +345,7 @@
       "label": "Name contains 'dale'",
       "category": "name",
       "match_count": 4,
-      "id": "col_32"
-    },
-    {
-      "type": "equals",
-      "field": "name_word_count",
-      "value": 1,
-      "label": "One-word name",
-      "category": "name",
-      "match_count": 61,
-      "id": "col_33"
-    },
-    {
-      "type": "range",
-      "field": "name_word_count",
-      "min": 3,
-      "label": "Three or more words in name",
-      "category": "name",
-      "match_count": 3,
-      "id": "col_34"
-    },
-    {
-      "type": "range",
-      "field": "name_letter_count",
-      "label": "Short name (≤6 letters)",
-      "min": 0,
-      "max": 6,
-      "category": "name",
-      "match_count": 13,
-      "id": "col_35"
-    },
-    {
-      "type": "range",
-      "field": "name_letter_count",
-      "label": "Medium name (7-10 letters)",
-      "min": 7,
-      "max": 10,
-      "category": "name",
-      "match_count": 45,
-      "id": "col_36"
-    },
-    {
-      "type": "range",
-      "field": "name_letter_count",
-      "label": "Long name (11+ letters)",
-      "min": 11,
-      "category": "name",
-      "match_count": 24,
-      "id": "col_37"
+      "id": "col_29"
     }
   ]
 }

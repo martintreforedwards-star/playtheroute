@@ -29,112 +29,41 @@
     },
     {
       "type": "equals",
-      "field": "canonical_hub",
-      "value": "Inverness",
-      "label": "Hub: Inverness",
+      "field": "name_word_count",
+      "value": 1,
+      "label": "One-word name",
       "weight": "medium",
-      "match_count": 47,
+      "match_count": 64,
       "id": "row_3"
     },
     {
-      "type": "equals",
-      "field": "canonical_hub",
-      "value": "Aberdeen",
-      "label": "Hub: Aberdeen",
-      "weight": "high",
-      "match_count": 10,
+      "type": "range",
+      "field": "name_letter_count",
+      "label": "Short name (≤6 letters)",
+      "min": 0,
+      "max": 6,
+      "weight": "medium",
+      "match_count": 21,
       "id": "row_4"
     },
     {
-      "type": "equals",
-      "field": "canonical_hub",
-      "value": "Dundee",
-      "label": "Hub: Dundee",
+      "type": "range",
+      "field": "name_letter_count",
+      "label": "Medium name (7-10 letters)",
+      "min": 7,
+      "max": 10,
       "weight": "medium",
-      "match_count": 18,
+      "match_count": 37,
       "id": "row_5"
     },
     {
-      "type": "equals",
-      "field": "region",
-      "value": "Highland",
-      "label": "Region: Highland",
+      "type": "range",
+      "field": "name_letter_count",
+      "label": "Long name (11+ letters)",
+      "min": 11,
       "weight": "medium",
-      "match_count": 45,
+      "match_count": 17,
       "id": "row_6"
-    },
-    {
-      "type": "equals",
-      "field": "region",
-      "value": "Angus",
-      "label": "Region: Angus",
-      "weight": "high",
-      "match_count": 7,
-      "id": "row_7"
-    },
-    {
-      "type": "equals",
-      "field": "region",
-      "value": "Aberdeenshire",
-      "label": "Region: Aberdeenshire",
-      "weight": "high",
-      "match_count": 7,
-      "id": "row_8"
-    },
-    {
-      "type": "equals",
-      "field": "region",
-      "value": "Perth and Kinross",
-      "label": "Region: Perth and Kinross",
-      "weight": "high",
-      "match_count": 5,
-      "id": "row_9"
-    },
-    {
-      "type": "equals",
-      "field": "region",
-      "value": "Fife",
-      "label": "Region: Fife",
-      "weight": "high",
-      "match_count": 4,
-      "id": "row_10"
-    },
-    {
-      "type": "equals",
-      "field": "region",
-      "value": "Moray",
-      "label": "Region: Moray",
-      "weight": "high",
-      "match_count": 3,
-      "id": "row_11"
-    },
-    {
-      "type": "range",
-      "field": "canonical_time_to_hub",
-      "max": 30.0,
-      "label": "Time to hub: shortest third",
-      "weight": "medium",
-      "match_count": 26,
-      "id": "row_12"
-    },
-    {
-      "type": "range",
-      "field": "canonical_time_to_hub",
-      "min": 30.0,
-      "max": 104.0,
-      "label": "Time to hub: middle third",
-      "weight": "medium",
-      "match_count": 27,
-      "id": "row_13"
-    },
-    {
-      "type": "range",
-      "field": "canonical_time_to_hub",
-      "min": 104.0,
-      "label": "Time to hub: longest third",
-      "weight": "medium",
-      "match_count": 25,
-      "id": "row_14"
     }
   ],
   "columnPool": [
@@ -194,21 +123,12 @@
     },
     {
       "type": "equals",
-      "field": "is_coastal",
-      "value": true,
-      "label": "Coastal station",
-      "category": "geography",
-      "match_count": 39,
-      "id": "col_6"
-    },
-    {
-      "type": "equals",
       "field": "canonical_hub",
       "value": "Inverness",
       "label": "Hub: Inverness",
       "category": "geography",
       "match_count": 47,
-      "id": "col_7"
+      "id": "col_6"
     },
     {
       "type": "equals",
@@ -217,7 +137,7 @@
       "label": "Hub: Aberdeen",
       "category": "geography",
       "match_count": 10,
-      "id": "col_8"
+      "id": "col_7"
     },
     {
       "type": "equals",
@@ -226,25 +146,7 @@
       "label": "Hub: Dundee",
       "category": "geography",
       "match_count": 18,
-      "id": "col_9"
-    },
-    {
-      "type": "equals",
-      "field": "is_interchange",
-      "value": true,
-      "label": "Interchange station",
-      "category": "service",
-      "match_count": 20,
-      "id": "col_10"
-    },
-    {
-      "type": "range",
-      "field": "terminus_max",
-      "min": 1,
-      "label": "Terminus station",
-      "category": "service",
-      "match_count": 15,
-      "id": "col_11"
+      "id": "col_8"
     },
     {
       "type": "range",
@@ -253,7 +155,7 @@
       "label": "Time to hub: shortest third",
       "category": "service",
       "match_count": 26,
-      "id": "col_12"
+      "id": "col_9"
     },
     {
       "type": "range",
@@ -263,7 +165,7 @@
       "label": "Time to hub: middle third",
       "category": "service",
       "match_count": 27,
-      "id": "col_13"
+      "id": "col_10"
     },
     {
       "type": "range",
@@ -272,7 +174,7 @@
       "label": "Time to hub: longest third",
       "category": "service",
       "match_count": 25,
-      "id": "col_14"
+      "id": "col_11"
     },
     {
       "type": "array_contains",
@@ -281,7 +183,7 @@
       "label": "Route: Far North Line",
       "category": "route",
       "match_count": 26,
-      "id": "col_15"
+      "id": "col_12"
     },
     {
       "type": "array_contains",
@@ -290,7 +192,7 @@
       "label": "Route: Aberdeen to Inverness Line",
       "category": "route",
       "match_count": 22,
-      "id": "col_16"
+      "id": "col_13"
     },
     {
       "type": "array_contains",
@@ -299,7 +201,7 @@
       "label": "Route: Highland Main Line",
       "category": "route",
       "match_count": 13,
-      "id": "col_17"
+      "id": "col_14"
     },
     {
       "type": "array_contains",
@@ -308,7 +210,7 @@
       "label": "Route: Kyle Line",
       "category": "route",
       "match_count": 11,
-      "id": "col_18"
+      "id": "col_15"
     },
     {
       "type": "array_contains",
@@ -317,7 +219,7 @@
       "label": "Route: Dundee to Arbroath Line",
       "category": "route",
       "match_count": 7,
-      "id": "col_19"
+      "id": "col_16"
     },
     {
       "type": "array_contains",
@@ -326,7 +228,7 @@
       "label": "Route: Aberdeen Line",
       "category": "route",
       "match_count": 6,
-      "id": "col_20"
+      "id": "col_17"
     },
     {
       "type": "equals",
@@ -335,7 +237,7 @@
       "label": "Wordplay: gaelic_place",
       "category": "name",
       "match_count": 14,
-      "id": "col_21"
+      "id": "col_18"
     },
     {
       "type": "equals",
@@ -344,7 +246,7 @@
       "label": "Wordplay: local_suffix",
       "category": "name",
       "match_count": 5,
-      "id": "col_22"
+      "id": "col_19"
     },
     {
       "type": "array_contains",
@@ -353,7 +255,7 @@
       "label": "Name contains 'inver'",
       "category": "name",
       "match_count": 6,
-      "id": "col_23"
+      "id": "col_20"
     },
     {
       "type": "array_contains",
@@ -362,45 +264,7 @@
       "label": "Name contains 'ness'",
       "category": "name",
       "match_count": 3,
-      "id": "col_24"
-    },
-    {
-      "type": "equals",
-      "field": "name_word_count",
-      "value": 1,
-      "label": "One-word name",
-      "category": "name",
-      "match_count": 64,
-      "id": "col_25"
-    },
-    {
-      "type": "range",
-      "field": "name_letter_count",
-      "label": "Short name (≤6 letters)",
-      "min": 0,
-      "max": 6,
-      "category": "name",
-      "match_count": 21,
-      "id": "col_26"
-    },
-    {
-      "type": "range",
-      "field": "name_letter_count",
-      "label": "Medium name (7-10 letters)",
-      "min": 7,
-      "max": 10,
-      "category": "name",
-      "match_count": 37,
-      "id": "col_27"
-    },
-    {
-      "type": "range",
-      "field": "name_letter_count",
-      "label": "Long name (11+ letters)",
-      "min": 11,
-      "category": "name",
-      "match_count": 17,
-      "id": "col_28"
+      "id": "col_21"
     }
   ]
 }

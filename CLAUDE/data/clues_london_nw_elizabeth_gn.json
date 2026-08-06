@@ -20,121 +20,50 @@
     },
     {
       "type": "equals",
-      "field": "region",
-      "value": "North London",
-      "label": "Region: North London",
-      "weight": "high",
-      "match_count": 17,
+      "field": "name_word_count",
+      "value": 1,
+      "label": "One-word name",
+      "weight": "medium",
+      "match_count": 46,
       "id": "row_2"
     },
     {
-      "type": "equals",
-      "field": "region",
-      "value": "East London",
-      "label": "Region: East London",
+      "type": "range",
+      "field": "name_word_count",
+      "min": 3,
+      "label": "Three or more words in name",
       "weight": "high",
-      "match_count": 9,
+      "match_count": 11,
       "id": "row_3"
     },
     {
-      "type": "equals",
-      "field": "region",
-      "value": "Central Bedfordshire",
-      "label": "Region: Central Bedfordshire",
+      "type": "range",
+      "field": "name_letter_count",
+      "label": "Short name (≤6 letters)",
+      "min": 0,
+      "max": 6,
       "weight": "high",
-      "match_count": 8,
+      "match_count": 5,
       "id": "row_4"
     },
     {
-      "type": "equals",
-      "field": "region",
-      "value": "Milton Keynes",
-      "label": "Region: Milton Keynes",
-      "weight": "high",
-      "match_count": 6,
+      "type": "range",
+      "field": "name_letter_count",
+      "label": "Medium name (7-10 letters)",
+      "min": 7,
+      "max": 10,
+      "weight": "medium",
+      "match_count": 56,
       "id": "row_5"
     },
     {
-      "type": "equals",
-      "field": "region",
-      "value": "Welwyn Hatfield",
-      "label": "Region: Welwyn Hatfield",
-      "weight": "high",
-      "match_count": 6,
+      "type": "range",
+      "field": "name_letter_count",
+      "label": "Long name (11+ letters)",
+      "min": 11,
+      "weight": "medium",
+      "match_count": 46,
       "id": "row_6"
-    },
-    {
-      "type": "equals",
-      "field": "region",
-      "value": "North East London",
-      "label": "Region: North East London",
-      "weight": "high",
-      "match_count": 6,
-      "id": "row_7"
-    },
-    {
-      "type": "equals",
-      "field": "region",
-      "value": "West London",
-      "label": "Region: West London",
-      "weight": "high",
-      "match_count": 5,
-      "id": "row_8"
-    },
-    {
-      "type": "equals",
-      "field": "region",
-      "value": "South Cambridgeshire",
-      "label": "Region: South Cambridgeshire",
-      "weight": "high",
-      "match_count": 5,
-      "id": "row_9"
-    },
-    {
-      "type": "equals",
-      "field": "region",
-      "value": "North Hertfordshire",
-      "label": "Region: North Hertfordshire",
-      "weight": "high",
-      "match_count": 5,
-      "id": "row_10"
-    },
-    {
-      "type": "equals",
-      "field": "region",
-      "value": "Dacorum",
-      "label": "Region: Dacorum",
-      "weight": "high",
-      "match_count": 4,
-      "id": "row_11"
-    },
-    {
-      "type": "range",
-      "field": "canonical_time_to_hub",
-      "max": 21.0,
-      "label": "Time to hub: shortest third",
-      "weight": "medium",
-      "match_count": 36,
-      "id": "row_12"
-    },
-    {
-      "type": "range",
-      "field": "canonical_time_to_hub",
-      "min": 21.0,
-      "max": 150.0,
-      "label": "Time to hub: middle third",
-      "weight": "medium",
-      "match_count": 38,
-      "id": "row_13"
-    },
-    {
-      "type": "range",
-      "field": "canonical_time_to_hub",
-      "min": 150.0,
-      "label": "Time to hub: longest third",
-      "weight": "medium",
-      "match_count": 36,
-      "id": "row_14"
     }
   ],
   "columnPool": [
@@ -229,31 +158,13 @@
       "id": "col_9"
     },
     {
-      "type": "equals",
-      "field": "is_interchange",
-      "value": true,
-      "label": "Interchange station",
-      "category": "service",
-      "match_count": 36,
-      "id": "col_10"
-    },
-    {
-      "type": "range",
-      "field": "terminus_max",
-      "min": 1,
-      "label": "Terminus station",
-      "category": "service",
-      "match_count": 26,
-      "id": "col_11"
-    },
-    {
       "type": "range",
       "field": "canonical_time_to_hub",
       "max": 21.0,
       "label": "Time to hub: shortest third",
       "category": "service",
       "match_count": 36,
-      "id": "col_12"
+      "id": "col_10"
     },
     {
       "type": "range",
@@ -263,7 +174,7 @@
       "label": "Time to hub: middle third",
       "category": "service",
       "match_count": 38,
-      "id": "col_13"
+      "id": "col_11"
     },
     {
       "type": "range",
@@ -272,7 +183,7 @@
       "label": "Time to hub: longest third",
       "category": "service",
       "match_count": 36,
-      "id": "col_14"
+      "id": "col_12"
     },
     {
       "type": "equals",
@@ -281,7 +192,7 @@
       "label": "Operator: London Northwestern Railway",
       "category": "route",
       "match_count": 36,
-      "id": "col_15"
+      "id": "col_13"
     },
     {
       "type": "equals",
@@ -290,7 +201,7 @@
       "label": "Operator: Elizabeth Line",
       "category": "route",
       "match_count": 20,
-      "id": "col_16"
+      "id": "col_14"
     },
     {
       "type": "equals",
@@ -299,7 +210,7 @@
       "label": "Operator: Great Northern",
       "category": "route",
       "match_count": 50,
-      "id": "col_17"
+      "id": "col_15"
     },
     {
       "type": "array_contains",
@@ -308,7 +219,7 @@
       "label": "Route: Fen Line",
       "category": "route",
       "match_count": 45,
-      "id": "col_18"
+      "id": "col_16"
     },
     {
       "type": "array_contains",
@@ -317,7 +228,7 @@
       "label": "Route: Great Northern",
       "category": "route",
       "match_count": 32,
-      "id": "col_19"
+      "id": "col_17"
     },
     {
       "type": "array_contains",
@@ -326,7 +237,7 @@
       "label": "Route: Elizabeth Line",
       "category": "route",
       "match_count": 20,
-      "id": "col_20"
+      "id": "col_18"
     },
     {
       "type": "array_contains",
@@ -335,7 +246,7 @@
       "label": "Route: Northern City Line",
       "category": "route",
       "match_count": 18,
-      "id": "col_21"
+      "id": "col_19"
     },
     {
       "type": "array_contains",
@@ -344,7 +255,7 @@
       "label": "Route: Marston Vale Line",
       "category": "route",
       "match_count": 11,
-      "id": "col_22"
+      "id": "col_20"
     },
     {
       "type": "array_contains",
@@ -353,7 +264,7 @@
       "label": "Route: Lioness Line",
       "category": "route",
       "match_count": 10,
-      "id": "col_23"
+      "id": "col_21"
     },
     {
       "type": "array_contains",
@@ -362,7 +273,7 @@
       "label": "Route: Northern Heights",
       "category": "route",
       "match_count": 9,
-      "id": "col_24"
+      "id": "col_22"
     },
     {
       "type": "array_contains",
@@ -371,7 +282,7 @@
       "label": "Route: Abbey Line",
       "category": "route",
       "match_count": 7,
-      "id": "col_25"
+      "id": "col_23"
     },
     {
       "type": "equals",
@@ -380,7 +291,7 @@
       "label": "Wordplay: local_suffix",
       "category": "name",
       "match_count": 38,
-      "id": "col_26"
+      "id": "col_24"
     },
     {
       "type": "equals",
@@ -389,7 +300,7 @@
       "label": "Wordplay: nature",
       "category": "name",
       "match_count": 18,
-      "id": "col_27"
+      "id": "col_25"
     },
     {
       "type": "equals",
@@ -398,7 +309,7 @@
       "label": "Wordplay: structure",
       "category": "name",
       "match_count": 8,
-      "id": "col_28"
+      "id": "col_26"
     },
     {
       "type": "array_contains",
@@ -407,7 +318,7 @@
       "label": "Name contains 'ton'",
       "category": "name",
       "match_count": 16,
-      "id": "col_29"
+      "id": "col_27"
     },
     {
       "type": "array_contains",
@@ -416,7 +327,7 @@
       "label": "Name contains 'ford'",
       "category": "name",
       "match_count": 10,
-      "id": "col_30"
+      "id": "col_28"
     },
     {
       "type": "array_contains",
@@ -425,7 +336,7 @@
       "label": "Name contains 'ey'",
       "category": "name",
       "match_count": 9,
-      "id": "col_31"
+      "id": "col_29"
     },
     {
       "type": "array_contains",
@@ -434,7 +345,7 @@
       "label": "Name contains 'park'",
       "category": "name",
       "match_count": 9,
-      "id": "col_32"
+      "id": "col_30"
     },
     {
       "type": "array_contains",
@@ -443,7 +354,7 @@
       "label": "Name contains 'ley'",
       "category": "name",
       "match_count": 6,
-      "id": "col_33"
+      "id": "col_31"
     },
     {
       "type": "array_contains",
@@ -452,7 +363,7 @@
       "label": "Name contains 'wood'",
       "category": "name",
       "match_count": 4,
-      "id": "col_34"
+      "id": "col_32"
     },
     {
       "type": "array_contains",
@@ -461,7 +372,7 @@
       "label": "Name contains 'heath'",
       "category": "name",
       "match_count": 4,
-      "id": "col_35"
+      "id": "col_33"
     },
     {
       "type": "array_contains",
@@ -470,7 +381,7 @@
       "label": "Name contains 'ington'",
       "category": "name",
       "match_count": 4,
-      "id": "col_36"
+      "id": "col_34"
     },
     {
       "type": "array_contains",
@@ -479,7 +390,7 @@
       "label": "Name contains 'worth'",
       "category": "name",
       "match_count": 4,
-      "id": "col_37"
+      "id": "col_35"
     },
     {
       "type": "array_contains",
@@ -488,7 +399,7 @@
       "label": "Name contains 'well'",
       "category": "name",
       "match_count": 3,
-      "id": "col_38"
+      "id": "col_36"
     },
     {
       "type": "array_contains",
@@ -497,7 +408,7 @@
       "label": "Name contains 'den'",
       "category": "name",
       "match_count": 3,
-      "id": "col_39"
+      "id": "col_37"
     },
     {
       "type": "array_contains",
@@ -506,7 +417,7 @@
       "label": "Name contains 'saint'",
       "category": "name",
       "match_count": 3,
-      "id": "col_40"
+      "id": "col_38"
     },
     {
       "type": "array_contains",
@@ -515,54 +426,7 @@
       "label": "Name contains 'hill'",
       "category": "name",
       "match_count": 3,
-      "id": "col_41"
-    },
-    {
-      "type": "equals",
-      "field": "name_word_count",
-      "value": 1,
-      "label": "One-word name",
-      "category": "name",
-      "match_count": 46,
-      "id": "col_42"
-    },
-    {
-      "type": "range",
-      "field": "name_word_count",
-      "min": 3,
-      "label": "Three or more words in name",
-      "category": "name",
-      "match_count": 11,
-      "id": "col_43"
-    },
-    {
-      "type": "range",
-      "field": "name_letter_count",
-      "label": "Short name (≤6 letters)",
-      "min": 0,
-      "max": 6,
-      "category": "name",
-      "match_count": 5,
-      "id": "col_44"
-    },
-    {
-      "type": "range",
-      "field": "name_letter_count",
-      "label": "Medium name (7-10 letters)",
-      "min": 7,
-      "max": 10,
-      "category": "name",
-      "match_count": 56,
-      "id": "col_45"
-    },
-    {
-      "type": "range",
-      "field": "name_letter_count",
-      "label": "Long name (11+ letters)",
-      "min": 11,
-      "category": "name",
-      "match_count": 46,
-      "id": "col_46"
+      "id": "col_39"
     }
   ]
 }

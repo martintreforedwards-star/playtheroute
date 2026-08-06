@@ -20,96 +20,50 @@
     },
     {
       "type": "equals",
-      "field": "region",
-      "value": "Central London",
-      "label": "Region: Central London",
-      "weight": "high",
-      "match_count": 3,
+      "field": "name_word_count",
+      "value": 1,
+      "label": "One-word name",
+      "weight": "medium",
+      "match_count": 34,
       "id": "row_2"
     },
     {
       "type": "range",
-      "field": "canonical_time_to_hub",
-      "max": 16.0,
-      "label": "Time to hub: shortest third",
-      "weight": "medium",
-      "match_count": 27,
+      "field": "name_word_count",
+      "min": 3,
+      "label": "Three or more words in name",
+      "weight": "high",
+      "match_count": 4,
       "id": "row_3"
     },
     {
       "type": "range",
-      "field": "canonical_time_to_hub",
-      "min": 16.0,
-      "max": 24.0,
-      "label": "Time to hub: middle third",
-      "weight": "medium",
-      "match_count": 38,
+      "field": "name_letter_count",
+      "label": "Short name (≤6 letters)",
+      "min": 0,
+      "max": 6,
+      "weight": "high",
+      "match_count": 6,
       "id": "row_4"
     },
     {
       "type": "range",
-      "field": "canonical_time_to_hub",
-      "min": 24.0,
-      "label": "Time to hub: longest third",
+      "field": "name_letter_count",
+      "label": "Medium name (7-10 letters)",
+      "min": 7,
+      "max": 10,
       "weight": "medium",
-      "match_count": 27,
+      "match_count": 42,
       "id": "row_5"
     },
     {
       "type": "range",
-      "field": "time_to_victoria",
-      "max": 21.0,
-      "label": "Time to Victoria: shortest third",
+      "field": "name_letter_count",
+      "label": "Long name (11+ letters)",
+      "min": 11,
       "weight": "medium",
-      "match_count": 30,
+      "match_count": 32,
       "id": "row_6"
-    },
-    {
-      "type": "range",
-      "field": "time_to_victoria",
-      "min": 21.0,
-      "max": 29.0,
-      "label": "Time to Victoria: middle third",
-      "weight": "medium",
-      "match_count": 29,
-      "id": "row_7"
-    },
-    {
-      "type": "range",
-      "field": "time_to_victoria",
-      "min": 29.0,
-      "label": "Time to Victoria: longest third",
-      "weight": "medium",
-      "match_count": 30,
-      "id": "row_8"
-    },
-    {
-      "type": "range",
-      "field": "time_to_charing_cross",
-      "max": 21.0,
-      "label": "Time to Charing Cross: shortest third",
-      "weight": "medium",
-      "match_count": 27,
-      "id": "row_9"
-    },
-    {
-      "type": "range",
-      "field": "time_to_charing_cross",
-      "min": 21.0,
-      "max": 28.0,
-      "label": "Time to Charing Cross: middle third",
-      "weight": "medium",
-      "match_count": 33,
-      "id": "row_10"
-    },
-    {
-      "type": "range",
-      "field": "time_to_charing_cross",
-      "min": 28.0,
-      "label": "Time to Charing Cross: longest third",
-      "weight": "medium",
-      "match_count": 27,
-      "id": "row_11"
     }
   ],
   "columnPool": [
@@ -123,31 +77,13 @@
       "id": "col_0"
     },
     {
-      "type": "equals",
-      "field": "is_interchange",
-      "value": true,
-      "label": "Interchange station",
-      "category": "service",
-      "match_count": 37,
-      "id": "col_1"
-    },
-    {
-      "type": "range",
-      "field": "terminus_max",
-      "min": 1,
-      "label": "Terminus station",
-      "category": "service",
-      "match_count": 22,
-      "id": "col_2"
-    },
-    {
       "type": "range",
       "field": "canonical_time_to_hub",
       "max": 16.0,
       "label": "Time to hub: shortest third",
       "category": "service",
       "match_count": 27,
-      "id": "col_3"
+      "id": "col_1"
     },
     {
       "type": "range",
@@ -157,7 +93,7 @@
       "label": "Time to hub: middle third",
       "category": "service",
       "match_count": 38,
-      "id": "col_4"
+      "id": "col_2"
     },
     {
       "type": "range",
@@ -166,7 +102,7 @@
       "label": "Time to hub: longest third",
       "category": "service",
       "match_count": 27,
-      "id": "col_5"
+      "id": "col_3"
     },
     {
       "type": "range",
@@ -175,7 +111,7 @@
       "label": "Time to Victoria: shortest third",
       "category": "service",
       "match_count": 30,
-      "id": "col_6"
+      "id": "col_4"
     },
     {
       "type": "range",
@@ -185,7 +121,7 @@
       "label": "Time to Victoria: middle third",
       "category": "service",
       "match_count": 29,
-      "id": "col_7"
+      "id": "col_5"
     },
     {
       "type": "range",
@@ -194,7 +130,7 @@
       "label": "Time to Victoria: longest third",
       "category": "service",
       "match_count": 30,
-      "id": "col_8"
+      "id": "col_6"
     },
     {
       "type": "range",
@@ -203,7 +139,7 @@
       "label": "Time to Charing Cross: shortest third",
       "category": "service",
       "match_count": 27,
-      "id": "col_9"
+      "id": "col_7"
     },
     {
       "type": "range",
@@ -213,7 +149,7 @@
       "label": "Time to Charing Cross: middle third",
       "category": "service",
       "match_count": 33,
-      "id": "col_10"
+      "id": "col_8"
     },
     {
       "type": "range",
@@ -222,7 +158,7 @@
       "label": "Time to Charing Cross: longest third",
       "category": "service",
       "match_count": 27,
-      "id": "col_11"
+      "id": "col_9"
     },
     {
       "type": "array_contains",
@@ -231,7 +167,7 @@
       "label": "Route: Dartford Loop",
       "category": "route",
       "match_count": 21,
-      "id": "col_12"
+      "id": "col_10"
     },
     {
       "type": "array_contains",
@@ -240,7 +176,7 @@
       "label": "Route: Sevenoaks Main Line",
       "category": "route",
       "match_count": 14,
-      "id": "col_13"
+      "id": "col_11"
     },
     {
       "type": "array_contains",
@@ -249,7 +185,7 @@
       "label": "Route: Catford Loop Extended",
       "category": "route",
       "match_count": 14,
-      "id": "col_14"
+      "id": "col_12"
     },
     {
       "type": "array_contains",
@@ -258,7 +194,7 @@
       "label": "Route: Sevenoaks Metro",
       "category": "route",
       "match_count": 13,
-      "id": "col_15"
+      "id": "col_13"
     },
     {
       "type": "array_contains",
@@ -267,7 +203,7 @@
       "label": "Route: Greenwich Line",
       "category": "route",
       "match_count": 12,
-      "id": "col_16"
+      "id": "col_14"
     },
     {
       "type": "array_contains",
@@ -276,7 +212,7 @@
       "label": "Route: Catford Corridor",
       "category": "route",
       "match_count": 11,
-      "id": "col_17"
+      "id": "col_15"
     },
     {
       "type": "array_contains",
@@ -285,7 +221,7 @@
       "label": "Route: Catford Loop",
       "category": "route",
       "match_count": 11,
-      "id": "col_18"
+      "id": "col_16"
     },
     {
       "type": "array_contains",
@@ -294,7 +230,7 @@
       "label": "Route: Bromley South Metro",
       "category": "route",
       "match_count": 10,
-      "id": "col_19"
+      "id": "col_17"
     },
     {
       "type": "array_contains",
@@ -303,7 +239,7 @@
       "label": "Route: Bexleyheath Line",
       "category": "route",
       "match_count": 9,
-      "id": "col_20"
+      "id": "col_18"
     },
     {
       "type": "array_contains",
@@ -312,7 +248,7 @@
       "label": "Route: Hayes Branch",
       "category": "route",
       "match_count": 9,
-      "id": "col_21"
+      "id": "col_19"
     },
     {
       "type": "array_contains",
@@ -321,7 +257,7 @@
       "label": "Route: Chatham Main Line Metro",
       "category": "route",
       "match_count": 6,
-      "id": "col_22"
+      "id": "col_20"
     },
     {
       "type": "array_contains",
@@ -330,7 +266,7 @@
       "label": "Route: Bromley South Main Line",
       "category": "route",
       "match_count": 5,
-      "id": "col_23"
+      "id": "col_21"
     },
     {
       "type": "array_contains",
@@ -339,7 +275,7 @@
       "label": "Route: Chatham Main Line",
       "category": "route",
       "match_count": 3,
-      "id": "col_24"
+      "id": "col_22"
     },
     {
       "type": "array_contains",
@@ -348,7 +284,7 @@
       "label": "Route: Bromley North Branch",
       "category": "route",
       "match_count": 3,
-      "id": "col_25"
+      "id": "col_23"
     },
     {
       "type": "equals",
@@ -357,7 +293,7 @@
       "label": "Wordplay: suffix",
       "category": "name",
       "match_count": 23,
-      "id": "col_26"
+      "id": "col_24"
     },
     {
       "type": "equals",
@@ -366,7 +302,7 @@
       "label": "Wordplay: nature",
       "category": "name",
       "match_count": 12,
-      "id": "col_27"
+      "id": "col_25"
     },
     {
       "type": "equals",
@@ -375,7 +311,7 @@
       "label": "Wordplay: place",
       "category": "name",
       "match_count": 6,
-      "id": "col_28"
+      "id": "col_26"
     },
     {
       "type": "equals",
@@ -384,7 +320,7 @@
       "label": "Wordplay: structure",
       "category": "name",
       "match_count": 4,
-      "id": "col_29"
+      "id": "col_27"
     },
     {
       "type": "array_contains",
@@ -393,7 +329,7 @@
       "label": "Name contains 'ham'",
       "category": "name",
       "match_count": 13,
-      "id": "col_30"
+      "id": "col_28"
     },
     {
       "type": "array_contains",
@@ -402,7 +338,7 @@
       "label": "Name contains 'ford'",
       "category": "name",
       "match_count": 6,
-      "id": "col_31"
+      "id": "col_29"
     },
     {
       "type": "array_contains",
@@ -411,7 +347,7 @@
       "label": "Name contains 'park'",
       "category": "name",
       "match_count": 6,
-      "id": "col_32"
+      "id": "col_30"
     },
     {
       "type": "array_contains",
@@ -420,7 +356,7 @@
       "label": "Name contains 'hill'",
       "category": "name",
       "match_count": 5,
-      "id": "col_33"
+      "id": "col_31"
     },
     {
       "type": "array_contains",
@@ -429,7 +365,7 @@
       "label": "Name contains 'wich'",
       "category": "name",
       "match_count": 4,
-      "id": "col_34"
+      "id": "col_32"
     },
     {
       "type": "array_contains",
@@ -438,7 +374,7 @@
       "label": "Name contains 'ton'",
       "category": "name",
       "match_count": 4,
-      "id": "col_35"
+      "id": "col_33"
     },
     {
       "type": "array_contains",
@@ -447,7 +383,7 @@
       "label": "Name contains 'wood'",
       "category": "name",
       "match_count": 4,
-      "id": "col_36"
+      "id": "col_34"
     },
     {
       "type": "array_contains",
@@ -456,7 +392,7 @@
       "label": "Name contains 'saint'",
       "category": "name",
       "match_count": 3,
-      "id": "col_37"
+      "id": "col_35"
     },
     {
       "type": "array_contains",
@@ -465,54 +401,7 @@
       "label": "Name contains 'green'",
       "category": "name",
       "match_count": 3,
-      "id": "col_38"
-    },
-    {
-      "type": "equals",
-      "field": "name_word_count",
-      "value": 1,
-      "label": "One-word name",
-      "category": "name",
-      "match_count": 34,
-      "id": "col_39"
-    },
-    {
-      "type": "range",
-      "field": "name_word_count",
-      "min": 3,
-      "label": "Three or more words in name",
-      "category": "name",
-      "match_count": 4,
-      "id": "col_40"
-    },
-    {
-      "type": "range",
-      "field": "name_letter_count",
-      "label": "Short name (≤6 letters)",
-      "min": 0,
-      "max": 6,
-      "category": "name",
-      "match_count": 6,
-      "id": "col_41"
-    },
-    {
-      "type": "range",
-      "field": "name_letter_count",
-      "label": "Medium name (7-10 letters)",
-      "min": 7,
-      "max": 10,
-      "category": "name",
-      "match_count": 42,
-      "id": "col_42"
-    },
-    {
-      "type": "range",
-      "field": "name_letter_count",
-      "label": "Long name (11+ letters)",
-      "min": 11,
-      "category": "name",
-      "match_count": 32,
-      "id": "col_43"
+      "id": "col_36"
     }
   ]
 }

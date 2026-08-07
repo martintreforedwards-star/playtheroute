@@ -1,0 +1,2564 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta
+  name="viewport"
+  content="width=device-width, initial-scale=1.0">
+
+<title>The Route</title>
+
+<link
+  rel="preconnect"
+  href="https://fonts.googleapis.com">
+
+<link
+  rel="preconnect"
+  href="https://fonts.gstatic.com"
+  crossorigin>
+
+<link
+  href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+  rel="stylesheet">
+
+<style>
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  background:
+    linear-gradient(
+      180deg,
+      #00133d 0%,
+      #000814 100%
+    );
+  color: white;
+}
+
+.container {
+  width: 100%;
+  max-width: 1180px;
+  margin: auto;
+  padding: 28px 20px 60px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 18px;
+  margin-bottom: 30px;
+}
+
+.logo {
+  width: 220px;
+  height: auto;
+  display: block;
+}
+
+.title-block h1 {
+  margin: 0;
+  font-size: clamp(
+    2.4rem,
+    5vw,
+    4.2rem
+  );
+  line-height: 1;
+  font-weight: 800;
+}
+.copyright-mark{
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+
+  width:0.75em;
+  height:0.75em;
+
+  margin-left:-0.03em;
+
+  border:1.5px solid currentColor;
+  border-radius:50%;
+
+  font-size:0.18em;
+  font-weight:700;
+
+  position:relative;
+  top:-0.55em;
+}
+.subtitle {
+  margin-top: 8px;
+  color: rgba(255,255,255,0.6);
+  font-size: 1rem;
+}
+
+.panel {
+  border: 1px solid rgba(
+    255,
+    255,
+    255,
+    0.18
+  );
+  background: rgba(
+    255,
+    255,
+    255,
+    0.02
+  );
+  padding: 24px;
+  margin-bottom: 26px;
+  border-radius: 22px;
+}
+
+.panel-title {
+  color: #22c55e;
+  font-size: 0.95rem;
+  font-weight: 800;
+  letter-spacing: 3px;
+  margin-bottom: 14px;
+  text-transform: uppercase;
+}
+
+.game-table-wrapper {
+  overflow-x: auto;
+}
+
+.game-table {
+  width: 100%;
+  min-width: 820px;
+  border-collapse: separate;
+  border-spacing: 10px;
+  table-layout: fixed;
+}
+
+.game-table th,
+.game-table td {
+  vertical-align: middle;
+}
+
+.top-heading {
+  text-align: center;
+  font-size: 1.5rem;
+  padding: 20px;
+}
+
+.side-heading {
+  width: 220px;
+  text-align: left;
+  border-radius: 20px;
+  background: rgba(
+    15,
+    23,
+    42,
+    0.95
+  );
+  padding: 18px;
+}
+
+.side-heading .p-label {
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.side-heading .p-clue {
+  font-size: 1rem;
+  line-height: 1.45;
+  color: rgba(
+    255,
+    255,
+    255,
+    0.92
+  );
+}
+
+.p1 {
+  color: #22c55e;
+}
+
+.p2 {
+  color: #60a5fa;
+}
+
+.col-heading {
+  font-size: 1rem;
+  line-height: 1.45;
+  text-align: center;
+  background: rgba(
+    15,
+    23,
+    42,
+    0.95
+  );
+  border-radius: 20px;
+  padding: 20px;
+}
+.game-grid {
+
+  display: grid;
+
+  grid-template-columns: 92px repeat(2, minmax(130px,1fr));
+
+  gap: 10px;
+
+  width: 100%;
+
+  align-items: stretch;
+
+}
+
+.corner {
+  background: transparent;
+}
+
+.column-header {
+
+  background: rgba(15,23,42,0.95);
+
+  border-radius: 18px;
+
+  padding: 8px 4px;
+
+  text-align: center;
+
+ height: 78px;
+
+  display: flex;
+
+  flex-direction: column;
+
+  justify-content: center;
+
+}
+
+.column-header strong {
+  font-size: 1.1rem;
+}
+
+.column-clue {
+
+  margin-top: 4px;
+
+  color: #d1d5db;
+
+  font-size: 0.58rem;
+
+  line-height: 1.25;
+
+}
+
+.row-header {
+
+  border-radius: 18px;
+
+  padding: 8px;
+
+  display: flex;
+
+  flex-direction: column;
+
+  justify-content: center;
+
+  align-items: center;
+
+  text-align: center;
+
+  height: 140px;
+
+}
+
+.row-header strong {
+
+  font-size: 0.85rem;
+
+  margin-bottom: 4px;
+
+}
+
+.row-header span {
+
+  font-size: 0.56rem;
+
+  line-height: 1.25;
+
+}
+
+.row-header.green,
+.row-header.blue {
+
+  background: rgba(15,23,42,0.95);
+
+  border-left: 4px solid;
+
+}
+
+.row-header.green {
+  border-color: #22c55e;
+}
+
+.row-header.blue {
+  border-color: #60a5fa;
+}
+.cell {
+  height: 140px;
+  cursor: pointer;
+  transition: 0.15s;
+  position: relative;
+  border-radius: 22px;
+  background: rgba(
+    10,
+    20,
+    50,
+    0.95
+  );
+  border: 2px solid #1d4ed8;
+}
+
+.cell:hover {
+  transform: translateY(-2px);
+  border-color: #3b82f6;
+}
+
+.cell.correct{
+  background:linear-gradient(
+    to bottom,
+    #0f172a 0%,
+    #0f172a 28%,
+    #74c08f 28%,
+    #69b483 100%
+  );
+  border:2px solid #7bd39f;
+  border-radius:8px;
+  box-shadow:none;
+}
+
+.cell.correct .station-name{
+  color:#04160c;
+  font-size:0.9rem;
+  font-weight:900;
+}
+
+.cell.correct .validation{
+  color:#0b2a16;
+  font-weight:800;
+}
+
+.cell.correct .cell-inner{
+  margin-top:14px;
+}
+
+.cell.correct::before{
+  content:"";
+  position:absolute;
+  top:8px;
+  left:12px;
+  right:12px;
+  height:18px;
+  background:repeating-linear-gradient(
+    to right,
+    rgba(190,220,245,.95) 0 24px,
+    transparent 24px 38px
+  );
+}
+
+.cell.correct::after{
+  content:"";
+  position:absolute;
+  left:0;
+  right:0;
+  bottom:8px;
+  height:7px;
+  background:#111827;
+}
+/* TRAIN HARDWARE */
+
+.bogie{
+  position:absolute;
+  bottom:-7px;
+  width:60px;
+  height:12px;
+  background:#05070a;
+  border-radius:4px;
+  z-index:1;
+}
+
+.bogie.left{
+  left:18px;
+}
+
+.bogie.right{
+  right:18px;
+}
+
+.wheel{
+  position:absolute;
+  width:14px;
+  height:14px;
+  border-radius:50%;
+  background:#05070a;
+  border:2px solid #000;
+  bottom:-9px;
+  z-index:1;
+}
+
+.wheel.l1{
+  left:20px;
+}
+
+.wheel.l2{
+  left:48px;
+}
+
+.wheel.r1{
+  right:48px;
+}
+
+.wheel.r2{
+  right:20px;
+}
+
+.coupling{
+  position:absolute;
+  bottom:-14px;
+  left:50%;
+  width:4px;
+  height:18px;
+  background:#111827;
+  transform:translateX(-50%);
+  z-index:5;
+}
+
+.cell.correct[data-index="0"],
+.cell.correct[data-index="1"]{
+  border-radius:22px 22px 8px 8px;
+}
+
+.cell.correct[data-index="6"],
+.cell.correct[data-index="7"]{
+  clip-path:polygon(
+    0 0,
+    100% 0,
+    100% 88%,
+    50% 100%,
+    0 88%
+  );
+}
+.cell.incorrect {
+  background: rgba(
+    140,
+    0,
+    0,
+    0.95
+  );
+  border-color: #ef4444;
+}
+
+.cell-inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  padding: 12px;
+}
+
+.station-name {
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1.4;
+  text-align: center;
+}
+
+.validation {
+  margin-top: 10px;
+  font-size: 0.72rem;
+  letter-spacing: 2px;
+  text-align: center;
+  opacity: 0.85;
+}
+
+.empty-label {
+  color: #94a3b8;
+  font-size: 0.9rem;
+  font-weight: 700;
+}
+
+.footer-row {
+  display: flex;
+  gap: 24px;
+  margin-top: 28px;
+  align-items: stretch;
+}
+
+.ticket-box {
+  flex: 1;
+  min-width: 220px;
+  border: 1px solid rgba(
+    255,
+    255,
+    255,
+    0.18
+  );
+  padding: 24px;
+  border-radius: 22px;
+  background: rgba(
+    15,
+    23,
+    42,
+    0.95
+  );
+}
+
+.ticket-title {
+  color: rgba(
+    255,
+    255,
+    255,
+    0.65
+  );
+  margin-bottom: 10px;
+}
+
+.ticket-number {
+  color: #22c55e;
+  font-size: 3rem;
+  font-weight: 800;
+}
+
+.submit-button {
+  flex: 2;
+  min-width: 260px;
+  border: none;
+  border-radius: 22px;
+  background: #22c55e;
+  color: white;
+  font-size: 1.5rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: opacity 0.15s;
+}
+
+.submit-button:hover {
+  opacity: 0.92;
+}
+
+.route-key {
+  margin-top: 28px;
+}
+
+.route-key p {
+  margin: 0;
+  font-size: 1rem;
+}
+
+.special-announcement {
+
+  margin-top: 28px;
+}
+
+.departure-board {
+  margin-top: 18px;
+  background: black;
+  color: #22ff66;
+  padding: 26px;
+  text-align: center;
+  font-family: monospace;
+  font-size: 2rem;
+  letter-spacing: 4px;
+}
+
+.modal {
+  position: fixed;
+  inset: 0;
+  background: rgba(
+    0,
+    0,
+    0,
+    0.8
+  );
+  display: none;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  z-index: 999;
+}
+
+.modal-box {
+  width: 100%;
+  max-width: 560px;
+  background: #07142f;
+  border: 1px solid rgba(
+    255,
+    255,
+    255,
+    0.15
+  );
+  padding: 24px;
+  max-height: 80vh;
+  overflow-y: auto;
+  border-radius: 24px;
+}
+
+.modal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 18px;
+}
+
+.close-button {
+  border: none;
+  background: #dc2626;
+  color: white;
+  width: 34px;
+  height: 34px;
+  cursor: pointer;
+  font-size: 1rem;
+  border-radius: 10px;
+}
+
+.search-box {
+  width: 100%;
+  padding: 16px;
+  border: none;
+  margin-bottom: 18px;
+  font-size: 1rem;
+  border-radius: 16px;
+}
+
+.station-option {
+  padding: 14px;
+  cursor: pointer;
+  border-bottom: 1px solid rgba(
+    255,
+    255,
+    255,
+    0.08
+  );
+}
+
+.station-option:hover {
+  background: rgba(
+    255,
+    255,
+    255,
+    0.05
+  );
+}
+
+@media (max-width: 760px) {
+
+  .container {
+    padding: 18px 14px 40px;
+  }
+
+  .panel {
+    padding: 18px;
+  }
+.game-grid {
+
+  grid-template-columns: 58px repeat(2, 1fr);
+
+  gap: 8px;
+
+}
+.row-header {
+  height: 82px;
+}
+.column-header {
+  height: 82px;
+}
+.row-header strong {
+  font-size: 0.6rem;
+}
+
+.row-header span {
+  font-size: 0.42rem;
+}
+.footer-row {
+    flex-direction: column;
+  }
+
+  .submit-button {
+    min-height: 84px;
+  }
+
+  .game-table {
+    border-spacing: 3px;
+  }
+
+  .side-heading {
+    width: 55px;
+    padding: 4px;
+  }
+
+  .side-heading .p-label {
+    font-size: 0.7rem;
+    margin-bottom: 4px;
+  }
+
+.side-heading .p-clue {
+  font-size: 0.62rem;
+  line-height: 1.2;
+}
+
+.col-heading {
+  font-size: 0.7rem;
+  padding: 6px;
+  line-height: 1.2;
+}
+
+.cell {
+  height: 82px;
+  border-radius: 14px;
+}
+
+  .cell-inner {
+    padding: 4px;
+  }
+
+.station-name {
+  font-size: 0.72rem;
+  line-height: 1.1;
+}
+
+  .validation {
+    margin-top: 4px;
+    font-size: 0.4rem;
+    letter-spacing: 1px;
+  }
+
+  .empty-label {
+    font-size: 0.65rem;
+  }
+
+}
+
+.footer-text {
+  text-align: center;
+  color: #6b7280;
+  font-size: 0.82rem;
+  line-height: 1.8;
+  margin: 40px auto;
+  width: 100%;
+}
+
+.footer-text a {
+  color: #9ca3af;
+  text-decoration: none;
+  transition: 0.2s;
+  margin: 0 6px;
+}
+
+.footer-text a:hover {
+  color: white;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="container">
+
+<div class="header">
+
+  <a href="/">
+    <img
+      src="CLAUDE/newlogo.svg"
+      class="logo"
+      alt="The Route">
+  </a>
+
+</div>
+
+
+  <div class="game-grid" id="gameGrid">
+
+  <div class="corner"></div>
+
+  <div class="column-header" style="border-left:4px solid #22c55e; background:rgba(15,23,42,0.95);">
+    <strong>Platform 1</strong>
+    <div class="column-clue" id="rowClue0"></div>
+  </div>
+
+  <div class="column-header" style="border-left:4px solid #60a5fa; background:rgba(15,23,42,0.95);">
+    <strong>Platform 2</strong>
+    <div class="column-clue" id="rowClue1"></div>
+  </div>
+
+  <div class="row-header">
+    <strong>A</strong>
+    <span id="colClue0"></span>
+  </div>
+  <div class="cell" data-index="0"></div>
+  <div class="cell" data-index="1"></div>
+
+  <div class="row-header">
+    <strong>B</strong>
+    <span id="colClue1"></span>
+  </div>
+  <div class="cell" data-index="2"></div>
+  <div class="cell" data-index="3"></div>
+
+  <div class="row-header">
+    <strong>C</strong>
+    <span id="colClue2"></span>
+  </div>
+  <div class="cell" data-index="4"></div>
+  <div class="cell" data-index="5"></div>
+
+  <div class="row-header">
+    <strong>D</strong>
+    <span id="colClue3"></span>
+  </div>
+  <div class="cell" data-index="6"></div>
+  <div class="cell" data-index="7"></div>
+
+</div>
+
+  <div class="footer-row">
+<div
+  class="ticket-box"
+  id="timerBox"
+  style="display:none;">
+
+  <div class="ticket-title">
+    Time Remaining
+  </div>
+
+  <div
+    class="ticket-number"
+    id="timerCount">
+
+    03:00
+
+  </div>
+
+</div>
+    <div class="ticket-box">
+
+      <div class="ticket-title">
+        Tickets remaining
+      </div>
+
+      <div
+        class="ticket-number"
+        id="ticketCount">
+
+        6
+
+      </div>
+
+    </div>
+
+    <button
+      class="submit-button"
+      id="submitButton">
+
+      Submit route
+
+    </button>
+
+  </div>
+<div
+    class="panel final-destination"
+    id="specialAnnouncement">
+
+    <div class="panel-title">
+      Landmark Challenge
+    </div>
+
+    <div id="lockedText">
+      🔒 LOCKED
+    </div>
+
+    <div
+      class="departure-board"
+      id="departureBoard">
+
+    </div>
+
+    <div id="stationCountText" style="display:none;margin-top:12px;text-align:center;font-weight:700;">
+    </div>
+    <div id="bonusStationPanel" style="display:none;margin-top:16px;text-align:center;">
+      <button class="submit-button" id="bonusSelectButton" style="min-width:auto;padding:12px 20px;font-size:1rem;">
+        Select Station
+      </button>
+      <div id="bonusSelectedStation" style="margin-top:12px;"></div>
+      <button class="submit-button" id="claimTicketButton" style="display:none;min-width:auto;padding:12px 20px;font-size:1rem;margin-top:12px;">
+        🎟 Claim Return Ticket
+      </button>
+      <div id="bonusMessage" style="margin-top:12px;font-weight:700;"></div>
+    </div>
+
+  </div>
+
+</div>
+
+<div
+  class="modal"
+  id="stationModal">
+
+  <div class="modal-box">
+
+    <div class="modal-header">
+
+      <strong>
+        Select station
+      </strong>
+
+      <button
+        class="close-button"
+        id="closeModal">
+
+        ✕
+
+      </button>
+
+    </div>
+
+    <input
+      type="text"
+      id="searchBox"
+      class="search-box"
+      placeholder="Search station...">
+
+    <div id="results"></div>
+
+  </div>
+
+</div>
+
+<script src="CLAUDE/data/daily_puzzle_selector.js"></script>
+<script>
+
+const boardState = [
+
+  { station: null, correct: null },
+  { station: null, correct: null },
+  { station: null, correct: null },
+  { station: null, correct: null },
+
+  { station: null, correct: null },
+  { station: null, correct: null },
+  { station: null, correct: null },
+  { station: null, correct: null }
+
+];
+
+const cells =
+  document.querySelectorAll(".cell");
+
+const modal =
+  document.getElementById(
+    "stationModal"
+  );
+
+const results =
+  document.getElementById(
+    "results"
+  );
+
+const searchBox =
+  document.getElementById(
+    "searchBox"
+  );
+
+let stations = [];
+let clueLibrary = null;
+let landmarkChallenges = [];
+let stationFacts = {};
+  
+let activeRows = [];
+let activeColumns = [];
+  
+let activeIndex = null;
+let bonusMode = false;
+let selectedBonusStation = null;
+
+let ticketsRemaining = 6;
+const params =
+  new URLSearchParams(
+    window.location.search
+  );
+
+const gameMode =
+  params.get("mode") ||
+  "standard";
+
+const network =
+  params.get("network") ||
+  "southeastern";
+
+let expressTimer = null;
+let timeRemaining = 180;
+
+let routeLocked = false;
+let gameOver = false;
+let returnTicketClaimed = false;
+
+function updateTicketDisplay() {
+  const el = document.getElementById("ticketCount");
+  if (el) {
+    el.textContent = String(ticketsRemaining);
+  }
+}
+function startExpressTimer() {
+
+  const timerBox =
+    document.getElementById(
+      "timerBox"
+    );
+
+  const timerCount =
+    document.getElementById(
+      "timerCount"
+    );
+
+  timerBox.style.display =
+    "block";
+
+  function renderTimer() {
+
+    const minutes =
+      String(
+        Math.floor(
+          timeRemaining / 60
+        )
+      ).padStart(2, "0");
+
+    const seconds =
+      String(
+        timeRemaining % 60
+      ).padStart(2, "0");
+
+    timerCount.textContent =
+      `${minutes}:${seconds}`;
+
+  }
+
+  renderTimer();
+
+  expressTimer = setInterval(() => {
+
+    if (gameOver) {
+
+      clearInterval(
+        expressTimer
+      );
+
+      return;
+
+    }
+
+    timeRemaining--;
+
+    renderTimer();
+
+    if (timeRemaining <= 0) {
+
+      clearInterval(
+        expressTimer
+      );
+
+      ticketsRemaining = 0;
+
+      updateTicketDisplay();
+
+      alert(
+        "⏱ The express service has departed!"
+      );
+
+      endGame();
+
+    }
+
+  }, 1000);
+
+}
+  function endGame() {
+
+  gameOver = true;
+  routeLocked = true;
+
+  document.getElementById(
+    "submitButton"
+  ).disabled = true;
+
+  const bonusSelect =
+    document.getElementById(
+      "bonusSelectButton"
+    );
+
+  if (bonusSelect) {
+    bonusSelect.disabled = true;
+  }
+
+  const claimButton =
+    document.getElementById(
+      "claimTicketButton"
+    );
+
+  if (claimButton) {
+    claimButton.disabled = true;
+  }
+
+showResultsModal(false);
+
+}
+ function pickRandom(array, count) {
+
+  const shuffled =
+    [...array].sort(
+      () => Math.random() - 0.5
+    );
+
+  return shuffled.slice(
+    0,
+    count
+  );
+ }
+function weightedPick(pool) {
+
+  const weights = {
+  high: 6,
+  medium: 3,
+  low: 1
+};
+
+  const expanded = [];
+
+  pool.forEach(clue => {
+
+    const weight =
+      weights[
+        clue.weight || "medium"
+      ] || 1;
+
+    for (
+      let i = 0;
+      i < weight;
+      i++
+    ) {
+      expanded.push(clue);
+    }
+
+  });
+
+  return expanded[
+    Math.floor(
+      Math.random() *
+      expanded.length
+    )
+  ];
+
+}
+
+function weightedUniquePick(
+  pool,
+  count
+) {
+
+  const selected = [];
+
+  while (
+    selected.length < count
+  ) {
+
+    const clue =
+      weightedPick(pool);
+
+    if (
+      !selected.includes(clue)
+    ) {
+
+      selected.push(clue);
+
+    }
+
+  }
+
+  return selected;
+
+}
+
+function columnRulePasses(station, clue) {
+
+  if (clue.type === "array_contains") {
+
+    return (
+      Array.isArray(station[clue.field]) &&
+      station[clue.field].includes(clue.value)
+    );
+
+  }
+
+  if (clue.type === "range") {
+
+    const value =
+      Number(station[clue.field]);
+
+    if (
+      clue.min !== undefined &&
+      value < clue.min
+    ) {
+      return false;
+    }
+
+    if (
+      clue.max !== undefined &&
+      value > clue.max
+    ) {
+      return false;
+    }
+
+    return true;
+
+  }
+
+  if (clue.type === "contains") {
+
+    return String(
+      station[clue.field]
+    )
+      .toLowerCase()
+      .includes(
+        clue.value.toLowerCase()
+      );
+
+  }
+
+  return (
+    station[clue.field] ===
+    clue.value
+  );
+
+}
+function boardIsPlayable(rows, columns) {
+
+  for (let r = 0; r < 2; r++) {
+
+    for (let c = 0; c < 4; c++) {
+
+      const matches = stations.filter(station => {
+
+        const rowPass =
+          station[rows[r].field] === rows[r].value;
+
+        const colPass =
+          columnRulePasses(station, columns[c]);
+
+        return rowPass && colPass;
+
+      });
+
+      if (matches.length === 0) {
+        return false;
+      }
+
+    }
+
+  }
+
+  return true;
+}
+// ======================================================
+// NETWORK CONFIGURATION
+// Every network is defined here.
+// No other part of this file should contain network-specific paths.
+// ======================================================
+const NETWORKS = {
+  c2c_ga: {
+    stations: "CLAUDE/data/board_c2c_ga.json",
+    clues: "CLAUDE/data/clues_c2c_ga.json",
+    puzzlebank: "CLAUDE/data/puzzlebank_c2c_ga.json",
+    landmarks: "CLAUDE/data/c2c_ga_landmarks.json"
+  },
+
+  chiltern_wmr: {
+    stations: "CLAUDE/data/board_chiltern_wmr.json",
+    clues: "CLAUDE/data/clues_chiltern_wmr.json",
+    puzzlebank: "CLAUDE/data/puzzlebank_chiltern_wmr.json",
+    landmarks: "CLAUDE/data/chiltern_wmr_landmarks.json"
+  },
+
+  east_midlands_emr: {
+    stations: "CLAUDE/data/board_east_midlands_emr.json",
+    clues: "CLAUDE/data/clues_east_midlands_emr.json",
+    puzzlebank: "CLAUDE/data/puzzlebank_east_midlands_emr.json",
+    landmarks: "CLAUDE/data/east_midlands_emr_landmarks.json"
+  },
+
+  edinburgh_scotrail: {
+    stations: "CLAUDE/data/board_edinburgh_scotrail.json",
+    clues: "CLAUDE/data/clues_edinburgh_scotrail.json",
+    puzzlebank: "CLAUDE/data/puzzlebank_edinburgh_scotrail.json",
+    landmarks: "CLAUDE/data/edinburgh_scotrail_landmarks.json"
+  },
+
+  glasgow_scotrail: {
+    stations: "CLAUDE/data/board_glasgow_scotrail.json",
+    clues: "CLAUDE/data/clues_glasgow_scotrail.json",
+    puzzlebank: "CLAUDE/data/puzzlebank_glasgow_scotrail.json",
+    landmarks: "CLAUDE/data/glasgow_scotrail_landmarks.json"
+  },
+
+  gwr_london: {
+    stations: "CLAUDE/data/board_gwr_london.json",
+    clues: "CLAUDE/data/clues_gwr_london.json",
+    puzzlebank: "CLAUDE/data/puzzlebank_gwr_london.json",
+    landmarks: "CLAUDE/data/gwr_london_landmarks.json"
+  },
+
+  gwr_wales_corridor: {
+    stations: "CLAUDE/data/board_gwr_wales_corridor.json",
+    clues: "CLAUDE/data/clues_gwr_wales_corridor.json",
+    puzzlebank: "CLAUDE/data/puzzlebank_gwr_wales_corridor.json",
+    landmarks: "CLAUDE/data/gwr_wales_corridor_landmarks.json"
+  },
+
+  highlands_ne_scotrail: {
+    stations: "CLAUDE/data/board_highlands_ne_scotrail.json",
+    clues: "CLAUDE/data/clues_highlands_ne_scotrail.json",
+    puzzlebank: "CLAUDE/data/puzzlebank_highlands_ne_scotrail.json",
+    landmarks: "CLAUDE/data/highlands_ne_scotrail_landmarks.json"
+  },
+
+  leeds_sheffield_northern: {
+    stations: "CLAUDE/data/board_leeds_sheffield_northern.json",
+    clues: "CLAUDE/data/clues_leeds_sheffield_northern.json",
+    puzzlebank: "CLAUDE/data/puzzlebank_leeds_sheffield_northern.json",
+    landmarks: "CLAUDE/data/leeds_sheffield_northern_landmarks.json"
+  },
+
+  liverpool_merseyside: {
+    stations: "CLAUDE/data/board_liverpool_merseyside.json",
+    clues: "CLAUDE/data/clues_liverpool_merseyside.json",
+    puzzlebank: "CLAUDE/data/puzzlebank_liverpool_merseyside.json",
+    landmarks: "CLAUDE/data/liverpool_merseyside_landmarks.json"
+  },
+
+  london_nw_elizabeth_gn: {
+    stations: "CLAUDE/data/board_london_nw_elizabeth_gn.json",
+    clues: "CLAUDE/data/clues_london_nw_elizabeth_gn.json",
+    puzzlebank: "CLAUDE/data/puzzlebank_london_nw_elizabeth_gn.json",
+    landmarks: "CLAUDE/data/london_nw_elizabeth_gn_landmarks.json"
+  },
+
+  london_overground: {
+    stations: "CLAUDE/data/board_london_overground.json",
+    clues: "CLAUDE/data/clues_london_overground.json",
+    puzzlebank: "CLAUDE/data/puzzlebank_london_overground.json",
+    landmarks: "CLAUDE/data/london_overground_landmarks.json"
+  },
+
+  manchester_northern: {
+    stations: "CLAUDE/data/board_manchester_northern.json",
+    clues: "CLAUDE/data/clues_manchester_northern.json",
+    puzzlebank: "CLAUDE/data/puzzlebank_manchester_northern.json",
+    landmarks: "CLAUDE/data/manchester_northern_landmarks.json"
+  },
+
+  newcastle_northern: {
+    stations: "CLAUDE/data/board_newcastle_northern.json",
+    clues: "CLAUDE/data/clues_newcastle_northern.json",
+    puzzlebank: "CLAUDE/data/puzzlebank_newcastle_northern.json",
+    landmarks: "CLAUDE/data/newcastle_northern_landmarks.json"
+  },
+
+  semainline: {
+    stations: "CLAUDE/data/board_semainline.json",
+    clues: "CLAUDE/data/clues_semainline.json",
+    puzzlebank: "CLAUDE/data/puzzlebank_semainline.json",
+    landmarks: "CLAUDE/data/semainline_landmarks.json"
+  },
+
+  semetro: {
+    stations: "CLAUDE/data/board_semetro.json",
+    clues: "CLAUDE/data/clues_semetro.json",
+    puzzlebank: "CLAUDE/data/puzzlebank_semetro.json",
+    landmarks: "CLAUDE/data/semetro_landmarks.json"
+  },
+
+  shrewsbury_wrexham_chester: {
+    stations: "CLAUDE/data/board_shrewsbury_wrexham_chester.json",
+    clues: "CLAUDE/data/clues_shrewsbury_wrexham_chester.json",
+    puzzlebank: "CLAUDE/data/puzzlebank_shrewsbury_wrexham_chester.json",
+    landmarks: "CLAUDE/data/shrewsbury_wrexham_chester_landmarks.json"
+  },
+
+  south_western: {
+    stations: "CLAUDE/data/board_south_western.json",
+    clues: "CLAUDE/data/clues_south_western.json",
+    puzzlebank: "CLAUDE/data/puzzlebank_south_western.json",
+    landmarks: "CLAUDE/data/south_western_landmarks.json"
+  },
+
+  tfw_cymraeg: {
+    stations: "CLAUDE/data/board_tfw_cymraeg.json",
+    clues: "CLAUDE/data/clues_tfw_cymraeg.json",
+    puzzlebank: "CLAUDE/data/puzzlebank_tfw_cymraeg.json",
+    landmarks: "CLAUDE/data/tfw_cymraeg_landmarks.json"
+  },
+
+  thameslink_southern: {
+    stations: "CLAUDE/data/board_thameslink_southern.json",
+    clues: "CLAUDE/data/clues_thameslink_southern.json",
+    puzzlebank: "CLAUDE/data/puzzlebank_thameslink_southern.json",
+    landmarks: "CLAUDE/data/thameslink_southern_landmarks.json"
+  }
+
+};
+
+const files = NETWORKS[network];
+Promise.all([
+  fetch(files.stations).then(r => r.json()),
+  fetch(files.clues).then(r => r.json()),
+  fetch(files.puzzlebank).then(r => r.json()),
+  fetch(files.landmarks).then(r => r.json()).catch(() => [])
+])
+.then(([stationData, clueData, puzzleBank, landmarkData]) => {
+
+stations = stationData;
+clueLibrary = clueData;
+// older data used "label", the renderer expects "display" - normalize both
+[...clueLibrary.rowPool, ...clueLibrary.columnPool].forEach(c => {
+  if (c.display === undefined) c.display = c.label;
+});
+landmarkChallenges = landmarkData;
+// station-facts lookup is built straight from the landmark data (each entry
+// already carries closest_station + facts) - no separate file needed
+stationFacts = {};
+landmarkData.forEach(entry => {
+  stationFacts[entry.closest_station] = entry;
+});
+
+const byId = id => clueLibrary.rowPool.find(c => c.id === id) || clueLibrary.columnPool.find(c => c.id === id);
+const todaysPuzzle = getTodaysPuzzle(network, puzzleBank);
+activeRows = todaysPuzzle.rows.map(byId);
+activeColumns = todaysPuzzle.columns.map(byId);
+
+let attempts = 0;
+const WORD_GROUPS = {
+
+  nature: [
+    "wood",
+    "woods",
+    "hill",
+    "green",
+    "park",
+    "heath",
+    "grove",
+    "oak",
+    "elm",
+    "ash"
+  ],
+
+  water: [
+    "bay",
+    "sea",
+    "brook",
+    "river",
+    "mere",
+    "marsh",
+    "quay",
+    "harbour"
+  ],
+
+  direction: [
+    "north",
+    "south",
+    "east",
+    "west"
+  ],
+
+  settlement: [
+    "town",
+    "village",
+    "road",
+    "street",
+    "gate",
+    "cross",
+    "bridge"
+  ],
+
+  religious: [
+    "st",
+    "saint",
+    "abbey",
+    "priory",
+    "church"
+  ]
+
+};
+function cluePasses(clue, station) {
+
+  if (clue.type === "array_contains") {
+
+    return (
+      Array.isArray(station[clue.field]) &&
+      station[clue.field].includes(clue.value)
+    );
+
+  }
+
+  if (clue.type === "range") {
+
+    const value =
+      Number(station[clue.field]);
+
+    if (
+      clue.min !== undefined &&
+      value < clue.min
+    ) {
+      return false;
+    }
+
+    if (
+      clue.max !== undefined &&
+      value > clue.max
+    ) {
+      return false;
+    }
+
+    return true;
+
+  }
+
+  if (clue.type === "contains") {
+
+    return String(
+      station[clue.field]
+    )
+      .toLowerCase()
+      .includes(
+        clue.value.toLowerCase()
+      );
+
+  }
+
+  return (
+    station[clue.field] ===
+    clue.value
+  );
+if (clue.type === "word_group") {
+
+  const text =
+    String(
+      station[clue.field]
+    ).toLowerCase();
+
+  return WORD_GROUPS[
+    clue.group
+  ].some(
+    word => text.includes(
+      word.toLowerCase()
+    )
+  );
+
+}
+}
+function intersectionCount(rowClue, columnClue) {
+  return stations.filter(
+    station =>
+      cluePasses(rowClue, station) &&
+      cluePasses(columnClue, station)
+  ).length;
+}
+
+function pickPlayableColumn(pool, rowClues, minMatches = 2) {
+
+  const candidates = pool.filter(columnClue =>
+
+    rowClues.every(rowClue =>
+      intersectionCount(rowClue, columnClue) >= minMatches
+    )
+
+  );
+
+  if (candidates.length === 0) {
+    console.warn("No playable columns found");
+    return weightedPick(pool);
+  }
+
+  return weightedPick(candidates);
+}
+// board is precomputed for the day by getTodaysPuzzle() above - no live generation needed
+
+document.getElementById(
+  "rowClue0"
+).textContent =
+  activeRows[0].display;
+
+document.getElementById(
+  "rowClue1"
+).textContent =
+  activeRows[1].display;
+
+document.getElementById(
+  "colClue0"
+).textContent =
+  activeColumns[0].display;
+
+document.getElementById(
+  "colClue1"
+).textContent =
+  activeColumns[1].display;
+
+document.getElementById(
+  "colClue2"
+).textContent =
+  activeColumns[2].display;
+
+document.getElementById(
+  "colClue3"
+).textContent =
+  activeColumns[3].display;
+  if (
+    gameMode === "express"
+  ) {
+
+    startExpressTimer();
+
+    const ticketBox =
+      document.querySelectorAll(
+        ".ticket-box"
+      )[1];
+
+    if (ticketBox) {
+
+      ticketBox.style.display =
+        "none";
+
+    }
+
+  }
+
+})
+
+.catch(error => {
+
+  console.log(error);
+
+  alert(
+    "JSON FAILED TO LOAD"
+  );
+
+});
+
+function renderBoard() {
+
+  cells.forEach((cell, index) => {
+
+    const state =
+      boardState[index];
+
+    cell.classList.remove(
+      "correct",
+      "incorrect"
+    );
+
+    if (state.correct === true) {
+
+      cell.classList.add(
+        "correct"
+      );
+
+    }
+
+    if (state.correct === false) {
+
+      cell.classList.add(
+        "incorrect"
+      );
+
+    }
+
+if (!state.station) {
+
+  cell.innerHTML = `
+    <div class="cell-inner">
+      <div class="empty-label">
+        Select Station
+      </div>
+    </div>
+  `;
+
+  return;
+
+}
+
+    const label =
+      state.correct === true
+        ? "VALID"
+        : state.correct === false
+          ? "INVALID"
+          : "ARRIVING";
+
+    // Train hardware: only correct cells get wheels/bogies. Platforms now
+    // run as vertical columns (index, index+2, index+4, index+6), so a
+    // coupling only renders between a cell and the one directly BELOW it
+    // in the same platform column, when both are correct.
+    const nextDown = (index + 2 < 8) ? boardState[index + 2] : null;
+    const nextCorrect = !!nextDown && nextDown.correct === true;
+
+    const trainHardware = state.correct === true
+      ? `
+        <div class="bogie left"></div>
+        <div class="bogie right"></div>
+        <div class="wheel l1"></div>
+        <div class="wheel l2"></div>
+        <div class="wheel r1"></div>
+        <div class="wheel r2"></div>
+        ${nextCorrect ? '<div class="coupling"></div>' : ""}
+      `
+      : "";
+
+    cell.innerHTML = `
+
+      <div class="cell-inner">
+
+        <div class="station-name">
+          ${state.station.station_name}
+        </div>
+
+        <div class="validation">
+          ${label}
+        </div>
+
+      </div>
+      ${trainHardware}
+
+    `;
+
+  });
+
+}
+
+cells.forEach(cell => {
+
+cell.addEventListener(
+  "click",
+  () => {
+
+    if (routeLocked || gameOver) {
+      return;
+    }
+
+      activeIndex =
+        Number(
+          cell.dataset.index
+        );
+
+      modal.style.display =
+        "flex";
+
+      renderStations(
+        stations
+      );
+
+      searchBox.value = "";
+
+      setTimeout(() => {
+
+        searchBox.focus();
+
+      }, 50);
+
+    }
+
+  );
+
+});
+
+function renderStations(list) {
+
+  results.innerHTML = "";
+
+  list
+    .sort((a, b) =>
+      a.station_name.localeCompare(
+        b.station_name
+      )
+    )
+
+    .forEach(station => {
+
+      const option =
+        document.createElement(
+          "div"
+        );
+
+      option.className =
+        "station-option";
+
+      option.textContent =
+        `${station.station_name} (${station.crs})`;
+
+option.onclick = () => {
+
+
+  if (bonusMode) {
+
+    selectedBonusStation = station;
+
+    document.getElementById(
+      "bonusSelectedStation"
+    ).textContent =
+      "Selected: " +
+      station.station_name;
+
+    document.getElementById(
+      "claimTicketButton"
+    ).style.display =
+      "inline-block";
+
+    bonusMode = false;
+
+    closeModal();
+
+    return;
+
+  }
+
+  boardState[
+    activeIndex
+  ].station = station;
+
+  boardState[
+    activeIndex
+  ].correct = null;
+
+  renderBoard();
+
+  closeModal();
+
+      };
+
+      results.appendChild(
+        option
+      );
+
+    });
+
+}
+  function getStationFact(stationName) {
+
+  const factData = stationFacts[stationName];
+
+  if (!factData || !factData.facts || !factData.facts.length) {
+    return "";
+  }
+
+  return `${factData.landmark} (${factData.distance_km}km away) - ${factData.facts[0]}`;
+
+}
+
+function showResultsModal(win = false) {
+
+  let title =
+    "🚧 Rail Replacement Service";
+
+  let desc =
+    "Buses have been requested.";
+
+  if (win) {
+
+    if (ticketsRemaining >= 7) {
+
+      title =
+        "👑 First Class Passenger";
+
+      desc =
+        "Complimentary coffee and a guaranteed seat.";
+
+    }
+
+    else if (ticketsRemaining >= 5) {
+
+      title =
+        "🥂 Season Ticket Holder";
+
+      desc =
+        "Knows exactly which carriage stops by the exit.";
+
+    }
+
+    else if (ticketsRemaining >= 3) {
+
+      title =
+        "💼 Daily Commuter";
+
+      desc =
+        "Delayed, but still arrived on time.";
+
+    }
+
+    else {
+
+      title =
+        "🚉 Regular Traveller";
+
+      desc =
+        "A reliable journey with a few unexpected stops.";
+
+    }
+
+  }
+
+  document.getElementById(
+    "resultsClass"
+  ).textContent = title;
+
+  document.getElementById(
+    "resultsDesc"
+  ).textContent = desc;
+
+  document.getElementById(
+    "resultsTickets"
+  ).textContent =
+    "Tickets Remaining: " +
+    ticketsRemaining;
+
+  document.getElementById(
+    "resultsModal"
+  ).style.display = "flex";
+
+}
+function closeModal() {
+
+  modal.style.display =
+    "none";
+
+}
+
+function validateCell(
+  station,
+  row,
+  column,
+  usedStations
+) {
+
+  let valid = true;
+
+const rowClue =
+  activeRows[row];
+  
+if (
+  station[rowClue.field] !==
+  rowClue.value
+) {
+
+  valid = false;
+
+}
+
+const clue =
+  activeColumns[column];
+if (clue.type === "array_contains") {
+
+  if (
+    !Array.isArray(station[clue.field]) ||
+    !station[clue.field].includes(clue.value)
+  ) {
+
+    valid = false;
+
+  }
+
+}
+else if (clue.type === "range") {
+
+  const value =
+    Number(
+      station[clue.field]
+    );
+
+  if (
+    clue.min !== undefined &&
+    value < clue.min
+  ) {
+
+    valid = false;
+
+  }
+
+  if (
+    clue.max !== undefined &&
+    value > clue.max
+  ) {
+
+    valid = false;
+
+  }
+
+}
+else if (
+  clue.type === "contains"
+) {
+
+  const text =
+    String(
+      station[clue.field]
+    ).toLowerCase();
+
+  if (
+    !text.includes(
+      clue.value.toLowerCase()
+    )
+  ) {
+
+    valid = false;
+
+  }
+
+}
+
+else {
+
+  if (
+    station[clue.field] !==
+    clue.value
+  ) {
+
+    valid = false;
+
+  }
+
+}
+
+  if (
+    usedStations.includes(
+      station.station_name
+    )
+  ) {
+
+    valid = false;
+
+  }
+
+  return valid;
+
+}
+
+function startSplitFlapReveal(
+  finalText
+) {
+
+  const board =
+    document.getElementById(
+      "departureBoard"
+    );
+
+  const chars =
+    "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789+- ";
+
+  let frame = 0;
+
+  const timer =
+    setInterval(() => {
+
+      let display = "";
+
+      for (
+        let i = 0;
+        i < finalText.length;
+        i++
+      ) {
+
+        if (
+          frame > i * 2
+        ) {
+
+          display += finalText[i];
+
+        } else {
+
+          display += chars[
+            Math.floor(
+              Math.random() * chars.length
+            )
+          ];
+
+        }
+
+      }
+
+      board.innerHTML = display;
+
+      frame++;
+
+      if (
+        frame >
+        finalText.length * 2
+      ) {
+
+        clearInterval(timer);
+
+        board.innerHTML = finalText;
+
+      }
+
+    }, 80);
+
+}
+
+function submitBoard() {
+
+  let filledCount = 0;
+
+  boardState.forEach(cell => {
+
+    if (cell.station) {
+
+      filledCount++;
+
+    }
+
+  });
+
+  if (filledCount < 8) {
+
+    alert(
+      "Please fill all 8 stations before submitting."
+    );
+
+    return;
+
+  }
+
+  let usedStations = [];
+
+  let validCount = 0;
+
+  let hasErrors = false;
+
+  boardState.forEach(
+    (cell, index) => {
+
+      const row =
+        index % 2;
+
+      const column =
+        Math.floor(index / 2);
+
+      const valid =
+        validateCell(
+          cell.station,
+          row,
+          column,
+          usedStations
+        );
+
+      if (valid) {
+
+        validCount++;
+
+        usedStations.push(
+          cell.station.station_name
+        );
+
+      } else {
+
+        hasErrors = true;
+
+      }
+
+      cell.correct = valid;
+
+    }
+
+  );
+
+  if (hasErrors) {
+
+    ticketsRemaining =
+      Math.max(
+        0,
+        ticketsRemaining - 1
+      );
+
+  }
+
+  document.getElementById(
+    "ticketCount"
+  ).textContent =
+    ticketsRemaining;
+
+  renderBoard();
+
+if (
+  ticketsRemaining === 0 &&
+  validCount < 8
+) {
+
+  endGame();
+  return;
+
+}
+
+if (
+  validCount === 8
+) {
+
+  document.getElementById(
+    "submitButton"
+  ).disabled = true;
+
+  routeLocked = true;
+    
+
+returnTicketClaimed = false;
+
+const challenge =
+  landmarkChallenges[
+    Math.floor(
+      Math.random() *
+      landmarkChallenges.length
+    )
+  ];
+
+window.currentLandmarkChallenge =
+  challenge;
+
+document.getElementById(
+  "lockedText"
+).style.display = "none";
+
+startSplitFlapReveal(
+  challenge.landmark
+);
+
+document.getElementById(
+  "stationCountText"
+).style.display = "block";
+
+document.getElementById(
+  "stationCountText"
+).textContent =
+  "Which Southeastern station is closest to this landmark?";
+
+document.getElementById(
+  "bonusStationPanel"
+).style.display = "block";
+
+  }
+
+}
+
+document.getElementById(
+    "submitButton"
+  )
+  .addEventListener(
+    "click",
+    submitBoard
+  );
+
+document
+  .getElementById(
+    "closeModal"
+  )
+  .addEventListener(
+    "click",
+    closeModal
+  );
+
+searchBox.addEventListener(
+  "keyup",
+  () => {
+
+    const query =
+      searchBox.value
+        .toLowerCase();
+
+    const filtered =
+      stations.filter(station =>
+
+        station.station_name
+          .toLowerCase()
+          .includes(query)
+
+      );
+
+    renderStations(
+      filtered
+    );
+
+  }
+
+);
+
+modal.addEventListener(
+  "click",
+  event => {
+
+    if (
+      event.target === modal
+    ) {
+
+      closeModal();
+
+    }
+
+  }
+
+);
+
+document.getElementById(
+  "bonusSelectButton"
+).addEventListener(
+  "click",
+  () => {
+
+    if (gameOver) {
+      return;
+    }
+
+    bonusMode = true;
+
+    searchBox.value = "";
+
+    modal.style.display =
+      "flex";
+
+    renderStations(
+      stations
+    );
+
+    searchBox.focus();
+
+  }
+);
+
+document.getElementById(
+  "claimTicketButton"
+).addEventListener(
+  "click",
+  () => {
+
+    if (!selectedBonusStation) return;
+if (returnTicketClaimed) return;
+    const valid =
+  selectedBonusStation.station_name ===
+  window.currentLandmarkChallenge.closest_station;
+
+    if (!valid) {
+
+      ticketsRemaining = Math.max(0, ticketsRemaining - 1);
+
+      updateTicketDisplay();
+
+      document.getElementById(
+        "bonusMessage"
+      ).innerHTML =
+        `❌ Incorrect station (-1 ticket)<br><br>
+         Correct answer:
+         <strong>${window.currentLandmarkChallenge.closest_station}</strong>`;
+
+   if (ticketsRemaining === 0) {
+
+  document.getElementById(
+    "bonusMessage"
+  ).textContent =
+    "❌ No tickets remaining";
+
+  endGame();
+  return;
+
+}
+
+      return;
+
+    }
+
+returnTicketClaimed = true;
+
+ticketsRemaining++;
+
+updateTicketDisplay();
+
+    document.getElementById(
+      "bonusMessage"
+    ).textContent =
+      "🎟 RETURN TICKET EARNED";
+
+    showResultsModal(true);
+    document.getElementById(
+  "bonusSelectButton"
+).style.display = "none";
+
+document.getElementById(
+  "claimTicketButton"
+).style.display = "none";
+
+document.getElementById(
+  "bonusSelectedStation"
+).style.display = "none";
+const fact =
+  getStationFact(
+    selectedBonusStation.station_name
+  );
+
+document.getElementById(
+  "stationFact"
+).innerHTML =
+  fact
+    ? `<strong>Station fact:</strong><br>${fact}`
+    : "";
+    document.getElementById(
+      "claimTicketButton"
+    ).disabled = true;
+
+  }
+);
+
+closeModal();
+
+let latestResultTitle = "";
+
+const originalShowResultsModal = showResultsModal;
+showResultsModal = function(win=false){
+  originalShowResultsModal(win);
+  latestResultTitle = document.getElementById("resultsClass").textContent;
+};
+
+function buildShareGrid() {
+  return boardState.map(c => c.correct ? "🟩" : "🟥").join("");
+}
+
+document.addEventListener("click", async (e) => {
+
+  if (e.target && e.target.id === "shareButton") {
+
+    const text =
+`🚆 The Route
+${latestResultTitle}
+
+🎟 Tickets Remaining: ${ticketsRemaining}
+
+${buildShareGrid().slice(0,4)}
+${buildShareGrid().slice(4,8)}
+
+https://playtheroute.uk`;
+
+    try {
+      await navigator.clipboard.writeText(text);
+      alert("Result copied to clipboard.");
+    } catch(err) {}
+  }
+
+  if (e.target && e.target.id === "shareImageButton") {
+
+    const canvas = document.createElement("canvas");
+    canvas.width = 1200;
+    canvas.height = 1200;
+
+    const ctx = canvas.getContext("2d");
+
+    ctx.fillStyle = "#07142f";
+    ctx.fillRect(0,0,1200,1200);
+
+    ctx.fillStyle = "#22c55e";
+    ctx.font = "bold 72px Arial";
+    ctx.textAlign = "center";
+    ctx.fillText("THE ROUTE",600,140);
+
+    ctx.fillStyle = "white";
+    ctx.font = "48px Arial";
+    ctx.fillText(latestResultTitle,600,250);
+
+    ctx.fillText("Tickets Remaining: " + ticketsRemaining,600,340);
+
+    const grid = buildShareGrid();
+
+    ctx.font = "100px Arial";
+    ctx.fillText(grid.slice(0,4),600,520);
+    ctx.fillText(grid.slice(4,8),600,650);
+
+    ctx.font = "40px Arial";
+    ctx.fillStyle = "#9ca3af";
+    ctx.fillText("playtheroute.uk",600,1000);
+
+    canvas.toBlob(async (blob) => {
+
+      const file = new File([blob], "the-route-score.png", {type:"image/png"});
+
+      if (navigator.canShare && navigator.canShare({files:[file]})) {
+
+        try {
+          await navigator.share({
+            files:[file],
+            title:"The Route"
+          });
+          return;
+        } catch(err) {}
+      }
+
+      const link = document.createElement("a");
+      link.href = URL.createObjectURL(blob);
+      link.download = "the-route-score.png";
+      link.click();
+
+    });
+  }
+});
+
+</script>
+
+<div class="modal" id="resultsModal" style="display:none;">
+  <div class="modal-box" style="max-width:600px;text-align:center;">
+    <h2>🚆 The Route Results</h2>
+    <div id="resultsClass" style="font-size:1.6rem;font-weight:700;margin:16px 0;"></div>
+    <div id="resultsDesc" style="margin-bottom:12px;"></div>
+    <div id="resultsTickets"></div>
+    <div
+  id="stationFact"
+  style="
+    margin-top:20px;
+    padding:16px;
+    border-radius:16px;
+    background:rgba(255,255,255,0.05);
+    line-height:1.6;
+  ">
+</div>
+    <div style="display:flex;gap:12px;justify-content:center;flex-wrap:wrap;margin-top:20px;">
+      <button class="submit-button" id="shareButton" style="min-width:auto;padding:12px 20px;font-size:1rem;">
+        Share Result
+      </button>
+
+      <button class="submit-button" id="shareImageButton" style="min-width:auto;padding:12px 20px;font-size:1rem;">
+        Share Image
+      </button>
+    </div>
+
+    <button class="submit-button" onclick="document.getElementById('resultsModal').style.display='none'" style="margin-top:20px;">
+      Close
+    </button>
+  </div>
+</div>
+
+<!-- FOOTER -->
+
+<div class="footer-text">
+
+  Built for UK commuters.
+
+  <br><br>
+
+  <a href="https://x.com/playtheroute" target="_blank">X</a>
+  •
+  <a href="https://www.instagram.com/playtheroute?igsh=anpjb2J5NHR4Z2lr" target="_blank">Instagram</a>
+  •
+  <a href="https://www.tiktok.com/@the.route2?_r=1&_t=ZN-96kXeMFBhnq" target="_blank">TikTok</a>
+
+</div>
+
+</body>
+</html>

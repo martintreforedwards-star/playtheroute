@@ -15,6 +15,112 @@ MIN_MATCHES = 3
 MAX_MATCH_FRACTION = 0.90   # drop near-universal clues (too easy to be useful)
 HIGH_WEIGHT_FRACTION = 0.22  # rarer than this -> "high" weight row
 
+# ---------------------------------------------------------------------------
+# Player-facing copy, from the label review pass (clue_label_review.csv).
+# Anything marked (proposed) was left blank on the sheet - sensible defaults
+# filled in here, flagged for a follow-up check rather than blocking on it.
+# ---------------------------------------------------------------------------
+
+WORDPLAY_CATEGORY_INFO = {
+    "local_suffix": ("a common English place-name ending",
+                      "The name ends in a common English place-name suffix, like -ton, -ham, -by or -dale."),
+    "gaelic_place": ("Scottish/Gaelic place-name roots",
+                      "The name includes a Scottish or Gaelic place-name element, like Inver-, Glen-, Loch- or Kirk-."),
+    "welsh_place": ("Welsh place-name roots",
+                     "The name includes a Welsh place-name element, like Llan-, Aber-, Pen- or Caer-."),
+    "structure": ("an unusual name format",
+                  "Something unusual about how the name is written - brackets, a hyphen, an ampersand, or 'St'."),
+    "nature": ("a nature word in the name",
+               "The name includes a nature word, like Park, Hill, Green, Heath or Wood."),
+}
+
+
+def label_clue(c):
+    """Set display (player-facing label) + hint (free tap-explainer text)
+    on a clue dict, from the reviewed label set."""
+    field, ctype = c["field"], c["type"]
+    label = c.get("label", "")
+
+    if field == "is_coastal":
+        c["display"] = "Near the coast"
+        c["hint"] = "A station within 3 kilometres of the coastline or an estuary."
+    elif field == "is_interchange":
+        c["display"] = "Is an interchange station"
+        c["hint"] = "Served by two or more separate named routes, or where several lines physically meet."  # (proposed)
+    elif field == "terminus_max":
+        c["display"] = "Journeys terminate here"
+        c["hint"] = "At least some journeys terminate at this station."
+    elif field == "name_word_count":
+        if c.get("value") == 1:
+            c["display"] = "Station name is one word"
+            c["hint"] = "Station is a one-word name."
+        else:
+            c["display"] = "Station name is 3+ words"
+            c["hint"] = "Station name is three or more words long."
+    elif field == "name_letter_count":
+        if "Short" in label:
+            c["display"] = "Station name is 6 letters or fewer"
+            c["hint"] = "Station name is 6 characters or fewer."
+        elif "Medium" in label:
+            c["display"] = "Station name is 7-10 letters"
+            c["hint"] = "Station name length is between 7 and 10 characters."
+        else:
+            c["display"] = "Station name is 11+ letters"
+            c["hint"] = "Station name is equal to or exceeds 11 characters."
+    elif field == "region":
+        v = c["value"]
+        c["display"] = f"Is within the {v} region"
+        c["hint"] = f"This station is based within the {v} region."
+    elif field == "canonical_hub":
+        v = c["value"]
+        c["display"] = f"Trains head to {v}"  # (proposed)
+        c["hint"] = f"This station's journeys are routed via or towards {v}."  # (proposed)
+    elif field == "wordplay_category":
+        v = c["value"]
+        friendly, detail = WORDPLAY_CATEGORY_INFO.get(v, (v, ""))
+        c["display"] = f"Naming style: {friendly}"  # (proposed)
+        c["hint"] = detail  # (proposed)
+    elif field == "wordplay_tags":
+        v = c["value"]
+        structural = {
+            "brackets": ("Name includes brackets", "The station name includes text in brackets, e.g. a disambiguator like '(Cumbria)'."),
+            "ampersand": ("Name includes an '&'", "The station name includes an ampersand (&)."),
+            "hyphen": ("Name includes a hyphen", "The station name includes a hyphen."),
+            "saint": ("Name includes 'St'", "The station name includes 'St' (Saint)."),
+            "a_ac": ("Name includes Welsh 'a'/'ac'", "The Welsh station name includes 'a' or 'ac' (meaning 'and'), joining two place names."),
+        }
+        if v in structural:
+            c["display"], c["hint"] = structural[v]
+        else:
+            c["display"] = f"Word contains '{v}'"
+            c["hint"] = f"Word contains '{v}'."
+    elif field == "operator":
+        v = c["value"]
+        c["display"] = f"Route operated by {v}."
+        c["hint"] = f"This station is served by {v}."  # (proposed)
+    elif field == "route":
+        v = c["value"]
+        c["display"] = f"Is part of the {v} route"
+        c["hint"] = f"A station on the {v} route."
+    elif field == "canonical_time_to_hub" or field.startswith("time_to_"):
+        import re
+        m = re.match(r"^Time to (.+?): (.+)$", label)
+        target_raw, band = (m.group(1), m.group(2)) if m else ("the hub", "")
+        target = "the hub station" if target_raw.lower() == "hub" else target_raw
+        if band == "shortest third":
+            c["display"] = f"One of the shorter journeys to {target}"  # (proposed)
+            c["hint"] = f"This station has one of the shortest journey times to {target} out of all stations in this puzzle."  # (proposed)
+        elif band == "middle third":
+            c["display"] = f"An average journey to {target}"  # (proposed)
+            c["hint"] = f"This station's journey time to {target} is roughly average for this puzzle."  # (proposed)
+        else:
+            c["display"] = f"One of the longer journeys to {target}"  # (proposed)
+            c["hint"] = f"This station has one of the longest journey times to {target} out of all stations in this puzzle."  # (proposed)
+    else:
+        c["display"] = label
+        c["hint"] = ""
+    return c
+
 
 def load_master(master_csv):
     by_quiz = defaultdict(list)
@@ -172,7 +278,7 @@ def gen_row_pool(board):
             continue
         c["weight"] = "high" if frac <= HIGH_WEIGHT_FRACTION else "medium"
         c["match_count"] = n
-        pool.append(c)
+        pool.append(label_clue(c))
     return pool
 
 
@@ -184,7 +290,7 @@ def gen_column_pool(board):
         if ok:
             clue["category"] = category
             clue["match_count"] = n
-            pool.append(clue)
+            pool.append(label_clue(clue))
 
     # geography - region/hub only (is_coastal lives in rows, not here)
     regions = Counter(s["region"] for s in board if s["region"])

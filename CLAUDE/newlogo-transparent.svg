@@ -1,0 +1,56 @@
+<svg width="700" height="200" viewBox="0 0 700 200"
+     xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Icon -->
+  <circle cx="100" cy="100" r="90"
+          stroke="#E6E6E6"
+          stroke-width="4"
+          fill="none"/>
+
+  <path d="M80 140 L80 80 Q80 60 100 60 L140 60"
+        stroke="#E6E6E6"
+        stroke-width="6"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        fill="none"/>
+
+  <path d="M80 100 L110 120"
+        stroke="#E6E6E6"
+        stroke-width="4"
+        stroke-linecap="round"
+        opacity="0.6"/>
+
+  <circle cx="80" cy="100" r="7"
+          fill="white"
+          stroke="#22c55e"
+          stroke-width="3"/>
+
+  <circle cx="140" cy="60" r="7"
+          fill="white"
+          stroke="#EA4335"
+          stroke-width="3"/>
+
+  <circle cx="110" cy="120" r="6"
+          fill="white"
+          stroke="#B0B0B0"
+          stroke-width="2"/>
+
+  <!-- Wordmark -->
+  <text x="230" y="108"
+        fill="white"
+        font-family="Segoe UI, Aptos, Arial, sans-serif"
+        font-size="64"
+        font-weight="600">
+    The Route
+  </text>
+
+  <!-- Superscript Copyright -->
+  <text x="515" y="72"
+        fill="white"
+        font-family="Segoe UI, Aptos, Arial, sans-serif"
+        font-size="28"
+        font-weight="400">
+    ©
+  </text>
+
+</svg>

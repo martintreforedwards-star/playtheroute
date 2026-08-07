@@ -1,0 +1,574 @@
+[
+  {
+    "landmark": "Winchester Cathedral",
+    "closest_station": "Winchester",
+    "distance_km": 0.7,
+    "difficulty": "easy",
+    "facts": [
+      "It has the longest nave of any Gothic cathedral in Europe.",
+      "Jane Austen is buried inside, in the north aisle of the nave.",
+      "Winchester was the ancient capital of Wessex and, briefly, of England under King Alfred."
+    ]
+  },
+  {
+    "landmark": "Salisbury Cathedral",
+    "closest_station": "Salisbury",
+    "distance_km": 1.0,
+    "difficulty": "easy",
+    "facts": [
+      "It has the tallest church spire in the UK, at 123 metres.",
+      "The cathedral houses one of the four surviving original copies of Magna Carta.",
+      "Its clock, dating from around 1386, is one of the oldest working mechanical clocks in the world."
+    ]
+  },
+  {
+    "landmark": "Portsmouth Historic Dockyard",
+    "closest_station": "Portsmouth Harbour",
+    "distance_km": 0.3,
+    "difficulty": "easy",
+    "facts": [
+      "It is home to HMS Victory, Nelson's flagship at the Battle of Trafalgar.",
+      "The Mary Rose, Henry VIII's warship, is displayed here after being raised from the Solent in 1982.",
+      "Portsmouth Harbour station sits right next to the dockyard and the Isle of Wight ferry terminal."
+    ]
+  },
+  {
+    "landmark": "Hampton Court Palace",
+    "closest_station": "Hampton Court",
+    "distance_km": 0.5,
+    "difficulty": "easy",
+    "facts": [
+      "The palace was originally built for Cardinal Wolsey before Henry VIII took it over in 1529.",
+      "It is famous for its hedge maze, planted in the 1690s.",
+      "Hampton Court station is the terminus of a short branch line from Surbiton."
+    ]
+  },
+  {
+    "landmark": "Kew Gardens",
+    "closest_station": "Kew Bridge",
+    "distance_km": 1.0,
+    "difficulty": "medium",
+    "facts": [
+      "The Royal Botanic Gardens at Kew hold one of the largest plant collections in the world.",
+      "Its Palm House, completed in 1848, is a pioneering Victorian glass-and-iron structure.",
+      "Kew Bridge station is on the south bank of the Thames, a short walk across the river from the gardens."
+    ]
+  },
+  {
+    "landmark": "Twickenham Stadium",
+    "closest_station": "Twickenham",
+    "distance_km": 0.8,
+    "difficulty": "easy",
+    "facts": [
+      "It is the home of English rugby union and the largest dedicated rugby stadium in the world.",
+      "The ground has hosted Test matches since 1910.",
+      "It is often nicknamed 'HQ' by English rugby fans."
+    ]
+  },
+  {
+    "landmark": "Richmond Park",
+    "closest_station": "Richmond (London)",
+    "distance_km": 1.0,
+    "difficulty": "medium",
+    "facts": [
+      "Richmond Park is the largest of London's Royal Parks, at over 2,500 acres.",
+      "It has held a wild herd of red and fallow deer since the 17th century.",
+      "The park offers a protected view of St Paul's Cathedral over 10 miles away."
+    ]
+  },
+  {
+    "landmark": "Christchurch Priory",
+    "closest_station": "Christchurch",
+    "distance_km": 0.6,
+    "difficulty": "easy",
+    "facts": [
+      "It is the longest parish church in England.",
+      "The priory has stood on the site since Norman times, with the current building begun around 1094.",
+      "Christchurch sits at the meeting point of the Rivers Avon and Stour."
+    ]
+  },
+  {
+    "landmark": "Poole Harbour",
+    "closest_station": "Poole",
+    "distance_km": 0.5,
+    "difficulty": "easy",
+    "facts": [
+      "Poole Harbour is one of the largest natural harbours in the world.",
+      "Brownsea Island, where the first Scout camp was held in 1907, sits within the harbour.",
+      "Poole's quayside developed as a major trading port from medieval times."
+    ]
+  },
+  {
+    "landmark": "Chesil Beach",
+    "closest_station": "Weymouth",
+    "distance_km": 2.0,
+    "difficulty": "medium",
+    "facts": [
+      "Chesil Beach is an 18-mile shingle barrier beach, one of three major shingle structures in Britain.",
+      "It links the mainland to the Isle of Portland.",
+      "Weymouth station is the terminus of the line from Southampton and Bournemouth."
+    ]
+  },
+  {
+    "landmark": "Windsor Great Park",
+    "closest_station": "Windsor & Eton Riverside",
+    "distance_km": 1.0,
+    "difficulty": "medium",
+    "facts": [
+      "Windsor Great Park covers over 5,000 acres and has been royal land since Norman times.",
+      "The Long Walk, a 2.65-mile avenue, connects the park to Windsor Castle.",
+      "Windsor & Eton Riverside is the historic terminus built for Queen Victoria, closer to the castle's south side."
+    ]
+  },
+  {
+    "landmark": "Guildford Castle",
+    "closest_station": "Guildford",
+    "distance_km": 0.8,
+    "difficulty": "medium",
+    "facts": [
+      "Guildford Castle's keep dates from the 12th century and was once used as a royal residence.",
+      "The castle grounds are now a public garden overlooking the town.",
+      "Guildford is the county town of Surrey."
+    ]
+  },
+  {
+    "landmark": "Southampton's medieval walls",
+    "closest_station": "Southampton Central",
+    "distance_km": 1.0,
+    "difficulty": "medium",
+    "facts": [
+      "Southampton retains one of the most complete sets of medieval town walls in England.",
+      "The Titanic departed from Southampton docks on her maiden voyage in 1912.",
+      "Southampton Central is the largest station on the South Western main line outside London."
+    ]
+  },
+  {
+    "landmark": "Osborne House",
+    "closest_station": "Ryde Esplanade",
+    "distance_km": 3.0,
+    "difficulty": "medium",
+    "facts": [
+      "Osborne House was Queen Victoria and Prince Albert's seaside retreat on the Isle of Wight.",
+      "Victoria died at Osborne House in 1901.",
+      "Ryde Esplanade connects to the house via a short bus link from the Isle of Wight's rail network."
+    ]
+  },
+  {
+    "landmark": "Sandown Beach & the Isle of Wight coast",
+    "closest_station": "Sandown",
+    "distance_km": 0.5,
+    "difficulty": "easy",
+    "facts": [
+      "Sandown is one of the Isle of Wight's principal seaside resorts.",
+      "The Isle of Wight rail line uses former London Underground trains, replaced in 2021 with refurbished ex-Underground D78 stock.",
+      "Sandown's Dinosaur Isle museum reflects the area's rich fossil-bearing cliffs."
+    ]
+  },
+  {
+    "landmark": "Shanklin Chine",
+    "closest_station": "Shanklin",
+    "distance_km": 0.5,
+    "difficulty": "medium",
+    "facts": [
+      "Shanklin Chine is a wooded ravine leading down to the seafront, opened to visitors since 1817.",
+      "It was used to train commandos for the D-Day PLUTO pipeline operation during the Second World War.",
+      "Shanklin is the southern terminus of the Isle of Wight's remaining rail line."
+    ]
+  },
+  {
+    "landmark": "New Forest National Park",
+    "closest_station": "Ashurst New Forest",
+    "distance_km": 0.5,
+    "difficulty": "medium",
+    "facts": [
+      "The New Forest was declared a royal hunting ground by William the Conqueror in 1079.",
+      "It is still home to free-roaming ponies managed by the New Forest commoners.",
+      "Ashurst New Forest station sits right on the edge of the forest's open heathland."
+    ]
+  },
+  {
+    "landmark": "Beaulieu National Motor Museum",
+    "closest_station": "Beaulieu Road",
+    "distance_km": 6.0,
+    "difficulty": "hard",
+    "facts": [
+      "The museum holds one of the world's finest collections of historic cars and motorcycles.",
+      "It sits within the grounds of Beaulieu Abbey, on the Montagu family estate.",
+      "Beaulieu Road station itself is a remote New Forest halt, with the museum reached by road."
+    ]
+  },
+  {
+    "landmark": "Brockenhurst & the New Forest ponies",
+    "closest_station": "Brockenhurst",
+    "distance_km": 0.3,
+    "difficulty": "easy",
+    "facts": [
+      "Brockenhurst is the largest village within the New Forest.",
+      "Free-roaming ponies are a common sight wandering through the village itself.",
+      "Brockenhurst is a key interchange for branch trains towards Lymington."
+    ]
+  },
+  {
+    "landmark": "Lymington's Georgian High Street",
+    "closest_station": "Lymington Town",
+    "distance_km": 0.4,
+    "difficulty": "easy",
+    "facts": [
+      "Lymington's cobbled High Street retains much of its Georgian character.",
+      "The town has long been a centre for yachting on the Solent.",
+      "Lymington Pier station connects directly to the Isle of Wight ferry to Yarmouth."
+    ]
+  },
+  {
+    "landmark": "Bournemouth Beach",
+    "closest_station": "Bournemouth",
+    "distance_km": 1.0,
+    "difficulty": "easy",
+    "facts": [
+      "Bournemouth's seven miles of sandy beach are among the most visited in England.",
+      "The town only developed after 1810, making it young by English seaside-resort standards.",
+      "Bournemouth station sits about a mile inland from the seafront, in a wooded cutting."
+    ]
+  },
+  {
+    "landmark": "Basingstoke's Milestones Museum",
+    "closest_station": "Basingstoke",
+    "distance_km": 1.5,
+    "difficulty": "medium",
+    "facts": [
+      "Milestones is a large indoor museum recreating Hampshire's streets from the Victorian era to the 1930s.",
+      "Basingstoke grew rapidly in the 1960s as a London 'overspill' new town.",
+      "The station is a major interchange between South Western Railway and GWR/CrossCountry services."
+    ]
+  },
+  {
+    "landmark": "Farnham Castle",
+    "closest_station": "Farnham",
+    "distance_km": 0.8,
+    "difficulty": "medium",
+    "facts": [
+      "Farnham Castle was built in the 12th century as the residence of the Bishops of Winchester.",
+      "The town's Georgian streetscape is considered one of the best-preserved in England.",
+      "Farnham sits close to the Surrey/Hampshire border."
+    ]
+  },
+  {
+    "landmark": "Alton's Jane Austen connections",
+    "closest_station": "Alton",
+    "distance_km": 2.5,
+    "difficulty": "medium",
+    "facts": [
+      "Jane Austen's House Museum is a short distance from Alton, in the village of Chawton.",
+      "Alton is also the northern terminus of the heritage Watercress Line steam railway.",
+      "The town takes its name from an Old English word meaning 'settlement by a source of a river'."
+    ]
+  },
+  {
+    "landmark": "Haslemere & the Devil's Punch Bowl",
+    "closest_station": "Haslemere",
+    "distance_km": 3.0,
+    "difficulty": "medium",
+    "facts": [
+      "The Devil's Punch Bowl is a large natural amphitheatre of heathland near Haslemere, formed by erosion.",
+      "Composer Edward Elgar once lived near Haslemere and was inspired by the surrounding landscape.",
+      "Haslemere sits right on the Surrey/West Sussex/Hampshire boundary."
+    ]
+  },
+  {
+    "landmark": "Petersfield's Physic Garden",
+    "closest_station": "Petersfield",
+    "distance_km": 0.7,
+    "difficulty": "medium",
+    "facts": [
+      "Petersfield's Physic Garden is a recreated 18th-century town garden behind a historic house.",
+      "The town's central square retains a bronze equestrian statue of William III, erected in 1757.",
+      "Petersfield sits at the northern edge of the South Downs National Park."
+    ]
+  },
+  {
+    "landmark": "South Downs Way (Havant gateway)",
+    "closest_station": "Havant",
+    "distance_km": 2.0,
+    "difficulty": "medium",
+    "facts": [
+      "Havant is a common access point for walkers joining the South Downs Way long-distance trail.",
+      "The town was historically known for parchment and glove-making.",
+      "Havant is a key junction where lines to Portsmouth, Chichester and London converge."
+    ]
+  },
+  {
+    "landmark": "Fareham & the Solent shoreline",
+    "closest_station": "Fareham",
+    "distance_km": 1.5,
+    "difficulty": "medium",
+    "facts": [
+      "Fareham sits at the head of Portsmouth Harbour's Fareham Creek.",
+      "The town was historically known for brickmaking, supplying bricks used across southern England.",
+      "Fareham is a key junction on lines between Southampton, Portsmouth and Eastleigh."
+    ]
+  },
+  {
+    "landmark": "Eastleigh Railway Works heritage",
+    "closest_station": "Eastleigh",
+    "distance_km": 1.0,
+    "difficulty": "medium",
+    "facts": [
+      "Eastleigh grew from a small hamlet into a town almost entirely because of its railway works, opened in 1891.",
+      "The works built and maintained locomotives for the London and South Western Railway and its successors.",
+      "Eastleigh remains a key railway junction on the South Western main line today."
+    ]
+  },
+  {
+    "landmark": "Romsey Abbey",
+    "closest_station": "Romsey",
+    "distance_km": 0.5,
+    "difficulty": "medium",
+    "facts": [
+      "Romsey Abbey is one of the most complete Norman churches in England, founded around 907 AD.",
+      "Lord Mountbatten, a former Viceroy of India, is buried in the abbey.",
+      "Romsey's Broadlands estate, nearby, was the Mountbatten family home."
+    ]
+  },
+  {
+    "landmark": "Andover's Finkley Down Farm & Roman heritage",
+    "closest_station": "Andover",
+    "distance_km": 2.0,
+    "difficulty": "medium",
+    "facts": [
+      "Andover sits near the Roman town of Leucomagus, whose remains lie just outside the modern town.",
+      "The Museum of the Iron Age in Andover displays finds from the nearby Danebury hillfort.",
+      "Andover is a key junction for lines towards Salisbury and Basingstoke."
+    ]
+  },
+  {
+    "landmark": "Sherborne Castle",
+    "closest_station": "Sherborne",
+    "distance_km": 1.5,
+    "difficulty": "medium",
+    "facts": [
+      "Sherborne has two castles: the ruined 12th-century Old Castle and the Tudor 'New Castle' built by Sir Walter Raleigh.",
+      "Sherborne Abbey, in the town centre, has one of the finest fan-vaulted ceilings in the world.",
+      "The town is often used as a filming location for its well-preserved historic streets."
+    ]
+  },
+  {
+    "landmark": "Yeovil Junction & the Fleet Air Arm Museum",
+    "closest_station": "Yeovil Junction",
+    "distance_km": 4.0,
+    "difficulty": "hard",
+    "facts": [
+      "Yeovil Junction is the mainline station for Yeovil, a couple of miles outside the town centre.",
+      "The nearby Fleet Air Arm Museum holds a Concorde alongside its naval aviation collection.",
+      "A heritage branch line once linked Yeovil Junction directly into the town, now preserved in part as a walking trail."
+    ]
+  },
+  {
+    "landmark": "Axminster's carpet-weaving heritage",
+    "closest_station": "Axminster",
+    "distance_km": 1.0,
+    "difficulty": "medium",
+    "facts": [
+      "Axminster gave its name to a style of woven carpet first produced in the town from 1755.",
+      "Axminster Carpets still manufactures in the town today, on a different site from the original works.",
+      "The station sits on the Salisbury to Exeter line, run by South Western Railway."
+    ]
+  },
+  {
+    "landmark": "Honiton's lace-making tradition",
+    "closest_station": "Honiton",
+    "distance_km": 1.0,
+    "difficulty": "medium",
+    "facts": [
+      "Honiton has been associated with fine bobbin lace-making since the 16th century.",
+      "Honiton lace was used for Queen Victoria's wedding dress in 1840.",
+      "The town's wide main street reflects its history as a coaching stop on the old London to Exeter road."
+    ]
+  },
+  {
+    "landmark": "Vauxhall & the MI6 Building",
+    "closest_station": "Vauxhall",
+    "distance_km": 0.3,
+    "difficulty": "easy",
+    "facts": [
+      "The distinctive stepped building beside Vauxhall station is the headquarters of the Secret Intelligence Service, MI6.",
+      "Vauxhall Pleasure Gardens, a famous 18th-century entertainment venue, once stood nearby.",
+      "The area's name is thought to derive from a medieval manor house, Fulk's Hall."
+    ]
+  },
+  {
+    "landmark": "Kingston's ancient market town centre",
+    "closest_station": "Kingston",
+    "distance_km": 0.5,
+    "difficulty": "easy",
+    "facts": [
+      "Kingston upon Thames was the site of Anglo-Saxon royal coronations; a Coronation Stone is displayed in the town.",
+      "It has held a market charter since 1200.",
+      "Kingston station sits on a loop line served by South Western Railway."
+    ]
+  },
+  {
+    "landmark": "Surbiton's Art Deco station building",
+    "closest_station": "Surbiton",
+    "distance_km": 0.1,
+    "difficulty": "medium",
+    "facts": [
+      "Surbiton's station, opened in 1937, is one of the best-known examples of Art Deco railway architecture in Britain.",
+      "Its tall clock tower became an emblem of the modernised Southern Railway of the 1930s.",
+      "The station was designed by James Robb Scott."
+    ]
+  },
+  {
+    "landmark": "Weybridge & Brooklands",
+    "closest_station": "Weybridge",
+    "distance_km": 1.5,
+    "difficulty": "medium",
+    "facts": [
+      "Brooklands, near Weybridge, was the world's first purpose-built motor racing circuit, opened in 1907.",
+      "It was also an early centre of British aviation manufacturing.",
+      "The Brooklands Museum now preserves parts of the original banked circuit."
+    ]
+  },
+  {
+    "landmark": "Cobham's Painshill Park",
+    "closest_station": "Cobham & Stoke d'Abernon",
+    "distance_km": 2.0,
+    "difficulty": "medium",
+    "facts": [
+      "Painshill is an 18th-century landscape garden with follies including a Gothic tower and a crystal grotto.",
+      "It was created by the Hon. Charles Hamilton from 1738 onwards.",
+      "The station serves both Cobham and the neighbouring village of Stoke d'Abernon."
+    ]
+  },
+  {
+    "landmark": "Staines & the Thames",
+    "closest_station": "Staines",
+    "distance_km": 0.5,
+    "difficulty": "medium",
+    "facts": [
+      "The London Stone at Staines once marked the western limit of the City of London's jurisdiction over the Thames.",
+      "Staines was renamed Staines-upon-Thames in 2012 to emphasise its riverside setting.",
+      "The town sits close to the M25 and Heathrow Airport."
+    ]
+  },
+  {
+    "landmark": "Virginia Water's Valley Gardens",
+    "closest_station": "Virginia Water",
+    "distance_km": 1.0,
+    "difficulty": "medium",
+    "facts": [
+      "Virginia Water lake is an artificial lake created in the 1750s within Windsor Great Park.",
+      "The Valley Gardens beside it are known for their spring rhododendron and azalea displays.",
+      "A ruined Roman-style temple folly, built from genuine Roman-era columns, stands on the lakeshore."
+    ]
+  },
+  {
+    "landmark": "Bracknell's Look Out Discovery Centre",
+    "closest_station": "Bracknell",
+    "distance_km": 2.0,
+    "difficulty": "medium",
+    "facts": [
+      "The Look Out is a science discovery centre set within Swinley Forest, just outside Bracknell.",
+      "Bracknell was designated a post-war New Town in 1949 to house London overspill population.",
+      "The town's station was rebuilt as part of a major town-centre regeneration."
+    ]
+  },
+  {
+    "landmark": "Woking's mosque and H.G. Wells connections",
+    "closest_station": "Woking",
+    "distance_km": 1.0,
+    "difficulty": "medium",
+    "facts": [
+      "The Shah Jahan Mosque in Woking, built in 1889, was the first purpose-built mosque in Britain.",
+      "Author H.G. Wells lived in Woking while writing The War of the Worlds, setting the Martian landings nearby.",
+      "A tripod sculpture in the town centre commemorates the novel's connection to Woking."
+    ]
+  },
+  {
+    "landmark": "Chessington World of Adventures",
+    "closest_station": "Chessington South",
+    "distance_km": 1.0,
+    "difficulty": "medium",
+    "facts": [
+      "The theme park grew out of Chessington Zoo, which opened on the site in 1931.",
+      "Chessington South is the southern terminus of a branch line built specifically to serve the growing suburb.",
+      "The park combines a zoo and rollercoaster rides on the same site."
+    ]
+  },
+  {
+    "landmark": "Esher & Sandown Park Racecourse",
+    "closest_station": "Esher",
+    "distance_km": 1.0,
+    "difficulty": "medium",
+    "facts": [
+      "Sandown Park has hosted horse racing since 1875 and was the first course to charge admission to its enclosures.",
+      "Esher station has its own dedicated racecourse platform used on race days.",
+      "The area was historically part of the Crown estate of Sandown."
+    ]
+  },
+  {
+    "landmark": "Cosham & Portchester Castle",
+    "closest_station": "Cosham",
+    "distance_km": 2.0,
+    "difficulty": "medium",
+    "facts": [
+      "Portchester Castle has the most complete Roman fort walls in northern Europe, later built into a medieval castle.",
+      "Cosham station is the nearest railhead to both Portchester Castle and Portsdown Hill.",
+      "Portsdown Hill above Cosham offers panoramic views across Portsmouth Harbour."
+    ]
+  },
+  {
+    "landmark": "Botley's historic market square",
+    "closest_station": "Botley",
+    "distance_km": 0.4,
+    "difficulty": "medium",
+    "facts": [
+      "Botley's Market Square still hosts a Friday market, a tradition going back centuries.",
+      "The essayist William Cobbett once called Botley 'the most delightful village in the world'.",
+      "The village sits on the Hamble River, a tributary of Southampton Water."
+    ]
+  },
+  {
+    "landmark": "Micheldever & the Hampshire Downs",
+    "closest_station": "Micheldever",
+    "distance_km": 3.0,
+    "difficulty": "hard",
+    "facts": [
+      "Micheldever station sits deep in rolling Hampshire chalk downland, some distance from the village itself.",
+      "The surrounding area is part of a large managed woodland, Micheldever Wood.",
+      "It is one of the more remote stops on the South Western main line between Basingstoke and Winchester."
+    ]
+  },
+  {
+    "landmark": "Overton & the Bank of England's paper mill",
+    "closest_station": "Overton",
+    "distance_km": 1.0,
+    "difficulty": "hard",
+    "facts": [
+      "Overton is home to a paper mill that has produced banknote paper for the Bank of England.",
+      "The village sits on the River Test, renowned for chalk-stream fly fishing.",
+      "Overton is one of the smallest stops on the line between Basingstoke and Salisbury."
+    ]
+  },
+  {
+    "landmark": "The London Eye & South Bank",
+    "closest_station": "London Waterloo",
+    "distance_km": 0.8,
+    "difficulty": "easy",
+    "facts": [
+      "The London Eye opened in 2000 and was the tallest Ferris wheel in the world at the time.",
+      "Waterloo is the busiest station in the UK by passenger entries and exits.",
+      "The South Bank riverside walk from Waterloo passes the Royal Festival Hall, the National Theatre and Tate Modern."
+    ]
+  },
+  {
+    "landmark": "Battersea Power Station",
+    "closest_station": "Clapham Junction",
+    "distance_km": 1.5,
+    "difficulty": "medium",
+    "facts": [
+      "Battersea Power Station, decommissioned in 1983, was converted into a shopping, dining and residential district that reopened in 2022.",
+      "Its four iconic chimneys appeared on the cover of Pink Floyd's 1977 album Animals.",
+      "Clapham Junction is the busiest railway station in Europe by number of trains passing through."
+    ]
+  }
+]

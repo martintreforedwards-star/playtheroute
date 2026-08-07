@@ -1,0 +1,1135 @@
+[
+  {
+    "landmark": "Royal Albert Dock",
+    "closest_station": "Liverpool James Street",
+    "distance_km": 0.5,
+    "difficulty": "easy",
+    "facts": [
+      "Completed in 1846, it was the first structure in Britain built entirely of cast iron, brick and stone, with no structural wood.",
+      "It houses Tate Liverpool, the Merseyside Maritime Museum and the International Slavery Museum.",
+      "James Street is the closest Merseyrail station to Liverpool's waterfront, a UNESCO World Heritage Site until its 2021 delisting."
+    ]
+  },
+  {
+    "landmark": "Liverpool Cathedral",
+    "closest_station": "Liverpool Central",
+    "distance_km": 1.0,
+    "difficulty": "easy",
+    "facts": [
+      "It is the largest cathedral in Britain and one of the largest in the world.",
+      "Architect Giles Gilbert Scott won the design competition for it aged just 22, in 1903.",
+      "Its central tower is the highest cathedral tower in the world, at 101 metres."
+    ]
+  },
+  {
+    "landmark": "The Beatles Story",
+    "closest_station": "Liverpool James Street",
+    "distance_km": 0.4,
+    "difficulty": "easy",
+    "facts": [
+      "The museum is housed in the Albert Dock, tracing the band's history from their Liverpool roots.",
+      "All four Beatles were born and grew up in the Liverpool area.",
+      "The Cavern Club, where the band performed nearly 300 times, is a short walk from Liverpool Central station."
+    ]
+  },
+  {
+    "landmark": "St George's Hall, Liverpool",
+    "closest_station": "Liverpool Lime Street",
+    "distance_km": 0.2,
+    "difficulty": "easy",
+    "facts": [
+      "St George's Hall is considered one of the finest neoclassical buildings in Europe, completed in 1854.",
+      "It stands directly opposite Liverpool Lime Street station.",
+      "The hall combines a concert hall, law courts and public rooms under one roof."
+    ]
+  },
+  {
+    "landmark": "Mersey Ferry",
+    "closest_station": "Birkenhead Hamilton Square",
+    "distance_km": 0.5,
+    "difficulty": "easy",
+    "facts": [
+      "The Mersey Ferry crossing has operated in some form since the 12th century, when monks rowed passengers across the river.",
+      "The song 'Ferry Cross the Mersey' by Gerry and the Pacemakers made the crossing internationally famous.",
+      "Birkenhead Hamilton Square station is one of the deepest stations in the UK, built beneath the Mersey."
+    ]
+  },
+  {
+    "landmark": "Cammell Laird shipyard",
+    "closest_station": "Birkenhead Central",
+    "distance_km": 1.0,
+    "difficulty": "medium",
+    "facts": [
+      "Cammell Laird has built ships on the Birkenhead waterfront since 1828.",
+      "The yard built the Ark Royal aircraft carriers among many other Royal Navy vessels.",
+      "Birkenhead's shipbuilding heritage shaped much of the town's Victorian growth."
+    ]
+  },
+  {
+    "landmark": "U-boat Story, Woodside",
+    "closest_station": "Birkenhead Central",
+    "distance_km": 0.8,
+    "difficulty": "medium",
+    "facts": [
+      "The attraction displays U-534, a German Second World War submarine raised from the seabed in 1993.",
+      "It sits at Woodside, Birkenhead's historic ferry terminal.",
+      "The submarine was cut into sections to allow it to be transported and displayed."
+    ]
+  },
+  {
+    "landmark": "Southport's Marine Lake and pier",
+    "closest_station": "Southport",
+    "distance_km": 0.7,
+    "difficulty": "easy",
+    "facts": [
+      "Southport Pier, opened in 1860, is the second-longest pleasure pier in Britain.",
+      "The town's Lord Street is said to have inspired parts of the redesign of Paris under Napoleon III, who lived there in exile.",
+      "Southport's Marine Lake was created in the 1880s as the sea receded from the original shoreline."
+    ]
+  },
+  {
+    "landmark": "Ainsdale & Birkdale Sandhills",
+    "closest_station": "Ainsdale",
+    "distance_km": 1.0,
+    "difficulty": "medium",
+    "facts": [
+      "The Sefton Coast sand dunes are one of the largest dune systems in England.",
+      "They are home to one of the last strongholds of the red squirrel in England.",
+      "The rare natterjack toad also breeds in the dune slacks along this coast."
+    ]
+  },
+  {
+    "landmark": "Formby's red squirrels",
+    "closest_station": "Formby",
+    "distance_km": 1.5,
+    "difficulty": "medium",
+    "facts": [
+      "Formby's pinewoods are one of the best places in England to see red squirrels in the wild.",
+      "The site is managed by the National Trust, covering pine plantations and open dunes.",
+      "Formby beach also preserves ancient human and animal footprints uncovered in the mudflats."
+    ]
+  },
+  {
+    "landmark": "Crosby Beach & Another Place",
+    "closest_station": "Blundellsands & Crosby",
+    "distance_km": 1.0,
+    "difficulty": "medium",
+    "facts": [
+      "Another Place is an installation of 100 cast-iron figures by sculptor Antony Gormley, spread along 3km of beach.",
+      "The figures, all cast from the artist's own body, face out to sea.",
+      "The installation has been on Crosby beach permanently since 2007."
+    ]
+  },
+  {
+    "landmark": "New Brighton's Fort Perch Rock",
+    "closest_station": "New Brighton",
+    "distance_km": 0.6,
+    "difficulty": "medium",
+    "facts": [
+      "Fort Perch Rock was built in the 1820s to defend the mouth of the River Mersey.",
+      "New Brighton was developed as a seaside resort from the 1830s, styled after its namesake Brighton.",
+      "The town's promenade offers wide views across Liverpool Bay."
+    ]
+  },
+  {
+    "landmark": "Hoylake & Royal Liverpool Golf Club",
+    "closest_station": "Hoylake",
+    "distance_km": 1.0,
+    "difficulty": "medium",
+    "facts": [
+      "Royal Liverpool Golf Club, at Hoylake, has hosted The Open Championship multiple times since 1897.",
+      "The club is one of the oldest links courses in England, founded in 1869.",
+      "Hoylake sits on the Wirral Peninsula, facing the Dee Estuary."
+    ]
+  },
+  {
+    "landmark": "West Kirby & Hilbre Island",
+    "closest_station": "West Kirby",
+    "distance_km": 2.0,
+    "difficulty": "medium",
+    "facts": [
+      "Hilbre Island can be reached on foot from West Kirby across the sands at low tide.",
+      "The island is a nature reserve known for grey seals and migrating birds.",
+      "West Kirby is the terminus of the Wirral Line branch from Liverpool."
+    ]
+  },
+  {
+    "landmark": "Port Sunlight's origins (view from Bebington side)",
+    "closest_station": "Hooton",
+    "distance_km": 4.0,
+    "difficulty": "hard",
+    "facts": [
+      "Port Sunlight, the model village built by Lever Brothers for its soap factory workers, lies across the Wirral from this line.",
+      "William Lever began building the village in 1888 to house his soap-works employees.",
+      "Hooton is a junction station on the Wirral, with connections towards Chester and Ellesmere Port."
+    ]
+  },
+  {
+    "landmark": "Knowsley Safari Park (via Prescot)",
+    "closest_station": "Prescot",
+    "distance_km": 3.0,
+    "difficulty": "hard",
+    "facts": [
+      "Knowsley Safari Park opened in 1971 in the grounds of Knowsley Hall, the Earl of Derby's estate.",
+      "Prescot's Shakespeare North Playhouse, opened in 2022, is built to a design inspired by Jacobean theatres.",
+      "Prescot was historically a centre of watchmaking in England."
+    ]
+  },
+  {
+    "landmark": "St Helens Rugby League heritage",
+    "closest_station": "St Helens Central",
+    "distance_km": 0.8,
+    "difficulty": "medium",
+    "facts": [
+      "St Helens R.F.C. is one of English rugby league's most successful clubs.",
+      "The town's World of Glass museum reflects its history as a centre of glassmaking, home to Pilkington Glass.",
+      "St Helens Central is the main station serving the town centre."
+    ]
+  },
+  {
+    "landmark": "Huyton's history",
+    "closest_station": "Huyton",
+    "distance_km": 1.0,
+    "difficulty": "medium",
+    "facts": [
+      "Huyton was formerly a rural township before rapid growth as a Liverpool suburb in the 20th century.",
+      "Former Prime Minister Harold Wilson served as MP for the Huyton constituency for over 30 years.",
+      "Huyton is a key interchange point on the line towards St Helens and Wigan."
+    ]
+  },
+  {
+    "landmark": "Speke Hall",
+    "closest_station": "Liverpool South Parkway",
+    "distance_km": 3.0,
+    "difficulty": "medium",
+    "facts": [
+      "Speke Hall is one of the finest surviving Tudor timber-framed manor houses in England.",
+      "It stands close to Liverpool John Lennon Airport, a short distance from Liverpool South Parkway station.",
+      "The house is now managed by the National Trust."
+    ]
+  },
+  {
+    "landmark": "Sudley House",
+    "closest_station": "Mossley Hill",
+    "distance_km": 1.5,
+    "difficulty": "medium",
+    "facts": [
+      "Sudley House displays the art collection of shipowner George Holt in his former family home.",
+      "The house holds important works by Turner, Gainsborough and the Pre-Raphaelites.",
+      "It is one of the few Merseyside mansions to retain both its original collection and furnishings."
+    ]
+  },
+  {
+    "landmark": "Sefton Park",
+    "closest_station": "Aigburth",
+    "distance_km": 1.5,
+    "difficulty": "medium",
+    "facts": [
+      "Sefton Park's Palm House, a Victorian glasshouse, opened in 1896.",
+      "The 235-acre park was landscaped by Edouard Andre, who also worked on Paris's parks.",
+      "It is one of Liverpool's largest and most popular green spaces."
+    ]
+  },
+  {
+    "landmark": "Blackpool Pleasure Beach",
+    "closest_station": "Blackpool Pleasure Beach",
+    "distance_km": 0.1,
+    "difficulty": "easy",
+    "facts": [
+      "Blackpool Pleasure Beach has operated on the same seafront site since 1896.",
+      "Its Big One rollercoaster, opened in 1994, was the tallest and fastest in the world at the time.",
+      "The station named after it sits right beside the park's entrance."
+    ]
+  },
+  {
+    "landmark": "Blackpool South's seafront",
+    "closest_station": "Blackpool South",
+    "distance_km": 0.8,
+    "difficulty": "medium",
+    "facts": [
+      "Blackpool South station serves the quieter southern end of Blackpool's famous promenade.",
+      "The town's illuminations, running each autumn, have lit the seafront since 1879.",
+      "Blackpool South is on the line that also serves Blackpool Pleasure Beach and St Annes."
+    ]
+  },
+  {
+    "landmark": "Lytham Windmill",
+    "closest_station": "Lytham",
+    "distance_km": 0.5,
+    "difficulty": "easy",
+    "facts": [
+      "Lytham's white windmill on the green has stood since 1805, rebuilt after a fire in the 1900s.",
+      "Lytham St Annes is known for its Open Championship golf links course, Royal Lytham & St Annes.",
+      "Lytham's seafront green is one of the largest of its kind on the Lancashire coast."
+    ]
+  },
+  {
+    "landmark": "St Annes Pier",
+    "closest_station": "St Annes-on-the-Sea",
+    "distance_km": 0.6,
+    "difficulty": "medium",
+    "facts": [
+      "St Annes Pier opened in 1885 as part of the resort's Victorian development.",
+      "St Annes was purpose-built as a genteel seaside resort, in contrast to nearby Blackpool.",
+      "The town later merged with Lytham to form Lytham St Annes."
+    ]
+  },
+  {
+    "landmark": "Ormskirk's parish church",
+    "closest_station": "Ormskirk",
+    "distance_km": 0.5,
+    "difficulty": "medium",
+    "facts": [
+      "Ormskirk's parish church is unusual in having both a tower and a separate spire, a rare combination in England.",
+      "The town holds one of Lancashire's oldest street markets, dating back to a 13th-century charter.",
+      "Ormskirk is the northern terminus of one branch of the Merseyrail Northern Line."
+    ]
+  },
+  {
+    "landmark": "Croxteth Hall (via Aintree)",
+    "closest_station": "Aintree",
+    "distance_km": 3.0,
+    "difficulty": "hard",
+    "facts": [
+      "Aintree Racecourse hosts the Grand National, the world's most famous steeplechase, established in 1839.",
+      "Croxteth Hall, a former stately home, sits within a country park a short distance from the racecourse.",
+      "Aintree station serves the racecourse directly on race days."
+    ]
+  },
+  {
+    "landmark": "Wallasey Town Hall & seafront",
+    "closest_station": "Wallasey Village",
+    "distance_km": 1.5,
+    "difficulty": "medium",
+    "facts": [
+      "Wallasey's promenade stretches along the Irish Sea coast of the Wirral.",
+      "The town's Kings Parade was a fashionable Victorian and Edwardian seafront development.",
+      "Wallasey Village station is one of two Merseyrail stations serving the town, alongside Wallasey Grove Road."
+    ]
+  },
+  {
+    "landmark": "Eastham Country Park (via Bromborough)",
+    "closest_station": "Hooton",
+    "distance_km": 3.0,
+    "difficulty": "hard",
+    "facts": [
+      "Eastham Country Park overlooks the entrance to the Manchester Ship Canal on the Mersey.",
+      "The park was a popular Victorian pleasure garden, reached by paddle steamer from Liverpool.",
+      "Hooton station is a key Wirral junction on the way towards Ellesmere Port."
+    ]
+  },
+  {
+    "landmark": "Rufford Old Hall",
+    "closest_station": "Rufford",
+    "distance_km": 1.5,
+    "difficulty": "medium",
+    "facts": [
+      "Rufford Old Hall is a 15th-century timber-framed manor house, one of the finest in Lancashire.",
+      "Its Great Hall retains an original medieval hammerbeam roof.",
+      "The hall is now owned by the National Trust."
+    ]
+  },
+  {
+    "landmark": "Burscough's canal crossroads",
+    "closest_station": "Burscough Junction",
+    "distance_km": 0.5,
+    "difficulty": "medium",
+    "facts": [
+      "Burscough sits at the junction of the Leeds and Liverpool Canal and the Rufford Branch Canal.",
+      "Burscough Junction station is where the Ormskirk and Southport branches of the Merseyrail network meet.",
+      "The village grew as a canal and agricultural trading centre in the 18th and 19th centuries."
+    ]
+  },
+  {
+    "landmark": "Astley Hall (via Euxton)",
+    "closest_station": "Euxton Balshaw Lane",
+    "distance_km": 4.0,
+    "difficulty": "hard",
+    "facts": [
+      "Astley Hall, near Chorley, is a grand Elizabethan and Jacobean house set in parkland.",
+      "Euxton Balshaw Lane station sits at a key junction on the West Coast Main Line approaches to Preston.",
+      "The surrounding area of Chorley grew as a cotton-milling town in the Industrial Revolution."
+    ]
+  },
+  {
+    "landmark": "Heysham Port & the Isle of Man ferry",
+    "closest_station": "Heysham Port",
+    "distance_km": 0.2,
+    "difficulty": "easy",
+    "facts": [
+      "Heysham Port operates regular ferry services to the Isle of Man and Northern Ireland.",
+      "The station sits right beside the ferry terminal, a rare direct rail-to-ferry link.",
+      "Heysham also has two nuclear power stations nearby, though the port itself is Lancashire's main sea link to the Isle of Man."
+    ]
+  },
+  {
+    "landmark": "Millom & the Duddon Estuary",
+    "closest_station": "Millom",
+    "distance_km": 1.0,
+    "difficulty": "medium",
+    "facts": [
+      "Millom grew rapidly in the 19th century around its ironworks, now long closed.",
+      "The town sits at the mouth of the Duddon Estuary on the edge of the Lake District.",
+      "Millom's Folk Museum reflects its industrial ironworking past."
+    ]
+  },
+  {
+    "landmark": "Askam-in-Furness ironworking heritage",
+    "closest_station": "Askam",
+    "distance_km": 0.5,
+    "difficulty": "hard",
+    "facts": [
+      "Askam grew from a hamlet into a planned industrial town after ironstone was discovered nearby in the 1850s.",
+      "The village overlooks the sands of the Duddon Estuary.",
+      "Askam sits on the scenic Cumbrian Coast Line."
+    ]
+  },
+  {
+    "landmark": "Conway Park's underground Wirral Line hub",
+    "closest_station": "Conway Park",
+    "distance_km": 0.1,
+    "difficulty": "medium",
+    "facts": [
+      "Conway Park station, opened in 1998, is one of the newest stations on the Wirral Line.",
+      "It was built as part of a regeneration scheme in central Birkenhead.",
+      "The station sits largely underground, close to Birkenhead town centre."
+    ]
+  },
+  {
+    "landmark": "Bidston Moss & Bidston Hill",
+    "closest_station": "Bidston",
+    "distance_km": 1.0,
+    "difficulty": "medium",
+    "facts": [
+      "Bidston Hill offers panoramic views across the Mersey to Liverpool's waterfront.",
+      "A restored 200-year-old windmill stands on Bidston Hill.",
+      "Bidston is a key Wirral junction where the West Kirby and New Brighton branches split."
+    ]
+  },
+  {
+    "landmark": "Eccleston Park & Knowsley heritage",
+    "closest_station": "Eccleston Park",
+    "distance_km": 1.0,
+    "difficulty": "hard",
+    "facts": [
+      "Eccleston Park lies within the Metropolitan Borough of St Helens, close to the Knowsley border.",
+      "The area developed largely as a residential suburb serving St Helens' glass and industrial works.",
+      "The station is a request stop on the line between Liverpool and Wigan."
+    ]
+  },
+  {
+    "landmark": "Garswood & the Lancashire coalfield",
+    "closest_station": "Garswood",
+    "distance_km": 1.0,
+    "difficulty": "hard",
+    "facts": [
+      "Garswood sits within what was once the Lancashire coalfield, a major mining area until the mid-20th century.",
+      "The village grew around collieries that have since closed.",
+      "Garswood station is on the line between Liverpool and Wigan."
+    ]
+  },
+  {
+    "landmark": "Hunts Cross & Liverpool's southern boundary",
+    "closest_station": "Hunts Cross",
+    "distance_km": 0.5,
+    "difficulty": "medium",
+    "facts": [
+      "Hunts Cross is the southern terminus of the Merseyrail Northern Line electrified service.",
+      "It is also an interchange with Northern's services towards Warrington and Manchester.",
+      "The area developed as a Liverpool suburb in the early 20th century."
+    ]
+  },
+  {
+    "landmark": "Halewood & the Jaguar Land Rover plant",
+    "closest_station": "Halewood",
+    "distance_km": 1.5,
+    "difficulty": "medium",
+    "facts": [
+      "Halewood is home to a major Jaguar Land Rover car manufacturing plant, opened in 1963.",
+      "The plant has built vehicles for Ford, Jaguar and Land Rover at different points in its history.",
+      "Halewood station sits on the Liverpool to Warrington/Manchester line."
+    ]
+  },
+  {
+    "landmark": "Bootle's docks heritage",
+    "closest_station": "Bootle New Strand",
+    "distance_km": 1.0,
+    "difficulty": "medium",
+    "facts": [
+      "Bootle was once home to some of the busiest docks on the River Mersey.",
+      "The town suffered heavy bombing during the Liverpool Blitz of 1940-41 due to its dockland importance.",
+      "Bootle New Strand serves the town's main shopping centre, built as part of post-war redevelopment."
+    ]
+  },
+  {
+    "landmark": "Waterloo's seafront (Merseyside)",
+    "closest_station": "Waterloo (Merseyside)",
+    "distance_km": 0.5,
+    "difficulty": "medium",
+    "facts": [
+      "Waterloo, Merseyside, takes its name from a house built to commemorate the Battle of Waterloo in 1815.",
+      "The town's promenade links towards Crosby beach and the Antony Gormley 'Another Place' statues.",
+      "Waterloo station is a key interchange on the Merseyrail Northern Line towards Southport."
+    ]
+  },
+  {
+    "landmark": "Aughton Park & rural West Lancashire",
+    "closest_station": "Aughton Park",
+    "distance_km": 1.0,
+    "difficulty": "hard",
+    "facts": [
+      "Aughton Park station serves a quiet residential area between Ormskirk and Town Green.",
+      "The wider Aughton area retains a rural, semi-agricultural character despite its proximity to Liverpool.",
+      "It is one of the smaller stops on the Ormskirk branch of the Northern Line."
+    ]
+  },
+  {
+    "landmark": "Freshfield & the Sefton pinewoods",
+    "closest_station": "Freshfield",
+    "distance_km": 0.5,
+    "difficulty": "medium",
+    "facts": [
+      "Freshfield station is a popular access point for the National Trust's Formby red squirrel reserve.",
+      "The surrounding pinewoods were planted in the 19th century to help stabilise the coastal dunes.",
+      "Freshfield sits between Formby and Ainsdale on the Sefton coast line."
+    ]
+  },
+  {
+    "landmark": "Birkdale's Victorian seafront villas",
+    "closest_station": "Birkdale",
+    "distance_km": 1.0,
+    "difficulty": "medium",
+    "facts": [
+      "Birkdale developed as an exclusive Victorian seaside suburb of Southport.",
+      "Royal Birkdale Golf Club, nearby, has hosted The Open Championship multiple times.",
+      "Birkdale station retains much of its original Victorian character."
+    ]
+  },
+  {
+    "landmark": "Kirkby's post-war new town legacy",
+    "closest_station": "Kirkby (Merseyside)",
+    "distance_km": 1.0,
+    "difficulty": "medium",
+    "facts": [
+      "Kirkby was designated a major post-war overspill town for Liverpool from the late 1940s.",
+      "It became home to one of the largest council housing estates in Europe at the time.",
+      "Kirkby is the eastern terminus of one branch of the Merseyrail Northern Line."
+    ]
+  },
+  {
+    "landmark": "Headbolt Lane's newest Merseyrail extension",
+    "closest_station": "Headbolt Lane",
+    "distance_km": 0.2,
+    "difficulty": "medium",
+    "facts": [
+      "Headbolt Lane opened in 2023 as the newest station on the Merseyrail network, extending the line beyond Kirkby.",
+      "It was built with hydrogen train trials in mind, alongside conventional electric services.",
+      "The station serves a residential area on the northern edge of Kirkby."
+    ]
+  },
+  {
+    "landmark": "Edge Hill Station",
+    "closest_station": "Edge Hill",
+    "distance_km": 0.0,
+    "difficulty": "medium",
+    "facts": [
+      "Edge Hill is recognised as the oldest passenger railway station still in use in the world.",
+      "It opened in 1836 as part of the pioneering Liverpool and Manchester Railway.",
+      "The station retains sections of its original 19th-century platforms and cutting."
+    ]
+  },
+  {
+    "landmark": "Stanlow Oil Refinery",
+    "closest_station": "Stanlow & Thornton",
+    "distance_km": 2.0,
+    "difficulty": "hard",
+    "facts": [
+      "Stanlow is one of the largest oil refineries in the United Kingdom.",
+      "It has operated on the Mersey estuary since the 1920s.",
+      "Stanlow & Thornton station sits on the Wirral Line between Ellesmere Port and Helsby."
+    ]
+  },
+  {
+    "landmark": "Port Sunlight Village & Lady Lever Art Gallery",
+    "closest_station": "Port Sunlight",
+    "distance_km": 0.3,
+    "difficulty": "easy",
+    "facts": [
+      "Port Sunlight was built by William Lever from 1888 to house workers at his Sunlight Soap factory.",
+      "The village is now a Grade II listed conservation area with over 900 listed buildings.",
+      "The Lady Lever Art Gallery, founded by Lever in memory of his wife, holds one of the finest Pre-Raphaelite collections in Britain."
+    ]
+  },
+  {
+    "landmark": "National Waterways Museum, Ellesmere Port",
+    "closest_station": "Ellesmere Port",
+    "distance_km": 1.0,
+    "difficulty": "medium",
+    "facts": [
+      "The museum sits at the historic junction of the Shropshire Union Canal and the Manchester Ship Canal.",
+      "It holds one of the largest collections of historic canal boats in Britain.",
+      "Ellesmere Port grew rapidly in the 19th century as a canal and later dock town."
+    ]
+  },
+  {
+    "landmark": "Liverpool ONE & the city centre loop",
+    "closest_station": "Moorfields",
+    "distance_km": 0.4,
+    "difficulty": "easy",
+    "facts": [
+      "Moorfields is one of four underground stations forming Liverpool's central Merseyrail loop, opened in 1977.",
+      "It sits close to Liverpool ONE, a major open-air shopping and leisure quarter opened in 2008.",
+      "The Liverpool loop line runs beneath the city centre, connecting the Northern and Wirral lines."
+    ]
+  },
+  {
+    "landmark": "Sellafield Nuclear Site",
+    "closest_station": "Sellafield",
+    "distance_km": 0.5,
+    "difficulty": "medium",
+    "facts": [
+      "Sellafield has been a centre of Britain's nuclear industry since the 1950s, including the world's first commercial nuclear power station.",
+      "It is now primarily a nuclear decommissioning and waste management site.",
+      "Sellafield station serves the large workforce commuting to the site daily."
+    ]
+  },
+  {
+    "landmark": "Ravenglass and Eskdale Railway",
+    "closest_station": "Ravenglass for Eskdale",
+    "distance_km": 0.1,
+    "difficulty": "easy",
+    "facts": [
+      "Nicknamed 'La'al Ratty', it is one of the oldest and longest-running narrow-gauge heritage railways in England.",
+      "It originally opened in 1875 to carry iron ore from mines in Eskdale.",
+      "The heritage railway connects directly with the main line at Ravenglass station."
+    ]
+  },
+  {
+    "landmark": "Muncaster Castle",
+    "closest_station": "Ravenglass for Eskdale",
+    "distance_km": 1.5,
+    "difficulty": "medium",
+    "facts": [
+      "Muncaster Castle has been owned by the Pennington family for over 800 years.",
+      "Its grounds include the World Owl Centre, home to one of the largest owl collections in Britain.",
+      "The castle overlooks the Esk Valley on the edge of the Lake District."
+    ]
+  },
+  {
+    "landmark": "Walls Castle Roman Bath House, Ravenglass",
+    "closest_station": "Ravenglass for Eskdale",
+    "distance_km": 0.5,
+    "difficulty": "hard",
+    "facts": [
+      "Walls Castle is the best-preserved Roman building in northern England, with walls still standing over 4 metres high.",
+      "It was part of a Roman fort called Glannaventa, guarding the Cumbrian coast.",
+      "Ravenglass is the only coastal town within the Lake District National Park."
+    ]
+  },
+  {
+    "landmark": "St Bees Priory",
+    "closest_station": "St Bees",
+    "distance_km": 0.4,
+    "difficulty": "easy",
+    "facts": [
+      "St Bees Priory was founded around 1120, on a site linked to the 7th-century Irish saint Bega.",
+      "The priory church still serves as the parish church of St Bees today.",
+      "St Bees is a well-preserved sandstone village on the Cumbrian coast."
+    ]
+  },
+  {
+    "landmark": "St Bees Head",
+    "closest_station": "St Bees",
+    "distance_km": 1.0,
+    "difficulty": "medium",
+    "facts": [
+      "St Bees Head is the official starting point of Alfred Wainwright's Coast to Coast walk.",
+      "The sandstone cliffs are the only significant cliff coastline in Cumbria, home to nesting seabirds.",
+      "It also marks the westernmost point of northern England."
+    ]
+  },
+  {
+    "landmark": "The Beacon Museum, Whitehaven",
+    "closest_station": "Whitehaven",
+    "distance_km": 0.3,
+    "difficulty": "easy",
+    "facts": [
+      "The Beacon tells the story of Whitehaven's harbour, once one of Britain's busiest ports for the rum and tobacco trade.",
+      "Whitehaven was laid out on a grid plan in the 17th century, an early example of British town planning.",
+      "The Washington family, ancestors of George Washington, had strong historical links to Whitehaven."
+    ]
+  },
+  {
+    "landmark": "Whitehaven Harbour",
+    "closest_station": "Whitehaven",
+    "distance_km": 0.2,
+    "difficulty": "easy",
+    "facts": [
+      "Whitehaven's harbour was attacked by American naval officer John Paul Jones in 1778, one of the last hostile landings on English soil.",
+      "The harbour once handled more coal exports than any other English port outside London.",
+      "Whitehaven's Georgian streets are considered among the best-preserved in England."
+    ]
+  },
+  {
+    "landmark": "Whitehaven Castle & Rugby Union heritage",
+    "closest_station": "Whitehaven",
+    "distance_km": 0.5,
+    "difficulty": "medium",
+    "facts": [
+      "Whitehaven has a strong rugby league tradition alongside its maritime history.",
+      "The town's coal-mining past shaped much of its surrounding landscape and communities.",
+      "Whitehaven sits on the Cumbrian Coast Line between Barrow and Carlisle."
+    ]
+  },
+  {
+    "landmark": "Silecroft Beach",
+    "closest_station": "Silecroft",
+    "distance_km": 0.5,
+    "difficulty": "medium",
+    "facts": [
+      "Silecroft has one of the longest sandy beaches on the Cumbrian coast, backed by dunes.",
+      "The village sits beneath Black Combe, a distinctive standalone fell.",
+      "Silecroft station is a small request stop on the line."
+    ]
+  },
+  {
+    "landmark": "Black Combe",
+    "closest_station": "Silecroft",
+    "distance_km": 2.0,
+    "difficulty": "hard",
+    "facts": [
+      "Black Combe rises to 600 metres and is said to offer views across parts of five countries on a clear day.",
+      "The fell was described by William Wordsworth in his poem 'View from the Top of Black Comb'.",
+      "It stands somewhat isolated from the main Lake District fells, close to the coast."
+    ]
+  },
+  {
+    "landmark": "Kirkby-in-Furness & the Lake District edge",
+    "closest_station": "Kirkby-in-Furness",
+    "distance_km": 1.0,
+    "difficulty": "medium",
+    "facts": [
+      "Kirkby-in-Furness sits on the Duddon Estuary, on the southwestern fringe of the Lake District.",
+      "The village was historically linked to slate quarrying in the surrounding fells.",
+      "It offers views across the estuary towards Millom and the sea."
+    ]
+  },
+  {
+    "landmark": "Green Road & the Duddon Estuary",
+    "closest_station": "Green Road",
+    "distance_km": 0.3,
+    "difficulty": "hard",
+    "facts": [
+      "Green Road is one of the smallest and least-used stations on the Cumbrian Coast Line.",
+      "It overlooks the tidal sands of the Duddon Estuary.",
+      "The station serves a scattered rural community rather than a single village centre."
+    ]
+  },
+  {
+    "landmark": "Bootle's rural Cumbrian coast",
+    "closest_station": "Bootle (Cumbria)",
+    "distance_km": 0.5,
+    "difficulty": "hard",
+    "facts": [
+      "Bootle, Cumbria, is a small village distinct from the larger Bootle in Merseyside.",
+      "It sits between the fells and the sea on the quiet Cumbrian Coast Line.",
+      "The village church dates back to medieval times, though much altered since."
+    ]
+  },
+  {
+    "landmark": "Eskmeals Nature Reserve (via Bootle)",
+    "closest_station": "Bootle (Cumbria)",
+    "distance_km": 2.0,
+    "difficulty": "hard",
+    "facts": [
+      "Eskmeals Dunes are an important site for rare coastal plants and natterjack toads.",
+      "The dunes sit near the mouth of the River Esk on the Cumbrian coast.",
+      "The area also has a long history as a military weapons testing range."
+    ]
+  },
+  {
+    "landmark": "Braystones Beach",
+    "closest_station": "Braystones",
+    "distance_km": 0.2,
+    "difficulty": "medium",
+    "facts": [
+      "Braystones is known for a small cluster of distinctive beach chalets built directly on the shore.",
+      "The station is a minor request stop on the Cumbrian Coast Line.",
+      "It sits between Sellafield and St Bees on the coast."
+    ]
+  },
+  {
+    "landmark": "Nethertown's quiet coastline",
+    "closest_station": "Nethertown",
+    "distance_km": 0.5,
+    "difficulty": "hard",
+    "facts": [
+      "Nethertown is one of the least-used stations in England, serving a small rural hamlet.",
+      "It sits on the Cumbrian coast between St Bees and Sellafield.",
+      "The beach here is a quiet, little-visited stretch of shoreline."
+    ]
+  },
+  {
+    "landmark": "Corkickle & Whitehaven's western edge",
+    "closest_station": "Corkickle",
+    "distance_km": 0.5,
+    "difficulty": "medium",
+    "facts": [
+      "Corkickle sits at the southern edge of Whitehaven, close to the town's Georgian conservation area.",
+      "It was once linked to Whitehaven's extensive coal mining tunnels, which extended out under the sea.",
+      "Corkickle station is a short walk from Whitehaven's harbour area."
+    ]
+  },
+  {
+    "landmark": "Drigg Nuclear Waste Facility",
+    "closest_station": "Drigg",
+    "distance_km": 1.0,
+    "difficulty": "hard",
+    "facts": [
+      "Drigg is home to the UK's principal disposal facility for low-level radioactive waste.",
+      "The village also sits close to Drigg Dunes, a nature reserve important for natterjack toads.",
+      "Drigg station serves both the village and the nearby Sellafield workforce."
+    ]
+  },
+  {
+    "landmark": "Seascale Beach",
+    "closest_station": "Seascale",
+    "distance_km": 0.3,
+    "difficulty": "easy",
+    "facts": [
+      "Seascale developed as a small Victorian seaside resort, with a golf course along the shore.",
+      "The village sits close to Sellafield, a short distance up the coast.",
+      "Seascale's beach looks out across the Irish Sea towards the Isle of Man on clear days."
+    ]
+  },
+  {
+    "landmark": "Coast to Coast Walk start point",
+    "closest_station": "St Bees",
+    "distance_km": 0.2,
+    "difficulty": "medium",
+    "facts": [
+      "Walkers traditionally dip a boot in the Irish Sea at St Bees before setting off across England to Robin Hood's Bay.",
+      "The 192-mile route was devised by fellwalker Alfred Wainwright in 1973.",
+      "St Bees marks the western end of this coast-to-coast crossing of northern England."
+    ]
+  },
+  {
+    "landmark": "Whitehaven's Rum Story",
+    "closest_station": "Whitehaven",
+    "distance_km": 0.3,
+    "difficulty": "medium",
+    "facts": [
+      "The Rum Story museum, in a former wine and spirit merchant's cellars, traces Whitehaven's role in the rum trade.",
+      "Whitehaven imported sugar and rum from the Caribbean, closely tied to the transatlantic slave trade.",
+      "The town's harbour still has three historic piers from its 18th-century trading heyday."
+    ]
+  },
+  {
+    "landmark": "Sellafield Visitor Legacy & the coastline",
+    "closest_station": "Sellafield",
+    "distance_km": 1.0,
+    "difficulty": "hard",
+    "facts": [
+      "Sellafield remains one of the largest employers in West Cumbria.",
+      "The surrounding coastline includes stretches managed for nature conservation despite the industrial site.",
+      "The site has operated under several names, including Windscale, since it opened in the 1940s and 50s."
+    ]
+  },
+  {
+    "landmark": "Muncaster Castle's ghost stories",
+    "closest_station": "Ravenglass for Eskdale",
+    "distance_km": 1.5,
+    "difficulty": "medium",
+    "facts": [
+      "Muncaster Castle is often described as one of the most haunted houses in England.",
+      "Its Tapestry Room is said to be haunted by the ghost of a murdered court jester, Tom Fool.",
+      "The castle's gardens include a maze and extensive rhododendron collection."
+    ]
+  },
+  {
+    "landmark": "Whitehaven's coal mining tunnels",
+    "closest_station": "Whitehaven",
+    "distance_km": 1.0,
+    "difficulty": "hard",
+    "facts": [
+      "Whitehaven's Haig Pit mined coal from tunnels that extended more than five miles out under the Irish Sea.",
+      "The pit closed in 1986, ending centuries of coal mining in the town.",
+      "The former colliery site is now home to a mining and energy heritage centre."
+    ]
+  },
+  {
+    "landmark": "Silecroft's Black Combe walking routes",
+    "closest_station": "Silecroft",
+    "distance_km": 1.0,
+    "difficulty": "medium",
+    "facts": [
+      "Silecroft is a popular starting point for walks up Black Combe.",
+      "The beach here is one of the quietest and least developed on the Cumbrian coast.",
+      "The village sits within the Lake District National Park boundary."
+    ]
+  },
+  {
+    "landmark": "Ravenglass's tidal estuary",
+    "closest_station": "Ravenglass for Eskdale",
+    "distance_km": 0.2,
+    "difficulty": "medium",
+    "facts": [
+      "Ravenglass sits where three rivers, the Esk, Mite and Irt, meet the sea.",
+      "It is the only coastal settlement inside the Lake District National Park.",
+      "The estuary is an important habitat for wading birds and waterfowl."
+    ]
+  },
+  {
+    "landmark": "St Bees' sandstone architecture",
+    "closest_station": "St Bees",
+    "distance_km": 0.3,
+    "difficulty": "medium",
+    "facts": [
+      "St Bees is built largely from local red sandstone, giving the village a distinctive warm colour.",
+      "St Bees School, founded in 1583, is one of the oldest schools in Cumbria.",
+      "The village sits just south of the sandstone cliffs of St Bees Head."
+    ]
+  },
+  {
+    "landmark": "Kirkby-in-Furness slate quarrying heritage",
+    "closest_station": "Kirkby-in-Furness",
+    "distance_km": 2.0,
+    "difficulty": "hard",
+    "facts": [
+      "The fells above Kirkby-in-Furness were once extensively quarried for green slate.",
+      "Burlington slate from this area has been used in prestigious buildings worldwide.",
+      "The village looks out across the sands of the Duddon Estuary at low tide."
+    ]
+  },
+  {
+    "landmark": "Seascale's golf links",
+    "closest_station": "Seascale",
+    "distance_km": 0.5,
+    "difficulty": "medium",
+    "facts": [
+      "Seascale Golf Club, founded in 1893, is one of the oldest links courses on the Cumbrian coast.",
+      "The course runs along the dunes between the village and the sea.",
+      "Seascale developed largely as a planned Victorian resort, with wide tree-lined streets."
+    ]
+  },
+  {
+    "landmark": "Whitehaven's harbour lighthouse",
+    "closest_station": "Whitehaven",
+    "distance_km": 0.2,
+    "difficulty": "medium",
+    "facts": [
+      "Whitehaven's candlestick chimney and harbour lighthouses are iconic features of its historic waterfront.",
+      "The town was one of the first in England to be built on a formal grid-street plan, from the 1680s.",
+      "Whitehaven's population briefly rivalled that of Liverpool in the 18th century, at the height of its trade."
+    ]
+  },
+  {
+    "landmark": "Ravenglass Roman fort remains",
+    "closest_station": "Ravenglass for Eskdale",
+    "distance_km": 0.4,
+    "difficulty": "hard",
+    "facts": [
+      "The Roman fort at Ravenglass, Glannaventa, once housed a garrison guarding the Cumbrian coast.",
+      "Its bath house walls survive to an unusual height for a Roman ruin in Britain.",
+      "Ravenglass was a strategic harbour for Roman supply ships along the coast."
+    ]
+  },
+  {
+    "landmark": "St Bees lifeboat station history",
+    "closest_station": "St Bees",
+    "distance_km": 0.5,
+    "difficulty": "hard",
+    "facts": [
+      "The waters off St Bees Head have a long history of shipwrecks due to the rocky coastline.",
+      "St Bees Head has two lighthouses guiding vessels along this stretch of coast.",
+      "The cliffs are a designated Site of Special Scientific Interest for breeding seabirds."
+    ]
+  },
+  {
+    "landmark": "Sellafield's coastal footpath",
+    "closest_station": "Sellafield",
+    "distance_km": 1.5,
+    "difficulty": "hard",
+    "facts": [
+      "The England Coast Path passes close to Sellafield, linking the surrounding villages.",
+      "Sellafield sits between the Lake District fells and the Irish Sea.",
+      "The site has been a major driver of employment in West Cumbria for over 70 years."
+    ]
+  },
+  {
+    "landmark": "Millom's ironworking history (via Kirkby-in-Furness)",
+    "closest_station": "Kirkby-in-Furness",
+    "distance_km": 5.0,
+    "difficulty": "hard",
+    "facts": [
+      "Millom, a short distance from Kirkby-in-Furness, grew rapidly around iron ore mining in the 19th century.",
+      "The poet Norman Nicholson, born in Millom, wrote extensively about the town and its industry.",
+      "The Duddon Estuary separates Kirkby-in-Furness from Millom across the sands."
+    ]
+  },
+  {
+    "landmark": "Whitehaven's Georgian church, St Nicholas",
+    "closest_station": "Whitehaven",
+    "distance_km": 0.3,
+    "difficulty": "hard",
+    "facts": [
+      "St Nicholas' tower is one of the few remaining parts of Whitehaven's original 17th-century parish church.",
+      "The rest of the church was largely destroyed by fire in the 1970s.",
+      "It stands at the heart of Whitehaven's planned Georgian street grid."
+    ]
+  },
+  {
+    "landmark": "Eskdale's fell views (via Ravenglass)",
+    "closest_station": "Ravenglass for Eskdale",
+    "distance_km": 6.0,
+    "difficulty": "hard",
+    "facts": [
+      "Eskdale, reached from Ravenglass, is one of the quieter valleys of the Lake District.",
+      "Scafell Pike, England's highest mountain, lies at the head of the valley.",
+      "The narrow-gauge railway climbs gradually into the valley from the coast."
+    ]
+  },
+  {
+    "landmark": "Seascale's sea views to the Isle of Man",
+    "closest_station": "Seascale",
+    "distance_km": 0.2,
+    "difficulty": "medium",
+    "facts": [
+      "On exceptionally clear days, the Isle of Man is visible from Seascale's beach.",
+      "The village was once considered as a potential larger seaside resort in the Victorian era.",
+      "Seascale sits almost midway along the Cumbrian Coast Line."
+    ]
+  },
+  {
+    "landmark": "Drigg Dunes Nature Reserve",
+    "closest_station": "Drigg",
+    "distance_km": 0.5,
+    "difficulty": "hard",
+    "facts": [
+      "Drigg Dunes is one of the largest sand dune systems in northwest England.",
+      "It supports rare natterjack toads and a wide range of coastal plant species.",
+      "The reserve is managed by Cumbria Wildlife Trust."
+    ]
+  },
+  {
+    "landmark": "St Bees Beach",
+    "closest_station": "St Bees",
+    "distance_km": 0.3,
+    "difficulty": "easy",
+    "facts": [
+      "St Bees has one of the few sand and shingle beaches on this stretch of the Cumbrian coast.",
+      "It looks out towards the Isle of Man and, on clear days, the Scottish coast.",
+      "The beach sits directly below the sandstone cliffs of St Bees Head."
+    ]
+  },
+  {
+    "landmark": "Braystones' remote shoreline chalets",
+    "closest_station": "Braystones",
+    "distance_km": 0.1,
+    "difficulty": "hard",
+    "facts": [
+      "The small chalets at Braystones sit unusually close to the high-tide line, built up over decades.",
+      "The settlement has no shop or pub, remaining a very quiet coastal spot.",
+      "Braystones is one of the request stops on the Cumbrian Coast Line, trains stopping only if flagged down or requested."
+    ]
+  },
+  {
+    "landmark": "Whitehaven's maritime festival heritage",
+    "closest_station": "Whitehaven",
+    "distance_km": 0.2,
+    "difficulty": "medium",
+    "facts": [
+      "Whitehaven has hosted large maritime festivals celebrating its harbour and sailing heritage.",
+      "The harbour's historic sea walls and piers remain largely as built in the 18th and 19th centuries.",
+      "Whitehaven was one of the first planned towns in England, laid out from 1660 onward."
+    ]
+  },
+  {
+    "landmark": "Nethertown's coastal path",
+    "closest_station": "Nethertown",
+    "distance_km": 0.3,
+    "difficulty": "hard",
+    "facts": [
+      "The coastal path at Nethertown links St Bees Head to the wider Cumbrian Coast Path.",
+      "Nethertown is one of the quietest halts on the entire line, with only a handful of daily trains.",
+      "The settlement consists of little more than a scattering of houses near the shore."
+    ]
+  },
+  {
+    "landmark": "Corkickle Halt",
+    "closest_station": "Corkickle",
+    "distance_km": 0.1,
+    "difficulty": "hard",
+    "facts": [
+      "Corkickle is one of the smallest stations on the Cumbrian Coast Line, a simple halt with minimal facilities.",
+      "It sits within walking distance of Whitehaven town centre.",
+      "The area was historically linked to Whitehaven's extensive underground coal workings."
+    ]
+  },
+  {
+    "landmark": "Green Road's tidal sands",
+    "closest_station": "Green Road",
+    "distance_km": 0.5,
+    "difficulty": "hard",
+    "facts": [
+      "Green Road station overlooks the wide tidal sands of the Duddon Estuary.",
+      "It serves one of the smallest catchment populations on the line.",
+      "The Duddon Estuary is an important area for wading birds at low tide."
+    ]
+  },
+  {
+    "landmark": "Bootle's parish church",
+    "closest_station": "Bootle (Cumbria)",
+    "distance_km": 0.3,
+    "difficulty": "hard",
+    "facts": [
+      "Bootle's parish church has origins going back centuries, though much rebuilt over time.",
+      "The village sits inland slightly from the coast, in quiet farmland.",
+      "Bootle, Cumbria, should not be confused with the larger town of the same name near Liverpool."
+    ]
+  },
+  {
+    "landmark": "Silecroft's views to the Isle of Man",
+    "closest_station": "Silecroft",
+    "distance_km": 0.3,
+    "difficulty": "medium",
+    "facts": [
+      "Silecroft's beach offers clear views out across the Irish Sea on good days.",
+      "The village is a quiet base for walkers heading up onto Black Combe.",
+      "Silecroft sits on the western fringe of the Lake District National Park boundary."
+    ]
+  },
+  {
+    "landmark": "Muncaster Fell walking route",
+    "closest_station": "Ravenglass for Eskdale",
+    "distance_km": 3.0,
+    "difficulty": "hard",
+    "facts": [
+      "Muncaster Fell offers a ridge walk with views across the Eskdale valley to the high fells beyond.",
+      "The route can be combined with a ride on the Ravenglass and Eskdale Railway.",
+      "It is a popular, relatively gentle fell walk compared to the higher Lakeland peaks."
+    ]
+  },
+  {
+    "landmark": "Kirkby-in-Furness viewpoint over the Duddon Sands",
+    "closest_station": "Kirkby-in-Furness",
+    "distance_km": 0.2,
+    "difficulty": "medium",
+    "facts": [
+      "The village offers sweeping views across the Duddon Sands towards Millom and the sea.",
+      "Kirkby-in-Furness is a starting point for walks up onto the surrounding slate fells.",
+      "The area was once dotted with small quarries supplying green slate for roofing."
+    ]
+  },
+  {
+    "landmark": "Seascale's Victorian resort streets",
+    "closest_station": "Seascale",
+    "distance_km": 0.2,
+    "difficulty": "medium",
+    "facts": [
+      "Seascale's wide, tree-lined streets reflect its planned development as a Victorian seaside resort.",
+      "The village was intended to rival larger resorts further afield but remained relatively small.",
+      "Seascale station still serves both residents and Sellafield commuters today."
+    ]
+  }
+]

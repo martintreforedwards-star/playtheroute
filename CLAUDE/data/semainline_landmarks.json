@@ -1,0 +1,563 @@
+[
+  {
+    "landmark": "Allhallows-on-Sea",
+    "closest_station": "Sheerness-On-Sea",
+    "distance_km": 9.13,
+    "difficulty": "hard",
+    "facts": [
+      "Allhallows-on-Sea was planned as a major seaside resort in the 1930s but never fully developed.",
+      "The village sits on the Hoo Peninsula, looking out over the Thames Estuary.",
+      "Its holiday park remains a popular caravan and camping destination today."
+    ]
+  },
+  {
+    "landmark": "Capstone Farm Country Park",
+    "closest_station": "Rainham (Kent)",
+    "distance_km": 3.75,
+    "difficulty": "hard",
+    "facts": [
+      "Capstone Farm Country Park covers over 100 hectares of Kent countryside near Chatham.",
+      "The park includes a lake, woodland and grazing meadows.",
+      "It was created from former farmland to provide green space for the growing Medway towns."
+    ]
+  },
+  {
+    "landmark": "Chatham Historic Dockyard",
+    "closest_station": "Gillingham (Kent)",
+    "distance_km": 1.96,
+    "difficulty": "medium",
+    "facts": [
+      "Chatham Dockyard built and repaired Royal Navy ships for over 400 years, closing in 1984.",
+      "It preserves the world's most complete dockyard from the age of sail.",
+      "HMS Victory's timbers were partly sourced from Chatham's associated forests."
+    ]
+  },
+  {
+    "landmark": "Cliffe Pools",
+    "closest_station": "Higham",
+    "distance_km": 2.77,
+    "difficulty": "medium",
+    "facts": [
+      "Cliffe Pools is a major RSPB reserve created from former flooded chalk and clay pits.",
+      "It attracts large numbers of wading birds and wildfowl on the Hoo Peninsula.",
+      "The site sits close to the marshes that inspired the opening of Dickens' Great Expectations."
+    ]
+  },
+  {
+    "landmark": "Fort Amherst",
+    "closest_station": "Chatham",
+    "distance_km": 1.04,
+    "difficulty": "medium",
+    "facts": [
+      "Fort Amherst is Britain's largest Napoleonic-era fortification, built to defend Chatham Dockyard.",
+      "It includes a network of tunnels dug into the chalk beneath the fort.",
+      "The fort dates from the 1750s, with later Napoleonic-era additions."
+    ]
+  },
+  {
+    "landmark": "Gillingham Strand",
+    "closest_station": "Gillingham (Kent)",
+    "distance_km": 1.02,
+    "difficulty": "medium",
+    "facts": [
+      "Gillingham Strand is a stretch of Medway riverside promenade and green space.",
+      "It offers views across the River Medway towards Hoo.",
+      "The Strand sits close to the historic naval town of Gillingham."
+    ]
+  },
+  {
+    "landmark": "Gravesend Town Pier",
+    "closest_station": "Gravesend",
+    "distance_km": 0.03,
+    "difficulty": "easy",
+    "facts": [
+      "Gravesend Town Pier, opened in 1834, is the oldest surviving cast-iron pier in the world.",
+      "It once served as a landing stage for Thames steamers bringing day-trippers from London.",
+      "The pier has been restored and now houses a bar and restaurant."
+    ]
+  },
+  {
+    "landmark": "Hoo Peninsula",
+    "closest_station": "Gillingham (Kent)",
+    "distance_km": 3.72,
+    "difficulty": "hard",
+    "facts": [
+      "The Hoo Peninsula sits between the Thames and Medway estuaries.",
+      "It is largely low-lying marshland, historically used for grazing and, in Dickens' time, as smugglers' territory.",
+      "Plans to build a major airport on the peninsula were rejected in 2010."
+    ]
+  },
+  {
+    "landmark": "Isle of Grain",
+    "closest_station": "Sheerness-On-Sea",
+    "distance_km": 4.18,
+    "difficulty": "hard",
+    "facts": [
+      "The Isle of Grain sits at the tip of the Hoo Peninsula, where the Thames meets the Medway.",
+      "It has long been an important site for oil refining and, more recently, gas storage.",
+      "Despite its name, the Isle of Grain has been connected to the mainland by land reclamation for centuries."
+    ]
+  },
+  {
+    "landmark": "Joss Bay",
+    "closest_station": "Broadstairs",
+    "distance_km": 2.21,
+    "difficulty": "medium",
+    "facts": [
+      "Joss Bay is a popular sandy beach near Broadstairs, known for surfing.",
+      "It sits along the chalk cliffs of the Isle of Thanet.",
+      "The bay's name is thought to derive from a historic shipwreck or smuggling connection."
+    ]
+  },
+  {
+    "landmark": "Margate Harbour",
+    "closest_station": "Margate",
+    "distance_km": 0.97,
+    "difficulty": "easy",
+    "facts": [
+      "Margate's harbour has been a working port since medieval times.",
+      "The town's Turner Contemporary gallery, named after painter J.M.W. Turner, opened on the harbour arm in 2011.",
+      "Margate's Old Town retains narrow medieval streets close to the harbour."
+    ]
+  },
+  {
+    "landmark": "Medway Tunnel",
+    "closest_station": "Rochester",
+    "distance_km": 1.39,
+    "difficulty": "medium",
+    "facts": [
+      "The Medway Tunnel, opened in 1996, carries road traffic beneath the River Medway.",
+      "It was the first purpose-built immersed tube tunnel constructed in the UK for road use.",
+      "The tunnel links Chatham and Strood, reducing pressure on the historic Rochester bridge."
+    ]
+  },
+  {
+    "landmark": "Minnis Bay Birchington",
+    "closest_station": "Birchington-On-Sea",
+    "distance_km": 0.63,
+    "difficulty": "easy",
+    "facts": [
+      "Minnis Bay is a sandy beach at Birchington-on-Sea, popular for watersports.",
+      "The bay has a long tradition of sailing and windsurfing clubs.",
+      "Birchington sits on the north Kent coast, part of the Isle of Thanet."
+    ]
+  },
+  {
+    "landmark": "North Foreland Lighthouse",
+    "closest_station": "Broadstairs",
+    "distance_km": 1.87,
+    "difficulty": "medium",
+    "facts": [
+      "North Foreland Lighthouse is one of the last lighthouses in England to be automated, in 1998.",
+      "It marks the point where the Thames Estuary meets the open North Sea.",
+      "The current tower dates largely from the 17th and 18th centuries."
+    ]
+  },
+  {
+    "landmark": "Palm Bay",
+    "closest_station": "Margate",
+    "distance_km": 2.69,
+    "difficulty": "medium",
+    "facts": [
+      "Palm Bay is a quieter sandy beach on the northeast Kent coast near Margate.",
+      "It sits beneath low chalk cliffs typical of the Thanet coastline.",
+      "The bay is a popular spot for rock pooling at low tide."
+    ]
+  },
+  {
+    "landmark": "Pegwell Bay",
+    "closest_station": "Thanet Parkway",
+    "distance_km": 0.58,
+    "difficulty": "easy",
+    "facts": [
+      "Pegwell Bay is a large tidal bay and nature reserve on the Kent coast.",
+      "A full-size replica Viking longship, the Hugin, commemorates the traditional 449 AD landing of Hengist and Horsa nearby.",
+      "The bay is an important habitat for wading birds."
+    ]
+  },
+  {
+    "landmark": "RainhamKent",
+    "closest_station": "Rainham (Kent)",
+    "distance_km": 0.38,
+    "difficulty": "easy",
+    "facts": [
+      "Rainham, Kent, has a history stretching back to Anglo-Saxon times, distinct from the London borough of the same name.",
+      "The town's parish church, St Margaret's, has origins dating to the 12th century.",
+      "Rainham sits between Gillingham and Sittingbourne on the North Kent coast line."
+    ]
+  },
+  {
+    "landmark": "Ramsgate Royal Harbour",
+    "closest_station": "Ramsgate",
+    "distance_km": 0.98,
+    "difficulty": "easy",
+    "facts": [
+      "Ramsgate's harbour is the only Royal Harbour in the UK, a title granted by George IV in 1821.",
+      "The town played a key role during the 1940 Dunkirk evacuation, with many 'Little Ships' departing from its harbour.",
+      "Ramsgate's Georgian architecture reflects its heyday as a fashionable seaside resort."
+    ]
+  },
+  {
+    "landmark": "Rochester Cathedral",
+    "closest_station": "Rochester",
+    "distance_km": 0.64,
+    "difficulty": "easy",
+    "facts": [
+      "Rochester Cathedral is the second-oldest cathedral in England, founded in 604 AD.",
+      "Charles Dickens lived nearby and set scenes from several novels in the city.",
+      "The cathedral's crypt is one of the largest and finest Norman crypts in the country."
+    ]
+  },
+  {
+    "landmark": "St Mary's Island",
+    "closest_station": "Rochester",
+    "distance_km": 1.94,
+    "difficulty": "medium",
+    "facts": [
+      "St Mary's Island, near Chatham, was developed on former dockyard land into a modern residential district.",
+      "It sits on the River Medway, connected to the mainland by a causeway.",
+      "The island takes its name from an earlier, smaller island absorbed into the dockyard site."
+    ]
+  },
+  {
+    "landmark": "Stone Bay",
+    "closest_station": "Broadstairs",
+    "distance_km": 1.01,
+    "difficulty": "medium",
+    "facts": [
+      "Stone Bay is a quiet beach near Broadstairs on the Thanet coast.",
+      "It sits between the busier bays of Broadstairs and Ramsgate.",
+      "The bay is popular with local residents away from the main tourist crowds."
+    ]
+  },
+  {
+    "landmark": "Tilbury Fort",
+    "closest_station": "Gravesend",
+    "distance_km": 1.13,
+    "difficulty": "medium",
+    "facts": [
+      "Tilbury Fort is one of the finest surviving examples of 17th-century military engineering in England.",
+      "Elizabeth I delivered her famous Armada speech to troops gathered near the fort in 1588.",
+      "It later served coastal defence roles into the 20th century."
+    ]
+  },
+  {
+    "landmark": "Upchurch Marshes",
+    "closest_station": "Newington",
+    "distance_km": 1.3,
+    "difficulty": "medium",
+    "facts": [
+      "Upchurch Marshes line the Medway estuary, historically used for grazing and brick-making clay extraction.",
+      "The area has yielded significant Roman pottery finds from ancient kiln sites.",
+      "Upchurch village sits a short distance inland from the marshes."
+    ]
+  },
+  {
+    "landmark": "Viking Bay Broadstairs",
+    "closest_station": "Broadstairs",
+    "distance_km": 0.42,
+    "difficulty": "easy",
+    "facts": [
+      "Viking Bay is Broadstairs' main beach, sheltered by chalk headlands either side.",
+      "Charles Dickens holidayed frequently in Broadstairs, and Bleak House overlooks the bay.",
+      "The bay hosts the town's popular annual Dickens Festival."
+    ]
+  },
+  {
+    "landmark": "Westgate-on-Sea",
+    "closest_station": "Westgate-On-Sea",
+    "distance_km": 0.18,
+    "difficulty": "easy",
+    "facts": [
+      "Westgate-on-Sea developed as a deliberately quiet, upmarket Victorian resort.",
+      "The town has two sandy bays either side of its centre.",
+      "Westgate was designed with wide streets and large villas to attract wealthy residents."
+    ]
+  },
+  {
+    "landmark": "Canterbury Cathedral",
+    "closest_station": "Canterbury East",
+    "distance_km": 0.7,
+    "difficulty": "easy",
+    "facts": [
+      "Canterbury Cathedral is the mother church of the worldwide Anglican Communion.",
+      "Archbishop Thomas Becket was murdered inside the cathedral in 1170.",
+      "The cathedral is a UNESCO World Heritage Site along with St Augustine's Abbey and St Martin's Church."
+    ]
+  },
+  {
+    "landmark": "Dover Castle",
+    "closest_station": "Dover Priory",
+    "distance_km": 1.5,
+    "difficulty": "medium",
+    "facts": [
+      "Dover Castle is often called the 'Key to England' for its strategic position guarding the shortest Channel crossing.",
+      "Secret wartime tunnels beneath the castle were used to plan the 1940 Dunkirk evacuation.",
+      "The castle's Great Tower was built by Henry II in the 1180s."
+    ]
+  },
+  {
+    "landmark": "Leeds Castle",
+    "closest_station": "Bearsted",
+    "distance_km": 6.0,
+    "difficulty": "hard",
+    "facts": [
+      "Leeds Castle sits on two islands in a lake, often called 'the loveliest castle in the world'.",
+      "It has served as a Norman stronghold, a royal residence, and a private country house over its history.",
+      "Bearsted is the nearest railway station, with the castle reached by road or seasonal bus."
+    ]
+  },
+  {
+    "landmark": "Sissinghurst Castle Garden",
+    "closest_station": "Staplehurst",
+    "distance_km": 5.0,
+    "difficulty": "hard",
+    "facts": [
+      "Sissinghurst's garden was created in the 1930s by writer Vita Sackville-West and her husband Harold Nicolson.",
+      "It is considered one of the most influential gardens of the 20th century.",
+      "Staplehurst is the nearest railway station on the Hastings line."
+    ]
+  },
+  {
+    "landmark": "Knole House, Sevenoaks",
+    "closest_station": "Sevenoaks",
+    "distance_km": 1.5,
+    "difficulty": "medium",
+    "facts": [
+      "Knole is one of England's largest houses, said to have 365 rooms, one for each day of the year.",
+      "It has been the ancestral home of the Sackville family since the 16th century.",
+      "Knole Park, surrounding the house, is home to free-roaming deer."
+    ]
+  },
+  {
+    "landmark": "The Pantiles, Tunbridge Wells",
+    "closest_station": "Tunbridge Wells",
+    "distance_km": 0.5,
+    "difficulty": "easy",
+    "facts": [
+      "The Pantiles is a colonnaded Georgian parade built around the town's mineral spring.",
+      "Tunbridge Wells was granted 'Royal' status by Edward VII in 1909.",
+      "The spa town developed after the spring's medicinal waters were discovered in 1606."
+    ]
+  },
+  {
+    "landmark": "Rye's medieval streets",
+    "closest_station": "Rye",
+    "distance_km": 0.5,
+    "difficulty": "easy",
+    "facts": [
+      "Rye's cobbled Mermaid Street is one of the most photographed streets in England.",
+      "The town was once a leading member of the Cinque Ports confederation, though the sea has since receded.",
+      "Rye sits on a hill that was once nearly surrounded by water."
+    ]
+  },
+  {
+    "landmark": "Battle Abbey & 1066 battlefield",
+    "closest_station": "Battle",
+    "distance_km": 0.5,
+    "difficulty": "easy",
+    "facts": [
+      "Battle Abbey was built by William the Conqueror on the site of the 1066 Battle of Hastings.",
+      "The high altar was said to mark the spot where King Harold fell.",
+      "The town of Battle grew up around the abbey to house its workers."
+    ]
+  },
+  {
+    "landmark": "Hastings Castle & the Old Town",
+    "closest_station": "Hastings",
+    "distance_km": 0.8,
+    "difficulty": "easy",
+    "facts": [
+      "Hastings Castle was the first castle built by William the Conqueror in England, in 1066.",
+      "The town's Old Town retains narrow medieval streets and traditional net shops for fishing gear.",
+      "Hastings remains a working fishing beach, one of the largest in Europe launched directly from the shore."
+    ]
+  },
+  {
+    "landmark": "Whitstable's oyster heritage",
+    "closest_station": "Whitstable",
+    "distance_km": 0.5,
+    "difficulty": "easy",
+    "facts": [
+      "Whitstable has been famous for oyster farming since Roman times.",
+      "The town hosts an annual Oyster Festival each July.",
+      "Whitstable's fishing harbour and weatherboarded houses give it a distinctive character."
+    ]
+  },
+  {
+    "landmark": "Deal Castle",
+    "closest_station": "Deal",
+    "distance_km": 0.7,
+    "difficulty": "medium",
+    "facts": [
+      "Deal Castle was built by Henry VIII in a distinctive Tudor rose shape for coastal defence.",
+      "It was part of a chain of forts built to defend against invasion after Henry's break with Rome.",
+      "Deal has one of the best-preserved seafronts of its kind on the Kent coast."
+    ]
+  },
+  {
+    "landmark": "Walmer Castle",
+    "closest_station": "Walmer",
+    "distance_km": 0.5,
+    "difficulty": "medium",
+    "facts": [
+      "Walmer Castle has been the official residence of the Lord Warden of the Cinque Ports for centuries.",
+      "The Duke of Wellington died at Walmer Castle in 1852 while serving as Lord Warden.",
+      "The castle's gardens include one planted specially for the Queen Mother."
+    ]
+  },
+  {
+    "landmark": "Sandwich's Cinque Ports heritage",
+    "closest_station": "Sandwich",
+    "distance_km": 0.5,
+    "difficulty": "medium",
+    "facts": [
+      "Sandwich was one of the original Cinque Ports, medieval towns granted privileges for providing ships to the crown.",
+      "The Earl of Sandwich, linked to the food's name, took his title from the town.",
+      "Sandwich's medieval street plan survives almost entirely intact."
+    ]
+  },
+  {
+    "landmark": "Faversham's brewing heritage",
+    "closest_station": "Faversham",
+    "distance_km": 0.5,
+    "difficulty": "medium",
+    "facts": [
+      "Faversham is home to Britain's oldest brewer, Shepherd Neame, established in 1698.",
+      "The town has one of the largest collections of listed buildings in England for its size.",
+      "Faversham was once one of England's most important market towns."
+    ]
+  },
+  {
+    "landmark": "Bodiam Castle (via Robertsbridge)",
+    "closest_station": "Robertsbridge",
+    "distance_km": 5.0,
+    "difficulty": "hard",
+    "facts": [
+      "Bodiam Castle is one of the most complete and picturesque moated castles in England, built in 1385.",
+      "It was constructed to defend against a feared French invasion during the Hundred Years' War.",
+      "Robertsbridge is the nearest railway station, connecting to the castle via the Kent and East Sussex Railway."
+    ]
+  },
+  {
+    "landmark": "Chartwell (via Sevenoaks)",
+    "closest_station": "Sevenoaks",
+    "distance_km": 5.0,
+    "difficulty": "hard",
+    "facts": [
+      "Chartwell was Sir Winston Churchill's family home for over 40 years.",
+      "Churchill painted many works in the garden studio, several still on display.",
+      "The house is now cared for by the National Trust."
+    ]
+  },
+  {
+    "landmark": "Groombridge Place & Enchanted Forest",
+    "closest_station": "Frant",
+    "distance_km": 3.0,
+    "difficulty": "hard",
+    "facts": [
+      "Groombridge Place is a moated 17th-century manor house on the Kent-Sussex border.",
+      "Its gardens include a themed 'Enchanted Forest' woodland walk.",
+      "Frant is the nearest railway station on the Hastings line."
+    ]
+  },
+  {
+    "landmark": "Penshurst Place (via Tonbridge)",
+    "closest_station": "Tonbridge",
+    "distance_km": 6.0,
+    "difficulty": "hard",
+    "facts": [
+      "Penshurst Place is one of the best-preserved medieval manor houses in England.",
+      "It has been the ancestral home of the Sidney family since the 16th century.",
+      "Tonbridge is the nearest mainline station, with the house reached by road."
+    ]
+  },
+  {
+    "landmark": "Tonbridge Castle",
+    "closest_station": "Tonbridge",
+    "distance_km": 0.5,
+    "difficulty": "easy",
+    "facts": [
+      "Tonbridge Castle's motte-and-bailey design dates from shortly after the Norman Conquest.",
+      "The gatehouse, added in the 13th century, is one of the best-preserved in England.",
+      "Tonbridge sits on the River Medway, a key crossing point historically."
+    ]
+  },
+  {
+    "landmark": "Igtham Mote (via Borough Green)",
+    "closest_station": "Borough Green & Wrotham",
+    "distance_km": 3.0,
+    "difficulty": "hard",
+    "facts": [
+      "Ightham Mote is a moated medieval manor house dating largely from the 14th century.",
+      "It is considered one of the finest examples of its kind in England.",
+      "Borough Green & Wrotham is the nearest railway station, with the house reached by road."
+    ]
+  },
+  {
+    "landmark": "Maidstone's Archbishop's Palace",
+    "closest_station": "Maidstone East",
+    "distance_km": 0.5,
+    "difficulty": "medium",
+    "facts": [
+      "The Archbishop's Palace in Maidstone was once a residence for the Archbishops of Canterbury.",
+      "Maidstone is the county town of Kent.",
+      "The town sits on the River Medway, historically an important trading route."
+    ]
+  },
+  {
+    "landmark": "Chatham's Dickens World area",
+    "closest_station": "Chatham",
+    "distance_km": 0.5,
+    "difficulty": "medium",
+    "facts": [
+      "Charles Dickens spent much of his childhood in the Medway towns, later drawing on the area in his novels.",
+      "Chatham developed largely around its historic naval dockyard.",
+      "The town remains one of the Medway 'Towns', alongside Rochester and Gillingham."
+    ]
+  },
+  {
+    "landmark": "Sittingbourne's paper-making heritage",
+    "closest_station": "Sittingbourne",
+    "distance_km": 0.5,
+    "difficulty": "medium",
+    "facts": [
+      "Sittingbourne was historically a major centre of paper manufacturing.",
+      "The town is linked to the heritage Sittingbourne and Kemsley Light Railway, once used to move paper stock.",
+      "Sittingbourne sits on Milton Creek, a tidal inlet of the Swale."
+    ]
+  },
+  {
+    "landmark": "Herne Bay's clock tower",
+    "closest_station": "Herne Bay",
+    "distance_km": 0.3,
+    "difficulty": "easy",
+    "facts": [
+      "Herne Bay's clock tower, built in 1837, is thought to be the first purpose-built free-standing clock tower in the world.",
+      "The town once had one of the longest pleasure piers in England, though much was lost to storms.",
+      "Herne Bay developed as a Victorian seaside resort."
+    ]
+  },
+  {
+    "landmark": "Broadstairs' Bleak House",
+    "closest_station": "Broadstairs",
+    "distance_km": 0.3,
+    "difficulty": "medium",
+    "facts": [
+      "Bleak House overlooks Viking Bay, named after Charles Dickens' novel written partly nearby.",
+      "Dickens holidayed in Broadstairs regularly for over 20 years.",
+      "The town holds an annual Dickens Festival celebrating this connection."
+    ]
+  },
+  {
+    "landmark": "Ashford International's High Speed 1 link",
+    "closest_station": "Ashford International",
+    "distance_km": 0.1,
+    "difficulty": "medium",
+    "facts": [
+      "Ashford International was built to serve Eurostar services on the Channel Tunnel Rail Link.",
+      "The station remains a key gateway between Kent and mainland Europe for freight and passenger rail.",
+      "Ashford has been an important railway town since the 1840s, once home to major locomotive works."
+    ]
+  }
+]

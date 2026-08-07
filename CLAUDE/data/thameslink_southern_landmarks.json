@@ -1,0 +1,552 @@
+[
+  {
+    "landmark": "Brighton Palace Pier",
+    "closest_station": "Brighton",
+    "distance_km": 0.7,
+    "difficulty": "easy",
+    "facts": [
+      "Brighton Palace Pier opened in 1899 and remains one of the most visited free attractions in England.",
+      "It replaced an earlier Victorian chain pier that had fallen into disrepair.",
+      "The pier features traditional funfair rides alongside arcade games."
+    ]
+  },
+  {
+    "landmark": "Royal Pavilion",
+    "closest_station": "Brighton",
+    "distance_km": 0.5,
+    "difficulty": "easy",
+    "facts": [
+      "The Royal Pavilion was built for the Prince Regent, later George IV, with a distinctive Indo-Saracenic exterior.",
+      "Its interiors combine Chinese-inspired and exotic decorative styles.",
+      "The building later served as a military hospital for Indian soldiers during the First World War."
+    ]
+  },
+  {
+    "landmark": "Lewes Castle",
+    "closest_station": "Lewes",
+    "distance_km": 0.6,
+    "difficulty": "easy",
+    "facts": [
+      "Lewes Castle was one of the first castles built by the Normans after 1066, unusually with two mottes.",
+      "Lewes hosts one of the largest Bonfire Night celebrations in England, dating back centuries.",
+      "The town's steep High Street follows the original medieval street plan."
+    ]
+  },
+  {
+    "landmark": "Smugglers Adventure, Hastings",
+    "closest_station": "Hastings",
+    "distance_km": 0.9,
+    "difficulty": "easy",
+    "facts": [
+      "Smugglers Adventure is set within St Clement's Caves, a network of tunnels beneath Hastings' West Hill.",
+      "The caves have a genuine history linked to smuggling along the Sussex coast.",
+      "Hastings Old Town retains narrow medieval streets close to the seafront."
+    ]
+  },
+  {
+    "landmark": "Portsmouth Historic Dockyard",
+    "closest_station": "Portsmouth Harbour",
+    "distance_km": 0.3,
+    "difficulty": "easy",
+    "facts": [
+      "The dockyard is home to HMS Victory, Nelson's flagship at Trafalgar.",
+      "The Mary Rose, Henry VIII's warship, is displayed here after being raised from the Solent in 1982.",
+      "Portsmouth Harbour station sits right beside the dockyard and Isle of Wight ferry terminal."
+    ]
+  },
+  {
+    "landmark": "Eastbourne Pier",
+    "closest_station": "Eastbourne",
+    "distance_km": 1.0,
+    "difficulty": "medium",
+    "facts": [
+      "Eastbourne Pier, opened in 1870, has survived several major fires including one in 2014.",
+      "The town developed as a genteel Victorian resort under the patronage of the Dukes of Devonshire.",
+      "Eastbourne's seafront is known for its well-preserved Victorian and Edwardian architecture."
+    ]
+  },
+  {
+    "landmark": "Chichester Cathedral",
+    "closest_station": "Chichester",
+    "distance_km": 0.7,
+    "difficulty": "easy",
+    "facts": [
+      "Chichester Cathedral's spire is visible from far out at sea, historically used as a landmark by sailors.",
+      "It holds a rare modern tapestry by artist John Piper behind the high altar.",
+      "Chichester was originally a Roman town, Noviomagus Reginorum."
+    ]
+  },
+  {
+    "landmark": "Bognor Regis Beach",
+    "closest_station": "Bognor Regis",
+    "distance_km": 0.5,
+    "difficulty": "easy",
+    "facts": [
+      "Bognor Regis gained its 'Regis' suffix after George V convalesced there in 1929.",
+      "The town hosts the International Birdman festival, where competitors attempt human-powered flight from the pier.",
+      "Bognor's beach has been a popular seaside destination since the 18th century."
+    ]
+  },
+  {
+    "landmark": "Worthing Pier",
+    "closest_station": "Worthing",
+    "distance_km": 0.6,
+    "difficulty": "easy",
+    "facts": [
+      "Worthing Pier opened in 1862 and has been rebuilt several times after storm and fire damage.",
+      "The town developed as a fashionable resort after Princess Amelia, daughter of George III, visited in 1798.",
+      "Worthing sits on the West Sussex coast between Brighton and Chichester."
+    ]
+  },
+  {
+    "landmark": "Shoreham Airport",
+    "closest_station": "Shoreham-by-Sea",
+    "distance_km": 2.0,
+    "difficulty": "medium",
+    "facts": [
+      "Shoreham Airport is the oldest purpose-built commercial airport still in operation in the UK.",
+      "Its striking Art Deco terminal building, from 1936, is a listed structure.",
+      "Shoreham-by-Sea sits at the mouth of the River Adur."
+    ]
+  },
+  {
+    "landmark": "Box Hill",
+    "closest_station": "Box Hill & Westhumble",
+    "distance_km": 1.0,
+    "difficulty": "medium",
+    "facts": [
+      "Box Hill hosted the cycling road race finish for the 2012 London Olympics.",
+      "The hill takes its name from the box trees that grow naturally on its chalk slopes.",
+      "It offers sweeping views across the Surrey Hills, an Area of Outstanding Natural Beauty."
+    ]
+  },
+  {
+    "landmark": "Polesden Lacey (via Box Hill)",
+    "closest_station": "Box Hill & Westhumble",
+    "distance_km": 3.0,
+    "difficulty": "hard",
+    "facts": [
+      "Polesden Lacey was a favourite country retreat of society hostess Margaret Greville in the early 20th century.",
+      "The future King George VI and Queen Elizabeth spent part of their honeymoon there in 1923.",
+      "The house is now cared for by the National Trust."
+    ]
+  },
+  {
+    "landmark": "Arundel Castle",
+    "closest_station": "Arundel",
+    "distance_km": 0.8,
+    "difficulty": "easy",
+    "facts": [
+      "Arundel Castle has been the seat of the Dukes of Norfolk for over 850 years.",
+      "It was significantly remodelled in the 19th century to its current dramatic Gothic appearance.",
+      "The castle overlooks the town and the River Arun."
+    ]
+  },
+  {
+    "landmark": "Fishbourne Roman Palace",
+    "closest_station": "Fishbourne (Sussex)",
+    "distance_km": 1.0,
+    "difficulty": "medium",
+    "facts": [
+      "Fishbourne Roman Palace is the largest Roman residence discovered north of the Alps.",
+      "It features some of the finest in-situ Roman mosaics in Britain.",
+      "The palace is thought to have been built for a local British client king soon after the Roman conquest."
+    ]
+  },
+  {
+    "landmark": "Bosham & King Canute's legend",
+    "closest_station": "Bosham",
+    "distance_km": 0.5,
+    "difficulty": "medium",
+    "facts": [
+      "Bosham is traditionally linked to the legend of King Canute commanding the tide to turn back.",
+      "The village's church appears in the Bayeux Tapestry, depicting Harold Godwinson's departure in 1064.",
+      "Bosham sits on a tidal creek off Chichester Harbour."
+    ]
+  },
+  {
+    "landmark": "Goodwood (via Chichester)",
+    "closest_station": "Chichester",
+    "distance_km": 5.0,
+    "difficulty": "hard",
+    "facts": [
+      "Goodwood hosts the Festival of Speed and the historic Goodwood Revival motorsport events.",
+      "The estate includes a racecourse, motor circuit and Goodwood House.",
+      "Chichester is the nearest railway station, with the estate reached by road."
+    ]
+  },
+  {
+    "landmark": "Spinnaker Tower, Portsmouth",
+    "closest_station": "Portsmouth Harbour",
+    "distance_km": 0.5,
+    "difficulty": "easy",
+    "facts": [
+      "The Spinnaker Tower, opened in 2005, stands 170 metres tall overlooking Portsmouth Harbour.",
+      "Its design was inspired by a sailing ship's spinnaker sail.",
+      "The tower includes a glass floor viewing platform."
+    ]
+  },
+  {
+    "landmark": "Winchester's Great Hall & Round Table",
+    "closest_station": "Winchester",
+    "distance_km": 0.5,
+    "difficulty": "easy",
+    "facts": [
+      "Winchester's Great Hall holds a large medieval Round Table, long associated with the legend of King Arthur.",
+      "Winchester was the ancient capital of England under King Alfred the Great.",
+      "The city's cathedral has the longest nave of any Gothic cathedral in Europe."
+    ]
+  },
+  {
+    "landmark": "Southampton's medieval walls",
+    "closest_station": "Southampton Central",
+    "distance_km": 1.0,
+    "difficulty": "medium",
+    "facts": [
+      "Southampton retains one of the most complete sets of medieval town walls in England.",
+      "The Titanic departed from Southampton on her maiden voyage in 1912.",
+      "Southampton Central is the largest station on the South Coast line."
+    ]
+  },
+  {
+    "landmark": "Herstmonceux Castle",
+    "closest_station": "Hampden Park (Sussex)",
+    "distance_km": 7.0,
+    "difficulty": "hard",
+    "facts": [
+      "Herstmonceux Castle, built in the 1440s, is one of the earliest significant brick buildings in England.",
+      "It later housed the Royal Greenwich Observatory after it relocated from London.",
+      "Hampden Park is the nearest railway station, with the castle reached by road."
+    ]
+  },
+  {
+    "landmark": "Bateman's, Rudyard Kipling's home",
+    "closest_station": "Etchingham",
+    "distance_km": 2.0,
+    "difficulty": "medium",
+    "facts": [
+      "Bateman's was the home of author Rudyard Kipling from 1902 until his death in 1936.",
+      "Kipling wrote much of his later work, including Puck of Pook's Hill, at the house.",
+      "The house is now cared for by the National Trust."
+    ]
+  },
+  {
+    "landmark": "Michelham Priory",
+    "closest_station": "Berwick (Sussex)",
+    "distance_km": 3.0,
+    "difficulty": "hard",
+    "facts": [
+      "Michelham Priory sits within the longest medieval moat in England.",
+      "It was founded as an Augustinian priory in 1229.",
+      "Berwick is the nearest railway station on the Sussex coast line."
+    ]
+  },
+  {
+    "landmark": "Pevensey Castle",
+    "closest_station": "Pevensey & Westham",
+    "distance_km": 0.5,
+    "difficulty": "medium",
+    "facts": [
+      "Pevensey Castle sits within the walls of a former Roman fort, Anderitum.",
+      "William the Conqueror's forces landed near Pevensey in 1066 before the Battle of Hastings.",
+      "The castle was refortified as late as the Second World War against invasion fears."
+    ]
+  },
+  {
+    "landmark": "De La Warr Pavilion, Bexhill",
+    "closest_station": "Bexhill",
+    "distance_km": 0.5,
+    "difficulty": "medium",
+    "facts": [
+      "The De La Warr Pavilion, completed in 1935, was one of the first welded steel-frame buildings in Britain.",
+      "It remains a leading example of International Style modernist architecture.",
+      "Bexhill hosted one of the first ever motor races held in Britain, in 1902."
+    ]
+  },
+  {
+    "landmark": "Bluebell Railway (via East Grinstead)",
+    "closest_station": "East Grinstead",
+    "distance_km": 1.0,
+    "difficulty": "medium",
+    "facts": [
+      "The Bluebell Railway was the first standard-gauge steam railway in the world to be preserved as a heritage line, in 1960.",
+      "It runs through the Sussex Weald between East Grinstead and Sheffield Park.",
+      "East Grinstead sits at the southern edge of Ashdown Forest."
+    ]
+  },
+  {
+    "landmark": "Ashdown Forest & Winnie-the-Pooh (via Uckfield)",
+    "closest_station": "Uckfield",
+    "distance_km": 6.0,
+    "difficulty": "hard",
+    "facts": [
+      "Ashdown Forest inspired the Hundred Acre Wood setting of A.A. Milne's Winnie-the-Pooh stories.",
+      "The Poohsticks Bridge, made famous in the books, is a genuine bridge within the forest.",
+      "Uckfield is the nearest railway station, with the forest reached by road."
+    ]
+  },
+  {
+    "landmark": "Newhaven Fort",
+    "closest_station": "Newhaven Town",
+    "distance_km": 1.0,
+    "difficulty": "medium",
+    "facts": [
+      "Newhaven Fort was built in the 1860s to defend against a feared French invasion.",
+      "It remained in military use through both World Wars.",
+      "Newhaven's harbour connects to ferry services to Dieppe in France."
+    ]
+  },
+  {
+    "landmark": "Gatwick Airport",
+    "closest_station": "Gatwick Airport",
+    "distance_km": 0.1,
+    "difficulty": "easy",
+    "facts": [
+      "Gatwick is the second-busiest airport in the UK after Heathrow.",
+      "It was one of the first airports in the world to have a direct railway station built into the terminal, in 1958.",
+      "Gatwick sits on the Sussex-Surrey border."
+    ]
+  },
+  {
+    "landmark": "Crawley's New Town design",
+    "closest_station": "Crawley",
+    "distance_km": 0.5,
+    "difficulty": "medium",
+    "facts": [
+      "Crawley was designated one of Britain's first post-war new towns in 1947.",
+      "The town was built to help house London's overspill population.",
+      "Crawley sits close to Gatwick Airport."
+    ]
+  },
+  {
+    "landmark": "Horsham's museum quarter",
+    "closest_station": "Horsham",
+    "distance_km": 0.5,
+    "difficulty": "medium",
+    "facts": [
+      "Horsham was once known for producing Horsham slabs, distinctive local stone roof tiles.",
+      "The town's Causeway is regarded as one of the finest historic streets in Sussex.",
+      "Horsham sits at the western edge of the Sussex Weald."
+    ]
+  },
+  {
+    "landmark": "St Albans Cathedral (Thameslink side)",
+    "closest_station": "St Albans",
+    "distance_km": 0.5,
+    "difficulty": "easy",
+    "facts": [
+      "St Albans Cathedral has the longest nave of any cathedral in England.",
+      "It stands on the traditional site of Britain's first Christian martyr, St Alban.",
+      "St Albans was the Roman town of Verulamium, once the third-largest in Roman Britain."
+    ]
+  },
+  {
+    "landmark": "Bedford's John Bunyan heritage",
+    "closest_station": "Bedford",
+    "distance_km": 0.5,
+    "difficulty": "medium",
+    "facts": [
+      "John Bunyan wrote much of The Pilgrim's Progress while imprisoned in Bedford in the 1660s and 70s.",
+      "The Bunyan Meeting Free Church in the town is linked directly to his ministry.",
+      "Bedford is the northern terminus of the Thameslink core route."
+    ]
+  },
+  {
+    "landmark": "Luton Hoo",
+    "closest_station": "Luton Airport Parkway",
+    "distance_km": 3.0,
+    "difficulty": "hard",
+    "facts": [
+      "Luton Hoo is a grand country estate, its house remodelled by Robert Adam in the 1760s.",
+      "The estate has hosted royal visits and film productions over the years.",
+      "Luton Airport Parkway serves both the estate area and London Luton Airport."
+    ]
+  },
+  {
+    "landmark": "Elstree Studios",
+    "closest_station": "Elstree & Borehamwood",
+    "distance_km": 1.0,
+    "difficulty": "medium",
+    "facts": [
+      "Elstree Studios has been used for major productions including several Star Wars and Indiana Jones films.",
+      "The studios have operated in the area since the 1910s, among the earliest in British film.",
+      "Elstree & Borehamwood sits on the Thameslink line north of London."
+    ]
+  },
+  {
+    "landmark": "Kensington Olympia's exhibition halls",
+    "closest_station": "Kensington Olympia",
+    "distance_km": 0.1,
+    "difficulty": "medium",
+    "facts": [
+      "Olympia has hosted major exhibitions and events since 1886.",
+      "The venue's Grand Hall was one of the largest exhibition spaces in the world when built.",
+      "Kensington Olympia is served by an infrequent but useful rail link into west London."
+    ]
+  },
+  {
+    "landmark": "Crystal Palace Park (Thameslink side)",
+    "closest_station": "Crystal Palace",
+    "distance_km": 0.3,
+    "difficulty": "easy",
+    "facts": [
+      "Crystal Palace Park was built to house the relocated Great Exhibition building after 1854.",
+      "The park's Victorian dinosaur sculptures were among the first ever made.",
+      "The Crystal Palace itself was destroyed by fire in 1936."
+    ]
+  },
+  {
+    "landmark": "Epsom Downs & the Derby",
+    "closest_station": "Epsom Downs",
+    "distance_km": 0.2,
+    "difficulty": "medium",
+    "facts": [
+      "The Derby, run at Epsom Downs since 1780, is one of the most prestigious horse races in the world.",
+      "The course gave its name to 'derby' as a general term for a major sporting fixture.",
+      "Epsom Downs station serves the racecourse directly, especially busy on race days."
+    ]
+  },
+  {
+    "landmark": "Leatherhead's riverside town",
+    "closest_station": "Leatherhead",
+    "distance_km": 0.5,
+    "difficulty": "medium",
+    "facts": [
+      "Leatherhead sits on the River Mole in Surrey.",
+      "The town's museum occupies a 17th-century former courthouse.",
+      "Leatherhead is a key interchange for lines towards Guildford and Effingham Junction."
+    ]
+  },
+  {
+    "landmark": "Redhill's railway junction heritage",
+    "closest_station": "Redhill",
+    "distance_km": 0.5,
+    "difficulty": "medium",
+    "facts": [
+      "Redhill grew almost entirely because of its position as a key railway junction from the 1840s.",
+      "The town sits at the crossing point of routes towards Brighton, Reading and Tonbridge.",
+      "Redhill was historically part of the parish of Reigate before becoming its own town."
+    ]
+  },
+  {
+    "landmark": "Reigate's caves and castle mound",
+    "closest_station": "Reigate",
+    "distance_km": 0.5,
+    "difficulty": "medium",
+    "facts": [
+      "Reigate has a network of sandstone caves beneath the town, used historically for storage and shelter.",
+      "The town's castle mound survives, though little remains of the original castle.",
+      "Reigate sits at the foot of the North Downs."
+    ]
+  },
+  {
+    "landmark": "Croydon's Fairfield Halls",
+    "closest_station": "East Croydon ",
+    "distance_km": 0.3,
+    "difficulty": "medium",
+    "facts": [
+      "Fairfield Halls has been a major concert and arts venue in south London since 1962.",
+      "Croydon is one of the largest commercial centres in Greater London outside the City and West End.",
+      "East Croydon is one of the busiest stations in the UK outside central London."
+    ]
+  },
+  {
+    "landmark": "Wimbledon's tennis heritage (via Wimbledon Chase)",
+    "closest_station": "Wimbledon Chase",
+    "distance_km": 1.5,
+    "difficulty": "medium",
+    "facts": [
+      "The Wimbledon Championships, held nearby, are the oldest tennis tournament in the world, first played in 1877.",
+      "Wimbledon Chase serves the residential area south of the main Wimbledon town centre.",
+      "The area is part of the London Borough of Merton."
+    ]
+  },
+  {
+    "landmark": "Carshalton Ponds",
+    "closest_station": "Carshalton",
+    "distance_km": 0.3,
+    "difficulty": "medium",
+    "facts": [
+      "Carshalton's ponds are fed by the River Wandle, one of London's few remaining chalk streams.",
+      "The village retains a number of historic watermills along the river.",
+      "Carshalton sits within the London Borough of Sutton."
+    ]
+  },
+  {
+    "landmark": "Sutton's shopping heart",
+    "closest_station": "Sutton (London)",
+    "distance_km": 0.3,
+    "difficulty": "hard",
+    "facts": [
+      "Sutton developed rapidly as a London suburb following the railway's arrival in the 1840s.",
+      "The town is a major retail centre for southwest London.",
+      "Sutton sits on the edge of the North Downs."
+    ]
+  },
+  {
+    "landmark": "Streatham's Art Deco cinema heritage",
+    "closest_station": "Streatham (Greater London)",
+    "distance_km": 0.3,
+    "difficulty": "hard",
+    "facts": [
+      "Streatham once had one of the highest concentrations of cinemas of any London high street.",
+      "The area developed rapidly as a residential suburb in the Victorian era.",
+      "Streatham sits between Brixton and Croydon in south London."
+    ]
+  },
+  {
+    "landmark": "Battersea Park",
+    "closest_station": "Battersea Park",
+    "distance_km": 0.2,
+    "difficulty": "easy",
+    "facts": [
+      "Battersea Park was created on former marshland and opened to the public in 1858.",
+      "It includes a Peace Pagoda, built in 1985 as a monument to world peace.",
+      "The park overlooks the River Thames opposite Chelsea."
+    ]
+  },
+  {
+    "landmark": "Hendon's RAF Museum",
+    "closest_station": "Hendon",
+    "distance_km": 1.0,
+    "difficulty": "medium",
+    "facts": [
+      "The RAF Museum at Hendon sits on the site of one of Britain's earliest airfields.",
+      "It holds one of the world's largest collections of historic military aircraft.",
+      "Hendon was a pioneering centre of British aviation from 1910 onward."
+    ]
+  },
+  {
+    "landmark": "Lullingstone Roman Villa",
+    "closest_station": "Farningham Road",
+    "distance_km": 2.0,
+    "difficulty": "hard",
+    "facts": [
+      "Lullingstone Roman Villa contains some of the best-preserved Roman mosaics in Britain.",
+      "Evidence suggests part of the villa was used as an early Christian chapel.",
+      "Farningham Road is the nearest railway station, with the villa reached by road."
+    ]
+  },
+  {
+    "landmark": "Aldenham Country Park",
+    "closest_station": "Radlett",
+    "distance_km": 3.0,
+    "difficulty": "hard",
+    "facts": [
+      "Aldenham Country Park is built around a reservoir originally created to feed the Grand Union Canal.",
+      "The park includes a working farm and extensive woodland trails.",
+      "Radlett sits on the Thameslink line between St Albans and Elstree."
+    ]
+  },
+  {
+    "landmark": "Tattenham Corner & the Derby finish",
+    "closest_station": "Tattenham Corner",
+    "distance_km": 0.1,
+    "difficulty": "medium",
+    "facts": [
+      "Tattenham Corner is the famous bend on Epsom racecourse where the Derby field turns for home.",
+      "The station was built specifically to serve racegoers on Derby Day.",
+      "Suffragette Emily Davison stepped in front of the King's horse near this corner in 1913."
+    ]
+  }
+]

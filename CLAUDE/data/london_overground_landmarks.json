@@ -1,0 +1,552 @@
+[
+  {
+    "landmark": "Hampstead Heath",
+    "closest_station": "Hampstead Heath",
+    "distance_km": 0.1,
+    "difficulty": "easy",
+    "facts": [
+      "Hampstead Heath covers nearly 800 acres of parkland, one of London's largest and wildest open spaces.",
+      "Parliament Hill, on the Heath, offers a protected view across the London skyline.",
+      "The Heath includes several natural swimming ponds, open to bathers year-round."
+    ]
+  },
+  {
+    "landmark": "Brunel Museum, Rotherhithe",
+    "closest_station": "Rotherhithe",
+    "distance_km": 0.3,
+    "difficulty": "medium",
+    "facts": [
+      "The museum sits above the Thames Tunnel, the first tunnel ever built under a navigable river, opened in 1843.",
+      "It was engineered by Marc Brunel and his son Isambard Kingdom Brunel.",
+      "The tunnel now carries London Overground trains beneath the Thames."
+    ]
+  },
+  {
+    "landmark": "Wapping's Execution Dock history",
+    "closest_station": "Wapping",
+    "distance_km": 0.3,
+    "difficulty": "medium",
+    "facts": [
+      "Execution Dock at Wapping was used for over 400 years to hang pirates and mutineers, their bodies left until three tides had washed over them.",
+      "Wapping was once at the heart of London's docklands, lined with warehouses.",
+      "The area has been substantially regenerated into riverside housing since the 1980s."
+    ]
+  },
+  {
+    "landmark": "Shoreditch High Street & street art",
+    "closest_station": "Shoreditch High Street",
+    "distance_km": 0.2,
+    "difficulty": "easy",
+    "facts": [
+      "Shoreditch has become one of London's leading centres for street art and murals.",
+      "The area was home to England's first purpose-built playhouse, The Theatre, in 1576.",
+      "Shoreditch transformed from an industrial district into a creative and tech hub from the 1990s onward."
+    ]
+  },
+  {
+    "landmark": "Warner Bros. Studio Tour (via Watford High Street)",
+    "closest_station": "Watford High Street",
+    "distance_km": 4.0,
+    "difficulty": "hard",
+    "facts": [
+      "The Warner Bros. Studio Tour, 'The Making of Harry Potter', is based at Leavesden Studios near Watford.",
+      "The studios were used to film all eight Harry Potter movies.",
+      "Watford High Street serves the town centre, a short distance from the studios."
+    ]
+  },
+  {
+    "landmark": "Chingford's Queen Elizabeth's Hunting Lodge",
+    "closest_station": "Chingford",
+    "distance_km": 0.5,
+    "difficulty": "medium",
+    "facts": [
+      "The timber-framed hunting lodge dates from 1543, built for Henry VIII.",
+      "It stands at the southern edge of Epping Forest.",
+      "Chingford is the northern terminus of one branch of the London Overground network."
+    ]
+  },
+  {
+    "landmark": "William Morris Gallery, Walthamstow",
+    "closest_station": "Walthamstow Central",
+    "distance_km": 1.0,
+    "difficulty": "medium",
+    "facts": [
+      "The gallery is housed in the childhood home of designer and writer William Morris.",
+      "Walthamstow has one of the longest street markets in Europe, running nearly a mile.",
+      "Walthamstow Central is a major interchange with the London Underground."
+    ]
+  },
+  {
+    "landmark": "Horniman Museum, Forest Hill",
+    "closest_station": "Forest Hill",
+    "distance_km": 0.5,
+    "difficulty": "medium",
+    "facts": [
+      "The Horniman Museum holds an eclectic collection including a famously over-stuffed walrus.",
+      "It was founded by tea trader Frederick Horniman and given to the public in 1901.",
+      "The museum's gardens offer wide views across south London."
+    ]
+  },
+  {
+    "landmark": "Crystal Palace Park (via Sydenham)",
+    "closest_station": "Sydenham",
+    "distance_km": 1.5,
+    "difficulty": "medium",
+    "facts": [
+      "Crystal Palace Park was built to house the relocated Great Exhibition building after 1854.",
+      "The park still contains Victorian dinosaur sculptures, among the first ever made.",
+      "The Crystal Palace itself burned down in a huge fire in 1936."
+    ]
+  },
+  {
+    "landmark": "Kensal Green Cemetery",
+    "closest_station": "Kensal Rise",
+    "distance_km": 1.0,
+    "difficulty": "medium",
+    "facts": [
+      "Kensal Green was the first of London's 'Magnificent Seven' Victorian cemeteries, opened in 1833.",
+      "It is the resting place of numerous notable figures including members of the Royal Family.",
+      "The cemetery's grand classical monuments reflect Victorian attitudes to death and memorial."
+    ]
+  },
+  {
+    "landmark": "Goldsmiths, University of London (New Cross Gate)",
+    "closest_station": "New Cross Gate",
+    "distance_km": 0.5,
+    "difficulty": "medium",
+    "facts": [
+      "Goldsmiths has a strong reputation for art, and several Turner Prize winners studied there.",
+      "New Cross Gate is a key interchange on the East London line of the Overground.",
+      "The area has a long history as a working-class and student neighbourhood."
+    ]
+  },
+  {
+    "landmark": "Bethnal Green's WW2 shelter disaster memorial",
+    "closest_station": "Bethnal Green",
+    "distance_km": 0.3,
+    "difficulty": "medium",
+    "facts": [
+      "A crowd crush at Bethnal Green tube shelter in 1943 killed 173 people, the largest single loss of civilian life in Britain in WW2.",
+      "A memorial staircase, 'Stairway to Heaven', commemorates the disaster.",
+      "Bethnal Green developed as a densely populated working-class district of London's East End."
+    ]
+  },
+  {
+    "landmark": "Whitechapel & the East End's history",
+    "closest_station": "Whitechapel",
+    "distance_km": 0.3,
+    "difficulty": "medium",
+    "facts": [
+      "Whitechapel was the location of the unsolved 1888 Jack the Ripper murders.",
+      "The East London Mosque, nearby, is one of the largest mosques in Europe.",
+      "Whitechapel has been a gateway neighbourhood for successive waves of immigration to London."
+    ]
+  },
+  {
+    "landmark": "Dalston's Ridley Road Market",
+    "closest_station": "Dalston Kingsland",
+    "distance_km": 0.3,
+    "difficulty": "medium",
+    "facts": [
+      "Ridley Road Market has traded in Dalston since the Victorian era, reflecting the area's diverse communities.",
+      "Dalston became a noted centre for music and nightlife from the 2000s onward.",
+      "The area sits within the London Borough of Hackney."
+    ]
+  },
+  {
+    "landmark": "Hackney Empire, Hackney Central",
+    "closest_station": "Hackney Central",
+    "distance_km": 0.5,
+    "difficulty": "medium",
+    "facts": [
+      "Hackney Empire opened in 1901 as a grand music hall theatre, designed by Frank Matcham.",
+      "Charlie Chaplin performed there early in his career.",
+      "Hackney Central is a key interchange on the London Overground network."
+    ]
+  },
+  {
+    "landmark": "Camden Market (via Camden Road)",
+    "closest_station": "Camden Road",
+    "distance_km": 1.0,
+    "difficulty": "medium",
+    "facts": [
+      "Camden Market is one of the most visited markets in London, drawing millions of visitors a year.",
+      "The area has long been associated with alternative music and fashion subcultures.",
+      "Camden Road station is on the Overground's North London Line."
+    ]
+  },
+  {
+    "landmark": "Alexandra Palace (via Harringay Green Lanes)",
+    "closest_station": "Harringay Green Lanes",
+    "distance_km": 2.0,
+    "difficulty": "medium",
+    "facts": [
+      "Alexandra Palace hosted the world's first regular high-definition television broadcasts in 1936.",
+      "The building has been rebuilt twice after major fires, most recently in 1980.",
+      "It sits on a hill with panoramic views across London."
+    ]
+  },
+  {
+    "landmark": "Clapham Junction, Britain's busiest interchange",
+    "closest_station": "Clapham Junction",
+    "distance_km": 0.1,
+    "difficulty": "easy",
+    "facts": [
+      "Clapham Junction is often cited as the busiest railway station in Europe by number of trains passing through.",
+      "It sits at the crossing point of several major South London rail routes.",
+      "The station's name comes from the district of Clapham, though it actually lies in Battersea."
+    ]
+  },
+  {
+    "landmark": "Shepherd's Bush Empire",
+    "closest_station": "Shepherds Bush",
+    "distance_km": 0.3,
+    "difficulty": "medium",
+    "facts": [
+      "Shepherd's Bush Empire opened as a music hall in 1903 and remains a leading live music venue.",
+      "The nearby Westfield London is one of the largest shopping centres in Europe.",
+      "Shepherd's Bush sits close to the BBC's former Television Centre."
+    ]
+  },
+  {
+    "landmark": "Imperial Wharf & Chelsea Harbour",
+    "closest_station": "Imperial Wharf",
+    "distance_km": 0.5,
+    "difficulty": "medium",
+    "facts": [
+      "Imperial Wharf station opened in 2009 to serve a redeveloped former industrial riverside site.",
+      "Chelsea Harbour, nearby, is a marina and residential development on the Thames.",
+      "The station sits on the West London Line, part of the Overground network."
+    ]
+  },
+  {
+    "landmark": "Canada Water & Surrey Docks history",
+    "closest_station": "Canada Water",
+    "distance_km": 0.3,
+    "difficulty": "medium",
+    "facts": [
+      "Canada Water takes its name from the former Surrey Commercial Docks, which handled Canadian timber imports.",
+      "The docks closed in the 1970s and the area has since been redeveloped for housing and leisure.",
+      "Canada Water is a major interchange between the Overground and London Underground."
+    ]
+  },
+  {
+    "landmark": "Willesden Junction's railway heritage",
+    "closest_station": "Willesden Junction",
+    "distance_km": 0.2,
+    "difficulty": "medium",
+    "facts": [
+      "Willesden Junction has been a key railway junction in northwest London since Victorian times.",
+      "It connects several London Overground lines at multiple platform levels.",
+      "The surrounding area developed largely around the railway's presence from the 1860s."
+    ]
+  },
+  {
+    "landmark": "Stoke Newington's Clissold Park",
+    "closest_station": "Stoke Newington",
+    "distance_km": 0.7,
+    "difficulty": "medium",
+    "facts": [
+      "Clissold Park is built around an 18th-century mansion, Clissold House.",
+      "Stoke Newington has long been known for its Nonconformist and radical religious history.",
+      "The area retains one of London's largest concentrations of Georgian houses outside central London."
+    ]
+  },
+  {
+    "landmark": "Seven Sisters & the Ancient trees legend",
+    "closest_station": "Seven Sisters",
+    "distance_km": 0.5,
+    "difficulty": "hard",
+    "facts": [
+      "The area is named after a legendary circle of seven elm trees once planted on Page Green.",
+      "Seven Sisters is home to a significant Latin American community, centred on Wards Corner market.",
+      "The station is a major interchange in north London."
+    ]
+  },
+  {
+    "landmark": "Highams Park's lake and Epping Forest edge",
+    "closest_station": "Highams Park",
+    "distance_km": 0.3,
+    "difficulty": "hard",
+    "facts": [
+      "Highams Park Lake was originally created as an ornamental feature for a country estate.",
+      "The area sits close to the eastern edge of Epping Forest.",
+      "Highams Park developed as a suburban area in the late 19th century."
+    ]
+  },
+  {
+    "landmark": "Enfield Town's historic market",
+    "closest_station": "Enfield Town",
+    "distance_km": 0.3,
+    "difficulty": "medium",
+    "facts": [
+      "Enfield has held a market since medieval times, still trading in the town centre today.",
+      "The area was once home to the Royal Small Arms Factory, which produced the Lee-Enfield rifle.",
+      "Enfield Town is the terminus of a short Overground branch."
+    ]
+  },
+  {
+    "landmark": "Walthamstow Wetlands",
+    "closest_station": "Blackhorse Road",
+    "distance_km": 1.0,
+    "difficulty": "medium",
+    "facts": [
+      "Walthamstow Wetlands is the largest urban wetland nature reserve in Europe.",
+      "It occupies a series of Victorian reservoirs still used for London's water supply.",
+      "Blackhorse Road station provides one of the main entrances to the wetlands."
+    ]
+  },
+  {
+    "landmark": "Homerton's community heritage",
+    "closest_station": "Homerton",
+    "distance_km": 0.5,
+    "difficulty": "hard",
+    "facts": [
+      "Homerton sits within the London Borough of Hackney, historically a working-class district.",
+      "Homerton University Hospital is one of the area's major landmarks.",
+      "The station is on the Overground's line towards Chingford."
+    ]
+  },
+  {
+    "landmark": "Hackney Wick's creative industries",
+    "closest_station": "Hackney Wick",
+    "distance_km": 0.3,
+    "difficulty": "medium",
+    "facts": [
+      "Hackney Wick has become known for its concentration of artist studios and creative businesses.",
+      "The area sits directly beside the former Olympic Park site.",
+      "Hackney Wick was historically an industrial area on the River Lea."
+    ]
+  },
+  {
+    "landmark": "London Fields' lido",
+    "closest_station": "London Fields",
+    "distance_km": 0.3,
+    "difficulty": "medium",
+    "facts": [
+      "London Fields Lido is one of the few heated Olympic-length outdoor pools in London, open year-round.",
+      "The surrounding park has been common land since at least the 16th century.",
+      "London Fields sits within the London Borough of Hackney."
+    ]
+  },
+  {
+    "landmark": "Brockley's Victorian cemetery",
+    "closest_station": "Brockley",
+    "distance_km": 0.5,
+    "difficulty": "medium",
+    "facts": [
+      "Brockley and Ladywell Cemeteries together form one of south London's largest Victorian burial grounds.",
+      "The area developed rapidly with railway-era terraced housing from the 1870s.",
+      "Brockley sits in the London Borough of Lewisham."
+    ]
+  },
+  {
+    "landmark": "Honor Oak Park & One Tree Hill",
+    "closest_station": "Honor Oak Park",
+    "distance_km": 0.5,
+    "difficulty": "hard",
+    "facts": [
+      "One Tree Hill, nearby, is said to be where Elizabeth I once picnicked beneath an oak tree.",
+      "The hill offers wide views across south and central London.",
+      "Honor Oak Park sits between Forest Hill and Peckham Rye."
+    ]
+  },
+  {
+    "landmark": "Penge's Victorian high street",
+    "closest_station": "Penge West",
+    "distance_km": 0.5,
+    "difficulty": "hard",
+    "facts": [
+      "Penge grew rapidly after the Crystal Palace relocated nearby in the 1850s.",
+      "The area sits at the boundary of several south London boroughs.",
+      "Penge West station is on the line towards Crystal Palace and Sydenham."
+    ]
+  },
+  {
+    "landmark": "Anerley's suburban development",
+    "closest_station": "Anerley",
+    "distance_km": 0.5,
+    "difficulty": "hard",
+    "facts": [
+      "Anerley developed as a residential suburb following the arrival of the railway in the 1850s.",
+      "The name is thought to derive from a Scottish word meaning 'lonely' or 'solitary'.",
+      "Anerley sits close to Crystal Palace Park."
+    ]
+  },
+  {
+    "landmark": "Wanstead Park",
+    "closest_station": "Wanstead Park",
+    "distance_km": 0.3,
+    "difficulty": "medium",
+    "facts": [
+      "Wanstead Park was once the grounds of a grand stately home, Wanstead House, demolished in 1825.",
+      "The park retains ornamental lakes and woodland from its landscaped past.",
+      "It forms part of the wider Epping Forest estate managed by the City of London."
+    ]
+  },
+  {
+    "landmark": "Leyton's Olympic Park proximity",
+    "closest_station": "Leyton Midland Road",
+    "distance_km": 1.5,
+    "difficulty": "hard",
+    "facts": [
+      "Leyton sits close to the Queen Elizabeth Olympic Park, developed for the 2012 Games.",
+      "The area has a long association with early English football and cricket clubs.",
+      "Leyton Midland Road serves the Overground's Gospel Oak to Barking line."
+    ]
+  },
+  {
+    "landmark": "Gospel Oak & Hampstead Heath's edge",
+    "closest_station": "Gospel Oak",
+    "distance_km": 0.3,
+    "difficulty": "medium",
+    "facts": [
+      "Gospel Oak takes its name from a tree under which open-air sermons were once preached.",
+      "The station sits at the southern edge of Hampstead Heath.",
+      "Gospel Oak is on the Overground's orbital line towards Barking."
+    ]
+  },
+  {
+    "landmark": "Barking Riverside's new development",
+    "closest_station": "Barking Riverside",
+    "distance_km": 0.2,
+    "difficulty": "medium",
+    "facts": [
+      "Barking Riverside is one of London's largest new housing developments, built on former industrial land.",
+      "The Overground extension to Barking Riverside opened in 2022.",
+      "The area sits on the north bank of the Thames in east London."
+    ]
+  },
+  {
+    "landmark": "Woodgrange Park's residential heritage",
+    "closest_station": "Woodgrange Park",
+    "distance_km": 0.5,
+    "difficulty": "hard",
+    "facts": [
+      "Woodgrange Park developed as a planned Victorian residential estate.",
+      "The area sits in the London Borough of Newham, close to Forest Gate.",
+      "The station connects the Overground's Gospel Oak to Barking line."
+    ]
+  },
+  {
+    "landmark": "Emerson Park's suburban character",
+    "closest_station": "Emerson Park",
+    "distance_km": 0.5,
+    "difficulty": "hard",
+    "facts": [
+      "Emerson Park developed as a leafy residential suburb in outer east London.",
+      "The station is served by a short Overground branch from Romford.",
+      "The area sits within the London Borough of Havering."
+    ]
+  },
+  {
+    "landmark": "Watford's Cassiobury Park (via Watford High Street)",
+    "closest_station": "Watford High Street",
+    "distance_km": 1.5,
+    "difficulty": "medium",
+    "facts": [
+      "Cassiobury Park was once the grounds of a grand country house, now demolished.",
+      "It remains one of the largest and most visited parks in Hertfordshire.",
+      "Watford High Street serves the town's traditional shopping centre."
+    ]
+  },
+  {
+    "landmark": "Carpenders Park & the Hertfordshire edge",
+    "closest_station": "Carpenders Park",
+    "distance_km": 0.5,
+    "difficulty": "hard",
+    "facts": [
+      "Carpenders Park sits on the edge of Greater London, bordering Hertfordshire.",
+      "The area developed as a suburban estate in the interwar years.",
+      "The station serves the Overground's Watford branch."
+    ]
+  },
+  {
+    "landmark": "Finchley Road & Frognal's leafy suburbs",
+    "closest_station": "Finchley Road & Frognal",
+    "distance_km": 0.3,
+    "difficulty": "hard",
+    "facts": [
+      "The station serves the boundary between Hampstead and Finchley Road's commercial strip.",
+      "Frognal is a quiet residential enclave known for large Victorian and Edwardian houses.",
+      "The area is close to several of London's cultural and educational institutions."
+    ]
+  },
+  {
+    "landmark": "West Hampstead's music venue heritage",
+    "closest_station": "West Hampstead",
+    "distance_km": 0.3,
+    "difficulty": "medium",
+    "facts": [
+      "West Hampstead has three separate stations, an unusual concentration for a London district.",
+      "The area developed as a middle-class suburb in the late 19th century.",
+      "West Hampstead has long attracted musicians and recording studios."
+    ]
+  },
+  {
+    "landmark": "Kilburn High Road's Irish heritage",
+    "closest_station": "Kilburn High Road",
+    "distance_km": 0.2,
+    "difficulty": "medium",
+    "facts": [
+      "Kilburn was historically home to one of London's largest Irish communities.",
+      "The high road follows the route of the old Roman Watling Street.",
+      "Kilburn sits across the boundary of the boroughs of Brent and Camden."
+    ]
+  },
+  {
+    "landmark": "Crouch Hill & Finsbury Park's edge",
+    "closest_station": "Crouch Hill",
+    "distance_km": 0.5,
+    "difficulty": "hard",
+    "facts": [
+      "Crouch Hill sits close to Finsbury Park, one of north London's major green spaces.",
+      "The area developed with Victorian terraced housing from the 1880s onward.",
+      "Crouch Hill station connects the Overground's Gospel Oak to Barking line."
+    ]
+  },
+  {
+    "landmark": "Caledonian Road & Barnsbury's canal heritage",
+    "closest_station": "Caledonian Road & Barnsbury",
+    "distance_km": 0.5,
+    "difficulty": "hard",
+    "facts": [
+      "The area sits close to the Regent's Canal in north London.",
+      "Barnsbury retains many well-preserved early Victorian squares and terraces.",
+      "The station serves the North London Line of the Overground."
+    ]
+  },
+  {
+    "landmark": "Canonbury's Georgian tower",
+    "closest_station": "Canonbury",
+    "distance_km": 0.5,
+    "difficulty": "hard",
+    "facts": [
+      "Canonbury Tower, a surviving Tudor structure, is one of the oldest buildings in Islington.",
+      "The area is known for its well-preserved Georgian squares.",
+      "Canonbury sits between Highbury and Dalston."
+    ]
+  },
+  {
+    "landmark": "South Tottenham & the Lea Valley",
+    "closest_station": "South Tottenham",
+    "distance_km": 1.0,
+    "difficulty": "hard",
+    "facts": [
+      "South Tottenham sits close to the River Lea and its associated reservoirs and marshes.",
+      "The area has a long history as a working-class, industrially linked district.",
+      "South Tottenham is a key interchange on the Overground's Gospel Oak to Barking line."
+    ]
+  },
+  {
+    "landmark": "Edmonton Green Market",
+    "closest_station": "Edmonton Green",
+    "distance_km": 0.2,
+    "difficulty": "hard",
+    "facts": [
+      "Edmonton Green has a long-running open-air market at the heart of its shopping centre.",
+      "The area was historically part of the Lea Valley's market gardening belt supplying London.",
+      "Edmonton Green sits on the Overground's line towards Cheshunt."
+    ]
+  }
+]

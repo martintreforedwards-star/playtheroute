@@ -1,0 +1,552 @@
+[
+  {
+    "landmark": "Inverness Castle",
+    "closest_station": "Inverness",
+    "distance_km": 0.5,
+    "difficulty": "easy",
+    "facts": [
+      "The current red sandstone castle dates from the 1830s, built on the site of earlier fortifications.",
+      "Inverness is often called the capital of the Highlands.",
+      "The castle overlooks the River Ness as it flows towards the Moray Firth."
+    ]
+  },
+  {
+    "landmark": "Culloden Battlefield",
+    "closest_station": "Inverness",
+    "distance_km": 8.0,
+    "difficulty": "hard",
+    "facts": [
+      "Culloden was the site of the final Jacobite defeat in 1746, ending Bonnie Prince Charlie's rising.",
+      "The battle lasted less than an hour but caused around 1,500 Jacobite casualties.",
+      "Inverness is the nearest railhead, with the battlefield reached by bus or car."
+    ]
+  },
+  {
+    "landmark": "Loch Ness & Urquhart Castle",
+    "closest_station": "Inverness",
+    "distance_km": 20.0,
+    "difficulty": "hard",
+    "facts": [
+      "Loch Ness holds more freshwater than every lake in England and Wales combined.",
+      "Urquhart Castle's ruins sit on the loch's shore and were once one of the largest castles in Scotland.",
+      "Inverness, at the northern end of the loch, is the main gateway for visitors."
+    ]
+  },
+  {
+    "landmark": "Dunrobin Castle",
+    "closest_station": "Dunrobin Castle",
+    "distance_km": 0.1,
+    "difficulty": "easy",
+    "facts": [
+      "Dunrobin Castle has its own private railway station, opened for the Duke of Sutherland in 1870.",
+      "With over 100 rooms, it is one of the largest houses in Scotland, resembling a French chateau.",
+      "The castle has been the seat of the Earls and Dukes of Sutherland for centuries."
+    ]
+  },
+  {
+    "landmark": "Cairngorms National Park (Aviemore)",
+    "closest_station": "Aviemore",
+    "distance_km": 1.0,
+    "difficulty": "medium",
+    "facts": [
+      "The Cairngorms is the largest national park in the UK, covering over 4,500 square kilometres.",
+      "Aviemore is the main gateway town, with a funicular railway climbing part of Cairn Gorm mountain.",
+      "The Strathspey Railway, a heritage steam line, also runs from Aviemore."
+    ]
+  },
+  {
+    "landmark": "Blair Castle",
+    "closest_station": "Blair Atholl",
+    "distance_km": 1.0,
+    "difficulty": "medium",
+    "facts": [
+      "Blair Castle is the seat of the Duke of Atholl, whose private army is the only legal one in Britain.",
+      "The white harled castle has been added to and altered since the 13th century.",
+      "Blair Atholl station sits on the Highland Main Line between Perth and Inverness."
+    ]
+  },
+  {
+    "landmark": "Scone Palace",
+    "closest_station": "Perth",
+    "distance_km": 3.0,
+    "difficulty": "medium",
+    "facts": [
+      "Scone Palace was the crowning place of Scottish kings, including Robert the Bruce and Macbeth.",
+      "The Stone of Scone, used in coronations, was kept here before being moved to Westminster and later Edinburgh.",
+      "Perth was historically known as 'the Fair City' and served as an early capital of Scotland."
+    ]
+  },
+  {
+    "landmark": "Pitlochry Dam & Fish Ladder",
+    "closest_station": "Pitlochry",
+    "distance_km": 1.0,
+    "difficulty": "medium",
+    "facts": [
+      "The dam's fish ladder allows migrating salmon to bypass the hydroelectric dam via an observation chamber.",
+      "Pitlochry Festival Theatre stages a full repertoire of productions each summer season.",
+      "The town sits in the scenic Pass of Killiecrankie, site of a 1689 Jacobite battle."
+    ]
+  },
+  {
+    "landmark": "Discovery Point, Dundee",
+    "closest_station": "Dundee",
+    "distance_km": 0.5,
+    "difficulty": "easy",
+    "facts": [
+      "Discovery Point displays the RRS Discovery, the ship that carried Captain Scott's 1901 Antarctic expedition.",
+      "Dundee was once the world's leading producer of jute textiles, alongside jam and journalism.",
+      "The city's V&A Dundee, opened in 2018, was Scotland's first design museum."
+    ]
+  },
+  {
+    "landmark": "Arbroath Abbey",
+    "closest_station": "Arbroath",
+    "distance_km": 0.5,
+    "difficulty": "easy",
+    "facts": [
+      "The Declaration of Arbroath, a key document asserting Scottish independence, was sealed at the abbey in 1320.",
+      "Arbroath is also famous for the Arbroath Smokie, a traditionally smoked haddock with protected status.",
+      "The abbey ruins stand near the town's harbour."
+    ]
+  },
+  {
+    "landmark": "Dunnottar Castle",
+    "closest_station": "Stonehaven",
+    "distance_km": 3.0,
+    "difficulty": "medium",
+    "facts": [
+      "Dunnottar Castle sits dramatically on a rocky headland above the North Sea.",
+      "The Scottish Crown Jewels were hidden here to protect them from Cromwell's forces in the 1650s.",
+      "Stonehaven is the nearest station, with the castle reached along the coast path."
+    ]
+  },
+  {
+    "landmark": "Montrose Basin Nature Reserve",
+    "closest_station": "Montrose",
+    "distance_km": 0.5,
+    "difficulty": "medium",
+    "facts": [
+      "Montrose Basin is a large tidal basin important for wintering geese and wading birds.",
+      "It is designated a Site of Special Scientific Interest and a Local Nature Reserve.",
+      "Montrose is one of the oldest royal burghs in Scotland."
+    ]
+  },
+  {
+    "landmark": "Kyle of Lochalsh & the Skye Bridge",
+    "closest_station": "Kyle of Lochalsh",
+    "distance_km": 0.5,
+    "difficulty": "medium",
+    "facts": [
+      "The Skye Bridge, opened in 1995, replaced a centuries-old ferry crossing to the Isle of Skye.",
+      "Kyle of Lochalsh is the terminus of one of Britain's most scenic railway lines, from Inverness.",
+      "The line was famously featured in a BBC documentary as one of the great railway journeys of the world."
+    ]
+  },
+  {
+    "landmark": "Eilean Donan Castle (via Kyle line)",
+    "closest_station": "Plockton",
+    "distance_km": 10.0,
+    "difficulty": "hard",
+    "facts": [
+      "Eilean Donan is one of the most photographed castles in Scotland, sitting on its own tidal island.",
+      "The castle was destroyed in 1719 and not restored until the early 20th century.",
+      "Plockton, a picturesque fishing village, is the nearest station on the Kyle of Lochalsh line."
+    ]
+  },
+  {
+    "landmark": "Elgin Cathedral",
+    "closest_station": "Elgin",
+    "distance_km": 0.5,
+    "difficulty": "easy",
+    "facts": [
+      "Elgin Cathedral, once known as 'the Lantern of the North', was one of the finest medieval cathedrals in Scotland.",
+      "It was burned in 1390 by Alexander Stewart, the notorious 'Wolf of Badenoch'.",
+      "Elgin sits at the heart of Speyside, Scotland's whisky-producing heartland."
+    ]
+  },
+  {
+    "landmark": "Strathisla Distillery, Keith",
+    "closest_station": "Keith",
+    "distance_km": 0.5,
+    "difficulty": "medium",
+    "facts": [
+      "Strathisla is the oldest continuously operating distillery in the Scottish Highlands, founded in 1786.",
+      "Keith sits at the heart of Speyside, home to more whisky distilleries than anywhere else in the world.",
+      "The town is linked to Dufftown by the heritage Keith and Dufftown Railway."
+    ]
+  },
+  {
+    "landmark": "Fort George",
+    "closest_station": "Nairn",
+    "distance_km": 12.0,
+    "difficulty": "hard",
+    "facts": [
+      "Fort George is one of the most outstanding artillery fortifications in Europe, built after Culloden.",
+      "It remains an active army barracks as well as a visitor attraction.",
+      "Nairn is a Victorian seaside resort, nicknamed 'the Brighton of the North'."
+    ]
+  },
+  {
+    "landmark": "Cawdor Castle (via Nairn)",
+    "closest_station": "Nairn",
+    "distance_km": 8.0,
+    "difficulty": "hard",
+    "facts": [
+      "Cawdor Castle is associated with Shakespeare's Macbeth, though the current building postdates the historical king.",
+      "The castle has been the home of the Thanes of Cawdor since the 14th century.",
+      "Nairn is a genteel seaside town with two golf courses and long sandy beaches."
+    ]
+  },
+  {
+    "landmark": "John o' Groats (via Wick)",
+    "closest_station": "Wick",
+    "distance_km": 27.0,
+    "difficulty": "hard",
+    "facts": [
+      "John o' Groats is popularly, though not technically accurately, considered the northernmost point of mainland Britain.",
+      "It marks one end of the famous Land's End to John o' Groats route, the longest distance between two inhabited points in the UK.",
+      "Wick is the terminus of the Far North Line, one of the longest and most remote rail journeys in Britain."
+    ]
+  },
+  {
+    "landmark": "Old Pulteney Distillery, Wick",
+    "closest_station": "Wick",
+    "distance_km": 0.5,
+    "difficulty": "medium",
+    "facts": [
+      "Old Pulteney is often nicknamed 'the Maritime Malt' for its coastal, salty character.",
+      "Wick was once the busiest herring fishing port in Europe during the 19th century.",
+      "The town's Pulteneytown district was purpose-built by Thomas Telford for fishing families."
+    ]
+  },
+  {
+    "landmark": "Dunnet Head & Britain's most northerly point",
+    "closest_station": "Thurso",
+    "distance_km": 20.0,
+    "difficulty": "hard",
+    "facts": [
+      "Dunnet Head is the actual most northerly point of the British mainland, further north than John o' Groats.",
+      "Thurso is the northernmost town on the British mainland and terminus of the Far North Line.",
+      "The Orkney ferry departs from nearby Scrabster, a short distance from Thurso."
+    ]
+  },
+  {
+    "landmark": "Beauly Priory",
+    "closest_station": "Beauly",
+    "distance_km": 0.4,
+    "difficulty": "medium",
+    "facts": [
+      "Beauly Priory was founded in 1230 for the Valliscaulian order of monks.",
+      "The town's name is said to come from the French 'beau lieu', meaning beautiful place.",
+      "Beauly station reopened in 2002 after closure decades earlier, on the line towards Kyle of Lochalsh."
+    ]
+  },
+  {
+    "landmark": "Glenmorangie Distillery, Tain",
+    "closest_station": "Tain",
+    "distance_km": 2.0,
+    "difficulty": "medium",
+    "facts": [
+      "Glenmorangie's stills are among the tallest in Scotland, giving the whisky its light, delicate character.",
+      "Tain is one of Scotland's oldest royal burghs, with a charter dating to 1066.",
+      "The town sits on the Dornoch Firth in Easter Ross."
+    ]
+  },
+  {
+    "landmark": "Invergordon's oil rig repair yard",
+    "closest_station": "Invergordon",
+    "distance_km": 0.5,
+    "difficulty": "medium",
+    "facts": [
+      "Invergordon's deep-water harbour on the Cromarty Firth has serviced North Sea oil rigs since the 1970s.",
+      "The town was a major Royal Navy base in both World Wars.",
+      "The Cromarty Firth is also a popular anchorage for cruise ships visiting the Highlands."
+    ]
+  },
+  {
+    "landmark": "Huntly Castle",
+    "closest_station": "Huntly",
+    "distance_km": 0.7,
+    "difficulty": "medium",
+    "facts": [
+      "Huntly Castle was the seat of the powerful Gordon family, Marquesses of Huntly.",
+      "Its ruins feature elaborate heraldic carvings above the main entrance.",
+      "Huntly sits at the junction of the Rivers Deveron and Bogie."
+    ]
+  },
+  {
+    "landmark": "Aberdeen's Maritime Museum",
+    "closest_station": "Aberdeen",
+    "distance_km": 0.5,
+    "difficulty": "easy",
+    "facts": [
+      "Aberdeen's Maritime Museum tells the story of the city's fishing, shipbuilding and North Sea oil industries.",
+      "Aberdeen is nicknamed the 'Granite City' for the light grey stone used in much of its architecture.",
+      "The city has been a major hub for North Sea oil and gas since the 1970s."
+    ]
+  },
+  {
+    "landmark": "Dyce & Aberdeen Airport",
+    "closest_station": "Dyce",
+    "distance_km": 1.0,
+    "difficulty": "medium",
+    "facts": [
+      "Aberdeen Airport at Dyce is one of the world's busiest heliports, serving North Sea oil platforms.",
+      "Dyce was originally a separate village before being absorbed into the city of Aberdeen.",
+      "The station serves both the airport and Aberdeen's northern business district."
+    ]
+  },
+  {
+    "landmark": "Inverurie's market town heritage",
+    "closest_station": "Inverurie",
+    "distance_km": 0.6,
+    "difficulty": "medium",
+    "facts": [
+      "Inverurie sits at the confluence of the Rivers Don and Urie, in the heart of Aberdeenshire farmland.",
+      "The town's Bass, a prehistoric mound, may have been used as a medieval motte.",
+      "Inverurie is a key stop between Aberdeen and Inverness."
+    ]
+  },
+  {
+    "landmark": "Insch & the Correen Hills",
+    "closest_station": "Insch",
+    "distance_km": 2.0,
+    "difficulty": "hard",
+    "facts": [
+      "Insch sits beneath the Correen Hills in rural Aberdeenshire.",
+      "The area is dotted with prehistoric standing stones and stone circles.",
+      "Insch is a request stop on the line between Aberdeen and Inverness."
+    ]
+  },
+  {
+    "landmark": "Kingussie & the Highland Folk Museum",
+    "closest_station": "Kingussie",
+    "distance_km": 2.0,
+    "difficulty": "medium",
+    "facts": [
+      "The nearby Highland Folk Museum recreates a working 1700s township and 1930s highland village.",
+      "Kingussie sits in Badenoch, within the Cairngorms National Park.",
+      "The town has one of Scotland's oldest shinty clubs, a traditional Highland sport."
+    ]
+  },
+  {
+    "landmark": "Newtonmore & shinty heritage",
+    "closest_station": "Newtonmore",
+    "distance_km": 0.5,
+    "difficulty": "medium",
+    "facts": [
+      "Newtonmore's shinty club is one of the most successful in the sport's history.",
+      "The village sits at the meeting of the Rivers Spey and Calder.",
+      "Newtonmore is a gateway to walking routes into the Cairngorms."
+    ]
+  },
+  {
+    "landmark": "Dalwhinnie Distillery",
+    "closest_station": "Dalwhinnie",
+    "distance_km": 0.5,
+    "difficulty": "medium",
+    "facts": [
+      "Dalwhinnie is one of the highest distilleries in Scotland, at over 350 metres above sea level.",
+      "The village is often recorded as one of the coldest inhabited places in the UK.",
+      "Dalwhinnie sits at a historic crossroads of Highland drove roads."
+    ]
+  },
+  {
+    "landmark": "Carrbridge's Old Packhorse Bridge",
+    "closest_station": "Carrbridge",
+    "distance_km": 0.3,
+    "difficulty": "medium",
+    "facts": [
+      "The Old Bridge of Carr, built in 1717, is one of the oldest surviving bridges in the Highlands.",
+      "Carrbridge is also home to the Landmark Forest Adventure Park.",
+      "The village sits within the Cairngorms National Park, on the Highland Main Line."
+    ]
+  },
+  {
+    "landmark": "Culrain & Carbisdale Castle",
+    "closest_station": "Culrain",
+    "distance_km": 1.0,
+    "difficulty": "hard",
+    "facts": [
+      "Carbisdale Castle, overlooking Culrain, was built in the early 1900s for the Dowager Duchess of Sutherland.",
+      "It later served as a youth hostel, once the largest and grandest in Scotland.",
+      "Culrain sits on the Kyle of Sutherland, on the Far North Line."
+    ]
+  },
+  {
+    "landmark": "Lairg & Loch Shin",
+    "closest_station": "Lairg",
+    "distance_km": 1.5,
+    "difficulty": "medium",
+    "facts": [
+      "Lairg sits at the southern end of Loch Shin, the largest freshwater loch in Sutherland.",
+      "The village hosts one of Europe's largest one-day livestock sales each August.",
+      "Lairg is a key junction point for roads across the Highlands."
+    ]
+  },
+  {
+    "landmark": "Golspie & Sutherland Monument",
+    "closest_station": "Golspie",
+    "distance_km": 1.0,
+    "difficulty": "medium",
+    "facts": [
+      "The Sutherland Monument, above Golspie, honours the first Duke of Sutherland, a controversial figure linked to the Highland Clearances.",
+      "Golspie sits beside Dunrobin Castle, seat of the Sutherland family.",
+      "The village has a long sandy beach on the Moray Firth coast."
+    ]
+  },
+  {
+    "landmark": "Helmsdale's gold rush history",
+    "closest_station": "Helmsdale",
+    "distance_km": 0.5,
+    "difficulty": "medium",
+    "facts": [
+      "Helmsdale was the site of a brief Scottish gold rush in the 1860s, at nearby Kildonan.",
+      "The Timespan Museum in the village tells the story of Highland life and the Clearances.",
+      "Helmsdale sits at the mouth of the River Helmsdale on the North Sea coast."
+    ]
+  },
+  {
+    "landmark": "Brora's beach and distillery",
+    "closest_station": "Brora",
+    "distance_km": 0.5,
+    "difficulty": "medium",
+    "facts": [
+      "Brora is home to one of Scotland's most northerly whisky distilleries still in regular production.",
+      "The village has a well-regarded links golf course along its sandy shoreline.",
+      "Brora was historically notable for its coal mining, unusual for such a northerly location."
+    ]
+  },
+  {
+    "landmark": "Georgemas Junction, Britain's most northerly junction",
+    "closest_station": "Georgemas Junction",
+    "distance_km": 0.1,
+    "difficulty": "medium",
+    "facts": [
+      "Georgemas Junction is the most northerly railway junction in Britain, splitting the line to Thurso and Wick.",
+      "The station has very few passengers of its own, mainly serving as an interchange point.",
+      "It sits in open Caithness farmland between Thurso and Wick."
+    ]
+  },
+  {
+    "landmark": "Forsinard Flows nature reserve",
+    "closest_station": "Forsinard",
+    "distance_km": 0.2,
+    "difficulty": "hard",
+    "facts": [
+      "Forsinard Flows protects the Flow Country, the largest expanse of blanket bog in Europe.",
+      "The peatlands here store more carbon than all the UK's forests combined.",
+      "Forsinard station sits in one of the most remote parts of mainland Britain."
+    ]
+  },
+  {
+    "landmark": "Achnasheen & the road to Torridon",
+    "closest_station": "Achnasheen",
+    "distance_km": 0.2,
+    "difficulty": "hard",
+    "facts": [
+      "Achnasheen is a remote junction settlement providing road access towards Torridon and the northwest Highlands.",
+      "The station sits on the scenic Kyle of Lochalsh line from Inverness.",
+      "The surrounding glen is renowned for dramatic mountain scenery."
+    ]
+  },
+  {
+    "landmark": "Strathcarron & Applecross road",
+    "closest_station": "Strathcarron",
+    "distance_km": 0.5,
+    "difficulty": "hard",
+    "facts": [
+      "Strathcarron provides road access to the remote Applecross peninsula via the Bealach na Ba pass.",
+      "The Bealach na Ba is one of the highest and steepest road climbs in Britain.",
+      "Strathcarron station sits on the Kyle of Lochalsh line."
+    ]
+  },
+  {
+    "landmark": "Achnashellach Forest",
+    "closest_station": "Achnashellach",
+    "distance_km": 0.5,
+    "difficulty": "hard",
+    "facts": [
+      "Achnashellach Forest is a remnant of ancient Caledonian pine woodland.",
+      "The station is a request stop deep within Wester Ross.",
+      "It sits close to the Torridon mountain range, among the oldest rock formations in Europe."
+    ]
+  },
+  {
+    "landmark": "Dundee Law",
+    "closest_station": "Dundee",
+    "distance_km": 1.5,
+    "difficulty": "medium",
+    "facts": [
+      "Dundee Law is the plug of an extinct volcano rising above the city, offering panoramic views.",
+      "A war memorial stands at its summit, commemorating Dundee's fallen from both World Wars.",
+      "Dundee sits on the north bank of the Firth of Tay."
+    ]
+  },
+  {
+    "landmark": "Broughty Castle",
+    "closest_station": "Broughty Ferry",
+    "distance_km": 0.5,
+    "difficulty": "easy",
+    "facts": [
+      "Broughty Castle, a 15th-century tower house, guards the mouth of the Firth of Tay.",
+      "Broughty Ferry was historically a fishing village before becoming a fashionable Dundee suburb.",
+      "The area is nicknamed 'the Beverly Hills of Dundee' for its Victorian villas."
+    ]
+  },
+  {
+    "landmark": "Carnoustie Golf Links",
+    "closest_station": "Carnoustie",
+    "distance_km": 1.0,
+    "difficulty": "medium",
+    "facts": [
+      "Carnoustie has hosted The Open Championship multiple times and is considered one of golf's toughest tests.",
+      "The course's final hole, 'Home', is notorious among professional golfers for its difficulty.",
+      "Carnoustie sits on the Angus coast between Dundee and Arbroath."
+    ]
+  },
+  {
+    "landmark": "St Andrews (via Leuchars)",
+    "closest_station": "Leuchars",
+    "distance_km": 8.0,
+    "difficulty": "hard",
+    "facts": [
+      "St Andrews is home to the Old Course, widely regarded as the home of golf, dating back over 600 years.",
+      "The University of St Andrews, founded in 1413, is the oldest in Scotland.",
+      "Leuchars is the nearest railway station, with St Andrews reached by bus."
+    ]
+  },
+  {
+    "landmark": "Laurencekirk's market town history",
+    "closest_station": "Laurencekirk",
+    "distance_km": 0.5,
+    "difficulty": "hard",
+    "facts": [
+      "Laurencekirk was once known for a distinctive style of folding wooden ruler invented locally.",
+      "The town sits in the fertile agricultural region known as the Howe of the Mearns.",
+      "Laurencekirk station reopened in 2009 after closure decades earlier."
+    ]
+  },
+  {
+    "landmark": "Cupar & Fife's East Neuk",
+    "closest_station": "Cupar",
+    "distance_km": 5.0,
+    "difficulty": "hard",
+    "facts": [
+      "Cupar was historically the county town of Fife.",
+      "The nearby Hill of Tarvit mansion and gardens are cared for by the National Trust for Scotland.",
+      "Cupar sits between St Andrews and the Fife coastal fishing villages of the East Neuk."
+    ]
+  },
+  {
+    "landmark": "Dalmore Distillery, Alness",
+    "closest_station": "Alness",
+    "distance_km": 2.0,
+    "difficulty": "medium",
+    "facts": [
+      "The Dalmore distillery sits on the shore of the Cromarty Firth, near Alness.",
+      "Its distinctive stag-head still motif references a royal hunting story from the 1263 Battle of Largs.",
+      "Alness is a small town on the line between Inverness and the far north."
+    ]
+  }
+]

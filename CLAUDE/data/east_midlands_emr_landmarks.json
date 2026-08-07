@@ -1,0 +1,552 @@
+[
+  {
+    "landmark": "Nottingham Castle & Robin Hood statue",
+    "closest_station": "Nottingham",
+    "distance_km": 1.0,
+    "difficulty": "easy",
+    "facts": [
+      "The famous bronze statue of Robin Hood stands at the base of Nottingham Castle's walls.",
+      "The current castle is largely a 17th-century ducal mansion, built after the medieval castle was slighted.",
+      "Nottingham's caves, carved into soft sandstone beneath the city, have been used for centuries."
+    ]
+  },
+  {
+    "landmark": "City of Caves, Nottingham",
+    "closest_station": "Nottingham",
+    "distance_km": 0.7,
+    "difficulty": "medium",
+    "facts": [
+      "Nottingham has hundreds of man-made caves carved into the sandstone beneath the city.",
+      "They have been used over the centuries as tanneries, air raid shelters and pub cellars.",
+      "Nottingham station itself is a Grade II listed Edwardian building."
+    ]
+  },
+  {
+    "landmark": "Derby Cathedral & Rolls-Royce heritage",
+    "closest_station": "Derby",
+    "distance_km": 0.6,
+    "difficulty": "easy",
+    "facts": [
+      "Derby Cathedral has the second-tallest cathedral tower in England after Wells.",
+      "Derby has been a centre of Rolls-Royce aero engine manufacturing since the early 20th century.",
+      "The city was also home to one of the world's first factories, Lombe's Silk Mill, built in 1721."
+    ]
+  },
+  {
+    "landmark": "Derwent Valley Mills, Cromford",
+    "closest_station": "Cromford",
+    "distance_km": 0.3,
+    "difficulty": "medium",
+    "facts": [
+      "Cromford Mill, built by Richard Arkwright in 1771, is considered the world's first successful water-powered cotton spinning factory.",
+      "The Derwent Valley Mills are a UNESCO World Heritage Site, seen as the birthplace of the factory system.",
+      "Cromford station sits on the scenic line up the Derwent Valley towards Matlock."
+    ]
+  },
+  {
+    "landmark": "Belper's North Mill",
+    "closest_station": "Belper",
+    "distance_km": 0.5,
+    "difficulty": "medium",
+    "facts": [
+      "Belper's North Mill, built in 1804, is one of the earliest surviving iron-framed buildings in the world.",
+      "The town forms part of the Derwent Valley Mills UNESCO World Heritage Site.",
+      "Belper was developed by the Strutt family as a model industrial community."
+    ]
+  },
+  {
+    "landmark": "The Heights of Abraham, Matlock Bath",
+    "closest_station": "Matlock Bath",
+    "distance_km": 0.3,
+    "difficulty": "easy",
+    "facts": [
+      "A cable car climbs from Matlock Bath up to the Heights of Abraham hilltop park and show caverns.",
+      "Matlock Bath developed as a spa resort from the 18th century, nicknamed 'the Little Switzerland of England'.",
+      "The village sits in a dramatic limestone gorge on the River Derwent."
+    ]
+  },
+  {
+    "landmark": "Chesterfield's Crooked Spire",
+    "closest_station": "Chesterfield",
+    "distance_km": 0.5,
+    "difficulty": "easy",
+    "facts": [
+      "The spire of St Mary and All Saints Church twists 45 degrees and leans nearly 3 metres off vertical.",
+      "Several legends attempt to explain the twist, including one blaming the Devil.",
+      "Chesterfield sits at the eastern edge of the Peak District."
+    ]
+  },
+  {
+    "landmark": "Lincoln Cathedral",
+    "closest_station": "Lincoln",
+    "distance_km": 1.0,
+    "difficulty": "easy",
+    "facts": [
+      "Lincoln Cathedral was the tallest building in the world for over 200 years after its central spire was completed.",
+      "It holds one of the four surviving original copies of Magna Carta.",
+      "Lincoln's steep, cobbled Steep Hill leads from the station area up to the cathedral quarter."
+    ]
+  },
+  {
+    "landmark": "Lincoln Castle",
+    "closest_station": "Lincoln",
+    "distance_km": 1.0,
+    "difficulty": "easy",
+    "facts": [
+      "Lincoln Castle was built by William the Conqueror in 1068, unusually with two mottes.",
+      "Visitors can walk the full circuit of its medieval walls.",
+      "The castle and cathedral sit together at the top of the city's historic hill."
+    ]
+  },
+  {
+    "landmark": "Leicester's King Richard III Visitor Centre",
+    "closest_station": "Leicester",
+    "distance_km": 0.5,
+    "difficulty": "easy",
+    "facts": [
+      "King Richard III's remains were discovered beneath a Leicester car park in 2012, later reburied in the cathedral.",
+      "The centre tells the story of his life, death at Bosworth, and rediscovery.",
+      "Leicester is one of the oldest cities in England, with continuous occupation since Roman times."
+    ]
+  },
+  {
+    "landmark": "National Space Centre, Leicester",
+    "closest_station": "Leicester",
+    "distance_km": 3.0,
+    "difficulty": "medium",
+    "facts": [
+      "The National Space Centre includes the UK's largest planetarium and a 42-metre rocket tower.",
+      "Leicester University has a strong tradition in space science research.",
+      "Leicester was the first city in the world to be designated an Environment City, in 1990."
+    ]
+  },
+  {
+    "landmark": "Boston Stump",
+    "closest_station": "Boston",
+    "distance_km": 0.5,
+    "difficulty": "easy",
+    "facts": [
+      "St Botolph's Church, nicknamed the 'Boston Stump', has one of the tallest church towers in England.",
+      "The Massachusetts city of Boston is named after this Lincolnshire town.",
+      "Boston was historically one of England's busiest medieval ports."
+    ]
+  },
+  {
+    "landmark": "Newark Castle & Civil War siege",
+    "closest_station": "Newark Castle",
+    "distance_km": 0.2,
+    "difficulty": "easy",
+    "facts": [
+      "Newark Castle withstood three sieges during the English Civil War, remaining loyal to the King throughout.",
+      "King John died at the castle in 1216.",
+      "Newark Castle station sits right beside the castle ruins on the River Trent."
+    ]
+  },
+  {
+    "landmark": "Stamford's Georgian townscape",
+    "closest_station": "Stamford (Lincs)",
+    "distance_km": 0.5,
+    "difficulty": "easy",
+    "facts": [
+      "Stamford is widely regarded as one of the finest Georgian stone towns in England.",
+      "It was used as a filming location for the BBC's Middlemarch and Pride and Prejudice adaptations.",
+      "The nearby Burghley House is one of England's grandest Elizabethan houses."
+    ]
+  },
+  {
+    "landmark": "Burghley House (via Stamford)",
+    "closest_station": "Stamford (Lincs)",
+    "distance_km": 2.0,
+    "difficulty": "medium",
+    "facts": [
+      "Burghley House was built for William Cecil, chief advisor to Elizabeth I, completed in 1587.",
+      "It hosts the Burghley Horse Trials, one of the world's leading equestrian events, each September.",
+      "The house holds one of the largest private art collections in Europe."
+    ]
+  },
+  {
+    "landmark": "Melton Mowbray pork pies & Stilton cheese",
+    "closest_station": "Melton Mowbray",
+    "distance_km": 0.5,
+    "difficulty": "easy",
+    "facts": [
+      "Melton Mowbray pork pies have Protected Geographical Indication status, like Champagne or Parma ham.",
+      "The town is also recognised as the historic home of Stilton cheese production.",
+      "Melton Mowbray calls itself the 'Rural Capital of Food' in England."
+    ]
+  },
+  {
+    "landmark": "National Fishing Heritage Centre, Grimsby",
+    "closest_station": "Grimsby Town",
+    "distance_km": 0.5,
+    "difficulty": "medium",
+    "facts": [
+      "Grimsby was once the largest fishing port in the world during the early 20th century.",
+      "The heritage centre recreates conditions aboard a real 1950s trawler.",
+      "Grimsby's dock tower, built in 1852, remains a landmark visible across the town."
+    ]
+  },
+  {
+    "landmark": "Skegness seafront & the Jolly Fisherman",
+    "closest_station": "Skegness",
+    "distance_km": 0.5,
+    "difficulty": "easy",
+    "facts": [
+      "Skegness's 'Jolly Fisherman' poster, from 1908, remains one of Britain's most famous seaside advertising images.",
+      "The town's beach stretches for several miles along the Lincolnshire coast.",
+      "Skegness is the eastern terminus of a branch line from Nottingham via Grantham."
+    ]
+  },
+  {
+    "landmark": "Burton-on-Trent's brewing heritage",
+    "closest_station": "Burton-on-Trent",
+    "distance_km": 0.7,
+    "difficulty": "medium",
+    "facts": [
+      "Burton-on-Trent's water uniquely suits pale ale brewing, helping it become England's brewing capital in the 19th century.",
+      "The town was once home to dozens of breweries, several of which remain today.",
+      "The National Brewery Centre tells the story of Burton's beer-making history."
+    ]
+  },
+  {
+    "landmark": "Great Central Railway, Loughborough",
+    "closest_station": "Loughborough",
+    "distance_km": 1.0,
+    "difficulty": "medium",
+    "facts": [
+      "Loughborough is home to the Great Central Railway, one of the few heritage lines in Britain to run genuine double-track mainline services.",
+      "The town's bellfoundry, still working today, has cast bells for buildings worldwide, including St Paul's Cathedral.",
+      "Loughborough University is renowned internationally for its sports science programmes."
+    ]
+  },
+  {
+    "landmark": "Oakham Castle's horseshoes",
+    "closest_station": "Oakham",
+    "distance_km": 0.4,
+    "difficulty": "medium",
+    "facts": [
+      "Oakham Castle's Great Hall displays an unusual collection of ceremonial horseshoes, a centuries-old local tradition.",
+      "By ancient custom, any peer visiting Oakham for the first time must forfeit a horseshoe.",
+      "Oakham is the county town of Rutland, England's smallest historic county."
+    ]
+  },
+  {
+    "landmark": "Kettering's Alfred East Art Gallery",
+    "closest_station": "Kettering",
+    "distance_km": 0.5,
+    "difficulty": "medium",
+    "facts": [
+      "Kettering was historically a major centre of the boot and shoe manufacturing industry.",
+      "The town's Alfred East Art Gallery is named after the local landscape painter.",
+      "Kettering is a key stop on the Midland Main Line between London and Sheffield."
+    ]
+  },
+  {
+    "landmark": "Market Harborough's Old Grammar School",
+    "closest_station": "Market Harborough",
+    "distance_km": 0.3,
+    "difficulty": "medium",
+    "facts": [
+      "Market Harborough's timber-framed Old Grammar School, built in 1614, stands on stilts above the market place.",
+      "The town developed at a key crossroads in medieval times.",
+      "Market Harborough sits close to the Leicestershire and Northamptonshire border."
+    ]
+  },
+  {
+    "landmark": "Corby's steelmaking heritage",
+    "closest_station": "Corby",
+    "distance_km": 1.0,
+    "difficulty": "medium",
+    "facts": [
+      "Corby's steelworks drew large numbers of Scottish workers in the 1930s, giving the town a distinctive Scottish accent influence.",
+      "The town's population grew rapidly during its industrial boom in the mid-20th century.",
+      "Corby's railway station reopened in 2009 after decades without a regular passenger service."
+    ]
+  },
+  {
+    "landmark": "Wellingborough & the Nene Valley",
+    "closest_station": "Wellingborough",
+    "distance_km": 1.0,
+    "difficulty": "medium",
+    "facts": [
+      "Wellingborough sits in the Nene Valley, historically known for shoe manufacturing alongside nearby Kettering.",
+      "The town's All Hallows Church has origins dating back over 800 years.",
+      "Wellingborough is a stop on the Midland Main Line."
+    ]
+  },
+  {
+    "landmark": "Uttoxeter Racecourse",
+    "closest_station": "Uttoxeter",
+    "distance_km": 1.0,
+    "difficulty": "medium",
+    "facts": [
+      "Uttoxeter Racecourse specialises in National Hunt (jump) racing.",
+      "The town's market charter dates back to the 12th century.",
+      "Uttoxeter sits on the River Dove in Staffordshire."
+    ]
+  },
+  {
+    "landmark": "Alton Towers (via Uttoxeter)",
+    "closest_station": "Uttoxeter",
+    "distance_km": 10.0,
+    "difficulty": "hard",
+    "facts": [
+      "Alton Towers, one of the UK's largest theme parks, grew from the grounds of a 19th-century Gothic mansion.",
+      "The gardens were laid out by the Earls of Shrewsbury from the 1810s onward.",
+      "Uttoxeter is the nearest railway station, with the park reached by road."
+    ]
+  },
+  {
+    "landmark": "Hucknall & Byron's burial place",
+    "closest_station": "Hucknall",
+    "distance_km": 0.5,
+    "difficulty": "medium",
+    "facts": [
+      "Poet Lord Byron is buried at St Mary Magdalene Church in Hucknall, near the family seat at Newstead Abbey.",
+      "Hucknall developed rapidly as a coal mining town in the 19th and 20th centuries.",
+      "The town sits just north of Nottingham."
+    ]
+  },
+  {
+    "landmark": "Newstead Abbey",
+    "closest_station": "Newstead",
+    "distance_km": 3.0,
+    "difficulty": "medium",
+    "facts": [
+      "Newstead Abbey was the ancestral home of the poet Lord Byron, inherited in 1798.",
+      "The house was converted from a medieval Augustinian priory after the Dissolution of the Monasteries.",
+      "Its grounds include ornamental lakes and gardens open to the public."
+    ]
+  },
+  {
+    "landmark": "Mansfield's Sherwood Forest heritage",
+    "closest_station": "Mansfield",
+    "distance_km": 1.0,
+    "difficulty": "medium",
+    "facts": [
+      "Mansfield sits close to Sherwood Forest, associated with the legend of Robin Hood.",
+      "The town was historically a centre of textile and framework knitting industries.",
+      "Mansfield's railway station reopened in 1995 after decades of closure, on the reinstated Robin Hood Line."
+    ]
+  },
+  {
+    "landmark": "Ilkeston's market heritage",
+    "closest_station": "Ilkeston",
+    "distance_km": 0.5,
+    "difficulty": "hard",
+    "facts": [
+      "Ilkeston has held a market charter since 1252.",
+      "The town was historically linked to lace-making and coal mining in the Erewash Valley.",
+      "Ilkeston station reopened in 2017 after over 50 years without passenger services."
+    ]
+  },
+  {
+    "landmark": "Long Eaton's lace market history",
+    "closest_station": "Long Eaton",
+    "distance_km": 0.5,
+    "difficulty": "hard",
+    "facts": [
+      "Long Eaton grew rapidly around lace manufacturing in the 19th century.",
+      "The town sits on the River Erewash, close to the Nottinghamshire and Derbyshire border.",
+      "Long Eaton is also known for its furniture and upholstery trade."
+    ]
+  },
+  {
+    "landmark": "Attenborough Nature Reserve",
+    "closest_station": "Attenborough",
+    "distance_km": 0.3,
+    "difficulty": "medium",
+    "facts": [
+      "Attenborough Nature Reserve was created from former gravel pits along the River Trent.",
+      "It is named after the village, not naturalist Sir David Attenborough, though he has visited and supported it.",
+      "The reserve is an important site for wetland birds close to Nottingham."
+    ]
+  },
+  {
+    "landmark": "Beeston's Nottingham Trent University campus",
+    "closest_station": "Beeston",
+    "distance_km": 1.0,
+    "difficulty": "hard",
+    "facts": [
+      "Beeston is home to a major campus of the University of Nottingham.",
+      "The town developed around lace and pharmaceutical manufacturing, including the founders of Boots.",
+      "Beeston sits just west of Nottingham city centre."
+    ]
+  },
+  {
+    "landmark": "Loughborough Bellfoundry",
+    "closest_station": "Loughborough",
+    "distance_km": 0.5,
+    "difficulty": "medium",
+    "facts": [
+      "John Taylor & Co in Loughborough is one of the oldest working bellfoundries in the world.",
+      "It cast the Great Paul bell for St Paul's Cathedral, once the largest bell in Britain.",
+      "The foundry has operated on its current site since 1859."
+    ]
+  },
+  {
+    "landmark": "Spalding's tulip and flower heritage",
+    "closest_station": "Spalding",
+    "distance_km": 0.5,
+    "difficulty": "medium",
+    "facts": [
+      "Spalding was once the centre of England's bulb-growing industry, especially tulips.",
+      "The town historically held a major Flower Parade each spring.",
+      "Spalding sits in the flat, fertile Lincolnshire Fens."
+    ]
+  },
+  {
+    "landmark": "Sleaford's medieval church",
+    "closest_station": "Sleaford",
+    "distance_km": 0.5,
+    "difficulty": "hard",
+    "facts": [
+      "St Denys' Church in Sleaford has one of the earliest surviving examples of window tracery in England.",
+      "Sleaford sits at the heart of Lincolnshire's agricultural land.",
+      "The town was historically an important market centre for the surrounding Fens."
+    ]
+  },
+  {
+    "landmark": "Bulwell's ancient market cross",
+    "closest_station": "Bulwell",
+    "distance_km": 0.5,
+    "difficulty": "hard",
+    "facts": [
+      "Bulwell has a medieval market cross still standing in its town centre.",
+      "The suburb developed around coal mining and framework knitting industries.",
+      "Bulwell sits on the northern edge of Nottingham."
+    ]
+  },
+  {
+    "landmark": "Alfreton's mining heritage",
+    "closest_station": "Alfreton",
+    "distance_km": 1.0,
+    "difficulty": "hard",
+    "facts": [
+      "Alfreton was historically a centre of coal mining in the Derbyshire coalfield.",
+      "The town sits close to the Nottinghamshire border in the Amber Valley.",
+      "Alfreton railway station serves the wider Amber Valley district."
+    ]
+  },
+  {
+    "landmark": "Ambergate's railway junction heritage",
+    "closest_station": "Ambergate",
+    "distance_km": 0.3,
+    "difficulty": "hard",
+    "facts": [
+      "Ambergate was historically an important railway junction where lines to Manchester and Derby diverged.",
+      "The village sits at the confluence of the Rivers Derwent and Amber.",
+      "Ambergate lies within the Derwent Valley Mills UNESCO World Heritage Site."
+    ]
+  },
+  {
+    "landmark": "Duffield's Georgian conservation area",
+    "closest_station": "Duffield",
+    "distance_km": 0.5,
+    "difficulty": "hard",
+    "facts": [
+      "Duffield retains a well-preserved Georgian village centre.",
+      "The remains of Duffield Castle, once one of the largest Norman keeps in England, lie nearby.",
+      "Duffield sits on the River Derwent, north of Derby."
+    ]
+  },
+  {
+    "landmark": "Willington's Trent power stations",
+    "closest_station": "Willington",
+    "distance_km": 1.0,
+    "difficulty": "hard",
+    "facts": [
+      "Willington was historically home to large coal-fired power stations on the River Trent, since demolished.",
+      "The village sits close to Repton, home to one of England's oldest public schools.",
+      "Willington station serves the South Derbyshire countryside."
+    ]
+  },
+  {
+    "landmark": "Tutbury Castle",
+    "closest_station": "Tutbury & Hatton",
+    "distance_km": 1.0,
+    "difficulty": "medium",
+    "facts": [
+      "Mary, Queen of Scots was imprisoned at Tutbury Castle on several occasions in the 1560s and 1580s.",
+      "The castle overlooks the Dove Valley on the Staffordshire and Derbyshire border.",
+      "Tutbury is also known for its glass-making tradition."
+    ]
+  },
+  {
+    "landmark": "Barrow-upon-Soar's limestone quarrying past",
+    "closest_station": "Barrow-upon-Soar",
+    "distance_km": 0.5,
+    "difficulty": "hard",
+    "facts": [
+      "Barrow-upon-Soar was once a centre of lime burning and quarrying along the River Soar.",
+      "Ichthyosaur fossils have been found in the village's former quarries.",
+      "Barrow-upon-Soar sits between Leicester and Loughborough."
+    ]
+  },
+  {
+    "landmark": "Syston's Grand Union Canal junction",
+    "closest_station": "Syston",
+    "distance_km": 0.5,
+    "difficulty": "hard",
+    "facts": [
+      "Syston sits close to where the Grand Union Canal's Leicester line meets the River Soar Navigation.",
+      "The town grew as a residential suburb of Leicester in the 19th and 20th centuries.",
+      "Syston is on the Midland Main Line just north of Leicester."
+    ]
+  },
+  {
+    "landmark": "East Midlands Parkway & the airport",
+    "closest_station": "East Midlands Parkway",
+    "distance_km": 2.0,
+    "difficulty": "easy",
+    "facts": [
+      "East Midlands Parkway station opened in 2009 to serve East Midlands Airport and the surrounding area.",
+      "The station sits close to the cooling towers of Ratcliffe-on-Soar Power Station.",
+      "It provides a park-and-ride style interchange between road and rail."
+    ]
+  },
+  {
+    "landmark": "Grimsby Docks & the Dock Tower",
+    "closest_station": "Grimsby Docks",
+    "distance_km": 0.2,
+    "difficulty": "medium",
+    "facts": [
+      "The Grimsby Dock Tower, completed in 1852, was modelled on the Palazzo Pubblico tower in Siena.",
+      "It originally supplied hydraulic power to operate the dock's lock gates.",
+      "Grimsby's fishing fleet was once the largest in the world."
+    ]
+  },
+  {
+    "landmark": "Barton-on-Humber & the Humber Bridge view",
+    "closest_station": "Barton-on-Humber",
+    "distance_km": 1.0,
+    "difficulty": "medium",
+    "facts": [
+      "Barton-on-Humber sits on the south bank of the Humber, opposite Hull, close to the Humber Bridge.",
+      "St Peter's Church in the town has an Anglo-Saxon tower among the oldest standing structures of its kind in England.",
+      "Barton was a significant medieval port before trade shifted to Hull and Grimsby."
+    ]
+  },
+  {
+    "landmark": "Bottesford & the Vale of Belvoir",
+    "closest_station": "Bottesford",
+    "distance_km": 1.0,
+    "difficulty": "hard",
+    "facts": [
+      "Bottesford's church holds elaborate tombs of the Earls of Rutland from nearby Belvoir Castle.",
+      "The village sits in the fertile Vale of Belvoir, known for its agriculture.",
+      "Bottesford has the tallest parish church spire in Leicestershire."
+    ]
+  },
+  {
+    "landmark": "Kelham Island Museum, Sheffield",
+    "closest_station": "Sheffield",
+    "distance_km": 1.5,
+    "difficulty": "medium",
+    "facts": [
+      "Kelham Island Museum tells the story of Sheffield's steel and industrial heritage on an artificial island in the River Don.",
+      "It houses the River Don Engine, once the most powerful working steam engine in Europe.",
+      "Sheffield is famous worldwide for pioneering stainless steel, invented there in 1913."
+    ]
+  }
+]

@@ -1,0 +1,552 @@
+[
+  {
+    "landmark": "Biggin Hill Airport",
+    "closest_station": "Hayes",
+    "distance_km": 5.29,
+    "difficulty": "hard",
+    "facts": [
+      "Biggin Hill was one of the most important RAF fighter stations during the Battle of Britain.",
+      "The airport today handles private and business aviation, alongside a small museum on its wartime history.",
+      "It sits on high ground in the North Downs, giving it its wartime nickname 'Biggin on the Bump'."
+    ]
+  },
+  {
+    "landmark": "British Museum",
+    "closest_station": "London Charing Cross",
+    "distance_km": 1.27,
+    "difficulty": "medium",
+    "facts": [
+      "The British Museum holds over 8 million objects spanning two million years of human history.",
+      "It was the first national public museum in the world, opening in 1759.",
+      "The Rosetta Stone, key to deciphering Egyptian hieroglyphs, has been on display there since 1802."
+    ]
+  },
+  {
+    "landmark": "Covent Garden",
+    "closest_station": "London Charing Cross",
+    "distance_km": 0.41,
+    "difficulty": "easy",
+    "facts": [
+      "Covent Garden was London's main fruit and vegetable market for over 300 years before moving out in 1974.",
+      "The area's central piazza was designed in the 1630s by architect Inigo Jones.",
+      "It is now known for street performers, boutique shops and the Royal Opera House."
+    ]
+  },
+  {
+    "landmark": "Hyde Park",
+    "closest_station": "London Victoria",
+    "distance_km": 1.98,
+    "difficulty": "medium",
+    "facts": [
+      "Hyde Park covers 350 acres, one of the largest of London's Royal Parks.",
+      "Speakers' Corner, at its northeast edge, has hosted public debate and oratory since the 1870s.",
+      "The Serpentine lake within the park was created in the 1730s for Queen Caroline."
+    ]
+  },
+  {
+    "landmark": "Piccadilly Circus",
+    "closest_station": "London Charing Cross",
+    "distance_km": 0.68,
+    "difficulty": "easy",
+    "facts": [
+      "Piccadilly Circus has been a major road junction since 1819.",
+      "Its illuminated advertising signs have been a landmark since the early 20th century.",
+      "The Shaftesbury Memorial Fountain at its centre is popularly known as Eros, though the statue actually depicts Anteros."
+    ]
+  },
+  {
+    "landmark": "Rainham Marshes",
+    "closest_station": "Belvedere",
+    "distance_km": 1.1,
+    "difficulty": "medium",
+    "facts": [
+      "Rainham Marshes is one of the last remaining wild grazing marshes on the Thames, managed by the RSPB.",
+      "The site was formerly used as a military firing range before conservation work began.",
+      "It is an important habitat for water voles and wintering wildfowl."
+    ]
+  },
+  {
+    "landmark": "Somerset House",
+    "closest_station": "London Charing Cross",
+    "distance_km": 0.72,
+    "difficulty": "easy",
+    "facts": [
+      "Somerset House was built in the 1770s on the site of an earlier Tudor palace.",
+      "It now hosts art exhibitions, a famous winter ice rink, and summer fountains in its courtyard.",
+      "The building originally housed government offices including the Navy Board."
+    ]
+  },
+  {
+    "landmark": "St Paul's Cathedral",
+    "closest_station": "City Thameslink",
+    "distance_km": 0.36,
+    "difficulty": "easy",
+    "facts": [
+      "St Paul's Cathedral was designed by Sir Christopher Wren after the Great Fire of London destroyed its medieval predecessor.",
+      "Its dome remains one of the most recognisable features of the London skyline.",
+      "Winston Churchill's funeral was held there in 1965."
+    ]
+  },
+  {
+    "landmark": "Thames Barrier",
+    "closest_station": "Woolwich Dockyard",
+    "distance_km": 0.74,
+    "difficulty": "easy",
+    "facts": [
+      "The Thames Barrier protects London from tidal surges, operational since 1982.",
+      "It consists of ten steel gates that can be raised to hold back the tide.",
+      "The barrier has been closed more frequently in recent decades as sea levels have risen."
+    ]
+  },
+  {
+    "landmark": "The Shard",
+    "closest_station": "London Bridge",
+    "distance_km": 0.06,
+    "difficulty": "easy",
+    "facts": [
+      "The Shard is the tallest building in the United Kingdom, standing 310 metres tall.",
+      "It was designed by architect Renzo Piano, inspired by London's church spires and ships' masts.",
+      "Its viewing platform offers views stretching up to 40 miles on a clear day."
+    ]
+  },
+  {
+    "landmark": "Trafalgar Square",
+    "closest_station": "London Charing Cross",
+    "distance_km": 0.23,
+    "difficulty": "easy",
+    "facts": [
+      "Trafalgar Square commemorates Admiral Nelson's victory at the Battle of Trafalgar in 1805.",
+      "Nelson's Column at its centre stands over 50 metres tall including the statue.",
+      "The square's fourth plinth has hosted a rotating programme of contemporary art since 1999."
+    ]
+  },
+  {
+    "landmark": "Waterloo Station",
+    "closest_station": "London Waterloo (East)",
+    "distance_km": 0.38,
+    "difficulty": "easy",
+    "facts": [
+      "Waterloo is the largest railway station in the UK by floor area.",
+      "It was named after the Battle of Waterloo, fought in 1815.",
+      "The station was extensively rebuilt in the early 20th century, with its grand Victory Arch added after the First World War."
+    ]
+  },
+  {
+    "landmark": "Westminster Abbey",
+    "closest_station": "London Charing Cross",
+    "distance_km": 0.99,
+    "difficulty": "easy",
+    "facts": [
+      "Westminster Abbey has hosted every English and British coronation since 1066.",
+      "It is the resting place of numerous monarchs, scientists, poets and statesmen.",
+      "The Abbey is a UNESCO World Heritage Site alongside the neighbouring Houses of Parliament."
+    ]
+  },
+  {
+    "landmark": "Royal Observatory Greenwich",
+    "closest_station": "Greenwich",
+    "distance_km": 0.6,
+    "difficulty": "easy",
+    "facts": [
+      "The Royal Observatory marks the Prime Meridian, the line of zero degrees longitude.",
+      "It was founded in 1675 by Charles II to improve navigation at sea.",
+      "Greenwich Mean Time takes its name from the observatory's role in setting the world's standard time."
+    ]
+  },
+  {
+    "landmark": "Cutty Sark",
+    "closest_station": "Greenwich",
+    "distance_km": 0.3,
+    "difficulty": "easy",
+    "facts": [
+      "The Cutty Sark is one of the last surviving tea clippers, built in 1869.",
+      "It once held the record for the fastest passage from China to Britain carrying tea.",
+      "The ship is preserved in dry dock at Greenwich, raised above the ground on display."
+    ]
+  },
+  {
+    "landmark": "Eltham Palace",
+    "closest_station": "Eltham",
+    "distance_km": 1.0,
+    "difficulty": "medium",
+    "facts": [
+      "Eltham Palace combines a medieval royal palace with a striking 1930s Art Deco mansion built alongside it.",
+      "Henry VIII spent much of his childhood at the medieval palace.",
+      "The site is now managed by English Heritage."
+    ]
+  },
+  {
+    "landmark": "Chislehurst Caves",
+    "closest_station": "Chislehurst",
+    "distance_km": 1.0,
+    "difficulty": "medium",
+    "facts": [
+      "Chislehurst Caves are man-made chalk and flint mines dating back around 8,000 years in parts.",
+      "They were used as a deep air raid shelter for thousands of people during the Blitz.",
+      "The caves have also hosted concerts, including early performances by David Bowie and Led Zeppelin."
+    ]
+  },
+  {
+    "landmark": "Charlton House",
+    "closest_station": "Charlton",
+    "distance_km": 0.5,
+    "difficulty": "medium",
+    "facts": [
+      "Charlton House is considered one of the finest surviving Jacobean houses in London, completed in 1612.",
+      "It was built for Adam Newton, tutor to Prince Henry, son of James I.",
+      "The house now serves as a community centre and library."
+    ]
+  },
+  {
+    "landmark": "Woolwich Royal Arsenal",
+    "closest_station": "Woolwich Arsenal",
+    "distance_km": 0.3,
+    "difficulty": "medium",
+    "facts": [
+      "The Royal Arsenal at Woolwich manufactured munitions and artillery for over 200 years.",
+      "Arsenal Football Club began here in 1886 as a team of arsenal workers.",
+      "The former Arsenal site has been redeveloped into riverside housing and heritage buildings."
+    ]
+  },
+  {
+    "landmark": "Peckham Rye Park",
+    "closest_station": "Peckham Rye",
+    "distance_km": 0.5,
+    "difficulty": "easy",
+    "facts": [
+      "William Blake reported having a childhood vision of angels in a tree on Peckham Rye Common.",
+      "Peckham has become known for its vibrant street art and creative community.",
+      "The area's rooftop car park has been transformed into a popular bar and events venue."
+    ]
+  },
+  {
+    "landmark": "Brixton Market",
+    "closest_station": "Brixton",
+    "distance_km": 0.2,
+    "difficulty": "easy",
+    "facts": [
+      "Brixton Market has been a hub of Caribbean culture and trade in London since the mid-20th century.",
+      "The area became a centre of the Windrush generation's community in Britain.",
+      "Brixton's covered arcades host a mix of traditional stalls and newer independent food outlets."
+    ]
+  },
+  {
+    "landmark": "Elephant & Castle's regeneration",
+    "closest_station": "Elephant & Castle",
+    "distance_km": 0.1,
+    "difficulty": "medium",
+    "facts": [
+      "The area's unusual name is thought to derive from a former coaching inn sign.",
+      "Elephant & Castle has undergone major redevelopment in the 2010s and 2020s.",
+      "It sits at a key road and rail junction in south London."
+    ]
+  },
+  {
+    "landmark": "Blackheath Common",
+    "closest_station": "Blackheath",
+    "distance_km": 0.2,
+    "difficulty": "easy",
+    "facts": [
+      "Blackheath has hosted major public gatherings for centuries, including Wat Tyler's 1381 Peasants' Revolt camp.",
+      "The London Marathon has started from Blackheath every year since 1981.",
+      "The heath sits between Greenwich Park and the historic village of Blackheath."
+    ]
+  },
+  {
+    "landmark": "Farringdon & Smithfield Market",
+    "closest_station": "Farringdon",
+    "distance_km": 0.5,
+    "difficulty": "medium",
+    "facts": [
+      "Smithfield has been a meat market site for over 800 years.",
+      "Farringdon is a major Elizabeth Line and Thameslink interchange.",
+      "The area sits at the boundary of the City of London and Clerkenwell."
+    ]
+  },
+  {
+    "landmark": "British Library (via St Pancras)",
+    "closest_station": "St Pancras International",
+    "distance_km": 0.3,
+    "difficulty": "medium",
+    "facts": [
+      "The British Library holds over 170 million items, one of the largest collections in the world.",
+      "St Pancras International is the London terminus for Eurostar services to mainland Europe.",
+      "The station's Victorian train shed roof was, for a time, the largest single-span structure in the world."
+    ]
+  },
+  {
+    "landmark": "Lewisham's shopping centre",
+    "closest_station": "Lewisham",
+    "distance_km": 0.3,
+    "difficulty": "medium",
+    "facts": [
+      "Lewisham is a major south London transport and shopping hub.",
+      "The area developed rapidly after the arrival of the railway in the 1850s.",
+      "Lewisham sits on the River Ravensbourne."
+    ]
+  },
+  {
+    "landmark": "Kidbrooke's regeneration",
+    "closest_station": "Kidbrooke",
+    "distance_km": 0.5,
+    "difficulty": "hard",
+    "facts": [
+      "Kidbrooke has seen one of London's largest housing regeneration projects, replacing a 1960s estate.",
+      "The area sits close to the Royal Blackheath Golf Club, one of the oldest golf clubs in England.",
+      "Kidbrooke station was rebuilt as part of the area's redevelopment."
+    ]
+  },
+  {
+    "landmark": "Petts Wood's National Trust woodland",
+    "closest_station": "Petts Wood",
+    "distance_km": 0.5,
+    "difficulty": "medium",
+    "facts": [
+      "Petts Wood is an area of ancient woodland managed by the National Trust.",
+      "The suburb takes its name from a family of shipbuilders who once owned timber rights here.",
+      "A war memorial in the woods commemorates William Willett, the campaigner behind British Summer Time."
+    ]
+  },
+  {
+    "landmark": "Orpington's Priory Gardens",
+    "closest_station": "Orpington",
+    "distance_km": 0.5,
+    "difficulty": "medium",
+    "facts": [
+      "Orpington Priory dates from the 14th century and now houses a local museum.",
+      "The town gave its name to the Orpington breed of chicken, developed there in the 1880s.",
+      "Orpington is one of the busiest stations on Southeastern's outer suburban network."
+    ]
+  },
+  {
+    "landmark": "Danson Park, Bexleyheath",
+    "closest_station": "Bexleyheath",
+    "distance_km": 1.5,
+    "difficulty": "medium",
+    "facts": [
+      "Danson Park is built around Danson House, a Palladian villa completed in 1766.",
+      "The park includes a large lake used for boating.",
+      "Bexleyheath developed rapidly as a London suburb following the railway's arrival."
+    ]
+  },
+  {
+    "landmark": "Red House, Bexleyheath",
+    "closest_station": "Bexleyheath",
+    "distance_km": 2.0,
+    "difficulty": "medium",
+    "facts": [
+      "Red House was designed for William Morris in 1859, a key building in the Arts and Crafts movement.",
+      "Morris and his collaborators decorated much of the house's interior themselves.",
+      "It is now cared for by the National Trust."
+    ]
+  },
+  {
+    "landmark": "Hall Place, Bexley",
+    "closest_station": "Bexley",
+    "distance_km": 1.5,
+    "difficulty": "medium",
+    "facts": [
+      "Hall Place is a mix of 16th-century Tudor and 17th-century additions, set in formal gardens.",
+      "Its topiary garden includes animal shapes representing the Queen's Beasts.",
+      "The house overlooks the River Cray."
+    ]
+  },
+  {
+    "landmark": "Crayford's manufacturing heritage",
+    "closest_station": "Crayford",
+    "distance_km": 0.5,
+    "difficulty": "hard",
+    "facts": [
+      "Crayford was historically a centre of vehicle and armaments manufacturing.",
+      "The town sits on the River Cray in the London Borough of Bexley.",
+      "Crayford developed rapidly as an industrial suburb in the early 20th century."
+    ]
+  },
+  {
+    "landmark": "Erith's riverside regeneration",
+    "closest_station": "Erith",
+    "distance_km": 0.5,
+    "difficulty": "hard",
+    "facts": [
+      "Erith sits on the south bank of the Thames, historically an industrial and shipbuilding area.",
+      "The town has undergone significant riverside redevelopment in recent years.",
+      "Erith Pier offers views across the Thames towards Essex."
+    ]
+  },
+  {
+    "landmark": "Falconwood & Eltham Park",
+    "closest_station": "Falconwood",
+    "distance_km": 0.5,
+    "difficulty": "hard",
+    "facts": [
+      "Falconwood sits close to Eltham Park, a large area of public green space.",
+      "The station serves a mainly residential area on the southeastern edge of London.",
+      "Falconwood is on the North Kent Line towards Dartford."
+    ]
+  },
+  {
+    "landmark": "Abbey Wood & Lesnes Abbey",
+    "closest_station": "Abbey Wood",
+    "distance_km": 1.0,
+    "difficulty": "medium",
+    "facts": [
+      "Lesnes Abbey was founded in 1178, its ruins now sitting within a public park.",
+      "Abbey Wood became a major Elizabeth Line terminus station in 2022.",
+      "The surrounding woodland is known for its wild daffodils each spring."
+    ]
+  },
+  {
+    "landmark": "Plumstead Common",
+    "closest_station": "Plumstead",
+    "distance_km": 0.5,
+    "difficulty": "medium",
+    "facts": [
+      "Plumstead Common was saved from enclosure by 19th-century public protests.",
+      "The area sits close to the former Royal Arsenal at Woolwich.",
+      "Plumstead developed rapidly as a working-class suburb linked to the Arsenal's workforce."
+    ]
+  },
+  {
+    "landmark": "New Cross & Goldsmiths",
+    "closest_station": "New Cross",
+    "distance_km": 0.3,
+    "difficulty": "medium",
+    "facts": [
+      "New Cross is home to a campus of Goldsmiths, University of London.",
+      "The area has a strong association with music venues and student culture.",
+      "New Cross sits at a historic road junction on the old Dover road."
+    ]
+  },
+  {
+    "landmark": "Deptford's dockyard history",
+    "closest_station": "Deptford",
+    "distance_km": 0.5,
+    "difficulty": "medium",
+    "facts": [
+      "Deptford was home to a major royal dockyard from the time of Henry VIII until 1869.",
+      "Christopher Marlowe, the Elizabethan playwright, was killed in a tavern brawl in Deptford in 1593.",
+      "The area has become known for its street market and creative community."
+    ]
+  },
+  {
+    "landmark": "Herne Hill's velodrome",
+    "closest_station": "Herne Hill",
+    "distance_km": 0.5,
+    "difficulty": "medium",
+    "facts": [
+      "Herne Hill Velodrome hosted cycling events at the 1948 London Olympics.",
+      "It is the oldest cycling track still in use in the world.",
+      "The area developed as a leafy Victorian suburb of south London."
+    ]
+  },
+  {
+    "landmark": "Denmark Hill & King's College Hospital",
+    "closest_station": "Denmark Hill",
+    "distance_km": 0.3,
+    "difficulty": "medium",
+    "facts": [
+      "King's College Hospital is one of London's largest teaching hospitals.",
+      "Denmark Hill takes its name from Prince George of Denmark, husband of Queen Anne.",
+      "The area sits between Camberwell and Herne Hill."
+    ]
+  },
+  {
+    "landmark": "Dulwich Picture Gallery",
+    "closest_station": "West Dulwich",
+    "distance_km": 0.5,
+    "difficulty": "medium",
+    "facts": [
+      "Dulwich Picture Gallery, opened in 1817, was the first purpose-built public art gallery in England.",
+      "It was designed by architect Sir John Soane.",
+      "The gallery holds an important collection of Old Master paintings."
+    ]
+  },
+  {
+    "landmark": "Crystal Palace Park (via Sydenham Hill)",
+    "closest_station": "Sydenham Hill",
+    "distance_km": 1.5,
+    "difficulty": "medium",
+    "facts": [
+      "Crystal Palace Park was created to house the relocated Great Exhibition building from Hyde Park.",
+      "The park still contains Victorian-era dinosaur sculptures.",
+      "The Crystal Palace itself burned down in 1936."
+    ]
+  },
+  {
+    "landmark": "Beckenham Place Park",
+    "closest_station": "Beckenham Junction",
+    "distance_km": 1.0,
+    "difficulty": "medium",
+    "facts": [
+      "Beckenham Place Park is one of the largest parks in south London, covering over 200 acres.",
+      "It was once the grounds of an 18th-century mansion, now used as a cafe and events space.",
+      "The park includes a large area of ancient woodland."
+    ]
+  },
+  {
+    "landmark": "Grove Park's suburban development",
+    "closest_station": "Grove Park",
+    "distance_km": 0.5,
+    "difficulty": "hard",
+    "facts": [
+      "Grove Park developed as a residential suburb following the arrival of the railway in the 1870s.",
+      "The area sits between Lee and Chislehurst in southeast London.",
+      "Grove Park station is a key junction on the line towards Bromley and Orpington."
+    ]
+  },
+  {
+    "landmark": "Bromley's H.G. Wells connections",
+    "closest_station": "Bromley South",
+    "distance_km": 0.5,
+    "difficulty": "medium",
+    "facts": [
+      "Author H.G. Wells was born in Bromley in 1866.",
+      "Bromley is the largest town centre in southeast London.",
+      "Bromley South is one of the busiest stations on the Southeastern network."
+    ]
+  },
+  {
+    "landmark": "Sidcup's suburban high street",
+    "closest_station": "Sidcup",
+    "distance_km": 0.3,
+    "difficulty": "hard",
+    "facts": [
+      "Sidcup developed rapidly as a residential suburb in the interwar years.",
+      "The area sits within the London Borough of Bexley.",
+      "Sidcup station is on the line towards Dartford via Sidcup."
+    ]
+  },
+  {
+    "landmark": "Swanley's garden town roots",
+    "closest_station": "Swanley",
+    "distance_km": 0.5,
+    "difficulty": "hard",
+    "facts": [
+      "Swanley developed around fruit growing and market gardening in the 19th century.",
+      "The town sits on the border of Greater London and Kent.",
+      "Swanley was one of the stations added to London's fare zone 8 in 2016."
+    ]
+  },
+  {
+    "landmark": "Elmstead Woods",
+    "closest_station": "Elmstead Woods",
+    "distance_km": 0.2,
+    "difficulty": "hard",
+    "facts": [
+      "Elmstead Woods station takes its name from the surrounding ancient woodland.",
+      "The area sits between Chislehurst and Grove Park.",
+      "It is a quiet residential suburb in the London Borough of Bromley."
+    ]
+  },
+  {
+    "landmark": "Nunhead Cemetery",
+    "closest_station": "Nunhead",
+    "distance_km": 0.5,
+    "difficulty": "medium",
+    "facts": [
+      "Nunhead Cemetery is one of London's 'Magnificent Seven' Victorian cemeteries, opened in 1840.",
+      "It is now managed partly as a nature reserve, with dense woodland reclaiming many older graves.",
+      "The cemetery chapel offers views across to St Paul's Cathedral from its highest point."
+    ]
+  }
+]

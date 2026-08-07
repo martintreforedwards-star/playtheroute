@@ -1,0 +1,552 @@
+[
+  {
+    "landmark": "Southend Pier",
+    "closest_station": "Southend Central",
+    "distance_km": 0.3,
+    "difficulty": "easy",
+    "facts": [
+      "Southend Pier is the longest pleasure pier in the world, extending over 2 kilometres into the Thames Estuary.",
+      "A miniature railway has run along the pier since 1890.",
+      "The pier has survived several major fires over its history and remains a working attraction."
+    ]
+  },
+  {
+    "landmark": "Colchester Castle",
+    "closest_station": "Colchester",
+    "distance_km": 0.5,
+    "difficulty": "easy",
+    "facts": [
+      "Colchester Castle has the largest surviving Norman keep in Europe, larger even than the White Tower of London.",
+      "It was built on the foundations of a Roman temple to the Emperor Claudius.",
+      "Colchester is recognised as Britain's oldest recorded town, referenced by Roman writers as Camulodunum."
+    ]
+  },
+  {
+    "landmark": "King's College Chapel, Cambridge",
+    "closest_station": "Cambridge",
+    "distance_km": 1.0,
+    "difficulty": "easy",
+    "facts": [
+      "King's College Chapel has the largest fan vault ceiling in the world, completed in 1515.",
+      "Its Nine Lessons and Carols service, broadcast every Christmas Eve, has been held since 1918.",
+      "Cambridge is one of the oldest universities in the world, founded in 1209."
+    ]
+  },
+  {
+    "landmark": "Ely Cathedral",
+    "closest_station": "Ely",
+    "distance_km": 0.5,
+    "difficulty": "easy",
+    "facts": [
+      "Ely Cathedral is nicknamed the 'Ship of the Fens' for its dramatic visibility across the flat surrounding landscape.",
+      "Its unique octagonal lantern tower, built after the original tower collapsed in 1322, is a masterpiece of medieval engineering.",
+      "Ely was the last part of England to hold out against William the Conqueror, led by Hereward the Wake."
+    ]
+  },
+  {
+    "landmark": "Norwich Cathedral & Castle",
+    "closest_station": "Norwich",
+    "distance_km": 0.8,
+    "difficulty": "easy",
+    "facts": [
+      "Norwich has more medieval churches surviving than any other city in Western Europe north of the Alps.",
+      "Norwich Cathedral's spire is the second-tallest in England, after Salisbury.",
+      "Norwich Castle's keep was built as a royal palace, one of the largest Norman keeps in England."
+    ]
+  },
+  {
+    "landmark": "Bury St Edmunds Abbey Gardens",
+    "closest_station": "Bury St Edmunds",
+    "distance_km": 0.5,
+    "difficulty": "easy",
+    "facts": [
+      "Bury St Edmunds Abbey was once one of the richest and most powerful monasteries in medieval England.",
+      "Barons are said to have sworn an oath here in 1214 that helped lead to Magna Carta.",
+      "The town takes its name from King Edmund, martyred by Vikings and buried at the abbey."
+    ]
+  },
+  {
+    "landmark": "Newmarket, home of horse racing",
+    "closest_station": "Newmarket",
+    "distance_km": 1.0,
+    "difficulty": "medium",
+    "facts": [
+      "Newmarket is often called the headquarters of British horse racing, with roots dating to James I in the 1600s.",
+      "The National Horseracing Museum tells the story of the sport in the town.",
+      "Newmarket has more racehorses in training than any other town in Britain."
+    ]
+  },
+  {
+    "landmark": "Gainsborough's House, Sudbury",
+    "closest_station": "Sudbury Suffolk",
+    "distance_km": 0.5,
+    "difficulty": "medium",
+    "facts": [
+      "Painter Thomas Gainsborough was born in Sudbury in 1727; his family home is now a gallery.",
+      "Sudbury is the largest town on the River Stour in Suffolk.",
+      "The town is the terminus of a branch line from Marks Tey, sometimes called the 'Gainsborough Line'."
+    ]
+  },
+  {
+    "landmark": "Constable Country, Manningtree",
+    "closest_station": "Manningtree",
+    "distance_km": 2.0,
+    "difficulty": "medium",
+    "facts": [
+      "The Stour Valley around Manningtree inspired many of John Constable's most famous landscape paintings.",
+      "Manningtree claims to be England's smallest town by area.",
+      "Flatford Mill, painted in Constable's 'The Hay Wain', lies a short distance from the town."
+    ]
+  },
+  {
+    "landmark": "Harwich's maritime heritage",
+    "closest_station": "Harwich Town",
+    "distance_km": 0.5,
+    "difficulty": "medium",
+    "facts": [
+      "Harwich has been a significant port since medieval times, later a base for the Royal Navy.",
+      "The Mayflower's captain, Christopher Jones, is believed to have lived in Harwich before the 1620 voyage.",
+      "Harwich International station connects directly to ferry services to the Hook of Holland."
+    ]
+  },
+  {
+    "landmark": "Port of Felixstowe",
+    "closest_station": "Felixstowe",
+    "distance_km": 1.0,
+    "difficulty": "medium",
+    "facts": [
+      "Felixstowe is the busiest container port in the United Kingdom.",
+      "The town also developed as a genteel Victorian seaside resort alongside its port trade.",
+      "Felixstowe sits at the mouth of the Rivers Orwell and Deben."
+    ]
+  },
+  {
+    "landmark": "Great Yarmouth's Golden Mile",
+    "closest_station": "Great Yarmouth",
+    "distance_km": 0.5,
+    "difficulty": "easy",
+    "facts": [
+      "Great Yarmouth's seafront 'Golden Mile' has been a traditional British seaside resort since Victorian times.",
+      "The town was once one of the largest herring fishing ports in the world.",
+      "Great Yarmouth's Row houses are a distinctive network of narrow medieval alleyways."
+    ]
+  },
+  {
+    "landmark": "Cromer Pier & crab fishing",
+    "closest_station": "Cromer",
+    "distance_km": 0.3,
+    "difficulty": "easy",
+    "facts": [
+      "Cromer crab is a local delicacy, caught by small boats working directly off the beach.",
+      "Cromer Pier's Pavilion Theatre hosts one of the last traditional end-of-pier variety shows in Britain.",
+      "The town's church has the tallest tower in Norfolk."
+    ]
+  },
+  {
+    "landmark": "Sheringham & the North Norfolk Railway",
+    "closest_station": "Sheringham",
+    "distance_km": 0.3,
+    "difficulty": "medium",
+    "facts": [
+      "The North Norfolk Railway, nicknamed the 'Poppy Line', runs a heritage steam service from Sheringham.",
+      "Sheringham Park, nearby, was landscaped by renowned designer Humphry Repton.",
+      "Sheringham remains a working fishing town alongside its tourism."
+    ]
+  },
+  {
+    "landmark": "Stansted Airport",
+    "closest_station": "Stansted Airport",
+    "distance_km": 0.1,
+    "difficulty": "easy",
+    "facts": [
+      "Stansted's terminal building was designed by architect Norman Foster, opened in 1991.",
+      "It is one of London's main airports, particularly for budget airlines.",
+      "The station sits directly beneath the terminal for a seamless rail connection."
+    ]
+  },
+  {
+    "landmark": "Audley End House",
+    "closest_station": "Audley End",
+    "distance_km": 2.0,
+    "difficulty": "medium",
+    "facts": [
+      "Audley End House was once so vast that it was said to rival royal palaces in scale.",
+      "It was built in the early 17th century for Thomas Howard, Earl of Suffolk.",
+      "The surrounding parkland was landscaped by Capability Brown."
+    ]
+  },
+  {
+    "landmark": "Bishop's Stortford's market town heritage",
+    "closest_station": "Bishops Stortford",
+    "distance_km": 0.5,
+    "difficulty": "medium",
+    "facts": [
+      "Cecil Rhodes, the controversial colonial figure, was born in Bishop's Stortford in 1853.",
+      "The town's castle, Waytemore Castle, has origins dating back to Norman times.",
+      "Bishop's Stortford sits on the River Stort, close to the Hertfordshire-Essex border."
+    ]
+  },
+  {
+    "landmark": "Upminster Windmill",
+    "closest_station": "Upminster",
+    "distance_km": 0.5,
+    "difficulty": "medium",
+    "facts": [
+      "Upminster Windmill, built in 1803, is one of the best-preserved smock mills in Essex.",
+      "Upminster sits at the eastern end of the District line as well as c2c services.",
+      "The area retains a village-like character despite being within Greater London."
+    ]
+  },
+  {
+    "landmark": "Tilbury Fort",
+    "closest_station": "Tilbury Town",
+    "distance_km": 1.5,
+    "difficulty": "medium",
+    "facts": [
+      "Tilbury Fort is one of the finest examples of 17th-century military engineering in England.",
+      "Elizabeth I delivered her famous speech to troops nearby ahead of the Spanish Armada in 1588.",
+      "Tilbury Docks later became a major arrival point for immigration, including the Empire Windrush in 1948."
+    ]
+  },
+  {
+    "landmark": "Frinton-on-Sea's genteel seafront",
+    "closest_station": "Frinton-On-Sea",
+    "distance_km": 0.5,
+    "difficulty": "medium",
+    "facts": [
+      "Frinton-on-Sea was developed from the 1890s as a deliberately quiet, upmarket alternative to nearby Clacton.",
+      "The town famously had no pubs for most of the 20th century.",
+      "Frinton's Greensward promenade remains a well-preserved Edwardian seafront."
+    ]
+  },
+  {
+    "landmark": "Clacton Pier",
+    "closest_station": "Clacton-On-Sea",
+    "distance_km": 0.5,
+    "difficulty": "easy",
+    "facts": [
+      "Clacton Pier opened in 1871 and remains one of the most visited piers on the East Anglian coast.",
+      "Clacton was purpose-built as a seaside resort by Peter Bruff, who also built the railway to serve it.",
+      "The town continues to host traditional funfair rides and amusements."
+    ]
+  },
+  {
+    "landmark": "Walton-on-the-Naze cliffs",
+    "closest_station": "Walton-On-The-Naze",
+    "distance_km": 0.5,
+    "difficulty": "medium",
+    "facts": [
+      "The Naze cliffs are rich in fossils, eroding steadily into the North Sea.",
+      "A Napoleonic-era tower, the Naze Tower, stands as a landmark on the clifftop.",
+      "Walton-on-the-Naze developed as a resort after the railway arrived in 1867."
+    ]
+  },
+  {
+    "landmark": "London Liverpool Street's Broadgate",
+    "closest_station": "London Liverpool Street",
+    "distance_km": 0.2,
+    "difficulty": "easy",
+    "facts": [
+      "Liverpool Street is one of the busiest stations in Britain, serving both the City of London and Stansted Airport.",
+      "The adjoining Broadgate development was one of the first major office redevelopments of the 1980s.",
+      "A memorial at the station commemorates the Kindertransport, which brought thousands of refugee children to Britain."
+    ]
+  },
+  {
+    "landmark": "London Fenchurch Street",
+    "closest_station": "London Fenchurch Street",
+    "distance_km": 0.1,
+    "difficulty": "medium",
+    "facts": [
+      "Fenchurch Street is the only central London terminus with no direct London Underground connection.",
+      "It is the smallest of London's main railway termini.",
+      "The station is the London end of the c2c line to Southend and Shoeburyness."
+    ]
+  },
+  {
+    "landmark": "West Ham & London Stadium",
+    "closest_station": "West Ham",
+    "distance_km": 1.0,
+    "difficulty": "medium",
+    "facts": [
+      "The London Stadium, built for the 2012 Olympics, became West Ham United's home ground in 2016.",
+      "West Ham is a major interchange station serving multiple London Underground and Overground lines.",
+      "The surrounding Stratford area was extensively regenerated for the Olympic Games."
+    ]
+  },
+  {
+    "landmark": "Stratford & the Olympic Park",
+    "closest_station": "Stratford (London)",
+    "distance_km": 1.0,
+    "difficulty": "easy",
+    "facts": [
+      "Queen Elizabeth Olympic Park was the main site for the London 2012 Olympic and Paralympic Games.",
+      "The ArcelorMittal Orbit, in the park, is Britain's largest piece of public art.",
+      "Stratford station is one of the busiest interchanges in London."
+    ]
+  },
+  {
+    "landmark": "Epping Forest (via Chingford area)",
+    "closest_station": "Waltham Cross",
+    "distance_km": 3.0,
+    "difficulty": "hard",
+    "facts": [
+      "Epping Forest is one of the largest surviving areas of ancient woodland near London.",
+      "It has been protected as public open space since the Epping Forest Act of 1878.",
+      "Waltham Cross sits close to the forest's western edge, at the boundary of Essex and Hertfordshire."
+    ]
+  },
+  {
+    "landmark": "Waltham Abbey (via Waltham Cross)",
+    "closest_station": "Waltham Cross",
+    "distance_km": 1.5,
+    "difficulty": "medium",
+    "facts": [
+      "Waltham Abbey is said to be the burial place of King Harold, defeated at the Battle of Hastings in 1066.",
+      "The town's Eleanor Cross, one of the surviving monuments to Edward I's queen, still stands nearby.",
+      "Waltham Cross station serves the town on the West Anglia Main Line."
+    ]
+  },
+  {
+    "landmark": "Hertford Castle",
+    "closest_station": "Hertford East",
+    "distance_km": 0.5,
+    "difficulty": "medium",
+    "facts": [
+      "Hertford Castle's surviving gatehouse dates from the 15th century, built on earlier Norman foundations.",
+      "Hertford is the county town of Hertfordshire.",
+      "The town sits at the confluence of four rivers."
+    ]
+  },
+  {
+    "landmark": "Hatfield Forest (via Bishops Stortford)",
+    "closest_station": "Bishops Stortford",
+    "distance_km": 5.0,
+    "difficulty": "hard",
+    "facts": [
+      "Hatfield Forest is considered one of the best-preserved medieval royal hunting forests in Europe.",
+      "It retains its historic combination of woodland, grassland and ancient pollarded trees.",
+      "The forest is managed by the National Trust."
+    ]
+  },
+  {
+    "landmark": "Braintree's wool and silk heritage",
+    "closest_station": "Braintree",
+    "distance_km": 0.5,
+    "difficulty": "medium",
+    "facts": [
+      "Braintree was historically a centre of wool weaving and later silk manufacturing.",
+      "Courtaulds, a major British textile firm, had its origins in Braintree's silk mills.",
+      "The town sits at the meeting point of two Roman roads."
+    ]
+  },
+  {
+    "landmark": "Chelmsford Cathedral",
+    "closest_station": "Chelmsford",
+    "distance_km": 0.5,
+    "difficulty": "medium",
+    "facts": [
+      "Chelmsford Cathedral became a cathedral only in 1914, though the church itself dates from the 15th century.",
+      "Chelmsford is recognised as the birthplace of radio broadcasting, home to Marconi's early wireless factory.",
+      "Chelmsford is the county town of Essex."
+    ]
+  },
+  {
+    "landmark": "Southend Airport",
+    "closest_station": "Southend Airport",
+    "distance_km": 0.1,
+    "difficulty": "easy",
+    "facts": [
+      "Southend Airport has a direct rail link into its terminal, opened in 2011.",
+      "The airport has one of the shortest security queues of London's airports due to its smaller scale.",
+      "It sits close to Rochford, a historic Essex market town."
+    ]
+  },
+  {
+    "landmark": "Rochford's market square",
+    "closest_station": "Rochford",
+    "distance_km": 0.5,
+    "difficulty": "hard",
+    "facts": [
+      "Rochford's market square retains its medieval layout at the heart of the town.",
+      "The town sits on the River Roach, close to Southend Airport.",
+      "Rochford was historically the administrative centre for the wider Rochford Hundred area."
+    ]
+  },
+  {
+    "landmark": "Basildon's new town design",
+    "closest_station": "Basildon",
+    "distance_km": 1.0,
+    "difficulty": "medium",
+    "facts": [
+      "Basildon was designated one of Britain's post-war new towns in 1949.",
+      "The town absorbed several older plotland settlements built informally in the early 20th century.",
+      "Basildon has become a significant retail and commercial centre in south Essex."
+    ]
+  },
+  {
+    "landmark": "Purfleet & the Royal Gunpowder heritage",
+    "closest_station": "Purfleet",
+    "distance_km": 0.5,
+    "difficulty": "hard",
+    "facts": [
+      "Purfleet was once home to a Royal Gunpowder Magazine, supplying the British military for over a century.",
+      "The town sits on the north bank of the Thames Estuary.",
+      "Purfleet has seen significant riverside regeneration in recent years."
+    ]
+  },
+  {
+    "landmark": "Grays & the Thames Chalk Quarries",
+    "closest_station": "Grays",
+    "distance_km": 1.0,
+    "difficulty": "hard",
+    "facts": [
+      "Grays developed around chalk quarrying and lime production on the Thames.",
+      "Important prehistoric elephant remains have been discovered in the town's former quarry pits.",
+      "Grays sits opposite Dartford across the Thames."
+    ]
+  },
+  {
+    "landmark": "Barking Abbey ruins",
+    "closest_station": "Barking",
+    "distance_km": 0.5,
+    "difficulty": "medium",
+    "facts": [
+      "Barking Abbey was once one of the most important nunneries in medieval England.",
+      "Only fragments of the abbey, including the Curfew Tower gatehouse, survive today.",
+      "Barking sits on the River Roding in east London."
+    ]
+  },
+  {
+    "landmark": "Dagenham's Ford Motor works",
+    "closest_station": "Dagenham Dock",
+    "distance_km": 1.0,
+    "difficulty": "medium",
+    "facts": [
+      "Ford's Dagenham plant opened in 1931 and was once the largest car factory in Europe.",
+      "The 1968 Ford sewing machinists' strike here helped lead to the Equal Pay Act.",
+      "Dagenham Dock station serves the industrial riverside area of the borough."
+    ]
+  },
+  {
+    "landmark": "Wivenhoe's riverside town",
+    "closest_station": "Wivenhoe",
+    "distance_km": 0.3,
+    "difficulty": "medium",
+    "facts": [
+      "Wivenhoe sits on the River Colne, historically an important shipbuilding town.",
+      "The University of Essex campus lies a short distance from the town.",
+      "Wivenhoe's colourful waterside houses are a well-known local landmark."
+    ]
+  },
+  {
+    "landmark": "Woodbridge's Sutton Hoo (nearby)",
+    "closest_station": "Woodbridge",
+    "distance_km": 3.0,
+    "difficulty": "medium",
+    "facts": [
+      "Sutton Hoo, near Woodbridge, is the site of one of the most important Anglo-Saxon ship burial discoveries in Britain.",
+      "Woodbridge itself has a well-preserved tide mill dating back centuries.",
+      "The town sits on the River Deben in Suffolk."
+    ]
+  },
+  {
+    "landmark": "Ipswich Waterfront",
+    "closest_station": "Ipswich",
+    "distance_km": 1.0,
+    "difficulty": "medium",
+    "facts": [
+      "Ipswich is one of the oldest continuously inhabited towns in England, with Anglo-Saxon origins.",
+      "Its regenerated waterfront now hosts university buildings and marina developments.",
+      "Ipswich was the birthplace of Cardinal Thomas Wolsey, chief advisor to Henry VIII."
+    ]
+  },
+  {
+    "landmark": "Stowmarket's Museum of East Anglian Life",
+    "closest_station": "Stowmarket",
+    "distance_km": 0.5,
+    "difficulty": "medium",
+    "facts": [
+      "The Museum of East Anglian Life preserves rural crafts, agriculture and industry from the region's past.",
+      "Stowmarket sits on the River Gipping in central Suffolk.",
+      "The town was historically a centre of malting and agricultural trade."
+    ]
+  },
+  {
+    "landmark": "Diss & its historic mere",
+    "closest_station": "Diss",
+    "distance_km": 0.5,
+    "difficulty": "medium",
+    "facts": [
+      "Diss Mere, a natural lake at the heart of the town, has been a feature since medieval times.",
+      "The town's timber-framed Dolphin House is one of its most photographed buildings.",
+      "Diss sits right on the Norfolk-Suffolk border."
+    ]
+  },
+  {
+    "landmark": "Beccles' Suffolk riverside",
+    "closest_station": "Beccles",
+    "distance_km": 0.5,
+    "difficulty": "medium",
+    "facts": [
+      "Beccles sits on the River Waveney, a popular base for exploring the Norfolk and Suffolk Broads.",
+      "The town's detached bell tower, standing apart from its church, is a distinctive local landmark.",
+      "Beccles has a long tradition as a market and boating town."
+    ]
+  },
+  {
+    "landmark": "Lowestoft, Britain's most easterly point",
+    "closest_station": "Lowestoft",
+    "distance_km": 0.5,
+    "difficulty": "easy",
+    "facts": [
+      "Lowestoft Ness is the most easterly point of mainland Britain.",
+      "The town was once a major herring fishing port, alongside Great Yarmouth.",
+      "Lowestoft's lighthouse has guided ships since the 17th century."
+    ]
+  },
+  {
+    "landmark": "Wymondham Abbey",
+    "closest_station": "Wymondham",
+    "distance_km": 0.5,
+    "difficulty": "medium",
+    "facts": [
+      "Wymondham Abbey has two towers, reflecting a historic dispute between the monks and the townspeople over the building.",
+      "The town's name is traditionally pronounced 'Windham'.",
+      "Wymondham was the birthplace of Robert Kett, leader of a major 1549 rebellion."
+    ]
+  },
+  {
+    "landmark": "Attleborough's ancient market town",
+    "closest_station": "Attleborough",
+    "distance_km": 0.5,
+    "difficulty": "hard",
+    "facts": [
+      "Attleborough's parish church retains a rare surviving medieval rood screen.",
+      "The town has held a market since at least the 13th century.",
+      "Attleborough sits between Norwich and Thetford in south Norfolk."
+    ]
+  },
+  {
+    "landmark": "Thetford Forest",
+    "closest_station": "Thetford",
+    "distance_km": 1.0,
+    "difficulty": "medium",
+    "facts": [
+      "Thetford Forest is the largest lowland pine forest in England, largely planted after the First World War.",
+      "The town was once one of the largest in England, with a former cathedral and royal palace.",
+      "Thetford was the birthplace of Thomas Paine, author of Common Sense and Rights of Man."
+    ]
+  },
+  {
+    "landmark": "Wroxham, capital of the Norfolk Broads",
+    "closest_station": "Hoveton & Wroxham",
+    "distance_km": 0.3,
+    "difficulty": "medium",
+    "facts": [
+      "Wroxham is often called the unofficial capital of the Norfolk Broads, a network of navigable rivers and lakes.",
+      "The Broads were once thought natural but are now known to be flooded medieval peat diggings.",
+      "The village is a major hub for boat hire on the Broads."
+    ]
+  }
+]

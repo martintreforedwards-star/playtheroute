@@ -1,0 +1,552 @@
+[
+  {
+    "landmark": "Chester Cathedral & City Walls",
+    "closest_station": "Chester",
+    "distance_km": 0.5,
+    "difficulty": "easy",
+    "facts": [
+      "Chester has the most complete set of medieval city walls in Britain, forming a full circuit of about two miles.",
+      "The Chester Rows are a unique two-tier system of covered medieval shopping galleries.",
+      "Chester was founded as a Roman fortress, Deva Victrix, around 79 AD."
+    ]
+  },
+  {
+    "landmark": "Shrewsbury's medieval street plan",
+    "closest_station": "Shrewsbury",
+    "distance_km": 0.5,
+    "difficulty": "easy",
+    "facts": [
+      "Shrewsbury sits almost entirely encircled by a loop of the River Severn, giving it a naturally defensible shape.",
+      "Naturalist Charles Darwin was born in Shrewsbury in 1809.",
+      "The town retains over 660 listed buildings, including many timber-framed Tudor structures."
+    ]
+  },
+  {
+    "landmark": "Hereford Cathedral & Mappa Mundi",
+    "closest_station": "Hereford",
+    "distance_km": 0.8,
+    "difficulty": "easy",
+    "facts": [
+      "Hereford Cathedral houses the Mappa Mundi, the largest medieval map known still to survive.",
+      "The cathedral's Chained Library preserves over 1,500 books still attached by their original chains.",
+      "Hereford is the county town of Herefordshire, on the River Wye."
+    ]
+  },
+  {
+    "landmark": "Ludlow Castle",
+    "closest_station": "Ludlow",
+    "distance_km": 0.5,
+    "difficulty": "easy",
+    "facts": [
+      "Ludlow Castle was once the seat of the Council of Wales and the Marches.",
+      "Ludlow has become renowned as a food destination, once hosting more Michelin-starred restaurants per head than any UK town.",
+      "The town's medieval street layout survives almost unchanged."
+    ]
+  },
+  {
+    "landmark": "Stokesay Castle (via Craven Arms)",
+    "closest_station": "Craven Arms",
+    "distance_km": 2.0,
+    "difficulty": "medium",
+    "facts": [
+      "Stokesay Castle is regarded as the finest and best-preserved fortified manor house in England.",
+      "It was built in the late 13th century by a wealthy wool merchant, Laurence of Ludlow.",
+      "Craven Arms sits at a key crossroads in south Shropshire."
+    ]
+  },
+  {
+    "landmark": "Offa's Dyke Path, Knighton",
+    "closest_station": "Knighton",
+    "distance_km": 0.5,
+    "difficulty": "medium",
+    "facts": [
+      "Knighton is considered the unofficial capital of Offa's Dyke, the 8th-century earthwork marking the Wales-England border.",
+      "The Offa's Dyke Centre in the town explains the history of this ancient boundary.",
+      "Knighton's Welsh name, Tref-y-Clawdd, means 'town on the dyke'."
+    ]
+  },
+  {
+    "landmark": "Powis Castle, Welshpool",
+    "closest_station": "Welshpool",
+    "distance_km": 2.0,
+    "difficulty": "medium",
+    "facts": [
+      "Powis Castle's terraced gardens are among the finest surviving examples of a 17th-century Italianate garden in Britain.",
+      "The castle holds treasures brought back from India by Clive of India's family.",
+      "Welshpool sits in the Severn Valley, close to the English border."
+    ]
+  },
+  {
+    "landmark": "Robert Owen's birthplace, Newtown",
+    "closest_station": "Newtown (Powys)",
+    "distance_km": 0.5,
+    "difficulty": "medium",
+    "facts": [
+      "Social reformer Robert Owen, a pioneer of the cooperative movement, was born in Newtown in 1771.",
+      "The town was once a major centre of the Welsh flannel and wool industry.",
+      "Newtown sits on the River Severn in mid Wales."
+    ]
+  },
+  {
+    "landmark": "Conwy Castle & town walls",
+    "closest_station": "Conwy",
+    "distance_km": 0.3,
+    "difficulty": "easy",
+    "facts": [
+      "Conwy's town walls, built alongside the castle, remain almost entirely intact after more than 700 years.",
+      "The town is also home to the smallest house in Britain, on the quayside.",
+      "Conwy forms part of Edward I's 'Ring of Iron' of North Wales castles, a UNESCO World Heritage Site."
+    ]
+  },
+  {
+    "landmark": "Llandudno's Grand Victorian promenade",
+    "closest_station": "Llandudno",
+    "distance_km": 0.5,
+    "difficulty": "easy",
+    "facts": [
+      "Llandudno's curving promenade, lined with Victorian hotels, remains largely unchanged since the 19th century.",
+      "The town has the longest pier in Wales, extending nearly 700 metres into the sea.",
+      "Llandudno was carefully planned from the 1850s as a purpose-built seaside resort."
+    ]
+  },
+  {
+    "landmark": "Holyhead Breakwater",
+    "closest_station": "Holyhead",
+    "distance_km": 1.0,
+    "difficulty": "medium",
+    "facts": [
+      "Holyhead Breakwater, completed in 1873, is the longest breakwater in the United Kingdom.",
+      "Holyhead has been the main ferry gateway from Wales to Ireland since the early 19th century.",
+      "The town sits on Holy Island, off the northwest coast of Anglesey."
+    ]
+  },
+  {
+    "landmark": "Bangor University & the Menai Strait",
+    "closest_station": "Bangor (Gwynedd)",
+    "distance_km": 0.5,
+    "difficulty": "medium",
+    "facts": [
+      "Bangor University, founded in 1884, was funded partly by public subscriptions from Welsh quarrymen and farmers.",
+      "Bangor is one of the oldest continuously inhabited cities in the UK, tracing its roots to a 6th-century monastery.",
+      "The city overlooks the Menai Strait, separating the mainland from Anglesey."
+    ]
+  },
+  {
+    "landmark": "Harlech Castle",
+    "closest_station": "Harlech",
+    "distance_km": 0.5,
+    "difficulty": "easy",
+    "facts": [
+      "Harlech Castle withstood the longest siege in British history during the Wars of the Roses.",
+      "It forms part of the same UNESCO World Heritage listing as Conwy and Caernarfon castles.",
+      "The castle sits on a rocky outcrop that once stood directly above the sea."
+    ]
+  },
+  {
+    "landmark": "Ffestiniog Railway, Porthmadog",
+    "closest_station": "Porthmadog",
+    "distance_km": 0.3,
+    "difficulty": "medium",
+    "facts": [
+      "The Ffestiniog Railway is one of the oldest surviving narrow-gauge railways in the world, dating to 1836.",
+      "It originally carried slate down from Blaenau Ffestiniog to Porthmadog's harbour for shipping.",
+      "Porthmadog itself was built on land reclaimed from the Glaslyn estuary."
+    ]
+  },
+  {
+    "landmark": "Blaenau Ffestiniog's slate caverns",
+    "closest_station": "Blaenau Ffestiniog",
+    "distance_km": 0.5,
+    "difficulty": "medium",
+    "facts": [
+      "Blaenau Ffestiniog sits amid vast man-made mountains of slate waste from over a century of mining.",
+      "Underground tours take visitors deep into former slate caverns beneath the town.",
+      "The town's slate landscape forms part of a UNESCO World Heritage Site."
+    ]
+  },
+  {
+    "landmark": "Criccieth Castle",
+    "closest_station": "Criccieth",
+    "distance_km": 0.5,
+    "difficulty": "medium",
+    "facts": [
+      "Criccieth Castle was originally built by Welsh princes before being captured and strengthened by Edward I.",
+      "The town was the boyhood home of former Prime Minister David Lloyd George.",
+      "Criccieth overlooks Tremadog Bay on the Llyn Peninsula."
+    ]
+  },
+  {
+    "landmark": "Barmouth's railway bridge",
+    "closest_station": "Barmouth",
+    "distance_km": 0.2,
+    "difficulty": "medium",
+    "facts": [
+      "Barmouth's wooden railway viaduct across the Mawddach Estuary is one of the longest timber viaducts in Britain.",
+      "The town developed as a Victorian seaside resort at the mouth of the Mawddach.",
+      "Barmouth sits beneath the southern edge of the Eryri (Snowdonia) mountains."
+    ]
+  },
+  {
+    "landmark": "Tywyn & the Talyllyn Railway",
+    "closest_station": "Tywyn",
+    "distance_km": 0.5,
+    "difficulty": "medium",
+    "facts": [
+      "The Talyllyn Railway, running from Tywyn, was the first railway in the world to be preserved as a heritage line, in 1951.",
+      "Tywyn is also home to the Narrow Gauge Railway Museum.",
+      "The town sits on Cardigan Bay in Gwynedd."
+    ]
+  },
+  {
+    "landmark": "Aberystwyth's cliff railway",
+    "closest_station": "Aberystwyth",
+    "distance_km": 1.0,
+    "difficulty": "medium",
+    "facts": [
+      "Aberystwyth's Cliff Railway is the longest electric cliff railway in Britain, opened in 1896.",
+      "The town's ruined castle overlooks the seafront promenade.",
+      "Aberystwyth is a major university town and cultural centre for mid Wales."
+    ]
+  },
+  {
+    "landmark": "Owain Glyndwr's parliament, Machynlleth",
+    "closest_station": "Machynlleth",
+    "distance_km": 0.3,
+    "difficulty": "medium",
+    "facts": [
+      "Machynlleth's Parliament House marks the traditional site of Owain Glyndwr's Welsh parliament of 1404.",
+      "The town's ornate clock tower was built in 1873 to mark a coming-of-age in the local Londonderry family.",
+      "Machynlleth sits at the head of the Dyfi Estuary."
+    ]
+  },
+  {
+    "landmark": "Colwyn Bay's Welsh Mountain Zoo",
+    "closest_station": "Colwyn Bay",
+    "distance_km": 2.0,
+    "difficulty": "medium",
+    "facts": [
+      "Welsh Mountain Zoo, overlooking Colwyn Bay, specialises in conservation breeding programmes.",
+      "The town developed as a Victorian seaside resort along the North Wales coast.",
+      "Colwyn Bay sits between Llandudno and Rhyl."
+    ]
+  },
+  {
+    "landmark": "Rhyl's seafront funfair heritage",
+    "closest_station": "Rhyl",
+    "distance_km": 0.5,
+    "difficulty": "medium",
+    "facts": [
+      "Rhyl developed as one of North Wales' leading seaside resorts from the Victorian era onward.",
+      "The town's Sun Centre was one of Britain's earliest indoor water parks when it opened in the 1980s.",
+      "Rhyl sits at the mouth of the River Clwyd."
+    ]
+  },
+  {
+    "landmark": "Offa's Dyke northern terminus, Prestatyn",
+    "closest_station": "Prestatyn",
+    "distance_km": 1.0,
+    "difficulty": "medium",
+    "facts": [
+      "Prestatyn marks the northern end of the Offa's Dyke Path, a 177-mile route along the Wales-England border.",
+      "The town also sits at one end of the North Wales coastal path.",
+      "Prestatyn developed as a seaside resort in the 19th and 20th centuries."
+    ]
+  },
+  {
+    "landmark": "Flint Castle",
+    "closest_station": "Flint",
+    "distance_km": 0.4,
+    "difficulty": "medium",
+    "facts": [
+      "Flint Castle was the first of Edward I's castles built during his conquest of Wales, begun in 1277.",
+      "Richard II was captured at Flint Castle in 1399, an event dramatised by Shakespeare.",
+      "Flint sits on the Dee Estuary in northeast Wales."
+    ]
+  },
+  {
+    "landmark": "Wrexham & the Racecourse Ground",
+    "closest_station": "Wrexham General",
+    "distance_km": 0.8,
+    "difficulty": "medium",
+    "facts": [
+      "Wrexham's Racecourse Ground is recognised as the oldest international football stadium still hosting matches in the world.",
+      "Wrexham became Wales' newest city in 2022.",
+      "The city sits close to the Wales-England border, in the shadow of the Clwydian Range."
+    ]
+  },
+  {
+    "landmark": "Chirk Castle & Aqueduct",
+    "closest_station": "Chirk",
+    "distance_km": 2.0,
+    "difficulty": "medium",
+    "facts": [
+      "Chirk Castle has been continuously inhabited since it was completed in 1310, unusual among Welsh border castles.",
+      "The nearby Chirk Aqueduct and Viaduct carry the Llangollen Canal and railway side by side across the Ceiriog Valley.",
+      "Chirk sits right on the border between Wales and Shropshire."
+    ]
+  },
+  {
+    "landmark": "Llangollen Railway & Canal (via Ruabon)",
+    "closest_station": "Ruabon",
+    "distance_km": 5.0,
+    "difficulty": "hard",
+    "facts": [
+      "The Llangollen Railway is a heritage steam line running through the scenic Dee Valley.",
+      "The nearby Pontcysyllte Aqueduct, a UNESCO World Heritage Site, carries the Llangollen Canal 38 metres above the valley.",
+      "Ruabon is the nearest mainline station, on the Wrexham to Shrewsbury line."
+    ]
+  },
+  {
+    "landmark": "Nantwich's Tudor architecture",
+    "closest_station": "Nantwich",
+    "distance_km": 0.5,
+    "difficulty": "medium",
+    "facts": [
+      "Nantwich has one of the best collections of black-and-white Tudor buildings in England.",
+      "The town was historically a centre of salt production, giving it the old nickname 'Wich Town'.",
+      "Nantwich's church, St Mary's, is sometimes called the 'Cathedral of South Cheshire'."
+    ]
+  },
+  {
+    "landmark": "Whitchurch's clock and bell foundry heritage",
+    "closest_station": "Whitchurch (Shropshire)",
+    "distance_km": 0.5,
+    "difficulty": "medium",
+    "facts": [
+      "Whitchurch was home to a working bell and clock foundry for over 200 years, one of the oldest in Britain.",
+      "The town sits close to the Wales-England border in north Shropshire.",
+      "Whitchurch's parish church holds the tomb of John Talbot, 1st Earl of Shrewsbury."
+    ]
+  },
+  {
+    "landmark": "Frodsham & Overton Hill viewpoint",
+    "closest_station": "Frodsham",
+    "distance_km": 1.0,
+    "difficulty": "medium",
+    "facts": [
+      "Overton Hill, above Frodsham, offers panoramic views across the Mersey and Weaver valleys.",
+      "The town sits on the edge of the Cheshire Plain, close to the River Weaver.",
+      "Frodsham was historically a staging post on the road between Chester and Warrington."
+    ]
+  },
+  {
+    "landmark": "Helsby Hill",
+    "closest_station": "Helsby",
+    "distance_km": 1.0,
+    "difficulty": "medium",
+    "facts": [
+      "Helsby Hill is a sandstone outcrop offering wide views across the Cheshire Plain to Wales.",
+      "The hill has evidence of an Iron Age hillfort at its summit.",
+      "Helsby sits close to the Manchester Ship Canal and the River Mersey."
+    ]
+  },
+  {
+    "landmark": "Runcorn's twin bridges (via Runcorn East)",
+    "closest_station": "Runcorn East",
+    "distance_km": 3.0,
+    "difficulty": "hard",
+    "facts": [
+      "Runcorn is linked to Widnes by both a road bridge and, historically, a transporter bridge across the Mersey.",
+      "The town was designated a new town in 1964, with a distinctive network of busways.",
+      "Runcorn East station sits on the edge of the town, some distance from the modern centre."
+    ]
+  },
+  {
+    "landmark": "Hawarden Castle & Gladstone's library",
+    "closest_station": "Hawarden",
+    "distance_km": 1.0,
+    "difficulty": "medium",
+    "facts": [
+      "Former Prime Minister William Gladstone lived at Hawarden Castle for much of his life.",
+      "St Deiniol's Library in the village, founded by Gladstone, is Britain's only residential library.",
+      "Hawarden sits in Flintshire, close to the English border."
+    ]
+  },
+  {
+    "landmark": "Anglesey's ancient sites, Llanfairpwll",
+    "closest_station": "Llanfairpwll",
+    "distance_km": 0.5,
+    "difficulty": "easy",
+    "facts": [
+      "The village has the longest place name in the UK, often shortened from its full 58-letter Welsh form.",
+      "It sits close to the Marquess of Anglesey's Column, commemorating a Napoleonic War cavalry commander.",
+      "Llanfairpwll is on Anglesey, just across the Menai Strait from Bangor."
+    ]
+  },
+  {
+    "landmark": "South Stack (via Valley)",
+    "closest_station": "Valley",
+    "distance_km": 5.0,
+    "difficulty": "hard",
+    "facts": [
+      "Valley sits close to South Stack, a dramatic sea stack and lighthouse on Anglesey's western coast.",
+      "The village takes its name from a former RAF station still active nearby.",
+      "Valley is a key stop on the Anglesey coast line towards Holyhead."
+    ]
+  },
+  {
+    "landmark": "Rhosneigr's watersports beaches",
+    "closest_station": "Rhosneigr",
+    "distance_km": 0.5,
+    "difficulty": "medium",
+    "facts": [
+      "Rhosneigr is a popular centre for windsurfing and kitesurfing on Anglesey's west coast.",
+      "The village has two large sandy beaches either side of its centre.",
+      "Rhosneigr developed as a holiday destination after the railway arrived in the 1840s."
+    ]
+  },
+  {
+    "landmark": "Bodorgan & Anglesey's rural heart",
+    "closest_station": "Bodorgan",
+    "distance_km": 1.0,
+    "difficulty": "hard",
+    "facts": [
+      "Bodorgan station serves the Bodorgan Estate, one of the largest landholdings on Anglesey.",
+      "The area is predominantly agricultural, in the interior of the island.",
+      "Bodorgan sits on the main line between Holyhead and Bangor."
+    ]
+  },
+  {
+    "landmark": "Penmaenmawr's mountain quarrying heritage",
+    "closest_station": "Penmaenmawr",
+    "distance_km": 1.0,
+    "difficulty": "hard",
+    "facts": [
+      "Penmaen Mawr mountain was quarried extensively for granite setts used in roads across Britain.",
+      "The village sits dramatically between the mountain and the Irish Sea.",
+      "Prehistoric axe factories on the mountain date back around 4,000 years."
+    ]
+  },
+  {
+    "landmark": "Llanfairfechan's coastal path",
+    "closest_station": "Llanfairfechan",
+    "distance_km": 0.5,
+    "difficulty": "hard",
+    "facts": [
+      "Llanfairfechan sits on the North Wales coast path, between Bangor and Conwy.",
+      "The village developed as a small Victorian seaside resort.",
+      "It looks out towards Puffin Island and the Isle of Anglesey."
+    ]
+  },
+  {
+    "landmark": "Abergele & Gwrych Castle",
+    "closest_station": "Abergele & Pensarn",
+    "distance_km": 2.0,
+    "difficulty": "medium",
+    "facts": [
+      "Gwrych Castle, near Abergele, gained fame as the location for I'm a Celebrity... Get Me Out of Here! in 2020 and 2021.",
+      "The castle was built in the 1810s in a dramatic mock-medieval style.",
+      "Abergele sits on the North Wales coast between Colwyn Bay and Rhyl."
+    ]
+  },
+  {
+    "landmark": "Betws-y-Coed's waterfalls",
+    "closest_station": "Betws-y-Coed",
+    "distance_km": 2.0,
+    "difficulty": "medium",
+    "facts": [
+      "Betws-y-Coed sits at the meeting point of three rivers in the heart of Eryri (Snowdonia).",
+      "The village became a popular retreat for landscape artists from the mid-19th century.",
+      "Nearby Conwy Falls and Swallow Falls are among the most visited waterfalls in Wales."
+    ]
+  },
+  {
+    "landmark": "Llanrwst's stone bridge",
+    "closest_station": "Llanrwst",
+    "distance_km": 0.4,
+    "difficulty": "medium",
+    "facts": [
+      "Llanrwst's elegant stone bridge, often attributed to Inigo Jones, dates from around 1636.",
+      "The town sits in the Conwy Valley, within Eryri (Snowdonia) National Park.",
+      "Llanrwst was historically an important market town for the Conwy Valley's farming community."
+    ]
+  },
+  {
+    "landmark": "Talyllyn & the Mawddach Estuary views",
+    "closest_station": "Morfa Mawddach",
+    "distance_km": 0.5,
+    "difficulty": "medium",
+    "facts": [
+      "Morfa Mawddach sits at the mouth of the Mawddach Estuary, opposite Barmouth.",
+      "A footbridge alongside the railway viaduct allows walkers to cross the estuary.",
+      "The estuary is regarded as one of the most scenic in Wales."
+    ]
+  },
+  {
+    "landmark": "Dyffryn Ardudwy's burial chambers",
+    "closest_station": "Dyffryn Ardudwy",
+    "distance_km": 1.0,
+    "difficulty": "hard",
+    "facts": [
+      "Dyffryn Ardudwy has the remains of two Neolithic burial chambers, among the oldest structures in Wales.",
+      "The village sits on the coast between Harlech and Barmouth.",
+      "The area is rich in prehistoric monuments across the surrounding hills."
+    ]
+  },
+  {
+    "landmark": "Pwllheli's harbour and market",
+    "closest_station": "Pwllheli",
+    "distance_km": 0.5,
+    "difficulty": "medium",
+    "facts": [
+      "Pwllheli has held a market charter since 1355.",
+      "The town's harbour and marina are a base for exploring the Llyn Peninsula coastline.",
+      "Pwllheli is the western terminus of the Cambrian Coast Line."
+    ]
+  },
+  {
+    "landmark": "Borth's fossil forest",
+    "closest_station": "Borth",
+    "distance_km": 1.0,
+    "difficulty": "hard",
+    "facts": [
+      "At very low tides, an ancient submerged forest of preserved tree stumps is revealed on Borth beach, thousands of years old.",
+      "Borth has a long, straight beach backed by a shingle ridge.",
+      "The village sits on Cardigan Bay, close to the Dyfi Estuary."
+    ]
+  },
+  {
+    "landmark": "Llandrindod's Victorian spa heritage",
+    "closest_station": "Llandrindod",
+    "distance_km": 0.5,
+    "difficulty": "medium",
+    "facts": [
+      "Llandrindod Wells became a fashionable spa town after its mineral springs were promoted from the 1860s.",
+      "The town's Rock Park still has original Victorian spa buildings.",
+      "Llandrindod hosts an annual Victorian Festival celebrating its heritage."
+    ]
+  },
+  {
+    "landmark": "Park Hall Countryside Experience, Gobowen",
+    "closest_station": "Gobowen",
+    "distance_km": 1.0,
+    "difficulty": "hard",
+    "facts": [
+      "Gobowen was once a major junction on the Cambrian Railways network.",
+      "Park Hall, nearby, offers a farm park and countryside attraction popular with families.",
+      "Gobowen sits close to the Shropshire-Wales border, near Oswestry."
+    ]
+  },
+  {
+    "landmark": "Buckley's brick and tile heritage",
+    "closest_station": "Buckley",
+    "distance_km": 0.5,
+    "difficulty": "hard",
+    "facts": [
+      "Buckley was once a major centre of brick, tile and pottery manufacturing in North Wales.",
+      "The town sits on a ridge in Flintshire, with wide views over the Dee Estuary.",
+      "Buckley developed largely around its clay and coal deposits."
+    ]
+  },
+  {
+    "landmark": "Prees & the Shropshire countryside",
+    "closest_station": "Prees",
+    "distance_km": 0.5,
+    "difficulty": "hard",
+    "facts": [
+      "Prees sits in rural north Shropshire, close to the Welsh border.",
+      "The village has a history stretching back to Anglo-Saxon times, named in the Domesday Book.",
+      "Prees Heath, nearby, is a nature reserve important for a rare butterfly, the silver-studded blue."
+    ]
+  }
+]

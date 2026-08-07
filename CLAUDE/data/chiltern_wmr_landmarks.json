@@ -1,0 +1,552 @@
+[
+  {
+    "landmark": "Birmingham's Bullring & Selfridges",
+    "closest_station": "Birmingham New Street",
+    "distance_km": 0.3,
+    "difficulty": "easy",
+    "facts": [
+      "The Selfridges building at the Bullring, completed in 2003, is covered in over 15,000 aluminium discs.",
+      "Birmingham New Street is one of the busiest interchange stations in the UK outside London.",
+      "The Bullring has been a market site in Birmingham for over 800 years."
+    ]
+  },
+  {
+    "landmark": "Birmingham Jewellery Quarter",
+    "closest_station": "Jewellery Quarter",
+    "distance_km": 0.2,
+    "difficulty": "easy",
+    "facts": [
+      "The Jewellery Quarter still produces around 40% of all jewellery made in the UK.",
+      "It holds the highest concentration of jewellery businesses in Europe.",
+      "The Museum of the Jewellery Quarter preserves a former working jewellery factory exactly as it was left."
+    ]
+  },
+  {
+    "landmark": "Cadbury World, Bournville",
+    "closest_station": "Bournville",
+    "distance_km": 0.3,
+    "difficulty": "easy",
+    "facts": [
+      "Bournville was built as a model village by the Cadbury family to house their chocolate factory workers from 1893.",
+      "The factory remains one of the largest chocolate producers in Europe.",
+      "Bournville was designed with generous green space, strongly influencing the later garden city movement."
+    ]
+  },
+  {
+    "landmark": "Coventry Cathedral",
+    "closest_station": "Coventry",
+    "distance_km": 0.5,
+    "difficulty": "easy",
+    "facts": [
+      "Coventry's medieval cathedral was destroyed in a single night of bombing in November 1940.",
+      "A new modernist cathedral was built alongside the ruins, consecrated in 1962.",
+      "Coventry is linked to the legend of Lady Godiva, said to have ridden naked through the streets in protest at taxation."
+    ]
+  },
+  {
+    "landmark": "Warwick Castle",
+    "closest_station": "Warwick",
+    "distance_km": 1.0,
+    "difficulty": "easy",
+    "facts": [
+      "Warwick Castle began as a wooden fort built by William the Conqueror in 1068.",
+      "It is now one of the most visited castles in Britain, run as a major visitor attraction.",
+      "Warwick's medieval town centre survived a great fire in 1694 that destroyed much of the rest of the town."
+    ]
+  },
+  {
+    "landmark": "Shakespeare's Birthplace, Stratford-upon-Avon",
+    "closest_station": "Stratford-upon-Avon",
+    "distance_km": 0.5,
+    "difficulty": "easy",
+    "facts": [
+      "William Shakespeare was born and grew up in this half-timbered house on Henley Street in 1564.",
+      "The Royal Shakespeare Theatre, on the riverbank, remains one of Britain's leading theatre companies.",
+      "Stratford-upon-Avon attracts millions of visitors from around the world each year."
+    ]
+  },
+  {
+    "landmark": "Kenilworth Castle",
+    "closest_station": "Kenilworth",
+    "distance_km": 1.5,
+    "difficulty": "medium",
+    "facts": [
+      "Kenilworth Castle was besieged for six months in 1266, one of the longest sieges in English history.",
+      "Elizabeth I visited multiple times, hosted by Robert Dudley in lavish entertainments.",
+      "The castle's ruins are among the largest of any in England."
+    ]
+  },
+  {
+    "landmark": "Royal Leamington Spa's Pump Rooms",
+    "closest_station": "Leamington Spa",
+    "distance_km": 0.5,
+    "difficulty": "easy",
+    "facts": [
+      "Leamington Spa grew rapidly as a fashionable spa town after Queen Victoria granted it 'Royal' status in 1838.",
+      "Its Pump Rooms, built in 1814, once offered visitors mineral water treatments.",
+      "The town has some of the finest Regency architecture outside London and Bath."
+    ]
+  },
+  {
+    "landmark": "Worcester Cathedral",
+    "closest_station": "Worcester Foregate Street",
+    "distance_km": 0.5,
+    "difficulty": "easy",
+    "facts": [
+      "Worcester Cathedral holds the tomb of King John, who requested burial there in 1216.",
+      "The cathedral overlooks the Three Choirs Festival, one of the world's oldest music festivals.",
+      "Worcester is famous for Worcestershire sauce and Royal Worcester porcelain."
+    ]
+  },
+  {
+    "landmark": "Great Malvern & the Malvern Hills",
+    "closest_station": "Great Malvern",
+    "distance_km": 0.5,
+    "difficulty": "easy",
+    "facts": [
+      "Composer Edward Elgar lived much of his life near the Malvern Hills and drew inspiration from them.",
+      "Malvern developed as a Victorian 'water cure' spa town, exploiting its pure hill springs.",
+      "Great Malvern Priory has some of the finest surviving medieval stained glass in England."
+    ]
+  },
+  {
+    "landmark": "Severn Valley Railway, Kidderminster",
+    "closest_station": "Kidderminster",
+    "distance_km": 0.3,
+    "difficulty": "medium",
+    "facts": [
+      "The Severn Valley Railway is one of the longest standard-gauge heritage railways in Britain, running to Bridgnorth.",
+      "Kidderminster was historically the centre of the British carpet-weaving industry.",
+      "The town's Museum of Carpet preserves this heritage in a former Victorian factory."
+    ]
+  },
+  {
+    "landmark": "Wembley Stadium",
+    "closest_station": "Wembley Stadium",
+    "distance_km": 0.2,
+    "difficulty": "easy",
+    "facts": [
+      "Wembley Stadium's arch, at 133 metres, is the longest single-span roof structure in the world.",
+      "It is the home of the England national football team.",
+      "The original Wembley Stadium, with its twin towers, hosted the 1966 World Cup Final."
+    ]
+  },
+  {
+    "landmark": "High Wycombe's furniture heritage",
+    "closest_station": "High Wycombe",
+    "distance_km": 0.5,
+    "difficulty": "medium",
+    "facts": [
+      "High Wycombe was once the centre of British chair-making, nicknamed 'Chairborough' locally.",
+      "The town's Wycombe Museum tells the story of its furniture trade.",
+      "High Wycombe sits in the Chiltern Hills, an Area of Outstanding Natural Beauty."
+    ]
+  },
+  {
+    "landmark": "Bicester Village",
+    "closest_station": "Bicester Village",
+    "distance_km": 0.2,
+    "difficulty": "easy",
+    "facts": [
+      "Bicester Village is one of the most visited outlet shopping destinations in Europe.",
+      "It has its own dedicated railway station, opened in 2015 to serve the growing site.",
+      "Bicester itself has Roman origins, with the remains of a fort nearby."
+    ]
+  },
+  {
+    "landmark": "Oxford's Bodleian Library",
+    "closest_station": "Oxford",
+    "distance_km": 1.0,
+    "difficulty": "easy",
+    "facts": [
+      "The Bodleian Library is one of the oldest libraries in Europe, dating from 1602.",
+      "Oxford is home to the oldest university in the English-speaking world.",
+      "Oxford station sits a short walk from the city's historic colleges."
+    ]
+  },
+  {
+    "landmark": "Blenheim Palace (via Oxford Parkway)",
+    "closest_station": "Oxford Parkway",
+    "distance_km": 10.0,
+    "difficulty": "hard",
+    "facts": [
+      "Blenheim Palace was the birthplace of Sir Winston Churchill in 1874.",
+      "It is the only non-royal, non-episcopal country house in England to hold the title 'palace'.",
+      "Oxford Parkway is a park-and-ride station opened in 2015 on the edge of the city."
+    ]
+  },
+  {
+    "landmark": "Banbury Cross",
+    "closest_station": "Banbury",
+    "distance_km": 0.5,
+    "difficulty": "easy",
+    "facts": [
+      "The nursery rhyme 'Ride a Cock Horse to Banbury Cross' refers to this Oxfordshire market town.",
+      "Banbury has been famous for Banbury cakes, a spiced pastry, since at least the 17th century.",
+      "The current Banbury Cross monument was erected in 1859 to mark Princess Victoria's wedding."
+    ]
+  },
+  {
+    "landmark": "Amersham's Old Town",
+    "closest_station": "Amersham",
+    "distance_km": 1.0,
+    "difficulty": "medium",
+    "facts": [
+      "Amersham has two distinct centres: the historic Old Town and the newer area around the station, built during Metro-land expansion.",
+      "The town was heavily promoted by the Metropolitan Railway in the early 20th century as an idyllic commuter suburb.",
+      "Amersham's Old Town retains 16th and 17th century coaching inns."
+    ]
+  },
+  {
+    "landmark": "Chorleywood Common",
+    "closest_station": "Chorleywood",
+    "distance_km": 0.5,
+    "difficulty": "medium",
+    "facts": [
+      "Chorleywood Common is one of the largest expanses of common land close to London.",
+      "The village grew rapidly as 'Metro-land' commuter housing from the 1900s onward.",
+      "Chorleywood was named the best place to live in Britain by a Channel 4 survey in 2011."
+    ]
+  },
+  {
+    "landmark": "Chalfont & Latimer & the Chess Valley",
+    "closest_station": "Chalfont & Latimer",
+    "distance_km": 1.0,
+    "difficulty": "medium",
+    "facts": [
+      "The station serves both Chalfont St Giles, where Milton completed Paradise Lost, and the village of Latimer.",
+      "The surrounding Chess Valley is a designated Area of Outstanding Natural Beauty.",
+      "Chalfont & Latimer is a junction for the branch line to Chesham."
+    ]
+  },
+  {
+    "landmark": "Aylesbury's Roald Dahl connections",
+    "closest_station": "Aylesbury",
+    "distance_km": 0.7,
+    "difficulty": "medium",
+    "facts": [
+      "Roald Dahl lived near Aylesbury for much of his life, and the Roald Dahl Museum is in nearby Great Missenden.",
+      "Aylesbury is the county town of Buckinghamshire.",
+      "The town gave its name to the Aylesbury duck breed, once farmed extensively in the area."
+    ]
+  },
+  {
+    "landmark": "Roald Dahl Museum, Great Missenden",
+    "closest_station": "Great Missenden",
+    "distance_km": 0.3,
+    "difficulty": "easy",
+    "facts": [
+      "Roald Dahl lived in Great Missenden for 36 years, writing many of his best-known children's books there.",
+      "The Roald Dahl Museum and Story Centre occupies buildings in the village centre.",
+      "Great Missenden sits in the Chiltern Hills, an Area of Outstanding Natural Beauty."
+    ]
+  },
+  {
+    "landmark": "Beaconsfield's Bekonscot Model Village",
+    "closest_station": "Beaconsfield",
+    "distance_km": 1.0,
+    "difficulty": "medium",
+    "facts": [
+      "Bekonscot is the oldest original model village in the world, opened in 1929.",
+      "Beaconsfield has both an Old Town and a newer town, similar to Amersham's dual layout.",
+      "The village model railway at Bekonscot has run continuously since it opened."
+    ]
+  },
+  {
+    "landmark": "Gerrards Cross & the Chiltern commuter belt",
+    "closest_station": "Gerrards Cross",
+    "distance_km": 0.5,
+    "difficulty": "medium",
+    "facts": [
+      "Gerrards Cross has long been one of the most affluent commuter towns on the Chiltern Main Line.",
+      "The village sits within the Metropolitan Green Belt around London.",
+      "Its station has served London commuters since the Great Western and Great Central Joint Railway opened in 1906."
+    ]
+  },
+  {
+    "landmark": "Harrow School, Harrow-on-the-Hill",
+    "closest_station": "Harrow-on-the-Hill",
+    "distance_km": 0.5,
+    "difficulty": "easy",
+    "facts": [
+      "Harrow School, founded in 1572, has educated seven British prime ministers including Winston Churchill.",
+      "The hilltop town offers views across much of northwest London.",
+      "Harrow-on-the-Hill is a major interchange between the Chiltern line and London Underground."
+    ]
+  },
+  {
+    "landmark": "Wolverhampton's Molineux Stadium",
+    "closest_station": "Wolverhampton",
+    "distance_km": 1.0,
+    "difficulty": "medium",
+    "facts": [
+      "Molineux has been the home of Wolverhampton Wanderers since 1889.",
+      "Wolverhampton was historically a major centre of lock, key and japanned metalware manufacturing.",
+      "The city's name derives from Wulfrun, an Anglo-Saxon noblewoman who founded a monastery there."
+    ]
+  },
+  {
+    "landmark": "Lichfield Cathedral",
+    "closest_station": "Lichfield City",
+    "distance_km": 0.6,
+    "difficulty": "easy",
+    "facts": [
+      "Lichfield Cathedral is the only medieval English cathedral with three spires.",
+      "Dr Samuel Johnson, compiler of an influential early English dictionary, was born in Lichfield in 1709.",
+      "The cathedral holds the 8th-century St Chad Gospels, an important illuminated manuscript."
+    ]
+  },
+  {
+    "landmark": "Stafford Castle",
+    "closest_station": "Stafford",
+    "distance_km": 1.5,
+    "difficulty": "medium",
+    "facts": [
+      "Stafford Castle's Norman motte is one of the largest in England.",
+      "The town is the county town of Staffordshire.",
+      "Stafford was historically a centre of shoemaking, particularly for the boot and shoe trade."
+    ]
+  },
+  {
+    "landmark": "Rugby School & the birthplace of rugby football",
+    "closest_station": "Rugby",
+    "distance_km": 0.7,
+    "difficulty": "easy",
+    "facts": [
+      "Rugby football takes its name from Rugby School, where the game is said to have originated in 1823.",
+      "A plaque at the school commemorates William Webb Ellis, credited with first picking up the ball and running with it.",
+      "Rugby is a major railway junction town in Warwickshire."
+    ]
+  },
+  {
+    "landmark": "Nuneaton & George Eliot's birthplace",
+    "closest_station": "Nuneaton",
+    "distance_km": 2.0,
+    "difficulty": "medium",
+    "facts": [
+      "Novelist George Eliot (Mary Ann Evans) was born near Nuneaton in 1819.",
+      "The town was historically a centre of textile weaving and coal mining.",
+      "Nuneaton sits in northern Warwickshire, close to the Leicestershire border."
+    ]
+  },
+  {
+    "landmark": "Solihull's Touchwood shopping centre",
+    "closest_station": "Solihull",
+    "distance_km": 0.5,
+    "difficulty": "medium",
+    "facts": [
+      "Solihull is one of the most affluent towns in the West Midlands.",
+      "The nearby Jaguar Land Rover plant is one of the region's largest employers.",
+      "Solihull's medieval church, St Alphege, dominates the town's historic core."
+    ]
+  },
+  {
+    "landmark": "Redditch's needle-making heritage",
+    "closest_station": "Redditch",
+    "distance_km": 1.0,
+    "difficulty": "medium",
+    "facts": [
+      "Redditch was once the world's leading centre for needle manufacturing.",
+      "The Forge Mill Needle Museum preserves one of the last working needle mills.",
+      "Redditch was designated a post-war new town in 1964."
+    ]
+  },
+  {
+    "landmark": "Droitwich Spa's brine baths",
+    "closest_station": "Droitwich Spa",
+    "distance_km": 0.5,
+    "difficulty": "medium",
+    "facts": [
+      "Droitwich's brine springs are around ten times saltier than the Dead Sea.",
+      "The town was a major Victorian spa resort, promoted for its therapeutic salt baths.",
+      "Droitwich has been a centre of salt production since Roman times."
+    ]
+  },
+  {
+    "landmark": "Bromsgrove's Avoncroft Museum",
+    "closest_station": "Bromsgrove",
+    "distance_km": 2.0,
+    "difficulty": "medium",
+    "facts": [
+      "Avoncroft Museum of Historic Buildings rescues and rebuilds threatened timber-framed buildings on one site.",
+      "Bromsgrove was historically known for nail-making and, later, the Austin Motor Company's nearby Longbridge plant.",
+      "Bromsgrove sits in the Worcestershire countryside south of Birmingham."
+    ]
+  },
+  {
+    "landmark": "Longbridge & the Austin Motor Works",
+    "closest_station": "Longbridge",
+    "distance_km": 0.3,
+    "difficulty": "medium",
+    "facts": [
+      "Longbridge was home to one of Britain's largest car factories, founded by Herbert Austin in 1905.",
+      "At its peak, the plant employed tens of thousands of workers producing Austin and later MG Rover cars.",
+      "Part of the former factory site has been redeveloped as a technology and business park."
+    ]
+  },
+  {
+    "landmark": "Sutton Coldfield & Sutton Park",
+    "closest_station": "Sutton Coldfield",
+    "distance_km": 1.0,
+    "difficulty": "medium",
+    "facts": [
+      "Sutton Park is one of the largest urban parks in Europe, covering over 2,400 acres.",
+      "The park retains ancient woodland, heathland and wetland habitats within a city boundary.",
+      "Sutton Coldfield received a royal charter from Henry VIII in 1528."
+    ]
+  },
+  {
+    "landmark": "Aston Villa's Villa Park",
+    "closest_station": "Aston",
+    "distance_km": 1.0,
+    "difficulty": "medium",
+    "facts": [
+      "Villa Park has been Aston Villa's home ground since 1897.",
+      "It has hosted more FA Cup semi-finals than any other stadium.",
+      "Aston is one of Birmingham's oldest inner suburbs, with a manor house dating to the 1630s."
+    ]
+  },
+  {
+    "landmark": "Dudley Castle & Zoo",
+    "closest_station": "Dudley Port",
+    "distance_km": 2.0,
+    "difficulty": "medium",
+    "facts": [
+      "Dudley Castle's ruins now house a zoo within the medieval fortress grounds.",
+      "Dudley sits at the heart of the Black Country, named for the heavy industry and coal that once blackened the landscape.",
+      "The town has no mainline station of its own; Dudley Port is the nearest stop."
+    ]
+  },
+  {
+    "landmark": "Black Country Living Museum (via Tipton)",
+    "closest_station": "Tipton",
+    "distance_km": 1.5,
+    "difficulty": "medium",
+    "facts": [
+      "The Black Country Living Museum recreates a 19th and early 20th century industrial town, with costumed guides.",
+      "Tipton sits at the centre of the historic Black Country industrial region.",
+      "The area was named for the soot and smoke that once blackened its skies and soil."
+    ]
+  },
+  {
+    "landmark": "Stourbridge's glassmaking heritage",
+    "closest_station": "Stourbridge Town",
+    "distance_km": 0.3,
+    "difficulty": "medium",
+    "facts": [
+      "Stourbridge was once the centre of English glassmaking, producing fine crystal for centuries.",
+      "The Red House Glass Cone, a rare surviving 19th-century glass cone kiln, still stands in the town.",
+      "Stourbridge Town station is served by a short branch line, one of Britain's shortest scheduled rail journeys."
+    ]
+  },
+  {
+    "landmark": "Walsall's Leather Museum",
+    "closest_station": "Walsall",
+    "distance_km": 0.5,
+    "difficulty": "medium",
+    "facts": [
+      "Walsall was historically the centre of the British saddlery and leather goods industry.",
+      "The Walsall Leather Museum occupies a former Victorian leather factory.",
+      "Walsall sits at the northern edge of the Black Country."
+    ]
+  },
+  {
+    "landmark": "Wootton Wawen's Guild Church",
+    "closest_station": "Wootton Wawen",
+    "distance_km": 0.3,
+    "difficulty": "hard",
+    "facts": [
+      "Wootton Wawen's parish church has an Anglo-Saxon tower, among the oldest structures of its kind in Warwickshire.",
+      "The Stratford-upon-Avon Canal passes directly through the village on a tall aqueduct.",
+      "Wootton Wawen sits in the Forest of Arden countryside."
+    ]
+  },
+  {
+    "landmark": "Henley-in-Arden's medieval high street",
+    "closest_station": "Henley-In-Arden",
+    "distance_km": 0.3,
+    "difficulty": "medium",
+    "facts": [
+      "Henley-in-Arden's mile-long High Street retains an almost unbroken run of historic buildings.",
+      "The town sits within the historic Forest of Arden, an area associated with Shakespeare's plays.",
+      "Henley-in-Arden received its market charter in the 13th century."
+    ]
+  },
+  {
+    "landmark": "Ledbury's timber-framed Market House",
+    "closest_station": "Ledbury",
+    "distance_km": 0.5,
+    "difficulty": "medium",
+    "facts": [
+      "Ledbury's Market House, built around 1617, stands on 16 wooden pillars in the town centre.",
+      "The town's cobbled Church Lane is one of the most photographed streets in Herefordshire.",
+      "Ledbury was the birthplace of poet John Masefield."
+    ]
+  },
+  {
+    "landmark": "Colwall & the Malvern Hills' western slopes",
+    "closest_station": "Colwall",
+    "distance_km": 0.5,
+    "difficulty": "hard",
+    "facts": [
+      "Colwall sits on the western, Herefordshire side of the Malvern Hills.",
+      "The village has long been associated with spring water bottling.",
+      "Colwall Tunnel, on the line to Ledbury, was for many years the longest tunnel on a British branch line."
+    ]
+  },
+  {
+    "landmark": "Telford's New Town design",
+    "closest_station": "Telford Central",
+    "distance_km": 1.0,
+    "difficulty": "medium",
+    "facts": [
+      "Telford was designated a new town in 1968, named after engineer Thomas Telford.",
+      "It absorbed several older industrial towns including Ironbridge, birthplace of the Industrial Revolution.",
+      "Telford Central station serves the town's modern shopping and business district."
+    ]
+  },
+  {
+    "landmark": "Ironbridge Gorge (via Cosford)",
+    "closest_station": "Cosford",
+    "distance_km": 6.0,
+    "difficulty": "hard",
+    "facts": [
+      "Ironbridge Gorge is a UNESCO World Heritage Site, home to the world's first iron bridge, built in 1779.",
+      "The RAF Museum Midlands, at Cosford, displays historic military aircraft.",
+      "Cosford station is the nearest railhead to both attractions."
+    ]
+  },
+  {
+    "landmark": "Barlaston & the Wedgwood Museum",
+    "closest_station": "Barlaston",
+    "distance_km": 1.0,
+    "difficulty": "medium",
+    "facts": [
+      "The Wedgwood Museum, near Barlaston, tells the story of Josiah Wedgwood's pioneering pottery firm.",
+      "Wedgwood moved production to Barlaston in the 1940s, building a model factory village.",
+      "Barlaston sits in the Staffordshire Potteries region."
+    ]
+  },
+  {
+    "landmark": "The Hawthorns, West Bromwich Albion",
+    "closest_station": "The Hawthorns",
+    "distance_km": 0.2,
+    "difficulty": "easy",
+    "facts": [
+      "The Hawthorns has been West Bromwich Albion's home ground since 1900.",
+      "It is the highest-altitude ground in English top-flight football history.",
+      "The station serves both the stadium and the boundary between Birmingham and Sandwell."
+    ]
+  },
+  {
+    "landmark": "Alexander Stadium, Perry Barr",
+    "closest_station": "Perry Barr",
+    "distance_km": 1.0,
+    "difficulty": "medium",
+    "facts": [
+      "Alexander Stadium was the main venue for the 2022 Commonwealth Games, hosted in Birmingham.",
+      "The stadium underwent a major redevelopment ahead of the games.",
+      "Perry Barr sits in north Birmingham, on the line towards Walsall."
+    ]
+  }
+]

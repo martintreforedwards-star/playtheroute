@@ -1,0 +1,552 @@
+[
+  {
+    "landmark": "Cardiff Castle",
+    "closest_station": "Caerdydd Canolog",
+    "distance_km": 0.8,
+    "difficulty": "easy",
+    "facts": [
+      "The castle stands on the site of an original Roman fort, with sections of Roman wall still visible.",
+      "Its Victorian Gothic interiors were designed by architect William Burges for the 3rd Marquess of Bute.",
+      "The castle keep dates from the 12th century, built on a Norman motte."
+    ]
+  },
+  {
+    "landmark": "Principality Stadium",
+    "closest_station": "Caerdydd Canolog",
+    "distance_km": 0.5,
+    "difficulty": "easy",
+    "facts": [
+      "It was the first major stadium in the UK with a fully retractable roof, completed in 1999.",
+      "It is the home of the Wales national rugby union team.",
+      "The stadium sits right beside the River Taff in the centre of Cardiff."
+    ]
+  },
+  {
+    "landmark": "Caerphilly Castle",
+    "closest_station": "Caerffili",
+    "distance_km": 0.5,
+    "difficulty": "easy",
+    "facts": [
+      "Caerphilly Castle is the largest castle in Wales and the second-largest in Britain after Windsor.",
+      "It was built by Gilbert de Clare in the late 13th century and pioneered concentric castle design in Britain.",
+      "One of its towers leans further than the Leaning Tower of Pisa, a result of subsidence and Civil War damage."
+    ]
+  },
+  {
+    "landmark": "Chepstow Castle",
+    "closest_station": "Cas-gwent",
+    "distance_km": 0.5,
+    "difficulty": "easy",
+    "facts": [
+      "Chepstow Castle is considered the oldest surviving post-Roman stone fortification in Britain, begun in 1067.",
+      "It overlooks the River Wye close to where it meets the Severn Estuary.",
+      "The castle was built to secure a key crossing point into Wales soon after the Norman Conquest."
+    ]
+  },
+  {
+    "landmark": "Tenby's walled old town",
+    "closest_station": "Dinbych-y-pysgod",
+    "distance_km": 0.5,
+    "difficulty": "easy",
+    "facts": [
+      "Tenby retains substantial sections of its 13th-century town walls.",
+      "The town's colourful Georgian harbourfront houses are among the most photographed in Wales.",
+      "Boats from Tenby harbour run to Caldey Island, home to a working monastery."
+    ]
+  },
+  {
+    "landmark": "Pembroke Castle",
+    "closest_station": "Penfro",
+    "distance_km": 0.5,
+    "difficulty": "easy",
+    "facts": [
+      "Pembroke Castle was the birthplace of Henry Tudor, later King Henry VII, in 1457.",
+      "Its Great Keep, over 24 metres tall, is one of the finest surviving examples in Britain.",
+      "The castle sits on a rocky promontory above the Pembroke River."
+    ]
+  },
+  {
+    "landmark": "Milford Haven Waterway",
+    "closest_station": "Aberdaugleddau",
+    "distance_km": 0.5,
+    "difficulty": "medium",
+    "facts": [
+      "Milford Haven is one of the deepest natural harbours in the world.",
+      "It has been a major oil and gas terminal for the UK since the 1960s.",
+      "The town itself was purpose-built in the 1790s to a grid-street plan by Quaker whalers from Nantucket."
+    ]
+  },
+  {
+    "landmark": "St Davids Cathedral (via Haverfordwest)",
+    "closest_station": "Hwlffordd",
+    "distance_km": 25.0,
+    "difficulty": "hard",
+    "facts": [
+      "St Davids, reached from Haverfordwest, is Britain's smallest city, named for Wales' patron saint.",
+      "The cathedral was founded in the 12th century on the site of a 6th-century monastery.",
+      "Haverfordwest is the nearest railhead, with St Davids reached onward by road."
+    ]
+  },
+  {
+    "landmark": "Rhondda Heritage Park",
+    "closest_station": "Trehafod",
+    "distance_km": 0.3,
+    "difficulty": "easy",
+    "facts": [
+      "The park is built around the former Lewis Merthyr Colliery, which closed in 1983.",
+      "It tells the story of coal mining in the Rhondda Valleys, once one of the world's most productive coalfields.",
+      "Trehafod station serves the heritage park directly."
+    ]
+  },
+  {
+    "landmark": "Big Pit National Coal Museum",
+    "closest_station": "Tref Glyn Ebwy",
+    "distance_km": 8.0,
+    "difficulty": "hard",
+    "facts": [
+      "Big Pit, at Blaenavon, allows visitors to descend 90 metres underground with former miners as guides.",
+      "Blaenavon's industrial landscape is a UNESCO World Heritage Site for its role in the Industrial Revolution.",
+      "Ebbw Vale Town is the nearest railhead, on a line reopened to passengers in 2008."
+    ]
+  },
+  {
+    "landmark": "Cyfarthfa Castle & Merthyr's ironworking heritage",
+    "closest_station": "Merthyr Tudful",
+    "distance_km": 1.5,
+    "difficulty": "medium",
+    "facts": [
+      "Cyfarthfa Castle was built in 1825 by ironmaster William Crawshay II, overlooking his ironworks.",
+      "Merthyr Tydfil was the world's leading iron-producing town in the early 19th century.",
+      "The town gave its name to the Merthyr Rising of 1831, an early workers' uprising."
+    ]
+  },
+  {
+    "landmark": "Margam Country Park",
+    "closest_station": "Parcffordd Port Talbot",
+    "distance_km": 3.0,
+    "difficulty": "medium",
+    "facts": [
+      "Margam Park is built around the ruins of a 12th-century Cistercian abbey and a Victorian Gothic mansion.",
+      "The park is home to a large herd of fallow deer.",
+      "Port Talbot Parkway sits close to one of the largest steelworks in the UK."
+    ]
+  },
+  {
+    "landmark": "Gower Peninsula",
+    "closest_station": "Tre-gŵyr",
+    "distance_km": 3.0,
+    "difficulty": "medium",
+    "facts": [
+      "The Gower was the first area in Britain to be designated an Area of Outstanding Natural Beauty, in 1956.",
+      "Its coastline includes Rhossili Bay, regularly ranked among the best beaches in the world.",
+      "Gowerton station sits on the edge of the peninsula, on the Swansea to Carmarthen line."
+    ]
+  },
+  {
+    "landmark": "Swansea's National Waterfront Museum",
+    "closest_station": "Abertawe",
+    "distance_km": 1.0,
+    "difficulty": "easy",
+    "facts": [
+      "The museum tells the story of industry and innovation in Wales, in the city's former maritime quarter.",
+      "Swansea was known as 'Copperopolis' in the 19th century for its dominance of the global copper trade.",
+      "Poet Dylan Thomas was born and grew up in Swansea."
+    ]
+  },
+  {
+    "landmark": "Kidwelly Castle",
+    "closest_station": "Cydweli",
+    "distance_km": 0.5,
+    "difficulty": "medium",
+    "facts": [
+      "Kidwelly Castle is one of the best-preserved examples of a Norman 'walls within walls' concentric castle.",
+      "It overlooks the River Gwendraeth and was refortified several times over 400 years.",
+      "The castle featured as a filming location for the 2004 film King Arthur."
+    ]
+  },
+  {
+    "landmark": "Carmarthen's Roman amphitheatre",
+    "closest_station": "Caerfyrddin",
+    "distance_km": 0.8,
+    "difficulty": "medium",
+    "facts": [
+      "Carmarthen is widely regarded as the oldest continuously occupied town in Wales.",
+      "Its Roman amphitheatre, Moridunum, could once hold around 4,500 spectators.",
+      "Carmarthen is the western terminus of the main line from London Paddington via the Wales Coast route."
+    ]
+  },
+  {
+    "landmark": "Dinefwr Castle & Park",
+    "closest_station": "Llandeilo",
+    "distance_km": 1.0,
+    "difficulty": "medium",
+    "facts": [
+      "Dinefwr was the seat of the medieval princes of Deheubarth, an independent Welsh kingdom.",
+      "The surrounding parkland is home to an ancient herd of white park cattle.",
+      "Llandeilo station sits on the scenic Heart of Wales line."
+    ]
+  },
+  {
+    "landmark": "Heart of Wales Line scenery (Sugar Loaf)",
+    "closest_station": "Dinas-y-Bwlch",
+    "distance_km": 0.1,
+    "difficulty": "hard",
+    "facts": [
+      "Sugar Loaf is one of the most remote request stops in Britain, with only a handful of trains a day.",
+      "The Heart of Wales line runs 121 miles between Shrewsbury and Swansea through sparsely populated countryside.",
+      "Sugar Loaf station has no road access and is reached only on foot."
+    ]
+  },
+  {
+    "landmark": "Llandrindod Wells spa heritage (via Builth Road)",
+    "closest_station": "Builth Road",
+    "distance_km": 10.0,
+    "difficulty": "hard",
+    "facts": [
+      "Llandrindod Wells grew into a fashionable Victorian spa town after its mineral springs were promoted from the 1860s.",
+      "Builth Road is the nearest station on the Heart of Wales line, some distance from Llandrindod itself.",
+      "The wider area hosts the Royal Welsh Show, Wales' largest agricultural event, each July."
+    ]
+  },
+  {
+    "landmark": "Llanwrtyd Wells, Britain's smallest town",
+    "closest_station": "Llanwrtyd",
+    "distance_km": 0.3,
+    "difficulty": "medium",
+    "facts": [
+      "Llanwrtyd Wells is often cited as the smallest town in Britain by population.",
+      "It hosts eccentric annual events including the World Bog Snorkelling Championships.",
+      "The town developed as a spa resort after a sulphur well was discovered in the 18th century."
+    ]
+  },
+  {
+    "landmark": "Cynghordy Viaduct",
+    "closest_station": "Cynghordy",
+    "distance_km": 0.2,
+    "difficulty": "medium",
+    "facts": [
+      "Cynghordy Viaduct is one of the largest structures on the Heart of Wales line, with 18 arches.",
+      "It stands around 31 metres above the valley floor.",
+      "The viaduct was completed in 1868 as part of the line linking Llandovery and Llanwrtyd."
+    ]
+  },
+  {
+    "landmark": "Llandovery's market town heritage",
+    "closest_station": "Llanymddyfri",
+    "distance_km": 0.5,
+    "difficulty": "medium",
+    "facts": [
+      "Llandovery's ruined castle overlooks the River Tywi from a mound above the town.",
+      "A striking modern steel sculpture of Welsh prince Llywelyn ap Gruffudd Fychan stands by the castle.",
+      "The town has long been a sheep and cattle market centre for rural Carmarthenshire."
+    ]
+  },
+  {
+    "landmark": "Neath Abbey",
+    "closest_station": "Castell-nedd",
+    "distance_km": 1.5,
+    "difficulty": "medium",
+    "facts": [
+      "Neath Abbey was once described by the antiquarian John Leland as the fairest abbey in all Wales.",
+      "It was founded in 1130 for Savigniac, later Cistercian, monks.",
+      "Neath sits at the mouth of the Vale of Neath, on the edge of the South Wales coalfield."
+    ]
+  },
+  {
+    "landmark": "Barry Island beach",
+    "closest_station": "Ynys y Barri",
+    "distance_km": 0.2,
+    "difficulty": "easy",
+    "facts": [
+      "Barry Island became a major seaside resort after the Barry Railway reached it in the 1890s.",
+      "Whitmore Bay, its main beach, has featured prominently as a filming location for the TV series Gavin & Stacey.",
+      "Barry Island is technically a peninsula rather than a true island."
+    ]
+  },
+  {
+    "landmark": "Severn Tunnel",
+    "closest_station": "Cyffordd Twnnel Hafren",
+    "distance_km": 5.0,
+    "difficulty": "hard",
+    "facts": [
+      "The Severn Tunnel, completed in 1886, was the longest mainline railway tunnel in Britain for over a century.",
+      "It runs beneath the Severn Estuary, connecting Severn Tunnel Junction towards Bristol.",
+      "The estuary itself has one of the highest tidal ranges in the world."
+    ]
+  },
+  {
+    "landmark": "Fishguard's ferry port",
+    "closest_station": "Borthladd Abergwaun",
+    "distance_km": 0.1,
+    "difficulty": "medium",
+    "facts": [
+      "Fishguard Harbour station connects directly to ferry services to Rosslare in Ireland.",
+      "The port was the site of the last invasion of mainland Britain, a failed French landing in 1797.",
+      "Fishguard's harbour was built in the early 20th century partly to support transatlantic liner traffic."
+    ]
+  },
+  {
+    "landmark": "Newport Transporter Bridge",
+    "closest_station": "Casnewydd",
+    "distance_km": 1.5,
+    "difficulty": "medium",
+    "facts": [
+      "The Transporter Bridge, opened in 1906, carries a moving gondola across the River Usk rather than a conventional deck.",
+      "It is one of only a handful of working transporter bridges left in the world.",
+      "Newport was historically one of the busiest coal-exporting ports in South Wales."
+    ]
+  },
+  {
+    "landmark": "Ynysangharad Park, Pontypridd",
+    "closest_station": "Pontypridd",
+    "distance_km": 1.0,
+    "difficulty": "medium",
+    "facts": [
+      "Pontypridd is regarded as the birthplace of the Welsh rugby anthem 'Bread of Heaven', linked to the town's chapels.",
+      "The Old Bridge over the River Taff, built in 1756, was the longest single-span stone bridge in the world at the time.",
+      "Ynysangharad Park includes a lido and war memorial overlooking the town."
+    ]
+  },
+  {
+    "landmark": "Abergavenny & the Brecon Beacons gateway",
+    "closest_station": "Y Fenni",
+    "distance_km": 1.0,
+    "difficulty": "medium",
+    "facts": [
+      "Abergavenny is often called the gateway to the Brecon Beacons (Bannau Brycheiniog) National Park.",
+      "The town's ruined castle was the site of a notorious 1175 massacre of Welsh lords.",
+      "Abergavenny hosts one of the UK's leading food festivals each September."
+    ]
+  },
+  {
+    "landmark": "Penarth's Victorian pier",
+    "closest_station": "Penarth",
+    "distance_km": 0.5,
+    "difficulty": "easy",
+    "facts": [
+      "Penarth Pier opened in 1895 and remains one of the best-preserved Victorian piers in Wales.",
+      "The town developed as a genteel seaside resort for wealthy Cardiff residents in the 19th century.",
+      "Penarth overlooks the Severn Estuary towards Weston-super-Mare."
+    ]
+  },
+  {
+    "landmark": "Llantwit Major & Dunraven Bay",
+    "closest_station": "Llanilltud Fawr",
+    "distance_km": 3.0,
+    "difficulty": "medium",
+    "facts": [
+      "Llantwit Major is home to one of the oldest religious and educational centres in Britain, founded around 500 AD.",
+      "Nearby Dunraven Bay is known for its dramatic limestone cliffs on the Glamorgan Heritage Coast.",
+      "The town's parish church holds an important collection of early Celtic Christian stones."
+    ]
+  },
+  {
+    "landmark": "Llanelli's rugby heritage (Parc y Scarlets)",
+    "closest_station": "Llanelli",
+    "distance_km": 1.5,
+    "difficulty": "medium",
+    "facts": [
+      "Llanelli is nicknamed 'Tinopolis' for its historic dominance of the tinplate industry.",
+      "The Scarlets rugby team, based at Parc y Scarlets, is one of Wales' most storied clubs.",
+      "Llanelli famously beat the All Blacks in a legendary 1972 match."
+    ]
+  },
+  {
+    "landmark": "Saundersfoot's sandy beach",
+    "closest_station": "Saundersfoot",
+    "distance_km": 0.4,
+    "difficulty": "easy",
+    "facts": [
+      "Saundersfoot's harbour was originally built to export coal and iron ore in the 19th century.",
+      "The village's sheltered beach makes it a popular Pembrokeshire holiday resort today.",
+      "The Pembrokeshire Coast Path passes directly through the village."
+    ]
+  },
+  {
+    "landmark": "Bridgend's Vale of Glamorgan countryside",
+    "closest_station": "Pen-y-bont ar Ogwr",
+    "distance_km": 1.0,
+    "difficulty": "medium",
+    "facts": [
+      "Bridgend takes its name from an ancient bridge crossing the River Ogmore.",
+      "The town sits at the junction of the South Wales Main Line and the line to Maesteg.",
+      "Nearby Ogmore Castle and Coity Castle reflect the area's Norman conquest history."
+    ]
+  },
+  {
+    "landmark": "Cwmbran's new town heritage",
+    "closest_station": "Cwmbrân",
+    "distance_km": 1.0,
+    "difficulty": "medium",
+    "facts": [
+      "Cwmbran was designated one of Britain's first post-war new towns in 1949.",
+      "It grew from a collection of industrial villages into a planned urban centre.",
+      "Cwmbran railway station reopened in 1986 after earlier station closures in the area."
+    ]
+  },
+  {
+    "landmark": "Llansamlet & the Swansea Valley",
+    "closest_station": "Llansamlet",
+    "distance_km": 1.0,
+    "difficulty": "hard",
+    "facts": [
+      "Llansamlet lies at the southern end of the Swansea Valley, once heavily industrialised with copper and coal works.",
+      "The area has been substantially redeveloped as a retail and business park since the late 20th century.",
+      "Llansamlet station serves the northeastern suburbs of Swansea."
+    ]
+  },
+  {
+    "landmark": "Whitland's junction heritage",
+    "closest_station": "Hendy-gwyn",
+    "distance_km": 0.3,
+    "difficulty": "medium",
+    "facts": [
+      "Whitland was historically the site of a great assembly of Welsh law under Hywel Dda in the 10th century.",
+      "The town remains a junction station where the Pembroke Dock branch leaves the main line.",
+      "Whitland was once a hub for the local dairy and creamery industry."
+    ]
+  },
+  {
+    "landmark": "Narberth's medieval castle ruins",
+    "closest_station": "Arberth",
+    "distance_km": 0.7,
+    "difficulty": "medium",
+    "facts": [
+      "Narberth's ruined castle is linked to tales in the medieval Welsh mythological collection, the Mabinogion.",
+      "The town has become known for its independent shops and food scene.",
+      "Narberth sits close to the boundary of the Pembrokeshire Coast National Park."
+    ]
+  },
+  {
+    "landmark": "Cardiff Bay & the Senedd",
+    "closest_station": "Bae Caerdydd",
+    "distance_km": 0.3,
+    "difficulty": "easy",
+    "facts": [
+      "Cardiff Bay was transformed from a former coal-exporting dock into a waterfront district in the 1990s and 2000s.",
+      "The Senedd, home to the Welsh Parliament, opened on the waterfront in 2006.",
+      "Cardiff Bay station is the terminus of a short branch line from Cardiff Queen Street."
+    ]
+  },
+  {
+    "landmark": "Llangadog & the Tywi Valley",
+    "closest_station": "Llangadog",
+    "distance_km": 0.5,
+    "difficulty": "hard",
+    "facts": [
+      "Llangadog sits in the fertile Tywi Valley, one of the longest rivers entirely within Wales.",
+      "The village is a small stop on the scenic Heart of Wales line between Llandeilo and Llandovery.",
+      "The surrounding area is known for dairy farming and the nearby Brecon Beacons foothills."
+    ]
+  },
+  {
+    "landmark": "Conwy Castle",
+    "closest_station": "Conwy",
+    "distance_km": 0.3,
+    "difficulty": "easy",
+    "facts": [
+      "Conwy Castle was built by Edward I between 1283 and 1287 as part of his conquest of Wales.",
+      "It forms a UNESCO World Heritage Site alongside Conwy's near-complete medieval town walls.",
+      "Conwy station sits directly beside the castle and the town walls."
+    ]
+  },
+  {
+    "landmark": "Llandudno's Great Orme",
+    "closest_station": "Llandudno",
+    "distance_km": 1.5,
+    "difficulty": "easy",
+    "facts": [
+      "The Great Orme is a large limestone headland overlooking Llandudno, reached by cable car or tramway.",
+      "Llandudno developed as a planned Victorian seaside resort from the 1850s onwards.",
+      "The town inspired part of Lewis Carroll's Alice in Wonderland, after his friendship with a local family."
+    ]
+  },
+  {
+    "landmark": "Bangor Pier & the Menai Strait",
+    "closest_station": "Bangor",
+    "distance_km": 1.0,
+    "difficulty": "medium",
+    "facts": [
+      "Bangor Pier, opened in 1896, is one of the longest piers in Wales at over 460 metres.",
+      "Bangor is Wales' oldest city, with a cathedral tradition dating back to the 6th century.",
+      "The city sits on the Menai Strait, opposite the island of Anglesey."
+    ]
+  },
+  {
+    "landmark": "South Stack Lighthouse, Holyhead",
+    "closest_station": "Caergybi",
+    "distance_km": 5.0,
+    "difficulty": "hard",
+    "facts": [
+      "South Stack Lighthouse stands on a small island off Holy Island, reached by a bridge and steep steps.",
+      "Holyhead is the main ferry port linking Wales to Dublin, Ireland.",
+      "Holyhead sits on Holy Island, connected to the rest of Anglesey by a causeway."
+    ]
+  },
+  {
+    "landmark": "Blaenau Ffestiniog slate heritage",
+    "closest_station": "Blaenau Ffestiniog",
+    "distance_km": 0.5,
+    "difficulty": "medium",
+    "facts": [
+      "Blaenau Ffestiniog was once the centre of the largest slate-mining industry in the world.",
+      "The surrounding slate landscape of northwest Wales is a UNESCO World Heritage Site.",
+      "The town connects to the heritage Ffestiniog Railway, which once carried slate down to Porthmadog."
+    ]
+  },
+  {
+    "landmark": "Betws-y-Coed & Swallow Falls",
+    "closest_station": "Betws-y-Coed",
+    "distance_km": 3.0,
+    "difficulty": "medium",
+    "facts": [
+      "Betws-y-Coed is a popular gateway village for Eryri (Snowdonia) National Park.",
+      "Nearby Swallow Falls is one of the highest-volume waterfalls in Wales.",
+      "The village became a favoured retreat for Victorian landscape painters."
+    ]
+  },
+  {
+    "landmark": "Harlech Castle",
+    "closest_station": "Harlech",
+    "distance_km": 0.6,
+    "difficulty": "easy",
+    "facts": [
+      "Harlech Castle, another Edward I fortress, forms part of the same UNESCO World Heritage listing as Conwy.",
+      "A famous Welsh song commemorates a legendary long siege of the castle.",
+      "The castle originally stood right by the sea, though the coastline has since receded."
+    ]
+  },
+  {
+    "landmark": "Aberystwyth seafront & the National Library of Wales",
+    "closest_station": "Aberystwyth",
+    "distance_km": 1.0,
+    "difficulty": "medium",
+    "facts": [
+      "The National Library of Wales, overlooking the town, holds the country's most important collection of Welsh books and manuscripts.",
+      "Aberystwyth is the terminus of the Cambrian Line from Shrewsbury.",
+      "The town's Victorian pier and cliff railway are among Wales' oldest seaside attractions."
+    ]
+  },
+  {
+    "landmark": "Centre for Alternative Technology, Machynlleth",
+    "closest_station": "Machynlleth",
+    "distance_km": 5.0,
+    "difficulty": "hard",
+    "facts": [
+      "The Centre for Alternative Technology, near Machynlleth, has demonstrated eco-friendly living since 1973.",
+      "Machynlleth briefly served as the seat of Owain Glyndwr's Welsh Parliament in 1404.",
+      "Machynlleth is a key junction on the Cambrian Line, where the Pwllheli and Aberystwyth branches divide."
+    ]
+  },
+  {
+    "landmark": "Wrexham AFC & the Racecourse Ground",
+    "closest_station": "Wrecsam Cyffredinol",
+    "distance_km": 1.0,
+    "difficulty": "medium",
+    "facts": [
+      "The Racecourse Ground in Wrexham is recognised as the oldest international football stadium still in use in the world.",
+      "Wrexham became Wales' newest city in 2022, granted the status for the late Queen's Platinum Jubilee.",
+      "Wrexham General is the main station serving the city."
+    ]
+  }
+]

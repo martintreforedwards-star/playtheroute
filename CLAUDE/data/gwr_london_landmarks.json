@@ -1,0 +1,552 @@
+[
+  {
+    "landmark": "Windsor Castle",
+    "closest_station": "Windsor & Eton Central",
+    "distance_km": 0.4,
+    "difficulty": "easy",
+    "facts": [
+      "It is the largest and oldest inhabited castle in the world, continuously occupied for over 900 years.",
+      "The station sits almost directly opposite the castle's Henry VIII Gate on the High Street.",
+      "The station building was substantially rebuilt in 1897 for Queen Victoria's Diamond Jubilee, including a private royal waiting room."
+    ]
+  },
+  {
+    "landmark": "Tate St Ives",
+    "closest_station": "St Ives",
+    "distance_km": 0.6,
+    "difficulty": "easy",
+    "facts": [
+      "The gallery opened in 1993 on the site of a former gasworks overlooking Porthmeor Beach.",
+      "It celebrates the modern artists' colony that grew up in St Ives from the 1920s onwards, including Barbara Hepworth.",
+      "St Ives station sits directly above the beach it overlooks, with one of the most scenic approaches on the whole GWR network."
+    ]
+  },
+  {
+    "landmark": "Truro Cathedral",
+    "closest_station": "Truro",
+    "distance_km": 0.8,
+    "difficulty": "easy",
+    "facts": [
+      "Completed in 1910, it was the first Anglican cathedral built in England since St Paul's in the 17th century.",
+      "Its three spires make it a landmark visible across much of the city.",
+      "Truro is Cornwall's only city and its county town."
+    ]
+  },
+  {
+    "landmark": "Eden Project",
+    "closest_station": "Par",
+    "distance_km": 6.0,
+    "difficulty": "hard",
+    "facts": [
+      "Its giant biomes were built inside a disused china clay pit near St Austell.",
+      "The Rainforest Biome is the largest indoor rainforest in the world.",
+      "A connecting bus service runs from Par and St Austell stations to the site."
+    ]
+  },
+  {
+    "landmark": "Bath area GWR heritage (Brunel's Great Western Main Line)",
+    "closest_station": "Chippenham",
+    "distance_km": 1.0,
+    "difficulty": "medium",
+    "facts": [
+      "Chippenham sits on Isambard Kingdom Brunel's original Great Western Main Line, opened throughout in 1841.",
+      "The line's broad-gauge origins shaped the sweeping curves still used by trains through the town today.",
+      "Chippenham was historically a key junction for routes towards Bath, Bristol, and the West Country."
+    ]
+  },
+  {
+    "landmark": "Longleat",
+    "closest_station": "Warminster",
+    "distance_km": 8.0,
+    "difficulty": "hard",
+    "facts": [
+      "Longleat was the first stately home in England to open a safari park, in 1966.",
+      "The house itself is a leading example of Elizabethan architecture, completed in 1580.",
+      "It remains the family seat of the Marquess of Bath."
+    ]
+  },
+  {
+    "landmark": "Berkshire's Thames-side heritage",
+    "closest_station": "Maidenhead",
+    "distance_km": 1.0,
+    "difficulty": "medium",
+    "facts": [
+      "Maidenhead Railway Bridge, just outside the station, has the widest, flattest brick arches ever built when Brunel completed it in 1838.",
+      "The bridge inspired J.M.W. Turner's painting 'Rain, Steam and Speed'.",
+      "Maidenhead sits on the River Thames, a popular boating town since Victorian times."
+    ]
+  },
+  {
+    "landmark": "Cheltenham Racecourse",
+    "closest_station": "Cheltenham Spa",
+    "distance_km": 3.0,
+    "difficulty": "medium",
+    "facts": [
+      "Cheltenham Racecourse hosts the Cheltenham Festival every March, considered the highlight of the National Hunt racing calendar.",
+      "Cheltenham Spa station takes its name from the town's Regency-era spa heritage, when it grew as a fashionable resort around its mineral springs.",
+      "The town's wide Regency terraces were built to attract visitors taking the waters in the early 19th century."
+    ]
+  },
+  {
+    "landmark": "Slough Trading Estate & Herschel Park",
+    "closest_station": "Slough",
+    "distance_km": 1.0,
+    "difficulty": "medium",
+    "facts": [
+      "Slough Trading Estate, opened in the 1920s, was one of the first purpose-built industrial estates in the world.",
+      "Astronomer William Herschel, who discovered Uranus, lived and worked in Slough; Herschel Park is named after him.",
+      "Slough is a key junction for GWR services, where the short branch line to Windsor & Eton Central begins."
+    ]
+  },
+  {
+    "landmark": "Reading Abbey",
+    "closest_station": "Reading",
+    "distance_km": 1.2,
+    "difficulty": "medium",
+    "facts": [
+      "Reading Abbey was founded in 1121 by Henry I, who is buried on the site.",
+      "It was once one of the largest and wealthiest monasteries in England before its dissolution in 1539.",
+      "Reading station is one of the busiest interchange stations outside London, serving as a hub for GWR's western routes."
+    ]
+  },
+  {
+    "landmark": "Isambard Kingdom Brunel's Paddington Station",
+    "closest_station": "London Paddington",
+    "distance_km": 0.0,
+    "difficulty": "easy",
+    "facts": [
+      "The current train shed was designed by Brunel himself and opened in 1854.",
+      "Paddington is the London terminus of the old Great Western Railway, Brunel's original broad-gauge main line.",
+      "A bronze statue of Brunel stands on the station concourse, and the Paddington Bear statue is another popular landmark there."
+    ]
+  },
+  {
+    "landmark": "Powderham Castle",
+    "closest_station": "Starcross",
+    "distance_km": 2.0,
+    "difficulty": "medium",
+    "facts": [
+      "Powderham Castle has been the seat of the Courtenay family, Earls of Devon, since the 14th century.",
+      "It sits on the west bank of the Exe Estuary, visible from trains on the Exeter to Newton Abbot sea wall line.",
+      "Starcross was also the site of one of Brunel's experimental atmospheric railway pumping stations in the 1840s."
+    ]
+  },
+  {
+    "landmark": "Dawlish Sea Wall",
+    "closest_station": "Dawlish",
+    "distance_km": 0.1,
+    "difficulty": "easy",
+    "facts": [
+      "The railway runs directly along the sea wall through Dawlish, with waves sometimes breaking over passing trains in storms.",
+      "The line was originally built by Brunel in the 1840s as part of the South Devon Railway.",
+      "A major storm in February 2014 destroyed a section of the sea wall here, closing the line for two months."
+    ]
+  },
+  {
+    "landmark": "Totnes Castle",
+    "closest_station": "Totnes",
+    "distance_km": 0.7,
+    "difficulty": "easy",
+    "facts": [
+      "Totnes Castle is a Norman motte-and-bailey fortress overlooking the town.",
+      "Totnes is one of England's oldest chartered towns, with a market granted in the 10th century.",
+      "The town is known today for its alternative and independent culture alongside its medieval High Street."
+    ]
+  },
+  {
+    "landmark": "Exeter Cathedral",
+    "closest_station": "Exeter Central",
+    "distance_km": 0.4,
+    "difficulty": "easy",
+    "facts": [
+      "Exeter Cathedral has the longest uninterrupted medieval vaulted ceiling in the world.",
+      "Exeter Central is closer to the cathedral and city centre than the larger Exeter St Davids station.",
+      "The cathedral's twin Norman towers date from around 1130, older than most of the rest of the building."
+    ]
+  },
+  {
+    "landmark": "Plymouth Hoe & Smeaton's Tower",
+    "closest_station": "Plymouth",
+    "distance_km": 1.5,
+    "difficulty": "medium",
+    "facts": [
+      "Smeaton's Tower is a former lighthouse, relocated to the Hoe in the 1880s after being replaced on its offshore reef.",
+      "Sir Francis Drake is said to have finished a game of bowls on the Hoe before facing the Spanish Armada in 1588.",
+      "The Mayflower departed from Plymouth in 1620, and the city marks this with waterfront memorials near the Hoe."
+    ]
+  },
+  {
+    "landmark": "Bodmin Jail",
+    "closest_station": "Bodmin Parkway",
+    "distance_km": 5.0,
+    "difficulty": "hard",
+    "facts": [
+      "Bodmin Jail opened in 1779 and was one of the first British prisons to hold prisoners in individual cells.",
+      "It is now a visitor attraction and hotel, reached by a short bus or taxi ride from Bodmin Parkway station.",
+      "Bodmin Parkway itself, despite the name, is several miles from Bodmin town centre."
+    ]
+  },
+  {
+    "landmark": "Looe Harbour",
+    "closest_station": "Looe",
+    "distance_km": 0.2,
+    "difficulty": "easy",
+    "facts": [
+      "Looe is a working fishing harbour split either side of the River Looe, joined by a Victorian bridge.",
+      "The Looe Valley Line branch to Liskeard is one of the most scenic short branch lines in Cornwall.",
+      "Looe holds an annual National Sea Angling Festival, reflecting its long fishing heritage."
+    ]
+  },
+  {
+    "landmark": "St Erth & the St Ives Bay Line",
+    "closest_station": "St Erth",
+    "distance_km": 0.1,
+    "difficulty": "medium",
+    "facts": [
+      "St Erth is the junction station where the branch line to St Ives leaves the Cornish Main Line.",
+      "The St Ives Bay branch is considered one of the most scenic short rail journeys in Britain, hugging the coast for its final approach.",
+      "The line was built in 1877 partly to relieve St Ives' congested streets of horse-drawn traffic to the harbour."
+    ]
+  },
+  {
+    "landmark": "Newquay's beaches (Fistral Beach)",
+    "closest_station": "Newquay",
+    "distance_km": 2.0,
+    "difficulty": "medium",
+    "facts": [
+      "Fistral Beach is regarded as the birthplace of British surfing and hosts major surfing competitions.",
+      "Newquay's rail branch from Par was originally built in the 1870s to carry china clay to the harbour, only later becoming a passenger holiday line.",
+      "Newquay station still sees dedicated seasonal Sunday services from London during summer."
+    ]
+  },
+  {
+    "landmark": "Glastonbury Tor",
+    "closest_station": "Castle Cary",
+    "distance_km": 9.0,
+    "difficulty": "hard",
+    "facts": [
+      "The Tor is topped by the roofless St Michael's Tower, the remains of a 14th-century church.",
+      "Castle Cary is the standard rail-and-bus interchange point for Glastonbury, including for the Glastonbury Festival site at nearby Pilton.",
+      "Glastonbury itself has never had its own railway station."
+    ]
+  },
+  {
+    "landmark": "Bradford-on-Avon's Tithe Barn",
+    "closest_station": "Bradford-on-Avon",
+    "distance_km": 0.8,
+    "difficulty": "medium",
+    "facts": [
+      "The 14th-century tithe barn is one of the largest and best-preserved in England.",
+      "The town also has a rare Saxon church, St Laurence's, believed to date from around 1000 AD.",
+      "Bradford-on-Avon sits on the Kennet and Avon Canal as well as the railway."
+    ]
+  },
+  {
+    "landmark": "Didcot Railway Centre",
+    "closest_station": "Didcot Parkway",
+    "distance_km": 0.5,
+    "difficulty": "easy",
+    "facts": [
+      "The centre preserves Great Western Railway locomotives, carriages and a working steam depot.",
+      "It sits immediately next to Didcot Parkway station, on the original GWR main line.",
+      "It includes a reconstruction of Brunel's broad-gauge railway, which used a wider track than today's standard gauge."
+    ]
+  },
+  {
+    "landmark": "Henley Royal Regatta course",
+    "closest_station": "Henley-on-Thames",
+    "distance_km": 0.5,
+    "difficulty": "easy",
+    "facts": [
+      "The regatta has been held on the Thames at Henley since 1839.",
+      "Henley-on-Thames station is the terminus of a short branch line from Twyford.",
+      "The regatta course is a straight 1 mile 550 yard stretch of the river."
+    ]
+  },
+  {
+    "landmark": "Cliveden House",
+    "closest_station": "Taplow",
+    "distance_km": 3.0,
+    "difficulty": "medium",
+    "facts": [
+      "Cliveden was the country home of the Astor family and a noted political and social hub in the early 20th century.",
+      "Its gardens and estate are now owned by the National Trust.",
+      "Taplow station also sits close to Cliveden Reach, a well-known stretch of the Thames for rowing."
+    ]
+  },
+  {
+    "landmark": "Marlow Suspension Bridge",
+    "closest_station": "Marlow",
+    "distance_km": 0.4,
+    "difficulty": "easy",
+    "facts": [
+      "The bridge, completed in 1832, was designed by William Tierney Clark, who later built the Chain Bridge in Budapest on a similar design.",
+      "Marlow station is the terminus of a short branch line from Maidenhead known locally as the 'Marlow Donkey'.",
+      "The bridge crosses the Thames right beside Marlow's parish church."
+    ]
+  },
+  {
+    "landmark": "Stanley Spencer Gallery",
+    "closest_station": "Cookham",
+    "distance_km": 1.0,
+    "difficulty": "medium",
+    "facts": [
+      "The gallery displays work by painter Stanley Spencer, who was born and lived in Cookham.",
+      "Spencer set many of his most famous paintings in and around the village.",
+      "Cookham sits on the Thames between Maidenhead and Marlow."
+    ]
+  },
+  {
+    "landmark": "The Wind in the Willows' riverbank",
+    "closest_station": "Pangbourne",
+    "distance_km": 1.0,
+    "difficulty": "medium",
+    "facts": [
+      "Author Kenneth Grahame lived at Church Cottage in Pangbourne and is buried in the village churchyard.",
+      "The stretch of the Thames around Pangbourne is often linked to the riverbank setting of The Wind in the Willows.",
+      "Pangbourne is also known for the Pang Valley, where the River Pang meets the Thames."
+    ]
+  },
+  {
+    "landmark": "Pinewood Studios",
+    "closest_station": "Iver",
+    "distance_km": 3.0,
+    "difficulty": "hard",
+    "facts": [
+      "Pinewood Studios has been used for major film franchises including James Bond and Star Wars.",
+      "The studio complex opened in 1936 in a converted country house, Heatherden Hall.",
+      "Iver station is the nearest railhead, with the studio a short drive away."
+    ]
+  },
+  {
+    "landmark": "Vale of Evesham orchards",
+    "closest_station": "Evesham",
+    "distance_km": 1.0,
+    "difficulty": "medium",
+    "facts": [
+      "The Vale of Evesham has been a major fruit and market-gardening area since medieval times, when Evesham Abbey monks developed its orchards.",
+      "Evesham's bell tower is one of the few remaining parts of its once-great abbey, largely destroyed at the Dissolution.",
+      "The town sits on a large bend of the River Avon."
+    ]
+  },
+  {
+    "landmark": "Pershore Abbey",
+    "closest_station": "Pershore",
+    "distance_km": 1.0,
+    "difficulty": "medium",
+    "facts": [
+      "Pershore Abbey was a Benedictine monastery; its surviving tower and choir are still used as the parish church today.",
+      "Much of the original abbey nave was demolished after the Dissolution of the Monasteries.",
+      "Pershore is also known, like nearby Evesham, for fruit growing in the Vale of Evesham."
+    ]
+  },
+  {
+    "landmark": "Corinium Museum (Cirencester)",
+    "closest_station": "Kemble",
+    "distance_km": 6.0,
+    "difficulty": "hard",
+    "facts": [
+      "Cirencester was the second-largest town in Roman Britain, and the Corinium Museum holds one of the country's best Roman mosaic collections.",
+      "Kemble station, on the edge of the Cotswolds, is the nearest railhead to Cirencester, which has no station of its own.",
+      "Cirencester is often nicknamed the 'Capital of the Cotswolds'."
+    ]
+  },
+  {
+    "landmark": "Museum in the Park, Stroud",
+    "closest_station": "Stroud (Glos)",
+    "distance_km": 1.2,
+    "difficulty": "medium",
+    "facts": [
+      "Stroud grew rich on the wool and cloth trade, and its five valleys are still lined with former mill buildings.",
+      "The Museum in the Park is housed in an 18th-century wool merchant's mansion.",
+      "Stroud is known today for its independent shops and one of the largest farmers' markets in the country."
+    ]
+  },
+  {
+    "landmark": "Gloucester Cathedral",
+    "closest_station": "Gloucester",
+    "distance_km": 0.7,
+    "difficulty": "easy",
+    "facts": [
+      "Gloucester Cathedral's cloisters, with their fan vaulting, were used as filming locations for the Harry Potter films.",
+      "It is the burial place of King Edward II, murdered at nearby Berkeley Castle in 1327.",
+      "The cathedral's central tower rises 68 metres above the city."
+    ]
+  },
+  {
+    "landmark": "Tewkesbury Abbey",
+    "closest_station": "Ashchurch for Tewkesbury",
+    "distance_km": 3.0,
+    "difficulty": "medium",
+    "facts": [
+      "Tewkesbury Abbey has one of the largest surviving Norman crossing towers in England.",
+      "The town was the site of a decisive Wars of the Roses battle in 1471.",
+      "Ashchurch for Tewkesbury station sits a couple of miles outside the historic town centre."
+    ]
+  },
+  {
+    "landmark": "Swindon's STEAM Museum",
+    "closest_station": "Swindon",
+    "distance_km": 1.0,
+    "difficulty": "medium",
+    "facts": [
+      "STEAM is housed in a former Great Western Railway works building where locomotives were built and maintained.",
+      "Swindon grew from a small market town into a major railway town after the GWR chose it as its main works site in 1841.",
+      "The former GWR railway village of terraced housing still stands close to the station."
+    ]
+  },
+  {
+    "landmark": "Salisbury Plain edge & Westbury White Horse",
+    "closest_station": "Westbury",
+    "distance_km": 2.5,
+    "difficulty": "medium",
+    "facts": [
+      "The Westbury White Horse, cut into the chalk hillside above the town, is thought to be Wiltshire's oldest surviving hill figure.",
+      "Westbury sits on the edge of Salisbury Plain, a major military training area.",
+      "Westbury is an important railway junction where lines to Bristol, Weymouth and Salisbury diverge."
+    ]
+  },
+  {
+    "landmark": "Frome's medieval streets",
+    "closest_station": "Frome",
+    "distance_km": 0.8,
+    "difficulty": "medium",
+    "facts": [
+      "Frome's Cheap Street, with its central stone-flagged water channel, is one of England's best-preserved medieval streets.",
+      "The town was once a major centre of the wool trade, rivalling Bath in size during the 17th century.",
+      "Frome today is known for its independent shops and monthly Sunday market."
+    ]
+  },
+  {
+    "landmark": "Yeovil's Fleet Air Arm connections",
+    "closest_station": "Yeovil Pen Mill",
+    "distance_km": 1.5,
+    "difficulty": "medium",
+    "facts": [
+      "Yeovil has a long history of aircraft manufacturing, particularly with Westland Helicopters.",
+      "Yeovil Pen Mill is one of two stations serving the town, on the line between Weymouth and Bristol.",
+      "The nearby Fleet Air Arm Museum, a short drive from Yeovil, holds one of Europe's largest naval aviation collections."
+    ]
+  },
+  {
+    "landmark": "Dartmoor National Park (northern gateway)",
+    "closest_station": "Okehampton",
+    "distance_km": 1.5,
+    "difficulty": "medium",
+    "facts": [
+      "Okehampton sits on the northern edge of Dartmoor, England's largest area of open moorland in the south.",
+      "The town's Norman castle ruins are the largest in Devon.",
+      "The railway line to Okehampton was reopened to regular year-round passenger services in 2021 after decades of Sunday-only running."
+    ]
+  },
+  {
+    "landmark": "Ivybridge & the Two Moors Way",
+    "closest_station": "Ivybridge",
+    "distance_km": 0.5,
+    "difficulty": "medium",
+    "facts": [
+      "Ivybridge sits at the southern start of the Two Moors Way, a long-distance path running to Dartmoor and beyond.",
+      "The town takes its name from a medieval packhorse bridge over the River Erme.",
+      "Ivybridge station reopened in 1994 after the original station had closed decades earlier."
+    ]
+  },
+  {
+    "landmark": "Exmouth seafront",
+    "closest_station": "Exmouth",
+    "distance_km": 0.6,
+    "difficulty": "easy",
+    "facts": [
+      "Exmouth was one of the first seaside resorts to develop in England, from the 18th century onwards.",
+      "It sits at the mouth of the River Exe, marking the start of the Jurassic Coast World Heritage Site.",
+      "Exmouth is the terminus of a branch line from Exeter that runs along the Exe Estuary."
+    ]
+  },
+  {
+    "landmark": "Barnstaple & the Tarka Trail",
+    "closest_station": "Barnstaple",
+    "distance_km": 0.5,
+    "difficulty": "medium",
+    "facts": [
+      "Barnstaple is the terminus of the 'Tarka Line' from Exeter, named after Henry Williamson's novel Tarka the Otter, set in the area.",
+      "The town has one of the longest medieval bridges in England still in use, with 16 arches.",
+      "Barnstaple is regarded as the principal town of North Devon."
+    ]
+  },
+  {
+    "landmark": "Torre Abbey, Torquay",
+    "closest_station": "Torre",
+    "distance_km": 1.0,
+    "difficulty": "medium",
+    "facts": [
+      "Torre Abbey is Torquay's oldest building, founded as a monastery in 1196.",
+      "It now houses a museum with the world's largest collection of Agatha Christie memorabilia, reflecting her links to the town.",
+      "Torre station is closer to the abbey than Torquay's main station."
+    ]
+  },
+  {
+    "landmark": "Paignton's English Riviera beaches",
+    "closest_station": "Paignton",
+    "distance_km": 0.5,
+    "difficulty": "easy",
+    "facts": [
+      "Paignton is part of the 'English Riviera', a stretch of Devon coast known for its mild climate and sandy beaches.",
+      "The Paignton and Dartmouth Steam Railway, a heritage line, starts from a station next to the main line terminus.",
+      "Paignton Zoo, one of the town's major attractions, sits a short distance inland."
+    ]
+  },
+  {
+    "landmark": "St Austell's china clay heritage",
+    "closest_station": "St Austell",
+    "distance_km": 1.0,
+    "difficulty": "medium",
+    "facts": [
+      "St Austell has been the centre of Cornwall's china clay industry since the mid-18th century.",
+      "The distinctive white spoil heaps from clay extraction were once nicknamed the 'Cornish Alps'.",
+      "The Eden Project's biomes were built inside one of the area's disused clay pits."
+    ]
+  },
+  {
+    "landmark": "Falmouth's Pendennis Castle",
+    "closest_station": "Falmouth Town",
+    "distance_km": 1.0,
+    "difficulty": "medium",
+    "facts": [
+      "Pendennis Castle was built by Henry VIII around 1540 to defend Falmouth Harbour.",
+      "Falmouth has one of the deepest natural harbours in the world.",
+      "The Maritime Line branch to Falmouth is one of Cornwall's most scenic short railway lines."
+    ]
+  },
+  {
+    "landmark": "Hayle Towans & Paradise Park",
+    "closest_station": "Hayle",
+    "distance_km": 1.0,
+    "difficulty": "medium",
+    "facts": [
+      "The Towans are a stretch of sand dunes along Hayle's Atlantic coast, popular for walking and wildlife.",
+      "Paradise Park in Hayle is home to the World Parrot Trust and breeds rare Cornish choughs for release into the wild.",
+      "Hayle was historically an important industrial port for Cornwall's mining industry."
+    ]
+  },
+  {
+    "landmark": "Redruth & Cornwall's mining heritage",
+    "closest_station": "Redruth",
+    "distance_km": 1.0,
+    "difficulty": "medium",
+    "facts": [
+      "Redruth was at the heart of Cornwall's 18th and 19th century copper and tin mining boom.",
+      "The surrounding mining landscape is part of the Cornwall and West Devon Mining Landscape World Heritage Site.",
+      "Engineer Richard Trevithick, a pioneer of steam locomotion, was born near Redruth."
+    ]
+  },
+  {
+    "landmark": "St Germans & the Tamar Valley",
+    "closest_station": "St Germans",
+    "distance_km": 0.5,
+    "difficulty": "medium",
+    "facts": [
+      "St Germans has one of the oldest church sites in Cornwall, once the seat of a Cornish bishopric.",
+      "The station sits at the head of the St Germans River, a tidal creek off the River Tamar.",
+      "The line crosses the Tamar Valley on its way towards Plymouth."
+    ]
+  }
+]

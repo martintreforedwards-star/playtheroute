@@ -1,0 +1,552 @@
+[
+  {
+    "landmark": "Glasgow Cathedral",
+    "closest_station": "High Street",
+    "distance_km": 0.5,
+    "difficulty": "easy",
+    "facts": [
+      "Glasgow Cathedral is the only mainland Scottish medieval cathedral to have survived the Reformation largely intact.",
+      "It stands on the traditional burial site of St Mungo, the city's patron saint and founder.",
+      "High Street station is the nearest stop to both the cathedral and the Glasgow Necropolis."
+    ]
+  },
+  {
+    "landmark": "Kelvingrove Art Gallery and Museum",
+    "closest_station": "Partick",
+    "distance_km": 1.0,
+    "difficulty": "easy",
+    "facts": [
+      "Kelvingrove holds one of Europe's great civic art collections, including works by Salvador Dali.",
+      "The Victorian red sandstone building opened in 1901 for the Glasgow International Exhibition.",
+      "Partick station is a major interchange, also connecting to the Glasgow Subway."
+    ]
+  },
+  {
+    "landmark": "Riverside Museum",
+    "closest_station": "Exhibition Centre",
+    "distance_km": 1.5,
+    "difficulty": "medium",
+    "facts": [
+      "The Riverside Museum, designed by Zaha Hadid, tells the story of Glasgow's transport and shipbuilding history.",
+      "It sits on the banks of the River Clyde, close to where many famous ships were once built.",
+      "The Tall Ship Glenlee, a restored 1896 sailing ship, is moored beside the museum."
+    ]
+  },
+  {
+    "landmark": "Stirling Castle",
+    "closest_station": "Stirling",
+    "distance_km": 1.0,
+    "difficulty": "easy",
+    "facts": [
+      "Stirling Castle was one of the most important strongholds in Scotland, site of several key sieges.",
+      "Mary, Queen of Scots was crowned here as an infant in 1543.",
+      "Stirling sits at a strategic crossing point of the River Forth, controlling routes into the Highlands."
+    ]
+  },
+  {
+    "landmark": "The Wallace Monument",
+    "closest_station": "Stirling",
+    "distance_km": 3.0,
+    "difficulty": "medium",
+    "facts": [
+      "The Wallace Monument commemorates William Wallace, victor of the nearby Battle of Stirling Bridge in 1297.",
+      "The tower stands 67 metres tall on the summit of Abbey Craig.",
+      "It was completed in 1869, funded largely by public subscription."
+    ]
+  },
+  {
+    "landmark": "Dunblane Cathedral",
+    "closest_station": "Dunblane",
+    "distance_km": 0.5,
+    "difficulty": "easy",
+    "facts": [
+      "Dunblane Cathedral dates largely from the 13th century, with a much older Norman tower.",
+      "The building fell into ruin after the Reformation before being restored in the 1890s.",
+      "Dunblane is the birthplace of tennis champion Andy Murray."
+    ]
+  },
+  {
+    "landmark": "Loch Lomond",
+    "closest_station": "Balloch Central",
+    "distance_km": 0.3,
+    "difficulty": "easy",
+    "facts": [
+      "Loch Lomond is the largest loch in Great Britain by surface area.",
+      "Balloch sits at the loch's southern tip, within Loch Lomond and the Trossachs National Park.",
+      "The loch contains around 30 islands, including the inhabited Inchmurrin."
+    ]
+  },
+  {
+    "landmark": "Glenfinnan Viaduct",
+    "closest_station": "Glenfinnan",
+    "distance_km": 0.5,
+    "difficulty": "medium",
+    "facts": [
+      "The 21-arch viaduct, completed in 1901, became internationally famous after featuring in the Harry Potter films.",
+      "It also marks the spot where Bonnie Prince Charlie raised his standard in 1745, beginning the Jacobite Rising.",
+      "The Jacobite steam train crosses the viaduct on its route between Fort William and Mallaig."
+    ]
+  },
+  {
+    "landmark": "Ben Nevis",
+    "closest_station": "Fort William",
+    "distance_km": 4.0,
+    "difficulty": "medium",
+    "facts": [
+      "Ben Nevis is the highest mountain in the British Isles, at 1,345 metres.",
+      "Fort William, at its foot, is often called the 'Outdoor Capital of the UK'.",
+      "The West Highland Line to Fort William is regularly voted one of the world's most scenic rail journeys."
+    ]
+  },
+  {
+    "landmark": "Mallaig's fishing harbour",
+    "closest_station": "Mallaig",
+    "distance_km": 0.2,
+    "difficulty": "medium",
+    "facts": [
+      "Mallaig is the terminus of the 'Road to the Isles' and a key ferry port to Skye and the Small Isles.",
+      "The town developed as a herring fishing port in the late 19th century.",
+      "Mallaig station is the western end of the scenic West Highland Line."
+    ]
+  },
+  {
+    "landmark": "Oban's McCaig's Tower",
+    "closest_station": "Oban",
+    "distance_km": 0.5,
+    "difficulty": "medium",
+    "facts": [
+      "McCaig's Tower, an unfinished Colosseum-style folly, overlooks Oban Bay.",
+      "Oban is often called the 'Gateway to the Isles', with ferries to Mull, Iona, Islay and Colonsay.",
+      "The town is also known for its whisky distillery, one of Scotland's oldest, founded in 1794."
+    ]
+  },
+  {
+    "landmark": "Corrour, Britain's highest mainline station",
+    "closest_station": "Corrour",
+    "distance_km": 0.1,
+    "difficulty": "hard",
+    "facts": [
+      "Corrour, at 408 metres above sea level, is the highest mainline railway station in the UK.",
+      "It has no road access at all, reached only by rail or on foot across Rannoch Moor.",
+      "The station featured in the film Trainspotting, in a scene set on the surrounding moor."
+    ]
+  },
+  {
+    "landmark": "Rannoch Moor",
+    "closest_station": "Rannoch",
+    "distance_km": 0.2,
+    "difficulty": "medium",
+    "facts": [
+      "Rannoch Moor is one of the last great wildernesses in Europe, a vast expanse of bog and lochans.",
+      "The railway across it was a major engineering challenge, floated on a raft of brushwood and ash.",
+      "Rannoch station is one of the most remote in Britain, with very limited road access."
+    ]
+  },
+  {
+    "landmark": "Falls of Cruachan & Cruachan Power Station",
+    "closest_station": "Falls of Cruachan",
+    "distance_km": 0.1,
+    "difficulty": "hard",
+    "facts": [
+      "Cruachan Power Station, nicknamed 'the Hollow Mountain', is built entirely inside Ben Cruachan.",
+      "It is a pumped-storage hydroelectric station, able to reach full power within seconds.",
+      "Falls of Cruachan station is a seasonal request stop, one of the smallest on the network."
+    ]
+  },
+  {
+    "landmark": "Loch Awe",
+    "closest_station": "Loch Awe",
+    "distance_km": 0.2,
+    "difficulty": "medium",
+    "facts": [
+      "Loch Awe is the longest freshwater loch in Scotland, stretching over 40 kilometres.",
+      "The ruined Kilchurn Castle sits at its northern end, a popular photography spot.",
+      "Loch Awe station serves the small village on the line to Oban."
+    ]
+  },
+  {
+    "landmark": "Bothwell Castle",
+    "closest_station": "Uddingston",
+    "distance_km": 2.0,
+    "difficulty": "medium",
+    "facts": [
+      "Bothwell Castle is one of the largest and finest medieval castles in Scotland.",
+      "It changed hands repeatedly during the Wars of Scottish Independence.",
+      "Uddingston is also known as the birthplace of the Tunnock's teacake, made at a factory in the town."
+    ]
+  },
+  {
+    "landmark": "New Lanark",
+    "closest_station": "Lanark",
+    "distance_km": 2.0,
+    "difficulty": "medium",
+    "facts": [
+      "New Lanark is a UNESCO World Heritage Site, a remarkably preserved cotton mill village founded in 1786.",
+      "Reformer Robert Owen ran the mills here, pioneering progressive ideas about workers' welfare.",
+      "The village sits on the River Clyde below the town of Lanark."
+    ]
+  },
+  {
+    "landmark": "Culzean Castle (via Maybole)",
+    "closest_station": "Maybole",
+    "distance_km": 6.0,
+    "difficulty": "hard",
+    "facts": [
+      "Culzean Castle, on the Ayrshire coast, was designed by Robert Adam in the late 18th century.",
+      "General Eisenhower was given a private apartment in the castle in recognition of his wartime role.",
+      "Maybole is the nearest railway station, with the castle reached by road."
+    ]
+  },
+  {
+    "landmark": "Robert Burns' Alloway (via Ayr)",
+    "closest_station": "Ayr",
+    "distance_km": 3.0,
+    "difficulty": "medium",
+    "facts": [
+      "Poet Robert Burns was born in Alloway in 1759, in a cottage now preserved as a museum.",
+      "The nearby Burns Monument and Brig o' Doon feature in his poem Tam o' Shanter.",
+      "Ayr is the main town on the Ayrshire coast, with one of Scotland's finest sandy beaches."
+    ]
+  },
+  {
+    "landmark": "Prestwick International Airport",
+    "closest_station": "Prestwick International Airport",
+    "distance_km": 0.1,
+    "difficulty": "easy",
+    "facts": [
+      "Prestwick has a direct rail link into the airport terminal, unusual for a UK regional airport.",
+      "It was the only place in the UK Elvis Presley is officially recorded as having set foot, during a 1960 stopover.",
+      "The airport is renowned for having some of the most reliable flying weather in Scotland."
+    ]
+  },
+  {
+    "landmark": "Dumfries & Robert Burns' final home",
+    "closest_station": "Dumfries",
+    "distance_km": 0.7,
+    "difficulty": "medium",
+    "facts": [
+      "Robert Burns spent his final years in Dumfries and is buried in a mausoleum in St Michael's Churchyard.",
+      "Dumfries is nicknamed 'the Queen of the South', also the name of its football club.",
+      "The town sits on the River Nith in south-west Scotland."
+    ]
+  },
+  {
+    "landmark": "Gretna Green's blacksmith weddings",
+    "closest_station": "Gretna Green",
+    "distance_km": 0.5,
+    "difficulty": "medium",
+    "facts": [
+      "Gretna Green became famous for runaway weddings after Scots law allowed marriage at a younger age than England's.",
+      "Couples were traditionally married over the anvil in the village's Old Blacksmith's Shop.",
+      "The village sits just across the border from England, on the West Coast Main Line."
+    ]
+  },
+  {
+    "landmark": "Largs & the Battle of Largs",
+    "closest_station": "Largs",
+    "distance_km": 0.5,
+    "difficulty": "medium",
+    "facts": [
+      "The Battle of Largs in 1263 marked a turning point in Scotland's struggle against Norwegian control of the western isles.",
+      "Vikingar!, a heritage attraction in the town, tells the story of the Viking age in Scotland.",
+      "Largs is a popular Clyde coast resort, with ferries to the Isle of Cumbrae."
+    ]
+  },
+  {
+    "landmark": "Wemyss Bay's Category A-listed station",
+    "closest_station": "Wemyss Bay",
+    "distance_km": 0.1,
+    "difficulty": "medium",
+    "facts": [
+      "Wemyss Bay station, opened in 1903, is celebrated for its elegant curved glass-roofed concourse.",
+      "It connects directly to the ferry for Rothesay on the Isle of Bute.",
+      "The station is a Category A listed building, recognised as one of Scotland's finest."
+    ]
+  },
+  {
+    "landmark": "Gourock & the Cloch Lighthouse",
+    "closest_station": "Gourock",
+    "distance_km": 2.0,
+    "difficulty": "medium",
+    "facts": [
+      "The Cloch Lighthouse, near Gourock, has guided ships on the Firth of Clyde since 1797.",
+      "Gourock is a ferry terminal for routes to Dunoon and other Clyde coast towns.",
+      "The town's outdoor swimming pool is one of Scotland's few remaining heated seawater lidos."
+    ]
+  },
+  {
+    "landmark": "Helensburgh & The Hill House",
+    "closest_station": "Helensburgh Central",
+    "distance_km": 1.0,
+    "difficulty": "medium",
+    "facts": [
+      "The Hill House was designed by Charles Rennie Mackintosh, a masterpiece of Scottish architecture completed in 1904.",
+      "Helensburgh is the birthplace of John Logie Baird, a pioneer of television.",
+      "The town sits on the Firth of Clyde, opposite the Rosneath peninsula."
+    ]
+  },
+  {
+    "landmark": "Dumbarton Castle",
+    "closest_station": "Dumbarton Central",
+    "distance_km": 1.5,
+    "difficulty": "medium",
+    "facts": [
+      "Dumbarton Castle sits on Dumbarton Rock, a volcanic plug overlooking the River Clyde.",
+      "It has one of the longest recorded histories of any fortified site in Britain.",
+      "Dumbarton was once the capital of the ancient kingdom of Strathclyde."
+    ]
+  },
+  {
+    "landmark": "Paisley Abbey",
+    "closest_station": "Paisley Gilmour Street",
+    "distance_km": 0.5,
+    "difficulty": "easy",
+    "facts": [
+      "Paisley Abbey was founded in 1163 and is linked to the origins of the Stewart royal dynasty.",
+      "The town gave its name to the paisley pattern, popularised by its 19th-century textile industry.",
+      "Paisley Gilmour Street is one of the busiest stations in Scotland outside Glasgow and Edinburgh."
+    ]
+  },
+  {
+    "landmark": "Motherwell & Ravenscraig's steel heritage",
+    "closest_station": "Motherwell",
+    "distance_km": 1.0,
+    "difficulty": "medium",
+    "facts": [
+      "Motherwell was once home to Ravenscraig, at its peak the largest hot strip steel mill in western Europe.",
+      "The town's name may derive from a well dedicated to the Virgin Mary.",
+      "Motherwell is a key railway junction in North Lanarkshire."
+    ]
+  },
+  {
+    "landmark": "Hamilton & Chatelherault Country Park",
+    "closest_station": "Chatelherault",
+    "distance_km": 0.3,
+    "difficulty": "medium",
+    "facts": [
+      "Chatelherault was built as a hunting lodge for the Dukes of Hamilton in the 1730s.",
+      "The country park sits in the Avon Gorge, with woodland trails and red deer.",
+      "Hamilton was historically the county town of Lanarkshire."
+    ]
+  },
+  {
+    "landmark": "Falkirk Wheel (via Falkirk Grahamston)",
+    "closest_station": "Falkirk Grahamston",
+    "distance_km": 3.0,
+    "difficulty": "hard",
+    "facts": [
+      "The Falkirk Wheel is the world's only rotating boat lift, connecting the Forth and Clyde and Union canals.",
+      "It replaced a flight of 11 locks that had fallen into disuse.",
+      "Falkirk Grahamston is the more central of the town's two stations."
+    ]
+  },
+  {
+    "landmark": "Kelburn Castle (via Fairlie)",
+    "closest_station": "Fairlie",
+    "distance_km": 2.0,
+    "difficulty": "hard",
+    "facts": [
+      "Kelburn Castle has been home to the Boyle family, Earls of Glasgow, for over 800 years.",
+      "Its grounds feature a giant graffiti-covered mural on the castle walls, painted by Brazilian artists in 2007.",
+      "Fairlie is a small village on the Ayrshire coast, with ferries to Cumbrae from nearby Largs."
+    ]
+  },
+  {
+    "landmark": "Irvine's Scottish Maritime Museum",
+    "closest_station": "Irvine",
+    "distance_km": 1.0,
+    "difficulty": "medium",
+    "facts": [
+      "The Scottish Maritime Museum in Irvine preserves historic vessels linked to the town's shipbuilding past.",
+      "Irvine was designated a Scottish new town in 1966.",
+      "The town sits at the mouth of the River Irvine on the Ayrshire coast."
+    ]
+  },
+  {
+    "landmark": "Troon's championship golf links",
+    "closest_station": "Troon",
+    "distance_km": 1.0,
+    "difficulty": "medium",
+    "facts": [
+      "Royal Troon has hosted The Open Championship multiple times.",
+      "Troon developed as a harbour town before becoming a popular Ayrshire golfing resort.",
+      "The town's beach looks out towards the Isle of Arran."
+    ]
+  },
+  {
+    "landmark": "Kilmarnock & Dean Castle",
+    "closest_station": "Kilmarnock",
+    "distance_km": 1.5,
+    "difficulty": "medium",
+    "facts": [
+      "Dean Castle, in Kilmarnock, houses collections of medieval armour and musical instruments.",
+      "Kilmarnock published the first edition of Robert Burns' poems in 1786.",
+      "The town was historically a centre of the Scotch whisky blending industry, home to Johnnie Walker."
+    ]
+  },
+  {
+    "landmark": "Girvan's harbour and Ailsa Craig views",
+    "closest_station": "Girvan",
+    "distance_km": 0.5,
+    "difficulty": "medium",
+    "facts": [
+      "Girvan looks out towards Ailsa Craig, a granite island famous for producing curling stones.",
+      "The town developed as a herring fishing port in the 18th and 19th centuries.",
+      "Girvan sits on the Ayrshire coast on the line towards Stranraer."
+    ]
+  },
+  {
+    "landmark": "Stranraer & the old ferry port",
+    "closest_station": "Stranraer",
+    "distance_km": 0.3,
+    "difficulty": "medium",
+    "facts": [
+      "Stranraer was historically the main ferry port to Northern Ireland before services moved to nearby Cairnryan.",
+      "The town sits on Loch Ryan in south-west Scotland.",
+      "Stranraer is the western terminus of the line from Glasgow via Ayr."
+    ]
+  },
+  {
+    "landmark": "Crianlarich, the crossroads of the Highlands",
+    "closest_station": "Crianlarich",
+    "distance_km": 0.2,
+    "difficulty": "medium",
+    "facts": [
+      "Crianlarich is where the West Highland Line splits, one branch to Oban and one to Fort William.",
+      "The village sits on the West Highland Way long-distance walking route.",
+      "Crianlarich is surrounded by Munros, Scottish mountains over 3,000 feet."
+    ]
+  },
+  {
+    "landmark": "Ardlui & the head of Loch Lomond",
+    "closest_station": "Ardlui",
+    "distance_km": 0.2,
+    "difficulty": "medium",
+    "facts": [
+      "Ardlui sits at the northern tip of Loch Lomond, where the loch narrows into the surrounding mountains.",
+      "A small passenger ferry links Ardlui station to the settlement of Ardlui itself.",
+      "The village marks the transition from the loch's broad southern waters to its narrow highland reaches."
+    ]
+  },
+  {
+    "landmark": "Tyndrum, Scotland's smallest place with two stations",
+    "closest_station": "Upper Tyndrum",
+    "distance_km": 0.3,
+    "difficulty": "hard",
+    "facts": [
+      "Tyndrum is unusual in having two railway stations, Upper and Lower, serving the Fort William and Oban lines.",
+      "The village was once a centre of lead and later gold prospecting.",
+      "Tyndrum sits at a key junction on the West Highland Way."
+    ]
+  },
+  {
+    "landmark": "Bridge of Orchy's remote mountain scenery",
+    "closest_station": "Bridge of Orchy",
+    "distance_km": 0.2,
+    "difficulty": "hard",
+    "facts": [
+      "Bridge of Orchy sits at the foot of Beinn Dorain, a distinctive conical mountain.",
+      "The station is a popular starting point for walkers on the West Highland Way.",
+      "It marks the transition from Highland glens into the wilds of Rannoch Moor."
+    ]
+  },
+  {
+    "landmark": "Bridge of Allan's Victorian spa heritage",
+    "closest_station": "Bridge of Allan",
+    "distance_km": 0.5,
+    "difficulty": "medium",
+    "facts": [
+      "Bridge of Allan developed as a fashionable spa town after mineral springs were promoted in the 1820s.",
+      "The village sits at the foot of the Ochil Hills, close to Stirling.",
+      "Its well-preserved Victorian architecture reflects its resort-era prosperity."
+    ]
+  },
+  {
+    "landmark": "Cumbernauld's new town design",
+    "closest_station": "Cumbernauld",
+    "distance_km": 1.5,
+    "difficulty": "medium",
+    "facts": [
+      "Cumbernauld was designated a Scottish new town in 1955, known for its distinctive Brutalist town centre.",
+      "The town has been both praised and criticised internationally for its ambitious 1960s urban design.",
+      "Cumbernauld sits roughly midway between Glasgow and Stirling."
+    ]
+  },
+  {
+    "landmark": "Kilwinning Abbey",
+    "closest_station": "Kilwinning",
+    "distance_km": 0.4,
+    "difficulty": "medium",
+    "facts": [
+      "Kilwinning Abbey is linked to the founding traditions of Scottish Freemasonry.",
+      "The town's name derives from St Winnin, an early Christian missionary.",
+      "Kilwinning is a key junction on the Ayrshire coast line."
+    ]
+  },
+  {
+    "landmark": "Auchinleck & Boswell heritage",
+    "closest_station": "Auchinleck",
+    "distance_km": 1.0,
+    "difficulty": "hard",
+    "facts": [
+      "Auchinleck was the ancestral home of James Boswell, biographer of Samuel Johnson.",
+      "The village was historically a mining community in the Ayrshire coalfield.",
+      "Auchinleck sits on the line towards Kilmarnock and Glasgow."
+    ]
+  },
+  {
+    "landmark": "Airdrie's town heritage",
+    "closest_station": "Airdrie",
+    "distance_km": 0.5,
+    "difficulty": "medium",
+    "facts": [
+      "Airdrie grew rapidly during the Industrial Revolution around coal, iron and weaving.",
+      "The Airdrie to Bathgate rail link reopened in 2010 after decades of closure.",
+      "The town sits in North Lanarkshire, close to Coatbridge."
+    ]
+  },
+  {
+    "landmark": "Alloa & the Gartmorn Dam",
+    "closest_station": "Alloa",
+    "distance_km": 3.0,
+    "difficulty": "hard",
+    "facts": [
+      "Gartmorn Dam, near Alloa, is one of the oldest reservoirs in Scotland, built in the early 18th century.",
+      "Alloa was historically a centre of brewing and glassmaking on the Firth of Forth.",
+      "Alloa's rail line reopened to passengers in 2008 after a long closure."
+    ]
+  },
+  {
+    "landmark": "Bearsden Roman Bath House",
+    "closest_station": "Bearsden",
+    "distance_km": 0.5,
+    "difficulty": "hard",
+    "facts": [
+      "The remains of a Roman bath house and latrine, built around 140 AD, survive in the middle of Bearsden.",
+      "It was part of a fort on the Antonine Wall, the northernmost frontier of the Roman Empire.",
+      "Bearsden is now a residential suburb on the northwestern edge of Glasgow."
+    ]
+  },
+  {
+    "landmark": "Sanquhar Post Office",
+    "closest_station": "Sanquhar",
+    "distance_km": 0.3,
+    "difficulty": "hard",
+    "facts": [
+      "Sanquhar Post Office is recognised by Guinness World Records as the oldest continuously operating post office in the world, dating to 1712.",
+      "Sanquhar also has one of the oldest surviving royal burgh charters in Scotland, granted in 1598.",
+      "The town sits in Upper Nithsdale, on the line between Kilmarnock and Dumfries."
+    ]
+  },
+  {
+    "landmark": "Neilston & the Levern Valley",
+    "closest_station": "Neilston",
+    "distance_km": 1.0,
+    "difficulty": "hard",
+    "facts": [
+      "Neilston was once a centre of cotton and thread manufacturing in the Levern Valley.",
+      "The village sits at the southern end of the Glasgow suburban rail network.",
+      "Nearby Neilston Pad hill offers panoramic views back towards Glasgow."
+    ]
+  }
+]

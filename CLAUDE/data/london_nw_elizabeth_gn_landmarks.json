@@ -1,0 +1,552 @@
+[
+  {
+    "landmark": "Bletchley Park",
+    "closest_station": "Bletchley",
+    "distance_km": 0.5,
+    "difficulty": "easy",
+    "facts": [
+      "Bletchley Park was the base for Britain's codebreakers during the Second World War, including Alan Turing.",
+      "Codebreaking work here is credited with significantly shortening the war.",
+      "The site is now a museum telling the story of wartime cryptography and the birth of modern computing."
+    ]
+  },
+  {
+    "landmark": "Milton Keynes' Concrete Cows",
+    "closest_station": "Milton Keynes Central",
+    "distance_km": 1.5,
+    "difficulty": "medium",
+    "facts": [
+      "The Concrete Cows sculpture has become an unofficial, much-loved symbol of Milton Keynes since 1978.",
+      "Milton Keynes was designated a new town in 1967, with a distinctive grid-based road system.",
+      "The town is known for its extensive network of cycling and walking paths, or 'redways'."
+    ]
+  },
+  {
+    "landmark": "Woburn Abbey & Safari Park",
+    "closest_station": "Woburn Sands",
+    "distance_km": 5.0,
+    "difficulty": "hard",
+    "facts": [
+      "Woburn Abbey has been the seat of the Dukes of Bedford for over 400 years.",
+      "Woburn Safari Park, in the abbey's grounds, was one of the first drive-through safari parks in Britain, opened in 1970.",
+      "Woburn Sands station is the nearest railhead, with the estate reached by road."
+    ]
+  },
+  {
+    "landmark": "St Albans Cathedral & Roman Verulamium",
+    "closest_station": "St Albans Abbey",
+    "distance_km": 0.5,
+    "difficulty": "easy",
+    "facts": [
+      "St Albans Cathedral has the longest nave of any cathedral in England.",
+      "It stands on the site of the martyrdom of Britain's first Christian saint, Alban.",
+      "Verulamium, the Roman town beneath modern St Albans, was once the third-largest town in Roman Britain."
+    ]
+  },
+  {
+    "landmark": "Hatfield House",
+    "closest_station": "Hatfield",
+    "distance_km": 1.0,
+    "difficulty": "medium",
+    "facts": [
+      "Elizabeth I is said to have learned of her accession to the throne while at Hatfield House in 1558.",
+      "The current Jacobean house was built in 1611 by Robert Cecil, chief minister to James I.",
+      "Hatfield sits in Hertfordshire, on the East Coast Main Line branch through Welwyn."
+    ]
+  },
+  {
+    "landmark": "Knebworth House",
+    "closest_station": "Knebworth",
+    "distance_km": 1.0,
+    "difficulty": "medium",
+    "facts": [
+      "Knebworth House has hosted major rock concerts since the 1970s, including Led Zeppelin and Oasis.",
+      "The house has been home to the Lytton family since 1490.",
+      "Its Gothic exterior was remodelled in the 1840s by novelist Edward Bulwer-Lytton."
+    ]
+  },
+  {
+    "landmark": "Letchworth Garden City",
+    "closest_station": "Letchworth Garden City",
+    "distance_km": 0.5,
+    "difficulty": "medium",
+    "facts": [
+      "Letchworth was the world's first garden city, founded in 1903 by Ebenezer Howard.",
+      "It pioneered the idea of planned towns combining housing, industry and green space.",
+      "Letchworth influenced garden city and new town planning worldwide."
+    ]
+  },
+  {
+    "landmark": "Welwyn Garden City",
+    "closest_station": "Welwyn Garden City",
+    "distance_km": 0.5,
+    "difficulty": "medium",
+    "facts": [
+      "Welwyn Garden City was founded in 1920 as the second garden city, also by Ebenezer Howard.",
+      "The town's grand central avenue and Parkway were designed to give a sense of civic dignity.",
+      "It later became one of Britain's post-war new towns as well."
+    ]
+  },
+  {
+    "landmark": "Stevenage, Britain's first post-war new town",
+    "closest_station": "Stevenage",
+    "distance_km": 0.7,
+    "difficulty": "medium",
+    "facts": [
+      "Stevenage was designated in 1946 as the first of Britain's post-war new towns.",
+      "It pioneered a fully segregated cycle path network, separate from road traffic.",
+      "Stevenage's town centre was one of the first purpose-built pedestrian shopping precincts in Europe."
+    ]
+  },
+  {
+    "landmark": "Hitchin's lavender fields",
+    "closest_station": "Hitchin",
+    "distance_km": 3.0,
+    "difficulty": "medium",
+    "facts": [
+      "Hitchin Lavender is one of the largest lavender farms open to the public in England.",
+      "The town has one of the largest parish churches in Hertfordshire, St Mary's.",
+      "Hitchin was historically a centre of the lavender and rose-growing trade for perfumery."
+    ]
+  },
+  {
+    "landmark": "Shepreth Wildlife Park",
+    "closest_station": "Shepreth",
+    "distance_km": 0.3,
+    "difficulty": "medium",
+    "facts": [
+      "Shepreth Wildlife Park began as a small animal rescue centre before growing into a full zoo.",
+      "The village sits on the River Rhee, close to Cambridge.",
+      "Shepreth station is on the line between Cambridge and King's Cross."
+    ]
+  },
+  {
+    "landmark": "King's Lynn's Hanseatic heritage",
+    "closest_station": "Kings Lynn",
+    "distance_km": 0.5,
+    "difficulty": "medium",
+    "facts": [
+      "King's Lynn was a major member of the medieval Hanseatic League trading network.",
+      "The town retains one of the best collections of merchant houses of any English port.",
+      "King's Lynn's Custom House, built in 1683, remains a landmark on the historic quayside."
+    ]
+  },
+  {
+    "landmark": "Downham Market's cast-iron clock tower",
+    "closest_station": "Downham Market",
+    "distance_km": 0.3,
+    "difficulty": "hard",
+    "facts": [
+      "Downham Market's distinctive black-and-white buildings are built from local carrstone.",
+      "The town's cast-iron clock tower was erected in 1878.",
+      "Downham Market sits on the edge of the Norfolk Fens."
+    ]
+  },
+  {
+    "landmark": "Bond Street & Oxford Street shopping",
+    "closest_station": "Bond Street",
+    "distance_km": 0.1,
+    "difficulty": "easy",
+    "facts": [
+      "Bond Street has been one of London's most exclusive shopping streets since the 18th century.",
+      "The station is a major interchange point for the Elizabeth Line in the West End.",
+      "Nearby Oxford Street is one of the busiest shopping streets in Europe."
+    ]
+  },
+  {
+    "landmark": "Canary Wharf",
+    "closest_station": "Canary Wharf",
+    "distance_km": 0.1,
+    "difficulty": "easy",
+    "facts": [
+      "Canary Wharf's One Canada Square was the tallest building in the UK when completed in 1991.",
+      "The area was redeveloped from derelict docklands into a major financial district from the 1980s.",
+      "Canary Wharf's Elizabeth Line station has one of the largest underground retail spaces in London."
+    ]
+  },
+  {
+    "landmark": "Tottenham Court Road & Centre Point",
+    "closest_station": "Tottenham Court Road",
+    "distance_km": 0.1,
+    "difficulty": "easy",
+    "facts": [
+      "Centre Point, a 1960s tower beside the station, was one of London's first skyscrapers.",
+      "The area is a major hub for London's theatre district and Soho nightlife.",
+      "Tottenham Court Road is a key Elizabeth Line and Underground interchange."
+    ]
+  },
+  {
+    "landmark": "Woolwich's Royal Arsenal",
+    "closest_station": "Woolwich",
+    "distance_km": 0.3,
+    "difficulty": "medium",
+    "facts": [
+      "The Royal Arsenal at Woolwich produced munitions for the British military for over 200 years.",
+      "Arsenal Football Club takes its name from its origins as a works team at the Woolwich Arsenal.",
+      "The former Arsenal site has been redeveloped into riverside housing and heritage attractions."
+    ]
+  },
+  {
+    "landmark": "ExCeL London",
+    "closest_station": "Custom House",
+    "distance_km": 0.1,
+    "difficulty": "medium",
+    "facts": [
+      "ExCeL London is one of the largest exhibition and convention centres in Europe.",
+      "It hosted boxing, weightlifting and other events during the 2012 Olympics.",
+      "Custom House station sits directly beside the venue on the Elizabeth Line."
+    ]
+  },
+  {
+    "landmark": "Heathrow Airport",
+    "closest_station": "Heathrow Terminals 1-2-3 Rail",
+    "distance_km": 0.1,
+    "difficulty": "easy",
+    "facts": [
+      "Heathrow is the busiest airport in Europe by passenger numbers.",
+      "The Elizabeth Line provides a direct rail link from central London to the airport terminals.",
+      "Heathrow opened as a small airfield in 1929 before its major post-war expansion."
+    ]
+  },
+  {
+    "landmark": "Natural History Museum at Tring",
+    "closest_station": "Tring",
+    "distance_km": 2.0,
+    "difficulty": "medium",
+    "facts": [
+      "The Natural History Museum at Tring holds the vast personal collection of Walter Rothschild, including thousands of taxidermy specimens.",
+      "Tring sits in the Chiltern Hills, on the Grand Union Canal.",
+      "Tring station is over a mile from the town centre, in the Bulbourne valley."
+    ]
+  },
+  {
+    "landmark": "Berkhamsted Castle",
+    "closest_station": "Berkhamsted",
+    "distance_km": 0.5,
+    "difficulty": "medium",
+    "facts": [
+      "William the Conqueror received the submission of Saxon nobles at Berkhamsted Castle in 1066.",
+      "The castle's earthworks and moat remain well preserved today.",
+      "Author Graham Greene grew up in Berkhamsted, where his father was headmaster of the school."
+    ]
+  },
+  {
+    "landmark": "Hemel Hempstead's Water Gardens",
+    "closest_station": "Hemel Hempstead",
+    "distance_km": 1.0,
+    "difficulty": "medium",
+    "facts": [
+      "The Hemel Hempstead Water Gardens were designed in the 1950s as part of the town's new town development.",
+      "Hemel Hempstead was designated a post-war new town in 1947.",
+      "The town sits in the Gade Valley, in the Chiltern Hills."
+    ]
+  },
+  {
+    "landmark": "Watford Junction's railway heritage",
+    "closest_station": "Watford Junction",
+    "distance_km": 0.3,
+    "difficulty": "medium",
+    "facts": [
+      "Watford Junction is a major interchange on the West Coast Main Line, just north of London.",
+      "The town's football club, Watford FC, plays at nearby Vicarage Road.",
+      "Watford Junction connects London Northwestern services to both London Euston and St Albans."
+    ]
+  },
+  {
+    "landmark": "Leighton Buzzard's narrow-gauge railway",
+    "closest_station": "Leighton Buzzard",
+    "distance_km": 1.0,
+    "difficulty": "medium",
+    "facts": [
+      "The Leighton Buzzard Railway is a narrow-gauge heritage line, originally built to serve sand quarries.",
+      "The town's name is thought to combine an Anglo-Saxon personal name with a reference to a historic manor.",
+      "Leighton Buzzard sits on the Grand Union Canal."
+    ]
+  },
+  {
+    "landmark": "Northampton's shoe industry heritage",
+    "closest_station": "Northampton",
+    "distance_km": 0.5,
+    "difficulty": "medium",
+    "facts": [
+      "Northampton was the centre of the English shoemaking industry for centuries.",
+      "The Northampton Museum holds one of the largest shoe collections in the world.",
+      "Northampton is one of the largest towns in England without city status."
+    ]
+  },
+  {
+    "landmark": "Tamworth Castle",
+    "closest_station": "Tamworth",
+    "distance_km": 0.5,
+    "difficulty": "medium",
+    "facts": [
+      "Tamworth was once the capital of the Anglo-Saxon kingdom of Mercia.",
+      "Tamworth Castle's Norman motte sits above the meeting of the Rivers Tame and Anker.",
+      "The town is home to Drayton Manor, a large theme park."
+    ]
+  },
+  {
+    "landmark": "Atherstone's Shrove Tuesday football",
+    "closest_station": "Atherstone",
+    "distance_km": 0.5,
+    "difficulty": "hard",
+    "facts": [
+      "Atherstone hosts a unique annual Shrove Tuesday street football game, played since medieval times.",
+      "The town was historically a centre of English hat manufacturing.",
+      "Atherstone sits on the historic Roman road Watling Street."
+    ]
+  },
+  {
+    "landmark": "Alexandra Palace",
+    "closest_station": "Alexandra Palace",
+    "distance_km": 0.5,
+    "difficulty": "easy",
+    "facts": [
+      "Alexandra Palace hosted the world's first regular high-definition TV broadcasts, from a BBC studio in 1936.",
+      "The building has been substantially rebuilt after two major fires.",
+      "It stands on a hill offering sweeping views across London."
+    ]
+  },
+  {
+    "landmark": "Highbury & Islington's Georgian squares",
+    "closest_station": "Highbury & Islington",
+    "distance_km": 0.3,
+    "difficulty": "medium",
+    "facts": [
+      "Islington has one of the largest concentrations of Georgian terraces and squares in London.",
+      "Arsenal's former Highbury stadium stood a short walk from the station until 2006.",
+      "Highbury & Islington is a major interchange for several rail and Underground lines."
+    ]
+  },
+  {
+    "landmark": "Moorgate & the City of London",
+    "closest_station": "Moorgate",
+    "distance_km": 0.1,
+    "difficulty": "medium",
+    "facts": [
+      "Moorgate sits at the northern edge of the City of London's financial district.",
+      "The station takes its name from a former gate in the medieval City wall.",
+      "Moorgate was the site of a serious rail crash in 1975, prompting new safety systems on the Underground."
+    ]
+  },
+  {
+    "landmark": "Finsbury Park",
+    "closest_station": "Finsbury Park",
+    "distance_km": 0.3,
+    "difficulty": "medium",
+    "facts": [
+      "Finsbury Park was one of the first purpose-built public parks in Victorian London, opened in 1869.",
+      "The park hosts major outdoor concerts and events throughout the year.",
+      "Finsbury Park is a major interchange between several rail and Underground lines."
+    ]
+  },
+  {
+    "landmark": "Old Street & the Silicon Roundabout",
+    "closest_station": "Old Street",
+    "distance_km": 0.1,
+    "difficulty": "medium",
+    "facts": [
+      "The roundabout above Old Street station became known as 'Silicon Roundabout' for its concentration of tech start-ups.",
+      "Old Street sits on the boundary of Hackney and Islington.",
+      "The area has transformed from light industry into a major tech hub since the 2000s."
+    ]
+  },
+  {
+    "landmark": "Romford's market heritage",
+    "closest_station": "Romford",
+    "distance_km": 0.5,
+    "difficulty": "medium",
+    "facts": [
+      "Romford has held a market charter since 1247, still trading today.",
+      "The town was historically the centre of the Liberty of Havering, a self-governing royal manor.",
+      "Romford is a major interchange station in east London."
+    ]
+  },
+  {
+    "landmark": "Ilford's Georgian heritage",
+    "closest_station": "Ilford",
+    "distance_km": 0.5,
+    "difficulty": "hard",
+    "facts": [
+      "Ilford developed rapidly as a London suburb following the arrival of the railway in the 1830s.",
+      "The town was historically part of the ancient Hundred of Becontree.",
+      "Ilford sits in the London Borough of Redbridge."
+    ]
+  },
+  {
+    "landmark": "Brentwood's Essex countryside edge",
+    "closest_station": "Brentwood",
+    "distance_km": 0.5,
+    "difficulty": "medium",
+    "facts": [
+      "Brentwood sits at the edge of Greater London, on the boundary with rural Essex.",
+      "The town's name derives from a burnt clearing in the surrounding forest.",
+      "Brentwood has become associated with reality television following a popular ITV series set there."
+    ]
+  },
+  {
+    "landmark": "Potters Bar's railway history",
+    "closest_station": "Potters Bar",
+    "distance_km": 0.5,
+    "difficulty": "hard",
+    "facts": [
+      "Potters Bar sits just inside the M25, on the edge of Hertfordshire's green belt.",
+      "The town developed largely as a commuter suburb following railway electrification.",
+      "Potters Bar station is on the East Coast Main Line."
+    ]
+  },
+  {
+    "landmark": "Cuffley's rural Hertfordshire setting",
+    "closest_station": "Cuffley",
+    "distance_km": 0.5,
+    "difficulty": "hard",
+    "facts": [
+      "Cuffley sits within the Hertfordshire green belt, close to Northaw Great Wood.",
+      "The village was the site of the first Zeppelin to be shot down over Britain, in 1916.",
+      "Cuffley is the terminus of a short branch line from Enfield."
+    ]
+  },
+  {
+    "landmark": "Hertford North's county town heritage",
+    "closest_station": "Hertford North",
+    "distance_km": 0.5,
+    "difficulty": "medium",
+    "facts": [
+      "Hertford is the county town of Hertfordshire, with origins dating to Anglo-Saxon times.",
+      "The town's castle, though much altered, has royal connections dating back centuries.",
+      "Hertford North serves the Hertford Loop line via Stevenage."
+    ]
+  },
+  {
+    "landmark": "Royston's cave",
+    "closest_station": "Royston",
+    "distance_km": 0.3,
+    "difficulty": "medium",
+    "facts": [
+      "Royston Cave is a mysterious man-made chamber carved with medieval religious carvings, rediscovered in 1742.",
+      "The town sits at the crossing of two ancient routes, Ermine Street and the Icknield Way.",
+      "Royston straddles the Hertfordshire and Cambridgeshire border."
+    ]
+  },
+  {
+    "landmark": "Biggleswade's market town heritage",
+    "closest_station": "Biggleswade",
+    "distance_km": 0.5,
+    "difficulty": "hard",
+    "facts": [
+      "Biggleswade was historically an important centre for market gardening in Bedfordshire.",
+      "The town sits on the Great North Road, an ancient route between London and Scotland.",
+      "Biggleswade is on the East Coast Main Line between Hitchin and Sandy."
+    ]
+  },
+  {
+    "landmark": "Sandy & the RSPB headquarters",
+    "closest_station": "Sandy",
+    "distance_km": 1.0,
+    "difficulty": "medium",
+    "facts": [
+      "The RSPB, Britain's largest nature conservation charity, has its headquarters at The Lodge near Sandy.",
+      "The reserve includes heathland and woodland managed for wildlife.",
+      "Sandy sits on the Great Ouse river system in Bedfordshire."
+    ]
+  },
+  {
+    "landmark": "Huntingdon & Oliver Cromwell's birthplace",
+    "closest_station": "Huntingdon",
+    "distance_km": 0.5,
+    "difficulty": "medium",
+    "facts": [
+      "Oliver Cromwell was born in Huntingdon in 1599 and later became the town's MP.",
+      "The Cromwell Museum occupies the school building where he was educated.",
+      "Huntingdon sits on the Great Ouse in Cambridgeshire."
+    ]
+  },
+  {
+    "landmark": "St Neots' riverside town",
+    "closest_station": "St Neots",
+    "distance_km": 0.5,
+    "difficulty": "medium",
+    "facts": [
+      "St Neots is the largest town in Cambridgeshire, on the banks of the Great Ouse.",
+      "The town takes its name from the relics of St Neot, brought to a priory here in the 10th century.",
+      "St Neots hosts regular riverside festivals and events."
+    ]
+  },
+  {
+    "landmark": "Waterbeach & the Cambridge Fens",
+    "closest_station": "Waterbeach",
+    "distance_km": 1.0,
+    "difficulty": "hard",
+    "facts": [
+      "Waterbeach sits on the edge of the Cambridgeshire Fens, close to the River Cam.",
+      "The village has grown rapidly as part of Cambridge's wider commuter area.",
+      "Waterbeach is a stop on the line between Cambridge and Ely."
+    ]
+  },
+  {
+    "landmark": "Littleport's Fenland heritage",
+    "closest_station": "Littleport",
+    "distance_km": 0.5,
+    "difficulty": "hard",
+    "facts": [
+      "Littleport was the site of a significant 1816 riot over rural poverty and wages.",
+      "The village sits in the heart of the Cambridgeshire Fens, reclaimed farmland below sea level.",
+      "Littleport is on the line between Ely and King's Lynn."
+    ]
+  },
+  {
+    "landmark": "Watlington's rural Norfolk setting",
+    "closest_station": "Watlington",
+    "distance_km": 0.5,
+    "difficulty": "hard",
+    "facts": [
+      "Watlington sits in the flat Norfolk Fens, close to King's Lynn.",
+      "The village developed around agriculture in the reclaimed fenland.",
+      "Watlington station is on the line towards King's Lynn."
+    ]
+  },
+  {
+    "landmark": "Drayton Park & Emirates Stadium",
+    "closest_station": "Drayton Park",
+    "distance_km": 0.3,
+    "difficulty": "medium",
+    "facts": [
+      "Drayton Park station sits close to Arsenal's Emirates Stadium, opened in 2006.",
+      "The area is within the London Borough of Islington.",
+      "Drayton Park is on the branch line towards Moorgate."
+    ]
+  },
+  {
+    "landmark": "Chadwell Heath's suburban growth",
+    "closest_station": "Chadwell Heath",
+    "distance_km": 0.5,
+    "difficulty": "hard",
+    "facts": [
+      "Chadwell Heath developed rapidly as a London suburb in the early 20th century.",
+      "The area sits within the London Borough of Barking and Dagenham.",
+      "Chadwell Heath is on the Great Eastern Main Line towards Essex."
+    ]
+  },
+  {
+    "landmark": "Forest Gate's Victorian terraces",
+    "closest_station": "Forest Gate",
+    "distance_km": 0.5,
+    "difficulty": "hard",
+    "facts": [
+      "Forest Gate developed rapidly with Victorian terraced housing from the 1870s.",
+      "The area takes its name from a former gate into Epping Forest.",
+      "Forest Gate sits in the London Borough of Newham."
+    ]
+  },
+  {
+    "landmark": "Frogmore Paper Mill, Apsley",
+    "closest_station": "Apsley",
+    "distance_km": 0.5,
+    "difficulty": "hard",
+    "facts": [
+      "Frogmore Paper Mill was the site of the world's first successful continuous paper-making machine, in 1803.",
+      "The mill sits on the River Gade in Hertfordshire.",
+      "Apsley developed around the paper-making industry that grew up along the Grand Union Canal."
+    ]
+  }
+]

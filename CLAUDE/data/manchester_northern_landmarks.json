@@ -1,0 +1,552 @@
+[
+  {
+    "landmark": "Manchester Cathedral",
+    "closest_station": "Manchester Victoria",
+    "distance_km": 0.3,
+    "difficulty": "easy",
+    "facts": [
+      "Manchester Cathedral has the widest nave of any cathedral in England.",
+      "It suffered severe bomb damage in the 1940 Manchester Blitz and again in the 1996 IRA bombing nearby.",
+      "Manchester Victoria station sits right beside the cathedral in the city centre."
+    ]
+  },
+  {
+    "landmark": "Science and Industry Museum, Manchester",
+    "closest_station": "Manchester Oxford Road",
+    "distance_km": 1.0,
+    "difficulty": "easy",
+    "facts": [
+      "The museum is built partly on the site of the world's first passenger railway station, Liverpool Road, opened 1830.",
+      "It houses a working replica of the pioneering locomotive Planet.",
+      "Manchester was the site of the Industrial Revolution's cotton-spinning boom, earning the nickname 'Cottonopolis'."
+    ]
+  },
+  {
+    "landmark": "John Rylands Library, Manchester",
+    "closest_station": "Manchester Piccadilly",
+    "distance_km": 1.0,
+    "difficulty": "medium",
+    "facts": [
+      "The library was built in memory of textile magnate John Rylands by his widow, opening in 1900.",
+      "Its neo-Gothic reading room is one of the most striking library interiors in Britain.",
+      "Manchester Piccadilly is the city's principal railway station."
+    ]
+  },
+  {
+    "landmark": "Old Trafford, Manchester United",
+    "closest_station": "Manchester United Football Ground",
+    "distance_km": 0.1,
+    "difficulty": "easy",
+    "facts": [
+      "Old Trafford has been Manchester United's home ground since 1910 and is the largest club football stadium in England.",
+      "The station is only open on match days and major event days.",
+      "It sits close to Old Trafford cricket ground, Lancashire's home venue, a short distance away."
+    ]
+  },
+  {
+    "landmark": "MediaCityUK, Salford Quays",
+    "closest_station": "Salford Central",
+    "distance_km": 2.0,
+    "difficulty": "medium",
+    "facts": [
+      "MediaCityUK is home to major BBC and ITV production studios, opened from 2011.",
+      "Salford Quays was once the busiest part of the Manchester Ship Canal's dock system.",
+      "The Lowry arts centre and Imperial War Museum North both sit within the redeveloped quays."
+    ]
+  },
+  {
+    "landmark": "Manchester Airport",
+    "closest_station": "Manchester Airport",
+    "distance_km": 0.1,
+    "difficulty": "easy",
+    "facts": [
+      "Manchester Airport is the busiest airport in the UK outside London.",
+      "The station sits directly beneath the terminal buildings.",
+      "It is a key interchange for services from across the North West."
+    ]
+  },
+  {
+    "landmark": "Carnforth Station & Brief Encounter",
+    "closest_station": "Carnforth",
+    "distance_km": 0.1,
+    "difficulty": "medium",
+    "facts": [
+      "Carnforth station's clock and platform famously featured in the 1945 film Brief Encounter.",
+      "The station's refreshment room has been restored to its wartime film appearance.",
+      "Carnforth was once a major railway junction on the West Coast Main Line."
+    ]
+  },
+  {
+    "landmark": "Windermere & Lake District National Park",
+    "closest_station": "Windermere",
+    "distance_km": 0.5,
+    "difficulty": "easy",
+    "facts": [
+      "Windermere is England's largest natural lake, over 17 kilometres long.",
+      "The station is the only railhead directly serving the central Lake District.",
+      "The nearby town of Bowness-on-Windermere is a major hub for lake cruises."
+    ]
+  },
+  {
+    "landmark": "Buxton's Pavilion Gardens & Crescent",
+    "closest_station": "Buxton",
+    "distance_km": 0.5,
+    "difficulty": "easy",
+    "facts": [
+      "Buxton was developed as a Georgian and Victorian spa town, exploiting its natural thermal springs.",
+      "The Buxton Crescent, modelled on Bath's Royal Crescent, has been restored as a five-star hotel and spa.",
+      "At over 300 metres above sea level, Buxton is one of the highest market towns in England."
+    ]
+  },
+  {
+    "landmark": "Tatton Park, Knutsford",
+    "closest_station": "Knutsford",
+    "distance_km": 3.0,
+    "difficulty": "medium",
+    "facts": [
+      "Tatton Park is one of the most complete historic estates in England, with a mansion, farm and deer park.",
+      "It hosts the RHS Tatton Park Flower Show each year.",
+      "Knutsford's Georgian streets inspired Elizabeth Gaskell's novel Cranford."
+    ]
+  },
+  {
+    "landmark": "Blackpool Tower (via Blackpool North)",
+    "closest_station": "Blackpool North",
+    "distance_km": 1.5,
+    "difficulty": "easy",
+    "facts": [
+      "Blackpool Tower, opened in 1894, was inspired by the Eiffel Tower and stands 158 metres tall.",
+      "Blackpool's Illuminations have lit the seafront every autumn since 1879.",
+      "Blackpool North is the town's principal railway station."
+    ]
+  },
+  {
+    "landmark": "Preston's Harris Museum",
+    "closest_station": "Preston",
+    "distance_km": 0.5,
+    "difficulty": "medium",
+    "facts": [
+      "The Harris Museum is a grand neoclassical building in the heart of Preston.",
+      "Preston was a centre of the cotton industry and a site of early trade union organisation.",
+      "The Guild Merchant, a civic celebration held roughly every 20 years, dates back to 1179."
+    ]
+  },
+  {
+    "landmark": "Wigan Pier",
+    "closest_station": "Wigan Wallgate",
+    "distance_km": 0.5,
+    "difficulty": "medium",
+    "facts": [
+      "Wigan Pier was made famous by George Orwell's 1937 book The Road to Wigan Pier, documenting industrial poverty.",
+      "The 'pier' was actually a coal loading staithe on the Leeds and Liverpool Canal, not a seaside pier.",
+      "Wigan Wallgate serves the town's canal-side heritage quarter."
+    ]
+  },
+  {
+    "landmark": "Rochdale Pioneers Museum",
+    "closest_station": "Rochdale",
+    "distance_km": 0.5,
+    "difficulty": "medium",
+    "facts": [
+      "The Rochdale Pioneers founded the modern cooperative movement here in 1844.",
+      "Their original shop on Toad Lane is preserved as a museum.",
+      "Rochdale was a major centre of the Lancashire cotton and woollen industries."
+    ]
+  },
+  {
+    "landmark": "Todmorden & the Yorkshire-Lancashire border",
+    "closest_station": "Todmorden",
+    "distance_km": 0.5,
+    "difficulty": "medium",
+    "facts": [
+      "Todmorden sits right on the historic border between Yorkshire and Lancashire.",
+      "Its grand Town Hall, built in 1875, straddles the county boundary.",
+      "The town became known for its 'Incredible Edible' community food-growing movement."
+    ]
+  },
+  {
+    "landmark": "Glossop & the Peak District gateway",
+    "closest_station": "Glossop",
+    "distance_km": 0.5,
+    "difficulty": "medium",
+    "facts": [
+      "Glossop is a gateway town to the Dark Peak, part of the Peak District National Park.",
+      "The town was largely built by the Wood family as a model industrial community in the 19th century.",
+      "Nearby Old Glossop retains a much older medieval street pattern."
+    ]
+  },
+  {
+    "landmark": "Chapel-en-le-Frith's market town charter",
+    "closest_station": "Chapel-en-le-Frith",
+    "distance_km": 0.5,
+    "difficulty": "medium",
+    "facts": [
+      "Chapel-en-le-Frith received its market charter in 1225, one of the oldest in the Peak District.",
+      "The town's name means 'chapel in the forest', reflecting its origins within a royal hunting ground.",
+      "It sits at the southern edge of the Dark Peak moors."
+    ]
+  },
+  {
+    "landmark": "Chinley & the Peak District moors",
+    "closest_station": "Chinley",
+    "distance_km": 1.0,
+    "difficulty": "hard",
+    "facts": [
+      "Chinley was once a significant railway junction, though most of its lines have since closed.",
+      "The village sits beneath Kinder Scout, the highest point in the Peak District.",
+      "Chinley remains a popular base for walkers heading into the Dark Peak."
+    ]
+  },
+  {
+    "landmark": "Marple's Peak Forest Canal aqueduct",
+    "closest_station": "Marple",
+    "distance_km": 0.5,
+    "difficulty": "medium",
+    "facts": [
+      "Marple Aqueduct carries the Peak Forest Canal high above the River Goyt.",
+      "A flight of 16 locks lifts the canal steeply through the town.",
+      "Marple sits on the edge of Greater Manchester, close to the Peak District."
+    ]
+  },
+  {
+    "landmark": "Stockport Air Raid Shelters & Viaduct",
+    "closest_station": "Stockport",
+    "distance_km": 0.3,
+    "difficulty": "easy",
+    "facts": [
+      "Stockport's Victorian railway viaduct, completed in 1840, dominates the town's skyline with 27 brick arches.",
+      "Beneath the town, tunnels once used as air raid shelters sheltered thousands during the Manchester Blitz.",
+      "Stockport was historically a major centre of hat manufacturing."
+    ]
+  },
+  {
+    "landmark": "Alderley Edge",
+    "closest_station": "Alderley Edge",
+    "distance_km": 1.0,
+    "difficulty": "medium",
+    "facts": [
+      "Alderley Edge is a wooded sandstone escarpment linked to legends of a wizard and sleeping knights.",
+      "Author Alan Garner drew on local folklore here for his novel The Weirdstone of Brisingamen.",
+      "The area has a long history of copper mining dating back to the Bronze Age."
+    ]
+  },
+  {
+    "landmark": "Wilmslow & Quarry Bank Mill",
+    "closest_station": "Wilmslow",
+    "distance_km": 2.0,
+    "difficulty": "medium",
+    "facts": [
+      "Quarry Bank Mill, near Wilmslow, is one of the best-preserved Georgian cotton mills in England.",
+      "The mill and its worker housing offer a rare insight into early industrial working life.",
+      "Wilmslow is one of the wealthiest towns in the North West, part of Cheshire's 'Golden Triangle'."
+    ]
+  },
+  {
+    "landmark": "Congleton's bear-baiting legend",
+    "closest_station": "Congleton",
+    "distance_km": 0.5,
+    "difficulty": "hard",
+    "facts": [
+      "Local legend claims the town once sold its Bible fund to buy a new bear for bear-baiting, earning it the nickname 'Congleton Bear Town'.",
+      "Congleton was historically a centre of silk and cotton milling.",
+      "The town sits on the River Dane in Cheshire."
+    ]
+  },
+  {
+    "landmark": "Sandbach's Saxon Crosses",
+    "closest_station": "Sandbach",
+    "distance_km": 0.5,
+    "difficulty": "medium",
+    "facts": [
+      "The Sandbach Crosses are two elaborately carved Anglo-Saxon stone crosses, dating from around the 9th century.",
+      "They stand in the town's cobbled market square.",
+      "Sandbach hosts one of Cheshire's oldest chartered markets."
+    ]
+  },
+  {
+    "landmark": "Northwich's salt mining heritage",
+    "closest_station": "Northwich",
+    "distance_km": 0.7,
+    "difficulty": "medium",
+    "facts": [
+      "Northwich grew around Cheshire's extensive rock salt deposits, mined since Roman times.",
+      "Subsidence from historic salt extraction shaped much of the town's unusual architecture, including moveable buildings.",
+      "The Lion Salt Works, nearby, preserves the area's open-pan salt-making heritage."
+    ]
+  },
+  {
+    "landmark": "Eccles cakes heritage",
+    "closest_station": "Eccles (Manchester)",
+    "distance_km": 0.5,
+    "difficulty": "medium",
+    "facts": [
+      "The Eccles cake, a spiced currant pastry, has been made in the town since at least the 18th century.",
+      "Eccles sits on the Manchester Ship Canal, west of the city centre.",
+      "The original Eccles cake shop is said to date back to 1793."
+    ]
+  },
+  {
+    "landmark": "Barrow-in-Furness shipbuilding & submarines",
+    "closest_station": "Barrow-in-Furness",
+    "distance_km": 1.0,
+    "difficulty": "medium",
+    "facts": [
+      "Barrow's shipyard has built Royal Navy submarines since the late 19th century, including the UK's nuclear deterrent fleet.",
+      "The Dock Museum tells the story of the town's rapid growth around iron and shipbuilding.",
+      "Barrow was once the largest steelworks in the world during the 1870s."
+    ]
+  },
+  {
+    "landmark": "Stan Laurel's birthplace, Ulverston",
+    "closest_station": "Ulverston",
+    "distance_km": 0.5,
+    "difficulty": "medium",
+    "facts": [
+      "Comedian Stan Laurel, of Laurel and Hardy, was born in Ulverston in 1890.",
+      "The Laurel and Hardy Museum in the town holds one of the world's largest collections related to the duo.",
+      "Ulverston also has a distinctive lighthouse-like monument, the Hoad Monument, on a hill above the town."
+    ]
+  },
+  {
+    "landmark": "Grange-over-Sands & Morecambe Bay",
+    "closest_station": "Grange-over-Sands",
+    "distance_km": 0.3,
+    "difficulty": "medium",
+    "facts": [
+      "Grange-over-Sands developed as a genteel Victorian resort after the railway arrived in 1857.",
+      "Its promenade overlooks the treacherous tidal sands of Morecambe Bay.",
+      "The town benefits from a notably mild microclimate, allowing subtropical plants to grow."
+    ]
+  },
+  {
+    "landmark": "Pendle Hill & witch trial heritage (via Colne)",
+    "closest_station": "Colne",
+    "distance_km": 5.0,
+    "difficulty": "medium",
+    "facts": [
+      "Pendle Hill is associated with the 1612 Pendle witch trials, among the most famous in English history.",
+      "Colne is the birthplace of Wallace Hartley, bandleader on the Titanic.",
+      "The town sits at the northern edge of the Lancashire Pennines."
+    ]
+  },
+  {
+    "landmark": "Clitheroe Castle",
+    "closest_station": "Clitheroe",
+    "distance_km": 0.5,
+    "difficulty": "easy",
+    "facts": [
+      "Clitheroe Castle has one of the smallest Norman keeps in England, perched on a limestone outcrop.",
+      "The town sits in the Ribble Valley, an Area of Outstanding Natural Beauty.",
+      "Clitheroe is the terminus of a scenic branch line from Blackburn."
+    ]
+  },
+  {
+    "landmark": "Whalley Abbey",
+    "closest_station": "Whalley (Lancs)",
+    "distance_km": 0.5,
+    "difficulty": "medium",
+    "facts": [
+      "Whalley Abbey was a major Cistercian monastery until its dissolution in 1537.",
+      "The village's 48-arch railway viaduct is one of the longest in Lancashire.",
+      "Whalley sits in the Ribble Valley, close to Clitheroe."
+    ]
+  },
+  {
+    "landmark": "Accrington's brick heritage",
+    "closest_station": "Accrington",
+    "distance_km": 0.5,
+    "difficulty": "medium",
+    "facts": [
+      "Accrington brick, exceptionally hard-wearing, was used in the foundations of the Empire State Building.",
+      "The town's football club gave its name to the phrase 'Accrington Stanley', once used to mean an underdog.",
+      "Accrington grew rapidly during the cotton weaving boom of the 19th century."
+    ]
+  },
+  {
+    "landmark": "Blackburn Cathedral",
+    "closest_station": "Blackburn",
+    "distance_km": 0.5,
+    "difficulty": "easy",
+    "facts": [
+      "Blackburn Cathedral combines a Victorian Gothic nave with a striking modern lantern tower added in the 1960s and 70s.",
+      "Blackburn was one of the great cotton-weaving towns of Lancashire.",
+      "The town's name is thought to derive from a stream once described as 'black burn'."
+    ]
+  },
+  {
+    "landmark": "Bolton's Le Mans Crescent & Market Hall",
+    "closest_station": "Bolton",
+    "distance_km": 0.5,
+    "difficulty": "medium",
+    "facts": [
+      "Bolton's Victorian Market Hall, opened in 1855, remains a bustling covered market today.",
+      "The town was a major cotton-spinning centre, home to inventor Samuel Crompton, creator of the spinning mule.",
+      "Bolton's Le Mans Crescent, a grand civic building, is named for its French twin town."
+    ]
+  },
+  {
+    "landmark": "Bury Market (via connections)",
+    "closest_station": "Bolton",
+    "distance_km": 8.0,
+    "difficulty": "hard",
+    "facts": [
+      "Bury, near Bolton, is renowned for its large open-air market and traditional black pudding.",
+      "The town is connected to Manchester by the East Lancashire heritage railway as well as modern tram links.",
+      "Bolton is the nearest mainline station serving the wider area."
+    ]
+  },
+  {
+    "landmark": "Hale & Bowdon's Cheshire suburbs",
+    "closest_station": "Hale (Manchester)",
+    "distance_km": 0.5,
+    "difficulty": "medium",
+    "facts": [
+      "Hale is one of the most affluent suburbs in Greater Manchester, part of Cheshire's commuter belt.",
+      "The village retains an attractive traditional high street.",
+      "Hale sits close to Altrincham on the Manchester to Chester line."
+    ]
+  },
+  {
+    "landmark": "Altrincham Market",
+    "closest_station": "Altrincham",
+    "distance_km": 0.3,
+    "difficulty": "medium",
+    "facts": [
+      "Altrincham's Market House was regenerated into an award-winning food hall in the 2010s.",
+      "The town received its market charter in 1290, one of the oldest in the North West.",
+      "Altrincham is a major interchange between rail and Manchester's tram network."
+    ]
+  },
+  {
+    "landmark": "Poynton & Cheshire's Golden Triangle",
+    "closest_station": "Poynton",
+    "distance_km": 1.0,
+    "difficulty": "hard",
+    "facts": [
+      "Poynton is part of Cheshire's affluent 'Golden Triangle' of commuter towns.",
+      "The village hosts one of the largest one-day agricultural shows in the North West.",
+      "Poynton sits close to the Peak District boundary."
+    ]
+  },
+  {
+    "landmark": "Hazel Grove & Torkington Park",
+    "closest_station": "Hazel Grove",
+    "distance_km": 1.0,
+    "difficulty": "hard",
+    "facts": [
+      "Hazel Grove developed as a residential suburb on the southeastern edge of Stockport.",
+      "Torkington Park preserves woodland and parkland close to the town centre.",
+      "The area sits close to the boundary of the Peak District National Park."
+    ]
+  },
+  {
+    "landmark": "New Mills & the Torrs Gorge",
+    "closest_station": "New Mills Central",
+    "distance_km": 0.3,
+    "difficulty": "medium",
+    "facts": [
+      "The Torrs Gorge, right beside New Mills, is a dramatic wooded ravine formed by two rivers meeting.",
+      "A network of Victorian mill buildings once lined the gorge, powered by the rivers below.",
+      "New Mills sits on the western edge of the Peak District."
+    ]
+  },
+  {
+    "landmark": "Whaley Bridge & the Peak Forest Canal terminus",
+    "closest_station": "Whaley Bridge",
+    "distance_km": 0.3,
+    "difficulty": "medium",
+    "facts": [
+      "Whaley Bridge marks the terminus of the Peak Forest Canal, close to the Cromford and High Peak Railway's old route.",
+      "The town's reservoir made international headlines in 2019 after dam damage forced a major evacuation.",
+      "Whaley Bridge sits at the western edge of the Peak District."
+    ]
+  },
+  {
+    "landmark": "Leyland's motor industry heritage",
+    "closest_station": "Leyland",
+    "distance_km": 1.0,
+    "difficulty": "medium",
+    "facts": [
+      "Leyland gave its name to Leyland Motors, once one of Britain's largest truck and bus manufacturers.",
+      "The British Commercial Vehicle Museum preserves this history in the town.",
+      "Leyland sits between Preston and Chorley in Lancashire."
+    ]
+  },
+  {
+    "landmark": "Chorley's flat cap and market heritage",
+    "closest_station": "Chorley",
+    "distance_km": 0.5,
+    "difficulty": "medium",
+    "facts": [
+      "Chorley's large indoor and outdoor markets have traded for centuries.",
+      "The town is closely associated with the flat cap as a symbol of Lancashire working-class identity.",
+      "Chorley sits close to the West Pennine Moors."
+    ]
+  },
+  {
+    "landmark": "Earlestown & the Sankey Viaduct",
+    "closest_station": "Earlestown",
+    "distance_km": 1.0,
+    "difficulty": "hard",
+    "facts": [
+      "The Sankey Viaduct, near Earlestown, was part of the original Liverpool and Manchester Railway of 1830.",
+      "It was one of the earliest major railway viaducts built anywhere in the world.",
+      "Earlestown grew as a railway town around wagon works established in the 19th century."
+    ]
+  },
+  {
+    "landmark": "Warrington's Golden Gates",
+    "closest_station": "Warrington Central",
+    "distance_km": 0.5,
+    "difficulty": "medium",
+    "facts": [
+      "Warrington's ornate Golden Gates were originally made for an 1862 London exhibition before being installed in the town.",
+      "Warrington sits on the River Mersey, historically a key crossing point between Liverpool and Manchester.",
+      "The town has been a New Town designation area since 1968, expanding significantly since."
+    ]
+  },
+  {
+    "landmark": "Widnes & the Silver Jubilee Bridge",
+    "closest_station": "Widnes",
+    "distance_km": 1.0,
+    "difficulty": "medium",
+    "facts": [
+      "The Silver Jubilee Bridge links Widnes and Runcorn across the River Mersey.",
+      "Widnes was a major centre of the British chemical industry from the 19th century.",
+      "The town developed rapidly around the Leblanc process for making soda ash."
+    ]
+  },
+  {
+    "landmark": "St Helens & the World of Glass",
+    "closest_station": "St Helens Junction",
+    "distance_km": 2.0,
+    "difficulty": "medium",
+    "facts": [
+      "St Helens has been a centre of British glassmaking since Pilkington Brothers began production in 1826.",
+      "The World of Glass museum tells the story of the town's industry.",
+      "St Helens Junction is one of two stations serving the town, on the Liverpool to Manchester line."
+    ]
+  },
+  {
+    "landmark": "Levenshulme's market heritage",
+    "closest_station": "Levenshulme",
+    "distance_km": 0.5,
+    "difficulty": "hard",
+    "facts": [
+      "Levenshulme has become known for its vibrant independent market and food scene in recent years.",
+      "The area was historically a hub for print and textile trades on the edge of Manchester.",
+      "Levenshulme sits on the line between Manchester Piccadilly and Stockport."
+    ]
+  },
+  {
+    "landmark": "Horwich & the former Loco Works",
+    "closest_station": "Horwich Parkway",
+    "distance_km": 1.5,
+    "difficulty": "hard",
+    "facts": [
+      "Horwich was built around a huge Lancashire and Yorkshire Railway locomotive works, opened in 1886.",
+      "The former works site is now home to the Middlebrook retail and leisure park.",
+      "Horwich Parkway station opened in 1999 to serve the redeveloped site."
+    ]
+  }
+]

@@ -1,0 +1,552 @@
+[
+  {
+    "landmark": "Hadrian's Wall (Corbridge Roman Town)",
+    "closest_station": "Corbridge",
+    "distance_km": 0.8,
+    "difficulty": "easy",
+    "facts": [
+      "Corbridge Roman Town, Corstopitum, was a key supply base just south of Hadrian's Wall.",
+      "It is one of the best-preserved Roman garrison towns in Britain, with granaries still visible.",
+      "Corbridge itself is one of the oldest continuously occupied places in Northumberland."
+    ]
+  },
+  {
+    "landmark": "Vindolanda Roman Fort",
+    "closest_station": "Bardon Mill",
+    "distance_km": 2.0,
+    "difficulty": "medium",
+    "facts": [
+      "Vindolanda is famous for the Vindolanda Tablets, the oldest surviving handwritten documents in Britain.",
+      "The fort predates Hadrian's Wall itself, with the earliest occupation around 85 AD.",
+      "Bardon Mill is the nearest station, with the fort reached by a short bus or taxi ride."
+    ]
+  },
+  {
+    "landmark": "Hadrian's Wall at Haltwhistle",
+    "closest_station": "Haltwhistle",
+    "distance_km": 3.0,
+    "difficulty": "medium",
+    "facts": [
+      "Haltwhistle promotes itself as the official centre of Britain, roughly equidistant from all coasts.",
+      "The town sits close to some of the best-preserved sections of Hadrian's Wall.",
+      "Haltwhistle is a key stopping point on the scenic Tyne Valley Line."
+    ]
+  },
+  {
+    "landmark": "Hexham Abbey",
+    "closest_station": "Hexham",
+    "distance_km": 0.5,
+    "difficulty": "easy",
+    "facts": [
+      "Hexham Abbey was founded in 674 AD and retains one of the oldest intact Anglo-Saxon crypts in England.",
+      "Its Night Stair is thought to be the oldest surviving stairway in England.",
+      "Hexham is the main market town of the Tyne Valley."
+    ]
+  },
+  {
+    "landmark": "Newcastle's Grainger Market & Castle Keep",
+    "closest_station": "Newcastle",
+    "distance_km": 0.5,
+    "difficulty": "easy",
+    "facts": [
+      "The Castle Keep, from which Newcastle takes its name, was built in the 12th century by Henry II.",
+      "The 'New Castle' replaced an earlier Norman motte-and-bailey fortification.",
+      "Newcastle Central station itself is a Grade I listed masterpiece of Victorian railway architecture."
+    ]
+  },
+  {
+    "landmark": "Tyne Bridge",
+    "closest_station": "Newcastle",
+    "distance_km": 0.5,
+    "difficulty": "easy",
+    "facts": [
+      "The Tyne Bridge, opened in 1928, became a template for the larger Sydney Harbour Bridge.",
+      "It connects Newcastle to Gateshead across the River Tyne.",
+      "The bridge is one of the most recognisable symbols of the North East of England."
+    ]
+  },
+  {
+    "landmark": "Angel of the North (via MetroCentre)",
+    "closest_station": "MetroCentre",
+    "distance_km": 3.0,
+    "difficulty": "medium",
+    "facts": [
+      "The Angel of the North, by sculptor Antony Gormley, stands 20 metres tall with a wingspan of 54 metres.",
+      "It was erected in 1998 on the site of a former colliery pithead baths.",
+      "MetroCentre itself is one of the largest shopping centres in Europe."
+    ]
+  },
+  {
+    "landmark": "George Stephenson's Birthplace, Wylam",
+    "closest_station": "Wylam",
+    "distance_km": 1.0,
+    "difficulty": "medium",
+    "facts": [
+      "George Stephenson, the 'Father of Railways', was born in a cottage at Wylam in 1781.",
+      "His birthplace cottage sits directly beside the waggonway that first inspired his interest in engines.",
+      "Wylam is on the scenic Tyne Valley Line between Newcastle and Hexham."
+    ]
+  },
+  {
+    "landmark": "Prudhoe Castle",
+    "closest_station": "Prudhoe",
+    "distance_km": 0.5,
+    "difficulty": "medium",
+    "facts": [
+      "Prudhoe Castle is the only Northumberland castle never captured by the Scots, despite several sieges.",
+      "It overlooks the River Tyne from a naturally defensible position.",
+      "Prudhoe sits on the Tyne Valley Line between Newcastle and Hexham."
+    ]
+  },
+  {
+    "landmark": "Durham Cathedral (via Chester-le-Street)",
+    "closest_station": "Chester-le-Street",
+    "distance_km": 8.0,
+    "difficulty": "hard",
+    "facts": [
+      "Durham Cathedral is regarded as one of the finest examples of Norman architecture in Europe.",
+      "It holds the shrine of St Cuthbert and the tomb of the Venerable Bede.",
+      "Chester-le-Street is a nearby station, with Durham itself served by other lines."
+    ]
+  },
+  {
+    "landmark": "Lumley Castle, Chester-le-Street",
+    "closest_station": "Chester-le-Street",
+    "distance_km": 1.5,
+    "difficulty": "medium",
+    "facts": [
+      "Lumley Castle, now a hotel, dates from the 14th century and overlooks the Durham cricket ground.",
+      "Chester-le-Street takes its name from a Roman fort, Concangis, on the site.",
+      "The Riverside cricket ground nearby has hosted international Test matches."
+    ]
+  },
+  {
+    "landmark": "Whitby Abbey",
+    "closest_station": "Whitby",
+    "distance_km": 0.8,
+    "difficulty": "easy",
+    "facts": [
+      "The ruined Whitby Abbey inspired Bram Stoker's Dracula after his visit to the town in 1890.",
+      "Captain James Cook served his maritime apprenticeship in Whitby before his voyages of exploration.",
+      "Whitby's 199 steps lead from the harbour up to the abbey and St Mary's Church."
+    ]
+  },
+  {
+    "landmark": "Captain Cook Memorial Museum, Whitby",
+    "closest_station": "Whitby",
+    "distance_km": 0.3,
+    "difficulty": "medium",
+    "facts": [
+      "The museum is housed in the house where Cook lodged as a young apprentice.",
+      "Whitby's harbour was a major centre of whaling and shipbuilding in the 18th century.",
+      "Whitby jet, a black gemstone found in local cliffs, was hugely fashionable in Victorian mourning jewellery."
+    ]
+  },
+  {
+    "landmark": "North Yorkshire Moors Railway (Grosmont)",
+    "closest_station": "Grosmont",
+    "distance_km": 0.1,
+    "difficulty": "medium",
+    "facts": [
+      "Grosmont is the northern terminus of the North Yorkshire Moors Railway, a heritage steam line.",
+      "The line has featured in films and TV including Heartbeat and the Harry Potter series.",
+      "Grosmont also connects to the national rail network, linking to Whitby."
+    ]
+  },
+  {
+    "landmark": "Captain Cook's Birthplace, Great Ayton",
+    "closest_station": "Great Ayton",
+    "distance_km": 0.5,
+    "difficulty": "medium",
+    "facts": [
+      "Captain James Cook grew up in Great Ayton, though his original birthplace cottage was relocated to Australia in 1934.",
+      "A granite obelisk in the village marks the site of the original cottage.",
+      "Great Ayton sits at the foot of the North York Moors."
+    ]
+  },
+  {
+    "landmark": "Locomotion, Shildon",
+    "closest_station": "Shildon",
+    "distance_km": 0.3,
+    "difficulty": "easy",
+    "facts": [
+      "Shildon was a key construction town for the Stockton and Darlington Railway, the world's first public railway to use steam locomotives, opened in 1825.",
+      "The Locomotion museum, a National Railway Museum outpost, displays historic locomotives free of charge.",
+      "Shildon is sometimes called the 'cradle of the railways'."
+    ]
+  },
+  {
+    "landmark": "Head of Steam, Darlington",
+    "closest_station": "North Road (Darlington)",
+    "distance_km": 0.3,
+    "difficulty": "medium",
+    "facts": [
+      "North Road station is one of the oldest railway stations in the world, opened in 1842.",
+      "The Head of Steam museum here displays Locomotion No. 1, used on the pioneering 1825 Stockton and Darlington Railway.",
+      "Darlington was, alongside Stockton, at the very birthplace of the modern railway."
+    ]
+  },
+  {
+    "landmark": "Auckland Castle, Bishop Auckland",
+    "closest_station": "Bishop Auckland",
+    "distance_km": 0.5,
+    "difficulty": "medium",
+    "facts": [
+      "Auckland Castle has been the residence of the Bishops of Durham for over 900 years.",
+      "It now houses an important collection of paintings by Spanish master Francisco de Zurbaran.",
+      "Bishop Auckland sits on the River Wear in County Durham."
+    ]
+  },
+  {
+    "landmark": "Saltburn Cliff Tramway",
+    "closest_station": "Saltburn",
+    "distance_km": 0.3,
+    "difficulty": "easy",
+    "facts": [
+      "Saltburn's water-balanced cliff lift, opened in 1884, is the oldest of its kind still operating in Britain.",
+      "The Victorian resort was purpose-built by industrialist Henry Pease from the 1860s.",
+      "Saltburn's pier is the only remaining pleasure pier on the Yorkshire coast."
+    ]
+  },
+  {
+    "landmark": "Redcar's steelworking heritage",
+    "closest_station": "Redcar Central",
+    "distance_km": 0.5,
+    "difficulty": "medium",
+    "facts": [
+      "Redcar was home to one of the UK's largest steelworks until its closure in 2015.",
+      "The town has a long sandy beach and a history as a Victorian seaside resort.",
+      "Redcar British Steel station, nearby, was named for the works it once served directly."
+    ]
+  },
+  {
+    "landmark": "Middlesbrough Transporter Bridge",
+    "closest_station": "Middlesbrough",
+    "distance_km": 1.5,
+    "difficulty": "medium",
+    "facts": [
+      "The Middlesbrough Transporter Bridge, opened in 1911, is the longest surviving transporter bridge in the world.",
+      "Middlesbrough grew explosively during the 19th century, dubbed 'the infant Hercules' for its rapid industrial growth.",
+      "The town became a major centre of iron and steel production."
+    ]
+  },
+  {
+    "landmark": "Stockton & the world's first passenger railway",
+    "closest_station": "Stockton",
+    "distance_km": 0.5,
+    "difficulty": "medium",
+    "facts": [
+      "The Stockton and Darlington Railway, opened in 1825, was the world's first railway to carry fare-paying passengers using steam locomotives.",
+      "Stockton's high street is one of the widest in England, once used as a market and fairground.",
+      "The town sits on the River Tees."
+    ]
+  },
+  {
+    "landmark": "National Glass Centre, Sunderland",
+    "closest_station": "Sunderland",
+    "distance_km": 1.0,
+    "difficulty": "medium",
+    "facts": [
+      "Sunderland has a glassmaking tradition stretching back to the 7th century, among the oldest in England.",
+      "The National Glass Centre sits on the banks of the River Wear, celebrating this heritage.",
+      "Sunderland was once the largest shipbuilding town in the world."
+    ]
+  },
+  {
+    "landmark": "Seaham Hall & Byron's wedding",
+    "closest_station": "Seaham",
+    "distance_km": 1.0,
+    "difficulty": "medium",
+    "facts": [
+      "Poet Lord Byron married Anne Isabella Milbanke at Seaham Hall in 1815.",
+      "Seaham developed rapidly as a coal-exporting harbour town in the 19th century.",
+      "The town's coastline includes dramatic cliffs and a coastal heritage trail."
+    ]
+  },
+  {
+    "landmark": "Ashington's 'Pitmen Painters'",
+    "closest_station": "Ashington",
+    "distance_km": 0.5,
+    "difficulty": "medium",
+    "facts": [
+      "The Ashington Group, a collective of miner-artists, became known as the 'Pitmen Painters' from the 1930s.",
+      "Ashington produced an unusually high number of professional footballers relative to its size, including Jackie Milburn and the Charlton brothers.",
+      "The town grew rapidly around coal mining in the 19th and early 20th centuries."
+    ]
+  },
+  {
+    "landmark": "Alnwick Castle (via Alnmouth)",
+    "closest_station": "Alnmouth",
+    "distance_km": 6.0,
+    "difficulty": "medium",
+    "facts": [
+      "Alnwick Castle has been used as a filming location for the Harry Potter films, doubling as Hogwarts.",
+      "It is the second-largest inhabited castle in England, after Windsor.",
+      "Alnmouth is the nearest railway station, with Alnwick reached by bus."
+    ]
+  },
+  {
+    "landmark": "Morpeth's Chantry & bagpipe museum",
+    "closest_station": "Morpeth",
+    "distance_km": 0.5,
+    "difficulty": "medium",
+    "facts": [
+      "Morpeth's Chantry building houses the Northumbrian pipes, a distinctive bellows-blown bagpipe.",
+      "The town is the county town of Northumberland.",
+      "Morpeth sits on the River Wansbeck."
+    ]
+  },
+  {
+    "landmark": "Blaydon Races heritage",
+    "closest_station": "Blaydon",
+    "distance_km": 0.5,
+    "difficulty": "medium",
+    "facts": [
+      "The traditional song 'Blaydon Races' celebrates a real horse race meeting held here in the 19th century.",
+      "The song remains an unofficial anthem of Tyneside.",
+      "Blaydon sits on the south bank of the Tyne, opposite Newcastle."
+    ]
+  },
+  {
+    "landmark": "Senhouse Roman Museum, Maryport",
+    "closest_station": "Maryport",
+    "distance_km": 0.5,
+    "difficulty": "medium",
+    "facts": [
+      "Maryport was the site of a major Roman fort, Alauna, guarding the Cumbrian coast beyond Hadrian's Wall.",
+      "The Senhouse Museum holds one of the largest collections of Roman military altars in Britain.",
+      "Maryport was later developed as a planned Georgian port town."
+    ]
+  },
+  {
+    "landmark": "Workington's ironworking history",
+    "closest_station": "Workington",
+    "distance_km": 0.5,
+    "difficulty": "medium",
+    "facts": [
+      "Workington was a major centre of iron and steel production, particularly rail manufacturing.",
+      "Mary, Queen of Scots landed at Workington in 1568 after fleeing Scotland.",
+      "The town sits at the mouth of the River Derwent on the Cumbrian coast."
+    ]
+  },
+  {
+    "landmark": "Carlisle Cathedral",
+    "closest_station": "Carlisle",
+    "distance_km": 0.5,
+    "difficulty": "easy",
+    "facts": [
+      "Carlisle Cathedral is one of the smallest cathedrals in England, partly demolished during the Civil War for building material.",
+      "Carlisle Castle, nearby, has one of the longest sieges in English history behind it.",
+      "Carlisle sits close to both Hadrian's Wall and the Scottish border."
+    ]
+  },
+  {
+    "landmark": "Bedlington's terrier heritage",
+    "closest_station": "Bedlington",
+    "distance_km": 0.5,
+    "difficulty": "hard",
+    "facts": [
+      "The Bedlington Terrier dog breed takes its name from the town, developed by mining communities in the 1800s.",
+      "Bedlington was historically a coal mining town in Northumberland.",
+      "The town sits on the River Blyth."
+    ]
+  },
+  {
+    "landmark": "Hartlepool's HMS Trincomalee",
+    "closest_station": "Hartlepool",
+    "distance_km": 0.5,
+    "difficulty": "medium",
+    "facts": [
+      "HMS Trincomalee, launched in 1817, is the oldest British warship still afloat.",
+      "It forms the centrepiece of Hartlepool's National Museum of the Royal Navy.",
+      "Hartlepool's headland has a long maritime and fishing history dating back centuries."
+    ]
+  },
+  {
+    "landmark": "James Cook University Hospital area",
+    "closest_station": "James Cook University Hospital",
+    "distance_km": 0.1,
+    "difficulty": "medium",
+    "facts": [
+      "The station serves one of the largest teaching hospitals in the North East of England.",
+      "It is named after Captain James Cook, born nearby in Marton.",
+      "The hospital station opened specifically to serve staff, patients and visitors."
+    ]
+  },
+  {
+    "landmark": "Captain Cook's birthplace, Marton",
+    "closest_station": "Marton",
+    "distance_km": 0.5,
+    "difficulty": "medium",
+    "facts": [
+      "James Cook was born in Marton in 1728, now part of Middlesbrough.",
+      "A museum and memorial garden mark the site of his birthplace cottage.",
+      "Marton sits just south of Middlesbrough's town centre."
+    ]
+  },
+  {
+    "landmark": "Eaglescliffe's Tees Valley setting",
+    "closest_station": "Eaglescliffe",
+    "distance_km": 1.0,
+    "difficulty": "hard",
+    "facts": [
+      "Eaglescliffe sits on the River Tees, close to the historic town of Yarm.",
+      "The area developed rapidly as a residential suburb serving Stockton and Darlington.",
+      "Eaglescliffe is a key junction station on the line towards Northallerton."
+    ]
+  },
+  {
+    "landmark": "Newton Aycliffe's new town history",
+    "closest_station": "Newton Aycliffe",
+    "distance_km": 1.0,
+    "difficulty": "medium",
+    "facts": [
+      "Newton Aycliffe was designated one of Britain's first post-war new towns in 1947.",
+      "The site was previously home to a huge munitions factory during the Second World War, nicknamed 'Aycliffe Angels' for its female workforce.",
+      "The town was built partly to house workers for new industries in County Durham."
+    ]
+  },
+  {
+    "landmark": "Heighington & the earliest railway junction",
+    "closest_station": "Heighington",
+    "distance_km": 0.5,
+    "difficulty": "hard",
+    "facts": [
+      "Locomotion No. 1 was assembled near Heighington before its historic first run on the Stockton and Darlington Railway.",
+      "Heighington remains one of the oldest railway station sites in the world still in use.",
+      "The village retains a traditional green at its centre."
+    ]
+  },
+  {
+    "landmark": "Sunderland's Stadium of Light area",
+    "closest_station": "Sunderland",
+    "distance_km": 1.5,
+    "difficulty": "medium",
+    "facts": [
+      "The Stadium of Light stands on the site of the former Wearmouth Colliery.",
+      "Sunderland's name reflects its origin as land 'sundered' from the monastery at Monkwearmouth.",
+      "The city has a long tradition of shipbuilding and coal mining along the River Wear."
+    ]
+  },
+  {
+    "landmark": "Seaton Delaval Hall",
+    "closest_station": "Seaton Delaval",
+    "distance_km": 2.0,
+    "difficulty": "medium",
+    "facts": [
+      "Seaton Delaval Hall is considered one of architect John Vanbrugh's finest works, completed in 1728.",
+      "The hall suffered a major fire in 1822 that gutted its central block.",
+      "It is now cared for by the National Trust."
+    ]
+  },
+  {
+    "landmark": "Northumberlandia (via Cramlington)",
+    "closest_station": "Cramlington",
+    "distance_km": 3.0,
+    "difficulty": "hard",
+    "facts": [
+      "Northumberlandia is a huge landform sculpture in the shape of a reclining female figure, formed from surplus quarry material.",
+      "At 400 metres long, it is one of the largest human landform sculptures in the world.",
+      "Cramlington is a new town developed from the 1960s onward in southeast Northumberland."
+    ]
+  },
+  {
+    "landmark": "Wetheral & the Corby Bridge viaduct",
+    "closest_station": "Wetheral",
+    "distance_km": 0.5,
+    "difficulty": "hard",
+    "facts": [
+      "Wetheral's red sandstone railway viaduct, completed in 1834, carries the line high above the River Eden.",
+      "The village sits within the Eden Valley, close to Carlisle.",
+      "Wetheral Priory Gatehouse, a National Trust property, stands nearby."
+    ]
+  },
+  {
+    "landmark": "Bishop Auckland's Kynren outdoor show",
+    "closest_station": "Bishop Auckland",
+    "distance_km": 1.0,
+    "difficulty": "hard",
+    "facts": [
+      "Kynren is a large-scale outdoor performance telling the story of England, staged near Auckland Castle.",
+      "The show involves hundreds of volunteer performers and live animals.",
+      "Bishop Auckland has become a growing destination for cultural tourism in recent years."
+    ]
+  },
+  {
+    "landmark": "Whitby's swing bridge",
+    "closest_station": "Whitby",
+    "distance_km": 0.2,
+    "difficulty": "medium",
+    "facts": [
+      "Whitby's harbour swing bridge divides the town's upper and lower harbours, opening for fishing and pleasure boats.",
+      "The town remains a working fishing port alongside its tourist trade.",
+      "Whitby's kipper smokehouses continue a centuries-old herring-curing tradition."
+    ]
+  },
+  {
+    "landmark": "Danby & the Moors National Park Centre",
+    "closest_station": "Danby",
+    "distance_km": 1.0,
+    "difficulty": "hard",
+    "facts": [
+      "The North York Moors National Park Centre near Danby introduces visitors to the surrounding moorland landscape.",
+      "Danby sits in Eskdale, one of the principal valleys of the North York Moors.",
+      "The Esk Valley Line, connecting Middlesbrough and Whitby, is considered one of England's most scenic branch lines."
+    ]
+  },
+  {
+    "landmark": "Goathland (via Grosmont) & Aidensfield/Hogsmeade filming",
+    "closest_station": "Grosmont",
+    "distance_km": 5.0,
+    "difficulty": "medium",
+    "facts": [
+      "Nearby Goathland doubled as Aidensfield in the long-running TV series Heartbeat.",
+      "Goathland station also appeared as Hogsmeade station in the Harry Potter films.",
+      "Grosmont connects the heritage North Yorkshire Moors Railway to the national network."
+    ]
+  },
+  {
+    "landmark": "MIMA, Middlesbrough Institute of Modern Art",
+    "closest_station": "Middlesbrough",
+    "distance_km": 1.0,
+    "difficulty": "medium",
+    "facts": [
+      "MIMA opened in 2007 as part of Middlesbrough's efforts to reinvent itself through culture.",
+      "The gallery holds significant collections of jewellery and applied art alongside contemporary works.",
+      "It sits within Centre Square, part of the town's post-industrial regeneration."
+    ]
+  },
+  {
+    "landmark": "Billingham's chemical industry heritage",
+    "closest_station": "Billingham",
+    "distance_km": 0.5,
+    "difficulty": "hard",
+    "facts": [
+      "Billingham grew rapidly around ICI's huge chemical works, established in the 1920s.",
+      "The town was a planned development built to house the growing industrial workforce.",
+      "Billingham sits on the north bank of the River Tees."
+    ]
+  },
+  {
+    "landmark": "Redcar East & the Stray beach",
+    "closest_station": "Redcar East",
+    "distance_km": 0.5,
+    "difficulty": "medium",
+    "facts": [
+      "Redcar East serves the eastern end of Redcar's long sandy beach, known locally as the Stray.",
+      "The town has hosted horse racing on its sands since Victorian times.",
+      "Redcar sits on the Yorkshire coast just south of the Tees estuary."
+    ]
+  },
+  {
+    "landmark": "Egton Bridge & the Esk Valley",
+    "closest_station": "Egton",
+    "distance_km": 1.0,
+    "difficulty": "hard",
+    "facts": [
+      "Egton Bridge holds an annual gooseberry show, a centuries-old local tradition.",
+      "The village sits in the wooded Esk Valley within the North York Moors.",
+      "Egton station lies on the scenic branch line between Middlesbrough and Whitby."
+    ]
+  }
+]

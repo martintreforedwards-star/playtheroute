@@ -1,0 +1,552 @@
+[
+  {
+    "landmark": "Edinburgh Castle",
+    "closest_station": "Edinburgh Waverley",
+    "distance_km": 1.0,
+    "difficulty": "easy",
+    "facts": [
+      "The castle sits atop Castle Rock, an extinct volcanic plug, with evidence of occupation since the Iron Age.",
+      "It fires the One O'Clock Gun every day except Sunday, a tradition dating from 1861.",
+      "Edinburgh Waverley sits in a valley directly below the castle, once a loch that was drained."
+    ]
+  },
+  {
+    "landmark": "Palace of Holyroodhouse",
+    "closest_station": "Edinburgh Waverley",
+    "distance_km": 1.0,
+    "difficulty": "easy",
+    "facts": [
+      "Holyroodhouse is the official residence of the monarch in Scotland, at the foot of the Royal Mile.",
+      "Mary, Queen of Scots lived here, and her secretary Rizzio was murdered in her chambers in 1566.",
+      "The palace sits beside the ruins of Holyrood Abbey, founded in 1128."
+    ]
+  },
+  {
+    "landmark": "Arthur's Seat",
+    "closest_station": "Edinburgh Waverley",
+    "distance_km": 2.0,
+    "difficulty": "medium",
+    "facts": [
+      "Arthur's Seat is the main peak of a group of hills formed from an extinct volcano.",
+      "It rises 251 metres above the city, offering panoramic views over Edinburgh.",
+      "The hill sits within Holyrood Park, a royal park in the heart of the city."
+    ]
+  },
+  {
+    "landmark": "Forth Bridge",
+    "closest_station": "Dalmeny",
+    "distance_km": 1.0,
+    "difficulty": "easy",
+    "facts": [
+      "The Forth Bridge, opened in 1890, was the first major structure in Britain built of steel.",
+      "It is a UNESCO World Heritage Site, celebrated as a masterpiece of Victorian engineering.",
+      "Dalmeny station sits on the south side, right beside the bridge's approach."
+    ]
+  },
+  {
+    "landmark": "Forth Bridge (north view)",
+    "closest_station": "North Queensferry",
+    "distance_km": 0.5,
+    "difficulty": "easy",
+    "facts": [
+      "North Queensferry sits directly beneath the Forth Bridge on its Fife side.",
+      "The village takes its name from Queen Margaret, who used the crossing here in the 11th century.",
+      "Deep Sea World, a large aquarium, is built into a former quarry beside the village."
+    ]
+  },
+  {
+    "landmark": "Linlithgow Palace",
+    "closest_station": "Linlithgow",
+    "distance_km": 0.6,
+    "difficulty": "easy",
+    "facts": [
+      "Linlithgow Palace was the birthplace of Mary, Queen of Scots, in 1542.",
+      "The ruined palace sits on the shore of Linlithgow Loch.",
+      "It was accidentally burned by Hanoverian troops in 1746 and never rebuilt."
+    ]
+  },
+  {
+    "landmark": "Dunfermline Abbey",
+    "closest_station": "Dunfermline City",
+    "distance_km": 0.5,
+    "difficulty": "easy",
+    "facts": [
+      "Robert the Bruce is buried in Dunfermline Abbey, marked by a large brass plaque.",
+      "Dunfermline served as the capital of Scotland during the reign of Malcolm III in the 11th century.",
+      "The abbey grounds also include the ruins of the medieval royal palace."
+    ]
+  },
+  {
+    "landmark": "Bass Rock (via North Berwick)",
+    "closest_station": "North Berwick",
+    "distance_km": 5.0,
+    "difficulty": "medium",
+    "facts": [
+      "Bass Rock hosts the world's largest colony of northern gannets, over 150,000 birds.",
+      "The rock also once held a notorious prison, used to hold Covenanter prisoners in the 17th century.",
+      "North Berwick is a genteel seaside golfing town on the Firth of Forth."
+    ]
+  },
+  {
+    "landmark": "John Muir's birthplace, Dunbar",
+    "closest_station": "Dunbar",
+    "distance_km": 0.5,
+    "difficulty": "medium",
+    "facts": [
+      "John Muir, the father of the US national parks movement, was born in Dunbar in 1838.",
+      "Dunbar Castle's ruins overlook the harbour, largely destroyed by cannon fire in the 16th century.",
+      "The John Muir Way, a long-distance path, runs from Dunbar across Scotland."
+    ]
+  },
+  {
+    "landmark": "Gleneagles Hotel & golf courses",
+    "closest_station": "Gleneagles",
+    "distance_km": 1.0,
+    "difficulty": "medium",
+    "facts": [
+      "Gleneagles hosted the 2014 Ryder Cup on its PGA Centenary Course.",
+      "The hotel opened in 1924, built by the Caledonian Railway to attract wealthy rail travellers.",
+      "Gleneagles station itself was purpose-built to serve the resort."
+    ]
+  },
+  {
+    "landmark": "Musselburgh Racecourse & 'the Old Course'",
+    "closest_station": "Musselburgh",
+    "distance_km": 1.0,
+    "difficulty": "medium",
+    "facts": [
+      "Musselburgh Links is recognised by Guinness World Records as the oldest golf course still in use, dating to at least 1672.",
+      "Musselburgh Racecourse sits within the same historic links.",
+      "The town is nicknamed 'the Honest Toun' after a local legend involving Mary, Queen of Scots."
+    ]
+  },
+  {
+    "landmark": "Abbotsford House (via Tweedbank)",
+    "closest_station": "Tweedbank",
+    "distance_km": 3.0,
+    "difficulty": "medium",
+    "facts": [
+      "Abbotsford was the home of novelist Sir Walter Scott, designed largely to his own eccentric taste.",
+      "Tweedbank is the southern terminus of the Scottish Borders Railway, reopened in 2015.",
+      "It was the longest new domestic railway built in Britain for over a century."
+    ]
+  },
+  {
+    "landmark": "Melrose Abbey (via Tweedbank)",
+    "closest_station": "Tweedbank",
+    "distance_km": 2.0,
+    "difficulty": "medium",
+    "facts": [
+      "Melrose Abbey is said to hold the buried heart of Robert the Bruce.",
+      "The abbey ruins are known for their intricate carved stonework, including a bagpipe-playing pig gargoyle.",
+      "Tweedbank is a short bus ride from the abbey in the town of Melrose."
+    ]
+  },
+  {
+    "landmark": "Galashiels' textile heritage",
+    "closest_station": "Galashiels",
+    "distance_km": 0.6,
+    "difficulty": "medium",
+    "facts": [
+      "Galashiels was a major centre of the Scottish tweed and woollen industry from the 18th century onwards.",
+      "The town's name is thought to derive from 'gala' (a local stream) and 'shiels' (shelters).",
+      "Galashiels lies on the Scottish Borders Railway, reopened in 2015."
+    ]
+  },
+  {
+    "landmark": "Rosyth Naval Dockyard",
+    "closest_station": "Rosyth",
+    "distance_km": 1.0,
+    "difficulty": "medium",
+    "facts": [
+      "Rosyth Dockyard has serviced Royal Navy vessels since it opened in 1916.",
+      "It built and maintains the Royal Navy's Queen Elizabeth-class aircraft carriers.",
+      "Rosyth also hosted a ferry service to Zeebrugge, Belgium, for a number of years."
+    ]
+  },
+  {
+    "landmark": "Kirkcaldy & Adam Smith's birthplace",
+    "closest_station": "Kirkcaldy",
+    "distance_km": 0.7,
+    "difficulty": "medium",
+    "facts": [
+      "Economist Adam Smith, author of The Wealth of Nations, was born in Kirkcaldy in 1723.",
+      "The town was once known as 'the Lang Toun' for its unusually long high street.",
+      "Kirkcaldy was historically a centre of linoleum manufacturing."
+    ]
+  },
+  {
+    "landmark": "National Mining Museum Scotland",
+    "closest_station": "Newtongrange",
+    "distance_km": 0.3,
+    "difficulty": "medium",
+    "facts": [
+      "The museum is housed at the former Lady Victoria Colliery, one of the best-preserved Victorian collieries in Europe.",
+      "Newtongrange was purpose-built as a model mining village in the late 19th century.",
+      "Coal mining was the dominant industry across Midlothian until the mid-20th century."
+    ]
+  },
+  {
+    "landmark": "Aberdour Castle",
+    "closest_station": "Aberdour",
+    "distance_km": 0.4,
+    "difficulty": "easy",
+    "facts": [
+      "Aberdour Castle is one of the oldest datable standing castles in Scotland, parts dating to around 1200.",
+      "The village's Silver Sands beach has been awarded Blue Flag status.",
+      "Aberdour sits on the Fife coast opposite Edinburgh across the Firth of Forth."
+    ]
+  },
+  {
+    "landmark": "Burntisland's Highland Games",
+    "closest_station": "Burntisland",
+    "distance_km": 0.5,
+    "difficulty": "medium",
+    "facts": [
+      "Burntisland claims to hold the oldest continuously running Highland Games in the world, dating to 1652.",
+      "The town's Links hosted one of Scotland's earliest recorded golf matches.",
+      "Burntisland was also a key ferry point across the Forth before the rail bridge was built."
+    ]
+  },
+  {
+    "landmark": "Loch Leven Castle (via Cowdenbeath)",
+    "closest_station": "Cowdenbeath",
+    "distance_km": 8.0,
+    "difficulty": "hard",
+    "facts": [
+      "Mary, Queen of Scots was imprisoned on the island castle of Loch Leven in 1567, where she abdicated.",
+      "Cowdenbeath was historically known as a coal-mining town, nicknamed 'the Chicago of Fife'.",
+      "The town retains one of Scotland's oldest football clubs, Cowdenbeath F.C."
+    ]
+  },
+  {
+    "landmark": "Lochgelly's mining heritage",
+    "closest_station": "Lochgelly",
+    "distance_km": 0.5,
+    "difficulty": "hard",
+    "facts": [
+      "Lochgelly grew rapidly during the 19th-century Fife coal boom.",
+      "The town gave its name to the 'lochgelly tawse', a leather strap once used for corporal punishment in Scottish schools.",
+      "Lochgelly Loch, once heavily polluted by mining, has since been restored as a country park."
+    ]
+  },
+  {
+    "landmark": "Glenrothes new town",
+    "closest_station": "Glenrothes with Thornton",
+    "distance_km": 3.0,
+    "difficulty": "medium",
+    "facts": [
+      "Glenrothes was designated one of Scotland's post-war new towns in 1948, originally planned around a coal mine.",
+      "The town is known for its extensive programme of public art integrated into its housing estates.",
+      "Glenrothes with Thornton station serves the town from a location outside the centre."
+    ]
+  },
+  {
+    "landmark": "Leven's seafront regeneration",
+    "closest_station": "Leven",
+    "distance_km": 0.5,
+    "difficulty": "medium",
+    "facts": [
+      "Leven's railway station reopened in 2024 after the line had been closed to passengers since 1969.",
+      "The town sits at the mouth of the River Leven on the Fife coast.",
+      "Leven Links is one of the oldest golf courses in the world, in continuous use since the 1820s."
+    ]
+  },
+  {
+    "landmark": "Markinch & Fife's whisky heritage",
+    "closest_station": "Markinch",
+    "distance_km": 0.5,
+    "difficulty": "hard",
+    "facts": [
+      "Markinch was long associated with the Haig whisky blending and bottling business.",
+      "The town's parish church tower dates from the 12th century.",
+      "Markinch sits close to the larger town of Glenrothes."
+    ]
+  },
+  {
+    "landmark": "Cameron Bridge Distillery",
+    "closest_station": "Cameron Bridge",
+    "distance_km": 0.3,
+    "difficulty": "hard",
+    "facts": [
+      "Cameron Bridge is one of the largest grain whisky distilleries in Scotland, founded in 1824.",
+      "It produces spirit used in many well-known blended whisky and gin brands.",
+      "The station is a small halt serving the distillery and surrounding countryside."
+    ]
+  },
+  {
+    "landmark": "Kinghorn & Alexander III's death site",
+    "closest_station": "Kinghorn",
+    "distance_km": 1.0,
+    "difficulty": "hard",
+    "facts": [
+      "King Alexander III of Scotland died near Kinghorn in 1286 after falling from his horse in the dark.",
+      "His death triggered a succession crisis that eventually led to the Wars of Scottish Independence.",
+      "Kinghorn has a sandy beach on the Firth of Forth, popular with day-trippers from Edinburgh."
+    ]
+  },
+  {
+    "landmark": "Bathgate & the Bathgate Hills",
+    "closest_station": "Bathgate",
+    "distance_km": 1.5,
+    "difficulty": "medium",
+    "facts": [
+      "The Bathgate Hills offer walking routes with views across the Forth Valley.",
+      "Bathgate was once a centre for shale oil extraction, an industry pioneered in this part of Scotland.",
+      "Comedian and actor Robbie Coltrane was born in the town."
+    ]
+  },
+  {
+    "landmark": "Armadale & West Lothian's industrial past",
+    "closest_station": "Armadale",
+    "distance_km": 0.5,
+    "difficulty": "hard",
+    "facts": [
+      "Armadale grew rapidly during the 19th-century shale oil and coal mining boom in West Lothian.",
+      "The area was central to the world's first large-scale shale oil industry, pioneered by James 'Paraffin' Young.",
+      "Armadale station reopened in 1986 after decades of closure."
+    ]
+  },
+  {
+    "landmark": "Livingston's new town centre",
+    "closest_station": "Livingston North",
+    "distance_km": 1.5,
+    "difficulty": "medium",
+    "facts": [
+      "Livingston was designated a Scottish new town in 1962 to house Glasgow and Edinburgh overspill population.",
+      "The town's Almond Valley Heritage Centre tells the story of the local shale oil industry.",
+      "Livingston has two railway stations, North and South, serving different parts of the town."
+    ]
+  },
+  {
+    "landmark": "Lockerbie Garden of Remembrance",
+    "closest_station": "Lockerbie",
+    "distance_km": 1.0,
+    "difficulty": "medium",
+    "facts": [
+      "Lockerbie's Garden of Remembrance commemorates the 270 people who died in the 1988 Pan Am Flight 103 bombing.",
+      "Lockerbie is a market town in Dumfries and Galloway, on the West Coast Main Line.",
+      "The town holds an annual service each December to mark the anniversary."
+    ]
+  },
+  {
+    "landmark": "Stow's medieval kirk",
+    "closest_station": "Stow",
+    "distance_km": 0.3,
+    "difficulty": "hard",
+    "facts": [
+      "Stow's parish church stands on a site of Christian worship recorded since the 7th century.",
+      "The village sits in the Gala Water valley on the Scottish Borders Railway.",
+      "A medieval packhorse bridge, Stow Bridge, still stands over the Gala Water."
+    ]
+  },
+  {
+    "landmark": "East Linton & Preston Mill",
+    "closest_station": "East Linton",
+    "distance_km": 1.0,
+    "difficulty": "medium",
+    "facts": [
+      "Preston Mill, near East Linton, is one of the oldest working watermills in Scotland.",
+      "The village sits on the River Tyne in East Lothian.",
+      "East Linton was a coaching stop on the old route between Edinburgh and London."
+    ]
+  },
+  {
+    "landmark": "Prestonpans' Battle of Prestonpans site",
+    "closest_station": "Prestonpans",
+    "distance_km": 1.0,
+    "difficulty": "medium",
+    "facts": [
+      "The Battle of Prestonpans in 1745 was Bonnie Prince Charlie's first major victory in the Jacobite Rising.",
+      "The town's name reflects its historic salt-panning industry along the Forth coast.",
+      "Prestonpans has become known for a large collection of outdoor murals depicting local history."
+    ]
+  },
+  {
+    "landmark": "Haymarket & Edinburgh's West End",
+    "closest_station": "Haymarket",
+    "distance_km": 0.2,
+    "difficulty": "easy",
+    "facts": [
+      "Haymarket is Edinburgh's second-busiest station and a major tram interchange.",
+      "It sits close to Edinburgh's Financial District, known as the Exchange.",
+      "The station opened in 1842 as the original western terminus into Edinburgh."
+    ]
+  },
+  {
+    "landmark": "Edinburgh Park business district",
+    "closest_station": "Edinburgh Park",
+    "distance_km": 0.2,
+    "difficulty": "medium",
+    "facts": [
+      "Edinburgh Park is a major business and technology campus on the western edge of the city.",
+      "The station also connects directly to Edinburgh Trams.",
+      "It is one of the newer stations on the Edinburgh network, opened in 2003."
+    ]
+  },
+  {
+    "landmark": "Corstorphine & Edinburgh Zoo (via Slateford)",
+    "closest_station": "Slateford",
+    "distance_km": 3.0,
+    "difficulty": "hard",
+    "facts": [
+      "Edinburgh Zoo is home to the UK's only giant pandas in recent years, on loan from China.",
+      "Slateford station sits beside the Union Canal aqueduct over the Water of Leith.",
+      "The area takes its name from historic slate quarrying nearby."
+    ]
+  },
+  {
+    "landmark": "Currie & the Pentland Hills",
+    "closest_station": "Curriehill",
+    "distance_km": 1.0,
+    "difficulty": "medium",
+    "facts": [
+      "Curriehill station provides access to walking routes into the Pentland Hills Regional Park.",
+      "The Pentlands rise to over 570 metres, offering some of the best hillwalking close to Edinburgh.",
+      "Currie village sits on the Water of Leith on the southwestern edge of the city."
+    ]
+  },
+  {
+    "landmark": "Gorebridge & the Vogrie Country Park",
+    "closest_station": "Gorebridge",
+    "distance_km": 3.0,
+    "difficulty": "hard",
+    "facts": [
+      "Vogrie Country Park, near Gorebridge, occupies the grounds of a former Victorian mansion.",
+      "Gorebridge grew as a mining community in Midlothian's coalfield.",
+      "The Borders Railway reopened Gorebridge station to passengers in 2015."
+    ]
+  },
+  {
+    "landmark": "Eskbank & Dalkeith",
+    "closest_station": "Eskbank",
+    "distance_km": 1.5,
+    "difficulty": "medium",
+    "facts": [
+      "Eskbank sits on the North Esk river, adjacent to the historic town of Dalkeith.",
+      "Dalkeith Country Park preserves the grounds of Dalkeith Palace, once a Buccleuch family seat.",
+      "Eskbank station lies on the reopened Borders Railway line."
+    ]
+  },
+  {
+    "landmark": "West Calder & shale oil bings",
+    "closest_station": "West Calder",
+    "distance_km": 1.0,
+    "difficulty": "hard",
+    "facts": [
+      "The distinctive red 'bings' (spoil heaps) around West Calder are relics of the West Lothian shale oil industry.",
+      "West Calder was a centre of the world's first mineral oil industry, pioneered in the 1850s.",
+      "The area's shale bings are now recognised as a distinctive part of the local landscape."
+    ]
+  },
+  {
+    "landmark": "Uphall & Broxburn's shale heritage",
+    "closest_station": "Uphall",
+    "distance_km": 1.0,
+    "difficulty": "hard",
+    "facts": [
+      "Uphall and neighbouring Broxburn were key centres of West Lothian's shale oil boom in the 19th century.",
+      "The distinctive orange-red bings from shale processing remain visible across the area.",
+      "Uphall station serves the western edge of the Edinburgh commuter belt."
+    ]
+  },
+  {
+    "landmark": "Polmont & the Antonine Wall area",
+    "closest_station": "Polmont",
+    "distance_km": 3.0,
+    "difficulty": "hard",
+    "facts": [
+      "The Antonine Wall, a Roman frontier, passed through this part of central Scotland.",
+      "Polmont sits between Falkirk and Linlithgow on the main line to Edinburgh.",
+      "The area is known for its rolling farmland between the industrial towns of the central belt."
+    ]
+  },
+  {
+    "landmark": "Reston & the Scottish Borders coast",
+    "closest_station": "Reston",
+    "distance_km": 5.0,
+    "difficulty": "hard",
+    "facts": [
+      "Reston station reopened in 2018, serving the eastern Scottish Borders.",
+      "The surrounding coastline includes dramatic cliffs and the fishing village of St Abbs.",
+      "Reston sits on the East Coast Main Line between Edinburgh and Berwick-upon-Tweed."
+    ]
+  },
+  {
+    "landmark": "Drem's rural airfield history",
+    "closest_station": "Drem",
+    "distance_km": 1.0,
+    "difficulty": "hard",
+    "facts": [
+      "Drem was once home to a Royal Flying Corps and later RAF airfield, active in both World Wars.",
+      "The village sits in the heart of East Lothian's arable farmland.",
+      "Drem station serves the historic town of Haddington a few miles to the south."
+    ]
+  },
+  {
+    "landmark": "Wester Hailes & the Water of Leith walkway",
+    "closest_station": "Wester Hailes",
+    "distance_km": 0.5,
+    "difficulty": "medium",
+    "facts": [
+      "The Water of Leith Walkway runs close to Wester Hailes, tracing the river through the city.",
+      "Wester Hailes was developed as a large housing scheme in the 1960s and 70s.",
+      "The area has seen significant community-led regeneration in recent decades."
+    ]
+  },
+  {
+    "landmark": "Kingsknowe golf course",
+    "closest_station": "Kingsknowe",
+    "distance_km": 0.3,
+    "difficulty": "medium",
+    "facts": [
+      "Kingsknowe Golf Club sits immediately beside the railway station of the same name.",
+      "The area lies on the southwestern edge of Edinburgh, close to the Union Canal.",
+      "Kingsknowe station is on the line towards Shotts and Glasgow."
+    ]
+  },
+  {
+    "landmark": "South Gyle retail and business park",
+    "closest_station": "South Gyle",
+    "distance_km": 0.3,
+    "difficulty": "medium",
+    "facts": [
+      "South Gyle is home to one of Edinburgh's largest retail parks.",
+      "The station also connects to Edinburgh Trams and is close to Edinburgh Park.",
+      "South Gyle developed rapidly as a business district from the 1980s onward."
+    ]
+  },
+  {
+    "landmark": "Cardenden & the Fife coalfield",
+    "closest_station": "Cardenden",
+    "distance_km": 1.0,
+    "difficulty": "hard",
+    "facts": [
+      "Cardenden grew from several mining villages that expanded during the Fife coal boom.",
+      "Author Ian Rankin, creator of Inspector Rebus, grew up in Cardenden.",
+      "The area sits inland from the Fife coast, between Kirkcaldy and Glenrothes."
+    ]
+  },
+  {
+    "landmark": "Longniddry Bents",
+    "closest_station": "Longniddry",
+    "distance_km": 1.5,
+    "difficulty": "medium",
+    "facts": [
+      "Longniddry Bents is a stretch of coastal grassland and beach on the Firth of Forth.",
+      "The village sits within East Lothian, an area known for its golf courses and farmland.",
+      "Longniddry station is on the East Coast Main Line between Edinburgh and Dunbar."
+    ]
+  },
+  {
+    "landmark": "Dalgety Bay & St Bridget's Kirk",
+    "closest_station": "Dalgety Bay",
+    "distance_km": 1.0,
+    "difficulty": "hard",
+    "facts": [
+      "The ruins of St Bridget's Kirk stand on the shoreline at Dalgety Bay, dating from the 12th century.",
+      "Dalgety Bay was developed as a planned town from the 1960s onward.",
+      "The town sits on the Fife coast overlooking the Firth of Forth."
+    ]
+  }
+]

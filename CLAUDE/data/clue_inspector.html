@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Route - clue inspector</title>
+<style>
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  font-family: 'Inter', Arial, sans-serif;
+  background: linear-gradient(180deg, #00133d 0%, #000814 100%);
+  color: white;
+  min-height: 100vh;
+  padding: 20px 16px 60px;
+}
+.wrap { max-width: 1000px; margin: auto; }
+h1 { font-size: 1.3rem; margin-bottom: 4px; }
+.sub { color: #94a3b8; font-size: 0.85rem; margin-bottom: 20px; }
+.controls { display: flex; gap: 10px; flex-wrap: wrap; align-items: center; margin-bottom: 20px; }
+select, button {
+  background: #0f1c3f; border: 1px solid #1e3a8a; color: white;
+  padding: 8px 12px; border-radius: 8px; font-size: 0.88rem; cursor: pointer;
+}
+button:hover { background: #16255a; }
+.status { color: #94a3b8; font-size: 0.82rem; margin-bottom: 16px; }
+.grid { display: grid; grid-template-columns: 90px repeat(2, 1fr); gap: 8px; margin-bottom: 24px; }
+.corner {}
+.plat-header {
+  background: #0f1c3f; border: 1px solid #1e3a8a; border-radius: 10px;
+  padding: 8px; text-align: center; font-weight: 700; font-size: 0.85rem;
+}
+.plat-header .sub-label { font-weight: 400; font-size: 0.72rem; color: #cbd5e1; margin-top: 2px; }
+.cat-header {
+  background: #0f1c3f; border: 1px solid #1e3a8a; border-radius: 10px;
+  padding: 8px; text-align: center; font-weight: 700; font-size: 0.85rem;
+  display: flex; flex-direction: column; justify-content: center;
+}
+.cat-header .sub-label { font-weight: 400; font-size: 0.68rem; color: #cbd5e1; margin-top: 2px; }
+.cell {
+  background: #0b1530; border: 1px solid #1e3a8a; border-radius: 10px; padding: 10px;
+  min-height: 90px;
+}
+.cell .count {
+  font-size: 1.4rem; font-weight: 800;
+}
+.cell .count.warn { color: #f59e0b; }
+.cell .count.danger { color: #ef4444; }
+.cell .count.ok { color: #4ade80; }
+.cell .stations { font-size: 0.72rem; color: #cbd5e1; margin-top: 4px; line-height: 1.5; max-height: 140px; overflow-y: auto; }
+.legend { font-size: 0.76rem; color: #94a3b8; margin-bottom: 20px; }
+.legend span { margin-right: 16px; }
+.dot { display: inline-block; width: 9px; height: 9px; border-radius: 50%; margin-right: 4px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>Clue Inspector</h1>
+  <div class="sub">Shows the actual stations that satisfy each row+column pairing for a puzzle - not just whether it clears the minimum.</div>
+
+  <div class="controls">
+    <select id="quizSelect"></select>
+    <button id="randomBtn">New random puzzle</button>
+  </div>
+  <div class="status" id="status">Pick a quiz to begin.</div>
+
+  <div class="legend">
+    <span><span class="dot" style="background:#ef4444"></span>1-2 matches - only just clears the minimum, may be too obscure</span>
+    <span><span class="dot" style="background:#f59e0b"></span>3-5 matches - narrow, a confident guesser should get there</span>
+    <span><span class="dot" style="background:#4ade80"></span>6+ matches - comfortably guessable</span>
+  </div>
+
+  <div class="grid" id="grid"></div>
+</div>
+
+<script>
+const QUIZZES = ["c2c_ga","chiltern_wmr","east_midlands_emr","edinburgh_scotrail","glasgow_scotrail",
+"gwr_london","gwr_wales_corridor","highlands_ne_scotrail","leeds_sheffield_northern","liverpool_merseyside",
+"london_nw_elizabeth_gn","london_overground","manchester_northern","newcastle_northern","semainline",
+"semetro","shrewsbury_wrexham_chester","south_western","tfw_cymraeg","thameslink_southern"];
+
+const sel = document.getElementById("quizSelect");
+QUIZZES.forEach(q => {
+  const opt = document.createElement("option");
+  opt.value = q; opt.textContent = q;
+  sel.appendChild(opt);
+});
+
+let board = null, clues = null, bank = null;
+
+function matchSet(clue) {
+  const set = new Set();
+  for (const s of board) {
+    let ok = false;
+    if (clue.type === "array_contains") {
+      const v = s[clue.field] || [];
+      ok = Array.isArray(v) && v.includes(clue.value);
+    } else if (clue.type === "range") {
+      const v = s[clue.field];
+      if (v === null || v === undefined) ok = false;
+      else {
+        ok = true;
+        if ("min" in clue && v < clue.min) ok = false;
+        if ("max" in clue && v > clue.max) ok = false;
+      }
+    } else if (clue.type === "contains") {
+      ok = String(s[clue.field] || "").toLowerCase().includes(String(clue.value).toLowerCase());
+    } else {
+      ok = s[clue.field] === clue.value;
+    }
+    if (ok) set.add(s);
+  }
+  return set;
+}
+
+function intersect(setA, setB) {
+  const out = [];
+  for (const s of setA) if (setB.has(s)) out.push(s);
+  return out;
+}
+
+function byId(id) {
+  return clues.rowPool.find(c => c.id === id) || clues.columnPool.find(c => c.id === id);
+}
+
+function countClass(n) {
+  if (n <= 2) return "danger";
+  if (n <= 5) return "warn";
+  return "ok";
+}
+
+function renderPuzzle(rowIds, colIds) {
+  const grid = document.getElementById("grid");
+  grid.innerHTML = "";
+
+  const rowClues = rowIds.map(byId);
+  const colClues = colIds.map(byId);
+  const rowSets = rowClues.map(matchSet);
+  const colSets = colClues.map(matchSet);
+
+  grid.appendChild(el("div", "corner"));
+  rowClues.forEach((rc, i) => {
+    const h = el("div", "plat-header");
+    h.innerHTML = `<div>Platform ${i + 1}</div><div class="sub-label">${rc.display}</div>`;
+    grid.appendChild(h);
+  });
+
+  colClues.forEach((cc, catIdx) => {
+    const h = el("div", "cat-header");
+    h.innerHTML = `<div>${String.fromCharCode(65 + catIdx)}</div><div class="sub-label">${cc.display}</div>`;
+    grid.appendChild(h);
+
+    rowClues.forEach((rc, platIdx) => {
+      const matches = intersect(rowSets[platIdx], colSets[catIdx]);
+      const cell = el("div", "cell");
+      const names = matches.map(s => s.station_name).sort();
+      cell.innerHTML = `
+        <div class="count ${countClass(matches.length)}">${matches.length}</div>
+        <div class="stations">${names.join(", ") || "(none - this pairing should not be possible)"}</div>
+      `;
+      grid.appendChild(cell);
+    });
+  });
+}
+
+function el(tag, cls) {
+  const e = document.createElement(tag);
+  if (cls) e.className = cls;
+  return e;
+}
+
+function pickRandomPuzzle() {
+  if (!bank.length) return;
+  const p = bank[Math.floor(Math.random() * bank.length)];
+  renderPuzzle(p.rows, p.columns);
+  document.getElementById("status").textContent =
+    `${sel.value} - showing puzzle ${bank.indexOf(p) + 1} of ${bank.length} in the bank.`;
+}
+
+async function loadQuiz(quizId) {
+  document.getElementById("status").textContent = "Loading " + quizId + "...";
+  const [b, c, p] = await Promise.all([
+    fetch(`board_${quizId}.json`).then(r => r.json()),
+    fetch(`clues_${quizId}.json`).then(r => r.json()),
+    fetch(`puzzlebank_${quizId}.json`).then(r => r.json()),
+  ]);
+  board = b; clues = c; bank = p;
+  pickRandomPuzzle();
+}
+
+sel.addEventListener("change", () => loadQuiz(sel.value));
+document.getElementById("randomBtn").addEventListener("click", pickRandomPuzzle);
+
+loadQuiz(sel.value);
+</script>
+</body>
+</html>

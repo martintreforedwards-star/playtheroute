@@ -7,8 +7,8 @@
       "label": "Terminus station",
       "weight": "high",
       "match_count": 9,
-      "display": "Journeys terminate here",
-      "hint": "At least some journeys terminate at this station.",
+      "display": "Terminus station",
+      "hint": "At least some journeys terminate at this station - it's not just a stop along the way.",
       "id": "row_0"
     },
     {
@@ -142,8 +142,8 @@
       "label": "Time to hub: shortest third",
       "category": "service",
       "match_count": 30,
-      "display": "One of the shorter journeys to the hub station",
-      "hint": "This station has one of the shortest journey times to the hub station out of all stations in this puzzle.",
+      "display": "One of the quicker journeys to its hub station",
+      "hint": "Out of all the candidate stations for this puzzle, this one has one of the shortest journey times to its hub station.",
       "id": "col_7"
     },
     {
@@ -154,8 +154,8 @@
       "label": "Time to hub: middle third",
       "category": "service",
       "match_count": 32,
-      "display": "An average journey to the hub station",
-      "hint": "This station's journey time to the hub station is roughly average for this puzzle.",
+      "display": "A mid-range journey to its hub station",
+      "hint": "Out of all the candidate stations for this puzzle, this one's journey time to its hub station is neither the shortest nor the longest.",
       "id": "col_8"
     },
     {
@@ -165,8 +165,8 @@
       "label": "Time to hub: longest third",
       "category": "service",
       "match_count": 31,
-      "display": "One of the longer journeys to the hub station",
-      "hint": "This station has one of the longest journey times to the hub station out of all stations in this puzzle.",
+      "display": "One of the longer journeys to its hub station",
+      "hint": "Out of all the candidate stations for this puzzle, this one has one of the longest journey times to its hub station.",
       "id": "col_9"
     },
     {
@@ -176,8 +176,8 @@
       "label": "Time to Euston: shortest third",
       "category": "service",
       "match_count": 27,
-      "display": "One of the shorter journeys to Euston",
-      "hint": "This station has one of the shortest journey times to Euston out of all stations in this puzzle.",
+      "display": "One of the quicker journeys to Euston",
+      "hint": "Out of all the candidate stations for this puzzle, this one has one of the shortest journey times to Euston.",
       "id": "col_10"
     },
     {
@@ -188,8 +188,8 @@
       "label": "Time to Euston: middle third",
       "category": "service",
       "match_count": 27,
-      "display": "An average journey to Euston",
-      "hint": "This station's journey time to Euston is roughly average for this puzzle.",
+      "display": "A mid-range journey to Euston",
+      "hint": "Out of all the candidate stations for this puzzle, this one's journey time to Euston is neither the shortest nor the longest.",
       "id": "col_11"
     },
     {
@@ -200,7 +200,7 @@
       "category": "service",
       "match_count": 27,
       "display": "One of the longer journeys to Euston",
-      "hint": "This station has one of the longest journey times to Euston out of all stations in this puzzle.",
+      "hint": "Out of all the candidate stations for this puzzle, this one has one of the longest journey times to Euston.",
       "id": "col_12"
     },
     {
@@ -210,8 +210,8 @@
       "label": "Time to Liverpool Street: shortest third",
       "category": "service",
       "match_count": 28,
-      "display": "One of the shorter journeys to Liverpool Street",
-      "hint": "This station has one of the shortest journey times to Liverpool Street out of all stations in this puzzle.",
+      "display": "One of the quicker journeys to Liverpool Street",
+      "hint": "Out of all the candidate stations for this puzzle, this one has one of the shortest journey times to Liverpool Street.",
       "id": "col_13"
     },
     {
@@ -222,8 +222,8 @@
       "label": "Time to Liverpool Street: middle third",
       "category": "service",
       "match_count": 27,
-      "display": "An average journey to Liverpool Street",
-      "hint": "This station's journey time to Liverpool Street is roughly average for this puzzle.",
+      "display": "A mid-range journey to Liverpool Street",
+      "hint": "Out of all the candidate stations for this puzzle, this one's journey time to Liverpool Street is neither the shortest nor the longest.",
       "id": "col_14"
     },
     {
@@ -234,7 +234,7 @@
       "category": "service",
       "match_count": 28,
       "display": "One of the longer journeys to Liverpool Street",
-      "hint": "This station has one of the longest journey times to Liverpool Street out of all stations in this puzzle.",
+      "hint": "Out of all the candidate stations for this puzzle, this one has one of the longest journey times to Liverpool Street.",
       "id": "col_15"
     },
     {
@@ -244,8 +244,8 @@
       "label": "Time to Stratford: shortest third",
       "category": "service",
       "match_count": 27,
-      "display": "One of the shorter journeys to Stratford",
-      "hint": "This station has one of the shortest journey times to Stratford out of all stations in this puzzle.",
+      "display": "One of the quicker journeys to Stratford",
+      "hint": "Out of all the candidate stations for this puzzle, this one has one of the shortest journey times to Stratford.",
       "id": "col_16"
     },
     {
@@ -256,8 +256,8 @@
       "label": "Time to Stratford: middle third",
       "category": "service",
       "match_count": 27,
-      "display": "An average journey to Stratford",
-      "hint": "This station's journey time to Stratford is roughly average for this puzzle.",
+      "display": "A mid-range journey to Stratford",
+      "hint": "Out of all the candidate stations for this puzzle, this one's journey time to Stratford is neither the shortest nor the longest.",
       "id": "col_17"
     },
     {
@@ -268,7 +268,7 @@
       "category": "service",
       "match_count": 28,
       "display": "One of the longer journeys to Stratford",
-      "hint": "This station has one of the longest journey times to Stratford out of all stations in this puzzle.",
+      "hint": "Out of all the candidate stations for this puzzle, this one has one of the longest journey times to Stratford.",
       "id": "col_18"
     },
     {

@@ -29,8 +29,8 @@
       "label": "Terminus station",
       "weight": "high",
       "match_count": 15,
-      "display": "Journeys terminate here",
-      "hint": "At least some journeys terminate at this station.",
+      "display": "Terminus station",
+      "hint": "At least some journeys terminate at this station - it's not just a stop along the way.",
       "id": "row_2"
     },
     {
@@ -187,8 +187,8 @@
       "label": "Time to hub: shortest third",
       "category": "service",
       "match_count": 26,
-      "display": "One of the shorter journeys to the hub station",
-      "hint": "This station has one of the shortest journey times to the hub station out of all stations in this puzzle.",
+      "display": "One of the quicker journeys to its hub station",
+      "hint": "Out of all the candidate stations for this puzzle, this one has one of the shortest journey times to its hub station.",
       "id": "col_9"
     },
     {
@@ -199,8 +199,8 @@
       "label": "Time to hub: middle third",
       "category": "service",
       "match_count": 27,
-      "display": "An average journey to the hub station",
-      "hint": "This station's journey time to the hub station is roughly average for this puzzle.",
+      "display": "A mid-range journey to its hub station",
+      "hint": "Out of all the candidate stations for this puzzle, this one's journey time to its hub station is neither the shortest nor the longest.",
       "id": "col_10"
     },
     {
@@ -210,8 +210,8 @@
       "label": "Time to hub: longest third",
       "category": "service",
       "match_count": 25,
-      "display": "One of the longer journeys to the hub station",
-      "hint": "This station has one of the longest journey times to the hub station out of all stations in this puzzle.",
+      "display": "One of the longer journeys to its hub station",
+      "hint": "Out of all the candidate stations for this puzzle, this one has one of the longest journey times to its hub station.",
       "id": "col_11"
     },
     {

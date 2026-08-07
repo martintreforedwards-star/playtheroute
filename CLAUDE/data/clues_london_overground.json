@@ -7,6 +7,8 @@
       "label": "Terminus station",
       "weight": "high",
       "match_count": 9,
+      "display": "Journeys terminate here",
+      "hint": "At least some journeys terminate at this station.",
       "id": "row_0"
     },
     {
@@ -16,6 +18,8 @@
       "label": "One-word name",
       "weight": "high",
       "match_count": 15,
+      "display": "Station name is one word",
+      "hint": "Station is a one-word name.",
       "id": "row_1"
     },
     {
@@ -25,6 +29,8 @@
       "label": "Three or more words in name",
       "weight": "high",
       "match_count": 16,
+      "display": "Station name is 3+ words",
+      "hint": "Station name is three or more words long.",
       "id": "row_2"
     },
     {
@@ -35,6 +41,8 @@
       "max": 10,
       "weight": "medium",
       "match_count": 21,
+      "display": "Station name is 7-10 letters",
+      "hint": "Station name length is between 7 and 10 characters.",
       "id": "row_3"
     },
     {
@@ -44,6 +52,8 @@
       "min": 11,
       "weight": "medium",
       "match_count": 57,
+      "display": "Station name is 11+ letters",
+      "hint": "Station name is equal to or exceeds 11 characters.",
       "id": "row_4"
     }
   ],
@@ -55,6 +65,8 @@
       "label": "Region: North East London",
       "category": "geography",
       "match_count": 29,
+      "display": "Is within the North East London region",
+      "hint": "This station is based within the North East London region.",
       "id": "col_0"
     },
     {
@@ -64,6 +76,8 @@
       "label": "Region: North London",
       "category": "geography",
       "match_count": 14,
+      "display": "Is within the North London region",
+      "hint": "This station is based within the North London region.",
       "id": "col_1"
     },
     {
@@ -73,6 +87,8 @@
       "label": "Region: East London",
       "category": "geography",
       "match_count": 10,
+      "display": "Is within the East London region",
+      "hint": "This station is based within the East London region.",
       "id": "col_2"
     },
     {
@@ -82,6 +98,8 @@
       "label": "Region: North West London",
       "category": "geography",
       "match_count": 10,
+      "display": "Is within the North West London region",
+      "hint": "This station is based within the North West London region.",
       "id": "col_3"
     },
     {
@@ -91,6 +109,8 @@
       "label": "Region: South East London",
       "category": "geography",
       "match_count": 6,
+      "display": "Is within the South East London region",
+      "hint": "This station is based within the South East London region.",
       "id": "col_4"
     },
     {
@@ -100,6 +120,8 @@
       "label": "Region: West London",
       "category": "geography",
       "match_count": 3,
+      "display": "Is within the West London region",
+      "hint": "This station is based within the West London region.",
       "id": "col_5"
     },
     {
@@ -109,6 +131,8 @@
       "label": "Region: South London",
       "category": "geography",
       "match_count": 3,
+      "display": "Is within the South London region",
+      "hint": "This station is based within the South London region.",
       "id": "col_6"
     },
     {
@@ -118,6 +142,8 @@
       "label": "Time to hub: shortest third",
       "category": "service",
       "match_count": 30,
+      "display": "One of the shorter journeys to the hub station",
+      "hint": "This station has one of the shortest journey times to the hub station out of all stations in this puzzle.",
       "id": "col_7"
     },
     {
@@ -128,6 +154,8 @@
       "label": "Time to hub: middle third",
       "category": "service",
       "match_count": 32,
+      "display": "An average journey to the hub station",
+      "hint": "This station's journey time to the hub station is roughly average for this puzzle.",
       "id": "col_8"
     },
     {
@@ -137,6 +165,8 @@
       "label": "Time to hub: longest third",
       "category": "service",
       "match_count": 31,
+      "display": "One of the longer journeys to the hub station",
+      "hint": "This station has one of the longest journey times to the hub station out of all stations in this puzzle.",
       "id": "col_9"
     },
     {
@@ -146,6 +176,8 @@
       "label": "Time to Euston: shortest third",
       "category": "service",
       "match_count": 27,
+      "display": "One of the shorter journeys to Euston",
+      "hint": "This station has one of the shortest journey times to Euston out of all stations in this puzzle.",
       "id": "col_10"
     },
     {
@@ -156,6 +188,8 @@
       "label": "Time to Euston: middle third",
       "category": "service",
       "match_count": 27,
+      "display": "An average journey to Euston",
+      "hint": "This station's journey time to Euston is roughly average for this puzzle.",
       "id": "col_11"
     },
     {
@@ -165,6 +199,8 @@
       "label": "Time to Euston: longest third",
       "category": "service",
       "match_count": 27,
+      "display": "One of the longer journeys to Euston",
+      "hint": "This station has one of the longest journey times to Euston out of all stations in this puzzle.",
       "id": "col_12"
     },
     {
@@ -174,6 +210,8 @@
       "label": "Time to Liverpool Street: shortest third",
       "category": "service",
       "match_count": 28,
+      "display": "One of the shorter journeys to Liverpool Street",
+      "hint": "This station has one of the shortest journey times to Liverpool Street out of all stations in this puzzle.",
       "id": "col_13"
     },
     {
@@ -184,6 +222,8 @@
       "label": "Time to Liverpool Street: middle third",
       "category": "service",
       "match_count": 27,
+      "display": "An average journey to Liverpool Street",
+      "hint": "This station's journey time to Liverpool Street is roughly average for this puzzle.",
       "id": "col_14"
     },
     {
@@ -193,6 +233,8 @@
       "label": "Time to Liverpool Street: longest third",
       "category": "service",
       "match_count": 28,
+      "display": "One of the longer journeys to Liverpool Street",
+      "hint": "This station has one of the longest journey times to Liverpool Street out of all stations in this puzzle.",
       "id": "col_15"
     },
     {
@@ -202,6 +244,8 @@
       "label": "Time to Stratford: shortest third",
       "category": "service",
       "match_count": 27,
+      "display": "One of the shorter journeys to Stratford",
+      "hint": "This station has one of the shortest journey times to Stratford out of all stations in this puzzle.",
       "id": "col_16"
     },
     {
@@ -212,6 +256,8 @@
       "label": "Time to Stratford: middle third",
       "category": "service",
       "match_count": 27,
+      "display": "An average journey to Stratford",
+      "hint": "This station's journey time to Stratford is roughly average for this puzzle.",
       "id": "col_17"
     },
     {
@@ -221,6 +267,8 @@
       "label": "Time to Stratford: longest third",
       "category": "service",
       "match_count": 28,
+      "display": "One of the longer journeys to Stratford",
+      "hint": "This station has one of the longest journey times to Stratford out of all stations in this puzzle.",
       "id": "col_18"
     },
     {
@@ -230,6 +278,8 @@
       "label": "Route: Windrush Line",
       "category": "route",
       "match_count": 19,
+      "display": "Is part of the Windrush Line route",
+      "hint": "A station on the Windrush Line route.",
       "id": "col_19"
     },
     {
@@ -239,6 +289,8 @@
       "label": "Route: Mildmay Line",
       "category": "route",
       "match_count": 17,
+      "display": "Is part of the Mildmay Line route",
+      "hint": "A station on the Mildmay Line route.",
       "id": "col_20"
     },
     {
@@ -248,6 +300,8 @@
       "label": "Route: Suffragette Line",
       "category": "route",
       "match_count": 12,
+      "display": "Is part of the Suffragette Line route",
+      "hint": "A station on the Suffragette Line route.",
       "id": "col_21"
     },
     {
@@ -257,6 +311,8 @@
       "label": "Route: Chingford Line",
       "category": "route",
       "match_count": 10,
+      "display": "Is part of the Chingford Line route",
+      "hint": "A station on the Chingford Line route.",
       "id": "col_22"
     },
     {
@@ -266,6 +322,8 @@
       "label": "Route: Enfield Town Line",
       "category": "route",
       "match_count": 10,
+      "display": "Is part of the Enfield Town Line route",
+      "hint": "A station on the Enfield Town Line route.",
       "id": "col_23"
     },
     {
@@ -275,6 +333,8 @@
       "label": "Wordplay: local_suffix",
       "category": "name",
       "match_count": 32,
+      "display": "Naming style: a common English place-name ending",
+      "hint": "The name ends in a common English place-name suffix, like -ton, -ham, -by or -dale.",
       "id": "col_24"
     },
     {
@@ -284,6 +344,8 @@
       "label": "Wordplay: nature",
       "category": "name",
       "match_count": 12,
+      "display": "Naming style: a nature word in the name",
+      "hint": "The name includes a nature word, like Park, Hill, Green, Heath or Wood.",
       "id": "col_25"
     },
     {
@@ -293,6 +355,8 @@
       "label": "Wordplay: structure",
       "category": "name",
       "match_count": 3,
+      "display": "Naming style: an unusual name format",
+      "hint": "Something unusual about how the name is written - brackets, a hyphen, an ampersand, or 'St'.",
       "id": "col_26"
     },
     {
@@ -302,6 +366,8 @@
       "label": "Name contains 'ton'",
       "category": "name",
       "match_count": 11,
+      "display": "Word contains 'ton'",
+      "hint": "Word contains 'ton'.",
       "id": "col_27"
     },
     {
@@ -311,6 +377,8 @@
       "label": "Name contains 'ey'",
       "category": "name",
       "match_count": 8,
+      "display": "Word contains 'ey'",
+      "hint": "Word contains 'ey'.",
       "id": "col_28"
     },
     {
@@ -320,6 +388,8 @@
       "label": "Name contains 'park'",
       "category": "name",
       "match_count": 8,
+      "display": "Word contains 'park'",
+      "hint": "Word contains 'park'.",
       "id": "col_29"
     },
     {
@@ -329,6 +399,8 @@
       "label": "Name contains 'bury'",
       "category": "name",
       "match_count": 5,
+      "display": "Word contains 'bury'",
+      "hint": "Word contains 'bury'.",
       "id": "col_30"
     },
     {
@@ -338,6 +410,8 @@
       "label": "Name contains 'hill'",
       "category": "name",
       "match_count": 4,
+      "display": "Word contains 'hill'",
+      "hint": "Word contains 'hill'.",
       "id": "col_31"
     },
     {
@@ -347,6 +421,8 @@
       "label": "Name contains 'stead'",
       "category": "name",
       "match_count": 4,
+      "display": "Word contains 'stead'",
+      "hint": "Word contains 'stead'.",
       "id": "col_32"
     },
     {
@@ -356,6 +432,8 @@
       "label": "Name contains 'ley'",
       "category": "name",
       "match_count": 3,
+      "display": "Word contains 'ley'",
+      "hint": "Word contains 'ley'.",
       "id": "col_33"
     },
     {
@@ -365,6 +443,8 @@
       "label": "Name contains 'green'",
       "category": "name",
       "match_count": 3,
+      "display": "Word contains 'green'",
+      "hint": "Word contains 'green'.",
       "id": "col_34"
     },
     {
@@ -374,6 +454,8 @@
       "label": "Name contains 'ford'",
       "category": "name",
       "match_count": 3,
+      "display": "Word contains 'ford'",
+      "hint": "Word contains 'ford'.",
       "id": "col_35"
     },
     {
@@ -383,6 +465,8 @@
       "label": "Name contains 'ham'",
       "category": "name",
       "match_count": 3,
+      "display": "Word contains 'ham'",
+      "hint": "Word contains 'ham'.",
       "id": "col_36"
     }
   ]

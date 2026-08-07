@@ -7,6 +7,8 @@
       "label": "Interchange station",
       "weight": "medium",
       "match_count": 74,
+      "display": "Is an interchange station",
+      "hint": "Served by two or more separate named routes, or where several lines physically meet.",
       "id": "row_0"
     },
     {
@@ -16,6 +18,8 @@
       "label": "Coastal station",
       "weight": "medium",
       "match_count": 59,
+      "display": "Near the coast",
+      "hint": "A station within 3 kilometres of the coastline or an estuary.",
       "id": "row_1"
     },
     {
@@ -25,6 +29,8 @@
       "label": "Terminus station",
       "weight": "medium",
       "match_count": 54,
+      "display": "Journeys terminate here",
+      "hint": "At least some journeys terminate at this station.",
       "id": "row_2"
     },
     {
@@ -34,6 +40,8 @@
       "label": "One-word name",
       "weight": "medium",
       "match_count": 168,
+      "display": "Station name is one word",
+      "hint": "Station is a one-word name.",
       "id": "row_3"
     },
     {
@@ -43,6 +51,8 @@
       "label": "Three or more words in name",
       "weight": "high",
       "match_count": 10,
+      "display": "Station name is 3+ words",
+      "hint": "Station name is three or more words long.",
       "id": "row_4"
     },
     {
@@ -53,6 +63,8 @@
       "max": 6,
       "weight": "high",
       "match_count": 25,
+      "display": "Station name is 6 letters or fewer",
+      "hint": "Station name is 6 characters or fewer.",
       "id": "row_5"
     },
     {
@@ -63,6 +75,8 @@
       "max": 10,
       "weight": "medium",
       "match_count": 127,
+      "display": "Station name is 7-10 letters",
+      "hint": "Station name length is between 7 and 10 characters.",
       "id": "row_6"
     },
     {
@@ -72,6 +86,8 @@
       "min": 11,
       "weight": "medium",
       "match_count": 79,
+      "display": "Station name is 11+ letters",
+      "hint": "Station name is equal to or exceeds 11 characters.",
       "id": "row_7"
     }
   ],
@@ -83,6 +99,8 @@
       "label": "Region: Glasgow City",
       "category": "geography",
       "match_count": 59,
+      "display": "Is within the Glasgow City region",
+      "hint": "This station is based within the Glasgow City region.",
       "id": "col_0"
     },
     {
@@ -92,6 +110,8 @@
       "label": "Region: North Lanarkshire",
       "category": "geography",
       "match_count": 25,
+      "display": "Is within the North Lanarkshire region",
+      "hint": "This station is based within the North Lanarkshire region.",
       "id": "col_1"
     },
     {
@@ -101,6 +121,8 @@
       "label": "Region: South Lanarkshire",
       "category": "geography",
       "match_count": 19,
+      "display": "Is within the South Lanarkshire region",
+      "hint": "This station is based within the South Lanarkshire region.",
       "id": "col_2"
     },
     {
@@ -110,6 +132,8 @@
       "label": "Region: Highland",
       "category": "geography",
       "match_count": 15,
+      "display": "Is within the Highland region",
+      "hint": "This station is based within the Highland region.",
       "id": "col_3"
     },
     {
@@ -119,6 +143,8 @@
       "label": "Region: Argyll and Bute",
       "category": "geography",
       "match_count": 14,
+      "display": "Is within the Argyll and Bute region",
+      "hint": "This station is based within the Argyll and Bute region.",
       "id": "col_4"
     },
     {
@@ -128,6 +154,8 @@
       "label": "Region: West Dunbartonshire",
       "category": "geography",
       "match_count": 13,
+      "display": "Is within the West Dunbartonshire region",
+      "hint": "This station is based within the West Dunbartonshire region.",
       "id": "col_5"
     },
     {
@@ -137,6 +165,8 @@
       "label": "Region: Inverclyde",
       "category": "geography",
       "match_count": 13,
+      "display": "Is within the Inverclyde region",
+      "hint": "This station is based within the Inverclyde region.",
       "id": "col_6"
     },
     {
@@ -146,6 +176,8 @@
       "label": "Region: North Ayrshire",
       "category": "geography",
       "match_count": 12,
+      "display": "Is within the North Ayrshire region",
+      "hint": "This station is based within the North Ayrshire region.",
       "id": "col_7"
     },
     {
@@ -155,6 +187,8 @@
       "label": "Region: Renfrewshire",
       "category": "geography",
       "match_count": 10,
+      "display": "Is within the Renfrewshire region",
+      "hint": "This station is based within the Renfrewshire region.",
       "id": "col_8"
     },
     {
@@ -164,6 +198,8 @@
       "label": "Region: South Ayrshire",
       "category": "geography",
       "match_count": 9,
+      "display": "Is within the South Ayrshire region",
+      "hint": "This station is based within the South Ayrshire region.",
       "id": "col_9"
     },
     {
@@ -173,6 +209,8 @@
       "label": "Time to hub: shortest third",
       "category": "service",
       "match_count": 79,
+      "display": "One of the shorter journeys to the hub station",
+      "hint": "This station has one of the shortest journey times to the hub station out of all stations in this puzzle.",
       "id": "col_10"
     },
     {
@@ -183,6 +221,8 @@
       "label": "Time to hub: middle third",
       "category": "service",
       "match_count": 82,
+      "display": "An average journey to the hub station",
+      "hint": "This station's journey time to the hub station is roughly average for this puzzle.",
       "id": "col_11"
     },
     {
@@ -192,6 +232,8 @@
       "label": "Time to hub: longest third",
       "category": "service",
       "match_count": 79,
+      "display": "One of the longer journeys to the hub station",
+      "hint": "This station has one of the longest journey times to the hub station out of all stations in this puzzle.",
       "id": "col_12"
     },
     {
@@ -201,6 +243,8 @@
       "label": "Route: Argyle Line",
       "category": "route",
       "match_count": 64,
+      "display": "Is part of the Argyle Line route",
+      "hint": "A station on the Argyle Line route.",
       "id": "col_13"
     },
     {
@@ -210,6 +254,8 @@
       "label": "Route: North Clyde Electrics",
       "category": "route",
       "match_count": 39,
+      "display": "Is part of the North Clyde Electrics route",
+      "hint": "A station on the North Clyde Electrics route.",
       "id": "col_14"
     },
     {
@@ -219,6 +265,8 @@
       "label": "Route: West Highland Line",
       "category": "route",
       "match_count": 33,
+      "display": "Is part of the West Highland Line route",
+      "hint": "A station on the West Highland Line route.",
       "id": "col_15"
     },
     {
@@ -228,6 +276,8 @@
       "label": "Route: Inverclyde Line",
       "category": "route",
       "match_count": 16,
+      "display": "Is part of the Inverclyde Line route",
+      "hint": "A station on the Inverclyde Line route.",
       "id": "col_16"
     },
     {
@@ -237,6 +287,8 @@
       "label": "Route: Road to the Isles",
       "category": "route",
       "match_count": 14,
+      "display": "Is part of the Road to the Isles route",
+      "hint": "A station on the Road to the Isles route.",
       "id": "col_17"
     },
     {
@@ -246,6 +298,8 @@
       "label": "Route: East Kilbride Line",
       "category": "route",
       "match_count": 14,
+      "display": "Is part of the East Kilbride Line route",
+      "hint": "A station on the East Kilbride Line route.",
       "id": "col_18"
     },
     {
@@ -255,6 +309,8 @@
       "label": "Route: Cathcart Circle",
       "category": "route",
       "match_count": 13,
+      "display": "Is part of the Cathcart Circle route",
+      "hint": "A station on the Cathcart Circle route.",
       "id": "col_19"
     },
     {
@@ -264,6 +320,8 @@
       "label": "Route: Glasgow South Western Line",
       "category": "route",
       "match_count": 12,
+      "display": "Is part of the Glasgow South Western Line route",
+      "hint": "A station on the Glasgow South Western Line route.",
       "id": "col_20"
     },
     {
@@ -273,6 +331,8 @@
       "label": "Route: Neilston Line",
       "category": "route",
       "match_count": 10,
+      "display": "Is part of the Neilston Line route",
+      "hint": "A station on the Neilston Line route.",
       "id": "col_21"
     },
     {
@@ -282,6 +342,8 @@
       "label": "Route: Ayrshire Coast Line",
       "category": "route",
       "match_count": 10,
+      "display": "Is part of the Ayrshire Coast Line route",
+      "hint": "A station on the Ayrshire Coast Line route.",
       "id": "col_22"
     },
     {
@@ -291,6 +353,8 @@
       "label": "Route: Shotts Line",
       "category": "route",
       "match_count": 9,
+      "display": "Is part of the Shotts Line route",
+      "hint": "A station on the Shotts Line route.",
       "id": "col_23"
     },
     {
@@ -300,6 +364,8 @@
       "label": "Route: Ayrshire Coast",
       "category": "route",
       "match_count": 8,
+      "display": "Is part of the Ayrshire Coast route",
+      "hint": "A station on the Ayrshire Coast route.",
       "id": "col_24"
     },
     {
@@ -309,6 +375,8 @@
       "label": "Route: Cumbernauld Line",
       "category": "route",
       "match_count": 8,
+      "display": "Is part of the Cumbernauld Line route",
+      "hint": "A station on the Cumbernauld Line route.",
       "id": "col_25"
     },
     {
@@ -318,6 +386,8 @@
       "label": "Route: Oban Branch",
       "category": "route",
       "match_count": 7,
+      "display": "Is part of the Oban Branch route",
+      "hint": "A station on the Oban Branch route.",
       "id": "col_26"
     },
     {
@@ -327,6 +397,8 @@
       "label": "Route: Largs Branch",
       "category": "route",
       "match_count": 6,
+      "display": "Is part of the Largs Branch route",
+      "hint": "A station on the Largs Branch route.",
       "id": "col_27"
     },
     {
@@ -336,6 +408,8 @@
       "label": "Wordplay: local_suffix",
       "category": "name",
       "match_count": 42,
+      "display": "Naming style: a common English place-name ending",
+      "hint": "The name ends in a common English place-name suffix, like -ton, -ham, -by or -dale.",
       "id": "col_28"
     },
     {
@@ -345,6 +419,8 @@
       "label": "Wordplay: gaelic_place",
       "category": "name",
       "match_count": 40,
+      "display": "Naming style: Scottish/Gaelic place-name roots",
+      "hint": "The name includes a Scottish or Gaelic place-name element, like Inver-, Glen-, Loch- or Kirk-.",
       "id": "col_29"
     },
     {
@@ -354,6 +430,8 @@
       "label": "Wordplay: nature",
       "category": "name",
       "match_count": 9,
+      "display": "Naming style: a nature word in the name",
+      "hint": "The name includes a nature word, like Park, Hill, Green, Heath or Wood.",
       "id": "col_30"
     },
     {
@@ -363,6 +441,8 @@
       "label": "Wordplay: structure",
       "category": "name",
       "match_count": 7,
+      "display": "Naming style: an unusual name format",
+      "hint": "Something unusual about how the name is written - brackets, a hyphen, an ampersand, or 'St'.",
       "id": "col_31"
     },
     {
@@ -372,6 +452,8 @@
       "label": "Name contains 'ton'",
       "category": "name",
       "match_count": 28,
+      "display": "Word contains 'ton'",
+      "hint": "Word contains 'ton'.",
       "id": "col_32"
     },
     {
@@ -381,6 +463,8 @@
       "label": "Name contains 'ridge'",
       "category": "name",
       "match_count": 7,
+      "display": "Word contains 'ridge'",
+      "hint": "Word contains 'ridge'.",
       "id": "col_33"
     },
     {
@@ -390,6 +474,8 @@
       "label": "Name contains 'kil'",
       "category": "name",
       "match_count": 6,
+      "display": "Word contains 'kil'",
+      "hint": "Word contains 'kil'.",
       "id": "col_34"
     },
     {
@@ -399,6 +485,8 @@
       "label": "Name contains 'dal'",
       "category": "name",
       "match_count": 5,
+      "display": "Word contains 'dal'",
+      "hint": "Word contains 'dal'.",
       "id": "col_35"
     },
     {
@@ -408,6 +496,8 @@
       "label": "Name contains 'park'",
       "category": "name",
       "match_count": 5,
+      "display": "Word contains 'park'",
+      "hint": "Word contains 'park'.",
       "id": "col_36"
     },
     {
@@ -417,6 +507,8 @@
       "label": "Name contains 'loch'",
       "category": "name",
       "match_count": 5,
+      "display": "Word contains 'loch'",
+      "hint": "Word contains 'loch'.",
       "id": "col_37"
     },
     {
@@ -426,6 +518,8 @@
       "label": "Name contains 'ard'",
       "category": "name",
       "match_count": 4,
+      "display": "Word contains 'ard'",
+      "hint": "Word contains 'ard'.",
       "id": "col_38"
     },
     {
@@ -435,6 +529,8 @@
       "label": "Name contains 'side'",
       "category": "name",
       "match_count": 4,
+      "display": "Word contains 'side'",
+      "hint": "Word contains 'side'.",
       "id": "col_39"
     },
     {
@@ -444,6 +540,8 @@
       "label": "Name contains 'drum'",
       "category": "name",
       "match_count": 4,
+      "display": "Word contains 'drum'",
+      "hint": "Word contains 'drum'.",
       "id": "col_40"
     },
     {
@@ -453,6 +551,8 @@
       "label": "Name contains 'green'",
       "category": "name",
       "match_count": 4,
+      "display": "Word contains 'green'",
+      "hint": "Word contains 'green'.",
       "id": "col_41"
     },
     {
@@ -462,6 +562,8 @@
       "label": "Name contains 'ley'",
       "category": "name",
       "match_count": 4,
+      "display": "Word contains 'ley'",
+      "hint": "Word contains 'ley'.",
       "id": "col_42"
     },
     {
@@ -471,6 +573,8 @@
       "label": "Name contains 'ey'",
       "category": "name",
       "match_count": 4,
+      "display": "Word contains 'ey'",
+      "hint": "Word contains 'ey'.",
       "id": "col_43"
     },
     {
@@ -480,6 +584,8 @@
       "label": "Name contains 'pol'",
       "category": "name",
       "match_count": 4,
+      "display": "Word contains 'pol'",
+      "hint": "Word contains 'pol'.",
       "id": "col_44"
     },
     {
@@ -489,6 +595,8 @@
       "label": "Name contains 'ampersand'",
       "category": "name",
       "match_count": 3,
+      "display": "Name includes an '&'",
+      "hint": "The station name includes an ampersand (&).",
       "id": "col_45"
     },
     {
@@ -498,6 +606,8 @@
       "label": "Name contains 'hill'",
       "category": "name",
       "match_count": 3,
+      "display": "Word contains 'hill'",
+      "hint": "Word contains 'hill'.",
       "id": "col_46"
     }
   ]

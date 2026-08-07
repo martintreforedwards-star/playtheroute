@@ -7,6 +7,8 @@
       "label": "Interchange station",
       "weight": "high",
       "match_count": 12,
+      "display": "Is an interchange station",
+      "hint": "Served by two or more separate named routes, or where several lines physically meet.",
       "id": "row_0"
     },
     {
@@ -16,6 +18,8 @@
       "label": "Coastal station",
       "weight": "medium",
       "match_count": 18,
+      "display": "Near the coast",
+      "hint": "A station within 3 kilometres of the coastline or an estuary.",
       "id": "row_1"
     },
     {
@@ -25,6 +29,8 @@
       "label": "Terminus station",
       "weight": "high",
       "match_count": 11,
+      "display": "Journeys terminate here",
+      "hint": "At least some journeys terminate at this station.",
       "id": "row_2"
     },
     {
@@ -34,6 +40,8 @@
       "label": "One-word name",
       "weight": "medium",
       "match_count": 42,
+      "display": "Station name is one word",
+      "hint": "Station is a one-word name.",
       "id": "row_3"
     },
     {
@@ -44,6 +52,8 @@
       "max": 6,
       "weight": "high",
       "match_count": 8,
+      "display": "Station name is 6 letters or fewer",
+      "hint": "Station name is 6 characters or fewer.",
       "id": "row_4"
     },
     {
@@ -54,6 +64,8 @@
       "max": 10,
       "weight": "medium",
       "match_count": 31,
+      "display": "Station name is 7-10 letters",
+      "hint": "Station name length is between 7 and 10 characters.",
       "id": "row_5"
     },
     {
@@ -63,6 +75,8 @@
       "min": 11,
       "weight": "medium",
       "match_count": 19,
+      "display": "Station name is 11+ letters",
+      "hint": "Station name is equal to or exceeds 11 characters.",
       "id": "row_6"
     }
   ],
@@ -74,6 +88,8 @@
       "label": "Region: Fife",
       "category": "geography",
       "match_count": 17,
+      "display": "Is within the Fife region",
+      "hint": "This station is based within the Fife region.",
       "id": "col_0"
     },
     {
@@ -83,6 +99,8 @@
       "label": "Region: City of Edinburgh",
       "category": "geography",
       "match_count": 12,
+      "display": "Is within the City of Edinburgh region",
+      "hint": "This station is based within the City of Edinburgh region.",
       "id": "col_1"
     },
     {
@@ -92,6 +110,8 @@
       "label": "Region: West Lothian",
       "category": "geography",
       "match_count": 10,
+      "display": "Is within the West Lothian region",
+      "hint": "This station is based within the West Lothian region.",
       "id": "col_2"
     },
     {
@@ -101,6 +121,8 @@
       "label": "Region: East Lothian",
       "category": "geography",
       "match_count": 8,
+      "display": "Is within the East Lothian region",
+      "hint": "This station is based within the East Lothian region.",
       "id": "col_3"
     },
     {
@@ -110,6 +132,8 @@
       "label": "Region: Midlothian",
       "category": "geography",
       "match_count": 4,
+      "display": "Is within the Midlothian region",
+      "hint": "This station is based within the Midlothian region.",
       "id": "col_4"
     },
     {
@@ -119,6 +143,8 @@
       "label": "Region: Scottish Borders",
       "category": "geography",
       "match_count": 4,
+      "display": "Is within the Scottish Borders region",
+      "hint": "This station is based within the Scottish Borders region.",
       "id": "col_5"
     },
     {
@@ -128,6 +154,8 @@
       "label": "Time to hub: shortest third",
       "category": "service",
       "match_count": 25,
+      "display": "One of the shorter journeys to the hub station",
+      "hint": "This station has one of the shortest journey times to the hub station out of all stations in this puzzle.",
       "id": "col_6"
     },
     {
@@ -138,6 +166,8 @@
       "label": "Time to hub: middle third",
       "category": "service",
       "match_count": 21,
+      "display": "An average journey to the hub station",
+      "hint": "This station's journey time to the hub station is roughly average for this puzzle.",
       "id": "col_7"
     },
     {
@@ -147,6 +177,8 @@
       "label": "Time to hub: longest third",
       "category": "service",
       "match_count": 20,
+      "display": "One of the longer journeys to the hub station",
+      "hint": "This station has one of the longest journey times to the hub station out of all stations in this puzzle.",
       "id": "col_8"
     },
     {
@@ -156,6 +188,8 @@
       "label": "Time to Glasgow Central: shortest third",
       "category": "service",
       "match_count": 20,
+      "display": "One of the shorter journeys to Glasgow Central",
+      "hint": "This station has one of the shortest journey times to Glasgow Central out of all stations in this puzzle.",
       "id": "col_9"
     },
     {
@@ -166,6 +200,8 @@
       "label": "Time to Glasgow Central: middle third",
       "category": "service",
       "match_count": 22,
+      "display": "An average journey to Glasgow Central",
+      "hint": "This station's journey time to Glasgow Central is roughly average for this puzzle.",
       "id": "col_10"
     },
     {
@@ -175,6 +211,8 @@
       "label": "Time to Glasgow Central: longest third",
       "category": "service",
       "match_count": 21,
+      "display": "One of the longer journeys to Glasgow Central",
+      "hint": "This station has one of the longest journey times to Glasgow Central out of all stations in this puzzle.",
       "id": "col_11"
     },
     {
@@ -184,6 +222,8 @@
       "label": "Route: Fife Circle",
       "category": "route",
       "match_count": 20,
+      "display": "Is part of the Fife Circle route",
+      "hint": "A station on the Fife Circle route.",
       "id": "col_12"
     },
     {
@@ -193,6 +233,8 @@
       "label": "Route: Shotts Line",
       "category": "route",
       "match_count": 9,
+      "display": "Is part of the Shotts Line route",
+      "hint": "A station on the Shotts Line route.",
       "id": "col_13"
     },
     {
@@ -202,6 +244,8 @@
       "label": "Route: Borders Railway",
       "category": "route",
       "match_count": 9,
+      "display": "Is part of the Borders Railway route",
+      "hint": "A station on the Borders Railway route.",
       "id": "col_14"
     },
     {
@@ -211,6 +255,8 @@
       "label": "Route: North Berwick Line",
       "category": "route",
       "match_count": 8,
+      "display": "Is part of the North Berwick Line route",
+      "hint": "A station on the North Berwick Line route.",
       "id": "col_15"
     },
     {
@@ -220,6 +266,8 @@
       "label": "Route: Argyle Line",
       "category": "route",
       "match_count": 5,
+      "display": "Is part of the Argyle Line route",
+      "hint": "A station on the Argyle Line route.",
       "id": "col_16"
     },
     {
@@ -229,6 +277,8 @@
       "label": "Route: North Clyde Electrics",
       "category": "route",
       "match_count": 5,
+      "display": "Is part of the North Clyde Electrics route",
+      "hint": "A station on the North Clyde Electrics route.",
       "id": "col_17"
     },
     {
@@ -238,6 +288,8 @@
       "label": "Route: Edinburghâ€“Glasgow Main Line",
       "category": "route",
       "match_count": 4,
+      "display": "Is part of the Edinburghâ€“Glasgow Main Line route",
+      "hint": "A station on the Edinburghâ€“Glasgow Main Line route.",
       "id": "col_18"
     },
     {
@@ -247,6 +299,8 @@
       "label": "Wordplay: gaelic_place",
       "category": "name",
       "match_count": 9,
+      "display": "Naming style: Scottish/Gaelic place-name roots",
+      "hint": "The name includes a Scottish or Gaelic place-name element, like Inver-, Glen-, Loch- or Kirk-.",
       "id": "col_19"
     },
     {
@@ -256,6 +310,8 @@
       "label": "Wordplay: local_suffix",
       "category": "name",
       "match_count": 8,
+      "display": "Naming style: a common English place-name ending",
+      "hint": "The name ends in a common English place-name suffix, like -ton, -ham, -by or -dale.",
       "id": "col_20"
     },
     {
@@ -265,6 +321,8 @@
       "label": "Name contains 'ton'",
       "category": "name",
       "match_count": 6,
+      "display": "Word contains 'ton'",
+      "hint": "Word contains 'ton'.",
       "id": "col_21"
     }
   ]

@@ -7,6 +7,8 @@
       "label": "Interchange station",
       "weight": "medium",
       "match_count": 50,
+      "display": "Is an interchange station",
+      "hint": "Served by two or more separate named routes, or where several lines physically meet.",
       "id": "row_0"
     },
     {
@@ -16,6 +18,8 @@
       "label": "Coastal station",
       "weight": "medium",
       "match_count": 31,
+      "display": "Near the coast",
+      "hint": "A station within 3 kilometres of the coastline or an estuary.",
       "id": "row_1"
     },
     {
@@ -25,6 +29,8 @@
       "label": "Terminus station",
       "weight": "medium",
       "match_count": 37,
+      "display": "Journeys terminate here",
+      "hint": "At least some journeys terminate at this station.",
       "id": "row_2"
     },
     {
@@ -34,6 +40,8 @@
       "label": "One-word name",
       "weight": "medium",
       "match_count": 75,
+      "display": "Station name is one word",
+      "hint": "Station is a one-word name.",
       "id": "row_3"
     },
     {
@@ -43,6 +51,8 @@
       "label": "Three or more words in name",
       "weight": "high",
       "match_count": 7,
+      "display": "Station name is 3+ words",
+      "hint": "Station name is three or more words long.",
       "id": "row_4"
     },
     {
@@ -53,6 +63,8 @@
       "max": 6,
       "weight": "high",
       "match_count": 15,
+      "display": "Station name is 6 letters or fewer",
+      "hint": "Station name is 6 characters or fewer.",
       "id": "row_5"
     },
     {
@@ -63,6 +75,8 @@
       "max": 10,
       "weight": "medium",
       "match_count": 52,
+      "display": "Station name is 7-10 letters",
+      "hint": "Station name length is between 7 and 10 characters.",
       "id": "row_6"
     },
     {
@@ -72,6 +86,8 @@
       "min": 11,
       "weight": "medium",
       "match_count": 44,
+      "display": "Station name is 11+ letters",
+      "hint": "Station name is equal to or exceeds 11 characters.",
       "id": "row_7"
     }
   ],
@@ -83,6 +99,8 @@
       "label": "Region: Weald",
       "category": "geography",
       "match_count": 37,
+      "display": "Is within the Weald region",
+      "hint": "This station is based within the Weald region.",
       "id": "col_0"
     },
     {
@@ -92,6 +110,8 @@
       "label": "Region: Medway",
       "category": "geography",
       "match_count": 23,
+      "display": "Is within the Medway region",
+      "hint": "This station is based within the Medway region.",
       "id": "col_1"
     },
     {
@@ -101,6 +121,8 @@
       "label": "Region: East Kent",
       "category": "geography",
       "match_count": 17,
+      "display": "Is within the East Kent region",
+      "hint": "This station is based within the East Kent region.",
       "id": "col_2"
     },
     {
@@ -110,6 +132,8 @@
       "label": "Region: Canterbury District",
       "category": "geography",
       "match_count": 15,
+      "display": "Is within the Canterbury District region",
+      "hint": "This station is based within the Canterbury District region.",
       "id": "col_3"
     },
     {
@@ -119,6 +143,8 @@
       "label": "Region: North Kent",
       "category": "geography",
       "match_count": 10,
+      "display": "Is within the North Kent region",
+      "hint": "This station is based within the North Kent region.",
       "id": "col_4"
     },
     {
@@ -128,6 +154,8 @@
       "label": "Region: Thanet",
       "category": "geography",
       "match_count": 8,
+      "display": "Is within the Thanet region",
+      "hint": "This station is based within the Thanet region.",
       "id": "col_5"
     },
     {
@@ -137,6 +165,8 @@
       "label": "Time to hub: shortest third",
       "category": "service",
       "match_count": 39,
+      "display": "One of the shorter journeys to the hub station",
+      "hint": "This station has one of the shortest journey times to the hub station out of all stations in this puzzle.",
       "id": "col_6"
     },
     {
@@ -147,6 +177,8 @@
       "label": "Time to hub: middle third",
       "category": "service",
       "match_count": 40,
+      "display": "An average journey to the hub station",
+      "hint": "This station's journey time to the hub station is roughly average for this puzzle.",
       "id": "col_7"
     },
     {
@@ -156,6 +188,8 @@
       "label": "Time to hub: longest third",
       "category": "service",
       "match_count": 39,
+      "display": "One of the longer journeys to the hub station",
+      "hint": "This station has one of the longest journey times to the hub station out of all stations in this puzzle.",
       "id": "col_8"
     },
     {
@@ -165,6 +199,8 @@
       "label": "Route: High Speed 1",
       "category": "route",
       "match_count": 30,
+      "display": "Is part of the High Speed 1 route",
+      "hint": "A station on the High Speed 1 route.",
       "id": "col_9"
     },
     {
@@ -174,6 +210,8 @@
       "label": "Route: North Kent",
       "category": "route",
       "match_count": 14,
+      "display": "Is part of the North Kent route",
+      "hint": "A station on the North Kent route.",
       "id": "col_10"
     },
     {
@@ -183,6 +221,8 @@
       "label": "Route: Medway Valley",
       "category": "route",
       "match_count": 14,
+      "display": "Is part of the Medway Valley route",
+      "hint": "A station on the Medway Valley route.",
       "id": "col_11"
     },
     {
@@ -192,6 +232,8 @@
       "label": "Route: Hastings Line Extended",
       "category": "route",
       "match_count": 14,
+      "display": "Is part of the Hastings Line Extended route",
+      "hint": "A station on the Hastings Line Extended route.",
       "id": "col_12"
     },
     {
@@ -201,6 +243,8 @@
       "label": "Route: East Kent Coast",
       "category": "route",
       "match_count": 14,
+      "display": "Is part of the East Kent Coast route",
+      "hint": "A station on the East Kent Coast route.",
       "id": "col_13"
     },
     {
@@ -210,6 +254,8 @@
       "label": "Route: Chatham Main Line",
       "category": "route",
       "match_count": 13,
+      "display": "Is part of the Chatham Main Line route",
+      "hint": "A station on the Chatham Main Line route.",
       "id": "col_14"
     },
     {
@@ -219,6 +265,8 @@
       "label": "Route: Maidstone East",
       "category": "route",
       "match_count": 12,
+      "display": "Is part of the Maidstone East route",
+      "hint": "A station on the Maidstone East route.",
       "id": "col_15"
     },
     {
@@ -228,6 +276,8 @@
       "label": "Route: Southeastern Main Line",
       "category": "route",
       "match_count": 10,
+      "display": "Is part of the Southeastern Main Line route",
+      "hint": "A station on the Southeastern Main Line route.",
       "id": "col_16"
     },
     {
@@ -237,6 +287,8 @@
       "label": "Route: East Kent Local",
       "category": "route",
       "match_count": 8,
+      "display": "Is part of the East Kent Local route",
+      "hint": "A station on the East Kent Local route.",
       "id": "col_17"
     },
     {
@@ -246,6 +298,8 @@
       "label": "Route: Sevenoaks Metro",
       "category": "route",
       "match_count": 7,
+      "display": "Is part of the Sevenoaks Metro route",
+      "hint": "A station on the Sevenoaks Metro route.",
       "id": "col_18"
     },
     {
@@ -255,6 +309,8 @@
       "label": "Route: Canterbury East Line",
       "category": "route",
       "match_count": 7,
+      "display": "Is part of the Canterbury East Line route",
+      "hint": "A station on the Canterbury East Line route.",
       "id": "col_19"
     },
     {
@@ -264,6 +320,8 @@
       "label": "Route: Sevenoaks Main Line",
       "category": "route",
       "match_count": 6,
+      "display": "Is part of the Sevenoaks Main Line route",
+      "hint": "A station on the Sevenoaks Main Line route.",
       "id": "col_20"
     },
     {
@@ -273,6 +331,8 @@
       "label": "Route: Hastings Line",
       "category": "route",
       "match_count": 6,
+      "display": "Is part of the Hastings Line route",
+      "hint": "A station on the Hastings Line route.",
       "id": "col_21"
     },
     {
@@ -282,6 +342,8 @@
       "label": "Route: Maidstone East Extended",
       "category": "route",
       "match_count": 6,
+      "display": "Is part of the Maidstone East Extended route",
+      "hint": "A station on the Maidstone East Extended route.",
       "id": "col_22"
     },
     {
@@ -291,6 +353,8 @@
       "label": "Route: Ashford Canterbury",
       "category": "route",
       "match_count": 6,
+      "display": "Is part of the Ashford Canterbury route",
+      "hint": "A station on the Ashford Canterbury route.",
       "id": "col_23"
     },
     {
@@ -300,6 +364,8 @@
       "label": "Wordplay: suffix",
       "category": "name",
       "match_count": 34,
+      "display": "Naming style: suffix",
+      "hint": "",
       "id": "col_24"
     },
     {
@@ -309,6 +375,8 @@
       "label": "Wordplay: structure",
       "category": "name",
       "match_count": 8,
+      "display": "Naming style: an unusual name format",
+      "hint": "Something unusual about how the name is written - brackets, a hyphen, an ampersand, or 'St'.",
       "id": "col_25"
     },
     {
@@ -318,6 +386,8 @@
       "label": "Wordplay: place",
       "category": "name",
       "match_count": 4,
+      "display": "Naming style: place",
+      "hint": "",
       "id": "col_26"
     },
     {
@@ -327,6 +397,8 @@
       "label": "Name contains 'ham'",
       "category": "name",
       "match_count": 19,
+      "display": "Word contains 'ham'",
+      "hint": "Word contains 'ham'.",
       "id": "col_27"
     },
     {
@@ -336,6 +408,8 @@
       "label": "Name contains 'ton'",
       "category": "name",
       "match_count": 13,
+      "display": "Word contains 'ton'",
+      "hint": "Word contains 'ton'.",
       "id": "col_28"
     },
     {
@@ -345,6 +419,8 @@
       "label": "Name contains 'ford'",
       "category": "name",
       "match_count": 4,
+      "display": "Word contains 'ford'",
+      "hint": "Word contains 'ford'.",
       "id": "col_29"
     },
     {
@@ -354,6 +430,8 @@
       "label": "Name contains 'green'",
       "category": "name",
       "match_count": 3,
+      "display": "Word contains 'green'",
+      "hint": "Word contains 'green'.",
       "id": "col_30"
     },
     {
@@ -363,6 +441,8 @@
       "label": "Name contains 'ampersand'",
       "category": "name",
       "match_count": 3,
+      "display": "Name includes an '&'",
+      "hint": "The station name includes an ampersand (&).",
       "id": "col_31"
     },
     {
@@ -372,6 +452,8 @@
       "label": "Name contains 'hurst'",
       "category": "name",
       "match_count": 3,
+      "display": "Word contains 'hurst'",
+      "hint": "Word contains 'hurst'.",
       "id": "col_32"
     },
     {
@@ -381,6 +463,8 @@
       "label": "Name contains 'brackets'",
       "category": "name",
       "match_count": 3,
+      "display": "Name includes brackets",
+      "hint": "The station name includes text in brackets, e.g. a disambiguator like '(Cumbria)'.",
       "id": "col_33"
     },
     {
@@ -390,6 +474,8 @@
       "label": "Name contains 'hyphen'",
       "category": "name",
       "match_count": 3,
+      "display": "Name includes a hyphen",
+      "hint": "The station name includes a hyphen.",
       "id": "col_34"
     }
   ]

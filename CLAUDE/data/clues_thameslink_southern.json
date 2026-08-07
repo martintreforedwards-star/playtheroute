@@ -7,6 +7,8 @@
       "label": "Interchange station",
       "weight": "medium",
       "match_count": 74,
+      "display": "Is an interchange station",
+      "hint": "Served by two or more separate named routes, or where several lines physically meet.",
       "id": "row_0"
     },
     {
@@ -16,6 +18,8 @@
       "label": "Coastal station",
       "weight": "medium",
       "match_count": 52,
+      "display": "Near the coast",
+      "hint": "A station within 3 kilometres of the coastline or an estuary.",
       "id": "row_1"
     },
     {
@@ -25,6 +29,8 @@
       "label": "Terminus station",
       "weight": "medium",
       "match_count": 80,
+      "display": "Journeys terminate here",
+      "hint": "At least some journeys terminate at this station.",
       "id": "row_2"
     },
     {
@@ -34,6 +40,8 @@
       "label": "One-word name",
       "weight": "medium",
       "match_count": 137,
+      "display": "Station name is one word",
+      "hint": "Station is a one-word name.",
       "id": "row_3"
     },
     {
@@ -43,6 +51,8 @@
       "label": "Three or more words in name",
       "weight": "high",
       "match_count": 11,
+      "display": "Station name is 3+ words",
+      "hint": "Station name is three or more words long.",
       "id": "row_4"
     },
     {
@@ -53,6 +63,8 @@
       "max": 6,
       "weight": "high",
       "match_count": 27,
+      "display": "Station name is 6 letters or fewer",
+      "hint": "Station name is 6 characters or fewer.",
       "id": "row_5"
     },
     {
@@ -63,6 +75,8 @@
       "max": 10,
       "weight": "medium",
       "match_count": 95,
+      "display": "Station name is 7-10 letters",
+      "hint": "Station name length is between 7 and 10 characters.",
       "id": "row_6"
     },
     {
@@ -72,6 +86,8 @@
       "min": 11,
       "weight": "medium",
       "match_count": 109,
+      "display": "Station name is 11+ letters",
+      "hint": "Station name is equal to or exceeds 11 characters.",
       "id": "row_7"
     }
   ],
@@ -83,6 +99,8 @@
       "label": "Region: South London",
       "category": "geography",
       "match_count": 40,
+      "display": "Is within the South London region",
+      "hint": "This station is based within the South London region.",
       "id": "col_0"
     },
     {
@@ -92,6 +110,8 @@
       "label": "Region: Sevenoaks",
       "category": "geography",
       "match_count": 13,
+      "display": "Is within the Sevenoaks region",
+      "hint": "This station is based within the Sevenoaks region.",
       "id": "col_1"
     },
     {
@@ -101,6 +121,8 @@
       "label": "Region: Reigate and Banstead",
       "category": "geography",
       "match_count": 12,
+      "display": "Is within the Reigate and Banstead region",
+      "hint": "This station is based within the Reigate and Banstead region.",
       "id": "col_2"
     },
     {
@@ -110,6 +132,8 @@
       "label": "Region: Rother",
       "category": "geography",
       "match_count": 12,
+      "display": "Is within the Rother region",
+      "hint": "This station is based within the Rother region.",
       "id": "col_3"
     },
     {
@@ -119,6 +143,8 @@
       "label": "Region: Tandridge",
       "category": "geography",
       "match_count": 12,
+      "display": "Is within the Tandridge region",
+      "hint": "This station is based within the Tandridge region.",
       "id": "col_4"
     },
     {
@@ -128,6 +154,8 @@
       "label": "Region: Wealden",
       "category": "geography",
       "match_count": 10,
+      "display": "Is within the Wealden region",
+      "hint": "This station is based within the Wealden region.",
       "id": "col_5"
     },
     {
@@ -137,6 +165,8 @@
       "label": "Region: Lewes",
       "category": "geography",
       "match_count": 9,
+      "display": "Is within the Lewes region",
+      "hint": "This station is based within the Lewes region.",
       "id": "col_6"
     },
     {
@@ -146,6 +176,8 @@
       "label": "Region: Brighton and Hove",
       "category": "geography",
       "match_count": 8,
+      "display": "Is within the Brighton and Hove region",
+      "hint": "This station is based within the Brighton and Hove region.",
       "id": "col_7"
     },
     {
@@ -155,6 +187,8 @@
       "label": "Region: Horsham",
       "category": "geography",
       "match_count": 8,
+      "display": "Is within the Horsham region",
+      "hint": "This station is based within the Horsham region.",
       "id": "col_8"
     },
     {
@@ -164,6 +198,8 @@
       "label": "Region: Mole Valley",
       "category": "geography",
       "match_count": 7,
+      "display": "Is within the Mole Valley region",
+      "hint": "This station is based within the Mole Valley region.",
       "id": "col_9"
     },
     {
@@ -173,6 +209,8 @@
       "label": "Time to hub: shortest third",
       "category": "service",
       "match_count": 107,
+      "display": "One of the shorter journeys to the hub station",
+      "hint": "This station has one of the shortest journey times to the hub station out of all stations in this puzzle.",
       "id": "col_10"
     },
     {
@@ -183,6 +221,8 @@
       "label": "Time to hub: middle third",
       "category": "service",
       "match_count": 79,
+      "display": "An average journey to the hub station",
+      "hint": "This station's journey time to the hub station is roughly average for this puzzle.",
       "id": "col_11"
     },
     {
@@ -192,6 +232,8 @@
       "label": "Time to hub: longest third",
       "category": "service",
       "match_count": 77,
+      "display": "One of the longer journeys to the hub station",
+      "hint": "This station has one of the longest journey times to the hub station out of all stations in this puzzle.",
       "id": "col_12"
     },
     {
@@ -201,6 +243,8 @@
       "label": "Operator: Thameslink",
       "category": "route",
       "match_count": 23,
+      "display": "Route operated by Thameslink.",
+      "hint": "This station is served by Thameslink.",
       "id": "col_13"
     },
     {
@@ -210,6 +254,8 @@
       "label": "Route: West Coastway",
       "category": "route",
       "match_count": 25,
+      "display": "Is part of the West Coastway route",
+      "hint": "A station on the West Coastway route.",
       "id": "col_14"
     },
     {
@@ -219,6 +265,8 @@
       "label": "Route: Midland Electrics",
       "category": "route",
       "match_count": 23,
+      "display": "Is part of the Midland Electrics route",
+      "hint": "A station on the Midland Electrics route.",
       "id": "col_15"
     },
     {
@@ -228,6 +276,8 @@
       "label": "Route: East Coastway",
       "category": "route",
       "match_count": 21,
+      "display": "Is part of the East Coastway route",
+      "hint": "A station on the East Coastway route.",
       "id": "col_16"
     },
     {
@@ -237,6 +287,8 @@
       "label": "Route: Brighton Main Line",
       "category": "route",
       "match_count": 20,
+      "display": "Is part of the Brighton Main Line route",
+      "hint": "A station on the Brighton Main Line route.",
       "id": "col_17"
     },
     {
@@ -246,6 +298,8 @@
       "label": "Route: Sutton & Metro",
       "category": "route",
       "match_count": 20,
+      "display": "Is part of the Sutton & Metro route",
+      "hint": "A station on the Sutton & Metro route.",
       "id": "col_18"
     },
     {
@@ -255,6 +309,8 @@
       "label": "Route: Southern Thameslink Branches",
       "category": "route",
       "match_count": 19,
+      "display": "Is part of the Southern Thameslink Branches route",
+      "hint": "A station on the Southern Thameslink Branches route.",
       "id": "col_19"
     },
     {
@@ -264,6 +320,8 @@
       "label": "Route: Uckfield Branch",
       "category": "route",
       "match_count": 16,
+      "display": "Is part of the Uckfield Branch route",
+      "hint": "A station on the Uckfield Branch route.",
       "id": "col_20"
     },
     {
@@ -273,6 +331,8 @@
       "label": "Route: Portsmouth Direct",
       "category": "route",
       "match_count": 16,
+      "display": "Is part of the Portsmouth Direct route",
+      "hint": "A station on the Portsmouth Direct route.",
       "id": "col_21"
     },
     {
@@ -282,6 +342,8 @@
       "label": "Route: Midland Main Line",
       "category": "route",
       "match_count": 16,
+      "display": "Is part of the Midland Main Line route",
+      "hint": "A station on the Midland Main Line route.",
       "id": "col_22"
     },
     {
@@ -291,6 +353,8 @@
       "label": "Route: Coastway East",
       "category": "route",
       "match_count": 13,
+      "display": "Is part of the Coastway East route",
+      "hint": "A station on the Coastway East route.",
       "id": "col_23"
     },
     {
@@ -300,6 +364,8 @@
       "label": "Route: Coastway West",
       "category": "route",
       "match_count": 12,
+      "display": "Is part of the Coastway West route",
+      "hint": "A station on the Coastway West route.",
       "id": "col_24"
     },
     {
@@ -309,6 +375,8 @@
       "label": "Route: Arun Valley Line",
       "category": "route",
       "match_count": 11,
+      "display": "Is part of the Arun Valley Line route",
+      "hint": "A station on the Arun Valley Line route.",
       "id": "col_25"
     },
     {
@@ -318,6 +386,8 @@
       "label": "Route: Coastway",
       "category": "route",
       "match_count": 11,
+      "display": "Is part of the Coastway route",
+      "hint": "A station on the Coastway route.",
       "id": "col_26"
     },
     {
@@ -327,6 +397,8 @@
       "label": "Route: Epsom Downs Line",
       "category": "route",
       "match_count": 11,
+      "display": "Is part of the Epsom Downs Line route",
+      "hint": "A station on the Epsom Downs Line route.",
       "id": "col_27"
     },
     {
@@ -336,6 +408,8 @@
       "label": "Route: Mole Valley Line",
       "category": "route",
       "match_count": 9,
+      "display": "Is part of the Mole Valley Line route",
+      "hint": "A station on the Mole Valley Line route.",
       "id": "col_28"
     },
     {
@@ -345,6 +419,8 @@
       "label": "Wordplay: local_suffix",
       "category": "name",
       "match_count": 79,
+      "display": "Naming style: a common English place-name ending",
+      "hint": "The name ends in a common English place-name suffix, like -ton, -ham, -by or -dale.",
       "id": "col_29"
     },
     {
@@ -354,6 +430,8 @@
       "label": "Wordplay: structure",
       "category": "name",
       "match_count": 33,
+      "display": "Naming style: an unusual name format",
+      "hint": "Something unusual about how the name is written - brackets, a hyphen, an ampersand, or 'St'.",
       "id": "col_30"
     },
     {
@@ -363,6 +441,8 @@
       "label": "Wordplay: nature",
       "category": "name",
       "match_count": 9,
+      "display": "Naming style: a nature word in the name",
+      "hint": "The name includes a nature word, like Park, Hill, Green, Heath or Wood.",
       "id": "col_31"
     },
     {
@@ -372,6 +452,8 @@
       "label": "Name contains 'ham'",
       "category": "name",
       "match_count": 28,
+      "display": "Word contains 'ham'",
+      "hint": "Word contains 'ham'.",
       "id": "col_32"
     },
     {
@@ -381,6 +463,8 @@
       "label": "Name contains 'ton'",
       "category": "name",
       "match_count": 25,
+      "display": "Word contains 'ton'",
+      "hint": "Word contains 'ton'.",
       "id": "col_33"
     },
     {
@@ -390,6 +474,8 @@
       "label": "Name contains 'brackets'",
       "category": "name",
       "match_count": 19,
+      "display": "Name includes brackets",
+      "hint": "The station name includes text in brackets, e.g. a disambiguator like '(Cumbria)'.",
       "id": "col_34"
     },
     {
@@ -399,6 +485,8 @@
       "label": "Name contains 'don'",
       "category": "name",
       "match_count": 16,
+      "display": "Word contains 'don'",
+      "hint": "Word contains 'don'.",
       "id": "col_35"
     },
     {
@@ -408,6 +496,8 @@
       "label": "Name contains 'ey'",
       "category": "name",
       "match_count": 14,
+      "display": "Word contains 'ey'",
+      "hint": "Word contains 'ey'.",
       "id": "col_36"
     },
     {
@@ -417,6 +507,8 @@
       "label": "Name contains 'ridge'",
       "category": "name",
       "match_count": 9,
+      "display": "Word contains 'ridge'",
+      "hint": "Word contains 'ridge'.",
       "id": "col_37"
     },
     {
@@ -426,6 +518,8 @@
       "label": "Name contains 'ley'",
       "category": "name",
       "match_count": 8,
+      "display": "Word contains 'ley'",
+      "hint": "Word contains 'ley'.",
       "id": "col_38"
     },
     {
@@ -435,6 +529,8 @@
       "label": "Name contains 'ington'",
       "category": "name",
       "match_count": 7,
+      "display": "Word contains 'ington'",
+      "hint": "Word contains 'ington'.",
       "id": "col_39"
     },
     {
@@ -444,6 +540,8 @@
       "label": "Name contains 'hill'",
       "category": "name",
       "match_count": 6,
+      "display": "Word contains 'hill'",
+      "hint": "Word contains 'hill'.",
       "id": "col_40"
     },
     {
@@ -453,6 +551,8 @@
       "label": "Name contains 'saint'",
       "category": "name",
       "match_count": 6,
+      "display": "Name includes 'St'",
+      "hint": "The station name includes 'St' (Saint).",
       "id": "col_41"
     },
     {
@@ -462,6 +562,8 @@
       "label": "Name contains 'stead'",
       "category": "name",
       "match_count": 5,
+      "display": "Word contains 'stead'",
+      "hint": "Word contains 'stead'.",
       "id": "col_42"
     },
     {
@@ -471,6 +573,8 @@
       "label": "Name contains 'ampersand'",
       "category": "name",
       "match_count": 5,
+      "display": "Name includes an '&'",
+      "hint": "The station name includes an ampersand (&).",
       "id": "col_43"
     },
     {
@@ -480,6 +584,8 @@
       "label": "Name contains 'park'",
       "category": "name",
       "match_count": 4,
+      "display": "Word contains 'park'",
+      "hint": "Word contains 'park'.",
       "id": "col_44"
     },
     {
@@ -489,6 +595,8 @@
       "label": "Name contains 'green'",
       "category": "name",
       "match_count": 3,
+      "display": "Word contains 'green'",
+      "hint": "Word contains 'green'.",
       "id": "col_45"
     },
     {
@@ -498,6 +606,8 @@
       "label": "Name contains 'hyphen'",
       "category": "name",
       "match_count": 3,
+      "display": "Name includes a hyphen",
+      "hint": "The station name includes a hyphen.",
       "id": "col_46"
     }
   ]

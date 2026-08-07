@@ -7,6 +7,8 @@
       "label": "Interchange station",
       "weight": "medium",
       "match_count": 29,
+      "display": "Is an interchange station",
+      "hint": "Served by two or more separate named routes, or where several lines physically meet.",
       "id": "row_0"
     },
     {
@@ -16,6 +18,8 @@
       "label": "Coastal station",
       "weight": "medium",
       "match_count": 22,
+      "display": "Near the coast",
+      "hint": "A station within 3 kilometres of the coastline or an estuary.",
       "id": "row_1"
     },
     {
@@ -25,6 +29,8 @@
       "label": "Terminus station",
       "weight": "medium",
       "match_count": 20,
+      "display": "Journeys terminate here",
+      "hint": "At least some journeys terminate at this station.",
       "id": "row_2"
     },
     {
@@ -34,6 +40,8 @@
       "label": "One-word name",
       "weight": "medium",
       "match_count": 61,
+      "display": "Station name is one word",
+      "hint": "Station is a one-word name.",
       "id": "row_3"
     },
     {
@@ -43,6 +51,8 @@
       "label": "Three or more words in name",
       "weight": "high",
       "match_count": 3,
+      "display": "Station name is 3+ words",
+      "hint": "Station name is three or more words long.",
       "id": "row_4"
     },
     {
@@ -53,6 +63,8 @@
       "max": 6,
       "weight": "high",
       "match_count": 13,
+      "display": "Station name is 6 letters or fewer",
+      "hint": "Station name is 6 characters or fewer.",
       "id": "row_5"
     },
     {
@@ -63,6 +75,8 @@
       "max": 10,
       "weight": "medium",
       "match_count": 45,
+      "display": "Station name is 7-10 letters",
+      "hint": "Station name length is between 7 and 10 characters.",
       "id": "row_6"
     },
     {
@@ -72,6 +86,8 @@
       "min": 11,
       "weight": "medium",
       "match_count": 24,
+      "display": "Station name is 11+ letters",
+      "hint": "Station name is equal to or exceeds 11 characters.",
       "id": "row_7"
     }
   ],
@@ -83,6 +99,8 @@
       "label": "Region: Northumberland",
       "category": "geography",
       "match_count": 21,
+      "display": "Is within the Northumberland region",
+      "hint": "This station is based within the Northumberland region.",
       "id": "col_0"
     },
     {
@@ -92,6 +110,8 @@
       "label": "Region: North Yorkshire",
       "category": "geography",
       "match_count": 13,
+      "display": "Is within the North Yorkshire region",
+      "hint": "This station is based within the North Yorkshire region.",
       "id": "col_1"
     },
     {
@@ -101,6 +121,8 @@
       "label": "Region: Cumberland",
       "category": "geography",
       "match_count": 11,
+      "display": "Is within the Cumberland region",
+      "hint": "This station is based within the Cumberland region.",
       "id": "col_2"
     },
     {
@@ -110,6 +132,8 @@
       "label": "Region: Redcar and Cleveland",
       "category": "geography",
       "match_count": 10,
+      "display": "Is within the Redcar and Cleveland region",
+      "hint": "This station is based within the Redcar and Cleveland region.",
       "id": "col_3"
     },
     {
@@ -119,6 +143,8 @@
       "label": "Region: County Durham",
       "category": "geography",
       "match_count": 7,
+      "display": "Is within the County Durham region",
+      "hint": "This station is based within the County Durham region.",
       "id": "col_4"
     },
     {
@@ -128,6 +154,8 @@
       "label": "Region: Stockton-on-Tees",
       "category": "geography",
       "match_count": 5,
+      "display": "Is within the Stockton-on-Tees region",
+      "hint": "This station is based within the Stockton-on-Tees region.",
       "id": "col_5"
     },
     {
@@ -137,6 +165,8 @@
       "label": "Region: Gateshead",
       "category": "geography",
       "match_count": 4,
+      "display": "Is within the Gateshead region",
+      "hint": "This station is based within the Gateshead region.",
       "id": "col_6"
     },
     {
@@ -146,6 +176,8 @@
       "label": "Region: Darlington",
       "category": "geography",
       "match_count": 3,
+      "display": "Is within the Darlington region",
+      "hint": "This station is based within the Darlington region.",
       "id": "col_7"
     },
     {
@@ -155,6 +187,8 @@
       "label": "Time to hub: shortest third",
       "category": "service",
       "match_count": 28,
+      "display": "One of the shorter journeys to the hub station",
+      "hint": "This station has one of the shortest journey times to the hub station out of all stations in this puzzle.",
       "id": "col_8"
     },
     {
@@ -165,6 +199,8 @@
       "label": "Time to hub: middle third",
       "category": "service",
       "match_count": 29,
+      "display": "An average journey to the hub station",
+      "hint": "This station's journey time to the hub station is roughly average for this puzzle.",
       "id": "col_9"
     },
     {
@@ -174,6 +210,8 @@
       "label": "Time to hub: longest third",
       "category": "service",
       "match_count": 27,
+      "display": "One of the longer journeys to the hub station",
+      "hint": "This station has one of the longest journey times to the hub station out of all stations in this puzzle.",
       "id": "col_10"
     },
     {
@@ -183,6 +221,8 @@
       "label": "Route: Hadrian's Wall Country Line",
       "category": "route",
       "match_count": 31,
+      "display": "Is part of the Hadrian's Wall Country Line route",
+      "hint": "A station on the Hadrian's Wall Country Line route.",
       "id": "col_11"
     },
     {
@@ -192,6 +232,8 @@
       "label": "Route: Tyne Valley Line",
       "category": "route",
       "match_count": 31,
+      "display": "Is part of the Tyne Valley Line route",
+      "hint": "A station on the Tyne Valley Line route.",
       "id": "col_12"
     },
     {
@@ -201,6 +243,8 @@
       "label": "Route: Esk Valley Railway",
       "category": "route",
       "match_count": 28,
+      "display": "Is part of the Esk Valley Railway route",
+      "hint": "A station on the Esk Valley Railway route.",
       "id": "col_13"
     },
     {
@@ -210,6 +254,8 @@
       "label": "Route: Tees Valley Line",
       "category": "route",
       "match_count": 18,
+      "display": "Is part of the Tees Valley Line route",
+      "hint": "A station on the Tees Valley Line route.",
       "id": "col_14"
     },
     {
@@ -219,6 +265,8 @@
       "label": "Route: Durham Coast Line",
       "category": "route",
       "match_count": 18,
+      "display": "Is part of the Durham Coast Line route",
+      "hint": "A station on the Durham Coast Line route.",
       "id": "col_15"
     },
     {
@@ -228,6 +276,8 @@
       "label": "Route: Northumberland Line",
       "category": "route",
       "match_count": 9,
+      "display": "Is part of the Northumberland Line route",
+      "hint": "A station on the Northumberland Line route.",
       "id": "col_16"
     },
     {
@@ -237,6 +287,8 @@
       "label": "Route: Cumbrian Coast Line",
       "category": "route",
       "match_count": 8,
+      "display": "Is part of the Cumbrian Coast Line route",
+      "hint": "A station on the Cumbrian Coast Line route.",
       "id": "col_17"
     },
     {
@@ -246,6 +298,8 @@
       "label": "Route: East Coast Main Line",
       "category": "route",
       "match_count": 5,
+      "display": "Is part of the East Coast Main Line route",
+      "hint": "A station on the East Coast Main Line route.",
       "id": "col_18"
     },
     {
@@ -255,6 +309,8 @@
       "label": "Route: Bishop Line",
       "category": "route",
       "match_count": 5,
+      "display": "Is part of the Bishop Line route",
+      "hint": "A station on the Bishop Line route.",
       "id": "col_19"
     },
     {
@@ -264,6 +320,8 @@
       "label": "Route: Heritage Line",
       "category": "route",
       "match_count": 5,
+      "display": "Is part of the Heritage Line route",
+      "hint": "A station on the Heritage Line route.",
       "id": "col_20"
     },
     {
@@ -273,6 +331,8 @@
       "label": "Wordplay: local_suffix",
       "category": "name",
       "match_count": 36,
+      "display": "Naming style: a common English place-name ending",
+      "hint": "The name ends in a common English place-name suffix, like -ton, -ham, -by or -dale.",
       "id": "col_21"
     },
     {
@@ -282,6 +342,8 @@
       "label": "Wordplay: structure",
       "category": "name",
       "match_count": 5,
+      "display": "Naming style: an unusual name format",
+      "hint": "Something unusual about how the name is written - brackets, a hyphen, an ampersand, or 'St'.",
       "id": "col_22"
     },
     {
@@ -291,6 +353,8 @@
       "label": "Name contains 'ton'",
       "category": "name",
       "match_count": 22,
+      "display": "Word contains 'ton'",
+      "hint": "Word contains 'ton'.",
       "id": "col_23"
     },
     {
@@ -300,6 +364,8 @@
       "label": "Name contains 'ington'",
       "category": "name",
       "match_count": 9,
+      "display": "Word contains 'ington'",
+      "hint": "Word contains 'ington'.",
       "id": "col_24"
     },
     {
@@ -309,6 +375,8 @@
       "label": "Name contains 'by'",
       "category": "name",
       "match_count": 5,
+      "display": "Word contains 'by'",
+      "hint": "Word contains 'by'.",
       "id": "col_25"
     },
     {
@@ -318,6 +386,8 @@
       "label": "Name contains 'ham'",
       "category": "name",
       "match_count": 4,
+      "display": "Word contains 'ham'",
+      "hint": "Word contains 'ham'.",
       "id": "col_26"
     },
     {
@@ -327,6 +397,8 @@
       "label": "Name contains 'don'",
       "category": "name",
       "match_count": 4,
+      "display": "Word contains 'don'",
+      "hint": "Word contains 'don'.",
       "id": "col_27"
     },
     {
@@ -336,6 +408,8 @@
       "label": "Name contains 'brackets'",
       "category": "name",
       "match_count": 4,
+      "display": "Name includes brackets",
+      "hint": "The station name includes text in brackets, e.g. a disambiguator like '(Cumbria)'.",
       "id": "col_28"
     },
     {
@@ -345,6 +419,8 @@
       "label": "Name contains 'dale'",
       "category": "name",
       "match_count": 4,
+      "display": "Word contains 'dale'",
+      "hint": "Word contains 'dale'.",
       "id": "col_29"
     }
   ]

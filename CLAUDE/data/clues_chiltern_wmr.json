@@ -7,6 +7,8 @@
       "label": "Interchange station",
       "weight": "medium",
       "match_count": 39,
+      "display": "Is an interchange station",
+      "hint": "Served by two or more separate named routes, or where several lines physically meet.",
       "id": "row_0"
     },
     {
@@ -16,6 +18,8 @@
       "label": "Terminus station",
       "weight": "medium",
       "match_count": 48,
+      "display": "Journeys terminate here",
+      "hint": "At least some journeys terminate at this station.",
       "id": "row_1"
     },
     {
@@ -25,6 +29,8 @@
       "label": "One-word name",
       "weight": "medium",
       "match_count": 80,
+      "display": "Station name is one word",
+      "hint": "Station is a one-word name.",
       "id": "row_2"
     },
     {
@@ -34,6 +40,8 @@
       "label": "Three or more words in name",
       "weight": "high",
       "match_count": 21,
+      "display": "Station name is 3+ words",
+      "hint": "Station name is three or more words long.",
       "id": "row_3"
     },
     {
@@ -44,6 +52,8 @@
       "max": 6,
       "weight": "high",
       "match_count": 16,
+      "display": "Station name is 6 letters or fewer",
+      "hint": "Station name is 6 characters or fewer.",
       "id": "row_4"
     },
     {
@@ -54,6 +64,8 @@
       "max": 10,
       "weight": "medium",
       "match_count": 73,
+      "display": "Station name is 7-10 letters",
+      "hint": "Station name length is between 7 and 10 characters.",
       "id": "row_5"
     },
     {
@@ -63,6 +75,8 @@
       "min": 11,
       "weight": "medium",
       "match_count": 83,
+      "display": "Station name is 11+ letters",
+      "hint": "Station name is equal to or exceeds 11 characters.",
       "id": "row_6"
     }
   ],
@@ -74,6 +88,8 @@
       "label": "Region: Birmingham",
       "category": "geography",
       "match_count": 37,
+      "display": "Is within the Birmingham region",
+      "hint": "This station is based within the Birmingham region.",
       "id": "col_0"
     },
     {
@@ -83,6 +99,8 @@
       "label": "Region: Buckinghamshire",
       "category": "geography",
       "match_count": 18,
+      "display": "Is within the Buckinghamshire region",
+      "hint": "This station is based within the Buckinghamshire region.",
       "id": "col_1"
     },
     {
@@ -92,6 +110,8 @@
       "label": "Region: Sandwell",
       "category": "geography",
       "match_count": 12,
+      "display": "Is within the Sandwell region",
+      "hint": "This station is based within the Sandwell region.",
       "id": "col_2"
     },
     {
@@ -101,6 +121,8 @@
       "label": "Region: Solihull",
       "category": "geography",
       "match_count": 11,
+      "display": "Is within the Solihull region",
+      "hint": "This station is based within the Solihull region.",
       "id": "col_3"
     },
     {
@@ -110,6 +132,8 @@
       "label": "Region: Stratford-on-Avon",
       "category": "geography",
       "match_count": 10,
+      "display": "Is within the Stratford-on-Avon region",
+      "hint": "This station is based within the Stratford-on-Avon region.",
       "id": "col_4"
     },
     {
@@ -119,6 +143,8 @@
       "label": "Region: Warwick",
       "category": "geography",
       "match_count": 6,
+      "display": "Is within the Warwick region",
+      "hint": "This station is based within the Warwick region.",
       "id": "col_5"
     },
     {
@@ -128,6 +154,8 @@
       "label": "Region: Bromsgrove",
       "category": "geography",
       "match_count": 5,
+      "display": "Is within the Bromsgrove region",
+      "hint": "This station is based within the Bromsgrove region.",
       "id": "col_6"
     },
     {
@@ -137,6 +165,8 @@
       "label": "Region: Cherwell",
       "category": "geography",
       "match_count": 5,
+      "display": "Is within the Cherwell region",
+      "hint": "This station is based within the Cherwell region.",
       "id": "col_7"
     },
     {
@@ -146,6 +176,8 @@
       "label": "Region: Walsall",
       "category": "geography",
       "match_count": 5,
+      "display": "Is within the Walsall region",
+      "hint": "This station is based within the Walsall region.",
       "id": "col_8"
     },
     {
@@ -155,6 +187,8 @@
       "label": "Region: West London",
       "category": "geography",
       "match_count": 5,
+      "display": "Is within the West London region",
+      "hint": "This station is based within the West London region.",
       "id": "col_9"
     },
     {
@@ -164,6 +198,8 @@
       "label": "Hub: Birmingham New Street",
       "category": "geography",
       "match_count": 124,
+      "display": "Trains head to Birmingham New Street",
+      "hint": "This station's journeys are routed via or towards Birmingham New Street.",
       "id": "col_10"
     },
     {
@@ -173,6 +209,8 @@
       "label": "Hub: London",
       "category": "geography",
       "match_count": 48,
+      "display": "Trains head to London",
+      "hint": "This station's journeys are routed via or towards London.",
       "id": "col_11"
     },
     {
@@ -182,6 +220,8 @@
       "label": "Time to hub: shortest third",
       "category": "service",
       "match_count": 58,
+      "display": "One of the shorter journeys to the hub station",
+      "hint": "This station has one of the shortest journey times to the hub station out of all stations in this puzzle.",
       "id": "col_12"
     },
     {
@@ -192,6 +232,8 @@
       "label": "Time to hub: middle third",
       "category": "service",
       "match_count": 61,
+      "display": "An average journey to the hub station",
+      "hint": "This station's journey time to the hub station is roughly average for this puzzle.",
       "id": "col_13"
     },
     {
@@ -201,6 +243,8 @@
       "label": "Time to hub: longest third",
       "category": "service",
       "match_count": 57,
+      "display": "One of the longer journeys to the hub station",
+      "hint": "This station has one of the longest journey times to the hub station out of all stations in this puzzle.",
       "id": "col_14"
     },
     {
@@ -210,6 +254,8 @@
       "label": "Operator: West Midlands Railway",
       "category": "route",
       "match_count": 124,
+      "display": "Route operated by West Midlands Railway.",
+      "hint": "This station is served by West Midlands Railway.",
       "id": "col_15"
     },
     {
@@ -219,6 +265,8 @@
       "label": "Operator: Chiltern Railways",
       "category": "route",
       "match_count": 48,
+      "display": "Route operated by Chiltern Railways.",
+      "hint": "This station is served by Chiltern Railways.",
       "id": "col_16"
     },
     {
@@ -228,6 +276,8 @@
       "label": "Route: Shakespeare Line",
       "category": "route",
       "match_count": 34,
+      "display": "Is part of the Shakespeare Line route",
+      "hint": "A station on the Shakespeare Line route.",
       "id": "col_17"
     },
     {
@@ -237,6 +287,8 @@
       "label": "Route: Snow Hill Lines",
       "category": "route",
       "match_count": 34,
+      "display": "Is part of the Snow Hill Lines route",
+      "hint": "A station on the Snow Hill Lines route.",
       "id": "col_18"
     },
     {
@@ -246,6 +298,8 @@
       "label": "Route: Shrewsbury to Wolverhampton Line",
       "category": "route",
       "match_count": 28,
+      "display": "Is part of the Shrewsbury to Wolverhampton Line route",
+      "hint": "A station on the Shrewsbury to Wolverhampton Line route.",
       "id": "col_19"
     },
     {
@@ -255,6 +309,8 @@
       "label": "Route: Chase Line",
       "category": "route",
       "match_count": 25,
+      "display": "Is part of the Chase Line route",
+      "hint": "A station on the Chase Line route.",
       "id": "col_20"
     },
     {
@@ -264,6 +320,8 @@
       "label": "Route: Cross-City",
       "category": "route",
       "match_count": 23,
+      "display": "Is part of the Cross-City route",
+      "hint": "A station on the Cross-City route.",
       "id": "col_21"
     },
     {
@@ -273,6 +331,8 @@
       "label": "Route: Chiltern Line",
       "category": "route",
       "match_count": 19,
+      "display": "Is part of the Chiltern Line route",
+      "hint": "A station on the Chiltern Line route.",
       "id": "col_22"
     },
     {
@@ -282,6 +342,8 @@
       "label": "Route: Amersham Line",
       "category": "route",
       "match_count": 10,
+      "display": "Is part of the Amersham Line route",
+      "hint": "A station on the Amersham Line route.",
       "id": "col_23"
     },
     {
@@ -291,6 +353,8 @@
       "label": "Route: West Coast Main Line",
       "category": "route",
       "match_count": 7,
+      "display": "Is part of the West Coast Main Line route",
+      "hint": "A station on the West Coast Main Line route.",
       "id": "col_24"
     },
     {
@@ -300,6 +364,8 @@
       "label": "Route: Elephant & Bear Line",
       "category": "route",
       "match_count": 5,
+      "display": "Is part of the Elephant & Bear Line route",
+      "hint": "A station on the Elephant & Bear Line route.",
       "id": "col_25"
     },
     {
@@ -309,6 +375,8 @@
       "label": "Route: Cotswolds & Malverns Line",
       "category": "route",
       "match_count": 5,
+      "display": "Is part of the Cotswolds & Malverns Line route",
+      "hint": "A station on the Cotswolds & Malverns Line route.",
       "id": "col_26"
     },
     {
@@ -318,6 +386,8 @@
       "label": "Route: Oxford Branch",
       "category": "route",
       "match_count": 4,
+      "display": "Is part of the Oxford Branch route",
+      "hint": "A station on the Oxford Branch route.",
       "id": "col_27"
     },
     {
@@ -327,6 +397,8 @@
       "label": "Route: Stratford Branch",
       "category": "route",
       "match_count": 4,
+      "display": "Is part of the Stratford Branch route",
+      "hint": "A station on the Stratford Branch route.",
       "id": "col_28"
     },
     {
@@ -336,6 +408,8 @@
       "label": "Route: Cross City Line",
       "category": "route",
       "match_count": 3,
+      "display": "Is part of the Cross City Line route",
+      "hint": "A station on the Cross City Line route.",
       "id": "col_29"
     },
     {
@@ -345,6 +419,8 @@
       "label": "Wordplay: local_suffix",
       "category": "name",
       "match_count": 73,
+      "display": "Naming style: a common English place-name ending",
+      "hint": "The name ends in a common English place-name suffix, like -ton, -ham, -by or -dale.",
       "id": "col_30"
     },
     {
@@ -354,6 +430,8 @@
       "label": "Wordplay: nature",
       "category": "name",
       "match_count": 14,
+      "display": "Naming style: a nature word in the name",
+      "hint": "The name includes a nature word, like Park, Hill, Green, Heath or Wood.",
       "id": "col_31"
     },
     {
@@ -363,6 +441,8 @@
       "label": "Wordplay: structure",
       "category": "name",
       "match_count": 13,
+      "display": "Naming style: an unusual name format",
+      "hint": "Something unusual about how the name is written - brackets, a hyphen, an ampersand, or 'St'.",
       "id": "col_32"
     },
     {
@@ -372,6 +452,8 @@
       "label": "Name contains 'ey'",
       "category": "name",
       "match_count": 23,
+      "display": "Word contains 'ey'",
+      "hint": "Word contains 'ey'.",
       "id": "col_33"
     },
     {
@@ -381,6 +463,8 @@
       "label": "Name contains 'ton'",
       "category": "name",
       "match_count": 23,
+      "display": "Word contains 'ton'",
+      "hint": "Word contains 'ton'.",
       "id": "col_34"
     },
     {
@@ -390,6 +474,8 @@
       "label": "Name contains 'ley'",
       "category": "name",
       "match_count": 20,
+      "display": "Word contains 'ley'",
+      "hint": "Word contains 'ley'.",
       "id": "col_35"
     },
     {
@@ -399,6 +485,8 @@
       "label": "Name contains 'ford'",
       "category": "name",
       "match_count": 10,
+      "display": "Word contains 'ford'",
+      "hint": "Word contains 'ford'.",
       "id": "col_36"
     },
     {
@@ -408,6 +496,8 @@
       "label": "Name contains 'park'",
       "category": "name",
       "match_count": 9,
+      "display": "Word contains 'park'",
+      "hint": "Word contains 'park'.",
       "id": "col_37"
     },
     {
@@ -417,6 +507,8 @@
       "label": "Name contains 'ham'",
       "category": "name",
       "match_count": 8,
+      "display": "Word contains 'ham'",
+      "hint": "Word contains 'ham'.",
       "id": "col_38"
     },
     {
@@ -426,6 +518,8 @@
       "label": "Name contains 'bury'",
       "category": "name",
       "match_count": 8,
+      "display": "Word contains 'bury'",
+      "hint": "Word contains 'bury'.",
       "id": "col_39"
     },
     {
@@ -435,6 +529,8 @@
       "label": "Name contains 'ridge'",
       "category": "name",
       "match_count": 8,
+      "display": "Word contains 'ridge'",
+      "hint": "Word contains 'ridge'.",
       "id": "col_40"
     },
     {
@@ -444,6 +540,8 @@
       "label": "Name contains 'hill'",
       "category": "name",
       "match_count": 7,
+      "display": "Word contains 'hill'",
+      "hint": "Word contains 'hill'.",
       "id": "col_41"
     },
     {
@@ -453,6 +551,8 @@
       "label": "Name contains 'green'",
       "category": "name",
       "match_count": 7,
+      "display": "Word contains 'green'",
+      "hint": "Word contains 'green'.",
       "id": "col_42"
     },
     {
@@ -462,6 +562,8 @@
       "label": "Name contains 'ampersand'",
       "category": "name",
       "match_count": 6,
+      "display": "Name includes an '&'",
+      "hint": "The station name includes an ampersand (&).",
       "id": "col_43"
     },
     {
@@ -471,6 +573,8 @@
       "label": "Name contains 'field'",
       "category": "name",
       "match_count": 5,
+      "display": "Word contains 'field'",
+      "hint": "Word contains 'field'.",
       "id": "col_44"
     },
     {
@@ -480,6 +584,8 @@
       "label": "Name contains 'hyphen'",
       "category": "name",
       "match_count": 5,
+      "display": "Name includes a hyphen",
+      "hint": "The station name includes a hyphen.",
       "id": "col_45"
     },
     {
@@ -489,6 +595,8 @@
       "label": "Name contains 'heath'",
       "category": "name",
       "match_count": 3,
+      "display": "Word contains 'heath'",
+      "hint": "Word contains 'heath'.",
       "id": "col_46"
     }
   ]

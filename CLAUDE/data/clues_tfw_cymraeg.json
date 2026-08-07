@@ -7,6 +7,8 @@
       "label": "Interchange station",
       "weight": "medium",
       "match_count": 105,
+      "display": "Is an interchange station",
+      "hint": "Served by two or more separate named routes, or where several lines physically meet.",
       "id": "row_0"
     },
     {
@@ -16,6 +18,8 @@
       "label": "Coastal station",
       "weight": "medium",
       "match_count": 84,
+      "display": "Near the coast",
+      "hint": "A station within 3 kilometres of the coastline or an estuary.",
       "id": "row_1"
     },
     {
@@ -25,6 +29,8 @@
       "label": "Terminus station",
       "weight": "high",
       "match_count": 54,
+      "display": "Journeys terminate here",
+      "hint": "At least some journeys terminate at this station.",
       "id": "row_2"
     },
     {
@@ -34,6 +40,8 @@
       "label": "One-word name",
       "weight": "medium",
       "match_count": 156,
+      "display": "Station name is one word",
+      "hint": "Station is a one-word name.",
       "id": "row_3"
     },
     {
@@ -43,6 +51,8 @@
       "label": "Three or more words in name",
       "weight": "high",
       "match_count": 33,
+      "display": "Station name is 3+ words",
+      "hint": "Station name is three or more words long.",
       "id": "row_4"
     },
     {
@@ -53,6 +63,8 @@
       "max": 6,
       "weight": "high",
       "match_count": 38,
+      "display": "Station name is 6 letters or fewer",
+      "hint": "Station name is 6 characters or fewer.",
       "id": "row_5"
     },
     {
@@ -63,6 +75,8 @@
       "max": 10,
       "weight": "medium",
       "match_count": 139,
+      "display": "Station name is 7-10 letters",
+      "hint": "Station name length is between 7 and 10 characters.",
       "id": "row_6"
     },
     {
@@ -72,6 +86,8 @@
       "min": 11,
       "weight": "medium",
       "match_count": 71,
+      "display": "Station name is 11+ letters",
+      "hint": "Station name is equal to or exceeds 11 characters.",
       "id": "row_7"
     }
   ],
@@ -83,6 +99,8 @@
       "label": "Region: Gwynedd",
       "category": "geography",
       "match_count": 27,
+      "display": "Is within the Gwynedd region",
+      "hint": "This station is based within the Gwynedd region.",
       "id": "col_0"
     },
     {
@@ -92,6 +110,8 @@
       "label": "Region: Rhondda Cynon Taf",
       "category": "geography",
       "match_count": 22,
+      "display": "Is within the Rhondda Cynon Taf region",
+      "hint": "This station is based within the Rhondda Cynon Taf region.",
       "id": "col_1"
     },
     {
@@ -101,6 +121,8 @@
       "label": "Region: Cardiff",
       "category": "geography",
       "match_count": 20,
+      "display": "Is within the Cardiff region",
+      "hint": "This station is based within the Cardiff region.",
       "id": "col_2"
     },
     {
@@ -110,6 +132,8 @@
       "label": "Region: Conwy",
       "category": "geography",
       "match_count": 17,
+      "display": "Is within the Conwy region",
+      "hint": "This station is based within the Conwy region.",
       "id": "col_3"
     },
     {
@@ -119,6 +143,8 @@
       "label": "Region: Carmarthenshire",
       "category": "geography",
       "match_count": 17,
+      "display": "Is within the Carmarthenshire region",
+      "hint": "This station is based within the Carmarthenshire region.",
       "id": "col_4"
     },
     {
@@ -128,6 +154,8 @@
       "label": "Region: Powys",
       "category": "geography",
       "match_count": 17,
+      "display": "Is within the Powys region",
+      "hint": "This station is based within the Powys region.",
       "id": "col_5"
     },
     {
@@ -137,6 +165,8 @@
       "label": "Region: Caerphilly",
       "category": "geography",
       "match_count": 16,
+      "display": "Is within the Caerphilly region",
+      "hint": "This station is based within the Caerphilly region.",
       "id": "col_6"
     },
     {
@@ -146,6 +176,8 @@
       "label": "Region: Pembrokeshire",
       "category": "geography",
       "match_count": 16,
+      "display": "Is within the Pembrokeshire region",
+      "hint": "This station is based within the Pembrokeshire region.",
       "id": "col_7"
     },
     {
@@ -155,6 +187,8 @@
       "label": "Region: Shropshire",
       "category": "geography",
       "match_count": 13,
+      "display": "Is within the Shropshire region",
+      "hint": "This station is based within the Shropshire region.",
       "id": "col_8"
     },
     {
@@ -164,6 +198,8 @@
       "label": "Region: Vale of Glamorgan",
       "category": "geography",
       "match_count": 11,
+      "display": "Is within the Vale of Glamorgan region",
+      "hint": "This station is based within the Vale of Glamorgan region.",
       "id": "col_9"
     },
     {
@@ -173,6 +209,8 @@
       "label": "Hub: Cardiff Central",
       "category": "geography",
       "match_count": 95,
+      "display": "Trains head to Cardiff Central",
+      "hint": "This station's journeys are routed via or towards Cardiff Central.",
       "id": "col_10"
     },
     {
@@ -182,6 +220,8 @@
       "label": "Hub: Shrewsbury",
       "category": "geography",
       "match_count": 52,
+      "display": "Trains head to Shrewsbury",
+      "hint": "This station's journeys are routed via or towards Shrewsbury.",
       "id": "col_11"
     },
     {
@@ -191,6 +231,8 @@
       "label": "Hub: Wrexham/Chester",
       "category": "geography",
       "match_count": 52,
+      "display": "Trains head to Wrexham/Chester",
+      "hint": "This station's journeys are routed via or towards Wrexham/Chester.",
       "id": "col_12"
     },
     {
@@ -200,6 +242,8 @@
       "label": "Hub: Swansea",
       "category": "geography",
       "match_count": 49,
+      "display": "Trains head to Swansea",
+      "hint": "This station's journeys are routed via or towards Swansea.",
       "id": "col_13"
     },
     {
@@ -209,6 +253,8 @@
       "label": "Time to hub: shortest third",
       "category": "service",
       "match_count": 83,
+      "display": "One of the shorter journeys to the hub station",
+      "hint": "This station has one of the shortest journey times to the hub station out of all stations in this puzzle.",
       "id": "col_14"
     },
     {
@@ -219,6 +265,8 @@
       "label": "Time to hub: middle third",
       "category": "service",
       "match_count": 87,
+      "display": "An average journey to the hub station",
+      "hint": "This station's journey time to the hub station is roughly average for this puzzle.",
       "id": "col_15"
     },
     {
@@ -228,6 +276,8 @@
       "label": "Time to hub: longest third",
       "category": "service",
       "match_count": 83,
+      "display": "One of the longer journeys to the hub station",
+      "hint": "This station has one of the longest journey times to the hub station out of all stations in this puzzle.",
       "id": "col_16"
     },
     {
@@ -237,6 +287,8 @@
       "label": "Route: Central Wales Line",
       "category": "route",
       "match_count": 63,
+      "display": "Is part of the Central Wales Line route",
+      "hint": "A station on the Central Wales Line route.",
       "id": "col_17"
     },
     {
@@ -246,6 +298,8 @@
       "label": "Route: Heart of Wales Line",
       "category": "route",
       "match_count": 63,
+      "display": "Is part of the Heart of Wales Line route",
+      "hint": "A station on the Heart of Wales Line route.",
       "id": "col_18"
     },
     {
@@ -255,6 +309,8 @@
       "label": "Route: North Wales Coast Line",
       "category": "route",
       "match_count": 50,
+      "display": "Is part of the North Wales Coast Line route",
+      "hint": "A station on the North Wales Coast Line route.",
       "id": "col_19"
     },
     {
@@ -264,6 +320,8 @@
       "label": "Route: Swanline",
       "category": "route",
       "match_count": 44,
+      "display": "Is part of the Swanline route",
+      "hint": "A station on the Swanline route.",
       "id": "col_20"
     },
     {
@@ -273,6 +331,8 @@
       "label": "Route: Vale of Glamorgan Line",
       "category": "route",
       "match_count": 31,
+      "display": "Is part of the Vale of Glamorgan Line route",
+      "hint": "A station on the Vale of Glamorgan Line route.",
       "id": "col_21"
     },
     {
@@ -282,6 +342,8 @@
       "label": "Route: Coryton Line",
       "category": "route",
       "match_count": 30,
+      "display": "Is part of the Coryton Line route",
+      "hint": "A station on the Coryton Line route.",
       "id": "col_22"
     },
     {
@@ -291,6 +353,8 @@
       "label": "Route: Cambrian Coast Line",
       "category": "route",
       "match_count": 27,
+      "display": "Is part of the Cambrian Coast Line route",
+      "hint": "A station on the Cambrian Coast Line route.",
       "id": "col_23"
     },
     {
@@ -300,6 +364,8 @@
       "label": "Route: Merthyr Line",
       "category": "route",
       "match_count": 25,
+      "display": "Is part of the Merthyr Line route",
+      "hint": "A station on the Merthyr Line route.",
       "id": "col_24"
     },
     {
@@ -309,6 +375,8 @@
       "label": "Route: Treherbert Line",
       "category": "route",
       "match_count": 25,
+      "display": "Is part of the Treherbert Line route",
+      "hint": "A station on the Treherbert Line route.",
       "id": "col_25"
     },
     {
@@ -318,6 +386,8 @@
       "label": "Route: Aberdare Line",
       "category": "route",
       "match_count": 24,
+      "display": "Is part of the Aberdare Line route",
+      "hint": "A station on the Aberdare Line route.",
       "id": "col_26"
     },
     {
@@ -327,6 +397,8 @@
       "label": "Route: Ebbw Valley Line",
       "category": "route",
       "match_count": 20,
+      "display": "Is part of the Ebbw Valley Line route",
+      "hint": "A station on the Ebbw Valley Line route.",
       "id": "col_27"
     },
     {
@@ -336,6 +408,8 @@
       "label": "Route: Marches Line",
       "category": "route",
       "match_count": 18,
+      "display": "Is part of the Marches Line route",
+      "hint": "A station on the Marches Line route.",
       "id": "col_28"
     },
     {
@@ -345,6 +419,8 @@
       "label": "Route: North & West Line",
       "category": "route",
       "match_count": 16,
+      "display": "Is part of the North & West Line route",
+      "hint": "A station on the North & West Line route.",
       "id": "col_29"
     },
     {
@@ -354,6 +430,8 @@
       "label": "Route: Borderlands Line",
       "category": "route",
       "match_count": 13,
+      "display": "Is part of the Borderlands Line route",
+      "hint": "A station on the Borderlands Line route.",
       "id": "col_30"
     },
     {
@@ -363,6 +441,8 @@
       "label": "Route: Conwy Valley Line",
       "category": "route",
       "match_count": 13,
+      "display": "Is part of the Conwy Valley Line route",
+      "hint": "A station on the Conwy Valley Line route.",
       "id": "col_31"
     },
     {
@@ -372,6 +452,8 @@
       "label": "Wordplay: place",
       "category": "name",
       "match_count": 63,
+      "display": "Naming style: place",
+      "hint": "",
       "id": "col_32"
     },
     {
@@ -381,6 +463,8 @@
       "label": "Wordplay: feature",
       "category": "name",
       "match_count": 45,
+      "display": "Naming style: feature",
+      "hint": "",
       "id": "col_33"
     },
     {
@@ -390,6 +474,8 @@
       "label": "Wordplay: structure",
       "category": "name",
       "match_count": 9,
+      "display": "Naming style: an unusual name format",
+      "hint": "Something unusual about how the name is written - brackets, a hyphen, an ampersand, or 'St'.",
       "id": "col_34"
     },
     {
@@ -399,6 +485,8 @@
       "label": "Name contains 'llan'",
       "category": "name",
       "match_count": 32,
+      "display": "Word contains 'llan'",
+      "hint": "Word contains 'llan'.",
       "id": "col_35"
     },
     {
@@ -408,6 +496,8 @@
       "label": "Name contains 'pen'",
       "category": "name",
       "match_count": 20,
+      "display": "Word contains 'pen'",
+      "hint": "Word contains 'pen'.",
       "id": "col_36"
     },
     {
@@ -417,6 +507,8 @@
       "label": "Name contains 'aber'",
       "category": "name",
       "match_count": 13,
+      "display": "Word contains 'aber'",
+      "hint": "Word contains 'aber'.",
       "id": "col_37"
     },
     {
@@ -426,6 +518,8 @@
       "label": "Name contains 'tre'",
       "category": "name",
       "match_count": 10,
+      "display": "Word contains 'tre'",
+      "hint": "Word contains 'tre'.",
       "id": "col_38"
     },
     {
@@ -435,6 +529,8 @@
       "label": "Name contains 'caer'",
       "category": "name",
       "match_count": 10,
+      "display": "Word contains 'caer'",
+      "hint": "Word contains 'caer'.",
       "id": "col_39"
     },
     {
@@ -444,6 +540,8 @@
       "label": "Name contains 'pont'",
       "category": "name",
       "match_count": 8,
+      "display": "Word contains 'pont'",
+      "hint": "Word contains 'pont'.",
       "id": "col_40"
     },
     {
@@ -453,6 +551,8 @@
       "label": "Name contains 'a_ac'",
       "category": "name",
       "match_count": 7,
+      "display": "Name includes Welsh 'a'/'ac'",
+      "hint": "The Welsh station name includes 'a' or 'ac' (meaning 'and'), joining two place names.",
       "id": "col_41"
     },
     {
@@ -462,6 +562,8 @@
       "label": "Name contains 'ynys'",
       "category": "name",
       "match_count": 3,
+      "display": "Word contains 'ynys'",
+      "hint": "Word contains 'ynys'.",
       "id": "col_42"
     },
     {
@@ -471,6 +573,8 @@
       "label": "Name contains 'dinas'",
       "category": "name",
       "match_count": 3,
+      "display": "Word contains 'dinas'",
+      "hint": "Word contains 'dinas'.",
       "id": "col_43"
     },
     {
@@ -480,6 +584,8 @@
       "label": "Name contains 'glyn'",
       "category": "name",
       "match_count": 3,
+      "display": "Word contains 'glyn'",
+      "hint": "Word contains 'glyn'.",
       "id": "col_44"
     },
     {
@@ -489,6 +595,8 @@
       "label": "Name contains 'maes'",
       "category": "name",
       "match_count": 3,
+      "display": "Word contains 'maes'",
+      "hint": "Word contains 'maes'.",
       "id": "col_45"
     }
   ]

@@ -7,6 +7,8 @@
       "label": "Interchange station",
       "weight": "medium",
       "match_count": 37,
+      "display": "Is an interchange station",
+      "hint": "Served by two or more separate named routes, or where several lines physically meet.",
       "id": "row_0"
     },
     {
@@ -16,6 +18,8 @@
       "label": "Terminus station",
       "weight": "medium",
       "match_count": 22,
+      "display": "Journeys terminate here",
+      "hint": "At least some journeys terminate at this station.",
       "id": "row_1"
     },
     {
@@ -25,6 +29,8 @@
       "label": "One-word name",
       "weight": "medium",
       "match_count": 34,
+      "display": "Station name is one word",
+      "hint": "Station is a one-word name.",
       "id": "row_2"
     },
     {
@@ -34,6 +40,8 @@
       "label": "Three or more words in name",
       "weight": "high",
       "match_count": 4,
+      "display": "Station name is 3+ words",
+      "hint": "Station name is three or more words long.",
       "id": "row_3"
     },
     {
@@ -44,6 +52,8 @@
       "max": 6,
       "weight": "high",
       "match_count": 6,
+      "display": "Station name is 6 letters or fewer",
+      "hint": "Station name is 6 characters or fewer.",
       "id": "row_4"
     },
     {
@@ -54,6 +64,8 @@
       "max": 10,
       "weight": "medium",
       "match_count": 42,
+      "display": "Station name is 7-10 letters",
+      "hint": "Station name length is between 7 and 10 characters.",
       "id": "row_5"
     },
     {
@@ -63,6 +75,8 @@
       "min": 11,
       "weight": "medium",
       "match_count": 32,
+      "display": "Station name is 11+ letters",
+      "hint": "Station name is equal to or exceeds 11 characters.",
       "id": "row_6"
     }
   ],
@@ -74,6 +88,8 @@
       "label": "Region: Central London",
       "category": "geography",
       "match_count": 3,
+      "display": "Is within the Central London region",
+      "hint": "This station is based within the Central London region.",
       "id": "col_0"
     },
     {
@@ -83,6 +99,8 @@
       "label": "Time to hub: shortest third",
       "category": "service",
       "match_count": 27,
+      "display": "One of the shorter journeys to the hub station",
+      "hint": "This station has one of the shortest journey times to the hub station out of all stations in this puzzle.",
       "id": "col_1"
     },
     {
@@ -93,6 +111,8 @@
       "label": "Time to hub: middle third",
       "category": "service",
       "match_count": 38,
+      "display": "An average journey to the hub station",
+      "hint": "This station's journey time to the hub station is roughly average for this puzzle.",
       "id": "col_2"
     },
     {
@@ -102,6 +122,8 @@
       "label": "Time to hub: longest third",
       "category": "service",
       "match_count": 27,
+      "display": "One of the longer journeys to the hub station",
+      "hint": "This station has one of the longest journey times to the hub station out of all stations in this puzzle.",
       "id": "col_3"
     },
     {
@@ -111,6 +133,8 @@
       "label": "Time to Victoria: shortest third",
       "category": "service",
       "match_count": 30,
+      "display": "One of the shorter journeys to Victoria",
+      "hint": "This station has one of the shortest journey times to Victoria out of all stations in this puzzle.",
       "id": "col_4"
     },
     {
@@ -121,6 +145,8 @@
       "label": "Time to Victoria: middle third",
       "category": "service",
       "match_count": 29,
+      "display": "An average journey to Victoria",
+      "hint": "This station's journey time to Victoria is roughly average for this puzzle.",
       "id": "col_5"
     },
     {
@@ -130,6 +156,8 @@
       "label": "Time to Victoria: longest third",
       "category": "service",
       "match_count": 30,
+      "display": "One of the longer journeys to Victoria",
+      "hint": "This station has one of the longest journey times to Victoria out of all stations in this puzzle.",
       "id": "col_6"
     },
     {
@@ -139,6 +167,8 @@
       "label": "Time to Charing Cross: shortest third",
       "category": "service",
       "match_count": 27,
+      "display": "One of the shorter journeys to Charing Cross",
+      "hint": "This station has one of the shortest journey times to Charing Cross out of all stations in this puzzle.",
       "id": "col_7"
     },
     {
@@ -149,6 +179,8 @@
       "label": "Time to Charing Cross: middle third",
       "category": "service",
       "match_count": 33,
+      "display": "An average journey to Charing Cross",
+      "hint": "This station's journey time to Charing Cross is roughly average for this puzzle.",
       "id": "col_8"
     },
     {
@@ -158,6 +190,8 @@
       "label": "Time to Charing Cross: longest third",
       "category": "service",
       "match_count": 27,
+      "display": "One of the longer journeys to Charing Cross",
+      "hint": "This station has one of the longest journey times to Charing Cross out of all stations in this puzzle.",
       "id": "col_9"
     },
     {
@@ -167,6 +201,8 @@
       "label": "Route: Dartford Loop",
       "category": "route",
       "match_count": 21,
+      "display": "Is part of the Dartford Loop route",
+      "hint": "A station on the Dartford Loop route.",
       "id": "col_10"
     },
     {
@@ -176,6 +212,8 @@
       "label": "Route: Sevenoaks Main Line",
       "category": "route",
       "match_count": 14,
+      "display": "Is part of the Sevenoaks Main Line route",
+      "hint": "A station on the Sevenoaks Main Line route.",
       "id": "col_11"
     },
     {
@@ -185,6 +223,8 @@
       "label": "Route: Catford Loop Extended",
       "category": "route",
       "match_count": 14,
+      "display": "Is part of the Catford Loop Extended route",
+      "hint": "A station on the Catford Loop Extended route.",
       "id": "col_12"
     },
     {
@@ -194,6 +234,8 @@
       "label": "Route: Sevenoaks Metro",
       "category": "route",
       "match_count": 13,
+      "display": "Is part of the Sevenoaks Metro route",
+      "hint": "A station on the Sevenoaks Metro route.",
       "id": "col_13"
     },
     {
@@ -203,6 +245,8 @@
       "label": "Route: Greenwich Line",
       "category": "route",
       "match_count": 12,
+      "display": "Is part of the Greenwich Line route",
+      "hint": "A station on the Greenwich Line route.",
       "id": "col_14"
     },
     {
@@ -212,6 +256,8 @@
       "label": "Route: Catford Corridor",
       "category": "route",
       "match_count": 11,
+      "display": "Is part of the Catford Corridor route",
+      "hint": "A station on the Catford Corridor route.",
       "id": "col_15"
     },
     {
@@ -221,6 +267,8 @@
       "label": "Route: Catford Loop",
       "category": "route",
       "match_count": 11,
+      "display": "Is part of the Catford Loop route",
+      "hint": "A station on the Catford Loop route.",
       "id": "col_16"
     },
     {
@@ -230,6 +278,8 @@
       "label": "Route: Bromley South Metro",
       "category": "route",
       "match_count": 10,
+      "display": "Is part of the Bromley South Metro route",
+      "hint": "A station on the Bromley South Metro route.",
       "id": "col_17"
     },
     {
@@ -239,6 +289,8 @@
       "label": "Route: Bexleyheath Line",
       "category": "route",
       "match_count": 9,
+      "display": "Is part of the Bexleyheath Line route",
+      "hint": "A station on the Bexleyheath Line route.",
       "id": "col_18"
     },
     {
@@ -248,6 +300,8 @@
       "label": "Route: Hayes Branch",
       "category": "route",
       "match_count": 9,
+      "display": "Is part of the Hayes Branch route",
+      "hint": "A station on the Hayes Branch route.",
       "id": "col_19"
     },
     {
@@ -257,6 +311,8 @@
       "label": "Route: Chatham Main Line Metro",
       "category": "route",
       "match_count": 6,
+      "display": "Is part of the Chatham Main Line Metro route",
+      "hint": "A station on the Chatham Main Line Metro route.",
       "id": "col_20"
     },
     {
@@ -266,6 +322,8 @@
       "label": "Route: Bromley South Main Line",
       "category": "route",
       "match_count": 5,
+      "display": "Is part of the Bromley South Main Line route",
+      "hint": "A station on the Bromley South Main Line route.",
       "id": "col_21"
     },
     {
@@ -275,6 +333,8 @@
       "label": "Route: Chatham Main Line",
       "category": "route",
       "match_count": 3,
+      "display": "Is part of the Chatham Main Line route",
+      "hint": "A station on the Chatham Main Line route.",
       "id": "col_22"
     },
     {
@@ -284,6 +344,8 @@
       "label": "Route: Bromley North Branch",
       "category": "route",
       "match_count": 3,
+      "display": "Is part of the Bromley North Branch route",
+      "hint": "A station on the Bromley North Branch route.",
       "id": "col_23"
     },
     {
@@ -293,6 +355,8 @@
       "label": "Wordplay: suffix",
       "category": "name",
       "match_count": 23,
+      "display": "Naming style: suffix",
+      "hint": "",
       "id": "col_24"
     },
     {
@@ -302,6 +366,8 @@
       "label": "Wordplay: nature",
       "category": "name",
       "match_count": 12,
+      "display": "Naming style: a nature word in the name",
+      "hint": "The name includes a nature word, like Park, Hill, Green, Heath or Wood.",
       "id": "col_25"
     },
     {
@@ -311,6 +377,8 @@
       "label": "Wordplay: place",
       "category": "name",
       "match_count": 6,
+      "display": "Naming style: place",
+      "hint": "",
       "id": "col_26"
     },
     {
@@ -320,6 +388,8 @@
       "label": "Wordplay: structure",
       "category": "name",
       "match_count": 4,
+      "display": "Naming style: an unusual name format",
+      "hint": "Something unusual about how the name is written - brackets, a hyphen, an ampersand, or 'St'.",
       "id": "col_27"
     },
     {
@@ -329,6 +399,8 @@
       "label": "Name contains 'ham'",
       "category": "name",
       "match_count": 13,
+      "display": "Word contains 'ham'",
+      "hint": "Word contains 'ham'.",
       "id": "col_28"
     },
     {
@@ -338,6 +410,8 @@
       "label": "Name contains 'ford'",
       "category": "name",
       "match_count": 6,
+      "display": "Word contains 'ford'",
+      "hint": "Word contains 'ford'.",
       "id": "col_29"
     },
     {
@@ -347,6 +421,8 @@
       "label": "Name contains 'park'",
       "category": "name",
       "match_count": 6,
+      "display": "Word contains 'park'",
+      "hint": "Word contains 'park'.",
       "id": "col_30"
     },
     {
@@ -356,6 +432,8 @@
       "label": "Name contains 'hill'",
       "category": "name",
       "match_count": 5,
+      "display": "Word contains 'hill'",
+      "hint": "Word contains 'hill'.",
       "id": "col_31"
     },
     {
@@ -365,6 +443,8 @@
       "label": "Name contains 'wich'",
       "category": "name",
       "match_count": 4,
+      "display": "Word contains 'wich'",
+      "hint": "Word contains 'wich'.",
       "id": "col_32"
     },
     {
@@ -374,6 +454,8 @@
       "label": "Name contains 'ton'",
       "category": "name",
       "match_count": 4,
+      "display": "Word contains 'ton'",
+      "hint": "Word contains 'ton'.",
       "id": "col_33"
     },
     {
@@ -383,6 +465,8 @@
       "label": "Name contains 'wood'",
       "category": "name",
       "match_count": 4,
+      "display": "Word contains 'wood'",
+      "hint": "Word contains 'wood'.",
       "id": "col_34"
     },
     {
@@ -392,6 +476,8 @@
       "label": "Name contains 'saint'",
       "category": "name",
       "match_count": 3,
+      "display": "Name includes 'St'",
+      "hint": "The station name includes 'St' (Saint).",
       "id": "col_35"
     },
     {
@@ -401,6 +487,8 @@
       "label": "Name contains 'green'",
       "category": "name",
       "match_count": 3,
+      "display": "Word contains 'green'",
+      "hint": "Word contains 'green'.",
       "id": "col_36"
     }
   ]

@@ -7,6 +7,8 @@
       "label": "Interchange station",
       "weight": "high",
       "match_count": 25,
+      "display": "Is an interchange station",
+      "hint": "Served by two or more separate named routes, or where several lines physically meet.",
       "id": "row_0"
     },
     {
@@ -16,6 +18,8 @@
       "label": "Coastal station",
       "weight": "medium",
       "match_count": 44,
+      "display": "Near the coast",
+      "hint": "A station within 3 kilometres of the coastline or an estuary.",
       "id": "row_1"
     },
     {
@@ -25,6 +29,8 @@
       "label": "Terminus station",
       "weight": "high",
       "match_count": 18,
+      "display": "Journeys terminate here",
+      "hint": "At least some journeys terminate at this station.",
       "id": "row_2"
     },
     {
@@ -34,6 +40,8 @@
       "label": "One-word name",
       "weight": "medium",
       "match_count": 87,
+      "display": "Station name is one word",
+      "hint": "Station is a one-word name.",
       "id": "row_3"
     },
     {
@@ -43,6 +51,8 @@
       "label": "Three or more words in name",
       "weight": "high",
       "match_count": 5,
+      "display": "Station name is 3+ words",
+      "hint": "Station name is three or more words long.",
       "id": "row_4"
     },
     {
@@ -53,6 +63,8 @@
       "max": 6,
       "weight": "high",
       "match_count": 19,
+      "display": "Station name is 6 letters or fewer",
+      "hint": "Station name is 6 characters or fewer.",
       "id": "row_5"
     },
     {
@@ -63,6 +75,8 @@
       "max": 10,
       "weight": "medium",
       "match_count": 63,
+      "display": "Station name is 7-10 letters",
+      "hint": "Station name length is between 7 and 10 characters.",
       "id": "row_6"
     },
     {
@@ -72,6 +86,8 @@
       "min": 11,
       "weight": "medium",
       "match_count": 36,
+      "display": "Station name is 11+ letters",
+      "hint": "Station name is equal to or exceeds 11 characters.",
       "id": "row_7"
     }
   ],
@@ -83,6 +99,8 @@
       "label": "Region: Gwynedd",
       "category": "geography",
       "match_count": 27,
+      "display": "Is within the Gwynedd region",
+      "hint": "This station is based within the Gwynedd region.",
       "id": "col_0"
     },
     {
@@ -92,6 +110,8 @@
       "label": "Region: Conwy",
       "category": "geography",
       "match_count": 17,
+      "display": "Is within the Conwy region",
+      "hint": "This station is based within the Conwy region.",
       "id": "col_1"
     },
     {
@@ -101,6 +121,8 @@
       "label": "Region: Shropshire",
       "category": "geography",
       "match_count": 13,
+      "display": "Is within the Shropshire region",
+      "hint": "This station is based within the Shropshire region.",
       "id": "col_2"
     },
     {
@@ -110,6 +132,8 @@
       "label": "Region: Powys",
       "category": "geography",
       "match_count": 11,
+      "display": "Is within the Powys region",
+      "hint": "This station is based within the Powys region.",
       "id": "col_3"
     },
     {
@@ -119,6 +143,8 @@
       "label": "Region: Cheshire West and Chester",
       "category": "geography",
       "match_count": 10,
+      "display": "Is within the Cheshire West and Chester region",
+      "hint": "This station is based within the Cheshire West and Chester region.",
       "id": "col_4"
     },
     {
@@ -128,6 +154,8 @@
       "label": "Region: Flintshire",
       "category": "geography",
       "match_count": 9,
+      "display": "Is within the Flintshire region",
+      "hint": "This station is based within the Flintshire region.",
       "id": "col_5"
     },
     {
@@ -137,6 +165,8 @@
       "label": "Region: Wirral",
       "category": "geography",
       "match_count": 9,
+      "display": "Is within the Wirral region",
+      "hint": "This station is based within the Wirral region.",
       "id": "col_6"
     },
     {
@@ -146,6 +176,8 @@
       "label": "Region: Isle of Anglesey",
       "category": "geography",
       "match_count": 6,
+      "display": "Is within the Isle of Anglesey region",
+      "hint": "This station is based within the Isle of Anglesey region.",
       "id": "col_7"
     },
     {
@@ -155,6 +187,8 @@
       "label": "Region: Wrexham",
       "category": "geography",
       "match_count": 5,
+      "display": "Is within the Wrexham region",
+      "hint": "This station is based within the Wrexham region.",
       "id": "col_8"
     },
     {
@@ -164,6 +198,8 @@
       "label": "Region: Ceredigion",
       "category": "geography",
       "match_count": 3,
+      "display": "Is within the Ceredigion region",
+      "hint": "This station is based within the Ceredigion region.",
       "id": "col_9"
     },
     {
@@ -173,6 +209,8 @@
       "label": "Hub: Shrewsbury",
       "category": "geography",
       "match_count": 52,
+      "display": "Trains head to Shrewsbury",
+      "hint": "This station's journeys are routed via or towards Shrewsbury.",
       "id": "col_10"
     },
     {
@@ -182,6 +220,8 @@
       "label": "Hub: Wrexham/Chester",
       "category": "geography",
       "match_count": 66,
+      "display": "Trains head to Wrexham/Chester",
+      "hint": "This station's journeys are routed via or towards Wrexham/Chester.",
       "id": "col_11"
     },
     {
@@ -191,6 +231,8 @@
       "label": "Time to hub: shortest third",
       "category": "service",
       "match_count": 40,
+      "display": "One of the shorter journeys to the hub station",
+      "hint": "This station has one of the shortest journey times to the hub station out of all stations in this puzzle.",
       "id": "col_12"
     },
     {
@@ -201,6 +243,8 @@
       "label": "Time to hub: middle third",
       "category": "service",
       "match_count": 41,
+      "display": "An average journey to the hub station",
+      "hint": "This station's journey time to the hub station is roughly average for this puzzle.",
       "id": "col_13"
     },
     {
@@ -210,6 +254,8 @@
       "label": "Time to hub: longest third",
       "category": "service",
       "match_count": 40,
+      "display": "One of the longer journeys to the hub station",
+      "hint": "This station has one of the longest journey times to the hub station out of all stations in this puzzle.",
       "id": "col_14"
     },
     {
@@ -219,6 +265,8 @@
       "label": "Operator: TfW",
       "category": "route",
       "match_count": 104,
+      "display": "Route operated by TfW.",
+      "hint": "This station is served by TfW.",
       "id": "col_15"
     },
     {
@@ -228,6 +276,8 @@
       "label": "Operator: Merseyrail",
       "category": "route",
       "match_count": 11,
+      "display": "Route operated by Merseyrail.",
+      "hint": "This station is served by Merseyrail.",
       "id": "col_16"
     },
     {
@@ -237,6 +287,8 @@
       "label": "Operator: Northern",
       "category": "route",
       "match_count": 3,
+      "display": "Route operated by Northern.",
+      "hint": "This station is served by Northern.",
       "id": "col_17"
     },
     {
@@ -246,6 +298,8 @@
       "label": "Route: North Wales Coast Line",
       "category": "route",
       "match_count": 45,
+      "display": "Is part of the North Wales Coast Line route",
+      "hint": "A station on the North Wales Coast Line route.",
       "id": "col_18"
     },
     {
@@ -255,6 +309,8 @@
       "label": "Route: Cambrian Coast Line",
       "category": "route",
       "match_count": 27,
+      "display": "Is part of the Cambrian Coast Line route",
+      "hint": "A station on the Cambrian Coast Line route.",
       "id": "col_19"
     },
     {
@@ -264,6 +320,8 @@
       "label": "Route: Central Wales Line",
       "category": "route",
       "match_count": 21,
+      "display": "Is part of the Central Wales Line route",
+      "hint": "A station on the Central Wales Line route.",
       "id": "col_20"
     },
     {
@@ -273,6 +331,8 @@
       "label": "Route: Heart of Wales Line",
       "category": "route",
       "match_count": 21,
+      "display": "Is part of the Heart of Wales Line route",
+      "hint": "A station on the Heart of Wales Line route.",
       "id": "col_21"
     },
     {
@@ -282,6 +342,8 @@
       "label": "Route: Borderlands Line",
       "category": "route",
       "match_count": 13,
+      "display": "Is part of the Borderlands Line route",
+      "hint": "A station on the Borderlands Line route.",
       "id": "col_22"
     },
     {
@@ -291,6 +353,8 @@
       "label": "Route: Conwy Valley Line",
       "category": "route",
       "match_count": 13,
+      "display": "Is part of the Conwy Valley Line route",
+      "hint": "A station on the Conwy Valley Line route.",
       "id": "col_23"
     },
     {
@@ -300,6 +364,8 @@
       "label": "Route: Wirral Line",
       "category": "route",
       "match_count": 11,
+      "display": "Is part of the Wirral Line route",
+      "hint": "A station on the Wirral Line route.",
       "id": "col_24"
     },
     {
@@ -309,6 +375,8 @@
       "label": "Route: Marches Line",
       "category": "route",
       "match_count": 11,
+      "display": "Is part of the Marches Line route",
+      "hint": "A station on the Marches Line route.",
       "id": "col_25"
     },
     {
@@ -318,6 +386,8 @@
       "label": "Route: North & West Line",
       "category": "route",
       "match_count": 11,
+      "display": "Is part of the North & West Line route",
+      "hint": "A station on the North & West Line route.",
       "id": "col_26"
     },
     {
@@ -327,6 +397,8 @@
       "label": "Route: Cambrian Line",
       "category": "route",
       "match_count": 9,
+      "display": "Is part of the Cambrian Line route",
+      "hint": "A station on the Cambrian Line route.",
       "id": "col_27"
     },
     {
@@ -336,6 +408,8 @@
       "label": "Route: Mid-Cheshire Line",
       "category": "route",
       "match_count": 3,
+      "display": "Is part of the Mid-Cheshire Line route",
+      "hint": "A station on the Mid-Cheshire Line route.",
       "id": "col_28"
     },
     {
@@ -345,6 +419,8 @@
       "label": "Wordplay: welsh_place",
       "category": "name",
       "match_count": 25,
+      "display": "Naming style: Welsh place-name roots",
+      "hint": "The name includes a Welsh place-name element, like Llan-, Aber-, Pen- or Caer-.",
       "id": "col_29"
     },
     {
@@ -354,6 +430,8 @@
       "label": "Wordplay: local_suffix",
       "category": "name",
       "match_count": 15,
+      "display": "Naming style: a common English place-name ending",
+      "hint": "The name ends in a common English place-name suffix, like -ton, -ham, -by or -dale.",
       "id": "col_30"
     },
     {
@@ -363,6 +441,8 @@
       "label": "Wordplay: structure",
       "category": "name",
       "match_count": 11,
+      "display": "Naming style: an unusual name format",
+      "hint": "Something unusual about how the name is written - brackets, a hyphen, an ampersand, or 'St'.",
       "id": "col_31"
     },
     {
@@ -372,6 +452,8 @@
       "label": "Name contains 'llan'",
       "category": "name",
       "match_count": 13,
+      "display": "Word contains 'llan'",
+      "hint": "Word contains 'llan'.",
       "id": "col_32"
     },
     {
@@ -381,6 +463,8 @@
       "label": "Name contains 'ton'",
       "category": "name",
       "match_count": 9,
+      "display": "Word contains 'ton'",
+      "hint": "Word contains 'ton'.",
       "id": "col_33"
     },
     {
@@ -390,6 +474,8 @@
       "label": "Name contains 'pen'",
       "category": "name",
       "match_count": 8,
+      "display": "Word contains 'pen'",
+      "hint": "Word contains 'pen'.",
       "id": "col_34"
     },
     {
@@ -399,6 +485,8 @@
       "label": "Name contains 'brackets'",
       "category": "name",
       "match_count": 6,
+      "display": "Name includes brackets",
+      "hint": "The station name includes text in brackets, e.g. a disambiguator like '(Cumbria)'.",
       "id": "col_35"
     },
     {
@@ -408,6 +496,8 @@
       "label": "Name contains 'hyphen'",
       "category": "name",
       "match_count": 5,
+      "display": "Name includes a hyphen",
+      "hint": "The station name includes a hyphen.",
       "id": "col_36"
     },
     {
@@ -417,6 +507,8 @@
       "label": "Name contains 'aber'",
       "category": "name",
       "match_count": 4,
+      "display": "Word contains 'aber'",
+      "hint": "Word contains 'aber'.",
       "id": "col_37"
     },
     {
@@ -426,6 +518,8 @@
       "label": "Name contains 'ey'",
       "category": "name",
       "match_count": 4,
+      "display": "Word contains 'ey'",
+      "hint": "Word contains 'ey'.",
       "id": "col_38"
     },
     {
@@ -435,6 +529,8 @@
       "label": "Name contains 'ham'",
       "category": "name",
       "match_count": 4,
+      "display": "Word contains 'ham'",
+      "hint": "Word contains 'ham'.",
       "id": "col_39"
     }
   ]

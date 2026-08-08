@@ -7,7 +7,7 @@ Usage:
     python3 build_board.py <master_csv> <wordplay_dir> <output_dir> quiz_id [quiz_id ...]
     python3 build_board.py <master_csv> <wordplay_dir> <output_dir> --all
 """
-import csv, json, sys, ast
+import csv, json, re, sys, ast
 from pathlib import Path
 from collections import defaultdict, Counter
 
@@ -33,6 +33,12 @@ WORDPLAY_CATEGORY_INFO = {
     "nature": ("a nature word in the name",
                "The name includes a nature word, like Park, Hill, Green, Heath or Wood."),
 }
+
+
+def hub_slug(hub):
+    """Turn a hub name into a safe field-name fragment, e.g.
+    'Liverpool (Lime St/Central)' -> 'liverpool_lime_st_central'."""
+    return re.sub(r"[^a-zA-Z0-9]+", "_", hub).strip("_").lower()
 
 
 def label_clue(c):
@@ -103,19 +109,37 @@ def label_clue(c):
         c["display"] = f"Is part of the {v} route"
         c["hint"] = f"A station on the {v} route."
     elif field == "canonical_time_to_hub" or field.startswith("time_to_"):
-        import re
         m = re.match(r"^Time to (.+?): (.+)$", label)
-        target_raw, band = (m.group(1), m.group(2)) if m else ("the hub", "")
+        target_raw, band = (m.group(1), m.group(2)) if m else ("its hub station", "")
         target = "its hub station" if target_raw.lower() == "hub" else target_raw
+
+        def _mins(v):
+            return int(round(v)) if v is not None else None
+
+        lo = _mins(c.get("min"))
+        hi = _mins(c.get("max"))
+
         if band == "shortest third":
-            c["display"] = f"One of the quicker journeys to {target}"  # (proposed)
-            c["hint"] = f"Out of all the candidate stations for this puzzle, this one has one of the shortest journey times to {target}."  # (proposed)
+            c["display"] = f"A short journey to {target}"
+            c["hint"] = (
+                f"In this puzzle, 'short' means under {hi} minutes to {target}."
+                if hi is not None else
+                f"One of the shortest journey times to {target} among this puzzle's candidate stations."
+            )
         elif band == "middle third":
-            c["display"] = f"A mid-range journey to {target}"  # (proposed)
-            c["hint"] = f"Out of all the candidate stations for this puzzle, this one's journey time to {target} is neither the shortest nor the longest."  # (proposed)
+            c["display"] = f"A mid-range journey to {target}"
+            c["hint"] = (
+                f"In this puzzle, 'mid-range' means {lo}-{hi} minutes to {target}."
+                if lo is not None and hi is not None else
+                f"A middling journey time to {target} among this puzzle's candidate stations."
+            )
         else:
-            c["display"] = f"One of the longer journeys to {target}"  # (proposed)
-            c["hint"] = f"Out of all the candidate stations for this puzzle, this one has one of the longest journey times to {target}."  # (proposed)
+            c["display"] = f"A long journey to {target}"
+            c["hint"] = (
+                f"In this puzzle, 'long' means {lo}+ minutes to {target}."
+                if lo is not None else
+                f"One of the longest journey times to {target} among this puzzle's candidate stations."
+            )
     else:
         c["display"] = label
         c["hint"] = ""
@@ -189,6 +213,28 @@ def build_board(quiz_rows, wp_by_name):
             "time_to_stratford": float(r["time_to_stratford"]) if r.get("time_to_stratford") else None,
         })
     return board
+
+
+def add_hub_time_fields(board):
+    """For every canonical_hub present in this quiz's board, add a synthetic
+    per-hub time field (None for any station that doesn't route to that hub).
+    This is what makes it safe to name a specific hub in a time-band clue's
+    display/hint text: the clue can only ever match stations that genuinely
+    share that hub, even for quizzes that span more than one commuter market.
+    Single-hub quizzes go through the same path - it just degenerates to one
+    hub, one field, same stations as canonical_time_to_hub - but now the hub
+    name is always available to name explicitly rather than falling back to
+    a vague "its hub station"."""
+    hubs = sorted({s["canonical_hub"] for s in board if s.get("canonical_hub")})
+    for hub in hubs:
+        field = f"time_to_hub__{hub_slug(hub)}"
+        for s in board:
+            s[field] = (
+                s["canonical_time_to_hub"]
+                if s.get("canonical_hub") == hub and s.get("canonical_time_to_hub") is not None
+                else None
+            )
+    return hubs
 
 
 EXTRA_TIME_FIELDS = [
@@ -302,8 +348,14 @@ def gen_column_pool(board):
             add({"type": "equals", "field": "canonical_hub", "value": hub, "label": f"Hub: {hub}"}, "geography")
 
     # service - time-bands only (interchange/terminus live in rows, not here)
-    for c in tercile_bands(board, "canonical_time_to_hub", "Time to hub"):
-        add(c, "service")
+    # Time-to-hub is partitioned PER HUB (see add_hub_time_fields) so a
+    # multi-hub quiz never mixes journey times to different termini into
+    # one meaningless band, and so the hub can always be safely named in
+    # the clue's display/hint text.
+    for hub in sorted({s["canonical_hub"] for s in board if s.get("canonical_hub")}):
+        field = f"time_to_hub__{hub_slug(hub)}"
+        for c in tercile_bands(board, field, f"Time to {hub}"):
+            add(c, "service")
     for field, label in EXTRA_TIME_FIELDS:
         for c in tercile_bands(board, field, f"Time to {label}"):
             add(c, "service")
@@ -341,6 +393,7 @@ def process(quiz_id, quiz_rows, wordplay_dir, output_dir):
     wp_by_name = {w["station_name"]: w for w in wordplay}
 
     board = build_board(quiz_rows, wp_by_name)
+    hubs = add_hub_time_fields(board)
     row_pool = gen_row_pool(board)
     col_pool = gen_column_pool(board)
 
@@ -351,7 +404,8 @@ def process(quiz_id, quiz_rows, wordplay_dir, output_dir):
         json.dumps({"rowPool": row_pool, "columnPool": col_pool}, indent=2, ensure_ascii=False), encoding="utf-8")
 
     cat_counts = Counter(c["category"] for c in col_pool)
-    print(f"  [OK] {quiz_id}: {len(board)} stations, {len(row_pool)} row clues, "
+    hub_note = f", {len(hubs)} hub(s)" if len(hubs) > 1 else ""
+    print(f"  [OK] {quiz_id}: {len(board)} stations{hub_note}, {len(row_pool)} row clues, "
           f"{len(col_pool)} column clues ({dict(cat_counts)})")
     for cat in ("service", "geography", "route", "name"):
         if cat_counts.get(cat, 0) == 0:

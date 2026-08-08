@@ -202,7 +202,7 @@ body {
 
   display: grid;
 
-  grid-template-columns: 92px repeat(2, minmax(130px,1fr));
+  grid-template-columns: 108px repeat(2, minmax(130px,1fr));
 
   gap: 10px;
 
@@ -274,7 +274,7 @@ body {
 
 .row-header strong {
 
-  font-size: 0.85rem;
+  font-size: 1.05rem;
 
   margin-bottom: 4px;
 
@@ -282,9 +282,9 @@ body {
 
 .row-header span {
 
-  font-size: 0.56rem;
+  font-size: 0.72rem;
 
-  line-height: 1.25;
+  line-height: 1.3;
 
 }
 
@@ -495,23 +495,38 @@ body {
   align-items: stretch;
 }
 
+.corner {
+  display: flex;
+  align-items: stretch;
+}
+
+.status-cell {
+  width: 100%;
+}
+
 .ticket-box {
-  flex: 1;
-  min-width: 220px;
+  width: 100%;
+  height: 78px;
   border: 1px solid rgba(
     255,
     255,
     255,
     0.18
   );
-  padding: 24px;
-  border-radius: 22px;
+  border-left: 4px solid #22c55e;
+  padding: 6px 4px;
+  border-radius: 18px;
   background: rgba(
     15,
     23,
     42,
     0.95
   );
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 }
 
 .ticket-title {
@@ -521,17 +536,20 @@ body {
     255,
     0.65
   );
-  margin-bottom: 10px;
+  font-size: 0.6rem;
+  line-height: 1.2;
+  margin-bottom: 3px;
 }
 
 .ticket-number {
   color: #22c55e;
-  font-size: 3rem;
+  font-size: 1.4rem;
   font-weight: 800;
+  line-height: 1;
 }
 
 .submit-button {
-  flex: 2;
+  flex: 1;
   min-width: 260px;
   border: none;
   border-radius: 22px;
@@ -662,7 +680,7 @@ body {
   }
 .game-grid {
 
-  grid-template-columns: 58px repeat(2, 1fr);
+  grid-template-columns: 70px repeat(2, 1fr);
 
   gap: 8px;
 
@@ -673,12 +691,22 @@ body {
 .column-header {
   height: 82px;
 }
+.ticket-box {
+  height: 82px;
+  padding: 4px 3px;
+}
+.ticket-title {
+  font-size: 0.5rem;
+}
+.ticket-number {
+  font-size: 1.1rem;
+}
 .row-header strong {
-  font-size: 0.6rem;
+  font-size: 0.74rem;
 }
 
 .row-header span {
-  font-size: 0.42rem;
+  font-size: 0.52rem;
 }
 .footer-row {
     flex-direction: column;
@@ -781,7 +809,43 @@ body {
 
   <div class="game-grid" id="gameGrid">
 
-  <div class="corner"></div>
+  <div class="corner status-cell">
+
+  <div
+    class="ticket-box"
+    id="timerBox"
+    style="display:none;">
+
+    <div class="ticket-title">
+      Time left
+    </div>
+
+    <div
+      class="ticket-number"
+      id="timerCount">
+
+      03:00
+
+    </div>
+
+  </div>
+    <div class="ticket-box">
+
+      <div class="ticket-title">
+        Tickets left
+      </div>
+
+      <div
+        class="ticket-number"
+        id="ticketCount">
+
+        6
+
+      </div>
+
+    </div>
+
+</div>
 
   <div class="column-header" style="border-left:4px solid #22c55e; background:rgba(15,23,42,0.95);">
     <strong>Platform 1</strong>
@@ -824,40 +888,6 @@ body {
 </div>
 
   <div class="footer-row">
-<div
-  class="ticket-box"
-  id="timerBox"
-  style="display:none;">
-
-  <div class="ticket-title">
-    Time Remaining
-  </div>
-
-  <div
-    class="ticket-number"
-    id="timerCount">
-
-    03:00
-
-  </div>
-
-</div>
-    <div class="ticket-box">
-
-      <div class="ticket-title">
-        Tickets remaining
-      </div>
-
-      <div
-        class="ticket-number"
-        id="ticketCount">
-
-        6
-
-      </div>
-
-    </div>
-
     <button
       class="submit-button"
       id="submitButton">

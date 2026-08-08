@@ -268,7 +268,7 @@ body {
 
   text-align: center;
 
-  height: 140px;
+  min-height: 140px;
 
 }
 
@@ -678,7 +678,7 @@ body {
 
 }
 .row-header {
-  height: 82px;
+  min-height: 82px;
 }
 .column-header {
   height: 82px;
@@ -779,6 +779,101 @@ body {
   color: white;
 }
 
+.stats-row {
+  display: flex;
+  justify-content: center;
+  gap: 18px;
+  margin: 16px 0;
+  flex-wrap: wrap;
+}
+
+.stats-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 64px;
+}
+
+.stats-item strong {
+  font-size: 1.3rem;
+  font-weight: 800;
+  color: #22c55e;
+  line-height: 1.1;
+}
+
+.stats-item span {
+  font-size: 0.7rem;
+  color: rgba(255,255,255,0.6);
+  margin-top: 2px;
+}
+
+.app-toast {
+  position: fixed;
+  left: 50%;
+  bottom: 28px;
+  transform: translate(-50%, 20px);
+  background: rgba(15,23,42,0.97);
+  border: 1px solid rgba(255,255,255,0.18);
+  color: white;
+  padding: 12px 20px;
+  border-radius: 999px;
+  font-size: 0.9rem;
+  opacity: 0;
+  pointer-events: none;
+  transition: 0.25s ease;
+  z-index: 3000;
+}
+
+.app-toast.visible {
+  opacity: 1;
+  transform: translate(-50%, 0);
+}
+
+.hint-icon-btn {
+  margin-top: 5px;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  border: 1px solid rgba(255,255,255,0.4);
+  background: rgba(255,255,255,0.08);
+  color: rgba(255,255,255,0.85);
+  font-size: 0.62rem;
+  font-style: italic;
+  font-family: Georgia, serif;
+  line-height: 1;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+}
+
+.hint-icon-btn:hover,
+.hint-icon-btn.active {
+  border-color: #60a5fa;
+  color: white;
+  background: rgba(96,165,250,0.25);
+}
+
+.hint-popover {
+  position: fixed;
+  z-index: 1500;
+  max-width: 240px;
+  background: #0f172a;
+  border: 1px solid rgba(255,255,255,0.25);
+  color: #e5e7eb;
+  font-size: 0.72rem;
+  line-height: 1.35;
+  padding: 10px 12px;
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.4);
+  display: none;
+}
+
+.hint-popover.visible {
+  display: block;
+}
+
 </style>
 
 </head>
@@ -842,16 +937,19 @@ body {
   <div class="column-header" style="border-left:4px solid #22c55e; background:rgba(15,23,42,0.95);">
     <strong>Platform 1</strong>
     <div class="column-clue" id="rowClue0"></div>
+    <button type="button" class="hint-icon-btn" id="hintIcon-col0" aria-label="Hint">i</button>
   </div>
 
   <div class="column-header" style="border-left:4px solid #60a5fa; background:rgba(15,23,42,0.95);">
     <strong>Platform 2</strong>
     <div class="column-clue" id="rowClue1"></div>
+    <button type="button" class="hint-icon-btn" id="hintIcon-col1" aria-label="Hint">i</button>
   </div>
 
   <div class="row-header green">
     <strong>A</strong>
     <span id="colClue0"></span>
+    <button type="button" class="hint-icon-btn" id="hintIcon-row0" aria-label="Hint">i</button>
   </div>
   <div class="cell" data-index="0"></div>
   <div class="cell" data-index="1"></div>
@@ -859,6 +957,7 @@ body {
   <div class="row-header blue">
     <strong>B</strong>
     <span id="colClue1"></span>
+    <button type="button" class="hint-icon-btn" id="hintIcon-row1" aria-label="Hint">i</button>
   </div>
   <div class="cell" data-index="2"></div>
   <div class="cell" data-index="3"></div>
@@ -866,6 +965,7 @@ body {
   <div class="row-header green">
     <strong>C</strong>
     <span id="colClue2"></span>
+    <button type="button" class="hint-icon-btn" id="hintIcon-row2" aria-label="Hint">i</button>
   </div>
   <div class="cell" data-index="4"></div>
   <div class="cell" data-index="5"></div>
@@ -873,6 +973,7 @@ body {
   <div class="row-header blue">
     <strong>D</strong>
     <span id="colClue3"></span>
+    <button type="button" class="hint-icon-btn" id="hintIcon-row3" aria-label="Hint">i</button>
   </div>
   <div class="cell" data-index="6"></div>
   <div class="cell" data-index="7"></div>
@@ -1643,6 +1744,82 @@ document.getElementById(
   "colClue3"
 ).textContent =
   activeColumns[3].display;
+
+// Hints: free, unlimited - reveal extra detail for whichever row (A-D)
+// the player asks about. Uses clue.hint if the clue data provides one,
+// otherwise falls back to a readable version of the underlying field/value
+// so hints still work even before every clue has hand-written hint text.
+function getExtraHint(clue) {
+  if (clue && clue.hint) return clue.hint;
+  if (clue && clue.field && clue.value !== undefined) {
+    const label = String(clue.field).replace(/_/g, " ");
+    return `Extra detail - ${label}: ${clue.value}`;
+  }
+  return "No extra detail available for this clue.";
+}
+
+// Shared hint popover, wired to all 6 headers (2 platforms + 4 rows).
+// Free and unlimited - taps toggle open/closed, closes on outside click
+// or when another hint icon is tapped.
+let hintPopover = document.getElementById("hintPopover");
+if (!hintPopover) {
+  hintPopover = document.createElement("div");
+  hintPopover.id = "hintPopover";
+  hintPopover.className = "hint-popover";
+  document.body.appendChild(hintPopover);
+}
+let activeHintBtn = null;
+
+function closeHint() {
+  hintPopover.classList.remove("visible");
+  if (activeHintBtn) activeHintBtn.classList.remove("active");
+  activeHintBtn = null;
+}
+
+function openHint(btn, clue) {
+  hintPopover.textContent = getExtraHint(clue);
+  hintPopover.classList.add("visible");
+  const rect = btn.getBoundingClientRect();
+  const popRect = hintPopover.getBoundingClientRect();
+  let left = rect.left + rect.width / 2 - popRect.width / 2;
+  left = Math.max(8, Math.min(left, window.innerWidth - popRect.width - 8));
+  let top = rect.bottom + 8;
+  if (top + popRect.height > window.innerHeight - 8) {
+    top = rect.top - popRect.height - 8;
+  }
+  hintPopover.style.left = left + "px";
+  hintPopover.style.top = top + "px";
+  btn.classList.add("active");
+  activeHintBtn = btn;
+}
+
+function wireHintIcon(id, clue) {
+  const btn = document.getElementById(id);
+  if (!btn || !clue) return;
+  btn.addEventListener("click", (e) => {
+    e.stopPropagation();
+    if (activeHintBtn === btn) {
+      closeHint();
+    } else {
+      closeHint();
+      openHint(btn, clue);
+    }
+  });
+}
+
+wireHintIcon("hintIcon-col0", activeRows[0]);
+wireHintIcon("hintIcon-col1", activeRows[1]);
+wireHintIcon("hintIcon-row0", activeColumns[0]);
+wireHintIcon("hintIcon-row1", activeColumns[1]);
+wireHintIcon("hintIcon-row2", activeColumns[2]);
+wireHintIcon("hintIcon-row3", activeColumns[3]);
+
+document.addEventListener("click", (e) => {
+  if (activeHintBtn && !hintPopover.contains(e.target) && e.target !== activeHintBtn) {
+    closeHint();
+  }
+});
+
   if (
     gameMode === "express"
   ) {
@@ -2449,10 +2626,98 @@ const originalShowResultsModal = showResultsModal;
 showResultsModal = function(win=false){
   originalShowResultsModal(win);
   latestResultTitle = document.getElementById("resultsClass").textContent;
+  const stats = recordGameResult(win);
+  renderStats(stats);
 };
+
+// --- Running stats (stored locally per-device in the browser) ---
+const STATS_KEY = "theRouteStats";
+
+function getStats() {
+  try {
+    const raw = localStorage.getItem(STATS_KEY);
+    if (raw) return JSON.parse(raw);
+  } catch(err) {}
+  return { gamesPlayed: 0, gamesWon: 0, currentStreak: 0, maxStreak: 0 };
+}
+
+function recordGameResult(win) {
+  const stats = getStats();
+  stats.gamesPlayed += 1;
+  if (win) {
+    stats.gamesWon += 1;
+    stats.currentStreak += 1;
+    stats.maxStreak = Math.max(stats.maxStreak, stats.currentStreak);
+  } else {
+    stats.currentStreak = 0;
+  }
+  try {
+    localStorage.setItem(STATS_KEY, JSON.stringify(stats));
+  } catch(err) {}
+  return stats;
+}
+
+function renderStats(stats) {
+  const el = document.getElementById("resultsStats");
+  if (!el) return;
+  const winRate = stats.gamesPlayed
+    ? Math.round((stats.gamesWon / stats.gamesPlayed) * 100)
+    : 0;
+  el.innerHTML = `
+    <div class="stats-row">
+      <div class="stats-item"><strong>${stats.gamesPlayed}</strong><span>Played</span></div>
+      <div class="stats-item"><strong>${winRate}%</strong><span>Win rate</span></div>
+      <div class="stats-item"><strong>${stats.currentStreak}</strong><span>Streak</span></div>
+      <div class="stats-item"><strong>${stats.maxStreak}</strong><span>Best streak</span></div>
+    </div>
+  `;
+}
 
 function buildShareGrid() {
   return boardState.map(c => c.correct ? "🟩" : "🟥").join("");
+}
+
+// Reliable clipboard copy with a fallback for browsers/contexts where the
+// modern Clipboard API is unavailable or blocked (older browsers, some
+// in-app WebViews, non-HTTPS previews).
+async function copyText(text) {
+  try {
+    if (navigator.clipboard && window.isSecureContext) {
+      await navigator.clipboard.writeText(text);
+      return true;
+    }
+  } catch(err) {}
+
+  try {
+    const ta = document.createElement("textarea");
+    ta.value = text;
+    ta.style.position = "fixed";
+    ta.style.left = "-9999px";
+    document.body.appendChild(ta);
+    ta.focus();
+    ta.select();
+    const ok = document.execCommand("copy");
+    document.body.removeChild(ta);
+    return ok;
+  } catch(err) {
+    return false;
+  }
+}
+
+function showToast(message) {
+  let toast = document.getElementById("appToast");
+  if (!toast) {
+    toast = document.createElement("div");
+    toast.id = "appToast";
+    toast.className = "app-toast";
+    document.body.appendChild(toast);
+  }
+  toast.textContent = message;
+  toast.classList.add("visible");
+  clearTimeout(toast._hideTimer);
+  toast._hideTimer = setTimeout(() => {
+    toast.classList.remove("visible");
+  }, 2200);
 }
 
 document.addEventListener("click", async (e) => {
@@ -2470,10 +2735,25 @@ ${buildShareGrid().slice(4,8)}
 
 https://playtheroute.uk`;
 
-    try {
-      await navigator.clipboard.writeText(text);
-      alert("Result copied to clipboard.");
-    } catch(err) {}
+    if (navigator.share) {
+      try {
+        await navigator.share({ title: "The Route", text: text });
+        return;
+      } catch(err) {
+        if (err && err.name === "AbortError") return;
+        // fall through to clipboard copy on any other share failure
+      }
+    }
+
+    const ok = await copyText(text);
+    showToast(ok ? "Result copied to clipboard." : "Couldn't copy - please copy manually.");
+  }
+
+  if (e.target && e.target.id === "copyLinkButton") {
+
+    const url = window.location.href.split("#")[0];
+    const ok = await copyText(url);
+    showToast(ok ? "Link copied to clipboard." : "Couldn't copy - please copy manually.");
   }
 
   if (e.target && e.target.id === "shareImageButton") {
@@ -2540,6 +2820,8 @@ https://playtheroute.uk`;
     <div id="resultsClass" style="font-size:1.6rem;font-weight:700;margin:16px 0;"></div>
     <div id="resultsDesc" style="margin-bottom:12px;"></div>
     <div id="resultsTickets"></div>
+
+    <div id="resultsStats"></div>
     <div
   id="stationFact"
   style="
@@ -2557,6 +2839,10 @@ https://playtheroute.uk`;
 
       <button class="submit-button" id="shareImageButton" style="min-width:auto;padding:12px 20px;font-size:1rem;">
         Share Image
+      </button>
+
+      <button class="submit-button" id="copyLinkButton" style="min-width:auto;padding:12px 20px;font-size:1rem;">
+        Copy Link
       </button>
     </div>
 

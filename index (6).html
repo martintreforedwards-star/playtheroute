@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Route</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+<style>
+*{box-sizing:border-box}
+body{margin:0;font-family:'Inter',sans-serif;background:radial-gradient(circle at top,#0b1836 0%,#030817 45%,#01040d 100%);color:white;min-height:100vh}
+.container{width:100%;max-width:520px;margin:auto;padding:28px 18px 40px}
+.menu-button{background:none;border:none;color:white;font-size:2rem;cursor:pointer;padding:0;margin-right:8px}
+.side-menu{position:fixed;top:0;left:-300px;width:280px;height:100vh;background:#111827;border-right:2px solid #1e3a8a;transition:left .3s ease;z-index:2000;padding-top:80px}
+.side-menu.open{left:0}
+.side-menu a{display:block;padding:16px 24px;color:white;text-decoration:none;border-bottom:1px solid rgba(255,255,255,.08)}
+.menu-overlay{position:fixed;inset:0;background:rgba(0,0,0,.55);display:none;z-index:1500}
+.menu-overlay.show{display:block}
+.header{display:flex;align-items:center;gap:18px;margin-bottom:26px}
+.logo{width:100%;max-width:260px;height:auto;display:block}
+h1{margin:0;font-size:2.8rem}
+.copyright-mark{
+display:inline-flex;
+align-items:center;
+justify-content:center;
+width:0.75em;
+height:0.75em;
+margin-left:-0.03em;
+border:1.5px solid currentColor;
+border-radius:50%;
+font-size:0.18em;
+font-weight:700;
+position:relative;
+top:-0.55em;
+}
+.subtitle{margin-top:8px;color:#9ca3af}
+.mode-card,.stamp-box,select{background:#111827;border:2px solid #1e3a8a;border-radius:18px}
+.network-selector label{display:block;margin-bottom:10px;font-weight:600}
+select{width:100%;padding:16px;color:white}
+optgroup{color:#9ca3af;font-weight:700}
+option{color:white;background:#111827}
+.stamp-box{margin-top:16px;padding:16px;text-align:center;cursor:pointer}
+.stamp-box.active{background:rgba(30,58,138,.9);border-color:#60a5fa}
+.mode-card.active{background:rgba(0,80,40,.9);border-color:#22c55e}
+.mode-grid{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-top:20px}
+.mode-card{padding:12px;cursor:pointer}
+.mode-card h3{font-size:1rem;margin:0 0 6px}
+.mode-card p{font-size:.85rem;margin:0}
+.play-button{display:block;width:100%;text-align:center;background:#22c55e;color:white;text-decoration:none;font-weight:700;padding:18px;border-radius:18px;margin:20px 0 14px}
+.network-status{text-align:center;font-weight:600}
+.live{color:#22c55e}.locked{color:#fbbf24}
+</style>
+</head>
+<body>
+<div id="overlay" class="menu-overlay"></div>
+<nav id="sideMenu" class="side-menu">
+<a href="what-is-the-route.html">What is The Route?</a>
+<a href="contact.html">Get in touch</a>
+<a href="support-us.html">Keep The Route Running</a>
+<a href="rules.html">Rules</a>
+<a href="routepedia.html">Routepedia</a>
+<a href="privacy.html">Privacy</a>
+<a href="disclaimer.html">Disclaimer</a>
+</nav>
+<div class="container">
+<div class="header">
+<button id="menuButton" class="menu-button">☰</button>
+<a href="/" style="display:block;"><img src="CLAUDE/newlogo.svg" class="logo" alt="The Route"></a>
+</div>
+<div class="subtitle">Build the route. Find the pattern.</div>
+<div class="network-selector">
+<label>Choose your commuter network</label>
+<select id="network">
+<optgroup label="London & South East">
+<option value="semetro">Southeastern Metro</option>
+<option value="semainline">Southeastern Mainline</option>
+<option value="thameslink_southern">Thameslink & Southern</option>
+<option value="south_western">South Western Railway</option>
+<option value="gwr_london">GWR London</option>
+<option value="chiltern_wmr">Chiltern & West Midlands</option>
+<option value="london_nw_elizabeth_gn">London Northwestern, Elizabeth & Great Northern</option>
+<option value="london_overground">London Overground</option>
+<option value="c2c_ga">c2c & Greater Anglia</option>
+</optgroup>
+<optgroup label="Midlands & North">
+<option value="east_midlands_emr">East Midlands Railway</option>
+<option value="manchester_northern">Manchester (Northern)</option>
+<option value="liverpool_merseyside">Liverpool & Merseyside</option>
+<option value="leeds_sheffield_northern">Leeds & Sheffield (Northern)</option>
+<option value="newcastle_northern">Newcastle (Northern)</option>
+</optgroup>
+<optgroup label="Wales & Borders">
+<option value="gwr_wales_corridor">GWR Wales Corridor</option>
+<option value="tfw_cymraeg">Trafnidiaeth Cymru (Cymraeg)</option>
+<option value="shrewsbury_wrexham_chester">Shrewsbury, Wrexham & Chester</option>
+</optgroup>
+<optgroup label="Scotland">
+<option value="edinburgh_scotrail">Edinburgh & ScotRail</option>
+<option value="glasgow_scotrail">Glasgow & ScotRail</option>
+<option value="highlands_ne_scotrail">Highlands & North East Scotland</option>
+</optgroup>
+</select>
+<div id="stampBox" class="stamp-box">🎟 Stamp regular route</div>
+</div>
+<div class="mode-grid">
+<div class="mode-card active" data-mode="standard">
+<h3>🎟 Standard Ticket</h3><p>Relaxed journey mode.<br>6 tickets. No timer.</p>
+</div>
+<div class="mode-card" data-mode="express">
+<h3>⏱ Express Service</h3><p>Beat the clock before departure.<br>Timed challenge mode.</p>
+</div>
+</div>
+<a href="#" id="playButton" class="play-button">Play today's route</a>
+<div id="networkStatus" class="network-status live">🟢 Live now — 20 networks available</div>
+</div>
+<script>
+const menuButton=document.getElementById("menuButton");
+const sideMenu=document.getElementById("sideMenu");
+const overlay=document.getElementById("overlay");
+menuButton.onclick=()=>{sideMenu.classList.add("open");overlay.classList.add("show");};
+overlay.onclick=()=>{sideMenu.classList.remove("open");overlay.classList.remove("show");};
+const network=document.getElementById("network");
+const stampBox=document.getElementById("stampBox");
+const playButton=document.getElementById("playButton");
+const modeCards=document.querySelectorAll(".mode-card");
+const status=document.getElementById("networkStatus");
+let selectedMode=localStorage.getItem("routeMode")||"standard";
+function updateModes(){
+modeCards.forEach(c=>c.classList.toggle("active",c.dataset.mode===selectedMode));
+localStorage.setItem("routeMode",selectedMode);
+}
+modeCards.forEach(card=>card.onclick=()=>{selectedMode=card.dataset.mode;updateModes();});
+const savedRoute=localStorage.getItem("regularRoute");
+if(savedRoute){network.value=savedRoute;stampBox.classList.add("active");stampBox.textContent="✅ Regular route stamped";}
+stampBox.onclick=()=>{
+localStorage.setItem("regularRoute",network.value);
+stampBox.classList.add("active");
+stampBox.textContent="✅ Regular route stamped";
+};
+function updateNetworkStatus(){
+const live=["semetro", "semainline", "thameslink_southern", "south_western", "gwr_london", "gwr_wales_corridor", "tfw_cymraeg", "chiltern_wmr", "london_nw_elizabeth_gn", "london_overground", "c2c_ga", "east_midlands_emr", "shrewsbury_wrexham_chester", "manchester_northern", "liverpool_merseyside", "leeds_sheffield_northern", "newcastle_northern", "edinburgh_scotrail", "glasgow_scotrail", "highlands_ne_scotrail"];
+if(live.includes(network.value)){
+status.className="network-status live";
+status.textContent="🟢 Live now — 20 networks available";
+} else {
+status.className="network-status locked";
+status.textContent="🟡 Coming soon";
+}
+}
+network.onchange=updateNetworkStatus;
+updateModes();
+updateNetworkStatus();
+playButton.onclick=(e)=>{
+e.preventDefault();
+const live=["semetro", "semainline", "thameslink_southern", "south_western", "gwr_london", "gwr_wales_corridor", "tfw_cymraeg", "chiltern_wmr", "london_nw_elizabeth_gn", "london_overground", "c2c_ga", "east_midlands_emr", "shrewsbury_wrexham_chester", "manchester_northern", "liverpool_merseyside", "leeds_sheffield_northern", "newcastle_northern", "edinburgh_scotrail", "glasgow_scotrail", "highlands_ne_scotrail"];
+if(!live.includes(network.value)){
+alert("This network is not live yet.");
+return;
+}
+window.location.href=`play-master.html?network=${network.value}&mode=${selectedMode}`;
+};
+</script>
+</body>
+</html>

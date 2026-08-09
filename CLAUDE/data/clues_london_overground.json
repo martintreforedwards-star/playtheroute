@@ -137,36 +137,36 @@
     },
     {
       "type": "range",
-      "field": "canonical_time_to_hub",
+      "field": "time_to_hub__london_nearest_interchange",
       "max": 148.0,
-      "label": "Time to hub: shortest third",
+      "label": "Time to London (nearest interchange): shortest third",
       "category": "service",
       "match_count": 30,
-      "display": "One of the quicker journeys to its hub station",
-      "hint": "Out of all the candidate stations for this puzzle, this one has one of the shortest journey times to its hub station.",
+      "display": "A short journey to London (nearest interchange)",
+      "hint": "In this puzzle, 'short' means under 148 minutes to London (nearest interchange).",
       "id": "col_7"
     },
     {
       "type": "range",
-      "field": "canonical_time_to_hub",
+      "field": "time_to_hub__london_nearest_interchange",
       "min": 148.0,
       "max": 312.0,
-      "label": "Time to hub: middle third",
+      "label": "Time to London (nearest interchange): middle third",
       "category": "service",
       "match_count": 32,
-      "display": "A mid-range journey to its hub station",
-      "hint": "Out of all the candidate stations for this puzzle, this one's journey time to its hub station is neither the shortest nor the longest.",
+      "display": "A mid-range journey to London (nearest interchange)",
+      "hint": "In this puzzle, 'mid-range' means 148-312 minutes to London (nearest interchange).",
       "id": "col_8"
     },
     {
       "type": "range",
-      "field": "canonical_time_to_hub",
+      "field": "time_to_hub__london_nearest_interchange",
       "min": 312.0,
-      "label": "Time to hub: longest third",
+      "label": "Time to London (nearest interchange): longest third",
       "category": "service",
       "match_count": 31,
-      "display": "One of the longer journeys to its hub station",
-      "hint": "Out of all the candidate stations for this puzzle, this one has one of the longest journey times to its hub station.",
+      "display": "A long journey to London (nearest interchange)",
+      "hint": "In this puzzle, 'long' means 312+ minutes to London (nearest interchange).",
       "id": "col_9"
     },
     {
@@ -176,8 +176,8 @@
       "label": "Time to Euston: shortest third",
       "category": "service",
       "match_count": 27,
-      "display": "One of the quicker journeys to Euston",
-      "hint": "Out of all the candidate stations for this puzzle, this one has one of the shortest journey times to Euston.",
+      "display": "A short journey to Euston",
+      "hint": "In this puzzle, 'short' means under 47 minutes to Euston.",
       "id": "col_10"
     },
     {
@@ -189,7 +189,7 @@
       "category": "service",
       "match_count": 27,
       "display": "A mid-range journey to Euston",
-      "hint": "Out of all the candidate stations for this puzzle, this one's journey time to Euston is neither the shortest nor the longest.",
+      "hint": "In this puzzle, 'mid-range' means 47-66 minutes to Euston.",
       "id": "col_11"
     },
     {
@@ -199,8 +199,8 @@
       "label": "Time to Euston: longest third",
       "category": "service",
       "match_count": 27,
-      "display": "One of the longer journeys to Euston",
-      "hint": "Out of all the candidate stations for this puzzle, this one has one of the longest journey times to Euston.",
+      "display": "A long journey to Euston",
+      "hint": "In this puzzle, 'long' means 66+ minutes to Euston.",
       "id": "col_12"
     },
     {
@@ -210,8 +210,8 @@
       "label": "Time to Liverpool Street: shortest third",
       "category": "service",
       "match_count": 28,
-      "display": "One of the quicker journeys to Liverpool Street",
-      "hint": "Out of all the candidate stations for this puzzle, this one has one of the shortest journey times to Liverpool Street.",
+      "display": "A short journey to Liverpool Street",
+      "hint": "In this puzzle, 'short' means under 25 minutes to Liverpool Street.",
       "id": "col_13"
     },
     {
@@ -223,7 +223,7 @@
       "category": "service",
       "match_count": 27,
       "display": "A mid-range journey to Liverpool Street",
-      "hint": "Out of all the candidate stations for this puzzle, this one's journey time to Liverpool Street is neither the shortest nor the longest.",
+      "hint": "In this puzzle, 'mid-range' means 25-53 minutes to Liverpool Street.",
       "id": "col_14"
     },
     {
@@ -233,8 +233,8 @@
       "label": "Time to Liverpool Street: longest third",
       "category": "service",
       "match_count": 28,
-      "display": "One of the longer journeys to Liverpool Street",
-      "hint": "Out of all the candidate stations for this puzzle, this one has one of the longest journey times to Liverpool Street.",
+      "display": "A long journey to Liverpool Street",
+      "hint": "In this puzzle, 'long' means 53+ minutes to Liverpool Street.",
       "id": "col_15"
     },
     {
@@ -244,8 +244,8 @@
       "label": "Time to Stratford: shortest third",
       "category": "service",
       "match_count": 27,
-      "display": "One of the quicker journeys to Stratford",
-      "hint": "Out of all the candidate stations for this puzzle, this one has one of the shortest journey times to Stratford.",
+      "display": "A short journey to Stratford",
+      "hint": "In this puzzle, 'short' means under 25 minutes to Stratford.",
       "id": "col_16"
     },
     {
@@ -257,7 +257,7 @@
       "category": "service",
       "match_count": 27,
       "display": "A mid-range journey to Stratford",
-      "hint": "Out of all the candidate stations for this puzzle, this one's journey time to Stratford is neither the shortest nor the longest.",
+      "hint": "In this puzzle, 'mid-range' means 25-46 minutes to Stratford.",
       "id": "col_17"
     },
     {
@@ -267,8 +267,8 @@
       "label": "Time to Stratford: longest third",
       "category": "service",
       "match_count": 28,
-      "display": "One of the longer journeys to Stratford",
-      "hint": "Out of all the candidate stations for this puzzle, this one has one of the longest journey times to Stratford.",
+      "display": "A long journey to Stratford",
+      "hint": "In this puzzle, 'long' means 46+ minutes to Stratford.",
       "id": "col_18"
     },
     {

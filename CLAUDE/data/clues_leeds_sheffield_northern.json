@@ -226,37 +226,71 @@
     },
     {
       "type": "range",
-      "field": "canonical_time_to_hub",
+      "field": "time_to_hub__leeds",
       "max": 26.0,
-      "label": "Time to hub: shortest third",
+      "label": "Time to Leeds: shortest third",
       "category": "service",
-      "match_count": 57,
-      "display": "One of the quicker journeys to its hub station",
-      "hint": "Out of all the candidate stations for this puzzle, this one has one of the shortest journey times to its hub station.",
+      "match_count": 38,
+      "display": "A short journey to Leeds",
+      "hint": "In this puzzle, 'short' means under 26 minutes to Leeds.",
       "id": "col_12"
     },
     {
       "type": "range",
-      "field": "canonical_time_to_hub",
+      "field": "time_to_hub__leeds",
       "min": 26.0,
-      "max": 52.0,
-      "label": "Time to hub: middle third",
+      "max": 54.0,
+      "label": "Time to Leeds: middle third",
       "category": "service",
-      "match_count": 56,
-      "display": "A mid-range journey to its hub station",
-      "hint": "Out of all the candidate stations for this puzzle, this one's journey time to its hub station is neither the shortest nor the longest.",
+      "match_count": 38,
+      "display": "A mid-range journey to Leeds",
+      "hint": "In this puzzle, 'mid-range' means 26-54 minutes to Leeds.",
       "id": "col_13"
     },
     {
       "type": "range",
-      "field": "canonical_time_to_hub",
-      "min": 52.0,
-      "label": "Time to hub: longest third",
+      "field": "time_to_hub__leeds",
+      "min": 54.0,
+      "label": "Time to Leeds: longest third",
       "category": "service",
-      "match_count": 58,
-      "display": "One of the longer journeys to its hub station",
-      "hint": "Out of all the candidate stations for this puzzle, this one has one of the longest journey times to its hub station.",
+      "match_count": 37,
+      "display": "A long journey to Leeds",
+      "hint": "In this puzzle, 'long' means 54+ minutes to Leeds.",
       "id": "col_14"
+    },
+    {
+      "type": "range",
+      "field": "time_to_hub__sheffield",
+      "max": 26.0,
+      "label": "Time to Sheffield: shortest third",
+      "category": "service",
+      "match_count": 19,
+      "display": "A short journey to Sheffield",
+      "hint": "In this puzzle, 'short' means under 26 minutes to Sheffield.",
+      "id": "col_15"
+    },
+    {
+      "type": "range",
+      "field": "time_to_hub__sheffield",
+      "min": 26.0,
+      "max": 52.0,
+      "label": "Time to Sheffield: middle third",
+      "category": "service",
+      "match_count": 19,
+      "display": "A mid-range journey to Sheffield",
+      "hint": "In this puzzle, 'mid-range' means 26-52 minutes to Sheffield.",
+      "id": "col_16"
+    },
+    {
+      "type": "range",
+      "field": "time_to_hub__sheffield",
+      "min": 52.0,
+      "label": "Time to Sheffield: longest third",
+      "category": "service",
+      "match_count": 20,
+      "display": "A long journey to Sheffield",
+      "hint": "In this puzzle, 'long' means 52+ minutes to Sheffield.",
+      "id": "col_17"
     },
     {
       "type": "array_contains",
@@ -267,7 +301,7 @@
       "match_count": 33,
       "display": "Is part of the Hull and Doncaster Branch route",
       "hint": "A station on the Hull and Doncaster Branch route.",
-      "id": "col_15"
+      "id": "col_18"
     },
     {
       "type": "array_contains",
@@ -278,7 +312,7 @@
       "match_count": 30,
       "display": "Is part of the Hallam Line route",
       "hint": "A station on the Hallam Line route.",
-      "id": "col_16"
+      "id": "col_19"
     },
     {
       "type": "array_contains",
@@ -289,7 +323,7 @@
       "match_count": 28,
       "display": "Is part of the Settle Carlisle Line route",
       "hint": "A station on the Settle Carlisle Line route.",
-      "id": "col_17"
+      "id": "col_20"
     },
     {
       "type": "array_contains",
@@ -300,7 +334,7 @@
       "match_count": 22,
       "display": "Is part of the Selby Line route",
       "hint": "A station on the Selby Line route.",
-      "id": "col_18"
+      "id": "col_21"
     },
     {
       "type": "array_contains",
@@ -311,7 +345,7 @@
       "match_count": 21,
       "display": "Is part of the Penistone Line route",
       "hint": "A station on the Penistone Line route.",
-      "id": "col_19"
+      "id": "col_22"
     },
     {
       "type": "array_contains",
@@ -322,7 +356,7 @@
       "match_count": 20,
       "display": "Is part of the Bentham Line route",
       "hint": "A station on the Bentham Line route.",
-      "id": "col_20"
+      "id": "col_23"
     },
     {
       "type": "array_contains",
@@ -333,7 +367,7 @@
       "match_count": 19,
       "display": "Is part of the Airedale Line route",
       "hint": "A station on the Airedale Line route.",
-      "id": "col_21"
+      "id": "col_24"
     },
     {
       "type": "array_contains",
@@ -344,7 +378,7 @@
       "match_count": 15,
       "display": "Is part of the Pontefract Line route",
       "hint": "A station on the Pontefract Line route.",
-      "id": "col_22"
+      "id": "col_25"
     },
     {
       "type": "array_contains",
@@ -355,7 +389,7 @@
       "match_count": 14,
       "display": "Is part of the Harrogate Line route",
       "hint": "A station on the Harrogate Line route.",
-      "id": "col_23"
+      "id": "col_26"
     },
     {
       "type": "array_contains",
@@ -366,7 +400,7 @@
       "match_count": 12,
       "display": "Is part of the Dearne Valley Line route",
       "hint": "A station on the Dearne Valley Line route.",
-      "id": "col_24"
+      "id": "col_27"
     },
     {
       "type": "array_contains",
@@ -377,7 +411,7 @@
       "match_count": 11,
       "display": "Is part of the Yorkshire Coast Line route",
       "hint": "A station on the Yorkshire Coast Line route.",
-      "id": "col_25"
+      "id": "col_28"
     },
     {
       "type": "array_contains",
@@ -388,7 +422,7 @@
       "match_count": 10,
       "display": "Is part of the Wharfedale Line route",
       "hint": "A station on the Wharfedale Line route.",
-      "id": "col_26"
+      "id": "col_29"
     },
     {
       "type": "array_contains",
@@ -399,7 +433,7 @@
       "match_count": 9,
       "display": "Is part of the Calder Vale Line route",
       "hint": "A station on the Calder Vale Line route.",
-      "id": "col_27"
+      "id": "col_30"
     },
     {
       "type": "array_contains",
@@ -410,7 +444,7 @@
       "match_count": 9,
       "display": "Is part of the Huddersfield Line route",
       "hint": "A station on the Huddersfield Line route.",
-      "id": "col_28"
+      "id": "col_31"
     },
     {
       "type": "array_contains",
@@ -421,7 +455,7 @@
       "match_count": 7,
       "display": "Is part of the Sheffield to Lincoln Line route",
       "hint": "A station on the Sheffield to Lincoln Line route.",
-      "id": "col_29"
+      "id": "col_32"
     },
     {
       "type": "equals",
@@ -432,7 +466,7 @@
       "match_count": 64,
       "display": "Naming style: a common English place-name ending",
       "hint": "The name ends in a common English place-name suffix, like -ton, -ham, -by or -dale.",
-      "id": "col_30"
+      "id": "col_33"
     },
     {
       "type": "equals",
@@ -443,7 +477,7 @@
       "match_count": 15,
       "display": "Naming style: an unusual name format",
       "hint": "Something unusual about how the name is written - brackets, a hyphen, an ampersand, or 'St'.",
-      "id": "col_31"
+      "id": "col_34"
     },
     {
       "type": "array_contains",
@@ -454,7 +488,7 @@
       "match_count": 25,
       "display": "Word contains 'ey'",
       "hint": "Word contains 'ey'.",
-      "id": "col_32"
+      "id": "col_35"
     },
     {
       "type": "array_contains",
@@ -465,7 +499,7 @@
       "match_count": 24,
       "display": "Word contains 'ton'",
       "hint": "Word contains 'ton'.",
-      "id": "col_33"
+      "id": "col_36"
     },
     {
       "type": "array_contains",
@@ -476,7 +510,7 @@
       "match_count": 23,
       "display": "Word contains 'ley'",
       "hint": "Word contains 'ley'.",
-      "id": "col_34"
+      "id": "col_37"
     },
     {
       "type": "array_contains",
@@ -487,7 +521,7 @@
       "match_count": 9,
       "display": "Word contains 'by'",
       "hint": "Word contains 'by'.",
-      "id": "col_35"
+      "id": "col_38"
     },
     {
       "type": "array_contains",
@@ -498,7 +532,7 @@
       "match_count": 8,
       "display": "Word contains 'field'",
       "hint": "Word contains 'field'.",
-      "id": "col_36"
+      "id": "col_39"
     },
     {
       "type": "array_contains",
@@ -509,7 +543,7 @@
       "match_count": 7,
       "display": "Word contains 'ford'",
       "hint": "Word contains 'ford'.",
-      "id": "col_37"
+      "id": "col_40"
     },
     {
       "type": "array_contains",
@@ -520,7 +554,7 @@
       "match_count": 6,
       "display": "Name includes brackets",
       "hint": "The station name includes text in brackets, e.g. a disambiguator like '(Cumbria)'.",
-      "id": "col_38"
+      "id": "col_41"
     },
     {
       "type": "array_contains",
@@ -531,7 +565,7 @@
       "match_count": 5,
       "display": "Word contains 'ridge'",
       "hint": "Word contains 'ridge'.",
-      "id": "col_39"
+      "id": "col_42"
     },
     {
       "type": "array_contains",
@@ -542,7 +576,7 @@
       "match_count": 5,
       "display": "Word contains 'dale'",
       "hint": "Word contains 'dale'.",
-      "id": "col_40"
+      "id": "col_43"
     },
     {
       "type": "array_contains",
@@ -553,7 +587,7 @@
       "match_count": 5,
       "display": "Name includes an '&'",
       "hint": "The station name includes an ampersand (&).",
-      "id": "col_41"
+      "id": "col_44"
     },
     {
       "type": "array_contains",
@@ -564,7 +598,7 @@
       "match_count": 4,
       "display": "Name includes a hyphen",
       "hint": "The station name includes a hyphen.",
-      "id": "col_42"
+      "id": "col_45"
     },
     {
       "type": "array_contains",
@@ -575,7 +609,7 @@
       "match_count": 3,
       "display": "Word contains 'park'",
       "hint": "Word contains 'park'.",
-      "id": "col_43"
+      "id": "col_46"
     }
   ]
 }

@@ -27,7 +27,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__glasgow_central_queen_st": 50.0
   },
   {
     "station_id": "SC_0008",
@@ -56,7 +57,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__glasgow_central_queen_st": 26.0
   },
   {
     "station_id": "SC_0020",
@@ -86,7 +88,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__glasgow_central_queen_st": 53.0
   },
   {
     "station_id": "SC_0023",
@@ -114,7 +117,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__glasgow_central_queen_st": 1.0
   },
   {
     "station_id": "SC_0007",
@@ -142,7 +146,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__glasgow_central_queen_st": 34.0
   },
   {
     "station_id": "SC_0011",
@@ -170,7 +175,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__glasgow_central_queen_st": 46.0
   },
   {
     "station_id": "SC_0010",
@@ -198,7 +204,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__glasgow_central_queen_st": 45.0
   },
   {
     "station_id": "SC_0014",
@@ -228,7 +235,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__glasgow_central_queen_st": 1.0
   },
   {
     "station_id": "SC_0016",
@@ -256,7 +264,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__glasgow_central_queen_st": 12.0
   },
   {
     "station_id": "SC_0015",
@@ -284,7 +293,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__glasgow_central_queen_st": 129.0
   },
   {
     "station_id": "SC_0024",
@@ -312,7 +322,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__glasgow_central_queen_st": 306.0
   },
   {
     "station_id": "SC_0026",
@@ -342,7 +353,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__glasgow_central_queen_st": 76.0
   },
   {
     "station_id": "SC_0021",
@@ -372,7 +384,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__glasgow_central_queen_st": 48.0
   },
   {
     "station_id": "SC_0027",
@@ -400,7 +413,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__glasgow_central_queen_st": 8.0
   },
   {
     "station_id": "SC_0019",
@@ -431,7 +445,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__glasgow_central_queen_st": 92.0
   },
   {
     "station_id": "SC_0029",
@@ -461,7 +476,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__glasgow_central_queen_st": 60.0
   },
   {
     "station_id": "SC_0009",
@@ -490,7 +506,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__glasgow_central_queen_st": 8.0
   },
   {
     "station_id": "SC_0031",
@@ -518,7 +535,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__glasgow_central_queen_st": 51.0
   },
   {
     "station_id": "SC_0052",
@@ -547,7 +565,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__glasgow_central_queen_st": 19.0
   },
   {
     "station_id": "SC_0048",
@@ -576,7 +595,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__glasgow_central_queen_st": 7.0
   },
   {
     "station_id": "SC_0056",
@@ -606,7 +626,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__glasgow_central_queen_st": 45.0
   },
   {
     "station_id": "SC_0060",
@@ -636,7 +657,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__glasgow_central_queen_st": 4.0
   },
   {
     "station_id": "SC_0058",
@@ -667,7 +689,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__glasgow_central_queen_st": 39.0
   },
   {
     "station_id": "SC_0037",
@@ -695,7 +718,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__glasgow_central_queen_st": 22.0
   },
   {
     "station_id": "SC_0054",
@@ -725,7 +749,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__glasgow_central_queen_st": 30.0
   },
   {
     "station_id": "SC_0033",
@@ -755,7 +780,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__glasgow_central_queen_st": 48.0
   },
   {
     "station_id": "SC_0032",
@@ -785,7 +811,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__glasgow_central_queen_st": 18.0
   },
   {
     "station_id": "SC_0050",
@@ -816,7 +843,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__glasgow_central_queen_st": 42.0
   },
   {
     "station_id": "SC_0046",
@@ -847,7 +875,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__glasgow_central_queen_st": 4.0
   },
   {
     "station_id": "SC_0047",
@@ -875,7 +904,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__glasgow_central_queen_st": 18.0
   },
   {
     "station_id": "SC_0053",
@@ -903,7 +933,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__glasgow_central_queen_st": 22.0
   },
   {
     "station_id": "SC_0038",
@@ -932,7 +963,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__glasgow_central_queen_st": 11.0
   },
   {
     "station_id": "SC_0035",
@@ -960,7 +992,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__glasgow_central_queen_st": 247.0
   },
   {
     "station_id": "SC_0049",
@@ -990,7 +1023,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__glasgow_central_queen_st": 22.0
   },
   {
     "station_id": "SC_0040",
@@ -1018,7 +1052,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__glasgow_central_queen_st": 120.0
   },
   {
     "station_id": "SC_0043",
@@ -1048,7 +1083,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__glasgow_central_queen_st": 18.0
   },
   {
     "station_id": "SC_0059",
@@ -1078,7 +1114,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__glasgow_central_queen_st": 146.0
   },
   {
     "station_id": "SC_0039",
@@ -1106,7 +1143,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__glasgow_central_queen_st": 19.0
   },
   {
     "station_id": "SC_0044",
@@ -1136,7 +1174,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__glasgow_central_queen_st": 300.0
   },
   {
     "station_id": "SC_0036",
@@ -1164,7 +1203,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__glasgow_central_queen_st": 38.0
   },
   {
     "station_id": "SC_0064",
@@ -1194,7 +1234,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__glasgow_central_queen_st": 23.0
   },
   {
     "station_id": "SC_0066",
@@ -1222,7 +1263,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__glasgow_central_queen_st": 22.0
   },
   {
     "station_id": "SC_0055",
@@ -1251,7 +1293,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__glasgow_central_queen_st": 32.0
   },
   {
     "station_id": "SC_0067",
@@ -1280,7 +1323,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__glasgow_central_queen_st": 35.0
   },
   {
     "station_id": "SC_0078",
@@ -1311,7 +1355,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__glasgow_central_queen_st": 8.0
   },
   {
     "station_id": "SC_0088",
@@ -1341,7 +1386,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__glasgow_central_queen_st": 56.0
   },
   {
     "station_id": "SC_0068",
@@ -1369,7 +1415,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__glasgow_central_queen_st": 12.0
   },
   {
     "station_id": "SC_0089",
@@ -1401,7 +1448,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__glasgow_central_queen_st": 22.0
   },
   {
     "station_id": "SC_0082",
@@ -1429,7 +1477,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__glasgow_central_queen_st": 14.0
   },
   {
     "station_id": "SC_0072",
@@ -1460,7 +1509,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__glasgow_central_queen_st": 8.0
   },
   {
     "station_id": "SC_0073",
@@ -1489,7 +1539,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__glasgow_central_queen_st": 34.0
   },
   {
     "station_id": "SC_0081",
@@ -1517,7 +1568,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__glasgow_central_queen_st": 32.0
   },
   {
     "station_id": "SC_0086",
@@ -1545,7 +1597,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__glasgow_central_queen_st": 30.0
   },
   {
     "station_id": "SC_0099",
@@ -1573,7 +1626,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__glasgow_central_queen_st": 21.0
   },
   {
     "station_id": "SC_0097",
@@ -1604,7 +1658,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__glasgow_central_queen_st": 40.0
   },
   {
     "station_id": "SC_0083",
@@ -1635,7 +1690,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__glasgow_central_queen_st": 2.0
   },
   {
     "station_id": "SC_0093",
@@ -1663,7 +1719,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__glasgow_central_queen_st": 10.0
   },
   {
     "station_id": "SC_0085",
@@ -1693,7 +1750,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__glasgow_central_queen_st": 20.0
   },
   {
     "station_id": "SC_0100",
@@ -1723,7 +1781,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__glasgow_central_queen_st": 14.0
   },
   {
     "station_id": "SC_0075",
@@ -1751,7 +1810,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__glasgow_central_queen_st": 40.0
   },
   {
     "station_id": "SC_0076",
@@ -1779,7 +1839,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__glasgow_central_queen_st": 14.0
   },
   {
     "station_id": "SC_0069",
@@ -1807,7 +1868,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__glasgow_central_queen_st": 40.0
   },
   {
     "station_id": "SC_0102",
@@ -1835,7 +1897,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__glasgow_central_queen_st": 7.0
   },
   {
     "station_id": "SC_0098",
@@ -1863,7 +1926,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__glasgow_central_queen_st": 107.0
   },
   {
     "station_id": "SC_0090",
@@ -1892,7 +1956,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__glasgow_central_queen_st": 24.0
   },
   {
     "station_id": "SC_0101",
@@ -1920,7 +1985,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__glasgow_central_queen_st": 9.0
   },
   {
     "station_id": "SC_0091",
@@ -1948,7 +2014,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__glasgow_central_queen_st": 170.0
   },
   {
     "station_id": "SC_0094",
@@ -1976,7 +2043,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__glasgow_central_queen_st": 251.0
   },
   {
     "station_id": "SC_0074",
@@ -2004,7 +2072,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__glasgow_central_queen_st": 26.0
   },
   {
     "station_id": "SC_0103",
@@ -2032,7 +2101,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__glasgow_central_queen_st": 15.0
   },
   {
     "station_id": "SC_0095",
@@ -2060,7 +2130,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__glasgow_central_queen_st": 181.0
   },
   {
     "station_id": "SC_0080",
@@ -2088,7 +2159,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__glasgow_central_queen_st": 44.0
   },
   {
     "station_id": "SC_0084",
@@ -2116,7 +2188,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__glasgow_central_queen_st": 33.0
   },
   {
     "station_id": "SC_0105",
@@ -2145,7 +2218,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__glasgow_central_queen_st": 27.0
   },
   {
     "station_id": "SC_0087",
@@ -2176,7 +2250,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__glasgow_central_queen_st": 20.0
   },
   {
     "station_id": "SC_0110",
@@ -2206,7 +2281,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__glasgow_central_queen_st": 6.0
   },
   {
     "station_id": "SC_0109",
@@ -2236,7 +2312,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__glasgow_central_queen_st": 136.0
   },
   {
     "station_id": "SC_0124",
@@ -2269,7 +2346,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__glasgow_central_queen_st": 36.0
   },
   {
     "station_id": "SC_0125",
@@ -2300,7 +2378,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__glasgow_central_queen_st": 34.0
   },
   {
     "station_id": "SC_0129",
@@ -2330,7 +2409,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__glasgow_central_queen_st": 41.0
   },
   {
     "station_id": "SC_0119",
@@ -2360,7 +2440,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__glasgow_central_queen_st": 42.0
   },
   {
     "station_id": "SC_0113",
@@ -2393,7 +2474,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__glasgow_central_queen_st": 37.0
   },
   {
     "station_id": "SC_0114",
@@ -2423,7 +2505,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__glasgow_central_queen_st": 30.0
   },
   {
     "station_id": "SC_0118",
@@ -2454,7 +2537,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__glasgow_central_queen_st": 18.0
   },
   {
     "station_id": "SC_0127",
@@ -2482,7 +2566,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__glasgow_central_queen_st": 108.0
   },
   {
     "station_id": "SC_0112",
@@ -2515,7 +2600,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__glasgow_central_queen_st": 24.0
   },
   {
     "station_id": "SC_0121",
@@ -2546,7 +2632,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__glasgow_central_queen_st": 20.0
   },
   {
     "station_id": "SC_0135",
@@ -2574,7 +2661,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__glasgow_central_queen_st": 34.0
   },
   {
     "station_id": "SC_0120",
@@ -2605,7 +2693,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__glasgow_central_queen_st": 30.0
   },
   {
     "station_id": "SC_0123",
@@ -2634,7 +2723,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__glasgow_central_queen_st": 6.0
   },
   {
     "station_id": "SC_0126",
@@ -2662,7 +2752,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__glasgow_central_queen_st": 7.0
   },
   {
     "station_id": "SC_0138",
@@ -2692,7 +2783,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__glasgow_central_queen_st": 33.0
   },
   {
     "station_id": "SC_0140",
@@ -2721,7 +2813,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__glasgow_central_queen_st": 15.0
   },
   {
     "station_id": "SC_0146",
@@ -2749,7 +2842,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__glasgow_central_queen_st": 4.0
   },
   {
     "station_id": "SC_0148",
@@ -2779,7 +2873,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__glasgow_central_queen_st": 43.0
   },
   {
     "station_id": "SC_0149",
@@ -2807,7 +2902,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__glasgow_central_queen_st": 22.0
   },
   {
     "station_id": "SC_0151",
@@ -2835,7 +2931,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__glasgow_central_queen_st": 43.0
   },
   {
     "station_id": "SC_0150",
@@ -2863,7 +2960,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__glasgow_central_queen_st": 148.0
   },
   {
     "station_id": "SC_0147",
@@ -2891,7 +2989,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__glasgow_central_queen_st": 60.0
   },
   {
     "station_id": "SC_0155",
@@ -2919,7 +3018,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__glasgow_central_queen_st": 40.0
   },
   {
     "station_id": "SC_0156",
@@ -2947,7 +3047,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__glasgow_central_queen_st": 229.0
   },
   {
     "station_id": "SC_0159",
@@ -2976,7 +3077,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__glasgow_central_queen_st": 12.0
   },
   {
     "station_id": "SC_0158",
@@ -3005,7 +3107,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__glasgow_central_queen_st": 54.0
   },
   {
     "station_id": "SC_0180",
@@ -3035,7 +3138,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__glasgow_central_queen_st": 138.0
   },
   {
     "station_id": "SC_0164",
@@ -3063,7 +3167,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__glasgow_central_queen_st": 16.0
   },
   {
     "station_id": "SC_0166",
@@ -3091,7 +3196,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__glasgow_central_queen_st": 101.0
   },
   {
     "station_id": "SC_0178",
@@ -3121,7 +3227,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__glasgow_central_queen_st": 34.0
   },
   {
     "station_id": "SC_0179",
@@ -3151,7 +3258,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__glasgow_central_queen_st": 36.0
   },
   {
     "station_id": "SC_0167",
@@ -3179,7 +3287,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__glasgow_central_queen_st": 30.0
   },
   {
     "station_id": "SC_0170",
@@ -3209,7 +3318,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__glasgow_central_queen_st": 272.0
   },
   {
     "station_id": "SC_0171",
@@ -3239,7 +3349,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__glasgow_central_queen_st": 30.0
   },
   {
     "station_id": "SC_0168",
@@ -3267,7 +3378,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__glasgow_central_queen_st": 13.0
   },
   {
     "station_id": "SC_0161",
@@ -3297,7 +3409,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__glasgow_central_queen_st": 18.0
   },
   {
     "station_id": "SC_0176",
@@ -3325,7 +3438,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__glasgow_central_queen_st": 43.0
   },
   {
     "station_id": "SC_0177",
@@ -3356,7 +3470,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__glasgow_central_queen_st": 25.0
   },
   {
     "station_id": "SC_0160",
@@ -3389,7 +3504,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__glasgow_central_queen_st": 16.0
   },
   {
     "station_id": "SC_0165",
@@ -3417,7 +3533,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__glasgow_central_queen_st": 14.0
   },
   {
     "station_id": "SC_0185",
@@ -3445,7 +3562,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__glasgow_central_queen_st": 18.0
   },
   {
     "station_id": "SC_0187",
@@ -3474,7 +3592,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__glasgow_central_queen_st": 42.0
   },
   {
     "station_id": "SC_0192",
@@ -3507,7 +3626,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__glasgow_central_queen_st": 10.0
   },
   {
     "station_id": "SC_0191",
@@ -3537,7 +3657,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__glasgow_central_queen_st": 20.0
   },
   {
     "station_id": "SC_0188",
@@ -3565,7 +3686,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__glasgow_central_queen_st": 43.0
   },
   {
     "station_id": "SC_0193",
@@ -3598,7 +3720,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__glasgow_central_queen_st": 12.0
   },
   {
     "station_id": "SC_0194",
@@ -3626,7 +3749,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__glasgow_central_queen_st": 23.0
   },
   {
     "station_id": "SC_0181",
@@ -3654,7 +3778,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__glasgow_central_queen_st": 28.0
   },
   {
     "station_id": "SC_0182",
@@ -3684,7 +3809,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__glasgow_central_queen_st": 28.0
   },
   {
     "station_id": "SC_0183",
@@ -3714,7 +3840,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__glasgow_central_queen_st": 26.0
   },
   {
     "station_id": "SC_0195",
@@ -3742,7 +3869,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__glasgow_central_queen_st": 22.0
   },
   {
     "station_id": "SC_0190",
@@ -3771,7 +3899,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__glasgow_central_queen_st": 2.0
   },
   {
     "station_id": "SC_0184",
@@ -3799,7 +3928,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__glasgow_central_queen_st": 34.0
   },
   {
     "station_id": "SC_0197",
@@ -3830,7 +3960,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__glasgow_central_queen_st": 8.0
   },
   {
     "station_id": "SC_0202",
@@ -3860,7 +3991,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__glasgow_central_queen_st": 56.0
   },
   {
     "station_id": "SC_0207",
@@ -3888,7 +4020,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__glasgow_central_queen_st": 33.0
   },
   {
     "station_id": "SC_0208",
@@ -3916,7 +4049,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__glasgow_central_queen_st": 16.0
   },
   {
     "station_id": "SC_0209",
@@ -3945,7 +4079,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__glasgow_central_queen_st": 11.0
   },
   {
     "station_id": "SC_0220",
@@ -3975,7 +4110,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__glasgow_central_queen_st": 18.0
   },
   {
     "station_id": "SC_0226",
@@ -4005,7 +4141,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__glasgow_central_queen_st": 26.0
   },
   {
     "station_id": "SC_0215",
@@ -4035,7 +4172,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__glasgow_central_queen_st": 44.0
   },
   {
     "station_id": "SC_0214",
@@ -4065,7 +4203,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__glasgow_central_queen_st": 48.0
   },
   {
     "station_id": "SC_0212",
@@ -4093,7 +4232,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__glasgow_central_queen_st": 14.0
   },
   {
     "station_id": "SC_0216",
@@ -4124,7 +4264,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__glasgow_central_queen_st": 28.0
   },
   {
     "station_id": "SC_0225",
@@ -4154,7 +4295,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__glasgow_central_queen_st": 77.0
   },
   {
     "station_id": "SC_0211",
@@ -4184,7 +4326,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__glasgow_central_queen_st": 20.0
   },
   {
     "station_id": "SC_0228",
@@ -4214,7 +4357,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__glasgow_central_queen_st": 25.0
   },
   {
     "station_id": "SC_0217",
@@ -4244,7 +4388,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__glasgow_central_queen_st": 34.0
   },
   {
     "station_id": "SC_0236",
@@ -4272,7 +4417,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__glasgow_central_queen_st": 65.0
   },
   {
     "station_id": "SC_0235",
@@ -4300,7 +4446,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__glasgow_central_queen_st": 26.0
   },
   {
     "station_id": "SC_0247",
@@ -4330,7 +4477,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__glasgow_central_queen_st": 291.0
   },
   {
     "station_id": "SC_0248",
@@ -4361,7 +4509,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__glasgow_central_queen_st": 263.0
   },
   {
     "station_id": "SC_0233",
@@ -4389,7 +4538,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__glasgow_central_queen_st": 28.0
   },
   {
     "station_id": "SC_0234",
@@ -4419,7 +4569,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__glasgow_central_queen_st": 16.0
   },
   {
     "station_id": "SC_0245",
@@ -4449,7 +4600,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__glasgow_central_queen_st": 142.0
   },
   {
     "station_id": "SC_0246",
@@ -4479,7 +4631,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__glasgow_central_queen_st": 257.0
   },
   {
     "station_id": "SC_0251",
@@ -4509,7 +4662,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__glasgow_central_queen_st": 24.0
   },
   {
     "station_id": "SC_0232",
@@ -4537,7 +4691,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__glasgow_central_queen_st": 50.0
   },
   {
     "station_id": "SC_0239",
@@ -4565,7 +4720,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__glasgow_central_queen_st": 10.0
   },
   {
     "station_id": "SC_0237",
@@ -4593,7 +4749,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__glasgow_central_queen_st": 38.0
   },
   {
     "station_id": "SC_0257",
@@ -4623,7 +4780,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__glasgow_central_queen_st": 10.0
   },
   {
     "station_id": "SC_0258",
@@ -4651,7 +4809,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__glasgow_central_queen_st": 85.0
   },
   {
     "station_id": "SC_0259",
@@ -4681,7 +4840,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__glasgow_central_queen_st": 36.0
   },
   {
     "station_id": "SC_0267",
@@ -4709,7 +4869,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__glasgow_central_queen_st": 11.0
   },
   {
     "station_id": "SC_0260",
@@ -4739,7 +4900,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__glasgow_central_queen_st": 19.0
   },
   {
     "station_id": "SC_0254",
@@ -4767,7 +4929,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__glasgow_central_queen_st": 325.0
   },
   {
     "station_id": "SC_0261",
@@ -4795,7 +4958,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__glasgow_central_queen_st": 24.0
   },
   {
     "station_id": "SC_0265",
@@ -4823,7 +4987,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__glasgow_central_queen_st": 12.0
   },
   {
     "station_id": "SC_0264",
@@ -4851,7 +5016,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__glasgow_central_queen_st": 318.0
   },
   {
     "station_id": "SC_0266",
@@ -4879,7 +5045,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__glasgow_central_queen_st": 26.0
   },
   {
     "station_id": "SC_0268",
@@ -4907,7 +5074,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__glasgow_central_queen_st": 16.0
   },
   {
     "station_id": "SC_0270",
@@ -4936,7 +5104,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__glasgow_central_queen_st": 17.0
   },
   {
     "station_id": "SC_0256",
@@ -4966,7 +5135,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__glasgow_central_queen_st": 18.0
   },
   {
     "station_id": "SC_0274",
@@ -4994,7 +5164,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__glasgow_central_queen_st": 68.0
   },
   {
     "station_id": "SC_0273",
@@ -5024,7 +5195,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__glasgow_central_queen_st": 32.0
   },
   {
     "station_id": "SC_0280",
@@ -5052,7 +5224,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__glasgow_central_queen_st": 18.0
   },
   {
     "station_id": "SC_0277",
@@ -5084,7 +5257,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__glasgow_central_queen_st": 48.0
   },
   {
     "station_id": "SC_0276",
@@ -5114,7 +5288,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__glasgow_central_queen_st": 18.0
   },
   {
     "station_id": "SC_0283",
@@ -5142,7 +5317,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__glasgow_central_queen_st": 181.0
   },
   {
     "station_id": "SC_0284",
@@ -5173,7 +5349,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__glasgow_central_queen_st": 20.0
   },
   {
     "station_id": "SC_0294",
@@ -5203,7 +5380,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__glasgow_central_queen_st": 5.0
   },
   {
     "station_id": "SC_0295",
@@ -5233,7 +5411,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__glasgow_central_queen_st": 6.0
   },
   {
     "station_id": "SC_0299",
@@ -5264,7 +5443,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__glasgow_central_queen_st": 12.0
   },
   {
     "station_id": "SC_0301",
@@ -5292,7 +5472,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__glasgow_central_queen_st": 44.0
   },
   {
     "station_id": "SC_0297",
@@ -5320,7 +5501,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__glasgow_central_queen_st": 34.0
   },
   {
     "station_id": "SC_0287",
@@ -5348,7 +5530,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__glasgow_central_queen_st": 6.0
   },
   {
     "station_id": "SC_0303",
@@ -5380,7 +5563,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__glasgow_central_queen_st": 16.0
   },
   {
     "station_id": "SC_0288",
@@ -5411,7 +5595,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__glasgow_central_queen_st": 24.0
   },
   {
     "station_id": "SC_0302",
@@ -5439,7 +5624,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__glasgow_central_queen_st": 46.0
   },
   {
     "station_id": "SC_0292",
@@ -5469,7 +5655,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__glasgow_central_queen_st": 16.0
   },
   {
     "station_id": "SC_0293",
@@ -5499,7 +5686,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__glasgow_central_queen_st": 10.0
   },
   {
     "station_id": "SC_0285",
@@ -5530,7 +5718,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__glasgow_central_queen_st": 10.0
   },
   {
     "station_id": "SC_0286",
@@ -5562,7 +5751,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__glasgow_central_queen_st": 18.0
   },
   {
     "station_id": "SC_0304",
@@ -5593,7 +5783,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__glasgow_central_queen_st": 7.0
   },
   {
     "station_id": "SC_0305",
@@ -5621,7 +5812,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__glasgow_central_queen_st": 166.0
   },
   {
     "station_id": "SC_0308",
@@ -5651,7 +5843,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__glasgow_central_queen_st": 12.0
   },
   {
     "station_id": "SC_0306",
@@ -5681,7 +5874,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__glasgow_central_queen_st": 42.0
   },
   {
     "station_id": "SC_0312",
@@ -5709,7 +5903,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__glasgow_central_queen_st": 9.0
   },
   {
     "station_id": "SC_0311",
@@ -5739,7 +5934,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__glasgow_central_queen_st": 209.0
   },
   {
     "station_id": "SC_0325",
@@ -5769,7 +5965,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__glasgow_central_queen_st": 216.0
   },
   {
     "station_id": "SC_0316",
@@ -5800,7 +5997,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__glasgow_central_queen_st": 14.0
   },
   {
     "station_id": "SC_0320",
@@ -5828,7 +6026,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__glasgow_central_queen_st": 25.0
   },
   {
     "station_id": "SC_0318",
@@ -5856,7 +6055,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__glasgow_central_queen_st": 14.0
   },
   {
     "station_id": "SC_0321",
@@ -5884,7 +6084,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__glasgow_central_queen_st": 36.0
   },
   {
     "station_id": "SC_0322",
@@ -5913,7 +6114,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__glasgow_central_queen_st": 22.0
   },
   {
     "station_id": "SC_0319",
@@ -5944,7 +6146,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__glasgow_central_queen_st": 10.0
   },
   {
     "station_id": "SC_0313",
@@ -5972,7 +6175,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__glasgow_central_queen_st": 46.0
   },
   {
     "station_id": "SC_0326",
@@ -6003,7 +6207,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__glasgow_central_queen_st": 12.0
   },
   {
     "station_id": "SC_0328",
@@ -6031,7 +6236,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__glasgow_central_queen_st": 14.0
   },
   {
     "station_id": "SC_0314",
@@ -6059,7 +6265,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__glasgow_central_queen_st": 82.0
   },
   {
     "station_id": "SC_0331",
@@ -6089,7 +6296,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__glasgow_central_queen_st": 34.0
   },
   {
     "station_id": "SC_0334",
@@ -6117,7 +6325,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__glasgow_central_queen_st": 155.0
   },
   {
     "station_id": "SC_0330",
@@ -6147,7 +6356,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__glasgow_central_queen_st": 38.0
   },
   {
     "station_id": "SC_0329",
@@ -6177,7 +6387,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__glasgow_central_queen_st": 44.0
   },
   {
     "station_id": "SC_0337",
@@ -6207,7 +6418,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__glasgow_central_queen_st": 16.0
   },
   {
     "station_id": "SC_0339",
@@ -6235,7 +6447,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__glasgow_central_queen_st": 157.0
   },
   {
     "station_id": "SC_0340",
@@ -6263,7 +6476,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__glasgow_central_queen_st": 14.0
   },
   {
     "station_id": "SC_0341",
@@ -6291,7 +6505,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__glasgow_central_queen_st": 26.0
   },
   {
     "station_id": "SC_0343",
@@ -6319,7 +6534,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__glasgow_central_queen_st": 40.0
   },
   {
     "station_id": "SC_0344",
@@ -6347,7 +6563,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__glasgow_central_queen_st": 198.0
   },
   {
     "station_id": "SC_0346",
@@ -6375,7 +6592,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__glasgow_central_queen_st": 117.0
   },
   {
     "station_id": "SC_0347",
@@ -6405,7 +6623,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__glasgow_central_queen_st": 14.0
   },
   {
     "station_id": "SC_0349",
@@ -6434,7 +6653,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__glasgow_central_queen_st": 130.0
   },
   {
     "station_id": "SC_0358",
@@ -6463,7 +6683,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__glasgow_central_queen_st": 22.0
   },
   {
     "station_id": "SC_0362",
@@ -6493,7 +6714,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__glasgow_central_queen_st": 32.0
   },
   {
     "station_id": "SC_0355",
@@ -6523,7 +6745,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__glasgow_central_queen_st": 15.0
   },
   {
     "station_id": "SC_0356",
@@ -6551,7 +6774,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__glasgow_central_queen_st": 28.0
   },
   {
     "station_id": "SC_0353",
@@ -6581,7 +6805,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__glasgow_central_queen_st": 54.0
   },
   {
     "station_id": "SC_0360",
@@ -6610,7 +6835,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__glasgow_central_queen_st": 20.0
   },
   {
     "station_id": "SC_0351",
@@ -6638,7 +6864,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__glasgow_central_queen_st": 61.0
   },
   {
     "station_id": "SC_0357",
@@ -6666,7 +6893,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__glasgow_central_queen_st": 40.0
   },
   {
     "station_id": "SC_0361",
@@ -6694,7 +6922,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__glasgow_central_queen_st": 32.0
   },
   {
     "station_id": "SC_0363",
@@ -6725,7 +6954,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__glasgow_central_queen_st": 18.0
   },
   {
     "station_id": "NA_0239",
@@ -6757,6 +6987,7 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__glasgow_central_queen_st": 131.0
   }
 ]

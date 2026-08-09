@@ -182,37 +182,105 @@
     },
     {
       "type": "range",
-      "field": "canonical_time_to_hub",
-      "max": 30.0,
-      "label": "Time to hub: shortest third",
+      "field": "time_to_hub__aberdeen",
+      "max": 18.0,
+      "label": "Time to Aberdeen: shortest third",
       "category": "service",
-      "match_count": 26,
-      "display": "One of the quicker journeys to its hub station",
-      "hint": "Out of all the candidate stations for this puzzle, this one has one of the shortest journey times to its hub station.",
+      "match_count": 4,
+      "display": "A short journey to Aberdeen",
+      "hint": "In this puzzle, 'short' means under 18 minutes to Aberdeen.",
       "id": "col_9"
     },
     {
       "type": "range",
-      "field": "canonical_time_to_hub",
-      "min": 30.0,
-      "max": 104.0,
-      "label": "Time to hub: middle third",
+      "field": "time_to_hub__aberdeen",
+      "min": 18.0,
+      "max": 32.0,
+      "label": "Time to Aberdeen: middle third",
       "category": "service",
-      "match_count": 27,
-      "display": "A mid-range journey to its hub station",
-      "hint": "Out of all the candidate stations for this puzzle, this one's journey time to its hub station is neither the shortest nor the longest.",
+      "match_count": 4,
+      "display": "A mid-range journey to Aberdeen",
+      "hint": "In this puzzle, 'mid-range' means 18-32 minutes to Aberdeen.",
       "id": "col_10"
     },
     {
       "type": "range",
-      "field": "canonical_time_to_hub",
-      "min": 104.0,
-      "label": "Time to hub: longest third",
+      "field": "time_to_hub__aberdeen",
+      "min": 32.0,
+      "label": "Time to Aberdeen: longest third",
       "category": "service",
-      "match_count": 25,
-      "display": "One of the longer journeys to its hub station",
-      "hint": "Out of all the candidate stations for this puzzle, this one has one of the longest journey times to its hub station.",
+      "match_count": 4,
+      "display": "A long journey to Aberdeen",
+      "hint": "In this puzzle, 'long' means 32+ minutes to Aberdeen.",
       "id": "col_11"
+    },
+    {
+      "type": "range",
+      "field": "time_to_hub__dundee",
+      "max": 18.0,
+      "label": "Time to Dundee: shortest third",
+      "category": "service",
+      "match_count": 7,
+      "display": "A short journey to Dundee",
+      "hint": "In this puzzle, 'short' means under 18 minutes to Dundee.",
+      "id": "col_12"
+    },
+    {
+      "type": "range",
+      "field": "time_to_hub__dundee",
+      "min": 18.0,
+      "max": 26.0,
+      "label": "Time to Dundee: middle third",
+      "category": "service",
+      "match_count": 7,
+      "display": "A mid-range journey to Dundee",
+      "hint": "In this puzzle, 'mid-range' means 18-26 minutes to Dundee.",
+      "id": "col_13"
+    },
+    {
+      "type": "range",
+      "field": "time_to_hub__dundee",
+      "min": 26.0,
+      "label": "Time to Dundee: longest third",
+      "category": "service",
+      "match_count": 6,
+      "display": "A long journey to Dundee",
+      "hint": "In this puzzle, 'long' means 26+ minutes to Dundee.",
+      "id": "col_14"
+    },
+    {
+      "type": "range",
+      "field": "time_to_hub__inverness",
+      "max": 62.0,
+      "label": "Time to Inverness: shortest third",
+      "category": "service",
+      "match_count": 16,
+      "display": "A short journey to Inverness",
+      "hint": "In this puzzle, 'short' means under 62 minutes to Inverness.",
+      "id": "col_15"
+    },
+    {
+      "type": "range",
+      "field": "time_to_hub__inverness",
+      "min": 62.0,
+      "max": 136.0,
+      "label": "Time to Inverness: middle third",
+      "category": "service",
+      "match_count": 17,
+      "display": "A mid-range journey to Inverness",
+      "hint": "In this puzzle, 'mid-range' means 62-136 minutes to Inverness.",
+      "id": "col_16"
+    },
+    {
+      "type": "range",
+      "field": "time_to_hub__inverness",
+      "min": 136.0,
+      "label": "Time to Inverness: longest third",
+      "category": "service",
+      "match_count": 16,
+      "display": "A long journey to Inverness",
+      "hint": "In this puzzle, 'long' means 136+ minutes to Inverness.",
+      "id": "col_17"
     },
     {
       "type": "array_contains",
@@ -223,7 +291,7 @@
       "match_count": 26,
       "display": "Is part of the Far North Line route",
       "hint": "A station on the Far North Line route.",
-      "id": "col_12"
+      "id": "col_18"
     },
     {
       "type": "array_contains",
@@ -234,7 +302,7 @@
       "match_count": 22,
       "display": "Is part of the Aberdeen to Inverness Line route",
       "hint": "A station on the Aberdeen to Inverness Line route.",
-      "id": "col_13"
+      "id": "col_19"
     },
     {
       "type": "array_contains",
@@ -245,7 +313,7 @@
       "match_count": 13,
       "display": "Is part of the Highland Main Line route",
       "hint": "A station on the Highland Main Line route.",
-      "id": "col_14"
+      "id": "col_20"
     },
     {
       "type": "array_contains",
@@ -256,7 +324,7 @@
       "match_count": 11,
       "display": "Is part of the Kyle Line route",
       "hint": "A station on the Kyle Line route.",
-      "id": "col_15"
+      "id": "col_21"
     },
     {
       "type": "array_contains",
@@ -267,7 +335,7 @@
       "match_count": 7,
       "display": "Is part of the Dundee to Arbroath Line route",
       "hint": "A station on the Dundee to Arbroath Line route.",
-      "id": "col_16"
+      "id": "col_22"
     },
     {
       "type": "array_contains",
@@ -278,7 +346,7 @@
       "match_count": 6,
       "display": "Is part of the Aberdeen Line route",
       "hint": "A station on the Aberdeen Line route.",
-      "id": "col_17"
+      "id": "col_23"
     },
     {
       "type": "equals",
@@ -289,7 +357,7 @@
       "match_count": 14,
       "display": "Naming style: Scottish/Gaelic place-name roots",
       "hint": "The name includes a Scottish or Gaelic place-name element, like Inver-, Glen-, Loch- or Kirk-.",
-      "id": "col_18"
+      "id": "col_24"
     },
     {
       "type": "equals",
@@ -300,7 +368,7 @@
       "match_count": 5,
       "display": "Naming style: a common English place-name ending",
       "hint": "The name ends in a common English place-name suffix, like -ton, -ham, -by or -dale.",
-      "id": "col_19"
+      "id": "col_25"
     },
     {
       "type": "array_contains",
@@ -311,7 +379,7 @@
       "match_count": 6,
       "display": "Word contains 'inver'",
       "hint": "Word contains 'inver'.",
-      "id": "col_20"
+      "id": "col_26"
     },
     {
       "type": "array_contains",
@@ -322,7 +390,7 @@
       "match_count": 3,
       "display": "Word contains 'ness'",
       "hint": "Word contains 'ness'.",
-      "id": "col_21"
+      "id": "col_27"
     }
   ]
 }

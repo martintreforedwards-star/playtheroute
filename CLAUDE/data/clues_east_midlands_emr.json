@@ -248,37 +248,139 @@
     },
     {
       "type": "range",
-      "field": "canonical_time_to_hub",
-      "max": 14.0,
-      "label": "Time to hub: shortest third",
+      "field": "time_to_hub__derby",
+      "max": 12.0,
+      "label": "Time to Derby: shortest third",
       "category": "service",
-      "match_count": 35,
-      "display": "One of the quicker journeys to its hub station",
-      "hint": "Out of all the candidate stations for this puzzle, this one has one of the shortest journey times to its hub station.",
+      "match_count": 8,
+      "display": "A short journey to Derby",
+      "hint": "In this puzzle, 'short' means under 12 minutes to Derby.",
       "id": "col_14"
     },
     {
       "type": "range",
-      "field": "canonical_time_to_hub",
-      "min": 14.0,
-      "max": 32.0,
-      "label": "Time to hub: middle third",
+      "field": "time_to_hub__derby",
+      "min": 12.0,
+      "max": 27.0,
+      "label": "Time to Derby: middle third",
       "category": "service",
-      "match_count": 38,
-      "display": "A mid-range journey to its hub station",
-      "hint": "Out of all the candidate stations for this puzzle, this one's journey time to its hub station is neither the shortest nor the longest.",
+      "match_count": 10,
+      "display": "A mid-range journey to Derby",
+      "hint": "In this puzzle, 'mid-range' means 12-27 minutes to Derby.",
       "id": "col_15"
     },
     {
       "type": "range",
-      "field": "canonical_time_to_hub",
-      "min": 32.0,
-      "label": "Time to hub: longest third",
+      "field": "time_to_hub__derby",
+      "min": 27.0,
+      "label": "Time to Derby: longest third",
       "category": "service",
-      "match_count": 35,
-      "display": "One of the longer journeys to its hub station",
-      "hint": "Out of all the candidate stations for this puzzle, this one has one of the longest journey times to its hub station.",
+      "match_count": 8,
+      "display": "A long journey to Derby",
+      "hint": "In this puzzle, 'long' means 27+ minutes to Derby.",
       "id": "col_16"
+    },
+    {
+      "type": "range",
+      "field": "time_to_hub__leicester",
+      "max": 12.0,
+      "label": "Time to Leicester: shortest third",
+      "category": "service",
+      "match_count": 7,
+      "display": "A short journey to Leicester",
+      "hint": "In this puzzle, 'short' means under 12 minutes to Leicester.",
+      "id": "col_17"
+    },
+    {
+      "type": "range",
+      "field": "time_to_hub__leicester",
+      "min": 12.0,
+      "max": 20.0,
+      "label": "Time to Leicester: middle third",
+      "category": "service",
+      "match_count": 6,
+      "display": "A mid-range journey to Leicester",
+      "hint": "In this puzzle, 'mid-range' means 12-20 minutes to Leicester.",
+      "id": "col_18"
+    },
+    {
+      "type": "range",
+      "field": "time_to_hub__leicester",
+      "min": 20.0,
+      "label": "Time to Leicester: longest third",
+      "category": "service",
+      "match_count": 5,
+      "display": "A long journey to Leicester",
+      "hint": "In this puzzle, 'long' means 20+ minutes to Leicester.",
+      "id": "col_19"
+    },
+    {
+      "type": "range",
+      "field": "time_to_hub__lincoln",
+      "max": 32.0,
+      "label": "Time to Lincoln: shortest third",
+      "category": "service",
+      "match_count": 12,
+      "display": "A short journey to Lincoln",
+      "hint": "In this puzzle, 'short' means under 32 minutes to Lincoln.",
+      "id": "col_20"
+    },
+    {
+      "type": "range",
+      "field": "time_to_hub__lincoln",
+      "min": 32.0,
+      "max": 50.0,
+      "label": "Time to Lincoln: middle third",
+      "category": "service",
+      "match_count": 14,
+      "display": "A mid-range journey to Lincoln",
+      "hint": "In this puzzle, 'mid-range' means 32-50 minutes to Lincoln.",
+      "id": "col_21"
+    },
+    {
+      "type": "range",
+      "field": "time_to_hub__lincoln",
+      "min": 50.0,
+      "label": "Time to Lincoln: longest third",
+      "category": "service",
+      "match_count": 12,
+      "display": "A long journey to Lincoln",
+      "hint": "In this puzzle, 'long' means 50+ minutes to Lincoln.",
+      "id": "col_22"
+    },
+    {
+      "type": "range",
+      "field": "time_to_hub__nottingham",
+      "max": 12.0,
+      "label": "Time to Nottingham: shortest third",
+      "category": "service",
+      "match_count": 11,
+      "display": "A short journey to Nottingham",
+      "hint": "In this puzzle, 'short' means under 12 minutes to Nottingham.",
+      "id": "col_23"
+    },
+    {
+      "type": "range",
+      "field": "time_to_hub__nottingham",
+      "min": 12.0,
+      "max": 19.0,
+      "label": "Time to Nottingham: middle third",
+      "category": "service",
+      "match_count": 12,
+      "display": "A mid-range journey to Nottingham",
+      "hint": "In this puzzle, 'mid-range' means 12-19 minutes to Nottingham.",
+      "id": "col_24"
+    },
+    {
+      "type": "range",
+      "field": "time_to_hub__nottingham",
+      "min": 19.0,
+      "label": "Time to Nottingham: longest third",
+      "category": "service",
+      "match_count": 12,
+      "display": "A long journey to Nottingham",
+      "hint": "In this puzzle, 'long' means 19+ minutes to Nottingham.",
+      "id": "col_25"
     },
     {
       "type": "array_contains",
@@ -289,7 +391,7 @@
       "match_count": 43,
       "display": "Is part of the Castle Line route",
       "hint": "A station on the Castle Line route.",
-      "id": "col_17"
+      "id": "col_26"
     },
     {
       "type": "array_contains",
@@ -300,7 +402,7 @@
       "match_count": 18,
       "display": "Is part of the Poacher Line route",
       "hint": "A station on the Poacher Line route.",
-      "id": "col_18"
+      "id": "col_27"
     },
     {
       "type": "array_contains",
@@ -311,7 +413,7 @@
       "match_count": 12,
       "display": "Is part of the Humber Linc Line route",
       "hint": "A station on the Humber Linc Line route.",
-      "id": "col_19"
+      "id": "col_28"
     },
     {
       "type": "array_contains",
@@ -322,7 +424,7 @@
       "match_count": 12,
       "display": "Is part of the Robin Hood Line route",
       "hint": "A station on the Robin Hood Line route.",
-      "id": "col_20"
+      "id": "col_29"
     },
     {
       "type": "array_contains",
@@ -333,7 +435,7 @@
       "match_count": 8,
       "display": "Is part of the Derwent Valley Line route",
       "hint": "A station on the Derwent Valley Line route.",
-      "id": "col_21"
+      "id": "col_30"
     },
     {
       "type": "array_contains",
@@ -344,7 +446,7 @@
       "match_count": 6,
       "display": "Is part of the Erewash Valley route",
       "hint": "A station on the Erewash Valley route.",
-      "id": "col_22"
+      "id": "col_31"
     },
     {
       "type": "array_contains",
@@ -355,7 +457,7 @@
       "match_count": 5,
       "display": "Is part of the Ivanhoe Line route",
       "hint": "A station on the Ivanhoe Line route.",
-      "id": "col_23"
+      "id": "col_32"
     },
     {
       "type": "equals",
@@ -366,7 +468,7 @@
       "match_count": 50,
       "display": "Naming style: a common English place-name ending",
       "hint": "The name ends in a common English place-name suffix, like -ton, -ham, -by or -dale.",
-      "id": "col_24"
+      "id": "col_33"
     },
     {
       "type": "equals",
@@ -377,7 +479,7 @@
       "match_count": 11,
       "display": "Naming style: an unusual name format",
       "hint": "Something unusual about how the name is written - brackets, a hyphen, an ampersand, or 'St'.",
-      "id": "col_25"
+      "id": "col_34"
     },
     {
       "type": "array_contains",
@@ -388,7 +490,7 @@
       "match_count": 24,
       "display": "Word contains 'ton'",
       "hint": "Word contains 'ton'.",
-      "id": "col_26"
+      "id": "col_35"
     },
     {
       "type": "array_contains",
@@ -399,7 +501,7 @@
       "match_count": 11,
       "display": "Word contains 'by'",
       "hint": "Word contains 'by'.",
-      "id": "col_27"
+      "id": "col_36"
     },
     {
       "type": "array_contains",
@@ -410,7 +512,7 @@
       "match_count": 7,
       "display": "Word contains 'ham'",
       "hint": "Word contains 'ham'.",
-      "id": "col_28"
+      "id": "col_37"
     },
     {
       "type": "array_contains",
@@ -421,7 +523,7 @@
       "match_count": 7,
       "display": "Word contains 'field'",
       "hint": "Word contains 'field'.",
-      "id": "col_29"
+      "id": "col_38"
     },
     {
       "type": "array_contains",
@@ -432,7 +534,7 @@
       "match_count": 5,
       "display": "Name includes a hyphen",
       "hint": "The station name includes a hyphen.",
-      "id": "col_30"
+      "id": "col_39"
     },
     {
       "type": "array_contains",
@@ -443,7 +545,7 @@
       "match_count": 4,
       "display": "Word contains 'well'",
       "hint": "Word contains 'well'.",
-      "id": "col_31"
+      "id": "col_40"
     },
     {
       "type": "array_contains",
@@ -454,7 +556,7 @@
       "match_count": 4,
       "display": "Word contains 'ford'",
       "hint": "Word contains 'ford'.",
-      "id": "col_32"
+      "id": "col_41"
     },
     {
       "type": "array_contains",
@@ -465,7 +567,7 @@
       "match_count": 4,
       "display": "Name includes brackets",
       "hint": "The station name includes text in brackets, e.g. a disambiguator like '(Cumbria)'.",
-      "id": "col_33"
+      "id": "col_42"
     },
     {
       "type": "array_contains",
@@ -476,7 +578,7 @@
       "match_count": 4,
       "display": "Word contains 'ey'",
       "hint": "Word contains 'ey'.",
-      "id": "col_34"
+      "id": "col_43"
     },
     {
       "type": "array_contains",
@@ -487,7 +589,7 @@
       "match_count": 3,
       "display": "Word contains 'ington'",
       "hint": "Word contains 'ington'.",
-      "id": "col_35"
+      "id": "col_44"
     }
   ]
 }

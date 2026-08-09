@@ -25,7 +25,10 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__aberdeen": null,
+    "time_to_hub__dundee": null,
+    "time_to_hub__inverness": 74.0
   },
   {
     "station_id": "SC_0013",
@@ -53,7 +56,10 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__aberdeen": null,
+    "time_to_hub__dundee": null,
+    "time_to_hub__inverness": 204.0
   },
   {
     "station_id": "SC_0001",
@@ -81,7 +87,10 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__aberdeen": 9.0,
+    "time_to_hub__dundee": null,
+    "time_to_hub__inverness": null
   },
   {
     "station_id": "SC_0005",
@@ -109,7 +118,10 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__aberdeen": null,
+    "time_to_hub__dundee": null,
+    "time_to_hub__inverness": 104.0
   },
   {
     "station_id": "SC_0004",
@@ -137,7 +149,10 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__aberdeen": null,
+    "time_to_hub__dundee": null,
+    "time_to_hub__inverness": 86.0
   },
   {
     "station_id": "SC_0017",
@@ -165,7 +180,10 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__aberdeen": null,
+    "time_to_hub__dundee": 22.0,
+    "time_to_hub__inverness": null
   },
   {
     "station_id": "SC_0018",
@@ -195,7 +213,10 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__aberdeen": null,
+    "time_to_hub__dundee": null,
+    "time_to_hub__inverness": 92.0
   },
   {
     "station_id": "SC_0012",
@@ -225,7 +246,10 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__aberdeen": null,
+    "time_to_hub__dundee": null,
+    "time_to_hub__inverness": 50.0
   },
   {
     "station_id": "SC_0028",
@@ -255,7 +279,10 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__aberdeen": null,
+    "time_to_hub__dundee": null,
+    "time_to_hub__inverness": 124.0
   },
   {
     "station_id": "SC_0030",
@@ -283,7 +310,10 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__aberdeen": null,
+    "time_to_hub__dundee": null,
+    "time_to_hub__inverness": 36.0
   },
   {
     "station_id": "SC_0045",
@@ -311,7 +341,10 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__aberdeen": null,
+    "time_to_hub__dundee": null,
+    "time_to_hub__inverness": 17.0
   },
   {
     "station_id": "SC_0051",
@@ -339,7 +372,10 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__aberdeen": null,
+    "time_to_hub__dundee": 417.0,
+    "time_to_hub__inverness": null
   },
   {
     "station_id": "SC_0061",
@@ -367,7 +403,10 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__aberdeen": null,
+    "time_to_hub__dundee": null,
+    "time_to_hub__inverness": 145.0
   },
   {
     "station_id": "SC_0034",
@@ -398,7 +437,10 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__aberdeen": null,
+    "time_to_hub__dundee": 10.0,
+    "time_to_hub__inverness": null
   },
   {
     "station_id": "SC_0062",
@@ -428,7 +470,10 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__aberdeen": null,
+    "time_to_hub__dundee": 8.0,
+    "time_to_hub__inverness": null
   },
   {
     "station_id": "SC_0041",
@@ -457,7 +502,10 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__aberdeen": null,
+    "time_to_hub__dundee": 18.0,
+    "time_to_hub__inverness": null
   },
   {
     "station_id": "SC_0079",
@@ -487,7 +535,10 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__aberdeen": null,
+    "time_to_hub__dundee": null,
+    "time_to_hub__inverness": 30.0
   },
   {
     "station_id": "SC_0077",
@@ -519,7 +570,10 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__aberdeen": null,
+    "time_to_hub__dundee": 14.0,
+    "time_to_hub__inverness": null
   },
   {
     "station_id": "SC_0092",
@@ -549,7 +603,10 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__aberdeen": null,
+    "time_to_hub__dundee": null,
+    "time_to_hub__inverness": 30.0
   },
   {
     "station_id": "SC_0104",
@@ -577,7 +634,10 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__aberdeen": null,
+    "time_to_hub__dundee": null,
+    "time_to_hub__inverness": 99.0
   },
   {
     "station_id": "SC_0106",
@@ -605,7 +665,10 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__aberdeen": null,
+    "time_to_hub__dundee": 21.0,
+    "time_to_hub__inverness": null
   },
   {
     "station_id": "SC_0130",
@@ -633,7 +696,10 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__aberdeen": null,
+    "time_to_hub__dundee": null,
+    "time_to_hub__inverness": 144.0
   },
   {
     "station_id": "SC_0131",
@@ -661,7 +727,10 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__aberdeen": null,
+    "time_to_hub__dundee": 23.0,
+    "time_to_hub__inverness": null
   },
   {
     "station_id": "SC_0116",
@@ -689,7 +758,10 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__aberdeen": null,
+    "time_to_hub__dundee": null,
+    "time_to_hub__inverness": 35.0
   },
   {
     "station_id": "SC_0134",
@@ -720,7 +792,10 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__aberdeen": null,
+    "time_to_hub__dundee": 386.0,
+    "time_to_hub__inverness": null
   },
   {
     "station_id": "SC_0115",
@@ -750,7 +825,10 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__aberdeen": null,
+    "time_to_hub__dundee": null,
+    "time_to_hub__inverness": 67.0
   },
   {
     "station_id": "SC_0136",
@@ -778,7 +856,10 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__aberdeen": null,
+    "time_to_hub__dundee": null,
+    "time_to_hub__inverness": 138.0
   },
   {
     "station_id": "SC_0122",
@@ -806,7 +887,10 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__aberdeen": null,
+    "time_to_hub__dundee": null,
+    "time_to_hub__inverness": 152.0
   },
   {
     "station_id": "SC_0137",
@@ -834,7 +918,10 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__aberdeen": 9.0,
+    "time_to_hub__dundee": null,
+    "time_to_hub__inverness": null
   },
   {
     "station_id": "SC_0144",
@@ -862,7 +949,10 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__aberdeen": null,
+    "time_to_hub__dundee": null,
+    "time_to_hub__inverness": 45.0
   },
   {
     "station_id": "SC_0153",
@@ -890,7 +980,10 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__aberdeen": null,
+    "time_to_hub__dundee": null,
+    "time_to_hub__inverness": 32.0
   },
   {
     "station_id": "SC_0152",
@@ -918,7 +1011,10 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__aberdeen": null,
+    "time_to_hub__dundee": null,
+    "time_to_hub__inverness": 70.0
   },
   {
     "station_id": "SC_0154",
@@ -946,7 +1042,10 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__aberdeen": null,
+    "time_to_hub__dundee": null,
+    "time_to_hub__inverness": 194.0
   },
   {
     "station_id": "SC_0163",
@@ -974,7 +1073,10 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__aberdeen": null,
+    "time_to_hub__dundee": null,
+    "time_to_hub__inverness": 246.0
   },
   {
     "station_id": "SC_0173",
@@ -1003,7 +1105,10 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__aberdeen": null,
+    "time_to_hub__dundee": 21.0,
+    "time_to_hub__inverness": null
   },
   {
     "station_id": "SC_0174",
@@ -1031,7 +1136,10 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__aberdeen": null,
+    "time_to_hub__dundee": null,
+    "time_to_hub__inverness": 134.0
   },
   {
     "station_id": "SC_0162",
@@ -1059,7 +1167,10 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__aberdeen": null,
+    "time_to_hub__dundee": null,
+    "time_to_hub__inverness": 62.0
   },
   {
     "station_id": "SC_0189",
@@ -1089,7 +1200,10 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__aberdeen": null,
+    "time_to_hub__dundee": null,
+    "time_to_hub__inverness": 160.0
   },
   {
     "station_id": "SC_0196",
@@ -1117,7 +1231,10 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__aberdeen": 52.0,
+    "time_to_hub__dundee": null,
+    "time_to_hub__inverness": null
   },
   {
     "station_id": "SC_0199",
@@ -1147,7 +1264,10 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__aberdeen": null,
+    "time_to_hub__dundee": null,
+    "time_to_hub__inverness": 56.0
   },
   {
     "station_id": "SC_0200",
@@ -1178,7 +1298,10 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__aberdeen": null,
+    "time_to_hub__dundee": 6.0,
+    "time_to_hub__inverness": null
   },
   {
     "station_id": "SC_0205",
@@ -1208,7 +1331,10 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__aberdeen": null,
+    "time_to_hub__dundee": null,
+    "time_to_hub__inverness": 100.0
   },
   {
     "station_id": "SC_0206",
@@ -1238,7 +1364,10 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__aberdeen": 24.0,
+    "time_to_hub__dundee": null,
+    "time_to_hub__inverness": null
   },
   {
     "station_id": "SC_0198",
@@ -1266,7 +1395,10 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__aberdeen": 36.0,
+    "time_to_hub__dundee": null,
+    "time_to_hub__inverness": null
   },
   {
     "station_id": "SC_0203",
@@ -1297,7 +1429,10 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__aberdeen": null,
+    "time_to_hub__dundee": null,
+    "time_to_hub__inverness": 47.0
   },
   {
     "station_id": "SC_0204",
@@ -1328,7 +1463,10 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__aberdeen": null,
+    "time_to_hub__dundee": null,
+    "time_to_hub__inverness": 11.0
   },
   {
     "station_id": "SC_0218",
@@ -1356,7 +1494,10 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__aberdeen": null,
+    "time_to_hub__dundee": null,
+    "time_to_hub__inverness": 184.0
   },
   {
     "station_id": "SC_0210",
@@ -1384,7 +1525,10 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__aberdeen": 72.0,
+    "time_to_hub__dundee": null,
+    "time_to_hub__inverness": null
   },
   {
     "station_id": "SC_0213",
@@ -1414,7 +1558,10 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__aberdeen": null,
+    "time_to_hub__dundee": null,
+    "time_to_hub__inverness": 174.0
   },
   {
     "station_id": "SC_0222",
@@ -1442,7 +1589,10 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__aberdeen": null,
+    "time_to_hub__dundee": null,
+    "time_to_hub__inverness": 50.0
   },
   {
     "station_id": "SC_0223",
@@ -1470,7 +1620,10 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__aberdeen": 18.0,
+    "time_to_hub__dundee": null,
+    "time_to_hub__inverness": null
   },
   {
     "station_id": "SC_0229",
@@ -1500,7 +1653,10 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__aberdeen": null,
+    "time_to_hub__dundee": null,
+    "time_to_hub__inverness": 164.0
   },
   {
     "station_id": "SC_0238",
@@ -1529,7 +1685,10 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__aberdeen": 32.0,
+    "time_to_hub__dundee": null,
+    "time_to_hub__inverness": null
   },
   {
     "station_id": "SC_0250",
@@ -1559,7 +1718,10 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__aberdeen": null,
+    "time_to_hub__dundee": null,
+    "time_to_hub__inverness": 68.0
   },
   {
     "station_id": "SC_0230",
@@ -1587,7 +1749,10 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__aberdeen": null,
+    "time_to_hub__dundee": 28.0,
+    "time_to_hub__inverness": null
   },
   {
     "station_id": "SC_0240",
@@ -1615,7 +1780,10 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__aberdeen": null,
+    "time_to_hub__dundee": 14.0,
+    "time_to_hub__inverness": null
   },
   {
     "station_id": "SC_0231",
@@ -1643,7 +1811,10 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__aberdeen": null,
+    "time_to_hub__dundee": null,
+    "time_to_hub__inverness": 109.0
   },
   {
     "station_id": "SC_0262",
@@ -1672,7 +1843,10 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__aberdeen": null,
+    "time_to_hub__dundee": 12.0,
+    "time_to_hub__inverness": null
   },
   {
     "station_id": "SC_0269",
@@ -1700,7 +1874,10 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__aberdeen": null,
+    "time_to_hub__dundee": null,
+    "time_to_hub__inverness": 22.0
   },
   {
     "station_id": "SC_0263",
@@ -1728,7 +1905,10 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__aberdeen": null,
+    "time_to_hub__dundee": 34.0,
+    "time_to_hub__inverness": null
   },
   {
     "station_id": "SC_0272",
@@ -1756,7 +1936,10 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__aberdeen": null,
+    "time_to_hub__dundee": null,
+    "time_to_hub__inverness": 20.0
   },
   {
     "station_id": "SC_0279",
@@ -1785,7 +1968,10 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__aberdeen": null,
+    "time_to_hub__dundee": null,
+    "time_to_hub__inverness": 58.0
   },
   {
     "station_id": "SC_0290",
@@ -1813,7 +1999,10 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__aberdeen": null,
+    "time_to_hub__dundee": 406.0,
+    "time_to_hub__inverness": null
   },
   {
     "station_id": "SC_0291",
@@ -1841,7 +2030,10 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__aberdeen": null,
+    "time_to_hub__dundee": null,
+    "time_to_hub__inverness": 148.0
   },
   {
     "station_id": "SC_0298",
@@ -1869,7 +2061,10 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__aberdeen": 12.0,
+    "time_to_hub__dundee": null,
+    "time_to_hub__inverness": null
   },
   {
     "station_id": "SC_0289",
@@ -1897,7 +2092,10 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__aberdeen": null,
+    "time_to_hub__dundee": 24.0,
+    "time_to_hub__inverness": null
   },
   {
     "station_id": "SC_0309",
@@ -1925,7 +2123,10 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__aberdeen": null,
+    "time_to_hub__dundee": null,
+    "time_to_hub__inverness": 125.0
   },
   {
     "station_id": "SC_0315",
@@ -1953,7 +2154,10 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__aberdeen": null,
+    "time_to_hub__dundee": null,
+    "time_to_hub__inverness": 214.0
   },
   {
     "station_id": "SC_0327",
@@ -1981,7 +2185,10 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__aberdeen": null,
+    "time_to_hub__dundee": 26.0,
+    "time_to_hub__inverness": null
   },
   {
     "station_id": "SC_0335",
@@ -2011,7 +2218,10 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__aberdeen": null,
+    "time_to_hub__dundee": null,
+    "time_to_hub__inverness": 115.0
   },
   {
     "station_id": "SC_0336",
@@ -2039,7 +2249,10 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__aberdeen": null,
+    "time_to_hub__dundee": null,
+    "time_to_hub__inverness": 136.0
   },
   {
     "station_id": "SC_0332",
@@ -2067,7 +2280,10 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__aberdeen": 19.0,
+    "time_to_hub__dundee": null,
+    "time_to_hub__inverness": null
   },
   {
     "station_id": "SC_0338",
@@ -2095,7 +2311,10 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__aberdeen": null,
+    "time_to_hub__dundee": null,
+    "time_to_hub__inverness": 76.0
   },
   {
     "station_id": "SC_0342",
@@ -2123,7 +2342,10 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__aberdeen": null,
+    "time_to_hub__dundee": null,
+    "time_to_hub__inverness": 233.0
   },
   {
     "station_id": "SC_0359",
@@ -2151,6 +2373,9 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__aberdeen": null,
+    "time_to_hub__dundee": null,
+    "time_to_hub__inverness": 265.0
   }
 ]

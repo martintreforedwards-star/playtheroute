@@ -248,37 +248,139 @@
     },
     {
       "type": "range",
-      "field": "canonical_time_to_hub",
-      "max": 31.0,
-      "label": "Time to hub: shortest third",
+      "field": "time_to_hub__cardiff_central",
+      "max": 22.0,
+      "label": "Time to Cardiff Central: shortest third",
       "category": "service",
-      "match_count": 83,
-      "display": "One of the quicker journeys to its hub station",
-      "hint": "Out of all the candidate stations for this puzzle, this one has one of the shortest journey times to its hub station.",
+      "match_count": 34,
+      "display": "A short journey to Cardiff Central",
+      "hint": "In this puzzle, 'short' means under 22 minutes to Cardiff Central.",
       "id": "col_14"
     },
     {
       "type": "range",
-      "field": "canonical_time_to_hub",
-      "min": 31.0,
-      "max": 66.0,
-      "label": "Time to hub: middle third",
+      "field": "time_to_hub__cardiff_central",
+      "min": 22.0,
+      "max": 43.0,
+      "label": "Time to Cardiff Central: middle third",
       "category": "service",
-      "match_count": 87,
-      "display": "A mid-range journey to its hub station",
-      "hint": "Out of all the candidate stations for this puzzle, this one's journey time to its hub station is neither the shortest nor the longest.",
+      "match_count": 33,
+      "display": "A mid-range journey to Cardiff Central",
+      "hint": "In this puzzle, 'mid-range' means 22-43 minutes to Cardiff Central.",
       "id": "col_15"
     },
     {
       "type": "range",
-      "field": "canonical_time_to_hub",
-      "min": 66.0,
-      "label": "Time to hub: longest third",
+      "field": "time_to_hub__cardiff_central",
+      "min": 43.0,
+      "label": "Time to Cardiff Central: longest third",
       "category": "service",
-      "match_count": 83,
-      "display": "One of the longer journeys to its hub station",
-      "hint": "Out of all the candidate stations for this puzzle, this one has one of the longest journey times to its hub station.",
+      "match_count": 32,
+      "display": "A long journey to Cardiff Central",
+      "hint": "In this puzzle, 'long' means 43+ minutes to Cardiff Central.",
       "id": "col_16"
+    },
+    {
+      "type": "range",
+      "field": "time_to_hub__shrewsbury",
+      "max": 64.0,
+      "label": "Time to Shrewsbury: shortest third",
+      "category": "service",
+      "match_count": 18,
+      "display": "A short journey to Shrewsbury",
+      "hint": "In this puzzle, 'short' means under 64 minutes to Shrewsbury.",
+      "id": "col_17"
+    },
+    {
+      "type": "range",
+      "field": "time_to_hub__shrewsbury",
+      "min": 64.0,
+      "max": 143.0,
+      "label": "Time to Shrewsbury: middle third",
+      "category": "service",
+      "match_count": 18,
+      "display": "A mid-range journey to Shrewsbury",
+      "hint": "In this puzzle, 'mid-range' means 64-143 minutes to Shrewsbury.",
+      "id": "col_18"
+    },
+    {
+      "type": "range",
+      "field": "time_to_hub__shrewsbury",
+      "min": 143.0,
+      "label": "Time to Shrewsbury: longest third",
+      "category": "service",
+      "match_count": 18,
+      "display": "A long journey to Shrewsbury",
+      "hint": "In this puzzle, 'long' means 143+ minutes to Shrewsbury.",
+      "id": "col_19"
+    },
+    {
+      "type": "range",
+      "field": "time_to_hub__swansea",
+      "max": 47.0,
+      "label": "Time to Swansea: shortest third",
+      "category": "service",
+      "match_count": 17,
+      "display": "A short journey to Swansea",
+      "hint": "In this puzzle, 'short' means under 47 minutes to Swansea.",
+      "id": "col_20"
+    },
+    {
+      "type": "range",
+      "field": "time_to_hub__swansea",
+      "min": 47.0,
+      "max": 97.0,
+      "label": "Time to Swansea: middle third",
+      "category": "service",
+      "match_count": 17,
+      "display": "A mid-range journey to Swansea",
+      "hint": "In this puzzle, 'mid-range' means 47-97 minutes to Swansea.",
+      "id": "col_21"
+    },
+    {
+      "type": "range",
+      "field": "time_to_hub__swansea",
+      "min": 97.0,
+      "label": "Time to Swansea: longest third",
+      "category": "service",
+      "match_count": 17,
+      "display": "A long journey to Swansea",
+      "hint": "In this puzzle, 'long' means 97+ minutes to Swansea.",
+      "id": "col_22"
+    },
+    {
+      "type": "range",
+      "field": "time_to_hub__wrexham_chester",
+      "max": 29.0,
+      "label": "Time to Wrexham/Chester: shortest third",
+      "category": "service",
+      "match_count": 18,
+      "display": "A short journey to Wrexham/Chester",
+      "hint": "In this puzzle, 'short' means under 29 minutes to Wrexham/Chester.",
+      "id": "col_23"
+    },
+    {
+      "type": "range",
+      "field": "time_to_hub__wrexham_chester",
+      "min": 29.0,
+      "max": 73.0,
+      "label": "Time to Wrexham/Chester: middle third",
+      "category": "service",
+      "match_count": 18,
+      "display": "A mid-range journey to Wrexham/Chester",
+      "hint": "In this puzzle, 'mid-range' means 29-73 minutes to Wrexham/Chester.",
+      "id": "col_24"
+    },
+    {
+      "type": "range",
+      "field": "time_to_hub__wrexham_chester",
+      "min": 73.0,
+      "label": "Time to Wrexham/Chester: longest third",
+      "category": "service",
+      "match_count": 18,
+      "display": "A long journey to Wrexham/Chester",
+      "hint": "In this puzzle, 'long' means 73+ minutes to Wrexham/Chester.",
+      "id": "col_25"
     },
     {
       "type": "array_contains",
@@ -289,7 +391,7 @@
       "match_count": 63,
       "display": "Is part of the Central Wales Line route",
       "hint": "A station on the Central Wales Line route.",
-      "id": "col_17"
+      "id": "col_26"
     },
     {
       "type": "array_contains",
@@ -300,7 +402,7 @@
       "match_count": 63,
       "display": "Is part of the Heart of Wales Line route",
       "hint": "A station on the Heart of Wales Line route.",
-      "id": "col_18"
+      "id": "col_27"
     },
     {
       "type": "array_contains",
@@ -311,7 +413,7 @@
       "match_count": 50,
       "display": "Is part of the North Wales Coast Line route",
       "hint": "A station on the North Wales Coast Line route.",
-      "id": "col_19"
+      "id": "col_28"
     },
     {
       "type": "array_contains",
@@ -322,7 +424,7 @@
       "match_count": 44,
       "display": "Is part of the Swanline route",
       "hint": "A station on the Swanline route.",
-      "id": "col_20"
+      "id": "col_29"
     },
     {
       "type": "array_contains",
@@ -333,7 +435,7 @@
       "match_count": 31,
       "display": "Is part of the Vale of Glamorgan Line route",
       "hint": "A station on the Vale of Glamorgan Line route.",
-      "id": "col_21"
+      "id": "col_30"
     },
     {
       "type": "array_contains",
@@ -344,7 +446,7 @@
       "match_count": 30,
       "display": "Is part of the Coryton Line route",
       "hint": "A station on the Coryton Line route.",
-      "id": "col_22"
+      "id": "col_31"
     },
     {
       "type": "array_contains",
@@ -355,7 +457,7 @@
       "match_count": 27,
       "display": "Is part of the Cambrian Coast Line route",
       "hint": "A station on the Cambrian Coast Line route.",
-      "id": "col_23"
+      "id": "col_32"
     },
     {
       "type": "array_contains",
@@ -366,7 +468,7 @@
       "match_count": 25,
       "display": "Is part of the Merthyr Line route",
       "hint": "A station on the Merthyr Line route.",
-      "id": "col_24"
+      "id": "col_33"
     },
     {
       "type": "array_contains",
@@ -377,7 +479,7 @@
       "match_count": 25,
       "display": "Is part of the Treherbert Line route",
       "hint": "A station on the Treherbert Line route.",
-      "id": "col_25"
+      "id": "col_34"
     },
     {
       "type": "array_contains",
@@ -388,7 +490,7 @@
       "match_count": 24,
       "display": "Is part of the Aberdare Line route",
       "hint": "A station on the Aberdare Line route.",
-      "id": "col_26"
+      "id": "col_35"
     },
     {
       "type": "array_contains",
@@ -399,7 +501,7 @@
       "match_count": 20,
       "display": "Is part of the Ebbw Valley Line route",
       "hint": "A station on the Ebbw Valley Line route.",
-      "id": "col_27"
+      "id": "col_36"
     },
     {
       "type": "array_contains",
@@ -410,7 +512,7 @@
       "match_count": 18,
       "display": "Is part of the Marches Line route",
       "hint": "A station on the Marches Line route.",
-      "id": "col_28"
+      "id": "col_37"
     },
     {
       "type": "array_contains",
@@ -421,7 +523,7 @@
       "match_count": 16,
       "display": "Is part of the North & West Line route",
       "hint": "A station on the North & West Line route.",
-      "id": "col_29"
+      "id": "col_38"
     },
     {
       "type": "array_contains",
@@ -432,7 +534,7 @@
       "match_count": 13,
       "display": "Is part of the Borderlands Line route",
       "hint": "A station on the Borderlands Line route.",
-      "id": "col_30"
+      "id": "col_39"
     },
     {
       "type": "array_contains",
@@ -443,7 +545,7 @@
       "match_count": 13,
       "display": "Is part of the Conwy Valley Line route",
       "hint": "A station on the Conwy Valley Line route.",
-      "id": "col_31"
+      "id": "col_40"
     },
     {
       "type": "equals",
@@ -454,7 +556,7 @@
       "match_count": 63,
       "display": "Naming style: place",
       "hint": "",
-      "id": "col_32"
+      "id": "col_41"
     },
     {
       "type": "equals",
@@ -465,7 +567,7 @@
       "match_count": 45,
       "display": "Naming style: feature",
       "hint": "",
-      "id": "col_33"
+      "id": "col_42"
     },
     {
       "type": "equals",
@@ -476,7 +578,7 @@
       "match_count": 9,
       "display": "Naming style: an unusual name format",
       "hint": "Something unusual about how the name is written - brackets, a hyphen, an ampersand, or 'St'.",
-      "id": "col_34"
+      "id": "col_43"
     },
     {
       "type": "array_contains",
@@ -487,7 +589,7 @@
       "match_count": 32,
       "display": "Word contains 'llan'",
       "hint": "Word contains 'llan'.",
-      "id": "col_35"
+      "id": "col_44"
     },
     {
       "type": "array_contains",
@@ -498,7 +600,7 @@
       "match_count": 20,
       "display": "Word contains 'pen'",
       "hint": "Word contains 'pen'.",
-      "id": "col_36"
+      "id": "col_45"
     },
     {
       "type": "array_contains",
@@ -509,7 +611,7 @@
       "match_count": 13,
       "display": "Word contains 'aber'",
       "hint": "Word contains 'aber'.",
-      "id": "col_37"
+      "id": "col_46"
     },
     {
       "type": "array_contains",
@@ -520,7 +622,7 @@
       "match_count": 10,
       "display": "Word contains 'tre'",
       "hint": "Word contains 'tre'.",
-      "id": "col_38"
+      "id": "col_47"
     },
     {
       "type": "array_contains",
@@ -531,7 +633,7 @@
       "match_count": 10,
       "display": "Word contains 'caer'",
       "hint": "Word contains 'caer'.",
-      "id": "col_39"
+      "id": "col_48"
     },
     {
       "type": "array_contains",
@@ -542,7 +644,7 @@
       "match_count": 8,
       "display": "Word contains 'pont'",
       "hint": "Word contains 'pont'.",
-      "id": "col_40"
+      "id": "col_49"
     },
     {
       "type": "array_contains",
@@ -553,7 +655,7 @@
       "match_count": 7,
       "display": "Name includes Welsh 'a'/'ac'",
       "hint": "The Welsh station name includes 'a' or 'ac' (meaning 'and'), joining two place names.",
-      "id": "col_41"
+      "id": "col_50"
     },
     {
       "type": "array_contains",
@@ -564,7 +666,7 @@
       "match_count": 3,
       "display": "Word contains 'ynys'",
       "hint": "Word contains 'ynys'.",
-      "id": "col_42"
+      "id": "col_51"
     },
     {
       "type": "array_contains",
@@ -575,7 +677,7 @@
       "match_count": 3,
       "display": "Word contains 'dinas'",
       "hint": "Word contains 'dinas'.",
-      "id": "col_43"
+      "id": "col_52"
     },
     {
       "type": "array_contains",
@@ -586,7 +688,7 @@
       "match_count": 3,
       "display": "Word contains 'glyn'",
       "hint": "Word contains 'glyn'.",
-      "id": "col_44"
+      "id": "col_53"
     },
     {
       "type": "array_contains",
@@ -597,7 +699,7 @@
       "match_count": 3,
       "display": "Word contains 'maes'",
       "hint": "Word contains 'maes'.",
-      "id": "col_45"
+      "id": "col_54"
     }
   ]
 }

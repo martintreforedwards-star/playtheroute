@@ -28,7 +28,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__cardiff_central": 62.0,
+    "time_to_hub__shrewsbury": null,
+    "time_to_hub__swansea": null,
+    "time_to_hub__wrexham_chester": null
   },
   {
     "station_id": "TWCY_0001",
@@ -59,7 +63,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__cardiff_central": 22.0,
+    "time_to_hub__shrewsbury": null,
+    "time_to_hub__swansea": null,
+    "time_to_hub__wrexham_chester": null
   },
   {
     "station_id": "TWCY_0005",
@@ -89,7 +97,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__cardiff_central": null,
+    "time_to_hub__shrewsbury": 220.0,
+    "time_to_hub__swansea": null,
+    "time_to_hub__wrexham_chester": null
   },
   {
     "station_id": "TWCY_0002",
@@ -121,7 +133,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__cardiff_central": 42.0,
+    "time_to_hub__shrewsbury": null,
+    "time_to_hub__swansea": null,
+    "time_to_hub__wrexham_chester": null
   },
   {
     "station_id": "TWCY_0007",
@@ -152,7 +168,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__cardiff_central": null,
+    "time_to_hub__shrewsbury": null,
+    "time_to_hub__swansea": null,
+    "time_to_hub__wrexham_chester": 40.0
   },
   {
     "station_id": "TWCY_0006",
@@ -184,7 +204,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__cardiff_central": 42.0,
+    "time_to_hub__shrewsbury": null,
+    "time_to_hub__swansea": null,
+    "time_to_hub__wrexham_chester": null
   },
   {
     "station_id": "TWCY_0009",
@@ -215,7 +239,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__cardiff_central": null,
+    "time_to_hub__shrewsbury": null,
+    "time_to_hub__swansea": 53.0,
+    "time_to_hub__wrexham_chester": null
   },
   {
     "station_id": "TWCY_0004",
@@ -245,7 +273,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__cardiff_central": null,
+    "time_to_hub__shrewsbury": 106.0,
+    "time_to_hub__swansea": null,
+    "time_to_hub__wrexham_chester": null
   },
   {
     "station_id": "TWCY_0008",
@@ -276,7 +308,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__cardiff_central": null,
+    "time_to_hub__shrewsbury": 110.0,
+    "time_to_hub__swansea": null,
+    "time_to_hub__wrexham_chester": null
   },
   {
     "station_id": "TWCY_0010",
@@ -306,7 +342,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__cardiff_central": null,
+    "time_to_hub__shrewsbury": null,
+    "time_to_hub__swansea": 24.0,
+    "time_to_hub__wrexham_chester": null
   },
   {
     "station_id": "TWCY_0018",
@@ -334,7 +374,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__cardiff_central": 15.0,
+    "time_to_hub__shrewsbury": null,
+    "time_to_hub__swansea": null,
+    "time_to_hub__wrexham_chester": null
   },
   {
     "station_id": "TWCY_0027",
@@ -362,7 +406,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__cardiff_central": null,
+    "time_to_hub__shrewsbury": null,
+    "time_to_hub__swansea": null,
+    "time_to_hub__wrexham_chester": 20.0
   },
   {
     "station_id": "TWCY_0019",
@@ -390,7 +438,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__cardiff_central": null,
+    "time_to_hub__shrewsbury": null,
+    "time_to_hub__swansea": null,
+    "time_to_hub__wrexham_chester": 131.0
   },
   {
     "station_id": "TWCY_0012",
@@ -419,7 +471,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__cardiff_central": 44.0,
+    "time_to_hub__shrewsbury": null,
+    "time_to_hub__swansea": null,
+    "time_to_hub__wrexham_chester": null
   },
   {
     "station_id": "TWCY_0023",
@@ -454,7 +510,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__cardiff_central": 25.0,
+    "time_to_hub__shrewsbury": null,
+    "time_to_hub__swansea": null,
+    "time_to_hub__wrexham_chester": null
   },
   {
     "station_id": "TWCY_0024",
@@ -482,7 +542,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__cardiff_central": 46.0,
+    "time_to_hub__shrewsbury": null,
+    "time_to_hub__swansea": null,
+    "time_to_hub__wrexham_chester": null
   },
   {
     "station_id": "TWCY_0029",
@@ -511,7 +575,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__cardiff_central": null,
+    "time_to_hub__shrewsbury": null,
+    "time_to_hub__swansea": 142.0,
+    "time_to_hub__wrexham_chester": null
   },
   {
     "station_id": "TWCY_0026",
@@ -540,7 +608,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__cardiff_central": null,
+    "time_to_hub__shrewsbury": 35.0,
+    "time_to_hub__swansea": null,
+    "time_to_hub__wrexham_chester": null
   },
   {
     "station_id": "TWCY_0025",
@@ -572,7 +644,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__cardiff_central": null,
+    "time_to_hub__shrewsbury": null,
+    "time_to_hub__swansea": 20.0,
+    "time_to_hub__wrexham_chester": null
   },
   {
     "station_id": "TWCY_0011",
@@ -600,7 +676,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__cardiff_central": null,
+    "time_to_hub__shrewsbury": null,
+    "time_to_hub__swansea": null,
+    "time_to_hub__wrexham_chester": 73.0
   },
   {
     "station_id": "TWCY_0020",
@@ -628,7 +708,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__cardiff_central": null,
+    "time_to_hub__shrewsbury": null,
+    "time_to_hub__swansea": null,
+    "time_to_hub__wrexham_chester": 92.0
   },
   {
     "station_id": "TWCY_0022",
@@ -657,7 +741,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__cardiff_central": null,
+    "time_to_hub__shrewsbury": 102.0,
+    "time_to_hub__swansea": null,
+    "time_to_hub__wrexham_chester": null
   },
   {
     "station_id": "TWCY_0021",
@@ -686,7 +774,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__cardiff_central": null,
+    "time_to_hub__shrewsbury": 93.0,
+    "time_to_hub__swansea": null,
+    "time_to_hub__wrexham_chester": null
   },
   {
     "station_id": "TWCY_0013",
@@ -716,7 +808,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__cardiff_central": null,
+    "time_to_hub__shrewsbury": 143.0,
+    "time_to_hub__swansea": null,
+    "time_to_hub__wrexham_chester": null
   },
   {
     "station_id": "TWCY_0014",
@@ -746,7 +842,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__cardiff_central": 26.0,
+    "time_to_hub__shrewsbury": null,
+    "time_to_hub__swansea": null,
+    "time_to_hub__wrexham_chester": null
   },
   {
     "station_id": "TWCY_0028",
@@ -775,7 +875,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__cardiff_central": null,
+    "time_to_hub__shrewsbury": 44.0,
+    "time_to_hub__swansea": null,
+    "time_to_hub__wrexham_chester": null
   },
   {
     "station_id": "TWCY_0017",
@@ -805,7 +909,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__cardiff_central": null,
+    "time_to_hub__shrewsbury": null,
+    "time_to_hub__swansea": null,
+    "time_to_hub__wrexham_chester": 164.0
   },
   {
     "station_id": "TWCY_0015",
@@ -834,7 +942,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__cardiff_central": 23.0,
+    "time_to_hub__shrewsbury": null,
+    "time_to_hub__swansea": null,
+    "time_to_hub__wrexham_chester": null
   },
   {
     "station_id": "TWCY_0030",
@@ -863,7 +975,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__cardiff_central": null,
+    "time_to_hub__shrewsbury": null,
+    "time_to_hub__swansea": 34.0,
+    "time_to_hub__wrexham_chester": null
   },
   {
     "station_id": "TWCY_0016",
@@ -894,7 +1010,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__cardiff_central": 31.0,
+    "time_to_hub__shrewsbury": null,
+    "time_to_hub__swansea": null,
+    "time_to_hub__wrexham_chester": null
   },
   {
     "station_id": "TWCY_0031",
@@ -926,7 +1046,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__cardiff_central": 20.0,
+    "time_to_hub__shrewsbury": null,
+    "time_to_hub__swansea": null,
+    "time_to_hub__wrexham_chester": null
   },
   {
     "station_id": "TWCY_0054",
@@ -954,7 +1078,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__cardiff_central": null,
+    "time_to_hub__shrewsbury": 210.0,
+    "time_to_hub__swansea": null,
+    "time_to_hub__wrexham_chester": null
   },
   {
     "station_id": "TWCY_0036",
@@ -985,7 +1113,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__cardiff_central": 10.0,
+    "time_to_hub__shrewsbury": null,
+    "time_to_hub__swansea": null,
+    "time_to_hub__wrexham_chester": null
   },
   {
     "station_id": "TWCY_0037",
@@ -1029,7 +1161,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__cardiff_central": 23.0,
+    "time_to_hub__shrewsbury": null,
+    "time_to_hub__swansea": null,
+    "time_to_hub__wrexham_chester": null
   },
   {
     "station_id": "TWCY_0038",
@@ -1064,7 +1200,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__cardiff_central": 2.0,
+    "time_to_hub__shrewsbury": null,
+    "time_to_hub__swansea": null,
+    "time_to_hub__wrexham_chester": null
   },
   {
     "station_id": "TWCY_0035",
@@ -1092,7 +1232,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__cardiff_central": 30.0,
+    "time_to_hub__shrewsbury": null,
+    "time_to_hub__swansea": null,
+    "time_to_hub__wrexham_chester": null
   },
   {
     "station_id": "TWCY_0049",
@@ -1121,7 +1265,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__cardiff_central": 10.0,
+    "time_to_hub__shrewsbury": null,
+    "time_to_hub__swansea": null,
+    "time_to_hub__wrexham_chester": null
   },
   {
     "station_id": "TWCY_0032",
@@ -1151,7 +1299,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__cardiff_central": null,
+    "time_to_hub__shrewsbury": null,
+    "time_to_hub__swansea": null,
+    "time_to_hub__wrexham_chester": 11.0
   },
   {
     "station_id": "TWCY_0046",
@@ -1180,7 +1332,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__cardiff_central": null,
+    "time_to_hub__shrewsbury": null,
+    "time_to_hub__swansea": 139.0,
+    "time_to_hub__wrexham_chester": null
   },
   {
     "station_id": "TWCY_0055",
@@ -1208,7 +1364,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__cardiff_central": 32.0,
+    "time_to_hub__shrewsbury": null,
+    "time_to_hub__swansea": null,
+    "time_to_hub__wrexham_chester": null
   },
   {
     "station_id": "TWCY_0047",
@@ -1236,7 +1396,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__cardiff_central": null,
+    "time_to_hub__shrewsbury": null,
+    "time_to_hub__swansea": 82.0,
+    "time_to_hub__wrexham_chester": null
   },
   {
     "station_id": "TWCY_0056",
@@ -1267,7 +1431,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__cardiff_central": 59.0,
+    "time_to_hub__shrewsbury": null,
+    "time_to_hub__swansea": null,
+    "time_to_hub__wrexham_chester": null
   },
   {
     "station_id": "TWCY_0039",
@@ -1299,7 +1467,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__cardiff_central": null,
+    "time_to_hub__shrewsbury": null,
+    "time_to_hub__swansea": 47.0,
+    "time_to_hub__wrexham_chester": null
   },
   {
     "station_id": "TWCY_0051",
@@ -1327,7 +1499,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__cardiff_central": null,
+    "time_to_hub__shrewsbury": null,
+    "time_to_hub__swansea": null,
+    "time_to_hub__wrexham_chester": 57.0
   },
   {
     "station_id": "TWCY_0052",
@@ -1355,7 +1531,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__cardiff_central": 20.0,
+    "time_to_hub__shrewsbury": null,
+    "time_to_hub__swansea": null,
+    "time_to_hub__wrexham_chester": null
   },
   {
     "station_id": "TWCY_0033",
@@ -1386,7 +1566,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__cardiff_central": 19.0,
+    "time_to_hub__shrewsbury": null,
+    "time_to_hub__swansea": null,
+    "time_to_hub__wrexham_chester": null
   },
   {
     "station_id": "TWCY_0042",
@@ -1414,7 +1598,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__cardiff_central": 38.0,
+    "time_to_hub__shrewsbury": null,
+    "time_to_hub__swansea": null,
+    "time_to_hub__wrexham_chester": null
   },
   {
     "station_id": "TWCY_0044",
@@ -1444,7 +1632,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__cardiff_central": null,
+    "time_to_hub__shrewsbury": null,
+    "time_to_hub__swansea": null,
+    "time_to_hub__wrexham_chester": 12.0
   },
   {
     "station_id": "TWCY_0053",
@@ -1476,7 +1668,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__cardiff_central": null,
+    "time_to_hub__shrewsbury": 24.0,
+    "time_to_hub__swansea": null,
+    "time_to_hub__wrexham_chester": null
   },
   {
     "station_id": "TWCY_0043",
@@ -1506,7 +1702,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__cardiff_central": null,
+    "time_to_hub__shrewsbury": null,
+    "time_to_hub__swansea": null,
+    "time_to_hub__wrexham_chester": 85.0
   },
   {
     "station_id": "TWCY_0045",
@@ -1538,7 +1738,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__cardiff_central": null,
+    "time_to_hub__shrewsbury": 14.0,
+    "time_to_hub__swansea": null,
+    "time_to_hub__wrexham_chester": null
   },
   {
     "station_id": "TWCY_0048",
@@ -1566,7 +1770,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__cardiff_central": null,
+    "time_to_hub__shrewsbury": null,
+    "time_to_hub__swansea": 75.0,
+    "time_to_hub__wrexham_chester": null
   },
   {
     "station_id": "TWCY_0050",
@@ -1594,7 +1802,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__cardiff_central": null,
+    "time_to_hub__shrewsbury": null,
+    "time_to_hub__swansea": null,
+    "time_to_hub__wrexham_chester": 45.0
   },
   {
     "station_id": "TWCY_0057",
@@ -1628,7 +1840,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__cardiff_central": 26.0,
+    "time_to_hub__shrewsbury": null,
+    "time_to_hub__swansea": null,
+    "time_to_hub__wrexham_chester": null
   },
   {
     "station_id": "TWCY_0034",
@@ -1659,7 +1875,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__cardiff_central": null,
+    "time_to_hub__shrewsbury": 44.0,
+    "time_to_hub__swansea": null,
+    "time_to_hub__wrexham_chester": null
   },
   {
     "station_id": "TWCY_0041",
@@ -1687,7 +1907,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__cardiff_central": null,
+    "time_to_hub__shrewsbury": null,
+    "time_to_hub__swansea": null,
+    "time_to_hub__wrexham_chester": 8.0
   },
   {
     "station_id": "TWCY_0058",
@@ -1716,7 +1940,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__cardiff_central": null,
+    "time_to_hub__shrewsbury": null,
+    "time_to_hub__swansea": 106.0,
+    "time_to_hub__wrexham_chester": null
   },
   {
     "station_id": "TWCY_0040",
@@ -1747,7 +1975,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__cardiff_central": 7.0,
+    "time_to_hub__shrewsbury": null,
+    "time_to_hub__swansea": null,
+    "time_to_hub__wrexham_chester": null
   },
   {
     "station_id": "TWCY_0059",
@@ -1777,7 +2009,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__cardiff_central": 14.0,
+    "time_to_hub__shrewsbury": null,
+    "time_to_hub__swansea": null,
+    "time_to_hub__wrexham_chester": null
   },
   {
     "station_id": "TWCY_0063",
@@ -1806,7 +2042,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__cardiff_central": 9.0,
+    "time_to_hub__shrewsbury": null,
+    "time_to_hub__swansea": null,
+    "time_to_hub__wrexham_chester": null
   },
   {
     "station_id": "TWCY_0060",
@@ -1834,7 +2074,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__cardiff_central": null,
+    "time_to_hub__shrewsbury": null,
+    "time_to_hub__swansea": null,
+    "time_to_hub__wrexham_chester": 61.0
   },
   {
     "station_id": "TWCY_0065",
@@ -1862,7 +2106,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__cardiff_central": null,
+    "time_to_hub__shrewsbury": null,
+    "time_to_hub__swansea": null,
+    "time_to_hub__wrexham_chester": 88.0
   },
   {
     "station_id": "TWCY_0061",
@@ -1892,7 +2140,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__cardiff_central": 44.0,
+    "time_to_hub__shrewsbury": null,
+    "time_to_hub__swansea": null,
+    "time_to_hub__wrexham_chester": null
   },
   {
     "station_id": "TWCY_0062",
@@ -1923,7 +2175,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__cardiff_central": 16.0,
+    "time_to_hub__shrewsbury": null,
+    "time_to_hub__swansea": null,
+    "time_to_hub__wrexham_chester": null
   },
   {
     "station_id": "TWCY_0064",
@@ -1952,7 +2208,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__cardiff_central": null,
+    "time_to_hub__shrewsbury": 76.0,
+    "time_to_hub__swansea": null,
+    "time_to_hub__wrexham_chester": null
   },
   {
     "station_id": "TWCY_0067",
@@ -1982,7 +2242,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__cardiff_central": null,
+    "time_to_hub__shrewsbury": 83.0,
+    "time_to_hub__swansea": null,
+    "time_to_hub__wrexham_chester": null
   },
   {
     "station_id": "TWCY_0066",
@@ -2010,7 +2274,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__cardiff_central": null,
+    "time_to_hub__shrewsbury": null,
+    "time_to_hub__swansea": null,
+    "time_to_hub__wrexham_chester": 116.0
   },
   {
     "station_id": "TWCY_0068",
@@ -2038,7 +2306,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__cardiff_central": null,
+    "time_to_hub__shrewsbury": 158.0,
+    "time_to_hub__swansea": null,
+    "time_to_hub__wrexham_chester": null
   },
   {
     "station_id": "TWCY_0071",
@@ -2069,7 +2341,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__cardiff_central": 57.0,
+    "time_to_hub__shrewsbury": null,
+    "time_to_hub__swansea": null,
+    "time_to_hub__wrexham_chester": null
   },
   {
     "station_id": "TWCY_0069",
@@ -2098,7 +2374,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__cardiff_central": 13.0,
+    "time_to_hub__shrewsbury": null,
+    "time_to_hub__swansea": null,
+    "time_to_hub__wrexham_chester": null
   },
   {
     "station_id": "TWCY_0070",
@@ -2128,7 +2408,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__cardiff_central": 54.0,
+    "time_to_hub__shrewsbury": null,
+    "time_to_hub__swansea": null,
+    "time_to_hub__wrexham_chester": null
   },
   {
     "station_id": "TWCY_0072",
@@ -2160,7 +2444,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__cardiff_central": 24.0,
+    "time_to_hub__shrewsbury": null,
+    "time_to_hub__swansea": null,
+    "time_to_hub__wrexham_chester": null
   },
   {
     "station_id": "TWCY_0075",
@@ -2189,7 +2477,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__cardiff_central": 55.0,
+    "time_to_hub__shrewsbury": null,
+    "time_to_hub__swansea": null,
+    "time_to_hub__wrexham_chester": null
   },
   {
     "station_id": "TWCY_0077",
@@ -2218,7 +2510,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__cardiff_central": null,
+    "time_to_hub__shrewsbury": null,
+    "time_to_hub__swansea": 66.0,
+    "time_to_hub__wrexham_chester": null
   },
   {
     "station_id": "TWCY_0079",
@@ -2248,7 +2544,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__cardiff_central": null,
+    "time_to_hub__shrewsbury": null,
+    "time_to_hub__swansea": 105.0,
+    "time_to_hub__wrexham_chester": null
   },
   {
     "station_id": "TWCY_0078",
@@ -2279,7 +2579,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__cardiff_central": null,
+    "time_to_hub__shrewsbury": null,
+    "time_to_hub__swansea": 102.0,
+    "time_to_hub__wrexham_chester": null
   },
   {
     "station_id": "TWCY_0080",
@@ -2307,7 +2611,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__cardiff_central": null,
+    "time_to_hub__shrewsbury": null,
+    "time_to_hub__swansea": null,
+    "time_to_hub__wrexham_chester": 16.0
   },
   {
     "station_id": "TWCY_0073",
@@ -2335,7 +2643,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__cardiff_central": null,
+    "time_to_hub__shrewsbury": 135.0,
+    "time_to_hub__swansea": null,
+    "time_to_hub__wrexham_chester": null
   },
   {
     "station_id": "TWCY_0081",
@@ -2363,7 +2675,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__cardiff_central": null,
+    "time_to_hub__shrewsbury": null,
+    "time_to_hub__swansea": null,
+    "time_to_hub__wrexham_chester": 15.0
   },
   {
     "station_id": "TWCY_0074",
@@ -2393,7 +2709,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__cardiff_central": 11.0,
+    "time_to_hub__shrewsbury": null,
+    "time_to_hub__swansea": null,
+    "time_to_hub__wrexham_chester": null
   },
   {
     "station_id": "TWCY_0076",
@@ -2425,7 +2745,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__cardiff_central": null,
+    "time_to_hub__shrewsbury": null,
+    "time_to_hub__swansea": 37.0,
+    "time_to_hub__wrexham_chester": null
   },
   {
     "station_id": "TWCY_0085",
@@ -2455,7 +2779,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__cardiff_central": null,
+    "time_to_hub__shrewsbury": null,
+    "time_to_hub__swansea": null,
+    "time_to_hub__wrexham_chester": 76.0
   },
   {
     "station_id": "TWCY_0084",
@@ -2484,7 +2812,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__cardiff_central": 43.0,
+    "time_to_hub__shrewsbury": null,
+    "time_to_hub__swansea": null,
+    "time_to_hub__wrexham_chester": null
   },
   {
     "station_id": "TWCY_0082",
@@ -2513,7 +2845,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__cardiff_central": 46.0,
+    "time_to_hub__shrewsbury": null,
+    "time_to_hub__swansea": null,
+    "time_to_hub__wrexham_chester": null
   },
   {
     "station_id": "TWCY_0086",
@@ -2541,7 +2877,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__cardiff_central": null,
+    "time_to_hub__shrewsbury": null,
+    "time_to_hub__swansea": null,
+    "time_to_hub__wrexham_chester": 18.0
   },
   {
     "station_id": "TWCY_0083",
@@ -2570,7 +2910,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__cardiff_central": null,
+    "time_to_hub__shrewsbury": null,
+    "time_to_hub__swansea": 134.0,
+    "time_to_hub__wrexham_chester": null
   },
   {
     "station_id": "TWCY_0088",
@@ -2599,7 +2943,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__cardiff_central": 4.0,
+    "time_to_hub__shrewsbury": null,
+    "time_to_hub__swansea": null,
+    "time_to_hub__wrexham_chester": null
   },
   {
     "station_id": "TWCY_0089",
@@ -2627,7 +2975,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__cardiff_central": null,
+    "time_to_hub__shrewsbury": null,
+    "time_to_hub__swansea": null,
+    "time_to_hub__wrexham_chester": 4.0
   },
   {
     "station_id": "TWCY_0087",
@@ -2659,7 +3011,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__cardiff_central": null,
+    "time_to_hub__shrewsbury": null,
+    "time_to_hub__swansea": 12.0,
+    "time_to_hub__wrexham_chester": null
   },
   {
     "station_id": "TWCY_0098",
@@ -2691,7 +3047,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__cardiff_central": null,
+    "time_to_hub__shrewsbury": 55.0,
+    "time_to_hub__swansea": null,
+    "time_to_hub__wrexham_chester": null
   },
   {
     "station_id": "TWCY_0100",
@@ -2721,7 +3081,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__cardiff_central": null,
+    "time_to_hub__shrewsbury": null,
+    "time_to_hub__swansea": null,
+    "time_to_hub__wrexham_chester": 107.0
   },
   {
     "station_id": "TWCY_0094",
@@ -2750,7 +3114,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__cardiff_central": 8.0,
+    "time_to_hub__shrewsbury": null,
+    "time_to_hub__swansea": null,
+    "time_to_hub__wrexham_chester": null
   },
   {
     "station_id": "TWCY_0095",
@@ -2778,7 +3146,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__cardiff_central": 11.0,
+    "time_to_hub__shrewsbury": null,
+    "time_to_hub__swansea": null,
+    "time_to_hub__wrexham_chester": null
   },
   {
     "station_id": "TWCY_0097",
@@ -2807,7 +3179,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__cardiff_central": 34.0,
+    "time_to_hub__shrewsbury": null,
+    "time_to_hub__swansea": null,
+    "time_to_hub__wrexham_chester": null
   },
   {
     "station_id": "TWCY_0101",
@@ -2835,7 +3211,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__cardiff_central": null,
+    "time_to_hub__shrewsbury": null,
+    "time_to_hub__swansea": null,
+    "time_to_hub__wrexham_chester": 13.0
   },
   {
     "station_id": "TWCY_0102",
@@ -2864,7 +3244,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__cardiff_central": null,
+    "time_to_hub__shrewsbury": 40.0,
+    "time_to_hub__swansea": null,
+    "time_to_hub__wrexham_chester": null
   },
   {
     "station_id": "TWCY_0090",
@@ -2892,7 +3276,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__cardiff_central": null,
+    "time_to_hub__shrewsbury": 173.0,
+    "time_to_hub__swansea": null,
+    "time_to_hub__wrexham_chester": null
   },
   {
     "station_id": "TWCY_0096",
@@ -2920,7 +3308,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__cardiff_central": null,
+    "time_to_hub__shrewsbury": null,
+    "time_to_hub__swansea": null,
+    "time_to_hub__wrexham_chester": 10.0
   },
   {
     "station_id": "TWCY_0099",
@@ -2948,7 +3340,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__cardiff_central": null,
+    "time_to_hub__shrewsbury": null,
+    "time_to_hub__swansea": null,
+    "time_to_hub__wrexham_chester": 46.0
   },
   {
     "station_id": "TWCY_0091",
@@ -2976,7 +3372,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__cardiff_central": null,
+    "time_to_hub__shrewsbury": null,
+    "time_to_hub__swansea": 92.0,
+    "time_to_hub__wrexham_chester": null
   },
   {
     "station_id": "TWCY_0093",
@@ -3007,7 +3407,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__cardiff_central": null,
+    "time_to_hub__shrewsbury": null,
+    "time_to_hub__swansea": null,
+    "time_to_hub__wrexham_chester": 34.0
   },
   {
     "station_id": "TWCY_0092",
@@ -3037,7 +3441,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__cardiff_central": null,
+    "time_to_hub__shrewsbury": null,
+    "time_to_hub__swansea": null,
+    "time_to_hub__wrexham_chester": 26.0
   },
   {
     "station_id": "TWCY_0103",
@@ -3065,7 +3473,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__cardiff_central": null,
+    "time_to_hub__shrewsbury": null,
+    "time_to_hub__swansea": 99.0,
+    "time_to_hub__wrexham_chester": null
   },
   {
     "station_id": "TWCY_0105",
@@ -3093,7 +3505,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__cardiff_central": null,
+    "time_to_hub__shrewsbury": null,
+    "time_to_hub__swansea": 86.0,
+    "time_to_hub__wrexham_chester": null
   },
   {
     "station_id": "TWCY_0106",
@@ -3124,7 +3540,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__cardiff_central": null,
+    "time_to_hub__shrewsbury": 50.0,
+    "time_to_hub__swansea": null,
+    "time_to_hub__wrexham_chester": null
   },
   {
     "station_id": "TWCY_0107",
@@ -3153,7 +3573,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__cardiff_central": null,
+    "time_to_hub__shrewsbury": 58.0,
+    "time_to_hub__swansea": null,
+    "time_to_hub__wrexham_chester": null
   },
   {
     "station_id": "TWCY_0104",
@@ -3183,7 +3607,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__cardiff_central": null,
+    "time_to_hub__shrewsbury": null,
+    "time_to_hub__swansea": 32.0,
+    "time_to_hub__wrexham_chester": null
   },
   {
     "station_id": "TWCY_0108",
@@ -3213,7 +3641,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__cardiff_central": null,
+    "time_to_hub__shrewsbury": null,
+    "time_to_hub__swansea": 122.0,
+    "time_to_hub__wrexham_chester": null
   },
   {
     "station_id": "TWCY_0135",
@@ -3245,7 +3677,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__cardiff_central": null,
+    "time_to_hub__shrewsbury": null,
+    "time_to_hub__swansea": 8.0,
+    "time_to_hub__wrexham_chester": null
   },
   {
     "station_id": "TWCY_0112",
@@ -3275,7 +3711,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__cardiff_central": null,
+    "time_to_hub__shrewsbury": 162.0,
+    "time_to_hub__swansea": null,
+    "time_to_hub__wrexham_chester": null
   },
   {
     "station_id": "TWCY_0116",
@@ -3305,7 +3745,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__cardiff_central": null,
+    "time_to_hub__shrewsbury": 168.0,
+    "time_to_hub__swansea": null,
+    "time_to_hub__wrexham_chester": null
   },
   {
     "station_id": "TWCY_0109",
@@ -3339,7 +3783,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__cardiff_central": null,
+    "time_to_hub__shrewsbury": 42.0,
+    "time_to_hub__swansea": null,
+    "time_to_hub__wrexham_chester": null
   },
   {
     "station_id": "TWCY_0130",
@@ -3370,7 +3818,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__cardiff_central": null,
+    "time_to_hub__shrewsbury": 64.0,
+    "time_to_hub__swansea": null,
+    "time_to_hub__wrexham_chester": null
   },
   {
     "station_id": "TWCY_0111",
@@ -3400,7 +3852,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__cardiff_central": null,
+    "time_to_hub__shrewsbury": 151.0,
+    "time_to_hub__swansea": null,
+    "time_to_hub__wrexham_chester": null
   },
   {
     "station_id": "TWCY_0117",
@@ -3430,7 +3886,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__cardiff_central": null,
+    "time_to_hub__shrewsbury": 190.0,
+    "time_to_hub__swansea": null,
+    "time_to_hub__wrexham_chester": null
   },
   {
     "station_id": "TWCY_0121",
@@ -3460,7 +3920,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__cardiff_central": null,
+    "time_to_hub__shrewsbury": null,
+    "time_to_hub__swansea": null,
+    "time_to_hub__wrexham_chester": 66.0
   },
   {
     "station_id": "TWCY_0124",
@@ -3492,7 +3956,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__cardiff_central": null,
+    "time_to_hub__shrewsbury": null,
+    "time_to_hub__swansea": 20.0,
+    "time_to_hub__wrexham_chester": null
   },
   {
     "station_id": "TWCY_0125",
@@ -3522,7 +3990,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__cardiff_central": null,
+    "time_to_hub__shrewsbury": null,
+    "time_to_hub__swansea": null,
+    "time_to_hub__wrexham_chester": 68.0
   },
   {
     "station_id": "TWCY_0127",
@@ -3553,7 +4025,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__cardiff_central": null,
+    "time_to_hub__shrewsbury": null,
+    "time_to_hub__swansea": 82.0,
+    "time_to_hub__wrexham_chester": null
   },
   {
     "station_id": "TWCY_0129",
@@ -3584,7 +4060,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__cardiff_central": null,
+    "time_to_hub__shrewsbury": null,
+    "time_to_hub__swansea": 38.0,
+    "time_to_hub__wrexham_chester": null
   },
   {
     "station_id": "TWCY_0123",
@@ -3615,7 +4095,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__cardiff_central": null,
+    "time_to_hub__shrewsbury": null,
+    "time_to_hub__swansea": 58.0,
+    "time_to_hub__wrexham_chester": null
   },
   {
     "station_id": "TWCY_0122",
@@ -3646,7 +4130,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__cardiff_central": null,
+    "time_to_hub__shrewsbury": null,
+    "time_to_hub__swansea": null,
+    "time_to_hub__wrexham_chester": 52.0
   },
   {
     "station_id": "TWCY_0118",
@@ -3677,7 +4165,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__cardiff_central": null,
+    "time_to_hub__shrewsbury": null,
+    "time_to_hub__swansea": 69.0,
+    "time_to_hub__wrexham_chester": null
   },
   {
     "station_id": "TWCY_0128",
@@ -3708,7 +4200,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__cardiff_central": null,
+    "time_to_hub__shrewsbury": null,
+    "time_to_hub__swansea": 130.0,
+    "time_to_hub__wrexham_chester": null
   },
   {
     "station_id": "TWCY_0115",
@@ -3741,7 +4237,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__cardiff_central": 12.0,
+    "time_to_hub__shrewsbury": null,
+    "time_to_hub__swansea": null,
+    "time_to_hub__wrexham_chester": null
   },
   {
     "station_id": "TWCY_0120",
@@ -3772,7 +4272,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__cardiff_central": null,
+    "time_to_hub__shrewsbury": 88.0,
+    "time_to_hub__swansea": null,
+    "time_to_hub__wrexham_chester": null
   },
   {
     "station_id": "TWCY_0131",
@@ -3805,7 +4309,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__cardiff_central": 18.0,
+    "time_to_hub__shrewsbury": null,
+    "time_to_hub__swansea": null,
+    "time_to_hub__wrexham_chester": null
   },
   {
     "station_id": "TWCY_0133",
@@ -3836,7 +4344,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__cardiff_central": 12.0,
+    "time_to_hub__shrewsbury": null,
+    "time_to_hub__swansea": null,
+    "time_to_hub__wrexham_chester": null
   },
   {
     "station_id": "TWCY_0113",
@@ -3867,7 +4379,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__cardiff_central": null,
+    "time_to_hub__shrewsbury": 70.0,
+    "time_to_hub__swansea": null,
+    "time_to_hub__wrexham_chester": null
   },
   {
     "station_id": "TWCY_0119",
@@ -3898,7 +4414,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__cardiff_central": null,
+    "time_to_hub__shrewsbury": null,
+    "time_to_hub__swansea": 92.0,
+    "time_to_hub__wrexham_chester": null
   },
   {
     "station_id": "TWCY_0139",
@@ -3926,7 +4446,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__cardiff_central": null,
+    "time_to_hub__shrewsbury": 128.0,
+    "time_to_hub__swansea": null,
+    "time_to_hub__wrexham_chester": null
   },
   {
     "station_id": "TWCY_0140",
@@ -3954,7 +4478,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__cardiff_central": 50.0,
+    "time_to_hub__shrewsbury": null,
+    "time_to_hub__swansea": null,
+    "time_to_hub__wrexham_chester": null
   },
   {
     "station_id": "TWCY_0114",
@@ -3985,7 +4513,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__cardiff_central": 27.0,
+    "time_to_hub__shrewsbury": null,
+    "time_to_hub__swansea": null,
+    "time_to_hub__wrexham_chester": null
   },
   {
     "station_id": "TWCY_0137",
@@ -4016,7 +4548,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__cardiff_central": null,
+    "time_to_hub__shrewsbury": null,
+    "time_to_hub__swansea": 86.0,
+    "time_to_hub__wrexham_chester": null
   },
   {
     "station_id": "TWCY_0138",
@@ -4047,7 +4583,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__cardiff_central": null,
+    "time_to_hub__shrewsbury": null,
+    "time_to_hub__swansea": 120.0,
+    "time_to_hub__wrexham_chester": null
   },
   {
     "station_id": "TWCY_0126",
@@ -4077,7 +4617,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__cardiff_central": null,
+    "time_to_hub__shrewsbury": null,
+    "time_to_hub__swansea": null,
+    "time_to_hub__wrexham_chester": 84.0
   },
   {
     "station_id": "TWCY_0132",
@@ -4107,7 +4651,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__cardiff_central": 44.0,
+    "time_to_hub__shrewsbury": null,
+    "time_to_hub__swansea": null,
+    "time_to_hub__wrexham_chester": null
   },
   {
     "station_id": "TWCY_0141",
@@ -4139,7 +4687,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__cardiff_central": null,
+    "time_to_hub__shrewsbury": 32.0,
+    "time_to_hub__swansea": null,
+    "time_to_hub__wrexham_chester": null
   },
   {
     "station_id": "TWCY_0110",
@@ -4170,7 +4722,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__cardiff_central": 14.0,
+    "time_to_hub__shrewsbury": null,
+    "time_to_hub__swansea": null,
+    "time_to_hub__wrexham_chester": null
   },
   {
     "station_id": "TWCY_0136",
@@ -4201,7 +4757,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__cardiff_central": 46.0,
+    "time_to_hub__shrewsbury": null,
+    "time_to_hub__swansea": null,
+    "time_to_hub__wrexham_chester": null
   },
   {
     "station_id": "TWCY_0134",
@@ -4231,7 +4791,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__cardiff_central": null,
+    "time_to_hub__shrewsbury": null,
+    "time_to_hub__swansea": null,
+    "time_to_hub__wrexham_chester": 96.0
   },
   {
     "station_id": "TWCY_0142",
@@ -4259,7 +4823,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__cardiff_central": 47.0,
+    "time_to_hub__shrewsbury": null,
+    "time_to_hub__swansea": null,
+    "time_to_hub__wrexham_chester": null
   },
   {
     "station_id": "TWCY_0143",
@@ -4289,7 +4857,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__cardiff_central": null,
+    "time_to_hub__shrewsbury": 71.0,
+    "time_to_hub__swansea": null,
+    "time_to_hub__wrexham_chester": null
   },
   {
     "station_id": "TWCY_0147",
@@ -4319,7 +4891,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__cardiff_central": 62.0,
+    "time_to_hub__shrewsbury": null,
+    "time_to_hub__swansea": null,
+    "time_to_hub__wrexham_chester": null
   },
   {
     "station_id": "TWCY_0148",
@@ -4351,7 +4927,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__cardiff_central": 51.0,
+    "time_to_hub__shrewsbury": null,
+    "time_to_hub__swansea": null,
+    "time_to_hub__wrexham_chester": null
   },
   {
     "station_id": "TWCY_0145",
@@ -4383,7 +4963,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__cardiff_central": 50.0,
+    "time_to_hub__shrewsbury": null,
+    "time_to_hub__swansea": null,
+    "time_to_hub__wrexham_chester": null
   },
   {
     "station_id": "TWCY_0151",
@@ -4411,7 +4995,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__cardiff_central": null,
+    "time_to_hub__shrewsbury": 138.0,
+    "time_to_hub__swansea": null,
+    "time_to_hub__wrexham_chester": null
   },
   {
     "station_id": "TWCY_0150",
@@ -4439,7 +5027,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__cardiff_central": null,
+    "time_to_hub__shrewsbury": 196.0,
+    "time_to_hub__swansea": null,
+    "time_to_hub__wrexham_chester": null
   },
   {
     "station_id": "TWCY_0149",
@@ -4469,7 +5061,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__cardiff_central": null,
+    "time_to_hub__shrewsbury": null,
+    "time_to_hub__swansea": 107.0,
+    "time_to_hub__wrexham_chester": null
   },
   {
     "station_id": "TWCY_0146",
@@ -4497,7 +5093,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__cardiff_central": null,
+    "time_to_hub__shrewsbury": null,
+    "time_to_hub__swansea": 113.0,
+    "time_to_hub__wrexham_chester": null
   },
   {
     "station_id": "TWCY_0144",
@@ -4528,7 +5128,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__cardiff_central": 52.0,
+    "time_to_hub__shrewsbury": null,
+    "time_to_hub__swansea": null,
+    "time_to_hub__wrexham_chester": null
   },
   {
     "station_id": "TWCY_0152",
@@ -4559,7 +5163,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__cardiff_central": 52.0,
+    "time_to_hub__shrewsbury": null,
+    "time_to_hub__swansea": null,
+    "time_to_hub__wrexham_chester": null
   },
   {
     "station_id": "TWCY_0153",
@@ -4591,7 +5199,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__cardiff_central": null,
+    "time_to_hub__shrewsbury": null,
+    "time_to_hub__swansea": null,
+    "time_to_hub__wrexham_chester": 31.0
   },
   {
     "station_id": "TWCY_0154",
@@ -4619,7 +5231,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__cardiff_central": null,
+    "time_to_hub__shrewsbury": null,
+    "time_to_hub__swansea": 76.0,
+    "time_to_hub__wrexham_chester": null
   },
   {
     "station_id": "TWCY_0157",
@@ -4649,7 +5265,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__cardiff_central": 38.0,
+    "time_to_hub__shrewsbury": null,
+    "time_to_hub__swansea": null,
+    "time_to_hub__wrexham_chester": null
   },
   {
     "station_id": "TWCY_0156",
@@ -4677,7 +5297,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__cardiff_central": null,
+    "time_to_hub__shrewsbury": null,
+    "time_to_hub__swansea": null,
+    "time_to_hub__wrexham_chester": 41.0
   },
   {
     "station_id": "TWCY_0161",
@@ -4707,7 +5331,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__cardiff_central": null,
+    "time_to_hub__shrewsbury": null,
+    "time_to_hub__swansea": null,
+    "time_to_hub__wrexham_chester": 94.0
   },
   {
     "station_id": "TWCY_0160",
@@ -4738,7 +5366,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__cardiff_central": 5.0,
+    "time_to_hub__shrewsbury": null,
+    "time_to_hub__swansea": null,
+    "time_to_hub__wrexham_chester": null
   },
   {
     "station_id": "TWCY_0155",
@@ -4768,7 +5400,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__cardiff_central": null,
+    "time_to_hub__shrewsbury": null,
+    "time_to_hub__swansea": 12.0,
+    "time_to_hub__wrexham_chester": null
   },
   {
     "station_id": "TWCY_0158",
@@ -4802,7 +5438,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__cardiff_central": 13.0,
+    "time_to_hub__shrewsbury": null,
+    "time_to_hub__swansea": null,
+    "time_to_hub__wrexham_chester": null
   },
   {
     "station_id": "TWCY_0159",
@@ -4831,7 +5471,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__cardiff_central": null,
+    "time_to_hub__shrewsbury": 37.0,
+    "time_to_hub__swansea": null,
+    "time_to_hub__wrexham_chester": null
   },
   {
     "station_id": "TWCY_0163",
@@ -4864,7 +5508,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__cardiff_central": null,
+    "time_to_hub__shrewsbury": null,
+    "time_to_hub__swansea": 26.0,
+    "time_to_hub__wrexham_chester": null
   },
   {
     "station_id": "TWCY_0169",
@@ -4897,7 +5545,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__cardiff_central": 20.0,
+    "time_to_hub__shrewsbury": null,
+    "time_to_hub__swansea": null,
+    "time_to_hub__wrexham_chester": null
   },
   {
     "station_id": "TWCY_0168",
@@ -4928,7 +5580,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__cardiff_central": 11.0,
+    "time_to_hub__shrewsbury": null,
+    "time_to_hub__swansea": null,
+    "time_to_hub__wrexham_chester": null
   },
   {
     "station_id": "TWCY_0173",
@@ -4959,7 +5615,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__cardiff_central": 48.0,
+    "time_to_hub__shrewsbury": null,
+    "time_to_hub__swansea": null,
+    "time_to_hub__wrexham_chester": null
   },
   {
     "station_id": "TWCY_0175",
@@ -4989,7 +5649,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__cardiff_central": null,
+    "time_to_hub__shrewsbury": 165.0,
+    "time_to_hub__swansea": null,
+    "time_to_hub__wrexham_chester": null
   },
   {
     "station_id": "TWCY_0170",
@@ -5020,7 +5684,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__cardiff_central": 38.0,
+    "time_to_hub__shrewsbury": null,
+    "time_to_hub__swansea": null,
+    "time_to_hub__wrexham_chester": null
   },
   {
     "station_id": "TWCY_0171",
@@ -5050,7 +5718,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__cardiff_central": null,
+    "time_to_hub__shrewsbury": 103.0,
+    "time_to_hub__swansea": null,
+    "time_to_hub__wrexham_chester": null
   },
   {
     "station_id": "TWCY_0181",
@@ -5080,7 +5752,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__cardiff_central": 54.0,
+    "time_to_hub__shrewsbury": null,
+    "time_to_hub__swansea": null,
+    "time_to_hub__wrexham_chester": null
   },
   {
     "station_id": "TWCY_0164",
@@ -5110,7 +5786,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__cardiff_central": null,
+    "time_to_hub__shrewsbury": null,
+    "time_to_hub__swansea": 126.0,
+    "time_to_hub__wrexham_chester": null
   },
   {
     "station_id": "TWCY_0165",
@@ -5140,7 +5820,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__cardiff_central": null,
+    "time_to_hub__shrewsbury": null,
+    "time_to_hub__swansea": 133.0,
+    "time_to_hub__wrexham_chester": null
   },
   {
     "station_id": "TWCY_0172",
@@ -5170,7 +5854,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__cardiff_central": null,
+    "time_to_hub__shrewsbury": null,
+    "time_to_hub__swansea": null,
+    "time_to_hub__wrexham_chester": 62.0
   },
   {
     "station_id": "TWCY_0167",
@@ -5200,7 +5888,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__cardiff_central": null,
+    "time_to_hub__shrewsbury": null,
+    "time_to_hub__swansea": 107.0,
+    "time_to_hub__wrexham_chester": null
   },
   {
     "station_id": "TWCY_0177",
@@ -5230,7 +5922,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__cardiff_central": null,
+    "time_to_hub__shrewsbury": 216.0,
+    "time_to_hub__swansea": null,
+    "time_to_hub__wrexham_chester": null
   },
   {
     "station_id": "TWCY_0178",
@@ -5261,7 +5957,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__cardiff_central": null,
+    "time_to_hub__shrewsbury": null,
+    "time_to_hub__swansea": null,
+    "time_to_hub__wrexham_chester": 17.0
   },
   {
     "station_id": "TWCY_0166",
@@ -5293,7 +5993,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__cardiff_central": null,
+    "time_to_hub__shrewsbury": 81.0,
+    "time_to_hub__swansea": null,
+    "time_to_hub__wrexham_chester": null
   },
   {
     "station_id": "TWCY_0186",
@@ -5323,7 +6027,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__cardiff_central": 41.0,
+    "time_to_hub__shrewsbury": null,
+    "time_to_hub__swansea": null,
+    "time_to_hub__wrexham_chester": null
   },
   {
     "station_id": "TWCY_0184",
@@ -5356,7 +6064,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__cardiff_central": 35.0,
+    "time_to_hub__shrewsbury": null,
+    "time_to_hub__swansea": null,
+    "time_to_hub__wrexham_chester": null
   },
   {
     "station_id": "TWCY_0183",
@@ -5391,7 +6103,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__cardiff_central": 32.0,
+    "time_to_hub__shrewsbury": null,
+    "time_to_hub__swansea": null,
+    "time_to_hub__wrexham_chester": null
   },
   {
     "station_id": "TWCY_0174",
@@ -5421,7 +6137,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__cardiff_central": null,
+    "time_to_hub__shrewsbury": 192.0,
+    "time_to_hub__swansea": null,
+    "time_to_hub__wrexham_chester": null
   },
   {
     "station_id": "TWCY_0188",
@@ -5453,7 +6173,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__cardiff_central": null,
+    "time_to_hub__shrewsbury": 14.0,
+    "time_to_hub__swansea": null,
+    "time_to_hub__wrexham_chester": null
   },
   {
     "station_id": "TWCY_0189",
@@ -5481,7 +6205,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__cardiff_central": null,
+    "time_to_hub__shrewsbury": null,
+    "time_to_hub__swansea": null,
+    "time_to_hub__wrexham_chester": 29.0
   },
   {
     "station_id": "TWCY_0185",
@@ -5511,7 +6239,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__cardiff_central": null,
+    "time_to_hub__shrewsbury": null,
+    "time_to_hub__swansea": 20.0,
+    "time_to_hub__wrexham_chester": null
   },
   {
     "station_id": "TWCY_0176",
@@ -5543,7 +6275,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__cardiff_central": 58.0,
+    "time_to_hub__shrewsbury": null,
+    "time_to_hub__swansea": null,
+    "time_to_hub__wrexham_chester": null
   },
   {
     "station_id": "TWCY_0180",
@@ -5574,7 +6310,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__cardiff_central": null,
+    "time_to_hub__shrewsbury": null,
+    "time_to_hub__swansea": 42.0,
+    "time_to_hub__wrexham_chester": null
   },
   {
     "station_id": "TWCY_0162",
@@ -5603,7 +6343,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__cardiff_central": null,
+    "time_to_hub__shrewsbury": null,
+    "time_to_hub__swansea": 50.0,
+    "time_to_hub__wrexham_chester": null
   },
   {
     "station_id": "TWCY_0187",
@@ -5633,7 +6377,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__cardiff_central": null,
+    "time_to_hub__shrewsbury": 200.0,
+    "time_to_hub__swansea": null,
+    "time_to_hub__wrexham_chester": null
   },
   {
     "station_id": "TWCY_0190",
@@ -5661,7 +6409,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__cardiff_central": null,
+    "time_to_hub__shrewsbury": 224.0,
+    "time_to_hub__swansea": null,
+    "time_to_hub__wrexham_chester": null
   },
   {
     "station_id": "TWCY_0182",
@@ -5694,7 +6446,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__cardiff_central": 13.0,
+    "time_to_hub__shrewsbury": null,
+    "time_to_hub__swansea": null,
+    "time_to_hub__wrexham_chester": null
   },
   {
     "station_id": "TWCY_0191",
@@ -5722,7 +6478,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__cardiff_central": 18.0,
+    "time_to_hub__shrewsbury": null,
+    "time_to_hub__swansea": null,
+    "time_to_hub__wrexham_chester": null
   },
   {
     "station_id": "TWCY_0192",
@@ -5752,7 +6512,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__cardiff_central": null,
+    "time_to_hub__shrewsbury": null,
+    "time_to_hub__swansea": 33.0,
+    "time_to_hub__wrexham_chester": null
   },
   {
     "station_id": "TWCY_0179",
@@ -5782,7 +6546,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__cardiff_central": null,
+    "time_to_hub__shrewsbury": null,
+    "time_to_hub__swansea": null,
+    "time_to_hub__wrexham_chester": 112.0
   },
   {
     "station_id": "TWCY_0193",
@@ -5812,7 +6580,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__cardiff_central": 46.0,
+    "time_to_hub__shrewsbury": null,
+    "time_to_hub__swansea": null,
+    "time_to_hub__wrexham_chester": null
   },
   {
     "station_id": "TWCY_0200",
@@ -5842,7 +6614,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__cardiff_central": 26.0,
+    "time_to_hub__shrewsbury": null,
+    "time_to_hub__swansea": null,
+    "time_to_hub__wrexham_chester": null
   },
   {
     "station_id": "TWCY_0194",
@@ -5874,7 +6650,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__cardiff_central": 17.0,
+    "time_to_hub__shrewsbury": null,
+    "time_to_hub__swansea": null,
+    "time_to_hub__wrexham_chester": null
   },
   {
     "station_id": "TWCY_0195",
@@ -5902,7 +6682,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__cardiff_central": 17.0,
+    "time_to_hub__shrewsbury": null,
+    "time_to_hub__swansea": null,
+    "time_to_hub__wrexham_chester": null
   },
   {
     "station_id": "TWCY_0198",
@@ -5930,7 +6714,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__cardiff_central": null,
+    "time_to_hub__shrewsbury": null,
+    "time_to_hub__swansea": null,
+    "time_to_hub__wrexham_chester": 35.0
   },
   {
     "station_id": "TWCY_0197",
@@ -5958,7 +6746,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__cardiff_central": null,
+    "time_to_hub__shrewsbury": null,
+    "time_to_hub__swansea": null,
+    "time_to_hub__wrexham_chester": 100.0
   },
   {
     "station_id": "TWCY_0199",
@@ -5986,7 +6778,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__cardiff_central": 57.0,
+    "time_to_hub__shrewsbury": null,
+    "time_to_hub__swansea": null,
+    "time_to_hub__wrexham_chester": null
   },
   {
     "station_id": "TWCY_0196",
@@ -6017,7 +6813,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__cardiff_central": 35.0,
+    "time_to_hub__shrewsbury": null,
+    "time_to_hub__swansea": null,
+    "time_to_hub__wrexham_chester": null
   },
   {
     "station_id": "TWCY_0202",
@@ -6047,7 +6847,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__cardiff_central": null,
+    "time_to_hub__shrewsbury": null,
+    "time_to_hub__swansea": null,
+    "time_to_hub__wrexham_chester": 120.0
   },
   {
     "station_id": "TWCY_0201",
@@ -6075,7 +6879,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__cardiff_central": 22.0,
+    "time_to_hub__shrewsbury": null,
+    "time_to_hub__swansea": null,
+    "time_to_hub__wrexham_chester": null
   },
   {
     "station_id": "TWCY_0203",
@@ -6103,7 +6911,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__cardiff_central": null,
+    "time_to_hub__shrewsbury": null,
+    "time_to_hub__swansea": null,
+    "time_to_hub__wrexham_chester": 6.0
   },
   {
     "station_id": "TWCY_0204",
@@ -6131,7 +6943,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__cardiff_central": null,
+    "time_to_hub__shrewsbury": null,
+    "time_to_hub__swansea": null,
+    "time_to_hub__wrexham_chester": 21.0
   },
   {
     "station_id": "TWCY_0206",
@@ -6159,7 +6975,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__cardiff_central": null,
+    "time_to_hub__shrewsbury": null,
+    "time_to_hub__swansea": 89.0,
+    "time_to_hub__wrexham_chester": null
   },
   {
     "station_id": "TWCY_0209",
@@ -6192,7 +7012,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__cardiff_central": null,
+    "time_to_hub__shrewsbury": 9.0,
+    "time_to_hub__swansea": null,
+    "time_to_hub__wrexham_chester": null
   },
   {
     "station_id": "TWCY_0208",
@@ -6220,7 +7044,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__cardiff_central": null,
+    "time_to_hub__shrewsbury": null,
+    "time_to_hub__swansea": null,
+    "time_to_hub__wrexham_chester": 10.0
   },
   {
     "station_id": "TWCY_0210",
@@ -6250,7 +7078,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__cardiff_central": null,
+    "time_to_hub__shrewsbury": null,
+    "time_to_hub__swansea": 12.0,
+    "time_to_hub__wrexham_chester": null
   },
   {
     "station_id": "TWCY_0205",
@@ -6279,7 +7111,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__cardiff_central": 34.0,
+    "time_to_hub__shrewsbury": null,
+    "time_to_hub__swansea": null,
+    "time_to_hub__wrexham_chester": null
   },
   {
     "station_id": "TWCY_0207",
@@ -6309,7 +7145,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__cardiff_central": 26.0,
+    "time_to_hub__shrewsbury": null,
+    "time_to_hub__swansea": null,
+    "time_to_hub__wrexham_chester": null
   },
   {
     "station_id": "TWCY_0211",
@@ -6340,7 +7180,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__cardiff_central": null,
+    "time_to_hub__shrewsbury": null,
+    "time_to_hub__swansea": 114.0,
+    "time_to_hub__wrexham_chester": null
   },
   {
     "station_id": "TWCY_0212",
@@ -6372,7 +7216,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__cardiff_central": null,
+    "time_to_hub__shrewsbury": null,
+    "time_to_hub__swansea": 9.0,
+    "time_to_hub__wrexham_chester": null
   },
   {
     "station_id": "TWCY_0213",
@@ -6403,7 +7251,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__cardiff_central": 22.0,
+    "time_to_hub__shrewsbury": null,
+    "time_to_hub__swansea": null,
+    "time_to_hub__wrexham_chester": null
   },
   {
     "station_id": "TWCY_0215",
@@ -6431,7 +7283,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__cardiff_central": null,
+    "time_to_hub__shrewsbury": 187.0,
+    "time_to_hub__swansea": null,
+    "time_to_hub__wrexham_chester": null
   },
   {
     "station_id": "TWCY_0220",
@@ -6460,7 +7316,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__cardiff_central": 37.0,
+    "time_to_hub__shrewsbury": null,
+    "time_to_hub__swansea": null,
+    "time_to_hub__wrexham_chester": null
   },
   {
     "station_id": "TWCY_0217",
@@ -6488,7 +7348,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__cardiff_central": null,
+    "time_to_hub__shrewsbury": null,
+    "time_to_hub__swansea": 97.0,
+    "time_to_hub__wrexham_chester": null
   },
   {
     "station_id": "TWCY_0230",
@@ -6516,7 +7380,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__cardiff_central": 14.0,
+    "time_to_hub__shrewsbury": null,
+    "time_to_hub__swansea": null,
+    "time_to_hub__wrexham_chester": null
   },
   {
     "station_id": "TWCY_0218",
@@ -6544,7 +7412,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__cardiff_central": 49.0,
+    "time_to_hub__shrewsbury": null,
+    "time_to_hub__swansea": null,
+    "time_to_hub__wrexham_chester": null
   },
   {
     "station_id": "TWCY_0216",
@@ -6572,7 +7444,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__cardiff_central": null,
+    "time_to_hub__shrewsbury": 156.0,
+    "time_to_hub__swansea": null,
+    "time_to_hub__wrexham_chester": null
   },
   {
     "station_id": "TWCY_0214",
@@ -6600,7 +7476,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__cardiff_central": null,
+    "time_to_hub__shrewsbury": null,
+    "time_to_hub__swansea": null,
+    "time_to_hub__wrexham_chester": 82.0
   },
   {
     "station_id": "TWCY_0221",
@@ -6628,7 +7508,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__cardiff_central": null,
+    "time_to_hub__shrewsbury": 121.0,
+    "time_to_hub__swansea": null,
+    "time_to_hub__wrexham_chester": null
   },
   {
     "station_id": "TWCY_0222",
@@ -6656,7 +7540,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__cardiff_central": 47.0,
+    "time_to_hub__shrewsbury": null,
+    "time_to_hub__swansea": null,
+    "time_to_hub__wrexham_chester": null
   },
   {
     "station_id": "TWCY_0219",
@@ -6686,7 +7574,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__cardiff_central": 57.0,
+    "time_to_hub__shrewsbury": null,
+    "time_to_hub__swansea": null,
+    "time_to_hub__wrexham_chester": null
   },
   {
     "station_id": "TWCY_0226",
@@ -6716,7 +7608,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__cardiff_central": 65.0,
+    "time_to_hub__shrewsbury": null,
+    "time_to_hub__swansea": null,
+    "time_to_hub__wrexham_chester": null
   },
   {
     "station_id": "TWCY_0228",
@@ -6746,7 +7642,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__cardiff_central": 56.0,
+    "time_to_hub__shrewsbury": null,
+    "time_to_hub__swansea": null,
+    "time_to_hub__wrexham_chester": null
   },
   {
     "station_id": "TWCY_0224",
@@ -6779,7 +7679,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__cardiff_central": 26.0,
+    "time_to_hub__shrewsbury": null,
+    "time_to_hub__swansea": null,
+    "time_to_hub__wrexham_chester": null
   },
   {
     "station_id": "TWCY_0223",
@@ -6812,7 +7716,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__cardiff_central": 32.0,
+    "time_to_hub__shrewsbury": null,
+    "time_to_hub__swansea": null,
+    "time_to_hub__wrexham_chester": null
   },
   {
     "station_id": "TWCY_0225",
@@ -6842,7 +7750,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__cardiff_central": 38.0,
+    "time_to_hub__shrewsbury": null,
+    "time_to_hub__swansea": null,
+    "time_to_hub__wrexham_chester": null
   },
   {
     "station_id": "TWCY_0227",
@@ -6872,7 +7784,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__cardiff_central": 60.0,
+    "time_to_hub__shrewsbury": null,
+    "time_to_hub__swansea": null,
+    "time_to_hub__wrexham_chester": null
   },
   {
     "station_id": "TWCY_0229",
@@ -6900,7 +7816,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__cardiff_central": null,
+    "time_to_hub__shrewsbury": null,
+    "time_to_hub__swansea": null,
+    "time_to_hub__wrexham_chester": 96.0
   },
   {
     "station_id": "TWCY_0231",
@@ -6928,7 +7848,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__cardiff_central": null,
+    "time_to_hub__shrewsbury": 184.0,
+    "time_to_hub__swansea": null,
+    "time_to_hub__wrexham_chester": null
   },
   {
     "station_id": "TWCY_0232",
@@ -6956,7 +7880,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__cardiff_central": null,
+    "time_to_hub__shrewsbury": 112.0,
+    "time_to_hub__swansea": null,
+    "time_to_hub__wrexham_chester": null
   },
   {
     "station_id": "TWCY_0233",
@@ -6986,7 +7914,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__cardiff_central": null,
+    "time_to_hub__shrewsbury": null,
+    "time_to_hub__swansea": null,
+    "time_to_hub__wrexham_chester": 52.0
   },
   {
     "station_id": "TWCY_0234",
@@ -7014,7 +7946,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__cardiff_central": null,
+    "time_to_hub__shrewsbury": null,
+    "time_to_hub__swansea": null,
+    "time_to_hub__wrexham_chester": 102.0
   },
   {
     "station_id": "TWCY_0237",
@@ -7046,7 +7982,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__cardiff_central": null,
+    "time_to_hub__shrewsbury": 11.0,
+    "time_to_hub__swansea": null,
+    "time_to_hub__wrexham_chester": null
   },
   {
     "station_id": "TWCY_0238",
@@ -7074,7 +8014,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__cardiff_central": 18.0,
+    "time_to_hub__shrewsbury": null,
+    "time_to_hub__swansea": null,
+    "time_to_hub__wrexham_chester": null
   },
   {
     "station_id": "TWCY_0236",
@@ -7103,7 +8047,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__cardiff_central": null,
+    "time_to_hub__shrewsbury": 22.0,
+    "time_to_hub__swansea": null,
+    "time_to_hub__wrexham_chester": null
   },
   {
     "station_id": "TWCY_0241",
@@ -7132,7 +8080,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__cardiff_central": 31.0,
+    "time_to_hub__shrewsbury": null,
+    "time_to_hub__swansea": null,
+    "time_to_hub__wrexham_chester": null
   },
   {
     "station_id": "TWCY_0235",
@@ -7164,7 +8116,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__cardiff_central": 8.0,
+    "time_to_hub__shrewsbury": null,
+    "time_to_hub__swansea": null,
+    "time_to_hub__wrexham_chester": null
   },
   {
     "station_id": "TWCY_0242",
@@ -7196,7 +8152,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__cardiff_central": null,
+    "time_to_hub__shrewsbury": null,
+    "time_to_hub__swansea": null,
+    "time_to_hub__wrexham_chester": 36.0
   },
   {
     "station_id": "TWCY_0244",
@@ -7225,7 +8185,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__cardiff_central": null,
+    "time_to_hub__shrewsbury": null,
+    "time_to_hub__swansea": null,
+    "time_to_hub__wrexham_chester": 16.0
   },
   {
     "station_id": "TWCY_0239",
@@ -7257,7 +8221,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__cardiff_central": null,
+    "time_to_hub__shrewsbury": null,
+    "time_to_hub__swansea": null,
+    "time_to_hub__wrexham_chester": 42.0
   },
   {
     "station_id": "TWCY_0240",
@@ -7285,7 +8253,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__cardiff_central": null,
+    "time_to_hub__shrewsbury": null,
+    "time_to_hub__swansea": 68.0,
+    "time_to_hub__wrexham_chester": null
   },
   {
     "station_id": "TWCY_0243",
@@ -7313,7 +8285,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__cardiff_central": null,
+    "time_to_hub__shrewsbury": null,
+    "time_to_hub__swansea": null,
+    "time_to_hub__wrexham_chester": 2.0
   },
   {
     "station_id": "TWCY_0245",
@@ -7343,7 +8319,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__cardiff_central": 62.0,
+    "time_to_hub__shrewsbury": null,
+    "time_to_hub__swansea": null,
+    "time_to_hub__wrexham_chester": null
   },
   {
     "station_id": "TWCY_0246",
@@ -7371,7 +8351,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__cardiff_central": null,
+    "time_to_hub__shrewsbury": 10.0,
+    "time_to_hub__swansea": null,
+    "time_to_hub__wrexham_chester": null
   },
   {
     "station_id": "TWCY_0247",
@@ -7402,7 +8386,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__cardiff_central": 32.0,
+    "time_to_hub__shrewsbury": null,
+    "time_to_hub__swansea": null,
+    "time_to_hub__wrexham_chester": null
   },
   {
     "station_id": "TWCY_0248",
@@ -7432,6 +8420,10 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__cardiff_central": 53.0,
+    "time_to_hub__shrewsbury": null,
+    "time_to_hub__swansea": null,
+    "time_to_hub__wrexham_chester": null
   }
 ]

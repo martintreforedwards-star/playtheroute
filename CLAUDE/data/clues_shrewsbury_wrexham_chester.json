@@ -226,37 +226,71 @@
     },
     {
       "type": "range",
-      "field": "canonical_time_to_hub",
-      "max": 42.0,
-      "label": "Time to hub: shortest third",
+      "field": "time_to_hub__shrewsbury",
+      "max": 64.0,
+      "label": "Time to Shrewsbury: shortest third",
       "category": "service",
-      "match_count": 40,
-      "display": "One of the quicker journeys to its hub station",
-      "hint": "Out of all the candidate stations for this puzzle, this one has one of the shortest journey times to its hub station.",
+      "match_count": 18,
+      "display": "A short journey to Shrewsbury",
+      "hint": "In this puzzle, 'short' means under 64 minutes to Shrewsbury.",
       "id": "col_12"
     },
     {
       "type": "range",
-      "field": "canonical_time_to_hub",
-      "min": 42.0,
-      "max": 93.0,
-      "label": "Time to hub: middle third",
+      "field": "time_to_hub__shrewsbury",
+      "min": 64.0,
+      "max": 143.0,
+      "label": "Time to Shrewsbury: middle third",
       "category": "service",
-      "match_count": 41,
-      "display": "A mid-range journey to its hub station",
-      "hint": "Out of all the candidate stations for this puzzle, this one's journey time to its hub station is neither the shortest nor the longest.",
+      "match_count": 18,
+      "display": "A mid-range journey to Shrewsbury",
+      "hint": "In this puzzle, 'mid-range' means 64-143 minutes to Shrewsbury.",
       "id": "col_13"
     },
     {
       "type": "range",
-      "field": "canonical_time_to_hub",
-      "min": 93.0,
-      "label": "Time to hub: longest third",
+      "field": "time_to_hub__shrewsbury",
+      "min": 143.0,
+      "label": "Time to Shrewsbury: longest third",
       "category": "service",
-      "match_count": 40,
-      "display": "One of the longer journeys to its hub station",
-      "hint": "Out of all the candidate stations for this puzzle, this one has one of the longest journey times to its hub station.",
+      "match_count": 18,
+      "display": "A long journey to Shrewsbury",
+      "hint": "In this puzzle, 'long' means 143+ minutes to Shrewsbury.",
       "id": "col_14"
+    },
+    {
+      "type": "range",
+      "field": "time_to_hub__wrexham_chester",
+      "max": 34.0,
+      "label": "Time to Wrexham/Chester: shortest third",
+      "category": "service",
+      "match_count": 23,
+      "display": "A short journey to Wrexham/Chester",
+      "hint": "In this puzzle, 'short' means under 34 minutes to Wrexham/Chester.",
+      "id": "col_15"
+    },
+    {
+      "type": "range",
+      "field": "time_to_hub__wrexham_chester",
+      "min": 34.0,
+      "max": 70.0,
+      "label": "Time to Wrexham/Chester: middle third",
+      "category": "service",
+      "match_count": 23,
+      "display": "A mid-range journey to Wrexham/Chester",
+      "hint": "In this puzzle, 'mid-range' means 34-70 minutes to Wrexham/Chester.",
+      "id": "col_16"
+    },
+    {
+      "type": "range",
+      "field": "time_to_hub__wrexham_chester",
+      "min": 70.0,
+      "label": "Time to Wrexham/Chester: longest third",
+      "category": "service",
+      "match_count": 22,
+      "display": "A long journey to Wrexham/Chester",
+      "hint": "In this puzzle, 'long' means 70+ minutes to Wrexham/Chester.",
+      "id": "col_17"
     },
     {
       "type": "equals",
@@ -267,7 +301,7 @@
       "match_count": 104,
       "display": "Route operated by TfW.",
       "hint": "This station is served by TfW.",
-      "id": "col_15"
+      "id": "col_18"
     },
     {
       "type": "equals",
@@ -278,7 +312,7 @@
       "match_count": 11,
       "display": "Route operated by Merseyrail.",
       "hint": "This station is served by Merseyrail.",
-      "id": "col_16"
+      "id": "col_19"
     },
     {
       "type": "equals",
@@ -289,7 +323,7 @@
       "match_count": 3,
       "display": "Route operated by Northern.",
       "hint": "This station is served by Northern.",
-      "id": "col_17"
+      "id": "col_20"
     },
     {
       "type": "array_contains",
@@ -300,7 +334,7 @@
       "match_count": 45,
       "display": "Is part of the North Wales Coast Line route",
       "hint": "A station on the North Wales Coast Line route.",
-      "id": "col_18"
+      "id": "col_21"
     },
     {
       "type": "array_contains",
@@ -311,7 +345,7 @@
       "match_count": 27,
       "display": "Is part of the Cambrian Coast Line route",
       "hint": "A station on the Cambrian Coast Line route.",
-      "id": "col_19"
+      "id": "col_22"
     },
     {
       "type": "array_contains",
@@ -322,7 +356,7 @@
       "match_count": 21,
       "display": "Is part of the Central Wales Line route",
       "hint": "A station on the Central Wales Line route.",
-      "id": "col_20"
+      "id": "col_23"
     },
     {
       "type": "array_contains",
@@ -333,7 +367,7 @@
       "match_count": 21,
       "display": "Is part of the Heart of Wales Line route",
       "hint": "A station on the Heart of Wales Line route.",
-      "id": "col_21"
+      "id": "col_24"
     },
     {
       "type": "array_contains",
@@ -344,7 +378,7 @@
       "match_count": 13,
       "display": "Is part of the Borderlands Line route",
       "hint": "A station on the Borderlands Line route.",
-      "id": "col_22"
+      "id": "col_25"
     },
     {
       "type": "array_contains",
@@ -355,7 +389,7 @@
       "match_count": 13,
       "display": "Is part of the Conwy Valley Line route",
       "hint": "A station on the Conwy Valley Line route.",
-      "id": "col_23"
+      "id": "col_26"
     },
     {
       "type": "array_contains",
@@ -366,7 +400,7 @@
       "match_count": 11,
       "display": "Is part of the Wirral Line route",
       "hint": "A station on the Wirral Line route.",
-      "id": "col_24"
+      "id": "col_27"
     },
     {
       "type": "array_contains",
@@ -377,7 +411,7 @@
       "match_count": 11,
       "display": "Is part of the Marches Line route",
       "hint": "A station on the Marches Line route.",
-      "id": "col_25"
+      "id": "col_28"
     },
     {
       "type": "array_contains",
@@ -388,7 +422,7 @@
       "match_count": 11,
       "display": "Is part of the North & West Line route",
       "hint": "A station on the North & West Line route.",
-      "id": "col_26"
+      "id": "col_29"
     },
     {
       "type": "array_contains",
@@ -399,7 +433,7 @@
       "match_count": 9,
       "display": "Is part of the Cambrian Line route",
       "hint": "A station on the Cambrian Line route.",
-      "id": "col_27"
+      "id": "col_30"
     },
     {
       "type": "array_contains",
@@ -410,7 +444,7 @@
       "match_count": 3,
       "display": "Is part of the Mid-Cheshire Line route",
       "hint": "A station on the Mid-Cheshire Line route.",
-      "id": "col_28"
+      "id": "col_31"
     },
     {
       "type": "equals",
@@ -421,7 +455,7 @@
       "match_count": 25,
       "display": "Naming style: Welsh place-name roots",
       "hint": "The name includes a Welsh place-name element, like Llan-, Aber-, Pen- or Caer-.",
-      "id": "col_29"
+      "id": "col_32"
     },
     {
       "type": "equals",
@@ -432,7 +466,7 @@
       "match_count": 15,
       "display": "Naming style: a common English place-name ending",
       "hint": "The name ends in a common English place-name suffix, like -ton, -ham, -by or -dale.",
-      "id": "col_30"
+      "id": "col_33"
     },
     {
       "type": "equals",
@@ -443,7 +477,7 @@
       "match_count": 11,
       "display": "Naming style: an unusual name format",
       "hint": "Something unusual about how the name is written - brackets, a hyphen, an ampersand, or 'St'.",
-      "id": "col_31"
+      "id": "col_34"
     },
     {
       "type": "array_contains",
@@ -454,7 +488,7 @@
       "match_count": 13,
       "display": "Word contains 'llan'",
       "hint": "Word contains 'llan'.",
-      "id": "col_32"
+      "id": "col_35"
     },
     {
       "type": "array_contains",
@@ -465,7 +499,7 @@
       "match_count": 9,
       "display": "Word contains 'ton'",
       "hint": "Word contains 'ton'.",
-      "id": "col_33"
+      "id": "col_36"
     },
     {
       "type": "array_contains",
@@ -476,7 +510,7 @@
       "match_count": 8,
       "display": "Word contains 'pen'",
       "hint": "Word contains 'pen'.",
-      "id": "col_34"
+      "id": "col_37"
     },
     {
       "type": "array_contains",
@@ -487,7 +521,7 @@
       "match_count": 6,
       "display": "Name includes brackets",
       "hint": "The station name includes text in brackets, e.g. a disambiguator like '(Cumbria)'.",
-      "id": "col_35"
+      "id": "col_38"
     },
     {
       "type": "array_contains",
@@ -498,7 +532,7 @@
       "match_count": 5,
       "display": "Name includes a hyphen",
       "hint": "The station name includes a hyphen.",
-      "id": "col_36"
+      "id": "col_39"
     },
     {
       "type": "array_contains",
@@ -509,7 +543,7 @@
       "match_count": 4,
       "display": "Word contains 'aber'",
       "hint": "Word contains 'aber'.",
-      "id": "col_37"
+      "id": "col_40"
     },
     {
       "type": "array_contains",
@@ -520,7 +554,7 @@
       "match_count": 4,
       "display": "Word contains 'ey'",
       "hint": "Word contains 'ey'.",
-      "id": "col_38"
+      "id": "col_41"
     },
     {
       "type": "array_contains",
@@ -531,7 +565,7 @@
       "match_count": 4,
       "display": "Word contains 'ham'",
       "hint": "Word contains 'ham'.",
-      "id": "col_39"
+      "id": "col_42"
     }
   ]
 }

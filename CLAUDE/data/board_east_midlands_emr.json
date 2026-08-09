@@ -27,7 +27,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__derby": 27.0,
+    "time_to_hub__leicester": null,
+    "time_to_hub__lincoln": null,
+    "time_to_hub__nottingham": null
   },
   {
     "station_id": "EM_0005",
@@ -57,7 +61,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__derby": null,
+    "time_to_hub__leicester": null,
+    "time_to_hub__lincoln": null,
+    "time_to_hub__nottingham": 19.0
   },
   {
     "station_id": "EM_0003",
@@ -86,7 +94,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__derby": 12.0,
+    "time_to_hub__leicester": null,
+    "time_to_hub__lincoln": null,
+    "time_to_hub__nottingham": null
   },
   {
     "station_id": "EM_0004",
@@ -114,7 +126,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__derby": null,
+    "time_to_hub__leicester": null,
+    "time_to_hub__lincoln": 37.0,
+    "time_to_hub__nottingham": null
   },
   {
     "station_id": "EM_0002",
@@ -142,7 +158,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__derby": 57.0,
+    "time_to_hub__leicester": null,
+    "time_to_hub__lincoln": null,
+    "time_to_hub__nottingham": null
   },
   {
     "station_id": "EM_0006",
@@ -170,7 +190,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__derby": null,
+    "time_to_hub__leicester": null,
+    "time_to_hub__lincoln": null,
+    "time_to_hub__nottingham": 8.0
   },
   {
     "station_id": "EM_0009",
@@ -201,7 +225,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__derby": null,
+    "time_to_hub__leicester": null,
+    "time_to_hub__lincoln": 64.0,
+    "time_to_hub__nottingham": null
   },
   {
     "station_id": "EM_0007",
@@ -229,7 +257,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__derby": null,
+    "time_to_hub__leicester": null,
+    "time_to_hub__lincoln": 60.0,
+    "time_to_hub__nottingham": null
   },
   {
     "station_id": "EM_0010",
@@ -259,7 +291,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__derby": null,
+    "time_to_hub__leicester": null,
+    "time_to_hub__lincoln": null,
+    "time_to_hub__nottingham": 6.0
   },
   {
     "station_id": "EM_0012",
@@ -289,7 +325,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__derby": null,
+    "time_to_hub__leicester": null,
+    "time_to_hub__lincoln": null,
+    "time_to_hub__nottingham": 16.0
   },
   {
     "station_id": "EM_0011",
@@ -318,7 +358,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__derby": 8.0,
+    "time_to_hub__leicester": null,
+    "time_to_hub__lincoln": null,
+    "time_to_hub__nottingham": null
   },
   {
     "station_id": "EM_0017",
@@ -348,7 +392,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__derby": null,
+    "time_to_hub__leicester": null,
+    "time_to_hub__lincoln": null,
+    "time_to_hub__nottingham": 9.0
   },
   {
     "station_id": "EM_0013",
@@ -378,7 +426,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__derby": null,
+    "time_to_hub__leicester": null,
+    "time_to_hub__lincoln": null,
+    "time_to_hub__nottingham": 16.0
   },
   {
     "station_id": "EM_0015",
@@ -408,7 +460,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__derby": null,
+    "time_to_hub__leicester": null,
+    "time_to_hub__lincoln": 49.0,
+    "time_to_hub__nottingham": null
   },
   {
     "station_id": "EM_0016",
@@ -438,7 +494,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__derby": null,
+    "time_to_hub__leicester": null,
+    "time_to_hub__lincoln": null,
+    "time_to_hub__nottingham": 24.0
   },
   {
     "station_id": "EM_0018",
@@ -468,7 +528,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__derby": null,
+    "time_to_hub__leicester": null,
+    "time_to_hub__lincoln": null,
+    "time_to_hub__nottingham": 10.0
   },
   {
     "station_id": "EM_0019",
@@ -497,7 +561,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__derby": 10.0,
+    "time_to_hub__leicester": null,
+    "time_to_hub__lincoln": null,
+    "time_to_hub__nottingham": null
   },
   {
     "station_id": "EM_0008",
@@ -527,7 +595,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__derby": null,
+    "time_to_hub__leicester": 14.0,
+    "time_to_hub__lincoln": null,
+    "time_to_hub__nottingham": null
   },
   {
     "station_id": "EM_0014",
@@ -555,7 +627,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__derby": 36.0,
+    "time_to_hub__leicester": null,
+    "time_to_hub__lincoln": null,
+    "time_to_hub__nottingham": null
   },
   {
     "station_id": "EM_0021",
@@ -585,7 +661,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__derby": 18.0,
+    "time_to_hub__leicester": null,
+    "time_to_hub__lincoln": null,
+    "time_to_hub__nottingham": null
   },
   {
     "station_id": "EM_0022",
@@ -615,7 +695,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__derby": null,
+    "time_to_hub__leicester": null,
+    "time_to_hub__lincoln": 16.0,
+    "time_to_hub__nottingham": null
   },
   {
     "station_id": "EM_0025",
@@ -646,7 +730,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__derby": 20.0,
+    "time_to_hub__leicester": null,
+    "time_to_hub__lincoln": null,
+    "time_to_hub__nottingham": null
   },
   {
     "station_id": "EM_0023",
@@ -674,7 +762,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__derby": null,
+    "time_to_hub__leicester": 28.0,
+    "time_to_hub__lincoln": null,
+    "time_to_hub__nottingham": null
   },
   {
     "station_id": "EM_0020",
@@ -704,7 +796,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__derby": null,
+    "time_to_hub__leicester": null,
+    "time_to_hub__lincoln": null,
+    "time_to_hub__nottingham": 7.0
   },
   {
     "station_id": "EM_0024",
@@ -734,7 +830,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__derby": null,
+    "time_to_hub__leicester": null,
+    "time_to_hub__lincoln": null,
+    "time_to_hub__nottingham": 42.0
   },
   {
     "station_id": "EM_0026",
@@ -765,7 +865,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__derby": 0.0,
+    "time_to_hub__leicester": null,
+    "time_to_hub__lincoln": null,
+    "time_to_hub__nottingham": null
   },
   {
     "station_id": "EM_0027",
@@ -796,7 +900,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__derby": 6.0,
+    "time_to_hub__leicester": null,
+    "time_to_hub__lincoln": null,
+    "time_to_hub__nottingham": null
   },
   {
     "station_id": "EM_0029",
@@ -827,7 +935,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__derby": null,
+    "time_to_hub__leicester": null,
+    "time_to_hub__lincoln": null,
+    "time_to_hub__nottingham": 22.0
   },
   {
     "station_id": "EM_0028",
@@ -857,7 +969,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__derby": null,
+    "time_to_hub__leicester": null,
+    "time_to_hub__lincoln": null,
+    "time_to_hub__nottingham": 10.0
   },
   {
     "station_id": "EM_0030",
@@ -887,7 +1003,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__derby": null,
+    "time_to_hub__leicester": null,
+    "time_to_hub__lincoln": null,
+    "time_to_hub__nottingham": 18.0
   },
   {
     "station_id": "EM_0031",
@@ -915,7 +1035,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__derby": null,
+    "time_to_hub__leicester": null,
+    "time_to_hub__lincoln": 20.0,
+    "time_to_hub__nottingham": null
   },
   {
     "station_id": "EM_0033",
@@ -944,7 +1068,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__derby": null,
+    "time_to_hub__leicester": null,
+    "time_to_hub__lincoln": 50.0,
+    "time_to_hub__nottingham": null
   },
   {
     "station_id": "EM_0034",
@@ -974,7 +1102,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__derby": null,
+    "time_to_hub__leicester": null,
+    "time_to_hub__lincoln": 52.0,
+    "time_to_hub__nottingham": null
   },
   {
     "station_id": "EM_0032",
@@ -1002,7 +1134,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__derby": null,
+    "time_to_hub__leicester": null,
+    "time_to_hub__lincoln": 52.0,
+    "time_to_hub__nottingham": null
   },
   {
     "station_id": "EM_0035",
@@ -1031,7 +1167,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__derby": null,
+    "time_to_hub__leicester": null,
+    "time_to_hub__lincoln": 40.0,
+    "time_to_hub__nottingham": null
   },
   {
     "station_id": "EM_0040",
@@ -1059,7 +1199,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__derby": null,
+    "time_to_hub__leicester": null,
+    "time_to_hub__lincoln": 44.0,
+    "time_to_hub__nottingham": null
   },
   {
     "station_id": "EM_0038",
@@ -1090,7 +1234,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__derby": null,
+    "time_to_hub__leicester": null,
+    "time_to_hub__lincoln": 36.0,
+    "time_to_hub__nottingham": null
   },
   {
     "station_id": "EM_0042",
@@ -1120,7 +1268,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__derby": null,
+    "time_to_hub__leicester": null,
+    "time_to_hub__lincoln": 8.0,
+    "time_to_hub__nottingham": null
   },
   {
     "station_id": "EM_0041",
@@ -1148,7 +1300,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__derby": null,
+    "time_to_hub__leicester": null,
+    "time_to_hub__lincoln": null,
+    "time_to_hub__nottingham": 13.0
   },
   {
     "station_id": "EM_0037",
@@ -1177,7 +1333,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__derby": null,
+    "time_to_hub__leicester": null,
+    "time_to_hub__lincoln": 48.0,
+    "time_to_hub__nottingham": null
   },
   {
     "station_id": "EM_0039",
@@ -1208,7 +1368,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__derby": null,
+    "time_to_hub__leicester": 16.0,
+    "time_to_hub__lincoln": null,
+    "time_to_hub__nottingham": null
   },
   {
     "station_id": "EM_0036",
@@ -1236,7 +1400,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__derby": null,
+    "time_to_hub__leicester": null,
+    "time_to_hub__lincoln": 76.0,
+    "time_to_hub__nottingham": null
   },
   {
     "station_id": "EM_0043",
@@ -1266,7 +1434,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__derby": null,
+    "time_to_hub__leicester": null,
+    "time_to_hub__lincoln": null,
+    "time_to_hub__nottingham": 13.0
   },
   {
     "station_id": "EM_0045",
@@ -1294,7 +1466,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__derby": 54.0,
+    "time_to_hub__leicester": null,
+    "time_to_hub__lincoln": null,
+    "time_to_hub__nottingham": null
   },
   {
     "station_id": "EM_0044",
@@ -1322,7 +1498,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__derby": null,
+    "time_to_hub__leicester": 20.0,
+    "time_to_hub__lincoln": null,
+    "time_to_hub__nottingham": null
   },
   {
     "station_id": "EM_0046",
@@ -1354,7 +1534,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__derby": null,
+    "time_to_hub__leicester": null,
+    "time_to_hub__lincoln": null,
+    "time_to_hub__nottingham": 19.0
   },
   {
     "station_id": "EM_0048",
@@ -1385,7 +1569,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__derby": null,
+    "time_to_hub__leicester": null,
+    "time_to_hub__lincoln": null,
+    "time_to_hub__nottingham": 40.0
   },
   {
     "station_id": "EM_0054",
@@ -1414,7 +1602,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__derby": null,
+    "time_to_hub__leicester": 10.0,
+    "time_to_hub__lincoln": null,
+    "time_to_hub__nottingham": null
   },
   {
     "station_id": "EM_0050",
@@ -1442,7 +1634,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__derby": null,
+    "time_to_hub__leicester": null,
+    "time_to_hub__lincoln": 0.0,
+    "time_to_hub__nottingham": null
   },
   {
     "station_id": "EM_0049",
@@ -1471,7 +1667,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__derby": null,
+    "time_to_hub__leicester": 0.0,
+    "time_to_hub__lincoln": null,
+    "time_to_hub__nottingham": null
   },
   {
     "station_id": "EM_0051",
@@ -1501,7 +1701,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__derby": null,
+    "time_to_hub__leicester": null,
+    "time_to_hub__lincoln": null,
+    "time_to_hub__nottingham": 12.0
   },
   {
     "station_id": "EM_0047",
@@ -1531,7 +1735,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__derby": 34.0,
+    "time_to_hub__leicester": null,
+    "time_to_hub__lincoln": null,
+    "time_to_hub__nottingham": null
   },
   {
     "station_id": "EM_0053",
@@ -1561,7 +1769,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__derby": 41.0,
+    "time_to_hub__leicester": null,
+    "time_to_hub__lincoln": null,
+    "time_to_hub__nottingham": null
   },
   {
     "station_id": "EM_0055",
@@ -1591,7 +1803,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__derby": null,
+    "time_to_hub__leicester": null,
+    "time_to_hub__lincoln": null,
+    "time_to_hub__nottingham": 12.0
   },
   {
     "station_id": "EM_0052",
@@ -1617,7 +1833,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__derby": 50.0,
+    "time_to_hub__leicester": null,
+    "time_to_hub__lincoln": null,
+    "time_to_hub__nottingham": null
   },
   {
     "station_id": "EM_0060",
@@ -1646,7 +1866,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__derby": 25.0,
+    "time_to_hub__leicester": null,
+    "time_to_hub__lincoln": null,
+    "time_to_hub__nottingham": null
   },
   {
     "station_id": "EM_0056",
@@ -1676,7 +1900,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__derby": null,
+    "time_to_hub__leicester": null,
+    "time_to_hub__lincoln": null,
+    "time_to_hub__nottingham": 26.0
   },
   {
     "station_id": "EM_0063",
@@ -1706,7 +1934,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__derby": null,
+    "time_to_hub__leicester": null,
+    "time_to_hub__lincoln": 14.0,
+    "time_to_hub__nottingham": null
   },
   {
     "station_id": "EM_0058",
@@ -1734,7 +1966,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__derby": null,
+    "time_to_hub__leicester": 12.0,
+    "time_to_hub__lincoln": null,
+    "time_to_hub__nottingham": null
   },
   {
     "station_id": "EM_0059",
@@ -1762,7 +1998,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__derby": null,
+    "time_to_hub__leicester": null,
+    "time_to_hub__lincoln": 18.0,
+    "time_to_hub__nottingham": null
   },
   {
     "station_id": "EM_0062",
@@ -1790,7 +2030,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__derby": null,
+    "time_to_hub__leicester": 16.0,
+    "time_to_hub__lincoln": null,
+    "time_to_hub__nottingham": null
   },
   {
     "station_id": "EM_0057",
@@ -1821,7 +2065,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__derby": null,
+    "time_to_hub__leicester": null,
+    "time_to_hub__lincoln": null,
+    "time_to_hub__nottingham": 30.0
   },
   {
     "station_id": "EM_0061",
@@ -1850,7 +2098,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__derby": 22.0,
+    "time_to_hub__leicester": null,
+    "time_to_hub__lincoln": null,
+    "time_to_hub__nottingham": null
   },
   {
     "station_id": "EM_0064",
@@ -1878,7 +2130,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__derby": null,
+    "time_to_hub__leicester": 10.0,
+    "time_to_hub__lincoln": null,
+    "time_to_hub__nottingham": null
   },
   {
     "station_id": "EM_0066",
@@ -1906,7 +2162,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__derby": null,
+    "time_to_hub__leicester": null,
+    "time_to_hub__lincoln": 54.0,
+    "time_to_hub__nottingham": null
   },
   {
     "station_id": "EM_0068",
@@ -1934,7 +2194,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__derby": null,
+    "time_to_hub__leicester": null,
+    "time_to_hub__lincoln": 23.0,
+    "time_to_hub__nottingham": null
   },
   {
     "station_id": "EM_0065",
@@ -1964,7 +2228,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__derby": null,
+    "time_to_hub__leicester": null,
+    "time_to_hub__lincoln": null,
+    "time_to_hub__nottingham": 8.0
   },
   {
     "station_id": "EM_0067",
@@ -1992,7 +2260,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__derby": null,
+    "time_to_hub__leicester": null,
+    "time_to_hub__lincoln": 56.0,
+    "time_to_hub__nottingham": null
   },
   {
     "station_id": "EM_0070",
@@ -2025,7 +2297,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__derby": null,
+    "time_to_hub__leicester": null,
+    "time_to_hub__lincoln": null,
+    "time_to_hub__nottingham": 0.0
   },
   {
     "station_id": "EM_0069",
@@ -2053,7 +2329,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__derby": null,
+    "time_to_hub__leicester": null,
+    "time_to_hub__lincoln": null,
+    "time_to_hub__nottingham": 17.0
   },
   {
     "station_id": "EM_0071",
@@ -2081,7 +2361,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__derby": null,
+    "time_to_hub__leicester": 26.0,
+    "time_to_hub__lincoln": null,
+    "time_to_hub__nottingham": null
   },
   {
     "station_id": "EM_0072",
@@ -2109,7 +2393,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__derby": 4.0,
+    "time_to_hub__leicester": null,
+    "time_to_hub__lincoln": null,
+    "time_to_hub__nottingham": null
   },
   {
     "station_id": "EM_0074",
@@ -2139,7 +2427,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__derby": null,
+    "time_to_hub__leicester": null,
+    "time_to_hub__lincoln": 32.0,
+    "time_to_hub__nottingham": null
   },
   {
     "station_id": "EM_0073",
@@ -2169,7 +2461,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__derby": null,
+    "time_to_hub__leicester": null,
+    "time_to_hub__lincoln": null,
+    "time_to_hub__nottingham": 11.0
   },
   {
     "station_id": "EM_0076",
@@ -2200,7 +2496,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__derby": null,
+    "time_to_hub__leicester": null,
+    "time_to_hub__lincoln": 22.0,
+    "time_to_hub__nottingham": null
   },
   {
     "station_id": "EM_0075",
@@ -2230,7 +2530,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__derby": null,
+    "time_to_hub__leicester": null,
+    "time_to_hub__lincoln": null,
+    "time_to_hub__nottingham": 19.0
   },
   {
     "station_id": "EM_0079",
@@ -2258,7 +2562,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__derby": null,
+    "time_to_hub__leicester": null,
+    "time_to_hub__lincoln": null,
+    "time_to_hub__nottingham": 36.0
   },
   {
     "station_id": "EM_0078",
@@ -2288,7 +2596,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__derby": 27.0,
+    "time_to_hub__leicester": null,
+    "time_to_hub__lincoln": null,
+    "time_to_hub__nottingham": null
   },
   {
     "station_id": "EM_0080",
@@ -2318,7 +2630,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__derby": null,
+    "time_to_hub__leicester": 12.0,
+    "time_to_hub__lincoln": null,
+    "time_to_hub__nottingham": null
   },
   {
     "station_id": "EM_0081",
@@ -2346,7 +2662,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__derby": null,
+    "time_to_hub__leicester": null,
+    "time_to_hub__lincoln": 82.0,
+    "time_to_hub__nottingham": null
   },
   {
     "station_id": "EM_0086",
@@ -2375,7 +2695,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__derby": null,
+    "time_to_hub__leicester": null,
+    "time_to_hub__lincoln": 46.0,
+    "time_to_hub__nottingham": null
   },
   {
     "station_id": "EM_0082",
@@ -2405,7 +2729,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__derby": null,
+    "time_to_hub__leicester": null,
+    "time_to_hub__lincoln": 28.0,
+    "time_to_hub__nottingham": null
   },
   {
     "station_id": "EM_0087",
@@ -2434,7 +2762,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__derby": null,
+    "time_to_hub__leicester": 40.0,
+    "time_to_hub__lincoln": null,
+    "time_to_hub__nottingham": null
   },
   {
     "station_id": "EM_0084",
@@ -2460,7 +2792,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__derby": null,
+    "time_to_hub__leicester": null,
+    "time_to_hub__lincoln": 44.0,
+    "time_to_hub__nottingham": null
   },
   {
     "station_id": "EM_0088",
@@ -2491,7 +2827,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__derby": null,
+    "time_to_hub__leicester": null,
+    "time_to_hub__lincoln": null,
+    "time_to_hub__nottingham": 22.0
   },
   {
     "station_id": "EM_0085",
@@ -2519,7 +2859,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__derby": 6.0,
+    "time_to_hub__leicester": null,
+    "time_to_hub__lincoln": null,
+    "time_to_hub__nottingham": null
   },
   {
     "station_id": "EM_0089",
@@ -2549,7 +2893,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__derby": null,
+    "time_to_hub__leicester": null,
+    "time_to_hub__lincoln": 14.0,
+    "time_to_hub__nottingham": null
   },
   {
     "station_id": "EM_0090",
@@ -2577,7 +2925,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__derby": null,
+    "time_to_hub__leicester": null,
+    "time_to_hub__lincoln": 42.0,
+    "time_to_hub__nottingham": null
   },
   {
     "station_id": "EM_0083",
@@ -2605,7 +2957,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__derby": null,
+    "time_to_hub__leicester": 6.0,
+    "time_to_hub__lincoln": null,
+    "time_to_hub__nottingham": null
   },
   {
     "station_id": "EM_0077",
@@ -2635,7 +2991,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__derby": null,
+    "time_to_hub__leicester": null,
+    "time_to_hub__lincoln": 10.0,
+    "time_to_hub__nottingham": null
   },
   {
     "station_id": "EM_0091",
@@ -2665,7 +3025,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__derby": null,
+    "time_to_hub__leicester": 8.0,
+    "time_to_hub__lincoln": null,
+    "time_to_hub__nottingham": null
   },
   {
     "station_id": "EM_0094",
@@ -2695,7 +3059,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__derby": null,
+    "time_to_hub__leicester": null,
+    "time_to_hub__lincoln": null,
+    "time_to_hub__nottingham": 14.0
   },
   {
     "station_id": "EM_0092",
@@ -2726,7 +3094,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__derby": null,
+    "time_to_hub__leicester": null,
+    "time_to_hub__lincoln": 48.0,
+    "time_to_hub__nottingham": null
   },
   {
     "station_id": "EM_0093",
@@ -2754,7 +3126,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__derby": null,
+    "time_to_hub__leicester": null,
+    "time_to_hub__lincoln": 71.0,
+    "time_to_hub__nottingham": null
   },
   {
     "station_id": "EM_0095",
@@ -2785,7 +3161,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__derby": 15.0,
+    "time_to_hub__leicester": null,
+    "time_to_hub__lincoln": null,
+    "time_to_hub__nottingham": null
   },
   {
     "station_id": "EM_0096",
@@ -2815,7 +3195,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__derby": null,
+    "time_to_hub__leicester": null,
+    "time_to_hub__lincoln": 44.0,
+    "time_to_hub__nottingham": null
   },
   {
     "station_id": "EM_0097",
@@ -2843,7 +3227,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__derby": 24.0,
+    "time_to_hub__leicester": null,
+    "time_to_hub__lincoln": null,
+    "time_to_hub__nottingham": null
   },
   {
     "station_id": "EM_0099",
@@ -2871,7 +3259,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__derby": null,
+    "time_to_hub__leicester": 24.0,
+    "time_to_hub__lincoln": null,
+    "time_to_hub__nottingham": null
   },
   {
     "station_id": "EM_0098",
@@ -2899,7 +3291,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__derby": null,
+    "time_to_hub__leicester": null,
+    "time_to_hub__lincoln": 74.0,
+    "time_to_hub__nottingham": null
   },
   {
     "station_id": "EM_0102",
@@ -2928,7 +3324,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__derby": 8.0,
+    "time_to_hub__leicester": null,
+    "time_to_hub__lincoln": null,
+    "time_to_hub__nottingham": null
   },
   {
     "station_id": "EM_0100",
@@ -2959,7 +3359,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__derby": 16.0,
+    "time_to_hub__leicester": null,
+    "time_to_hub__lincoln": null,
+    "time_to_hub__nottingham": null
   },
   {
     "station_id": "EM_0101",
@@ -2990,7 +3394,11 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__derby": null,
+    "time_to_hub__leicester": null,
+    "time_to_hub__lincoln": null,
+    "time_to_hub__nottingham": 44.0
   },
   {
     "station_id": "NA_0160",
@@ -3018,6 +3426,10 @@
     "time_to_charing_cross": null,
     "time_to_euston": null,
     "time_to_liverpool_street": null,
-    "time_to_stratford": null
+    "time_to_stratford": null,
+    "time_to_hub__derby": null,
+    "time_to_hub__leicester": null,
+    "time_to_hub__lincoln": 50.0,
+    "time_to_hub__nottingham": null
   }
 ]

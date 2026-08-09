@@ -94,36 +94,36 @@
     },
     {
       "type": "range",
-      "field": "canonical_time_to_hub",
+      "field": "time_to_hub__london",
       "max": 16.0,
-      "label": "Time to hub: shortest third",
+      "label": "Time to London: shortest third",
       "category": "service",
       "match_count": 27,
-      "display": "One of the quicker journeys to its hub station",
-      "hint": "Out of all the candidate stations for this puzzle, this one has one of the shortest journey times to its hub station.",
+      "display": "A short journey to London",
+      "hint": "In this puzzle, 'short' means under 16 minutes to London.",
       "id": "col_1"
     },
     {
       "type": "range",
-      "field": "canonical_time_to_hub",
+      "field": "time_to_hub__london",
       "min": 16.0,
       "max": 24.0,
-      "label": "Time to hub: middle third",
+      "label": "Time to London: middle third",
       "category": "service",
       "match_count": 38,
-      "display": "A mid-range journey to its hub station",
-      "hint": "Out of all the candidate stations for this puzzle, this one's journey time to its hub station is neither the shortest nor the longest.",
+      "display": "A mid-range journey to London",
+      "hint": "In this puzzle, 'mid-range' means 16-24 minutes to London.",
       "id": "col_2"
     },
     {
       "type": "range",
-      "field": "canonical_time_to_hub",
+      "field": "time_to_hub__london",
       "min": 24.0,
-      "label": "Time to hub: longest third",
+      "label": "Time to London: longest third",
       "category": "service",
       "match_count": 27,
-      "display": "One of the longer journeys to its hub station",
-      "hint": "Out of all the candidate stations for this puzzle, this one has one of the longest journey times to its hub station.",
+      "display": "A long journey to London",
+      "hint": "In this puzzle, 'long' means 24+ minutes to London.",
       "id": "col_3"
     },
     {
@@ -133,8 +133,8 @@
       "label": "Time to Victoria: shortest third",
       "category": "service",
       "match_count": 30,
-      "display": "One of the quicker journeys to Victoria",
-      "hint": "Out of all the candidate stations for this puzzle, this one has one of the shortest journey times to Victoria.",
+      "display": "A short journey to Victoria",
+      "hint": "In this puzzle, 'short' means under 21 minutes to Victoria.",
       "id": "col_4"
     },
     {
@@ -146,7 +146,7 @@
       "category": "service",
       "match_count": 29,
       "display": "A mid-range journey to Victoria",
-      "hint": "Out of all the candidate stations for this puzzle, this one's journey time to Victoria is neither the shortest nor the longest.",
+      "hint": "In this puzzle, 'mid-range' means 21-29 minutes to Victoria.",
       "id": "col_5"
     },
     {
@@ -156,8 +156,8 @@
       "label": "Time to Victoria: longest third",
       "category": "service",
       "match_count": 30,
-      "display": "One of the longer journeys to Victoria",
-      "hint": "Out of all the candidate stations for this puzzle, this one has one of the longest journey times to Victoria.",
+      "display": "A long journey to Victoria",
+      "hint": "In this puzzle, 'long' means 29+ minutes to Victoria.",
       "id": "col_6"
     },
     {
@@ -167,8 +167,8 @@
       "label": "Time to Charing Cross: shortest third",
       "category": "service",
       "match_count": 27,
-      "display": "One of the quicker journeys to Charing Cross",
-      "hint": "Out of all the candidate stations for this puzzle, this one has one of the shortest journey times to Charing Cross.",
+      "display": "A short journey to Charing Cross",
+      "hint": "In this puzzle, 'short' means under 21 minutes to Charing Cross.",
       "id": "col_7"
     },
     {
@@ -180,7 +180,7 @@
       "category": "service",
       "match_count": 33,
       "display": "A mid-range journey to Charing Cross",
-      "hint": "Out of all the candidate stations for this puzzle, this one's journey time to Charing Cross is neither the shortest nor the longest.",
+      "hint": "In this puzzle, 'mid-range' means 21-28 minutes to Charing Cross.",
       "id": "col_8"
     },
     {
@@ -190,8 +190,8 @@
       "label": "Time to Charing Cross: longest third",
       "category": "service",
       "match_count": 27,
-      "display": "One of the longer journeys to Charing Cross",
-      "hint": "Out of all the candidate stations for this puzzle, this one has one of the longest journey times to Charing Cross.",
+      "display": "A long journey to Charing Cross",
+      "hint": "In this puzzle, 'long' means 28+ minutes to Charing Cross.",
       "id": "col_9"
     },
     {

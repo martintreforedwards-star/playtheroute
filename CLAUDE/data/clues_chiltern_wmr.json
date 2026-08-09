@@ -215,37 +215,71 @@
     },
     {
       "type": "range",
-      "field": "canonical_time_to_hub",
-      "max": 26.0,
-      "label": "Time to hub: shortest third",
+      "field": "time_to_hub__birmingham_new_street",
+      "max": 24.0,
+      "label": "Time to Birmingham New Street: shortest third",
       "category": "service",
-      "match_count": 58,
-      "display": "One of the quicker journeys to its hub station",
-      "hint": "Out of all the candidate stations for this puzzle, this one has one of the shortest journey times to its hub station.",
+      "match_count": 43,
+      "display": "A short journey to Birmingham New Street",
+      "hint": "In this puzzle, 'short' means under 24 minutes to Birmingham New Street.",
       "id": "col_12"
     },
     {
       "type": "range",
-      "field": "canonical_time_to_hub",
-      "min": 26.0,
-      "max": 62.0,
-      "label": "Time to hub: middle third",
+      "field": "time_to_hub__birmingham_new_street",
+      "min": 24.0,
+      "max": 54.0,
+      "label": "Time to Birmingham New Street: middle third",
       "category": "service",
-      "match_count": 61,
-      "display": "A mid-range journey to its hub station",
-      "hint": "Out of all the candidate stations for this puzzle, this one's journey time to its hub station is neither the shortest nor the longest.",
+      "match_count": 42,
+      "display": "A mid-range journey to Birmingham New Street",
+      "hint": "In this puzzle, 'mid-range' means 24-54 minutes to Birmingham New Street.",
       "id": "col_13"
     },
     {
       "type": "range",
-      "field": "canonical_time_to_hub",
-      "min": 62.0,
-      "label": "Time to hub: longest third",
+      "field": "time_to_hub__birmingham_new_street",
+      "min": 54.0,
+      "label": "Time to Birmingham New Street: longest third",
       "category": "service",
-      "match_count": 57,
-      "display": "One of the longer journeys to its hub station",
-      "hint": "Out of all the candidate stations for this puzzle, this one has one of the longest journey times to its hub station.",
+      "match_count": 42,
+      "display": "A long journey to Birmingham New Street",
+      "hint": "In this puzzle, 'long' means 54+ minutes to Birmingham New Street.",
       "id": "col_14"
+    },
+    {
+      "type": "range",
+      "field": "time_to_hub__london",
+      "max": 52.0,
+      "label": "Time to London: shortest third",
+      "category": "service",
+      "match_count": 17,
+      "display": "A short journey to London",
+      "hint": "In this puzzle, 'short' means under 52 minutes to London.",
+      "id": "col_15"
+    },
+    {
+      "type": "range",
+      "field": "time_to_hub__london",
+      "min": 52.0,
+      "max": 120.0,
+      "label": "Time to London: middle third",
+      "category": "service",
+      "match_count": 18,
+      "display": "A mid-range journey to London",
+      "hint": "In this puzzle, 'mid-range' means 52-120 minutes to London.",
+      "id": "col_16"
+    },
+    {
+      "type": "range",
+      "field": "time_to_hub__london",
+      "min": 120.0,
+      "label": "Time to London: longest third",
+      "category": "service",
+      "match_count": 17,
+      "display": "A long journey to London",
+      "hint": "In this puzzle, 'long' means 120+ minutes to London.",
+      "id": "col_17"
     },
     {
       "type": "equals",
@@ -256,7 +290,7 @@
       "match_count": 124,
       "display": "Route operated by West Midlands Railway.",
       "hint": "This station is served by West Midlands Railway.",
-      "id": "col_15"
+      "id": "col_18"
     },
     {
       "type": "equals",
@@ -267,7 +301,7 @@
       "match_count": 48,
       "display": "Route operated by Chiltern Railways.",
       "hint": "This station is served by Chiltern Railways.",
-      "id": "col_16"
+      "id": "col_19"
     },
     {
       "type": "array_contains",
@@ -278,7 +312,7 @@
       "match_count": 34,
       "display": "Is part of the Shakespeare Line route",
       "hint": "A station on the Shakespeare Line route.",
-      "id": "col_17"
+      "id": "col_20"
     },
     {
       "type": "array_contains",
@@ -289,7 +323,7 @@
       "match_count": 34,
       "display": "Is part of the Snow Hill Lines route",
       "hint": "A station on the Snow Hill Lines route.",
-      "id": "col_18"
+      "id": "col_21"
     },
     {
       "type": "array_contains",
@@ -300,7 +334,7 @@
       "match_count": 28,
       "display": "Is part of the Shrewsbury to Wolverhampton Line route",
       "hint": "A station on the Shrewsbury to Wolverhampton Line route.",
-      "id": "col_19"
+      "id": "col_22"
     },
     {
       "type": "array_contains",
@@ -311,7 +345,7 @@
       "match_count": 25,
       "display": "Is part of the Chase Line route",
       "hint": "A station on the Chase Line route.",
-      "id": "col_20"
+      "id": "col_23"
     },
     {
       "type": "array_contains",
@@ -322,7 +356,7 @@
       "match_count": 23,
       "display": "Is part of the Cross-City route",
       "hint": "A station on the Cross-City route.",
-      "id": "col_21"
+      "id": "col_24"
     },
     {
       "type": "array_contains",
@@ -333,7 +367,7 @@
       "match_count": 19,
       "display": "Is part of the Chiltern Line route",
       "hint": "A station on the Chiltern Line route.",
-      "id": "col_22"
+      "id": "col_25"
     },
     {
       "type": "array_contains",
@@ -344,7 +378,7 @@
       "match_count": 10,
       "display": "Is part of the Amersham Line route",
       "hint": "A station on the Amersham Line route.",
-      "id": "col_23"
+      "id": "col_26"
     },
     {
       "type": "array_contains",
@@ -355,7 +389,7 @@
       "match_count": 7,
       "display": "Is part of the West Coast Main Line route",
       "hint": "A station on the West Coast Main Line route.",
-      "id": "col_24"
+      "id": "col_27"
     },
     {
       "type": "array_contains",
@@ -366,7 +400,7 @@
       "match_count": 5,
       "display": "Is part of the Elephant & Bear Line route",
       "hint": "A station on the Elephant & Bear Line route.",
-      "id": "col_25"
+      "id": "col_28"
     },
     {
       "type": "array_contains",
@@ -377,7 +411,7 @@
       "match_count": 5,
       "display": "Is part of the Cotswolds & Malverns Line route",
       "hint": "A station on the Cotswolds & Malverns Line route.",
-      "id": "col_26"
+      "id": "col_29"
     },
     {
       "type": "array_contains",
@@ -388,7 +422,7 @@
       "match_count": 4,
       "display": "Is part of the Oxford Branch route",
       "hint": "A station on the Oxford Branch route.",
-      "id": "col_27"
+      "id": "col_30"
     },
     {
       "type": "array_contains",
@@ -399,7 +433,7 @@
       "match_count": 4,
       "display": "Is part of the Stratford Branch route",
       "hint": "A station on the Stratford Branch route.",
-      "id": "col_28"
+      "id": "col_31"
     },
     {
       "type": "array_contains",
@@ -410,7 +444,7 @@
       "match_count": 3,
       "display": "Is part of the Cross City Line route",
       "hint": "A station on the Cross City Line route.",
-      "id": "col_29"
+      "id": "col_32"
     },
     {
       "type": "equals",
@@ -421,7 +455,7 @@
       "match_count": 73,
       "display": "Naming style: a common English place-name ending",
       "hint": "The name ends in a common English place-name suffix, like -ton, -ham, -by or -dale.",
-      "id": "col_30"
+      "id": "col_33"
     },
     {
       "type": "equals",
@@ -432,7 +466,7 @@
       "match_count": 14,
       "display": "Naming style: a nature word in the name",
       "hint": "The name includes a nature word, like Park, Hill, Green, Heath or Wood.",
-      "id": "col_31"
+      "id": "col_34"
     },
     {
       "type": "equals",
@@ -443,7 +477,7 @@
       "match_count": 13,
       "display": "Naming style: an unusual name format",
       "hint": "Something unusual about how the name is written - brackets, a hyphen, an ampersand, or 'St'.",
-      "id": "col_32"
+      "id": "col_35"
     },
     {
       "type": "array_contains",
@@ -454,7 +488,7 @@
       "match_count": 23,
       "display": "Word contains 'ey'",
       "hint": "Word contains 'ey'.",
-      "id": "col_33"
+      "id": "col_36"
     },
     {
       "type": "array_contains",
@@ -465,7 +499,7 @@
       "match_count": 23,
       "display": "Word contains 'ton'",
       "hint": "Word contains 'ton'.",
-      "id": "col_34"
+      "id": "col_37"
     },
     {
       "type": "array_contains",
@@ -476,7 +510,7 @@
       "match_count": 20,
       "display": "Word contains 'ley'",
       "hint": "Word contains 'ley'.",
-      "id": "col_35"
+      "id": "col_38"
     },
     {
       "type": "array_contains",
@@ -487,7 +521,7 @@
       "match_count": 10,
       "display": "Word contains 'ford'",
       "hint": "Word contains 'ford'.",
-      "id": "col_36"
+      "id": "col_39"
     },
     {
       "type": "array_contains",
@@ -498,7 +532,7 @@
       "match_count": 9,
       "display": "Word contains 'park'",
       "hint": "Word contains 'park'.",
-      "id": "col_37"
+      "id": "col_40"
     },
     {
       "type": "array_contains",
@@ -509,7 +543,7 @@
       "match_count": 8,
       "display": "Word contains 'ham'",
       "hint": "Word contains 'ham'.",
-      "id": "col_38"
+      "id": "col_41"
     },
     {
       "type": "array_contains",
@@ -520,7 +554,7 @@
       "match_count": 8,
       "display": "Word contains 'bury'",
       "hint": "Word contains 'bury'.",
-      "id": "col_39"
+      "id": "col_42"
     },
     {
       "type": "array_contains",
@@ -531,7 +565,7 @@
       "match_count": 8,
       "display": "Word contains 'ridge'",
       "hint": "Word contains 'ridge'.",
-      "id": "col_40"
+      "id": "col_43"
     },
     {
       "type": "array_contains",
@@ -542,7 +576,7 @@
       "match_count": 7,
       "display": "Word contains 'hill'",
       "hint": "Word contains 'hill'.",
-      "id": "col_41"
+      "id": "col_44"
     },
     {
       "type": "array_contains",
@@ -553,7 +587,7 @@
       "match_count": 7,
       "display": "Word contains 'green'",
       "hint": "Word contains 'green'.",
-      "id": "col_42"
+      "id": "col_45"
     },
     {
       "type": "array_contains",
@@ -564,7 +598,7 @@
       "match_count": 6,
       "display": "Name includes an '&'",
       "hint": "The station name includes an ampersand (&).",
-      "id": "col_43"
+      "id": "col_46"
     },
     {
       "type": "array_contains",
@@ -575,7 +609,7 @@
       "match_count": 5,
       "display": "Word contains 'field'",
       "hint": "Word contains 'field'.",
-      "id": "col_44"
+      "id": "col_47"
     },
     {
       "type": "array_contains",
@@ -586,7 +620,7 @@
       "match_count": 5,
       "display": "Name includes a hyphen",
       "hint": "The station name includes a hyphen.",
-      "id": "col_45"
+      "id": "col_48"
     },
     {
       "type": "array_contains",
@@ -597,7 +631,7 @@
       "match_count": 3,
       "display": "Word contains 'heath'",
       "hint": "Word contains 'heath'.",
-      "id": "col_46"
+      "id": "col_49"
     }
   ]
 }

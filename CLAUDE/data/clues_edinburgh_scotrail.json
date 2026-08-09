@@ -149,36 +149,36 @@
     },
     {
       "type": "range",
-      "field": "canonical_time_to_hub",
+      "field": "time_to_hub__edinburgh_waverley",
       "max": 22.0,
-      "label": "Time to hub: shortest third",
+      "label": "Time to Edinburgh Waverley: shortest third",
       "category": "service",
       "match_count": 25,
-      "display": "One of the quicker journeys to its hub station",
-      "hint": "Out of all the candidate stations for this puzzle, this one has one of the shortest journey times to its hub station.",
+      "display": "A short journey to Edinburgh Waverley",
+      "hint": "In this puzzle, 'short' means under 22 minutes to Edinburgh Waverley.",
       "id": "col_6"
     },
     {
       "type": "range",
-      "field": "canonical_time_to_hub",
+      "field": "time_to_hub__edinburgh_waverley",
       "min": 22.0,
       "max": 35.0,
-      "label": "Time to hub: middle third",
+      "label": "Time to Edinburgh Waverley: middle third",
       "category": "service",
       "match_count": 21,
-      "display": "A mid-range journey to its hub station",
-      "hint": "Out of all the candidate stations for this puzzle, this one's journey time to its hub station is neither the shortest nor the longest.",
+      "display": "A mid-range journey to Edinburgh Waverley",
+      "hint": "In this puzzle, 'mid-range' means 22-35 minutes to Edinburgh Waverley.",
       "id": "col_7"
     },
     {
       "type": "range",
-      "field": "canonical_time_to_hub",
+      "field": "time_to_hub__edinburgh_waverley",
       "min": 35.0,
-      "label": "Time to hub: longest third",
+      "label": "Time to Edinburgh Waverley: longest third",
       "category": "service",
       "match_count": 20,
-      "display": "One of the longer journeys to its hub station",
-      "hint": "Out of all the candidate stations for this puzzle, this one has one of the longest journey times to its hub station.",
+      "display": "A long journey to Edinburgh Waverley",
+      "hint": "In this puzzle, 'long' means 35+ minutes to Edinburgh Waverley.",
       "id": "col_8"
     },
     {
@@ -188,8 +188,8 @@
       "label": "Time to Glasgow Central: shortest third",
       "category": "service",
       "match_count": 20,
-      "display": "One of the quicker journeys to Glasgow Central",
-      "hint": "Out of all the candidate stations for this puzzle, this one has one of the shortest journey times to Glasgow Central.",
+      "display": "A short journey to Glasgow Central",
+      "hint": "In this puzzle, 'short' means under 61 minutes to Glasgow Central.",
       "id": "col_9"
     },
     {
@@ -201,7 +201,7 @@
       "category": "service",
       "match_count": 22,
       "display": "A mid-range journey to Glasgow Central",
-      "hint": "Out of all the candidate stations for this puzzle, this one's journey time to Glasgow Central is neither the shortest nor the longest.",
+      "hint": "In this puzzle, 'mid-range' means 61-72 minutes to Glasgow Central.",
       "id": "col_10"
     },
     {
@@ -211,8 +211,8 @@
       "label": "Time to Glasgow Central: longest third",
       "category": "service",
       "match_count": 21,
-      "display": "One of the longer journeys to Glasgow Central",
-      "hint": "Out of all the candidate stations for this puzzle, this one has one of the longest journey times to Glasgow Central.",
+      "display": "A long journey to Glasgow Central",
+      "hint": "In this puzzle, 'long' means 72+ minutes to Glasgow Central.",
       "id": "col_11"
     },
     {

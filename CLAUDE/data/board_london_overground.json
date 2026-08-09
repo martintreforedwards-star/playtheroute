@@ -27,7 +27,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": 28.0,
     "time_to_liverpool_street": 44.0,
-    "time_to_stratford": 37.0
+    "time_to_stratford": 37.0,
+    "time_to_hub__london_nearest_interchange": 156.0
   },
   {
     "station_id": "NA_0009",
@@ -58,7 +59,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": 56.0,
     "time_to_liverpool_street": 72.0,
-    "time_to_stratford": 65.0
+    "time_to_stratford": 65.0,
+    "time_to_hub__london_nearest_interchange": 154.0
   },
   {
     "station_id": "NA_0019",
@@ -86,7 +88,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": 67.0,
     "time_to_liverpool_street": 63.0,
-    "time_to_stratford": 56.0
+    "time_to_stratford": 56.0,
+    "time_to_hub__london_nearest_interchange": 2.0
   },
   {
     "station_id": "NA_0033",
@@ -116,7 +119,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": 64.0,
     "time_to_liverpool_street": 5.0,
-    "time_to_stratford": 11.0
+    "time_to_stratford": 11.0,
+    "time_to_hub__london_nearest_interchange": 1648.0
   },
   {
     "station_id": "NA_0038",
@@ -144,7 +148,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": 50.0,
     "time_to_liverpool_street": 46.0,
-    "time_to_stratford": 39.0
+    "time_to_stratford": 39.0,
+    "time_to_hub__london_nearest_interchange": 23.0
   },
   {
     "station_id": "NA_0053",
@@ -175,7 +180,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": 62.0,
     "time_to_liverpool_street": 78.0,
-    "time_to_stratford": 71.0
+    "time_to_stratford": 71.0,
+    "time_to_hub__london_nearest_interchange": 448.0
   },
   {
     "station_id": "NA_0055",
@@ -205,7 +211,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": 25.0,
     "time_to_liverpool_street": 35.0,
-    "time_to_stratford": 28.0
+    "time_to_stratford": 28.0,
+    "time_to_hub__london_nearest_interchange": 312.0
   },
   {
     "station_id": "NA_0056",
@@ -236,7 +243,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": 24.0,
     "time_to_liverpool_street": 36.0,
-    "time_to_stratford": 29.0
+    "time_to_stratford": 29.0,
+    "time_to_hub__london_nearest_interchange": 312.0
   },
   {
     "station_id": "NA_0060",
@@ -264,7 +272,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": 75.0,
     "time_to_liverpool_street": 16.0,
-    "time_to_stratford": 22.0
+    "time_to_stratford": 22.0,
+    "time_to_hub__london_nearest_interchange": 172.0
   },
   {
     "station_id": "NA_0067",
@@ -295,7 +304,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": 83.0,
     "time_to_liverpool_street": 24.0,
-    "time_to_stratford": 30.0
+    "time_to_stratford": 30.0,
+    "time_to_hub__london_nearest_interchange": 98.0
   },
   {
     "station_id": "NA_0070",
@@ -326,7 +336,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": 39.0,
     "time_to_liverpool_street": 22.0,
-    "time_to_stratford": 15.0
+    "time_to_stratford": 15.0,
+    "time_to_hub__london_nearest_interchange": 314.0
   },
   {
     "station_id": "NA_0072",
@@ -356,7 +367,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": 66.0,
     "time_to_liverpool_street": 7.0,
-    "time_to_stratford": 13.0
+    "time_to_stratford": 13.0,
+    "time_to_hub__london_nearest_interchange": 172.0
   },
   {
     "station_id": "NA_0074",
@@ -384,7 +396,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": 37.0,
     "time_to_liverpool_street": 25.0,
-    "time_to_stratford": 18.0
+    "time_to_stratford": 18.0,
+    "time_to_hub__london_nearest_interchange": 318.0
   },
   {
     "station_id": "NA_0075",
@@ -412,7 +425,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": 59.0,
     "time_to_liverpool_street": 75.0,
-    "time_to_stratford": 68.0
+    "time_to_stratford": 68.0,
+    "time_to_hub__london_nearest_interchange": 604.0
   },
   {
     "station_id": "NA_0077",
@@ -442,7 +456,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": 42.0,
     "time_to_liverpool_street": 19.0,
-    "time_to_stratford": 12.0
+    "time_to_stratford": 12.0,
+    "time_to_hub__london_nearest_interchange": 314.0
   },
   {
     "station_id": "NA_0080",
@@ -470,7 +485,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": 35.0,
     "time_to_liverpool_street": 65.0,
-    "time_to_stratford": 58.0
+    "time_to_stratford": 58.0,
+    "time_to_hub__london_nearest_interchange": 148.0
   },
   {
     "station_id": "NA_0089",
@@ -500,7 +516,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": 83.0,
     "time_to_liverpool_street": 24.0,
-    "time_to_stratford": 30.0
+    "time_to_stratford": 30.0,
+    "time_to_hub__london_nearest_interchange": 154.0
   },
   {
     "station_id": "NA_0092",
@@ -530,7 +547,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": 49.0,
     "time_to_liverpool_street": 65.0,
-    "time_to_stratford": 58.0
+    "time_to_stratford": 58.0,
+    "time_to_hub__london_nearest_interchange": 144.0
   },
   {
     "station_id": "NA_0093",
@@ -560,7 +578,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": 69.0,
     "time_to_liverpool_street": 10.0,
-    "time_to_stratford": 16.0
+    "time_to_stratford": 16.0,
+    "time_to_hub__london_nearest_interchange": 148.0
   },
   {
     "station_id": "NA_0106",
@@ -590,7 +609,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": 41.0,
     "time_to_liverpool_street": 37.0,
-    "time_to_stratford": 30.0
+    "time_to_stratford": 30.0,
+    "time_to_hub__london_nearest_interchange": 31.0
   },
   {
     "station_id": "NA_0111",
@@ -620,7 +640,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": 70.0,
     "time_to_liverpool_street": 86.0,
-    "time_to_stratford": 79.0
+    "time_to_stratford": 79.0,
+    "time_to_hub__london_nearest_interchange": 146.0
   },
   {
     "station_id": "NA_0112",
@@ -650,7 +671,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": 44.0,
     "time_to_liverpool_street": 17.0,
-    "time_to_stratford": 10.0
+    "time_to_stratford": 10.0,
+    "time_to_hub__london_nearest_interchange": 314.0
   },
   {
     "station_id": "NA_0130",
@@ -681,7 +703,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": 81.0,
     "time_to_liverpool_street": 22.0,
-    "time_to_stratford": 28.0
+    "time_to_stratford": 28.0,
+    "time_to_hub__london_nearest_interchange": 172.0
   },
   {
     "station_id": "NA_0135",
@@ -711,7 +734,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": 67.0,
     "time_to_liverpool_street": 21.0,
-    "time_to_stratford": 14.0
+    "time_to_stratford": 14.0,
+    "time_to_hub__london_nearest_interchange": 21.0
   },
   {
     "station_id": "NA_0138",
@@ -739,7 +763,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": 86.0,
     "time_to_liverpool_street": 27.0,
-    "time_to_stratford": 33.0
+    "time_to_stratford": 33.0,
+    "time_to_hub__london_nearest_interchange": 104.0
   },
   {
     "station_id": "NA_0142",
@@ -771,7 +796,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": 29.0,
     "time_to_liverpool_street": 33.0,
-    "time_to_stratford": 26.0
+    "time_to_stratford": 26.0,
+    "time_to_hub__london_nearest_interchange": 312.0
   },
   {
     "station_id": "NA_0146",
@@ -801,7 +827,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": 62.0,
     "time_to_liverpool_street": 78.0,
-    "time_to_stratford": 71.0
+    "time_to_stratford": 71.0,
+    "time_to_hub__london_nearest_interchange": 448.0
   },
   {
     "station_id": "NA_0153",
@@ -829,7 +856,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": 33.0,
     "time_to_liverpool_street": 29.0,
-    "time_to_stratford": 22.0
+    "time_to_stratford": 22.0,
+    "time_to_hub__london_nearest_interchange": 325.0
   },
   {
     "station_id": "NA_0164",
@@ -859,7 +887,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": 46.0,
     "time_to_liverpool_street": 15.0,
-    "time_to_stratford": 8.0
+    "time_to_stratford": 8.0,
+    "time_to_hub__london_nearest_interchange": 314.0
   },
   {
     "station_id": "NA_0165",
@@ -889,7 +918,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": 67.0,
     "time_to_liverpool_street": 8.0,
-    "time_to_stratford": 14.0
+    "time_to_stratford": 14.0,
+    "time_to_hub__london_nearest_interchange": 672.0
   },
   {
     "station_id": "NA_0166",
@@ -919,7 +949,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": 50.0,
     "time_to_liverpool_street": 11.0,
-    "time_to_stratford": 4.0
+    "time_to_stratford": 4.0,
+    "time_to_hub__london_nearest_interchange": 314.0
   },
   {
     "station_id": "NA_0169",
@@ -949,7 +980,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": 69.0,
     "time_to_liverpool_street": 85.0,
-    "time_to_stratford": 78.0
+    "time_to_stratford": 78.0,
+    "time_to_hub__london_nearest_interchange": 603.0
   },
   {
     "station_id": "NA_0172",
@@ -980,7 +1012,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": 31.0,
     "time_to_liverpool_street": 31.0,
-    "time_to_stratford": 24.0
+    "time_to_stratford": 24.0,
+    "time_to_hub__london_nearest_interchange": 312.0
   },
   {
     "station_id": "NA_0183",
@@ -1010,7 +1043,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": 44.0,
     "time_to_liverpool_street": 40.0,
-    "time_to_stratford": 33.0
+    "time_to_stratford": 33.0,
+    "time_to_hub__london_nearest_interchange": 28.0
   },
   {
     "station_id": "NA_0188",
@@ -1036,7 +1070,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": 32.0,
     "time_to_liverpool_street": 62.0,
-    "time_to_stratford": 55.0
+    "time_to_stratford": 55.0,
+    "time_to_hub__london_nearest_interchange": 148.0
   },
   {
     "station_id": "NA_0192",
@@ -1062,7 +1097,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": 30.0,
     "time_to_liverpool_street": 60.0,
-    "time_to_stratford": 53.0
+    "time_to_stratford": 53.0,
+    "time_to_hub__london_nearest_interchange": 148.0
   },
   {
     "station_id": "NA_0201",
@@ -1092,7 +1128,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": 79.0,
     "time_to_liverpool_street": 20.0,
-    "time_to_stratford": 26.0
+    "time_to_stratford": 26.0,
+    "time_to_hub__london_nearest_interchange": 148.0
   },
   {
     "station_id": "NA_0205",
@@ -1122,7 +1159,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": 48.0,
     "time_to_liverpool_street": 13.0,
-    "time_to_stratford": 6.0
+    "time_to_stratford": 6.0,
+    "time_to_hub__london_nearest_interchange": 314.0
   },
   {
     "station_id": "NA_0206",
@@ -1152,7 +1190,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": 64.0,
     "time_to_liverpool_street": 80.0,
-    "time_to_stratford": 73.0
+    "time_to_stratford": 73.0,
+    "time_to_hub__london_nearest_interchange": 448.0
   },
   {
     "station_id": "NA_0211",
@@ -1182,7 +1221,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": 67.0,
     "time_to_liverpool_street": 83.0,
-    "time_to_stratford": 76.0
+    "time_to_stratford": 76.0,
+    "time_to_hub__london_nearest_interchange": 582.0
   },
   {
     "station_id": "NA_0217",
@@ -1210,7 +1250,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": 38.0,
     "time_to_liverpool_street": 54.0,
-    "time_to_stratford": 47.0
+    "time_to_stratford": 47.0,
+    "time_to_hub__london_nearest_interchange": 154.0
   },
   {
     "station_id": "NA_0225",
@@ -1238,7 +1279,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": 22.0,
     "time_to_liverpool_street": 38.0,
-    "time_to_stratford": 31.0
+    "time_to_stratford": 31.0,
+    "time_to_hub__london_nearest_interchange": 312.0
   },
   {
     "station_id": "NA_0227",
@@ -1266,7 +1308,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": 35.0,
     "time_to_liverpool_street": 27.0,
-    "time_to_stratford": 20.0
+    "time_to_stratford": 20.0,
+    "time_to_hub__london_nearest_interchange": 312.0
   },
   {
     "station_id": "NA_0230",
@@ -1292,7 +1335,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": 9.0,
     "time_to_liverpool_street": 51.0,
-    "time_to_stratford": 44.0
+    "time_to_stratford": 44.0,
+    "time_to_hub__london_nearest_interchange": 148.0
   },
   {
     "station_id": "NA_0246",
@@ -1322,7 +1366,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": 54.0,
     "time_to_liverpool_street": 50.0,
-    "time_to_stratford": 43.0
+    "time_to_stratford": 43.0,
+    "time_to_hub__london_nearest_interchange": 20.0
   },
   {
     "station_id": "NA_0247",
@@ -1350,7 +1395,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": 55.0,
     "time_to_liverpool_street": 51.0,
-    "time_to_stratford": 44.0
+    "time_to_stratford": 44.0,
+    "time_to_hub__london_nearest_interchange": 18.0
   },
   {
     "station_id": "NA_0255",
@@ -1378,7 +1424,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": 68.0,
     "time_to_liverpool_street": 9.0,
-    "time_to_stratford": 15.0
+    "time_to_stratford": 15.0,
+    "time_to_hub__london_nearest_interchange": 172.0
   },
   {
     "station_id": "NA_0285",
@@ -1406,7 +1453,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": 60.0,
     "time_to_liverpool_street": 76.0,
-    "time_to_stratford": 69.0
+    "time_to_stratford": 69.0,
+    "time_to_hub__london_nearest_interchange": 375.0
   },
   {
     "station_id": "NA_0308",
@@ -1434,7 +1482,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": 58.0,
     "time_to_liverpool_street": 74.0,
-    "time_to_stratford": 67.0
+    "time_to_stratford": 67.0,
+    "time_to_hub__london_nearest_interchange": 154.0
   },
   {
     "station_id": "NA_0324",
@@ -1462,7 +1511,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": 69.0,
     "time_to_liverpool_street": 10.0,
-    "time_to_stratford": 16.0
+    "time_to_stratford": 16.0,
+    "time_to_hub__london_nearest_interchange": 172.0
   },
   {
     "station_id": "NA_0331",
@@ -1490,7 +1540,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": 60.0,
     "time_to_liverpool_street": 76.0,
-    "time_to_stratford": 69.0
+    "time_to_stratford": 69.0,
+    "time_to_hub__london_nearest_interchange": 582.0
   },
   {
     "station_id": "NA_0352",
@@ -1518,7 +1569,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": 73.0,
     "time_to_liverpool_street": 14.0,
-    "time_to_stratford": 20.0
+    "time_to_stratford": 20.0,
+    "time_to_hub__london_nearest_interchange": 200.0
   },
   {
     "station_id": "NA_0353",
@@ -1546,7 +1598,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": 63.0,
     "time_to_liverpool_street": 79.0,
-    "time_to_stratford": 72.0
+    "time_to_stratford": 72.0,
+    "time_to_hub__london_nearest_interchange": 604.0
   },
   {
     "station_id": "NA_0362",
@@ -1574,7 +1627,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": 65.0,
     "time_to_liverpool_street": 81.0,
-    "time_to_stratford": 74.0
+    "time_to_stratford": 74.0,
+    "time_to_hub__london_nearest_interchange": 582.0
   },
   {
     "station_id": "NA_0363",
@@ -1602,7 +1656,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": 79.0,
     "time_to_liverpool_street": 20.0,
-    "time_to_stratford": 26.0
+    "time_to_stratford": 26.0,
+    "time_to_hub__london_nearest_interchange": 172.0
   },
   {
     "station_id": "NA_0369",
@@ -1632,7 +1687,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": 30.0,
     "time_to_liverpool_street": 46.0,
-    "time_to_stratford": 39.0
+    "time_to_stratford": 39.0,
+    "time_to_hub__london_nearest_interchange": 156.0
   },
   {
     "station_id": "NA_0370",
@@ -1660,7 +1716,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": 7.0,
     "time_to_liverpool_street": 53.0,
-    "time_to_stratford": 46.0
+    "time_to_stratford": 46.0,
+    "time_to_hub__london_nearest_interchange": 146.0
   },
   {
     "station_id": "NA_0373",
@@ -1690,7 +1747,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": 47.0,
     "time_to_liverpool_street": 43.0,
-    "time_to_stratford": 36.0
+    "time_to_stratford": 36.0,
+    "time_to_hub__london_nearest_interchange": 6.0
   },
   {
     "station_id": "NA_0376",
@@ -1718,7 +1776,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": 81.0,
     "time_to_liverpool_street": 25.0,
-    "time_to_stratford": 28.0
+    "time_to_stratford": 28.0,
+    "time_to_hub__london_nearest_interchange": 74.0
   },
   {
     "station_id": "NA_0387",
@@ -1748,7 +1807,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": 72.0,
     "time_to_liverpool_street": 13.0,
-    "time_to_stratford": 19.0
+    "time_to_stratford": 19.0,
+    "time_to_hub__london_nearest_interchange": 148.0
   },
   {
     "station_id": "NA_0393",
@@ -1779,7 +1839,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": 71.0,
     "time_to_liverpool_street": 12.0,
-    "time_to_stratford": 18.0
+    "time_to_stratford": 18.0,
+    "time_to_hub__london_nearest_interchange": 172.0
   },
   {
     "station_id": "NA_0400",
@@ -1809,7 +1870,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": 70.0,
     "time_to_liverpool_street": 11.0,
-    "time_to_stratford": 17.0
+    "time_to_stratford": 17.0,
+    "time_to_hub__london_nearest_interchange": 172.0
   },
   {
     "station_id": "NA_0407",
@@ -1839,7 +1901,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": 58.0,
     "time_to_liverpool_street": 74.0,
-    "time_to_stratford": 67.0
+    "time_to_stratford": 67.0,
+    "time_to_hub__london_nearest_interchange": 582.0
   },
   {
     "station_id": "NA_0409",
@@ -1869,7 +1932,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": 60.0,
     "time_to_liverpool_street": 76.0,
-    "time_to_stratford": 69.0
+    "time_to_stratford": 69.0,
+    "time_to_hub__london_nearest_interchange": 530.0
   },
   {
     "station_id": "NA_0412",
@@ -1895,7 +1959,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": 76.0,
     "time_to_liverpool_street": 27.0,
-    "time_to_stratford": 23.0
+    "time_to_stratford": 23.0,
+    "time_to_hub__london_nearest_interchange": 78.0
   },
   {
     "station_id": "NA_0425",
@@ -1923,7 +1988,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": 78.0,
     "time_to_liverpool_street": 28.0,
-    "time_to_stratford": 25.0
+    "time_to_stratford": 25.0,
+    "time_to_hub__london_nearest_interchange": 74.0
   },
   {
     "station_id": "NA_0428",
@@ -1951,7 +2017,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": 39.0,
     "time_to_liverpool_street": 35.0,
-    "time_to_stratford": 28.0
+    "time_to_stratford": 28.0,
+    "time_to_hub__london_nearest_interchange": 6.0
   },
   {
     "station_id": "NA_0431",
@@ -1979,7 +2046,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": 74.0,
     "time_to_liverpool_street": 15.0,
-    "time_to_stratford": 21.0
+    "time_to_stratford": 21.0,
+    "time_to_hub__london_nearest_interchange": 164.0
   },
   {
     "station_id": "NA_0432",
@@ -2007,7 +2075,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": 52.0,
     "time_to_liverpool_street": 48.0,
-    "time_to_stratford": 41.0
+    "time_to_stratford": 41.0,
+    "time_to_hub__london_nearest_interchange": 22.0
   },
   {
     "station_id": "NA_0434",
@@ -2035,7 +2104,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": 48.0,
     "time_to_liverpool_street": 64.0,
-    "time_to_stratford": 57.0
+    "time_to_stratford": 57.0,
+    "time_to_hub__london_nearest_interchange": 144.0
   },
   {
     "station_id": "NA_0435",
@@ -2066,7 +2136,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": 57.0,
     "time_to_liverpool_street": 53.0,
-    "time_to_stratford": 46.0
+    "time_to_stratford": 46.0,
+    "time_to_hub__london_nearest_interchange": 16.0
   },
   {
     "station_id": "NA_0436",
@@ -2094,7 +2165,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": 61.0,
     "time_to_liverpool_street": 77.0,
-    "time_to_stratford": 70.0
+    "time_to_stratford": 70.0,
+    "time_to_hub__london_nearest_interchange": 582.0
   },
   {
     "station_id": "NA_0441",
@@ -2122,7 +2194,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": 40.0,
     "time_to_liverpool_street": 70.0,
-    "time_to_stratford": 63.0
+    "time_to_stratford": 63.0,
+    "time_to_hub__london_nearest_interchange": 152.0
   },
   {
     "station_id": "NA_0454",
@@ -2152,7 +2225,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": 27.0,
     "time_to_liverpool_street": 34.0,
-    "time_to_stratford": 27.0
+    "time_to_stratford": 27.0,
+    "time_to_hub__london_nearest_interchange": 328.0
   },
   {
     "station_id": "NA_0460",
@@ -2180,7 +2254,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": 77.0,
     "time_to_liverpool_street": 18.0,
-    "time_to_stratford": 24.0
+    "time_to_stratford": 24.0,
+    "time_to_hub__london_nearest_interchange": 172.0
   },
   {
     "station_id": "NA_0462",
@@ -2208,7 +2283,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": 64.0,
     "time_to_liverpool_street": 80.0,
-    "time_to_stratford": 73.0
+    "time_to_stratford": 73.0,
+    "time_to_hub__london_nearest_interchange": 582.0
   },
   {
     "station_id": "NA_0471",
@@ -2234,7 +2310,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": 15.0,
     "time_to_liverpool_street": 40.0,
-    "time_to_stratford": 33.0
+    "time_to_stratford": 33.0,
+    "time_to_hub__london_nearest_interchange": 1.0
   },
   {
     "station_id": "NA_0482",
@@ -2264,7 +2341,8 @@
     "time_to_charing_cross": null,
     "time_to_euston": 76.0,
     "time_to_liverpool_street": 17.0,
-    "time_to_stratford": 23.0
+    "time_to_stratford": 23.0,
+    "time_to_hub__london_nearest_interchange": 148.0
   },
   {
     "station_id": "NA_0484",
@@ -2295,6 +2373,7 @@
     "time_to_charing_cross": null,
     "time_to_euston": 59.0,
     "time_to_liverpool_street": 55.0,
-    "time_to_stratford": 48.0
+    "time_to_stratford": 48.0,
+    "time_to_hub__london_nearest_interchange": 49.0
   }
 ]

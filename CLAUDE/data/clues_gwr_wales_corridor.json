@@ -237,37 +237,105 @@
     },
     {
       "type": "range",
-      "field": "canonical_time_to_hub",
-      "max": 24.0,
-      "label": "Time to hub: shortest third",
+      "field": "time_to_hub__bristol_temple_meads",
+      "max": 18.0,
+      "label": "Time to Bristol Temple Meads: shortest third",
       "category": "service",
-      "match_count": 57,
-      "display": "One of the quicker journeys to its hub station",
-      "hint": "Out of all the candidate stations for this puzzle, this one has one of the shortest journey times to its hub station.",
+      "match_count": 8,
+      "display": "A short journey to Bristol Temple Meads",
+      "hint": "In this puzzle, 'short' means under 18 minutes to Bristol Temple Meads.",
       "id": "col_13"
     },
     {
       "type": "range",
-      "field": "canonical_time_to_hub",
-      "min": 24.0,
-      "max": 49.0,
-      "label": "Time to hub: middle third",
+      "field": "time_to_hub__bristol_temple_meads",
+      "min": 18.0,
+      "max": 32.0,
+      "label": "Time to Bristol Temple Meads: middle third",
       "category": "service",
-      "match_count": 56,
-      "display": "A mid-range journey to its hub station",
-      "hint": "Out of all the candidate stations for this puzzle, this one's journey time to its hub station is neither the shortest nor the longest.",
+      "match_count": 8,
+      "display": "A mid-range journey to Bristol Temple Meads",
+      "hint": "In this puzzle, 'mid-range' means 18-32 minutes to Bristol Temple Meads.",
       "id": "col_14"
     },
     {
       "type": "range",
-      "field": "canonical_time_to_hub",
-      "min": 49.0,
-      "label": "Time to hub: longest third",
+      "field": "time_to_hub__bristol_temple_meads",
+      "min": 32.0,
+      "label": "Time to Bristol Temple Meads: longest third",
       "category": "service",
-      "match_count": 56,
-      "display": "One of the longer journeys to its hub station",
-      "hint": "Out of all the candidate stations for this puzzle, this one has one of the longest journey times to its hub station.",
+      "match_count": 8,
+      "display": "A long journey to Bristol Temple Meads",
+      "hint": "In this puzzle, 'long' means 32+ minutes to Bristol Temple Meads.",
       "id": "col_15"
+    },
+    {
+      "type": "range",
+      "field": "time_to_hub__cardiff_central",
+      "max": 22.0,
+      "label": "Time to Cardiff Central: shortest third",
+      "category": "service",
+      "match_count": 34,
+      "display": "A short journey to Cardiff Central",
+      "hint": "In this puzzle, 'short' means under 22 minutes to Cardiff Central.",
+      "id": "col_16"
+    },
+    {
+      "type": "range",
+      "field": "time_to_hub__cardiff_central",
+      "min": 22.0,
+      "max": 43.0,
+      "label": "Time to Cardiff Central: middle third",
+      "category": "service",
+      "match_count": 33,
+      "display": "A mid-range journey to Cardiff Central",
+      "hint": "In this puzzle, 'mid-range' means 22-43 minutes to Cardiff Central.",
+      "id": "col_17"
+    },
+    {
+      "type": "range",
+      "field": "time_to_hub__cardiff_central",
+      "min": 43.0,
+      "label": "Time to Cardiff Central: longest third",
+      "category": "service",
+      "match_count": 32,
+      "display": "A long journey to Cardiff Central",
+      "hint": "In this puzzle, 'long' means 43+ minutes to Cardiff Central.",
+      "id": "col_18"
+    },
+    {
+      "type": "range",
+      "field": "time_to_hub__swansea",
+      "max": 47.0,
+      "label": "Time to Swansea: shortest third",
+      "category": "service",
+      "match_count": 17,
+      "display": "A short journey to Swansea",
+      "hint": "In this puzzle, 'short' means under 47 minutes to Swansea.",
+      "id": "col_19"
+    },
+    {
+      "type": "range",
+      "field": "time_to_hub__swansea",
+      "min": 47.0,
+      "max": 97.0,
+      "label": "Time to Swansea: middle third",
+      "category": "service",
+      "match_count": 17,
+      "display": "A mid-range journey to Swansea",
+      "hint": "In this puzzle, 'mid-range' means 47-97 minutes to Swansea.",
+      "id": "col_20"
+    },
+    {
+      "type": "range",
+      "field": "time_to_hub__swansea",
+      "min": 97.0,
+      "label": "Time to Swansea: longest third",
+      "category": "service",
+      "match_count": 17,
+      "display": "A long journey to Swansea",
+      "hint": "In this puzzle, 'long' means 97+ minutes to Swansea.",
+      "id": "col_21"
     },
     {
       "type": "equals",
@@ -278,7 +346,7 @@
       "match_count": 144,
       "display": "Route operated by TfW.",
       "hint": "This station is served by TfW.",
-      "id": "col_16"
+      "id": "col_22"
     },
     {
       "type": "equals",
@@ -289,7 +357,7 @@
       "match_count": 22,
       "display": "Route operated by Great_Western.",
       "hint": "This station is served by Great_Western.",
-      "id": "col_17"
+      "id": "col_23"
     },
     {
       "type": "array_contains",
@@ -300,7 +368,7 @@
       "match_count": 44,
       "display": "Is part of the Swanline route",
       "hint": "A station on the Swanline route.",
-      "id": "col_18"
+      "id": "col_24"
     },
     {
       "type": "array_contains",
@@ -311,7 +379,7 @@
       "match_count": 42,
       "display": "Is part of the Central Wales Line route",
       "hint": "A station on the Central Wales Line route.",
-      "id": "col_19"
+      "id": "col_25"
     },
     {
       "type": "array_contains",
@@ -322,7 +390,7 @@
       "match_count": 42,
       "display": "Is part of the Heart of Wales Line route",
       "hint": "A station on the Heart of Wales Line route.",
-      "id": "col_20"
+      "id": "col_26"
     },
     {
       "type": "array_contains",
@@ -333,7 +401,7 @@
       "match_count": 31,
       "display": "Is part of the Vale of Glamorgan Line route",
       "hint": "A station on the Vale of Glamorgan Line route.",
-      "id": "col_21"
+      "id": "col_27"
     },
     {
       "type": "array_contains",
@@ -344,7 +412,7 @@
       "match_count": 30,
       "display": "Is part of the Coryton Line route",
       "hint": "A station on the Coryton Line route.",
-      "id": "col_22"
+      "id": "col_28"
     },
     {
       "type": "array_contains",
@@ -355,7 +423,7 @@
       "match_count": 25,
       "display": "Is part of the Merthyr Line route",
       "hint": "A station on the Merthyr Line route.",
-      "id": "col_23"
+      "id": "col_29"
     },
     {
       "type": "array_contains",
@@ -366,7 +434,7 @@
       "match_count": 25,
       "display": "Is part of the Treherbert Line route",
       "hint": "A station on the Treherbert Line route.",
-      "id": "col_24"
+      "id": "col_30"
     },
     {
       "type": "array_contains",
@@ -377,7 +445,7 @@
       "match_count": 24,
       "display": "Is part of the Aberdare Line route",
       "hint": "A station on the Aberdare Line route.",
-      "id": "col_25"
+      "id": "col_31"
     },
     {
       "type": "array_contains",
@@ -388,7 +456,7 @@
       "match_count": 20,
       "display": "Is part of the Ebbw Valley Line route",
       "hint": "A station on the Ebbw Valley Line route.",
-      "id": "col_26"
+      "id": "col_32"
     },
     {
       "type": "array_contains",
@@ -399,7 +467,7 @@
       "match_count": 10,
       "display": "Is part of the Cardiff Bay Line route",
       "hint": "A station on the Cardiff Bay Line route.",
-      "id": "col_27"
+      "id": "col_33"
     },
     {
       "type": "array_contains",
@@ -410,7 +478,7 @@
       "match_count": 10,
       "display": "Is part of the Severn Beach Line route",
       "hint": "A station on the Severn Beach Line route.",
-      "id": "col_28"
+      "id": "col_34"
     },
     {
       "type": "array_contains",
@@ -421,7 +489,7 @@
       "match_count": 9,
       "display": "Is part of the Great Western Main Line route",
       "hint": "A station on the Great Western Main Line route.",
-      "id": "col_29"
+      "id": "col_35"
     },
     {
       "type": "array_contains",
@@ -432,7 +500,7 @@
       "match_count": 7,
       "display": "Is part of the Marches Line route",
       "hint": "A station on the Marches Line route.",
-      "id": "col_30"
+      "id": "col_36"
     },
     {
       "type": "array_contains",
@@ -443,7 +511,7 @@
       "match_count": 6,
       "display": "Is part of the City Line (Cardiff) route",
       "hint": "A station on the City Line (Cardiff) route.",
-      "id": "col_31"
+      "id": "col_37"
     },
     {
       "type": "array_contains",
@@ -454,7 +522,7 @@
       "match_count": 6,
       "display": "Is part of the Gloucester to Newport Line route",
       "hint": "A station on the Gloucester to Newport Line route.",
-      "id": "col_32"
+      "id": "col_38"
     },
     {
       "type": "equals",
@@ -465,7 +533,7 @@
       "match_count": 44,
       "display": "Naming style: Welsh place-name roots",
       "hint": "The name includes a Welsh place-name element, like Llan-, Aber-, Pen- or Caer-.",
-      "id": "col_33"
+      "id": "col_39"
     },
     {
       "type": "equals",
@@ -476,7 +544,7 @@
       "match_count": 23,
       "display": "Naming style: an unusual name format",
       "hint": "Something unusual about how the name is written - brackets, a hyphen, an ampersand, or 'St'.",
-      "id": "col_34"
+      "id": "col_40"
     },
     {
       "type": "equals",
@@ -487,7 +555,7 @@
       "match_count": 15,
       "display": "Naming style: a common English place-name ending",
       "hint": "The name ends in a common English place-name suffix, like -ton, -ham, -by or -dale.",
-      "id": "col_35"
+      "id": "col_41"
     },
     {
       "type": "equals",
@@ -498,7 +566,7 @@
       "match_count": 6,
       "display": "Naming style: a nature word in the name",
       "hint": "The name includes a nature word, like Park, Hill, Green, Heath or Wood.",
-      "id": "col_36"
+      "id": "col_42"
     },
     {
       "type": "array_contains",
@@ -509,7 +577,7 @@
       "match_count": 16,
       "display": "Word contains 'llan'",
       "hint": "Word contains 'llan'.",
-      "id": "col_37"
+      "id": "col_43"
     },
     {
       "type": "array_contains",
@@ -520,7 +588,7 @@
       "match_count": 14,
       "display": "Word contains 'ton'",
       "hint": "Word contains 'ton'.",
-      "id": "col_38"
+      "id": "col_44"
     },
     {
       "type": "array_contains",
@@ -531,7 +599,7 @@
       "match_count": 8,
       "display": "Name includes brackets",
       "hint": "The station name includes text in brackets, e.g. a disambiguator like '(Cumbria)'.",
-      "id": "col_39"
+      "id": "col_45"
     },
     {
       "type": "array_contains",
@@ -542,7 +610,7 @@
       "match_count": 8,
       "display": "Name includes an '&'",
       "hint": "The station name includes an ampersand (&).",
-      "id": "col_40"
+      "id": "col_46"
     },
     {
       "type": "array_contains",
@@ -553,7 +621,7 @@
       "match_count": 7,
       "display": "Word contains 'pen'",
       "hint": "Word contains 'pen'.",
-      "id": "col_41"
+      "id": "col_47"
     },
     {
       "type": "array_contains",
@@ -564,7 +632,7 @@
       "match_count": 6,
       "display": "Word contains 'park'",
       "hint": "Word contains 'park'.",
-      "id": "col_42"
+      "id": "col_48"
     },
     {
       "type": "array_contains",
@@ -575,7 +643,7 @@
       "match_count": 6,
       "display": "Word contains 'pont'",
       "hint": "Word contains 'pont'.",
-      "id": "col_43"
+      "id": "col_49"
     },
     {
       "type": "array_contains",
@@ -586,7 +654,7 @@
       "match_count": 6,
       "display": "Name includes a hyphen",
       "hint": "The station name includes a hyphen.",
-      "id": "col_44"
+      "id": "col_50"
     },
     {
       "type": "array_contains",
@@ -597,7 +665,7 @@
       "match_count": 5,
       "display": "Word contains 'tre'",
       "hint": "Word contains 'tre'.",
-      "id": "col_45"
+      "id": "col_51"
     },
     {
       "type": "array_contains",
@@ -608,7 +676,7 @@
       "match_count": 4,
       "display": "Word contains 'aber'",
       "hint": "Word contains 'aber'.",
-      "id": "col_46"
+      "id": "col_52"
     },
     {
       "type": "array_contains",
@@ -619,7 +687,7 @@
       "match_count": 4,
       "display": "Word contains 'ey'",
       "hint": "Word contains 'ey'.",
-      "id": "col_47"
+      "id": "col_53"
     },
     {
       "type": "array_contains",
@@ -630,7 +698,7 @@
       "match_count": 4,
       "display": "Word contains 'port'",
       "hint": "Word contains 'port'.",
-      "id": "col_48"
+      "id": "col_54"
     }
   ]
 }

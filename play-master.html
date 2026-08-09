@@ -2138,6 +2138,58 @@ function closeModal() {
 
 }
 
+// Single shared matcher for BOTH row and column clues - used to be two
+// separate implementations (the row check only ever did a bare equality
+// comparison with no clue.type handling at all), which silently broke
+// any range-type clue (e.g. name_letter_count bands) landing in the row/
+// platform slot: rowClue.value is undefined for a range clue, so the old
+// row check's `!==` comparison was true for nearly every station,
+// permanently failing that whole platform column. Kept as one function
+// so row and column checks can never drift apart like that again.
+function clueMatches(station, clue) {
+
+  if (clue.type === "array_contains") {
+
+    return (
+      Array.isArray(station[clue.field]) &&
+      station[clue.field].includes(clue.value)
+    );
+
+  }
+
+  if (clue.type === "range") {
+
+    const value = Number(station[clue.field]);
+
+    if (Number.isNaN(value)) {
+      return false;
+    }
+
+    if (clue.min !== undefined && value < clue.min) {
+      return false;
+    }
+
+    if (clue.max !== undefined && value > clue.max) {
+      return false;
+    }
+
+    return true;
+
+  }
+
+  if (clue.type === "contains") {
+
+    const text = String(station[clue.field]).toLowerCase();
+
+    return text.includes(String(clue.value).toLowerCase());
+
+  }
+
+  // equals (default)
+  return station[clue.field] === clue.value;
+
+}
+
 function validateCell(
   station,
   row,
@@ -2147,91 +2199,21 @@ function validateCell(
 
   let valid = true;
 
-const rowClue =
-  activeRows[row];
-  
-if (
-  station[rowClue.field] !==
-  rowClue.value
-) {
+  const rowClue = activeRows[row];
 
-  valid = false;
-
-}
-
-const clue =
-  activeColumns[column];
-if (clue.type === "array_contains") {
-
-  if (
-    !Array.isArray(station[clue.field]) ||
-    !station[clue.field].includes(clue.value)
-  ) {
+  if (!clueMatches(station, rowClue)) {
 
     valid = false;
 
   }
 
-}
-else if (clue.type === "range") {
+  const clue = activeColumns[column];
 
-  const value =
-    Number(
-      station[clue.field]
-    );
-
-  if (
-    clue.min !== undefined &&
-    value < clue.min
-  ) {
+  if (!clueMatches(station, clue)) {
 
     valid = false;
 
   }
-
-  if (
-    clue.max !== undefined &&
-    value > clue.max
-  ) {
-
-    valid = false;
-
-  }
-
-}
-else if (
-  clue.type === "contains"
-) {
-
-  const text =
-    String(
-      station[clue.field]
-    ).toLowerCase();
-
-  if (
-    !text.includes(
-      clue.value.toLowerCase()
-    )
-  ) {
-
-    valid = false;
-
-  }
-
-}
-
-else {
-
-  if (
-    station[clue.field] !==
-    clue.value
-  ) {
-
-    valid = false;
-
-  }
-
-}
 
   if (
     usedStations.includes(

@@ -390,7 +390,7 @@
       "category": "route",
       "match_count": 43,
       "display": "Is part of the Castle Line route",
-      "hint": "A station on the Castle Line route.",
+      "hint": "Stations on this route include Alsager, Cromford, Leicester and Nottingham (plus 39 more).",
       "id": "col_26"
     },
     {
@@ -401,7 +401,7 @@
       "category": "route",
       "match_count": 18,
       "display": "Is part of the Poacher Line route",
-      "hint": "A station on the Poacher Line route.",
+      "hint": "Stations on this route include Ancaster, Bottesford, Netherfield and Skegness (plus 14 more).",
       "id": "col_27"
     },
     {
@@ -412,7 +412,7 @@
       "category": "route",
       "match_count": 12,
       "display": "Is part of the Humber Linc Line route",
-      "hint": "A station on the Humber Linc Line route.",
+      "hint": "Stations on this route include Barrow Haven, Great Coates, Healing and Stallingborough (plus 8 more).",
       "id": "col_28"
     },
     {
@@ -423,7 +423,7 @@
       "category": "route",
       "match_count": 12,
       "display": "Is part of the Robin Hood Line route",
-      "hint": "A station on the Robin Hood Line route.",
+      "hint": "Stations on this route include Bulwell, Kirkby-in-Ashfield, Mansfield Woodhouse and Shirebrook (plus 8 more).",
       "id": "col_29"
     },
     {
@@ -434,7 +434,7 @@
       "category": "route",
       "match_count": 8,
       "display": "Is part of the Derwent Valley Line route",
-      "hint": "A station on the Derwent Valley Line route.",
+      "hint": "Stations on this route include Ambergate, Cromford, Duffield and Matlock Bath (plus 4 more).",
       "id": "col_30"
     },
     {
@@ -445,7 +445,7 @@
       "category": "route",
       "match_count": 6,
       "display": "Is part of the Erewash Valley route",
-      "hint": "A station on the Erewash Valley route.",
+      "hint": "Stations on this route include Alfreton, Chesterfield, Langley Mill and Nottingham (plus 2 more).",
       "id": "col_31"
     },
     {
@@ -456,7 +456,7 @@
       "category": "route",
       "match_count": 5,
       "display": "Is part of the Ivanhoe Line route",
-      "hint": "A station on the Ivanhoe Line route.",
+      "hint": "Stations on this route include Barrow-upon-Soar, Leicester, Loughborough and Sileby (plus 1 more).",
       "id": "col_32"
     },
     {

@@ -1,5 +1,67 @@
 [
   {
+    "station_id": "SE_0015",
+    "station_name": "St Pancras International",
+    "name_word_count": 3,
+    "name_letter_count": 22,
+    "crs": "STP",
+    "region": "Central London",
+    "operator": "Southeastern",
+    "route": [
+      "High Speed 1"
+    ],
+    "is_interchange": false,
+    "is_coastal": false,
+    "terminus_max": 663,
+    "canonical_hub": "London",
+    "canonical_time_to_hub": 0.0,
+    "welsh_name": null,
+    "wordplay_category": "structure",
+    "wordplay_difficulty": "hard",
+    "wordplay_score": 1,
+    "wordplay_tags": [
+      "saint"
+    ],
+    "time_to_glasgow_central": null,
+    "time_to_victoria": null,
+    "time_to_charing_cross": null,
+    "time_to_euston": null,
+    "time_to_liverpool_street": null,
+    "time_to_stratford": null,
+    "time_to_hub__london": 0.0
+  },
+  {
+    "station_id": "SE_0083",
+    "station_name": "Stratford International",
+    "name_word_count": 2,
+    "name_letter_count": 22,
+    "crs": "SFA",
+    "region": "South East London",
+    "operator": "Southeastern",
+    "route": [
+      "High Speed 1"
+    ],
+    "is_interchange": false,
+    "is_coastal": false,
+    "terminus_max": 0,
+    "canonical_hub": "London",
+    "canonical_time_to_hub": 54.0,
+    "welsh_name": null,
+    "wordplay_category": "suffix",
+    "wordplay_difficulty": "medium",
+    "wordplay_score": 1,
+    "wordplay_tags": [
+      "ford"
+    ],
+    "time_to_glasgow_central": null,
+    "time_to_victoria": null,
+    "time_to_charing_cross": null,
+    "time_to_euston": null,
+    "time_to_liverpool_street": null,
+    "time_to_stratford": null,
+    "time_to_hub__london": 54.0
+  },
+  {
     "station_id": "SE_0084",
     "station_name": "Ebbsfleet International",
     "name_word_count": 2,
@@ -77,12 +139,12 @@
     "canonical_hub": "London",
     "canonical_time_to_hub": 74.0,
     "welsh_name": null,
-    "wordplay_category": "suffix",
+    "wordplay_category": "local_suffix",
     "wordplay_difficulty": "medium",
     "wordplay_score": 2,
     "wordplay_tags": [
-      "ton",
-      "green"
+      "green",
+      "ton"
     ],
     "time_to_glasgow_central": null,
     "time_to_victoria": null,
@@ -205,12 +267,10 @@
     "canonical_hub": "London",
     "canonical_time_to_hub": 123.0,
     "welsh_name": null,
-    "wordplay_category": "suffix",
-    "wordplay_difficulty": "medium",
-    "wordplay_score": 1,
-    "wordplay_tags": [
-      "ford"
-    ],
+    "wordplay_category": "other",
+    "wordplay_difficulty": "easy",
+    "wordplay_score": 0,
+    "wordplay_tags": [],
     "time_to_glasgow_central": null,
     "time_to_victoria": null,
     "time_to_charing_cross": null,
@@ -303,11 +363,11 @@
     "canonical_hub": "London",
     "canonical_time_to_hub": 243.0,
     "welsh_name": null,
-    "wordplay_category": "suffix",
+    "wordplay_category": "local_suffix",
     "wordplay_difficulty": "medium",
     "wordplay_score": 1,
     "wordplay_tags": [
-      "ton"
+      "ridge"
     ],
     "time_to_glasgow_central": null,
     "time_to_victoria": null,
@@ -488,12 +548,10 @@
     "canonical_hub": "London",
     "canonical_time_to_hub": 46.0,
     "welsh_name": null,
-    "wordplay_category": "suffix",
-    "wordplay_difficulty": "medium",
-    "wordplay_score": 1,
-    "wordplay_tags": [
-      "ton"
-    ],
+    "wordplay_category": "other",
+    "wordplay_difficulty": "easy",
+    "wordplay_score": 0,
+    "wordplay_tags": [],
     "time_to_glasgow_central": null,
     "time_to_victoria": null,
     "time_to_charing_cross": null,
@@ -640,10 +698,12 @@
     "canonical_hub": "London",
     "canonical_time_to_hub": 73.0,
     "welsh_name": null,
-    "wordplay_category": "other",
-    "wordplay_difficulty": "easy",
-    "wordplay_score": 0,
-    "wordplay_tags": [],
+    "wordplay_category": "local_suffix",
+    "wordplay_difficulty": "medium",
+    "wordplay_score": 1,
+    "wordplay_tags": [
+      "ridge"
+    ],
     "time_to_glasgow_central": null,
     "time_to_victoria": null,
     "time_to_charing_cross": null,
@@ -818,12 +878,10 @@
     "canonical_hub": "London",
     "canonical_time_to_hub": 144.0,
     "welsh_name": null,
-    "wordplay_category": "suffix",
-    "wordplay_difficulty": "medium",
-    "wordplay_score": 1,
-    "wordplay_tags": [
-      "ford"
-    ],
+    "wordplay_category": "other",
+    "wordplay_difficulty": "easy",
+    "wordplay_score": 0,
+    "wordplay_tags": [],
     "time_to_glasgow_central": null,
     "time_to_victoria": null,
     "time_to_charing_cross": null,
@@ -849,8 +907,8 @@
     "canonical_hub": "London",
     "canonical_time_to_hub": 144.0,
     "welsh_name": null,
-    "wordplay_category": "suffix",
-    "wordplay_difficulty": "medium",
+    "wordplay_category": "structure",
+    "wordplay_difficulty": "hard",
     "wordplay_score": 2,
     "wordplay_tags": [
       "brackets",
@@ -1064,10 +1122,12 @@
     "canonical_hub": "London",
     "canonical_time_to_hub": 140.0,
     "welsh_name": null,
-    "wordplay_category": "other",
-    "wordplay_difficulty": "easy",
-    "wordplay_score": 0,
-    "wordplay_tags": [],
+    "wordplay_category": "local_suffix",
+    "wordplay_difficulty": "medium",
+    "wordplay_score": 1,
+    "wordplay_tags": [
+      "ridge"
+    ],
     "time_to_glasgow_central": null,
     "time_to_victoria": null,
     "time_to_charing_cross": null,
@@ -1093,12 +1153,10 @@
     "canonical_hub": "London",
     "canonical_time_to_hub": 73.0,
     "welsh_name": null,
-    "wordplay_category": "place",
-    "wordplay_difficulty": "medium",
-    "wordplay_score": 1,
-    "wordplay_tags": [
-      "hurst"
-    ],
+    "wordplay_category": "other",
+    "wordplay_difficulty": "easy",
+    "wordplay_score": 0,
+    "wordplay_tags": [],
     "time_to_glasgow_central": null,
     "time_to_victoria": null,
     "time_to_charing_cross": null,
@@ -1155,7 +1213,7 @@
     "canonical_hub": "London",
     "canonical_time_to_hub": 60.0,
     "welsh_name": null,
-    "wordplay_category": "suffix",
+    "wordplay_category": "local_suffix",
     "wordplay_difficulty": "medium",
     "wordplay_score": 1,
     "wordplay_tags": [
@@ -1215,7 +1273,7 @@
     "canonical_hub": "London",
     "canonical_time_to_hub": 57.0,
     "welsh_name": null,
-    "wordplay_category": "suffix",
+    "wordplay_category": "local_suffix",
     "wordplay_difficulty": "medium",
     "wordplay_score": 1,
     "wordplay_tags": [
@@ -2908,7 +2966,7 @@
     "canonical_hub": "London",
     "canonical_time_to_hub": 2.0,
     "welsh_name": null,
-    "wordplay_category": "suffix",
+    "wordplay_category": "local_suffix",
     "wordplay_difficulty": "medium",
     "wordplay_score": 1,
     "wordplay_tags": [

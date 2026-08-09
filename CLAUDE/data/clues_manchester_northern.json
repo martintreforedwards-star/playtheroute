@@ -244,7 +244,7 @@
       "category": "route",
       "match_count": 29,
       "display": "Is part of the Liverpool to Manchester Line route",
-      "hint": "A station on the Liverpool to Manchester Line route.",
+      "hint": "Stations on this route include Blackpool North, Gatley, Manchester Piccadilly and Rainhill (plus 25 more).",
       "id": "col_13"
     },
     {
@@ -255,7 +255,7 @@
       "category": "route",
       "match_count": 26,
       "display": "Is part of the Atherton Line route",
-      "hint": "A station on the Atherton Line route.",
+      "hint": "Stations on this route include Appley Bridge, Gathurst, Moorside and Salford Crescent (plus 22 more).",
       "id": "col_14"
     },
     {
@@ -266,7 +266,7 @@
       "category": "route",
       "match_count": 26,
       "display": "Is part of the Cumbrian Coast Line route",
-      "hint": "A station on the Cumbrian Coast Line route.",
+      "hint": "Stations on this route include Arnside, Chorley, Horwich Parkway and Roose (plus 22 more).",
       "id": "col_15"
     },
     {
@@ -277,7 +277,7 @@
       "category": "route",
       "match_count": 25,
       "display": "Is part of the Furness Line route",
-      "hint": "A station on the Furness Line route.",
+      "hint": "Stations on this route include Adlington (Lancashire), Burnage, East Didsbury and Manchester Oxford Road (plus 21 more).",
       "id": "col_16"
     },
     {
@@ -288,7 +288,7 @@
       "category": "route",
       "match_count": 19,
       "display": "Is part of the Manchester to Crewe Line route",
-      "hint": "A station on the Manchester to Crewe Line route.",
+      "hint": "Stations on this route include Alderley Edge, East Didsbury, Heaton Chapel and Mauldeth Road (plus 15 more).",
       "id": "col_17"
     },
     {
@@ -299,7 +299,7 @@
       "category": "route",
       "match_count": 18,
       "display": "Is part of the Hope Valley Line route",
-      "hint": "A station on the Hope Valley Line route.",
+      "hint": "Stations on this route include Ashburys, Chinley, Marple and Rose Hill Marple (plus 14 more).",
       "id": "col_18"
     },
     {
@@ -310,7 +310,7 @@
       "category": "route",
       "match_count": 18,
       "display": "Is part of the East Lancashire Line route",
-      "hint": "A station on the East Lancashire Line route.",
+      "hint": "Stations on this route include Accrington, Burnley Barracks, Hapton and Nelson (plus 14 more).",
       "id": "col_19"
     },
     {
@@ -321,7 +321,7 @@
       "category": "route",
       "match_count": 17,
       "display": "Is part of the Lakes Line route",
-      "hint": "A station on the Lakes Line route.",
+      "hint": "Stations on this route include Bolton, Gatley, Lostock and Preston (plus 13 more).",
       "id": "col_20"
     },
     {
@@ -332,7 +332,7 @@
       "category": "route",
       "match_count": 16,
       "display": "Is part of the Buxton Line route",
-      "hint": "A station on the Buxton Line route.",
+      "hint": "Stations on this route include Buxton, Disley, Heaton Chapel and New Mills Newtown (plus 12 more).",
       "id": "col_21"
     },
     {
@@ -343,7 +343,7 @@
       "category": "route",
       "match_count": 16,
       "display": "Is part of the Liverpool to Manchester Line via Warrington Central route",
-      "hint": "A station on the Liverpool to Manchester Line via Warrington Central route.",
+      "hint": "Stations on this route include Birchwood, Glazebrook, Manchester Oxford Road and Urmston (plus 12 more).",
       "id": "col_22"
     },
     {
@@ -354,7 +354,7 @@
       "category": "route",
       "match_count": 14,
       "display": "Is part of the Glossop Line route",
-      "hint": "A station on the Glossop Line route.",
+      "hint": "Stations on this route include Ardwick, Dinting, Godley and Hadfield (plus 10 more).",
       "id": "col_23"
     },
     {
@@ -365,7 +365,7 @@
       "category": "route",
       "match_count": 14,
       "display": "Is part of the Mid-Cheshire Line route",
-      "hint": "A station on the Mid-Cheshire Line route.",
+      "hint": "Stations on this route include Altrincham, Hale (Manchester), Lostock Gralam and Navigation Road (plus 10 more).",
       "id": "col_24"
     },
     {
@@ -376,7 +376,7 @@
       "category": "route",
       "match_count": 10,
       "display": "Is part of the Stafford to Manchester Line route",
-      "hint": "A station on the Stafford to Manchester Line route.",
+      "hint": "Stations on this route include Adlington (Cheshire), Cheadle Hulme, Levenshulme and Poynton (plus 6 more).",
       "id": "col_25"
     },
     {
@@ -387,7 +387,7 @@
       "category": "route",
       "match_count": 10,
       "display": "Is part of the Clitheroe Line route",
-      "hint": "A station on the Clitheroe Line route.",
+      "hint": "Stations on this route include Blackburn, Clitheroe, Hall-i'-th'-Wood and Moses Gate (plus 6 more).",
       "id": "col_26"
     },
     {
@@ -398,7 +398,7 @@
       "category": "route",
       "match_count": 9,
       "display": "Is part of the West Lancashire Line route",
-      "hint": "A station on the West Lancashire Line route.",
+      "hint": "Stations on this route include Appley Bridge, Burscough Bridge, Hoscar and New Lane (plus 5 more).",
       "id": "col_27"
     },
     {

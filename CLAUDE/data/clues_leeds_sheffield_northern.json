@@ -300,7 +300,7 @@
       "category": "route",
       "match_count": 33,
       "display": "Is part of the Hull and Doncaster Branch route",
-      "hint": "A station on the Hull and Doncaster Branch route.",
+      "hint": "Stations on this route include Arram, Doncaster, Howden and Nafferton (plus 29 more).",
       "id": "col_18"
     },
     {
@@ -311,7 +311,7 @@
       "category": "route",
       "match_count": 30,
       "display": "Is part of the Hallam Line route",
-      "hint": "A station on the Hallam Line route.",
+      "hint": "Stations on this route include Adwick, Darton, Normanton and Swinton (South Yorks) (plus 26 more).",
       "id": "col_19"
     },
     {
@@ -322,7 +322,7 @@
       "category": "route",
       "match_count": 28,
       "display": "Is part of the Settle Carlisle Line route",
-      "hint": "A station on the Settle Carlisle Line route.",
+      "hint": "Stations on this route include Appleby, Crossflatts, Keighley and Ribblehead (plus 24 more).",
       "id": "col_20"
     },
     {
@@ -333,7 +333,7 @@
       "category": "route",
       "match_count": 22,
       "display": "Is part of the Selby Line route",
-      "hint": "A station on the Selby Line route.",
+      "hint": "Stations on this route include Broomfleet, East Garforth, Howden and Nafferton (plus 18 more).",
       "id": "col_21"
     },
     {
@@ -344,7 +344,7 @@
       "category": "route",
       "match_count": 21,
       "display": "Is part of the Penistone Line route",
-      "hint": "A station on the Penistone Line route.",
+      "hint": "Stations on this route include Barnsley, Darton, Leeds and Shepley (plus 17 more).",
       "id": "col_22"
     },
     {
@@ -355,7 +355,7 @@
       "category": "route",
       "match_count": 20,
       "display": "Is part of the Bentham Line route",
-      "hint": "A station on the Bentham Line route.",
+      "hint": "Stations on this route include Bare Lane, Cononley, Hellifield and Saltaire (plus 16 more).",
       "id": "col_23"
     },
     {
@@ -366,7 +366,7 @@
       "category": "route",
       "match_count": 19,
       "display": "Is part of the Airedale Line route",
-      "hint": "A station on the Airedale Line route.",
+      "hint": "Stations on this route include Apperley Bridge, Crossflatts, Keighley and Saltaire (plus 15 more).",
       "id": "col_24"
     },
     {
@@ -377,7 +377,7 @@
       "category": "route",
       "match_count": 15,
       "display": "Is part of the Pontefract Line route",
-      "hint": "A station on the Pontefract Line route.",
+      "hint": "Stations on this route include Castleford, Goole, Pontefract Monkhill and Streethouse (plus 11 more).",
       "id": "col_25"
     },
     {
@@ -388,7 +388,7 @@
       "category": "route",
       "match_count": 14,
       "display": "Is part of the Harrogate Line route",
-      "hint": "A station on the Harrogate Line route.",
+      "hint": "Stations on this route include Burley Park, Harrogate, Knaresborough and Poppleton (plus 10 more).",
       "id": "col_26"
     },
     {
@@ -399,7 +399,7 @@
       "category": "route",
       "match_count": 12,
       "display": "Is part of the Dearne Valley Line route",
-      "hint": "A station on the Dearne Valley Line route.",
+      "hint": "Stations on this route include Bolton-upon-Dearne, Meadowhall, Rotherham Central and Thurnscoe (plus 8 more).",
       "id": "col_27"
     },
     {
@@ -410,7 +410,7 @@
       "category": "route",
       "match_count": 11,
       "display": "Is part of the Yorkshire Coast Line route",
-      "hint": "A station on the Yorkshire Coast Line route.",
+      "hint": "Stations on this route include Arram, Beverley, Driffield and Hunmanby (plus 7 more).",
       "id": "col_28"
     },
     {
@@ -421,7 +421,7 @@
       "category": "route",
       "match_count": 10,
       "display": "Is part of the Wharfedale Line route",
-      "hint": "A station on the Wharfedale Line route.",
+      "hint": "Stations on this route include Baildon, Bradford Forster Square, Guiseley and Leeds (plus 6 more).",
       "id": "col_29"
     },
     {
@@ -432,7 +432,7 @@
       "category": "route",
       "match_count": 9,
       "display": "Is part of the Calder Vale Line route",
-      "hint": "A station on the Calder Vale Line route.",
+      "hint": "Stations on this route include Bradford Interchange, Halifax, Leeds and Mytholmroyd (plus 5 more).",
       "id": "col_30"
     },
     {
@@ -443,7 +443,7 @@
       "category": "route",
       "match_count": 9,
       "display": "Is part of the Huddersfield Line route",
-      "hint": "A station on the Huddersfield Line route.",
+      "hint": "Stations on this route include Batley, Cottingley, Dewsbury and Mirfield (plus 5 more).",
       "id": "col_31"
     },
     {
@@ -454,7 +454,7 @@
       "category": "route",
       "match_count": 7,
       "display": "Is part of the Sheffield to Lincoln Line route",
-      "hint": "A station on the Sheffield to Lincoln Line route.",
+      "hint": "Stations on this route include Darnall, Dronfield, Kiveton Park and Woodhouse (plus 3 more).",
       "id": "col_32"
     },
     {

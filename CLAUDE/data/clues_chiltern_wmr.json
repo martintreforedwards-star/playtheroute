@@ -289,7 +289,7 @@
       "category": "route",
       "match_count": 124,
       "display": "Route operated by West Midlands Railway.",
-      "hint": "This station is served by West Midlands Railway.",
+      "hint": "Operated by West Midlands Railway. Stations include Acocks Green, Coventry Arena, Ledbury and Smethwick Rolfe Street (plus 120 more).",
       "id": "col_18"
     },
     {
@@ -300,7 +300,7 @@
       "category": "route",
       "match_count": 48,
       "display": "Route operated by Chiltern Railways.",
-      "hint": "This station is served by Chiltern Railways.",
+      "hint": "Operated by Chiltern Railways. Stations include Amersham, Claverdon, Lapworth and Solihull (plus 44 more).",
       "id": "col_19"
     },
     {
@@ -311,7 +311,7 @@
       "category": "route",
       "match_count": 34,
       "display": "Is part of the Shakespeare Line route",
-      "hint": "A station on the Shakespeare Line route.",
+      "hint": "Stations on this route include Acocks Green, Hartlebury, Shirley and Whitlocks End (plus 30 more).",
       "id": "col_20"
     },
     {
@@ -322,7 +322,7 @@
       "category": "route",
       "match_count": 34,
       "display": "Is part of the Snow Hill Lines route",
-      "hint": "A station on the Snow Hill Lines route.",
+      "hint": "Stations on this route include Acocks Green, Hartlebury, Shirley and Whitlocks End (plus 30 more).",
       "id": "col_21"
     },
     {
@@ -333,7 +333,7 @@
       "category": "route",
       "match_count": 28,
       "display": "Is part of the Shrewsbury to Wolverhampton Line route",
-      "hint": "A station on the Shrewsbury to Wolverhampton Line route.",
+      "hint": "Stations on this route include Albrighton, Coseley, Oakengates and Tame Bridge Parkway (plus 24 more).",
       "id": "col_22"
     },
     {
@@ -344,7 +344,7 @@
       "category": "route",
       "match_count": 25,
       "display": "Is part of the Chase Line route",
-      "hint": "A station on the Chase Line route.",
+      "hint": "Stations on this route include Adderley Park, Coseley, Lea Hall and Smethwick Rolfe Street (plus 21 more).",
       "id": "col_23"
     },
     {
@@ -355,7 +355,7 @@
       "category": "route",
       "match_count": 23,
       "display": "Is part of the Cross-City route",
-      "hint": "A station on the Cross-City route.",
+      "hint": "Stations on this route include Alvechurch, Bournville, Gravelly Hill and Redditch (plus 19 more).",
       "id": "col_24"
     },
     {
@@ -366,7 +366,7 @@
       "category": "route",
       "match_count": 19,
       "display": "Is part of the Chiltern Line route",
-      "hint": "A station on the Chiltern Line route.",
+      "hint": "Stations on this route include Banbury, Denham, Kings Sutton and Saunderton (plus 15 more).",
       "id": "col_25"
     },
     {
@@ -377,7 +377,7 @@
       "category": "route",
       "match_count": 10,
       "display": "Is part of the Amersham Line route",
-      "hint": "A station on the Amersham Line route.",
+      "hint": "Stations on this route include Amersham, Aylesbury Vale Parkway, Northolt Park and Sudbury & Harrow Road (plus 6 more).",
       "id": "col_26"
     },
     {
@@ -388,7 +388,7 @@
       "category": "route",
       "match_count": 7,
       "display": "Is part of the West Coast Main Line route",
-      "hint": "A station on the West Coast Main Line route.",
+      "hint": "Stations on this route include Berkswell, Canley, Hampton-in-Arden and Rugby (plus 3 more).",
       "id": "col_27"
     },
     {
@@ -399,7 +399,7 @@
       "category": "route",
       "match_count": 5,
       "display": "Is part of the Elephant & Bear Line route",
-      "hint": "A station on the Elephant & Bear Line route.",
+      "hint": "Stations on this route include Bedworth, Bermuda Park, Coventry Arena and Kenilworth (plus 1 more).",
       "id": "col_28"
     },
     {
@@ -410,7 +410,7 @@
       "category": "route",
       "match_count": 5,
       "display": "Is part of the Cotswolds & Malverns Line route",
-      "hint": "A station on the Cotswolds & Malverns Line route.",
+      "hint": "Stations on this route include Colwall, Great Malvern, Hereford and Ledbury (plus 1 more).",
       "id": "col_29"
     },
     {
@@ -421,7 +421,7 @@
       "category": "route",
       "match_count": 4,
       "display": "Is part of the Oxford Branch route",
-      "hint": "A station on the Oxford Branch route.",
+      "hint": "Stations on this route include Bicester North, Islip, Oxford and Oxford Parkway.",
       "id": "col_30"
     },
     {
@@ -432,7 +432,7 @@
       "category": "route",
       "match_count": 4,
       "display": "Is part of the Stratford Branch route",
-      "hint": "A station on the Stratford Branch route.",
+      "hint": "Stations on this route include Bearley, Lapworth, Stratford-upon-Avon and Stratford-upon-Avon Parkway.",
       "id": "col_31"
     },
     {
@@ -443,7 +443,7 @@
       "category": "route",
       "match_count": 3,
       "display": "Is part of the Cross City Line route",
-      "hint": "A station on the Cross City Line route.",
+      "hint": "Stations on this route include Kings Heath, Moseley Village and Pineapple Road.",
       "id": "col_32"
     },
     {
@@ -452,7 +452,7 @@
       "value": "local_suffix",
       "label": "Wordplay: local_suffix",
       "category": "name",
-      "match_count": 73,
+      "match_count": 71,
       "display": "Naming style: a common English place-name ending",
       "hint": "The name ends in a common English place-name suffix, like -ton, -ham, -by or -dale.",
       "id": "col_33"
@@ -515,23 +515,23 @@
     {
       "type": "array_contains",
       "field": "wordplay_tags",
-      "value": "ford",
-      "label": "Name contains 'ford'",
-      "category": "name",
-      "match_count": 10,
-      "display": "Word contains 'ford'",
-      "hint": "Word contains 'ford'.",
-      "id": "col_39"
-    },
-    {
-      "type": "array_contains",
-      "field": "wordplay_tags",
       "value": "park",
       "label": "Name contains 'park'",
       "category": "name",
       "match_count": 9,
       "display": "Word contains 'park'",
       "hint": "Word contains 'park'.",
+      "id": "col_39"
+    },
+    {
+      "type": "array_contains",
+      "field": "wordplay_tags",
+      "value": "ford",
+      "label": "Name contains 'ford'",
+      "category": "name",
+      "match_count": 9,
+      "display": "Word contains 'ford'",
+      "hint": "Word contains 'ford'.",
       "id": "col_40"
     },
     {
@@ -548,23 +548,23 @@
     {
       "type": "array_contains",
       "field": "wordplay_tags",
-      "value": "bury",
-      "label": "Name contains 'bury'",
-      "category": "name",
-      "match_count": 8,
-      "display": "Word contains 'bury'",
-      "hint": "Word contains 'bury'.",
-      "id": "col_42"
-    },
-    {
-      "type": "array_contains",
-      "field": "wordplay_tags",
       "value": "ridge",
       "label": "Name contains 'ridge'",
       "category": "name",
       "match_count": 8,
       "display": "Word contains 'ridge'",
       "hint": "Word contains 'ridge'.",
+      "id": "col_42"
+    },
+    {
+      "type": "array_contains",
+      "field": "wordplay_tags",
+      "value": "bury",
+      "label": "Name contains 'bury'",
+      "category": "name",
+      "match_count": 7,
+      "display": "Word contains 'bury'",
+      "hint": "Word contains 'bury'.",
       "id": "col_43"
     },
     {

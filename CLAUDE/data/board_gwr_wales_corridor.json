@@ -51,7 +51,7 @@
     "canonical_hub": "Cardiff Central",
     "canonical_time_to_hub": 22.0,
     "welsh_name": "Aber",
-    "wordplay_category": "welsh_place",
+    "wordplay_category": "place",
     "wordplay_difficulty": "medium",
     "wordplay_score": 1,
     "wordplay_tags": [
@@ -86,7 +86,7 @@
     "canonical_hub": "Cardiff Central",
     "canonical_time_to_hub": 42.0,
     "welsh_name": "Abercynon",
-    "wordplay_category": "welsh_place",
+    "wordplay_category": "place",
     "wordplay_difficulty": "medium",
     "wordplay_score": 1,
     "wordplay_tags": [
@@ -820,12 +820,10 @@
     "canonical_hub": "Swansea",
     "canonical_time_to_hub": 82.0,
     "welsh_name": "Clarbeston Road",
-    "wordplay_category": "local_suffix",
-    "wordplay_difficulty": "medium",
-    "wordplay_score": 1,
-    "wordplay_tags": [
-      "ton"
-    ],
+    "wordplay_category": "other",
+    "wordplay_difficulty": "easy",
+    "wordplay_score": 0,
+    "wordplay_tags": [],
     "time_to_glasgow_central": null,
     "time_to_victoria": null,
     "time_to_charing_cross": null,
@@ -854,7 +852,7 @@
     "canonical_hub": "Cardiff Central",
     "canonical_time_to_hub": 59.0,
     "welsh_name": "Cwmbach",
-    "wordplay_category": "welsh_place",
+    "wordplay_category": "feature",
     "wordplay_difficulty": "medium",
     "wordplay_score": 1,
     "wordplay_tags": [
@@ -920,12 +918,10 @@
     "canonical_hub": "Cardiff Central",
     "canonical_time_to_hub": 20.0,
     "welsh_name": "Coryton",
-    "wordplay_category": "local_suffix",
-    "wordplay_difficulty": "medium",
-    "wordplay_score": 1,
-    "wordplay_tags": [
-      "ton"
-    ],
+    "wordplay_category": "other",
+    "wordplay_difficulty": "easy",
+    "wordplay_score": 0,
+    "wordplay_tags": [],
     "time_to_glasgow_central": null,
     "time_to_victoria": null,
     "time_to_charing_cross": null,
@@ -1252,7 +1248,7 @@
     "canonical_hub": "Cardiff Central",
     "canonical_time_to_hub": 16.0,
     "welsh_name": "Dinas Powys",
-    "wordplay_category": "welsh_place",
+    "wordplay_category": "feature",
     "wordplay_difficulty": "medium",
     "wordplay_score": 1,
     "wordplay_tags": [
@@ -2042,7 +2038,7 @@
     "canonical_hub": "Swansea",
     "canonical_time_to_hub": 8.0,
     "welsh_name": "Llansamlet",
-    "wordplay_category": "welsh_place",
+    "wordplay_category": "place",
     "wordplay_difficulty": "medium",
     "wordplay_score": 1,
     "wordplay_tags": [
@@ -2077,7 +2073,7 @@
     "canonical_hub": "Swansea",
     "canonical_time_to_hub": 20.0,
     "welsh_name": "Llanelli",
-    "wordplay_category": "welsh_place",
+    "wordplay_category": "place",
     "wordplay_difficulty": "medium",
     "wordplay_score": 1,
     "wordplay_tags": [
@@ -2111,7 +2107,7 @@
     "canonical_hub": "Swansea",
     "canonical_time_to_hub": 82.0,
     "welsh_name": "Llangadog",
-    "wordplay_category": "welsh_place",
+    "wordplay_category": "place",
     "wordplay_difficulty": "medium",
     "wordplay_score": 1,
     "wordplay_tags": [
@@ -2145,7 +2141,7 @@
     "canonical_hub": "Swansea",
     "canonical_time_to_hub": 38.0,
     "welsh_name": "Llangennech",
-    "wordplay_category": "welsh_place",
+    "wordplay_category": "place",
     "wordplay_difficulty": "medium",
     "wordplay_score": 1,
     "wordplay_tags": [
@@ -2179,7 +2175,7 @@
     "canonical_hub": "Swansea",
     "canonical_time_to_hub": 58.0,
     "welsh_name": "Llandybie",
-    "wordplay_category": "welsh_place",
+    "wordplay_category": "place",
     "wordplay_difficulty": "medium",
     "wordplay_score": 1,
     "wordplay_tags": [
@@ -2213,7 +2209,7 @@
     "canonical_hub": "Swansea",
     "canonical_time_to_hub": 69.0,
     "welsh_name": "Llandeilo",
-    "wordplay_category": "welsh_place",
+    "wordplay_category": "place",
     "wordplay_difficulty": "medium",
     "wordplay_score": 1,
     "wordplay_tags": [
@@ -2247,7 +2243,7 @@
     "canonical_hub": "Swansea",
     "canonical_time_to_hub": 130.0,
     "welsh_name": "Llangammarch",
-    "wordplay_category": "welsh_place",
+    "wordplay_category": "place",
     "wordplay_difficulty": "medium",
     "wordplay_score": 1,
     "wordplay_tags": [
@@ -2283,7 +2279,7 @@
     "canonical_hub": "Cardiff Central",
     "canonical_time_to_hub": 12.0,
     "welsh_name": "Llandaf",
-    "wordplay_category": "welsh_place",
+    "wordplay_category": "place",
     "wordplay_difficulty": "medium",
     "wordplay_score": 1,
     "wordplay_tags": [
@@ -2319,7 +2315,7 @@
     "canonical_hub": "Cardiff Central",
     "canonical_time_to_hub": 18.0,
     "welsh_name": "Llanharan",
-    "wordplay_category": "welsh_place",
+    "wordplay_category": "place",
     "wordplay_difficulty": "medium",
     "wordplay_score": 1,
     "wordplay_tags": [
@@ -2353,7 +2349,7 @@
     "canonical_hub": "Cardiff Central",
     "canonical_time_to_hub": 12.0,
     "welsh_name": "Llanishen",
-    "wordplay_category": "welsh_place",
+    "wordplay_category": "place",
     "wordplay_difficulty": "medium",
     "wordplay_score": 1,
     "wordplay_tags": [
@@ -2452,7 +2448,7 @@
     "canonical_hub": "Cardiff Central",
     "canonical_time_to_hub": 27.0,
     "welsh_name": "Llanbradach",
-    "wordplay_category": "welsh_place",
+    "wordplay_category": "place",
     "wordplay_difficulty": "medium",
     "wordplay_score": 1,
     "wordplay_tags": [
@@ -2486,7 +2482,7 @@
     "canonical_hub": "Swansea",
     "canonical_time_to_hub": 86.0,
     "welsh_name": "Llanwrda",
-    "wordplay_category": "welsh_place",
+    "wordplay_category": "place",
     "wordplay_difficulty": "medium",
     "wordplay_score": 1,
     "wordplay_tags": [
@@ -2520,7 +2516,7 @@
     "canonical_hub": "Swansea",
     "canonical_time_to_hub": 120.0,
     "welsh_name": "Llanwrtyd",
-    "wordplay_category": "welsh_place",
+    "wordplay_category": "place",
     "wordplay_difficulty": "medium",
     "wordplay_score": 1,
     "wordplay_tags": [
@@ -2654,12 +2650,10 @@
     "canonical_hub": "Cardiff Central",
     "canonical_time_to_hub": 47.0,
     "welsh_name": "Lydney",
-    "wordplay_category": "local_suffix",
-    "wordplay_difficulty": "medium",
-    "wordplay_score": 1,
-    "wordplay_tags": [
-      "ey"
-    ],
+    "wordplay_category": "other",
+    "wordplay_difficulty": "easy",
+    "wordplay_score": 0,
+    "wordplay_tags": [],
     "time_to_glasgow_central": null,
     "time_to_victoria": null,
     "time_to_charing_cross": null,
@@ -2851,7 +2845,7 @@
     "canonical_hub": "Cardiff Central",
     "canonical_time_to_hub": 52.0,
     "welsh_name": "Maesteg",
-    "wordplay_category": "welsh_place",
+    "wordplay_category": "feature",
     "wordplay_difficulty": "medium",
     "wordplay_score": 1,
     "wordplay_tags": [
@@ -3127,7 +3121,7 @@
     "canonical_hub": "Cardiff Central",
     "canonical_time_to_hub": 20.0,
     "welsh_name": "Pencoed",
-    "wordplay_category": "welsh_place",
+    "wordplay_category": "feature",
     "wordplay_difficulty": "medium",
     "wordplay_score": 1,
     "wordplay_tags": [
@@ -3161,7 +3155,7 @@
     "canonical_hub": "Cardiff Central",
     "canonical_time_to_hub": 11.0,
     "welsh_name": "Penarth",
-    "wordplay_category": "welsh_place",
+    "wordplay_category": "feature",
     "wordplay_difficulty": "medium",
     "wordplay_score": 1,
     "wordplay_tags": [
@@ -3195,7 +3189,7 @@
     "canonical_hub": "Cardiff Central",
     "canonical_time_to_hub": 48.0,
     "welsh_name": "Penrhiwceiber",
-    "wordplay_category": "welsh_place",
+    "wordplay_category": "feature",
     "wordplay_difficulty": "medium",
     "wordplay_score": 1,
     "wordplay_tags": [
@@ -3229,7 +3223,7 @@
     "canonical_hub": "Cardiff Central",
     "canonical_time_to_hub": 38.0,
     "welsh_name": "Pengam",
-    "wordplay_category": "welsh_place",
+    "wordplay_category": "feature",
     "wordplay_difficulty": "medium",
     "wordplay_score": 1,
     "wordplay_tags": [
@@ -3262,7 +3256,7 @@
     "canonical_hub": "Cardiff Central",
     "canonical_time_to_hub": 54.0,
     "welsh_name": "Pontlottyn",
-    "wordplay_category": "welsh_place",
+    "wordplay_category": "feature",
     "wordplay_difficulty": "medium",
     "wordplay_score": 1,
     "wordplay_tags": [
@@ -3390,7 +3384,7 @@
     "canonical_hub": "Cardiff Central",
     "canonical_time_to_hub": 41.0,
     "welsh_name": "Porth",
-    "wordplay_category": "welsh_place",
+    "wordplay_category": "feature",
     "wordplay_difficulty": "medium",
     "wordplay_score": 1,
     "wordplay_tags": [
@@ -3426,7 +3420,7 @@
     "canonical_hub": "Cardiff Central",
     "canonical_time_to_hub": 35.0,
     "welsh_name": "Pontypridd",
-    "wordplay_category": "welsh_place",
+    "wordplay_category": "feature",
     "wordplay_difficulty": "medium",
     "wordplay_score": 1,
     "wordplay_tags": [
@@ -3570,7 +3564,7 @@
     "canonical_hub": "Swansea",
     "canonical_time_to_hub": 42.0,
     "welsh_name": "Pontarddulais",
-    "wordplay_category": "welsh_place",
+    "wordplay_category": "feature",
     "wordplay_difficulty": "medium",
     "wordplay_score": 1,
     "wordplay_tags": [
@@ -3638,7 +3632,7 @@
     "canonical_hub": "Cardiff Central",
     "canonical_time_to_hub": 13.0,
     "welsh_name": "Pontyclun",
-    "wordplay_category": "welsh_place",
+    "wordplay_category": "feature",
     "wordplay_difficulty": "medium",
     "wordplay_score": 1,
     "wordplay_tags": [
@@ -4287,12 +4281,10 @@
     "canonical_hub": "Cardiff Central",
     "canonical_time_to_hub": 49.0,
     "welsh_name": "Tir-Phil",
-    "wordplay_category": "structure",
-    "wordplay_difficulty": "hard",
-    "wordplay_score": 1,
-    "wordplay_tags": [
-      "hyphen"
-    ],
+    "wordplay_category": "other",
+    "wordplay_difficulty": "easy",
+    "wordplay_score": 0,
+    "wordplay_tags": [],
     "time_to_glasgow_central": null,
     "time_to_victoria": null,
     "time_to_charing_cross": null,
@@ -4351,12 +4343,11 @@
     "canonical_hub": "Cardiff Central",
     "canonical_time_to_hub": 57.0,
     "welsh_name": "Ton Pentre",
-    "wordplay_category": "welsh_place",
+    "wordplay_category": "feature",
     "wordplay_difficulty": "medium",
-    "wordplay_score": 2,
+    "wordplay_score": 1,
     "wordplay_tags": [
-      "pen",
-      "ton"
+      "pen"
     ],
     "time_to_glasgow_central": null,
     "time_to_victoria": null,
@@ -4385,7 +4376,7 @@
     "canonical_hub": "Cardiff Central",
     "canonical_time_to_hub": 65.0,
     "welsh_name": "Treherbert",
-    "wordplay_category": "welsh_place",
+    "wordplay_category": "place",
     "wordplay_difficulty": "medium",
     "wordplay_score": 1,
     "wordplay_tags": [
@@ -4420,12 +4411,10 @@
     "canonical_hub": "Cardiff Central",
     "canonical_time_to_hub": 56.0,
     "welsh_name": "Troed-y-rhiw",
-    "wordplay_category": "structure",
-    "wordplay_difficulty": "hard",
-    "wordplay_score": 1,
-    "wordplay_tags": [
-      "hyphen"
-    ],
+    "wordplay_category": "other",
+    "wordplay_difficulty": "easy",
+    "wordplay_score": 0,
+    "wordplay_tags": [],
     "time_to_glasgow_central": null,
     "time_to_victoria": null,
     "time_to_charing_cross": null,
@@ -4492,7 +4481,7 @@
     "canonical_hub": "Cardiff Central",
     "canonical_time_to_hub": 32.0,
     "welsh_name": "Trefforest",
-    "wordplay_category": "welsh_place",
+    "wordplay_category": "place",
     "wordplay_difficulty": "medium",
     "wordplay_score": 1,
     "wordplay_tags": [
@@ -4525,7 +4514,7 @@
     "canonical_hub": "Cardiff Central",
     "canonical_time_to_hub": 38.0,
     "welsh_name": "Trehafod",
-    "wordplay_category": "welsh_place",
+    "wordplay_category": "place",
     "wordplay_difficulty": "medium",
     "wordplay_score": 1,
     "wordplay_tags": [
@@ -4724,7 +4713,7 @@
     "canonical_hub": "Cardiff Central",
     "canonical_time_to_hub": 62.0,
     "welsh_name": "Ynyswen",
-    "wordplay_category": "welsh_place",
+    "wordplay_category": "feature",
     "wordplay_difficulty": "medium",
     "wordplay_score": 1,
     "wordplay_tags": [
@@ -4758,7 +4747,7 @@
     "canonical_hub": "Cardiff Central",
     "canonical_time_to_hub": 32.0,
     "welsh_name": "Ystrad Mynach",
-    "wordplay_category": "welsh_place",
+    "wordplay_category": "feature",
     "wordplay_difficulty": "medium",
     "wordplay_score": 1,
     "wordplay_tags": [
@@ -4791,7 +4780,7 @@
     "canonical_hub": "Cardiff Central",
     "canonical_time_to_hub": 53.0,
     "welsh_name": "Ystrad Rhondda",
-    "wordplay_category": "welsh_place",
+    "wordplay_category": "feature",
     "wordplay_difficulty": "medium",
     "wordplay_score": 1,
     "wordplay_tags": [

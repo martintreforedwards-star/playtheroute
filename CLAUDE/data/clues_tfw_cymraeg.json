@@ -390,7 +390,7 @@
       "category": "route",
       "match_count": 63,
       "display": "Is part of the Central Wales Line route",
-      "hint": "A station on the Central Wales Line route.",
+      "hint": "Stations on this route include Abertawe, Cwmbrân, Llangadog and Pen-y-bont ar Ogwr (plus 59 more).",
       "id": "col_26"
     },
     {
@@ -401,7 +401,7 @@
       "category": "route",
       "match_count": 63,
       "display": "Is part of the Heart of Wales Line route",
-      "hint": "A station on the Heart of Wales Line route.",
+      "hint": "Stations on this route include Abertawe, Cwmbrân, Llangadog and Pen-y-bont ar Ogwr (plus 59 more).",
       "id": "col_27"
     },
     {
@@ -412,7 +412,7 @@
       "category": "route",
       "match_count": 50,
       "display": "Is part of the North Wales Coast Line route",
-      "hint": "A station on the North Wales Coast Line route.",
+      "hint": "Stations on this route include Abergele a Phensarn, Casnewydd, Llanfairpwllgwyngyllgogerychwyrndrobwllllantysiliogogogoch and Wem (plus 46 more).",
       "id": "col_28"
     },
     {
@@ -423,7 +423,7 @@
       "category": "route",
       "match_count": 44,
       "display": "Is part of the Swanline route",
-      "hint": "A station on the Swanline route.",
+      "hint": "Stations on this route include Aberdaugleddau, Dinbych-y-pysgod, Llansamlet and Penfro (plus 40 more).",
       "id": "col_29"
     },
     {
@@ -434,7 +434,7 @@
       "category": "route",
       "match_count": 31,
       "display": "Is part of the Vale of Glamorgan Line route",
-      "hint": "A station on the Vale of Glamorgan Line route.",
+      "hint": "Stations on this route include Aber, Dinas Powys, Lefel Uchel y Mynydd Bychan and Pengam (plus 27 more).",
       "id": "col_30"
     },
     {
@@ -445,7 +445,7 @@
       "category": "route",
       "match_count": 30,
       "display": "Is part of the Coryton Line route",
-      "hint": "A station on the Coryton Line route.",
+      "hint": "Stations on this route include Aber, Dinas Powys, Lefel Isel y Mynydd Bychan and Pengam (plus 26 more).",
       "id": "col_31"
     },
     {
@@ -456,7 +456,7 @@
       "category": "route",
       "match_count": 27,
       "display": "Is part of the Cambrian Coast Line route",
-      "hint": "A station on the Cambrian Coast Line route.",
+      "hint": "Stations on this route include Aber-erch, Fairbourne, Machynlleth and Porthmadog (plus 23 more).",
       "id": "col_32"
     },
     {
@@ -467,7 +467,7 @@
       "category": "route",
       "match_count": 25,
       "display": "Is part of the Merthyr Line route",
-      "hint": "A station on the Merthyr Line route.",
+      "hint": "Stations on this route include Abercynon, Cathays, Merthyr Tudful and Pontypridd (plus 21 more).",
       "id": "col_33"
     },
     {
@@ -478,7 +478,7 @@
       "category": "route",
       "match_count": 25,
       "display": "Is part of the Treherbert Line route",
-      "hint": "A station on the Treherbert Line route.",
+      "hint": "Stations on this route include Abercynon, Llandaf, Porth and Treherbert (plus 21 more).",
       "id": "col_34"
     },
     {
@@ -489,7 +489,7 @@
       "category": "route",
       "match_count": 24,
       "display": "Is part of the Aberdare Line route",
-      "hint": "A station on the Aberdare Line route.",
+      "hint": "Stations on this route include Abercynon, Cwmbach, Mynwent-y-Crynwyr and Radur (plus 20 more).",
       "id": "col_35"
     },
     {
@@ -500,7 +500,7 @@
       "category": "route",
       "match_count": 20,
       "display": "Is part of the Ebbw Valley Line route",
-      "hint": "A station on the Ebbw Valley Line route.",
+      "hint": "Stations on this route include Caerdydd Canolog, Llanhiledd, Pencoed and Tondu (plus 16 more).",
       "id": "col_36"
     },
     {
@@ -511,7 +511,7 @@
       "category": "route",
       "match_count": 18,
       "display": "Is part of the Marches Line route",
-      "hint": "A station on the Marches Line route.",
+      "hint": "Stations on this route include Abergwaun ac Wdig, Casnewydd, Llanllieni and Wem (plus 14 more).",
       "id": "col_37"
     },
     {
@@ -522,7 +522,7 @@
       "category": "route",
       "match_count": 16,
       "display": "Is part of the North & West Line route",
-      "hint": "A station on the North & West Line route.",
+      "hint": "Stations on this route include Amwythig, Craven Arms, Llwydlo and Wrenbury (plus 12 more).",
       "id": "col_38"
     },
     {
@@ -533,7 +533,7 @@
       "category": "route",
       "match_count": 13,
       "display": "Is part of the Borderlands Line route",
-      "hint": "A station on the Borderlands Line route.",
+      "hint": "Stations on this route include Bwcle, Gwersyllt, Pen-y-ffordd and Upton (Merseyside) (plus 9 more).",
       "id": "col_39"
     },
     {
@@ -544,7 +544,7 @@
       "category": "route",
       "match_count": 13,
       "display": "Is part of the Conwy Valley Line route",
-      "hint": "A station on the Conwy Valley Line route.",
+      "hint": "Stations on this route include Betws-y-Coed, Deganwy, Glan Conwy and Llanrwst (plus 9 more).",
       "id": "col_40"
     },
     {

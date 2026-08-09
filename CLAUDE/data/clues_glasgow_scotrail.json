@@ -244,7 +244,7 @@
       "category": "route",
       "match_count": 64,
       "display": "Is part of the Argyle Line route",
-      "hint": "A station on the Argyle Line route.",
+      "hint": "Stations on this route include Airdrie, Cambuslang, Drumgelloch and Jordanhill (plus 60 more).",
       "id": "col_13"
     },
     {
@@ -255,7 +255,7 @@
       "category": "route",
       "match_count": 39,
       "display": "Is part of the North Clyde Electrics route",
-      "hint": "A station on the North Clyde Electrics route.",
+      "hint": "Stations on this route include Airdrie, Caldercruix, Drumchapel and High Street (plus 35 more).",
       "id": "col_14"
     },
     {
@@ -266,7 +266,7 @@
       "category": "route",
       "match_count": 33,
       "display": "Is part of the West Highland Line route",
-      "hint": "A station on the West Highland Line route.",
+      "hint": "Stations on this route include Ardlui, Corpach, Garscadden and Maryhill (plus 29 more).",
       "id": "col_15"
     },
     {
@@ -277,7 +277,7 @@
       "category": "route",
       "match_count": 16,
       "display": "Is part of the Inverclyde Line route",
-      "hint": "A station on the Inverclyde Line route.",
+      "hint": "Stations on this route include Bishopton, Drumfrochar, Greenock West and Paisley St James (plus 12 more).",
       "id": "col_16"
     },
     {
@@ -288,7 +288,7 @@
       "category": "route",
       "match_count": 14,
       "display": "Is part of the Road to the Isles route",
-      "hint": "A station on the Road to the Isles route.",
+      "hint": "Stations on this route include Ardlui, Dalmuir, Garscadden and Scotstounhill (plus 10 more).",
       "id": "col_17"
     },
     {
@@ -299,7 +299,7 @@
       "category": "route",
       "match_count": 14,
       "display": "Is part of the East Kilbride Line route",
-      "hint": "A station on the East Kilbride Line route.",
+      "hint": "Stations on this route include Burnside, Croftfoot, Hairmyres and Newton (plus 10 more).",
       "id": "col_18"
     },
     {
@@ -310,7 +310,7 @@
       "category": "route",
       "match_count": 13,
       "display": "Is part of the Cathcart Circle route",
-      "hint": "A station on the Cathcart Circle route.",
+      "hint": "Stations on this route include Cathcart, Maxwell Park, Patterton and Queens Park (Glasgow) (plus 9 more).",
       "id": "col_19"
     },
     {
@@ -321,7 +321,7 @@
       "category": "route",
       "match_count": 12,
       "display": "Is part of the Glasgow South Western Line route",
-      "hint": "A station on the Glasgow South Western Line route.",
+      "hint": "Stations on this route include Annan, Dunlop, Kilmaurs and Newton-On-Ayr (plus 8 more).",
       "id": "col_20"
     },
     {
@@ -332,7 +332,7 @@
       "category": "route",
       "match_count": 10,
       "display": "Is part of the Neilston Line route",
-      "hint": "A station on the Neilston Line route.",
+      "hint": "Stations on this route include Barrhead, Muirend, Patterton and Priesthill & Darnley (plus 6 more).",
       "id": "col_21"
     },
     {
@@ -343,7 +343,7 @@
       "category": "route",
       "match_count": 10,
       "display": "Is part of the Ayrshire Coast Line route",
-      "hint": "A station on the Ayrshire Coast Line route.",
+      "hint": "Stations on this route include Barassie, Dalry, Hillington West and Lochwinnoch (plus 6 more).",
       "id": "col_22"
     },
     {
@@ -354,7 +354,7 @@
       "category": "route",
       "match_count": 9,
       "display": "Is part of the Shotts Line route",
-      "hint": "A station on the Shotts Line route.",
+      "hint": "Stations on this route include Bellshill, Cleland, Glasgow Central and Holytown (plus 5 more).",
       "id": "col_23"
     },
     {
@@ -365,7 +365,7 @@
       "category": "route",
       "match_count": 8,
       "display": "Is part of the Ayrshire Coast route",
-      "hint": "A station on the Ayrshire Coast route.",
+      "hint": "Stations on this route include Ayr, Johnstone, Paisley Gilmour Street and Prestwick Town (plus 4 more).",
       "id": "col_24"
     },
     {
@@ -376,7 +376,7 @@
       "category": "route",
       "match_count": 8,
       "display": "Is part of the Cumbernauld Line route",
-      "hint": "A station on the Cumbernauld Line route.",
+      "hint": "Stations on this route include Camelon, Falkirk Grahamston, Greenfaulds and Springburn (plus 4 more).",
       "id": "col_25"
     },
     {
@@ -387,7 +387,7 @@
       "category": "route",
       "match_count": 7,
       "display": "Is part of the Oban Branch route",
-      "hint": "A station on the Oban Branch route.",
+      "hint": "Stations on this route include Connel Ferry, Dalmally, Loch Awe and Taynuilt (plus 3 more).",
       "id": "col_26"
     },
     {
@@ -398,7 +398,7 @@
       "category": "route",
       "match_count": 6,
       "display": "Is part of the Largs Branch route",
-      "hint": "A station on the Largs Branch route.",
+      "hint": "Stations on this route include Ardrossan South Beach, Fairlie, Saltcoats and Stevenston (plus 2 more).",
       "id": "col_27"
     },
     {

@@ -170,108 +170,6 @@
       "id": "col_9"
     },
     {
-      "type": "range",
-      "field": "time_to_euston",
-      "max": 47.0,
-      "label": "Time to Euston: shortest third",
-      "category": "service",
-      "match_count": 27,
-      "display": "A short journey to Euston",
-      "hint": "In this puzzle, 'short' means under 47 minutes to Euston.",
-      "id": "col_10"
-    },
-    {
-      "type": "range",
-      "field": "time_to_euston",
-      "min": 47.0,
-      "max": 66.0,
-      "label": "Time to Euston: middle third",
-      "category": "service",
-      "match_count": 27,
-      "display": "A mid-range journey to Euston",
-      "hint": "In this puzzle, 'mid-range' means 47-66 minutes to Euston.",
-      "id": "col_11"
-    },
-    {
-      "type": "range",
-      "field": "time_to_euston",
-      "min": 66.0,
-      "label": "Time to Euston: longest third",
-      "category": "service",
-      "match_count": 27,
-      "display": "A long journey to Euston",
-      "hint": "In this puzzle, 'long' means 66+ minutes to Euston.",
-      "id": "col_12"
-    },
-    {
-      "type": "range",
-      "field": "time_to_liverpool_street",
-      "max": 25.0,
-      "label": "Time to Liverpool Street: shortest third",
-      "category": "service",
-      "match_count": 28,
-      "display": "A short journey to Liverpool Street",
-      "hint": "In this puzzle, 'short' means under 25 minutes to Liverpool Street.",
-      "id": "col_13"
-    },
-    {
-      "type": "range",
-      "field": "time_to_liverpool_street",
-      "min": 25.0,
-      "max": 53.0,
-      "label": "Time to Liverpool Street: middle third",
-      "category": "service",
-      "match_count": 27,
-      "display": "A mid-range journey to Liverpool Street",
-      "hint": "In this puzzle, 'mid-range' means 25-53 minutes to Liverpool Street.",
-      "id": "col_14"
-    },
-    {
-      "type": "range",
-      "field": "time_to_liverpool_street",
-      "min": 53.0,
-      "label": "Time to Liverpool Street: longest third",
-      "category": "service",
-      "match_count": 28,
-      "display": "A long journey to Liverpool Street",
-      "hint": "In this puzzle, 'long' means 53+ minutes to Liverpool Street.",
-      "id": "col_15"
-    },
-    {
-      "type": "range",
-      "field": "time_to_stratford",
-      "max": 25.0,
-      "label": "Time to Stratford: shortest third",
-      "category": "service",
-      "match_count": 27,
-      "display": "A short journey to Stratford",
-      "hint": "In this puzzle, 'short' means under 25 minutes to Stratford.",
-      "id": "col_16"
-    },
-    {
-      "type": "range",
-      "field": "time_to_stratford",
-      "min": 25.0,
-      "max": 46.0,
-      "label": "Time to Stratford: middle third",
-      "category": "service",
-      "match_count": 27,
-      "display": "A mid-range journey to Stratford",
-      "hint": "In this puzzle, 'mid-range' means 25-46 minutes to Stratford.",
-      "id": "col_17"
-    },
-    {
-      "type": "range",
-      "field": "time_to_stratford",
-      "min": 46.0,
-      "label": "Time to Stratford: longest third",
-      "category": "service",
-      "match_count": 28,
-      "display": "A long journey to Stratford",
-      "hint": "In this puzzle, 'long' means 46+ minutes to Stratford.",
-      "id": "col_18"
-    },
-    {
       "type": "array_contains",
       "field": "route",
       "value": "Windrush Line",
@@ -279,8 +177,8 @@
       "category": "route",
       "match_count": 19,
       "display": "Is part of the Windrush Line route",
-      "hint": "A station on the Windrush Line route.",
-      "id": "col_19"
+      "hint": "Stations on this route include Anerley, Dalston Junction, New Cross Gate and Surrey Quays (plus 15 more).",
+      "id": "col_10"
     },
     {
       "type": "array_contains",
@@ -290,8 +188,8 @@
       "category": "route",
       "match_count": 17,
       "display": "Is part of the Mildmay Line route",
-      "hint": "A station on the Mildmay Line route.",
-      "id": "col_20"
+      "hint": "Stations on this route include Acton Central, Camden Road, Hackney Central and Imperial Wharf (plus 13 more).",
+      "id": "col_11"
     },
     {
       "type": "array_contains",
@@ -301,8 +199,8 @@
       "category": "route",
       "match_count": 12,
       "display": "Is part of the Suffragette Line route",
-      "hint": "A station on the Suffragette Line route.",
-      "id": "col_21"
+      "hint": "Stations on this route include Barking Riverside, Gospel Oak, Leytonstone High Road and Walthamstow Queens Road (plus 8 more).",
+      "id": "col_12"
     },
     {
       "type": "array_contains",
@@ -312,8 +210,8 @@
       "category": "route",
       "match_count": 10,
       "display": "Is part of the Chingford Line route",
-      "hint": "A station on the Chingford Line route.",
-      "id": "col_22"
+      "hint": "Stations on this route include Bethnal Green, Chingford, Highams Park and St James Street (plus 6 more).",
+      "id": "col_13"
     },
     {
       "type": "array_contains",
@@ -323,8 +221,8 @@
       "category": "route",
       "match_count": 10,
       "display": "Is part of the Enfield Town Line route",
-      "hint": "A station on the Enfield Town Line route.",
-      "id": "col_23"
+      "hint": "Stations on this route include Bruce Grove, Edmonton Green, Seven Sisters and Stamford Hill (plus 6 more).",
+      "id": "col_14"
     },
     {
       "type": "equals",
@@ -335,7 +233,7 @@
       "match_count": 32,
       "display": "Naming style: a common English place-name ending",
       "hint": "The name ends in a common English place-name suffix, like -ton, -ham, -by or -dale.",
-      "id": "col_24"
+      "id": "col_15"
     },
     {
       "type": "equals",
@@ -346,7 +244,7 @@
       "match_count": 12,
       "display": "Naming style: a nature word in the name",
       "hint": "The name includes a nature word, like Park, Hill, Green, Heath or Wood.",
-      "id": "col_25"
+      "id": "col_16"
     },
     {
       "type": "equals",
@@ -357,7 +255,7 @@
       "match_count": 3,
       "display": "Naming style: an unusual name format",
       "hint": "Something unusual about how the name is written - brackets, a hyphen, an ampersand, or 'St'.",
-      "id": "col_26"
+      "id": "col_17"
     },
     {
       "type": "array_contains",
@@ -368,7 +266,7 @@
       "match_count": 11,
       "display": "Word contains 'ton'",
       "hint": "Word contains 'ton'.",
-      "id": "col_27"
+      "id": "col_18"
     },
     {
       "type": "array_contains",
@@ -379,7 +277,7 @@
       "match_count": 8,
       "display": "Word contains 'ey'",
       "hint": "Word contains 'ey'.",
-      "id": "col_28"
+      "id": "col_19"
     },
     {
       "type": "array_contains",
@@ -390,7 +288,7 @@
       "match_count": 8,
       "display": "Word contains 'park'",
       "hint": "Word contains 'park'.",
-      "id": "col_29"
+      "id": "col_20"
     },
     {
       "type": "array_contains",
@@ -401,7 +299,7 @@
       "match_count": 5,
       "display": "Word contains 'bury'",
       "hint": "Word contains 'bury'.",
-      "id": "col_30"
+      "id": "col_21"
     },
     {
       "type": "array_contains",
@@ -412,7 +310,7 @@
       "match_count": 4,
       "display": "Word contains 'hill'",
       "hint": "Word contains 'hill'.",
-      "id": "col_31"
+      "id": "col_22"
     },
     {
       "type": "array_contains",
@@ -423,7 +321,7 @@
       "match_count": 4,
       "display": "Word contains 'stead'",
       "hint": "Word contains 'stead'.",
-      "id": "col_32"
+      "id": "col_23"
     },
     {
       "type": "array_contains",
@@ -434,7 +332,7 @@
       "match_count": 3,
       "display": "Word contains 'ley'",
       "hint": "Word contains 'ley'.",
-      "id": "col_33"
+      "id": "col_24"
     },
     {
       "type": "array_contains",
@@ -445,7 +343,7 @@
       "match_count": 3,
       "display": "Word contains 'green'",
       "hint": "Word contains 'green'.",
-      "id": "col_34"
+      "id": "col_25"
     },
     {
       "type": "array_contains",
@@ -456,7 +354,7 @@
       "match_count": 3,
       "display": "Word contains 'ford'",
       "hint": "Word contains 'ford'.",
-      "id": "col_35"
+      "id": "col_26"
     },
     {
       "type": "array_contains",
@@ -467,7 +365,7 @@
       "match_count": 3,
       "display": "Word contains 'ham'",
       "hint": "Word contains 'ham'.",
-      "id": "col_36"
+      "id": "col_27"
     }
   ]
 }

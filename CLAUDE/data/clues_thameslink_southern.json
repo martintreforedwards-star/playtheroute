@@ -244,7 +244,7 @@
       "category": "route",
       "match_count": 23,
       "display": "Route operated by Thameslink.",
-      "hint": "This station is served by Thameslink.",
+      "hint": "Operated by Thameslink. Stations include Bedford, Harlington, Luton and St Albans (plus 19 more).",
       "id": "col_13"
     },
     {
@@ -255,7 +255,7 @@
       "category": "route",
       "match_count": 25,
       "display": "Is part of the West Coastway route",
-      "hint": "A station on the West Coastway route.",
+      "hint": "Stations on this route include Angmering, Durrington-on-Sea, Goring-by-Sea and Portsmouth & Southsea (plus 21 more).",
       "id": "col_14"
     },
     {
@@ -266,7 +266,7 @@
       "category": "route",
       "match_count": 23,
       "display": "Is part of the Midland Electrics route",
-      "hint": "A station on the Midland Electrics route.",
+      "hint": "Stations on this route include Bedford, Harlington, Luton and St Albans (plus 19 more).",
       "id": "col_15"
     },
     {
@@ -277,7 +277,7 @@
       "category": "route",
       "match_count": 21,
       "display": "Is part of the East Coastway route",
-      "hint": "A station on the East Coastway route.",
+      "hint": "Stations on this route include Battle, Cooden Beach, Hampden Park (Sussex) and Pevensey & Westham (plus 17 more).",
       "id": "col_16"
     },
     {
@@ -288,7 +288,7 @@
       "category": "route",
       "match_count": 20,
       "display": "Is part of the Brighton Main Line route",
-      "hint": "A station on the Brighton Main Line route.",
+      "hint": "Stations on this route include Balcombe, Earlswood Surrey, Horley and Purley (plus 16 more).",
       "id": "col_17"
     },
     {
@@ -299,7 +299,7 @@
       "category": "route",
       "match_count": 20,
       "display": "Is part of the Sutton & Metro route",
-      "hint": "A station on the Sutton & Metro route.",
+      "hint": "Stations on this route include Balham, Norbury, Sutton (London) and Wandsworth Common (plus 16 more).",
       "id": "col_18"
     },
     {
@@ -310,7 +310,7 @@
       "category": "route",
       "match_count": 19,
       "display": "Is part of the Southern Thameslink Branches route",
-      "hint": "A station on the Southern Thameslink Branches route.",
+      "hint": "Stations on this route include Bat & Ball, Eynsford, London Bridge and Shoreham (Kent) (plus 15 more).",
       "id": "col_19"
     },
     {
@@ -321,7 +321,7 @@
       "category": "route",
       "match_count": 16,
       "display": "Is part of the Uckfield Branch route",
-      "hint": "A station on the Uckfield Branch route.",
+      "hint": "Stations on this route include Ashurst, East Croydon , Hever and South Croydon (plus 12 more).",
       "id": "col_20"
     },
     {
@@ -332,7 +332,7 @@
       "category": "route",
       "match_count": 16,
       "display": "Is part of the Portsmouth Direct route",
-      "hint": "A station on the Portsmouth Direct route.",
+      "hint": "Stations on this route include Basingstoke, Fratton, London Victoria and Southampton Central (plus 12 more).",
       "id": "col_21"
     },
     {
@@ -343,7 +343,7 @@
       "category": "route",
       "match_count": 16,
       "display": "Is part of the Midland Main Line route",
-      "hint": "A station on the Midland Main Line route.",
+      "hint": "Stations on this route include Bedford, Flitwick, Kentish Town and Mill Hill Broadway (plus 12 more).",
       "id": "col_22"
     },
     {
@@ -354,7 +354,7 @@
       "category": "route",
       "match_count": 13,
       "display": "Is part of the Coastway East route",
-      "hint": "A station on the Coastway East route.",
+      "hint": "Stations on this route include Bishopstone (Sussex), Newhaven Harbour, Pevensey Bay and Riddlesdown (plus 9 more).",
       "id": "col_23"
     },
     {
@@ -365,7 +365,7 @@
       "category": "route",
       "match_count": 12,
       "display": "Is part of the Coastway West route",
-      "hint": "A station on the Coastway West route.",
+      "hint": "Stations on this route include Aldrington, Billingshurst, Fishersgate and Nutbourne (plus 8 more).",
       "id": "col_24"
     },
     {
@@ -376,7 +376,7 @@
       "category": "route",
       "match_count": 11,
       "display": "Is part of the Arun Valley Line route",
-      "hint": "A station on the Arun Valley Line route.",
+      "hint": "Stations on this route include Amberley, Billingshurst, Faygate and Norwood Junction (plus 7 more).",
       "id": "col_25"
     },
     {
@@ -387,7 +387,7 @@
       "category": "route",
       "match_count": 11,
       "display": "Is part of the Coastway route",
-      "hint": "A station on the Coastway route.",
+      "hint": "Stations on this route include Amberley, Billingshurst, Fishersgate and Nutbourne (plus 7 more).",
       "id": "col_26"
     },
     {
@@ -398,7 +398,7 @@
       "category": "route",
       "match_count": 11,
       "display": "Is part of the Epsom Downs Line route",
-      "hint": "A station on the Epsom Downs Line route.",
+      "hint": "Stations on this route include Banstead, Belmont, Epsom Downs and South Bermondsey (plus 7 more).",
       "id": "col_27"
     },
     {
@@ -409,7 +409,7 @@
       "category": "route",
       "match_count": 9,
       "display": "Is part of the Mole Valley Line route",
-      "hint": "A station on the Mole Valley Line route.",
+      "hint": "Stations on this route include Ashtead, Box Hill & Westhumble, Epsom (Surrey) and Leatherhead (plus 5 more).",
       "id": "col_28"
     },
     {

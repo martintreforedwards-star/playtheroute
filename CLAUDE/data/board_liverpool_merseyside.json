@@ -29,7 +29,6 @@
     "time_to_euston": null,
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
-    "time_to_hub__carlisle": null,
     "time_to_hub__liverpool_lime_st_central": 98.0,
     "time_to_hub__wrexham_chester": null
   },
@@ -60,7 +59,6 @@
     "time_to_euston": null,
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
-    "time_to_hub__carlisle": null,
     "time_to_hub__liverpool_lime_st_central": 8.0,
     "time_to_hub__wrexham_chester": null
   },
@@ -91,7 +89,6 @@
     "time_to_euston": null,
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
-    "time_to_hub__carlisle": null,
     "time_to_hub__liverpool_lime_st_central": 18.0,
     "time_to_hub__wrexham_chester": null
   },
@@ -124,7 +121,6 @@
     "time_to_euston": null,
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
-    "time_to_hub__carlisle": null,
     "time_to_hub__liverpool_lime_st_central": 36.0,
     "time_to_hub__wrexham_chester": null
   },
@@ -156,7 +152,6 @@
     "time_to_euston": null,
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
-    "time_to_hub__carlisle": null,
     "time_to_hub__liverpool_lime_st_central": 185.0,
     "time_to_hub__wrexham_chester": null
   },
@@ -190,7 +185,6 @@
     "time_to_euston": null,
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
-    "time_to_hub__carlisle": null,
     "time_to_hub__liverpool_lime_st_central": 33.0,
     "time_to_hub__wrexham_chester": null
   },
@@ -221,7 +215,6 @@
     "time_to_euston": null,
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
-    "time_to_hub__carlisle": null,
     "time_to_hub__liverpool_lime_st_central": 9.0,
     "time_to_hub__wrexham_chester": null
   },
@@ -250,7 +243,6 @@
     "time_to_euston": null,
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
-    "time_to_hub__carlisle": null,
     "time_to_hub__liverpool_lime_st_central": 71.0,
     "time_to_hub__wrexham_chester": null
   },
@@ -283,7 +275,6 @@
     "time_to_euston": null,
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
-    "time_to_hub__carlisle": null,
     "time_to_hub__liverpool_lime_st_central": 42.0,
     "time_to_hub__wrexham_chester": null
   },
@@ -316,7 +307,6 @@
     "time_to_euston": null,
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
-    "time_to_hub__carlisle": null,
     "time_to_hub__liverpool_lime_st_central": 36.0,
     "time_to_hub__wrexham_chester": null
   },
@@ -347,7 +337,6 @@
     "time_to_euston": null,
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
-    "time_to_hub__carlisle": null,
     "time_to_hub__liverpool_lime_st_central": 18.0,
     "time_to_hub__wrexham_chester": null
   },
@@ -378,7 +367,6 @@
     "time_to_euston": null,
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
-    "time_to_hub__carlisle": null,
     "time_to_hub__liverpool_lime_st_central": 34.0,
     "time_to_hub__wrexham_chester": null
   },
@@ -411,7 +399,6 @@
     "time_to_euston": null,
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
-    "time_to_hub__carlisle": null,
     "time_to_hub__liverpool_lime_st_central": 80.0,
     "time_to_hub__wrexham_chester": null
   },
@@ -444,7 +431,6 @@
     "time_to_euston": null,
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
-    "time_to_hub__carlisle": null,
     "time_to_hub__liverpool_lime_st_central": 24.0,
     "time_to_hub__wrexham_chester": null
   },
@@ -478,7 +464,6 @@
     "time_to_euston": null,
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
-    "time_to_hub__carlisle": null,
     "time_to_hub__liverpool_lime_st_central": 20.0,
     "time_to_hub__wrexham_chester": null
   },
@@ -509,42 +494,7 @@
     "time_to_euston": null,
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
-    "time_to_hub__carlisle": null,
     "time_to_hub__liverpool_lime_st_central": 13.0,
-    "time_to_hub__wrexham_chester": null
-  },
-  {
-    "station_id": "NR_0057",
-    "station_name": "Bootle (Cumbria)",
-    "name_word_count": 1,
-    "name_letter_count": 13,
-    "crs": "BOC",
-    "region": "Cumberland",
-    "operator": "Northern",
-    "route": [
-      "Cumbrian Coast Line",
-      "Furness Line"
-    ],
-    "is_interchange": true,
-    "is_coastal": true,
-    "terminus_max": 0,
-    "canonical_hub": "Carlisle",
-    "canonical_time_to_hub": 159.0,
-    "welsh_name": null,
-    "wordplay_category": "structure",
-    "wordplay_difficulty": "hard",
-    "wordplay_score": 1,
-    "wordplay_tags": [
-      "brackets"
-    ],
-    "time_to_glasgow_central": null,
-    "time_to_victoria": null,
-    "time_to_charing_cross": null,
-    "time_to_euston": null,
-    "time_to_liverpool_street": null,
-    "time_to_stratford": null,
-    "time_to_hub__carlisle": 159.0,
-    "time_to_hub__liverpool_lime_st_central": null,
     "time_to_hub__wrexham_chester": null
   },
   {
@@ -574,7 +524,6 @@
     "time_to_euston": null,
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
-    "time_to_hub__carlisle": null,
     "time_to_hub__liverpool_lime_st_central": 11.0,
     "time_to_hub__wrexham_chester": null
   },
@@ -606,7 +555,6 @@
     "time_to_euston": null,
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
-    "time_to_hub__carlisle": null,
     "time_to_hub__liverpool_lime_st_central": 108.0,
     "time_to_hub__wrexham_chester": null
   },
@@ -638,7 +586,6 @@
     "time_to_euston": null,
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
-    "time_to_hub__carlisle": null,
     "time_to_hub__liverpool_lime_st_central": 110.0,
     "time_to_hub__wrexham_chester": null
   },
@@ -669,7 +616,6 @@
     "time_to_euston": null,
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
-    "time_to_hub__carlisle": null,
     "time_to_hub__liverpool_lime_st_central": 4.0,
     "time_to_hub__wrexham_chester": null
   },
@@ -701,72 +647,7 @@
     "time_to_euston": null,
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
-    "time_to_hub__carlisle": null,
     "time_to_hub__liverpool_lime_st_central": 41.0,
-    "time_to_hub__wrexham_chester": null
-  },
-  {
-    "station_id": "NR_0063",
-    "station_name": "Braystones",
-    "name_word_count": 1,
-    "name_letter_count": 10,
-    "crs": "BYS",
-    "region": "Cumberland",
-    "operator": "Northern",
-    "route": [
-      "Cumbrian Coast Line",
-      "Furness Line"
-    ],
-    "is_interchange": true,
-    "is_coastal": true,
-    "terminus_max": 0,
-    "canonical_hub": "Carlisle",
-    "canonical_time_to_hub": 196.0,
-    "welsh_name": null,
-    "wordplay_category": "other",
-    "wordplay_difficulty": "easy",
-    "wordplay_score": 0,
-    "wordplay_tags": [],
-    "time_to_glasgow_central": null,
-    "time_to_victoria": null,
-    "time_to_charing_cross": null,
-    "time_to_euston": null,
-    "time_to_liverpool_street": null,
-    "time_to_stratford": null,
-    "time_to_hub__carlisle": 196.0,
-    "time_to_hub__liverpool_lime_st_central": null,
-    "time_to_hub__wrexham_chester": null
-  },
-  {
-    "station_id": "NR_0114",
-    "station_name": "Corkickle",
-    "name_word_count": 1,
-    "name_letter_count": 9,
-    "crs": "CKL",
-    "region": "Cumberland",
-    "operator": "Northern",
-    "route": [
-      "Cumbrian Coast Line",
-      "Furness Line"
-    ],
-    "is_interchange": true,
-    "is_coastal": true,
-    "terminus_max": 19,
-    "canonical_hub": "Carlisle",
-    "canonical_time_to_hub": 98.0,
-    "welsh_name": null,
-    "wordplay_category": "other",
-    "wordplay_difficulty": "easy",
-    "wordplay_score": 0,
-    "wordplay_tags": [],
-    "time_to_glasgow_central": null,
-    "time_to_victoria": null,
-    "time_to_charing_cross": null,
-    "time_to_euston": null,
-    "time_to_liverpool_street": null,
-    "time_to_stratford": null,
-    "time_to_hub__carlisle": 98.0,
-    "time_to_hub__liverpool_lime_st_central": null,
     "time_to_hub__wrexham_chester": null
   },
   {
@@ -798,7 +679,6 @@
     "time_to_euston": null,
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
-    "time_to_hub__carlisle": null,
     "time_to_hub__liverpool_lime_st_central": 76.0,
     "time_to_hub__wrexham_chester": null
   },
@@ -831,7 +711,6 @@
     "time_to_euston": null,
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
-    "time_to_hub__carlisle": null,
     "time_to_hub__liverpool_lime_st_central": 10.0,
     "time_to_hub__wrexham_chester": null
   },
@@ -862,40 +741,7 @@
     "time_to_euston": null,
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
-    "time_to_hub__carlisle": null,
     "time_to_hub__liverpool_lime_st_central": 78.0,
-    "time_to_hub__wrexham_chester": null
-  },
-  {
-    "station_id": "NR_0144",
-    "station_name": "Drigg",
-    "name_word_count": 1,
-    "name_letter_count": 5,
-    "crs": "DRI",
-    "region": "Cumberland",
-    "operator": "Northern",
-    "route": [
-      "Cumbrian Coast Line",
-      "Furness Line"
-    ],
-    "is_interchange": true,
-    "is_coastal": true,
-    "terminus_max": 0,
-    "canonical_hub": "Carlisle",
-    "canonical_time_to_hub": 167.0,
-    "welsh_name": null,
-    "wordplay_category": "other",
-    "wordplay_difficulty": "easy",
-    "wordplay_score": 0,
-    "wordplay_tags": [],
-    "time_to_glasgow_central": null,
-    "time_to_victoria": null,
-    "time_to_charing_cross": null,
-    "time_to_euston": null,
-    "time_to_liverpool_street": null,
-    "time_to_stratford": null,
-    "time_to_hub__carlisle": 167.0,
-    "time_to_hub__liverpool_lime_st_central": null,
     "time_to_hub__wrexham_chester": null
   },
   {
@@ -927,7 +773,6 @@
     "time_to_euston": null,
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
-    "time_to_hub__carlisle": null,
     "time_to_hub__liverpool_lime_st_central": 41.0,
     "time_to_hub__wrexham_chester": null
   },
@@ -962,7 +807,6 @@
     "time_to_euston": null,
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
-    "time_to_hub__carlisle": null,
     "time_to_hub__liverpool_lime_st_central": 25.0,
     "time_to_hub__wrexham_chester": null
   },
@@ -997,7 +841,6 @@
     "time_to_euston": null,
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
-    "time_to_hub__carlisle": null,
     "time_to_hub__liverpool_lime_st_central": 4.0,
     "time_to_hub__wrexham_chester": null
   },
@@ -1030,7 +873,6 @@
     "time_to_euston": null,
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
-    "time_to_hub__carlisle": null,
     "time_to_hub__liverpool_lime_st_central": 14.0,
     "time_to_hub__wrexham_chester": null
   },
@@ -1063,7 +905,6 @@
     "time_to_euston": null,
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
-    "time_to_hub__carlisle": null,
     "time_to_hub__liverpool_lime_st_central": 30.0,
     "time_to_hub__wrexham_chester": null
   },
@@ -1095,7 +936,6 @@
     "time_to_euston": null,
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
-    "time_to_hub__carlisle": null,
     "time_to_hub__liverpool_lime_st_central": 194.0,
     "time_to_hub__wrexham_chester": null
   },
@@ -1126,42 +966,7 @@
     "time_to_euston": null,
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
-    "time_to_hub__carlisle": null,
     "time_to_hub__liverpool_lime_st_central": 32.0,
-    "time_to_hub__wrexham_chester": null
-  },
-  {
-    "station_id": "NR_0192",
-    "station_name": "Green Road",
-    "name_word_count": 2,
-    "name_letter_count": 9,
-    "crs": "GNR",
-    "region": "Cumberland",
-    "operator": "Northern",
-    "route": [
-      "Cumbrian Coast Line",
-      "Furness Line"
-    ],
-    "is_interchange": true,
-    "is_coastal": true,
-    "terminus_max": 0,
-    "canonical_hub": "Carlisle",
-    "canonical_time_to_hub": 154.0,
-    "welsh_name": null,
-    "wordplay_category": "nature",
-    "wordplay_difficulty": "medium",
-    "wordplay_score": 1,
-    "wordplay_tags": [
-      "green"
-    ],
-    "time_to_glasgow_central": null,
-    "time_to_victoria": null,
-    "time_to_charing_cross": null,
-    "time_to_euston": null,
-    "time_to_liverpool_street": null,
-    "time_to_stratford": null,
-    "time_to_hub__carlisle": 154.0,
-    "time_to_hub__liverpool_lime_st_central": null,
     "time_to_hub__wrexham_chester": null
   },
   {
@@ -1192,7 +997,6 @@
     "time_to_euston": null,
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
-    "time_to_hub__carlisle": null,
     "time_to_hub__liverpool_lime_st_central": 38.0,
     "time_to_hub__wrexham_chester": null
   },
@@ -1224,7 +1028,6 @@
     "time_to_euston": null,
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
-    "time_to_hub__carlisle": null,
     "time_to_hub__liverpool_lime_st_central": 20.0,
     "time_to_hub__wrexham_chester": null
   },
@@ -1255,7 +1058,6 @@
     "time_to_euston": null,
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
-    "time_to_hub__carlisle": null,
     "time_to_hub__liverpool_lime_st_central": 26.0,
     "time_to_hub__wrexham_chester": null
   },
@@ -1284,7 +1086,6 @@
     "time_to_euston": null,
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
-    "time_to_hub__carlisle": null,
     "time_to_hub__liverpool_lime_st_central": 80.0,
     "time_to_hub__wrexham_chester": null
   },
@@ -1318,7 +1119,6 @@
     "time_to_euston": null,
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
-    "time_to_hub__carlisle": null,
     "time_to_hub__liverpool_lime_st_central": 40.0,
     "time_to_hub__wrexham_chester": null
   },
@@ -1349,7 +1149,6 @@
     "time_to_euston": null,
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
-    "time_to_hub__carlisle": null,
     "time_to_hub__liverpool_lime_st_central": 22.0,
     "time_to_hub__wrexham_chester": null
   },
@@ -1380,7 +1179,6 @@
     "time_to_euston": null,
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
-    "time_to_hub__carlisle": null,
     "time_to_hub__liverpool_lime_st_central": 18.0,
     "time_to_hub__wrexham_chester": null
   },
@@ -1413,7 +1211,6 @@
     "time_to_euston": null,
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
-    "time_to_hub__carlisle": null,
     "time_to_hub__liverpool_lime_st_central": 38.0,
     "time_to_hub__wrexham_chester": null
   },
@@ -1444,7 +1241,6 @@
     "time_to_euston": null,
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
-    "time_to_hub__carlisle": null,
     "time_to_hub__liverpool_lime_st_central": 26.0,
     "time_to_hub__wrexham_chester": null
   },
@@ -1478,7 +1274,6 @@
     "time_to_euston": null,
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
-    "time_to_hub__carlisle": null,
     "time_to_hub__liverpool_lime_st_central": 16.0,
     "time_to_hub__wrexham_chester": null
   },
@@ -1509,7 +1304,6 @@
     "time_to_euston": null,
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
-    "time_to_hub__carlisle": null,
     "time_to_hub__liverpool_lime_st_central": 103.0,
     "time_to_hub__wrexham_chester": null
   },
@@ -1544,43 +1338,7 @@
     "time_to_euston": null,
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
-    "time_to_hub__carlisle": null,
     "time_to_hub__liverpool_lime_st_central": 76.0,
-    "time_to_hub__wrexham_chester": null
-  },
-  {
-    "station_id": "NR_0259",
-    "station_name": "Kirkby-in-Furness",
-    "name_word_count": 3,
-    "name_letter_count": 15,
-    "crs": "KBF",
-    "region": "Westmorland and Furness",
-    "operator": "Northern",
-    "route": [
-      "Cumbrian Coast Line",
-      "Furness Line"
-    ],
-    "is_interchange": true,
-    "is_coastal": true,
-    "terminus_max": 0,
-    "canonical_hub": "Carlisle",
-    "canonical_time_to_hub": 145.0,
-    "welsh_name": null,
-    "wordplay_category": "structure",
-    "wordplay_difficulty": "hard",
-    "wordplay_score": 2,
-    "wordplay_tags": [
-      "hyphen",
-      "kirk"
-    ],
-    "time_to_glasgow_central": null,
-    "time_to_victoria": null,
-    "time_to_charing_cross": null,
-    "time_to_euston": null,
-    "time_to_liverpool_street": null,
-    "time_to_stratford": null,
-    "time_to_hub__carlisle": 145.0,
-    "time_to_hub__liverpool_lime_st_central": null,
     "time_to_hub__wrexham_chester": null
   },
   {
@@ -1614,7 +1372,6 @@
     "time_to_euston": null,
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
-    "time_to_hub__carlisle": null,
     "time_to_hub__liverpool_lime_st_central": 18.0,
     "time_to_hub__wrexham_chester": null
   },
@@ -1647,7 +1404,6 @@
     "time_to_euston": null,
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
-    "time_to_hub__carlisle": null,
     "time_to_hub__liverpool_lime_st_central": 9.0,
     "time_to_hub__wrexham_chester": null
   },
@@ -1680,7 +1436,6 @@
     "time_to_euston": null,
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
-    "time_to_hub__carlisle": null,
     "time_to_hub__liverpool_lime_st_central": 13.0,
     "time_to_hub__wrexham_chester": null
   },
@@ -1711,7 +1466,6 @@
     "time_to_euston": null,
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
-    "time_to_hub__carlisle": null,
     "time_to_hub__liverpool_lime_st_central": 94.0,
     "time_to_hub__wrexham_chester": null
   },
@@ -1743,7 +1497,6 @@
     "time_to_euston": null,
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
-    "time_to_hub__carlisle": null,
     "time_to_hub__liverpool_lime_st_central": 94.0,
     "time_to_hub__wrexham_chester": null
   },
@@ -1776,7 +1529,6 @@
     "time_to_euston": null,
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
-    "time_to_hub__carlisle": null,
     "time_to_hub__liverpool_lime_st_central": 88.0,
     "time_to_hub__wrexham_chester": null
   },
@@ -1807,7 +1559,6 @@
     "time_to_euston": null,
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
-    "time_to_hub__carlisle": null,
     "time_to_hub__liverpool_lime_st_central": 6.0,
     "time_to_hub__wrexham_chester": null
   },
@@ -1838,7 +1589,6 @@
     "time_to_euston": null,
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
-    "time_to_hub__carlisle": null,
     "time_to_hub__liverpool_lime_st_central": 12.0,
     "time_to_hub__wrexham_chester": null
   },
@@ -1869,7 +1619,6 @@
     "time_to_euston": null,
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
-    "time_to_hub__carlisle": null,
     "time_to_hub__liverpool_lime_st_central": 24.0,
     "time_to_hub__wrexham_chester": null
   },
@@ -1900,7 +1649,6 @@
     "time_to_euston": null,
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
-    "time_to_hub__carlisle": null,
     "time_to_hub__liverpool_lime_st_central": 99.0,
     "time_to_hub__wrexham_chester": null
   },
@@ -1932,7 +1680,6 @@
     "time_to_euston": null,
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
-    "time_to_hub__carlisle": null,
     "time_to_hub__liverpool_lime_st_central": 202.0,
     "time_to_hub__wrexham_chester": null
   },
@@ -1963,7 +1710,6 @@
     "time_to_euston": null,
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
-    "time_to_hub__carlisle": null,
     "time_to_hub__liverpool_lime_st_central": 101.0,
     "time_to_hub__wrexham_chester": null
   },
@@ -1994,7 +1740,6 @@
     "time_to_euston": null,
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
-    "time_to_hub__carlisle": null,
     "time_to_hub__liverpool_lime_st_central": 26.0,
     "time_to_hub__wrexham_chester": null
   },
@@ -2028,7 +1773,6 @@
     "time_to_euston": null,
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
-    "time_to_hub__carlisle": null,
     "time_to_hub__liverpool_lime_st_central": 90.0,
     "time_to_hub__wrexham_chester": null
   },
@@ -2063,7 +1807,6 @@
     "time_to_euston": null,
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
-    "time_to_hub__carlisle": null,
     "time_to_hub__liverpool_lime_st_central": 96.0,
     "time_to_hub__wrexham_chester": null
   },
@@ -2097,7 +1840,6 @@
     "time_to_euston": null,
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
-    "time_to_hub__carlisle": null,
     "time_to_hub__liverpool_lime_st_central": 10.0,
     "time_to_hub__wrexham_chester": null
   },
@@ -2128,40 +1870,7 @@
     "time_to_euston": null,
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
-    "time_to_hub__carlisle": null,
     "time_to_hub__liverpool_lime_st_central": 40.0,
-    "time_to_hub__wrexham_chester": null
-  },
-  {
-    "station_id": "NR_0322",
-    "station_name": "Nethertown",
-    "name_word_count": 1,
-    "name_letter_count": 10,
-    "crs": "NRT",
-    "region": "Cumberland",
-    "operator": "Northern",
-    "route": [
-      "Cumbrian Coast Line",
-      "Furness Line"
-    ],
-    "is_interchange": true,
-    "is_coastal": true,
-    "terminus_max": 0,
-    "canonical_hub": "Carlisle",
-    "canonical_time_to_hub": 198.0,
-    "welsh_name": null,
-    "wordplay_category": "other",
-    "wordplay_difficulty": "easy",
-    "wordplay_score": 0,
-    "wordplay_tags": [],
-    "time_to_glasgow_central": null,
-    "time_to_victoria": null,
-    "time_to_charing_cross": null,
-    "time_to_euston": null,
-    "time_to_liverpool_street": null,
-    "time_to_stratford": null,
-    "time_to_hub__carlisle": 198.0,
-    "time_to_hub__liverpool_lime_st_central": null,
     "time_to_hub__wrexham_chester": null
   },
   {
@@ -2191,7 +1900,6 @@
     "time_to_euston": null,
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
-    "time_to_hub__carlisle": null,
     "time_to_hub__liverpool_lime_st_central": 36.0,
     "time_to_hub__wrexham_chester": null
   },
@@ -2224,7 +1932,6 @@
     "time_to_euston": null,
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
-    "time_to_hub__carlisle": null,
     "time_to_hub__liverpool_lime_st_central": 16.0,
     "time_to_hub__wrexham_chester": null
   },
@@ -2255,7 +1962,6 @@
     "time_to_euston": null,
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
-    "time_to_hub__carlisle": null,
     "time_to_hub__liverpool_lime_st_central": 20.0,
     "time_to_hub__wrexham_chester": null
   },
@@ -2286,7 +1992,6 @@
     "time_to_euston": null,
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
-    "time_to_hub__carlisle": null,
     "time_to_hub__liverpool_lime_st_central": 90.0,
     "time_to_hub__wrexham_chester": null
   },
@@ -2318,40 +2023,7 @@
     "time_to_euston": null,
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
-    "time_to_hub__carlisle": null,
     "time_to_hub__liverpool_lime_st_central": 22.0,
-    "time_to_hub__wrexham_chester": null
-  },
-  {
-    "station_id": "NR_0360",
-    "station_name": "Ravenglass for Eskdale",
-    "name_word_count": 3,
-    "name_letter_count": 20,
-    "crs": "RAV",
-    "region": "Cumberland",
-    "operator": "Northern",
-    "route": [
-      "Cumbrian Coast Line",
-      "Furness Line"
-    ],
-    "is_interchange": true,
-    "is_coastal": true,
-    "terminus_max": 1,
-    "canonical_hub": "Carlisle",
-    "canonical_time_to_hub": 176.0,
-    "welsh_name": null,
-    "wordplay_category": "other",
-    "wordplay_difficulty": "easy",
-    "wordplay_score": 0,
-    "wordplay_tags": [],
-    "time_to_glasgow_central": null,
-    "time_to_victoria": null,
-    "time_to_charing_cross": null,
-    "time_to_euston": null,
-    "time_to_liverpool_street": null,
-    "time_to_stratford": null,
-    "time_to_hub__carlisle": 176.0,
-    "time_to_hub__liverpool_lime_st_central": null,
     "time_to_hub__wrexham_chester": null
   },
   {
@@ -2381,7 +2053,6 @@
     "time_to_euston": null,
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
-    "time_to_hub__carlisle": null,
     "time_to_hub__liverpool_lime_st_central": 24.0,
     "time_to_hub__wrexham_chester": null
   },
@@ -2412,7 +2083,6 @@
     "time_to_euston": null,
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
-    "time_to_hub__carlisle": null,
     "time_to_hub__liverpool_lime_st_central": 12.0,
     "time_to_hub__wrexham_chester": null
   },
@@ -2446,7 +2116,6 @@
     "time_to_euston": null,
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
-    "time_to_hub__carlisle": null,
     "time_to_hub__liverpool_lime_st_central": 14.0,
     "time_to_hub__wrexham_chester": null
   },
@@ -2475,7 +2144,6 @@
     "time_to_euston": null,
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
-    "time_to_hub__carlisle": null,
     "time_to_hub__liverpool_lime_st_central": 74.0,
     "time_to_hub__wrexham_chester": null
   },
@@ -2510,42 +2178,7 @@
     "time_to_euston": null,
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
-    "time_to_hub__carlisle": null,
     "time_to_hub__liverpool_lime_st_central": 102.0,
-    "time_to_hub__wrexham_chester": null
-  },
-  {
-    "station_id": "NR_0415",
-    "station_name": "St Bees",
-    "name_word_count": 2,
-    "name_letter_count": 6,
-    "crs": "SBS",
-    "region": "Cumberland",
-    "operator": "Northern",
-    "route": [
-      "Cumbrian Coast Line",
-      "Furness Line"
-    ],
-    "is_interchange": true,
-    "is_coastal": true,
-    "terminus_max": 0,
-    "canonical_hub": "Carlisle",
-    "canonical_time_to_hub": 74.0,
-    "welsh_name": null,
-    "wordplay_category": "structure",
-    "wordplay_difficulty": "hard",
-    "wordplay_score": 1,
-    "wordplay_tags": [
-      "saint"
-    ],
-    "time_to_glasgow_central": null,
-    "time_to_victoria": null,
-    "time_to_charing_cross": null,
-    "time_to_euston": null,
-    "time_to_liverpool_street": null,
-    "time_to_stratford": null,
-    "time_to_hub__carlisle": 74.0,
-    "time_to_hub__liverpool_lime_st_central": null,
     "time_to_hub__wrexham_chester": null
   },
   {
@@ -2575,40 +2208,7 @@
     "time_to_euston": null,
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
-    "time_to_hub__carlisle": null,
     "time_to_hub__liverpool_lime_st_central": 6.0,
-    "time_to_hub__wrexham_chester": null
-  },
-  {
-    "station_id": "NR_0394",
-    "station_name": "Sellafield",
-    "name_word_count": 1,
-    "name_letter_count": 10,
-    "crs": "SEL",
-    "region": "Cumberland",
-    "operator": "Northern",
-    "route": [
-      "Cumbrian Coast Line",
-      "Furness Line"
-    ],
-    "is_interchange": true,
-    "is_coastal": true,
-    "terminus_max": 0,
-    "canonical_hub": "Carlisle",
-    "canonical_time_to_hub": 172.0,
-    "welsh_name": null,
-    "wordplay_category": "other",
-    "wordplay_difficulty": "easy",
-    "wordplay_score": 0,
-    "wordplay_tags": [],
-    "time_to_glasgow_central": null,
-    "time_to_victoria": null,
-    "time_to_charing_cross": null,
-    "time_to_euston": null,
-    "time_to_liverpool_street": null,
-    "time_to_stratford": null,
-    "time_to_hub__carlisle": 172.0,
-    "time_to_hub__liverpool_lime_st_central": null,
     "time_to_hub__wrexham_chester": null
   },
   {
@@ -2640,40 +2240,7 @@
     "time_to_euston": null,
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
-    "time_to_hub__carlisle": null,
     "time_to_hub__liverpool_lime_st_central": 16.0,
-    "time_to_hub__wrexham_chester": null
-  },
-  {
-    "station_id": "NR_0401",
-    "station_name": "Silecroft",
-    "name_word_count": 1,
-    "name_letter_count": 9,
-    "crs": "SIC",
-    "region": "Cumberland",
-    "operator": "Northern",
-    "route": [
-      "Cumbrian Coast Line",
-      "Furness Line"
-    ],
-    "is_interchange": true,
-    "is_coastal": true,
-    "terminus_max": 0,
-    "canonical_hub": "Carlisle",
-    "canonical_time_to_hub": 280.0,
-    "welsh_name": null,
-    "wordplay_category": "other",
-    "wordplay_difficulty": "easy",
-    "wordplay_score": 0,
-    "wordplay_tags": [],
-    "time_to_glasgow_central": null,
-    "time_to_victoria": null,
-    "time_to_charing_cross": null,
-    "time_to_euston": null,
-    "time_to_liverpool_street": null,
-    "time_to_stratford": null,
-    "time_to_hub__carlisle": 280.0,
-    "time_to_hub__liverpool_lime_st_central": null,
     "time_to_hub__wrexham_chester": null
   },
   {
@@ -2704,7 +2271,6 @@
     "time_to_euston": null,
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
-    "time_to_hub__carlisle": null,
     "time_to_hub__liverpool_lime_st_central": 86.0,
     "time_to_hub__wrexham_chester": null
   },
@@ -2738,7 +2304,6 @@
     "time_to_euston": null,
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
-    "time_to_hub__carlisle": null,
     "time_to_hub__liverpool_lime_st_central": 30.0,
     "time_to_hub__wrexham_chester": null
   },
@@ -2771,7 +2336,6 @@
     "time_to_euston": null,
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
-    "time_to_hub__carlisle": null,
     "time_to_hub__liverpool_lime_st_central": 38.0,
     "time_to_hub__wrexham_chester": null
   },
@@ -2803,7 +2367,6 @@
     "time_to_euston": null,
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
-    "time_to_hub__carlisle": null,
     "time_to_hub__liverpool_lime_st_central": 78.0,
     "time_to_hub__wrexham_chester": null
   },
@@ -2834,7 +2397,6 @@
     "time_to_euston": null,
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
-    "time_to_hub__carlisle": null,
     "time_to_hub__liverpool_lime_st_central": 46.0,
     "time_to_hub__wrexham_chester": null
   },
@@ -2866,40 +2428,7 @@
     "time_to_euston": null,
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
-    "time_to_hub__carlisle": null,
     "time_to_hub__liverpool_lime_st_central": 105.0,
-    "time_to_hub__wrexham_chester": null
-  },
-  {
-    "station_id": "NR_0391",
-    "station_name": "Seascale",
-    "name_word_count": 1,
-    "name_letter_count": 8,
-    "crs": "SSC",
-    "region": "Cumberland",
-    "operator": "Northern",
-    "route": [
-      "Cumbrian Coast Line",
-      "Furness Line"
-    ],
-    "is_interchange": true,
-    "is_coastal": true,
-    "terminus_max": 0,
-    "canonical_hub": "Carlisle",
-    "canonical_time_to_hub": 183.0,
-    "welsh_name": null,
-    "wordplay_category": "other",
-    "wordplay_difficulty": "easy",
-    "wordplay_score": 0,
-    "wordplay_tags": [],
-    "time_to_glasgow_central": null,
-    "time_to_victoria": null,
-    "time_to_charing_cross": null,
-    "time_to_euston": null,
-    "time_to_liverpool_street": null,
-    "time_to_stratford": null,
-    "time_to_hub__carlisle": 183.0,
-    "time_to_hub__liverpool_lime_st_central": null,
     "time_to_hub__wrexham_chester": null
   },
   {
@@ -2931,7 +2460,6 @@
     "time_to_euston": null,
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
-    "time_to_hub__carlisle": null,
     "time_to_hub__liverpool_lime_st_central": 6.0,
     "time_to_hub__wrexham_chester": null
   },
@@ -2965,7 +2493,6 @@
     "time_to_euston": null,
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
-    "time_to_hub__carlisle": null,
     "time_to_hub__liverpool_lime_st_central": 28.0,
     "time_to_hub__wrexham_chester": null
   },
@@ -2998,7 +2525,6 @@
     "time_to_euston": null,
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
-    "time_to_hub__carlisle": null,
     "time_to_hub__liverpool_lime_st_central": 30.0,
     "time_to_hub__wrexham_chester": null
   },
@@ -3033,7 +2559,6 @@
     "time_to_euston": null,
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
-    "time_to_hub__carlisle": null,
     "time_to_hub__liverpool_lime_st_central": 14.0,
     "time_to_hub__wrexham_chester": null
   },
@@ -3066,7 +2591,6 @@
     "time_to_euston": null,
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
-    "time_to_hub__carlisle": null,
     "time_to_hub__liverpool_lime_st_central": 52.0,
     "time_to_hub__wrexham_chester": null
   },
@@ -3097,7 +2621,6 @@
     "time_to_euston": null,
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
-    "time_to_hub__carlisle": null,
     "time_to_hub__liverpool_lime_st_central": 86.0,
     "time_to_hub__wrexham_chester": null
   },
@@ -3131,7 +2654,6 @@
     "time_to_euston": null,
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
-    "time_to_hub__carlisle": null,
     "time_to_hub__liverpool_lime_st_central": 18.0,
     "time_to_hub__wrexham_chester": null
   },
@@ -3162,7 +2684,6 @@
     "time_to_euston": null,
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
-    "time_to_hub__carlisle": null,
     "time_to_hub__liverpool_lime_st_central": 84.0,
     "time_to_hub__wrexham_chester": null
   },
@@ -3195,39 +2716,7 @@
     "time_to_euston": null,
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
-    "time_to_hub__carlisle": null,
     "time_to_hub__liverpool_lime_st_central": 12.0,
-    "time_to_hub__wrexham_chester": null
-  },
-  {
-    "station_id": "NR_0458",
-    "station_name": "Whitehaven",
-    "name_word_count": 1,
-    "name_letter_count": 10,
-    "crs": "WTH",
-    "region": "Cumberland",
-    "operator": "Northern",
-    "route": [
-      "Cumbrian Coast Line"
-    ],
-    "is_interchange": false,
-    "is_coastal": true,
-    "terminus_max": 44,
-    "canonical_hub": "Carlisle",
-    "canonical_time_to_hub": 68.0,
-    "welsh_name": null,
-    "wordplay_category": "other",
-    "wordplay_difficulty": "easy",
-    "wordplay_score": 0,
-    "wordplay_tags": [],
-    "time_to_glasgow_central": null,
-    "time_to_victoria": null,
-    "time_to_charing_cross": null,
-    "time_to_euston": null,
-    "time_to_liverpool_street": null,
-    "time_to_stratford": null,
-    "time_to_hub__carlisle": 68.0,
-    "time_to_hub__liverpool_lime_st_central": null,
     "time_to_hub__wrexham_chester": null
   },
   {
@@ -3260,7 +2749,6 @@
     "time_to_euston": null,
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
-    "time_to_hub__carlisle": null,
     "time_to_hub__liverpool_lime_st_central": 87.0,
     "time_to_hub__wrexham_chester": null
   },
@@ -3291,7 +2779,6 @@
     "time_to_euston": null,
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
-    "time_to_hub__carlisle": null,
     "time_to_hub__liverpool_lime_st_central": null,
     "time_to_hub__wrexham_chester": 62.0
   }

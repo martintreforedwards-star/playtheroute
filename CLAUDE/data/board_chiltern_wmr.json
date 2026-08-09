@@ -1623,12 +1623,10 @@
     "canonical_hub": "Birmingham New Street",
     "canonical_time_to_hub": 87.0,
     "welsh_name": null,
-    "wordplay_category": "local_suffix",
-    "wordplay_difficulty": "medium",
-    "wordplay_score": 1,
-    "wordplay_tags": [
-      "ford"
-    ],
+    "wordplay_category": "other",
+    "wordplay_difficulty": "easy",
+    "wordplay_score": 0,
+    "wordplay_tags": [],
     "time_to_glasgow_central": null,
     "time_to_victoria": null,
     "time_to_charing_cross": null,
@@ -3211,12 +3209,10 @@
     "canonical_hub": "Birmingham New Street",
     "canonical_time_to_hub": 61.0,
     "welsh_name": null,
-    "wordplay_category": "local_suffix",
-    "wordplay_difficulty": "medium",
-    "wordplay_score": 1,
-    "wordplay_tags": [
-      "bury"
-    ],
+    "wordplay_category": "other",
+    "wordplay_difficulty": "easy",
+    "wordplay_score": 0,
+    "wordplay_tags": [],
     "time_to_glasgow_central": null,
     "time_to_victoria": null,
     "time_to_charing_cross": null,

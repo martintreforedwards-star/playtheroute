@@ -222,7 +222,7 @@
       "category": "route",
       "match_count": 31,
       "display": "Is part of the Hadrian's Wall Country Line route",
-      "hint": "A station on the Hadrian's Wall Country Line route.",
+      "hint": "Stations on this route include Allens West, Corbridge, Hexham and Seaham (plus 27 more).",
       "id": "col_11"
     },
     {
@@ -233,7 +233,7 @@
       "category": "route",
       "match_count": 31,
       "display": "Is part of the Tyne Valley Line route",
-      "hint": "A station on the Tyne Valley Line route.",
+      "hint": "Stations on this route include Allens West, Corbridge, Hexham and Seaham (plus 27 more).",
       "id": "col_12"
     },
     {
@@ -244,7 +244,7 @@
       "category": "route",
       "match_count": 28,
       "display": "Is part of the Esk Valley Railway route",
-      "hint": "A station on the Esk Valley Railway route.",
+      "hint": "Stations on this route include Battersby, Great Ayton, Kildale and Seaham (plus 24 more).",
       "id": "col_13"
     },
     {
@@ -255,7 +255,7 @@
       "category": "route",
       "match_count": 18,
       "display": "Is part of the Tees Valley Line route",
-      "hint": "A station on the Tees Valley Line route.",
+      "hint": "Stations on this route include Allens West, Eaglescliffe, Newcastle and Redcar East (plus 14 more).",
       "id": "col_14"
     },
     {
@@ -266,7 +266,7 @@
       "category": "route",
       "match_count": 18,
       "display": "Is part of the Durham Coast Line route",
-      "hint": "A station on the Durham Coast Line route.",
+      "hint": "Stations on this route include Billingham, Hartlepool, Middlesbrough and Seaham (plus 14 more).",
       "id": "col_15"
     },
     {
@@ -277,7 +277,7 @@
       "category": "route",
       "match_count": 9,
       "display": "Is part of the Northumberland Line route",
-      "hint": "A station on the Northumberland Line route.",
+      "hint": "Stations on this route include Ashington, Blyth Bebside, Manors and Newsham (plus 5 more).",
       "id": "col_16"
     },
     {
@@ -288,7 +288,7 @@
       "category": "route",
       "match_count": 8,
       "display": "Is part of the Cumbrian Coast Line route",
-      "hint": "A station on the Cumbrian Coast Line route.",
+      "hint": "Stations on this route include Aspatria, Flimby, Maryport and Wigton (plus 4 more).",
       "id": "col_17"
     },
     {
@@ -299,7 +299,7 @@
       "category": "route",
       "match_count": 5,
       "display": "Is part of the East Coast Main Line route",
-      "hint": "A station on the East Coast Main Line route.",
+      "hint": "Stations on this route include Acklington, Alnmouth, Chathill and Pegswood (plus 1 more).",
       "id": "col_18"
     },
     {
@@ -310,7 +310,7 @@
       "category": "route",
       "match_count": 5,
       "display": "Is part of the Bishop Line route",
-      "hint": "A station on the Bishop Line route.",
+      "hint": "Stations on this route include Bishop Auckland, Heighington, Newton Aycliffe and North Road (Darlington) (plus 1 more).",
       "id": "col_19"
     },
     {
@@ -321,7 +321,7 @@
       "category": "route",
       "match_count": 5,
       "display": "Is part of the Heritage Line route",
-      "hint": "A station on the Heritage Line route.",
+      "hint": "Stations on this route include Bishop Auckland, Heighington, Newton Aycliffe and North Road (Darlington) (plus 1 more).",
       "id": "col_20"
     },
     {

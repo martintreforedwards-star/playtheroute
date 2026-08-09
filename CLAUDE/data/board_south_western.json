@@ -5805,10 +5805,12 @@
     "canonical_hub": "London",
     "canonical_time_to_hub": 0.0,
     "welsh_name": null,
-    "wordplay_category": "other",
-    "wordplay_difficulty": "easy",
-    "wordplay_score": 0,
-    "wordplay_tags": [],
+    "wordplay_category": "local_suffix",
+    "wordplay_difficulty": "medium",
+    "wordplay_score": 1,
+    "wordplay_tags": [
+      "don"
+    ],
     "time_to_glasgow_central": null,
     "time_to_victoria": null,
     "time_to_charing_cross": null,

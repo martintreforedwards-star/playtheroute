@@ -182,40 +182,6 @@
       "id": "col_8"
     },
     {
-      "type": "range",
-      "field": "time_to_glasgow_central",
-      "max": 61.0,
-      "label": "Time to Glasgow Central: shortest third",
-      "category": "service",
-      "match_count": 20,
-      "display": "A short journey to Glasgow Central",
-      "hint": "In this puzzle, 'short' means under 61 minutes to Glasgow Central.",
-      "id": "col_9"
-    },
-    {
-      "type": "range",
-      "field": "time_to_glasgow_central",
-      "min": 61.0,
-      "max": 72.0,
-      "label": "Time to Glasgow Central: middle third",
-      "category": "service",
-      "match_count": 22,
-      "display": "A mid-range journey to Glasgow Central",
-      "hint": "In this puzzle, 'mid-range' means 61-72 minutes to Glasgow Central.",
-      "id": "col_10"
-    },
-    {
-      "type": "range",
-      "field": "time_to_glasgow_central",
-      "min": 72.0,
-      "label": "Time to Glasgow Central: longest third",
-      "category": "service",
-      "match_count": 21,
-      "display": "A long journey to Glasgow Central",
-      "hint": "In this puzzle, 'long' means 72+ minutes to Glasgow Central.",
-      "id": "col_11"
-    },
-    {
       "type": "array_contains",
       "field": "route",
       "value": "Fife Circle",
@@ -223,8 +189,8 @@
       "category": "route",
       "match_count": 20,
       "display": "Is part of the Fife Circle route",
-      "hint": "A station on the Fife Circle route.",
-      "id": "col_12"
+      "hint": "Stations on this route include Aberdour, Dalgety Bay, Glenrothes with Thornton and Lochgelly (plus 16 more).",
+      "id": "col_9"
     },
     {
       "type": "array_contains",
@@ -234,8 +200,8 @@
       "category": "route",
       "match_count": 9,
       "display": "Is part of the Shotts Line route",
-      "hint": "A station on the Shotts Line route.",
-      "id": "col_13"
+      "hint": "Stations on this route include Addiewell, Curriehill, Kirknewton and Slateford (plus 5 more).",
+      "id": "col_10"
     },
     {
       "type": "array_contains",
@@ -245,8 +211,8 @@
       "category": "route",
       "match_count": 9,
       "display": "Is part of the Borders Railway route",
-      "hint": "A station on the Borders Railway route.",
-      "id": "col_14"
+      "hint": "Stations on this route include Brunstane, Galashiels, Newcraighall and Shawfair (plus 5 more).",
+      "id": "col_11"
     },
     {
       "type": "array_contains",
@@ -256,8 +222,8 @@
       "category": "route",
       "match_count": 8,
       "display": "Is part of the North Berwick Line route",
-      "hint": "A station on the North Berwick Line route.",
-      "id": "col_15"
+      "hint": "Stations on this route include Drem, East Linton, Musselburgh and Prestonpans (plus 4 more).",
+      "id": "col_12"
     },
     {
       "type": "array_contains",
@@ -267,8 +233,8 @@
       "category": "route",
       "match_count": 5,
       "display": "Is part of the Argyle Line route",
-      "hint": "A station on the Argyle Line route.",
-      "id": "col_16"
+      "hint": "Stations on this route include Armadale, Bathgate, Edinburgh Park and Livingston North (plus 1 more).",
+      "id": "col_13"
     },
     {
       "type": "array_contains",
@@ -278,8 +244,8 @@
       "category": "route",
       "match_count": 5,
       "display": "Is part of the North Clyde Electrics route",
-      "hint": "A station on the North Clyde Electrics route.",
-      "id": "col_17"
+      "hint": "Stations on this route include Armadale, Bathgate, Edinburgh Park and Livingston North (plus 1 more).",
+      "id": "col_14"
     },
     {
       "type": "array_contains",
@@ -289,8 +255,8 @@
       "category": "route",
       "match_count": 4,
       "display": "Is part of the Edinburghâ€“Glasgow Main Line route",
-      "hint": "A station on the Edinburghâ€“Glasgow Main Line route.",
-      "id": "col_18"
+      "hint": "Stations on this route include Edinburgh Waverley, Haymarket, Linlithgow and Polmont.",
+      "id": "col_15"
     },
     {
       "type": "equals",
@@ -301,7 +267,7 @@
       "match_count": 9,
       "display": "Naming style: Scottish/Gaelic place-name roots",
       "hint": "The name includes a Scottish or Gaelic place-name element, like Inver-, Glen-, Loch- or Kirk-.",
-      "id": "col_19"
+      "id": "col_16"
     },
     {
       "type": "equals",
@@ -312,7 +278,7 @@
       "match_count": 8,
       "display": "Naming style: a common English place-name ending",
       "hint": "The name ends in a common English place-name suffix, like -ton, -ham, -by or -dale.",
-      "id": "col_20"
+      "id": "col_17"
     },
     {
       "type": "array_contains",
@@ -323,7 +289,7 @@
       "match_count": 6,
       "display": "Word contains 'ton'",
       "hint": "Word contains 'ton'.",
-      "id": "col_21"
+      "id": "col_18"
     }
   ]
 }

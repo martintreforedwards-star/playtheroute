@@ -244,7 +244,7 @@
       "category": "route",
       "match_count": 8,
       "display": "Route operated by Island Line.",
-      "hint": "This station is served by Island Line.",
+      "hint": "Operated by Island Line. Stations include Brading, Ryde Esplanade, Ryde St Johns Road and Shanklin (plus 4 more).",
       "id": "col_13"
     },
     {
@@ -255,7 +255,7 @@
       "category": "route",
       "match_count": 65,
       "display": "Is part of the South West Main Line route",
-      "hint": "A station on the South West Main Line route.",
+      "hint": "Stations on this route include Andover, Fareham, New Malden and St Denys (plus 61 more).",
       "id": "col_14"
     },
     {
@@ -266,7 +266,7 @@
       "category": "route",
       "match_count": 42,
       "display": "Is part of the Hounslow Loop route",
-      "hint": "A station on the Hounslow Loop route.",
+      "hint": "Stations on this route include Addlestone, Feltham, Norbiton and Sunbury (plus 38 more).",
       "id": "col_15"
     },
     {
@@ -277,7 +277,7 @@
       "category": "route",
       "match_count": 25,
       "display": "Is part of the Kingston Loop route",
-      "hint": "A station on the Kingston Loop route.",
+      "hint": "Stations on this route include Barnes, Kempton Park, Putney and Strawberry Hill (plus 21 more).",
       "id": "col_16"
     },
     {
@@ -288,7 +288,7 @@
       "category": "route",
       "match_count": 22,
       "display": "Is part of the Waterloo to Reading Line route",
-      "hint": "A station on the Waterloo to Reading Line route.",
+      "hint": "Stations on this route include Ascot (Berks), Earley, Putney and Sunningdale (plus 18 more).",
       "id": "col_17"
     },
     {
@@ -299,7 +299,7 @@
       "category": "route",
       "match_count": 17,
       "display": "Is part of the Windsor Line route",
-      "hint": "A station on the Windsor Line route.",
+      "hint": "Stations on this route include Ashford (Surrey), Mortlake, Richmond (London) and Twickenham (plus 13 more).",
       "id": "col_18"
     },
     {
@@ -310,7 +310,7 @@
       "category": "route",
       "match_count": 17,
       "display": "Is part of the New Guildford Line route",
-      "hint": "A station on the New Guildford Line route.",
+      "hint": "Stations on this route include Bookham, Earlsfield, Horsley and Oxshott (plus 13 more).",
       "id": "col_19"
     },
     {
@@ -321,7 +321,7 @@
       "category": "route",
       "match_count": 17,
       "display": "Is part of the Solent Link route",
-      "hint": "A station on the Solent Link route.",
+      "hint": "Stations on this route include Bitterne, Eastleigh, Hedge End and Portsmouth & Southsea (plus 13 more).",
       "id": "col_20"
     },
     {
@@ -332,7 +332,7 @@
       "category": "route",
       "match_count": 14,
       "display": "Is part of the Alton Line route",
-      "hint": "A station on the Alton Line route.",
+      "hint": "Stations on this route include Aldershot, Bentley (Hampshire), Farnham and Walton-on-Thames (plus 10 more).",
       "id": "col_21"
     },
     {
@@ -343,7 +343,7 @@
       "category": "route",
       "match_count": 14,
       "display": "Is part of the Shepperton Branch route",
-      "hint": "A station on the Shepperton Branch route.",
+      "hint": "Stations on this route include Earlsfield, Hampton Wick, Norbiton and Strawberry Hill (plus 10 more).",
       "id": "col_22"
     },
     {
@@ -354,7 +354,7 @@
       "category": "route",
       "match_count": 12,
       "display": "Is part of the Solent & Wessex route",
-      "hint": "A station on the Solent & Wessex route.",
+      "hint": "Stations on this route include Bedhampton, Haslemere, Liss and Rowlands Castle (plus 8 more).",
       "id": "col_23"
     },
     {
@@ -365,7 +365,7 @@
       "category": "route",
       "match_count": 11,
       "display": "Is part of the East Devon Line route",
-      "hint": "A station on the East Devon Line route.",
+      "hint": "Stations on this route include Axminster, Crewkerne, Honiton and Templecombe (plus 7 more).",
       "id": "col_24"
     },
     {
@@ -376,7 +376,7 @@
       "category": "route",
       "match_count": 8,
       "display": "Is part of the Island Line route",
-      "hint": "A station on the Island Line route.",
+      "hint": "Stations on this route include Brading, Ryde Esplanade, Ryde St Johns Road and Shanklin (plus 4 more).",
       "id": "col_25"
     },
     {
@@ -387,7 +387,7 @@
       "category": "route",
       "match_count": 7,
       "display": "Is part of the Chessington Branch route",
-      "hint": "A station on the Chessington Branch route.",
+      "hint": "Stations on this route include Chessington North, Chessington South, Malden Manor and Raynes Park (plus 3 more).",
       "id": "col_26"
     },
     {
@@ -398,7 +398,7 @@
       "category": "route",
       "match_count": 6,
       "display": "Is part of the Hampton Court Branch route",
-      "hint": "A station on the Hampton Court Branch route.",
+      "hint": "Stations on this route include Earlsfield, Hampton Court, Raynes Park and Surbiton (plus 2 more).",
       "id": "col_27"
     },
     {
@@ -409,7 +409,7 @@
       "category": "route",
       "match_count": 3,
       "display": "Is part of the Lymington Branch Line route",
-      "hint": "A station on the Lymington Branch Line route.",
+      "hint": "Stations on this route include Brockenhurst, Lymington Pier and Lymington Town.",
       "id": "col_28"
     },
     {
@@ -418,7 +418,7 @@
       "value": "local_suffix",
       "label": "Wordplay: local_suffix",
       "category": "name",
-      "match_count": 64,
+      "match_count": 65,
       "display": "Naming style: a common English place-name ending",
       "hint": "The name ends in a common English place-name suffix, like -ton, -ham, -by or -dale.",
       "id": "col_29"
@@ -506,7 +506,7 @@
       "value": "don",
       "label": "Name contains 'don'",
       "category": "name",
-      "match_count": 9,
+      "match_count": 10,
       "display": "Word contains 'don'",
       "hint": "Word contains 'don'.",
       "id": "col_37"

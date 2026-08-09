@@ -290,7 +290,7 @@
       "category": "route",
       "match_count": 26,
       "display": "Is part of the Far North Line route",
-      "hint": "A station on the Far North Line route.",
+      "hint": "Stations on this route include Achanalt, Conon Bridge, Helmsdale and Lochluichart (plus 22 more).",
       "id": "col_18"
     },
     {
@@ -301,7 +301,7 @@
       "category": "route",
       "match_count": 22,
       "display": "Is part of the Aberdeen to Inverness Line route",
-      "hint": "A station on the Aberdeen to Inverness Line route.",
+      "hint": "Stations on this route include Balmossie, Dunkeld & Birnam, Insch and Kintore (plus 18 more).",
       "id": "col_19"
     },
     {
@@ -312,7 +312,7 @@
       "category": "route",
       "match_count": 13,
       "display": "Is part of the Highland Main Line route",
-      "hint": "A station on the Highland Main Line route.",
+      "hint": "Stations on this route include Aviemore, Carnoustie, Dunkeld & Birnam and Laurencekirk (plus 9 more).",
       "id": "col_20"
     },
     {
@@ -323,7 +323,7 @@
       "category": "route",
       "match_count": 11,
       "display": "Is part of the Kyle Line route",
-      "hint": "A station on the Kyle Line route.",
+      "hint": "Stations on this route include Achnasheen, Attadale, Duncraig and Plockton (plus 7 more).",
       "id": "col_21"
     },
     {
@@ -334,7 +334,7 @@
       "category": "route",
       "match_count": 7,
       "display": "Is part of the Dundee to Arbroath Line route",
-      "hint": "A station on the Dundee to Arbroath Line route.",
+      "hint": "Stations on this route include Balmossie, Barry Links, Carnoustie and Invergowrie (plus 3 more).",
       "id": "col_22"
     },
     {
@@ -345,7 +345,7 @@
       "category": "route",
       "match_count": 6,
       "display": "Is part of the Aberdeen Line route",
-      "hint": "A station on the Aberdeen Line route.",
+      "hint": "Stations on this route include Aberdeen, Arbroath, Leuchars and Montrose (plus 2 more).",
       "id": "col_23"
     },
     {

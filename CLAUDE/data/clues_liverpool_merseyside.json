@@ -5,8 +5,8 @@
       "field": "is_interchange",
       "value": true,
       "label": "Interchange station",
-      "weight": "medium",
-      "match_count": 27,
+      "weight": "high",
+      "match_count": 15,
       "display": "Is an interchange station",
       "hint": "Served by two or more separate named routes, or where several lines physically meet.",
       "id": "row_0"
@@ -17,7 +17,7 @@
       "value": true,
       "label": "Coastal station",
       "weight": "medium",
-      "match_count": 45,
+      "match_count": 32,
       "display": "Near the coast",
       "hint": "A station within 3 kilometres of the coastline or an estuary.",
       "id": "row_1"
@@ -28,7 +28,7 @@
       "min": 1,
       "label": "Terminus station",
       "weight": "high",
-      "match_count": 20,
+      "match_count": 17,
       "display": "Terminus station",
       "hint": "At least some journeys terminate at this station - it's not just a stop along the way.",
       "id": "row_2"
@@ -39,7 +39,7 @@
       "value": 1,
       "label": "One-word name",
       "weight": "medium",
-      "match_count": 48,
+      "match_count": 39,
       "display": "Station name is one word",
       "hint": "Station is a one-word name.",
       "id": "row_3"
@@ -50,7 +50,7 @@
       "min": 3,
       "label": "Three or more words in name",
       "weight": "high",
-      "match_count": 14,
+      "match_count": 12,
       "display": "Station name is 3+ words",
       "hint": "Station name is three or more words long.",
       "id": "row_4"
@@ -62,7 +62,7 @@
       "min": 0,
       "max": 6,
       "weight": "high",
-      "match_count": 11,
+      "match_count": 9,
       "display": "Station name is 6 letters or fewer",
       "hint": "Station name is 6 characters or fewer.",
       "id": "row_5"
@@ -74,7 +74,7 @@
       "min": 7,
       "max": 10,
       "weight": "medium",
-      "match_count": 47,
+      "match_count": 39,
       "display": "Station name is 7-10 letters",
       "hint": "Station name length is between 7 and 10 characters.",
       "id": "row_6"
@@ -85,7 +85,7 @@
       "label": "Long name (11+ letters)",
       "min": 11,
       "weight": "medium",
-      "match_count": 44,
+      "match_count": 41,
       "display": "Station name is 11+ letters",
       "hint": "Station name is equal to or exceeds 11 characters.",
       "id": "row_7"
@@ -128,24 +128,13 @@
     {
       "type": "equals",
       "field": "region",
-      "value": "Cumberland",
-      "label": "Region: Cumberland",
-      "category": "geography",
-      "match_count": 13,
-      "display": "Is within the Cumberland region",
-      "hint": "This station is based within the Cumberland region.",
-      "id": "col_3"
-    },
-    {
-      "type": "equals",
-      "field": "region",
       "value": "Fylde",
       "label": "Region: Fylde",
       "category": "geography",
       "match_count": 6,
       "display": "Is within the Fylde region",
       "hint": "This station is based within the Fylde region.",
-      "id": "col_4"
+      "id": "col_3"
     },
     {
       "type": "equals",
@@ -156,7 +145,7 @@
       "match_count": 6,
       "display": "Is within the Knowsley region",
       "hint": "This station is based within the Knowsley region.",
-      "id": "col_5"
+      "id": "col_4"
     },
     {
       "type": "equals",
@@ -167,7 +156,7 @@
       "match_count": 5,
       "display": "Is within the West Lancashire region",
       "hint": "This station is based within the West Lancashire region.",
-      "id": "col_6"
+      "id": "col_5"
     },
     {
       "type": "equals",
@@ -178,7 +167,7 @@
       "match_count": 5,
       "display": "Is within the Cheshire West and Chester region",
       "hint": "This station is based within the Cheshire West and Chester region.",
-      "id": "col_7"
+      "id": "col_6"
     },
     {
       "type": "equals",
@@ -189,74 +178,7 @@
       "match_count": 4,
       "display": "Is within the St. Helens region",
       "hint": "This station is based within the St. Helens region.",
-      "id": "col_8"
-    },
-    {
-      "type": "equals",
-      "field": "region",
-      "value": "Westmorland and Furness",
-      "label": "Region: Westmorland and Furness",
-      "category": "geography",
-      "match_count": 3,
-      "display": "Is within the Westmorland and Furness region",
-      "hint": "This station is based within the Westmorland and Furness region.",
-      "id": "col_9"
-    },
-    {
-      "type": "equals",
-      "field": "canonical_hub",
-      "value": "Liverpool (Lime St/Central)",
-      "label": "Hub: Liverpool (Lime St/Central)",
-      "category": "geography",
-      "match_count": 88,
-      "display": "Trains head to Liverpool (Lime St/Central)",
-      "hint": "This station's journeys are routed via or towards Liverpool (Lime St/Central).",
-      "id": "col_10"
-    },
-    {
-      "type": "equals",
-      "field": "canonical_hub",
-      "value": "Carlisle",
-      "label": "Hub: Carlisle",
-      "category": "geography",
-      "match_count": 13,
-      "display": "Trains head to Carlisle",
-      "hint": "This station's journeys are routed via or towards Carlisle.",
-      "id": "col_11"
-    },
-    {
-      "type": "range",
-      "field": "time_to_hub__carlisle",
-      "max": 154.0,
-      "label": "Time to Carlisle: shortest third",
-      "category": "service",
-      "match_count": 5,
-      "display": "A short journey to Carlisle",
-      "hint": "In this puzzle, 'short' means under 154 minutes to Carlisle.",
-      "id": "col_12"
-    },
-    {
-      "type": "range",
-      "field": "time_to_hub__carlisle",
-      "min": 154.0,
-      "max": 176.0,
-      "label": "Time to Carlisle: middle third",
-      "category": "service",
-      "match_count": 5,
-      "display": "A mid-range journey to Carlisle",
-      "hint": "In this puzzle, 'mid-range' means 154-176 minutes to Carlisle.",
-      "id": "col_13"
-    },
-    {
-      "type": "range",
-      "field": "time_to_hub__carlisle",
-      "min": 176.0,
-      "label": "Time to Carlisle: longest third",
-      "category": "service",
-      "match_count": 5,
-      "display": "A long journey to Carlisle",
-      "hint": "In this puzzle, 'long' means 176+ minutes to Carlisle.",
-      "id": "col_14"
+      "id": "col_7"
     },
     {
       "type": "range",
@@ -267,7 +189,7 @@
       "match_count": 30,
       "display": "A short journey to Liverpool (Lime St/Central)",
       "hint": "In this puzzle, 'short' means under 20 minutes to Liverpool (Lime St/Central).",
-      "id": "col_15"
+      "id": "col_8"
     },
     {
       "type": "range",
@@ -279,7 +201,7 @@
       "match_count": 32,
       "display": "A mid-range journey to Liverpool (Lime St/Central)",
       "hint": "In this puzzle, 'mid-range' means 20-52 minutes to Liverpool (Lime St/Central).",
-      "id": "col_16"
+      "id": "col_9"
     },
     {
       "type": "range",
@@ -290,7 +212,7 @@
       "match_count": 30,
       "display": "A long journey to Liverpool (Lime St/Central)",
       "hint": "In this puzzle, 'long' means 52+ minutes to Liverpool (Lime St/Central).",
-      "id": "col_17"
+      "id": "col_10"
     },
     {
       "type": "equals",
@@ -298,10 +220,10 @@
       "value": "Northern",
       "label": "Operator: Northern",
       "category": "route",
-      "match_count": 45,
+      "match_count": 32,
       "display": "Route operated by Northern.",
-      "hint": "This station is served by Northern.",
-      "id": "col_18"
+      "hint": "Operated by Northern. Stations include Ansdell & Fairhaven, Edge Hill, Liverpool Lime Street and Salwick (plus 28 more).",
+      "id": "col_11"
     },
     {
       "type": "equals",
@@ -311,8 +233,8 @@
       "category": "route",
       "match_count": 57,
       "display": "Route operated by Merseyrail.",
-      "hint": "This station is served by Merseyrail.",
-      "id": "col_19"
+      "hint": "Operated by Merseyrail. Stations include Aigburth, Brunswick, Kirkdale and Orrell Park (plus 53 more).",
+      "id": "col_12"
     },
     {
       "type": "array_contains",
@@ -322,8 +244,8 @@
       "category": "route",
       "match_count": 36,
       "display": "Is part of the Northern Line route",
-      "hint": "A station on the Northern Line route.",
-      "id": "col_20"
+      "hint": "Stations on this route include Aigburth, Brunswick, Hunts Cross and Orrell Park (plus 32 more).",
+      "id": "col_13"
     },
     {
       "type": "array_contains",
@@ -333,30 +255,8 @@
       "category": "route",
       "match_count": 18,
       "display": "Is part of the Wirral Line route",
-      "hint": "A station on the Wirral Line route.",
-      "id": "col_21"
-    },
-    {
-      "type": "array_contains",
-      "field": "route",
-      "value": "Cumbrian Coast Line",
-      "label": "Route: Cumbrian Coast Line",
-      "category": "route",
-      "match_count": 16,
-      "display": "Is part of the Cumbrian Coast Line route",
-      "hint": "A station on the Cumbrian Coast Line route.",
-      "id": "col_22"
-    },
-    {
-      "type": "array_contains",
-      "field": "route",
-      "value": "Furness Line",
-      "label": "Route: Furness Line",
-      "category": "route",
-      "match_count": 15,
-      "display": "Is part of the Furness Line route",
-      "hint": "A station on the Furness Line route.",
-      "id": "col_23"
+      "hint": "Stations on this route include Bidston, Birkenhead Park, Little Sutton and Moreton (Merseyside) (plus 14 more).",
+      "id": "col_14"
     },
     {
       "type": "array_contains",
@@ -366,8 +266,8 @@
       "category": "route",
       "match_count": 12,
       "display": "Is part of the Liverpool to Manchester Line route",
-      "hint": "A station on the Liverpool to Manchester Line route.",
-      "id": "col_24"
+      "hint": "Stations on this route include Bryn, Euxton Balshaw Lane, Ince & Elton (Cheshire) and Roby (plus 8 more).",
+      "id": "col_15"
     },
     {
       "type": "array_contains",
@@ -377,8 +277,8 @@
       "category": "route",
       "match_count": 10,
       "display": "Is part of the City Line (Merseyside) route",
-      "hint": "A station on the City Line (Merseyside) route.",
-      "id": "col_25"
+      "hint": "Stations on this route include Bryn, Edge Hill, Liverpool Lime Street and Roby (plus 6 more).",
+      "id": "col_16"
     },
     {
       "type": "array_contains",
@@ -388,8 +288,8 @@
       "category": "route",
       "match_count": 8,
       "display": "Is part of the Fylde Line route",
-      "hint": "A station on the Fylde Line route.",
-      "id": "col_26"
+      "hint": "Stations on this route include Ansdell & Fairhaven, Blackpool South, Moss Side and Squires Gate (plus 4 more).",
+      "id": "col_17"
     },
     {
       "type": "array_contains",
@@ -399,8 +299,8 @@
       "category": "route",
       "match_count": 8,
       "display": "Is part of the South Fylde Line route",
-      "hint": "A station on the South Fylde Line route.",
-      "id": "col_27"
+      "hint": "Stations on this route include Ansdell & Fairhaven, Blackpool South, Moss Side and Squires Gate (plus 4 more).",
+      "id": "col_18"
     },
     {
       "type": "array_contains",
@@ -410,8 +310,30 @@
       "category": "route",
       "match_count": 6,
       "display": "Is part of the Liverpool to Manchester Line via Warrington Central route",
-      "hint": "A station on the Liverpool to Manchester Line via Warrington Central route.",
-      "id": "col_28"
+      "hint": "Stations on this route include Edge Hill, Halewood, Mossley Hill and Sankey for Penketh (plus 2 more).",
+      "id": "col_19"
+    },
+    {
+      "type": "array_contains",
+      "field": "route",
+      "value": "Cumbrian Coast Line",
+      "label": "Route: Cumbrian Coast Line",
+      "category": "route",
+      "match_count": 3,
+      "display": "Is part of the Cumbrian Coast Line route",
+      "hint": "Stations on this route include Askam, Foxfield and Millom.",
+      "id": "col_20"
+    },
+    {
+      "type": "array_contains",
+      "field": "route",
+      "value": "Furness Line",
+      "label": "Route: Furness Line",
+      "category": "route",
+      "match_count": 3,
+      "display": "Is part of the Furness Line route",
+      "hint": "Stations on this route include Askam, Foxfield and Millom.",
+      "id": "col_21"
     },
     {
       "type": "equals",
@@ -422,7 +344,7 @@
       "match_count": 25,
       "display": "Naming style: a common English place-name ending",
       "hint": "The name ends in a common English place-name suffix, like -ton, -ham, -by or -dale.",
-      "id": "col_29"
+      "id": "col_22"
     },
     {
       "type": "equals",
@@ -430,10 +352,10 @@
       "value": "structure",
       "label": "Wordplay: structure",
       "category": "name",
-      "match_count": 15,
+      "match_count": 12,
       "display": "Naming style: an unusual name format",
       "hint": "Something unusual about how the name is written - brackets, a hyphen, an ampersand, or 'St'.",
-      "id": "col_30"
+      "id": "col_23"
     },
     {
       "type": "equals",
@@ -441,10 +363,10 @@
       "value": "nature",
       "label": "Wordplay: nature",
       "category": "name",
-      "match_count": 8,
+      "match_count": 7,
       "display": "Naming style: a nature word in the name",
       "hint": "The name includes a nature word, like Park, Hill, Green, Heath or Wood.",
-      "id": "col_31"
+      "id": "col_24"
     },
     {
       "type": "array_contains",
@@ -455,7 +377,7 @@
       "match_count": 16,
       "display": "Word contains 'ton'",
       "hint": "Word contains 'ton'.",
-      "id": "col_32"
+      "id": "col_25"
     },
     {
       "type": "array_contains",
@@ -466,18 +388,7 @@
       "match_count": 6,
       "display": "Word contains 'park'",
       "hint": "Word contains 'park'.",
-      "id": "col_33"
-    },
-    {
-      "type": "array_contains",
-      "field": "wordplay_tags",
-      "value": "brackets",
-      "label": "Name contains 'brackets'",
-      "category": "name",
-      "match_count": 6,
-      "display": "Name includes brackets",
-      "hint": "The station name includes text in brackets, e.g. a disambiguator like '(Cumbria)'.",
-      "id": "col_34"
+      "id": "col_26"
     },
     {
       "type": "array_contains",
@@ -488,7 +399,7 @@
       "match_count": 6,
       "display": "Word contains 'side'",
       "hint": "Word contains 'side'.",
-      "id": "col_35"
+      "id": "col_27"
     },
     {
       "type": "array_contains",
@@ -499,7 +410,7 @@
       "match_count": 5,
       "display": "Name includes an '&'",
       "hint": "The station name includes an ampersand (&).",
-      "id": "col_36"
+      "id": "col_28"
     },
     {
       "type": "array_contains",
@@ -510,7 +421,7 @@
       "match_count": 5,
       "display": "Word contains 'by'",
       "hint": "Word contains 'by'.",
-      "id": "col_37"
+      "id": "col_29"
     },
     {
       "type": "array_contains",
@@ -521,18 +432,18 @@
       "match_count": 5,
       "display": "Word contains 'ey'",
       "hint": "Word contains 'ey'.",
-      "id": "col_38"
+      "id": "col_30"
     },
     {
       "type": "array_contains",
       "field": "wordplay_tags",
-      "value": "saint",
-      "label": "Name contains 'saint'",
+      "value": "brackets",
+      "label": "Name contains 'brackets'",
       "category": "name",
-      "match_count": 4,
-      "display": "Name includes 'St'",
-      "hint": "The station name includes 'St' (Saint).",
-      "id": "col_39"
+      "match_count": 5,
+      "display": "Name includes brackets",
+      "hint": "The station name includes text in brackets, e.g. a disambiguator like '(Cumbria)'.",
+      "id": "col_31"
     },
     {
       "type": "array_contains",
@@ -543,7 +454,7 @@
       "match_count": 3,
       "display": "Word contains 'dale'",
       "hint": "Word contains 'dale'.",
-      "id": "col_40"
+      "id": "col_32"
     },
     {
       "type": "array_contains",
@@ -554,7 +465,18 @@
       "match_count": 3,
       "display": "Word contains 'hill'",
       "hint": "Word contains 'hill'.",
-      "id": "col_41"
+      "id": "col_33"
+    },
+    {
+      "type": "array_contains",
+      "field": "wordplay_tags",
+      "value": "saint",
+      "label": "Name contains 'saint'",
+      "category": "name",
+      "match_count": 3,
+      "display": "Name includes 'St'",
+      "hint": "The station name includes 'St' (Saint).",
+      "id": "col_34"
     }
   ]
 }

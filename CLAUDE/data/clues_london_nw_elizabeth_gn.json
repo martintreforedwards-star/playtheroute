@@ -233,7 +233,7 @@
       "category": "route",
       "match_count": 36,
       "display": "Route operated by London Northwestern Railway.",
-      "hint": "This station is served by London Northwestern Railway.",
+      "hint": "Operated by London Northwestern Railway. Stations include Acton Bridge, Cheddington, Lidlington and Stewartby (plus 32 more).",
       "id": "col_13"
     },
     {
@@ -244,7 +244,7 @@
       "category": "route",
       "match_count": 20,
       "display": "Route operated by Elizabeth Line.",
-      "hint": "This station is served by Elizabeth Line.",
+      "hint": "Operated by Elizabeth Line. Stations include Acton Main Line, Custom House, Harold Wood and Maryland (plus 16 more).",
       "id": "col_14"
     },
     {
@@ -255,7 +255,7 @@
       "category": "route",
       "match_count": 50,
       "display": "Route operated by Great Northern.",
-      "hint": "This station is served by Great Northern.",
+      "hint": "Operated by Great Northern. Stations include Alexandra Palace, Enfield Chase, Huntingdon and Potters Bar (plus 46 more).",
       "id": "col_15"
     },
     {
@@ -266,7 +266,7 @@
       "category": "route",
       "match_count": 45,
       "display": "Is part of the Fen Line route",
-      "hint": "A station on the Fen Line route.",
+      "hint": "Stations on this route include Alexandra Palace, Enfield Chase, Huntingdon and Royston (plus 41 more).",
       "id": "col_16"
     },
     {
@@ -277,7 +277,7 @@
       "category": "route",
       "match_count": 32,
       "display": "Is part of the Great Northern route",
-      "hint": "A station on the Great Northern route.",
+      "hint": "Stations on this route include Alexandra Palace, Essex Road, Highbury & Islington and Old Street (plus 28 more).",
       "id": "col_17"
     },
     {
@@ -288,7 +288,7 @@
       "category": "route",
       "match_count": 20,
       "display": "Is part of the Elizabeth Line route",
-      "hint": "A station on the Elizabeth Line route.",
+      "hint": "Stations on this route include Acton Main Line, Custom House, Harold Wood and Maryland (plus 16 more).",
       "id": "col_18"
     },
     {
@@ -299,7 +299,7 @@
       "category": "route",
       "match_count": 18,
       "display": "Is part of the Northern City Line route",
-      "hint": "A station on the Northern City Line route.",
+      "hint": "Stations on this route include Alexandra Palace, Finsbury Park, Hornsey and Oakleigh Park (plus 14 more).",
       "id": "col_19"
     },
     {
@@ -310,7 +310,7 @@
       "category": "route",
       "match_count": 11,
       "display": "Is part of the Marston Vale Line route",
-      "hint": "A station on the Marston Vale Line route.",
+      "hint": "Stations on this route include Aspley Guise, Bletchley, Kempston Hardwick and Ridgmont (plus 7 more).",
       "id": "col_20"
     },
     {
@@ -321,7 +321,7 @@
       "category": "route",
       "match_count": 10,
       "display": "Is part of the Lioness Line route",
-      "hint": "A station on the Lioness Line route.",
+      "hint": "Stations on this route include Apsley, Cheddington, Leighton Buzzard and Northampton (plus 6 more).",
       "id": "col_21"
     },
     {
@@ -332,7 +332,7 @@
       "category": "route",
       "match_count": 9,
       "display": "Is part of the Northern Heights route",
-      "hint": "A station on the Northern Heights route.",
+      "hint": "Stations on this route include Alexandra Palace, Essex Road, Harringay and Hornsey (plus 5 more).",
       "id": "col_22"
     },
     {
@@ -343,7 +343,7 @@
       "category": "route",
       "match_count": 7,
       "display": "Is part of the Abbey Line route",
-      "hint": "A station on the Abbey Line route.",
+      "hint": "Stations on this route include Bricket Wood, Garston, Park Street and Watford Junction (plus 3 more).",
       "id": "col_23"
     },
     {

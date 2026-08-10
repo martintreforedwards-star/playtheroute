@@ -49,6 +49,9 @@ option{color:white;background:#111827}
 .network-status{text-align:center;font-weight:600}
 .live{color:#22c55e}.locked{color:#fbbf24}
 .rules-button{margin-left:auto;background:#111827;border:2px solid #1e3a8a;color:white;text-decoration:none;font-weight:700;font-size:.9rem;padding:10px 16px;border-radius:14px;white-space:nowrap}
+.footer-text{text-align:center;color:#6b7280;font-size:.82rem;line-height:1.8;margin:40px auto 0;width:100%}
+.footer-text a{color:#9ca3af;text-decoration:none;transition:.2s;margin:0 6px}
+.footer-text a:hover{color:white}
 </style>
 </head>
 <body>
@@ -68,7 +71,6 @@ option{color:white;background:#111827}
 <a href="/" style="display:block;"><img src="CLAUDE/newlogo.svg" class="logo" alt="The Route"></a>
 <a href="rules.html" class="rules-button">📖 Rules</a>
 </div>
-<div class="subtitle">Build the route. Find the pattern.</div>
 <div class="network-selector">
 <label>Choose your commuter network</label>
 <select id="network">
@@ -113,6 +115,17 @@ option{color:white;background:#111827}
 </div>
 <a href="#" id="playButton" class="play-button">Play today's route</a>
 <div id="networkStatus" class="network-status live">🟢 Live now — 20 networks available</div>
+
+<div class="footer-text">
+  Built for UK commuters.
+  <br><br>
+  <a href="https://x.com/playtheroute" target="_blank">X</a>
+  •
+  <a href="https://www.instagram.com/playtheroute?igsh=anpjb2J5NHR4Z2lr" target="_blank">Instagram</a>
+  •
+  <a href="https://www.tiktok.com/@the.route2?_r=1&_t=ZN-96kXeMFBhnq" target="_blank">TikTok</a>
+</div>
+
 </div>
 <script>
 const menuButton=document.getElementById("menuButton");

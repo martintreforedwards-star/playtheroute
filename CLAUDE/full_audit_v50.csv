@@ -1815,12 +1815,14 @@ SE_0003,London Cannon Street,,CST,Southeastern,"['Sevenoaks Main Line', 'Sevenoa
 SE_0001,London Charing Cross,,CHX,Southeastern,"['Sevenoaks Main Line', 'Sevenoaks Metro']",South East London,51.508362,-0.123835,FALSE,1,FALSE,36.49,,1097,1278,1814,1814,London,0,0,is_hub,,,,semetro,1
 SE_0021,London Victoria,,VIC,Southeastern,"['Chatham Main Line Metro', 'Bromley South Metro']",South East London,51.4966,-0.1448,TRUE,2,FALSE,37.74,,2618,3291,4406,4406,London,0,0,is_hub,,,,semetro,4
 SE_0015,St Pancras International,,STP,Southeastern,['High Speed 1'],Central London,51.531921,-0.126361,FALSE,1,FALSE,37.18,,341,402,663,663,London,0,0,is_hub,,,,semetro,1
+SE_0015,St Pancras International,,STP,Southeastern,['High Speed 1'],Central London,51.531921,-0.126361,FALSE,1,FALSE,37.18,,341,402,663,663,London,0,0,is_hub,,,,semainline,1
 SE_0083,Stratford International,,SFA,Southeastern,['High Speed 1'],South East London,51.544306,-0.009882,FALSE,1,FALSE,29.82,,0,0,0,0,London,54,54,darwin_interchange,,,,semetro,1
+SE_0083,Stratford International,,SFA,Southeastern,['High Speed 1'],South East London,51.544306,-0.009882,FALSE,1,FALSE,29.82,,0,0,0,0,London,54,54,darwin_interchange,,,,semainline,1
 SE_0005,Lewisham,,LEW,Southeastern,"['Dartford Loop', 'Bexleyheath Line']",South East London,51.466099,-0.014703,TRUE,2,FALSE,28.44,,26,10,19,26,London,10,10,darwin_interchange,,,,semetro,3
 SE_0007,Catford Bridge,,CFB,Southeastern,['Hayes Branch'],South East London,51.444725,-0.027142,FALSE,1,FALSE,29.29,,0,0,0,0,London,13,13,darwin_interchange,,,,semetro,2
 SE_0006,Ladywell,,LAD,Southeastern,['Hayes Branch'],South East London,51.456291,-0.019445,FALSE,1,FALSE,28.74,,0,0,0,0,London,12,12,darwin_interchange,,,,semetro,2
-SE_0062,Sydenham Hill,,SYH,Southeastern,['Catford Corridor'],South East London,51.433002,-0.079444,FALSE,1,FALSE,32.96,,0,0,0,0,London,21,21,darwin_interchange,,,,semetro,2
-SE_0061,West Dulwich,,WDU,Southeastern,['Catford Corridor'],South East London,51.440388,-0.090646,FALSE,1,FALSE,33.71,,0,0,0,0,London,20,20,darwin_interchange,,,,semetro,2
+SE_0062,Sydenham Hill,,SYH,Southeastern,"['Catford Corridor', 'Bromley South Metro']",South East London,51.433002,-0.079444,FALSE,1,FALSE,32.96,,0,0,0,0,London,21,21,darwin_interchange,,,,semetro,2
+SE_0061,West Dulwich,,WDU,Southeastern,"['Catford Corridor', 'Bromley South Metro']",South East London,51.440388,-0.090646,FALSE,1,FALSE,33.71,,0,0,0,0,London,20,20,darwin_interchange,,,,semetro,2
 SE_0019,New Cross,,NWX,Southeastern,"['Sevenoaks Main Line', 'Sevenoaks Metro']",South East London,51.476299,-0.032984,FALSE,1,FALSE,29.78,,5,0,0,5,London,8,8,darwin_interchange,,,,semetro,2
 SE_0084,Ebbsfleet International,,EBD,Southeastern,['High Speed 1'],North Kent,51.443009,0.320887,FALSE,1,FALSE,5.1,,0,0,0,0,London,44,44,darwin_interchange,,,,semainline,1
 SE_0016,Farringdon,,ZFD,Southeastern,"['Catford Loop Extended', 'Catford Corridor']",Central London,51.520071,-0.104665,TRUE,2,FALSE,35.42,,0,0,0,0,London,372,372,direct_match,,,,semetro,1
@@ -1934,7 +1936,7 @@ SE_0128,Knockholt,,KCK,Southeastern,"['Sevenoaks Main Line', 'Sevenoaks Metro']"
 SE_0081,Welling,,WLI,Southeastern,['Bexleyheath Line'],South East London,51.464966,0.101872,FALSE,1,FALSE,20.34,,0,0,0,0,London,22,22,darwin_interchange,,,,semetro,2
 SE_0056,Bellingham,,BGM,Southeastern,"['Catford Loop', 'Catford Loop Extended']",South East London,51.433826,-0.020421,FALSE,1,FALSE,28.85,,0,0,0,0,London,22,22,darwin_interchange,,,,semetro,2
 SE_0025,Blackheath,,BKH,Southeastern,"['Dartford Loop', 'Bexleyheath Line']",South East London,51.465706,0.008317,TRUE,2,FALSE,26.84,,0,0,0,0,London,13,13,darwin_interchange,,,,semetro,3
-SE_0067,Bromley South,,BMS,Southeastern,"['Chatham Main Line', 'Bromley South Main Line']",South East London,51.399887,0.018374,TRUE,2,FALSE,26.59,,12,78,40,78,London,26,26,darwin_interchange,,,,semetro,2
+SE_0067,Bromley South,,BMS,Southeastern,"['Chatham Main Line', 'Bromley South Main Line', 'Bromley South Metro']",South East London,51.399887,0.018374,TRUE,2,FALSE,26.59,,12,78,40,78,London,26,26,darwin_interchange,,,,semetro,2
 SE_0030,Charlton,,CTN,Southeastern,"['Dartford Loop', 'Greenwich Line']",South East London,51.486904,0.030852,TRUE,2,FALSE,25.51,,0,0,0,0,London,16,16,darwin_interchange,,,,semetro,2
 SE_0144,Marden,,MRN,Southeastern,"['Hastings Line', 'Southeastern Main Line']",Weald,51.175785,0.49359,TRUE,2,FALSE,23.88,,0,0,0,0,London,44,44,darwin_interchange,,,,semainline,2
 SE_0087,Meopham,,MEP,Southeastern,['Chatham Main Line'],North Kent,51.386368,0.356977,FALSE,1,FALSE,6.86,,6,0,1,6,London,32,32,darwin_interchange,,,,semainline,2

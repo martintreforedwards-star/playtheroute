@@ -176,7 +176,7 @@ function updateNetworkStatus(){
 const live=["semetro", "semainline", "thameslink_southern", "south_western", "gwr_london", "gwr_wales_corridor", "tfw_cymraeg", "chiltern_wmr", "london_nw_elizabeth_gn", "london_overground", "c2c_ga", "east_midlands_emr", "shrewsbury_wrexham_chester", "manchester_northern", "liverpool_merseyside", "leeds_sheffield_northern", "newcastle_northern", "edinburgh_scotrail", "glasgow_scotrail", "highlands_ne_scotrail"];
 if(!network.value){
 status.className="network-status";
-status.textContent="Choose a network to get started";
+status.textContent="";
 } else if(live.includes(network.value)){
 status.className="network-status live";
 status.textContent="🟢 Live now — 20 networks available";

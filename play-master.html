@@ -326,6 +326,11 @@ body {
   border: 2px solid #1d4ed8;
 }
 
+.cell.disabled-used {
+  cursor: not-allowed;
+  opacity: 0.55;
+}
+
 .cell:hover {
   transform: translateY(-2px);
   border-color: #3b82f6;
@@ -540,6 +545,16 @@ body {
   text-align: center;
 }
 
+.ticket-box.urgent {
+  border-color: #ef4444;
+  border-left-color: #ef4444;
+  background: rgba(60,10,10,0.95);
+}
+
+.ticket-box.urgent .ticket-number {
+  color: #f87171;
+}
+
 .ticket-title {
   color: rgba(
     255,
@@ -679,6 +694,27 @@ body {
     255,
     0.05
   );
+}
+
+.station-option.used {
+  opacity: 0.4;
+  cursor: not-allowed;
+  pointer-events: none;
+  text-decoration: line-through;
+}
+
+.no-results {
+  padding: 18px 14px;
+  color: rgba(255,255,255,0.55);
+  font-size: 0.92rem;
+  text-align: center;
+}
+
+.loading-state {
+  text-align: center;
+  padding: 60px 20px;
+  color: rgba(255,255,255,0.6);
+  font-size: 1rem;
 }
 
 @media (max-width: 760px) {
@@ -1099,9 +1135,6 @@ const boardState = [
 
 ];
 
-const cells =
-  document.querySelectorAll(".cell");
-
 const modal =
   document.getElementById(
     "stationModal"
@@ -1189,6 +1222,14 @@ function startExpressTimer() {
     timerCount.textContent =
       `${minutes}:${seconds}`;
 
+    // Visual urgency cue as the clock runs down: last 30 seconds
+    // flips the box to a red "urgent" style instead of staying neutral
+    // all the way to the alert() at zero.
+    timerBox.classList.toggle(
+      "urgent",
+      timeRemaining <= 30
+    );
+
   }
 
   renderTimer();
@@ -1219,7 +1260,7 @@ function startExpressTimer() {
 
       updateTicketDisplay();
 
-      alert(
+      showToast(
         "⏱ The express service has departed!"
       );
 
@@ -1565,6 +1606,15 @@ const NETWORKS = {
 };
 
 const files = NETWORKS[network];
+
+// Loading state: the grid is otherwise blank/unstyled while the JSON
+// fetches, which on a slow connection reads as "is this broken?". Show
+// a simple message in the grid area until data resolves or fails.
+const gameGridEl = document.getElementById("gameGrid");
+const gameGridLoadingHTML = gameGridEl.innerHTML;
+gameGridEl.innerHTML =
+  '<div class="loading-state" style="grid-column:1 / -1;">Loading today\u2019s route...</div>';
+
 Promise.all([
   fetch(files.stations).then(r => r.json()),
   fetch(files.clues).then(r => r.json()),
@@ -1572,6 +1622,9 @@ Promise.all([
   fetch(files.landmarks).then(r => r.json()).catch(() => [])
 ])
 .then(([stationData, clueData, puzzleBank, landmarkData]) => {
+
+// Restore the real grid markup now that data has arrived.
+gameGridEl.innerHTML = gameGridLoadingHTML;
 
 stations = stationData;
 clueLibrary = clueData;
@@ -1593,58 +1646,6 @@ activeRows = todaysPuzzle.rows.map(byId);
 activeColumns = todaysPuzzle.columns.map(byId);
 
 let attempts = 0;
-const WORD_GROUPS = {
-
-  nature: [
-    "wood",
-    "woods",
-    "hill",
-    "green",
-    "park",
-    "heath",
-    "grove",
-    "oak",
-    "elm",
-    "ash"
-  ],
-
-  water: [
-    "bay",
-    "sea",
-    "brook",
-    "river",
-    "mere",
-    "marsh",
-    "quay",
-    "harbour"
-  ],
-
-  direction: [
-    "north",
-    "south",
-    "east",
-    "west"
-  ],
-
-  settlement: [
-    "town",
-    "village",
-    "road",
-    "street",
-    "gate",
-    "cross",
-    "bridge"
-  ],
-
-  religious: [
-    "st",
-    "saint",
-    "abbey",
-    "priory",
-    "church"
-  ]
-
-};
 function cluePasses(clue, station) {
 
   if (clue.type === "array_contains") {
@@ -1695,22 +1696,6 @@ function cluePasses(clue, station) {
     station[clue.field] ===
     clue.value
   );
-if (clue.type === "word_group") {
-
-  const text =
-    String(
-      station[clue.field]
-    ).toLowerCase();
-
-  return WORD_GROUPS[
-    clue.group
-  ].some(
-    word => text.includes(
-      word.toLowerCase()
-    )
-  );
-
-}
 }
 function intersectionCount(rowClue, columnClue) {
   return stations.filter(
@@ -1864,21 +1849,27 @@ document.addEventListener("click", (e) => {
 
   }
 
+  // Re-attach cell click handlers now the grid markup has been rebuilt
+  // after the loading state.
+  wireCellClicks();
+
 })
 
 .catch(error => {
 
   console.log(error);
 
-  alert(
-    "JSON FAILED TO LOAD"
-  );
+  gameGridEl.innerHTML =
+    '<div class="loading-state" style="grid-column:1 / -1;">' +
+    'Couldn\u2019t load today\u2019s route. ' +
+    '<a href="javascript:location.reload()" style="color:#60a5fa;">Try again</a>' +
+    '</div>';
 
 });
 
 function renderBoard() {
 
-  cells.forEach((cell, index) => {
+  document.querySelectorAll(".cell").forEach((cell, index) => {
 
     const state =
       boardState[index];
@@ -1965,45 +1956,72 @@ if (!state.station) {
 
 }
 
-cells.forEach(cell => {
+// Cell click wiring lives in its own function so it can be re-run after
+// the grid is rebuilt following the loading state.
+function wireCellClicks() {
 
-cell.addEventListener(
-  "click",
-  () => {
+  document.querySelectorAll(".cell").forEach(cell => {
 
-    if (routeLocked || gameOver) {
-      return;
-    }
+    cell.addEventListener(
+      "click",
+      () => {
 
-      activeIndex =
-        Number(
-          cell.dataset.index
-        );
+        if (routeLocked || gameOver) {
+          return;
+        }
 
-      modal.style.display =
-        "flex";
+          activeIndex =
+            Number(
+              cell.dataset.index
+            );
 
-      renderStations(
-        stations
+          modal.style.display =
+            "flex";
+
+          renderStations(
+            stations
+          );
+
+          searchBox.value = "";
+
+          setTimeout(() => {
+
+            searchBox.focus();
+
+          }, 50);
+
+        }
+
       );
 
-      searchBox.value = "";
+  });
 
-      setTimeout(() => {
+}
 
-        searchBox.focus();
-
-      }, 50);
-
-    }
-
-  );
-
-});
+// Stations already placed elsewhere on the board (excluding the cell
+// currently being edited) - used to grey these out in the picker instead
+// of letting a player burn a ticket finding out at Submit time.
+function getUsedStationNames() {
+  return boardState
+    .filter((cell, idx) => cell.station && idx !== activeIndex)
+    .map(cell => cell.station.station_name);
+}
 
 function renderStations(list) {
 
   results.innerHTML = "";
+
+  if (list.length === 0) {
+
+    const empty = document.createElement("div");
+    empty.className = "no-results";
+    empty.textContent = "No stations match your search.";
+    results.appendChild(empty);
+    return;
+
+  }
+
+  const usedNames = getUsedStationNames();
 
   list
     .sort((a, b) =>
@@ -2019,11 +2037,22 @@ function renderStations(list) {
           "div"
         );
 
+      const isUsed =
+        !bonusMode &&
+        usedNames.includes(station.station_name);
+
       option.className =
-        "station-option";
+        "station-option" +
+        (isUsed ? " used" : "");
 
       option.textContent =
-        `${station.station_name} (${station.crs})`;
+        `${station.station_name} (${station.crs})` +
+        (isUsed ? " - already used" : "");
+
+      if (isUsed) {
+        results.appendChild(option);
+        return;
+      }
 
 option.onclick = () => {
 
@@ -2332,7 +2361,7 @@ function submitBoard() {
 
   if (filledCount < 8) {
 
-    alert(
+    showToast(
       "Please fill all 8 stations before submitting."
     );
 
@@ -2578,6 +2607,25 @@ document.getElementById(
   return;
 
 }
+
+      // Let the player pick a different station instead of getting stuck
+      // re-submitting the same wrong answer: reset back to "select" mode
+      // so the button offers a fresh pick rather than re-validating the
+      // same choice.
+      selectedBonusStation = null;
+
+      bonusButtonMode = "select";
+
+      const bonusBtn =
+        document.getElementById(
+          "bonusSelectButton"
+        );
+
+      bonusBtn.textContent = "Select Station";
+
+      document.getElementById(
+        "bonusSelectedStation"
+      ).textContent = "";
 
       return;
 

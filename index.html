@@ -52,6 +52,8 @@ option{color:white;background:#111827}
 .footer-text{text-align:center;color:#6b7280;font-size:.82rem;line-height:1.8;margin:40px auto 0;width:100%}
 .footer-text a{color:#9ca3af;text-decoration:none;transition:.2s;margin:0 6px}
 .footer-text a:hover{color:white}
+.clear-stamp{text-align:center;margin-top:10px;color:#9ca3af;font-size:.85rem;text-decoration:underline;cursor:pointer}
+.clear-stamp:hover{color:white}
 </style>
 </head>
 <body>
@@ -105,6 +107,7 @@ option{color:white;background:#111827}
 </optgroup>
 </select>
 <div id="stampBox" class="stamp-box">🎟 Stamp regular route</div>
+<div id="clearStamp" class="clear-stamp" style="display:none;">✕ Clear stamped route</div>
 </div>
 <div class="mode-grid">
 <div class="mode-card active" data-mode="standard">
@@ -136,6 +139,7 @@ menuButton.onclick=()=>{sideMenu.classList.add("open");overlay.classList.add("sh
 overlay.onclick=()=>{sideMenu.classList.remove("open");overlay.classList.remove("show");};
 const network=document.getElementById("network");
 const stampBox=document.getElementById("stampBox");
+const clearStamp=document.getElementById("clearStamp");
 const playButton=document.getElementById("playButton");
 const modeCards=document.querySelectorAll(".mode-card");
 const status=document.getElementById("networkStatus");
@@ -145,12 +149,28 @@ modeCards.forEach(c=>c.classList.toggle("active",c.dataset.mode===selectedMode))
 localStorage.setItem("routeMode",selectedMode);
 }
 modeCards.forEach(card=>card.onclick=()=>{selectedMode=card.dataset.mode;updateModes();});
-const savedRoute=localStorage.getItem("regularRoute");
-if(savedRoute){network.value=savedRoute;stampBox.classList.add("active");stampBox.textContent="✅ Regular route stamped";}
-stampBox.onclick=()=>{
-localStorage.setItem("regularRoute",network.value);
+function setStampedUI(){
 stampBox.classList.add("active");
 stampBox.textContent="✅ Regular route stamped";
+clearStamp.style.display="block";
+}
+function clearStampedUI(){
+stampBox.classList.remove("active");
+stampBox.textContent="🎟 Stamp regular route";
+clearStamp.style.display="none";
+}
+const savedRoute=localStorage.getItem("regularRoute");
+if(savedRoute){network.value=savedRoute;setStampedUI();}
+stampBox.onclick=()=>{
+if(!network.value)return;
+localStorage.setItem("regularRoute",network.value);
+setStampedUI();
+};
+clearStamp.onclick=()=>{
+localStorage.removeItem("regularRoute");
+clearStampedUI();
+network.value="";
+updateNetworkStatus();
 };
 function updateNetworkStatus(){
 const live=["semetro", "semainline", "thameslink_southern", "south_western", "gwr_london", "gwr_wales_corridor", "tfw_cymraeg", "chiltern_wmr", "london_nw_elizabeth_gn", "london_overground", "c2c_ga", "east_midlands_emr", "shrewsbury_wrexham_chester", "manchester_northern", "liverpool_merseyside", "leeds_sheffield_northern", "newcastle_northern", "edinburgh_scotrail", "glasgow_scotrail", "highlands_ne_scotrail"];

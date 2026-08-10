@@ -527,35 +527,24 @@
     {
       "type": "equals",
       "field": "wordplay_category",
+      "value": "welsh_place",
+      "label": "Wordplay: welsh_place",
+      "category": "name",
+      "match_count": 44,
+      "display": "Naming style: Welsh place-name roots",
+      "hint": "The name includes a Welsh place-name element, like Llan-, Aber-, Pen- or Caer-.",
+      "id": "col_39"
+    },
+    {
+      "type": "equals",
+      "field": "wordplay_category",
       "value": "structure",
       "label": "Wordplay: structure",
       "category": "name",
       "match_count": 21,
       "display": "Naming style: an unusual name format",
       "hint": "Something unusual about how the name is written - brackets, a hyphen, an ampersand, or 'St'.",
-      "id": "col_39"
-    },
-    {
-      "type": "equals",
-      "field": "wordplay_category",
-      "value": "place",
-      "label": "Wordplay: place",
-      "category": "name",
-      "match_count": 18,
-      "display": "Naming style: place",
-      "hint": "",
       "id": "col_40"
-    },
-    {
-      "type": "equals",
-      "field": "wordplay_category",
-      "value": "feature",
-      "label": "Wordplay: feature",
-      "category": "name",
-      "match_count": 16,
-      "display": "Naming style: feature",
-      "hint": "",
-      "id": "col_41"
     },
     {
       "type": "equals",
@@ -566,18 +555,7 @@
       "match_count": 12,
       "display": "Naming style: a common English place-name ending",
       "hint": "The name ends in a common English place-name suffix, like -ton, -ham, -by or -dale.",
-      "id": "col_42"
-    },
-    {
-      "type": "equals",
-      "field": "wordplay_category",
-      "value": "welsh_place",
-      "label": "Wordplay: welsh_place",
-      "category": "name",
-      "match_count": 10,
-      "display": "Naming style: Welsh place-name roots",
-      "hint": "The name includes a Welsh place-name element, like Llan-, Aber-, Pen- or Caer-.",
-      "id": "col_43"
+      "id": "col_41"
     },
     {
       "type": "equals",
@@ -588,7 +566,7 @@
       "match_count": 6,
       "display": "Naming style: a nature word in the name",
       "hint": "The name includes a nature word, like Park, Hill, Green, Heath or Wood.",
-      "id": "col_44"
+      "id": "col_42"
     },
     {
       "type": "array_contains",
@@ -599,7 +577,7 @@
       "match_count": 16,
       "display": "Word contains 'llan'",
       "hint": "Word contains 'llan'.",
-      "id": "col_45"
+      "id": "col_43"
     },
     {
       "type": "array_contains",
@@ -610,7 +588,7 @@
       "match_count": 11,
       "display": "Word contains 'ton'",
       "hint": "Word contains 'ton'.",
-      "id": "col_46"
+      "id": "col_44"
     },
     {
       "type": "array_contains",
@@ -621,7 +599,7 @@
       "match_count": 8,
       "display": "Name includes brackets",
       "hint": "The station name includes text in brackets, e.g. a disambiguator like '(Cumbria)'.",
-      "id": "col_47"
+      "id": "col_45"
     },
     {
       "type": "array_contains",
@@ -632,7 +610,7 @@
       "match_count": 8,
       "display": "Name includes an '&'",
       "hint": "The station name includes an ampersand (&).",
-      "id": "col_48"
+      "id": "col_46"
     },
     {
       "type": "array_contains",
@@ -643,7 +621,7 @@
       "match_count": 7,
       "display": "Word contains 'pen'",
       "hint": "Word contains 'pen'.",
-      "id": "col_49"
+      "id": "col_47"
     },
     {
       "type": "array_contains",
@@ -654,7 +632,7 @@
       "match_count": 6,
       "display": "Word contains 'park'",
       "hint": "Word contains 'park'.",
-      "id": "col_50"
+      "id": "col_48"
     },
     {
       "type": "array_contains",
@@ -665,7 +643,7 @@
       "match_count": 6,
       "display": "Word contains 'pont'",
       "hint": "Word contains 'pont'.",
-      "id": "col_51"
+      "id": "col_49"
     },
     {
       "type": "array_contains",
@@ -676,7 +654,7 @@
       "match_count": 5,
       "display": "Word contains 'tre'",
       "hint": "Word contains 'tre'.",
-      "id": "col_52"
+      "id": "col_50"
     },
     {
       "type": "array_contains",
@@ -687,7 +665,7 @@
       "match_count": 4,
       "display": "Word contains 'aber'",
       "hint": "Word contains 'aber'.",
-      "id": "col_53"
+      "id": "col_51"
     },
     {
       "type": "array_contains",
@@ -698,7 +676,7 @@
       "match_count": 4,
       "display": "Word contains 'port'",
       "hint": "Word contains 'port'.",
-      "id": "col_54"
+      "id": "col_52"
     },
     {
       "type": "array_contains",
@@ -709,7 +687,7 @@
       "match_count": 4,
       "display": "Name includes a hyphen",
       "hint": "The station name includes a hyphen.",
-      "id": "col_55"
+      "id": "col_53"
     },
     {
       "type": "array_contains",
@@ -720,7 +698,7 @@
       "match_count": 3,
       "display": "Word contains 'ey'",
       "hint": "Word contains 'ey'.",
-      "id": "col_56"
+      "id": "col_54"
     }
   ]
 }

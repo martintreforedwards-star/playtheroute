@@ -449,12 +449,12 @@
     {
       "type": "equals",
       "field": "wordplay_category",
-      "value": "place",
-      "label": "Wordplay: place",
+      "value": "welsh_place",
+      "label": "Wordplay: welsh_place",
       "category": "name",
-      "match_count": 12,
-      "display": "Naming style: place",
-      "hint": "",
+      "match_count": 27,
+      "display": "Naming style: Welsh place-name roots",
+      "hint": "The name includes a Welsh place-name element, like Llan-, Aber-, Pen- or Caer-.",
       "id": "col_32"
     },
     {
@@ -471,35 +471,13 @@
     {
       "type": "equals",
       "field": "wordplay_category",
-      "value": "welsh_place",
-      "label": "Wordplay: welsh_place",
-      "category": "name",
-      "match_count": 8,
-      "display": "Naming style: Welsh place-name roots",
-      "hint": "The name includes a Welsh place-name element, like Llan-, Aber-, Pen- or Caer-.",
-      "id": "col_34"
-    },
-    {
-      "type": "equals",
-      "field": "wordplay_category",
       "value": "structure",
       "label": "Wordplay: structure",
       "category": "name",
       "match_count": 7,
       "display": "Naming style: an unusual name format",
       "hint": "Something unusual about how the name is written - brackets, a hyphen, an ampersand, or 'St'.",
-      "id": "col_35"
-    },
-    {
-      "type": "equals",
-      "field": "wordplay_category",
-      "value": "feature",
-      "label": "Wordplay: feature",
-      "category": "name",
-      "match_count": 7,
-      "display": "Naming style: feature",
-      "hint": "",
-      "id": "col_36"
+      "id": "col_34"
     },
     {
       "type": "array_contains",
@@ -510,7 +488,7 @@
       "match_count": 13,
       "display": "Word contains 'llan'",
       "hint": "Word contains 'llan'.",
-      "id": "col_37"
+      "id": "col_35"
     },
     {
       "type": "array_contains",
@@ -521,7 +499,7 @@
       "match_count": 8,
       "display": "Word contains 'pen'",
       "hint": "Word contains 'pen'.",
-      "id": "col_38"
+      "id": "col_36"
     },
     {
       "type": "array_contains",
@@ -532,7 +510,7 @@
       "match_count": 6,
       "display": "Name includes brackets",
       "hint": "The station name includes text in brackets, e.g. a disambiguator like '(Cumbria)'.",
-      "id": "col_39"
+      "id": "col_37"
     },
     {
       "type": "array_contains",
@@ -543,7 +521,7 @@
       "match_count": 4,
       "display": "Word contains 'aber'",
       "hint": "Word contains 'aber'.",
-      "id": "col_40"
+      "id": "col_38"
     },
     {
       "type": "array_contains",
@@ -554,7 +532,7 @@
       "match_count": 4,
       "display": "Word contains 'ey'",
       "hint": "Word contains 'ey'.",
-      "id": "col_41"
+      "id": "col_39"
     },
     {
       "type": "array_contains",
@@ -565,7 +543,7 @@
       "match_count": 3,
       "display": "Word contains 'ton'",
       "hint": "Word contains 'ton'.",
-      "id": "col_42"
+      "id": "col_40"
     },
     {
       "type": "array_contains",
@@ -576,7 +554,7 @@
       "match_count": 3,
       "display": "Word contains 'ham'",
       "hint": "Word contains 'ham'.",
-      "id": "col_43"
+      "id": "col_41"
     }
   ]
 }

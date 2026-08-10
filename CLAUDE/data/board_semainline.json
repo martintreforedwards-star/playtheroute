@@ -47,7 +47,7 @@
     "canonical_hub": "London",
     "canonical_time_to_hub": 54.0,
     "welsh_name": null,
-    "wordplay_category": "suffix",
+    "wordplay_category": "local_suffix",
     "wordplay_difficulty": "medium",
     "wordplay_score": 1,
     "wordplay_tags": [
@@ -207,7 +207,7 @@
     "canonical_hub": "London",
     "canonical_time_to_hub": 60.0,
     "welsh_name": null,
-    "wordplay_category": "suffix",
+    "wordplay_category": "local_suffix",
     "wordplay_difficulty": "medium",
     "wordplay_score": 1,
     "wordplay_tags": [
@@ -394,7 +394,7 @@
     "canonical_hub": "London",
     "canonical_time_to_hub": 66.0,
     "welsh_name": null,
-    "wordplay_category": "place",
+    "wordplay_category": "local_suffix",
     "wordplay_difficulty": "medium",
     "wordplay_score": 1,
     "wordplay_tags": [
@@ -425,7 +425,7 @@
     "canonical_hub": "London",
     "canonical_time_to_hub": 36.0,
     "welsh_name": null,
-    "wordplay_category": "keyword",
+    "wordplay_category": "nature",
     "wordplay_difficulty": "medium",
     "wordplay_score": 1,
     "wordplay_tags": [
@@ -577,7 +577,7 @@
     "canonical_hub": "London",
     "canonical_time_to_hub": 50.0,
     "welsh_name": null,
-    "wordplay_category": "suffix",
+    "wordplay_category": "local_suffix",
     "wordplay_difficulty": "medium",
     "wordplay_score": 1,
     "wordplay_tags": [
@@ -609,7 +609,7 @@
     "canonical_hub": "London",
     "canonical_time_to_hub": 56.0,
     "welsh_name": null,
-    "wordplay_category": "suffix",
+    "wordplay_category": "local_suffix",
     "wordplay_difficulty": "medium",
     "wordplay_score": 1,
     "wordplay_tags": [
@@ -729,7 +729,7 @@
     "canonical_hub": "London",
     "canonical_time_to_hub": 57.0,
     "welsh_name": null,
-    "wordplay_category": "suffix",
+    "wordplay_category": "local_suffix",
     "wordplay_difficulty": "medium",
     "wordplay_score": 1,
     "wordplay_tags": [
@@ -818,7 +818,7 @@
     "canonical_hub": "London",
     "canonical_time_to_hub": 34.0,
     "welsh_name": null,
-    "wordplay_category": "suffix",
+    "wordplay_category": "local_suffix",
     "wordplay_difficulty": "medium",
     "wordplay_score": 1,
     "wordplay_tags": [
@@ -968,7 +968,7 @@
     "canonical_hub": "London",
     "canonical_time_to_hub": 46.0,
     "welsh_name": null,
-    "wordplay_category": "suffix",
+    "wordplay_category": "local_suffix",
     "wordplay_difficulty": "medium",
     "wordplay_score": 1,
     "wordplay_tags": [
@@ -1029,7 +1029,7 @@
     "canonical_hub": "London",
     "canonical_time_to_hub": 46.0,
     "welsh_name": null,
-    "wordplay_category": "place",
+    "wordplay_category": "local_suffix",
     "wordplay_difficulty": "medium",
     "wordplay_score": 1,
     "wordplay_tags": [
@@ -1182,7 +1182,7 @@
     "canonical_hub": "London",
     "canonical_time_to_hub": 54.0,
     "welsh_name": null,
-    "wordplay_category": "suffix",
+    "wordplay_category": "local_suffix",
     "wordplay_difficulty": "medium",
     "wordplay_score": 1,
     "wordplay_tags": [
@@ -1512,7 +1512,7 @@
     "canonical_hub": "London",
     "canonical_time_to_hub": 32.0,
     "welsh_name": null,
-    "wordplay_category": "suffix",
+    "wordplay_category": "local_suffix",
     "wordplay_difficulty": "medium",
     "wordplay_score": 1,
     "wordplay_tags": [
@@ -1633,7 +1633,7 @@
     "canonical_hub": "London",
     "canonical_time_to_hub": 46.0,
     "welsh_name": null,
-    "wordplay_category": "suffix",
+    "wordplay_category": "local_suffix",
     "wordplay_difficulty": "medium",
     "wordplay_score": 1,
     "wordplay_tags": [
@@ -1756,7 +1756,7 @@
     "canonical_hub": "London",
     "canonical_time_to_hub": 53.0,
     "welsh_name": null,
-    "wordplay_category": "suffix",
+    "wordplay_category": "local_suffix",
     "wordplay_difficulty": "medium",
     "wordplay_score": 1,
     "wordplay_tags": [
@@ -1818,7 +1818,7 @@
     "canonical_hub": "London",
     "canonical_time_to_hub": 42.0,
     "welsh_name": null,
-    "wordplay_category": "suffix",
+    "wordplay_category": "local_suffix",
     "wordplay_difficulty": "medium",
     "wordplay_score": 1,
     "wordplay_tags": [
@@ -1878,7 +1878,7 @@
     "canonical_hub": "London",
     "canonical_time_to_hub": 182.0,
     "welsh_name": null,
-    "wordplay_category": "suffix",
+    "wordplay_category": "local_suffix",
     "wordplay_difficulty": "medium",
     "wordplay_score": 1,
     "wordplay_tags": [
@@ -1970,7 +1970,7 @@
     "canonical_hub": "London",
     "canonical_time_to_hub": 44.0,
     "welsh_name": null,
-    "wordplay_category": "suffix",
+    "wordplay_category": "local_suffix",
     "wordplay_difficulty": "medium",
     "wordplay_score": 2,
     "wordplay_tags": [
@@ -2004,7 +2004,7 @@
     "canonical_hub": "London",
     "canonical_time_to_hub": 49.0,
     "welsh_name": null,
-    "wordplay_category": "suffix",
+    "wordplay_category": "local_suffix",
     "wordplay_difficulty": "medium",
     "wordplay_score": 2,
     "wordplay_tags": [
@@ -2067,7 +2067,7 @@
     "canonical_hub": "London",
     "canonical_time_to_hub": 64.0,
     "welsh_name": null,
-    "wordplay_category": "suffix",
+    "wordplay_category": "local_suffix",
     "wordplay_difficulty": "medium",
     "wordplay_score": 1,
     "wordplay_tags": [
@@ -2103,7 +2103,7 @@
     "canonical_hub": "London",
     "canonical_time_to_hub": 62.0,
     "welsh_name": null,
-    "wordplay_category": "suffix",
+    "wordplay_category": "local_suffix",
     "wordplay_difficulty": "medium",
     "wordplay_score": 1,
     "wordplay_tags": [
@@ -2258,7 +2258,7 @@
     "canonical_hub": "London",
     "canonical_time_to_hub": 75.0,
     "welsh_name": null,
-    "wordplay_category": "suffix",
+    "wordplay_category": "local_suffix",
     "wordplay_difficulty": "medium",
     "wordplay_score": 1,
     "wordplay_tags": [
@@ -2379,7 +2379,7 @@
     "canonical_hub": "London",
     "canonical_time_to_hub": 82.0,
     "welsh_name": null,
-    "wordplay_category": "suffix",
+    "wordplay_category": "local_suffix",
     "wordplay_difficulty": "medium",
     "wordplay_score": 1,
     "wordplay_tags": [
@@ -2443,7 +2443,7 @@
     "canonical_hub": "London",
     "canonical_time_to_hub": 73.0,
     "welsh_name": null,
-    "wordplay_category": "suffix",
+    "wordplay_category": "local_suffix",
     "wordplay_difficulty": "medium",
     "wordplay_score": 1,
     "wordplay_tags": [
@@ -2475,7 +2475,7 @@
     "canonical_hub": "London",
     "canonical_time_to_hub": 58.0,
     "welsh_name": null,
-    "wordplay_category": "suffix",
+    "wordplay_category": "local_suffix",
     "wordplay_difficulty": "medium",
     "wordplay_score": 1,
     "wordplay_tags": [
@@ -2537,7 +2537,7 @@
     "canonical_hub": "London",
     "canonical_time_to_hub": 82.0,
     "welsh_name": null,
-    "wordplay_category": "suffix",
+    "wordplay_category": "local_suffix",
     "wordplay_difficulty": "medium",
     "wordplay_score": 1,
     "wordplay_tags": [
@@ -2601,7 +2601,7 @@
     "canonical_hub": "London",
     "canonical_time_to_hub": 94.0,
     "welsh_name": null,
-    "wordplay_category": "place",
+    "wordplay_category": "local_suffix",
     "wordplay_difficulty": "medium",
     "wordplay_score": 1,
     "wordplay_tags": [
@@ -2692,7 +2692,7 @@
     "canonical_hub": "London",
     "canonical_time_to_hub": 72.0,
     "welsh_name": null,
-    "wordplay_category": "suffix",
+    "wordplay_category": "local_suffix",
     "wordplay_difficulty": "medium",
     "wordplay_score": 1,
     "wordplay_tags": [
@@ -2998,7 +2998,7 @@
     "canonical_hub": "London",
     "canonical_time_to_hub": 74.0,
     "welsh_name": null,
-    "wordplay_category": "suffix",
+    "wordplay_category": "local_suffix",
     "wordplay_difficulty": "medium",
     "wordplay_score": 1,
     "wordplay_tags": [
@@ -3299,7 +3299,7 @@
     "canonical_hub": "London",
     "canonical_time_to_hub": 92.0,
     "welsh_name": null,
-    "wordplay_category": "suffix",
+    "wordplay_category": "local_suffix",
     "wordplay_difficulty": "medium",
     "wordplay_score": 2,
     "wordplay_tags": [
@@ -3449,7 +3449,7 @@
     "canonical_hub": "London",
     "canonical_time_to_hub": 77.0,
     "welsh_name": null,
-    "wordplay_category": "suffix",
+    "wordplay_category": "local_suffix",
     "wordplay_difficulty": "medium",
     "wordplay_score": 1,
     "wordplay_tags": [

@@ -550,24 +550,13 @@
     {
       "type": "equals",
       "field": "wordplay_category",
-      "value": "place",
-      "label": "Wordplay: place",
+      "value": "welsh_place",
+      "label": "Wordplay: welsh_place",
       "category": "name",
-      "match_count": 63,
-      "display": "Naming style: place",
-      "hint": "",
+      "match_count": 108,
+      "display": "Naming style: Welsh place-name roots",
+      "hint": "The name includes a Welsh place-name element, like Llan-, Aber-, Pen- or Caer-.",
       "id": "col_41"
-    },
-    {
-      "type": "equals",
-      "field": "wordplay_category",
-      "value": "feature",
-      "label": "Wordplay: feature",
-      "category": "name",
-      "match_count": 45,
-      "display": "Naming style: feature",
-      "hint": "",
-      "id": "col_42"
     },
     {
       "type": "equals",
@@ -578,7 +567,7 @@
       "match_count": 9,
       "display": "Naming style: an unusual name format",
       "hint": "Something unusual about how the name is written - brackets, a hyphen, an ampersand, or 'St'.",
-      "id": "col_43"
+      "id": "col_42"
     },
     {
       "type": "array_contains",
@@ -589,7 +578,7 @@
       "match_count": 32,
       "display": "Word contains 'llan'",
       "hint": "Word contains 'llan'.",
-      "id": "col_44"
+      "id": "col_43"
     },
     {
       "type": "array_contains",
@@ -600,7 +589,7 @@
       "match_count": 20,
       "display": "Word contains 'pen'",
       "hint": "Word contains 'pen'.",
-      "id": "col_45"
+      "id": "col_44"
     },
     {
       "type": "array_contains",
@@ -611,7 +600,7 @@
       "match_count": 13,
       "display": "Word contains 'aber'",
       "hint": "Word contains 'aber'.",
-      "id": "col_46"
+      "id": "col_45"
     },
     {
       "type": "array_contains",
@@ -622,7 +611,7 @@
       "match_count": 10,
       "display": "Word contains 'tre'",
       "hint": "Word contains 'tre'.",
-      "id": "col_47"
+      "id": "col_46"
     },
     {
       "type": "array_contains",
@@ -633,7 +622,7 @@
       "match_count": 10,
       "display": "Word contains 'caer'",
       "hint": "Word contains 'caer'.",
-      "id": "col_48"
+      "id": "col_47"
     },
     {
       "type": "array_contains",
@@ -644,7 +633,7 @@
       "match_count": 8,
       "display": "Word contains 'pont'",
       "hint": "Word contains 'pont'.",
-      "id": "col_49"
+      "id": "col_48"
     },
     {
       "type": "array_contains",
@@ -655,7 +644,7 @@
       "match_count": 7,
       "display": "Name includes Welsh 'a'/'ac'",
       "hint": "The Welsh station name includes 'a' or 'ac' (meaning 'and'), joining two place names.",
-      "id": "col_50"
+      "id": "col_49"
     },
     {
       "type": "array_contains",
@@ -666,7 +655,7 @@
       "match_count": 3,
       "display": "Word contains 'ynys'",
       "hint": "Word contains 'ynys'.",
-      "id": "col_51"
+      "id": "col_50"
     },
     {
       "type": "array_contains",
@@ -677,7 +666,7 @@
       "match_count": 3,
       "display": "Word contains 'dinas'",
       "hint": "Word contains 'dinas'.",
-      "id": "col_52"
+      "id": "col_51"
     },
     {
       "type": "array_contains",
@@ -688,7 +677,7 @@
       "match_count": 3,
       "display": "Word contains 'glyn'",
       "hint": "Word contains 'glyn'.",
-      "id": "col_53"
+      "id": "col_52"
     },
     {
       "type": "array_contains",
@@ -699,7 +688,7 @@
       "match_count": 3,
       "display": "Word contains 'maes'",
       "hint": "Word contains 'maes'.",
-      "id": "col_54"
+      "id": "col_53"
     }
   ]
 }

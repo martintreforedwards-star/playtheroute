@@ -74,6 +74,7 @@ option{color:white;background:#111827}
 <div class="network-selector">
 <label>Choose your commuter network</label>
 <select id="network">
+<option value="" disabled selected>— Select a network —</option>
 <optgroup label="London & South East">
 <option value="semetro">Southeastern Metro</option>
 <option value="semainline">Southeastern Mainline</option>
@@ -153,7 +154,10 @@ stampBox.textContent="✅ Regular route stamped";
 };
 function updateNetworkStatus(){
 const live=["semetro", "semainline", "thameslink_southern", "south_western", "gwr_london", "gwr_wales_corridor", "tfw_cymraeg", "chiltern_wmr", "london_nw_elizabeth_gn", "london_overground", "c2c_ga", "east_midlands_emr", "shrewsbury_wrexham_chester", "manchester_northern", "liverpool_merseyside", "leeds_sheffield_northern", "newcastle_northern", "edinburgh_scotrail", "glasgow_scotrail", "highlands_ne_scotrail"];
-if(live.includes(network.value)){
+if(!network.value){
+status.className="network-status";
+status.textContent="Choose a network to get started";
+} else if(live.includes(network.value)){
 status.className="network-status live";
 status.textContent="🟢 Live now — 20 networks available";
 } else {
@@ -166,9 +170,13 @@ updateModes();
 updateNetworkStatus();
 playButton.onclick=(e)=>{
 e.preventDefault();
+if(!network.value){
+alert("Please choose a network first.");
+return;
+}
 const live=["semetro", "semainline", "thameslink_southern", "south_western", "gwr_london", "gwr_wales_corridor", "tfw_cymraeg", "chiltern_wmr", "london_nw_elizabeth_gn", "london_overground", "c2c_ga", "east_midlands_emr", "shrewsbury_wrexham_chester", "manchester_northern", "liverpool_merseyside", "leeds_sheffield_northern", "newcastle_northern", "edinburgh_scotrail", "glasgow_scotrail", "highlands_ne_scotrail"];
 if(!live.includes(network.value)){
-alert("This network is not live yet.");
+window.location.href="waiting-room.html";
 return;
 }
 window.location.href=`play-master.html?network=${network.value}&mode=${selectedMode}`;

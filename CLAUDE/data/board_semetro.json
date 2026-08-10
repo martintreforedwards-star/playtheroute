@@ -287,7 +287,8 @@
     "region": "South East London",
     "operator": "Southeastern",
     "route": [
-      "Catford Corridor"
+      "Catford Corridor",
+      "Bromley South Metro"
     ],
     "is_interchange": false,
     "is_coastal": false,
@@ -319,7 +320,8 @@
     "region": "South East London",
     "operator": "Southeastern",
     "route": [
-      "Catford Corridor"
+      "Catford Corridor",
+      "Bromley South Metro"
     ],
     "is_interchange": false,
     "is_coastal": false,
@@ -2440,7 +2442,8 @@
     "operator": "Southeastern",
     "route": [
       "Chatham Main Line",
-      "Bromley South Main Line"
+      "Bromley South Main Line",
+      "Bromley South Metro"
     ],
     "is_interchange": true,
     "is_coastal": false,

@@ -173,13 +173,24 @@
     {
       "type": "array_contains",
       "field": "route",
+      "value": "Bromley South Metro",
+      "label": "Route: Bromley South Metro",
+      "category": "route",
+      "match_count": 13,
+      "display": "Is part of the Bromley South Metro route",
+      "hint": "Stations on this route include Beckenham Junction, Bromley South, London Victoria and Petts Wood (plus 9 more).",
+      "id": "col_8"
+    },
+    {
+      "type": "array_contains",
+      "field": "route",
       "value": "Greenwich Line",
       "label": "Route: Greenwich Line",
       "category": "route",
       "match_count": 12,
       "display": "Is part of the Greenwich Line route",
       "hint": "Stations on this route include Abbey Wood, Deptford, London Bridge and Slade Green (plus 8 more).",
-      "id": "col_8"
+      "id": "col_9"
     },
     {
       "type": "array_contains",
@@ -190,7 +201,7 @@
       "match_count": 11,
       "display": "Is part of the Catford Corridor route",
       "hint": "Stations on this route include Beckenham Hill, Crofton Park, Herne Hill and Penge East (plus 7 more).",
-      "id": "col_9"
+      "id": "col_10"
     },
     {
       "type": "array_contains",
@@ -201,17 +212,6 @@
       "match_count": 11,
       "display": "Is part of the Catford Loop route",
       "hint": "Stations on this route include Bellingham, City Thameslink, Herne Hill and Nunhead (plus 7 more).",
-      "id": "col_10"
-    },
-    {
-      "type": "array_contains",
-      "field": "route",
-      "value": "Bromley South Metro",
-      "label": "Route: Bromley South Metro",
-      "category": "route",
-      "match_count": 10,
-      "display": "Is part of the Bromley South Metro route",
-      "hint": "Stations on this route include Beckenham Junction, Brixton, London Victoria and Penge East (plus 6 more).",
       "id": "col_11"
     },
     {

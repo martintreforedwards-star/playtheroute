@@ -504,6 +504,31 @@ body {
   font-weight: 700;
 }
 
+.reveal-hint-btn {
+  margin-top: 8px;
+  border: 1px solid rgba(251,191,36,0.5);
+  background: rgba(251,191,36,0.12);
+  color: #fbbf24;
+  font-size: 0.68rem;
+  font-weight: 700;
+  padding: 5px 8px;
+  border-radius: 999px;
+  cursor: pointer;
+  line-height: 1.2;
+}
+
+.reveal-hint-btn:hover {
+  background: rgba(251,191,36,0.22);
+}
+
+.reveal-hint-text {
+  margin-top: 8px;
+  color: #fbbf24;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+}
+
 .footer-row {
   display: flex;
   gap: 24px;
@@ -813,6 +838,17 @@ body {
 
   .empty-label {
     font-size: 0.65rem;
+  }
+
+  .reveal-hint-btn {
+    font-size: 0.56rem;
+    padding: 4px 6px;
+    margin-top: 5px;
+  }
+
+  .reveal-hint-text {
+    font-size: 0.58rem;
+    margin-top: 5px;
   }
 
 }
@@ -1157,7 +1193,16 @@ let stationFacts = {};
   
 let activeRows = [];
 let activeColumns = [];
-  
+
+// Reveal hint: for cells whose row+column combination genuinely only has
+// a handful of valid answers (the "D1 was tough" problem), offer a paid
+// per-cell hint that narrows it down by first letter. cellValidStations
+// is computed once per puzzle load; revealedHints tracks which cells the
+// player has already spent a ticket to reveal.
+const REVEAL_THRESHOLD = 5;
+let cellValidStations = [null, null, null, null, null, null, null, null];
+let revealedHints = [null, null, null, null, null, null, null, null];
+
 let activeIndex = null;
 let bonusMode = false;
 let bonusButtonMode = "select";
@@ -1645,6 +1690,17 @@ const todaysPuzzle = getTodaysPuzzle(network, puzzleBank);
 activeRows = todaysPuzzle.rows.map(byId);
 activeColumns = todaysPuzzle.columns.map(byId);
 
+// Precompute how many stations genuinely satisfy each cell's row+column
+// combination. clueMatches is declared later in this script but function
+// declarations are hoisted, so it's already callable here.
+for (let idx = 0; idx < 8; idx++) {
+  const rowClue = activeRows[idx % 2];
+  const colClue = activeColumns[Math.floor(idx / 2)];
+  cellValidStations[idx] = stations.filter(
+    s => clueMatches(s, rowClue) && clueMatches(s, colClue)
+  );
+}
+
 let attempts = 0;
 function cluePasses(clue, station) {
 
@@ -1867,6 +1923,41 @@ document.addEventListener("click", (e) => {
 
 });
 
+// Spends a ticket to reveal a first-letter hint for a genuinely thin cell
+// (row+column combination with under REVEAL_THRESHOLD valid stations).
+// Picks a random matching station rather than "the" answer, since these
+// cells intentionally have more than one valid match - it just narrows
+// the search, it doesn't hand over a single correct answer.
+function handleRevealClick(index) {
+
+  if (routeLocked || gameOver) return;
+  if (revealedHints[index]) return;
+
+  const validList = cellValidStations[index] || [];
+
+  if (validList.length === 0) return;
+
+  if (ticketsRemaining <= 0) {
+    showToast("No tickets left to reveal a hint.");
+    return;
+  }
+
+  const pick =
+    validList[Math.floor(Math.random() * validList.length)];
+
+  const letter =
+    pick.station_name.charAt(0).toUpperCase();
+
+  revealedHints[index] = `Starts with '${letter}'`;
+
+  ticketsRemaining = Math.max(0, ticketsRemaining - 1);
+
+  updateTicketDisplay();
+
+  renderBoard();
+
+}
+
 function renderBoard() {
 
   document.querySelectorAll(".cell").forEach((cell, index) => {
@@ -1897,13 +1988,46 @@ function renderBoard() {
 
 if (!state.station) {
 
+  const validList = cellValidStations[index] || [];
+  const isThin = validList.length > 0 && validList.length < REVEAL_THRESHOLD;
+  const hint = revealedHints[index];
+
+  let extraHtml = "";
+
+  if (isThin && hint) {
+
+    extraHtml = `<div class="reveal-hint-text">${hint}</div>`;
+
+  } else if (isThin && !routeLocked && !gameOver) {
+
+    extraHtml =
+      `<button type="button" class="reveal-hint-btn" data-reveal-index="${index}">` +
+      `🔍 Reveal (-1 ticket)</button>`;
+
+  }
+
   cell.innerHTML = `
     <div class="cell-inner">
       <div class="empty-label">
         Select Station
       </div>
+      ${extraHtml}
     </div>
   `;
+
+  const revealBtn = cell.querySelector(".reveal-hint-btn");
+
+  if (revealBtn) {
+
+    // Attached directly (not via document delegation) so stopPropagation
+    // reliably prevents the click also bubbling up to the cell's own
+    // click handler, which would otherwise open the station picker.
+    revealBtn.addEventListener("click", (e) => {
+      e.stopPropagation();
+      handleRevealClick(index);
+    });
+
+  }
 
   return;
 
@@ -2100,17 +2224,6 @@ option.onclick = () => {
       );
 
     });
-
-}
-  function getStationFact(stationName) {
-
-  const factData = stationFacts[stationName];
-
-  if (!factData || !factData.facts || !factData.facts.length) {
-    return "";
-  }
-
-  return `${factData.landmark} (${factData.distance_km}km away) - ${factData.facts[0]}`;
 
 }
 
@@ -2576,12 +2689,30 @@ document.getElementById(
     }
 
     // bonusButtonMode === "claim"
+    //
+    // Landmark Challenge is single-attempt: one guess, then it's resolved
+    // either way (win = ticket gained, loss = ticket lost) and the results
+    // modal opens. No retry loop - returnTicketClaimed also now doubles as
+    // the "already resolved" guard against a second claim of any kind.
 
     if (!selectedBonusStation) return;
     if (returnTicketClaimed) return;
+
+    returnTicketClaimed = true;
+
+    const challenge = window.currentLandmarkChallenge;
+
     const valid =
-  selectedBonusStation.station_name ===
-  window.currentLandmarkChallenge.closest_station;
+      selectedBonusStation.station_name ===
+      challenge.closest_station;
+
+    // Station fact always describes the actual landmark just asked about,
+    // not a name-keyed lookup that can silently pull a different landmark's
+    // fact if two landmarks in the network share the same closest_station.
+    const factText =
+      challenge && challenge.facts && challenge.facts.length
+        ? `${challenge.landmark} (${challenge.distance_km}km away) - ${challenge.facts[0]}`
+        : "";
 
     if (!valid) {
 
@@ -2594,76 +2725,42 @@ document.getElementById(
       ).innerHTML =
         `❌ Incorrect station (-1 ticket)<br><br>
          Correct answer:
-         <strong>${window.currentLandmarkChallenge.closest_station}</strong>`;
+         <strong>${challenge.closest_station}</strong>`;
 
-   if (ticketsRemaining === 0) {
+    } else {
 
-  document.getElementById(
-    "bonusMessage"
-  ).textContent =
-    "❌ No tickets remaining";
+      ticketsRemaining++;
 
-  endGame();
-  return;
-
-}
-
-      // Let the player pick a different station instead of getting stuck
-      // re-submitting the same wrong answer: reset back to "select" mode
-      // so the button offers a fresh pick rather than re-validating the
-      // same choice.
-      selectedBonusStation = null;
-
-      bonusButtonMode = "select";
-
-      const bonusBtn =
-        document.getElementById(
-          "bonusSelectButton"
-        );
-
-      bonusBtn.textContent = "Select Station";
+      updateTicketDisplay();
 
       document.getElementById(
-        "bonusSelectedStation"
-      ).textContent = "";
-
-      return;
+        "bonusMessage"
+      ).textContent =
+        "🎟 RETURN TICKET EARNED";
 
     }
 
-returnTicketClaimed = true;
-
-ticketsRemaining++;
-
-updateTicketDisplay();
+    document.getElementById(
+      "bonusSelectButton"
+    ).style.display = "none";
 
     document.getElementById(
-      "bonusMessage"
-    ).textContent =
-      "🎟 RETURN TICKET EARNED";
+      "bonusSelectedStation"
+    ).style.display = "none";
 
-    showResultsModal(true);
-    document.getElementById(
-  "bonusSelectButton"
-).style.display = "none";
-
-document.getElementById(
-  "bonusSelectedStation"
-).style.display = "none";
-const fact =
-  getStationFact(
-    selectedBonusStation.station_name
-  );
-
-document.getElementById(
-  "stationFact"
-).innerHTML =
-  fact
-    ? `<strong>Station fact:</strong><br>${fact}`
-    : "";
     document.getElementById(
       "bonusSelectButton"
     ).disabled = true;
+
+    // One guess either way - always proceeds to the results modal now.
+    showResultsModal(valid);
+
+    document.getElementById(
+      "stationFact"
+    ).innerHTML =
+      factText
+        ? `<strong>Station fact:</strong><br>${factText}`
+        : "";
 
   }
 );

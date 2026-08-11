@@ -2791,6 +2791,17 @@ document.getElementById(
     // One guess either way - always proceeds to the results modal now.
     showResultsModal(valid);
 
+    // Explicit answer reveal inside the modal itself - previously this
+    // only lived in the Landmark Challenge panel behind the modal, so it
+    // was invisible unless the player closed the modal to check. Now
+    // stated plainly for both outcomes.
+    document.getElementById(
+      "landmarkAnswerReveal"
+    ).innerHTML = valid
+      ? `✅ Correct! <strong>${challenge.closest_station}</strong> was the closest station to ${challenge.landmark}.`
+      : `❌ Not quite - you guessed <strong>${selectedBonusStation.station_name}</strong>. ` +
+        `The closest station to ${challenge.landmark} was <strong>${challenge.closest_station}</strong>.`;
+
     document.getElementById(
       "stationFact"
     ).innerHTML =
@@ -3016,9 +3027,17 @@ https://playtheroute.uk`;
 
     <div id="resultsStats"></div>
     <div
-  id="stationFact"
+  id="landmarkAnswerReveal"
   style="
     margin-top:20px;
+    font-weight:700;
+    line-height:1.5;
+  ">
+</div>
+    <div
+  id="stationFact"
+  style="
+    margin-top:12px;
     padding:16px;
     border-radius:16px;
     background:rgba(255,255,255,0.05);

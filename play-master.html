@@ -1958,6 +1958,53 @@ function handleRevealClick(index) {
 
 }
 
+// Builds the reveal-hint markup for a thin cell (shared between the empty
+// and invalid-answer render branches - a wrong guess is exactly when this
+// help is needed most, not a state where it should vanish).
+function buildRevealExtraHtml(index) {
+
+  const validList = cellValidStations[index] || [];
+  const isThin = validList.length > 0 && validList.length < REVEAL_THRESHOLD;
+  const hint = revealedHints[index];
+
+  if (isThin && hint) {
+
+    return `<div class="reveal-hint-text">${hint}</div>`;
+
+  }
+
+  if (isThin && !routeLocked && !gameOver) {
+
+    return (
+      `<button type="button" class="reveal-hint-btn" data-reveal-index="${index}">` +
+      `🔍 Reveal (-1 ticket)</button>`
+    );
+
+  }
+
+  return "";
+
+}
+
+// Attaches the reveal button's click handler directly (not via document
+// delegation) so stopPropagation reliably prevents the click also
+// bubbling up to the cell's own click handler, which would otherwise
+// open the station picker.
+function wireRevealButton(cell, index) {
+
+  const revealBtn = cell.querySelector(".reveal-hint-btn");
+
+  if (revealBtn) {
+
+    revealBtn.addEventListener("click", (e) => {
+      e.stopPropagation();
+      handleRevealClick(index);
+    });
+
+  }
+
+}
+
 function renderBoard() {
 
   document.querySelectorAll(".cell").forEach((cell, index) => {
@@ -1988,23 +2035,7 @@ function renderBoard() {
 
 if (!state.station) {
 
-  const validList = cellValidStations[index] || [];
-  const isThin = validList.length > 0 && validList.length < REVEAL_THRESHOLD;
-  const hint = revealedHints[index];
-
-  let extraHtml = "";
-
-  if (isThin && hint) {
-
-    extraHtml = `<div class="reveal-hint-text">${hint}</div>`;
-
-  } else if (isThin && !routeLocked && !gameOver) {
-
-    extraHtml =
-      `<button type="button" class="reveal-hint-btn" data-reveal-index="${index}">` +
-      `🔍 Reveal (-1 ticket)</button>`;
-
-  }
+  const extraHtml = buildRevealExtraHtml(index);
 
   cell.innerHTML = `
     <div class="cell-inner">
@@ -2015,19 +2046,7 @@ if (!state.station) {
     </div>
   `;
 
-  const revealBtn = cell.querySelector(".reveal-hint-btn");
-
-  if (revealBtn) {
-
-    // Attached directly (not via document delegation) so stopPropagation
-    // reliably prevents the click also bubbling up to the cell's own
-    // click handler, which would otherwise open the station picker.
-    revealBtn.addEventListener("click", (e) => {
-      e.stopPropagation();
-      handleRevealClick(index);
-    });
-
-  }
+  wireRevealButton(cell, index);
 
   return;
 
@@ -2059,6 +2078,12 @@ if (!state.station) {
       `
       : "";
 
+    // A wrong answer still occupies the cell, but the player likely wants
+    // to try again - offer the same reveal hint here as on an empty cell
+    // if this combination is a thin one.
+    const invalidExtraHtml =
+      state.correct === false ? buildRevealExtraHtml(index) : "";
+
     cell.innerHTML = `
 
       <div class="cell-inner">
@@ -2070,11 +2095,16 @@ if (!state.station) {
         <div class="validation">
           ${label}
         </div>
+        ${invalidExtraHtml}
 
       </div>
       ${trainHardware}
 
     `;
+
+    if (state.correct === false) {
+      wireRevealButton(cell, index);
+    }
 
   });
 

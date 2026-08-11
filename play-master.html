@@ -1909,6 +1909,12 @@ document.addEventListener("click", (e) => {
   // after the loading state.
   wireCellClicks();
 
+  // Render the board once immediately: without this, the 8 cells stay as
+  // bare static HTML (no "Select Station" placeholder, no reveal-hint
+  // buttons on thin cells) until the player's first interaction happens
+  // to trigger a render via selecting or submitting.
+  renderBoard();
+
 })
 
 .catch(error => {

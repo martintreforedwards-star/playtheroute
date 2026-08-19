@@ -13,6 +13,14 @@ from collections import defaultdict, Counter
 
 MIN_MATCHES = 3
 MAX_MATCH_FRACTION = 0.90   # drop near-universal clues (too easy to be useful)
+GEOGRAPHY_MAX_MATCH_FRACTION = 0.95  # geography clues get a looser ceiling than
+    # other columns: a region/hub clue still meaningfully constrains a puzzle
+    # once paired with a row clue, even if it covers most of a geographically
+    # concentrated quiz's stations (e.g. semetro is ~94% South East London).
+    # Excluding it outright starves the geography category down to whatever's
+    # left, and since puzzle-bank generation requires every column category to
+    # have a viable option, that one narrow category can bottleneck the whole
+    # bank far more than the 0.90 rule's "too easy" rationale intends.
 HIGH_WEIGHT_FRACTION = 0.22  # rarer than this -> "high" weight row
 
 # ---------------------------------------------------------------------------
@@ -273,10 +281,10 @@ def count_matches(board, clue):
     return n
 
 
-def viable(board, clue):
+def viable(board, clue, max_frac=MAX_MATCH_FRACTION):
     n = count_matches(board, clue)
     frac = n / len(board) if board else 0
-    return MIN_MATCHES <= n and frac <= MAX_MATCH_FRACTION, n, frac
+    return MIN_MATCHES <= n and frac <= max_frac, n, frac
 
 
 def tercile_bands(board, field, label):
@@ -331,8 +339,8 @@ def gen_row_pool(board):
 def gen_column_pool(board):
     pool = []
 
-    def add(clue, category):
-        ok, n, frac = viable(board, clue)
+    def add(clue, category, max_frac=MAX_MATCH_FRACTION):
+        ok, n, frac = viable(board, clue, max_frac)
         if ok:
             clue["category"] = category
             clue["match_count"] = n
@@ -341,11 +349,11 @@ def gen_column_pool(board):
     # geography - region/hub only (is_coastal lives in rows, not here)
     regions = Counter(s["region"] for s in board if s["region"])
     for region, n in regions.most_common(10):
-        add({"type": "equals", "field": "region", "value": region, "label": f"Region: {region}"}, "geography")
+        add({"type": "equals", "field": "region", "value": region, "label": f"Region: {region}"}, "geography", max_frac=GEOGRAPHY_MAX_MATCH_FRACTION)
     hubs = Counter(s["canonical_hub"] for s in board if s["canonical_hub"])
     if len(hubs) > 1:
         for hub in hubs:
-            add({"type": "equals", "field": "canonical_hub", "value": hub, "label": f"Hub: {hub}"}, "geography")
+            add({"type": "equals", "field": "canonical_hub", "value": hub, "label": f"Hub: {hub}"}, "geography", max_frac=GEOGRAPHY_MAX_MATCH_FRACTION)
 
     # service - time-bands only (interchange/terminus live in rows, not here)
     # Time-to-hub is partitioned PER HUB (see add_hub_time_fields) so a

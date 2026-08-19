@@ -7,7 +7,7 @@
       "label": "Interchange station",
       "weight": "medium",
       "match_count": 37,
-      "display": "Is an interchange station",
+      "display": "Change trains here",
       "hint": "Served by two or more separate named routes, or where several lines physically meet.",
       "id": "row_0"
     },
@@ -84,13 +84,24 @@
     {
       "type": "equals",
       "field": "region",
+      "value": "South East London",
+      "label": "Region: South East London",
+      "category": "geography",
+      "match_count": 75,
+      "display": "Is within the South East London region",
+      "hint": "This station is based within the South East London region.",
+      "id": "col_0"
+    },
+    {
+      "type": "equals",
+      "field": "region",
       "value": "Central London",
       "label": "Region: Central London",
       "category": "geography",
       "match_count": 3,
       "display": "Is within the Central London region",
       "hint": "This station is based within the Central London region.",
-      "id": "col_0"
+      "id": "col_1"
     },
     {
       "type": "range",
@@ -101,7 +112,7 @@
       "match_count": 27,
       "display": "A short journey to London",
       "hint": "In this puzzle, 'short' means under 16 minutes to London.",
-      "id": "col_1"
+      "id": "col_2"
     },
     {
       "type": "range",
@@ -113,7 +124,7 @@
       "match_count": 38,
       "display": "A mid-range journey to London",
       "hint": "In this puzzle, 'mid-range' means 16-24 minutes to London.",
-      "id": "col_2"
+      "id": "col_3"
     },
     {
       "type": "range",
@@ -124,7 +135,7 @@
       "match_count": 27,
       "display": "A long journey to London",
       "hint": "In this puzzle, 'long' means 24+ minutes to London.",
-      "id": "col_3"
+      "id": "col_4"
     },
     {
       "type": "array_contains",
@@ -135,7 +146,7 @@
       "match_count": 21,
       "display": "Is part of the Dartford Loop route",
       "hint": "Stations on this route include Abbey Wood, Crayford, Kidbrooke and Sidcup (plus 17 more).",
-      "id": "col_4"
+      "id": "col_5"
     },
     {
       "type": "array_contains",
@@ -146,7 +157,7 @@
       "match_count": 14,
       "display": "Is part of the Sevenoaks Main Line route",
       "hint": "Stations on this route include Chelsfield, Grove Park, London Cannon Street and New Cross (plus 10 more).",
-      "id": "col_5"
+      "id": "col_6"
     },
     {
       "type": "array_contains",
@@ -157,7 +168,7 @@
       "match_count": 14,
       "display": "Is part of the Catford Loop Extended route",
       "hint": "Stations on this route include Beckenham Hill, Catford, Elephant & Castle and London Blackfriars (plus 10 more).",
-      "id": "col_6"
+      "id": "col_7"
     },
     {
       "type": "array_contains",
@@ -168,7 +179,7 @@
       "match_count": 13,
       "display": "Is part of the Sevenoaks Metro route",
       "hint": "Stations on this route include Chelsfield, Grove Park, London Cannon Street and New Cross (plus 9 more).",
-      "id": "col_7"
+      "id": "col_8"
     },
     {
       "type": "array_contains",
@@ -179,7 +190,7 @@
       "match_count": 13,
       "display": "Is part of the Bromley South Metro route",
       "hint": "Stations on this route include Beckenham Junction, Bromley South, London Victoria and Petts Wood (plus 9 more).",
-      "id": "col_8"
+      "id": "col_9"
     },
     {
       "type": "array_contains",
@@ -190,7 +201,7 @@
       "match_count": 12,
       "display": "Is part of the Greenwich Line route",
       "hint": "Stations on this route include Abbey Wood, Deptford, London Bridge and Slade Green (plus 8 more).",
-      "id": "col_9"
+      "id": "col_10"
     },
     {
       "type": "array_contains",
@@ -201,7 +212,7 @@
       "match_count": 11,
       "display": "Is part of the Catford Corridor route",
       "hint": "Stations on this route include Beckenham Hill, Crofton Park, Herne Hill and Penge East (plus 7 more).",
-      "id": "col_10"
+      "id": "col_11"
     },
     {
       "type": "array_contains",
@@ -212,7 +223,7 @@
       "match_count": 11,
       "display": "Is part of the Catford Loop route",
       "hint": "Stations on this route include Bellingham, City Thameslink, Herne Hill and Nunhead (plus 7 more).",
-      "id": "col_11"
+      "id": "col_12"
     },
     {
       "type": "array_contains",
@@ -223,7 +234,7 @@
       "match_count": 9,
       "display": "Is part of the Bexleyheath Line route",
       "hint": "Stations on this route include Barnehurst, Blackheath, Dartford and Kidbrooke (plus 5 more).",
-      "id": "col_12"
+      "id": "col_13"
     },
     {
       "type": "array_contains",
@@ -234,7 +245,7 @@
       "match_count": 9,
       "display": "Is part of the Hayes Branch route",
       "hint": "Stations on this route include Catford Bridge, Eden Park, Hayes and Lower Sydenham (plus 5 more).",
-      "id": "col_13"
+      "id": "col_14"
     },
     {
       "type": "array_contains",
@@ -245,7 +256,7 @@
       "match_count": 6,
       "display": "Is part of the Chatham Main Line Metro route",
       "hint": "Stations on this route include Bickley, Brixton, Orpington and Petts Wood (plus 2 more).",
-      "id": "col_14"
+      "id": "col_15"
     },
     {
       "type": "array_contains",
@@ -256,7 +267,7 @@
       "match_count": 5,
       "display": "Is part of the Bromley South Main Line route",
       "hint": "Stations on this route include Bickley, Bromley South, Shortlands and St Mary Cray (plus 1 more).",
-      "id": "col_15"
+      "id": "col_16"
     },
     {
       "type": "array_contains",
@@ -267,7 +278,7 @@
       "match_count": 3,
       "display": "Is part of the Chatham Main Line route",
       "hint": "Stations on this route include Bromley South, St Mary Cray and Swanley.",
-      "id": "col_16"
+      "id": "col_17"
     },
     {
       "type": "array_contains",
@@ -278,7 +289,7 @@
       "match_count": 3,
       "display": "Is part of the Bromley North Branch route",
       "hint": "Stations on this route include Bromley North, Grove Park and Sundridge Park.",
-      "id": "col_17"
+      "id": "col_18"
     },
     {
       "type": "equals",
@@ -289,7 +300,7 @@
       "match_count": 32,
       "display": "Naming style: a common English place-name ending",
       "hint": "The name ends in a common English place-name suffix, like -ton, -ham, -by or -dale.",
-      "id": "col_18"
+      "id": "col_19"
     },
     {
       "type": "equals",
@@ -300,7 +311,7 @@
       "match_count": 14,
       "display": "Naming style: a nature word in the name",
       "hint": "The name includes a nature word, like Park, Hill, Green, Heath or Wood.",
-      "id": "col_19"
+      "id": "col_20"
     },
     {
       "type": "equals",
@@ -311,7 +322,7 @@
       "match_count": 4,
       "display": "Naming style: an unusual name format",
       "hint": "Something unusual about how the name is written - brackets, a hyphen, an ampersand, or 'St'.",
-      "id": "col_20"
+      "id": "col_21"
     },
     {
       "type": "array_contains",
@@ -322,7 +333,7 @@
       "match_count": 12,
       "display": "Word contains 'ham'",
       "hint": "Word contains 'ham'.",
-      "id": "col_21"
+      "id": "col_22"
     },
     {
       "type": "array_contains",
@@ -333,7 +344,7 @@
       "match_count": 6,
       "display": "Word contains 'ford'",
       "hint": "Word contains 'ford'.",
-      "id": "col_22"
+      "id": "col_23"
     },
     {
       "type": "array_contains",
@@ -344,7 +355,7 @@
       "match_count": 6,
       "display": "Word contains 'park'",
       "hint": "Word contains 'park'.",
-      "id": "col_23"
+      "id": "col_24"
     },
     {
       "type": "array_contains",
@@ -355,7 +366,7 @@
       "match_count": 5,
       "display": "Word contains 'hill'",
       "hint": "Word contains 'hill'.",
-      "id": "col_24"
+      "id": "col_25"
     },
     {
       "type": "array_contains",
@@ -366,7 +377,7 @@
       "match_count": 4,
       "display": "Word contains 'wich'",
       "hint": "Word contains 'wich'.",
-      "id": "col_25"
+      "id": "col_26"
     },
     {
       "type": "array_contains",
@@ -377,7 +388,7 @@
       "match_count": 4,
       "display": "Word contains 'ton'",
       "hint": "Word contains 'ton'.",
-      "id": "col_26"
+      "id": "col_27"
     },
     {
       "type": "array_contains",
@@ -388,7 +399,7 @@
       "match_count": 4,
       "display": "Word contains 'wood'",
       "hint": "Word contains 'wood'.",
-      "id": "col_27"
+      "id": "col_28"
     },
     {
       "type": "array_contains",
@@ -399,7 +410,7 @@
       "match_count": 3,
       "display": "Word contains 'don'",
       "hint": "Word contains 'don'.",
-      "id": "col_28"
+      "id": "col_29"
     },
     {
       "type": "array_contains",
@@ -410,7 +421,7 @@
       "match_count": 3,
       "display": "Name includes 'St'",
       "hint": "The station name includes 'St' (Saint).",
-      "id": "col_29"
+      "id": "col_30"
     },
     {
       "type": "array_contains",
@@ -421,7 +432,7 @@
       "match_count": 3,
       "display": "Word contains 'green'",
       "hint": "Word contains 'green'.",
-      "id": "col_30"
+      "id": "col_31"
     }
   ]
 }

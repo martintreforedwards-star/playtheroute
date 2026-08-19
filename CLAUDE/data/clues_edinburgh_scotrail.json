@@ -7,7 +7,7 @@
       "label": "Interchange station",
       "weight": "high",
       "match_count": 12,
-      "display": "Is an interchange station",
+      "display": "Change trains here",
       "hint": "Served by two or more separate named routes, or where several lines physically meet.",
       "id": "row_0"
     },
@@ -250,11 +250,11 @@
     {
       "type": "array_contains",
       "field": "route",
-      "value": "Edinburghâ€“Glasgow Main Line",
-      "label": "Route: Edinburghâ€“Glasgow Main Line",
+      "value": "Edinburgh-Glasgow Main Line",
+      "label": "Route: Edinburgh-Glasgow Main Line",
       "category": "route",
       "match_count": 4,
-      "display": "Is part of the Edinburghâ€“Glasgow Main Line route",
+      "display": "Is part of the Edinburgh-Glasgow Main Line route",
       "hint": "Stations on this route include Edinburgh Waverley, Haymarket, Linlithgow and Polmont.",
       "id": "col_15"
     },

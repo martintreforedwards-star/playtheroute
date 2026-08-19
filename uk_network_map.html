@@ -4,16 +4,17 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover">
 <title>playtheroute.uk — Network Map</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
 <style>
   :root {
-    --bg: #0f1512; --panel-bg: rgba(20, 28, 24, 0.94); --panel-border: #2c3a33;
-    --text: #e8ede9; --text-dim: #9fb0a6; --accent: #4fd1a5;
-    --coast-fill: #182420; --coast-stroke: #3a4a41; --station: #e8ede9;
-    --encroach: #4a5750;
+    --bg: #030817; --panel-bg: rgba(17, 24, 39, 0.94); --panel-border: #1e3a8a;
+    --text: #ffffff; --text-dim: #9ca3af; --accent: #22c55e;
+    --coast-fill: #0f1b33; --coast-stroke: #1e3a8a; --station: #ffffff;
+    --encroach: #4b5563;
   }
   html, body {
     margin: 0; padding: 0; height: 100%; height: 100dvh; background: var(--bg);
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
     color: var(--text); overflow: hidden; overscroll-behavior: none; touch-action: none;
     position: fixed; width: 100%; -webkit-user-select: none; user-select: none;
   }
@@ -37,7 +38,7 @@
   }
   #top-panel h1 { font-size: 14px; margin: 0; font-weight: 600; flex-shrink: 0; }
   #network-select {
-    flex: 1; min-width: 180px; background: #0c110e; border: 1px solid var(--panel-border); border-radius: 8px;
+    flex: 1; min-width: 180px; background: #0c1424; border: 1px solid var(--panel-border); border-radius: 8px;
     padding: 8px 10px; color: var(--text); font-size: 13px;
   }
   #legend-line {
@@ -69,16 +70,16 @@
   .side-swatch { width: 12px; height: 12px; border-radius: 3px; flex-shrink: 0; }
   .side-row .sr-name { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
   #route-search {
-    width: 100%; box-sizing: border-box; background: #0c110e; border: 1px solid var(--panel-border);
+    width: 100%; box-sizing: border-box; background: #0c1424; border: 1px solid var(--panel-border);
     border-radius: 6px; padding: 6px 8px; color: var(--text); font-size: 12px; margin-bottom: 8px;
   }
   #route-search::placeholder { color: var(--text-dim); }
   #route-actions { display: flex; gap: 8px; margin-bottom: 8px; }
   .mini-btn {
-    font-size: 10.5px; color: var(--accent); background: rgba(79,209,165,0.1); border: 1px solid rgba(79,209,165,0.3);
+    font-size: 10.5px; color: var(--accent); background: rgba(34,197,94,0.1); border: 1px solid rgba(34,197,94,0.3);
     border-radius: 5px; padding: 3px 8px; cursor: pointer;
   }
-  .mini-btn:hover { background: rgba(79,209,165,0.2); }
+  .mini-btn:hover { background: rgba(34,197,94,0.2); }
   #route-scroll { overflow-y: auto; flex: 1; }
 
   #controls { position: absolute; top: 100px; right: 16px; z-index: 10; display: flex; flex-direction: column; gap: 8px; }
@@ -87,10 +88,10 @@
     color: var(--text); font-size: 18px; cursor: pointer; display: flex; align-items: center; justify-content: center;
     user-select: none;
   }
-  .ctrl-btn:hover { background: rgba(79, 209, 165, 0.12); border-color: var(--accent); }
+  .ctrl-btn:hover { background: rgba(34, 197, 94, 0.12); border-color: var(--accent); }
 
   #tooltip {
-    position: absolute; z-index: 20; pointer-events: none; background: rgba(15, 21, 18, 0.95);
+    position: absolute; z-index: 20; pointer-events: none; background: rgba(15, 23, 42, 0.95);
     border: 1px solid var(--accent); border-radius: 6px; padding: 6px 10px; font-size: 12px; display: none; white-space: nowrap;
   }
   #tooltip .route-name { font-weight: 600; color: var(--text); }
@@ -123,6 +124,7 @@
   </svg>
 
   <div id="top-panel">
+    <a href="index.html" style="color:var(--text-dim);text-decoration:none;font-size:13px;font-weight:600;flex-shrink:0;">🏠 Home</a>
     <h1>playtheroute.uk — Network Map</h1>
     <select id="network-select">
       <option value="">Select a network…</option>

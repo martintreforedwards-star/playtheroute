@@ -484,10 +484,26 @@ function wireTooltips() {
     }
   });
   svg.addEventListener('click', (e) => {
-    const el = e.target.closest('.own-station, .own-label, .encroach-station, .encroach-label');
-    if (!el) return;
+    // In dense clusters, label-placement can't avoid every overlap (only 20
+    // candidate positions are tried), so a later-drawn label can sit on top
+    // of an earlier one and silently swallow its clicks. Using
+    // elementsFromPoint (not just e.target) finds every station stacked at
+    // this point, so no station's name is ever permanently unreachable.
+    const stack = document.elementsFromPoint(e.clientX, e.clientY);
+    const seen = new Set();
+    const stations = [];
+    for (const node of stack) {
+      const el = node.closest && node.closest('.own-station, .own-label, .encroach-station, .encroach-label');
+      if (el && el.dataset.station && !seen.has(el.dataset.station)) {
+        seen.add(el.dataset.station);
+        stations.push(el);
+      }
+    }
+    if (!stations.length) return;
     tooltip.style.display = 'block';
-    tooltip.innerHTML = `<div class="route-name">${el.dataset.station}</div><div class="op-name">${el.dataset.crs}</div>`;
+    tooltip.innerHTML = stations
+      .map(el => `<div class="route-name">${el.dataset.station}</div><div class="op-name">${el.dataset.crs}</div>`)
+      .join('<hr style="border-color:var(--panel-border);margin:6px 0;">');
     if (!window.matchMedia('(pointer: coarse)').matches) {
       tooltip.style.left = (e.clientX + 14) + 'px';
       tooltip.style.top = (e.clientY + 14) + 'px';

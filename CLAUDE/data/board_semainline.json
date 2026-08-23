@@ -1,67 +1,5 @@
 [
   {
-    "station_id": "SE_0015",
-    "station_name": "St Pancras International",
-    "name_word_count": 3,
-    "name_letter_count": 22,
-    "crs": "STP",
-    "region": "Central London",
-    "operator": "Southeastern",
-    "route": [
-      "High Speed 1"
-    ],
-    "is_interchange": false,
-    "is_coastal": false,
-    "terminus_max": 663,
-    "canonical_hub": "London",
-    "canonical_time_to_hub": 0.0,
-    "welsh_name": null,
-    "wordplay_category": "structure",
-    "wordplay_difficulty": "hard",
-    "wordplay_score": 1,
-    "wordplay_tags": [
-      "saint"
-    ],
-    "time_to_glasgow_central": null,
-    "time_to_victoria": null,
-    "time_to_charing_cross": null,
-    "time_to_euston": null,
-    "time_to_liverpool_street": null,
-    "time_to_stratford": null,
-    "time_to_hub__london": 0.0
-  },
-  {
-    "station_id": "SE_0083",
-    "station_name": "Stratford International",
-    "name_word_count": 2,
-    "name_letter_count": 22,
-    "crs": "SFA",
-    "region": "South East London",
-    "operator": "Southeastern",
-    "route": [
-      "High Speed 1"
-    ],
-    "is_interchange": false,
-    "is_coastal": false,
-    "terminus_max": 0,
-    "canonical_hub": "London",
-    "canonical_time_to_hub": 54.0,
-    "welsh_name": null,
-    "wordplay_category": "local_suffix",
-    "wordplay_difficulty": "medium",
-    "wordplay_score": 1,
-    "wordplay_tags": [
-      "ford"
-    ],
-    "time_to_glasgow_central": null,
-    "time_to_victoria": null,
-    "time_to_charing_cross": null,
-    "time_to_euston": null,
-    "time_to_liverpool_street": null,
-    "time_to_stratford": null,
-    "time_to_hub__london": 54.0
-  },
-  {
     "station_id": "SE_0084",
     "station_name": "Ebbsfleet International",
     "name_word_count": 2,
@@ -89,70 +27,6 @@
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
     "time_to_hub__london": 44.0
-  },
-  {
-    "station_id": "SE_0077",
-    "station_name": "Sevenoaks",
-    "name_word_count": 1,
-    "name_letter_count": 9,
-    "crs": "SEV",
-    "region": "Weald",
-    "operator": "Southeastern",
-    "route": [
-      "Southeastern Main Line",
-      "Sevenoaks Main Line",
-      "Sevenoaks Metro"
-    ],
-    "is_interchange": true,
-    "is_coastal": false,
-    "terminus_max": 781,
-    "canonical_hub": "London",
-    "canonical_time_to_hub": 245.0,
-    "welsh_name": null,
-    "wordplay_category": "other",
-    "wordplay_difficulty": "easy",
-    "wordplay_score": 0,
-    "wordplay_tags": [],
-    "time_to_glasgow_central": null,
-    "time_to_victoria": null,
-    "time_to_charing_cross": null,
-    "time_to_euston": null,
-    "time_to_liverpool_street": null,
-    "time_to_stratford": null,
-    "time_to_hub__london": 245.0
-  },
-  {
-    "station_id": "SE_0129",
-    "station_name": "Dunton Green",
-    "name_word_count": 2,
-    "name_letter_count": 11,
-    "crs": "DNG",
-    "region": "Weald",
-    "operator": "Southeastern",
-    "route": [
-      "Sevenoaks Main Line",
-      "Sevenoaks Metro"
-    ],
-    "is_interchange": false,
-    "is_coastal": false,
-    "terminus_max": 0,
-    "canonical_hub": "London",
-    "canonical_time_to_hub": 74.0,
-    "welsh_name": null,
-    "wordplay_category": "local_suffix",
-    "wordplay_difficulty": "medium",
-    "wordplay_score": 2,
-    "wordplay_tags": [
-      "green",
-      "ton"
-    ],
-    "time_to_glasgow_central": null,
-    "time_to_victoria": null,
-    "time_to_charing_cross": null,
-    "time_to_euston": null,
-    "time_to_liverpool_street": null,
-    "time_to_stratford": null,
-    "time_to_hub__london": 74.0
   },
   {
     "station_id": "SE_0043",
@@ -251,67 +125,6 @@
     "time_to_hub__london": 40.0
   },
   {
-    "station_id": "SE_0075",
-    "station_name": "Otford",
-    "name_word_count": 1,
-    "name_letter_count": 6,
-    "crs": "OTF",
-    "region": "Weald",
-    "operator": "Southeastern",
-    "route": [
-      "Maidstone East"
-    ],
-    "is_interchange": true,
-    "is_coastal": false,
-    "terminus_max": 0,
-    "canonical_hub": "London",
-    "canonical_time_to_hub": 123.0,
-    "welsh_name": null,
-    "wordplay_category": "other",
-    "wordplay_difficulty": "easy",
-    "wordplay_score": 0,
-    "wordplay_tags": [],
-    "time_to_glasgow_central": null,
-    "time_to_victoria": null,
-    "time_to_charing_cross": null,
-    "time_to_euston": null,
-    "time_to_liverpool_street": null,
-    "time_to_stratford": null,
-    "time_to_hub__london": 123.0
-  },
-  {
-    "station_id": "SE_0076",
-    "station_name": "Bat & Ball",
-    "name_word_count": 2,
-    "name_letter_count": 7,
-    "crs": "BBL",
-    "region": "Weald",
-    "operator": "Southeastern",
-    "route": [
-      "Sevenoaks Main Line",
-      "Sevenoaks Metro"
-    ],
-    "is_interchange": false,
-    "is_coastal": false,
-    "terminus_max": 0,
-    "canonical_hub": "London",
-    "canonical_time_to_hub": 144.0,
-    "welsh_name": null,
-    "wordplay_category": "structure",
-    "wordplay_difficulty": "hard",
-    "wordplay_score": 1,
-    "wordplay_tags": [
-      "ampersand"
-    ],
-    "time_to_glasgow_central": null,
-    "time_to_victoria": null,
-    "time_to_charing_cross": null,
-    "time_to_euston": null,
-    "time_to_liverpool_street": null,
-    "time_to_stratford": null,
-    "time_to_hub__london": 144.0
-  },
-  {
     "station_id": "SE_0047",
     "station_name": "Strood",
     "name_word_count": 1,
@@ -341,41 +154,6 @@
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
     "time_to_hub__london": 42.0
-  },
-  {
-    "station_id": "SE_0142",
-    "station_name": "Tonbridge",
-    "name_word_count": 1,
-    "name_letter_count": 9,
-    "crs": "TON",
-    "region": "Weald",
-    "operator": "Southeastern",
-    "route": [
-      "Hastings Line",
-      "Southeastern Main Line",
-      "Hastings Line Extended",
-      "Sevenoaks Main Line",
-      "Sevenoaks Metro"
-    ],
-    "is_interchange": true,
-    "is_coastal": false,
-    "terminus_max": 302,
-    "canonical_hub": "London",
-    "canonical_time_to_hub": 243.0,
-    "welsh_name": null,
-    "wordplay_category": "local_suffix",
-    "wordplay_difficulty": "medium",
-    "wordplay_score": 1,
-    "wordplay_tags": [
-      "ridge"
-    ],
-    "time_to_glasgow_central": null,
-    "time_to_victoria": null,
-    "time_to_charing_cross": null,
-    "time_to_euston": null,
-    "time_to_liverpool_street": null,
-    "time_to_stratford": null,
-    "time_to_hub__london": 243.0
   },
   {
     "station_id": "SE_0173",
@@ -440,36 +218,6 @@
     "time_to_hub__london": 36.0
   },
   {
-    "station_id": "SE_0143",
-    "station_name": "Hildenborough",
-    "name_word_count": 1,
-    "name_letter_count": 13,
-    "crs": "HLB",
-    "region": "Weald",
-    "operator": "Southeastern",
-    "route": [
-      "Sevenoaks Main Line",
-      "Sevenoaks Metro"
-    ],
-    "is_interchange": false,
-    "is_coastal": false,
-    "terminus_max": 0,
-    "canonical_hub": "London",
-    "canonical_time_to_hub": 84.0,
-    "welsh_name": null,
-    "wordplay_category": "other",
-    "wordplay_difficulty": "easy",
-    "wordplay_score": 0,
-    "wordplay_tags": [],
-    "time_to_glasgow_central": null,
-    "time_to_victoria": null,
-    "time_to_charing_cross": null,
-    "time_to_euston": null,
-    "time_to_liverpool_street": null,
-    "time_to_stratford": null,
-    "time_to_hub__london": 84.0
-  },
-  {
     "station_id": "SE_0141",
     "station_name": "Paddock Wood",
     "name_word_count": 2,
@@ -530,35 +278,6 @@
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
     "time_to_hub__london": 34.0
-  },
-  {
-    "station_id": "SE_0169",
-    "station_name": "Stonegate",
-    "name_word_count": 1,
-    "name_letter_count": 9,
-    "crs": "SOG",
-    "region": "Weald",
-    "operator": "Southeastern",
-    "route": [
-      "Hastings Line Extended"
-    ],
-    "is_interchange": false,
-    "is_coastal": false,
-    "terminus_max": 0,
-    "canonical_hub": "London",
-    "canonical_time_to_hub": 46.0,
-    "welsh_name": null,
-    "wordplay_category": "other",
-    "wordplay_difficulty": "easy",
-    "wordplay_score": 0,
-    "wordplay_tags": [],
-    "time_to_glasgow_central": null,
-    "time_to_victoria": null,
-    "time_to_charing_cross": null,
-    "time_to_euston": null,
-    "time_to_liverpool_street": null,
-    "time_to_stratford": null,
-    "time_to_hub__london": 46.0
   },
   {
     "station_id": "SE_0148",
@@ -651,66 +370,6 @@
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
     "time_to_hub__london": 45.0
-  },
-  {
-    "station_id": "SE_0167",
-    "station_name": "Frant",
-    "name_word_count": 1,
-    "name_letter_count": 5,
-    "crs": "FRT",
-    "region": "Weald",
-    "operator": "Southeastern",
-    "route": [
-      "Hastings Line Extended"
-    ],
-    "is_interchange": false,
-    "is_coastal": false,
-    "terminus_max": 0,
-    "canonical_hub": "London",
-    "canonical_time_to_hub": 46.0,
-    "welsh_name": null,
-    "wordplay_category": "other",
-    "wordplay_difficulty": "easy",
-    "wordplay_score": 0,
-    "wordplay_tags": [],
-    "time_to_glasgow_central": null,
-    "time_to_victoria": null,
-    "time_to_charing_cross": null,
-    "time_to_euston": null,
-    "time_to_liverpool_street": null,
-    "time_to_stratford": null,
-    "time_to_hub__london": 46.0
-  },
-  {
-    "station_id": "SE_0171",
-    "station_name": "Robertsbridge",
-    "name_word_count": 1,
-    "name_letter_count": 13,
-    "crs": "RBR",
-    "region": "Weald",
-    "operator": "Southeastern",
-    "route": [
-      "Hastings Line Extended"
-    ],
-    "is_interchange": false,
-    "is_coastal": false,
-    "terminus_max": 31,
-    "canonical_hub": "London",
-    "canonical_time_to_hub": 73.0,
-    "welsh_name": null,
-    "wordplay_category": "local_suffix",
-    "wordplay_difficulty": "medium",
-    "wordplay_score": 1,
-    "wordplay_tags": [
-      "ridge"
-    ],
-    "time_to_glasgow_central": null,
-    "time_to_victoria": null,
-    "time_to_charing_cross": null,
-    "time_to_euston": null,
-    "time_to_liverpool_street": null,
-    "time_to_stratford": null,
-    "time_to_hub__london": 73.0
   },
   {
     "station_id": "SE_0135",
@@ -831,96 +490,6 @@
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
     "time_to_hub__london": 34.0
-  },
-  {
-    "station_id": "SE_0165",
-    "station_name": "High Brooms",
-    "name_word_count": 2,
-    "name_letter_count": 10,
-    "crs": "HIB",
-    "region": "Weald",
-    "operator": "Southeastern",
-    "route": [
-      "Hastings Line Extended"
-    ],
-    "is_interchange": false,
-    "is_coastal": false,
-    "terminus_max": 0,
-    "canonical_hub": "London",
-    "canonical_time_to_hub": 139.0,
-    "welsh_name": null,
-    "wordplay_category": "other",
-    "wordplay_difficulty": "easy",
-    "wordplay_score": 0,
-    "wordplay_tags": [],
-    "time_to_glasgow_central": null,
-    "time_to_victoria": null,
-    "time_to_charing_cross": null,
-    "time_to_euston": null,
-    "time_to_liverpool_street": null,
-    "time_to_stratford": null,
-    "time_to_hub__london": 139.0
-  },
-  {
-    "station_id": "SE_0073",
-    "station_name": "Eynsford",
-    "name_word_count": 1,
-    "name_letter_count": 8,
-    "crs": "EYN",
-    "region": "Weald",
-    "operator": "Southeastern",
-    "route": [
-      "Bromley South Main Line"
-    ],
-    "is_interchange": false,
-    "is_coastal": false,
-    "terminus_max": 0,
-    "canonical_hub": "London",
-    "canonical_time_to_hub": 144.0,
-    "welsh_name": null,
-    "wordplay_category": "other",
-    "wordplay_difficulty": "easy",
-    "wordplay_score": 0,
-    "wordplay_tags": [],
-    "time_to_glasgow_central": null,
-    "time_to_victoria": null,
-    "time_to_charing_cross": null,
-    "time_to_euston": null,
-    "time_to_liverpool_street": null,
-    "time_to_stratford": null,
-    "time_to_hub__london": 144.0
-  },
-  {
-    "station_id": "SE_0074",
-    "station_name": "Shoreham (Kent)",
-    "name_word_count": 1,
-    "name_letter_count": 12,
-    "crs": "SEH",
-    "region": "Weald",
-    "operator": "Southeastern",
-    "route": [
-      "Bromley South Main Line"
-    ],
-    "is_interchange": false,
-    "is_coastal": false,
-    "terminus_max": 0,
-    "canonical_hub": "London",
-    "canonical_time_to_hub": 144.0,
-    "welsh_name": null,
-    "wordplay_category": "structure",
-    "wordplay_difficulty": "hard",
-    "wordplay_score": 2,
-    "wordplay_tags": [
-      "brackets",
-      "ham"
-    ],
-    "time_to_glasgow_central": null,
-    "time_to_victoria": null,
-    "time_to_charing_cross": null,
-    "time_to_euston": null,
-    "time_to_liverpool_street": null,
-    "time_to_stratford": null,
-    "time_to_hub__london": 144.0
   },
   {
     "station_id": "SE_0140",
@@ -1044,35 +613,6 @@
     "time_to_hub__london": 46.0
   },
   {
-    "station_id": "SE_0172",
-    "station_name": "Battle",
-    "name_word_count": 1,
-    "name_letter_count": 6,
-    "crs": "BAT",
-    "region": "Weald",
-    "operator": "Southeastern",
-    "route": [
-      "Hastings Line Extended"
-    ],
-    "is_interchange": false,
-    "is_coastal": false,
-    "terminus_max": 36,
-    "canonical_hub": "London",
-    "canonical_time_to_hub": 73.0,
-    "welsh_name": null,
-    "wordplay_category": "other",
-    "wordplay_difficulty": "easy",
-    "wordplay_score": 0,
-    "wordplay_tags": [],
-    "time_to_glasgow_central": null,
-    "time_to_victoria": null,
-    "time_to_charing_cross": null,
-    "time_to_euston": null,
-    "time_to_liverpool_street": null,
-    "time_to_stratford": null,
-    "time_to_hub__london": 73.0
-  },
-  {
     "station_id": "SE_0178",
     "station_name": "Borough Green & Wrotham",
     "name_word_count": 3,
@@ -1106,66 +646,6 @@
     "time_to_hub__london": 36.0
   },
   {
-    "station_id": "SE_0166",
-    "station_name": "Tunbridge Wells",
-    "name_word_count": 2,
-    "name_letter_count": 14,
-    "crs": "TBW",
-    "region": "Weald",
-    "operator": "Southeastern",
-    "route": [
-      "Hastings Line Extended"
-    ],
-    "is_interchange": false,
-    "is_coastal": false,
-    "terminus_max": 175,
-    "canonical_hub": "London",
-    "canonical_time_to_hub": 140.0,
-    "welsh_name": null,
-    "wordplay_category": "local_suffix",
-    "wordplay_difficulty": "medium",
-    "wordplay_score": 1,
-    "wordplay_tags": [
-      "ridge"
-    ],
-    "time_to_glasgow_central": null,
-    "time_to_victoria": null,
-    "time_to_charing_cross": null,
-    "time_to_euston": null,
-    "time_to_liverpool_street": null,
-    "time_to_stratford": null,
-    "time_to_hub__london": 140.0
-  },
-  {
-    "station_id": "SE_0168",
-    "station_name": "Wadhurst",
-    "name_word_count": 1,
-    "name_letter_count": 8,
-    "crs": "WAD",
-    "region": "Weald",
-    "operator": "Southeastern",
-    "route": [
-      "Hastings Line Extended"
-    ],
-    "is_interchange": false,
-    "is_coastal": false,
-    "terminus_max": 76,
-    "canonical_hub": "London",
-    "canonical_time_to_hub": 73.0,
-    "welsh_name": null,
-    "wordplay_category": "other",
-    "wordplay_difficulty": "easy",
-    "wordplay_score": 0,
-    "wordplay_tags": [],
-    "time_to_glasgow_central": null,
-    "time_to_victoria": null,
-    "time_to_charing_cross": null,
-    "time_to_euston": null,
-    "time_to_liverpool_street": null,
-    "time_to_stratford": null,
-    "time_to_hub__london": 73.0
-  },
-  {
     "station_id": "SE_0134",
     "station_name": "Aylesford",
     "name_word_count": 1,
@@ -1197,37 +677,6 @@
     "time_to_hub__london": 54.0
   },
   {
-    "station_id": "SE_0085",
-    "station_name": "Farningham Road",
-    "name_word_count": 2,
-    "name_letter_count": 14,
-    "crs": "FNR",
-    "region": "Weald",
-    "operator": "Southeastern",
-    "route": [
-      "Chatham Main Line"
-    ],
-    "is_interchange": false,
-    "is_coastal": false,
-    "terminus_max": 0,
-    "canonical_hub": "London",
-    "canonical_time_to_hub": 60.0,
-    "welsh_name": null,
-    "wordplay_category": "local_suffix",
-    "wordplay_difficulty": "medium",
-    "wordplay_score": 1,
-    "wordplay_tags": [
-      "ham"
-    ],
-    "time_to_glasgow_central": null,
-    "time_to_victoria": null,
-    "time_to_charing_cross": null,
-    "time_to_euston": null,
-    "time_to_liverpool_street": null,
-    "time_to_stratford": null,
-    "time_to_hub__london": 60.0
-  },
-  {
     "station_id": "SE_0138",
     "station_name": "Wateringbury",
     "name_word_count": 1,
@@ -1255,37 +704,6 @@
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
     "time_to_hub__london": 48.0
-  },
-  {
-    "station_id": "SE_0170",
-    "station_name": "Etchingham",
-    "name_word_count": 1,
-    "name_letter_count": 10,
-    "crs": "ETC",
-    "region": "Weald",
-    "operator": "Southeastern",
-    "route": [
-      "Hastings Line Extended"
-    ],
-    "is_interchange": false,
-    "is_coastal": false,
-    "terminus_max": 0,
-    "canonical_hub": "London",
-    "canonical_time_to_hub": 57.0,
-    "welsh_name": null,
-    "wordplay_category": "local_suffix",
-    "wordplay_difficulty": "medium",
-    "wordplay_score": 1,
-    "wordplay_tags": [
-      "ham"
-    ],
-    "time_to_glasgow_central": null,
-    "time_to_victoria": null,
-    "time_to_charing_cross": null,
-    "time_to_euston": null,
-    "time_to_liverpool_street": null,
-    "time_to_stratford": null,
-    "time_to_hub__london": 57.0
   },
   {
     "station_id": "SE_0131",
@@ -1862,37 +1280,6 @@
     "time_to_hub__london": 66.0
   },
   {
-    "station_id": "SE_0185",
-    "station_name": "Harrietsham",
-    "name_word_count": 1,
-    "name_letter_count": 11,
-    "crs": "HRH",
-    "region": "Weald",
-    "operator": "Southeastern",
-    "route": [
-      "Maidstone East"
-    ],
-    "is_interchange": false,
-    "is_coastal": false,
-    "terminus_max": 367,
-    "canonical_hub": "London",
-    "canonical_time_to_hub": 182.0,
-    "welsh_name": null,
-    "wordplay_category": "local_suffix",
-    "wordplay_difficulty": "medium",
-    "wordplay_score": 1,
-    "wordplay_tags": [
-      "ham"
-    ],
-    "time_to_glasgow_central": null,
-    "time_to_victoria": null,
-    "time_to_charing_cross": null,
-    "time_to_euston": null,
-    "time_to_liverpool_street": null,
-    "time_to_stratford": null,
-    "time_to_hub__london": 182.0
-  },
-  {
     "station_id": "SE_0183",
     "station_name": "Hollingbourne",
     "name_word_count": 1,
@@ -2311,14 +1698,15 @@
     "region": "Weald",
     "operator": "Southeastern",
     "route": [
-      "Hastings Line Extended"
+      "Hastings Line Extended",
+      "East Coastway"
     ],
     "is_interchange": true,
     "is_coastal": true,
     "terminus_max": 0,
     "canonical_hub": "London",
     "canonical_time_to_hub": 105.0,
-    "welsh_name": null,
+    "welsh_name": "St Leonards Warrior Square",
     "wordplay_category": "structure",
     "wordplay_difficulty": "hard",
     "wordplay_score": 1,
@@ -2950,37 +2338,6 @@
     "time_to_hub__london": 70.0
   },
   {
-    "station_id": "SE_0189",
-    "station_name": "Ham Street",
-    "name_word_count": 2,
-    "name_letter_count": 9,
-    "crs": "HST",
-    "region": "East Kent",
-    "operator": "Southeastern",
-    "route": [
-      "Marshlink"
-    ],
-    "is_interchange": false,
-    "is_coastal": false,
-    "terminus_max": 0,
-    "canonical_hub": "London",
-    "canonical_time_to_hub": 2.0,
-    "welsh_name": null,
-    "wordplay_category": "local_suffix",
-    "wordplay_difficulty": "medium",
-    "wordplay_score": 1,
-    "wordplay_tags": [
-      "ham"
-    ],
-    "time_to_glasgow_central": null,
-    "time_to_victoria": null,
-    "time_to_charing_cross": null,
-    "time_to_euston": null,
-    "time_to_liverpool_street": null,
-    "time_to_stratford": null,
-    "time_to_hub__london": 2.0
-  },
-  {
     "station_id": "SE_0158",
     "station_name": "Folkestone Central",
     "name_word_count": 2,
@@ -3131,37 +2488,6 @@
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
     "time_to_hub__london": 74.0
-  },
-  {
-    "station_id": "SE_0174",
-    "station_name": "West St Leonards",
-    "name_word_count": 3,
-    "name_letter_count": 14,
-    "crs": "WLD",
-    "region": "Weald",
-    "operator": "Southeastern",
-    "route": [
-      "Hastings Line Extended"
-    ],
-    "is_interchange": false,
-    "is_coastal": true,
-    "terminus_max": 0,
-    "canonical_hub": "London",
-    "canonical_time_to_hub": 48.0,
-    "welsh_name": null,
-    "wordplay_category": "structure",
-    "wordplay_difficulty": "hard",
-    "wordplay_score": 1,
-    "wordplay_tags": [
-      "saint"
-    ],
-    "time_to_glasgow_central": null,
-    "time_to_victoria": null,
-    "time_to_charing_cross": null,
-    "time_to_euston": null,
-    "time_to_liverpool_street": null,
-    "time_to_stratford": null,
-    "time_to_hub__london": 48.0
   },
   {
     "station_id": "SE_0161",
@@ -3373,35 +2699,6 @@
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
     "time_to_hub__london": 92.0
-  },
-  {
-    "station_id": "SE_0176",
-    "station_name": "Hastings",
-    "name_word_count": 1,
-    "name_letter_count": 8,
-    "crs": "HGS",
-    "region": "Weald",
-    "operator": "Southeastern",
-    "route": [
-      "Hastings Line Extended"
-    ],
-    "is_interchange": false,
-    "is_coastal": true,
-    "terminus_max": 544,
-    "canonical_hub": "London",
-    "canonical_time_to_hub": 105.0,
-    "welsh_name": null,
-    "wordplay_category": "other",
-    "wordplay_difficulty": "easy",
-    "wordplay_score": 0,
-    "wordplay_tags": [],
-    "time_to_glasgow_central": null,
-    "time_to_victoria": null,
-    "time_to_charing_cross": null,
-    "time_to_euston": null,
-    "time_to_liverpool_street": null,
-    "time_to_stratford": null,
-    "time_to_hub__london": 105.0
   },
   {
     "station_id": "SE_0190",

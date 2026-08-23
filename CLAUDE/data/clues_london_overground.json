@@ -8,8 +8,7 @@
       "weight": "high",
       "match_count": 9,
       "display": "Terminus station",
-      "hint": "At least some journeys terminate at this station - it's not just a stop along the way.",
-      "id": "row_0"
+      "hint": "At least some journeys terminate at this station - it's not just a stop along the way."
     },
     {
       "type": "equals",
@@ -19,8 +18,7 @@
       "weight": "high",
       "match_count": 15,
       "display": "Station name is one word",
-      "hint": "Station is a one-word name.",
-      "id": "row_1"
+      "hint": "Station is a one-word name."
     },
     {
       "type": "range",
@@ -30,8 +28,7 @@
       "weight": "high",
       "match_count": 16,
       "display": "Station name is 3+ words",
-      "hint": "Station name is three or more words long.",
-      "id": "row_2"
+      "hint": "Station name is three or more words long."
     },
     {
       "type": "range",
@@ -42,8 +39,7 @@
       "weight": "medium",
       "match_count": 21,
       "display": "Station name is 7-10 letters",
-      "hint": "Station name length is between 7 and 10 characters.",
-      "id": "row_3"
+      "hint": "Station name length is between 7 and 10 characters."
     },
     {
       "type": "range",
@@ -53,8 +49,7 @@
       "weight": "medium",
       "match_count": 57,
       "display": "Station name is 11+ letters",
-      "hint": "Station name is equal to or exceeds 11 characters.",
-      "id": "row_4"
+      "hint": "Station name is equal to or exceeds 11 characters."
     }
   ],
   "columnPool": [
@@ -66,8 +61,7 @@
       "category": "geography",
       "match_count": 29,
       "display": "Is within the North East London region",
-      "hint": "This station is based within the North East London region.",
-      "id": "col_0"
+      "hint": "This station is based within the North East London region."
     },
     {
       "type": "equals",
@@ -77,8 +71,7 @@
       "category": "geography",
       "match_count": 14,
       "display": "Is within the North London region",
-      "hint": "This station is based within the North London region.",
-      "id": "col_1"
+      "hint": "This station is based within the North London region."
     },
     {
       "type": "equals",
@@ -88,8 +81,7 @@
       "category": "geography",
       "match_count": 10,
       "display": "Is within the East London region",
-      "hint": "This station is based within the East London region.",
-      "id": "col_2"
+      "hint": "This station is based within the East London region."
     },
     {
       "type": "equals",
@@ -99,8 +91,7 @@
       "category": "geography",
       "match_count": 10,
       "display": "Is within the North West London region",
-      "hint": "This station is based within the North West London region.",
-      "id": "col_3"
+      "hint": "This station is based within the North West London region."
     },
     {
       "type": "equals",
@@ -110,8 +101,7 @@
       "category": "geography",
       "match_count": 6,
       "display": "Is within the South East London region",
-      "hint": "This station is based within the South East London region.",
-      "id": "col_4"
+      "hint": "This station is based within the South East London region."
     },
     {
       "type": "equals",
@@ -121,8 +111,7 @@
       "category": "geography",
       "match_count": 3,
       "display": "Is within the West London region",
-      "hint": "This station is based within the West London region.",
-      "id": "col_5"
+      "hint": "This station is based within the West London region."
     },
     {
       "type": "equals",
@@ -132,8 +121,7 @@
       "category": "geography",
       "match_count": 3,
       "display": "Is within the South London region",
-      "hint": "This station is based within the South London region.",
-      "id": "col_6"
+      "hint": "This station is based within the South London region."
     },
     {
       "type": "range",
@@ -143,8 +131,7 @@
       "category": "service",
       "match_count": 30,
       "display": "A short journey to London (nearest interchange)",
-      "hint": "In this puzzle, 'short' means under 148 minutes to London (nearest interchange).",
-      "id": "col_7"
+      "hint": "In this puzzle, 'short' means under 148 minutes to London (nearest interchange)."
     },
     {
       "type": "range",
@@ -155,8 +142,7 @@
       "category": "service",
       "match_count": 32,
       "display": "A mid-range journey to London (nearest interchange)",
-      "hint": "In this puzzle, 'mid-range' means 148-312 minutes to London (nearest interchange).",
-      "id": "col_8"
+      "hint": "In this puzzle, 'mid-range' means 148-312 minutes to London (nearest interchange)."
     },
     {
       "type": "range",
@@ -166,8 +152,100 @@
       "category": "service",
       "match_count": 31,
       "display": "A long journey to London (nearest interchange)",
-      "hint": "In this puzzle, 'long' means 312+ minutes to London (nearest interchange).",
-      "id": "col_9"
+      "hint": "In this puzzle, 'long' means 312+ minutes to London (nearest interchange)."
+    },
+    {
+      "type": "range",
+      "field": "time_to_euston",
+      "max": 47.0,
+      "label": "Time to Euston: shortest third",
+      "category": "service",
+      "match_count": 27,
+      "display": "A short journey to Euston",
+      "hint": "In this puzzle, 'short' means under 47 minutes to Euston."
+    },
+    {
+      "type": "range",
+      "field": "time_to_euston",
+      "min": 47.0,
+      "max": 66.0,
+      "label": "Time to Euston: middle third",
+      "category": "service",
+      "match_count": 27,
+      "display": "A mid-range journey to Euston",
+      "hint": "In this puzzle, 'mid-range' means 47-66 minutes to Euston."
+    },
+    {
+      "type": "range",
+      "field": "time_to_euston",
+      "min": 66.0,
+      "label": "Time to Euston: longest third",
+      "category": "service",
+      "match_count": 27,
+      "display": "A long journey to Euston",
+      "hint": "In this puzzle, 'long' means 66+ minutes to Euston."
+    },
+    {
+      "type": "range",
+      "field": "time_to_liverpool_street",
+      "max": 25.0,
+      "label": "Time to Liverpool Street: shortest third",
+      "category": "service",
+      "match_count": 28,
+      "display": "A short journey to Liverpool Street",
+      "hint": "In this puzzle, 'short' means under 25 minutes to Liverpool Street."
+    },
+    {
+      "type": "range",
+      "field": "time_to_liverpool_street",
+      "min": 25.0,
+      "max": 53.0,
+      "label": "Time to Liverpool Street: middle third",
+      "category": "service",
+      "match_count": 27,
+      "display": "A mid-range journey to Liverpool Street",
+      "hint": "In this puzzle, 'mid-range' means 25-53 minutes to Liverpool Street."
+    },
+    {
+      "type": "range",
+      "field": "time_to_liverpool_street",
+      "min": 53.0,
+      "label": "Time to Liverpool Street: longest third",
+      "category": "service",
+      "match_count": 28,
+      "display": "A long journey to Liverpool Street",
+      "hint": "In this puzzle, 'long' means 53+ minutes to Liverpool Street."
+    },
+    {
+      "type": "range",
+      "field": "time_to_stratford",
+      "max": 25.0,
+      "label": "Time to Stratford: shortest third",
+      "category": "service",
+      "match_count": 27,
+      "display": "A short journey to Stratford",
+      "hint": "In this puzzle, 'short' means under 25 minutes to Stratford."
+    },
+    {
+      "type": "range",
+      "field": "time_to_stratford",
+      "min": 25.0,
+      "max": 46.0,
+      "label": "Time to Stratford: middle third",
+      "category": "service",
+      "match_count": 27,
+      "display": "A mid-range journey to Stratford",
+      "hint": "In this puzzle, 'mid-range' means 25-46 minutes to Stratford."
+    },
+    {
+      "type": "range",
+      "field": "time_to_stratford",
+      "min": 46.0,
+      "label": "Time to Stratford: longest third",
+      "category": "service",
+      "match_count": 28,
+      "display": "A long journey to Stratford",
+      "hint": "In this puzzle, 'long' means 46+ minutes to Stratford."
     },
     {
       "type": "array_contains",
@@ -177,8 +255,7 @@
       "category": "route",
       "match_count": 19,
       "display": "Is part of the Windrush Line route",
-      "hint": "The route from Highbury & Islington south through New Cross Gate to Crystal Palace and West Croydon - renamed in 2024 to honour the Windrush generation, running through areas with strong Caribbean community ties like Dalston Junction and Peckham Rye.",
-      "id": "col_10"
+      "hint": "The route from Highbury & Islington south through New Cross Gate to Crystal Palace and West Croydon - renamed in 2024 to honour the Windrush generation, running through areas with strong Caribbean community ties like Dalston Junction and Peckham Rye."
     },
     {
       "type": "array_contains",
@@ -186,10 +263,9 @@
       "value": "Mildmay Line",
       "label": "Route: Mildmay Line",
       "category": "route",
-      "match_count": 17,
+      "match_count": 18,
       "display": "Is part of the Mildmay Line route",
-      "hint": "The route from Stratford via Dalston and Canonbury to Richmond or Clapham Junction - renamed in 2024 after the Mildmay Mission Hospital in Shoreditch, recognised for its pivotal role in the 1980s HIV/AIDS crisis.",
-      "id": "col_11"
+      "hint": "The route from Stratford via Dalston and Canonbury to Richmond or Clapham Junction - renamed in 2024 after the Mildmay Mission Hospital in Shoreditch, recognised for its pivotal role in the 1980s HIV/AIDS crisis."
     },
     {
       "type": "array_contains",
@@ -199,8 +275,7 @@
       "category": "route",
       "match_count": 12,
       "display": "Is part of the Suffragette Line route",
-      "hint": "The route from Gospel Oak to Barking Riverside, formerly nicknamed 'the Goblin' - renamed in 2024 to honour the suffragette movement, including Barking's Annie Huggett, the longest-surviving suffragette.",
-      "id": "col_12"
+      "hint": "The route from Gospel Oak to Barking Riverside, formerly nicknamed 'the Goblin' - renamed in 2024 to honour the suffragette movement, including Barking's Annie Huggett, the longest-surviving suffragette."
     },
     {
       "type": "array_contains",
@@ -210,8 +285,7 @@
       "category": "route",
       "match_count": 10,
       "display": "Is part of the Chingford Line route",
-      "hint": "The branch from Liverpool Street via Walthamstow to Chingford - one of the three branches making up the wider Weaver Line group, named for the area's textile trade history.",
-      "id": "col_13"
+      "hint": "The branch from Liverpool Street via Walthamstow to Chingford - one of the three branches making up the wider Weaver Line group, named for the area's textile trade history."
     },
     {
       "type": "array_contains",
@@ -221,8 +295,27 @@
       "category": "route",
       "match_count": 10,
       "display": "Is part of the Enfield Town Line route",
-      "hint": "The branch from Liverpool Street via Bruce Grove to Enfield Town - one of the three branches making up the wider Weaver Line group, alongside the Chingford and Cheshunt branches.",
-      "id": "col_14"
+      "hint": "The branch from Liverpool Street via Bruce Grove to Enfield Town - one of the three branches making up the wider Weaver Line group, alongside the Chingford and Cheshunt branches."
+    },
+    {
+      "type": "array_contains",
+      "field": "route",
+      "value": "Watford DC Line",
+      "label": "Route: Watford DC Line",
+      "category": "route",
+      "match_count": 7,
+      "display": "Is part of the Watford DC Line route",
+      "hint": "The former name for what is now the Lioness Line, running from Euston to Watford Junction via Wembley - renamed in 2024 to honour the England women's football team."
+    },
+    {
+      "type": "array_contains",
+      "field": "route",
+      "value": "Southbury Loop",
+      "label": "Route: Southbury Loop",
+      "category": "route",
+      "match_count": 3,
+      "display": "Is part of the Southbury Loop route",
+      "hint": "The short suburban loop between Edmonton Green and Cheshunt via Southbury and Turkey Street, on what's now the Weaver Line group of routes."
     },
     {
       "type": "equals",
@@ -232,8 +325,7 @@
       "category": "name",
       "match_count": 32,
       "display": "Naming style: a common English place-name ending",
-      "hint": "The name ends in a common English place-name suffix, like -ton, -ham, -by or -dale.",
-      "id": "col_15"
+      "hint": "The name ends in a common English place-name suffix, like -ton, -ham, -by or -dale."
     },
     {
       "type": "equals",
@@ -243,8 +335,7 @@
       "category": "name",
       "match_count": 12,
       "display": "Naming style: a nature word in the name",
-      "hint": "The name includes a nature word, like Park, Hill, Green, Heath or Wood.",
-      "id": "col_16"
+      "hint": "The name includes a nature word, like Park, Hill, Green, Heath or Wood."
     },
     {
       "type": "equals",
@@ -254,8 +345,7 @@
       "category": "name",
       "match_count": 3,
       "display": "Naming style: an unusual name format",
-      "hint": "Something unusual about how the name is written - brackets, a hyphen, an ampersand, or 'St'.",
-      "id": "col_17"
+      "hint": "Something unusual about how the name is written - brackets, a hyphen, an ampersand, or 'St'."
     },
     {
       "type": "array_contains",
@@ -265,8 +355,7 @@
       "category": "name",
       "match_count": 11,
       "display": "Word contains 'ton'",
-      "hint": "Word contains 'ton'.",
-      "id": "col_18"
+      "hint": "Word contains 'ton'."
     },
     {
       "type": "array_contains",
@@ -276,8 +365,7 @@
       "category": "name",
       "match_count": 8,
       "display": "Word contains 'ey'",
-      "hint": "Word contains 'ey'.",
-      "id": "col_19"
+      "hint": "Word contains 'ey'."
     },
     {
       "type": "array_contains",
@@ -287,8 +375,7 @@
       "category": "name",
       "match_count": 8,
       "display": "Word contains 'park'",
-      "hint": "Word contains 'park'.",
-      "id": "col_20"
+      "hint": "Word contains 'park'."
     },
     {
       "type": "array_contains",
@@ -298,8 +385,7 @@
       "category": "name",
       "match_count": 5,
       "display": "Word contains 'bury'",
-      "hint": "Word contains 'bury'.",
-      "id": "col_21"
+      "hint": "Word contains 'bury'."
     },
     {
       "type": "array_contains",
@@ -309,8 +395,7 @@
       "category": "name",
       "match_count": 4,
       "display": "Word contains 'hill'",
-      "hint": "Word contains 'hill'.",
-      "id": "col_22"
+      "hint": "Word contains 'hill'."
     },
     {
       "type": "array_contains",
@@ -320,8 +405,7 @@
       "category": "name",
       "match_count": 4,
       "display": "Word contains 'stead'",
-      "hint": "Word contains 'stead'.",
-      "id": "col_23"
+      "hint": "Word contains 'stead'."
     },
     {
       "type": "array_contains",
@@ -331,8 +415,7 @@
       "category": "name",
       "match_count": 3,
       "display": "Word contains 'ley'",
-      "hint": "Word contains 'ley'.",
-      "id": "col_24"
+      "hint": "Word contains 'ley'."
     },
     {
       "type": "array_contains",
@@ -342,8 +425,7 @@
       "category": "name",
       "match_count": 3,
       "display": "Word contains 'green'",
-      "hint": "Word contains 'green'.",
-      "id": "col_25"
+      "hint": "Word contains 'green'."
     },
     {
       "type": "array_contains",
@@ -353,8 +435,7 @@
       "category": "name",
       "match_count": 3,
       "display": "Word contains 'ford'",
-      "hint": "Word contains 'ford'.",
-      "id": "col_26"
+      "hint": "Word contains 'ford'."
     },
     {
       "type": "array_contains",
@@ -364,8 +445,7 @@
       "category": "name",
       "match_count": 3,
       "display": "Word contains 'ham'",
-      "hint": "Word contains 'ham'.",
-      "id": "col_27"
+      "hint": "Word contains 'ham'."
     }
   ]
 }

@@ -7,7 +7,9 @@
     "crs": "ACB",
     "region": "Cheshire West and Chester",
     "operator": "London Northwestern Railway",
-    "route": [],
+    "route": [
+      "West Coast Main Line"
+    ],
     "is_interchange": false,
     "is_coastal": false,
     "terminus_max": 0,
@@ -227,7 +229,9 @@
     "crs": "ATH",
     "region": "North Warwickshire",
     "operator": "London Northwestern Railway",
-    "route": [],
+    "route": [
+      "West Coast Main Line"
+    ],
     "is_interchange": false,
     "is_coastal": false,
     "terminus_max": 0,
@@ -1340,7 +1344,9 @@
     "crs": "HTF",
     "region": "Cheshire West and Chester",
     "operator": "London Northwestern Railway",
-    "route": [],
+    "route": [
+      "West Coast Main Line"
+    ],
     "is_interchange": false,
     "is_coastal": false,
     "terminus_max": 0,
@@ -1993,7 +1999,9 @@
     "crs": "LBK",
     "region": "West Northamptonshire",
     "operator": "London Northwestern Railway",
-    "route": [],
+    "route": [
+      "West Coast Main Line"
+    ],
     "is_interchange": false,
     "is_coastal": false,
     "terminus_max": 0,
@@ -2422,7 +2430,9 @@
     "crs": "PSW",
     "region": "North Warwickshire",
     "operator": "London Northwestern Railway",
-    "route": [],
+    "route": [
+      "West Coast Main Line"
+    ],
     "is_interchange": false,
     "is_coastal": false,
     "terminus_max": 0,
@@ -2782,7 +2792,9 @@
     "crs": "TAM",
     "region": "Tamworth",
     "operator": "London Northwestern Railway",
-    "route": [],
+    "route": [
+      "West Coast Main Line"
+    ],
     "is_interchange": false,
     "is_coastal": false,
     "terminus_max": 0,
@@ -3179,7 +3191,9 @@
     "crs": "WSF",
     "region": "Cheshire West and Chester",
     "operator": "London Northwestern Railway",
-    "route": [],
+    "route": [
+      "West Coast Main Line"
+    ],
     "is_interchange": false,
     "is_coastal": false,
     "terminus_max": 0,

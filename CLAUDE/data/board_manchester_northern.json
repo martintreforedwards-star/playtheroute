@@ -164,7 +164,9 @@
     "crs": "AHN",
     "region": "Tameside",
     "operator": "Northern",
-    "route": [],
+    "route": [
+      "Huddersfield Line"
+    ],
     "is_interchange": false,
     "is_coastal": false,
     "terminus_max": 0,
@@ -1091,7 +1093,9 @@
     "crs": "BYM",
     "region": "Burnley",
     "operator": "Northern",
-    "route": [],
+    "route": [
+      "Calder Vale Line"
+    ],
     "is_interchange": false,
     "is_coastal": false,
     "terminus_max": 26,
@@ -1748,7 +1752,9 @@
     "crs": "DTN",
     "region": "Tameside",
     "operator": "Northern",
-    "route": [],
+    "route": [
+      "Stockport to Stalybridge Line"
+    ],
     "is_interchange": false,
     "is_coastal": false,
     "terminus_max": 0,
@@ -4557,7 +4563,9 @@
     "crs": "RDS",
     "region": "Stockport",
     "operator": "Northern",
-    "route": [],
+    "route": [
+      "Stockport to Stalybridge Line"
+    ],
     "is_interchange": false,
     "is_coastal": false,
     "terminus_max": 0,

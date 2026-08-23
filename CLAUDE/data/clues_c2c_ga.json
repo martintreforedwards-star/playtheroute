@@ -7,9 +7,8 @@
       "label": "Interchange station",
       "weight": "medium",
       "match_count": 91,
-      "display": "Change trains here",
-      "hint": "Served by two or more separate named routes, or where several lines physically meet.",
-      "id": "row_0"
+      "display": "Is an interchange station",
+      "hint": "Served by two or more separate named routes, or where several lines physically meet."
     },
     {
       "type": "equals",
@@ -19,8 +18,7 @@
       "weight": "medium",
       "match_count": 44,
       "display": "Near the coast",
-      "hint": "A station within 3 kilometres of the coastline or an estuary.",
-      "id": "row_1"
+      "hint": "A station within 3 kilometres of the coastline or an estuary."
     },
     {
       "type": "range",
@@ -30,8 +28,7 @@
       "weight": "medium",
       "match_count": 58,
       "display": "Terminus station",
-      "hint": "At least some journeys terminate at this station - it's not just a stop along the way.",
-      "id": "row_2"
+      "hint": "At least some journeys terminate at this station - it's not just a stop along the way."
     },
     {
       "type": "equals",
@@ -41,8 +38,7 @@
       "weight": "medium",
       "match_count": 93,
       "display": "Station name is one word",
-      "hint": "Station is a one-word name.",
-      "id": "row_3"
+      "hint": "Station is a one-word name."
     },
     {
       "type": "range",
@@ -52,8 +48,7 @@
       "weight": "high",
       "match_count": 14,
       "display": "Station name is 3+ words",
-      "hint": "Station name is three or more words long.",
-      "id": "row_4"
+      "hint": "Station name is three or more words long."
     },
     {
       "type": "range",
@@ -64,8 +59,7 @@
       "weight": "high",
       "match_count": 17,
       "display": "Station name is 6 letters or fewer",
-      "hint": "Station name is 6 characters or fewer.",
-      "id": "row_5"
+      "hint": "Station name is 6 characters or fewer."
     },
     {
       "type": "range",
@@ -76,8 +70,7 @@
       "weight": "medium",
       "match_count": 77,
       "display": "Station name is 7-10 letters",
-      "hint": "Station name length is between 7 and 10 characters.",
-      "id": "row_6"
+      "hint": "Station name length is between 7 and 10 characters."
     },
     {
       "type": "range",
@@ -87,8 +80,7 @@
       "weight": "medium",
       "match_count": 70,
       "display": "Station name is 11+ letters",
-      "hint": "Station name is equal to or exceeds 11 characters.",
-      "id": "row_7"
+      "hint": "Station name is equal to or exceeds 11 characters."
     }
   ],
   "columnPool": [
@@ -100,8 +92,7 @@
       "category": "geography",
       "match_count": 15,
       "display": "Is within the East Suffolk region",
-      "hint": "This station is based within the East Suffolk region.",
-      "id": "col_0"
+      "hint": "This station is based within the East Suffolk region."
     },
     {
       "type": "equals",
@@ -111,8 +102,7 @@
       "category": "geography",
       "match_count": 14,
       "display": "Is within the Tendring region",
-      "hint": "This station is based within the Tendring region.",
-      "id": "col_1"
+      "hint": "This station is based within the Tendring region."
     },
     {
       "type": "equals",
@@ -122,8 +112,7 @@
       "category": "geography",
       "match_count": 9,
       "display": "Is within the Broadland region",
-      "hint": "This station is based within the Broadland region.",
-      "id": "col_2"
+      "hint": "This station is based within the Broadland region."
     },
     {
       "type": "equals",
@@ -133,8 +122,7 @@
       "category": "geography",
       "match_count": 9,
       "display": "Is within the Southend-on-Sea region",
-      "hint": "This station is based within the Southend-on-Sea region.",
-      "id": "col_3"
+      "hint": "This station is based within the Southend-on-Sea region."
     },
     {
       "type": "equals",
@@ -144,8 +132,7 @@
       "category": "geography",
       "match_count": 8,
       "display": "Is within the East London region",
-      "hint": "This station is based within the East London region.",
-      "id": "col_4"
+      "hint": "This station is based within the East London region."
     },
     {
       "type": "equals",
@@ -155,8 +142,7 @@
       "category": "geography",
       "match_count": 8,
       "display": "Is within the Braintree region",
-      "hint": "This station is based within the Braintree region.",
-      "id": "col_5"
+      "hint": "This station is based within the Braintree region."
     },
     {
       "type": "equals",
@@ -166,8 +152,7 @@
       "category": "geography",
       "match_count": 8,
       "display": "Is within the North Norfolk region",
-      "hint": "This station is based within the North Norfolk region.",
-      "id": "col_6"
+      "hint": "This station is based within the North Norfolk region."
     },
     {
       "type": "equals",
@@ -177,8 +162,7 @@
       "category": "geography",
       "match_count": 7,
       "display": "Is within the Thurrock region",
-      "hint": "This station is based within the Thurrock region.",
-      "id": "col_7"
+      "hint": "This station is based within the Thurrock region."
     },
     {
       "type": "equals",
@@ -188,8 +172,7 @@
       "category": "geography",
       "match_count": 6,
       "display": "Is within the Uttlesford region",
-      "hint": "This station is based within the Uttlesford region.",
-      "id": "col_8"
+      "hint": "This station is based within the Uttlesford region."
     },
     {
       "type": "equals",
@@ -199,8 +182,7 @@
       "category": "geography",
       "match_count": 6,
       "display": "Is within the Colchester region",
-      "hint": "This station is based within the Colchester region.",
-      "id": "col_9"
+      "hint": "This station is based within the Colchester region."
     },
     {
       "type": "range",
@@ -210,8 +192,7 @@
       "category": "service",
       "match_count": 62,
       "display": "A short journey to London",
-      "hint": "In this puzzle, 'short' means under 36 minutes to London.",
-      "id": "col_10"
+      "hint": "In this puzzle, 'short' means under 36 minutes to London."
     },
     {
       "type": "range",
@@ -222,8 +203,7 @@
       "category": "service",
       "match_count": 56,
       "display": "A mid-range journey to London",
-      "hint": "In this puzzle, 'mid-range' means 36-96 minutes to London.",
-      "id": "col_11"
+      "hint": "In this puzzle, 'mid-range' means 36-96 minutes to London."
     },
     {
       "type": "range",
@@ -233,8 +213,7 @@
       "category": "service",
       "match_count": 60,
       "display": "A long journey to London",
-      "hint": "In this puzzle, 'long' means 96+ minutes to London.",
-      "id": "col_12"
+      "hint": "In this puzzle, 'long' means 96+ minutes to London."
     },
     {
       "type": "equals",
@@ -244,8 +223,7 @@
       "category": "route",
       "match_count": 139,
       "display": "Route operated by Greater Anglia.",
-      "hint": "Operated by Greater Anglia. Stations include Acle, Cromer, Lea Bridge and Soham (plus 135 more).",
-      "id": "col_13"
+      "hint": "This station is served by Greater Anglia."
     },
     {
       "type": "equals",
@@ -255,8 +233,7 @@
       "category": "route",
       "match_count": 25,
       "display": "Route operated by c2c.",
-      "hint": "Operated by c2c. Stations include Barking, East Tilbury, Pitsea and Stanford-Le-Hope (plus 21 more).",
-      "id": "col_14"
+      "hint": "This station is served by c2c."
     },
     {
       "type": "array_contains",
@@ -266,8 +243,7 @@
       "category": "route",
       "match_count": 49,
       "display": "Is part of the Great Eastern Main Line route",
-      "hint": "The core trunk route from London Liverpool Street via Colchester and Ipswich to Norwich - the main line the other Essex/Suffolk/Norfolk branches all connect into.",
-      "id": "col_15"
+      "hint": "The core trunk route from London Liverpool Street via Colchester and Ipswich to Norwich - the main line the other Essex/Suffolk/Norfolk branches all connect into."
     },
     {
       "type": "array_contains",
@@ -277,8 +253,7 @@
       "category": "route",
       "match_count": 47,
       "display": "Is part of the Great Eastern route",
-      "hint": "The wider network of lines radiating from London Liverpool Street across Essex, Suffolk and Norfolk - a broader grouping than just the Great Eastern Main Line trunk route itself.",
-      "id": "col_16"
+      "hint": "The wider network of lines radiating from London Liverpool Street across Essex, Suffolk and Norfolk - a broader grouping than just the Great Eastern Main Line trunk route itself."
     },
     {
       "type": "array_contains",
@@ -288,8 +263,7 @@
       "category": "route",
       "match_count": 33,
       "display": "Is part of the Heron Line route",
-      "hint": "The route from London Liverpool Street via Bishop's Stortford, Audley End and Shelford to Cambridge - the slower, more-stops alternative to the direct Cambridge fasts.",
-      "id": "col_17"
+      "hint": "The route from London Liverpool Street via Bishop's Stortford, Audley End and Shelford to Cambridge - the slower, more-stops alternative to the direct Cambridge fasts."
     },
     {
       "type": "array_contains",
@@ -299,8 +273,7 @@
       "category": "route",
       "match_count": 31,
       "display": "Is part of the West Anglia Main Line route",
-      "hint": "The main line north from London Liverpool Street through Tottenham Hale, Broxbourne and Bishop's Stortford to Cambridge - the other of the two main lines out of Liverpool Street, alongside the Great Eastern Main Line.",
-      "id": "col_18"
+      "hint": "The main line north from London Liverpool Street through Tottenham Hale, Broxbourne and Bishop's Stortford to Cambridge - the other of the two main lines out of Liverpool Street, alongside the Great Eastern Main Line."
     },
     {
       "type": "array_contains",
@@ -310,8 +283,7 @@
       "category": "route",
       "match_count": 29,
       "display": "Is part of the West Anglia route",
-      "hint": "The wider network of lines radiating from Liverpool Street north through Essex and Hertfordshire - including the Stansted Airport and Hertford East branches, not just the core West Anglia Main Line.",
-      "id": "col_19"
+      "hint": "The wider network of lines radiating from Liverpool Street north through Essex and Hertfordshire - including the Stansted Airport and Hertford East branches, not just the core West Anglia Main Line."
     },
     {
       "type": "array_contains",
@@ -321,8 +293,7 @@
       "category": "route",
       "match_count": 25,
       "display": "Is part of the London Tilbury & Southend Line route",
-      "hint": "The historic name for c2c's own route from London Fenchurch Street via Tilbury to Southend - a separate corridor from Greater Anglia's Shenfield-Southend line.",
-      "id": "col_20"
+      "hint": "The historic name for c2c's own route from London Fenchurch Street via Tilbury to Southend - a separate corridor from Greater Anglia's Shenfield-Southend line."
     },
     {
       "type": "array_contains",
@@ -332,8 +303,7 @@
       "category": "route",
       "match_count": 22,
       "display": "Is part of the East Suffolk Line route",
-      "hint": "The rural single-track line from Ipswich via Saxmundham to Lowestoft, with a branch to Felixstowe - one of the longest and least direct routes in East Anglia.",
-      "id": "col_21"
+      "hint": "The rural single-track line from Ipswich via Saxmundham to Lowestoft, with a branch to Felixstowe - one of the longest and least direct routes in East Anglia."
     },
     {
       "type": "array_contains",
@@ -343,8 +313,17 @@
       "category": "route",
       "match_count": 21,
       "display": "Is part of the Sunshine Coast Line route",
-      "hint": "The branch from Colchester to the Essex seaside resorts of Clacton-on-Sea and Walton-on-the-Naze - officially rebranded with this name for its coastal tourist appeal.",
-      "id": "col_22"
+      "hint": "The branch from Colchester to the Essex seaside resorts of Clacton-on-Sea and Walton-on-the-Naze - officially rebranded with this name for its coastal tourist appeal."
+    },
+    {
+      "type": "array_contains",
+      "field": "route",
+      "value": "Wherry Line",
+      "label": "Route: Wherry Line",
+      "category": "route",
+      "match_count": 20,
+      "display": "Is part of the Wherry Line route",
+      "hint": "The route east from Norwich to the coast at Great Yarmouth and Lowestoft, named after the traditional Norfolk Broads sailing boats."
     },
     {
       "type": "array_contains",
@@ -354,8 +333,7 @@
       "category": "route",
       "match_count": 19,
       "display": "Is part of the Mayflower Line route",
-      "hint": "The short branch from Manningtree to Harwich, named for the Mayflower's historic sailing connection to the town.",
-      "id": "col_23"
+      "hint": "The short branch from Manningtree to Harwich, named for the Mayflower's historic sailing connection to the town."
     },
     {
       "type": "array_contains",
@@ -365,8 +343,7 @@
       "category": "route",
       "match_count": 17,
       "display": "Is part of the Shenfield to Southend Line route",
-      "hint": "The Great Eastern branch south from Shenfield through Wickford to Southend Victoria - same route as the Southend Line, just described more literally by its endpoints.",
-      "id": "col_24"
+      "hint": "The Great Eastern branch south from Shenfield through Wickford to Southend Victoria - same route as the Southend Line, just described more literally by its endpoints."
     },
     {
       "type": "array_contains",
@@ -376,8 +353,7 @@
       "category": "route",
       "match_count": 17,
       "display": "Is part of the Southend Line route",
-      "hint": "The Great Eastern branch south from Shenfield through Wickford to Southend Victoria - also called the Shenfield to Southend Line.",
-      "id": "col_25"
+      "hint": "The Great Eastern branch south from Shenfield through Wickford to Southend Victoria - also called the Shenfield to Southend Line."
     },
     {
       "type": "array_contains",
@@ -387,19 +363,7 @@
       "category": "route",
       "match_count": 17,
       "display": "Is part of the St Edmund's Line route",
-      "hint": "The route from Ipswich via Bury St Edmunds and Newmarket to Cambridge - named after Saint Edmund, King of the East Angles, following a 2026 public naming competition.",
-      "id": "col_26"
-    },
-    {
-      "type": "array_contains",
-      "field": "route",
-      "value": "Wherry Line",
-      "label": "Route: Wherry Line",
-      "category": "route",
-      "match_count": 16,
-      "display": "Is part of the Wherry Line route",
-      "hint": "The route east from Norwich to the coast at Great Yarmouth and Lowestoft, named after the traditional Norfolk Broads sailing boats.",
-      "id": "col_27"
+      "hint": "The route from Ipswich via Bury St Edmunds and Newmarket to Cambridge - named after Saint Edmund, King of the East Angles, following a 2026 public naming competition."
     },
     {
       "type": "array_contains",
@@ -409,8 +373,7 @@
       "category": "route",
       "match_count": 16,
       "display": "Is part of the Hertford East Line route",
-      "hint": "The branch off the Lea Valley Lines that continues north to Hertford East - closely linked with the Lee Valley Line, which covers the shared stem through Cheshunt and Broxbourne.",
-      "id": "col_28"
+      "hint": "The branch off the Lea Valley Lines that continues north to Hertford East - closely linked with the Lee Valley Line, which covers the shared stem through Cheshunt and Broxbourne."
     },
     {
       "type": "array_contains",
@@ -420,8 +383,7 @@
       "category": "route",
       "match_count": 16,
       "display": "Is part of the Lee Valley Line route",
-      "hint": "The suburban route north from London through the Lea Valley via Cheshunt and Broxbourne, continuing on the Hertford East branch - closely linked with the Hertford East Line.",
-      "id": "col_29"
+      "hint": "The suburban route north from London through the Lea Valley via Cheshunt and Broxbourne, continuing on the Hertford East branch - closely linked with the Hertford East Line."
     },
     {
       "type": "equals",
@@ -431,8 +393,7 @@
       "category": "name",
       "match_count": 64,
       "display": "Naming style: a common English place-name ending",
-      "hint": "The name ends in a common English place-name suffix, like -ton, -ham, -by or -dale.",
-      "id": "col_30"
+      "hint": "The name ends in a common English place-name suffix, like -ton, -ham, -by or -dale."
     },
     {
       "type": "equals",
@@ -442,8 +403,7 @@
       "category": "name",
       "match_count": 16,
       "display": "Naming style: an unusual name format",
-      "hint": "Something unusual about how the name is written - brackets, a hyphen, an ampersand, or 'St'.",
-      "id": "col_31"
+      "hint": "Something unusual about how the name is written - brackets, a hyphen, an ampersand, or 'St'."
     },
     {
       "type": "equals",
@@ -453,8 +413,7 @@
       "category": "name",
       "match_count": 3,
       "display": "Naming style: a nature word in the name",
-      "hint": "The name includes a nature word, like Park, Hill, Green, Heath or Wood.",
-      "id": "col_32"
+      "hint": "The name includes a nature word, like Park, Hill, Green, Heath or Wood."
     },
     {
       "type": "array_contains",
@@ -464,8 +423,7 @@
       "category": "name",
       "match_count": 21,
       "display": "Word contains 'ham'",
-      "hint": "Word contains 'ham'.",
-      "id": "col_33"
+      "hint": "Word contains 'ham'."
     },
     {
       "type": "array_contains",
@@ -475,8 +433,7 @@
       "category": "name",
       "match_count": 13,
       "display": "Word contains 'ford'",
-      "hint": "Word contains 'ford'.",
-      "id": "col_34"
+      "hint": "Word contains 'ford'."
     },
     {
       "type": "array_contains",
@@ -486,8 +443,7 @@
       "category": "name",
       "match_count": 13,
       "display": "Word contains 'ton'",
-      "hint": "Word contains 'ton'.",
-      "id": "col_35"
+      "hint": "Word contains 'ton'."
     },
     {
       "type": "array_contains",
@@ -497,8 +453,7 @@
       "category": "name",
       "match_count": 10,
       "display": "Word contains 'ey'",
-      "hint": "Word contains 'ey'.",
-      "id": "col_36"
+      "hint": "Word contains 'ey'."
     },
     {
       "type": "array_contains",
@@ -508,8 +463,7 @@
       "category": "name",
       "match_count": 9,
       "display": "Word contains 'don'",
-      "hint": "Word contains 'don'.",
-      "id": "col_37"
+      "hint": "Word contains 'don'."
     },
     {
       "type": "array_contains",
@@ -519,8 +473,7 @@
       "category": "name",
       "match_count": 8,
       "display": "Word contains 'ley'",
-      "hint": "Word contains 'ley'.",
-      "id": "col_38"
+      "hint": "Word contains 'ley'."
     },
     {
       "type": "array_contains",
@@ -530,8 +483,7 @@
       "category": "name",
       "match_count": 7,
       "display": "Word contains 'ridge'",
-      "hint": "Word contains 'ridge'.",
-      "id": "col_39"
+      "hint": "Word contains 'ridge'."
     },
     {
       "type": "array_contains",
@@ -541,8 +493,7 @@
       "category": "name",
       "match_count": 7,
       "display": "Name includes a hyphen",
-      "hint": "The station name includes a hyphen.",
-      "id": "col_40"
+      "hint": "The station name includes a hyphen."
     },
     {
       "type": "array_contains",
@@ -552,8 +503,7 @@
       "category": "name",
       "match_count": 6,
       "display": "Name includes brackets",
-      "hint": "The station name includes text in brackets, e.g. a disambiguator like '(Cumbria)'.",
-      "id": "col_41"
+      "hint": "The station name includes text in brackets, e.g. a disambiguator like '(Cumbria)'."
     },
     {
       "type": "array_contains",
@@ -563,8 +513,7 @@
       "category": "name",
       "match_count": 4,
       "display": "Word contains 'port'",
-      "hint": "Word contains 'port'.",
-      "id": "col_42"
+      "hint": "Word contains 'port'."
     },
     {
       "type": "array_contains",
@@ -574,8 +523,7 @@
       "category": "name",
       "match_count": 3,
       "display": "Word contains 'park'",
-      "hint": "Word contains 'park'.",
-      "id": "col_43"
+      "hint": "Word contains 'park'."
     }
   ]
 }

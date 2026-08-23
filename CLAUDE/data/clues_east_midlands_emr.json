@@ -8,8 +8,7 @@
       "weight": "medium",
       "match_count": 26,
       "display": "Is an interchange station",
-      "hint": "Served by two or more separate named routes, or where several lines physically meet.",
-      "id": "row_0"
+      "hint": "Served by two or more separate named routes, or where several lines physically meet."
     },
     {
       "type": "equals",
@@ -19,8 +18,7 @@
       "weight": "high",
       "match_count": 7,
       "display": "Near the coast",
-      "hint": "A station within 3 kilometres of the coastline or an estuary.",
-      "id": "row_1"
+      "hint": "A station within 3 kilometres of the coastline or an estuary."
     },
     {
       "type": "range",
@@ -30,8 +28,7 @@
       "weight": "high",
       "match_count": 21,
       "display": "Terminus station",
-      "hint": "At least some journeys terminate at this station - it's not just a stop along the way.",
-      "id": "row_2"
+      "hint": "At least some journeys terminate at this station - it's not just a stop along the way."
     },
     {
       "type": "equals",
@@ -41,8 +38,7 @@
       "weight": "medium",
       "match_count": 73,
       "display": "Station name is one word",
-      "hint": "Station is a one-word name.",
-      "id": "row_3"
+      "hint": "Station is a one-word name."
     },
     {
       "type": "range",
@@ -52,8 +48,7 @@
       "weight": "high",
       "match_count": 7,
       "display": "Station name is 3+ words",
-      "hint": "Station name is three or more words long.",
-      "id": "row_4"
+      "hint": "Station name is three or more words long."
     },
     {
       "type": "range",
@@ -64,8 +59,7 @@
       "weight": "high",
       "match_count": 8,
       "display": "Station name is 6 letters or fewer",
-      "hint": "Station name is 6 characters or fewer.",
-      "id": "row_5"
+      "hint": "Station name is 6 characters or fewer."
     },
     {
       "type": "range",
@@ -76,8 +70,7 @@
       "weight": "medium",
       "match_count": 56,
       "display": "Station name is 7-10 letters",
-      "hint": "Station name length is between 7 and 10 characters.",
-      "id": "row_6"
+      "hint": "Station name length is between 7 and 10 characters."
     },
     {
       "type": "range",
@@ -87,8 +80,7 @@
       "weight": "medium",
       "match_count": 39,
       "display": "Station name is 11+ letters",
-      "hint": "Station name is equal to or exceeds 11 characters.",
-      "id": "row_7"
+      "hint": "Station name is equal to or exceeds 11 characters."
     }
   ],
   "columnPool": [
@@ -100,8 +92,7 @@
       "category": "geography",
       "match_count": 7,
       "display": "Is within the Newark and Sherwood region",
-      "hint": "This station is based within the Newark and Sherwood region.",
-      "id": "col_0"
+      "hint": "This station is based within the Newark and Sherwood region."
     },
     {
       "type": "equals",
@@ -111,8 +102,7 @@
       "category": "geography",
       "match_count": 7,
       "display": "Is within the North East Lincolnshire region",
-      "hint": "This station is based within the North East Lincolnshire region.",
-      "id": "col_1"
+      "hint": "This station is based within the North East Lincolnshire region."
     },
     {
       "type": "equals",
@@ -122,8 +112,7 @@
       "category": "geography",
       "match_count": 7,
       "display": "Is within the North Kesteven region",
-      "hint": "This station is based within the North Kesteven region.",
-      "id": "col_2"
+      "hint": "This station is based within the North Kesteven region."
     },
     {
       "type": "equals",
@@ -133,8 +122,7 @@
       "category": "geography",
       "match_count": 6,
       "display": "Is within the Amber Valley region",
-      "hint": "This station is based within the Amber Valley region.",
-      "id": "col_3"
+      "hint": "This station is based within the Amber Valley region."
     },
     {
       "type": "equals",
@@ -144,8 +132,7 @@
       "category": "geography",
       "match_count": 6,
       "display": "Is within the North Lincolnshire region",
-      "hint": "This station is based within the North Lincolnshire region.",
-      "id": "col_4"
+      "hint": "This station is based within the North Lincolnshire region."
     },
     {
       "type": "equals",
@@ -155,8 +142,7 @@
       "category": "geography",
       "match_count": 5,
       "display": "Is within the Rushcliffe region",
-      "hint": "This station is based within the Rushcliffe region.",
-      "id": "col_5"
+      "hint": "This station is based within the Rushcliffe region."
     },
     {
       "type": "equals",
@@ -166,8 +152,7 @@
       "category": "geography",
       "match_count": 4,
       "display": "Is within the Gedling region",
-      "hint": "This station is based within the Gedling region.",
-      "id": "col_6"
+      "hint": "This station is based within the Gedling region."
     },
     {
       "type": "equals",
@@ -177,8 +162,7 @@
       "category": "geography",
       "match_count": 4,
       "display": "Is within the Charnwood region",
-      "hint": "This station is based within the Charnwood region.",
-      "id": "col_7"
+      "hint": "This station is based within the Charnwood region."
     },
     {
       "type": "equals",
@@ -188,8 +172,7 @@
       "category": "geography",
       "match_count": 4,
       "display": "Is within the Bolsover region",
-      "hint": "This station is based within the Bolsover region.",
-      "id": "col_8"
+      "hint": "This station is based within the Bolsover region."
     },
     {
       "type": "equals",
@@ -199,8 +182,7 @@
       "category": "geography",
       "match_count": 4,
       "display": "Is within the East Lindsey region",
-      "hint": "This station is based within the East Lindsey region.",
-      "id": "col_9"
+      "hint": "This station is based within the East Lindsey region."
     },
     {
       "type": "equals",
@@ -210,8 +192,7 @@
       "category": "geography",
       "match_count": 23,
       "display": "Trains head to Derby",
-      "hint": "This station's journeys are routed via or towards Derby.",
-      "id": "col_10"
+      "hint": "This station's journeys are routed via or towards Derby."
     },
     {
       "type": "equals",
@@ -221,8 +202,7 @@
       "category": "geography",
       "match_count": 30,
       "display": "Trains head to Nottingham",
-      "hint": "This station's journeys are routed via or towards Nottingham.",
-      "id": "col_11"
+      "hint": "This station's journeys are routed via or towards Nottingham."
     },
     {
       "type": "equals",
@@ -232,8 +212,7 @@
       "category": "geography",
       "match_count": 35,
       "display": "Trains head to Lincoln",
-      "hint": "This station's journeys are routed via or towards Lincoln.",
-      "id": "col_12"
+      "hint": "This station's journeys are routed via or towards Lincoln."
     },
     {
       "type": "equals",
@@ -243,8 +222,7 @@
       "category": "geography",
       "match_count": 15,
       "display": "Trains head to Leicester",
-      "hint": "This station's journeys are routed via or towards Leicester.",
-      "id": "col_13"
+      "hint": "This station's journeys are routed via or towards Leicester."
     },
     {
       "type": "range",
@@ -254,8 +232,7 @@
       "category": "service",
       "match_count": 8,
       "display": "A short journey to Derby",
-      "hint": "In this puzzle, 'short' means under 12 minutes to Derby.",
-      "id": "col_14"
+      "hint": "In this puzzle, 'short' means under 12 minutes to Derby."
     },
     {
       "type": "range",
@@ -266,8 +243,7 @@
       "category": "service",
       "match_count": 10,
       "display": "A mid-range journey to Derby",
-      "hint": "In this puzzle, 'mid-range' means 12-27 minutes to Derby.",
-      "id": "col_15"
+      "hint": "In this puzzle, 'mid-range' means 12-27 minutes to Derby."
     },
     {
       "type": "range",
@@ -277,8 +253,7 @@
       "category": "service",
       "match_count": 8,
       "display": "A long journey to Derby",
-      "hint": "In this puzzle, 'long' means 27+ minutes to Derby.",
-      "id": "col_16"
+      "hint": "In this puzzle, 'long' means 27+ minutes to Derby."
     },
     {
       "type": "range",
@@ -288,8 +263,7 @@
       "category": "service",
       "match_count": 7,
       "display": "A short journey to Leicester",
-      "hint": "In this puzzle, 'short' means under 12 minutes to Leicester.",
-      "id": "col_17"
+      "hint": "In this puzzle, 'short' means under 12 minutes to Leicester."
     },
     {
       "type": "range",
@@ -300,8 +274,7 @@
       "category": "service",
       "match_count": 6,
       "display": "A mid-range journey to Leicester",
-      "hint": "In this puzzle, 'mid-range' means 12-20 minutes to Leicester.",
-      "id": "col_18"
+      "hint": "In this puzzle, 'mid-range' means 12-20 minutes to Leicester."
     },
     {
       "type": "range",
@@ -311,8 +284,7 @@
       "category": "service",
       "match_count": 5,
       "display": "A long journey to Leicester",
-      "hint": "In this puzzle, 'long' means 20+ minutes to Leicester.",
-      "id": "col_19"
+      "hint": "In this puzzle, 'long' means 20+ minutes to Leicester."
     },
     {
       "type": "range",
@@ -322,8 +294,7 @@
       "category": "service",
       "match_count": 12,
       "display": "A short journey to Lincoln",
-      "hint": "In this puzzle, 'short' means under 32 minutes to Lincoln.",
-      "id": "col_20"
+      "hint": "In this puzzle, 'short' means under 32 minutes to Lincoln."
     },
     {
       "type": "range",
@@ -334,8 +305,7 @@
       "category": "service",
       "match_count": 14,
       "display": "A mid-range journey to Lincoln",
-      "hint": "In this puzzle, 'mid-range' means 32-50 minutes to Lincoln.",
-      "id": "col_21"
+      "hint": "In this puzzle, 'mid-range' means 32-50 minutes to Lincoln."
     },
     {
       "type": "range",
@@ -345,8 +315,7 @@
       "category": "service",
       "match_count": 12,
       "display": "A long journey to Lincoln",
-      "hint": "In this puzzle, 'long' means 50+ minutes to Lincoln.",
-      "id": "col_22"
+      "hint": "In this puzzle, 'long' means 50+ minutes to Lincoln."
     },
     {
       "type": "range",
@@ -356,8 +325,7 @@
       "category": "service",
       "match_count": 11,
       "display": "A short journey to Nottingham",
-      "hint": "In this puzzle, 'short' means under 12 minutes to Nottingham.",
-      "id": "col_23"
+      "hint": "In this puzzle, 'short' means under 12 minutes to Nottingham."
     },
     {
       "type": "range",
@@ -368,8 +336,7 @@
       "category": "service",
       "match_count": 12,
       "display": "A mid-range journey to Nottingham",
-      "hint": "In this puzzle, 'mid-range' means 12-19 minutes to Nottingham.",
-      "id": "col_24"
+      "hint": "In this puzzle, 'mid-range' means 12-19 minutes to Nottingham."
     },
     {
       "type": "range",
@@ -379,8 +346,7 @@
       "category": "service",
       "match_count": 12,
       "display": "A long journey to Nottingham",
-      "hint": "In this puzzle, 'long' means 19+ minutes to Nottingham.",
-      "id": "col_25"
+      "hint": "In this puzzle, 'long' means 19+ minutes to Nottingham."
     },
     {
       "type": "array_contains",
@@ -388,10 +354,9 @@
       "value": "Castle Line",
       "label": "Route: Castle Line",
       "category": "route",
-      "match_count": 43,
+      "match_count": 44,
       "display": "Is part of the Castle Line route",
-      "hint": "The route north from Nottingham to Lincoln via Newark Castle station - named after the castle stop, not a scenic castle-hopping journey.",
-      "id": "col_26"
+      "hint": "The route north from Nottingham to Lincoln via Newark Castle station - named after the castle stop, not a scenic castle-hopping journey."
     },
     {
       "type": "array_contains",
@@ -401,8 +366,7 @@
       "category": "route",
       "match_count": 18,
       "display": "Is part of the Poacher Line route",
-      "hint": "The 78-mile route from Nottingham through the market towns of Grantham, Sleaford and Boston to the seaside resort of Skegness.",
-      "id": "col_27"
+      "hint": "The 78-mile route from Nottingham through the market towns of Grantham, Sleaford and Boston to the seaside resort of Skegness."
     },
     {
       "type": "array_contains",
@@ -410,10 +374,9 @@
       "value": "Humber Linc Line",
       "label": "Route: Humber Linc Line",
       "category": "route",
-      "match_count": 12,
+      "match_count": 13,
       "display": "Is part of the Humber Linc Line route",
-      "hint": "The rural branch from Barton-upon-Humber, near the Humber Bridge, south-east through Grimsby to the seaside resort of Cleethorpes.",
-      "id": "col_28"
+      "hint": "The rural branch from Barton-upon-Humber, near the Humber Bridge, south-east through Grimsby to the seaside resort of Cleethorpes."
     },
     {
       "type": "array_contains",
@@ -423,8 +386,7 @@
       "category": "route",
       "match_count": 12,
       "display": "Is part of the Robin Hood Line route",
-      "hint": "The reopened line from Nottingham through Hucknall and Mansfield to Worksop, named for its Sherwood Forest surroundings - closed by Beeching, then reopened in stages through the 1990s.",
-      "id": "col_29"
+      "hint": "The reopened line from Nottingham through Hucknall and Mansfield to Worksop, named for its Sherwood Forest surroundings - closed by Beeching, then reopened in stages through the 1990s."
     },
     {
       "type": "array_contains",
@@ -434,8 +396,7 @@
       "category": "route",
       "match_count": 8,
       "display": "Is part of the Derwent Valley Line route",
-      "hint": "The scenic route from Derby up the Derwent Valley through Belper, Ambergate and Cromford to Matlock, through the Derwent Valley Mills World Heritage Site.",
-      "id": "col_30"
+      "hint": "The scenic route from Derby up the Derwent Valley through Belper, Ambergate and Cromford to Matlock, through the Derwent Valley Mills World Heritage Site."
     },
     {
       "type": "array_contains",
@@ -445,8 +406,7 @@
       "category": "route",
       "match_count": 6,
       "display": "Is part of the Erewash Valley route",
-      "hint": "The historic freight and passenger route north from Nottingham through the Erewash Valley coalfield towns of Langley Mill, Alfreton and on to Chesterfield.",
-      "id": "col_31"
+      "hint": "The historic freight and passenger route north from Nottingham through the Erewash Valley coalfield towns of Langley Mill, Alfreton and on to Chesterfield."
     },
     {
       "type": "array_contains",
@@ -456,8 +416,37 @@
       "category": "route",
       "match_count": 5,
       "display": "Is part of the Ivanhoe Line route",
-      "hint": "The route from Leicester via Loughborough to Nottingham and on to Lincoln - named after Sir Walter Scott's novel, set partly in this area of Leicestershire.",
-      "id": "col_32"
+      "hint": "The route from Leicester via Loughborough to Nottingham and on to Lincoln - named after Sir Walter Scott's novel, set partly in this area of Leicestershire."
+    },
+    {
+      "type": "array_contains",
+      "field": "route",
+      "value": "Birmingham to Leicester Line",
+      "label": "Route: Birmingham to Leicester Line",
+      "category": "route",
+      "match_count": 3,
+      "display": "Is part of the Birmingham to Leicester Line route",
+      "hint": "The western half of the historic Birmingham-Peterborough cross-country route, linking Birmingham New Street to Leicester via Nuneaton - the only direct rail link between the West Midlands and East Anglia since the Beeching cuts."
+    },
+    {
+      "type": "array_contains",
+      "field": "route",
+      "value": "Cathedrals Route",
+      "label": "Route: Cathedrals Route",
+      "category": "route",
+      "match_count": 3,
+      "display": "Is part of the Cathedrals Route route",
+      "hint": "The route from Nottingham via Bottesford and the Vale of Belvoir to the cathedral city of Lincoln, joining the Peterborough-Lincoln line at Spalding."
+    },
+    {
+      "type": "array_contains",
+      "field": "route",
+      "value": "Leicester to Peterborough Line",
+      "label": "Route: Leicester to Peterborough Line",
+      "category": "route",
+      "match_count": 3,
+      "display": "Is part of the Leicester to Peterborough Line route",
+      "hint": "The eastern half of the historic Birmingham-Peterborough cross-country route, linking Leicester to Peterborough via Oakham and Stamford."
     },
     {
       "type": "equals",
@@ -467,8 +456,7 @@
       "category": "name",
       "match_count": 50,
       "display": "Naming style: a common English place-name ending",
-      "hint": "The name ends in a common English place-name suffix, like -ton, -ham, -by or -dale.",
-      "id": "col_33"
+      "hint": "The name ends in a common English place-name suffix, like -ton, -ham, -by or -dale."
     },
     {
       "type": "equals",
@@ -478,8 +466,7 @@
       "category": "name",
       "match_count": 11,
       "display": "Naming style: an unusual name format",
-      "hint": "Something unusual about how the name is written - brackets, a hyphen, an ampersand, or 'St'.",
-      "id": "col_34"
+      "hint": "Something unusual about how the name is written - brackets, a hyphen, an ampersand, or 'St'."
     },
     {
       "type": "array_contains",
@@ -489,8 +476,7 @@
       "category": "name",
       "match_count": 24,
       "display": "Word contains 'ton'",
-      "hint": "Word contains 'ton'.",
-      "id": "col_35"
+      "hint": "Word contains 'ton'."
     },
     {
       "type": "array_contains",
@@ -500,8 +486,7 @@
       "category": "name",
       "match_count": 11,
       "display": "Word contains 'by'",
-      "hint": "Word contains 'by'.",
-      "id": "col_36"
+      "hint": "Word contains 'by'."
     },
     {
       "type": "array_contains",
@@ -511,8 +496,7 @@
       "category": "name",
       "match_count": 7,
       "display": "Word contains 'ham'",
-      "hint": "Word contains 'ham'.",
-      "id": "col_37"
+      "hint": "Word contains 'ham'."
     },
     {
       "type": "array_contains",
@@ -522,8 +506,7 @@
       "category": "name",
       "match_count": 7,
       "display": "Word contains 'field'",
-      "hint": "Word contains 'field'.",
-      "id": "col_38"
+      "hint": "Word contains 'field'."
     },
     {
       "type": "array_contains",
@@ -533,8 +516,7 @@
       "category": "name",
       "match_count": 5,
       "display": "Name includes a hyphen",
-      "hint": "The station name includes a hyphen.",
-      "id": "col_39"
+      "hint": "The station name includes a hyphen."
     },
     {
       "type": "array_contains",
@@ -544,8 +526,7 @@
       "category": "name",
       "match_count": 4,
       "display": "Word contains 'well'",
-      "hint": "Word contains 'well'.",
-      "id": "col_40"
+      "hint": "Word contains 'well'."
     },
     {
       "type": "array_contains",
@@ -555,8 +536,7 @@
       "category": "name",
       "match_count": 4,
       "display": "Word contains 'ford'",
-      "hint": "Word contains 'ford'.",
-      "id": "col_41"
+      "hint": "Word contains 'ford'."
     },
     {
       "type": "array_contains",
@@ -566,8 +546,7 @@
       "category": "name",
       "match_count": 4,
       "display": "Name includes brackets",
-      "hint": "The station name includes text in brackets, e.g. a disambiguator like '(Cumbria)'.",
-      "id": "col_42"
+      "hint": "The station name includes text in brackets, e.g. a disambiguator like '(Cumbria)'."
     },
     {
       "type": "array_contains",
@@ -577,8 +556,7 @@
       "category": "name",
       "match_count": 4,
       "display": "Word contains 'ey'",
-      "hint": "Word contains 'ey'.",
-      "id": "col_43"
+      "hint": "Word contains 'ey'."
     },
     {
       "type": "array_contains",
@@ -588,8 +566,7 @@
       "category": "name",
       "match_count": 3,
       "display": "Word contains 'ington'",
-      "hint": "Word contains 'ington'.",
-      "id": "col_44"
+      "hint": "Word contains 'ington'."
     }
   ]
 }

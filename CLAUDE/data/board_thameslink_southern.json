@@ -68,13 +68,15 @@
     "crs": "AHS",
     "region": "Tunbridge Wells",
     "operator": "Southern",
-    "route": [],
+    "route": [
+      "Uckfield Branch"
+    ],
     "is_interchange": false,
     "is_coastal": false,
     "terminus_max": 0,
     "canonical_hub": "London",
     "canonical_time_to_hub": 38.0,
-    "welsh_name": null,
+    "welsh_name": "Ashurst",
     "wordplay_category": "structure",
     "wordplay_difficulty": "hard",
     "wordplay_score": 1,
@@ -153,37 +155,6 @@
     "time_to_hub__london": 70.0
   },
   {
-    "station_id": "SO_0004",
-    "station_name": "Appledore (Kent)",
-    "name_word_count": 1,
-    "name_letter_count": 13,
-    "crs": "APD",
-    "region": "Ashford",
-    "operator": "Southern",
-    "route": [
-      "Marshlink Line"
-    ],
-    "is_interchange": false,
-    "is_coastal": false,
-    "terminus_max": 0,
-    "canonical_hub": "London",
-    "canonical_time_to_hub": 70.0,
-    "welsh_name": null,
-    "wordplay_category": "structure",
-    "wordplay_difficulty": "hard",
-    "wordplay_score": 1,
-    "wordplay_tags": [
-      "brackets"
-    ],
-    "time_to_glasgow_central": null,
-    "time_to_victoria": null,
-    "time_to_charing_cross": null,
-    "time_to_euston": null,
-    "time_to_liverpool_street": null,
-    "time_to_stratford": null,
-    "time_to_hub__london": 70.0
-  },
-  {
     "station_id": "SO_0005",
     "station_name": "Arundel",
     "name_word_count": 1,
@@ -213,35 +184,6 @@
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
     "time_to_hub__london": 68.0
-  },
-  {
-    "station_id": "SO_0155",
-    "station_name": "Ashurst",
-    "name_word_count": 1,
-    "name_letter_count": 7,
-    "crs": "ASH",
-    "region": "Tunbridge Wells",
-    "operator": "Southern",
-    "route": [
-      "Uckfield Branch"
-    ],
-    "is_interchange": false,
-    "is_coastal": false,
-    "terminus_max": 58,
-    "canonical_hub": "London",
-    "canonical_time_to_hub": 79.0,
-    "welsh_name": null,
-    "wordplay_category": "other",
-    "wordplay_difficulty": "easy",
-    "wordplay_score": 0,
-    "wordplay_tags": [],
-    "time_to_glasgow_central": null,
-    "time_to_victoria": null,
-    "time_to_charing_cross": null,
-    "time_to_euston": null,
-    "time_to_liverpool_street": null,
-    "time_to_stratford": null,
-    "time_to_hub__london": 79.0
   },
   {
     "station_id": "SO_0011",
@@ -407,7 +349,8 @@
     "region": "Rother",
     "operator": "Southern",
     "route": [
-      "East Coastway"
+      "East Coastway",
+      "Hastings Line Extended"
     ],
     "is_interchange": false,
     "is_coastal": false,
@@ -436,7 +379,9 @@
     "region": "Sevenoaks",
     "operator": "Southern",
     "route": [
-      "Southern Thameslink Branches"
+      "Southern Thameslink Branches",
+      "Sevenoaks Main Line",
+      "Sevenoaks Metro"
     ],
     "is_interchange": false,
     "is_coastal": false,
@@ -488,36 +433,6 @@
     "time_to_hub__london": 32.0
   },
   {
-    "station_id": "SO_0159",
-    "station_name": "Blackfriars",
-    "name_word_count": 1,
-    "name_letter_count": 11,
-    "crs": "BFR",
-    "region": "Central London",
-    "operator": "Southern",
-    "route": [
-      "Thameslink Core",
-      "Southern Thameslink Branches"
-    ],
-    "is_interchange": true,
-    "is_coastal": false,
-    "terminus_max": 383,
-    "canonical_hub": "London",
-    "canonical_time_to_hub": 0.0,
-    "welsh_name": null,
-    "wordplay_category": "other",
-    "wordplay_difficulty": "easy",
-    "wordplay_score": 0,
-    "wordplay_tags": [],
-    "time_to_glasgow_central": null,
-    "time_to_victoria": null,
-    "time_to_charing_cross": null,
-    "time_to_euston": null,
-    "time_to_liverpool_street": null,
-    "time_to_stratford": null,
-    "time_to_hub__london": 0.0
-  },
-  {
     "station_id": "SO_0016",
     "station_name": "Billingshurst",
     "name_word_count": 1,
@@ -556,7 +471,9 @@
     "crs": "BIK",
     "region": "South East London",
     "operator": "Southern",
-    "route": [],
+    "route": [
+      "Crystal Palace line"
+    ],
     "is_interchange": false,
     "is_coastal": false,
     "terminus_max": 0,
@@ -727,35 +644,6 @@
     "time_to_hub__london": 8.0
   },
   {
-    "station_id": "SO_0156",
-    "station_name": "Basingstoke",
-    "name_word_count": 1,
-    "name_letter_count": 11,
-    "crs": "BSK",
-    "region": "Basingstoke and Deane",
-    "operator": "Southern",
-    "route": [
-      "Portsmouth Direct"
-    ],
-    "is_interchange": true,
-    "is_coastal": false,
-    "terminus_max": 548,
-    "canonical_hub": "London",
-    "canonical_time_to_hub": 301.0,
-    "welsh_name": null,
-    "wordplay_category": "other",
-    "wordplay_difficulty": "easy",
-    "wordplay_score": 0,
-    "wordplay_tags": [],
-    "time_to_glasgow_central": null,
-    "time_to_victoria": null,
-    "time_to_charing_cross": null,
-    "time_to_euston": null,
-    "time_to_liverpool_street": null,
-    "time_to_stratford": null,
-    "time_to_hub__london": 301.0
-  },
-  {
     "station_id": "SO_0022",
     "station_name": "Brighton",
     "name_word_count": 1,
@@ -888,7 +776,9 @@
     "crs": "CAT",
     "region": "Tandridge",
     "operator": "Southern",
-    "route": [],
+    "route": [
+      "Caterham Line"
+    ],
     "is_interchange": false,
     "is_coastal": false,
     "terminus_max": 398,
@@ -1279,37 +1169,6 @@
     "time_to_hub__london": 146.0
   },
   {
-    "station_id": "SO_0162",
-    "station_name": "Cosham",
-    "name_word_count": 1,
-    "name_letter_count": 6,
-    "crs": "CSA",
-    "region": "Portsmouth",
-    "operator": "Southern",
-    "route": [
-      "Portsmouth Direct"
-    ],
-    "is_interchange": true,
-    "is_coastal": true,
-    "terminus_max": 0,
-    "canonical_hub": "London",
-    "canonical_time_to_hub": 54.0,
-    "welsh_name": null,
-    "wordplay_category": "local_suffix",
-    "wordplay_difficulty": "medium",
-    "wordplay_score": 1,
-    "wordplay_tags": [
-      "ham"
-    ],
-    "time_to_glasgow_central": null,
-    "time_to_victoria": null,
-    "time_to_charing_cross": null,
-    "time_to_euston": null,
-    "time_to_liverpool_street": null,
-    "time_to_stratford": null,
-    "time_to_hub__london": 54.0
-  },
-  {
     "station_id": "SO_0026",
     "station_name": "Carshalton Beeches",
     "name_word_count": 2,
@@ -1381,7 +1240,10 @@
     "operator": "Southern",
     "route": [
       "Thameslink Core",
-      "Southern Thameslink Branches"
+      "Southern Thameslink Branches",
+      "Catford Loop",
+      "Catford Loop Extended",
+      "Catford Corridor"
     ],
     "is_interchange": true,
     "is_coastal": false,
@@ -1464,35 +1326,6 @@
     "time_to_hub__london": 72.0
   },
   {
-    "station_id": "SO_0163",
-    "station_name": "Dorking West",
-    "name_word_count": 2,
-    "name_letter_count": 11,
-    "crs": "DKT",
-    "region": "Mole Valley",
-    "operator": "Southern",
-    "route": [
-      "Arun Valley"
-    ],
-    "is_interchange": false,
-    "is_coastal": false,
-    "terminus_max": 0,
-    "canonical_hub": "London",
-    "canonical_time_to_hub": 5.0,
-    "welsh_name": null,
-    "wordplay_category": "other",
-    "wordplay_difficulty": "easy",
-    "wordplay_score": 0,
-    "wordplay_tags": [],
-    "time_to_glasgow_central": null,
-    "time_to_victoria": null,
-    "time_to_charing_cross": null,
-    "time_to_euston": null,
-    "time_to_liverpool_street": null,
-    "time_to_stratford": null,
-    "time_to_hub__london": 5.0
-  },
-  {
     "station_id": "SO_0040",
     "station_name": "Doleham",
     "name_word_count": 1,
@@ -1561,7 +1394,9 @@
     "region": "Sevenoaks",
     "operator": "Southern",
     "route": [
-      "Southern Thameslink Branches"
+      "Southern Thameslink Branches",
+      "Sevenoaks Main Line",
+      "Sevenoaks Metro"
     ],
     "is_interchange": false,
     "is_coastal": false,
@@ -1654,7 +1489,9 @@
     "crs": "EBR",
     "region": "Sevenoaks",
     "operator": "Southern",
-    "route": [],
+    "route": [
+      "Redhill-Tonbridge Line"
+    ],
     "is_interchange": false,
     "is_coastal": false,
     "terminus_max": 35,
@@ -1961,7 +1798,8 @@
     "region": "Rother",
     "operator": "Southern",
     "route": [
-      "East Coastway"
+      "East Coastway",
+      "Hastings Line Extended"
     ],
     "is_interchange": false,
     "is_coastal": false,
@@ -2050,7 +1888,8 @@
     "region": "Sevenoaks",
     "operator": "Southern",
     "route": [
-      "Southern Thameslink Branches"
+      "Southern Thameslink Branches",
+      "Bromley South Main Line"
     ],
     "is_interchange": false,
     "is_coastal": false,
@@ -2137,7 +1976,8 @@
     "region": "Dartford",
     "operator": "Southern",
     "route": [
-      "Southern Thameslink Branches"
+      "Southern Thameslink Branches",
+      "Chatham Main Line"
     ],
     "is_interchange": false,
     "is_coastal": false,
@@ -2190,37 +2030,6 @@
     "time_to_hub__london": 68.0
   },
   {
-    "station_id": "SO_0167",
-    "station_name": "Fareham",
-    "name_word_count": 1,
-    "name_letter_count": 7,
-    "crs": "FRM",
-    "region": "Fareham",
-    "operator": "Southern",
-    "route": [
-      "Portsmouth Direct"
-    ],
-    "is_interchange": false,
-    "is_coastal": true,
-    "terminus_max": 56,
-    "canonical_hub": "London",
-    "canonical_time_to_hub": 54.0,
-    "welsh_name": null,
-    "wordplay_category": "local_suffix",
-    "wordplay_difficulty": "medium",
-    "wordplay_score": 1,
-    "wordplay_tags": [
-      "ham"
-    ],
-    "time_to_glasgow_central": null,
-    "time_to_victoria": null,
-    "time_to_charing_cross": null,
-    "time_to_euston": null,
-    "time_to_liverpool_street": null,
-    "time_to_stratford": null,
-    "time_to_hub__london": 54.0
-  },
-  {
     "station_id": "SO_0170",
     "station_name": "Frant",
     "name_word_count": 1,
@@ -2229,7 +2038,8 @@
     "region": "Wealden",
     "operator": "Southern",
     "route": [
-      "Uckfield Branch"
+      "Uckfield Branch",
+      "Hastings Line Extended"
     ],
     "is_interchange": false,
     "is_coastal": false,
@@ -2311,38 +2121,6 @@
     "time_to_hub__london": 86.0
   },
   {
-    "station_id": "SO_0171",
-    "station_name": "Fratton",
-    "name_word_count": 1,
-    "name_letter_count": 7,
-    "crs": "FTN",
-    "region": "Portsmouth",
-    "operator": "Southern",
-    "route": [
-      "West Coastway",
-      "Portsmouth Direct"
-    ],
-    "is_interchange": true,
-    "is_coastal": true,
-    "terminus_max": 9,
-    "canonical_hub": "London",
-    "canonical_time_to_hub": 162.0,
-    "welsh_name": null,
-    "wordplay_category": "local_suffix",
-    "wordplay_difficulty": "medium",
-    "wordplay_score": 1,
-    "wordplay_tags": [
-      "ton"
-    ],
-    "time_to_glasgow_central": null,
-    "time_to_victoria": null,
-    "time_to_charing_cross": null,
-    "time_to_euston": null,
-    "time_to_liverpool_street": null,
-    "time_to_stratford": null,
-    "time_to_hub__london": 162.0
-  },
-  {
     "station_id": "SO_0065",
     "station_name": "Goring-by-Sea",
     "name_word_count": 3,
@@ -2381,7 +2159,9 @@
     "crs": "GDN",
     "region": "Tandridge",
     "operator": "Southern",
-    "route": [],
+    "route": [
+      "Redhill-Tonbridge Line"
+    ],
     "is_interchange": false,
     "is_coastal": false,
     "terminus_max": 0,
@@ -2408,7 +2188,9 @@
     "crs": "GIP",
     "region": "South London",
     "operator": "Southern",
-    "route": [],
+    "route": [
+      "Crystal Palace line"
+    ],
     "is_interchange": false,
     "is_coastal": false,
     "terminus_max": 0,
@@ -2488,36 +2270,6 @@
     "time_to_hub__london": 616.0
   },
   {
-    "station_id": "SO_0174",
-    "station_name": "Havant",
-    "name_word_count": 1,
-    "name_letter_count": 6,
-    "crs": "HAV",
-    "region": "Havant",
-    "operator": "Southern",
-    "route": [
-      "West Coastway",
-      "Portsmouth Direct"
-    ],
-    "is_interchange": true,
-    "is_coastal": true,
-    "terminus_max": 151,
-    "canonical_hub": "London",
-    "canonical_time_to_hub": 141.0,
-    "welsh_name": null,
-    "wordplay_category": "other",
-    "wordplay_difficulty": "easy",
-    "wordplay_score": 0,
-    "wordplay_tags": [],
-    "time_to_glasgow_central": null,
-    "time_to_victoria": null,
-    "time_to_charing_cross": null,
-    "time_to_euston": null,
-    "time_to_liverpool_street": null,
-    "time_to_stratford": null,
-    "time_to_hub__london": 141.0
-  },
-  {
     "station_id": "SO_0066",
     "station_name": "Hackbridge",
     "name_word_count": 1,
@@ -2549,35 +2301,6 @@
     "time_to_hub__london": 76.0
   },
   {
-    "station_id": "SO_0175",
-    "station_name": "Hedge End",
-    "name_word_count": 2,
-    "name_letter_count": 8,
-    "crs": "HDE",
-    "region": "Eastleigh",
-    "operator": "Southern",
-    "route": [
-      "Portsmouth Direct"
-    ],
-    "is_interchange": false,
-    "is_coastal": false,
-    "terminus_max": 0,
-    "canonical_hub": "London",
-    "canonical_time_to_hub": 39.0,
-    "welsh_name": null,
-    "wordplay_category": "other",
-    "wordplay_difficulty": "easy",
-    "wordplay_score": 0,
-    "wordplay_tags": [],
-    "time_to_glasgow_central": null,
-    "time_to_victoria": null,
-    "time_to_charing_cross": null,
-    "time_to_euston": null,
-    "time_to_liverpool_street": null,
-    "time_to_stratford": null,
-    "time_to_hub__london": 39.0
-  },
-  {
     "station_id": "SO_0071",
     "station_name": "Hever",
     "name_word_count": 1,
@@ -2607,38 +2330,6 @@
     "time_to_hub__london": 38.0
   },
   {
-    "station_id": "SO_0179",
-    "station_name": "Hurst Green",
-    "name_word_count": 2,
-    "name_letter_count": 10,
-    "crs": "HGD",
-    "region": "Tandridge",
-    "operator": "Southern",
-    "route": [
-      "East Grinstead Branch",
-      "Uckfield Branch"
-    ],
-    "is_interchange": true,
-    "is_coastal": false,
-    "terminus_max": 0,
-    "canonical_hub": "London",
-    "canonical_time_to_hub": 2.0,
-    "welsh_name": null,
-    "wordplay_category": "nature",
-    "wordplay_difficulty": "medium",
-    "wordplay_score": 1,
-    "wordplay_tags": [
-      "green"
-    ],
-    "time_to_glasgow_central": null,
-    "time_to_victoria": null,
-    "time_to_charing_cross": null,
-    "time_to_euston": null,
-    "time_to_liverpool_street": null,
-    "time_to_stratford": null,
-    "time_to_hub__london": 2.0
-  },
-  {
     "station_id": "SO_0173",
     "station_name": "Hastings",
     "name_word_count": 1,
@@ -2647,7 +2338,8 @@
     "region": "Hastings",
     "operator": "Southern",
     "route": [
-      "East Coastway"
+      "East Coastway",
+      "Hastings Line Extended"
     ],
     "is_interchange": false,
     "is_coastal": true,
@@ -2707,7 +2399,8 @@
     "region": "Tunbridge Wells",
     "operator": "Southern",
     "route": [
-      "Uckfield Branch"
+      "Uckfield Branch",
+      "Hastings Line Extended"
     ],
     "is_interchange": false,
     "is_coastal": false,
@@ -2736,7 +2429,9 @@
     "region": "Tonbridge and Malling",
     "operator": "Southern",
     "route": [
-      "Southern Thameslink Branches"
+      "Southern Thameslink Branches",
+      "Sevenoaks Main Line",
+      "Sevenoaks Metro"
     ],
     "is_interchange": false,
     "is_coastal": false,
@@ -2794,7 +2489,9 @@
     "region": "Portsmouth",
     "operator": "Southern",
     "route": [
-      "Portsmouth Direct"
+      "Portsmouth Direct",
+      "Solent Link",
+      "South West Main Line"
     ],
     "is_interchange": true,
     "is_coastal": true,
@@ -2855,7 +2552,7 @@
     "region": "Ashford",
     "operator": "Southern",
     "route": [
-      "Marshlink Line"
+      "Marshlink"
     ],
     "is_interchange": false,
     "is_coastal": false,
@@ -3007,7 +2704,9 @@
     "region": "Tandridge",
     "operator": "Southern",
     "route": [
-      "Coastway East"
+      "Coastway East",
+      "East Grinstead Branch",
+      "Uckfield Branch"
     ],
     "is_interchange": false,
     "is_coastal": false,
@@ -3068,7 +2767,9 @@
     "crs": "KLY",
     "region": "South London",
     "operator": "Southern",
-    "route": [],
+    "route": [
+      "Caterham Line"
+    ],
     "is_interchange": false,
     "is_coastal": false,
     "terminus_max": 0,
@@ -3190,7 +2891,9 @@
     "operator": "Southern",
     "route": [
       "Thameslink Core",
-      "Southern Thameslink Branches"
+      "Southern Thameslink Branches",
+      "Greenwich Line",
+      "Sevenoaks Main Line"
     ],
     "is_interchange": true,
     "is_coastal": false,
@@ -3279,7 +2982,9 @@
     "crs": "LIH",
     "region": "Sevenoaks",
     "operator": "Southern",
-    "route": [],
+    "route": [
+      "Redhill-Tonbridge Line"
+    ],
     "is_interchange": false,
     "is_coastal": false,
     "terminus_max": 0,
@@ -3641,7 +3346,9 @@
     "crs": "NUF",
     "region": "Tandridge",
     "operator": "Southern",
-    "route": [],
+    "route": [
+      "Redhill-Tonbridge Line"
+    ],
     "is_interchange": false,
     "is_coastal": false,
     "terminus_max": 0,
@@ -3781,36 +3488,6 @@
     "time_to_hub__london": 34.0
   },
   {
-    "station_id": "SO_0100",
-    "station_name": "Ore",
-    "name_word_count": 1,
-    "name_letter_count": 3,
-    "crs": "ORE",
-    "region": "Hastings",
-    "operator": "Southern",
-    "route": [
-      "Coastway East",
-      "Marshlink Line"
-    ],
-    "is_interchange": true,
-    "is_coastal": true,
-    "terminus_max": 207,
-    "canonical_hub": "London",
-    "canonical_time_to_hub": 32.0,
-    "welsh_name": null,
-    "wordplay_category": "other",
-    "wordplay_difficulty": "easy",
-    "wordplay_score": 0,
-    "wordplay_tags": [],
-    "time_to_glasgow_central": null,
-    "time_to_victoria": null,
-    "time_to_charing_cross": null,
-    "time_to_euston": null,
-    "time_to_liverpool_street": null,
-    "time_to_stratford": null,
-    "time_to_hub__london": 32.0
-  },
-  {
     "station_id": "SO_0185",
     "station_name": "Otford",
     "name_word_count": 1,
@@ -3819,7 +3496,8 @@
     "region": "Sevenoaks",
     "operator": "Southern",
     "route": [
-      "Southern Thameslink Branches"
+      "Southern Thameslink Branches",
+      "Maidstone East"
     ],
     "is_interchange": true,
     "is_coastal": false,
@@ -3942,7 +3620,9 @@
     "crs": "PHR",
     "region": "Sevenoaks",
     "operator": "Southern",
-    "route": [],
+    "route": [
+      "Redhill-Tonbridge Line"
+    ],
     "is_interchange": false,
     "is_coastal": false,
     "terminus_max": 0,
@@ -4020,36 +3700,6 @@
     "time_to_hub__london": 70.0
   },
   {
-    "station_id": "SO_0188",
-    "station_name": "Portsmouth Harbour",
-    "name_word_count": 2,
-    "name_letter_count": 17,
-    "crs": "PMH",
-    "region": "Portsmouth",
-    "operator": "Southern",
-    "route": [
-      "West Coastway",
-      "Portsmouth Direct"
-    ],
-    "is_interchange": true,
-    "is_coastal": true,
-    "terminus_max": 1076,
-    "canonical_hub": "London",
-    "canonical_time_to_hub": 151.0,
-    "welsh_name": null,
-    "wordplay_category": "other",
-    "wordplay_difficulty": "easy",
-    "wordplay_score": 0,
-    "wordplay_tags": [],
-    "time_to_glasgow_central": null,
-    "time_to_victoria": null,
-    "time_to_charing_cross": null,
-    "time_to_euston": null,
-    "time_to_liverpool_street": null,
-    "time_to_stratford": null,
-    "time_to_hub__london": 151.0
-  },
-  {
     "station_id": "SO_0106",
     "station_name": "Plumpton",
     "name_word_count": 1,
@@ -4079,69 +3729,6 @@
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
     "time_to_hub__london": 38.0
-  },
-  {
-    "station_id": "SO_0102",
-    "station_name": "Peckham Rye",
-    "name_word_count": 2,
-    "name_letter_count": 10,
-    "crs": "PMR",
-    "region": "South East London",
-    "operator": "Southern",
-    "route": [
-      "Darent Valley Line"
-    ],
-    "is_interchange": true,
-    "is_coastal": false,
-    "terminus_max": 0,
-    "canonical_hub": "London",
-    "canonical_time_to_hub": 84.0,
-    "welsh_name": null,
-    "wordplay_category": "local_suffix",
-    "wordplay_difficulty": "medium",
-    "wordplay_score": 1,
-    "wordplay_tags": [
-      "ham"
-    ],
-    "time_to_glasgow_central": null,
-    "time_to_victoria": null,
-    "time_to_charing_cross": null,
-    "time_to_euston": null,
-    "time_to_liverpool_street": null,
-    "time_to_stratford": null,
-    "time_to_hub__london": 84.0
-  },
-  {
-    "station_id": "SO_0187",
-    "station_name": "Portsmouth & Southsea",
-    "name_word_count": 2,
-    "name_letter_count": 18,
-    "crs": "PMS",
-    "region": "Portsmouth",
-    "operator": "Southern",
-    "route": [
-      "West Coastway",
-      "Portsmouth Direct"
-    ],
-    "is_interchange": true,
-    "is_coastal": true,
-    "terminus_max": 317,
-    "canonical_hub": "London",
-    "canonical_time_to_hub": 162.0,
-    "welsh_name": null,
-    "wordplay_category": "structure",
-    "wordplay_difficulty": "hard",
-    "wordplay_score": 1,
-    "wordplay_tags": [
-      "ampersand"
-    ],
-    "time_to_glasgow_central": null,
-    "time_to_victoria": null,
-    "time_to_charing_cross": null,
-    "time_to_euston": null,
-    "time_to_liverpool_street": null,
-    "time_to_stratford": null,
-    "time_to_hub__london": 162.0
   },
   {
     "station_id": "SO_0109",
@@ -4174,35 +3761,6 @@
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
     "time_to_hub__london": 286.0
-  },
-  {
-    "station_id": "SO_0186",
-    "station_name": "Portchester",
-    "name_word_count": 1,
-    "name_letter_count": 11,
-    "crs": "PTC",
-    "region": "Fareham",
-    "operator": "Southern",
-    "route": [
-      "Portsmouth Direct"
-    ],
-    "is_interchange": false,
-    "is_coastal": true,
-    "terminus_max": 0,
-    "canonical_hub": "London",
-    "canonical_time_to_hub": 47.0,
-    "welsh_name": null,
-    "wordplay_category": "other",
-    "wordplay_difficulty": "easy",
-    "wordplay_score": 0,
-    "wordplay_tags": [],
-    "time_to_glasgow_central": null,
-    "time_to_victoria": null,
-    "time_to_charing_cross": null,
-    "time_to_euston": null,
-    "time_to_liverpool_street": null,
-    "time_to_stratford": null,
-    "time_to_hub__london": 47.0
   },
   {
     "station_id": "SO_0110",
@@ -4340,7 +3898,8 @@
     "region": "Rother",
     "operator": "Southern",
     "route": [
-      "East Coastway"
+      "East Coastway",
+      "Hastings Line Extended"
     ],
     "is_interchange": false,
     "is_coastal": false,
@@ -4483,37 +4042,6 @@
     "time_to_hub__london": 70.0
   },
   {
-    "station_id": "SO_0118",
-    "station_name": "Rye (Sussex)",
-    "name_word_count": 1,
-    "name_letter_count": 9,
-    "crs": "RYE",
-    "region": "Rother",
-    "operator": "Southern",
-    "route": [
-      "Marshlink Line"
-    ],
-    "is_interchange": false,
-    "is_coastal": true,
-    "terminus_max": 8,
-    "canonical_hub": "London",
-    "canonical_time_to_hub": 66.0,
-    "welsh_name": null,
-    "wordplay_category": "structure",
-    "wordplay_difficulty": "hard",
-    "wordplay_score": 1,
-    "wordplay_tags": [
-      "brackets"
-    ],
-    "time_to_glasgow_central": null,
-    "time_to_victoria": null,
-    "time_to_charing_cross": null,
-    "time_to_euston": null,
-    "time_to_liverpool_street": null,
-    "time_to_stratford": null,
-    "time_to_hub__london": 66.0
-  },
-  {
     "station_id": "SO_0119",
     "station_name": "Salfords (Surrey)",
     "name_word_count": 1,
@@ -4554,7 +4082,10 @@
     "region": "Sevenoaks",
     "operator": "Southern",
     "route": [
-      "Southern Thameslink Branches"
+      "Southern Thameslink Branches",
+      "Maidstone East",
+      "Chatham Main Line",
+      "Bromley South Main Line"
     ],
     "is_interchange": true,
     "is_coastal": false,
@@ -4649,7 +4180,8 @@
     "region": "Southampton",
     "operator": "Southern",
     "route": [
-      "Portsmouth Direct"
+      "Portsmouth Direct",
+      "South West Main Line"
     ],
     "is_interchange": true,
     "is_coastal": true,
@@ -4738,7 +4270,8 @@
     "region": "Sevenoaks",
     "operator": "Southern",
     "route": [
-      "Southern Thameslink Branches"
+      "Southern Thameslink Branches",
+      "Bromley South Main Line"
     ],
     "is_interchange": false,
     "is_coastal": false,
@@ -4770,7 +4303,10 @@
     "region": "Sevenoaks",
     "operator": "Southern",
     "route": [
-      "Southern Thameslink Branches"
+      "Southern Thameslink Branches",
+      "Southeastern Main Line",
+      "Sevenoaks Main Line",
+      "Sevenoaks Metro"
     ],
     "is_interchange": true,
     "is_coastal": false,
@@ -4789,37 +4325,6 @@
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
     "time_to_hub__london": 245.0
-  },
-  {
-    "station_id": "SO_0195",
-    "station_name": "St Leonards Warrior Square",
-    "name_word_count": 4,
-    "name_letter_count": 23,
-    "crs": "SLQ",
-    "region": "Hastings",
-    "operator": "Southern",
-    "route": [
-      "East Coastway"
-    ],
-    "is_interchange": true,
-    "is_coastal": true,
-    "terminus_max": 0,
-    "canonical_hub": "London",
-    "canonical_time_to_hub": 105.0,
-    "welsh_name": null,
-    "wordplay_category": "structure",
-    "wordplay_difficulty": "hard",
-    "wordplay_score": 1,
-    "wordplay_tags": [
-      "saint"
-    ],
-    "time_to_glasgow_central": null,
-    "time_to_victoria": null,
-    "time_to_charing_cross": null,
-    "time_to_euston": null,
-    "time_to_liverpool_street": null,
-    "time_to_stratford": null,
-    "time_to_hub__london": 105.0
   },
   {
     "station_id": "SO_0120",
@@ -4851,35 +4356,6 @@
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
     "time_to_hub__london": 118.0
-  },
-  {
-    "station_id": "SO_0199",
-    "station_name": "Swanwick",
-    "name_word_count": 1,
-    "name_letter_count": 8,
-    "crs": "SNW",
-    "region": "Fareham",
-    "operator": "Southern",
-    "route": [
-      "Portsmouth Direct"
-    ],
-    "is_interchange": false,
-    "is_coastal": false,
-    "terminus_max": 0,
-    "canonical_hub": "London",
-    "canonical_time_to_hub": 3.0,
-    "welsh_name": null,
-    "wordplay_category": "other",
-    "wordplay_difficulty": "easy",
-    "wordplay_score": 0,
-    "wordplay_tags": [],
-    "time_to_glasgow_central": null,
-    "time_to_victoria": null,
-    "time_to_charing_cross": null,
-    "time_to_euston": null,
-    "time_to_liverpool_street": null,
-    "time_to_stratford": null,
-    "time_to_hub__london": 3.0
   },
   {
     "station_id": "SO_0126",
@@ -4919,7 +4395,8 @@
     "region": "Rother",
     "operator": "Southern",
     "route": [
-      "East Coastway"
+      "East Coastway",
+      "Hastings Line Extended"
     ],
     "is_interchange": false,
     "is_coastal": false,
@@ -4938,37 +4415,6 @@
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
     "time_to_hub__london": 46.0
-  },
-  {
-    "station_id": "SO_0193",
-    "station_name": "Southampton Central",
-    "name_word_count": 2,
-    "name_letter_count": 18,
-    "crs": "SOU",
-    "region": "Southampton",
-    "operator": "Southern",
-    "route": [
-      "Portsmouth Direct"
-    ],
-    "is_interchange": true,
-    "is_coastal": true,
-    "terminus_max": 542,
-    "canonical_hub": "London",
-    "canonical_time_to_hub": 106.0,
-    "welsh_name": null,
-    "wordplay_category": "local_suffix",
-    "wordplay_difficulty": "medium",
-    "wordplay_score": 1,
-    "wordplay_tags": [
-      "ton"
-    ],
-    "time_to_glasgow_central": null,
-    "time_to_victoria": null,
-    "time_to_charing_cross": null,
-    "time_to_euston": null,
-    "time_to_liverpool_street": null,
-    "time_to_stratford": null,
-    "time_to_hub__london": 106.0
   },
   {
     "station_id": "SO_0191",
@@ -5166,7 +4612,8 @@
     "operator": "Southern",
     "route": [
       "Thameslink Core",
-      "Southern Thameslink Branches"
+      "Southern Thameslink Branches",
+      "High Speed 1"
     ],
     "is_interchange": true,
     "is_coastal": false,
@@ -5348,7 +4795,8 @@
     "region": "Tunbridge Wells",
     "operator": "Southern",
     "route": [
-      "Uckfield Branch"
+      "Uckfield Branch",
+      "Hastings Line Extended"
     ],
     "is_interchange": false,
     "is_coastal": false,
@@ -5408,7 +4856,12 @@
     "region": "Tonbridge and Malling",
     "operator": "Southern",
     "route": [
-      "Southern Thameslink Branches"
+      "Southern Thameslink Branches",
+      "Hastings Line",
+      "Southeastern Main Line",
+      "Hastings Line Extended",
+      "Sevenoaks Main Line",
+      "Sevenoaks Metro"
     ],
     "is_interchange": true,
     "is_coastal": false,
@@ -5563,7 +5016,9 @@
     "operator": "Southern",
     "route": [
       "Brighton Main Line",
-      "Portsmouth Direct"
+      "Portsmouth Direct",
+      "Chatham Main Line Metro",
+      "Bromley South Metro"
     ],
     "is_interchange": true,
     "is_coastal": false,
@@ -5594,7 +5049,8 @@
     "region": "Wealden",
     "operator": "Southern",
     "route": [
-      "Uckfield Branch"
+      "Uckfield Branch",
+      "Hastings Line Extended"
     ],
     "is_interchange": false,
     "is_coastal": false,
@@ -5623,7 +5079,10 @@
     "region": "Central London",
     "operator": "Southern",
     "route": [
-      "Southern Thameslink Branches"
+      "Southern Thameslink Branches",
+      "South Western Main Line",
+      "Windsor Lines",
+      "Portsmouth Direct Line"
     ],
     "is_interchange": false,
     "is_coastal": false,
@@ -5748,7 +5207,9 @@
     "crs": "WHS",
     "region": "Tandridge",
     "operator": "Southern",
-    "route": [],
+    "route": [
+      "Caterham Line"
+    ],
     "is_interchange": false,
     "is_coastal": false,
     "terminus_max": 0,
@@ -5797,35 +5258,6 @@
     "time_to_hub__london": 70.0
   },
   {
-    "station_id": "SO_0206",
-    "station_name": "Winchester",
-    "name_word_count": 1,
-    "name_letter_count": 10,
-    "crs": "WIN",
-    "region": "Winchester",
-    "operator": "Southern",
-    "route": [
-      "Portsmouth Direct"
-    ],
-    "is_interchange": false,
-    "is_coastal": false,
-    "terminus_max": 77,
-    "canonical_hub": "London",
-    "canonical_time_to_hub": 145.0,
-    "welsh_name": null,
-    "wordplay_category": "other",
-    "wordplay_difficulty": "easy",
-    "wordplay_score": 0,
-    "wordplay_tags": [],
-    "time_to_glasgow_central": null,
-    "time_to_victoria": null,
-    "time_to_charing_cross": null,
-    "time_to_euston": null,
-    "time_to_liverpool_street": null,
-    "time_to_stratford": null,
-    "time_to_hub__london": 145.0
-  },
-  {
     "station_id": "SO_0204",
     "station_name": "West St Leonards",
     "name_word_count": 3,
@@ -5834,7 +5266,8 @@
     "region": "Hastings",
     "operator": "Southern",
     "route": [
-      "East Coastway"
+      "East Coastway",
+      "Hastings Line Extended"
     ],
     "is_interchange": false,
     "is_coastal": true,
@@ -6196,7 +5629,9 @@
     "operator": "Southern",
     "route": [
       "Thameslink Core",
-      "Southern Thameslink Branches"
+      "Southern Thameslink Branches",
+      "Catford Loop Extended",
+      "Catford Corridor"
     ],
     "is_interchange": true,
     "is_coastal": false,
@@ -6316,7 +5751,9 @@
     "crs": "CYP",
     "region": "South London",
     "operator": "Southern",
-    "route": [],
+    "route": [
+      "Crystal Palace line"
+    ],
     "is_interchange": true,
     "is_coastal": false,
     "terminus_max": 414,

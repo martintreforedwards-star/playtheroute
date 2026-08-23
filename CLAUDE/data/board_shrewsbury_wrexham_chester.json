@@ -2843,7 +2843,7 @@
     "is_coastal": false,
     "terminus_max": 0,
     "canonical_hub": "Wrexham/Chester",
-    "canonical_time_to_hub": 20.0,
+    "canonical_time_to_hub": 62.0,
     "welsh_name": null,
     "wordplay_category": "other",
     "wordplay_difficulty": "easy",
@@ -2856,7 +2856,7 @@
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
     "time_to_hub__shrewsbury": null,
-    "time_to_hub__wrexham_chester": 20.0
+    "time_to_hub__wrexham_chester": 62.0
   },
   {
     "station_id": "TW_0187",

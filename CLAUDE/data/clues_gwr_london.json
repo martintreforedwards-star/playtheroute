@@ -7,9 +7,8 @@
       "label": "Interchange station",
       "weight": "high",
       "match_count": 40,
-      "display": "Change trains here",
-      "hint": "Served by two or more separate named routes, or where several lines physically meet.",
-      "id": "row_0"
+      "display": "Is an interchange station",
+      "hint": "Served by two or more separate named routes, or where several lines physically meet."
     },
     {
       "type": "equals",
@@ -19,8 +18,7 @@
       "weight": "high",
       "match_count": 35,
       "display": "Near the coast",
-      "hint": "A station within 3 kilometres of the coastline or an estuary.",
-      "id": "row_1"
+      "hint": "A station within 3 kilometres of the coastline or an estuary."
     },
     {
       "type": "range",
@@ -30,8 +28,7 @@
       "weight": "medium",
       "match_count": 53,
       "display": "Terminus station",
-      "hint": "At least some journeys terminate at this station - it's not just a stop along the way.",
-      "id": "row_2"
+      "hint": "At least some journeys terminate at this station - it's not just a stop along the way."
     },
     {
       "type": "equals",
@@ -41,8 +38,7 @@
       "weight": "medium",
       "match_count": 118,
       "display": "Station name is one word",
-      "hint": "Station is a one-word name.",
-      "id": "row_3"
+      "hint": "Station is a one-word name."
     },
     {
       "type": "range",
@@ -52,8 +48,7 @@
       "weight": "high",
       "match_count": 19,
       "display": "Station name is 3+ words",
-      "hint": "Station name is three or more words long.",
-      "id": "row_4"
+      "hint": "Station name is three or more words long."
     },
     {
       "type": "range",
@@ -64,8 +59,7 @@
       "weight": "high",
       "match_count": 28,
       "display": "Station name is 6 letters or fewer",
-      "hint": "Station name is 6 characters or fewer.",
-      "id": "row_5"
+      "hint": "Station name is 6 characters or fewer."
     },
     {
       "type": "range",
@@ -76,8 +70,7 @@
       "weight": "medium",
       "match_count": 96,
       "display": "Station name is 7-10 letters",
-      "hint": "Station name length is between 7 and 10 characters.",
-      "id": "row_6"
+      "hint": "Station name length is between 7 and 10 characters."
     },
     {
       "type": "range",
@@ -85,10 +78,9 @@
       "label": "Long name (11+ letters)",
       "min": 11,
       "weight": "medium",
-      "match_count": 66,
+      "match_count": 65,
       "display": "Station name is 11+ letters",
-      "hint": "Station name is equal to or exceeds 11 characters.",
-      "id": "row_7"
+      "hint": "Station name is equal to or exceeds 11 characters."
     }
   ],
   "columnPool": [
@@ -100,8 +92,7 @@
       "category": "geography",
       "match_count": 36,
       "display": "Is within the Cornwall region",
-      "hint": "This station is based within the Cornwall region.",
-      "id": "col_0"
+      "hint": "This station is based within the Cornwall region."
     },
     {
       "type": "equals",
@@ -111,8 +102,7 @@
       "category": "geography",
       "match_count": 11,
       "display": "Is within the Wiltshire region",
-      "hint": "This station is based within the Wiltshire region.",
-      "id": "col_1"
+      "hint": "This station is based within the Wiltshire region."
     },
     {
       "type": "equals",
@@ -122,8 +112,7 @@
       "category": "geography",
       "match_count": 10,
       "display": "Is within the West London region",
-      "hint": "This station is based within the West London region.",
-      "id": "col_2"
+      "hint": "This station is based within the West London region."
     },
     {
       "type": "equals",
@@ -133,8 +122,7 @@
       "category": "geography",
       "match_count": 9,
       "display": "Is within the Exeter region",
-      "hint": "This station is based within the Exeter region.",
-      "id": "col_3"
+      "hint": "This station is based within the Exeter region."
     },
     {
       "type": "equals",
@@ -144,8 +132,7 @@
       "category": "geography",
       "match_count": 9,
       "display": "Is within the West Berkshire region",
-      "hint": "This station is based within the West Berkshire region.",
-      "id": "col_4"
+      "hint": "This station is based within the West Berkshire region."
     },
     {
       "type": "equals",
@@ -155,8 +142,7 @@
       "category": "geography",
       "match_count": 8,
       "display": "Is within the West Oxfordshire region",
-      "hint": "This station is based within the West Oxfordshire region.",
-      "id": "col_5"
+      "hint": "This station is based within the West Oxfordshire region."
     },
     {
       "type": "equals",
@@ -166,8 +152,7 @@
       "category": "geography",
       "match_count": 8,
       "display": "Is within the Mid Devon region",
-      "hint": "This station is based within the Mid Devon region.",
-      "id": "col_6"
+      "hint": "This station is based within the Mid Devon region."
     },
     {
       "type": "equals",
@@ -177,8 +162,7 @@
       "category": "geography",
       "match_count": 6,
       "display": "Is within the Plymouth region",
-      "hint": "This station is based within the Plymouth region.",
-      "id": "col_7"
+      "hint": "This station is based within the Plymouth region."
     },
     {
       "type": "equals",
@@ -188,19 +172,17 @@
       "category": "geography",
       "match_count": 6,
       "display": "Is within the South Oxfordshire region",
-      "hint": "This station is based within the South Oxfordshire region.",
-      "id": "col_8"
+      "hint": "This station is based within the South Oxfordshire region."
     },
     {
       "type": "equals",
       "field": "region",
-      "value": "West Devon",
-      "label": "Region: West Devon",
+      "value": "North Devon",
+      "label": "Region: North Devon",
       "category": "geography",
       "match_count": 5,
-      "display": "Is within the West Devon region",
-      "hint": "This station is based within the West Devon region.",
-      "id": "col_9"
+      "display": "Is within the North Devon region",
+      "hint": "This station is based within the North Devon region."
     },
     {
       "type": "range",
@@ -210,8 +192,7 @@
       "category": "service",
       "match_count": 64,
       "display": "A short journey to London",
-      "hint": "In this puzzle, 'short' means under 28 minutes to London.",
-      "id": "col_10"
+      "hint": "In this puzzle, 'short' means under 28 minutes to London."
     },
     {
       "type": "range",
@@ -222,8 +203,7 @@
       "category": "service",
       "match_count": 66,
       "display": "A mid-range journey to London",
-      "hint": "In this puzzle, 'mid-range' means 28-129 minutes to London.",
-      "id": "col_11"
+      "hint": "In this puzzle, 'mid-range' means 28-129 minutes to London."
     },
     {
       "type": "range",
@@ -233,8 +213,7 @@
       "category": "service",
       "match_count": 63,
       "display": "A long journey to London",
-      "hint": "In this puzzle, 'long' means 129+ minutes to London.",
-      "id": "col_12"
+      "hint": "In this puzzle, 'long' means 129+ minutes to London."
     },
     {
       "type": "array_contains",
@@ -244,19 +223,7 @@
       "category": "route",
       "match_count": 42,
       "display": "Is part of the Great Western Main Line route",
-      "hint": "The core route from London Paddington to Bristol and beyond, via Reading, Swindon and Bath Spa - the trunk line most other GWR West Country services join at Bristol Parkway or Bristol Temple Meads.",
-      "id": "col_13"
-    },
-    {
-      "type": "array_contains",
-      "field": "route",
-      "value": "Cornish Main Line",
-      "label": "Route: Cornish Main Line",
-      "category": "route",
-      "match_count": 22,
-      "display": "Is part of the Cornish Main Line route",
-      "hint": "The backbone of Cornwall's railway, running from Plymouth via Liskeard, Bodmin Parkway, St Austell and Truro to Penzance - the route most Cornish branch lines connect into.",
-      "id": "col_14"
+      "hint": "The core route from London Paddington to Bristol and beyond, via Reading, Swindon and Bath Spa - the trunk line most other GWR West Country services join at Bristol Parkway or Bristol Temple Meads."
     },
     {
       "type": "array_contains",
@@ -266,8 +233,7 @@
       "category": "route",
       "match_count": 14,
       "display": "Is part of the Heart of Wessex Line route",
-      "hint": "The route from Bristol Temple Meads via Bath, Westbury, Castle Cary and Yeovil to the seaside town of Weymouth.",
-      "id": "col_15"
+      "hint": "The route from Bristol Temple Meads via Bath, Westbury, Castle Cary and Yeovil to the seaside town of Weymouth."
     },
     {
       "type": "array_contains",
@@ -277,8 +243,7 @@
       "category": "route",
       "match_count": 13,
       "display": "Is part of the Oxford & Hereford Line route",
-      "hint": "The route from Oxford through the Cotswolds via Charlbury, Kingham and Moreton-in-Marsh to Worcester and Hereford - also called the Cotswold Line for its scenic eastern section.",
-      "id": "col_16"
+      "hint": "The route from Oxford through the Cotswolds via Charlbury, Kingham and Moreton-in-Marsh to Worcester and Hereford - also called the Cotswold Line for its scenic eastern section."
     },
     {
       "type": "array_contains",
@@ -288,8 +253,7 @@
       "category": "route",
       "match_count": 11,
       "display": "Is part of the Golden Valley Line route",
-      "hint": "The route from Swindon via Kemble to Cheltenham and Gloucester - despite the name, mostly follows the Thames and Churn valleys rather than a 'Golden Valley' as such.",
-      "id": "col_17"
+      "hint": "The route from Swindon via Kemble to Cheltenham and Gloucester - despite the name, mostly follows the Thames and Churn valleys rather than a 'Golden Valley' as such."
     },
     {
       "type": "array_contains",
@@ -299,8 +263,7 @@
       "category": "route",
       "match_count": 11,
       "display": "Is part of the North Downs route",
-      "hint": "The cross-country route from Reading via Guildford to Redhill, running along the foot of the North Downs and linking several radial lines out of London.",
-      "id": "col_18"
+      "hint": "The cross-country route from Reading via Guildford to Redhill, running along the foot of the North Downs and linking several radial lines out of London."
     },
     {
       "type": "array_contains",
@@ -310,8 +273,17 @@
       "category": "route",
       "match_count": 11,
       "display": "Is part of the Tarka Line route",
-      "hint": "The rural branch from Exeter via Crediton and Eggesford to Barnstaple in North Devon, named after Henry Williamson's otter novel 'Tarka the Otter', set along this route.",
-      "id": "col_19"
+      "hint": "The rural branch from Exeter via Crediton and Eggesford to Barnstaple in North Devon, named after Henry Williamson's otter novel 'Tarka the Otter', set along this route."
+    },
+    {
+      "type": "array_contains",
+      "field": "route",
+      "value": "Cornish Main Line",
+      "label": "Route: Cornish Main Line",
+      "category": "route",
+      "match_count": 10,
+      "display": "Is part of the Cornish Main Line route",
+      "hint": "The backbone of Cornwall's railway, running from Plymouth via Liskeard, Bodmin Parkway, St Austell and Truro to Penzance - the route most Cornish branch lines connect into."
     },
     {
       "type": "array_contains",
@@ -321,8 +293,7 @@
       "category": "route",
       "match_count": 10,
       "display": "Is part of the Exmouth Branch route",
-      "hint": "The branch from Exeter via Topsham and Lympstone to the seaside town of Exmouth on the Exe Estuary - also known as the Avocet Line.",
-      "id": "col_20"
+      "hint": "The branch from Exeter via Topsham and Lympstone to the seaside town of Exmouth on the Exe Estuary - also known as the Avocet Line."
     },
     {
       "type": "array_contains",
@@ -332,8 +303,7 @@
       "category": "route",
       "match_count": 10,
       "display": "Is part of the Berks & Hants Line route",
-      "hint": "The route from Reading via Newbury and Bedwyn towards Westbury and the West Country, running through Berkshire and Hampshire as the name suggests.",
-      "id": "col_21"
+      "hint": "The route from Reading via Newbury and Bedwyn towards Westbury and the West Country, running through Berkshire and Hampshire as the name suggests."
     },
     {
       "type": "array_contains",
@@ -343,8 +313,7 @@
       "category": "route",
       "match_count": 9,
       "display": "Is part of the Severn Beach Line route",
-      "hint": "The scenic Bristol suburban branch from Temple Meads through Clifton Down, Sea Mills and Avonmouth to the small resort of Severn Beach on the Severn Estuary.",
-      "id": "col_22"
+      "hint": "The scenic Bristol suburban branch from Temple Meads through Clifton Down, Sea Mills and Avonmouth to the small resort of Severn Beach on the Severn Estuary."
     },
     {
       "type": "array_contains",
@@ -354,8 +323,7 @@
       "category": "route",
       "match_count": 8,
       "display": "Is part of the Tamar Valley Line route",
-      "hint": "The scenic branch from Plymouth up the Tamar Valley via Bere Alston and Calstock to Gunnislake, crossing into Cornwall over the Calstock Viaduct.",
-      "id": "col_23"
+      "hint": "The scenic branch from Plymouth up the Tamar Valley via Bere Alston and Calstock to Gunnislake, crossing into Cornwall over the Calstock Viaduct."
     },
     {
       "type": "array_contains",
@@ -365,8 +333,7 @@
       "category": "route",
       "match_count": 6,
       "display": "Is part of the Atlantic Coast Line route",
-      "hint": "The branch from Par via Bugle and Roche to the surfing resort of Newquay on Cornwall's north coast.",
-      "id": "col_24"
+      "hint": "The branch from Par via Bugle and Roche to the surfing resort of Newquay on Cornwall's north coast."
     },
     {
       "type": "array_contains",
@@ -376,8 +343,7 @@
       "category": "route",
       "match_count": 5,
       "display": "Is part of the Riviera Line route",
-      "hint": "The route from Exeter along the Exe Estuary and the coast via Dawlish and Teignmouth to Torquay and Paignton on the 'English Riviera'.",
-      "id": "col_25"
+      "hint": "The route from Exeter along the Exe Estuary and the coast via Dawlish and Teignmouth to Torquay and Paignton on the 'English Riviera'."
     },
     {
       "type": "array_contains",
@@ -387,8 +353,7 @@
       "category": "route",
       "match_count": 5,
       "display": "Is part of the Greenford Branch route",
-      "hint": "The short branch line from West Ealing via South Greenford to its terminus at Greenford.",
-      "id": "col_26"
+      "hint": "The short branch line from West Ealing via South Greenford to its terminus at Greenford."
     },
     {
       "type": "array_contains",
@@ -398,8 +363,7 @@
       "category": "route",
       "match_count": 5,
       "display": "Is part of the Looe Valley Line route",
-      "hint": "The branch from Liskeard down the East Looe river valley to the seaside town of Looe.",
-      "id": "col_27"
+      "hint": "The branch from Liskeard down the East Looe river valley to the seaside town of Looe."
     },
     {
       "type": "equals",
@@ -407,10 +371,9 @@
       "value": "local_suffix",
       "label": "Wordplay: local_suffix",
       "category": "name",
-      "match_count": 67,
+      "match_count": 66,
       "display": "Naming style: a common English place-name ending",
-      "hint": "The name ends in a common English place-name suffix, like -ton, -ham, -by or -dale.",
-      "id": "col_28"
+      "hint": "The name ends in a common English place-name suffix, like -ton, -ham, -by or -dale."
     },
     {
       "type": "equals",
@@ -420,8 +383,7 @@
       "category": "name",
       "match_count": 26,
       "display": "Naming style: an unusual name format",
-      "hint": "Something unusual about how the name is written - brackets, a hyphen, an ampersand, or 'St'.",
-      "id": "col_29"
+      "hint": "Something unusual about how the name is written - brackets, a hyphen, an ampersand, or 'St'."
     },
     {
       "type": "equals",
@@ -431,8 +393,7 @@
       "category": "name",
       "match_count": 6,
       "display": "Naming style: a nature word in the name",
-      "hint": "The name includes a nature word, like Park, Hill, Green, Heath or Wood.",
-      "id": "col_30"
+      "hint": "The name includes a nature word, like Park, Hill, Green, Heath or Wood."
     },
     {
       "type": "array_contains",
@@ -442,8 +403,7 @@
       "category": "name",
       "match_count": 25,
       "display": "Word contains 'ton'",
-      "hint": "Word contains 'ton'.",
-      "id": "col_31"
+      "hint": "Word contains 'ton'."
     },
     {
       "type": "array_contains",
@@ -453,19 +413,7 @@
       "category": "name",
       "match_count": 13,
       "display": "Word contains 'ham'",
-      "hint": "Word contains 'ham'.",
-      "id": "col_32"
-    },
-    {
-      "type": "array_contains",
-      "field": "wordplay_tags",
-      "value": "ford",
-      "label": "Name contains 'ford'",
-      "category": "name",
-      "match_count": 13,
-      "display": "Word contains 'ford'",
-      "hint": "Word contains 'ford'.",
-      "id": "col_33"
+      "hint": "Word contains 'ham'."
     },
     {
       "type": "array_contains",
@@ -475,8 +423,7 @@
       "category": "name",
       "match_count": 12,
       "display": "Word contains 'ey'",
-      "hint": "Word contains 'ey'.",
-      "id": "col_34"
+      "hint": "Word contains 'ey'."
     },
     {
       "type": "array_contains",
@@ -486,8 +433,17 @@
       "category": "name",
       "match_count": 12,
       "display": "Name includes 'St'",
-      "hint": "The station name includes 'St' (Saint).",
-      "id": "col_35"
+      "hint": "The station name includes 'St' (Saint)."
+    },
+    {
+      "type": "array_contains",
+      "field": "wordplay_tags",
+      "value": "ford",
+      "label": "Name contains 'ford'",
+      "category": "name",
+      "match_count": 12,
+      "display": "Word contains 'ford'",
+      "hint": "Word contains 'ford'."
     },
     {
       "type": "array_contains",
@@ -497,8 +453,7 @@
       "category": "name",
       "match_count": 9,
       "display": "Word contains 'park'",
-      "hint": "Word contains 'park'.",
-      "id": "col_36"
+      "hint": "Word contains 'park'."
     },
     {
       "type": "array_contains",
@@ -508,8 +463,7 @@
       "category": "name",
       "match_count": 8,
       "display": "Word contains 'ley'",
-      "hint": "Word contains 'ley'.",
-      "id": "col_37"
+      "hint": "Word contains 'ley'."
     },
     {
       "type": "array_contains",
@@ -519,8 +473,7 @@
       "category": "name",
       "match_count": 6,
       "display": "Word contains 'bury'",
-      "hint": "Word contains 'bury'.",
-      "id": "col_38"
+      "hint": "Word contains 'bury'."
     },
     {
       "type": "array_contains",
@@ -530,8 +483,7 @@
       "category": "name",
       "match_count": 6,
       "display": "Name includes an '&'",
-      "hint": "The station name includes an ampersand (&).",
-      "id": "col_39"
+      "hint": "The station name includes an ampersand (&)."
     },
     {
       "type": "array_contains",
@@ -541,8 +493,7 @@
       "category": "name",
       "match_count": 6,
       "display": "Word contains 'mouth'",
-      "hint": "Word contains 'mouth'.",
-      "id": "col_40"
+      "hint": "Word contains 'mouth'."
     },
     {
       "type": "array_contains",
@@ -552,8 +503,7 @@
       "category": "name",
       "match_count": 5,
       "display": "Name includes brackets",
-      "hint": "The station name includes text in brackets, e.g. a disambiguator like '(Cumbria)'.",
-      "id": "col_41"
+      "hint": "The station name includes text in brackets, e.g. a disambiguator like '(Cumbria)'."
     },
     {
       "type": "array_contains",
@@ -563,8 +513,7 @@
       "category": "name",
       "match_count": 4,
       "display": "Word contains 'green'",
-      "hint": "Word contains 'green'.",
-      "id": "col_42"
+      "hint": "Word contains 'green'."
     },
     {
       "type": "array_contains",
@@ -574,8 +523,7 @@
       "category": "name",
       "match_count": 3,
       "display": "Word contains 'minster'",
-      "hint": "Word contains 'minster'.",
-      "id": "col_43"
+      "hint": "Word contains 'minster'."
     },
     {
       "type": "array_contains",
@@ -585,8 +533,7 @@
       "category": "name",
       "match_count": 3,
       "display": "Name includes a hyphen",
-      "hint": "The station name includes a hyphen.",
-      "id": "col_44"
+      "hint": "The station name includes a hyphen."
     }
   ]
 }

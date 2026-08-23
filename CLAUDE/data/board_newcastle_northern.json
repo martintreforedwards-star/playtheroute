@@ -1750,7 +1750,9 @@
     "crs": "RBS",
     "region": "Redcar and Cleveland",
     "operator": "Northern",
-    "route": [],
+    "route": [
+      "Tees Valley Line"
+    ],
     "is_interchange": false,
     "is_coastal": true,
     "terminus_max": 0,
@@ -2209,7 +2211,9 @@
     "crs": "TEA",
     "region": "Darlington",
     "operator": "Northern",
-    "route": [],
+    "route": [
+      "Tees Valley Line"
+    ],
     "is_interchange": false,
     "is_coastal": false,
     "terminus_max": 0,
@@ -2423,7 +2427,6 @@
     "region": "Cumberland",
     "operator": "Northern",
     "route": [
-      "Durham Coast Line",
       "Hadrian's Wall Country Line",
       "Lakes Line",
       "Settle Carlisle Line",

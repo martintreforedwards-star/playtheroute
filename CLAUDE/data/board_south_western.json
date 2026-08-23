@@ -219,7 +219,10 @@
     "crs": "ASH",
     "region": "Guildford",
     "operator": "South Western",
-    "route": [],
+    "route": [
+      "Alton Line",
+      "North Downs"
+    ],
     "is_interchange": false,
     "is_coastal": false,
     "terminus_max": 58,
@@ -702,7 +705,9 @@
     "crs": "BRS",
     "region": "South West London",
     "operator": "South Western",
-    "route": [],
+    "route": [
+      "South West Main Line"
+    ],
     "is_interchange": false,
     "is_coastal": false,
     "terminus_max": 0,
@@ -944,7 +949,9 @@
     "crs": "CFR",
     "region": "Eastleigh",
     "operator": "South Western",
-    "route": [],
+    "route": [
+      "Wessex Main Line"
+    ],
     "is_interchange": false,
     "is_coastal": false,
     "terminus_max": 0,
@@ -1309,7 +1316,9 @@
     "crs": "DBG",
     "region": "Test Valley",
     "operator": "South Western",
-    "route": [],
+    "route": [
+      "Wessex Main Line"
+    ],
     "is_interchange": false,
     "is_coastal": false,
     "terminus_max": 0,
@@ -1368,7 +1377,9 @@
     "crs": "DEN",
     "region": "Wiltshire",
     "operator": "South Western",
-    "route": [],
+    "route": [
+      "Wessex Main Line"
+    ],
     "is_interchange": false,
     "is_coastal": false,
     "terminus_max": 0,
@@ -2107,7 +2118,9 @@
     "crs": "HER",
     "region": "Elmbridge",
     "operator": "South Western",
-    "route": [],
+    "route": [
+      "South West Main Line"
+    ],
     "is_interchange": false,
     "is_coastal": false,
     "terminus_max": 0,
@@ -2127,36 +2140,6 @@
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
     "time_to_hub__london": 94.0
-  },
-  {
-    "station_id": "SW_0075",
-    "station_name": "Hilsea",
-    "name_word_count": 1,
-    "name_letter_count": 6,
-    "crs": "HLS",
-    "region": "Portsmouth",
-    "operator": "South Western",
-    "route": [
-      "Solent Link",
-      "South West Main Line"
-    ],
-    "is_interchange": true,
-    "is_coastal": true,
-    "terminus_max": 0,
-    "canonical_hub": "London",
-    "canonical_time_to_hub": 107.0,
-    "welsh_name": null,
-    "wordplay_category": "other",
-    "wordplay_difficulty": "easy",
-    "wordplay_score": 0,
-    "wordplay_tags": [],
-    "time_to_glasgow_central": null,
-    "time_to_victoria": null,
-    "time_to_charing_cross": null,
-    "time_to_euston": null,
-    "time_to_liverpool_street": null,
-    "time_to_stratford": null,
-    "time_to_hub__london": 107.0
   },
   {
     "station_id": "SW_0068",
@@ -2911,7 +2894,9 @@
     "crs": "MBK",
     "region": "Southampton",
     "operator": "South Western",
-    "route": [],
+    "route": [
+      "South West Main Line"
+    ],
     "is_interchange": false,
     "is_coastal": true,
     "terminus_max": 0,
@@ -3759,7 +3744,9 @@
     "crs": "ROM",
     "region": "Test Valley",
     "operator": "South Western",
-    "route": [],
+    "route": [
+      "Wessex Main Line"
+    ],
     "is_interchange": true,
     "is_coastal": false,
     "terminus_max": 45,
@@ -3808,37 +3795,6 @@
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
     "time_to_hub__london": 81.0
-  },
-  {
-    "station_id": "SW_0131",
-    "station_name": "St Denys",
-    "name_word_count": 2,
-    "name_letter_count": 7,
-    "crs": "SDN",
-    "region": "Southampton",
-    "operator": "South Western",
-    "route": [
-      "South West Main Line"
-    ],
-    "is_interchange": true,
-    "is_coastal": true,
-    "terminus_max": 0,
-    "canonical_hub": "London",
-    "canonical_time_to_hub": 106.0,
-    "welsh_name": null,
-    "wordplay_category": "structure",
-    "wordplay_difficulty": "hard",
-    "wordplay_score": 1,
-    "wordplay_tags": [
-      "saint"
-    ],
-    "time_to_glasgow_central": null,
-    "time_to_victoria": null,
-    "time_to_charing_cross": null,
-    "time_to_euston": null,
-    "time_to_liverpool_street": null,
-    "time_to_stratford": null,
-    "time_to_hub__london": 106.0
   },
   {
     "station_id": "SW_0127",
@@ -4714,7 +4670,9 @@
     "crs": "VXH",
     "region": "Central London",
     "operator": "South Western",
-    "route": [],
+    "route": [
+      "South West Main Line"
+    ],
     "is_interchange": false,
     "is_coastal": false,
     "terminus_max": 0,
@@ -4773,7 +4731,10 @@
     "crs": "WAN",
     "region": "Guildford",
     "operator": "South Western",
-    "route": [],
+    "route": [
+      "Alton Line",
+      "North Downs"
+    ],
     "is_interchange": false,
     "is_coastal": false,
     "terminus_max": 0,
@@ -4951,7 +4912,9 @@
     "crs": "WIM",
     "region": "South West London",
     "operator": "South Western",
-    "route": [],
+    "route": [
+      "South West Main Line"
+    ],
     "is_interchange": true,
     "is_coastal": false,
     "terminus_max": 38,
@@ -5531,7 +5494,11 @@
     "crs": "GLD",
     "region": "Guildford",
     "operator": "South Western Railway",
-    "route": [],
+    "route": [
+      "New Guildford Line",
+      "North Downs",
+      "Portsmouth Direct"
+    ],
     "is_interchange": true,
     "is_coastal": false,
     "terminus_max": 776,
@@ -5756,67 +5723,5 @@
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
     "time_to_hub__london": null
-  },
-  {
-    "station_id": "NA_0375",
-    "station_name": "Southampton Town Quay",
-    "name_word_count": 3,
-    "name_letter_count": 19,
-    "crs": "STQ",
-    "region": "Southampton",
-    "operator": "South Western Railway",
-    "route": [],
-    "is_interchange": false,
-    "is_coastal": true,
-    "terminus_max": 0,
-    "canonical_hub": "London",
-    "canonical_time_to_hub": null,
-    "welsh_name": null,
-    "wordplay_category": "local_suffix",
-    "wordplay_difficulty": "medium",
-    "wordplay_score": 1,
-    "wordplay_tags": [
-      "ton"
-    ],
-    "time_to_glasgow_central": null,
-    "time_to_victoria": null,
-    "time_to_charing_cross": null,
-    "time_to_euston": null,
-    "time_to_liverpool_street": null,
-    "time_to_stratford": null,
-    "time_to_hub__london": null
-  },
-  {
-    "station_id": "SW_9001",
-    "station_name": "London Waterloo",
-    "name_word_count": 2,
-    "name_letter_count": 14,
-    "crs": "WAT",
-    "region": "Central London",
-    "operator": "South Western",
-    "route": [
-      "South Western Main Line",
-      "Windsor Lines",
-      "Portsmouth Direct Line"
-    ],
-    "is_interchange": true,
-    "is_coastal": false,
-    "terminus_max": 3982,
-    "canonical_hub": "London",
-    "canonical_time_to_hub": 0.0,
-    "welsh_name": null,
-    "wordplay_category": "local_suffix",
-    "wordplay_difficulty": "medium",
-    "wordplay_score": 1,
-    "wordplay_tags": [
-      "don"
-    ],
-    "time_to_glasgow_central": null,
-    "time_to_victoria": null,
-    "time_to_charing_cross": null,
-    "time_to_euston": null,
-    "time_to_liverpool_street": null,
-    "time_to_stratford": null,
-    "time_to_hub__london": 0.0
   }
 ]

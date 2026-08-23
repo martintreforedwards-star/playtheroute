@@ -266,7 +266,7 @@
       "category": "route",
       "match_count": 49,
       "display": "Is part of the Great Eastern Main Line route",
-      "hint": "Stations on this route include Alresford, Cressing, Kelvedon and South Woodham Ferrers (plus 45 more).",
+      "hint": "The core trunk route from London Liverpool Street via Colchester and Ipswich to Norwich - the main line the other Essex/Suffolk/Norfolk branches all connect into.",
       "id": "col_15"
     },
     {
@@ -277,7 +277,7 @@
       "category": "route",
       "match_count": 47,
       "display": "Is part of the Great Eastern route",
-      "hint": "Stations on this route include Alresford, Colchester Town, Kelvedon and Southend Airport (plus 43 more).",
+      "hint": "The wider network of lines radiating from London Liverpool Street across Essex, Suffolk and Norfolk - a broader grouping than just the Great Eastern Main Line trunk route itself.",
       "id": "col_16"
     },
     {
@@ -288,7 +288,7 @@
       "category": "route",
       "match_count": 33,
       "display": "Is part of the Heron Line route",
-      "hint": "Stations on this route include Audley End, Elsenham, London Liverpool Street and Shelford (plus 29 more).",
+      "hint": "The route from London Liverpool Street via Bishop's Stortford, Audley End and Shelford to Cambridge - the slower, more-stops alternative to the direct Cambridge fasts.",
       "id": "col_17"
     },
     {
@@ -299,7 +299,7 @@
       "category": "route",
       "match_count": 31,
       "display": "Is part of the West Anglia Main Line route",
-      "hint": "Stations on this route include Audley End, Cheshunt, London Liverpool Street and Shelford (plus 27 more).",
+      "hint": "The main line north from London Liverpool Street through Tottenham Hale, Broxbourne and Bishop's Stortford to Cambridge - the other of the two main lines out of Liverpool Street, alongside the Great Eastern Main Line.",
       "id": "col_18"
     },
     {
@@ -310,7 +310,7 @@
       "category": "route",
       "match_count": 29,
       "display": "Is part of the West Anglia route",
-      "hint": "Stations on this route include Audley End, Elsenham, Meridian Water and St Margarets (Herts) (plus 25 more).",
+      "hint": "The wider network of lines radiating from Liverpool Street north through Essex and Hertfordshire - including the Stansted Airport and Hertford East branches, not just the core West Anglia Main Line.",
       "id": "col_19"
     },
     {
@@ -321,7 +321,7 @@
       "category": "route",
       "match_count": 25,
       "display": "Is part of the London Tilbury & Southend Line route",
-      "hint": "Stations on this route include Barking, East Tilbury, Pitsea and Stanford-Le-Hope (plus 21 more).",
+      "hint": "The historic name for c2c's own route from London Fenchurch Street via Tilbury to Southend - a separate corridor from Greater Anglia's Shenfield-Southend line.",
       "id": "col_20"
     },
     {
@@ -332,7 +332,7 @@
       "category": "route",
       "match_count": 22,
       "display": "Is part of the East Suffolk Line route",
-      "hint": "Stations on this route include Beccles, Great Yarmouth, Melton and Reedham (Norfolk) (plus 18 more).",
+      "hint": "The rural single-track line from Ipswich via Saxmundham to Lowestoft, with a branch to Felixstowe - one of the longest and least direct routes in East Anglia.",
       "id": "col_21"
     },
     {
@@ -343,7 +343,7 @@
       "category": "route",
       "match_count": 21,
       "display": "Is part of the Sunshine Coast Line route",
-      "hint": "Stations on this route include Alresford, Frinton-On-Sea, Kelvedon and Stratford (London) (plus 17 more).",
+      "hint": "The branch from Colchester to the Essex seaside resorts of Clacton-on-Sea and Walton-on-the-Naze - officially rebranded with this name for its coastal tourist appeal.",
       "id": "col_22"
     },
     {
@@ -354,7 +354,7 @@
       "category": "route",
       "match_count": 19,
       "display": "Is part of the Mayflower Line route",
-      "hint": "Stations on this route include Beaulieu Park, Dovercourt, Ipswich and Mistley (plus 15 more).",
+      "hint": "The short branch from Manningtree to Harwich, named for the Mayflower's historic sailing connection to the town.",
       "id": "col_23"
     },
     {
@@ -365,7 +365,7 @@
       "category": "route",
       "match_count": 17,
       "display": "Is part of the Shenfield to Southend Line route",
-      "hint": "Stations on this route include Beaulieu Park, Hockley, Prittlewell and Southend Airport (plus 13 more).",
+      "hint": "The Great Eastern branch south from Shenfield through Wickford to Southend Victoria - same route as the Southend Line, just described more literally by its endpoints.",
       "id": "col_24"
     },
     {
@@ -376,7 +376,7 @@
       "category": "route",
       "match_count": 17,
       "display": "Is part of the Southend Line route",
-      "hint": "Stations on this route include Beaulieu Park, Hockley, Prittlewell and Southend Airport (plus 13 more).",
+      "hint": "The Great Eastern branch south from Shenfield through Wickford to Southend Victoria - also called the Shenfield to Southend Line.",
       "id": "col_25"
     },
     {
@@ -387,7 +387,7 @@
       "category": "route",
       "match_count": 17,
       "display": "Is part of the St Edmund's Line route",
-      "hint": "Stations on this route include Bury St Edmunds, Elmswell, Manea and Newmarket (plus 13 more).",
+      "hint": "The route from Ipswich via Bury St Edmunds and Newmarket to Cambridge - named after Saint Edmund, King of the East Angles, following a 2026 public naming competition.",
       "id": "col_26"
     },
     {
@@ -398,7 +398,7 @@
       "category": "route",
       "match_count": 16,
       "display": "Is part of the Wherry Line route",
-      "hint": "Stations on this route include Attleborough, Cambridge, Haddiscoe and Reedham (Norfolk) (plus 12 more).",
+      "hint": "The route east from Norwich to the coast at Great Yarmouth and Lowestoft, named after the traditional Norfolk Broads sailing boats.",
       "id": "col_27"
     },
     {
@@ -409,7 +409,7 @@
       "category": "route",
       "match_count": 16,
       "display": "Is part of the Hertford East Line route",
-      "hint": "Stations on this route include Brimsdown, Hertford East, Northumberland Park and Stratford (London) (plus 12 more).",
+      "hint": "The branch off the Lea Valley Lines that continues north to Hertford East - closely linked with the Lee Valley Line, which covers the shared stem through Cheshunt and Broxbourne.",
       "id": "col_28"
     },
     {
@@ -420,7 +420,7 @@
       "category": "route",
       "match_count": 16,
       "display": "Is part of the Lee Valley Line route",
-      "hint": "Stations on this route include Brimsdown, Hertford East, Northumberland Park and Stratford (London) (plus 12 more).",
+      "hint": "The suburban route north from London through the Lea Valley via Cheshunt and Broxbourne, continuing on the Hertford East branch - closely linked with the Hertford East Line.",
       "id": "col_29"
     },
     {

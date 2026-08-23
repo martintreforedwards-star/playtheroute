@@ -7,7 +7,7 @@
       "label": "Interchange station",
       "weight": "medium",
       "match_count": 26,
-      "display": "Change trains here",
+      "display": "Is an interchange station",
       "hint": "Served by two or more separate named routes, or where several lines physically meet.",
       "id": "row_0"
     },
@@ -390,7 +390,7 @@
       "category": "route",
       "match_count": 43,
       "display": "Is part of the Castle Line route",
-      "hint": "Stations on this route include Alsager, Cromford, Leicester and Nottingham (plus 39 more).",
+      "hint": "The route north from Nottingham to Lincoln via Newark Castle station - named after the castle stop, not a scenic castle-hopping journey.",
       "id": "col_26"
     },
     {
@@ -401,7 +401,7 @@
       "category": "route",
       "match_count": 18,
       "display": "Is part of the Poacher Line route",
-      "hint": "Stations on this route include Ancaster, Bottesford, Netherfield and Skegness (plus 14 more).",
+      "hint": "The 78-mile route from Nottingham through the market towns of Grantham, Sleaford and Boston to the seaside resort of Skegness.",
       "id": "col_27"
     },
     {
@@ -412,7 +412,7 @@
       "category": "route",
       "match_count": 12,
       "display": "Is part of the Humber Linc Line route",
-      "hint": "Stations on this route include Barrow Haven, Great Coates, Healing and Stallingborough (plus 8 more).",
+      "hint": "The rural branch from Barton-upon-Humber, near the Humber Bridge, south-east through Grimsby to the seaside resort of Cleethorpes.",
       "id": "col_28"
     },
     {
@@ -423,7 +423,7 @@
       "category": "route",
       "match_count": 12,
       "display": "Is part of the Robin Hood Line route",
-      "hint": "Stations on this route include Bulwell, Kirkby-in-Ashfield, Mansfield Woodhouse and Shirebrook (plus 8 more).",
+      "hint": "The reopened line from Nottingham through Hucknall and Mansfield to Worksop, named for its Sherwood Forest surroundings - closed by Beeching, then reopened in stages through the 1990s.",
       "id": "col_29"
     },
     {
@@ -434,7 +434,7 @@
       "category": "route",
       "match_count": 8,
       "display": "Is part of the Derwent Valley Line route",
-      "hint": "Stations on this route include Ambergate, Cromford, Duffield and Matlock Bath (plus 4 more).",
+      "hint": "The scenic route from Derby up the Derwent Valley through Belper, Ambergate and Cromford to Matlock, through the Derwent Valley Mills World Heritage Site.",
       "id": "col_30"
     },
     {
@@ -445,7 +445,7 @@
       "category": "route",
       "match_count": 6,
       "display": "Is part of the Erewash Valley route",
-      "hint": "Stations on this route include Alfreton, Chesterfield, Langley Mill and Nottingham (plus 2 more).",
+      "hint": "The historic freight and passenger route north from Nottingham through the Erewash Valley coalfield towns of Langley Mill, Alfreton and on to Chesterfield.",
       "id": "col_31"
     },
     {
@@ -456,7 +456,7 @@
       "category": "route",
       "match_count": 5,
       "display": "Is part of the Ivanhoe Line route",
-      "hint": "Stations on this route include Barrow-upon-Soar, Leicester, Loughborough and Sileby (plus 1 more).",
+      "hint": "The route from Leicester via Loughborough to Nottingham and on to Lincoln - named after Sir Walter Scott's novel, set partly in this area of Leicestershire.",
       "id": "col_32"
     },
     {

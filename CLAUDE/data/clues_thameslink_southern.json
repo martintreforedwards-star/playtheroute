@@ -255,7 +255,7 @@
       "category": "route",
       "match_count": 25,
       "display": "Is part of the West Coastway route",
-      "hint": "Stations on this route include Angmering, Durrington-on-Sea, Goring-by-Sea and Portsmouth & Southsea (plus 21 more).",
+      "hint": "The coastal route from Brighton west via Worthing, Chichester and Havant to Southampton, with branches to Littlehampton and Bognor Regis - also called Coastway West.",
       "id": "col_14"
     },
     {
@@ -266,7 +266,7 @@
       "category": "route",
       "match_count": 23,
       "display": "Is part of the Midland Electrics route",
-      "hint": "Stations on this route include Bedford, Harlington, Luton and St Albans (plus 19 more).",
+      "hint": "The Thameslink route north from London through St Albans and Luton to Bedford, running parallel to the Midland Main Line proper for much of its length.",
       "id": "col_15"
     },
     {
@@ -277,7 +277,7 @@
       "category": "route",
       "match_count": 21,
       "display": "Is part of the East Coastway route",
-      "hint": "Stations on this route include Battle, Cooden Beach, Hampden Park (Sussex) and Pevensey & Westham (plus 17 more).",
+      "hint": "The coastal route from Brighton east via Lewes, Eastbourne and Bexhill to Hastings and Ore, with a branch to Seaford - also called Coastway East.",
       "id": "col_16"
     },
     {
@@ -288,7 +288,7 @@
       "category": "route",
       "match_count": 20,
       "display": "Is part of the Brighton Main Line route",
-      "hint": "Stations on this route include Balcombe, Earlswood Surrey, Horley and Purley (plus 16 more).",
+      "hint": "The principal route from London Victoria/Bridge via Gatwick Airport, Haywards Heath and Wivelsfield to Brighton - one of the busiest main lines in the country.",
       "id": "col_17"
     },
     {
@@ -299,7 +299,7 @@
       "category": "route",
       "match_count": 20,
       "display": "Is part of the Sutton & Metro route",
-      "hint": "Stations on this route include Balham, Norbury, Sutton (London) and Wandsworth Common (plus 16 more).",
+      "hint": "The South London suburban network of routes converging on Sutton, running through Balham, Streatham, Mitcham and Wallington towards Croydon and the North Downs.",
       "id": "col_18"
     },
     {
@@ -310,7 +310,7 @@
       "category": "route",
       "match_count": 19,
       "display": "Is part of the Southern Thameslink Branches route",
-      "hint": "Stations on this route include Bat & Ball, Eynsford, London Bridge and Shoreham (Kent) (plus 15 more).",
+      "hint": "The routes serving Sevenoaks and the Kent/Surrey border towns that continue north through the Thameslink core via Blackfriars and St Pancras to Bedford or Cambridge.",
       "id": "col_19"
     },
     {
@@ -321,7 +321,7 @@
       "category": "route",
       "match_count": 16,
       "display": "Is part of the Uckfield Branch route",
-      "hint": "Stations on this route include Ashurst, East Croydon , Hever and South Croydon (plus 12 more).",
+      "hint": "The rural branch from Hurst Green via Eridge and Crowborough to Uckfield - the southern remnant of the old Oxted-Lewes route, cut back after the Uckfield-Lewes section closed in 1969.",
       "id": "col_20"
     },
     {
@@ -332,7 +332,7 @@
       "category": "route",
       "match_count": 16,
       "display": "Is part of the Portsmouth Direct route",
-      "hint": "Stations on this route include Basingstoke, Fratton, London Victoria and Southampton Central (plus 12 more).",
+      "hint": "The fast route from London Waterloo via Guildford and Haslemere to Portsmouth Harbour - the historic direct line to the naval city.",
       "id": "col_21"
     },
     {
@@ -343,7 +343,7 @@
       "category": "route",
       "match_count": 16,
       "display": "Is part of the Midland Main Line route",
-      "hint": "Stations on this route include Bedford, Flitwick, Kentish Town and Mill Hill Broadway (plus 12 more).",
+      "hint": "The Thameslink route north from London through St Albans and Luton to Bedford, continuing the core Thameslink service beyond the central London tunnel.",
       "id": "col_22"
     },
     {
@@ -354,7 +354,7 @@
       "category": "route",
       "match_count": 13,
       "display": "Is part of the Coastway East route",
-      "hint": "Stations on this route include Bishopstone (Sussex), Newhaven Harbour, Pevensey Bay and Riddlesdown (plus 9 more).",
+      "hint": "The coastal route from Brighton east via Lewes, Eastbourne and Bexhill to Hastings and Ore, with a branch to Seaford - the name Southern uses interchangeably with East Coastway.",
       "id": "col_23"
     },
     {
@@ -365,7 +365,7 @@
       "category": "route",
       "match_count": 12,
       "display": "Is part of the Coastway West route",
-      "hint": "Stations on this route include Aldrington, Billingshurst, Fishersgate and Nutbourne (plus 8 more).",
+      "hint": "The coastal route from Brighton west via Worthing, Chichester and Havant to Southampton, with branches to Littlehampton and Bognor Regis - the name Southern uses interchangeably with West Coastway.",
       "id": "col_24"
     },
     {
@@ -376,7 +376,7 @@
       "category": "route",
       "match_count": 11,
       "display": "Is part of the Arun Valley Line route",
-      "hint": "Stations on this route include Amberley, Billingshurst, Faygate and Norwood Junction (plus 7 more).",
+      "hint": "The route from Horsham via Billingshurst and Pulborough up the Arun Valley to Amberley and Arundel, continuing to the coast.",
       "id": "col_25"
     },
     {
@@ -387,7 +387,7 @@
       "category": "route",
       "match_count": 11,
       "display": "Is part of the Coastway route",
-      "hint": "Stations on this route include Amberley, Billingshurst, Fishersgate and Nutbourne (plus 7 more).",
+      "hint": "The combined coastal route along the Sussex and Hampshire shore through Brighton, linking the separate West Coastway and East Coastway sections into one continuous line from Southampton to Hastings.",
       "id": "col_26"
     },
     {
@@ -398,7 +398,7 @@
       "category": "route",
       "match_count": 11,
       "display": "Is part of the Epsom Downs Line route",
-      "hint": "Stations on this route include Banstead, Belmont, Epsom Downs and South Bermondsey (plus 7 more).",
+      "hint": "The branch from West Croydon via Sutton and Belmont to its terminus at Epsom Downs, the home of the Derby horse race.",
       "id": "col_27"
     },
     {
@@ -409,7 +409,7 @@
       "category": "route",
       "match_count": 9,
       "display": "Is part of the Mole Valley Line route",
-      "hint": "Stations on this route include Ashtead, Box Hill & Westhumble, Epsom (Surrey) and Leatherhead (plus 5 more).",
+      "hint": "The route from Epsom via Leatherhead and Box Hill & Westhumble to Dorking, following the course of the River Mole - continues to Horsham on some services.",
       "id": "col_28"
     },
     {

@@ -145,7 +145,7 @@
       "category": "route",
       "match_count": 21,
       "display": "Is part of the Dartford Loop route",
-      "hint": "Stations on this route include Abbey Wood, Crayford, Kidbrooke and Sidcup (plus 17 more).",
+      "hint": "The southern of the two routes from London to Dartford, running via Sidcup and Bexley - also called the Sidcup Line, with trains looping back via the Bexleyheath or North Kent lines.",
       "id": "col_5"
     },
     {
@@ -156,7 +156,7 @@
       "category": "route",
       "match_count": 14,
       "display": "Is part of the Sevenoaks Main Line route",
-      "hint": "Stations on this route include Chelsfield, Grove Park, London Cannon Street and New Cross (plus 10 more).",
+      "hint": "The direct route from London Cannon Street/Charing Cross via Grove Park and Orpington to Sevenoaks and on to Tonbridge - the fast, principal route south to Kent.",
       "id": "col_6"
     },
     {
@@ -167,7 +167,7 @@
       "category": "route",
       "match_count": 14,
       "display": "Is part of the Catford Loop Extended route",
-      "hint": "Stations on this route include Beckenham Hill, Catford, Elephant & Castle and London Blackfriars (plus 10 more).",
+      "hint": "The full Catford Loop route including its city-end approaches via Elephant & Castle/Blackfriars, looping through Nunhead, Catford and Shortlands to rejoin the Chatham Main Line - a relief route avoiding the Sydenham Hill Tunnel.",
       "id": "col_7"
     },
     {
@@ -178,7 +178,7 @@
       "category": "route",
       "match_count": 13,
       "display": "Is part of the Sevenoaks Metro route",
-      "hint": "Stations on this route include Chelsfield, Grove Park, London Cannon Street and New Cross (plus 9 more).",
+      "hint": "The slower stopping service between London and Sevenoaks via the same route as the Sevenoaks Main Line, calling at more of the intermediate stations.",
       "id": "col_8"
     },
     {
@@ -189,7 +189,7 @@
       "category": "route",
       "match_count": 13,
       "display": "Is part of the Bromley South Metro route",
-      "hint": "Stations on this route include Beckenham Junction, Bromley South, London Victoria and Petts Wood (plus 9 more).",
+      "hint": "The stopping service between London Victoria and Bromley South via Herne Hill and Beckenham Junction, calling at more intermediate stations than the Bromley South Main Line fast service.",
       "id": "col_9"
     },
     {
@@ -200,7 +200,7 @@
       "category": "route",
       "match_count": 12,
       "display": "Is part of the Greenwich Line route",
-      "hint": "Stations on this route include Abbey Wood, Deptford, London Bridge and Slade Green (plus 8 more).",
+      "hint": "The historic route from London Bridge via Deptford, Greenwich and Charlton to Woolwich Arsenal - one of the earliest railways in the world, opened in 1836.",
       "id": "col_10"
     },
     {
@@ -211,7 +211,7 @@
       "category": "route",
       "match_count": 11,
       "display": "Is part of the Catford Corridor route",
-      "hint": "Stations on this route include Beckenham Hill, Crofton Park, Herne Hill and Penge East (plus 7 more).",
+      "hint": "The core central section of stations shared by the Catford Loop services, running through Herne Hill, Penge East and Beckenham Hill.",
       "id": "col_11"
     },
     {
@@ -222,7 +222,7 @@
       "category": "route",
       "match_count": 11,
       "display": "Is part of the Catford Loop route",
-      "hint": "Stations on this route include Bellingham, City Thameslink, Herne Hill and Nunhead (plus 7 more).",
+      "hint": "The suburban stopping service via Nunhead, Catford and Shortlands, opened in 1892 as a relief route for London Victoria-Kent coast trains - also a diversionary route avoiding the Sydenham Hill Tunnel.",
       "id": "col_12"
     },
     {
@@ -233,7 +233,7 @@
       "category": "route",
       "match_count": 9,
       "display": "Is part of the Bexleyheath Line route",
-      "hint": "Stations on this route include Barnehurst, Blackheath, Dartford and Kidbrooke (plus 5 more).",
+      "hint": "The middle of the three routes from London to Dartford, running via Falconwood, Bexleyheath and Barnehurst.",
       "id": "col_13"
     },
     {
@@ -244,7 +244,7 @@
       "category": "route",
       "match_count": 9,
       "display": "Is part of the Hayes Branch route",
-      "hint": "Stations on this route include Catford Bridge, Eden Park, Hayes and Lower Sydenham (plus 5 more).",
+      "hint": "The short branch from Elmers End via Eden Park and West Wickham to its terminus at Hayes (Kent).",
       "id": "col_14"
     },
     {
@@ -255,7 +255,7 @@
       "category": "route",
       "match_count": 6,
       "display": "Is part of the Chatham Main Line Metro route",
-      "hint": "Stations on this route include Bickley, Brixton, Orpington and Petts Wood (plus 2 more).",
+      "hint": "The stopping service on the Chatham Main Line as far as Orpington, calling at the closer-in suburban stations.",
       "id": "col_15"
     },
     {
@@ -266,7 +266,7 @@
       "category": "route",
       "match_count": 5,
       "display": "Is part of the Bromley South Main Line route",
-      "hint": "Stations on this route include Bickley, Bromley South, Shortlands and St Mary Cray (plus 1 more).",
+      "hint": "The fast route from London via Bickley to Bromley South and on to the Chatham Main Line towards the Kent coast.",
       "id": "col_16"
     },
     {
@@ -277,7 +277,7 @@
       "category": "route",
       "match_count": 3,
       "display": "Is part of the Chatham Main Line route",
-      "hint": "Stations on this route include Bromley South, St Mary Cray and Swanley.",
+      "hint": "The historic route from London via Bromley South, Swanley and Rochester to Chatham and the Medway towns, continuing to Faversham and Dover.",
       "id": "col_17"
     },
     {
@@ -288,7 +288,7 @@
       "category": "route",
       "match_count": 3,
       "display": "Is part of the Bromley North Branch route",
-      "hint": "Stations on this route include Bromley North, Grove Park and Sundridge Park.",
+      "hint": "The short shuttle branch from Grove Park via Sundridge Park to its terminus at Bromley North.",
       "id": "col_18"
     },
     {

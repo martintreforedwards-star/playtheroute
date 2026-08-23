@@ -266,7 +266,7 @@
       "category": "route",
       "match_count": 45,
       "display": "Is part of the Fen Line route",
-      "hint": "Stations on this route include Alexandra Palace, Enfield Chase, Huntingdon and Royston (plus 41 more).",
+      "hint": "The route from Cambridge north through Ely and the Cambridgeshire fenland to the Norfolk port town of King's Lynn - named after the flat, low-lying Fens it crosses.",
       "id": "col_16"
     },
     {
@@ -277,7 +277,7 @@
       "category": "route",
       "match_count": 32,
       "display": "Is part of the Great Northern route",
-      "hint": "Stations on this route include Alexandra Palace, Essex Road, Highbury & Islington and Old Street (plus 28 more).",
+      "hint": "The wider suburban network radiating north from London Kings Cross and Moorgate through Hertfordshire towards Cambridge, Peterborough and Kings Lynn.",
       "id": "col_17"
     },
     {
@@ -288,7 +288,7 @@
       "category": "route",
       "match_count": 20,
       "display": "Is part of the Elizabeth Line route",
-      "hint": "Stations on this route include Acton Main Line, Custom House, Harold Wood and Maryland (plus 16 more).",
+      "hint": "The cross-London route from Reading and Heathrow in the west through central London to Shenfield and Abbey Wood in the east - opened in 2022, London's newest railway.",
       "id": "col_18"
     },
     {
@@ -299,7 +299,7 @@
       "category": "route",
       "match_count": 18,
       "display": "Is part of the Northern City Line route",
-      "hint": "Stations on this route include Alexandra Palace, Finsbury Park, Hornsey and Oakleigh Park (plus 14 more).",
+      "hint": "The tunnel linking Moorgate to Finsbury Park, built for London Underground but now run as part of the Great Northern suburban network - originally planned as part of the Northern line's unbuilt 'Northern Heights' expansion.",
       "id": "col_19"
     },
     {
@@ -310,7 +310,7 @@
       "category": "route",
       "match_count": 11,
       "display": "Is part of the Marston Vale Line route",
-      "hint": "Stations on this route include Aspley Guise, Bletchley, Kempston Hardwick and Ridgmont (plus 7 more).",
+      "hint": "The rural cross-country branch from Bedford via Ridgmont and Woburn Sands to Bletchley, running through the Marston Vale.",
       "id": "col_20"
     },
     {
@@ -321,7 +321,7 @@
       "category": "route",
       "match_count": 10,
       "display": "Is part of the Lioness Line route",
-      "hint": "Stations on this route include Apsley, Cheddington, Leighton Buzzard and Northampton (plus 6 more).",
+      "hint": "The London Overground route from Euston to Watford Junction via Wembley - renamed in 2024 to honour the England women's football team following their 2022 Euros victory.",
       "id": "col_21"
     },
     {
@@ -332,7 +332,7 @@
       "category": "route",
       "match_count": 9,
       "display": "Is part of the Northern Heights route",
-      "hint": "Stations on this route include Alexandra Palace, Essex Road, Harringay and Hornsey (plus 5 more).",
+      "hint": "The Great Northern suburban branches north of London (towards Alexandra Palace, Hertford and Welwyn) that were originally slated for absorption into the London Underground's Northern line under a 1930s expansion plan, abandoned after the Second World War.",
       "id": "col_22"
     },
     {
@@ -343,7 +343,7 @@
       "category": "route",
       "match_count": 7,
       "display": "Is part of the Abbey Line route",
-      "hint": "Stations on this route include Bricket Wood, Garston, Park Street and Watford Junction (plus 3 more).",
+      "hint": "The short branch from Watford Junction via Bricket Wood to St Albans Abbey.",
       "id": "col_23"
     },
     {

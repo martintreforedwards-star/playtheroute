@@ -177,7 +177,7 @@
       "category": "route",
       "match_count": 19,
       "display": "Is part of the Windrush Line route",
-      "hint": "Stations on this route include Anerley, Dalston Junction, New Cross Gate and Surrey Quays (plus 15 more).",
+      "hint": "The route from Highbury & Islington south through New Cross Gate to Crystal Palace and West Croydon - renamed in 2024 to honour the Windrush generation, running through areas with strong Caribbean community ties like Dalston Junction and Peckham Rye.",
       "id": "col_10"
     },
     {
@@ -188,7 +188,7 @@
       "category": "route",
       "match_count": 17,
       "display": "Is part of the Mildmay Line route",
-      "hint": "Stations on this route include Acton Central, Camden Road, Hackney Central and Imperial Wharf (plus 13 more).",
+      "hint": "The route from Stratford via Dalston and Canonbury to Richmond or Clapham Junction - renamed in 2024 after the Mildmay Mission Hospital in Shoreditch, recognised for its pivotal role in the 1980s HIV/AIDS crisis.",
       "id": "col_11"
     },
     {
@@ -199,7 +199,7 @@
       "category": "route",
       "match_count": 12,
       "display": "Is part of the Suffragette Line route",
-      "hint": "Stations on this route include Barking Riverside, Gospel Oak, Leytonstone High Road and Walthamstow Queens Road (plus 8 more).",
+      "hint": "The route from Gospel Oak to Barking Riverside, formerly nicknamed 'the Goblin' - renamed in 2024 to honour the suffragette movement, including Barking's Annie Huggett, the longest-surviving suffragette.",
       "id": "col_12"
     },
     {
@@ -210,7 +210,7 @@
       "category": "route",
       "match_count": 10,
       "display": "Is part of the Chingford Line route",
-      "hint": "Stations on this route include Bethnal Green, Chingford, Highams Park and St James Street (plus 6 more).",
+      "hint": "The branch from Liverpool Street via Walthamstow to Chingford - one of the three branches making up the wider Weaver Line group, named for the area's textile trade history.",
       "id": "col_13"
     },
     {
@@ -221,7 +221,7 @@
       "category": "route",
       "match_count": 10,
       "display": "Is part of the Enfield Town Line route",
-      "hint": "Stations on this route include Bruce Grove, Edmonton Green, Seven Sisters and Stamford Hill (plus 6 more).",
+      "hint": "The branch from Liverpool Street via Bruce Grove to Enfield Town - one of the three branches making up the wider Weaver Line group, alongside the Chingford and Cheshunt branches.",
       "id": "col_14"
     },
     {

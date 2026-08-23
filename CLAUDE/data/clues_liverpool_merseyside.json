@@ -244,7 +244,7 @@
       "category": "route",
       "match_count": 36,
       "display": "Is part of the Northern Line route",
-      "hint": "Stations on this route include Aigburth, Brunswick, Hunts Cross and Orrell Park (plus 32 more).",
+      "hint": "The Merseyrail line running north-south through central Liverpool, splitting into three branches at the top: Southport, Ormskirk and the reopened Headbolt Lane - not to be confused with London's Underground line of the same name.",
       "id": "col_13"
     },
     {
@@ -255,7 +255,7 @@
       "category": "route",
       "match_count": 18,
       "display": "Is part of the Wirral Line route",
-      "hint": "Stations on this route include Bidston, Birkenhead Park, Little Sutton and Moreton (Merseyside) (plus 14 more).",
+      "hint": "The Merseyrail loop under the Mersey linking Liverpool to the Wirral Peninsula, with branches to Chester, Ellesmere Port, New Brighton and West Kirby.",
       "id": "col_14"
     },
     {
@@ -266,7 +266,7 @@
       "category": "route",
       "match_count": 12,
       "display": "Is part of the Liverpool to Manchester Line route",
-      "hint": "Stations on this route include Bryn, Euxton Balshaw Lane, Ince & Elton (Cheshire) and Roby (plus 8 more).",
+      "hint": "The historic route between the two cities via Newton-le-Willows and Patricroft - opened in 1830 as the world's first inter-city passenger railway.",
       "id": "col_15"
     },
     {
@@ -277,7 +277,7 @@
       "category": "route",
       "match_count": 10,
       "display": "Is part of the City Line (Merseyside) route",
-      "hint": "Stations on this route include Bryn, Edge Hill, Liverpool Lime Street and Roby (plus 6 more).",
+      "hint": "The wider commuter network branded City Line by Merseytravel, covering routes from Liverpool towards Manchester, Wigan, Warrington, Chester and Blackpool - unlike the Northern and Wirral lines, not operated by Merseyrail itself.",
       "id": "col_16"
     },
     {
@@ -288,7 +288,7 @@
       "category": "route",
       "match_count": 8,
       "display": "Is part of the Fylde Line route",
-      "hint": "Stations on this route include Ansdell & Fairhaven, Blackpool South, Moss Side and Squires Gate (plus 4 more).",
+      "hint": "The coastal branch south from Blackpool via Ansdell & Fairhaven and Moss Side towards Preston - serves the Fylde coast resort towns.",
       "id": "col_17"
     },
     {
@@ -299,7 +299,7 @@
       "category": "route",
       "match_count": 8,
       "display": "Is part of the South Fylde Line route",
-      "hint": "Stations on this route include Ansdell & Fairhaven, Blackpool South, Moss Side and Squires Gate (plus 4 more).",
+      "hint": "The coastal branch south from Blackpool via Ansdell & Fairhaven and Moss Side towards Preston - also simply called the Fylde Line.",
       "id": "col_18"
     },
     {
@@ -310,7 +310,7 @@
       "category": "route",
       "match_count": 6,
       "display": "Is part of the Liverpool to Manchester Line via Warrington Central route",
-      "hint": "Stations on this route include Edge Hill, Halewood, Mossley Hill and Sankey for Penketh (plus 2 more).",
+      "hint": "The alternative, more southerly route between the two cities via Warrington Central and Irlam, distinct from the more direct Liverpool-Manchester main line via Newton-le-Willows.",
       "id": "col_19"
     },
     {
@@ -321,7 +321,7 @@
       "category": "route",
       "match_count": 3,
       "display": "Is part of the Cumbrian Coast Line route",
-      "hint": "Stations on this route include Askam, Foxfield and Millom.",
+      "hint": "The long coastal route around the Cumbrian peninsula from Carlisle via Whitehaven and Barrow-in-Furness to Lancaster, skirting the Lake District's western edge.",
       "id": "col_20"
     },
     {
@@ -332,7 +332,7 @@
       "category": "route",
       "match_count": 3,
       "display": "Is part of the Furness Line route",
-      "hint": "Stations on this route include Askam, Foxfield and Millom.",
+      "hint": "The section of the Cumbrian coastal route around the Furness peninsula through Barrow-in-Furness - part of the wider Cumbrian Coast Line.",
       "id": "col_21"
     },
     {

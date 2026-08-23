@@ -7,7 +7,7 @@
       "label": "Interchange station",
       "weight": "high",
       "match_count": 12,
-      "display": "Change trains here",
+      "display": "Is an interchange station",
       "hint": "Served by two or more separate named routes, or where several lines physically meet.",
       "id": "row_0"
     },
@@ -189,7 +189,7 @@
       "category": "route",
       "match_count": 20,
       "display": "Is part of the Fife Circle route",
-      "hint": "Stations on this route include Aberdour, Dalgety Bay, Glenrothes with Thornton and Lochgelly (plus 16 more).",
+      "hint": "The commuter route north of Edinburgh looping through Fife via Dunfermline, Cowdenbeath, Kirkcaldy and Glenrothes, crossing the Forth Bridge - two originally separate lines joined into one circuit in 1989.",
       "id": "col_9"
     },
     {
@@ -200,7 +200,7 @@
       "category": "route",
       "match_count": 9,
       "display": "Is part of the Shotts Line route",
-      "hint": "Stations on this route include Addiewell, Curriehill, Kirknewton and Slateford (plus 5 more).",
+      "hint": "The slower of the two Edinburgh-Glasgow routes, running via Shotts and West Calder rather than the faster main line via Falkirk - about twice the journey time of the direct service.",
       "id": "col_10"
     },
     {
@@ -211,7 +211,7 @@
       "category": "route",
       "match_count": 9,
       "display": "Is part of the Borders Railway route",
-      "hint": "Stations on this route include Brunstane, Galashiels, Newcraighall and Shawfair (plus 5 more).",
+      "hint": "The reopened line south from Edinburgh through Newtongrange and Galashiels to Tweedbank - Britain's longest new domestic railway in over a century when it opened in 2015, on the former Waverley Route.",
       "id": "col_11"
     },
     {
@@ -222,7 +222,7 @@
       "category": "route",
       "match_count": 8,
       "display": "Is part of the North Berwick Line route",
-      "hint": "Stations on this route include Drem, East Linton, Musselburgh and Prestonpans (plus 4 more).",
+      "hint": "The branch east from Edinburgh along the East Lothian coast via Prestonpans and Drem to the seaside town of North Berwick.",
       "id": "col_12"
     },
     {
@@ -233,7 +233,7 @@
       "category": "route",
       "match_count": 5,
       "display": "Is part of the Argyle Line route",
-      "hint": "Stations on this route include Armadale, Bathgate, Edinburgh Park and Livingston North (plus 1 more).",
+      "hint": "This tag actually covers the Edinburgh-Bathgate corridor (Armadale, Bathgate, Edinburgh Park, Livingston North) - the real Argyle Line is a different, unrelated route: Glasgow's underground low-level crosstown line linking Dalmuir/Milngavie through Glasgow Central Low Level to Motherwell, Lanark and Coatbridge.",
       "id": "col_13"
     },
     {
@@ -244,7 +244,7 @@
       "category": "route",
       "match_count": 5,
       "display": "Is part of the North Clyde Electrics route",
-      "hint": "Stations on this route include Armadale, Bathgate, Edinburgh Park and Livingston North (plus 1 more).",
+      "hint": "The wider North Clyde suburban network radiating from Glasgow Queen Street, which also extends east to Edinburgh via the Bathgate branch through Armadale, Livingston North and Edinburgh Park.",
       "id": "col_14"
     },
     {
@@ -255,7 +255,7 @@
       "category": "route",
       "match_count": 4,
       "display": "Is part of the Edinburgh-Glasgow Main Line route",
-      "hint": "Stations on this route include Edinburgh Waverley, Haymarket, Linlithgow and Polmont.",
+      "hint": "The fast, direct route between the two cities via Falkirk High and Linlithgow - the premier Edinburgh-Glasgow service, quicker than the alternative via Shotts.",
       "id": "col_15"
     },
     {

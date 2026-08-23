@@ -255,7 +255,7 @@
       "category": "route",
       "match_count": 65,
       "display": "Is part of the South West Main Line route",
-      "hint": "Stations on this route include Andover, Fareham, New Malden and St Denys (plus 61 more).",
+      "hint": "The 143-mile trunk route from London Waterloo to Weymouth via Woking, Basingstoke, Southampton and Bournemouth - the backbone of the South Western network.",
       "id": "col_14"
     },
     {
@@ -266,7 +266,7 @@
       "category": "route",
       "match_count": 42,
       "display": "Is part of the Hounslow Loop route",
-      "hint": "Stations on this route include Addlestone, Feltham, Norbiton and Sunbury (plus 38 more).",
+      "hint": "The suburban loop off the Waterloo-Reading line via Barnes, rejoining near Feltham - opened in 1850, looping through Hounslow and back to Waterloo.",
       "id": "col_15"
     },
     {
@@ -277,7 +277,7 @@
       "category": "route",
       "match_count": 25,
       "display": "Is part of the Kingston Loop route",
-      "hint": "Stations on this route include Barnes, Kempton Park, Putney and Strawberry Hill (plus 21 more).",
+      "hint": "The suburban loop off the South West Main Line via Twickenham, Kingston and Norbiton, rejoining the main line near New Malden.",
       "id": "col_16"
     },
     {
@@ -288,7 +288,7 @@
       "category": "route",
       "match_count": 22,
       "display": "Is part of the Waterloo to Reading Line route",
-      "hint": "Stations on this route include Ascot (Berks), Earley, Putney and Sunningdale (plus 18 more).",
+      "hint": "The suburban route from London Waterloo via Richmond and Staines to Reading, from which the Hounslow Loop and Windsor Line both branch off.",
       "id": "col_17"
     },
     {
@@ -299,7 +299,7 @@
       "category": "route",
       "match_count": 17,
       "display": "Is part of the Windsor Line route",
-      "hint": "Stations on this route include Ashford (Surrey), Mortlake, Richmond (London) and Twickenham (plus 13 more).",
+      "hint": "The branch from Staines to Windsor & Eton Riverside - part of the historic 'Windsor lines' group alongside the Hounslow Loop, both dating back to the original Richmond Railway.",
       "id": "col_18"
     },
     {
@@ -310,7 +310,7 @@
       "category": "route",
       "match_count": 17,
       "display": "Is part of the New Guildford Line route",
-      "hint": "Stations on this route include Bookham, Earlsfield, Horsley and Oxshott (plus 13 more).",
+      "hint": "The route from Surbiton via Cobham & Stoke d'Abernon to Guildford - an alternative to the main Waterloo-Guildford route via Woking.",
       "id": "col_19"
     },
     {
@@ -321,7 +321,7 @@
       "category": "route",
       "match_count": 17,
       "display": "Is part of the Solent Link route",
-      "hint": "Stations on this route include Bitterne, Eastleigh, Hedge End and Portsmouth & Southsea (plus 13 more).",
+      "hint": "The route linking Southampton and the Solent coast via Fareham and Portchester to Portsmouth Harbour.",
       "id": "col_20"
     },
     {
@@ -332,7 +332,7 @@
       "category": "route",
       "match_count": 14,
       "display": "Is part of the Alton Line route",
-      "hint": "Stations on this route include Aldershot, Bentley (Hampshire), Farnham and Walton-on-Thames (plus 10 more).",
+      "hint": "The branch from Woking via Aldershot and Farnham to the market town of Alton in Hampshire.",
       "id": "col_21"
     },
     {
@@ -343,7 +343,7 @@
       "category": "route",
       "match_count": 14,
       "display": "Is part of the Shepperton Branch route",
-      "hint": "Stations on this route include Earlsfield, Hampton Wick, Norbiton and Strawberry Hill (plus 10 more).",
+      "hint": "The branch from Twickenham via Kingston and Hampton Court territory to its terminus at Shepperton.",
       "id": "col_22"
     },
     {
@@ -354,7 +354,7 @@
       "category": "route",
       "match_count": 12,
       "display": "Is part of the Solent & Wessex route",
-      "hint": "Stations on this route include Bedhampton, Haslemere, Liss and Rowlands Castle (plus 8 more).",
+      "hint": "The wider grouping of routes around the Solent and into Wessex, linking Southampton, Eastleigh and the Hampshire coast towards Salisbury and Dorset.",
       "id": "col_23"
     },
     {
@@ -365,7 +365,7 @@
       "category": "route",
       "match_count": 11,
       "display": "Is part of the East Devon Line route",
-      "hint": "Stations on this route include Axminster, Crewkerne, Honiton and Templecombe (plus 7 more).",
+      "hint": "The route from Salisbury via Yeovil Junction, Axminster and Honiton into Exeter - the western extension of the South West Main Line through Dorset and East Devon.",
       "id": "col_24"
     },
     {
@@ -376,7 +376,7 @@
       "category": "route",
       "match_count": 8,
       "display": "Is part of the Island Line route",
-      "hint": "Stations on this route include Brading, Ryde Esplanade, Ryde St Johns Road and Shanklin (plus 4 more).",
+      "hint": "The short railway on the Isle of Wight linking Ryde Pier Head to Shanklin, connecting at Ryde with Wightlink ferries to Portsmouth Harbour.",
       "id": "col_25"
     },
     {
@@ -387,7 +387,7 @@
       "category": "route",
       "match_count": 7,
       "display": "Is part of the Chessington Branch route",
-      "hint": "Stations on this route include Chessington North, Chessington South, Malden Manor and Raynes Park (plus 3 more).",
+      "hint": "The branch from Motspur Park via Tolworth to its terminus at Chessington South, serving Chessington World of Adventures.",
       "id": "col_26"
     },
     {
@@ -398,7 +398,7 @@
       "category": "route",
       "match_count": 6,
       "display": "Is part of the Hampton Court Branch route",
-      "hint": "Stations on this route include Earlsfield, Hampton Court, Raynes Park and Surbiton (plus 2 more).",
+      "hint": "The short branch from Surbiton via Thames Ditton to its terminus at Hampton Court, next to the historic royal palace.",
       "id": "col_27"
     },
     {
@@ -409,7 +409,7 @@
       "category": "route",
       "match_count": 3,
       "display": "Is part of the Lymington Branch Line route",
-      "hint": "Stations on this route include Brockenhurst, Lymington Pier and Lymington Town.",
+      "hint": "The short branch from Brockenhurst to Lymington Pier, connecting with Wightlink ferries to Yarmouth on the Isle of Wight.",
       "id": "col_28"
     },
     {

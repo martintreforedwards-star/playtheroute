@@ -222,7 +222,7 @@
       "category": "route",
       "match_count": 31,
       "display": "Is part of the Hadrian's Wall Country Line route",
-      "hint": "Stations on this route include Allens West, Corbridge, Hexham and Seaham (plus 27 more).",
+      "hint": "The scenic route from Newcastle via Hexham and Haltwhistle to Carlisle, following the course of the River Tyne alongside Hadrian's Wall - same route as the Tyne Valley Line, just the tourist branding name.",
       "id": "col_11"
     },
     {
@@ -233,7 +233,7 @@
       "category": "route",
       "match_count": 31,
       "display": "Is part of the Tyne Valley Line route",
-      "hint": "Stations on this route include Allens West, Corbridge, Hexham and Seaham (plus 27 more).",
+      "hint": "The historic route from Newcastle via Hexham and Haltwhistle to Carlisle, opened in 1838 as one of the oldest passenger railways in the world - also branded the Hadrian's Wall Country Line for its proximity to the Roman wall.",
       "id": "col_12"
     },
     {
@@ -244,7 +244,7 @@
       "category": "route",
       "match_count": 28,
       "display": "Is part of the Esk Valley Railway route",
-      "hint": "Stations on this route include Battersby, Great Ayton, Kildale and Seaham (plus 24 more).",
+      "hint": "The scenic branch from Middlesbrough via Battersby and Glaisdale to the coastal town of Whitby, following the River Esk through the North York Moors.",
       "id": "col_13"
     },
     {
@@ -255,7 +255,7 @@
       "category": "route",
       "match_count": 18,
       "display": "Is part of the Tees Valley Line route",
-      "hint": "Stations on this route include Allens West, Eaglescliffe, Newcastle and Redcar East (plus 14 more).",
+      "hint": "The route linking Bishop Auckland/Darlington to Middlesbrough and on to the Durham coast, serving the Teesside conurbation.",
       "id": "col_14"
     },
     {
@@ -266,7 +266,7 @@
       "category": "route",
       "match_count": 18,
       "display": "Is part of the Durham Coast Line route",
-      "hint": "Stations on this route include Billingham, Hartlepool, Middlesbrough and Seaham (plus 14 more).",
+      "hint": "The coastal route from Middlesbrough via Hartlepool, Seaham and Sunderland to Newcastle, hugging the North Sea coast through former Durham coalfield towns.",
       "id": "col_15"
     },
     {
@@ -277,7 +277,7 @@
       "category": "route",
       "match_count": 9,
       "display": "Is part of the Northumberland Line route",
-      "hint": "Stations on this route include Ashington, Blyth Bebside, Manors and Newsham (plus 5 more).",
+      "hint": "The reopened line north from Newcastle via Manors to Ashington and Blyth, restoring passenger services after more than 60 years of closure to passengers - reopened in December 2024.",
       "id": "col_16"
     },
     {
@@ -288,7 +288,7 @@
       "category": "route",
       "match_count": 8,
       "display": "Is part of the Cumbrian Coast Line route",
-      "hint": "Stations on this route include Aspatria, Flimby, Maryport and Wigton (plus 4 more).",
+      "hint": "The long coastal route around the Cumbrian peninsula from Carlisle via Whitehaven and Barrow-in-Furness to Lancaster, skirting the Lake District's western edge.",
       "id": "col_17"
     },
     {
@@ -299,7 +299,7 @@
       "category": "route",
       "match_count": 5,
       "display": "Is part of the East Coast Main Line route",
-      "hint": "Stations on this route include Acklington, Alnmouth, Chathill and Pegswood (plus 1 more).",
+      "hint": "The historic trunk route from London Kings Cross to Edinburgh via York, Darlington and Newcastle - home of the Flying Scotsman and one of Britain's two great north-south main lines.",
       "id": "col_18"
     },
     {
@@ -310,7 +310,7 @@
       "category": "route",
       "match_count": 5,
       "display": "Is part of the Bishop Line route",
-      "hint": "Stations on this route include Bishop Auckland, Heighington, Newton Aycliffe and North Road (Darlington) (plus 1 more).",
+      "hint": "The branch from Darlington via Newton Aycliffe and Shildon to Bishop Auckland - runs along part of the original Stockton and Darlington Railway, the world's first passenger railway.",
       "id": "col_19"
     },
     {
@@ -321,7 +321,7 @@
       "category": "route",
       "match_count": 5,
       "display": "Is part of the Heritage Line route",
-      "hint": "Stations on this route include Bishop Auckland, Heighington, Newton Aycliffe and North Road (Darlington) (plus 1 more).",
+      "hint": "The branch from Darlington to Bishop Auckland along part of the original Stockton and Darlington Railway route - also known as the Bishop Line, celebrated as part of the 2025 Railway 200 anniversary.",
       "id": "col_20"
     },
     {

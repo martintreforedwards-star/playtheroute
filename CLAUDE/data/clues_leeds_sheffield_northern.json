@@ -300,7 +300,7 @@
       "category": "route",
       "match_count": 33,
       "display": "Is part of the Hull and Doncaster Branch route",
-      "hint": "Stations on this route include Arram, Doncaster, Howden and Nafferton (plus 29 more).",
+      "hint": "The flat, direct route from Gilberdyke (on the Hull-Selby line) south-west via Goole to a junction near Thorne, connecting Hull to Doncaster and South Yorkshire without going via Selby.",
       "id": "col_18"
     },
     {
@@ -311,7 +311,7 @@
       "category": "route",
       "match_count": 30,
       "display": "Is part of the Hallam Line route",
-      "hint": "Stations on this route include Adwick, Darton, Normanton and Swinton (South Yorks) (plus 26 more).",
+      "hint": "The commuter route from Sheffield through Meadowhall to Leeds via Wakefield - named after Hallamshire, the historic district around Sheffield.",
       "id": "col_19"
     },
     {
@@ -322,7 +322,7 @@
       "category": "route",
       "match_count": 28,
       "display": "Is part of the Settle Carlisle Line route",
-      "hint": "Stations on this route include Appleby, Crossflatts, Keighley and Ribblehead (plus 24 more).",
+      "hint": "England's most scenic railway, running 72 miles from Settle Junction over the Ribblehead Viaduct and through the Yorkshire Dales to Carlisle - built by the Midland Railway in the 1870s using manual labour.",
       "id": "col_20"
     },
     {
@@ -333,7 +333,7 @@
       "category": "route",
       "match_count": 22,
       "display": "Is part of the Selby Line route",
-      "hint": "Stations on this route include Broomfleet, East Garforth, Howden and Nafferton (plus 18 more).",
+      "hint": "The route east from Leeds via South Milford to the market town of Selby, with through services continuing to Hull.",
       "id": "col_21"
     },
     {
@@ -344,7 +344,7 @@
       "category": "route",
       "match_count": 21,
       "display": "Is part of the Penistone Line route",
-      "hint": "Stations on this route include Barnsley, Darton, Leeds and Shepley (plus 17 more).",
+      "hint": "The winding cross-Pennine route from Huddersfield via Penistone and Barnsley to Sheffield, crossing three major viaducts - one of Britain's earliest lines, opened in 1850.",
       "id": "col_22"
     },
     {
@@ -355,7 +355,7 @@
       "category": "route",
       "match_count": 20,
       "display": "Is part of the Bentham Line route",
-      "hint": "Stations on this route include Bare Lane, Cononley, Hellifield and Saltaire (plus 16 more).",
+      "hint": "The 'little' route from Leeds via Skipton and the market town of Bentham to Lancaster and Morecambe, running alongside the Settle-Carlisle line before splitting off at Settle Junction.",
       "id": "col_23"
     },
     {
@@ -366,7 +366,7 @@
       "category": "route",
       "match_count": 19,
       "display": "Is part of the Airedale Line route",
-      "hint": "Stations on this route include Apperley Bridge, Crossflatts, Keighley and Saltaire (plus 15 more).",
+      "hint": "The commuter route from Leeds through Shipley and Bingley up the Aire Valley to Skipton and Gargrave, with a branch into Bradford Forster Square.",
       "id": "col_24"
     },
     {
@@ -377,7 +377,7 @@
       "category": "route",
       "match_count": 15,
       "display": "Is part of the Pontefract Line route",
-      "hint": "Stations on this route include Castleford, Goole, Pontefract Monkhill and Streethouse (plus 11 more).",
+      "hint": "The route from Leeds and Wakefield through Castleford and Pontefract to Knottingley, with a limited service continuing to Goole.",
       "id": "col_25"
     },
     {
@@ -388,7 +388,7 @@
       "category": "route",
       "match_count": 14,
       "display": "Is part of the Harrogate Line route",
-      "hint": "Stations on this route include Burley Park, Harrogate, Knaresborough and Poppleton (plus 10 more).",
+      "hint": "The route from Leeds through Horsforth and Weeton to the spa town of Harrogate, continuing to Knaresborough and York.",
       "id": "col_26"
     },
     {
@@ -399,7 +399,7 @@
       "category": "route",
       "match_count": 12,
       "display": "Is part of the Dearne Valley Line route",
-      "hint": "Stations on this route include Bolton-upon-Dearne, Meadowhall, Rotherham Central and Thurnscoe (plus 8 more).",
+      "hint": "The route from York south through Church Fenton and Pontefract Baghill to Moorthorpe, Rotherham and Sheffield - not to be confused with the older, separate Dearne Valley Railway.",
       "id": "col_27"
     },
     {
@@ -410,7 +410,7 @@
       "category": "route",
       "match_count": 11,
       "display": "Is part of the Yorkshire Coast Line route",
-      "hint": "Stations on this route include Arram, Beverley, Driffield and Hunmanby (plus 7 more).",
+      "hint": "The route from York and Malton to the seaside resorts of Scarborough and Filey, with a branch north to Whitby via the Esk Valley and another to Bridlington and Hull.",
       "id": "col_28"
     },
     {
@@ -421,7 +421,7 @@
       "category": "route",
       "match_count": 10,
       "display": "Is part of the Wharfedale Line route",
-      "hint": "Stations on this route include Baildon, Bradford Forster Square, Guiseley and Leeds (plus 6 more).",
+      "hint": "The branch north from Leeds and Bradford via Guiseley and Menston up the Wharfe Valley to the spa town of Ilkley.",
       "id": "col_29"
     },
     {
@@ -432,7 +432,7 @@
       "category": "route",
       "match_count": 9,
       "display": "Is part of the Calder Vale Line route",
-      "hint": "Stations on this route include Bradford Interchange, Halifax, Leeds and Mytholmroyd (plus 5 more).",
+      "hint": "The route through the Calder Valley from Leeds via Bradford, Halifax and Sowerby Bridge to Hebden Bridge and Todmorden, continuing towards Lancashire.",
       "id": "col_30"
     },
     {
@@ -443,7 +443,7 @@
       "category": "route",
       "match_count": 9,
       "display": "Is part of the Huddersfield Line route",
-      "hint": "Stations on this route include Batley, Cottingley, Dewsbury and Mirfield (plus 5 more).",
+      "hint": "The trans-Pennine route from Leeds through Dewsbury and Huddersfield towards Manchester, via the Standedge Tunnel - one of the longest railway tunnels in Britain.",
       "id": "col_31"
     },
     {
@@ -454,7 +454,7 @@
       "category": "route",
       "match_count": 7,
       "display": "Is part of the Sheffield to Lincoln Line route",
-      "hint": "Stations on this route include Darnall, Dronfield, Kiveton Park and Woodhouse (plus 3 more).",
+      "hint": "The extension of some Penistone Line services beyond Sheffield via Kiveton Bridge, Worksop and Gainsborough to Lincoln.",
       "id": "col_32"
     },
     {

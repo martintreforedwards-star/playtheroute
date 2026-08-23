@@ -311,7 +311,7 @@
       "category": "route",
       "match_count": 34,
       "display": "Is part of the Shakespeare Line route",
-      "hint": "Stations on this route include Acocks Green, Hartlebury, Shirley and Whitlocks End (plus 30 more).",
+      "hint": "The suburban line from Birmingham (via Snow Hill/Moor Street) south to Stratford-upon-Avon - also grouped under 'Snow Hill Lines' more broadly, one of the routes radiating from Snow Hill/Moor Street through the Warwickshire countryside.",
       "id": "col_20"
     },
     {
@@ -322,7 +322,7 @@
       "category": "route",
       "match_count": 34,
       "display": "Is part of the Snow Hill Lines route",
-      "hint": "Stations on this route include Acocks Green, Hartlebury, Shirley and Whitlocks End (plus 30 more).",
+      "hint": "The umbrella name for the routes radiating from Birmingham Snow Hill and Moor Street stations, covering both the Stratford-upon-Avon branch (the Shakespeare Line) and the Kidderminster/Worcester branch.",
       "id": "col_21"
     },
     {
@@ -333,7 +333,7 @@
       "category": "route",
       "match_count": 28,
       "display": "Is part of the Shrewsbury to Wolverhampton Line route",
-      "hint": "Stations on this route include Albrighton, Coseley, Oakengates and Tame Bridge Parkway (plus 24 more).",
+      "hint": "The route linking Shrewsbury to Wolverhampton via Cosford, Telford Central and Oakengates - continuing onward to the Chase Line towards Rugeley.",
       "id": "col_22"
     },
     {
@@ -344,7 +344,7 @@
       "category": "route",
       "match_count": 25,
       "display": "Is part of the Chase Line route",
-      "hint": "Stations on this route include Adderley Park, Coseley, Lea Hall and Smethwick Rolfe Street (plus 21 more).",
+      "hint": "The suburban line from Birmingham New Street via Walsall to Rugeley Trent Valley, named after Cannock Chase which it passes through at its northern end - fully electrified in 2018.",
       "id": "col_23"
     },
     {
@@ -355,7 +355,7 @@
       "category": "route",
       "match_count": 23,
       "display": "Is part of the Cross-City route",
-      "hint": "Stations on this route include Alvechurch, Bournville, Gravelly Hill and Redditch (plus 19 more).",
+      "hint": "The busy commuter line from Lichfield in the north through Birmingham New Street to Redditch and Bromsgrove in the south - one of the busiest commuter routes in the country outside London.",
       "id": "col_24"
     },
     {
@@ -366,7 +366,7 @@
       "category": "route",
       "match_count": 19,
       "display": "Is part of the Chiltern Line route",
-      "hint": "Stations on this route include Banbury, Denham, Kings Sutton and Saunderton (plus 15 more).",
+      "hint": "The main route from London Marylebone to Birmingham via High Wycombe, Bicester and Banbury - Chiltern Railways' principal main line, with a branch via Aylesbury and Amersham.",
       "id": "col_25"
     },
     {
@@ -377,7 +377,7 @@
       "category": "route",
       "match_count": 10,
       "display": "Is part of the Amersham Line route",
-      "hint": "Stations on this route include Amersham, Aylesbury Vale Parkway, Northolt Park and Sudbury & Harrow Road (plus 6 more).",
+      "hint": "The commuter branch from London Marylebone via Harrow-on-the-Hill to Amersham and on to Aylesbury - shares track with the London Underground Metropolitan line for part of its route.",
       "id": "col_26"
     },
     {
@@ -388,7 +388,7 @@
       "category": "route",
       "match_count": 7,
       "display": "Is part of the West Coast Main Line route",
-      "hint": "Stations on this route include Berkswell, Canley, Hampton-in-Arden and Rugby (plus 3 more).",
+      "hint": "The historic trunk route from London Euston to Glasgow via Rugby, Stafford, Crewe and Preston - Britain's busiest mixed-traffic main line.",
       "id": "col_27"
     },
     {
@@ -399,7 +399,7 @@
       "category": "route",
       "match_count": 5,
       "display": "Is part of the Elephant & Bear Line route",
-      "hint": "Stations on this route include Bedworth, Bermuda Park, Coventry Arena and Kenilworth (plus 1 more).",
+      "hint": "The line from Royal Leamington Spa via Kenilworth and Coventry to Nuneaton - renamed from the 'NUCKLE' line in 2023 after a public vote, referencing the civic symbols of Coventry (elephant) and Warwick (bear).",
       "id": "col_28"
     },
     {
@@ -410,7 +410,7 @@
       "category": "route",
       "match_count": 5,
       "display": "Is part of the Cotswolds & Malverns Line route",
-      "hint": "Stations on this route include Colwall, Great Malvern, Hereford and Ledbury (plus 1 more).",
+      "hint": "The long cross-country route from Oxford via Worcester and the Malvern Hills to Hereford - also known more locally as the Cotswold Line for its eastern Oxford-Worcester section.",
       "id": "col_29"
     },
     {
@@ -421,7 +421,7 @@
       "category": "route",
       "match_count": 4,
       "display": "Is part of the Oxford Branch route",
-      "hint": "Stations on this route include Bicester North, Islip, Oxford and Oxford Parkway.",
+      "hint": "The short branch line from Bicester North via Islip and Oxford Parkway into Oxford itself.",
       "id": "col_30"
     },
     {
@@ -432,7 +432,7 @@
       "category": "route",
       "match_count": 4,
       "display": "Is part of the Stratford Branch route",
-      "hint": "Stations on this route include Bearley, Lapworth, Stratford-upon-Avon and Stratford-upon-Avon Parkway.",
+      "hint": "The branch line from Bearley (on the Birmingham-Stratford route) to Stratford-upon-Avon, also linking through to Lapworth on the Chiltern main line.",
       "id": "col_31"
     },
     {
@@ -443,7 +443,7 @@
       "category": "route",
       "match_count": 3,
       "display": "Is part of the Cross City Line route",
-      "hint": "Stations on this route include Kings Heath, Moseley Village and Pineapple Road.",
+      "hint": "This tag actually covers the brand-new Camp Hill Line stations (Kings Heath, Moseley Village, Pineapple Road) between Birmingham New Street and Kings Norton, reopened April 2026 after 80+ years closed - a distinct route from the main Cross-City Line despite the similar name in this dataset.",
       "id": "col_32"
     },
     {

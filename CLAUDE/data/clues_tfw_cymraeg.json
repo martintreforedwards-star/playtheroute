@@ -7,7 +7,7 @@
       "label": "Interchange station",
       "weight": "medium",
       "match_count": 105,
-      "display": "Change trains here",
+      "display": "Is an interchange station",
       "hint": "Served by two or more separate named routes, or where several lines physically meet.",
       "id": "row_0"
     },
@@ -390,7 +390,7 @@
       "category": "route",
       "match_count": 63,
       "display": "Is part of the Central Wales Line route",
-      "hint": "Stations on this route include Abertawe, Cwmbrân, Llangadog and Pen-y-bont ar Ogwr (plus 59 more).",
+      "hint": "The long single-track 'Heart of Wales' route south from Craven Arms through Knighton, Llandrindod Wells, Llandovery and Llandeilo to Llanelli and Swansea - same route as the Heart of Wales Line, just an older name.",
       "id": "col_26"
     },
     {
@@ -401,7 +401,7 @@
       "category": "route",
       "match_count": 63,
       "display": "Is part of the Heart of Wales Line route",
-      "hint": "Stations on this route include Abertawe, Cwmbrân, Llangadog and Pen-y-bont ar Ogwr (plus 59 more).",
+      "hint": "The long single-track route south from Craven Arms through Knighton, Llandrindod Wells, Llandovery and Llandeilo to Llanelli and Swansea - also called the Central Wales Line.",
       "id": "col_27"
     },
     {
@@ -412,7 +412,7 @@
       "category": "route",
       "match_count": 50,
       "display": "Is part of the North Wales Coast Line route",
-      "hint": "Stations on this route include Abergele a Phensarn, Casnewydd, Llanfairpwllgwyngyllgogerychwyrndrobwllllantysiliogogogoch and Wem (plus 46 more).",
+      "hint": "The coastal main line from Chester to Holyhead via Flint, Rhyl, Colwyn Bay, Llandudno Junction and Bangor - the historic 'Irish Mail' route to the Anglesey ferry port.",
       "id": "col_28"
     },
     {
@@ -423,7 +423,7 @@
       "category": "route",
       "match_count": 44,
       "display": "Is part of the Swanline route",
-      "hint": "Stations on this route include Aberdaugleddau, Dinbych-y-pysgod, Llansamlet and Penfro (plus 40 more).",
+      "hint": "The local stopping service on the South Wales Main Line between Cardiff Central and Swansea, calling at Pyle, Port Talbot, Baglan, Briton Ferry, Skewen and Llansamlet - the slower alternative to the fast Cardiff-Swansea trains.",
       "id": "col_29"
     },
     {
@@ -434,7 +434,7 @@
       "category": "route",
       "match_count": 31,
       "display": "Is part of the Vale of Glamorgan Line route",
-      "hint": "Stations on this route include Aber, Dinas Powys, Lefel Uchel y Mynydd Bychan and Pengam (plus 27 more).",
+      "hint": "The line looping south of the Cardiff-Bridgend main line via Barry, Rhoose Cardiff Airport and Llantwit Major - reopened to passengers in 2005 after over 40 years closed.",
       "id": "col_30"
     },
     {
@@ -445,7 +445,7 @@
       "category": "route",
       "match_count": 30,
       "display": "Is part of the Coryton Line route",
-      "hint": "Stations on this route include Aber, Dinas Powys, Lefel Isel y Mynydd Bychan and Pengam (plus 26 more).",
+      "hint": "The short suburban branch north from Cardiff Queen Street through Heath, Birchgrove, Rhiwbina and Whitchurch to Coryton - not one of the longer Valley lines further out.",
       "id": "col_31"
     },
     {
@@ -456,7 +456,7 @@
       "category": "route",
       "match_count": 27,
       "display": "Is part of the Cambrian Coast Line route",
-      "hint": "Stations on this route include Aber-erch, Fairbourne, Machynlleth and Porthmadog (plus 23 more).",
+      "hint": "The scenic coastal branch north from Dovey Junction (near Machynlleth) through Aberdovey, Tywyn, Barmouth and Harlech to Pwllheli - not the inland Cambrian Line to Aberystwyth.",
       "id": "col_32"
     },
     {
@@ -467,7 +467,7 @@
       "category": "route",
       "match_count": 25,
       "display": "Is part of the Merthyr Line route",
-      "hint": "Stations on this route include Abercynon, Cathays, Merthyr Tudful and Pontypridd (plus 21 more).",
+      "hint": "The Valley line north from Cardiff via Abercynon to Merthyr Tydfil - shares its southern half with the Aberdare Line, which splits off at Abercynon.",
       "id": "col_33"
     },
     {
@@ -478,7 +478,7 @@
       "category": "route",
       "match_count": 25,
       "display": "Is part of the Treherbert Line route",
-      "hint": "Stations on this route include Abercynon, Llandaf, Porth and Treherbert (plus 21 more).",
+      "hint": "The Rhondda Valley line from Cardiff via Pontypridd, Porth and Tonypandy to Treherbert at the head of the valley.",
       "id": "col_34"
     },
     {
@@ -489,7 +489,7 @@
       "category": "route",
       "match_count": 24,
       "display": "Is part of the Aberdare Line route",
-      "hint": "Stations on this route include Abercynon, Cwmbach, Mynwent-y-Crynwyr and Radur (plus 20 more).",
+      "hint": "The Valley line north from Cardiff via Abercynon to Aberdare - shares its southern half with the Merthyr Line, which splits off at Abercynon.",
       "id": "col_35"
     },
     {
@@ -500,7 +500,7 @@
       "category": "route",
       "match_count": 20,
       "display": "Is part of the Ebbw Valley Line route",
-      "hint": "Stations on this route include Caerdydd Canolog, Llanhiledd, Pencoed and Tondu (plus 16 more).",
+      "hint": "The reopened branch up the Ebbw Valley from Newport (or Cardiff Central) through Risca, Crosskeys and Newbridge to Ebbw Vale Town - closed to passengers for 46 years before reopening in 2008.",
       "id": "col_36"
     },
     {
@@ -511,7 +511,7 @@
       "category": "route",
       "match_count": 18,
       "display": "Is part of the Marches Line route",
-      "hint": "Stations on this route include Abergwaun ac Wdig, Casnewydd, Llanllieni and Wem (plus 14 more).",
+      "hint": "The long cross-border route from Newport via Abergavenny and Hereford to Shrewsbury, continuing to Crewe or via Wrexham to Chester - same route as the North & West Line, just an older name. Not the Heart of Wales branch that splits off at Craven Arms.",
       "id": "col_37"
     },
     {
@@ -522,7 +522,7 @@
       "category": "route",
       "match_count": 16,
       "display": "Is part of the North & West Line route",
-      "hint": "Stations on this route include Amwythig, Craven Arms, Llwydlo and Wrenbury (plus 12 more).",
+      "hint": "The long cross-border route from Newport via Abergavenny and Hereford to Shrewsbury, continuing to Crewe or via Wrexham to Chester - also called the Marches Line. Not the Heart of Wales branch that splits off at Craven Arms.",
       "id": "col_38"
     },
     {
@@ -533,7 +533,7 @@
       "category": "route",
       "match_count": 13,
       "display": "Is part of the Borderlands Line route",
-      "hint": "Stations on this route include Bwcle, Gwersyllt, Pen-y-ffordd and Upton (Merseyside) (plus 9 more).",
+      "hint": "The cross-border line linking Wrexham Central to Bidston on the Wirral, via Wrexham General, Shotton and the north-east Wales/Cheshire border villages.",
       "id": "col_39"
     },
     {
@@ -544,7 +544,7 @@
       "category": "route",
       "match_count": 13,
       "display": "Is part of the Conwy Valley Line route",
-      "hint": "Stations on this route include Betws-y-Coed, Deganwy, Glan Conwy and Llanrwst (plus 9 more).",
+      "hint": "The branch south from Llandudno Junction up the Conwy and Lledr valleys through Betws-y-Coed to the slate town of Blaenau Ffestiniog.",
       "id": "col_40"
     },
     {

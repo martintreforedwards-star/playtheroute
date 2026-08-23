@@ -244,7 +244,7 @@
       "category": "route",
       "match_count": 42,
       "display": "Is part of the Great Western Main Line route",
-      "hint": "Stations on this route include Bodmin Parkway, Goring & Streatley, Par and St Germans (plus 38 more).",
+      "hint": "The core route from London Paddington to Bristol and beyond, via Reading, Swindon and Bath Spa - the trunk line most other GWR West Country services join at Bristol Parkway or Bristol Temple Meads.",
       "id": "col_13"
     },
     {
@@ -255,7 +255,7 @@
       "category": "route",
       "match_count": 22,
       "display": "Is part of the Cornish Main Line route",
-      "hint": "Stations on this route include Bedminster, Heyford, Oldfield Park and St Budeaux Ferry Road (plus 18 more).",
+      "hint": "The backbone of Cornwall's railway, running from Plymouth via Liskeard, Bodmin Parkway, St Austell and Truro to Penzance - the route most Cornish branch lines connect into.",
       "id": "col_14"
     },
     {
@@ -266,7 +266,7 @@
       "category": "route",
       "match_count": 14,
       "display": "Is part of the Heart of Wessex Line route",
-      "hint": "Stations on this route include Bruton, Dorchester West, Keynsham and Thornford (plus 10 more).",
+      "hint": "The route from Bristol Temple Meads via Bath, Westbury, Castle Cary and Yeovil to the seaside town of Weymouth.",
       "id": "col_15"
     },
     {
@@ -277,7 +277,7 @@
       "category": "route",
       "match_count": 13,
       "display": "Is part of the Oxford & Hereford Line route",
-      "hint": "Stations on this route include Appleford, Combe, Finstock and Pershore (plus 9 more).",
+      "hint": "The route from Oxford through the Cotswolds via Charlbury, Kingham and Moreton-in-Marsh to Worcester and Hereford - also called the Cotswold Line for its scenic eastern section.",
       "id": "col_16"
     },
     {
@@ -288,7 +288,7 @@
       "category": "route",
       "match_count": 11,
       "display": "Is part of the Golden Valley Line route",
-      "hint": "Stations on this route include Ashchurch for Tewkesbury, Cheltenham Spa, Kemble and Stonehouse (plus 7 more).",
+      "hint": "The route from Swindon via Kemble to Cheltenham and Gloucester - despite the name, mostly follows the Thames and Churn valleys rather than a 'Golden Valley' as such.",
       "id": "col_17"
     },
     {
@@ -299,7 +299,7 @@
       "category": "route",
       "match_count": 11,
       "display": "Is part of the North Downs route",
-      "hint": "Stations on this route include Betchworth, Chilworth, Dorking West and North Camp (plus 7 more).",
+      "hint": "The cross-country route from Reading via Guildford to Redhill, running along the foot of the North Downs and linking several radial lines out of London.",
       "id": "col_18"
     },
     {
@@ -310,7 +310,7 @@
       "category": "route",
       "match_count": 11,
       "display": "Is part of the Tarka Line route",
-      "hint": "Stations on this route include Barnstaple, Copplestone, Kings Nympton and Portsmouth Arms (plus 7 more).",
+      "hint": "The rural branch from Exeter via Crediton and Eggesford to Barnstaple in North Devon, named after Henry Williamson's otter novel 'Tarka the Otter', set along this route.",
       "id": "col_19"
     },
     {
@@ -321,7 +321,7 @@
       "category": "route",
       "match_count": 10,
       "display": "Is part of the Exmouth Branch route",
-      "hint": "Stations on this route include Digby & Sowton, Exmouth, Lympstone Village and Polsloe Bridge (plus 6 more).",
+      "hint": "The branch from Exeter via Topsham and Lympstone to the seaside town of Exmouth on the Exe Estuary - also known as the Avocet Line.",
       "id": "col_20"
     },
     {
@@ -332,7 +332,7 @@
       "category": "route",
       "match_count": 10,
       "display": "Is part of the Berks & Hants Line route",
-      "hint": "Stations on this route include Aldermaston, Kintbury, Newbury Racecourse and Reading West (plus 6 more).",
+      "hint": "The route from Reading via Newbury and Bedwyn towards Westbury and the West Country, running through Berkshire and Hampshire as the name suggests.",
       "id": "col_21"
     },
     {
@@ -343,7 +343,7 @@
       "category": "route",
       "match_count": 9,
       "display": "Is part of the Severn Beach Line route",
-      "hint": "Stations on this route include Bedminster, Keynsham, Parson Street and Pilning (plus 5 more).",
+      "hint": "The scenic Bristol suburban branch from Temple Meads through Clifton Down, Sea Mills and Avonmouth to the small resort of Severn Beach on the Severn Estuary.",
       "id": "col_22"
     },
     {
@@ -354,7 +354,7 @@
       "category": "route",
       "match_count": 8,
       "display": "Is part of the Tamar Valley Line route",
-      "hint": "Stations on this route include Bere Alston, Calstock, Dockyard (Devonport) and Keyham (plus 4 more).",
+      "hint": "The scenic branch from Plymouth up the Tamar Valley via Bere Alston and Calstock to Gunnislake, crossing into Cornwall over the Calstock Viaduct.",
       "id": "col_23"
     },
     {
@@ -365,7 +365,7 @@
       "category": "route",
       "match_count": 6,
       "display": "Is part of the Atlantic Coast Line route",
-      "hint": "Stations on this route include Bugle, Luxulyan, Quintrell Downs and Roche (plus 2 more).",
+      "hint": "The branch from Par via Bugle and Roche to the surfing resort of Newquay on Cornwall's north coast.",
       "id": "col_24"
     },
     {
@@ -376,7 +376,7 @@
       "category": "route",
       "match_count": 5,
       "display": "Is part of the Riviera Line route",
-      "hint": "Stations on this route include Exeter St Thomas, Marsh Barton, Paignton and Torquay (plus 1 more).",
+      "hint": "The route from Exeter along the Exe Estuary and the coast via Dawlish and Teignmouth to Torquay and Paignton on the 'English Riviera'.",
       "id": "col_25"
     },
     {
@@ -387,7 +387,7 @@
       "category": "route",
       "match_count": 5,
       "display": "Is part of the Greenford Branch route",
-      "hint": "Stations on this route include Castle Bar Park, Drayton Green, Greenford and South Greenford (plus 1 more).",
+      "hint": "The short branch line from West Ealing via South Greenford to its terminus at Greenford.",
       "id": "col_26"
     },
     {
@@ -398,7 +398,7 @@
       "category": "route",
       "match_count": 5,
       "display": "Is part of the Looe Valley Line route",
-      "hint": "Stations on this route include Causeland, Coombe Junction Halt, Looe and Sandplace (plus 1 more).",
+      "hint": "The branch from Liskeard down the East Looe river valley to the seaside town of Looe.",
       "id": "col_27"
     },
     {

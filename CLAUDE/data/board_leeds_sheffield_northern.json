@@ -7,7 +7,9 @@
     "crs": "ALP",
     "region": "North Lincolnshire",
     "operator": "Northern",
-    "route": [],
+    "route": [
+      "Hull and Doncaster Branch"
+    ],
     "is_interchange": false,
     "is_coastal": false,
     "terminus_max": 0,
@@ -511,7 +513,9 @@
     "crs": "BGG",
     "region": "North Lincolnshire",
     "operator": "Northern",
-    "route": [],
+    "route": [
+      "Sheffield to Lincoln Line"
+    ],
     "is_interchange": false,
     "is_coastal": false,
     "terminus_max": 0,
@@ -1291,7 +1295,9 @@
     "crs": "CWE",
     "region": "North Lincolnshire",
     "operator": "Northern",
-    "route": [],
+    "route": [
+      "Hull and Doncaster Branch"
+    ],
     "is_interchange": false,
     "is_coastal": false,
     "terminus_max": 0,
@@ -2018,7 +2024,9 @@
     "crs": "GNB",
     "region": "West Lindsey",
     "operator": "Northern",
-    "route": [],
+    "route": [
+      "Sheffield to Lincoln Line"
+    ],
     "is_interchange": false,
     "is_coastal": false,
     "terminus_max": 0,
@@ -3097,7 +3105,9 @@
     "crs": "KTL",
     "region": "North Lincolnshire",
     "operator": "Northern",
-    "route": [],
+    "route": [
+      "Sheffield to Lincoln Line"
+    ],
     "is_interchange": false,
     "is_coastal": false,
     "terminus_max": 0,
@@ -4709,7 +4719,9 @@
     "crs": "TNS",
     "region": "Doncaster",
     "operator": "Northern",
-    "route": [],
+    "route": [
+      "Hull and Doncaster Branch"
+    ],
     "is_interchange": false,
     "is_coastal": false,
     "terminus_max": 0,
@@ -5020,34 +5032,6 @@
     "time_to_stratford": null,
     "time_to_hub__leeds": null,
     "time_to_hub__sheffield": 32.0
-  },
-  {
-    "station_id": "NR_0457",
-    "station_name": "White Rose",
-    "name_word_count": 2,
-    "name_letter_count": 9,
-    "crs": "WRO",
-    "region": "Leeds",
-    "operator": "Northern",
-    "route": [],
-    "is_interchange": false,
-    "is_coastal": false,
-    "terminus_max": 0,
-    "canonical_hub": "Leeds",
-    "canonical_time_to_hub": null,
-    "welsh_name": null,
-    "wordplay_category": "other",
-    "wordplay_difficulty": "easy",
-    "wordplay_score": 0,
-    "wordplay_tags": [],
-    "time_to_glasgow_central": null,
-    "time_to_victoria": null,
-    "time_to_charing_cross": null,
-    "time_to_euston": null,
-    "time_to_liverpool_street": null,
-    "time_to_stratford": null,
-    "time_to_hub__leeds": null,
-    "time_to_hub__sheffield": null
   },
   {
     "station_id": "NR_0473",

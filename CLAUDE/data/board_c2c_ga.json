@@ -7,7 +7,9 @@
     "crs": "ACL",
     "region": "Broadland",
     "operator": "Greater Anglia",
-    "route": [],
+    "route": [
+      "Wherry Line"
+    ],
     "is_interchange": false,
     "is_coastal": false,
     "terminus_max": 0,
@@ -350,7 +352,9 @@
     "crs": "BYA",
     "region": "Broadland",
     "operator": "Greater Anglia",
-    "route": [],
+    "route": [
+      "Wherry Line"
+    ],
     "is_interchange": false,
     "is_coastal": false,
     "terminus_max": 0,
@@ -671,7 +675,9 @@
     "crs": "BGA",
     "region": "Broadland",
     "operator": "Greater Anglia",
-    "route": [],
+    "route": [
+      "Wherry Line"
+    ],
     "is_interchange": false,
     "is_coastal": false,
     "terminus_max": 0,
@@ -2415,7 +2421,9 @@
     "crs": "LAK",
     "region": "West Suffolk",
     "operator": "Greater Anglia",
-    "route": [],
+    "route": [
+      "Breckland Line"
+    ],
     "is_interchange": false,
     "is_coastal": false,
     "terminus_max": 0,
@@ -2536,7 +2544,9 @@
     "crs": "LGD",
     "region": "Broadland",
     "operator": "Greater Anglia",
-    "route": [],
+    "route": [
+      "Wherry Line"
+    ],
     "is_interchange": false,
     "is_coastal": false,
     "terminus_max": 0,
@@ -3732,7 +3742,9 @@
     "crs": "SPP",
     "region": "East Cambridgeshire",
     "operator": "Greater Anglia",
-    "route": [],
+    "route": [
+      "Breckland Line"
+    ],
     "is_interchange": false,
     "is_coastal": false,
     "terminus_max": 0,

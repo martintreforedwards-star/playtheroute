@@ -2084,7 +2084,7 @@
     "region": "North Lanarkshire",
     "operator": "Scotrail",
     "route": [
-      "Edinburghâ€“Glasgow Main Line"
+      "Edinburgh-Glasgow Main Line"
     ],
     "is_interchange": true,
     "is_coastal": false,
@@ -2885,7 +2885,7 @@
     "region": "Falkirk",
     "operator": "Scotrail",
     "route": [
-      "Edinburghâ€“Glasgow Main Line"
+      "Edinburgh-Glasgow Main Line"
     ],
     "is_interchange": false,
     "is_coastal": false,
@@ -3361,7 +3361,7 @@
     "region": "Glasgow City",
     "operator": "Scotrail",
     "route": [
-      "Edinburghâ€“Glasgow Main Line"
+      "Edinburgh-Glasgow Main Line"
     ],
     "is_interchange": true,
     "is_coastal": false,
@@ -4703,7 +4703,7 @@
     "region": "East Dunbartonshire",
     "operator": "Scotrail",
     "route": [
-      "Edinburghâ€“Glasgow Main Line"
+      "Edinburgh-Glasgow Main Line"
     ],
     "is_interchange": false,
     "is_coastal": false,

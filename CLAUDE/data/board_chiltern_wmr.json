@@ -638,7 +638,10 @@
     "crs": "BMO",
     "region": "Birmingham",
     "operator": "Chiltern Railways",
-    "route": [],
+    "route": [
+      "Chiltern Line",
+      "Snow Hill Lines"
+    ],
     "is_interchange": false,
     "is_coastal": false,
     "terminus_max": 145,
@@ -759,7 +762,10 @@
     "crs": "BSW",
     "region": "Birmingham",
     "operator": "Chiltern Railways",
-    "route": [],
+    "route": [
+      "Chiltern Line",
+      "Snow Hill Lines"
+    ],
     "is_interchange": false,
     "is_coastal": false,
     "terminus_max": 106,
@@ -1108,7 +1114,10 @@
     "crs": "DDG",
     "region": "Solihull",
     "operator": "Chiltern Railways",
-    "route": [],
+    "route": [
+      "Chiltern Line",
+      "Snow Hill Lines"
+    ],
     "is_interchange": true,
     "is_coastal": false,
     "terminus_max": 55,
@@ -1607,36 +1616,6 @@
     "time_to_hub__london": 152.0
   },
   {
-    "station_id": "CM_0114",
-    "station_name": "Hereford",
-    "name_word_count": 1,
-    "name_letter_count": 8,
-    "crs": "HFD",
-    "region": "Herefordshire, County of",
-    "operator": "West Midlands Railway",
-    "route": [
-      "Cotswolds & Malverns Line"
-    ],
-    "is_interchange": true,
-    "is_coastal": false,
-    "terminus_max": 95,
-    "canonical_hub": "Birmingham New Street",
-    "canonical_time_to_hub": 87.0,
-    "welsh_name": null,
-    "wordplay_category": "other",
-    "wordplay_difficulty": "easy",
-    "wordplay_score": 0,
-    "wordplay_tags": [],
-    "time_to_glasgow_central": null,
-    "time_to_victoria": null,
-    "time_to_charing_cross": null,
-    "time_to_euston": null,
-    "time_to_liverpool_street": null,
-    "time_to_stratford": null,
-    "time_to_hub__birmingham_new_street": 87.0,
-    "time_to_hub__london": null
-  },
-  {
     "station_id": "CM_0079",
     "station_name": "Hampton-in-Arden",
     "name_word_count": 3,
@@ -1773,7 +1752,10 @@
     "crs": "HTN",
     "region": "Warwick",
     "operator": "Chiltern Railways",
-    "route": [],
+    "route": [
+      "Chiltern Line",
+      "Shakespeare Line"
+    ],
     "is_interchange": true,
     "is_coastal": false,
     "terminus_max": 0,
@@ -2979,7 +2961,9 @@
     "crs": "SBT",
     "region": "Dudley",
     "operator": "West Midlands Railway",
-    "route": [],
+    "route": [
+      "Stourbridge Town Branch"
+    ],
     "is_interchange": false,
     "is_coastal": false,
     "terminus_max": 214,
@@ -3193,36 +3177,6 @@
     "time_to_hub__london": null
   },
   {
-    "station_id": "CM_0104",
-    "station_name": "Shrewsbury",
-    "name_word_count": 1,
-    "name_letter_count": 10,
-    "crs": "SHR",
-    "region": "Shropshire",
-    "operator": "West Midlands Railway",
-    "route": [
-      "Shrewsbury to Wolverhampton Line"
-    ],
-    "is_interchange": true,
-    "is_coastal": false,
-    "terminus_max": 621,
-    "canonical_hub": "Birmingham New Street",
-    "canonical_time_to_hub": 61.0,
-    "welsh_name": null,
-    "wordplay_category": "other",
-    "wordplay_difficulty": "easy",
-    "wordplay_score": 0,
-    "wordplay_tags": [],
-    "time_to_glasgow_central": null,
-    "time_to_victoria": null,
-    "time_to_charing_cross": null,
-    "time_to_euston": null,
-    "time_to_liverpool_street": null,
-    "time_to_stratford": null,
-    "time_to_hub__birmingham_new_street": 61.0,
-    "time_to_hub__london": null
-  },
-  {
     "station_id": "CM_0032",
     "station_name": "Stoke Mandeville",
     "name_word_count": 2,
@@ -3290,7 +3244,10 @@
     "crs": "SOL",
     "region": "Solihull",
     "operator": "Chiltern Railways",
-    "route": [],
+    "route": [
+      "Chiltern Line",
+      "Snow Hill Lines"
+    ],
     "is_interchange": false,
     "is_coastal": false,
     "terminus_max": 0,
@@ -3833,7 +3790,9 @@
     "crs": "WRP",
     "region": "Warwick",
     "operator": "Chiltern Railways",
-    "route": [],
+    "route": [
+      "Chiltern Line"
+    ],
     "is_interchange": false,
     "is_coastal": false,
     "terminus_max": 0,
@@ -3893,7 +3852,9 @@
     "crs": "WRW",
     "region": "Warwick",
     "operator": "Chiltern Railways",
-    "route": [],
+    "route": [
+      "Chiltern Line"
+    ],
     "is_interchange": true,
     "is_coastal": false,
     "terminus_max": 0,
@@ -4075,36 +4036,6 @@
     "time_to_hub__london": null
   },
   {
-    "station_id": "NA_0020",
-    "station_name": "Barlaston",
-    "name_word_count": 1,
-    "name_letter_count": 9,
-    "crs": "BRT",
-    "region": "Stafford",
-    "operator": "West Midlands Railway",
-    "route": [],
-    "is_interchange": false,
-    "is_coastal": false,
-    "terminus_max": 0,
-    "canonical_hub": "Birmingham New Street",
-    "canonical_time_to_hub": null,
-    "welsh_name": null,
-    "wordplay_category": "local_suffix",
-    "wordplay_difficulty": "medium",
-    "wordplay_score": 1,
-    "wordplay_tags": [
-      "ton"
-    ],
-    "time_to_glasgow_central": null,
-    "time_to_victoria": null,
-    "time_to_charing_cross": null,
-    "time_to_euston": null,
-    "time_to_liverpool_street": null,
-    "time_to_stratford": null,
-    "time_to_hub__birmingham_new_street": null,
-    "time_to_hub__london": null
-  },
-  {
     "station_id": "NA_0035",
     "station_name": "Bilbrook",
     "name_word_count": 1,
@@ -4142,7 +4073,10 @@
     "crs": "BBS",
     "region": "Birmingham",
     "operator": "West Midlands Railway",
-    "route": [],
+    "route": [
+      "Shakespeare Line",
+      "Snow Hill Lines"
+    ],
     "is_interchange": false,
     "is_coastal": false,
     "terminus_max": 0,
@@ -4173,7 +4107,9 @@
     "crs": "BSH",
     "region": "Watford",
     "operator": "West Midlands Railway",
-    "route": [],
+    "route": [
+      "Lioness Line"
+    ],
     "is_interchange": false,
     "is_coastal": false,
     "terminus_max": 0,
@@ -4203,7 +4139,9 @@
     "crs": "BUL",
     "region": "Birmingham",
     "operator": "West Midlands Railway",
-    "route": [],
+    "route": [
+      "Cross-City"
+    ],
     "is_interchange": false,
     "is_coastal": false,
     "terminus_max": 0,
@@ -4293,7 +4231,9 @@
     "crs": "CLV",
     "region": "Stratford-on-Avon",
     "operator": "Chiltern Railways",
-    "route": [],
+    "route": [
+      "Shakespeare Line"
+    ],
     "is_interchange": true,
     "is_coastal": false,
     "terminus_max": 0,
@@ -4697,37 +4637,6 @@
     "time_to_hub__london": null
   },
   {
-    "station_id": "NA_0297",
-    "station_name": "Norton Bridge",
-    "name_word_count": 2,
-    "name_letter_count": 12,
-    "crs": "NTB",
-    "region": "Stafford",
-    "operator": "West Midlands Railway",
-    "route": [],
-    "is_interchange": false,
-    "is_coastal": false,
-    "terminus_max": 0,
-    "canonical_hub": "Birmingham New Street",
-    "canonical_time_to_hub": 66.0,
-    "welsh_name": null,
-    "wordplay_category": "local_suffix",
-    "wordplay_difficulty": "medium",
-    "wordplay_score": 2,
-    "wordplay_tags": [
-      "ton",
-      "ridge"
-    ],
-    "time_to_glasgow_central": null,
-    "time_to_victoria": null,
-    "time_to_charing_cross": null,
-    "time_to_euston": null,
-    "time_to_liverpool_street": null,
-    "time_to_stratford": null,
-    "time_to_hub__birmingham_new_street": 66.0,
-    "time_to_hub__london": null
-  },
-  {
     "station_id": "NA_0302",
     "station_name": "Olton",
     "name_word_count": 1,
@@ -4768,7 +4677,9 @@
     "crs": "PKG",
     "region": "South Staffordshire",
     "operator": "West Midlands Railway",
-    "route": [],
+    "route": [
+      "West Coast Main Line"
+    ],
     "is_interchange": false,
     "is_coastal": false,
     "terminus_max": 0,
@@ -4888,7 +4799,9 @@
     "crs": "RUN",
     "region": "Halton",
     "operator": "West Midlands Railway",
-    "route": [],
+    "route": [
+      "West Coast Main Line"
+    ],
     "is_interchange": false,
     "is_coastal": false,
     "terminus_max": 2,
@@ -5045,7 +4958,9 @@
     "crs": "STA",
     "region": "Stafford",
     "operator": "West Midlands Railway",
-    "route": [],
+    "route": [
+      "West Coast Main Line"
+    ],
     "is_interchange": true,
     "is_coastal": false,
     "terminus_max": 80,
@@ -5075,7 +4990,9 @@
     "crs": "SNE",
     "region": "Stafford",
     "operator": "West Midlands Railway",
-    "route": [],
+    "route": [
+      "West Coast Main Line"
+    ],
     "is_interchange": false,
     "is_coastal": false,
     "terminus_max": 0,

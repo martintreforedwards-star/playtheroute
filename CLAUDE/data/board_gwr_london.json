@@ -38,7 +38,9 @@
     "crs": "ASD",
     "region": "Bristol, City of",
     "operator": "Great_Western",
-    "route": [],
+    "route": [
+      "Henbury Line"
+    ],
     "is_interchange": false,
     "is_coastal": false,
     "terminus_max": 0,
@@ -98,7 +100,6 @@
     "region": "Bristol, City of",
     "operator": "Great_Western",
     "route": [
-      "Cornish Main Line",
       "Severn Beach Line"
     ],
     "is_interchange": true,
@@ -281,7 +282,8 @@
     "region": "Mole Valley",
     "operator": "Great_Western",
     "route": [
-      "North Downs"
+      "North Downs",
+      "Arun Valley"
     ],
     "is_interchange": false,
     "is_coastal": false,
@@ -435,7 +437,6 @@
     "region": "South Gloucestershire",
     "operator": "Great_Western",
     "route": [
-      "Cornish Main Line",
       "Golden Valley Line",
       "Heart of Wessex Line",
       "Severn Beach Line",
@@ -559,7 +560,6 @@
     "region": "Cherwell",
     "operator": "Great_Western",
     "route": [
-      "Cornish Main Line",
       "Thames Line"
     ],
     "is_interchange": true,
@@ -621,7 +621,6 @@
     "region": "Cotswold",
     "operator": "Great_Western",
     "route": [
-      "Cornish Main Line",
       "Golden Valley Line"
     ],
     "is_interchange": true,
@@ -683,7 +682,6 @@
     "region": "Bath and North East Somerset",
     "operator": "Great_Western",
     "route": [
-      "Cornish Main Line",
       "Heart of Wessex Line",
       "Severn Beach Line"
     ],
@@ -804,7 +802,9 @@
     "crs": "OKI",
     "region": "West Devon",
     "operator": "Great_Western",
-    "route": [],
+    "route": [
+      "Dartmoor Line"
+    ],
     "is_interchange": false,
     "is_coastal": false,
     "terminus_max": 0,
@@ -834,7 +834,6 @@
     "region": "Bath and North East Somerset",
     "operator": "Great_Western",
     "route": [
-      "Cornish Main Line",
       "Heart of Wessex Line",
       "Severn Beach Line"
     ],
@@ -899,7 +898,6 @@
     "region": "South Gloucestershire",
     "operator": "Great_Western",
     "route": [
-      "Cornish Main Line",
       "Golden Valley Line",
       "Severn Beach Line",
       "Thames Line"
@@ -963,7 +961,6 @@
     "region": "Bristol, City of",
     "operator": "Great_Western",
     "route": [
-      "Cornish Main Line",
       "Severn Beach Line"
     ],
     "is_interchange": true,
@@ -993,7 +990,6 @@
     "region": "South Gloucestershire",
     "operator": "Great_Western",
     "route": [
-      "Cornish Main Line",
       "Golden Valley Line",
       "Severn Beach Line",
       "Thames Line"
@@ -1024,7 +1020,9 @@
     "crs": "RGP",
     "region": "Reading",
     "operator": "Great_Western",
-    "route": [],
+    "route": [
+      "Reading-Basingstoke Line"
+    ],
     "is_interchange": false,
     "is_coastal": false,
     "terminus_max": 0,
@@ -1119,7 +1117,6 @@
     "region": "Stroud",
     "operator": "Great_Western",
     "route": [
-      "Cornish Main Line",
       "Golden Valley Line"
     ],
     "is_interchange": true,
@@ -1139,35 +1136,6 @@
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
     "time_to_hub__london": 32.0
-  },
-  {
-    "station_id": "GR_0147",
-    "station_name": "Sampford Courtenay",
-    "name_word_count": 2,
-    "name_letter_count": 17,
-    "crs": "SMC",
-    "region": "West Devon",
-    "operator": "Great_Western",
-    "route": [],
-    "is_interchange": false,
-    "is_coastal": false,
-    "terminus_max": 0,
-    "canonical_hub": "London",
-    "canonical_time_to_hub": null,
-    "welsh_name": null,
-    "wordplay_category": "local_suffix",
-    "wordplay_difficulty": "medium",
-    "wordplay_score": 1,
-    "wordplay_tags": [
-      "ford"
-    ],
-    "time_to_glasgow_central": null,
-    "time_to_victoria": null,
-    "time_to_charing_cross": null,
-    "time_to_euston": null,
-    "time_to_liverpool_street": null,
-    "time_to_stratford": null,
-    "time_to_hub__london": null
   },
   {
     "station_id": "GR_0148",
@@ -1209,7 +1177,6 @@
     "region": "Stroud",
     "operator": "Great_Western",
     "route": [
-      "Cornish Main Line",
       "Golden Valley Line"
     ],
     "is_interchange": true,
@@ -1240,7 +1207,9 @@
     "crs": "TAC",
     "region": "West Oxfordshire",
     "operator": "Great_Western",
-    "route": [],
+    "route": [
+      "Cherwell Valley Line"
+    ],
     "is_interchange": false,
     "is_coastal": false,
     "terminus_max": 0,
@@ -1331,7 +1300,6 @@
     "region": "North Somerset",
     "operator": "Great_Western",
     "route": [
-      "Cornish Main Line",
       "Severn Beach Line"
     ],
     "is_interchange": true,

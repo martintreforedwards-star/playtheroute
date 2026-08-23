@@ -7,8 +7,9 @@
       "label": "Interchange station",
       "weight": "medium",
       "match_count": 20,
-      "display": "Is an interchange station",
-      "hint": "Served by two or more separate named routes, or where several lines physically meet."
+      "display": "Change trains here",
+      "hint": "Served by two or more separate named routes, or where several lines physically meet.",
+      "id": "row_0"
     },
     {
       "type": "equals",
@@ -18,7 +19,8 @@
       "weight": "medium",
       "match_count": 39,
       "display": "Near the coast",
-      "hint": "A station within 3 kilometres of the coastline or an estuary."
+      "hint": "A station within 3 kilometres of the coastline or an estuary.",
+      "id": "row_1"
     },
     {
       "type": "range",
@@ -28,7 +30,8 @@
       "weight": "high",
       "match_count": 15,
       "display": "Terminus station",
-      "hint": "At least some journeys terminate at this station - it's not just a stop along the way."
+      "hint": "At least some journeys terminate at this station - it's not just a stop along the way.",
+      "id": "row_2"
     },
     {
       "type": "equals",
@@ -38,7 +41,8 @@
       "weight": "medium",
       "match_count": 64,
       "display": "Station name is one word",
-      "hint": "Station is a one-word name."
+      "hint": "Station is a one-word name.",
+      "id": "row_3"
     },
     {
       "type": "range",
@@ -49,7 +53,8 @@
       "weight": "medium",
       "match_count": 21,
       "display": "Station name is 6 letters or fewer",
-      "hint": "Station name is 6 characters or fewer."
+      "hint": "Station name is 6 characters or fewer.",
+      "id": "row_4"
     },
     {
       "type": "range",
@@ -60,7 +65,8 @@
       "weight": "medium",
       "match_count": 37,
       "display": "Station name is 7-10 letters",
-      "hint": "Station name length is between 7 and 10 characters."
+      "hint": "Station name length is between 7 and 10 characters.",
+      "id": "row_5"
     },
     {
       "type": "range",
@@ -70,7 +76,8 @@
       "weight": "medium",
       "match_count": 17,
       "display": "Station name is 11+ letters",
-      "hint": "Station name is equal to or exceeds 11 characters."
+      "hint": "Station name is equal to or exceeds 11 characters.",
+      "id": "row_6"
     }
   ],
   "columnPool": [
@@ -82,7 +89,8 @@
       "category": "geography",
       "match_count": 45,
       "display": "Is within the Highland region",
-      "hint": "This station is based within the Highland region."
+      "hint": "This station is based within the Highland region.",
+      "id": "col_0"
     },
     {
       "type": "equals",
@@ -92,7 +100,8 @@
       "category": "geography",
       "match_count": 7,
       "display": "Is within the Angus region",
-      "hint": "This station is based within the Angus region."
+      "hint": "This station is based within the Angus region.",
+      "id": "col_1"
     },
     {
       "type": "equals",
@@ -102,7 +111,8 @@
       "category": "geography",
       "match_count": 7,
       "display": "Is within the Aberdeenshire region",
-      "hint": "This station is based within the Aberdeenshire region."
+      "hint": "This station is based within the Aberdeenshire region.",
+      "id": "col_2"
     },
     {
       "type": "equals",
@@ -112,7 +122,8 @@
       "category": "geography",
       "match_count": 5,
       "display": "Is within the Perth and Kinross region",
-      "hint": "This station is based within the Perth and Kinross region."
+      "hint": "This station is based within the Perth and Kinross region.",
+      "id": "col_3"
     },
     {
       "type": "equals",
@@ -122,7 +133,8 @@
       "category": "geography",
       "match_count": 4,
       "display": "Is within the Fife region",
-      "hint": "This station is based within the Fife region."
+      "hint": "This station is based within the Fife region.",
+      "id": "col_4"
     },
     {
       "type": "equals",
@@ -132,7 +144,8 @@
       "category": "geography",
       "match_count": 3,
       "display": "Is within the Moray region",
-      "hint": "This station is based within the Moray region."
+      "hint": "This station is based within the Moray region.",
+      "id": "col_5"
     },
     {
       "type": "equals",
@@ -142,7 +155,8 @@
       "category": "geography",
       "match_count": 47,
       "display": "Trains head to Inverness",
-      "hint": "This station's journeys are routed via or towards Inverness."
+      "hint": "This station's journeys are routed via or towards Inverness.",
+      "id": "col_6"
     },
     {
       "type": "equals",
@@ -152,7 +166,8 @@
       "category": "geography",
       "match_count": 10,
       "display": "Trains head to Aberdeen",
-      "hint": "This station's journeys are routed via or towards Aberdeen."
+      "hint": "This station's journeys are routed via or towards Aberdeen.",
+      "id": "col_7"
     },
     {
       "type": "equals",
@@ -162,7 +177,8 @@
       "category": "geography",
       "match_count": 18,
       "display": "Trains head to Dundee",
-      "hint": "This station's journeys are routed via or towards Dundee."
+      "hint": "This station's journeys are routed via or towards Dundee.",
+      "id": "col_8"
     },
     {
       "type": "range",
@@ -172,7 +188,8 @@
       "category": "service",
       "match_count": 4,
       "display": "A short journey to Aberdeen",
-      "hint": "In this puzzle, 'short' means under 18 minutes to Aberdeen."
+      "hint": "In this puzzle, 'short' means under 18 minutes to Aberdeen.",
+      "id": "col_9"
     },
     {
       "type": "range",
@@ -183,7 +200,8 @@
       "category": "service",
       "match_count": 4,
       "display": "A mid-range journey to Aberdeen",
-      "hint": "In this puzzle, 'mid-range' means 18-32 minutes to Aberdeen."
+      "hint": "In this puzzle, 'mid-range' means 18-32 minutes to Aberdeen.",
+      "id": "col_10"
     },
     {
       "type": "range",
@@ -193,7 +211,8 @@
       "category": "service",
       "match_count": 4,
       "display": "A long journey to Aberdeen",
-      "hint": "In this puzzle, 'long' means 32+ minutes to Aberdeen."
+      "hint": "In this puzzle, 'long' means 32+ minutes to Aberdeen.",
+      "id": "col_11"
     },
     {
       "type": "range",
@@ -203,7 +222,8 @@
       "category": "service",
       "match_count": 7,
       "display": "A short journey to Dundee",
-      "hint": "In this puzzle, 'short' means under 18 minutes to Dundee."
+      "hint": "In this puzzle, 'short' means under 18 minutes to Dundee.",
+      "id": "col_12"
     },
     {
       "type": "range",
@@ -214,7 +234,8 @@
       "category": "service",
       "match_count": 7,
       "display": "A mid-range journey to Dundee",
-      "hint": "In this puzzle, 'mid-range' means 18-26 minutes to Dundee."
+      "hint": "In this puzzle, 'mid-range' means 18-26 minutes to Dundee.",
+      "id": "col_13"
     },
     {
       "type": "range",
@@ -224,7 +245,8 @@
       "category": "service",
       "match_count": 6,
       "display": "A long journey to Dundee",
-      "hint": "In this puzzle, 'long' means 26+ minutes to Dundee."
+      "hint": "In this puzzle, 'long' means 26+ minutes to Dundee.",
+      "id": "col_14"
     },
     {
       "type": "range",
@@ -234,7 +256,8 @@
       "category": "service",
       "match_count": 16,
       "display": "A short journey to Inverness",
-      "hint": "In this puzzle, 'short' means under 62 minutes to Inverness."
+      "hint": "In this puzzle, 'short' means under 62 minutes to Inverness.",
+      "id": "col_15"
     },
     {
       "type": "range",
@@ -245,7 +268,8 @@
       "category": "service",
       "match_count": 17,
       "display": "A mid-range journey to Inverness",
-      "hint": "In this puzzle, 'mid-range' means 62-136 minutes to Inverness."
+      "hint": "In this puzzle, 'mid-range' means 62-136 minutes to Inverness.",
+      "id": "col_16"
     },
     {
       "type": "range",
@@ -255,7 +279,8 @@
       "category": "service",
       "match_count": 16,
       "display": "A long journey to Inverness",
-      "hint": "In this puzzle, 'long' means 136+ minutes to Inverness."
+      "hint": "In this puzzle, 'long' means 136+ minutes to Inverness.",
+      "id": "col_17"
     },
     {
       "type": "array_contains",
@@ -265,7 +290,8 @@
       "category": "route",
       "match_count": 26,
       "display": "Is part of the Far North Line route",
-      "hint": "The northernmost railway in Britain, running 168 miles from Inverness up the east coast through Sutherland and the Flow Country to the twin termini of Thurso and Wick."
+      "hint": "The northernmost railway in Britain, running 168 miles from Inverness up the east coast through Sutherland and the Flow Country to the twin termini of Thurso and Wick.",
+      "id": "col_18"
     },
     {
       "type": "array_contains",
@@ -275,7 +301,8 @@
       "category": "route",
       "match_count": 22,
       "display": "Is part of the Aberdeen to Inverness Line route",
-      "hint": "The cross-country route linking Scotland's two northern cities via Elgin, Keith and Huntly - also carries the through Edinburgh/Glasgow-Aberdeen services via Perth and Dundee."
+      "hint": "The cross-country route linking Scotland's two northern cities via Elgin, Keith and Huntly - also carries the through Edinburgh/Glasgow-Aberdeen services via Perth and Dundee.",
+      "id": "col_19"
     },
     {
       "type": "array_contains",
@@ -285,7 +312,8 @@
       "category": "route",
       "match_count": 13,
       "display": "Is part of the Highland Main Line route",
-      "hint": "The main route from Perth through the Cairngorms via Aviemore to Inverness - the historic gateway line into the Highlands, with connections south to Edinburgh and Glasgow."
+      "hint": "The main route from Perth through the Cairngorms via Aviemore to Inverness - the historic gateway line into the Highlands, with connections south to Edinburgh and Glasgow.",
+      "id": "col_20"
     },
     {
       "type": "array_contains",
@@ -295,7 +323,8 @@
       "category": "route",
       "match_count": 11,
       "display": "Is part of the Kyle Line route",
-      "hint": "The 63-mile coast-to-coast route from Dingwall (junction with the Far North Line) west through Achnasheen and Strathcarron to Kyle of Lochalsh, opposite the Isle of Skye - one of the world's most scenic railway journeys."
+      "hint": "The 63-mile coast-to-coast route from Dingwall (junction with the Far North Line) west through Achnasheen and Strathcarron to Kyle of Lochalsh, opposite the Isle of Skye - one of the world's most scenic railway journeys.",
+      "id": "col_21"
     },
     {
       "type": "array_contains",
@@ -305,7 +334,8 @@
       "category": "route",
       "match_count": 7,
       "display": "Is part of the Dundee to Arbroath Line route",
-      "hint": "The short stretch of the East Coast Main Line corridor between Dundee and Arbroath, hugging the Angus coast via Carnoustie."
+      "hint": "The short stretch of the East Coast Main Line corridor between Dundee and Arbroath, hugging the Angus coast via Carnoustie.",
+      "id": "col_22"
     },
     {
       "type": "array_contains",
@@ -315,7 +345,8 @@
       "category": "route",
       "match_count": 6,
       "display": "Is part of the Aberdeen Line route",
-      "hint": "The route into Aberdeen from the south via Montrose and Arbroath, connecting to Dundee and onward to the Central Belt."
+      "hint": "The route into Aberdeen from the south via Montrose and Arbroath, connecting to Dundee and onward to the Central Belt.",
+      "id": "col_23"
     },
     {
       "type": "equals",
@@ -325,7 +356,8 @@
       "category": "name",
       "match_count": 14,
       "display": "Naming style: Scottish/Gaelic place-name roots",
-      "hint": "The name includes a Scottish or Gaelic place-name element, like Inver-, Glen-, Loch- or Kirk-."
+      "hint": "The name includes a Scottish or Gaelic place-name element, like Inver-, Glen-, Loch- or Kirk-.",
+      "id": "col_24"
     },
     {
       "type": "equals",
@@ -335,7 +367,8 @@
       "category": "name",
       "match_count": 5,
       "display": "Naming style: a common English place-name ending",
-      "hint": "The name ends in a common English place-name suffix, like -ton, -ham, -by or -dale."
+      "hint": "The name ends in a common English place-name suffix, like -ton, -ham, -by or -dale.",
+      "id": "col_25"
     },
     {
       "type": "array_contains",
@@ -345,7 +378,8 @@
       "category": "name",
       "match_count": 6,
       "display": "Word contains 'inver'",
-      "hint": "Word contains 'inver'."
+      "hint": "Word contains 'inver'.",
+      "id": "col_26"
     },
     {
       "type": "array_contains",
@@ -355,7 +389,8 @@
       "category": "name",
       "match_count": 3,
       "display": "Word contains 'ness'",
-      "hint": "Word contains 'ness'."
+      "hint": "Word contains 'ness'.",
+      "id": "col_27"
     }
   ]
 }

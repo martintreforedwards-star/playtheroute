@@ -7,8 +7,9 @@
       "label": "Interchange station",
       "weight": "medium",
       "match_count": 32,
-      "display": "Is an interchange station",
-      "hint": "Served by two or more separate named routes, or where several lines physically meet."
+      "display": "Change trains here",
+      "hint": "Served by two or more separate named routes, or where several lines physically meet.",
+      "id": "row_0"
     },
     {
       "type": "range",
@@ -18,7 +19,8 @@
       "weight": "medium",
       "match_count": 18,
       "display": "Terminus station",
-      "hint": "At least some journeys terminate at this station - it's not just a stop along the way."
+      "hint": "At least some journeys terminate at this station - it's not just a stop along the way.",
+      "id": "row_1"
     },
     {
       "type": "equals",
@@ -28,7 +30,8 @@
       "weight": "medium",
       "match_count": 32,
       "display": "Station name is one word",
-      "hint": "Station is a one-word name."
+      "hint": "Station is a one-word name.",
+      "id": "row_2"
     },
     {
       "type": "range",
@@ -38,7 +41,8 @@
       "weight": "high",
       "match_count": 3,
       "display": "Station name is 3+ words",
-      "hint": "Station name is three or more words long."
+      "hint": "Station name is three or more words long.",
+      "id": "row_3"
     },
     {
       "type": "range",
@@ -49,7 +53,8 @@
       "weight": "high",
       "match_count": 6,
       "display": "Station name is 6 letters or fewer",
-      "hint": "Station name is 6 characters or fewer."
+      "hint": "Station name is 6 characters or fewer.",
+      "id": "row_4"
     },
     {
       "type": "range",
@@ -60,7 +65,8 @@
       "weight": "medium",
       "match_count": 40,
       "display": "Station name is 7-10 letters",
-      "hint": "Station name length is between 7 and 10 characters."
+      "hint": "Station name length is between 7 and 10 characters.",
+      "id": "row_5"
     },
     {
       "type": "range",
@@ -70,7 +76,8 @@
       "weight": "medium",
       "match_count": 28,
       "display": "Station name is 11+ letters",
-      "hint": "Station name is equal to or exceeds 11 characters."
+      "hint": "Station name is equal to or exceeds 11 characters.",
+      "id": "row_6"
     }
   ],
   "columnPool": [
@@ -82,7 +89,8 @@
       "category": "geography",
       "match_count": 73,
       "display": "Is within the South East London region",
-      "hint": "This station is based within the South East London region."
+      "hint": "This station is based within the South East London region.",
+      "id": "col_0"
     },
     {
       "type": "range",
@@ -92,7 +100,8 @@
       "category": "service",
       "match_count": 27,
       "display": "A short journey to London",
-      "hint": "In this puzzle, 'short' means under 17 minutes to London."
+      "hint": "In this puzzle, 'short' means under 17 minutes to London.",
+      "id": "col_1"
     },
     {
       "type": "range",
@@ -103,7 +112,8 @@
       "category": "service",
       "match_count": 26,
       "display": "A mid-range journey to London",
-      "hint": "In this puzzle, 'mid-range' means 17-22 minutes to London."
+      "hint": "In this puzzle, 'mid-range' means 17-22 minutes to London.",
+      "id": "col_2"
     },
     {
       "type": "range",
@@ -113,7 +123,8 @@
       "category": "service",
       "match_count": 28,
       "display": "A long journey to London",
-      "hint": "In this puzzle, 'long' means 22+ minutes to London."
+      "hint": "In this puzzle, 'long' means 22+ minutes to London.",
+      "id": "col_3"
     },
     {
       "type": "range",
@@ -123,7 +134,8 @@
       "category": "service",
       "match_count": 26,
       "display": "A short journey to Victoria",
-      "hint": "In this puzzle, 'short' means under 21 minutes to Victoria."
+      "hint": "In this puzzle, 'short' means under 21 minutes to Victoria.",
+      "id": "col_4"
     },
     {
       "type": "range",
@@ -134,7 +146,8 @@
       "category": "service",
       "match_count": 31,
       "display": "A mid-range journey to Victoria",
-      "hint": "In this puzzle, 'mid-range' means 21-30 minutes to Victoria."
+      "hint": "In this puzzle, 'mid-range' means 21-30 minutes to Victoria.",
+      "id": "col_5"
     },
     {
       "type": "range",
@@ -144,7 +157,8 @@
       "category": "service",
       "match_count": 25,
       "display": "A long journey to Victoria",
-      "hint": "In this puzzle, 'long' means 30+ minutes to Victoria."
+      "hint": "In this puzzle, 'long' means 30+ minutes to Victoria.",
+      "id": "col_6"
     },
     {
       "type": "range",
@@ -154,7 +168,8 @@
       "category": "service",
       "match_count": 28,
       "display": "A short journey to Charing Cross",
-      "hint": "In this puzzle, 'short' means under 22 minutes to Charing Cross."
+      "hint": "In this puzzle, 'short' means under 22 minutes to Charing Cross.",
+      "id": "col_7"
     },
     {
       "type": "range",
@@ -165,7 +180,8 @@
       "category": "service",
       "match_count": 27,
       "display": "A mid-range journey to Charing Cross",
-      "hint": "In this puzzle, 'mid-range' means 22-28 minutes to Charing Cross."
+      "hint": "In this puzzle, 'mid-range' means 22-28 minutes to Charing Cross.",
+      "id": "col_8"
     },
     {
       "type": "range",
@@ -175,7 +191,8 @@
       "category": "service",
       "match_count": 25,
       "display": "A long journey to Charing Cross",
-      "hint": "In this puzzle, 'long' means 28+ minutes to Charing Cross."
+      "hint": "In this puzzle, 'long' means 28+ minutes to Charing Cross.",
+      "id": "col_9"
     },
     {
       "type": "array_contains",
@@ -185,7 +202,8 @@
       "category": "route",
       "match_count": 21,
       "display": "Is part of the Dartford Loop route",
-      "hint": "The southern of the two routes from London to Dartford, running via Sidcup and Bexley - also called the Sidcup Line, with trains looping back via the Bexleyheath or North Kent lines."
+      "hint": "The southern of the two routes from London to Dartford, running via Sidcup and Bexley - also called the Sidcup Line, with trains looping back via the Bexleyheath or North Kent lines.",
+      "id": "col_10"
     },
     {
       "type": "array_contains",
@@ -195,7 +213,8 @@
       "category": "route",
       "match_count": 13,
       "display": "Is part of the Sevenoaks Main Line route",
-      "hint": "The direct route from London Cannon Street/Charing Cross via Grove Park and Orpington to Sevenoaks and on to Tonbridge - the fast, principal route south to Kent."
+      "hint": "The direct route from London Cannon Street/Charing Cross via Grove Park and Orpington to Sevenoaks and on to Tonbridge - the fast, principal route south to Kent.",
+      "id": "col_11"
     },
     {
       "type": "array_contains",
@@ -205,7 +224,8 @@
       "category": "route",
       "match_count": 13,
       "display": "Is part of the Sevenoaks Metro route",
-      "hint": "The slower stopping service between London and Sevenoaks via the same route as the Sevenoaks Main Line, calling at more of the intermediate stations."
+      "hint": "The slower stopping service between London and Sevenoaks via the same route as the Sevenoaks Main Line, calling at more of the intermediate stations.",
+      "id": "col_12"
     },
     {
       "type": "array_contains",
@@ -215,7 +235,8 @@
       "category": "route",
       "match_count": 12,
       "display": "Is part of the Catford Loop Extended route",
-      "hint": "The full Catford Loop route including its city-end approaches via Elephant & Castle/Blackfriars, looping through Nunhead, Catford and Shortlands to rejoin the Chatham Main Line - a relief route avoiding the Sydenham Hill Tunnel."
+      "hint": "The full Catford Loop route including its city-end approaches via Elephant & Castle/Blackfriars, looping through Nunhead, Catford and Shortlands to rejoin the Chatham Main Line - a relief route avoiding the Sydenham Hill Tunnel.",
+      "id": "col_13"
     },
     {
       "type": "array_contains",
@@ -225,7 +246,8 @@
       "category": "route",
       "match_count": 11,
       "display": "Is part of the Greenwich Line route",
-      "hint": "The historic route from London Bridge via Deptford, Greenwich and Charlton to Woolwich Arsenal - one of the earliest railways in the world, opened in 1836."
+      "hint": "The historic route from London Bridge via Deptford, Greenwich and Charlton to Woolwich Arsenal - one of the earliest railways in the world, opened in 1836.",
+      "id": "col_14"
     },
     {
       "type": "array_contains",
@@ -235,7 +257,8 @@
       "category": "route",
       "match_count": 10,
       "display": "Is part of the Catford Loop route",
-      "hint": "The suburban stopping service via Nunhead, Catford and Shortlands, opened in 1892 as a relief route for London Victoria-Kent coast trains - also a diversionary route avoiding the Sydenham Hill Tunnel."
+      "hint": "The suburban stopping service via Nunhead, Catford and Shortlands, opened in 1892 as a relief route for London Victoria-Kent coast trains - also a diversionary route avoiding the Sydenham Hill Tunnel.",
+      "id": "col_15"
     },
     {
       "type": "array_contains",
@@ -245,7 +268,8 @@
       "category": "route",
       "match_count": 9,
       "display": "Is part of the Bexleyheath Line route",
-      "hint": "The middle of the three routes from London to Dartford, running via Falconwood, Bexleyheath and Barnehurst."
+      "hint": "The middle of the three routes from London to Dartford, running via Falconwood, Bexleyheath and Barnehurst.",
+      "id": "col_16"
     },
     {
       "type": "array_contains",
@@ -255,7 +279,8 @@
       "category": "route",
       "match_count": 9,
       "display": "Is part of the Hayes Branch route",
-      "hint": "The short branch from Elmers End via Eden Park and West Wickham to its terminus at Hayes (Kent)."
+      "hint": "The short branch from Elmers End via Eden Park and West Wickham to its terminus at Hayes (Kent).",
+      "id": "col_17"
     },
     {
       "type": "array_contains",
@@ -265,7 +290,8 @@
       "category": "route",
       "match_count": 9,
       "display": "Is part of the Catford Corridor route",
-      "hint": "The core central section of stations shared by the Catford Loop services, running through Herne Hill, Penge East and Beckenham Hill."
+      "hint": "The core central section of stations shared by the Catford Loop services, running through Herne Hill, Penge East and Beckenham Hill.",
+      "id": "col_18"
     },
     {
       "type": "array_contains",
@@ -275,7 +301,8 @@
       "category": "route",
       "match_count": 9,
       "display": "Is part of the Bromley South Metro route",
-      "hint": "The stopping service between London Victoria and Bromley South via Herne Hill and Beckenham Junction, calling at more intermediate stations than the Bromley South Main Line fast service."
+      "hint": "The stopping service between London Victoria and Bromley South via Herne Hill and Beckenham Junction, calling at more intermediate stations than the Bromley South Main Line fast service.",
+      "id": "col_19"
     },
     {
       "type": "array_contains",
@@ -285,7 +312,8 @@
       "category": "route",
       "match_count": 5,
       "display": "Is part of the Chatham Main Line Metro route",
-      "hint": "The stopping service on the Chatham Main Line as far as Orpington, calling at the closer-in suburban stations."
+      "hint": "The stopping service on the Chatham Main Line as far as Orpington, calling at the closer-in suburban stations.",
+      "id": "col_20"
     },
     {
       "type": "array_contains",
@@ -295,7 +323,8 @@
       "category": "route",
       "match_count": 4,
       "display": "Is part of the Bromley South Main Line route",
-      "hint": "The fast route from London via Bickley to Bromley South and on to the Chatham Main Line towards the Kent coast."
+      "hint": "The fast route from London via Bickley to Bromley South and on to the Chatham Main Line towards the Kent coast.",
+      "id": "col_21"
     },
     {
       "type": "array_contains",
@@ -305,7 +334,8 @@
       "category": "route",
       "match_count": 3,
       "display": "Is part of the Bromley North Branch route",
-      "hint": "The short shuttle branch from Grove Park via Sundridge Park to its terminus at Bromley North."
+      "hint": "The short shuttle branch from Grove Park via Sundridge Park to its terminus at Bromley North.",
+      "id": "col_22"
     },
     {
       "type": "equals",
@@ -315,7 +345,8 @@
       "category": "name",
       "match_count": 28,
       "display": "Naming style: a common English place-name ending",
-      "hint": "The name ends in a common English place-name suffix, like -ton, -ham, -by or -dale."
+      "hint": "The name ends in a common English place-name suffix, like -ton, -ham, -by or -dale.",
+      "id": "col_23"
     },
     {
       "type": "equals",
@@ -325,7 +356,8 @@
       "category": "name",
       "match_count": 14,
       "display": "Naming style: a nature word in the name",
-      "hint": "The name includes a nature word, like Park, Hill, Green, Heath or Wood."
+      "hint": "The name includes a nature word, like Park, Hill, Green, Heath or Wood.",
+      "id": "col_24"
     },
     {
       "type": "equals",
@@ -335,7 +367,8 @@
       "category": "name",
       "match_count": 3,
       "display": "Naming style: an unusual name format",
-      "hint": "Something unusual about how the name is written - brackets, a hyphen, an ampersand, or 'St'."
+      "hint": "Something unusual about how the name is written - brackets, a hyphen, an ampersand, or 'St'.",
+      "id": "col_25"
     },
     {
       "type": "array_contains",
@@ -345,7 +378,8 @@
       "category": "name",
       "match_count": 12,
       "display": "Word contains 'ham'",
-      "hint": "Word contains 'ham'."
+      "hint": "Word contains 'ham'.",
+      "id": "col_26"
     },
     {
       "type": "array_contains",
@@ -355,7 +389,8 @@
       "category": "name",
       "match_count": 6,
       "display": "Word contains 'ford'",
-      "hint": "Word contains 'ford'."
+      "hint": "Word contains 'ford'.",
+      "id": "col_27"
     },
     {
       "type": "array_contains",
@@ -365,7 +400,8 @@
       "category": "name",
       "match_count": 6,
       "display": "Word contains 'park'",
-      "hint": "Word contains 'park'."
+      "hint": "Word contains 'park'.",
+      "id": "col_28"
     },
     {
       "type": "array_contains",
@@ -375,7 +411,8 @@
       "category": "name",
       "match_count": 5,
       "display": "Word contains 'hill'",
-      "hint": "Word contains 'hill'."
+      "hint": "Word contains 'hill'.",
+      "id": "col_29"
     },
     {
       "type": "array_contains",
@@ -385,7 +422,8 @@
       "category": "name",
       "match_count": 4,
       "display": "Word contains 'wich'",
-      "hint": "Word contains 'wich'."
+      "hint": "Word contains 'wich'.",
+      "id": "col_30"
     },
     {
       "type": "array_contains",
@@ -395,7 +433,8 @@
       "category": "name",
       "match_count": 4,
       "display": "Word contains 'ton'",
-      "hint": "Word contains 'ton'."
+      "hint": "Word contains 'ton'.",
+      "id": "col_31"
     },
     {
       "type": "array_contains",
@@ -405,7 +444,8 @@
       "category": "name",
       "match_count": 4,
       "display": "Word contains 'wood'",
-      "hint": "Word contains 'wood'."
+      "hint": "Word contains 'wood'.",
+      "id": "col_32"
     },
     {
       "type": "array_contains",
@@ -415,7 +455,8 @@
       "category": "name",
       "match_count": 3,
       "display": "Word contains 'green'",
-      "hint": "Word contains 'green'."
+      "hint": "Word contains 'green'.",
+      "id": "col_33"
     }
   ]
 }

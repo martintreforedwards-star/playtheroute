@@ -7,8 +7,9 @@
       "label": "Interchange station",
       "weight": "medium",
       "match_count": 73,
-      "display": "Is an interchange station",
-      "hint": "Served by two or more separate named routes, or where several lines physically meet."
+      "display": "Change trains here",
+      "hint": "Served by two or more separate named routes, or where several lines physically meet.",
+      "id": "row_0"
     },
     {
       "type": "equals",
@@ -18,7 +19,8 @@
       "weight": "high",
       "match_count": 39,
       "display": "Near the coast",
-      "hint": "A station within 3 kilometres of the coastline or an estuary."
+      "hint": "A station within 3 kilometres of the coastline or an estuary.",
+      "id": "row_1"
     },
     {
       "type": "range",
@@ -28,7 +30,8 @@
       "weight": "medium",
       "match_count": 61,
       "display": "Terminus station",
-      "hint": "At least some journeys terminate at this station - it's not just a stop along the way."
+      "hint": "At least some journeys terminate at this station - it's not just a stop along the way.",
+      "id": "row_2"
     },
     {
       "type": "equals",
@@ -38,7 +41,8 @@
       "weight": "medium",
       "match_count": 131,
       "display": "Station name is one word",
-      "hint": "Station is a one-word name."
+      "hint": "Station is a one-word name.",
+      "id": "row_3"
     },
     {
       "type": "range",
@@ -48,7 +52,8 @@
       "weight": "high",
       "match_count": 8,
       "display": "Station name is 3+ words",
-      "hint": "Station name is three or more words long."
+      "hint": "Station name is three or more words long.",
+      "id": "row_4"
     },
     {
       "type": "range",
@@ -59,7 +64,8 @@
       "weight": "high",
       "match_count": 25,
       "display": "Station name is 6 letters or fewer",
-      "hint": "Station name is 6 characters or fewer."
+      "hint": "Station name is 6 characters or fewer.",
+      "id": "row_5"
     },
     {
       "type": "range",
@@ -70,7 +76,8 @@
       "weight": "medium",
       "match_count": 93,
       "display": "Station name is 7-10 letters",
-      "hint": "Station name length is between 7 and 10 characters."
+      "hint": "Station name length is between 7 and 10 characters.",
+      "id": "row_6"
     },
     {
       "type": "range",
@@ -80,7 +87,8 @@
       "weight": "medium",
       "match_count": 68,
       "display": "Station name is 11+ letters",
-      "hint": "Station name is equal to or exceeds 11 characters."
+      "hint": "Station name is equal to or exceeds 11 characters.",
+      "id": "row_7"
     }
   ],
   "columnPool": [
@@ -92,7 +100,8 @@
       "category": "geography",
       "match_count": 27,
       "display": "Is within the South West London region",
-      "hint": "This station is based within the South West London region."
+      "hint": "This station is based within the South West London region.",
+      "id": "col_0"
     },
     {
       "type": "equals",
@@ -102,7 +111,8 @@
       "category": "geography",
       "match_count": 10,
       "display": "Is within the Elmbridge region",
-      "hint": "This station is based within the Elmbridge region."
+      "hint": "This station is based within the Elmbridge region.",
+      "id": "col_1"
     },
     {
       "type": "equals",
@@ -112,7 +122,8 @@
       "category": "geography",
       "match_count": 9,
       "display": "Is within the New Forest region",
-      "hint": "This station is based within the New Forest region."
+      "hint": "This station is based within the New Forest region.",
+      "id": "col_2"
     },
     {
       "type": "equals",
@@ -122,7 +133,8 @@
       "category": "geography",
       "match_count": 9,
       "display": "Is within the West London region",
-      "hint": "This station is based within the West London region."
+      "hint": "This station is based within the West London region.",
+      "id": "col_3"
     },
     {
       "type": "equals",
@@ -132,7 +144,8 @@
       "category": "geography",
       "match_count": 9,
       "display": "Is within the Dorset region",
-      "hint": "This station is based within the Dorset region."
+      "hint": "This station is based within the Dorset region.",
+      "id": "col_4"
     },
     {
       "type": "equals",
@@ -142,7 +155,8 @@
       "category": "geography",
       "match_count": 8,
       "display": "Is within the Guildford region",
-      "hint": "This station is based within the Guildford region."
+      "hint": "This station is based within the Guildford region.",
+      "id": "col_5"
     },
     {
       "type": "equals",
@@ -152,7 +166,8 @@
       "category": "geography",
       "match_count": 8,
       "display": "Is within the Isle of Wight region",
-      "hint": "This station is based within the Isle of Wight region."
+      "hint": "This station is based within the Isle of Wight region.",
+      "id": "col_6"
     },
     {
       "type": "equals",
@@ -162,7 +177,8 @@
       "category": "geography",
       "match_count": 7,
       "display": "Is within the Bournemouth, Christchurch and Poole region",
-      "hint": "This station is based within the Bournemouth, Christchurch and Poole region."
+      "hint": "This station is based within the Bournemouth, Christchurch and Poole region.",
+      "id": "col_7"
     },
     {
       "type": "equals",
@@ -172,7 +188,8 @@
       "category": "geography",
       "match_count": 7,
       "display": "Is within the Southampton region",
-      "hint": "This station is based within the Southampton region."
+      "hint": "This station is based within the Southampton region.",
+      "id": "col_8"
     },
     {
       "type": "equals",
@@ -182,7 +199,8 @@
       "category": "geography",
       "match_count": 7,
       "display": "Is within the Eastleigh region",
-      "hint": "This station is based within the Eastleigh region."
+      "hint": "This station is based within the Eastleigh region.",
+      "id": "col_9"
     },
     {
       "type": "range",
@@ -192,7 +210,8 @@
       "category": "service",
       "match_count": 62,
       "display": "A short journey to London",
-      "hint": "In this puzzle, 'short' means under 78 minutes to London."
+      "hint": "In this puzzle, 'short' means under 78 minutes to London.",
+      "id": "col_10"
     },
     {
       "type": "range",
@@ -203,7 +222,8 @@
       "category": "service",
       "match_count": 63,
       "display": "A mid-range journey to London",
-      "hint": "In this puzzle, 'mid-range' means 78-125 minutes to London."
+      "hint": "In this puzzle, 'mid-range' means 78-125 minutes to London.",
+      "id": "col_11"
     },
     {
       "type": "range",
@@ -213,7 +233,8 @@
       "category": "service",
       "match_count": 62,
       "display": "A long journey to London",
-      "hint": "In this puzzle, 'long' means 125+ minutes to London."
+      "hint": "In this puzzle, 'long' means 125+ minutes to London.",
+      "id": "col_12"
     },
     {
       "type": "equals",
@@ -223,7 +244,8 @@
       "category": "route",
       "match_count": 8,
       "display": "Route operated by Island Line.",
-      "hint": "This station is served by Island Line."
+      "hint": "This station is served by Island Line.",
+      "id": "col_13"
     },
     {
       "type": "array_contains",
@@ -233,7 +255,8 @@
       "category": "route",
       "match_count": 68,
       "display": "Is part of the South West Main Line route",
-      "hint": "The 143-mile trunk route from London Waterloo to Weymouth via Woking, Basingstoke, Southampton and Bournemouth - the backbone of the South Western network."
+      "hint": "The 143-mile trunk route from London Waterloo to Weymouth via Woking, Basingstoke, Southampton and Bournemouth - the backbone of the South Western network.",
+      "id": "col_14"
     },
     {
       "type": "array_contains",
@@ -243,7 +266,8 @@
       "category": "route",
       "match_count": 42,
       "display": "Is part of the Hounslow Loop route",
-      "hint": "The suburban loop off the Waterloo-Reading line via Barnes, rejoining near Feltham - opened in 1850, looping through Hounslow and back to Waterloo."
+      "hint": "The suburban loop off the Waterloo-Reading line via Barnes, rejoining near Feltham - opened in 1850, looping through Hounslow and back to Waterloo.",
+      "id": "col_15"
     },
     {
       "type": "array_contains",
@@ -253,7 +277,8 @@
       "category": "route",
       "match_count": 25,
       "display": "Is part of the Kingston Loop route",
-      "hint": "The suburban loop off the South West Main Line via Twickenham, Kingston and Norbiton, rejoining the main line near New Malden."
+      "hint": "The suburban loop off the South West Main Line via Twickenham, Kingston and Norbiton, rejoining the main line near New Malden.",
+      "id": "col_16"
     },
     {
       "type": "array_contains",
@@ -263,7 +288,8 @@
       "category": "route",
       "match_count": 22,
       "display": "Is part of the Waterloo to Reading Line route",
-      "hint": "The suburban route from London Waterloo via Richmond and Staines to Reading, from which the Hounslow Loop and Windsor Line both branch off."
+      "hint": "The suburban route from London Waterloo via Richmond and Staines to Reading, from which the Hounslow Loop and Windsor Line both branch off.",
+      "id": "col_17"
     },
     {
       "type": "array_contains",
@@ -273,7 +299,8 @@
       "category": "route",
       "match_count": 18,
       "display": "Is part of the New Guildford Line route",
-      "hint": "The route from Surbiton via Cobham & Stoke d'Abernon to Guildford - an alternative to the main Waterloo-Guildford route via Woking."
+      "hint": "The route from Surbiton via Cobham & Stoke d'Abernon to Guildford - an alternative to the main Waterloo-Guildford route via Woking.",
+      "id": "col_18"
     },
     {
       "type": "array_contains",
@@ -283,7 +310,8 @@
       "category": "route",
       "match_count": 17,
       "display": "Is part of the Windsor Line route",
-      "hint": "The branch from Staines to Windsor & Eton Riverside - part of the historic 'Windsor lines' group alongside the Hounslow Loop, both dating back to the original Richmond Railway."
+      "hint": "The branch from Staines to Windsor & Eton Riverside - part of the historic 'Windsor lines' group alongside the Hounslow Loop, both dating back to the original Richmond Railway.",
+      "id": "col_19"
     },
     {
       "type": "array_contains",
@@ -293,7 +321,8 @@
       "category": "route",
       "match_count": 16,
       "display": "Is part of the Alton Line route",
-      "hint": "The branch from Woking via Aldershot and Farnham to the market town of Alton in Hampshire."
+      "hint": "The branch from Woking via Aldershot and Farnham to the market town of Alton in Hampshire.",
+      "id": "col_20"
     },
     {
       "type": "array_contains",
@@ -303,7 +332,8 @@
       "category": "route",
       "match_count": 16,
       "display": "Is part of the Solent Link route",
-      "hint": "The route linking Southampton and the Solent coast via Fareham and Portchester to Portsmouth Harbour."
+      "hint": "The route linking Southampton and the Solent coast via Fareham and Portchester to Portsmouth Harbour.",
+      "id": "col_21"
     },
     {
       "type": "array_contains",
@@ -313,7 +343,8 @@
       "category": "route",
       "match_count": 14,
       "display": "Is part of the Shepperton Branch route",
-      "hint": "The branch from Twickenham via Kingston and Hampton Court territory to its terminus at Shepperton."
+      "hint": "The branch from Twickenham via Kingston and Hampton Court territory to its terminus at Shepperton.",
+      "id": "col_22"
     },
     {
       "type": "array_contains",
@@ -323,7 +354,8 @@
       "category": "route",
       "match_count": 12,
       "display": "Is part of the Solent & Wessex route",
-      "hint": "The wider grouping of routes around the Solent and into Wessex, linking Southampton, Eastleigh and the Hampshire coast towards Salisbury and Dorset."
+      "hint": "The wider grouping of routes around the Solent and into Wessex, linking Southampton, Eastleigh and the Hampshire coast towards Salisbury and Dorset.",
+      "id": "col_23"
     },
     {
       "type": "array_contains",
@@ -333,7 +365,8 @@
       "category": "route",
       "match_count": 11,
       "display": "Is part of the East Devon Line route",
-      "hint": "The route from Salisbury via Yeovil Junction, Axminster and Honiton into Exeter - the western extension of the South West Main Line through Dorset and East Devon."
+      "hint": "The route from Salisbury via Yeovil Junction, Axminster and Honiton into Exeter - the western extension of the South West Main Line through Dorset and East Devon.",
+      "id": "col_24"
     },
     {
       "type": "array_contains",
@@ -343,7 +376,8 @@
       "category": "route",
       "match_count": 8,
       "display": "Is part of the Island Line route",
-      "hint": "The short railway on the Isle of Wight linking Ryde Pier Head to Shanklin, connecting at Ryde with Wightlink ferries to Portsmouth Harbour."
+      "hint": "The short railway on the Isle of Wight linking Ryde Pier Head to Shanklin, connecting at Ryde with Wightlink ferries to Portsmouth Harbour.",
+      "id": "col_25"
     },
     {
       "type": "array_contains",
@@ -353,7 +387,8 @@
       "category": "route",
       "match_count": 7,
       "display": "Is part of the Chessington Branch route",
-      "hint": "The branch from Motspur Park via Tolworth to its terminus at Chessington South, serving Chessington World of Adventures."
+      "hint": "The branch from Motspur Park via Tolworth to its terminus at Chessington South, serving Chessington World of Adventures.",
+      "id": "col_26"
     },
     {
       "type": "array_contains",
@@ -363,7 +398,8 @@
       "category": "route",
       "match_count": 6,
       "display": "Is part of the Hampton Court Branch route",
-      "hint": "The short branch from Surbiton via Thames Ditton to its terminus at Hampton Court, next to the historic royal palace."
+      "hint": "The short branch from Surbiton via Thames Ditton to its terminus at Hampton Court, next to the historic royal palace.",
+      "id": "col_27"
     },
     {
       "type": "array_contains",
@@ -373,7 +409,8 @@
       "category": "route",
       "match_count": 4,
       "display": "Is part of the Wessex Main Line route",
-      "hint": "The cross-country route linking Southampton to Salisbury and on to Bristol and the West Country, connecting the south coast to the Great Western network."
+      "hint": "The cross-country route linking Southampton to Salisbury and on to Bristol and the West Country, connecting the south coast to the Great Western network.",
+      "id": "col_28"
     },
     {
       "type": "equals",
@@ -383,7 +420,8 @@
       "category": "name",
       "match_count": 63,
       "display": "Naming style: a common English place-name ending",
-      "hint": "The name ends in a common English place-name suffix, like -ton, -ham, -by or -dale."
+      "hint": "The name ends in a common English place-name suffix, like -ton, -ham, -by or -dale.",
+      "id": "col_29"
     },
     {
       "type": "equals",
@@ -393,7 +431,8 @@
       "category": "name",
       "match_count": 25,
       "display": "Naming style: an unusual name format",
-      "hint": "Something unusual about how the name is written - brackets, a hyphen, an ampersand, or 'St'."
+      "hint": "Something unusual about how the name is written - brackets, a hyphen, an ampersand, or 'St'.",
+      "id": "col_30"
     },
     {
       "type": "equals",
@@ -403,7 +442,8 @@
       "category": "name",
       "match_count": 4,
       "display": "Naming style: a nature word in the name",
-      "hint": "The name includes a nature word, like Park, Hill, Green, Heath or Wood."
+      "hint": "The name includes a nature word, like Park, Hill, Green, Heath or Wood.",
+      "id": "col_31"
     },
     {
       "type": "array_contains",
@@ -413,7 +453,8 @@
       "category": "name",
       "match_count": 31,
       "display": "Word contains 'ton'",
-      "hint": "Word contains 'ton'."
+      "hint": "Word contains 'ton'.",
+      "id": "col_32"
     },
     {
       "type": "array_contains",
@@ -423,7 +464,8 @@
       "category": "name",
       "match_count": 18,
       "display": "Name includes brackets",
-      "hint": "The station name includes text in brackets, e.g. a disambiguator like '(Cumbria)'."
+      "hint": "The station name includes text in brackets, e.g. a disambiguator like '(Cumbria)'.",
+      "id": "col_33"
     },
     {
       "type": "array_contains",
@@ -433,7 +475,8 @@
       "category": "name",
       "match_count": 16,
       "display": "Word contains 'ey'",
-      "hint": "Word contains 'ey'."
+      "hint": "Word contains 'ey'.",
+      "id": "col_34"
     },
     {
       "type": "array_contains",
@@ -443,7 +486,8 @@
       "category": "name",
       "match_count": 13,
       "display": "Word contains 'ham'",
-      "hint": "Word contains 'ham'."
+      "hint": "Word contains 'ham'.",
+      "id": "col_35"
     },
     {
       "type": "array_contains",
@@ -453,7 +497,8 @@
       "category": "name",
       "match_count": 10,
       "display": "Word contains 'ley'",
-      "hint": "Word contains 'ley'."
+      "hint": "Word contains 'ley'.",
+      "id": "col_36"
     },
     {
       "type": "array_contains",
@@ -463,7 +508,8 @@
       "category": "name",
       "match_count": 9,
       "display": "Word contains 'don'",
-      "hint": "Word contains 'don'."
+      "hint": "Word contains 'don'.",
+      "id": "col_37"
     },
     {
       "type": "array_contains",
@@ -473,7 +519,8 @@
       "category": "name",
       "match_count": 8,
       "display": "Word contains 'ford'",
-      "hint": "Word contains 'ford'."
+      "hint": "Word contains 'ford'.",
+      "id": "col_38"
     },
     {
       "type": "array_contains",
@@ -483,7 +530,8 @@
       "category": "name",
       "match_count": 6,
       "display": "Word contains 'park'",
-      "hint": "Word contains 'park'."
+      "hint": "Word contains 'park'.",
+      "id": "col_39"
     },
     {
       "type": "array_contains",
@@ -493,7 +541,8 @@
       "category": "name",
       "match_count": 5,
       "display": "Name includes an '&'",
-      "hint": "The station name includes an ampersand (&)."
+      "hint": "The station name includes an ampersand (&).",
+      "id": "col_40"
     },
     {
       "type": "array_contains",
@@ -503,7 +552,8 @@
       "category": "name",
       "match_count": 5,
       "display": "Word contains 'ridge'",
-      "hint": "Word contains 'ridge'."
+      "hint": "Word contains 'ridge'.",
+      "id": "col_41"
     },
     {
       "type": "array_contains",
@@ -513,7 +563,8 @@
       "category": "name",
       "match_count": 5,
       "display": "Word contains 'ington'",
-      "hint": "Word contains 'ington'."
+      "hint": "Word contains 'ington'.",
+      "id": "col_42"
     }
   ]
 }

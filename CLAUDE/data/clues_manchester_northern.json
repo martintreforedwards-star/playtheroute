@@ -7,8 +7,9 @@
       "label": "Interchange station",
       "weight": "medium",
       "match_count": 60,
-      "display": "Is an interchange station",
-      "hint": "Served by two or more separate named routes, or where several lines physically meet."
+      "display": "Change trains here",
+      "hint": "Served by two or more separate named routes, or where several lines physically meet.",
+      "id": "row_0"
     },
     {
       "type": "equals",
@@ -18,7 +19,8 @@
       "weight": "high",
       "match_count": 9,
       "display": "Near the coast",
-      "hint": "A station within 3 kilometres of the coastline or an estuary."
+      "hint": "A station within 3 kilometres of the coastline or an estuary.",
+      "id": "row_1"
     },
     {
       "type": "range",
@@ -28,7 +30,8 @@
       "weight": "high",
       "match_count": 34,
       "display": "Terminus station",
-      "hint": "At least some journeys terminate at this station - it's not just a stop along the way."
+      "hint": "At least some journeys terminate at this station - it's not just a stop along the way.",
+      "id": "row_2"
     },
     {
       "type": "equals",
@@ -38,7 +41,8 @@
       "weight": "medium",
       "match_count": 117,
       "display": "Station name is one word",
-      "hint": "Station is a one-word name."
+      "hint": "Station is a one-word name.",
+      "id": "row_3"
     },
     {
       "type": "range",
@@ -48,7 +52,8 @@
       "weight": "high",
       "match_count": 17,
       "display": "Station name is 3+ words",
-      "hint": "Station name is three or more words long."
+      "hint": "Station name is three or more words long.",
+      "id": "row_4"
     },
     {
       "type": "range",
@@ -59,7 +64,8 @@
       "weight": "high",
       "match_count": 21,
       "display": "Station name is 6 letters or fewer",
-      "hint": "Station name is 6 characters or fewer."
+      "hint": "Station name is 6 characters or fewer.",
+      "id": "row_5"
     },
     {
       "type": "range",
@@ -70,7 +76,8 @@
       "weight": "medium",
       "match_count": 90,
       "display": "Station name is 7-10 letters",
-      "hint": "Station name length is between 7 and 10 characters."
+      "hint": "Station name length is between 7 and 10 characters.",
+      "id": "row_6"
     },
     {
       "type": "range",
@@ -80,7 +87,8 @@
       "weight": "medium",
       "match_count": 84,
       "display": "Station name is 11+ letters",
-      "hint": "Station name is equal to or exceeds 11 characters."
+      "hint": "Station name is equal to or exceeds 11 characters.",
+      "id": "row_7"
     }
   ],
   "columnPool": [
@@ -92,7 +100,8 @@
       "category": "geography",
       "match_count": 17,
       "display": "Is within the Cheshire East region",
-      "hint": "This station is based within the Cheshire East region."
+      "hint": "This station is based within the Cheshire East region.",
+      "id": "col_0"
     },
     {
       "type": "equals",
@@ -102,7 +111,8 @@
       "category": "geography",
       "match_count": 17,
       "display": "Is within the Stockport region",
-      "hint": "This station is based within the Stockport region."
+      "hint": "This station is based within the Stockport region.",
+      "id": "col_1"
     },
     {
       "type": "equals",
@@ -112,7 +122,8 @@
       "category": "geography",
       "match_count": 16,
       "display": "Is within the Manchester region",
-      "hint": "This station is based within the Manchester region."
+      "hint": "This station is based within the Manchester region.",
+      "id": "col_2"
     },
     {
       "type": "equals",
@@ -122,7 +133,8 @@
       "category": "geography",
       "match_count": 12,
       "display": "Is within the Tameside region",
-      "hint": "This station is based within the Tameside region."
+      "hint": "This station is based within the Tameside region.",
+      "id": "col_3"
     },
     {
       "type": "equals",
@@ -132,7 +144,8 @@
       "category": "geography",
       "match_count": 12,
       "display": "Is within the High Peak region",
-      "hint": "This station is based within the High Peak region."
+      "hint": "This station is based within the High Peak region.",
+      "id": "col_4"
     },
     {
       "type": "equals",
@@ -142,7 +155,8 @@
       "category": "geography",
       "match_count": 11,
       "display": "Is within the Westmorland and Furness region",
-      "hint": "This station is based within the Westmorland and Furness region."
+      "hint": "This station is based within the Westmorland and Furness region.",
+      "id": "col_5"
     },
     {
       "type": "equals",
@@ -152,7 +166,8 @@
       "category": "geography",
       "match_count": 11,
       "display": "Is within the Bolton region",
-      "hint": "This station is based within the Bolton region."
+      "hint": "This station is based within the Bolton region.",
+      "id": "col_6"
     },
     {
       "type": "equals",
@@ -162,7 +177,8 @@
       "category": "geography",
       "match_count": 9,
       "display": "Is within the Trafford region",
-      "hint": "This station is based within the Trafford region."
+      "hint": "This station is based within the Trafford region.",
+      "id": "col_7"
     },
     {
       "type": "equals",
@@ -172,7 +188,8 @@
       "category": "geography",
       "match_count": 9,
       "display": "Is within the Wigan region",
-      "hint": "This station is based within the Wigan region."
+      "hint": "This station is based within the Wigan region.",
+      "id": "col_8"
     },
     {
       "type": "equals",
@@ -182,7 +199,8 @@
       "category": "geography",
       "match_count": 9,
       "display": "Is within the Salford region",
-      "hint": "This station is based within the Salford region."
+      "hint": "This station is based within the Salford region.",
+      "id": "col_9"
     },
     {
       "type": "range",
@@ -192,7 +210,8 @@
       "category": "service",
       "match_count": 70,
       "display": "A short journey to Manchester (Picc/Vic)",
-      "hint": "In this puzzle, 'short' means under 24 minutes to Manchester (Picc/Vic)."
+      "hint": "In this puzzle, 'short' means under 24 minutes to Manchester (Picc/Vic).",
+      "id": "col_10"
     },
     {
       "type": "range",
@@ -203,7 +222,8 @@
       "category": "service",
       "match_count": 67,
       "display": "A mid-range journey to Manchester (Picc/Vic)",
-      "hint": "In this puzzle, 'mid-range' means 24-44 minutes to Manchester (Picc/Vic)."
+      "hint": "In this puzzle, 'mid-range' means 24-44 minutes to Manchester (Picc/Vic).",
+      "id": "col_11"
     },
     {
       "type": "range",
@@ -213,7 +233,8 @@
       "category": "service",
       "match_count": 68,
       "display": "A long journey to Manchester (Picc/Vic)",
-      "hint": "In this puzzle, 'long' means 44+ minutes to Manchester (Picc/Vic)."
+      "hint": "In this puzzle, 'long' means 44+ minutes to Manchester (Picc/Vic).",
+      "id": "col_12"
     },
     {
       "type": "array_contains",
@@ -223,7 +244,8 @@
       "category": "route",
       "match_count": 29,
       "display": "Is part of the Liverpool to Manchester Line route",
-      "hint": "The historic route between the two cities via Newton-le-Willows and Patricroft - opened in 1830 as the world's first inter-city passenger railway."
+      "hint": "The historic route between the two cities via Newton-le-Willows and Patricroft - opened in 1830 as the world's first inter-city passenger railway.",
+      "id": "col_13"
     },
     {
       "type": "array_contains",
@@ -233,7 +255,8 @@
       "category": "route",
       "match_count": 26,
       "display": "Is part of the Atherton Line route",
-      "hint": "The route from Manchester Victoria via Walkden, Atherton and Hindley to Wigan - the direct line between the two cities avoiding Bolton."
+      "hint": "The route from Manchester Victoria via Walkden, Atherton and Hindley to Wigan - the direct line between the two cities avoiding Bolton.",
+      "id": "col_14"
     },
     {
       "type": "array_contains",
@@ -243,7 +266,8 @@
       "category": "route",
       "match_count": 26,
       "display": "Is part of the Cumbrian Coast Line route",
-      "hint": "The long coastal route around the Cumbrian peninsula from Carlisle via Whitehaven and Barrow-in-Furness to Lancaster, skirting the Lake District's western edge."
+      "hint": "The long coastal route around the Cumbrian peninsula from Carlisle via Whitehaven and Barrow-in-Furness to Lancaster, skirting the Lake District's western edge.",
+      "id": "col_15"
     },
     {
       "type": "array_contains",
@@ -253,7 +277,8 @@
       "category": "route",
       "match_count": 25,
       "display": "Is part of the Furness Line route",
-      "hint": "The section of the Cumbrian coastal route around the Furness peninsula through Barrow-in-Furness - part of the wider Cumbrian Coast Line."
+      "hint": "The section of the Cumbrian coastal route around the Furness peninsula through Barrow-in-Furness - part of the wider Cumbrian Coast Line.",
+      "id": "col_16"
     },
     {
       "type": "array_contains",
@@ -263,7 +288,8 @@
       "category": "route",
       "match_count": 19,
       "display": "Is part of the Manchester to Crewe Line route",
-      "hint": "The route south from Manchester Piccadilly via Wilmslow and Alderley Edge to Crewe, splitting from the West Coast Main Line proper at Crewe."
+      "hint": "The route south from Manchester Piccadilly via Wilmslow and Alderley Edge to Crewe, splitting from the West Coast Main Line proper at Crewe.",
+      "id": "col_17"
     },
     {
       "type": "array_contains",
@@ -273,7 +299,8 @@
       "category": "route",
       "match_count": 18,
       "display": "Is part of the Hope Valley Line route",
-      "hint": "The scenic route from Manchester Piccadilly via New Mills and Edale through the Hope Valley and the Peak District to Sheffield, running through the Totley Tunnel, the fourth-longest in England."
+      "hint": "The scenic route from Manchester Piccadilly via New Mills and Edale through the Hope Valley and the Peak District to Sheffield, running through the Totley Tunnel, the fourth-longest in England.",
+      "id": "col_18"
     },
     {
       "type": "array_contains",
@@ -283,7 +310,8 @@
       "category": "route",
       "match_count": 18,
       "display": "Is part of the East Lancashire Line route",
-      "hint": "The route from Preston through Blackburn, Accrington and Burnley to Colne - originally built by the East Lancashire Railway, absorbing two earlier companies in the 1840s."
+      "hint": "The route from Preston through Blackburn, Accrington and Burnley to Colne - originally built by the East Lancashire Railway, absorbing two earlier companies in the 1840s.",
+      "id": "col_19"
     },
     {
       "type": "array_contains",
@@ -293,7 +321,8 @@
       "category": "route",
       "match_count": 17,
       "display": "Is part of the Lakes Line route",
-      "hint": "The branch north from Oxenholme (on the West Coast Main Line) via Kendal to Windermere, the main rail gateway to the Lake District."
+      "hint": "The branch north from Oxenholme (on the West Coast Main Line) via Kendal to Windermere, the main rail gateway to the Lake District.",
+      "id": "col_20"
     },
     {
       "type": "array_contains",
@@ -303,7 +332,8 @@
       "category": "route",
       "match_count": 16,
       "display": "Is part of the Buxton Line route",
-      "hint": "The route from Manchester Piccadilly via Stockport and Hazel Grove to the spa town of Buxton in the Peak District, running alongside the Hope Valley Line for much of its length."
+      "hint": "The route from Manchester Piccadilly via Stockport and Hazel Grove to the spa town of Buxton in the Peak District, running alongside the Hope Valley Line for much of its length.",
+      "id": "col_21"
     },
     {
       "type": "array_contains",
@@ -313,7 +343,8 @@
       "category": "route",
       "match_count": 16,
       "display": "Is part of the Liverpool to Manchester Line via Warrington Central route",
-      "hint": "The alternative, more southerly route between the two cities via Warrington Central and Irlam, distinct from the more direct Liverpool-Manchester main line via Newton-le-Willows."
+      "hint": "The alternative, more southerly route between the two cities via Warrington Central and Irlam, distinct from the more direct Liverpool-Manchester main line via Newton-le-Willows.",
+      "id": "col_22"
     },
     {
       "type": "array_contains",
@@ -323,7 +354,8 @@
       "category": "route",
       "match_count": 14,
       "display": "Is part of the Glossop Line route",
-      "hint": "The short branch from Manchester Piccadilly via Guide Bridge and Hadfield to Glossop, at the edge of the Peak District."
+      "hint": "The short branch from Manchester Piccadilly via Guide Bridge and Hadfield to Glossop, at the edge of the Peak District.",
+      "id": "col_23"
     },
     {
       "type": "array_contains",
@@ -333,7 +365,8 @@
       "category": "route",
       "match_count": 14,
       "display": "Is part of the Mid-Cheshire Line route",
-      "hint": "The cross-country route linking Manchester (via Stockport and Altrincham) to Chester, through Knutsford, Northwich and the Delamere Forest."
+      "hint": "The cross-country route linking Manchester (via Stockport and Altrincham) to Chester, through Knutsford, Northwich and the Delamere Forest.",
+      "id": "col_24"
     },
     {
       "type": "array_contains",
@@ -343,7 +376,8 @@
       "category": "route",
       "match_count": 10,
       "display": "Is part of the Stafford to Manchester Line route",
-      "hint": "The route from Manchester Piccadilly via Wilmslow, Macclesfield and Congleton towards Stoke-on-Trent and Stafford."
+      "hint": "The route from Manchester Piccadilly via Wilmslow, Macclesfield and Congleton towards Stoke-on-Trent and Stafford.",
+      "id": "col_25"
     },
     {
       "type": "array_contains",
@@ -353,7 +387,8 @@
       "category": "route",
       "match_count": 10,
       "display": "Is part of the Clitheroe Line route",
-      "hint": "The route from Manchester Victoria via Bolton and Blackburn to the market town of Clitheroe - also known as the Ribble Valley Line, with occasional trains continuing to Hellifield."
+      "hint": "The route from Manchester Victoria via Bolton and Blackburn to the market town of Clitheroe - also known as the Ribble Valley Line, with occasional trains continuing to Hellifield.",
+      "id": "col_26"
     },
     {
       "type": "array_contains",
@@ -363,7 +398,8 @@
       "category": "route",
       "match_count": 9,
       "display": "Is part of the West Lancashire Line route",
-      "hint": "The route from Wigan via Appley Bridge and Burscough Bridge to Southport, running through the flat farmland of West Lancashire."
+      "hint": "The route from Wigan via Appley Bridge and Burscough Bridge to Southport, running through the flat farmland of West Lancashire.",
+      "id": "col_27"
     },
     {
       "type": "equals",
@@ -373,7 +409,8 @@
       "category": "name",
       "match_count": 63,
       "display": "Naming style: a common English place-name ending",
-      "hint": "The name ends in a common English place-name suffix, like -ton, -ham, -by or -dale."
+      "hint": "The name ends in a common English place-name suffix, like -ton, -ham, -by or -dale.",
+      "id": "col_28"
     },
     {
       "type": "equals",
@@ -383,7 +420,8 @@
       "category": "name",
       "match_count": 32,
       "display": "Naming style: an unusual name format",
-      "hint": "Something unusual about how the name is written - brackets, a hyphen, an ampersand, or 'St'."
+      "hint": "Something unusual about how the name is written - brackets, a hyphen, an ampersand, or 'St'.",
+      "id": "col_29"
     },
     {
       "type": "equals",
@@ -393,7 +431,8 @@
       "category": "name",
       "match_count": 11,
       "display": "Naming style: a nature word in the name",
-      "hint": "The name includes a nature word, like Park, Hill, Green, Heath or Wood."
+      "hint": "The name includes a nature word, like Park, Hill, Green, Heath or Wood.",
+      "id": "col_30"
     },
     {
       "type": "array_contains",
@@ -403,7 +442,8 @@
       "category": "name",
       "match_count": 34,
       "display": "Word contains 'ton'",
-      "hint": "Word contains 'ton'."
+      "hint": "Word contains 'ton'.",
+      "id": "col_31"
     },
     {
       "type": "array_contains",
@@ -413,7 +453,8 @@
       "category": "name",
       "match_count": 25,
       "display": "Word contains 'ey'",
-      "hint": "Word contains 'ey'."
+      "hint": "Word contains 'ey'.",
+      "id": "col_32"
     },
     {
       "type": "array_contains",
@@ -423,7 +464,8 @@
       "category": "name",
       "match_count": 23,
       "display": "Word contains 'ley'",
-      "hint": "Word contains 'ley'."
+      "hint": "Word contains 'ley'.",
+      "id": "col_33"
     },
     {
       "type": "array_contains",
@@ -433,7 +475,8 @@
       "category": "name",
       "match_count": 20,
       "display": "Name includes brackets",
-      "hint": "The station name includes text in brackets, e.g. a disambiguator like '(Cumbria)'."
+      "hint": "The station name includes text in brackets, e.g. a disambiguator like '(Cumbria)'.",
+      "id": "col_34"
     },
     {
       "type": "array_contains",
@@ -443,7 +486,8 @@
       "category": "name",
       "match_count": 7,
       "display": "Word contains 'ington'",
-      "hint": "Word contains 'ington'."
+      "hint": "Word contains 'ington'.",
+      "id": "col_35"
     },
     {
       "type": "array_contains",
@@ -453,7 +497,8 @@
       "category": "name",
       "match_count": 7,
       "display": "Name includes a hyphen",
-      "hint": "The station name includes a hyphen."
+      "hint": "The station name includes a hyphen.",
+      "id": "col_36"
     },
     {
       "type": "array_contains",
@@ -463,7 +508,8 @@
       "category": "name",
       "match_count": 7,
       "display": "Word contains 'ford'",
-      "hint": "Word contains 'ford'."
+      "hint": "Word contains 'ford'.",
+      "id": "col_37"
     },
     {
       "type": "array_contains",
@@ -473,7 +519,8 @@
       "category": "name",
       "match_count": 6,
       "display": "Word contains 'ridge'",
-      "hint": "Word contains 'ridge'."
+      "hint": "Word contains 'ridge'.",
+      "id": "col_38"
     },
     {
       "type": "array_contains",
@@ -483,7 +530,8 @@
       "category": "name",
       "match_count": 6,
       "display": "Word contains 'green'",
-      "hint": "Word contains 'green'."
+      "hint": "Word contains 'green'.",
+      "id": "col_39"
     },
     {
       "type": "array_contains",
@@ -493,7 +541,8 @@
       "category": "name",
       "match_count": 5,
       "display": "Word contains 'field'",
-      "hint": "Word contains 'field'."
+      "hint": "Word contains 'field'.",
+      "id": "col_40"
     },
     {
       "type": "array_contains",
@@ -503,7 +552,8 @@
       "category": "name",
       "match_count": 5,
       "display": "Word contains 'park'",
-      "hint": "Word contains 'park'."
+      "hint": "Word contains 'park'.",
+      "id": "col_41"
     },
     {
       "type": "array_contains",
@@ -513,7 +563,8 @@
       "category": "name",
       "match_count": 4,
       "display": "Name includes an '&'",
-      "hint": "The station name includes an ampersand (&)."
+      "hint": "The station name includes an ampersand (&).",
+      "id": "col_42"
     },
     {
       "type": "array_contains",
@@ -523,7 +574,8 @@
       "category": "name",
       "match_count": 4,
       "display": "Word contains 'gate'",
-      "hint": "Word contains 'gate'."
+      "hint": "Word contains 'gate'.",
+      "id": "col_43"
     },
     {
       "type": "array_contains",
@@ -533,7 +585,8 @@
       "category": "name",
       "match_count": 4,
       "display": "Word contains 'hill'",
-      "hint": "Word contains 'hill'."
+      "hint": "Word contains 'hill'.",
+      "id": "col_44"
     },
     {
       "type": "array_contains",
@@ -543,7 +596,8 @@
       "category": "name",
       "match_count": 3,
       "display": "Word contains 'wood'",
-      "hint": "Word contains 'wood'."
+      "hint": "Word contains 'wood'.",
+      "id": "col_45"
     }
   ]
 }

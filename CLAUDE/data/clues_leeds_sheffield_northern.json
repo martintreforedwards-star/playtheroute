@@ -7,8 +7,9 @@
       "label": "Interchange station",
       "weight": "medium",
       "match_count": 82,
-      "display": "Is an interchange station",
-      "hint": "Served by two or more separate named routes, or where several lines physically meet."
+      "display": "Change trains here",
+      "hint": "Served by two or more separate named routes, or where several lines physically meet.",
+      "id": "row_0"
     },
     {
       "type": "equals",
@@ -18,7 +19,8 @@
       "weight": "high",
       "match_count": 9,
       "display": "Near the coast",
-      "hint": "A station within 3 kilometres of the coastline or an estuary."
+      "hint": "A station within 3 kilometres of the coastline or an estuary.",
+      "id": "row_1"
     },
     {
       "type": "range",
@@ -28,7 +30,8 @@
       "weight": "medium",
       "match_count": 37,
       "display": "Terminus station",
-      "hint": "At least some journeys terminate at this station - it's not just a stop along the way."
+      "hint": "At least some journeys terminate at this station - it's not just a stop along the way.",
+      "id": "row_2"
     },
     {
       "type": "equals",
@@ -38,7 +41,8 @@
       "weight": "medium",
       "match_count": 120,
       "display": "Station name is one word",
-      "hint": "Station is a one-word name."
+      "hint": "Station is a one-word name.",
+      "id": "row_3"
     },
     {
       "type": "range",
@@ -48,7 +52,8 @@
       "weight": "high",
       "match_count": 5,
       "display": "Station name is 3+ words",
-      "hint": "Station name is three or more words long."
+      "hint": "Station name is three or more words long.",
+      "id": "row_4"
     },
     {
       "type": "range",
@@ -59,7 +64,8 @@
       "weight": "high",
       "match_count": 26,
       "display": "Station name is 6 letters or fewer",
-      "hint": "Station name is 6 characters or fewer."
+      "hint": "Station name is 6 characters or fewer.",
+      "id": "row_5"
     },
     {
       "type": "range",
@@ -70,7 +76,8 @@
       "weight": "medium",
       "match_count": 78,
       "display": "Station name is 7-10 letters",
-      "hint": "Station name length is between 7 and 10 characters."
+      "hint": "Station name length is between 7 and 10 characters.",
+      "id": "row_6"
     },
     {
       "type": "range",
@@ -80,7 +87,8 @@
       "weight": "medium",
       "match_count": 63,
       "display": "Station name is 11+ letters",
-      "hint": "Station name is equal to or exceeds 11 characters."
+      "hint": "Station name is equal to or exceeds 11 characters.",
+      "id": "row_7"
     }
   ],
   "columnPool": [
@@ -92,7 +100,8 @@
       "category": "geography",
       "match_count": 28,
       "display": "Is within the North Yorkshire region",
-      "hint": "This station is based within the North Yorkshire region."
+      "hint": "This station is based within the North Yorkshire region.",
+      "id": "col_0"
     },
     {
       "type": "equals",
@@ -102,7 +111,8 @@
       "category": "geography",
       "match_count": 20,
       "display": "Is within the East Riding of Yorkshire region",
-      "hint": "This station is based within the East Riding of Yorkshire region."
+      "hint": "This station is based within the East Riding of Yorkshire region.",
+      "id": "col_1"
     },
     {
       "type": "equals",
@@ -112,7 +122,8 @@
       "category": "geography",
       "match_count": 16,
       "display": "Is within the Leeds region",
-      "hint": "This station is based within the Leeds region."
+      "hint": "This station is based within the Leeds region.",
+      "id": "col_2"
     },
     {
       "type": "equals",
@@ -122,7 +133,8 @@
       "category": "geography",
       "match_count": 16,
       "display": "Is within the Wakefield region",
-      "hint": "This station is based within the Wakefield region."
+      "hint": "This station is based within the Wakefield region.",
+      "id": "col_3"
     },
     {
       "type": "equals",
@@ -132,7 +144,8 @@
       "category": "geography",
       "match_count": 15,
       "display": "Is within the Bradford region",
-      "hint": "This station is based within the Bradford region."
+      "hint": "This station is based within the Bradford region.",
+      "id": "col_4"
     },
     {
       "type": "equals",
@@ -142,7 +155,8 @@
       "category": "geography",
       "match_count": 12,
       "display": "Is within the Kirklees region",
-      "hint": "This station is based within the Kirklees region."
+      "hint": "This station is based within the Kirklees region.",
+      "id": "col_5"
     },
     {
       "type": "equals",
@@ -152,7 +166,8 @@
       "category": "geography",
       "match_count": 10,
       "display": "Is within the Barnsley region",
-      "hint": "This station is based within the Barnsley region."
+      "hint": "This station is based within the Barnsley region.",
+      "id": "col_6"
     },
     {
       "type": "equals",
@@ -162,7 +177,8 @@
       "category": "geography",
       "match_count": 9,
       "display": "Is within the Doncaster region",
-      "hint": "This station is based within the Doncaster region."
+      "hint": "This station is based within the Doncaster region.",
+      "id": "col_7"
     },
     {
       "type": "equals",
@@ -172,7 +188,8 @@
       "category": "geography",
       "match_count": 8,
       "display": "Is within the Westmorland and Furness region",
-      "hint": "This station is based within the Westmorland and Furness region."
+      "hint": "This station is based within the Westmorland and Furness region.",
+      "id": "col_8"
     },
     {
       "type": "equals",
@@ -182,7 +199,8 @@
       "category": "geography",
       "match_count": 5,
       "display": "Is within the Calderdale region",
-      "hint": "This station is based within the Calderdale region."
+      "hint": "This station is based within the Calderdale region.",
+      "id": "col_9"
     },
     {
       "type": "equals",
@@ -192,7 +210,8 @@
       "category": "geography",
       "match_count": 55,
       "display": "Trains head to Sheffield",
-      "hint": "This station's journeys are routed via or towards Sheffield."
+      "hint": "This station's journeys are routed via or towards Sheffield.",
+      "id": "col_10"
     },
     {
       "type": "equals",
@@ -202,7 +221,8 @@
       "category": "geography",
       "match_count": 112,
       "display": "Trains head to Leeds",
-      "hint": "This station's journeys are routed via or towards Leeds."
+      "hint": "This station's journeys are routed via or towards Leeds.",
+      "id": "col_11"
     },
     {
       "type": "range",
@@ -212,7 +232,8 @@
       "category": "service",
       "match_count": 38,
       "display": "A short journey to Leeds",
-      "hint": "In this puzzle, 'short' means under 26 minutes to Leeds."
+      "hint": "In this puzzle, 'short' means under 26 minutes to Leeds.",
+      "id": "col_12"
     },
     {
       "type": "range",
@@ -223,7 +244,8 @@
       "category": "service",
       "match_count": 38,
       "display": "A mid-range journey to Leeds",
-      "hint": "In this puzzle, 'mid-range' means 26-54 minutes to Leeds."
+      "hint": "In this puzzle, 'mid-range' means 26-54 minutes to Leeds.",
+      "id": "col_13"
     },
     {
       "type": "range",
@@ -233,7 +255,8 @@
       "category": "service",
       "match_count": 37,
       "display": "A long journey to Leeds",
-      "hint": "In this puzzle, 'long' means 54+ minutes to Leeds."
+      "hint": "In this puzzle, 'long' means 54+ minutes to Leeds.",
+      "id": "col_14"
     },
     {
       "type": "range",
@@ -243,7 +266,8 @@
       "category": "service",
       "match_count": 19,
       "display": "A short journey to Sheffield",
-      "hint": "In this puzzle, 'short' means under 26 minutes to Sheffield."
+      "hint": "In this puzzle, 'short' means under 26 minutes to Sheffield.",
+      "id": "col_15"
     },
     {
       "type": "range",
@@ -254,7 +278,8 @@
       "category": "service",
       "match_count": 19,
       "display": "A mid-range journey to Sheffield",
-      "hint": "In this puzzle, 'mid-range' means 26-52 minutes to Sheffield."
+      "hint": "In this puzzle, 'mid-range' means 26-52 minutes to Sheffield.",
+      "id": "col_16"
     },
     {
       "type": "range",
@@ -264,7 +289,8 @@
       "category": "service",
       "match_count": 20,
       "display": "A long journey to Sheffield",
-      "hint": "In this puzzle, 'long' means 52+ minutes to Sheffield."
+      "hint": "In this puzzle, 'long' means 52+ minutes to Sheffield.",
+      "id": "col_17"
     },
     {
       "type": "array_contains",
@@ -274,7 +300,8 @@
       "category": "route",
       "match_count": 36,
       "display": "Is part of the Hull and Doncaster Branch route",
-      "hint": "The flat, direct route from Gilberdyke (on the Hull-Selby line) south-west via Goole to a junction near Thorne, connecting Hull to Doncaster and South Yorkshire without going via Selby."
+      "hint": "The flat, direct route from Gilberdyke (on the Hull-Selby line) south-west via Goole to a junction near Thorne, connecting Hull to Doncaster and South Yorkshire without going via Selby.",
+      "id": "col_18"
     },
     {
       "type": "array_contains",
@@ -284,7 +311,8 @@
       "category": "route",
       "match_count": 30,
       "display": "Is part of the Hallam Line route",
-      "hint": "The commuter route from Sheffield through Meadowhall to Leeds via Wakefield - named after Hallamshire, the historic district around Sheffield."
+      "hint": "The commuter route from Sheffield through Meadowhall to Leeds via Wakefield - named after Hallamshire, the historic district around Sheffield.",
+      "id": "col_19"
     },
     {
       "type": "array_contains",
@@ -294,7 +322,8 @@
       "category": "route",
       "match_count": 28,
       "display": "Is part of the Settle Carlisle Line route",
-      "hint": "England's most scenic railway, running 72 miles from Settle Junction over the Ribblehead Viaduct and through the Yorkshire Dales to Carlisle - built by the Midland Railway in the 1870s using manual labour."
+      "hint": "England's most scenic railway, running 72 miles from Settle Junction over the Ribblehead Viaduct and through the Yorkshire Dales to Carlisle - built by the Midland Railway in the 1870s using manual labour.",
+      "id": "col_20"
     },
     {
       "type": "array_contains",
@@ -304,7 +333,8 @@
       "category": "route",
       "match_count": 22,
       "display": "Is part of the Selby Line route",
-      "hint": "The route east from Leeds via South Milford to the market town of Selby, with through services continuing to Hull."
+      "hint": "The route east from Leeds via South Milford to the market town of Selby, with through services continuing to Hull.",
+      "id": "col_21"
     },
     {
       "type": "array_contains",
@@ -314,7 +344,8 @@
       "category": "route",
       "match_count": 21,
       "display": "Is part of the Penistone Line route",
-      "hint": "The winding cross-Pennine route from Huddersfield via Penistone and Barnsley to Sheffield, crossing three major viaducts - one of Britain's earliest lines, opened in 1850."
+      "hint": "The winding cross-Pennine route from Huddersfield via Penistone and Barnsley to Sheffield, crossing three major viaducts - one of Britain's earliest lines, opened in 1850.",
+      "id": "col_22"
     },
     {
       "type": "array_contains",
@@ -324,7 +355,8 @@
       "category": "route",
       "match_count": 20,
       "display": "Is part of the Bentham Line route",
-      "hint": "The 'little' route from Leeds via Skipton and the market town of Bentham to Lancaster and Morecambe, running alongside the Settle-Carlisle line before splitting off at Settle Junction."
+      "hint": "The 'little' route from Leeds via Skipton and the market town of Bentham to Lancaster and Morecambe, running alongside the Settle-Carlisle line before splitting off at Settle Junction.",
+      "id": "col_23"
     },
     {
       "type": "array_contains",
@@ -334,7 +366,8 @@
       "category": "route",
       "match_count": 19,
       "display": "Is part of the Airedale Line route",
-      "hint": "The commuter route from Leeds through Shipley and Bingley up the Aire Valley to Skipton and Gargrave, with a branch into Bradford Forster Square."
+      "hint": "The commuter route from Leeds through Shipley and Bingley up the Aire Valley to Skipton and Gargrave, with a branch into Bradford Forster Square.",
+      "id": "col_24"
     },
     {
       "type": "array_contains",
@@ -344,7 +377,8 @@
       "category": "route",
       "match_count": 15,
       "display": "Is part of the Pontefract Line route",
-      "hint": "The route from Leeds and Wakefield through Castleford and Pontefract to Knottingley, with a limited service continuing to Goole."
+      "hint": "The route from Leeds and Wakefield through Castleford and Pontefract to Knottingley, with a limited service continuing to Goole.",
+      "id": "col_25"
     },
     {
       "type": "array_contains",
@@ -354,7 +388,8 @@
       "category": "route",
       "match_count": 14,
       "display": "Is part of the Harrogate Line route",
-      "hint": "The route from Leeds through Horsforth and Weeton to the spa town of Harrogate, continuing to Knaresborough and York."
+      "hint": "The route from Leeds through Horsforth and Weeton to the spa town of Harrogate, continuing to Knaresborough and York.",
+      "id": "col_26"
     },
     {
       "type": "array_contains",
@@ -364,7 +399,8 @@
       "category": "route",
       "match_count": 12,
       "display": "Is part of the Dearne Valley Line route",
-      "hint": "The route from York south through Church Fenton and Pontefract Baghill to Moorthorpe, Rotherham and Sheffield - not to be confused with the older, separate Dearne Valley Railway."
+      "hint": "The route from York south through Church Fenton and Pontefract Baghill to Moorthorpe, Rotherham and Sheffield - not to be confused with the older, separate Dearne Valley Railway.",
+      "id": "col_27"
     },
     {
       "type": "array_contains",
@@ -374,7 +410,8 @@
       "category": "route",
       "match_count": 11,
       "display": "Is part of the Yorkshire Coast Line route",
-      "hint": "The route from York and Malton to the seaside resorts of Scarborough and Filey, with a branch north to Whitby via the Esk Valley and another to Bridlington and Hull."
+      "hint": "The route from York and Malton to the seaside resorts of Scarborough and Filey, with a branch north to Whitby via the Esk Valley and another to Bridlington and Hull.",
+      "id": "col_28"
     },
     {
       "type": "array_contains",
@@ -384,7 +421,8 @@
       "category": "route",
       "match_count": 10,
       "display": "Is part of the Wharfedale Line route",
-      "hint": "The branch north from Leeds and Bradford via Guiseley and Menston up the Wharfe Valley to the spa town of Ilkley."
+      "hint": "The branch north from Leeds and Bradford via Guiseley and Menston up the Wharfe Valley to the spa town of Ilkley.",
+      "id": "col_29"
     },
     {
       "type": "array_contains",
@@ -394,7 +432,8 @@
       "category": "route",
       "match_count": 10,
       "display": "Is part of the Sheffield to Lincoln Line route",
-      "hint": "The extension of some Penistone Line services beyond Sheffield via Kiveton Bridge, Worksop and Gainsborough to Lincoln."
+      "hint": "The extension of some Penistone Line services beyond Sheffield via Kiveton Bridge, Worksop and Gainsborough to Lincoln.",
+      "id": "col_30"
     },
     {
       "type": "array_contains",
@@ -404,7 +443,8 @@
       "category": "route",
       "match_count": 9,
       "display": "Is part of the Calder Vale Line route",
-      "hint": "The route through the Calder Valley from Leeds via Bradford, Halifax and Sowerby Bridge to Hebden Bridge and Todmorden, continuing towards Lancashire."
+      "hint": "The route through the Calder Valley from Leeds via Bradford, Halifax and Sowerby Bridge to Hebden Bridge and Todmorden, continuing towards Lancashire.",
+      "id": "col_31"
     },
     {
       "type": "array_contains",
@@ -414,7 +454,8 @@
       "category": "route",
       "match_count": 9,
       "display": "Is part of the Huddersfield Line route",
-      "hint": "The trans-Pennine route from Leeds through Dewsbury and Huddersfield towards Manchester, via the Standedge Tunnel - one of the longest railway tunnels in Britain."
+      "hint": "The trans-Pennine route from Leeds through Dewsbury and Huddersfield towards Manchester, via the Standedge Tunnel - one of the longest railway tunnels in Britain.",
+      "id": "col_32"
     },
     {
       "type": "equals",
@@ -424,7 +465,8 @@
       "category": "name",
       "match_count": 64,
       "display": "Naming style: a common English place-name ending",
-      "hint": "The name ends in a common English place-name suffix, like -ton, -ham, -by or -dale."
+      "hint": "The name ends in a common English place-name suffix, like -ton, -ham, -by or -dale.",
+      "id": "col_33"
     },
     {
       "type": "equals",
@@ -434,7 +476,8 @@
       "category": "name",
       "match_count": 15,
       "display": "Naming style: an unusual name format",
-      "hint": "Something unusual about how the name is written - brackets, a hyphen, an ampersand, or 'St'."
+      "hint": "Something unusual about how the name is written - brackets, a hyphen, an ampersand, or 'St'.",
+      "id": "col_34"
     },
     {
       "type": "array_contains",
@@ -444,7 +487,8 @@
       "category": "name",
       "match_count": 25,
       "display": "Word contains 'ey'",
-      "hint": "Word contains 'ey'."
+      "hint": "Word contains 'ey'.",
+      "id": "col_35"
     },
     {
       "type": "array_contains",
@@ -454,7 +498,8 @@
       "category": "name",
       "match_count": 24,
       "display": "Word contains 'ton'",
-      "hint": "Word contains 'ton'."
+      "hint": "Word contains 'ton'.",
+      "id": "col_36"
     },
     {
       "type": "array_contains",
@@ -464,7 +509,8 @@
       "category": "name",
       "match_count": 23,
       "display": "Word contains 'ley'",
-      "hint": "Word contains 'ley'."
+      "hint": "Word contains 'ley'.",
+      "id": "col_37"
     },
     {
       "type": "array_contains",
@@ -474,7 +520,8 @@
       "category": "name",
       "match_count": 9,
       "display": "Word contains 'by'",
-      "hint": "Word contains 'by'."
+      "hint": "Word contains 'by'.",
+      "id": "col_38"
     },
     {
       "type": "array_contains",
@@ -484,7 +531,8 @@
       "category": "name",
       "match_count": 8,
       "display": "Word contains 'field'",
-      "hint": "Word contains 'field'."
+      "hint": "Word contains 'field'.",
+      "id": "col_39"
     },
     {
       "type": "array_contains",
@@ -494,7 +542,8 @@
       "category": "name",
       "match_count": 7,
       "display": "Word contains 'ford'",
-      "hint": "Word contains 'ford'."
+      "hint": "Word contains 'ford'.",
+      "id": "col_40"
     },
     {
       "type": "array_contains",
@@ -504,7 +553,8 @@
       "category": "name",
       "match_count": 6,
       "display": "Name includes brackets",
-      "hint": "The station name includes text in brackets, e.g. a disambiguator like '(Cumbria)'."
+      "hint": "The station name includes text in brackets, e.g. a disambiguator like '(Cumbria)'.",
+      "id": "col_41"
     },
     {
       "type": "array_contains",
@@ -514,7 +564,8 @@
       "category": "name",
       "match_count": 5,
       "display": "Word contains 'ridge'",
-      "hint": "Word contains 'ridge'."
+      "hint": "Word contains 'ridge'.",
+      "id": "col_42"
     },
     {
       "type": "array_contains",
@@ -524,7 +575,8 @@
       "category": "name",
       "match_count": 5,
       "display": "Word contains 'dale'",
-      "hint": "Word contains 'dale'."
+      "hint": "Word contains 'dale'.",
+      "id": "col_43"
     },
     {
       "type": "array_contains",
@@ -534,7 +586,8 @@
       "category": "name",
       "match_count": 5,
       "display": "Name includes an '&'",
-      "hint": "The station name includes an ampersand (&)."
+      "hint": "The station name includes an ampersand (&).",
+      "id": "col_44"
     },
     {
       "type": "array_contains",
@@ -544,7 +597,8 @@
       "category": "name",
       "match_count": 4,
       "display": "Name includes a hyphen",
-      "hint": "The station name includes a hyphen."
+      "hint": "The station name includes a hyphen.",
+      "id": "col_45"
     },
     {
       "type": "array_contains",
@@ -554,7 +608,8 @@
       "category": "name",
       "match_count": 3,
       "display": "Word contains 'park'",
-      "hint": "Word contains 'park'."
+      "hint": "Word contains 'park'.",
+      "id": "col_46"
     }
   ]
 }

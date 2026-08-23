@@ -7,8 +7,9 @@
       "label": "Interchange station",
       "weight": "medium",
       "match_count": 29,
-      "display": "Is an interchange station",
-      "hint": "Served by two or more separate named routes, or where several lines physically meet."
+      "display": "Change trains here",
+      "hint": "Served by two or more separate named routes, or where several lines physically meet.",
+      "id": "row_0"
     },
     {
       "type": "equals",
@@ -18,7 +19,8 @@
       "weight": "medium",
       "match_count": 22,
       "display": "Near the coast",
-      "hint": "A station within 3 kilometres of the coastline or an estuary."
+      "hint": "A station within 3 kilometres of the coastline or an estuary.",
+      "id": "row_1"
     },
     {
       "type": "range",
@@ -28,7 +30,8 @@
       "weight": "medium",
       "match_count": 20,
       "display": "Terminus station",
-      "hint": "At least some journeys terminate at this station - it's not just a stop along the way."
+      "hint": "At least some journeys terminate at this station - it's not just a stop along the way.",
+      "id": "row_2"
     },
     {
       "type": "equals",
@@ -38,7 +41,8 @@
       "weight": "medium",
       "match_count": 61,
       "display": "Station name is one word",
-      "hint": "Station is a one-word name."
+      "hint": "Station is a one-word name.",
+      "id": "row_3"
     },
     {
       "type": "range",
@@ -48,7 +52,8 @@
       "weight": "high",
       "match_count": 3,
       "display": "Station name is 3+ words",
-      "hint": "Station name is three or more words long."
+      "hint": "Station name is three or more words long.",
+      "id": "row_4"
     },
     {
       "type": "range",
@@ -59,7 +64,8 @@
       "weight": "high",
       "match_count": 13,
       "display": "Station name is 6 letters or fewer",
-      "hint": "Station name is 6 characters or fewer."
+      "hint": "Station name is 6 characters or fewer.",
+      "id": "row_5"
     },
     {
       "type": "range",
@@ -70,7 +76,8 @@
       "weight": "medium",
       "match_count": 45,
       "display": "Station name is 7-10 letters",
-      "hint": "Station name length is between 7 and 10 characters."
+      "hint": "Station name length is between 7 and 10 characters.",
+      "id": "row_6"
     },
     {
       "type": "range",
@@ -80,7 +87,8 @@
       "weight": "medium",
       "match_count": 24,
       "display": "Station name is 11+ letters",
-      "hint": "Station name is equal to or exceeds 11 characters."
+      "hint": "Station name is equal to or exceeds 11 characters.",
+      "id": "row_7"
     }
   ],
   "columnPool": [
@@ -92,7 +100,8 @@
       "category": "geography",
       "match_count": 21,
       "display": "Is within the Northumberland region",
-      "hint": "This station is based within the Northumberland region."
+      "hint": "This station is based within the Northumberland region.",
+      "id": "col_0"
     },
     {
       "type": "equals",
@@ -102,7 +111,8 @@
       "category": "geography",
       "match_count": 13,
       "display": "Is within the North Yorkshire region",
-      "hint": "This station is based within the North Yorkshire region."
+      "hint": "This station is based within the North Yorkshire region.",
+      "id": "col_1"
     },
     {
       "type": "equals",
@@ -112,7 +122,8 @@
       "category": "geography",
       "match_count": 11,
       "display": "Is within the Cumberland region",
-      "hint": "This station is based within the Cumberland region."
+      "hint": "This station is based within the Cumberland region.",
+      "id": "col_2"
     },
     {
       "type": "equals",
@@ -122,7 +133,8 @@
       "category": "geography",
       "match_count": 10,
       "display": "Is within the Redcar and Cleveland region",
-      "hint": "This station is based within the Redcar and Cleveland region."
+      "hint": "This station is based within the Redcar and Cleveland region.",
+      "id": "col_3"
     },
     {
       "type": "equals",
@@ -132,7 +144,8 @@
       "category": "geography",
       "match_count": 7,
       "display": "Is within the County Durham region",
-      "hint": "This station is based within the County Durham region."
+      "hint": "This station is based within the County Durham region.",
+      "id": "col_4"
     },
     {
       "type": "equals",
@@ -142,7 +155,8 @@
       "category": "geography",
       "match_count": 5,
       "display": "Is within the Stockton-on-Tees region",
-      "hint": "This station is based within the Stockton-on-Tees region."
+      "hint": "This station is based within the Stockton-on-Tees region.",
+      "id": "col_5"
     },
     {
       "type": "equals",
@@ -152,7 +166,8 @@
       "category": "geography",
       "match_count": 4,
       "display": "Is within the Gateshead region",
-      "hint": "This station is based within the Gateshead region."
+      "hint": "This station is based within the Gateshead region.",
+      "id": "col_6"
     },
     {
       "type": "equals",
@@ -162,7 +177,8 @@
       "category": "geography",
       "match_count": 3,
       "display": "Is within the Darlington region",
-      "hint": "This station is based within the Darlington region."
+      "hint": "This station is based within the Darlington region.",
+      "id": "col_7"
     },
     {
       "type": "range",
@@ -172,7 +188,8 @@
       "category": "service",
       "match_count": 28,
       "display": "A short journey to Newcastle",
-      "hint": "In this puzzle, 'short' means under 40 minutes to Newcastle."
+      "hint": "In this puzzle, 'short' means under 40 minutes to Newcastle.",
+      "id": "col_8"
     },
     {
       "type": "range",
@@ -183,7 +200,8 @@
       "category": "service",
       "match_count": 29,
       "display": "A mid-range journey to Newcastle",
-      "hint": "In this puzzle, 'mid-range' means 40-93 minutes to Newcastle."
+      "hint": "In this puzzle, 'mid-range' means 40-93 minutes to Newcastle.",
+      "id": "col_9"
     },
     {
       "type": "range",
@@ -193,7 +211,8 @@
       "category": "service",
       "match_count": 27,
       "display": "A long journey to Newcastle",
-      "hint": "In this puzzle, 'long' means 93+ minutes to Newcastle."
+      "hint": "In this puzzle, 'long' means 93+ minutes to Newcastle.",
+      "id": "col_10"
     },
     {
       "type": "array_contains",
@@ -203,7 +222,8 @@
       "category": "route",
       "match_count": 31,
       "display": "Is part of the Hadrian's Wall Country Line route",
-      "hint": "The scenic route from Newcastle via Hexham and Haltwhistle to Carlisle, following the course of the River Tyne alongside Hadrian's Wall - same route as the Tyne Valley Line, just the tourist branding name."
+      "hint": "The scenic route from Newcastle via Hexham and Haltwhistle to Carlisle, following the course of the River Tyne alongside Hadrian's Wall - same route as the Tyne Valley Line, just the tourist branding name.",
+      "id": "col_11"
     },
     {
       "type": "array_contains",
@@ -213,7 +233,8 @@
       "category": "route",
       "match_count": 31,
       "display": "Is part of the Tyne Valley Line route",
-      "hint": "The historic route from Newcastle via Hexham and Haltwhistle to Carlisle, opened in 1838 as one of the oldest passenger railways in the world - also branded the Hadrian's Wall Country Line for its proximity to the Roman wall."
+      "hint": "The historic route from Newcastle via Hexham and Haltwhistle to Carlisle, opened in 1838 as one of the oldest passenger railways in the world - also branded the Hadrian's Wall Country Line for its proximity to the Roman wall.",
+      "id": "col_12"
     },
     {
       "type": "array_contains",
@@ -223,7 +244,8 @@
       "category": "route",
       "match_count": 28,
       "display": "Is part of the Esk Valley Railway route",
-      "hint": "The scenic branch from Middlesbrough via Battersby and Glaisdale to the coastal town of Whitby, following the River Esk through the North York Moors."
+      "hint": "The scenic branch from Middlesbrough via Battersby and Glaisdale to the coastal town of Whitby, following the River Esk through the North York Moors.",
+      "id": "col_13"
     },
     {
       "type": "array_contains",
@@ -233,7 +255,8 @@
       "category": "route",
       "match_count": 20,
       "display": "Is part of the Tees Valley Line route",
-      "hint": "The route linking Bishop Auckland/Darlington to Middlesbrough and on to the Durham coast, serving the Teesside conurbation."
+      "hint": "The route linking Bishop Auckland/Darlington to Middlesbrough and on to the Durham coast, serving the Teesside conurbation.",
+      "id": "col_14"
     },
     {
       "type": "array_contains",
@@ -243,7 +266,8 @@
       "category": "route",
       "match_count": 17,
       "display": "Is part of the Durham Coast Line route",
-      "hint": "The coastal route from Middlesbrough via Hartlepool, Seaham and Sunderland to Newcastle, hugging the North Sea coast through former Durham coalfield towns."
+      "hint": "The coastal route from Middlesbrough via Hartlepool, Seaham and Sunderland to Newcastle, hugging the North Sea coast through former Durham coalfield towns.",
+      "id": "col_15"
     },
     {
       "type": "array_contains",
@@ -253,7 +277,8 @@
       "category": "route",
       "match_count": 9,
       "display": "Is part of the Northumberland Line route",
-      "hint": "The reopened line north from Newcastle via Manors to Ashington and Blyth, restoring passenger services after more than 60 years of closure to passengers - reopened in December 2024."
+      "hint": "The reopened line north from Newcastle via Manors to Ashington and Blyth, restoring passenger services after more than 60 years of closure to passengers - reopened in December 2024.",
+      "id": "col_16"
     },
     {
       "type": "array_contains",
@@ -263,7 +288,8 @@
       "category": "route",
       "match_count": 8,
       "display": "Is part of the Cumbrian Coast Line route",
-      "hint": "The long coastal route around the Cumbrian peninsula from Carlisle via Whitehaven and Barrow-in-Furness to Lancaster, skirting the Lake District's western edge."
+      "hint": "The long coastal route around the Cumbrian peninsula from Carlisle via Whitehaven and Barrow-in-Furness to Lancaster, skirting the Lake District's western edge.",
+      "id": "col_17"
     },
     {
       "type": "array_contains",
@@ -273,7 +299,8 @@
       "category": "route",
       "match_count": 5,
       "display": "Is part of the East Coast Main Line route",
-      "hint": "The historic trunk route from London Kings Cross to Edinburgh via York, Darlington and Newcastle - home of the Flying Scotsman and one of Britain's two great north-south main lines."
+      "hint": "The historic trunk route from London Kings Cross to Edinburgh via York, Darlington and Newcastle - home of the Flying Scotsman and one of Britain's two great north-south main lines.",
+      "id": "col_18"
     },
     {
       "type": "array_contains",
@@ -283,7 +310,8 @@
       "category": "route",
       "match_count": 5,
       "display": "Is part of the Bishop Line route",
-      "hint": "The branch from Darlington via Newton Aycliffe and Shildon to Bishop Auckland - runs along part of the original Stockton and Darlington Railway, the world's first passenger railway."
+      "hint": "The branch from Darlington via Newton Aycliffe and Shildon to Bishop Auckland - runs along part of the original Stockton and Darlington Railway, the world's first passenger railway.",
+      "id": "col_19"
     },
     {
       "type": "array_contains",
@@ -293,7 +321,8 @@
       "category": "route",
       "match_count": 5,
       "display": "Is part of the Heritage Line route",
-      "hint": "The branch from Darlington to Bishop Auckland along part of the original Stockton and Darlington Railway route - also known as the Bishop Line, celebrated as part of the 2025 Railway 200 anniversary."
+      "hint": "The branch from Darlington to Bishop Auckland along part of the original Stockton and Darlington Railway route - also known as the Bishop Line, celebrated as part of the 2025 Railway 200 anniversary.",
+      "id": "col_20"
     },
     {
       "type": "equals",
@@ -303,7 +332,8 @@
       "category": "name",
       "match_count": 36,
       "display": "Naming style: a common English place-name ending",
-      "hint": "The name ends in a common English place-name suffix, like -ton, -ham, -by or -dale."
+      "hint": "The name ends in a common English place-name suffix, like -ton, -ham, -by or -dale.",
+      "id": "col_21"
     },
     {
       "type": "equals",
@@ -313,7 +343,8 @@
       "category": "name",
       "match_count": 5,
       "display": "Naming style: an unusual name format",
-      "hint": "Something unusual about how the name is written - brackets, a hyphen, an ampersand, or 'St'."
+      "hint": "Something unusual about how the name is written - brackets, a hyphen, an ampersand, or 'St'.",
+      "id": "col_22"
     },
     {
       "type": "array_contains",
@@ -323,7 +354,8 @@
       "category": "name",
       "match_count": 22,
       "display": "Word contains 'ton'",
-      "hint": "Word contains 'ton'."
+      "hint": "Word contains 'ton'.",
+      "id": "col_23"
     },
     {
       "type": "array_contains",
@@ -333,7 +365,8 @@
       "category": "name",
       "match_count": 9,
       "display": "Word contains 'ington'",
-      "hint": "Word contains 'ington'."
+      "hint": "Word contains 'ington'.",
+      "id": "col_24"
     },
     {
       "type": "array_contains",
@@ -343,7 +376,8 @@
       "category": "name",
       "match_count": 5,
       "display": "Word contains 'by'",
-      "hint": "Word contains 'by'."
+      "hint": "Word contains 'by'.",
+      "id": "col_25"
     },
     {
       "type": "array_contains",
@@ -353,7 +387,8 @@
       "category": "name",
       "match_count": 4,
       "display": "Word contains 'ham'",
-      "hint": "Word contains 'ham'."
+      "hint": "Word contains 'ham'.",
+      "id": "col_26"
     },
     {
       "type": "array_contains",
@@ -363,7 +398,8 @@
       "category": "name",
       "match_count": 4,
       "display": "Word contains 'don'",
-      "hint": "Word contains 'don'."
+      "hint": "Word contains 'don'.",
+      "id": "col_27"
     },
     {
       "type": "array_contains",
@@ -373,7 +409,8 @@
       "category": "name",
       "match_count": 4,
       "display": "Name includes brackets",
-      "hint": "The station name includes text in brackets, e.g. a disambiguator like '(Cumbria)'."
+      "hint": "The station name includes text in brackets, e.g. a disambiguator like '(Cumbria)'.",
+      "id": "col_28"
     },
     {
       "type": "array_contains",
@@ -383,7 +420,8 @@
       "category": "name",
       "match_count": 4,
       "display": "Word contains 'dale'",
-      "hint": "Word contains 'dale'."
+      "hint": "Word contains 'dale'.",
+      "id": "col_29"
     }
   ]
 }

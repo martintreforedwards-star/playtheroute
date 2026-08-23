@@ -7,8 +7,9 @@
       "label": "Interchange station",
       "weight": "medium",
       "match_count": 37,
-      "display": "Is an interchange station",
-      "hint": "Served by two or more separate named routes, or where several lines physically meet."
+      "display": "Change trains here",
+      "hint": "Served by two or more separate named routes, or where several lines physically meet.",
+      "id": "row_0"
     },
     {
       "type": "range",
@@ -18,7 +19,8 @@
       "weight": "medium",
       "match_count": 46,
       "display": "Terminus station",
-      "hint": "At least some journeys terminate at this station - it's not just a stop along the way."
+      "hint": "At least some journeys terminate at this station - it's not just a stop along the way.",
+      "id": "row_1"
     },
     {
       "type": "equals",
@@ -28,7 +30,8 @@
       "weight": "medium",
       "match_count": 77,
       "display": "Station name is one word",
-      "hint": "Station is a one-word name."
+      "hint": "Station is a one-word name.",
+      "id": "row_2"
     },
     {
       "type": "range",
@@ -38,7 +41,8 @@
       "weight": "high",
       "match_count": 21,
       "display": "Station name is 3+ words",
-      "hint": "Station name is three or more words long."
+      "hint": "Station name is three or more words long.",
+      "id": "row_3"
     },
     {
       "type": "range",
@@ -49,7 +53,8 @@
       "weight": "high",
       "match_count": 16,
       "display": "Station name is 6 letters or fewer",
-      "hint": "Station name is 6 characters or fewer."
+      "hint": "Station name is 6 characters or fewer.",
+      "id": "row_4"
     },
     {
       "type": "range",
@@ -60,7 +65,8 @@
       "weight": "medium",
       "match_count": 70,
       "display": "Station name is 7-10 letters",
-      "hint": "Station name length is between 7 and 10 characters."
+      "hint": "Station name length is between 7 and 10 characters.",
+      "id": "row_5"
     },
     {
       "type": "range",
@@ -70,7 +76,8 @@
       "weight": "medium",
       "match_count": 82,
       "display": "Station name is 11+ letters",
-      "hint": "Station name is equal to or exceeds 11 characters."
+      "hint": "Station name is equal to or exceeds 11 characters.",
+      "id": "row_6"
     }
   ],
   "columnPool": [
@@ -82,7 +89,8 @@
       "category": "geography",
       "match_count": 37,
       "display": "Is within the Birmingham region",
-      "hint": "This station is based within the Birmingham region."
+      "hint": "This station is based within the Birmingham region.",
+      "id": "col_0"
     },
     {
       "type": "equals",
@@ -92,7 +100,8 @@
       "category": "geography",
       "match_count": 18,
       "display": "Is within the Buckinghamshire region",
-      "hint": "This station is based within the Buckinghamshire region."
+      "hint": "This station is based within the Buckinghamshire region.",
+      "id": "col_1"
     },
     {
       "type": "equals",
@@ -102,7 +111,8 @@
       "category": "geography",
       "match_count": 12,
       "display": "Is within the Sandwell region",
-      "hint": "This station is based within the Sandwell region."
+      "hint": "This station is based within the Sandwell region.",
+      "id": "col_2"
     },
     {
       "type": "equals",
@@ -112,7 +122,8 @@
       "category": "geography",
       "match_count": 11,
       "display": "Is within the Solihull region",
-      "hint": "This station is based within the Solihull region."
+      "hint": "This station is based within the Solihull region.",
+      "id": "col_3"
     },
     {
       "type": "equals",
@@ -122,7 +133,8 @@
       "category": "geography",
       "match_count": 10,
       "display": "Is within the Stratford-on-Avon region",
-      "hint": "This station is based within the Stratford-on-Avon region."
+      "hint": "This station is based within the Stratford-on-Avon region.",
+      "id": "col_4"
     },
     {
       "type": "equals",
@@ -132,7 +144,8 @@
       "category": "geography",
       "match_count": 6,
       "display": "Is within the Warwick region",
-      "hint": "This station is based within the Warwick region."
+      "hint": "This station is based within the Warwick region.",
+      "id": "col_5"
     },
     {
       "type": "equals",
@@ -142,7 +155,8 @@
       "category": "geography",
       "match_count": 5,
       "display": "Is within the Bromsgrove region",
-      "hint": "This station is based within the Bromsgrove region."
+      "hint": "This station is based within the Bromsgrove region.",
+      "id": "col_6"
     },
     {
       "type": "equals",
@@ -152,7 +166,8 @@
       "category": "geography",
       "match_count": 5,
       "display": "Is within the Cherwell region",
-      "hint": "This station is based within the Cherwell region."
+      "hint": "This station is based within the Cherwell region.",
+      "id": "col_7"
     },
     {
       "type": "equals",
@@ -162,7 +177,8 @@
       "category": "geography",
       "match_count": 5,
       "display": "Is within the Walsall region",
-      "hint": "This station is based within the Walsall region."
+      "hint": "This station is based within the Walsall region.",
+      "id": "col_8"
     },
     {
       "type": "equals",
@@ -172,7 +188,8 @@
       "category": "geography",
       "match_count": 5,
       "display": "Is within the West London region",
-      "hint": "This station is based within the West London region."
+      "hint": "This station is based within the West London region.",
+      "id": "col_9"
     },
     {
       "type": "equals",
@@ -182,7 +199,8 @@
       "category": "geography",
       "match_count": 120,
       "display": "Trains head to Birmingham New Street",
-      "hint": "This station's journeys are routed via or towards Birmingham New Street."
+      "hint": "This station's journeys are routed via or towards Birmingham New Street.",
+      "id": "col_10"
     },
     {
       "type": "equals",
@@ -192,7 +210,8 @@
       "category": "geography",
       "match_count": 48,
       "display": "Trains head to London",
-      "hint": "This station's journeys are routed via or towards London."
+      "hint": "This station's journeys are routed via or towards London.",
+      "id": "col_11"
     },
     {
       "type": "range",
@@ -202,7 +221,8 @@
       "category": "service",
       "match_count": 41,
       "display": "A short journey to Birmingham New Street",
-      "hint": "In this puzzle, 'short' means under 23 minutes to Birmingham New Street."
+      "hint": "In this puzzle, 'short' means under 23 minutes to Birmingham New Street.",
+      "id": "col_12"
     },
     {
       "type": "range",
@@ -213,7 +233,8 @@
       "category": "service",
       "match_count": 41,
       "display": "A mid-range journey to Birmingham New Street",
-      "hint": "In this puzzle, 'mid-range' means 23-52 minutes to Birmingham New Street."
+      "hint": "In this puzzle, 'mid-range' means 23-52 minutes to Birmingham New Street.",
+      "id": "col_13"
     },
     {
       "type": "range",
@@ -223,7 +244,8 @@
       "category": "service",
       "match_count": 43,
       "display": "A long journey to Birmingham New Street",
-      "hint": "In this puzzle, 'long' means 52+ minutes to Birmingham New Street."
+      "hint": "In this puzzle, 'long' means 52+ minutes to Birmingham New Street.",
+      "id": "col_14"
     },
     {
       "type": "range",
@@ -233,7 +255,8 @@
       "category": "service",
       "match_count": 17,
       "display": "A short journey to London",
-      "hint": "In this puzzle, 'short' means under 52 minutes to London."
+      "hint": "In this puzzle, 'short' means under 52 minutes to London.",
+      "id": "col_15"
     },
     {
       "type": "range",
@@ -244,7 +267,8 @@
       "category": "service",
       "match_count": 18,
       "display": "A mid-range journey to London",
-      "hint": "In this puzzle, 'mid-range' means 52-120 minutes to London."
+      "hint": "In this puzzle, 'mid-range' means 52-120 minutes to London.",
+      "id": "col_16"
     },
     {
       "type": "range",
@@ -254,7 +278,8 @@
       "category": "service",
       "match_count": 17,
       "display": "A long journey to London",
-      "hint": "In this puzzle, 'long' means 120+ minutes to London."
+      "hint": "In this puzzle, 'long' means 120+ minutes to London.",
+      "id": "col_17"
     },
     {
       "type": "equals",
@@ -264,7 +289,8 @@
       "category": "route",
       "match_count": 120,
       "display": "Route operated by West Midlands Railway.",
-      "hint": "This station is served by West Midlands Railway."
+      "hint": "This station is served by West Midlands Railway.",
+      "id": "col_18"
     },
     {
       "type": "equals",
@@ -274,7 +300,8 @@
       "category": "route",
       "match_count": 48,
       "display": "Route operated by Chiltern Railways.",
-      "hint": "This station is served by Chiltern Railways."
+      "hint": "This station is served by Chiltern Railways.",
+      "id": "col_19"
     },
     {
       "type": "array_contains",
@@ -284,7 +311,8 @@
       "category": "route",
       "match_count": 39,
       "display": "Is part of the Snow Hill Lines route",
-      "hint": "The umbrella name for the routes radiating from Birmingham Snow Hill and Moor Street stations, covering both the Stratford-upon-Avon branch (the Shakespeare Line) and the Kidderminster/Worcester branch."
+      "hint": "The umbrella name for the routes radiating from Birmingham Snow Hill and Moor Street stations, covering both the Stratford-upon-Avon branch (the Shakespeare Line) and the Kidderminster/Worcester branch.",
+      "id": "col_20"
     },
     {
       "type": "array_contains",
@@ -294,7 +322,8 @@
       "category": "route",
       "match_count": 37,
       "display": "Is part of the Shakespeare Line route",
-      "hint": "The suburban line from Birmingham (via Snow Hill/Moor Street) south to Stratford-upon-Avon - also grouped under 'Snow Hill Lines' more broadly, one of the routes radiating from Snow Hill/Moor Street through the Warwickshire countryside."
+      "hint": "The suburban line from Birmingham (via Snow Hill/Moor Street) south to Stratford-upon-Avon - also grouped under 'Snow Hill Lines' more broadly, one of the routes radiating from Snow Hill/Moor Street through the Warwickshire countryside.",
+      "id": "col_21"
     },
     {
       "type": "array_contains",
@@ -304,7 +333,8 @@
       "category": "route",
       "match_count": 27,
       "display": "Is part of the Shrewsbury to Wolverhampton Line route",
-      "hint": "The route linking Shrewsbury to Wolverhampton via Cosford, Telford Central and Oakengates - continuing onward to the Chase Line towards Rugeley."
+      "hint": "The route linking Shrewsbury to Wolverhampton via Cosford, Telford Central and Oakengates - continuing onward to the Chase Line towards Rugeley.",
+      "id": "col_22"
     },
     {
       "type": "array_contains",
@@ -314,7 +344,8 @@
       "category": "route",
       "match_count": 26,
       "display": "Is part of the Chiltern Line route",
-      "hint": "The main route from London Marylebone to Birmingham via High Wycombe, Bicester and Banbury - Chiltern Railways' principal main line, with a branch via Aylesbury and Amersham."
+      "hint": "The main route from London Marylebone to Birmingham via High Wycombe, Bicester and Banbury - Chiltern Railways' principal main line, with a branch via Aylesbury and Amersham.",
+      "id": "col_23"
     },
     {
       "type": "array_contains",
@@ -324,7 +355,8 @@
       "category": "route",
       "match_count": 25,
       "display": "Is part of the Chase Line route",
-      "hint": "The suburban line from Birmingham New Street via Walsall to Rugeley Trent Valley, named after Cannock Chase which it passes through at its northern end - fully electrified in 2018."
+      "hint": "The suburban line from Birmingham New Street via Walsall to Rugeley Trent Valley, named after Cannock Chase which it passes through at its northern end - fully electrified in 2018.",
+      "id": "col_24"
     },
     {
       "type": "array_contains",
@@ -334,7 +366,8 @@
       "category": "route",
       "match_count": 24,
       "display": "Is part of the Cross-City route",
-      "hint": "The busy commuter line from Lichfield in the north through Birmingham New Street to Redditch and Bromsgrove in the south - one of the busiest commuter routes in the country outside London."
+      "hint": "The busy commuter line from Lichfield in the north through Birmingham New Street to Redditch and Bromsgrove in the south - one of the busiest commuter routes in the country outside London.",
+      "id": "col_25"
     },
     {
       "type": "array_contains",
@@ -344,7 +377,8 @@
       "category": "route",
       "match_count": 11,
       "display": "Is part of the West Coast Main Line route",
-      "hint": "The historic trunk route from London Euston to Glasgow via Rugby, Stafford, Crewe and Preston - Britain's busiest mixed-traffic main line."
+      "hint": "The historic trunk route from London Euston to Glasgow via Rugby, Stafford, Crewe and Preston - Britain's busiest mixed-traffic main line.",
+      "id": "col_26"
     },
     {
       "type": "array_contains",
@@ -354,7 +388,8 @@
       "category": "route",
       "match_count": 10,
       "display": "Is part of the Amersham Line route",
-      "hint": "The commuter branch from London Marylebone via Harrow-on-the-Hill to Amersham and on to Aylesbury - shares track with the London Underground Metropolitan line for part of its route."
+      "hint": "The commuter branch from London Marylebone via Harrow-on-the-Hill to Amersham and on to Aylesbury - shares track with the London Underground Metropolitan line for part of its route.",
+      "id": "col_27"
     },
     {
       "type": "array_contains",
@@ -364,7 +399,8 @@
       "category": "route",
       "match_count": 5,
       "display": "Is part of the Elephant & Bear Line route",
-      "hint": "The line from Royal Leamington Spa via Kenilworth and Coventry to Nuneaton - renamed from the 'NUCKLE' line in 2023 after a public vote, referencing the civic symbols of Coventry (elephant) and Warwick (bear)."
+      "hint": "The line from Royal Leamington Spa via Kenilworth and Coventry to Nuneaton - renamed from the 'NUCKLE' line in 2023 after a public vote, referencing the civic symbols of Coventry (elephant) and Warwick (bear).",
+      "id": "col_28"
     },
     {
       "type": "array_contains",
@@ -374,7 +410,8 @@
       "category": "route",
       "match_count": 4,
       "display": "Is part of the Oxford Branch route",
-      "hint": "The short branch line from Bicester North via Islip and Oxford Parkway into Oxford itself."
+      "hint": "The short branch line from Bicester North via Islip and Oxford Parkway into Oxford itself.",
+      "id": "col_29"
     },
     {
       "type": "array_contains",
@@ -384,7 +421,8 @@
       "category": "route",
       "match_count": 4,
       "display": "Is part of the Stratford Branch route",
-      "hint": "The branch line from Bearley (on the Birmingham-Stratford route) to Stratford-upon-Avon, also linking through to Lapworth on the Chiltern main line."
+      "hint": "The branch line from Bearley (on the Birmingham-Stratford route) to Stratford-upon-Avon, also linking through to Lapworth on the Chiltern main line.",
+      "id": "col_30"
     },
     {
       "type": "array_contains",
@@ -394,7 +432,8 @@
       "category": "route",
       "match_count": 4,
       "display": "Is part of the Cotswolds & Malverns Line route",
-      "hint": "The long cross-country route from Oxford via Worcester and the Malvern Hills to Hereford - also known more locally as the Cotswold Line for its eastern Oxford-Worcester section."
+      "hint": "The long cross-country route from Oxford via Worcester and the Malvern Hills to Hereford - also known more locally as the Cotswold Line for its eastern Oxford-Worcester section.",
+      "id": "col_31"
     },
     {
       "type": "array_contains",
@@ -404,7 +443,8 @@
       "category": "route",
       "match_count": 3,
       "display": "Is part of the Cross City Line route",
-      "hint": "This tag actually covers the brand-new Camp Hill Line stations (Kings Heath, Moseley Village, Pineapple Road) between Birmingham New Street and Kings Norton, reopened April 2026 after 80+ years closed - a distinct route from the main Cross-City Line despite the similar name in this dataset."
+      "hint": "This tag actually covers the brand-new Camp Hill Line stations (Kings Heath, Moseley Village, Pineapple Road) between Birmingham New Street and Kings Norton, reopened April 2026 after 80+ years closed - a distinct route from the main Cross-City Line despite the similar name in this dataset.",
+      "id": "col_32"
     },
     {
       "type": "equals",
@@ -414,7 +454,8 @@
       "category": "name",
       "match_count": 69,
       "display": "Naming style: a common English place-name ending",
-      "hint": "The name ends in a common English place-name suffix, like -ton, -ham, -by or -dale."
+      "hint": "The name ends in a common English place-name suffix, like -ton, -ham, -by or -dale.",
+      "id": "col_33"
     },
     {
       "type": "equals",
@@ -424,7 +465,8 @@
       "category": "name",
       "match_count": 14,
       "display": "Naming style: a nature word in the name",
-      "hint": "The name includes a nature word, like Park, Hill, Green, Heath or Wood."
+      "hint": "The name includes a nature word, like Park, Hill, Green, Heath or Wood.",
+      "id": "col_34"
     },
     {
       "type": "equals",
@@ -434,7 +476,8 @@
       "category": "name",
       "match_count": 13,
       "display": "Naming style: an unusual name format",
-      "hint": "Something unusual about how the name is written - brackets, a hyphen, an ampersand, or 'St'."
+      "hint": "Something unusual about how the name is written - brackets, a hyphen, an ampersand, or 'St'.",
+      "id": "col_35"
     },
     {
       "type": "array_contains",
@@ -444,7 +487,8 @@
       "category": "name",
       "match_count": 23,
       "display": "Word contains 'ey'",
-      "hint": "Word contains 'ey'."
+      "hint": "Word contains 'ey'.",
+      "id": "col_36"
     },
     {
       "type": "array_contains",
@@ -454,7 +498,8 @@
       "category": "name",
       "match_count": 21,
       "display": "Word contains 'ton'",
-      "hint": "Word contains 'ton'."
+      "hint": "Word contains 'ton'.",
+      "id": "col_37"
     },
     {
       "type": "array_contains",
@@ -464,7 +509,8 @@
       "category": "name",
       "match_count": 20,
       "display": "Word contains 'ley'",
-      "hint": "Word contains 'ley'."
+      "hint": "Word contains 'ley'.",
+      "id": "col_38"
     },
     {
       "type": "array_contains",
@@ -474,7 +520,8 @@
       "category": "name",
       "match_count": 9,
       "display": "Word contains 'park'",
-      "hint": "Word contains 'park'."
+      "hint": "Word contains 'park'.",
+      "id": "col_39"
     },
     {
       "type": "array_contains",
@@ -484,7 +531,8 @@
       "category": "name",
       "match_count": 9,
       "display": "Word contains 'ford'",
-      "hint": "Word contains 'ford'."
+      "hint": "Word contains 'ford'.",
+      "id": "col_40"
     },
     {
       "type": "array_contains",
@@ -494,7 +542,8 @@
       "category": "name",
       "match_count": 8,
       "display": "Word contains 'ham'",
-      "hint": "Word contains 'ham'."
+      "hint": "Word contains 'ham'.",
+      "id": "col_41"
     },
     {
       "type": "array_contains",
@@ -504,7 +553,8 @@
       "category": "name",
       "match_count": 7,
       "display": "Word contains 'bury'",
-      "hint": "Word contains 'bury'."
+      "hint": "Word contains 'bury'.",
+      "id": "col_42"
     },
     {
       "type": "array_contains",
@@ -514,7 +564,8 @@
       "category": "name",
       "match_count": 7,
       "display": "Word contains 'hill'",
-      "hint": "Word contains 'hill'."
+      "hint": "Word contains 'hill'.",
+      "id": "col_43"
     },
     {
       "type": "array_contains",
@@ -524,7 +575,8 @@
       "category": "name",
       "match_count": 7,
       "display": "Word contains 'green'",
-      "hint": "Word contains 'green'."
+      "hint": "Word contains 'green'.",
+      "id": "col_44"
     },
     {
       "type": "array_contains",
@@ -534,7 +586,8 @@
       "category": "name",
       "match_count": 7,
       "display": "Word contains 'ridge'",
-      "hint": "Word contains 'ridge'."
+      "hint": "Word contains 'ridge'.",
+      "id": "col_45"
     },
     {
       "type": "array_contains",
@@ -544,7 +597,8 @@
       "category": "name",
       "match_count": 6,
       "display": "Name includes an '&'",
-      "hint": "The station name includes an ampersand (&)."
+      "hint": "The station name includes an ampersand (&).",
+      "id": "col_46"
     },
     {
       "type": "array_contains",
@@ -554,7 +608,8 @@
       "category": "name",
       "match_count": 5,
       "display": "Word contains 'field'",
-      "hint": "Word contains 'field'."
+      "hint": "Word contains 'field'.",
+      "id": "col_47"
     },
     {
       "type": "array_contains",
@@ -564,7 +619,8 @@
       "category": "name",
       "match_count": 5,
       "display": "Name includes a hyphen",
-      "hint": "The station name includes a hyphen."
+      "hint": "The station name includes a hyphen.",
+      "id": "col_48"
     },
     {
       "type": "array_contains",
@@ -574,7 +630,8 @@
       "category": "name",
       "match_count": 3,
       "display": "Word contains 'heath'",
-      "hint": "Word contains 'heath'."
+      "hint": "Word contains 'heath'.",
+      "id": "col_49"
     }
   ]
 }

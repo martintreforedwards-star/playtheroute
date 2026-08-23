@@ -7,8 +7,9 @@
       "label": "Interchange station",
       "weight": "high",
       "match_count": 25,
-      "display": "Is an interchange station",
-      "hint": "Served by two or more separate named routes, or where several lines physically meet."
+      "display": "Change trains here",
+      "hint": "Served by two or more separate named routes, or where several lines physically meet.",
+      "id": "row_0"
     },
     {
       "type": "equals",
@@ -18,7 +19,8 @@
       "weight": "medium",
       "match_count": 44,
       "display": "Near the coast",
-      "hint": "A station within 3 kilometres of the coastline or an estuary."
+      "hint": "A station within 3 kilometres of the coastline or an estuary.",
+      "id": "row_1"
     },
     {
       "type": "range",
@@ -28,7 +30,8 @@
       "weight": "high",
       "match_count": 18,
       "display": "Terminus station",
-      "hint": "At least some journeys terminate at this station - it's not just a stop along the way."
+      "hint": "At least some journeys terminate at this station - it's not just a stop along the way.",
+      "id": "row_2"
     },
     {
       "type": "equals",
@@ -38,7 +41,8 @@
       "weight": "medium",
       "match_count": 87,
       "display": "Station name is one word",
-      "hint": "Station is a one-word name."
+      "hint": "Station is a one-word name.",
+      "id": "row_3"
     },
     {
       "type": "range",
@@ -48,7 +52,8 @@
       "weight": "high",
       "match_count": 5,
       "display": "Station name is 3+ words",
-      "hint": "Station name is three or more words long."
+      "hint": "Station name is three or more words long.",
+      "id": "row_4"
     },
     {
       "type": "range",
@@ -59,7 +64,8 @@
       "weight": "high",
       "match_count": 19,
       "display": "Station name is 6 letters or fewer",
-      "hint": "Station name is 6 characters or fewer."
+      "hint": "Station name is 6 characters or fewer.",
+      "id": "row_5"
     },
     {
       "type": "range",
@@ -70,7 +76,8 @@
       "weight": "medium",
       "match_count": 63,
       "display": "Station name is 7-10 letters",
-      "hint": "Station name length is between 7 and 10 characters."
+      "hint": "Station name length is between 7 and 10 characters.",
+      "id": "row_6"
     },
     {
       "type": "range",
@@ -80,7 +87,8 @@
       "weight": "medium",
       "match_count": 36,
       "display": "Station name is 11+ letters",
-      "hint": "Station name is equal to or exceeds 11 characters."
+      "hint": "Station name is equal to or exceeds 11 characters.",
+      "id": "row_7"
     }
   ],
   "columnPool": [
@@ -92,7 +100,8 @@
       "category": "geography",
       "match_count": 27,
       "display": "Is within the Gwynedd region",
-      "hint": "This station is based within the Gwynedd region."
+      "hint": "This station is based within the Gwynedd region.",
+      "id": "col_0"
     },
     {
       "type": "equals",
@@ -102,7 +111,8 @@
       "category": "geography",
       "match_count": 17,
       "display": "Is within the Conwy region",
-      "hint": "This station is based within the Conwy region."
+      "hint": "This station is based within the Conwy region.",
+      "id": "col_1"
     },
     {
       "type": "equals",
@@ -112,7 +122,8 @@
       "category": "geography",
       "match_count": 13,
       "display": "Is within the Shropshire region",
-      "hint": "This station is based within the Shropshire region."
+      "hint": "This station is based within the Shropshire region.",
+      "id": "col_2"
     },
     {
       "type": "equals",
@@ -122,7 +133,8 @@
       "category": "geography",
       "match_count": 11,
       "display": "Is within the Powys region",
-      "hint": "This station is based within the Powys region."
+      "hint": "This station is based within the Powys region.",
+      "id": "col_3"
     },
     {
       "type": "equals",
@@ -132,7 +144,8 @@
       "category": "geography",
       "match_count": 10,
       "display": "Is within the Cheshire West and Chester region",
-      "hint": "This station is based within the Cheshire West and Chester region."
+      "hint": "This station is based within the Cheshire West and Chester region.",
+      "id": "col_4"
     },
     {
       "type": "equals",
@@ -142,7 +155,8 @@
       "category": "geography",
       "match_count": 9,
       "display": "Is within the Flintshire region",
-      "hint": "This station is based within the Flintshire region."
+      "hint": "This station is based within the Flintshire region.",
+      "id": "col_5"
     },
     {
       "type": "equals",
@@ -152,7 +166,8 @@
       "category": "geography",
       "match_count": 9,
       "display": "Is within the Wirral region",
-      "hint": "This station is based within the Wirral region."
+      "hint": "This station is based within the Wirral region.",
+      "id": "col_6"
     },
     {
       "type": "equals",
@@ -162,7 +177,8 @@
       "category": "geography",
       "match_count": 6,
       "display": "Is within the Isle of Anglesey region",
-      "hint": "This station is based within the Isle of Anglesey region."
+      "hint": "This station is based within the Isle of Anglesey region.",
+      "id": "col_7"
     },
     {
       "type": "equals",
@@ -172,7 +188,8 @@
       "category": "geography",
       "match_count": 5,
       "display": "Is within the Wrexham region",
-      "hint": "This station is based within the Wrexham region."
+      "hint": "This station is based within the Wrexham region.",
+      "id": "col_8"
     },
     {
       "type": "equals",
@@ -182,7 +199,8 @@
       "category": "geography",
       "match_count": 3,
       "display": "Is within the Ceredigion region",
-      "hint": "This station is based within the Ceredigion region."
+      "hint": "This station is based within the Ceredigion region.",
+      "id": "col_9"
     },
     {
       "type": "equals",
@@ -192,7 +210,8 @@
       "category": "geography",
       "match_count": 52,
       "display": "Trains head to Shrewsbury",
-      "hint": "This station's journeys are routed via or towards Shrewsbury."
+      "hint": "This station's journeys are routed via or towards Shrewsbury.",
+      "id": "col_10"
     },
     {
       "type": "equals",
@@ -202,7 +221,8 @@
       "category": "geography",
       "match_count": 66,
       "display": "Trains head to Wrexham/Chester",
-      "hint": "This station's journeys are routed via or towards Wrexham/Chester."
+      "hint": "This station's journeys are routed via or towards Wrexham/Chester.",
+      "id": "col_11"
     },
     {
       "type": "range",
@@ -212,7 +232,8 @@
       "category": "service",
       "match_count": 18,
       "display": "A short journey to Shrewsbury",
-      "hint": "In this puzzle, 'short' means under 64 minutes to Shrewsbury."
+      "hint": "In this puzzle, 'short' means under 64 minutes to Shrewsbury.",
+      "id": "col_12"
     },
     {
       "type": "range",
@@ -223,7 +244,8 @@
       "category": "service",
       "match_count": 18,
       "display": "A mid-range journey to Shrewsbury",
-      "hint": "In this puzzle, 'mid-range' means 64-143 minutes to Shrewsbury."
+      "hint": "In this puzzle, 'mid-range' means 64-143 minutes to Shrewsbury.",
+      "id": "col_13"
     },
     {
       "type": "range",
@@ -233,7 +255,8 @@
       "category": "service",
       "match_count": 18,
       "display": "A long journey to Shrewsbury",
-      "hint": "In this puzzle, 'long' means 143+ minutes to Shrewsbury."
+      "hint": "In this puzzle, 'long' means 143+ minutes to Shrewsbury.",
+      "id": "col_14"
     },
     {
       "type": "range",
@@ -243,7 +266,8 @@
       "category": "service",
       "match_count": 23,
       "display": "A short journey to Wrexham/Chester",
-      "hint": "In this puzzle, 'short' means under 34 minutes to Wrexham/Chester."
+      "hint": "In this puzzle, 'short' means under 34 minutes to Wrexham/Chester.",
+      "id": "col_15"
     },
     {
       "type": "range",
@@ -254,7 +278,8 @@
       "category": "service",
       "match_count": 23,
       "display": "A mid-range journey to Wrexham/Chester",
-      "hint": "In this puzzle, 'mid-range' means 34-70 minutes to Wrexham/Chester."
+      "hint": "In this puzzle, 'mid-range' means 34-70 minutes to Wrexham/Chester.",
+      "id": "col_16"
     },
     {
       "type": "range",
@@ -264,7 +289,8 @@
       "category": "service",
       "match_count": 22,
       "display": "A long journey to Wrexham/Chester",
-      "hint": "In this puzzle, 'long' means 70+ minutes to Wrexham/Chester."
+      "hint": "In this puzzle, 'long' means 70+ minutes to Wrexham/Chester.",
+      "id": "col_17"
     },
     {
       "type": "equals",
@@ -274,7 +300,8 @@
       "category": "route",
       "match_count": 104,
       "display": "Route operated by TfW.",
-      "hint": "This station is served by TfW."
+      "hint": "This station is served by TfW.",
+      "id": "col_18"
     },
     {
       "type": "equals",
@@ -284,7 +311,8 @@
       "category": "route",
       "match_count": 11,
       "display": "Route operated by Merseyrail.",
-      "hint": "This station is served by Merseyrail."
+      "hint": "This station is served by Merseyrail.",
+      "id": "col_19"
     },
     {
       "type": "equals",
@@ -294,7 +322,8 @@
       "category": "route",
       "match_count": 3,
       "display": "Route operated by Northern.",
-      "hint": "This station is served by Northern."
+      "hint": "This station is served by Northern.",
+      "id": "col_20"
     },
     {
       "type": "array_contains",
@@ -304,7 +333,8 @@
       "category": "route",
       "match_count": 45,
       "display": "Is part of the North Wales Coast Line route",
-      "hint": "The coastal main line from Chester to Holyhead via Flint, Rhyl, Colwyn Bay, Llandudno Junction and Bangor - the historic 'Irish Mail' route to the Anglesey ferry port."
+      "hint": "The coastal main line from Chester to Holyhead via Flint, Rhyl, Colwyn Bay, Llandudno Junction and Bangor - the historic 'Irish Mail' route to the Anglesey ferry port.",
+      "id": "col_21"
     },
     {
       "type": "array_contains",
@@ -314,7 +344,8 @@
       "category": "route",
       "match_count": 27,
       "display": "Is part of the Cambrian Coast Line route",
-      "hint": "The scenic coastal branch north from Dovey Junction (near Machynlleth) through Aberdovey, Tywyn, Barmouth and Harlech to Pwllheli - not the inland Cambrian Line to Aberystwyth."
+      "hint": "The scenic coastal branch north from Dovey Junction (near Machynlleth) through Aberdovey, Tywyn, Barmouth and Harlech to Pwllheli - not the inland Cambrian Line to Aberystwyth.",
+      "id": "col_22"
     },
     {
       "type": "array_contains",
@@ -324,7 +355,8 @@
       "category": "route",
       "match_count": 21,
       "display": "Is part of the Central Wales Line route",
-      "hint": "The long single-track 'Heart of Wales' route south from Craven Arms through Knighton, Llandrindod Wells, Llandovery and Llandeilo to Llanelli and Swansea - same route as the Heart of Wales Line, just an older name."
+      "hint": "The long single-track 'Heart of Wales' route south from Craven Arms through Knighton, Llandrindod Wells, Llandovery and Llandeilo to Llanelli and Swansea - same route as the Heart of Wales Line, just an older name.",
+      "id": "col_23"
     },
     {
       "type": "array_contains",
@@ -334,7 +366,8 @@
       "category": "route",
       "match_count": 21,
       "display": "Is part of the Heart of Wales Line route",
-      "hint": "The long single-track route south from Craven Arms through Knighton, Llandrindod Wells, Llandovery and Llandeilo to Llanelli and Swansea - also called the Central Wales Line."
+      "hint": "The long single-track route south from Craven Arms through Knighton, Llandrindod Wells, Llandovery and Llandeilo to Llanelli and Swansea - also called the Central Wales Line.",
+      "id": "col_24"
     },
     {
       "type": "array_contains",
@@ -344,7 +377,8 @@
       "category": "route",
       "match_count": 13,
       "display": "Is part of the Borderlands Line route",
-      "hint": "The cross-border line linking Wrexham Central to Bidston on the Wirral, via Wrexham General, Shotton and the north-east Wales/Cheshire border villages."
+      "hint": "The cross-border line linking Wrexham Central to Bidston on the Wirral, via Wrexham General, Shotton and the north-east Wales/Cheshire border villages.",
+      "id": "col_25"
     },
     {
       "type": "array_contains",
@@ -354,7 +388,8 @@
       "category": "route",
       "match_count": 13,
       "display": "Is part of the Conwy Valley Line route",
-      "hint": "The branch south from Llandudno Junction up the Conwy and Lledr valleys through Betws-y-Coed to the slate town of Blaenau Ffestiniog."
+      "hint": "The branch south from Llandudno Junction up the Conwy and Lledr valleys through Betws-y-Coed to the slate town of Blaenau Ffestiniog.",
+      "id": "col_26"
     },
     {
       "type": "array_contains",
@@ -364,7 +399,8 @@
       "category": "route",
       "match_count": 11,
       "display": "Is part of the Wirral Line route",
-      "hint": "The Merseyrail loop under the Mersey linking Liverpool to the Wirral Peninsula, with branches to Chester, Ellesmere Port, New Brighton and West Kirby."
+      "hint": "The Merseyrail loop under the Mersey linking Liverpool to the Wirral Peninsula, with branches to Chester, Ellesmere Port, New Brighton and West Kirby.",
+      "id": "col_27"
     },
     {
       "type": "array_contains",
@@ -374,7 +410,8 @@
       "category": "route",
       "match_count": 11,
       "display": "Is part of the Marches Line route",
-      "hint": "The long cross-border route from Newport via Abergavenny and Hereford to Shrewsbury, continuing to Crewe or via Wrexham to Chester - same route as the North & West Line, just an older name. Not the Heart of Wales branch that splits off at Craven Arms."
+      "hint": "The long cross-border route from Newport via Abergavenny and Hereford to Shrewsbury, continuing to Crewe or via Wrexham to Chester - same route as the North & West Line, just an older name. Not the Heart of Wales branch that splits off at Craven Arms.",
+      "id": "col_28"
     },
     {
       "type": "array_contains",
@@ -384,7 +421,8 @@
       "category": "route",
       "match_count": 11,
       "display": "Is part of the North & West Line route",
-      "hint": "The long cross-border route from Newport via Abergavenny and Hereford to Shrewsbury, continuing to Crewe or via Wrexham to Chester - also called the Marches Line. Not the Heart of Wales branch that splits off at Craven Arms."
+      "hint": "The long cross-border route from Newport via Abergavenny and Hereford to Shrewsbury, continuing to Crewe or via Wrexham to Chester - also called the Marches Line. Not the Heart of Wales branch that splits off at Craven Arms.",
+      "id": "col_29"
     },
     {
       "type": "array_contains",
@@ -394,7 +432,8 @@
       "category": "route",
       "match_count": 9,
       "display": "Is part of the Cambrian Line route",
-      "hint": "The inland route from Shrewsbury through Welshpool, Newtown and Machynlleth to Aberystwyth - splits from the coastal Cambrian Coast Line at Dovey Junction."
+      "hint": "The inland route from Shrewsbury through Welshpool, Newtown and Machynlleth to Aberystwyth - splits from the coastal Cambrian Coast Line at Dovey Junction.",
+      "id": "col_30"
     },
     {
       "type": "array_contains",
@@ -404,7 +443,8 @@
       "category": "route",
       "match_count": 3,
       "display": "Is part of the Mid-Cheshire Line route",
-      "hint": "The cross-country route linking Manchester (via Stockport and Altrincham) to Chester, through Knutsford, Northwich and the Delamere Forest."
+      "hint": "The cross-country route linking Manchester (via Stockport and Altrincham) to Chester, through Knutsford, Northwich and the Delamere Forest.",
+      "id": "col_31"
     },
     {
       "type": "equals",
@@ -414,7 +454,8 @@
       "category": "name",
       "match_count": 27,
       "display": "Naming style: Welsh place-name roots",
-      "hint": "The name includes a Welsh place-name element, like Llan-, Aber-, Pen- or Caer-."
+      "hint": "The name includes a Welsh place-name element, like Llan-, Aber-, Pen- or Caer-.",
+      "id": "col_32"
     },
     {
       "type": "equals",
@@ -424,7 +465,8 @@
       "category": "name",
       "match_count": 9,
       "display": "Naming style: a common English place-name ending",
-      "hint": "The name ends in a common English place-name suffix, like -ton, -ham, -by or -dale."
+      "hint": "The name ends in a common English place-name suffix, like -ton, -ham, -by or -dale.",
+      "id": "col_33"
     },
     {
       "type": "equals",
@@ -434,7 +476,8 @@
       "category": "name",
       "match_count": 7,
       "display": "Naming style: an unusual name format",
-      "hint": "Something unusual about how the name is written - brackets, a hyphen, an ampersand, or 'St'."
+      "hint": "Something unusual about how the name is written - brackets, a hyphen, an ampersand, or 'St'.",
+      "id": "col_34"
     },
     {
       "type": "array_contains",
@@ -444,7 +487,8 @@
       "category": "name",
       "match_count": 13,
       "display": "Word contains 'llan'",
-      "hint": "Word contains 'llan'."
+      "hint": "Word contains 'llan'.",
+      "id": "col_35"
     },
     {
       "type": "array_contains",
@@ -454,7 +498,8 @@
       "category": "name",
       "match_count": 8,
       "display": "Word contains 'pen'",
-      "hint": "Word contains 'pen'."
+      "hint": "Word contains 'pen'.",
+      "id": "col_36"
     },
     {
       "type": "array_contains",
@@ -464,7 +509,8 @@
       "category": "name",
       "match_count": 6,
       "display": "Name includes brackets",
-      "hint": "The station name includes text in brackets, e.g. a disambiguator like '(Cumbria)'."
+      "hint": "The station name includes text in brackets, e.g. a disambiguator like '(Cumbria)'.",
+      "id": "col_37"
     },
     {
       "type": "array_contains",
@@ -474,7 +520,8 @@
       "category": "name",
       "match_count": 4,
       "display": "Word contains 'aber'",
-      "hint": "Word contains 'aber'."
+      "hint": "Word contains 'aber'.",
+      "id": "col_38"
     },
     {
       "type": "array_contains",
@@ -484,7 +531,8 @@
       "category": "name",
       "match_count": 4,
       "display": "Word contains 'ey'",
-      "hint": "Word contains 'ey'."
+      "hint": "Word contains 'ey'.",
+      "id": "col_39"
     },
     {
       "type": "array_contains",
@@ -494,7 +542,8 @@
       "category": "name",
       "match_count": 3,
       "display": "Word contains 'ton'",
-      "hint": "Word contains 'ton'."
+      "hint": "Word contains 'ton'.",
+      "id": "col_40"
     },
     {
       "type": "array_contains",
@@ -504,7 +553,8 @@
       "category": "name",
       "match_count": 3,
       "display": "Word contains 'ham'",
-      "hint": "Word contains 'ham'."
+      "hint": "Word contains 'ham'.",
+      "id": "col_41"
     }
   ]
 }

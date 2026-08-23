@@ -7,8 +7,9 @@
       "label": "Interchange station",
       "weight": "medium",
       "match_count": 86,
-      "display": "Is an interchange station",
-      "hint": "Served by two or more separate named routes, or where several lines physically meet."
+      "display": "Change trains here",
+      "hint": "Served by two or more separate named routes, or where several lines physically meet.",
+      "id": "row_0"
     },
     {
       "type": "equals",
@@ -18,7 +19,8 @@
       "weight": "medium",
       "match_count": 45,
       "display": "Near the coast",
-      "hint": "A station within 3 kilometres of the coastline or an estuary."
+      "hint": "A station within 3 kilometres of the coastline or an estuary.",
+      "id": "row_1"
     },
     {
       "type": "range",
@@ -28,7 +30,8 @@
       "weight": "medium",
       "match_count": 46,
       "display": "Terminus station",
-      "hint": "At least some journeys terminate at this station - it's not just a stop along the way."
+      "hint": "At least some journeys terminate at this station - it's not just a stop along the way.",
+      "id": "row_2"
     },
     {
       "type": "equals",
@@ -38,7 +41,8 @@
       "weight": "medium",
       "match_count": 108,
       "display": "Station name is one word",
-      "hint": "Station is a one-word name."
+      "hint": "Station is a one-word name.",
+      "id": "row_3"
     },
     {
       "type": "range",
@@ -48,7 +52,8 @@
       "weight": "high",
       "match_count": 17,
       "display": "Station name is 3+ words",
-      "hint": "Station name is three or more words long."
+      "hint": "Station name is three or more words long.",
+      "id": "row_4"
     },
     {
       "type": "range",
@@ -59,7 +64,8 @@
       "weight": "high",
       "match_count": 18,
       "display": "Station name is 6 letters or fewer",
-      "hint": "Station name is 6 characters or fewer."
+      "hint": "Station name is 6 characters or fewer.",
+      "id": "row_5"
     },
     {
       "type": "range",
@@ -70,7 +76,8 @@
       "weight": "medium",
       "match_count": 87,
       "display": "Station name is 7-10 letters",
-      "hint": "Station name length is between 7 and 10 characters."
+      "hint": "Station name length is between 7 and 10 characters.",
+      "id": "row_6"
     },
     {
       "type": "range",
@@ -80,7 +87,8 @@
       "weight": "medium",
       "match_count": 61,
       "display": "Station name is 11+ letters",
-      "hint": "Station name is equal to or exceeds 11 characters."
+      "hint": "Station name is equal to or exceeds 11 characters.",
+      "id": "row_7"
     }
   ],
   "columnPool": [
@@ -92,7 +100,8 @@
       "category": "geography",
       "match_count": 22,
       "display": "Is within the Rhondda Cynon Taf region",
-      "hint": "This station is based within the Rhondda Cynon Taf region."
+      "hint": "This station is based within the Rhondda Cynon Taf region.",
+      "id": "col_0"
     },
     {
       "type": "equals",
@@ -102,7 +111,8 @@
       "category": "geography",
       "match_count": 20,
       "display": "Is within the Cardiff region",
-      "hint": "This station is based within the Cardiff region."
+      "hint": "This station is based within the Cardiff region.",
+      "id": "col_1"
     },
     {
       "type": "equals",
@@ -112,7 +122,8 @@
       "category": "geography",
       "match_count": 17,
       "display": "Is within the Carmarthenshire region",
-      "hint": "This station is based within the Carmarthenshire region."
+      "hint": "This station is based within the Carmarthenshire region.",
+      "id": "col_2"
     },
     {
       "type": "equals",
@@ -122,7 +133,8 @@
       "category": "geography",
       "match_count": 16,
       "display": "Is within the Caerphilly region",
-      "hint": "This station is based within the Caerphilly region."
+      "hint": "This station is based within the Caerphilly region.",
+      "id": "col_3"
     },
     {
       "type": "equals",
@@ -132,7 +144,8 @@
       "category": "geography",
       "match_count": 16,
       "display": "Is within the Pembrokeshire region",
-      "hint": "This station is based within the Pembrokeshire region."
+      "hint": "This station is based within the Pembrokeshire region.",
+      "id": "col_4"
     },
     {
       "type": "equals",
@@ -142,7 +155,8 @@
       "category": "geography",
       "match_count": 11,
       "display": "Is within the Vale of Glamorgan region",
-      "hint": "This station is based within the Vale of Glamorgan region."
+      "hint": "This station is based within the Vale of Glamorgan region.",
+      "id": "col_5"
     },
     {
       "type": "equals",
@@ -152,7 +166,8 @@
       "category": "geography",
       "match_count": 10,
       "display": "Is within the Bristol, City of region",
-      "hint": "This station is based within the Bristol, City of region."
+      "hint": "This station is based within the Bristol, City of region.",
+      "id": "col_6"
     },
     {
       "type": "equals",
@@ -162,7 +177,8 @@
       "category": "geography",
       "match_count": 9,
       "display": "Is within the Bridgend region",
-      "hint": "This station is based within the Bridgend region."
+      "hint": "This station is based within the Bridgend region.",
+      "id": "col_7"
     },
     {
       "type": "equals",
@@ -172,7 +188,8 @@
       "category": "geography",
       "match_count": 6,
       "display": "Is within the Powys region",
-      "hint": "This station is based within the Powys region."
+      "hint": "This station is based within the Powys region.",
+      "id": "col_8"
     },
     {
       "type": "equals",
@@ -182,7 +199,8 @@
       "category": "geography",
       "match_count": 5,
       "display": "Is within the Neath Port Talbot region",
-      "hint": "This station is based within the Neath Port Talbot region."
+      "hint": "This station is based within the Neath Port Talbot region.",
+      "id": "col_9"
     },
     {
       "type": "equals",
@@ -192,7 +210,8 @@
       "category": "geography",
       "match_count": 95,
       "display": "Trains head to Cardiff Central",
-      "hint": "This station's journeys are routed via or towards Cardiff Central."
+      "hint": "This station's journeys are routed via or towards Cardiff Central.",
+      "id": "col_10"
     },
     {
       "type": "equals",
@@ -202,7 +221,8 @@
       "category": "geography",
       "match_count": 49,
       "display": "Trains head to Swansea",
-      "hint": "This station's journeys are routed via or towards Swansea."
+      "hint": "This station's journeys are routed via or towards Swansea.",
+      "id": "col_11"
     },
     {
       "type": "equals",
@@ -212,7 +232,8 @@
       "category": "geography",
       "match_count": 22,
       "display": "Trains head to Bristol Temple Meads",
-      "hint": "This station's journeys are routed via or towards Bristol Temple Meads."
+      "hint": "This station's journeys are routed via or towards Bristol Temple Meads.",
+      "id": "col_12"
     },
     {
       "type": "range",
@@ -222,7 +243,8 @@
       "category": "service",
       "match_count": 8,
       "display": "A short journey to Bristol Temple Meads",
-      "hint": "In this puzzle, 'short' means under 18 minutes to Bristol Temple Meads."
+      "hint": "In this puzzle, 'short' means under 18 minutes to Bristol Temple Meads.",
+      "id": "col_13"
     },
     {
       "type": "range",
@@ -233,7 +255,8 @@
       "category": "service",
       "match_count": 8,
       "display": "A mid-range journey to Bristol Temple Meads",
-      "hint": "In this puzzle, 'mid-range' means 18-32 minutes to Bristol Temple Meads."
+      "hint": "In this puzzle, 'mid-range' means 18-32 minutes to Bristol Temple Meads.",
+      "id": "col_14"
     },
     {
       "type": "range",
@@ -243,7 +266,8 @@
       "category": "service",
       "match_count": 8,
       "display": "A long journey to Bristol Temple Meads",
-      "hint": "In this puzzle, 'long' means 32+ minutes to Bristol Temple Meads."
+      "hint": "In this puzzle, 'long' means 32+ minutes to Bristol Temple Meads.",
+      "id": "col_15"
     },
     {
       "type": "range",
@@ -253,7 +277,8 @@
       "category": "service",
       "match_count": 34,
       "display": "A short journey to Cardiff Central",
-      "hint": "In this puzzle, 'short' means under 22 minutes to Cardiff Central."
+      "hint": "In this puzzle, 'short' means under 22 minutes to Cardiff Central.",
+      "id": "col_16"
     },
     {
       "type": "range",
@@ -264,7 +289,8 @@
       "category": "service",
       "match_count": 33,
       "display": "A mid-range journey to Cardiff Central",
-      "hint": "In this puzzle, 'mid-range' means 22-43 minutes to Cardiff Central."
+      "hint": "In this puzzle, 'mid-range' means 22-43 minutes to Cardiff Central.",
+      "id": "col_17"
     },
     {
       "type": "range",
@@ -274,7 +300,8 @@
       "category": "service",
       "match_count": 32,
       "display": "A long journey to Cardiff Central",
-      "hint": "In this puzzle, 'long' means 43+ minutes to Cardiff Central."
+      "hint": "In this puzzle, 'long' means 43+ minutes to Cardiff Central.",
+      "id": "col_18"
     },
     {
       "type": "range",
@@ -284,7 +311,8 @@
       "category": "service",
       "match_count": 17,
       "display": "A short journey to Swansea",
-      "hint": "In this puzzle, 'short' means under 47 minutes to Swansea."
+      "hint": "In this puzzle, 'short' means under 47 minutes to Swansea.",
+      "id": "col_19"
     },
     {
       "type": "range",
@@ -295,7 +323,8 @@
       "category": "service",
       "match_count": 17,
       "display": "A mid-range journey to Swansea",
-      "hint": "In this puzzle, 'mid-range' means 47-97 minutes to Swansea."
+      "hint": "In this puzzle, 'mid-range' means 47-97 minutes to Swansea.",
+      "id": "col_20"
     },
     {
       "type": "range",
@@ -305,7 +334,8 @@
       "category": "service",
       "match_count": 17,
       "display": "A long journey to Swansea",
-      "hint": "In this puzzle, 'long' means 97+ minutes to Swansea."
+      "hint": "In this puzzle, 'long' means 97+ minutes to Swansea.",
+      "id": "col_21"
     },
     {
       "type": "equals",
@@ -315,7 +345,8 @@
       "category": "route",
       "match_count": 144,
       "display": "Route operated by TfW.",
-      "hint": "This station is served by TfW."
+      "hint": "This station is served by TfW.",
+      "id": "col_22"
     },
     {
       "type": "equals",
@@ -325,7 +356,8 @@
       "category": "route",
       "match_count": 22,
       "display": "Route operated by Great_Western.",
-      "hint": "This station is served by Great_Western."
+      "hint": "This station is served by Great_Western.",
+      "id": "col_23"
     },
     {
       "type": "array_contains",
@@ -335,7 +367,8 @@
       "category": "route",
       "match_count": 46,
       "display": "Is part of the Swanline route",
-      "hint": "The local stopping service on the South Wales Main Line between Cardiff Central and Swansea, calling at Pyle, Port Talbot, Baglan, Briton Ferry, Skewen and Llansamlet - the slower alternative to the fast Cardiff-Swansea trains."
+      "hint": "The local stopping service on the South Wales Main Line between Cardiff Central and Swansea, calling at Pyle, Port Talbot, Baglan, Briton Ferry, Skewen and Llansamlet - the slower alternative to the fast Cardiff-Swansea trains.",
+      "id": "col_24"
     },
     {
       "type": "array_contains",
@@ -345,7 +378,8 @@
       "category": "route",
       "match_count": 42,
       "display": "Is part of the Central Wales Line route",
-      "hint": "The long single-track 'Heart of Wales' route south from Craven Arms through Knighton, Llandrindod Wells, Llandovery and Llandeilo to Llanelli and Swansea - same route as the Heart of Wales Line, just an older name."
+      "hint": "The long single-track 'Heart of Wales' route south from Craven Arms through Knighton, Llandrindod Wells, Llandovery and Llandeilo to Llanelli and Swansea - same route as the Heart of Wales Line, just an older name.",
+      "id": "col_25"
     },
     {
       "type": "array_contains",
@@ -355,7 +389,8 @@
       "category": "route",
       "match_count": 42,
       "display": "Is part of the Heart of Wales Line route",
-      "hint": "The long single-track route south from Craven Arms through Knighton, Llandrindod Wells, Llandovery and Llandeilo to Llanelli and Swansea - also called the Central Wales Line."
+      "hint": "The long single-track route south from Craven Arms through Knighton, Llandrindod Wells, Llandovery and Llandeilo to Llanelli and Swansea - also called the Central Wales Line.",
+      "id": "col_26"
     },
     {
       "type": "array_contains",
@@ -365,7 +400,8 @@
       "category": "route",
       "match_count": 31,
       "display": "Is part of the Vale of Glamorgan Line route",
-      "hint": "The line looping south of the Cardiff-Bridgend main line via Barry, Rhoose Cardiff Airport and Llantwit Major - reopened to passengers in 2005 after over 40 years closed."
+      "hint": "The line looping south of the Cardiff-Bridgend main line via Barry, Rhoose Cardiff Airport and Llantwit Major - reopened to passengers in 2005 after over 40 years closed.",
+      "id": "col_27"
     },
     {
       "type": "array_contains",
@@ -375,7 +411,8 @@
       "category": "route",
       "match_count": 30,
       "display": "Is part of the Coryton Line route",
-      "hint": "The short suburban branch north from Cardiff Queen Street through Heath, Birchgrove, Rhiwbina and Whitchurch to Coryton - not one of the longer Valley lines further out."
+      "hint": "The short suburban branch north from Cardiff Queen Street through Heath, Birchgrove, Rhiwbina and Whitchurch to Coryton - not one of the longer Valley lines further out.",
+      "id": "col_28"
     },
     {
       "type": "array_contains",
@@ -385,7 +422,8 @@
       "category": "route",
       "match_count": 25,
       "display": "Is part of the Merthyr Line route",
-      "hint": "The Valley line north from Cardiff via Abercynon to Merthyr Tydfil - shares its southern half with the Aberdare Line, which splits off at Abercynon."
+      "hint": "The Valley line north from Cardiff via Abercynon to Merthyr Tydfil - shares its southern half with the Aberdare Line, which splits off at Abercynon.",
+      "id": "col_29"
     },
     {
       "type": "array_contains",
@@ -395,7 +433,8 @@
       "category": "route",
       "match_count": 25,
       "display": "Is part of the Treherbert Line route",
-      "hint": "The Rhondda Valley line from Cardiff via Pontypridd, Porth and Tonypandy to Treherbert at the head of the valley."
+      "hint": "The Rhondda Valley line from Cardiff via Pontypridd, Porth and Tonypandy to Treherbert at the head of the valley.",
+      "id": "col_30"
     },
     {
       "type": "array_contains",
@@ -405,7 +444,8 @@
       "category": "route",
       "match_count": 24,
       "display": "Is part of the Aberdare Line route",
-      "hint": "The Valley line north from Cardiff via Abercynon to Aberdare - shares its southern half with the Merthyr Line, which splits off at Abercynon."
+      "hint": "The Valley line north from Cardiff via Abercynon to Aberdare - shares its southern half with the Merthyr Line, which splits off at Abercynon.",
+      "id": "col_31"
     },
     {
       "type": "array_contains",
@@ -415,7 +455,8 @@
       "category": "route",
       "match_count": 20,
       "display": "Is part of the Ebbw Valley Line route",
-      "hint": "The reopened branch up the Ebbw Valley from Newport (or Cardiff Central) through Risca, Crosskeys and Newbridge to Ebbw Vale Town - closed to passengers for 46 years before reopening in 2008."
+      "hint": "The reopened branch up the Ebbw Valley from Newport (or Cardiff Central) through Risca, Crosskeys and Newbridge to Ebbw Vale Town - closed to passengers for 46 years before reopening in 2008.",
+      "id": "col_32"
     },
     {
       "type": "array_contains",
@@ -425,7 +466,8 @@
       "category": "route",
       "match_count": 10,
       "display": "Is part of the Cardiff Bay Line route",
-      "hint": "The short shuttle branch from Cardiff Queen Street down to Cardiff Bay, serving the regenerated docks and Senedd area - also called the Butetown Branch Line."
+      "hint": "The short shuttle branch from Cardiff Queen Street down to Cardiff Bay, serving the regenerated docks and Senedd area - also called the Butetown Branch Line.",
+      "id": "col_33"
     },
     {
       "type": "array_contains",
@@ -435,7 +477,8 @@
       "category": "route",
       "match_count": 10,
       "display": "Is part of the Severn Beach Line route",
-      "hint": "The scenic Bristol suburban branch from Temple Meads through Clifton Down, Sea Mills and Avonmouth to the small resort of Severn Beach on the Severn Estuary."
+      "hint": "The scenic Bristol suburban branch from Temple Meads through Clifton Down, Sea Mills and Avonmouth to the small resort of Severn Beach on the Severn Estuary.",
+      "id": "col_34"
     },
     {
       "type": "array_contains",
@@ -445,7 +488,8 @@
       "category": "route",
       "match_count": 9,
       "display": "Is part of the Great Western Main Line route",
-      "hint": "The core route from London Paddington to Bristol and beyond, via Reading, Swindon and Bath Spa - the trunk line South Wales services join at Bristol Parkway or Bristol Temple Meads."
+      "hint": "The core route from London Paddington to Bristol and beyond, via Reading, Swindon and Bath Spa - the trunk line South Wales services join at Bristol Parkway or Bristol Temple Meads.",
+      "id": "col_35"
     },
     {
       "type": "array_contains",
@@ -455,7 +499,8 @@
       "category": "route",
       "match_count": 6,
       "display": "Is part of the City Line (Cardiff) route",
-      "hint": "The short Cardiff line linking Radyr to Cardiff Central/Queen Street via Danescourt, Fairwater, Waun-Gron Park and Ninian Park - also used as a diversion route for the Valley lines."
+      "hint": "The short Cardiff line linking Radyr to Cardiff Central/Queen Street via Danescourt, Fairwater, Waun-Gron Park and Ninian Park - also used as a diversion route for the Valley lines.",
+      "id": "col_36"
     },
     {
       "type": "array_contains",
@@ -465,7 +510,8 @@
       "category": "route",
       "match_count": 6,
       "display": "Is part of the Gloucester to Newport Line route",
-      "hint": "The route hugging the English side of the Severn Estuary from Newport through Chepstow and Lydney up to Gloucester - the diversionary route when the Severn Tunnel is closed."
+      "hint": "The route hugging the English side of the Severn Estuary from Newport through Chepstow and Lydney up to Gloucester - the diversionary route when the Severn Tunnel is closed.",
+      "id": "col_37"
     },
     {
       "type": "array_contains",
@@ -475,7 +521,8 @@
       "category": "route",
       "match_count": 5,
       "display": "Is part of the Marches Line route",
-      "hint": "The long cross-border route from Newport via Abergavenny and Hereford to Shrewsbury, continuing to Crewe or via Wrexham to Chester - same route as the North & West Line, just an older name. Not the Heart of Wales branch that splits off at Craven Arms."
+      "hint": "The long cross-border route from Newport via Abergavenny and Hereford to Shrewsbury, continuing to Crewe or via Wrexham to Chester - same route as the North & West Line, just an older name. Not the Heart of Wales branch that splits off at Craven Arms.",
+      "id": "col_38"
     },
     {
       "type": "equals",
@@ -485,7 +532,8 @@
       "category": "name",
       "match_count": 44,
       "display": "Naming style: Welsh place-name roots",
-      "hint": "The name includes a Welsh place-name element, like Llan-, Aber-, Pen- or Caer-."
+      "hint": "The name includes a Welsh place-name element, like Llan-, Aber-, Pen- or Caer-.",
+      "id": "col_39"
     },
     {
       "type": "equals",
@@ -495,7 +543,8 @@
       "category": "name",
       "match_count": 21,
       "display": "Naming style: an unusual name format",
-      "hint": "Something unusual about how the name is written - brackets, a hyphen, an ampersand, or 'St'."
+      "hint": "Something unusual about how the name is written - brackets, a hyphen, an ampersand, or 'St'.",
+      "id": "col_40"
     },
     {
       "type": "equals",
@@ -505,7 +554,8 @@
       "category": "name",
       "match_count": 12,
       "display": "Naming style: a common English place-name ending",
-      "hint": "The name ends in a common English place-name suffix, like -ton, -ham, -by or -dale."
+      "hint": "The name ends in a common English place-name suffix, like -ton, -ham, -by or -dale.",
+      "id": "col_41"
     },
     {
       "type": "equals",
@@ -515,7 +565,8 @@
       "category": "name",
       "match_count": 6,
       "display": "Naming style: a nature word in the name",
-      "hint": "The name includes a nature word, like Park, Hill, Green, Heath or Wood."
+      "hint": "The name includes a nature word, like Park, Hill, Green, Heath or Wood.",
+      "id": "col_42"
     },
     {
       "type": "array_contains",
@@ -525,7 +576,8 @@
       "category": "name",
       "match_count": 16,
       "display": "Word contains 'llan'",
-      "hint": "Word contains 'llan'."
+      "hint": "Word contains 'llan'.",
+      "id": "col_43"
     },
     {
       "type": "array_contains",
@@ -535,7 +587,8 @@
       "category": "name",
       "match_count": 11,
       "display": "Word contains 'ton'",
-      "hint": "Word contains 'ton'."
+      "hint": "Word contains 'ton'.",
+      "id": "col_44"
     },
     {
       "type": "array_contains",
@@ -545,7 +598,8 @@
       "category": "name",
       "match_count": 8,
       "display": "Name includes brackets",
-      "hint": "The station name includes text in brackets, e.g. a disambiguator like '(Cumbria)'."
+      "hint": "The station name includes text in brackets, e.g. a disambiguator like '(Cumbria)'.",
+      "id": "col_45"
     },
     {
       "type": "array_contains",
@@ -555,7 +609,8 @@
       "category": "name",
       "match_count": 8,
       "display": "Name includes an '&'",
-      "hint": "The station name includes an ampersand (&)."
+      "hint": "The station name includes an ampersand (&).",
+      "id": "col_46"
     },
     {
       "type": "array_contains",
@@ -565,7 +620,8 @@
       "category": "name",
       "match_count": 7,
       "display": "Word contains 'pen'",
-      "hint": "Word contains 'pen'."
+      "hint": "Word contains 'pen'.",
+      "id": "col_47"
     },
     {
       "type": "array_contains",
@@ -575,7 +631,8 @@
       "category": "name",
       "match_count": 6,
       "display": "Word contains 'park'",
-      "hint": "Word contains 'park'."
+      "hint": "Word contains 'park'.",
+      "id": "col_48"
     },
     {
       "type": "array_contains",
@@ -585,7 +642,8 @@
       "category": "name",
       "match_count": 6,
       "display": "Word contains 'pont'",
-      "hint": "Word contains 'pont'."
+      "hint": "Word contains 'pont'.",
+      "id": "col_49"
     },
     {
       "type": "array_contains",
@@ -595,7 +653,8 @@
       "category": "name",
       "match_count": 5,
       "display": "Word contains 'tre'",
-      "hint": "Word contains 'tre'."
+      "hint": "Word contains 'tre'.",
+      "id": "col_50"
     },
     {
       "type": "array_contains",
@@ -605,7 +664,8 @@
       "category": "name",
       "match_count": 4,
       "display": "Word contains 'aber'",
-      "hint": "Word contains 'aber'."
+      "hint": "Word contains 'aber'.",
+      "id": "col_51"
     },
     {
       "type": "array_contains",
@@ -615,7 +675,8 @@
       "category": "name",
       "match_count": 4,
       "display": "Word contains 'port'",
-      "hint": "Word contains 'port'."
+      "hint": "Word contains 'port'.",
+      "id": "col_52"
     },
     {
       "type": "array_contains",
@@ -625,7 +686,8 @@
       "category": "name",
       "match_count": 4,
       "display": "Name includes a hyphen",
-      "hint": "The station name includes a hyphen."
+      "hint": "The station name includes a hyphen.",
+      "id": "col_53"
     },
     {
       "type": "array_contains",
@@ -635,7 +697,8 @@
       "category": "name",
       "match_count": 3,
       "display": "Word contains 'ey'",
-      "hint": "Word contains 'ey'."
+      "hint": "Word contains 'ey'.",
+      "id": "col_54"
     }
   ]
 }

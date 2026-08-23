@@ -6,21 +6,19 @@
       "value": true,
       "label": "Interchange station",
       "weight": "medium",
-      "match_count": 74,
-      "display": "Change trains here",
-      "hint": "Served by two or more separate named routes, or where several lines physically meet.",
-      "id": "row_0"
+      "match_count": 62,
+      "display": "Is an interchange station",
+      "hint": "Served by two or more separate named routes, or where several lines physically meet."
     },
     {
       "type": "equals",
       "field": "is_coastal",
       "value": true,
       "label": "Coastal station",
-      "weight": "medium",
-      "match_count": 52,
+      "weight": "high",
+      "match_count": 41,
       "display": "Near the coast",
-      "hint": "A station within 3 kilometres of the coastline or an estuary.",
-      "id": "row_1"
+      "hint": "A station within 3 kilometres of the coastline or an estuary."
     },
     {
       "type": "range",
@@ -28,10 +26,9 @@
       "min": 1,
       "label": "Terminus station",
       "weight": "medium",
-      "match_count": 80,
+      "match_count": 68,
       "display": "Terminus station",
-      "hint": "At least some journeys terminate at this station - it's not just a stop along the way.",
-      "id": "row_2"
+      "hint": "At least some journeys terminate at this station - it's not just a stop along the way."
     },
     {
       "type": "equals",
@@ -39,10 +36,9 @@
       "value": 1,
       "label": "One-word name",
       "weight": "medium",
-      "match_count": 137,
+      "match_count": 124,
       "display": "Station name is one word",
-      "hint": "Station is a one-word name.",
-      "id": "row_3"
+      "hint": "Station is a one-word name."
     },
     {
       "type": "range",
@@ -50,10 +46,9 @@
       "min": 3,
       "label": "Three or more words in name",
       "weight": "high",
-      "match_count": 11,
+      "match_count": 10,
       "display": "Station name is 3+ words",
-      "hint": "Station name is three or more words long.",
-      "id": "row_4"
+      "hint": "Station name is three or more words long."
     },
     {
       "type": "range",
@@ -62,10 +57,9 @@
       "min": 0,
       "max": 6,
       "weight": "high",
-      "match_count": 27,
+      "match_count": 24,
       "display": "Station name is 6 letters or fewer",
-      "hint": "Station name is 6 characters or fewer.",
-      "id": "row_5"
+      "hint": "Station name is 6 characters or fewer."
     },
     {
       "type": "range",
@@ -74,10 +68,9 @@
       "min": 7,
       "max": 10,
       "weight": "medium",
-      "match_count": 95,
+      "match_count": 86,
       "display": "Station name is 7-10 letters",
-      "hint": "Station name length is between 7 and 10 characters.",
-      "id": "row_6"
+      "hint": "Station name length is between 7 and 10 characters."
     },
     {
       "type": "range",
@@ -85,10 +78,9 @@
       "label": "Long name (11+ letters)",
       "min": 11,
       "weight": "medium",
-      "match_count": 109,
+      "match_count": 100,
       "display": "Station name is 11+ letters",
-      "hint": "Station name is equal to or exceeds 11 characters.",
-      "id": "row_7"
+      "hint": "Station name is equal to or exceeds 11 characters."
     }
   ],
   "columnPool": [
@@ -100,8 +92,7 @@
       "category": "geography",
       "match_count": 40,
       "display": "Is within the South London region",
-      "hint": "This station is based within the South London region.",
-      "id": "col_0"
+      "hint": "This station is based within the South London region."
     },
     {
       "type": "equals",
@@ -111,8 +102,7 @@
       "category": "geography",
       "match_count": 13,
       "display": "Is within the Sevenoaks region",
-      "hint": "This station is based within the Sevenoaks region.",
-      "id": "col_1"
+      "hint": "This station is based within the Sevenoaks region."
     },
     {
       "type": "equals",
@@ -122,8 +112,7 @@
       "category": "geography",
       "match_count": 12,
       "display": "Is within the Reigate and Banstead region",
-      "hint": "This station is based within the Reigate and Banstead region.",
-      "id": "col_2"
+      "hint": "This station is based within the Reigate and Banstead region."
     },
     {
       "type": "equals",
@@ -131,10 +120,9 @@
       "value": "Rother",
       "label": "Region: Rother",
       "category": "geography",
-      "match_count": 12,
+      "match_count": 11,
       "display": "Is within the Rother region",
-      "hint": "This station is based within the Rother region.",
-      "id": "col_3"
+      "hint": "This station is based within the Rother region."
     },
     {
       "type": "equals",
@@ -142,10 +130,9 @@
       "value": "Tandridge",
       "label": "Region: Tandridge",
       "category": "geography",
-      "match_count": 12,
+      "match_count": 11,
       "display": "Is within the Tandridge region",
-      "hint": "This station is based within the Tandridge region.",
-      "id": "col_4"
+      "hint": "This station is based within the Tandridge region."
     },
     {
       "type": "equals",
@@ -155,8 +142,7 @@
       "category": "geography",
       "match_count": 10,
       "display": "Is within the Wealden region",
-      "hint": "This station is based within the Wealden region.",
-      "id": "col_5"
+      "hint": "This station is based within the Wealden region."
     },
     {
       "type": "equals",
@@ -166,8 +152,7 @@
       "category": "geography",
       "match_count": 9,
       "display": "Is within the Lewes region",
-      "hint": "This station is based within the Lewes region.",
-      "id": "col_6"
+      "hint": "This station is based within the Lewes region."
     },
     {
       "type": "equals",
@@ -177,8 +162,7 @@
       "category": "geography",
       "match_count": 8,
       "display": "Is within the Brighton and Hove region",
-      "hint": "This station is based within the Brighton and Hove region.",
-      "id": "col_7"
+      "hint": "This station is based within the Brighton and Hove region."
     },
     {
       "type": "equals",
@@ -188,8 +172,7 @@
       "category": "geography",
       "match_count": 8,
       "display": "Is within the Horsham region",
-      "hint": "This station is based within the Horsham region.",
-      "id": "col_8"
+      "hint": "This station is based within the Horsham region."
     },
     {
       "type": "equals",
@@ -197,10 +180,9 @@
       "value": "Mole Valley",
       "label": "Region: Mole Valley",
       "category": "geography",
-      "match_count": 7,
+      "match_count": 6,
       "display": "Is within the Mole Valley region",
-      "hint": "This station is based within the Mole Valley region.",
-      "id": "col_9"
+      "hint": "This station is based within the Mole Valley region."
     },
     {
       "type": "range",
@@ -208,33 +190,40 @@
       "max": 70.0,
       "label": "Time to London: shortest third",
       "category": "service",
-      "match_count": 107,
+      "match_count": 96,
       "display": "A short journey to London",
-      "hint": "In this puzzle, 'short' means under 70 minutes to London.",
-      "id": "col_10"
+      "hint": "In this puzzle, 'short' means under 70 minutes to London."
     },
     {
       "type": "range",
       "field": "time_to_hub__london",
       "min": 70.0,
-      "max": 142.0,
+      "max": 143.0,
       "label": "Time to London: middle third",
       "category": "service",
-      "match_count": 79,
+      "match_count": 75,
       "display": "A mid-range journey to London",
-      "hint": "In this puzzle, 'mid-range' means 70-142 minutes to London.",
-      "id": "col_11"
+      "hint": "In this puzzle, 'mid-range' means 70-143 minutes to London."
     },
     {
       "type": "range",
       "field": "time_to_hub__london",
-      "min": 142.0,
+      "min": 143.0,
       "label": "Time to London: longest third",
       "category": "service",
-      "match_count": 77,
+      "match_count": 71,
       "display": "A long journey to London",
-      "hint": "In this puzzle, 'long' means 142+ minutes to London.",
-      "id": "col_12"
+      "hint": "In this puzzle, 'long' means 143+ minutes to London."
+    },
+    {
+      "type": "equals",
+      "field": "operator",
+      "value": "Southern",
+      "label": "Operator: Southern",
+      "category": "route",
+      "match_count": 187,
+      "display": "Route operated by Southern.",
+      "hint": "This station is served by Southern."
     },
     {
       "type": "equals",
@@ -244,19 +233,7 @@
       "category": "route",
       "match_count": 23,
       "display": "Route operated by Thameslink.",
-      "hint": "Operated by Thameslink. Stations include Bedford, Harlington, Luton and St Albans (plus 19 more).",
-      "id": "col_13"
-    },
-    {
-      "type": "array_contains",
-      "field": "route",
-      "value": "West Coastway",
-      "label": "Route: West Coastway",
-      "category": "route",
-      "match_count": 25,
-      "display": "Is part of the West Coastway route",
-      "hint": "The coastal route from Brighton west via Worthing, Chichester and Havant to Southampton, with branches to Littlehampton and Bognor Regis - also called Coastway West.",
-      "id": "col_14"
+      "hint": "This station is served by Thameslink."
     },
     {
       "type": "array_contains",
@@ -266,19 +243,17 @@
       "category": "route",
       "match_count": 23,
       "display": "Is part of the Midland Electrics route",
-      "hint": "The Thameslink route north from London through St Albans and Luton to Bedford, running parallel to the Midland Main Line proper for much of its length.",
-      "id": "col_15"
+      "hint": "The Thameslink route north from London through St Albans and Luton to Bedford, running parallel to the Midland Main Line proper for much of its length."
     },
     {
       "type": "array_contains",
       "field": "route",
-      "value": "East Coastway",
-      "label": "Route: East Coastway",
+      "value": "West Coastway",
+      "label": "Route: West Coastway",
       "category": "route",
       "match_count": 21,
-      "display": "Is part of the East Coastway route",
-      "hint": "The coastal route from Brighton east via Lewes, Eastbourne and Bexhill to Hastings and Ore, with a branch to Seaford - also called Coastway East.",
-      "id": "col_16"
+      "display": "Is part of the West Coastway route",
+      "hint": "The coastal route from Brighton west via Worthing, Chichester and Havant to Southampton, with branches to Littlehampton and Bognor Regis - also called Coastway West."
     },
     {
       "type": "array_contains",
@@ -288,8 +263,7 @@
       "category": "route",
       "match_count": 20,
       "display": "Is part of the Brighton Main Line route",
-      "hint": "The principal route from London Victoria/Bridge via Gatwick Airport, Haywards Heath and Wivelsfield to Brighton - one of the busiest main lines in the country.",
-      "id": "col_17"
+      "hint": "The principal route from London Victoria/Bridge via Gatwick Airport, Haywards Heath and Wivelsfield to Brighton - one of the busiest main lines in the country."
     },
     {
       "type": "array_contains",
@@ -299,8 +273,17 @@
       "category": "route",
       "match_count": 20,
       "display": "Is part of the Sutton & Metro route",
-      "hint": "The South London suburban network of routes converging on Sutton, running through Balham, Streatham, Mitcham and Wallington towards Croydon and the North Downs.",
-      "id": "col_18"
+      "hint": "The South London suburban network of routes converging on Sutton, running through Balham, Streatham, Mitcham and Wallington towards Croydon and the North Downs."
+    },
+    {
+      "type": "array_contains",
+      "field": "route",
+      "value": "East Coastway",
+      "label": "Route: East Coastway",
+      "category": "route",
+      "match_count": 20,
+      "display": "Is part of the East Coastway route",
+      "hint": "The coastal route from Brighton east via Lewes, Eastbourne and Bexhill to Hastings and Ore, with a branch to Seaford - also called Coastway East."
     },
     {
       "type": "array_contains",
@@ -308,10 +291,9 @@
       "value": "Southern Thameslink Branches",
       "label": "Route: Southern Thameslink Branches",
       "category": "route",
-      "match_count": 19,
+      "match_count": 18,
       "display": "Is part of the Southern Thameslink Branches route",
-      "hint": "The routes serving Sevenoaks and the Kent/Surrey border towns that continue north through the Thameslink core via Blackfriars and St Pancras to Bedford or Cambridge.",
-      "id": "col_19"
+      "hint": "The routes serving Sevenoaks and the Kent/Surrey border towns that continue north through the Thameslink core via Blackfriars and St Pancras to Bedford or Cambridge."
     },
     {
       "type": "array_contains",
@@ -321,19 +303,7 @@
       "category": "route",
       "match_count": 16,
       "display": "Is part of the Uckfield Branch route",
-      "hint": "The rural branch from Hurst Green via Eridge and Crowborough to Uckfield - the southern remnant of the old Oxted-Lewes route, cut back after the Uckfield-Lewes section closed in 1969.",
-      "id": "col_20"
-    },
-    {
-      "type": "array_contains",
-      "field": "route",
-      "value": "Portsmouth Direct",
-      "label": "Route: Portsmouth Direct",
-      "category": "route",
-      "match_count": 16,
-      "display": "Is part of the Portsmouth Direct route",
-      "hint": "The fast route from London Waterloo via Guildford and Haslemere to Portsmouth Harbour - the historic direct line to the naval city.",
-      "id": "col_21"
+      "hint": "The rural branch from Hurst Green via Eridge and Crowborough to Uckfield - the southern remnant of the old Oxted-Lewes route, cut back after the Uckfield-Lewes section closed in 1969."
     },
     {
       "type": "array_contains",
@@ -343,19 +313,7 @@
       "category": "route",
       "match_count": 16,
       "display": "Is part of the Midland Main Line route",
-      "hint": "The Thameslink route north from London through St Albans and Luton to Bedford, continuing the core Thameslink service beyond the central London tunnel.",
-      "id": "col_22"
-    },
-    {
-      "type": "array_contains",
-      "field": "route",
-      "value": "Coastway East",
-      "label": "Route: Coastway East",
-      "category": "route",
-      "match_count": 13,
-      "display": "Is part of the Coastway East route",
-      "hint": "The coastal route from Brighton east via Lewes, Eastbourne and Bexhill to Hastings and Ore, with a branch to Seaford - the name Southern uses interchangeably with East Coastway.",
-      "id": "col_23"
+      "hint": "The Thameslink route north from London through St Albans and Luton to Bedford, continuing the core Thameslink service beyond the central London tunnel."
     },
     {
       "type": "array_contains",
@@ -365,8 +323,17 @@
       "category": "route",
       "match_count": 12,
       "display": "Is part of the Coastway West route",
-      "hint": "The coastal route from Brighton west via Worthing, Chichester and Havant to Southampton, with branches to Littlehampton and Bognor Regis - the name Southern uses interchangeably with West Coastway.",
-      "id": "col_24"
+      "hint": "The coastal route from Brighton west via Worthing, Chichester and Havant to Southampton, with branches to Littlehampton and Bognor Regis - the name Southern uses interchangeably with West Coastway."
+    },
+    {
+      "type": "array_contains",
+      "field": "route",
+      "value": "Coastway East",
+      "label": "Route: Coastway East",
+      "category": "route",
+      "match_count": 12,
+      "display": "Is part of the Coastway East route",
+      "hint": "The coastal route from Brighton east via Lewes, Eastbourne and Bexhill to Hastings and Ore, with a branch to Seaford - the name Southern uses interchangeably with East Coastway."
     },
     {
       "type": "array_contains",
@@ -376,8 +343,7 @@
       "category": "route",
       "match_count": 11,
       "display": "Is part of the Arun Valley Line route",
-      "hint": "The route from Horsham via Billingshurst and Pulborough up the Arun Valley to Amberley and Arundel, continuing to the coast.",
-      "id": "col_25"
+      "hint": "The route from Horsham via Billingshurst and Pulborough up the Arun Valley to Amberley and Arundel, continuing to the coast."
     },
     {
       "type": "array_contains",
@@ -387,8 +353,7 @@
       "category": "route",
       "match_count": 11,
       "display": "Is part of the Coastway route",
-      "hint": "The combined coastal route along the Sussex and Hampshire shore through Brighton, linking the separate West Coastway and East Coastway sections into one continuous line from Southampton to Hastings.",
-      "id": "col_26"
+      "hint": "The combined coastal route along the Sussex and Hampshire shore through Brighton, linking the separate West Coastway and East Coastway sections into one continuous line from Southampton to Hastings."
     },
     {
       "type": "array_contains",
@@ -398,8 +363,17 @@
       "category": "route",
       "match_count": 11,
       "display": "Is part of the Epsom Downs Line route",
-      "hint": "The branch from West Croydon via Sutton and Belmont to its terminus at Epsom Downs, the home of the Derby horse race.",
-      "id": "col_27"
+      "hint": "The branch from West Croydon via Sutton and Belmont to its terminus at Epsom Downs, the home of the Derby horse race."
+    },
+    {
+      "type": "array_contains",
+      "field": "route",
+      "value": "Hastings Line Extended",
+      "label": "Route: Hastings Line Extended",
+      "category": "route",
+      "match_count": 11,
+      "display": "Is part of the Hastings Line Extended route",
+      "hint": "The line down to Hastings on the Sussex coast from Tonbridge, via Wadhurst, Etchingham and Battle."
     },
     {
       "type": "array_contains",
@@ -409,8 +383,7 @@
       "category": "route",
       "match_count": 9,
       "display": "Is part of the Mole Valley Line route",
-      "hint": "The route from Epsom via Leatherhead and Box Hill & Westhumble to Dorking, following the course of the River Mole - continues to Horsham on some services.",
-      "id": "col_28"
+      "hint": "The route from Epsom via Leatherhead and Box Hill & Westhumble to Dorking, following the course of the River Mole - continues to Horsham on some services."
     },
     {
       "type": "equals",
@@ -418,10 +391,9 @@
       "value": "local_suffix",
       "label": "Wordplay: local_suffix",
       "category": "name",
-      "match_count": 79,
+      "match_count": 74,
       "display": "Naming style: a common English place-name ending",
-      "hint": "The name ends in a common English place-name suffix, like -ton, -ham, -by or -dale.",
-      "id": "col_29"
+      "hint": "The name ends in a common English place-name suffix, like -ton, -ham, -by or -dale."
     },
     {
       "type": "equals",
@@ -429,10 +401,9 @@
       "value": "structure",
       "label": "Wordplay: structure",
       "category": "name",
-      "match_count": 33,
+      "match_count": 29,
       "display": "Naming style: an unusual name format",
-      "hint": "Something unusual about how the name is written - brackets, a hyphen, an ampersand, or 'St'.",
-      "id": "col_30"
+      "hint": "Something unusual about how the name is written - brackets, a hyphen, an ampersand, or 'St'."
     },
     {
       "type": "equals",
@@ -440,10 +411,9 @@
       "value": "nature",
       "label": "Wordplay: nature",
       "category": "name",
-      "match_count": 9,
+      "match_count": 8,
       "display": "Naming style: a nature word in the name",
-      "hint": "The name includes a nature word, like Park, Hill, Green, Heath or Wood.",
-      "id": "col_31"
+      "hint": "The name includes a nature word, like Park, Hill, Green, Heath or Wood."
     },
     {
       "type": "array_contains",
@@ -451,10 +421,9 @@
       "value": "ham",
       "label": "Name contains 'ham'",
       "category": "name",
-      "match_count": 28,
+      "match_count": 25,
       "display": "Word contains 'ham'",
-      "hint": "Word contains 'ham'.",
-      "id": "col_32"
+      "hint": "Word contains 'ham'."
     },
     {
       "type": "array_contains",
@@ -462,10 +431,9 @@
       "value": "ton",
       "label": "Name contains 'ton'",
       "category": "name",
-      "match_count": 25,
+      "match_count": 23,
       "display": "Word contains 'ton'",
-      "hint": "Word contains 'ton'.",
-      "id": "col_33"
+      "hint": "Word contains 'ton'."
     },
     {
       "type": "array_contains",
@@ -473,10 +441,9 @@
       "value": "brackets",
       "label": "Name contains 'brackets'",
       "category": "name",
-      "match_count": 19,
+      "match_count": 17,
       "display": "Name includes brackets",
-      "hint": "The station name includes text in brackets, e.g. a disambiguator like '(Cumbria)'.",
-      "id": "col_34"
+      "hint": "The station name includes text in brackets, e.g. a disambiguator like '(Cumbria)'."
     },
     {
       "type": "array_contains",
@@ -486,8 +453,7 @@
       "category": "name",
       "match_count": 16,
       "display": "Word contains 'don'",
-      "hint": "Word contains 'don'.",
-      "id": "col_35"
+      "hint": "Word contains 'don'."
     },
     {
       "type": "array_contains",
@@ -497,8 +463,7 @@
       "category": "name",
       "match_count": 14,
       "display": "Word contains 'ey'",
-      "hint": "Word contains 'ey'.",
-      "id": "col_36"
+      "hint": "Word contains 'ey'."
     },
     {
       "type": "array_contains",
@@ -508,8 +473,7 @@
       "category": "name",
       "match_count": 9,
       "display": "Word contains 'ridge'",
-      "hint": "Word contains 'ridge'.",
-      "id": "col_37"
+      "hint": "Word contains 'ridge'."
     },
     {
       "type": "array_contains",
@@ -519,8 +483,7 @@
       "category": "name",
       "match_count": 8,
       "display": "Word contains 'ley'",
-      "hint": "Word contains 'ley'.",
-      "id": "col_38"
+      "hint": "Word contains 'ley'."
     },
     {
       "type": "array_contains",
@@ -530,8 +493,7 @@
       "category": "name",
       "match_count": 7,
       "display": "Word contains 'ington'",
-      "hint": "Word contains 'ington'.",
-      "id": "col_39"
+      "hint": "Word contains 'ington'."
     },
     {
       "type": "array_contains",
@@ -541,19 +503,7 @@
       "category": "name",
       "match_count": 6,
       "display": "Word contains 'hill'",
-      "hint": "Word contains 'hill'.",
-      "id": "col_40"
-    },
-    {
-      "type": "array_contains",
-      "field": "wordplay_tags",
-      "value": "saint",
-      "label": "Name contains 'saint'",
-      "category": "name",
-      "match_count": 6,
-      "display": "Name includes 'St'",
-      "hint": "The station name includes 'St' (Saint).",
-      "id": "col_41"
+      "hint": "Word contains 'hill'."
     },
     {
       "type": "array_contains",
@@ -563,19 +513,17 @@
       "category": "name",
       "match_count": 5,
       "display": "Word contains 'stead'",
-      "hint": "Word contains 'stead'.",
-      "id": "col_42"
+      "hint": "Word contains 'stead'."
     },
     {
       "type": "array_contains",
       "field": "wordplay_tags",
-      "value": "ampersand",
-      "label": "Name contains 'ampersand'",
+      "value": "saint",
+      "label": "Name contains 'saint'",
       "category": "name",
       "match_count": 5,
-      "display": "Name includes an '&'",
-      "hint": "The station name includes an ampersand (&).",
-      "id": "col_43"
+      "display": "Name includes 'St'",
+      "hint": "The station name includes 'St' (Saint)."
     },
     {
       "type": "array_contains",
@@ -585,19 +533,17 @@
       "category": "name",
       "match_count": 4,
       "display": "Word contains 'park'",
-      "hint": "Word contains 'park'.",
-      "id": "col_44"
+      "hint": "Word contains 'park'."
     },
     {
       "type": "array_contains",
       "field": "wordplay_tags",
-      "value": "green",
-      "label": "Name contains 'green'",
+      "value": "ampersand",
+      "label": "Name contains 'ampersand'",
       "category": "name",
-      "match_count": 3,
-      "display": "Word contains 'green'",
-      "hint": "Word contains 'green'.",
-      "id": "col_45"
+      "match_count": 4,
+      "display": "Name includes an '&'",
+      "hint": "The station name includes an ampersand (&)."
     },
     {
       "type": "array_contains",
@@ -607,8 +553,7 @@
       "category": "name",
       "match_count": 3,
       "display": "Name includes a hyphen",
-      "hint": "The station name includes a hyphen.",
-      "id": "col_46"
+      "hint": "The station name includes a hyphen."
     }
   ]
 }

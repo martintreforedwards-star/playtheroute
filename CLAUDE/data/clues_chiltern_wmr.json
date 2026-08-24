@@ -7,7 +7,7 @@
       "label": "Interchange station",
       "weight": "medium",
       "match_count": 37,
-      "display": "Change trains here",
+      "display": "Is an interchange station",
       "hint": "Served by two or more separate named routes, or where several lines physically meet.",
       "id": "row_0"
     },
@@ -438,12 +438,12 @@
     {
       "type": "array_contains",
       "field": "route",
-      "value": "Cross City Line",
-      "label": "Route: Cross City Line",
+      "value": "Camp Hill Line",
+      "label": "Route: Camp Hill Line",
       "category": "route",
       "match_count": 3,
-      "display": "Is part of the Cross City Line route",
-      "hint": "This tag actually covers the brand-new Camp Hill Line stations (Kings Heath, Moseley Village, Pineapple Road) between Birmingham New Street and Kings Norton, reopened April 2026 after 80+ years closed - a distinct route from the main Cross-City Line despite the similar name in this dataset.",
+      "display": "Is part of the Camp Hill Line route",
+      "hint": "The reopened line between Birmingham New Street and Kings Norton via Moseley Village, Kings Heath and Pineapple Road - reopened April 2026 after over 80 years closed, restoring passenger services to inner south Birmingham.",
       "id": "col_32"
     },
     {

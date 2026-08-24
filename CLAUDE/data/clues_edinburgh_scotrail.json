@@ -7,7 +7,7 @@
       "label": "Interchange station",
       "weight": "high",
       "match_count": 12,
-      "display": "Change trains here",
+      "display": "Is an interchange station",
       "hint": "Served by two or more separate named routes, or where several lines physically meet.",
       "id": "row_0"
     },
@@ -262,24 +262,13 @@
     {
       "type": "array_contains",
       "field": "route",
-      "value": "Argyle Line",
-      "label": "Route: Argyle Line",
-      "category": "route",
-      "match_count": 5,
-      "display": "Is part of the Argyle Line route",
-      "hint": "This tag actually covers the Edinburgh-Bathgate corridor (Armadale, Bathgate, Edinburgh Park, Livingston North) - the real Argyle Line is a different, unrelated route: Glasgow's underground low-level crosstown line linking Dalmuir/Milngavie through Glasgow Central Low Level to Motherwell, Lanark and Coatbridge.",
-      "id": "col_16"
-    },
-    {
-      "type": "array_contains",
-      "field": "route",
       "value": "North Clyde Electrics",
       "label": "Route: North Clyde Electrics",
       "category": "route",
       "match_count": 5,
       "display": "Is part of the North Clyde Electrics route",
       "hint": "The wider North Clyde suburban network radiating from Glasgow Queen Street, which also extends east to Edinburgh via the Bathgate branch through Armadale, Livingston North and Edinburgh Park.",
-      "id": "col_17"
+      "id": "col_16"
     },
     {
       "type": "array_contains",
@@ -290,7 +279,7 @@
       "match_count": 4,
       "display": "Is part of the Edinburgh-Glasgow Main Line route",
       "hint": "The fast, direct route between the two cities via Falkirk High and Linlithgow - the premier Edinburgh-Glasgow service, quicker than the alternative via Shotts.",
-      "id": "col_18"
+      "id": "col_17"
     },
     {
       "type": "equals",
@@ -301,7 +290,7 @@
       "match_count": 9,
       "display": "Naming style: Scottish/Gaelic place-name roots",
       "hint": "The name includes a Scottish or Gaelic place-name element, like Inver-, Glen-, Loch- or Kirk-.",
-      "id": "col_19"
+      "id": "col_18"
     },
     {
       "type": "equals",
@@ -312,7 +301,7 @@
       "match_count": 8,
       "display": "Naming style: a common English place-name ending",
       "hint": "The name ends in a common English place-name suffix, like -ton, -ham, -by or -dale.",
-      "id": "col_20"
+      "id": "col_19"
     },
     {
       "type": "array_contains",
@@ -323,7 +312,7 @@
       "match_count": 6,
       "display": "Word contains 'ton'",
       "hint": "Word contains 'ton'.",
-      "id": "col_21"
+      "id": "col_20"
     }
   ]
 }

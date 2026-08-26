@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="cy">
+<head>
+<meta property="og:image" content="https://playtheroute.uk/CLAUDE/og-preview.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:title" content="The Route — Pos Rheilffordd Dyddiol y DU">
+<meta property="og:description" content="Pos dyfalu gorsafoedd dyddiol, am ddim, ar gyfer cefnogwyr rheilffordd a chymudwyr Cymru.">
+<meta property="og:url" content="https://playtheroute.uk/cy/">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Route (Cymraeg)</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+<style>
+*{box-sizing:border-box}
+body{margin:0;font-family:'Inter',sans-serif;background:radial-gradient(circle at top,#0b1836 0%,#030817 45%,#01040d 100%);color:white;min-height:100vh}
+.container{width:100%;max-width:520px;margin:auto;padding:28px 18px 40px}
+.menu-button{background:none;border:none;color:white;font-size:2rem;cursor:pointer;padding:0;margin-right:8px}
+.side-menu{position:fixed;top:0;left:-300px;width:280px;height:100vh;background:#111827;border-right:2px solid #1e3a8a;transition:left .3s ease;z-index:2000;padding-top:80px}
+.side-menu.open{left:0}
+.side-menu a{display:block;padding:16px 24px;color:white;text-decoration:none;border-bottom:1px solid rgba(255,255,255,.08)}
+.menu-overlay{position:fixed;inset:0;background:rgba(0,0,0,.55);display:none;z-index:1500}
+.menu-overlay.show{display:block}
+.header{display:flex;align-items:center;gap:18px;margin-bottom:26px}
+.logo{width:100%;max-width:260px;height:auto;display:block}
+h1{margin:0;font-size:2.8rem}
+.subtitle{margin-top:8px;color:#9ca3af}
+.mode-card,.stamp-box,select{background:#111827;border:2px solid #1e3a8a;border-radius:18px}
+.map-promo{display:block;text-decoration:none;background:linear-gradient(135deg,rgba(34,197,94,.14),rgba(17,24,39,1));border:2px solid #22c55e;border-radius:18px;padding:18px 20px;margin-bottom:24px;transition:.2s}
+.map-promo:hover{border-color:#4ade80;background:linear-gradient(135deg,rgba(34,197,94,.22),rgba(17,24,39,1))}
+.map-promo-title{color:white;font-weight:800;font-size:1.15rem;display:flex;align-items:center;gap:10px}
+.map-promo-sub{color:#9ca3af;font-size:.88rem;margin-top:6px}
+.network-selector label{display:block;margin-bottom:10px;font-weight:600}
+select{width:100%;padding:16px;color:white}
+optgroup{color:#9ca3af;font-weight:700}
+option{color:white;background:#111827}
+.stamp-box{margin-top:16px;padding:16px;text-align:center;cursor:pointer}
+.stamp-box.active{background:rgba(30,58,138,.9);border-color:#60a5fa}
+.mode-card.active{background:rgba(0,80,40,.9);border-color:#22c55e}
+.mode-grid{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-top:20px}
+.mode-card{padding:12px;cursor:pointer}
+.mode-card h3{font-size:1rem;margin:0 0 6px}
+.mode-card p{font-size:.85rem;margin:0}
+.play-button{display:block;width:100%;text-align:center;background:#22c55e;color:white;text-decoration:none;font-weight:700;padding:18px;border-radius:18px;margin:20px 0 14px}
+.network-status{text-align:center;font-weight:600}
+.live{color:#22c55e}.locked{color:#fbbf24}
+.rules-button{margin-left:auto;background:#111827;border:2px solid #1e3a8a;color:white;text-decoration:none;font-weight:700;font-size:.9rem;padding:10px 16px;border-radius:14px;white-space:nowrap}
+.footer-text{text-align:center;color:#6b7280;font-size:.82rem;line-height:1.8;margin:40px auto 0;width:100%}
+.footer-text a{color:#9ca3af;text-decoration:none;transition:.2s;margin:0 6px}
+.footer-text a:hover{color:white}
+.clear-stamp{text-align:center;margin-top:10px;color:#9ca3af;font-size:.85rem;text-decoration:underline;cursor:pointer}
+.clear-stamp:hover{color:white}
+.lang-switch-row{text-align:center;margin-top:10px}
+.lang-switch-row a{color:#9ca3af;font-size:.85rem;text-decoration:none}
+.lang-switch-row a:hover{color:white}
+</style>
+</head>
+<body>
+<div id="overlay" class="menu-overlay"></div>
+<nav id="sideMenu" class="side-menu">
+<a href="/what-is-the-route.html">Beth yw The Route?</a>
+<a href="/contact.html">Cysylltwch â ni</a>
+<a href="/support-us.html">Helpwch gadw The Route i redeg</a>
+<a href="rules.html">Rheolau</a>
+<a href="/routepedia.html">Routepedia</a>
+<a href="/uk_rail_interactive.html">Map Llawn y DU</a>
+<a href="/privacy.html">Preifatrwydd</a>
+<a href="/disclaimer.html">Ymwadiad</a>
+</nav>
+<div class="container">
+<div class="header">
+<button id="menuButton" class="menu-button">☰</button>
+<a href="index.html" style="display:block;"><img src="/CLAUDE/newlogo.svg" class="logo" alt="The Route"></a>
+<a href="rules.html" class="rules-button">📖 Rheolau</a>
+</div>
+<a href="/uk_network_map.html" class="map-promo">
+<div class="map-promo-title">🗺️ Archwiliwch fap y rhwydwaith rheilffyrdd</div>
+<div class="map-promo-sub">Dewiswch rwydwaith a gweld pob gorsaf a llwybr wedi'u gosod yn llawn.</div>
+</a>
+<div class="network-selector">
+<label>Dewiswch eich rhwydwaith cymudo</label>
+<select id="network">
+<option value="" disabled selected>— Dewiswch rwydwaith —</option>
+<optgroup label="Cymru a'r Gororau">
+<option value="gwr_wales_corridor">GWR Coridor Cymru</option>
+<option value="tfw_cymraeg">Trafnidiaeth Cymru</option>
+<option value="shrewsbury_wrexham_chester">Amwythig, Wrecsam a Chaer</option>
+</optgroup>
+</select>
+<div id="stampBox" class="stamp-box">🎟 Stampio llwybr rheolaidd</div>
+<div id="clearStamp" class="clear-stamp" style="display:none;">✕ Clirio'r llwybr wedi'i stampio</div>
+</div>
+<div class="mode-grid">
+<div class="mode-card active" data-mode="standard">
+<h3>🎟 Tocyn Safonol</h3><p>Modd taith hamddenol.<br>6 thocyn. Dim amserydd.</p>
+</div>
+<div class="mode-card" data-mode="express">
+<h3>⏱ Gwasanaeth Cyflym</h3><p>Curwch y cloc cyn cychwyn.<br>Modd her wedi'i amseru.</p>
+</div>
+</div>
+<a href="#" id="playButton" class="play-button">Chwarae llwybr heddiw</a>
+<div id="networkStatus" class="network-status live">🟢 Byw nawr — 3 rhwydwaith Cymraeg ar gael</div>
+
+<div class="lang-switch-row"><a href="/index.html">Read this page in English</a></div>
+
+<div class="footer-text">
+  Wedi'i adeiladu ar gyfer cymudwyr Cymru a'r DU.
+  <br><br>
+  <a href="https://x.com/playtheroute" target="_blank">X</a>
+  •
+  <a href="https://www.instagram.com/playtheroute?igsh=anpjb2J5NHR4Z2lr" target="_blank">Instagram</a>
+  •
+  <a href="https://www.tiktok.com/@the.route2?_r=1&_t=ZN-96kXeMFBhnq" target="_blank">TikTok</a>
+</div>
+
+</div>
+<script>
+const menuButton=document.getElementById("menuButton");
+const sideMenu=document.getElementById("sideMenu");
+const overlay=document.getElementById("overlay");
+menuButton.onclick=()=>{sideMenu.classList.add("open");overlay.classList.add("show");};
+overlay.onclick=()=>{sideMenu.classList.remove("open");overlay.classList.remove("show");};
+const network=document.getElementById("network");
+const stampBox=document.getElementById("stampBox");
+const clearStamp=document.getElementById("clearStamp");
+const playButton=document.getElementById("playButton");
+const modeCards=document.querySelectorAll(".mode-card");
+const status=document.getElementById("networkStatus");
+let selectedMode=localStorage.getItem("routeMode")||"standard";
+function updateModes(){
+modeCards.forEach(c=>c.classList.toggle("active",c.dataset.mode===selectedMode));
+localStorage.setItem("routeMode",selectedMode);
+}
+modeCards.forEach(card=>card.onclick=()=>{selectedMode=card.dataset.mode;updateModes();});
+function setStampedUI(){
+stampBox.classList.add("active");
+stampBox.textContent="✅ Llwybr rheolaidd wedi'i stampio";
+clearStamp.style.display="block";
+}
+function clearStampedUI(){
+stampBox.classList.remove("active");
+stampBox.textContent="🎟 Stampio llwybr rheolaidd";
+clearStamp.style.display="none";
+}
+const savedRoute=localStorage.getItem("regularRoute");
+if(savedRoute && ["gwr_wales_corridor","tfw_cymraeg","shrewsbury_wrexham_chester"].includes(savedRoute)){network.value=savedRoute;setStampedUI();}
+stampBox.onclick=()=>{
+if(!network.value)return;
+localStorage.setItem("regularRoute",network.value);
+setStampedUI();
+};
+clearStamp.onclick=()=>{
+localStorage.removeItem("regularRoute");
+clearStampedUI();
+network.value="";
+updateNetworkStatus();
+};
+function updateNetworkStatus(){
+const live=["gwr_wales_corridor","tfw_cymraeg","shrewsbury_wrexham_chester"];
+if(!network.value){
+status.className="network-status";
+status.textContent="";
+} else if(live.includes(network.value)){
+status.className="network-status live";
+status.textContent="🟢 Byw nawr — 3 rhwydwaith Cymraeg ar gael";
+} else {
+status.className="network-status locked";
+status.textContent="🟡 Yn dod cyn hir";
+}
+}
+network.onchange=updateNetworkStatus;
+updateModes();
+updateNetworkStatus();
+playButton.onclick=(e)=>{
+e.preventDefault();
+if(!network.value){
+alert("Dewiswch rwydwaith yn gyntaf os gwelwch yn dda.");
+return;
+}
+window.location.href=`play-master.html?network=${network.value}&mode=${selectedMode}`;
+};
+</script>
+</body>
+</html>

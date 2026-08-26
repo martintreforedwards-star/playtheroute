@@ -1808,7 +1808,7 @@ const files = NETWORKS[network];
 // welsh_name, so only these networks need a _cy clues variant). Falls
 // back to the English clues file for any network not yet in this list,
 // or if the _cy file 404s for some reason.
-const CY_CLUE_NETWORKS = ["tfw_cymraeg"];
+const CY_CLUE_NETWORKS = ["tfw_cymraeg", "gwr_wales_corridor", "shrewsbury_wrexham_chester"];
 
 function resolveCluesPath() {
   if (LANG === "cy" && CY_CLUE_NETWORKS.includes(network)) {

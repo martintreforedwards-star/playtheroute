@@ -1231,7 +1231,9 @@ const STRINGS = {
     flavour_commuter_title: "💼 Daily Commuter",
     flavour_commuter_desc: "Delayed, but still arrived on time.",
     flavour_traveller_title: "🚉 Regular Traveller",
-    flavour_traveller_desc: "A reliable journey with a few unexpected stops."
+    flavour_traveller_desc: "A reliable journey with a few unexpected stops.",
+    reveal_hint_button: "🔍 Reveal (-1 ticket)",
+    loading_route: "Loading today\u2019s route..."
   },
   cy: {
     time_left: "Amser ar ôl",
@@ -1284,7 +1286,9 @@ const STRINGS = {
     flavour_commuter_title: "💼 Cymudwr Dyddiol",
     flavour_commuter_desc: "Wedi'i oedi, ond cyrhaeddodd mewn pryd o hyd.",
     flavour_traveller_title: "🚉 Teithiwr Rheolaidd",
-    flavour_traveller_desc: "Taith ddibynadwy gyda ychydig o stopiau annisgwyl."
+    flavour_traveller_desc: "Taith ddibynadwy gyda ychydig o stopiau annisgwyl.",
+    reveal_hint_button: "🔍 Datgelu (-1 tocyn)",
+    loading_route: "Wrthi'n llwytho llwybr heddiw..."
   }
 };
 
@@ -1799,17 +1803,34 @@ const NETWORKS = {
 
 const files = NETWORKS[network];
 
+// Networks with a hand-translated Welsh clue file (display/hint text -
+// station names themselves are already correct in the base data via
+// welsh_name, so only these networks need a _cy clues variant). Falls
+// back to the English clues file for any network not yet in this list,
+// or if the _cy file 404s for some reason.
+const CY_CLUE_NETWORKS = ["tfw_cymraeg"];
+
+function resolveCluesPath() {
+  if (LANG === "cy" && CY_CLUE_NETWORKS.includes(network)) {
+    return files.clues.replace(/\.json$/, "_cy.json");
+  }
+  return files.clues;
+}
+
 // Loading state: the grid is otherwise blank/unstyled while the JSON
 // fetches, which on a slow connection reads as "is this broken?". Show
 // a simple message in the grid area until data resolves or fails.
 const gameGridEl = document.getElementById("gameGrid");
 const gameGridLoadingHTML = gameGridEl.innerHTML;
 gameGridEl.innerHTML =
-  '<div class="loading-state" style="grid-column:1 / -1;">Loading today\u2019s route...</div>';
+  `<div class="loading-state" style="grid-column:1 / -1;">${t('loading_route')}</div>`;
 
 Promise.all([
   fetch(files.stations).then(r => r.json()),
-  fetch(files.clues).then(r => r.json()),
+  fetch(resolveCluesPath()).then(r => {
+    if (!r.ok) return fetch(files.clues).then(rr => rr.json()); // fallback to EN if _cy missing
+    return r.json();
+  }),
   fetch(files.puzzlebank).then(r => r.json()),
   fetch(files.landmarks).then(r => r.json()).catch(() => [])
 ])
@@ -2130,7 +2151,7 @@ function buildRevealExtraHtml(index) {
 
     return (
       `<button type="button" class="reveal-hint-btn" data-reveal-index="${index}">` +
-      `🔍 Reveal (-1 ticket)</button>`
+      `${t('reveal_hint_button')}</button>`
     );
 
   }

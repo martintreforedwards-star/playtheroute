@@ -992,14 +992,14 @@ body {
 
 <div class="header">
 
-  <a href="/">
+  <a href="index.html">
     <img
-      src="CLAUDE/newlogo.svg"
+      src="/CLAUDE/newlogo.svg"
       class="logo"
       alt="The Route">
   </a>
 
-  <a href="/" class="header-home-link">
+  <a href="/" class="header-home-link" data-i18n="home">
     🏠 Home
   </a>
 
@@ -1015,7 +1015,7 @@ body {
     id="timerBox"
     style="display:none;">
 
-    <div class="ticket-title">
+    <div class="ticket-title" data-i18n="time_left">
       Time left
     </div>
 
@@ -1030,7 +1030,7 @@ body {
   </div>
     <div class="ticket-box">
 
-      <div class="ticket-title">
+      <div class="ticket-title" data-i18n="tickets_left">
         Tickets left
       </div>
 
@@ -1047,21 +1047,21 @@ body {
 </div>
 
   <div class="column-header" style="border-left:4px solid #22c55e; background:rgba(15,23,42,0.95);">
-    <strong>Platform 1</strong>
+    <strong data-i18n="platform_1">Platform 1</strong>
     <div class="column-clue" id="rowClue0"></div>
-    <button type="button" class="hint-icon-btn" id="hintIcon-col0" aria-label="Hint">i</button>
+    <button type="button" class="hint-icon-btn" id="hintIcon-col0" aria-label="Hint" data-i18n-aria="hint">i</button>
   </div>
 
   <div class="column-header" style="border-left:4px solid #60a5fa; background:rgba(15,23,42,0.95);">
-    <strong>Platform 2</strong>
+    <strong data-i18n="platform_2">Platform 2</strong>
     <div class="column-clue" id="rowClue1"></div>
-    <button type="button" class="hint-icon-btn" id="hintIcon-col1" aria-label="Hint">i</button>
+    <button type="button" class="hint-icon-btn" id="hintIcon-col1" aria-label="Hint" data-i18n-aria="hint">i</button>
   </div>
 
   <div class="row-header green">
     <strong>A</strong>
     <span id="colClue0"></span>
-    <button type="button" class="hint-icon-btn" id="hintIcon-row0" aria-label="Hint">i</button>
+    <button type="button" class="hint-icon-btn" id="hintIcon-row0" aria-label="Hint" data-i18n-aria="hint">i</button>
   </div>
   <div class="cell" data-index="0"></div>
   <div class="cell" data-index="1"></div>
@@ -1069,7 +1069,7 @@ body {
   <div class="row-header blue">
     <strong>B</strong>
     <span id="colClue1"></span>
-    <button type="button" class="hint-icon-btn" id="hintIcon-row1" aria-label="Hint">i</button>
+    <button type="button" class="hint-icon-btn" id="hintIcon-row1" aria-label="Hint" data-i18n-aria="hint">i</button>
   </div>
   <div class="cell" data-index="2"></div>
   <div class="cell" data-index="3"></div>
@@ -1077,7 +1077,7 @@ body {
   <div class="row-header green">
     <strong>C</strong>
     <span id="colClue2"></span>
-    <button type="button" class="hint-icon-btn" id="hintIcon-row2" aria-label="Hint">i</button>
+    <button type="button" class="hint-icon-btn" id="hintIcon-row2" aria-label="Hint" data-i18n-aria="hint">i</button>
   </div>
   <div class="cell" data-index="4"></div>
   <div class="cell" data-index="5"></div>
@@ -1085,7 +1085,7 @@ body {
   <div class="row-header blue">
     <strong>D</strong>
     <span id="colClue3"></span>
-    <button type="button" class="hint-icon-btn" id="hintIcon-row3" aria-label="Hint">i</button>
+    <button type="button" class="hint-icon-btn" id="hintIcon-row3" aria-label="Hint" data-i18n-aria="hint">i</button>
   </div>
   <div class="cell" data-index="6"></div>
   <div class="cell" data-index="7"></div>
@@ -1095,7 +1095,8 @@ body {
   <div class="footer-row">
     <button
       class="submit-button"
-      id="submitButton">
+      id="submitButton"
+      data-i18n="submit_route">
 
       Submit route
 
@@ -1106,11 +1107,11 @@ body {
     class="panel final-destination"
     id="specialAnnouncement">
 
-    <div class="panel-title">
+    <div class="panel-title" data-i18n="landmark_challenge">
       Landmark Challenge
     </div>
 
-    <div id="lockedText">
+    <div id="lockedText" data-i18n="locked">
       🔒 LOCKED
     </div>
 
@@ -1123,7 +1124,7 @@ body {
     <div id="stationCountText" style="display:none;margin-top:12px;text-align:center;font-weight:700;">
     </div>
     <div id="bonusStationPanel" style="display:none;margin-top:16px;text-align:center;">
-      <button class="submit-button" id="bonusSelectButton" style="min-width:auto;padding:12px 20px;font-size:1rem;">
+      <button class="submit-button" id="bonusSelectButton" style="min-width:auto;padding:12px 20px;font-size:1rem;" data-i18n="select_station">
         Select Station
       </button>
       <div id="bonusSelectedStation" style="margin-top:12px;"></div>
@@ -1142,7 +1143,7 @@ body {
 
     <div class="modal-header">
 
-      <strong>
+      <strong data-i18n="select_station_modal">
         Select station
       </strong>
 
@@ -1160,7 +1161,8 @@ body {
       type="text"
       id="searchBox"
       class="search-box"
-      placeholder="Search station...">
+      placeholder="Search station..."
+      data-i18n-placeholder="search_station">
 
     <div id="results"></div>
 
@@ -1168,8 +1170,148 @@ body {
 
 </div>
 
-<script src="CLAUDE/data/daily_puzzle_selector.js"></script>
+<script src="/CLAUDE/data/daily_puzzle_selector.js"></script>
 <script>
+
+// ---------- i18n ----------
+// Language is decided purely by URL path: pages served from a /cy/
+// folder are Welsh, everything else is English. Same file, same logic,
+// both languages - no separate play-master.html to maintain per language.
+const LANG = window.location.pathname.includes("/cy/") ? "cy" : "en";
+
+const STRINGS = {
+  en: {
+    time_left: "Time left",
+    tickets_left: "Tickets left",
+    platform_1: "Platform 1",
+    platform_2: "Platform 2",
+    hint: "Hint",
+    submit_route: "Submit route",
+    landmark_challenge: "Landmark Challenge",
+    locked: "🔒 LOCKED",
+    select_station: "Select Station",
+    select_station_modal: "Select station",
+    search_station: "Search station...",
+    home: "🏠 Home",
+    share_result: "Share Result",
+    share_image: "Share Image",
+    copy_link: "Copy Link",
+    support_us: "☕ Support us",
+    close: "Close",
+    results_title: "The Route Results",
+    invalid: "INVALID",
+    arriving: "ARRIVING",
+    no_stations_match: "No stations match your search.",
+    no_extra_detail: "No extra detail available for this clue.",
+    no_tickets_for_hint: "No tickets left to reveal a hint.",
+    claim_return_ticket: "🎟 Claim Return Ticket",
+    selected_prefix: "Selected: ",
+    express_departed: "⏱ The express service has departed!",
+    fill_all_stations: "Please fill all 8 stations before submitting.",
+    landmark_question: "Which station on this network is closest to this landmark?",
+    incorrect_station: "❌ Incorrect station (-1 ticket)",
+    correct_answer: "Correct answer:",
+    return_ticket_earned: "🎟 RETURN TICKET EARNED",
+    landmark_correct_prefix: "✅ Correct!",
+    landmark_correct_suffix: "was the closest station to",
+    landmark_incorrect_prefix: "❌ Not quite - you guessed",
+    landmark_incorrect_suffix_1: "The closest station to",
+    landmark_incorrect_suffix_2: "was",
+    station_fact: "Station fact:",
+    tickets_remaining_prefix: "Tickets Remaining: ",
+    result_copied: "Result copied to clipboard.",
+    link_copied: "Link copied to clipboard.",
+    copy_failed: "Couldn't copy - please copy manually.",
+    flavour_replacement_title: "🚧 Rail Replacement Service",
+    flavour_replacement_desc: "Buses have been requested.",
+    flavour_first_title: "👑 First Class Passenger",
+    flavour_first_desc: "Complimentary coffee and a guaranteed seat.",
+    flavour_season_title: "🥂 Season Ticket Holder",
+    flavour_season_desc: "Knows exactly which carriage stops by the exit.",
+    flavour_commuter_title: "💼 Daily Commuter",
+    flavour_commuter_desc: "Delayed, but still arrived on time.",
+    flavour_traveller_title: "🚉 Regular Traveller",
+    flavour_traveller_desc: "A reliable journey with a few unexpected stops."
+  },
+  cy: {
+    time_left: "Amser ar ôl",
+    tickets_left: "Tocynnau ar ôl",
+    platform_1: "Platfform 1",
+    platform_2: "Platfform 2",
+    hint: "Awgrym",
+    submit_route: "Cyflwyno'r llwybr",
+    landmark_challenge: "Her Nodwedd",
+    locked: "🔒 AR GLO",
+    select_station: "Dewis Gorsaf",
+    select_station_modal: "Dewis gorsaf",
+    search_station: "Chwilio am orsaf...",
+    home: "🏠 Cartref",
+    share_result: "Rhannu Canlyniad",
+    share_image: "Rhannu Llun",
+    copy_link: "Copïo Dolen",
+    support_us: "☕ Cefnogwch ni",
+    close: "Cau",
+    results_title: "Canlyniadau'r Daith",
+    invalid: "ANNILYS",
+    arriving: "YN CYRRAEDD",
+    no_stations_match: "Dim gorsafoedd yn cyfateb i'ch chwiliad.",
+    no_extra_detail: "Dim manylion ychwanegol ar gael ar gyfer y cliw hwn.",
+    no_tickets_for_hint: "Dim tocynnau ar ôl i ddatgelu awgrym.",
+    claim_return_ticket: "🎟 Hawlio Tocyn Dychwelyd",
+    selected_prefix: "Wedi dewis: ",
+    express_departed: "⏱ Mae'r gwasanaeth cyflym wedi gadael!",
+    fill_all_stations: "Llenwch bob un o'r 8 gorsaf cyn cyflwyno.",
+    landmark_question: "Pa orsaf ar y rhwydwaith hwn sydd agosaf at y nod tirnod hwn?",
+    incorrect_station: "❌ Gorsaf anghywir (-1 tocyn)",
+    correct_answer: "Yr ateb cywir:",
+    return_ticket_earned: "🎟 TOCYN DYCHWELYD WEDI'I ENNILL",
+    landmark_correct_prefix: "✅ Cywir!",
+    landmark_correct_suffix: "oedd yr orsaf agosaf at",
+    landmark_incorrect_prefix: "❌ Ddim cweit - fe ddyfaloch",
+    landmark_incorrect_suffix_1: "Yr orsaf agosaf at",
+    landmark_incorrect_suffix_2: "oedd",
+    station_fact: "Ffaith am yr orsaf:",
+    tickets_remaining_prefix: "Tocynnau'n Weddill: ",
+    result_copied: "Canlyniad wedi'i gopïo i'r clipfwrdd.",
+    link_copied: "Dolen wedi'i gopïo i'r clipfwrdd.",
+    copy_failed: "Methu copïo - copïwch â llaw.",
+    flavour_replacement_title: "🚧 Gwasanaeth Bysiau Rhatblaeth",
+    flavour_replacement_desc: "Gofynnwyd am fysiau.",
+    flavour_first_title: "👑 Teithiwr Dosbarth Cyntaf",
+    flavour_first_desc: "Coffi am ddim a sedd wedi'i gwarantu.",
+    flavour_season_title: "🥂 Deiliad Tocyn Tymor",
+    flavour_season_desc: "Yn gwybod yn union pa gerbyd sy'n stopio wrth y ffordd allan.",
+    flavour_commuter_title: "💼 Cymudwr Dyddiol",
+    flavour_commuter_desc: "Wedi'i oedi, ond cyrhaeddodd mewn pryd o hyd.",
+    flavour_traveller_title: "🚉 Teithiwr Rheolaidd",
+    flavour_traveller_desc: "Taith ddibynadwy gyda ychydig o stopiau annisgwyl."
+  }
+};
+
+function t(key) {
+  return (STRINGS[LANG] && STRINGS[LANG][key]) || STRINGS.en[key] || key;
+}
+
+// Apply data-i18n / data-i18n-aria / data-i18n-placeholder attributes on
+// static HTML once the DOM is ready - keeps translated text out of the
+// markup itself so this one file serves both languages.
+function applyStaticI18n() {
+  document.querySelectorAll("[data-i18n]").forEach(el => {
+    el.textContent = t(el.getAttribute("data-i18n"));
+  });
+  document.querySelectorAll("[data-i18n-aria]").forEach(el => {
+    el.setAttribute("aria-label", t(el.getAttribute("data-i18n-aria")));
+  });
+  document.querySelectorAll("[data-i18n-placeholder]").forEach(el => {
+    el.setAttribute("placeholder", t(el.getAttribute("data-i18n-placeholder")));
+  });
+  if (document.documentElement) {
+    document.documentElement.lang = LANG;
+  }
+}
+document.addEventListener("DOMContentLoaded", applyStaticI18n);
+// In case this script runs after DOMContentLoaded already fired.
+if (document.readyState !== "loading") applyStaticI18n();
 
 const boardState = [
 
@@ -1320,7 +1462,7 @@ function startExpressTimer() {
       updateTicketDisplay();
 
       showToast(
-        "⏱ The express service has departed!"
+        t('express_departed')
       );
 
       endGame();
@@ -1514,143 +1656,143 @@ function boardIsPlayable(rows, columns) {
 // ======================================================
 const NETWORKS = {
   c2c_ga: {
-    stations: "CLAUDE/data/board_c2c_ga.json",
-    clues: "CLAUDE/data/clues_c2c_ga.json",
-    puzzlebank: "CLAUDE/data/puzzlebank_c2c_ga.json",
-    landmarks: "CLAUDE/data/c2c_ga_landmarks.json"
+    stations: "/CLAUDE/data/board_c2c_ga.json",
+    clues: "/CLAUDE/data/clues_c2c_ga.json",
+    puzzlebank: "/CLAUDE/data/puzzlebank_c2c_ga.json",
+    landmarks: "/CLAUDE/data/c2c_ga_landmarks.json"
   },
 
   chiltern_wmr: {
-    stations: "CLAUDE/data/board_chiltern_wmr.json",
-    clues: "CLAUDE/data/clues_chiltern_wmr.json",
-    puzzlebank: "CLAUDE/data/puzzlebank_chiltern_wmr.json",
-    landmarks: "CLAUDE/data/chiltern_wmr_landmarks.json"
+    stations: "/CLAUDE/data/board_chiltern_wmr.json",
+    clues: "/CLAUDE/data/clues_chiltern_wmr.json",
+    puzzlebank: "/CLAUDE/data/puzzlebank_chiltern_wmr.json",
+    landmarks: "/CLAUDE/data/chiltern_wmr_landmarks.json"
   },
 
   east_midlands_emr: {
-    stations: "CLAUDE/data/board_east_midlands_emr.json",
-    clues: "CLAUDE/data/clues_east_midlands_emr.json",
-    puzzlebank: "CLAUDE/data/puzzlebank_east_midlands_emr.json",
-    landmarks: "CLAUDE/data/east_midlands_emr_landmarks.json"
+    stations: "/CLAUDE/data/board_east_midlands_emr.json",
+    clues: "/CLAUDE/data/clues_east_midlands_emr.json",
+    puzzlebank: "/CLAUDE/data/puzzlebank_east_midlands_emr.json",
+    landmarks: "/CLAUDE/data/east_midlands_emr_landmarks.json"
   },
 
   edinburgh_scotrail: {
-    stations: "CLAUDE/data/board_edinburgh_scotrail.json",
-    clues: "CLAUDE/data/clues_edinburgh_scotrail.json",
-    puzzlebank: "CLAUDE/data/puzzlebank_edinburgh_scotrail.json",
-    landmarks: "CLAUDE/data/edinburgh_scotrail_landmarks.json"
+    stations: "/CLAUDE/data/board_edinburgh_scotrail.json",
+    clues: "/CLAUDE/data/clues_edinburgh_scotrail.json",
+    puzzlebank: "/CLAUDE/data/puzzlebank_edinburgh_scotrail.json",
+    landmarks: "/CLAUDE/data/edinburgh_scotrail_landmarks.json"
   },
 
   glasgow_scotrail: {
-    stations: "CLAUDE/data/board_glasgow_scotrail.json",
-    clues: "CLAUDE/data/clues_glasgow_scotrail.json",
-    puzzlebank: "CLAUDE/data/puzzlebank_glasgow_scotrail.json",
-    landmarks: "CLAUDE/data/glasgow_scotrail_landmarks.json"
+    stations: "/CLAUDE/data/board_glasgow_scotrail.json",
+    clues: "/CLAUDE/data/clues_glasgow_scotrail.json",
+    puzzlebank: "/CLAUDE/data/puzzlebank_glasgow_scotrail.json",
+    landmarks: "/CLAUDE/data/glasgow_scotrail_landmarks.json"
   },
 
   gwr_london: {
-    stations: "CLAUDE/data/board_gwr_london.json",
-    clues: "CLAUDE/data/clues_gwr_london.json",
-    puzzlebank: "CLAUDE/data/puzzlebank_gwr_london.json",
-    landmarks: "CLAUDE/data/gwr_london_landmarks.json"
+    stations: "/CLAUDE/data/board_gwr_london.json",
+    clues: "/CLAUDE/data/clues_gwr_london.json",
+    puzzlebank: "/CLAUDE/data/puzzlebank_gwr_london.json",
+    landmarks: "/CLAUDE/data/gwr_london_landmarks.json"
   },
 
   gwr_wales_corridor: {
-    stations: "CLAUDE/data/board_gwr_wales_corridor.json",
-    clues: "CLAUDE/data/clues_gwr_wales_corridor.json",
-    puzzlebank: "CLAUDE/data/puzzlebank_gwr_wales_corridor.json",
-    landmarks: "CLAUDE/data/gwr_wales_corridor_landmarks.json"
+    stations: "/CLAUDE/data/board_gwr_wales_corridor.json",
+    clues: "/CLAUDE/data/clues_gwr_wales_corridor.json",
+    puzzlebank: "/CLAUDE/data/puzzlebank_gwr_wales_corridor.json",
+    landmarks: "/CLAUDE/data/gwr_wales_corridor_landmarks.json"
   },
 
   highlands_ne_scotrail: {
-    stations: "CLAUDE/data/board_highlands_ne_scotrail.json",
-    clues: "CLAUDE/data/clues_highlands_ne_scotrail.json",
-    puzzlebank: "CLAUDE/data/puzzlebank_highlands_ne_scotrail.json",
-    landmarks: "CLAUDE/data/highlands_ne_scotrail_landmarks.json"
+    stations: "/CLAUDE/data/board_highlands_ne_scotrail.json",
+    clues: "/CLAUDE/data/clues_highlands_ne_scotrail.json",
+    puzzlebank: "/CLAUDE/data/puzzlebank_highlands_ne_scotrail.json",
+    landmarks: "/CLAUDE/data/highlands_ne_scotrail_landmarks.json"
   },
 
   leeds_sheffield_northern: {
-    stations: "CLAUDE/data/board_leeds_sheffield_northern.json",
-    clues: "CLAUDE/data/clues_leeds_sheffield_northern.json",
-    puzzlebank: "CLAUDE/data/puzzlebank_leeds_sheffield_northern.json",
-    landmarks: "CLAUDE/data/leeds_sheffield_northern_landmarks.json"
+    stations: "/CLAUDE/data/board_leeds_sheffield_northern.json",
+    clues: "/CLAUDE/data/clues_leeds_sheffield_northern.json",
+    puzzlebank: "/CLAUDE/data/puzzlebank_leeds_sheffield_northern.json",
+    landmarks: "/CLAUDE/data/leeds_sheffield_northern_landmarks.json"
   },
 
   liverpool_merseyside: {
-    stations: "CLAUDE/data/board_liverpool_merseyside.json",
-    clues: "CLAUDE/data/clues_liverpool_merseyside.json",
-    puzzlebank: "CLAUDE/data/puzzlebank_liverpool_merseyside.json",
-    landmarks: "CLAUDE/data/liverpool_merseyside_landmarks.json"
+    stations: "/CLAUDE/data/board_liverpool_merseyside.json",
+    clues: "/CLAUDE/data/clues_liverpool_merseyside.json",
+    puzzlebank: "/CLAUDE/data/puzzlebank_liverpool_merseyside.json",
+    landmarks: "/CLAUDE/data/liverpool_merseyside_landmarks.json"
   },
 
   london_nw_elizabeth_gn: {
-    stations: "CLAUDE/data/board_london_nw_elizabeth_gn.json",
-    clues: "CLAUDE/data/clues_london_nw_elizabeth_gn.json",
-    puzzlebank: "CLAUDE/data/puzzlebank_london_nw_elizabeth_gn.json",
-    landmarks: "CLAUDE/data/london_nw_elizabeth_gn_landmarks.json"
+    stations: "/CLAUDE/data/board_london_nw_elizabeth_gn.json",
+    clues: "/CLAUDE/data/clues_london_nw_elizabeth_gn.json",
+    puzzlebank: "/CLAUDE/data/puzzlebank_london_nw_elizabeth_gn.json",
+    landmarks: "/CLAUDE/data/london_nw_elizabeth_gn_landmarks.json"
   },
 
   london_overground: {
-    stations: "CLAUDE/data/board_london_overground.json",
-    clues: "CLAUDE/data/clues_london_overground.json",
-    puzzlebank: "CLAUDE/data/puzzlebank_london_overground.json",
-    landmarks: "CLAUDE/data/london_overground_landmarks.json"
+    stations: "/CLAUDE/data/board_london_overground.json",
+    clues: "/CLAUDE/data/clues_london_overground.json",
+    puzzlebank: "/CLAUDE/data/puzzlebank_london_overground.json",
+    landmarks: "/CLAUDE/data/london_overground_landmarks.json"
   },
 
   manchester_northern: {
-    stations: "CLAUDE/data/board_manchester_northern.json",
-    clues: "CLAUDE/data/clues_manchester_northern.json",
-    puzzlebank: "CLAUDE/data/puzzlebank_manchester_northern.json",
-    landmarks: "CLAUDE/data/manchester_northern_landmarks.json"
+    stations: "/CLAUDE/data/board_manchester_northern.json",
+    clues: "/CLAUDE/data/clues_manchester_northern.json",
+    puzzlebank: "/CLAUDE/data/puzzlebank_manchester_northern.json",
+    landmarks: "/CLAUDE/data/manchester_northern_landmarks.json"
   },
 
   newcastle_northern: {
-    stations: "CLAUDE/data/board_newcastle_northern.json",
-    clues: "CLAUDE/data/clues_newcastle_northern.json",
-    puzzlebank: "CLAUDE/data/puzzlebank_newcastle_northern.json",
-    landmarks: "CLAUDE/data/newcastle_northern_landmarks.json"
+    stations: "/CLAUDE/data/board_newcastle_northern.json",
+    clues: "/CLAUDE/data/clues_newcastle_northern.json",
+    puzzlebank: "/CLAUDE/data/puzzlebank_newcastle_northern.json",
+    landmarks: "/CLAUDE/data/newcastle_northern_landmarks.json"
   },
 
   semainline: {
-    stations: "CLAUDE/data/board_semainline.json",
-    clues: "CLAUDE/data/clues_semainline.json",
-    puzzlebank: "CLAUDE/data/puzzlebank_semainline.json",
-    landmarks: "CLAUDE/data/semainline_landmarks.json"
+    stations: "/CLAUDE/data/board_semainline.json",
+    clues: "/CLAUDE/data/clues_semainline.json",
+    puzzlebank: "/CLAUDE/data/puzzlebank_semainline.json",
+    landmarks: "/CLAUDE/data/semainline_landmarks.json"
   },
 
   semetro: {
-    stations: "CLAUDE/data/board_semetro.json",
-    clues: "CLAUDE/data/clues_semetro.json",
-    puzzlebank: "CLAUDE/data/puzzlebank_semetro.json",
-    landmarks: "CLAUDE/data/semetro_landmarks.json"
+    stations: "/CLAUDE/data/board_semetro.json",
+    clues: "/CLAUDE/data/clues_semetro.json",
+    puzzlebank: "/CLAUDE/data/puzzlebank_semetro.json",
+    landmarks: "/CLAUDE/data/semetro_landmarks.json"
   },
 
   shrewsbury_wrexham_chester: {
-    stations: "CLAUDE/data/board_shrewsbury_wrexham_chester.json",
-    clues: "CLAUDE/data/clues_shrewsbury_wrexham_chester.json",
-    puzzlebank: "CLAUDE/data/puzzlebank_shrewsbury_wrexham_chester.json",
-    landmarks: "CLAUDE/data/shrewsbury_wrexham_chester_landmarks.json"
+    stations: "/CLAUDE/data/board_shrewsbury_wrexham_chester.json",
+    clues: "/CLAUDE/data/clues_shrewsbury_wrexham_chester.json",
+    puzzlebank: "/CLAUDE/data/puzzlebank_shrewsbury_wrexham_chester.json",
+    landmarks: "/CLAUDE/data/shrewsbury_wrexham_chester_landmarks.json"
   },
 
   south_western: {
-    stations: "CLAUDE/data/board_south_western.json",
-    clues: "CLAUDE/data/clues_south_western.json",
-    puzzlebank: "CLAUDE/data/puzzlebank_south_western.json",
-    landmarks: "CLAUDE/data/south_western_landmarks.json"
+    stations: "/CLAUDE/data/board_south_western.json",
+    clues: "/CLAUDE/data/clues_south_western.json",
+    puzzlebank: "/CLAUDE/data/puzzlebank_south_western.json",
+    landmarks: "/CLAUDE/data/south_western_landmarks.json"
   },
 
   tfw_cymraeg: {
-    stations: "CLAUDE/data/board_tfw_cymraeg.json",
-    clues: "CLAUDE/data/clues_tfw_cymraeg.json",
-    puzzlebank: "CLAUDE/data/puzzlebank_tfw_cymraeg.json",
-    landmarks: "CLAUDE/data/tfw_cymraeg_landmarks.json"
+    stations: "/CLAUDE/data/board_tfw_cymraeg.json",
+    clues: "/CLAUDE/data/clues_tfw_cymraeg.json",
+    puzzlebank: "/CLAUDE/data/puzzlebank_tfw_cymraeg.json",
+    landmarks: "/CLAUDE/data/tfw_cymraeg_landmarks.json"
   },
 
   thameslink_southern: {
-    stations: "CLAUDE/data/board_thameslink_southern.json",
-    clues: "CLAUDE/data/clues_thameslink_southern.json",
-    puzzlebank: "CLAUDE/data/puzzlebank_thameslink_southern.json",
-    landmarks: "CLAUDE/data/thameslink_southern_landmarks.json"
+    stations: "/CLAUDE/data/board_thameslink_southern.json",
+    clues: "/CLAUDE/data/clues_thameslink_southern.json",
+    puzzlebank: "/CLAUDE/data/puzzlebank_thameslink_southern.json",
+    landmarks: "/CLAUDE/data/thameslink_southern_landmarks.json"
   }
 
 };
@@ -1825,7 +1967,7 @@ function getExtraHint(clue) {
     const label = String(clue.field).replace(/_/g, " ");
     return `Extra detail - ${label}: ${clue.value}`;
   }
-  return "No extra detail available for this clue.";
+  return t('no_extra_detail');
 }
 
 // Shared hint popover, wired to all 6 headers (2 platforms + 4 rows).
@@ -1949,7 +2091,7 @@ function handleRevealClick(index) {
   if (validList.length === 0) return;
 
   if (ticketsRemaining <= 0) {
-    showToast("No tickets left to reveal a hint.");
+    showToast(t('no_tickets_for_hint'));
     return;
   }
 
@@ -2051,7 +2193,7 @@ if (!state.station) {
   cell.innerHTML = `
     <div class="cell-inner">
       <div class="empty-label">
-        Select Station
+        ${t('select_station')}
       </div>
       ${extraHtml}
     </div>
@@ -2067,8 +2209,8 @@ if (!state.station) {
       state.correct === true
         ? ""
         : state.correct === false
-          ? "INVALID"
-          : "ARRIVING";
+          ? t('invalid')
+          : t('arriving');
 
     // Train hardware: only correct cells get wheels/bogies. Platforms now
     // run as vertical columns (index, index+2, index+4, index+6), so a
@@ -2180,7 +2322,7 @@ function renderStations(list) {
 
     const empty = document.createElement("div");
     empty.className = "no-results";
-    empty.textContent = "No stations match your search.";
+    empty.textContent = t('no_stations_match');
     results.appendChild(empty);
     return;
 
@@ -2229,14 +2371,14 @@ option.onclick = () => {
     document.getElementById(
       "bonusSelectedStation"
     ).textContent =
-      "Selected: " +
+      t('selected_prefix') +
       station.station_name;
 
     bonusButtonMode = "claim";
     const bonusBtn = document.getElementById(
       "bonusSelectButton"
     );
-    bonusBtn.textContent = "🎟 Claim Return Ticket";
+    bonusBtn.textContent = t('claim_return_ticket');
 
     bonusMode = false;
 
@@ -2271,50 +2413,50 @@ option.onclick = () => {
 function showResultsModal(win = false) {
 
   let title =
-    "🚧 Rail Replacement Service";
+    t('flavour_replacement_title');
 
   let desc =
-    "Buses have been requested.";
+    t('flavour_replacement_desc');
 
   if (win) {
 
     if (ticketsRemaining >= 7) {
 
       title =
-        "👑 First Class Passenger";
+        t('flavour_first_title');
 
       desc =
-        "Complimentary coffee and a guaranteed seat.";
+        t('flavour_first_desc');
 
     }
 
     else if (ticketsRemaining >= 5) {
 
       title =
-        "🥂 Season Ticket Holder";
+        t('flavour_season_title');
 
       desc =
-        "Knows exactly which carriage stops by the exit.";
+        t('flavour_season_desc');
 
     }
 
     else if (ticketsRemaining >= 3) {
 
       title =
-        "💼 Daily Commuter";
+        t('flavour_commuter_title');
 
       desc =
-        "Delayed, but still arrived on time.";
+        t('flavour_commuter_desc');
 
     }
 
     else {
 
       title =
-        "🚉 Regular Traveller";
+        t('flavour_traveller_title');
 
       desc =
-        "A reliable journey with a few unexpected stops.";
+        t('flavour_traveller_desc');
 
     }
 
@@ -2331,7 +2473,7 @@ function showResultsModal(win = false) {
   document.getElementById(
     "resultsTickets"
   ).textContent =
-    "Tickets Remaining: " +
+    t('tickets_remaining_prefix') +
     ticketsRemaining;
 
   document.getElementById(
@@ -2516,7 +2658,7 @@ function submitBoard() {
   if (filledCount < 8) {
 
     showToast(
-      "Please fill all 8 stations before submitting."
+      t('fill_all_stations')
     );
 
     return;
@@ -2632,7 +2774,7 @@ document.getElementById(
 document.getElementById(
   "stationCountText"
 ).textContent =
-  "Which station on this network is closest to this landmark?";
+  t('landmark_question');
 
 document.getElementById(
   "bonusStationPanel"
@@ -2764,8 +2906,8 @@ document.getElementById(
       document.getElementById(
         "bonusMessage"
       ).innerHTML =
-        `❌ Incorrect station (-1 ticket)<br><br>
-         Correct answer:
+        `${t('incorrect_station')}<br><br>
+         ${t('correct_answer')}
          <strong>${challenge.closest_station}</strong>`;
 
     } else {
@@ -2777,7 +2919,7 @@ document.getElementById(
       document.getElementById(
         "bonusMessage"
       ).textContent =
-        "🎟 RETURN TICKET EARNED";
+        t('return_ticket_earned');
 
     }
 
@@ -2803,15 +2945,15 @@ document.getElementById(
     document.getElementById(
       "landmarkAnswerReveal"
     ).innerHTML = valid
-      ? `✅ Correct! <strong>${challenge.closest_station}</strong> was the closest station to ${challenge.landmark}.`
-      : `❌ Not quite - you guessed <strong>${selectedBonusStation.station_name}</strong>. ` +
-        `The closest station to ${challenge.landmark} was <strong>${challenge.closest_station}</strong>.`;
+      ? `${t('landmark_correct_prefix')} <strong>${challenge.closest_station}</strong> ${t('landmark_correct_suffix')} ${challenge.landmark}.`
+      : `${t('landmark_incorrect_prefix')} <strong>${selectedBonusStation.station_name}</strong>. ` +
+        `${t('landmark_incorrect_suffix_1')} ${challenge.landmark} ${t('landmark_incorrect_suffix_2')} <strong>${challenge.closest_station}</strong>.`;
 
     document.getElementById(
       "stationFact"
     ).innerHTML =
       factText
-        ? `<strong>Station fact:</strong><br>${factText}`
+        ? `<strong>${t('station_fact')}</strong><br>${factText}`
         : "";
 
   }
@@ -2927,7 +3069,7 @@ document.addEventListener("click", async (e) => {
 `🚆 The Route
 ${latestResultTitle}
 
-🎟 Tickets Remaining: ${ticketsRemaining}
+🎟 ${t('tickets_remaining_prefix')}${ticketsRemaining}
 
 ${buildShareGrid().slice(0,4)}
 ${buildShareGrid().slice(4,8)}
@@ -2945,14 +3087,14 @@ https://playtheroute.uk`;
     }
 
     const ok = await copyText(text);
-    showToast(ok ? "Result copied to clipboard." : "Couldn't copy - please copy manually.");
+    showToast(ok ? t('result_copied') : t('copy_failed'));
   }
 
   if (e.target && e.target.id === "copyLinkButton") {
 
     const url = window.location.href.split("#")[0];
     const ok = await copyText(url);
-    showToast(ok ? "Link copied to clipboard." : "Couldn't copy - please copy manually.");
+    showToast(ok ? t('link_copied') : t('copy_failed'));
   }
 
   if (e.target && e.target.id === "shareImageButton") {
@@ -3024,7 +3166,7 @@ https://playtheroute.uk`;
         <circle cx="146" cy="54" r="12" fill="white" stroke="#EA4335" stroke-width="7"/>
         <circle cx="112" cy="122" r="11" fill="white" stroke="#B0B0B0" stroke-width="5"/>
       </svg>
-      The Route Results
+      <span data-i18n="results_title">The Route Results</span>
     </h2>
     <div id="resultsClass" style="font-size:1.6rem;font-weight:700;margin:16px 0;"></div>
     <div id="resultsDesc" style="margin-bottom:12px;"></div>
@@ -3050,32 +3192,32 @@ https://playtheroute.uk`;
   ">
 </div>
     <div style="display:flex;gap:12px;justify-content:center;flex-wrap:wrap;margin-top:20px;">
-      <button class="submit-button" id="shareButton" style="min-width:auto;padding:12px 20px;font-size:1rem;">
+      <button class="submit-button" id="shareButton" style="min-width:auto;padding:12px 20px;font-size:1rem;" data-i18n="share_result">
         Share Result
       </button>
 
-      <button class="submit-button" id="shareImageButton" style="min-width:auto;padding:12px 20px;font-size:1rem;">
+      <button class="submit-button" id="shareImageButton" style="min-width:auto;padding:12px 20px;font-size:1rem;" data-i18n="share_image">
         Share Image
       </button>
 
-      <button class="submit-button" id="copyLinkButton" style="min-width:auto;padding:12px 20px;font-size:1rem;">
+      <button class="submit-button" id="copyLinkButton" style="min-width:auto;padding:12px 20px;font-size:1rem;" data-i18n="copy_link">
         Copy Link
       </button>
     </div>
 
-    <a href="support-us.html" style="display:block;margin-top:14px;text-decoration:none;">
-      <button class="submit-button" style="width:100%;background:#ff5e5b;color:white;">
+    <a href="/support-us.html" style="display:block;margin-top:14px;text-decoration:none;">
+      <button class="submit-button" style="width:100%;background:#ff5e5b;color:white;" data-i18n="support_us">
         ☕ Support us
       </button>
     </a>
 
     <div style="display:flex;gap:12px;justify-content:center;flex-wrap:wrap;margin-top:20px;">
-      <button class="submit-button" onclick="document.getElementById('resultsModal').style.display='none'" style="min-width:auto;padding:12px 20px;font-size:1rem;">
+      <button class="submit-button" onclick="document.getElementById('resultsModal').style.display='none'" style="min-width:auto;padding:12px 20px;font-size:1rem;" data-i18n="close">
         Close
       </button>
 
       <a href="index.html" style="text-decoration:none;">
-        <button class="submit-button" style="min-width:auto;padding:12px 20px;font-size:1rem;background:#0f172a;border:1px solid #334155;">
+        <button class="submit-button" style="min-width:auto;padding:12px 20px;font-size:1rem;background:#0f172a;border:1px solid #334155;" data-i18n="home">
           🏠 Home
         </button>
       </a>

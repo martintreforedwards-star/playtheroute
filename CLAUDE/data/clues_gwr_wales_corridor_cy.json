@@ -6,7 +6,7 @@
       "value": true,
       "label": "Interchange station",
       "weight": "medium",
-      "match_count": 105,
+      "match_count": 86,
       "display": "Newid trenau yma",
       "hint": "Wedi'i wasanaethu gan ddau neu fwy o lwybrau ar wahân, neu lle mae sawl llinell yn cyfarfod yn gorfforol.",
       "id": "row_0"
@@ -17,7 +17,7 @@
       "value": true,
       "label": "Coastal station",
       "weight": "medium",
-      "match_count": 84,
+      "match_count": 45,
       "display": "Ger yr arfordir",
       "hint": "Gorsaf o fewn 3 cilomedr i'r arfordir neu aber.",
       "id": "row_1"
@@ -27,8 +27,8 @@
       "field": "terminus_max",
       "min": 1,
       "label": "Terminus station",
-      "weight": "high",
-      "match_count": 54,
+      "weight": "medium",
+      "match_count": 46,
       "display": "Gorsaf derfynfa",
       "hint": "Mae o leiaf rhai teithiau'n dod i ben yn yr orsaf hon - nid dim ond stop ar y ffordd ydyw.",
       "id": "row_2"
@@ -39,7 +39,7 @@
       "value": 1,
       "label": "One-word name",
       "weight": "medium",
-      "match_count": 156,
+      "match_count": 108,
       "display": "Mae enw'r orsaf yn un gair",
       "hint": "Mae enw'r orsaf yn cynnwys un gair.",
       "id": "row_3"
@@ -50,7 +50,7 @@
       "min": 3,
       "label": "Three or more words in name",
       "weight": "high",
-      "match_count": 33,
+      "match_count": 17,
       "display": "Mae enw'r orsaf yn 3+ gair",
       "hint": "Mae enw'r orsaf yn dri gair neu fwy o hyd.",
       "id": "row_4"
@@ -62,7 +62,7 @@
       "min": 0,
       "max": 6,
       "weight": "high",
-      "match_count": 38,
+      "match_count": 18,
       "display": "Mae enw'r orsaf yn 6 llythyren neu lai",
       "hint": "Mae enw'r orsaf yn 6 nod neu lai.",
       "id": "row_5"
@@ -74,7 +74,7 @@
       "min": 7,
       "max": 10,
       "weight": "medium",
-      "match_count": 139,
+      "match_count": 87,
       "display": "Mae enw'r orsaf yn 7-10 llythyren",
       "hint": "Mae hyd enw'r orsaf rhwng 7 a 10 nod.",
       "id": "row_6"
@@ -85,7 +85,7 @@
       "label": "Long name (11+ letters)",
       "min": 11,
       "weight": "medium",
-      "match_count": 71,
+      "match_count": 61,
       "display": "Mae enw'r orsaf yn 11+ llythyren",
       "hint": "Mae enw'r orsaf yn 11 nod neu fwy.",
       "id": "row_7"
@@ -95,24 +95,13 @@
     {
       "type": "equals",
       "field": "region",
-      "value": "Gwynedd",
-      "label": "Region: Gwynedd",
-      "category": "geography",
-      "match_count": 27,
-      "display": "O fewn rhanbarth Gwynedd",
-      "hint": "Mae'r orsaf hon o fewn rhanbarth Gwynedd.",
-      "id": "col_0"
-    },
-    {
-      "type": "equals",
-      "field": "region",
       "value": "Rhondda Cynon Taf",
       "label": "Region: Rhondda Cynon Taf",
       "category": "geography",
       "match_count": 22,
       "display": "O fewn rhanbarth Rhondda Cynon Taf",
       "hint": "Mae'r orsaf hon o fewn rhanbarth Rhondda Cynon Taf.",
-      "id": "col_1"
+      "id": "col_0"
     },
     {
       "type": "equals",
@@ -123,18 +112,7 @@
       "match_count": 20,
       "display": "O fewn rhanbarth Caerdydd",
       "hint": "Mae'r orsaf hon o fewn rhanbarth Caerdydd.",
-      "id": "col_2"
-    },
-    {
-      "type": "equals",
-      "field": "region",
-      "value": "Conwy",
-      "label": "Region: Conwy",
-      "category": "geography",
-      "match_count": 17,
-      "display": "O fewn rhanbarth Conwy",
-      "hint": "Mae'r orsaf hon o fewn rhanbarth Conwy.",
-      "id": "col_3"
+      "id": "col_1"
     },
     {
       "type": "equals",
@@ -145,18 +123,7 @@
       "match_count": 17,
       "display": "O fewn rhanbarth Sir Gaerfyrddin",
       "hint": "Mae'r orsaf hon o fewn rhanbarth Sir Gaerfyrddin.",
-      "id": "col_4"
-    },
-    {
-      "type": "equals",
-      "field": "region",
-      "value": "Powys",
-      "label": "Region: Powys",
-      "category": "geography",
-      "match_count": 17,
-      "display": "O fewn rhanbarth Powys",
-      "hint": "Mae'r orsaf hon o fewn rhanbarth Powys.",
-      "id": "col_5"
+      "id": "col_2"
     },
     {
       "type": "equals",
@@ -167,7 +134,7 @@
       "match_count": 16,
       "display": "O fewn rhanbarth Caerffili",
       "hint": "Mae'r orsaf hon o fewn rhanbarth Caerffili.",
-      "id": "col_6"
+      "id": "col_3"
     },
     {
       "type": "equals",
@@ -178,18 +145,7 @@
       "match_count": 16,
       "display": "O fewn rhanbarth Sir Benfro",
       "hint": "Mae'r orsaf hon o fewn rhanbarth Sir Benfro.",
-      "id": "col_7"
-    },
-    {
-      "type": "equals",
-      "field": "region",
-      "value": "Shropshire",
-      "label": "Region: Shropshire",
-      "category": "geography",
-      "match_count": 13,
-      "display": "O fewn rhanbarth Swydd Amwythig",
-      "hint": "Mae'r orsaf hon o fewn rhanbarth Swydd Amwythig.",
-      "id": "col_8"
+      "id": "col_4"
     },
     {
       "type": "equals",
@@ -200,6 +156,50 @@
       "match_count": 11,
       "display": "O fewn rhanbarth Bro Morgannwg",
       "hint": "Mae'r orsaf hon o fewn rhanbarth Bro Morgannwg.",
+      "id": "col_5"
+    },
+    {
+      "type": "equals",
+      "field": "region",
+      "value": "Bristol, City of",
+      "label": "Region: Bristol, City of",
+      "category": "geography",
+      "match_count": 10,
+      "display": "O fewn rhanbarth Ddinas Bryste",
+      "hint": "Mae'r orsaf hon o fewn rhanbarth Ddinas Bryste.",
+      "id": "col_6"
+    },
+    {
+      "type": "equals",
+      "field": "region",
+      "value": "Bridgend",
+      "label": "Region: Bridgend",
+      "category": "geography",
+      "match_count": 9,
+      "display": "O fewn rhanbarth Pen-y-bont ar Ogwr",
+      "hint": "Mae'r orsaf hon o fewn rhanbarth Pen-y-bont ar Ogwr.",
+      "id": "col_7"
+    },
+    {
+      "type": "equals",
+      "field": "region",
+      "value": "Powys",
+      "label": "Region: Powys",
+      "category": "geography",
+      "match_count": 6,
+      "display": "O fewn rhanbarth Powys",
+      "hint": "Mae'r orsaf hon o fewn rhanbarth Powys.",
+      "id": "col_8"
+    },
+    {
+      "type": "equals",
+      "field": "region",
+      "value": "Neath Port Talbot",
+      "label": "Region: Neath Port Talbot",
+      "category": "geography",
+      "match_count": 5,
+      "display": "O fewn rhanbarth Gastell-nedd Port Talbot",
+      "hint": "Mae'r orsaf hon o fewn rhanbarth Gastell-nedd Port Talbot.",
       "id": "col_9"
     },
     {
@@ -216,35 +216,58 @@
     {
       "type": "equals",
       "field": "canonical_hub",
-      "value": "Shrewsbury",
-      "label": "Hub: Shrewsbury",
-      "category": "geography",
-      "match_count": 52,
-      "display": "Mae teithiau'r orsaf hon yn anelu am Amwythig",
-      "hint": "Cyfeirir teithiau'r orsaf hon drwy neu tuag at Amwythig.",
-      "id": "col_11"
-    },
-    {
-      "type": "equals",
-      "field": "canonical_hub",
-      "value": "Wrexham/Chester",
-      "label": "Hub: Wrexham/Chester",
-      "category": "geography",
-      "match_count": 52,
-      "display": "Mae teithiau'r orsaf hon yn anelu am Wrecsam/Gaer",
-      "hint": "Cyfeirir teithiau'r orsaf hon drwy neu tuag at Wrecsam/Gaer.",
-      "id": "col_12"
-    },
-    {
-      "type": "equals",
-      "field": "canonical_hub",
       "value": "Swansea",
       "label": "Hub: Swansea",
       "category": "geography",
       "match_count": 49,
       "display": "Mae teithiau'r orsaf hon yn anelu am Abertawe",
       "hint": "Cyfeirir teithiau'r orsaf hon drwy neu tuag at Abertawe.",
+      "id": "col_11"
+    },
+    {
+      "type": "equals",
+      "field": "canonical_hub",
+      "value": "Bristol Temple Meads",
+      "label": "Hub: Bristol Temple Meads",
+      "category": "geography",
+      "match_count": 22,
+      "display": "Mae teithiau'r orsaf hon yn anelu am Fryste Temple Meads",
+      "hint": "Cyfeirir teithiau'r orsaf hon drwy neu tuag at Fryste Temple Meads.",
+      "id": "col_12"
+    },
+    {
+      "type": "range",
+      "field": "time_to_hub__bristol_temple_meads",
+      "max": 18.0,
+      "label": "Time to Bristol Temple Meads: shortest third",
+      "category": "service",
+      "match_count": 8,
+      "display": "Taith fer i Fryste Temple Meads",
+      "hint": "Yn y pos hwn, mae 'byr' yn golygu llai na 18 munud i Fryste Temple Meads.",
       "id": "col_13"
+    },
+    {
+      "type": "range",
+      "field": "time_to_hub__bristol_temple_meads",
+      "min": 18.0,
+      "max": 32.0,
+      "label": "Time to Bristol Temple Meads: middle third",
+      "category": "service",
+      "match_count": 8,
+      "display": "Taith ganolig i Fryste Temple Meads",
+      "hint": "Yn y pos hwn, mae 'canolig' yn golygu 18-32 munud i Fryste Temple Meads.",
+      "id": "col_14"
+    },
+    {
+      "type": "range",
+      "field": "time_to_hub__bristol_temple_meads",
+      "min": 32.0,
+      "label": "Time to Bristol Temple Meads: longest third",
+      "category": "service",
+      "match_count": 8,
+      "display": "Taith hir i Fryste Temple Meads",
+      "hint": "Yn y pos hwn, mae 'hir' yn golygu 32+ munud i Fryste Temple Meads.",
+      "id": "col_15"
     },
     {
       "type": "range",
@@ -255,7 +278,7 @@
       "match_count": 34,
       "display": "Taith fer i Gaerdydd Canolog",
       "hint": "Yn y pos hwn, mae 'byr' yn golygu llai na 22 munud i Gaerdydd Canolog.",
-      "id": "col_14"
+      "id": "col_16"
     },
     {
       "type": "range",
@@ -267,7 +290,7 @@
       "match_count": 33,
       "display": "Taith ganolig i Gaerdydd Canolog",
       "hint": "Yn y pos hwn, mae 'canolig' yn golygu 22-43 munud i Gaerdydd Canolog.",
-      "id": "col_15"
+      "id": "col_17"
     },
     {
       "type": "range",
@@ -278,41 +301,7 @@
       "match_count": 32,
       "display": "Taith hir i Gaerdydd Canolog",
       "hint": "Yn y pos hwn, mae 'hir' yn golygu 43+ munud i Gaerdydd Canolog.",
-      "id": "col_16"
-    },
-    {
-      "type": "range",
-      "field": "time_to_hub__shrewsbury",
-      "max": 64.0,
-      "label": "Time to Shrewsbury: shortest third",
-      "category": "service",
-      "match_count": 18,
-      "display": "Taith fer i Amwythig",
-      "hint": "Yn y pos hwn, mae 'byr' yn golygu llai na 64 munud i Amwythig.",
-      "id": "col_17"
-    },
-    {
-      "type": "range",
-      "field": "time_to_hub__shrewsbury",
-      "min": 64.0,
-      "max": 143.0,
-      "label": "Time to Shrewsbury: middle third",
-      "category": "service",
-      "match_count": 18,
-      "display": "Taith ganolig i Amwythig",
-      "hint": "Yn y pos hwn, mae 'canolig' yn golygu 64-143 munud i Amwythig.",
       "id": "col_18"
-    },
-    {
-      "type": "range",
-      "field": "time_to_hub__shrewsbury",
-      "min": 143.0,
-      "label": "Time to Shrewsbury: longest third",
-      "category": "service",
-      "match_count": 18,
-      "display": "Taith hir i Amwythig",
-      "hint": "Yn y pos hwn, mae 'hir' yn golygu 143+ munud i Amwythig.",
-      "id": "col_19"
     },
     {
       "type": "range",
@@ -323,7 +312,7 @@
       "match_count": 17,
       "display": "Taith fer i Abertawe",
       "hint": "Yn y pos hwn, mae 'byr' yn golygu llai na 47 munud i Abertawe.",
-      "id": "col_20"
+      "id": "col_19"
     },
     {
       "type": "range",
@@ -335,7 +324,7 @@
       "match_count": 17,
       "display": "Taith ganolig i Abertawe",
       "hint": "Yn y pos hwn, mae 'canolig' yn golygu 47-97 munud i Abertawe.",
-      "id": "col_21"
+      "id": "col_20"
     },
     {
       "type": "range",
@@ -346,74 +335,29 @@
       "match_count": 17,
       "display": "Taith hir i Abertawe",
       "hint": "Yn y pos hwn, mae 'hir' yn golygu 97+ munud i Abertawe.",
+      "id": "col_21"
+    },
+    {
+      "type": "equals",
+      "field": "operator",
+      "value": "TfW",
+      "label": "Operator: TfW",
+      "category": "route",
+      "match_count": 144,
+      "display": "Llwybr wedi'i weithredu gan TfW.",
+      "hint": "Mae'r orsaf hon wedi'i gwasanaethu gan TfW.",
       "id": "col_22"
     },
     {
-      "type": "range",
-      "field": "time_to_hub__wrexham_chester",
-      "max": 29.0,
-      "label": "Time to Wrexham/Chester: shortest third",
-      "category": "service",
-      "match_count": 18,
-      "display": "Taith fer i Wrecsam/Gaer",
-      "hint": "Yn y pos hwn, mae 'byr' yn golygu llai na 29 munud i Wrecsam/Gaer.",
+      "type": "equals",
+      "field": "operator",
+      "value": "Great_Western",
+      "label": "Operator: Great_Western",
+      "category": "route",
+      "match_count": 22,
+      "display": "Llwybr wedi'i weithredu gan Great Western.",
+      "hint": "Mae'r orsaf hon wedi'i gwasanaethu gan Great Western.",
       "id": "col_23"
-    },
-    {
-      "type": "range",
-      "field": "time_to_hub__wrexham_chester",
-      "min": 29.0,
-      "max": 73.0,
-      "label": "Time to Wrexham/Chester: middle third",
-      "category": "service",
-      "match_count": 18,
-      "display": "Taith ganolig i Wrecsam/Gaer",
-      "hint": "Yn y pos hwn, mae 'canolig' yn golygu 29-73 munud i Wrecsam/Gaer.",
-      "id": "col_24"
-    },
-    {
-      "type": "range",
-      "field": "time_to_hub__wrexham_chester",
-      "min": 73.0,
-      "label": "Time to Wrexham/Chester: longest third",
-      "category": "service",
-      "match_count": 18,
-      "display": "Taith hir i Wrecsam/Gaer",
-      "hint": "Yn y pos hwn, mae 'hir' yn golygu 73+ munud i Wrecsam/Gaer.",
-      "id": "col_25"
-    },
-    {
-      "type": "array_contains",
-      "field": "route",
-      "value": "Central Wales Line",
-      "label": "Route: Central Wales Line",
-      "category": "route",
-      "match_count": 63,
-      "display": "Yn rhan o lwybr Llinell Canolbarth Cymru",
-      "hint": "Y llwybr hir, un trac o Craven Arms drwy Knighton, Llandrindod, Llanymddyfri a Llandeilo i Landeilo ac Abertawe - yr un llwybr â Llinell Calon Cymru, dim ond enw hŷn.",
-      "id": "col_26"
-    },
-    {
-      "type": "array_contains",
-      "field": "route",
-      "value": "Heart of Wales Line",
-      "label": "Route: Heart of Wales Line",
-      "category": "route",
-      "match_count": 63,
-      "display": "Yn rhan o lwybr Llinell Calon Cymru",
-      "hint": "Y llwybr hir, un trac i'r de o Craven Arms drwy Knighton, Llandrindod, Llanymddyfri a Llandeilo i Landeilo ac Abertawe - a elwir hefyd yn Llinell Canolbarth Cymru.",
-      "id": "col_27"
-    },
-    {
-      "type": "array_contains",
-      "field": "route",
-      "value": "North Wales Coast Line",
-      "label": "Route: North Wales Coast Line",
-      "category": "route",
-      "match_count": 50,
-      "display": "Yn rhan o lwybr Llinell Arfordir Gogledd Cymru",
-      "hint": "Y brif linell arfordirol o Gaer i Gaergybi drwy'r Fflint, Rhyl, Bae Colwyn, Cyffordd Llandudno a Bangor - hen lwybr hanesyddol y 'Post Gwyddelig' i borthladd fferi Ynys Môn.",
-      "id": "col_28"
     },
     {
       "type": "array_contains",
@@ -421,10 +365,32 @@
       "value": "Swanline",
       "label": "Route: Swanline",
       "category": "route",
-      "match_count": 44,
+      "match_count": 46,
       "display": "Yn rhan o lwybr Swanline",
-      "hint": "Y gwasanaeth lleol, arafach ar Brif Linell De Cymru rhwng Caerdydd Canolog ac Abertawe, yn galw ym Mhyle, Port Talbot, Baglan, Llansawel a Llansamlet - yr opsiwn arafach na'r trenau cyflym rhwng Caerdydd ac Abertawe.",
-      "id": "col_29"
+      "hint": "Y gwasanaeth lleol, arafach ar Brif Linell De Cymru rhwng Caerdydd Canolog ac Abertawe, yn galw ym Mhyle, Port Talbot, Baglan, Aberafan a Llansamlet - yr opsiwn arafach na'r trenau cyflym rhwng Caerdydd ac Abertawe.",
+      "id": "col_24"
+    },
+    {
+      "type": "array_contains",
+      "field": "route",
+      "value": "Central Wales Line",
+      "label": "Route: Central Wales Line",
+      "category": "route",
+      "match_count": 42,
+      "display": "Yn rhan o lwybr Llinell Canolbarth Cymru",
+      "hint": "Y llwybr hir, un trac 'Calon Cymru' i'r de o Craven Arms drwy Knighton, Llandrindod, Llanymddyfri a Llandeilo i Landeilo ac Abertawe - yr un llwybr â Llinell Calon Cymru, dim ond enw hŷn.",
+      "id": "col_25"
+    },
+    {
+      "type": "array_contains",
+      "field": "route",
+      "value": "Heart of Wales Line",
+      "label": "Route: Heart of Wales Line",
+      "category": "route",
+      "match_count": 42,
+      "display": "Yn rhan o lwybr Llinell Calon Cymru",
+      "hint": "Y llwybr hir, un trac i'r de o Craven Arms drwy Knighton, Llandrindod, Llanymddyfri a Llandeilo i Landeilo ac Abertawe - a elwir hefyd yn Llinell Canolbarth Cymru.",
+      "id": "col_26"
     },
     {
       "type": "array_contains",
@@ -435,7 +401,7 @@
       "match_count": 31,
       "display": "Yn rhan o lwybr Llinell Bro Morgannwg",
       "hint": "Y llinell sy'n dolennu i'r de o brif linell Caerdydd-Pen-y-bont drwy'r Barri, Rhws Maes Awyr Caerdydd a Llanilltud Fawr - ailagorwyd i deithwyr yn 2005 wedi dros 40 mlynedd ar gau.",
-      "id": "col_30"
+      "id": "col_27"
     },
     {
       "type": "array_contains",
@@ -446,18 +412,7 @@
       "match_count": 30,
       "display": "Yn rhan o lwybr Llinell Coryton",
       "hint": "Y gangen fer, drefol i'r gogledd o Gaerdydd Heol y Frenhines drwy'r Mynydd Bychan, Fforest Ganol, Rhiwbeina a'r Eglwys Newydd i Coryton - nid un o'r llinellau Cymoedd hirach ymhellach allan.",
-      "id": "col_31"
-    },
-    {
-      "type": "array_contains",
-      "field": "route",
-      "value": "Cambrian Coast Line",
-      "label": "Route: Cambrian Coast Line",
-      "category": "route",
-      "match_count": 27,
-      "display": "Yn rhan o lwybr Llinell Arfordir y Cambrian",
-      "hint": "Y gangen arfordirol, olygfaol i'r gogledd o Gyffordd Dyfi (ger Machynlleth) drwy Aberdyfi, Tywyn, Bermo a Harlech i Bwllheli - nid Llinell Cambrian i mewn i'r tir sy'n mynd i Aberystwyth.",
-      "id": "col_32"
+      "id": "col_28"
     },
     {
       "type": "array_contains",
@@ -468,7 +423,7 @@
       "match_count": 25,
       "display": "Yn rhan o lwybr Llinell Merthyr",
       "hint": "Y llinell Gymoedd i'r gogledd o Gaerdydd drwy Abercynon i Ferthyr Tudful - yn rhannu ei hanner deheuol â Llinell Aberdâr, sy'n gwahanu yn Abercynon.",
-      "id": "col_33"
+      "id": "col_29"
     },
     {
       "type": "array_contains",
@@ -479,7 +434,7 @@
       "match_count": 25,
       "display": "Yn rhan o lwybr Llinell Treherbert",
       "hint": "Llinell Cwm Rhondda o Gaerdydd drwy Bontypridd, Porth a Thonypandy i Dreherbert ar ben y cwm.",
-      "id": "col_34"
+      "id": "col_30"
     },
     {
       "type": "array_contains",
@@ -490,7 +445,7 @@
       "match_count": 24,
       "display": "Yn rhan o lwybr Llinell Aberdâr",
       "hint": "Y llinell Gymoedd i'r gogledd o Gaerdydd drwy Abercynon i Aberdâr - yn rhannu ei hanner deheuol â Llinell Merthyr, sy'n gwahanu yn Abercynon.",
-      "id": "col_35"
+      "id": "col_31"
     },
     {
       "type": "array_contains",
@@ -501,7 +456,62 @@
       "match_count": 20,
       "display": "Yn rhan o lwybr Llinell Dyffryn Ebwy",
       "hint": "Y gangen a ailagorwyd i fyny Cwm Ebwy o Gasnewydd (neu Gaerdydd Canolog) drwy Risga, Croesyceiliog a'r Bont Newydd i Lynebwy - ar gau i deithwyr am 46 mlynedd cyn ailagor yn 2008.",
+      "id": "col_32"
+    },
+    {
+      "type": "array_contains",
+      "field": "route",
+      "value": "Cardiff Bay Line",
+      "label": "Route: Cardiff Bay Line",
+      "category": "route",
+      "match_count": 10,
+      "display": "Yn rhan o lwybr Llinell Bae Caerdydd",
+      "hint": "Y gangen fer, wennol o Gaerdydd Heol y Frenhines i lawr i Fae Caerdydd, gan wasanaethu'r dociau ac ardal y Senedd a adnewyddwyd - a elwir hefyd yn Llinell Cangen Butetown.",
+      "id": "col_33"
+    },
+    {
+      "type": "array_contains",
+      "field": "route",
+      "value": "Severn Beach Line",
+      "label": "Route: Severn Beach Line",
+      "category": "route",
+      "match_count": 10,
+      "display": "Yn rhan o lwybr Llinell Traeth Hafren",
+      "hint": "Y gangen faestrefol olygfaol o Fryste Temple Meads drwy Clifton Down, Sea Mills ac Avonmouth i gyrchfan fach Severn Beach ar Aber Hafren.",
+      "id": "col_34"
+    },
+    {
+      "type": "array_contains",
+      "field": "route",
+      "value": "Great Western Main Line",
+      "label": "Route: Great Western Main Line",
+      "category": "route",
+      "match_count": 9,
+      "display": "Yn rhan o lwybr Prif Linell Great Western",
+      "hint": "Y prif lwybr o Lundain Paddington i Fryste a thu hwnt, drwy Reading, Swindon a Bath Spa - y brif linell y mae gwasanaethau De Cymru'n ymuno â hi ym Mryste Parkway neu Fryste Temple Meads.",
+      "id": "col_35"
+    },
+    {
+      "type": "array_contains",
+      "field": "route",
+      "value": "City Line (Cardiff)",
+      "label": "Route: City Line (Cardiff)",
+      "category": "route",
+      "match_count": 6,
+      "display": "Yn rhan o lwybr Llinell y Ddinas (Caerdydd)",
+      "hint": "Y llinell fer yng Nghaerdydd sy'n cysylltu Radur â Chaerdydd Canolog/Heol y Frenhines drwy Ddanescourt, Fairwater, Waun-Gron Park a Parc Ninian - a ddefnyddir hefyd fel llwybr dargyfeirio ar gyfer y llinellau Cymoedd.",
       "id": "col_36"
+    },
+    {
+      "type": "array_contains",
+      "field": "route",
+      "value": "Gloucester to Newport Line",
+      "label": "Route: Gloucester to Newport Line",
+      "category": "route",
+      "match_count": 6,
+      "display": "Yn rhan o lwybr Llinell Caerloyw i Gasnewydd",
+      "hint": "Y llwybr sy'n dilyn ochr Loegr Aber Hafren o Gasnewydd drwy Gasgwent a Lydney i fyny i Gaerloyw - y llwybr dargyfeirio pan fo Twnnel Hafren ar gau.",
+      "id": "col_37"
     },
     {
       "type": "array_contains",
@@ -509,43 +519,10 @@
       "value": "Marches Line",
       "label": "Route: Marches Line",
       "category": "route",
-      "match_count": 18,
+      "match_count": 5,
       "display": "Yn rhan o lwybr Llinell y Mers",
       "hint": "Y llwybr trawsffiniol hir o Gasnewydd drwy'r Fenni a Henffordd i Amwythig, gan barhau i Crewe neu drwy Wrecsam i Gaer - yr un llwybr â Llinell y Gogledd a'r Gorllewin, dim ond enw hŷn. Nid y gangen Calon Cymru sy'n gwahanu yn Craven Arms.",
-      "id": "col_37"
-    },
-    {
-      "type": "array_contains",
-      "field": "route",
-      "value": "North & West Line",
-      "label": "Route: North & West Line",
-      "category": "route",
-      "match_count": 16,
-      "display": "Yn rhan o lwybr Llinell y Gogledd a'r Gorllewin",
-      "hint": "Y llwybr trawsffiniol hir o Gasnewydd drwy'r Fenni a Henffordd i Amwythig, gan barhau i Crewe neu drwy Wrecsam i Gaer - a elwir hefyd yn Llinell y Mers. Nid y gangen Calon Cymru sy'n gwahanu yn Craven Arms.",
       "id": "col_38"
-    },
-    {
-      "type": "array_contains",
-      "field": "route",
-      "value": "Borderlands Line",
-      "label": "Route: Borderlands Line",
-      "category": "route",
-      "match_count": 13,
-      "display": "Yn rhan o lwybr Llinell y Gororau",
-      "hint": "Y llinell drawsffiniol sy'n cysylltu Wrecsam Ganolog â Bidston ar Gilgwri, drwy Wrecsam Gyffredinol, Shotton a phentrefi'r ffin rhwng gogledd-ddwyrain Cymru a Swydd Gaer.",
-      "id": "col_39"
-    },
-    {
-      "type": "array_contains",
-      "field": "route",
-      "value": "Conwy Valley Line",
-      "label": "Route: Conwy Valley Line",
-      "category": "route",
-      "match_count": 13,
-      "display": "Yn rhan o lwybr Llinell Dyffryn Conwy",
-      "hint": "Y gangen i'r de o Gyffordd Llandudno i fyny dyffrynnoedd Conwy a Lledr drwy Fetws-y-coed i dref lechi Blaenau Ffestiniog.",
-      "id": "col_40"
     },
     {
       "type": "equals",
@@ -553,10 +530,10 @@
       "value": "welsh_place",
       "label": "Wordplay: welsh_place",
       "category": "name",
-      "match_count": 108,
+      "match_count": 44,
       "display": "Arddull enwi: gwreiddiau lle-enw Cymraeg",
       "hint": "Mae'r enw'n cynnwys elfen lle-enw Gymraeg, fel Llan-, Aber-, Pen- neu Gaer-.",
-      "id": "col_41"
+      "id": "col_39"
     },
     {
       "type": "equals",
@@ -564,9 +541,31 @@
       "value": "structure",
       "label": "Wordplay: structure",
       "category": "name",
-      "match_count": 9,
+      "match_count": 21,
       "display": "Arddull enwi: fformat anghyffredin",
       "hint": "Rhywbeth anghyffredin am sut mae'r enw'n cael ei ysgrifennu - cromfachau, cysylltnod, ampersand, neu 'St'.",
+      "id": "col_40"
+    },
+    {
+      "type": "equals",
+      "field": "wordplay_category",
+      "value": "local_suffix",
+      "label": "Wordplay: local_suffix",
+      "category": "name",
+      "match_count": 12,
+      "display": "Arddull enwi: diweddglo lle-enw Seisnig cyffredin",
+      "hint": "Mae'r enw'n gorffen mewn diweddglo lle-enw Seisnig cyffredin, fel -ton, -ham, -by neu -dale.",
+      "id": "col_41"
+    },
+    {
+      "type": "equals",
+      "field": "wordplay_category",
+      "value": "nature",
+      "label": "Wordplay: nature",
+      "category": "name",
+      "match_count": 6,
+      "display": "Arddull enwi: gair natur yn yr enw",
+      "hint": "Mae'r enw'n cynnwys gair natur, fel Park, Hill, Green, Heath neu Wood.",
       "id": "col_42"
     },
     {
@@ -575,7 +574,7 @@
       "value": "llan",
       "label": "Name contains 'llan'",
       "category": "name",
-      "match_count": 32,
+      "match_count": 16,
       "display": "Mae'r gair yn cynnwys 'llan'",
       "hint": "Mae'r gair yn cynnwys 'llan'.",
       "id": "col_43"
@@ -583,46 +582,57 @@
     {
       "type": "array_contains",
       "field": "wordplay_tags",
-      "value": "pen",
-      "label": "Name contains 'pen'",
+      "value": "ton",
+      "label": "Name contains 'ton'",
       "category": "name",
-      "match_count": 20,
-      "display": "Mae'r gair yn cynnwys 'pen'",
-      "hint": "Mae'r gair yn cynnwys 'pen'.",
+      "match_count": 11,
+      "display": "Mae'r gair yn cynnwys 'ton'",
+      "hint": "Mae'r gair yn cynnwys 'ton'.",
       "id": "col_44"
     },
     {
       "type": "array_contains",
       "field": "wordplay_tags",
-      "value": "aber",
-      "label": "Name contains 'aber'",
+      "value": "brackets",
+      "label": "Name contains 'brackets'",
       "category": "name",
-      "match_count": 13,
-      "display": "Mae'r gair yn cynnwys 'aber'",
-      "hint": "Mae'r gair yn cynnwys 'aber'.",
+      "match_count": 8,
+      "display": "Mae'r enw'n cynnwys cromfachau",
+      "hint": "Mae enw'r orsaf yn cynnwys testun mewn cromfachau, e.e. cymal cydnabod fel '(Cumbria)'.",
       "id": "col_45"
     },
     {
       "type": "array_contains",
       "field": "wordplay_tags",
-      "value": "tre",
-      "label": "Name contains 'tre'",
+      "value": "ampersand",
+      "label": "Name contains 'ampersand'",
       "category": "name",
-      "match_count": 10,
-      "display": "Mae'r gair yn cynnwys 'tre'",
-      "hint": "Mae'r gair yn cynnwys 'tre'.",
+      "match_count": 8,
+      "display": "Mae'r enw'n cynnwys '&'",
+      "hint": "Mae enw'r orsaf yn cynnwys ampersand (&).",
       "id": "col_46"
     },
     {
       "type": "array_contains",
       "field": "wordplay_tags",
-      "value": "caer",
-      "label": "Name contains 'caer'",
+      "value": "pen",
+      "label": "Name contains 'pen'",
       "category": "name",
-      "match_count": 10,
-      "display": "Mae'r gair yn cynnwys 'caer'",
-      "hint": "Mae'r gair yn cynnwys 'caer'.",
+      "match_count": 7,
+      "display": "Mae'r gair yn cynnwys 'pen'",
+      "hint": "Mae'r gair yn cynnwys 'pen'.",
       "id": "col_47"
+    },
+    {
+      "type": "array_contains",
+      "field": "wordplay_tags",
+      "value": "park",
+      "label": "Name contains 'park'",
+      "category": "name",
+      "match_count": 6,
+      "display": "Mae'r gair yn cynnwys 'park'",
+      "hint": "Mae'r gair yn cynnwys 'park'.",
+      "id": "col_48"
     },
     {
       "type": "array_contains",
@@ -630,65 +640,65 @@
       "value": "pont",
       "label": "Name contains 'pont'",
       "category": "name",
-      "match_count": 8,
+      "match_count": 6,
       "display": "Mae'r gair yn cynnwys 'pont'",
       "hint": "Mae'r gair yn cynnwys 'pont'.",
-      "id": "col_48"
-    },
-    {
-      "type": "array_contains",
-      "field": "wordplay_tags",
-      "value": "a_ac",
-      "label": "Name contains 'a_ac'",
-      "category": "name",
-      "match_count": 7,
-      "display": "Enw'n cynnwys 'a'/'ac' Cymraeg",
-      "hint": "Mae enw Cymraeg yr orsaf yn cynnwys 'a' neu 'ac', yn cydio dau enw lle at ei gilydd.",
       "id": "col_49"
     },
     {
       "type": "array_contains",
       "field": "wordplay_tags",
-      "value": "ynys",
-      "label": "Name contains 'ynys'",
+      "value": "tre",
+      "label": "Name contains 'tre'",
       "category": "name",
-      "match_count": 3,
-      "display": "Mae'r gair yn cynnwys 'ynys'",
-      "hint": "Mae'r gair yn cynnwys 'ynys'.",
+      "match_count": 5,
+      "display": "Mae'r gair yn cynnwys 'tre'",
+      "hint": "Mae'r gair yn cynnwys 'tre'.",
       "id": "col_50"
     },
     {
       "type": "array_contains",
       "field": "wordplay_tags",
-      "value": "dinas",
-      "label": "Name contains 'dinas'",
+      "value": "aber",
+      "label": "Name contains 'aber'",
       "category": "name",
-      "match_count": 3,
-      "display": "Mae'r gair yn cynnwys 'dinas'",
-      "hint": "Mae'r gair yn cynnwys 'dinas'.",
+      "match_count": 4,
+      "display": "Mae'r gair yn cynnwys 'aber'",
+      "hint": "Mae'r gair yn cynnwys 'aber'.",
       "id": "col_51"
     },
     {
       "type": "array_contains",
       "field": "wordplay_tags",
-      "value": "glyn",
-      "label": "Name contains 'glyn'",
+      "value": "port",
+      "label": "Name contains 'port'",
       "category": "name",
-      "match_count": 3,
-      "display": "Mae'r gair yn cynnwys 'glyn'",
-      "hint": "Mae'r gair yn cynnwys 'glyn'.",
+      "match_count": 4,
+      "display": "Mae'r gair yn cynnwys 'port'",
+      "hint": "Mae'r gair yn cynnwys 'port'.",
       "id": "col_52"
     },
     {
       "type": "array_contains",
       "field": "wordplay_tags",
-      "value": "maes",
-      "label": "Name contains 'maes'",
+      "value": "hyphen",
+      "label": "Name contains 'hyphen'",
+      "category": "name",
+      "match_count": 4,
+      "display": "Mae'r enw'n cynnwys cysylltnod",
+      "hint": "Mae enw'r orsaf yn cynnwys cysylltnod.",
+      "id": "col_53"
+    },
+    {
+      "type": "array_contains",
+      "field": "wordplay_tags",
+      "value": "ey",
+      "label": "Name contains 'ey'",
       "category": "name",
       "match_count": 3,
-      "display": "Mae'r gair yn cynnwys 'maes'",
-      "hint": "Mae'r gair yn cynnwys 'maes'.",
-      "id": "col_53"
+      "display": "Mae'r gair yn cynnwys 'ey'",
+      "hint": "Mae'r gair yn cynnwys 'ey'.",
+      "id": "col_54"
     }
   ]
 }

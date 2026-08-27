@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="gd">
 <head>
 <meta property="og:image" content="https://playtheroute.uk/CLAUDE/og-preview.png">
 <meta property="og:image:width" content="1200">
@@ -9,7 +9,7 @@
 <meta property="og:url" content="https://playtheroute.uk/">
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>The Route</title>
+<title>An Rathad (Gàidhlig)</title>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
 <style>
 *{box-sizing:border-box}
@@ -69,76 +69,51 @@ option{color:white;background:#111827}
 <body>
 <div id="overlay" class="menu-overlay"></div>
 <nav id="sideMenu" class="side-menu">
-<a href="what-is-the-route.html">What is The Route?</a>
-<a href="contact.html">Get in touch</a>
-<a href="support-us.html">Keep The Route Running</a>
-<a href="rules.html">Rules</a>
-<a href="routepedia.html">Routepedia</a>
-<a href="uk_rail_interactive.html">Full UK Map</a>
-<a href="privacy.html">Privacy</a>
-<a href="disclaimer.html">Disclaimer</a>
+<a href="/gd/what-is-the-route.html">Dè th' ann an An Rathad?</a>
+<a href="/gd/contact.html">Cuir fios thugainn</a>
+<a href="/gd/support-us.html">Cùm An Rathad a' Dol</a>
+<a href="/gd/rules.html">Riaghailtean</a>
+<a href="/routepedia.html">Routepedia</a>
+<a href="/uk_rail_interactive.html">Mapa slàn na RA</a>
+<a href="/privacy.html">Prìobhaideachd</a>
+<a href="/disclaimer.html">Àicheadh</a>
 </nav>
 <div class="container">
 <div class="header">
 <button id="menuButton" class="menu-button">☰</button>
-<a href="/" style="display:block;"><img src="CLAUDE/newlogo.svg" class="logo" alt="The Route"></a>
-<a href="rules.html" class="rules-button">📖 Rules</a>
+<a href="/" style="display:block;"><img src="/CLAUDE/newlogo.svg" class="logo" alt="The Route"></a>
+<a href="rules.html" class="rules-button">📖 Riaghailtean</a>
 </div>
-<a href="uk_network_map.html" class="map-promo">
-<div class="map-promo-title">🗺️ Explore the rail network map</div>
-<div class="map-promo-sub">Pick a network and see every station and route laid out in full.</div>
+<a href="/uk_network_map.html" class="map-promo">
+<div class="map-promo-title">🗺️ Rannsaich mapa an lìonra rèile</div>
+<div class="map-promo-sub">Tagh lìonra agus faic a h-uile stèisean is slighe.</div>
 </a>
 <div class="network-selector">
-<label>Choose your commuter network</label>
+<label>Tagh do lìonra</label>
 <select id="network">
-<option value="" disabled selected>— Select a network —</option>
-<optgroup label="London & South East">
-<option value="semetro">Southeastern Metro</option>
-<option value="semainline">Southeastern Mainline</option>
-<option value="thameslink_southern">Thameslink & Southern</option>
-<option value="south_western">South Western Railway</option>
-<option value="gwr_london">GWR London</option>
-<option value="chiltern_wmr">Chiltern & West Midlands</option>
-<option value="london_nw_elizabeth_gn">Northwestern, Elizabeth & Great Northern</option>
-<option value="london_overground">London Overground</option>
-<option value="c2c_ga">c2c & Greater Anglia</option>
-</optgroup>
-<optgroup label="Midlands & North">
-<option value="east_midlands_emr">East Midlands Railway</option>
-<option value="manchester_northern">Manchester</option>
-<option value="liverpool_merseyside">Liverpool & Merseyside</option>
-<option value="leeds_sheffield_northern">Leeds & Sheffield</option>
-<option value="newcastle_northern">Newcastle</option>
-</optgroup>
-<optgroup label="Wales & Borders">
-<option value="gwr_wales_corridor">GWR Wales Corridor</option>
-<option value="tfw_cymraeg">Trafnidiaeth Cymru (Cymraeg)</option>
-<option value="shrewsbury_wrexham_chester">Shrewsbury, Wrexham & Chester</option>
-</optgroup>
-<optgroup label="Scotland">
-<option value="edinburgh_scotrail">Edinburgh & ScotRail</option>
-<option value="glasgow_scotrail">Glasgow & ScotRail</option>
-<option value="highlands_ne_scotrail">Highlands & North East Scotland</option>
+<option value="" disabled selected>— Tagh lìonra —</option>
+<optgroup label="A' Ghàidhealtachd">
+<option value="highlands_ne_scotrail">A' Ghàidhealtachd is Ear-thuath na h-Alba</option>
 </optgroup>
 </select>
-<div id="stampBox" class="stamp-box">🎟 Stamp regular route</div>
-<div id="clearStamp" class="clear-stamp" style="display:none;">✕ Clear stamped route</div>
+<div id="stampBox" class="stamp-box">🎟 Comharraich an t-slighe àbhaisteach</div>
+<div id="clearStamp" class="clear-stamp" style="display:none;">✕ Falamhaich an t-slighe chomharraichte</div>
 </div>
 <div class="mode-grid">
 <div class="mode-card active" data-mode="standard">
-<h3>🎟 Standard Ticket</h3><p>Relaxed journey mode.<br>6 tickets. No timer.</p>
+<h3>🎟 Tiogaid Àbhaisteach</h3><p>Modh turais socair.<br>6 tiogaidean. Gun tìmear.</p>
 </div>
 <div class="mode-card" data-mode="express">
-<h3>⏱ Express Service</h3><p>Beat the clock before departure.<br>Timed challenge mode.</p>
+<h3>⏱ Seirbheis Luath</h3><p>Buannaich an cleoc mus fàg thu.<br>Modh dùbhlain le tìomair.</p>
 </div>
 </div>
-<a href="#" id="playButton" class="play-button">Play today's route</a>
-<div id="networkStatus" class="network-status live">🟢 Live now — 20 networks available</div>
+<a href="#" id="playButton" class="play-button">Cluich slighe an-diugh</a>
+<div id="networkStatus" class="network-status live">🟢 Beò a-nis — Gàidhlig na Gàidhealtachd</div>
 
-<div style="text-align:center;margin-top:10px;"><a href="cy/index.html" style="color:#9ca3af;font-size:.85rem;text-decoration:none;">Cymraeg</a> &nbsp;•&nbsp; <a href="gd/index.html" style="color:#9ca3af;font-size:.85rem;text-decoration:none;">Gàidhlig</a></div>
+<div style="text-align:center;margin-top:10px;"><a href="/index.html" style="color:#9ca3af;font-size:.85rem;text-decoration:none;">English</a> &nbsp;•&nbsp; <a href="/cy/index.html" style="color:#9ca3af;font-size:.85rem;text-decoration:none;">Cymraeg</a></div>
 
 <div class="footer-text">
-  Built for UK commuters.
+  Air a dhèanamh airson luchd-siubhail RA.
   <br><br>
   <a href="https://x.com/playtheroute" target="_blank">X</a>
   •
@@ -173,7 +148,7 @@ clearStamp.style.display="block";
 }
 function clearStampedUI(){
 stampBox.classList.remove("active");
-stampBox.textContent="🎟 Stamp regular route";
+stampBox.textContent="🎟 Comharraich an t-slighe àbhaisteach";
 clearStamp.style.display="none";
 }
 const savedRoute=localStorage.getItem("regularRoute");
@@ -190,16 +165,16 @@ network.value="";
 updateNetworkStatus();
 };
 function updateNetworkStatus(){
-const live=["semetro", "semainline", "thameslink_southern", "south_western", "gwr_london", "gwr_wales_corridor", "tfw_cymraeg", "chiltern_wmr", "london_nw_elizabeth_gn", "london_overground", "c2c_ga", "east_midlands_emr", "shrewsbury_wrexham_chester", "manchester_northern", "liverpool_merseyside", "leeds_sheffield_northern", "newcastle_northern", "edinburgh_scotrail", "glasgow_scotrail", "highlands_ne_scotrail"];
+const live=["highlands_ne_scotrail"];
 if(!network.value){
 status.className="network-status";
 status.textContent="";
 } else if(live.includes(network.value)){
 status.className="network-status live";
-status.textContent="🟢 Live now — 20 networks available";
+status.textContent="🟢 Beò a-nis — Gàidhlig na Gàidhealtachd";
 } else {
 status.className="network-status locked";
-status.textContent="🟡 Coming soon";
+status.textContent="🟡 A' tighinn a dh'aithghearr";
 }
 }
 network.onchange=updateNetworkStatus;
@@ -208,15 +183,15 @@ updateNetworkStatus();
 playButton.onclick=(e)=>{
 e.preventDefault();
 if(!network.value){
-alert("Please choose a network first.");
+alert("Feuch an tagh thu lìonra an toiseach.");
 return;
 }
-const live=["semetro", "semainline", "thameslink_southern", "south_western", "gwr_london", "gwr_wales_corridor", "tfw_cymraeg", "chiltern_wmr", "london_nw_elizabeth_gn", "london_overground", "c2c_ga", "east_midlands_emr", "shrewsbury_wrexham_chester", "manchester_northern", "liverpool_merseyside", "leeds_sheffield_northern", "newcastle_northern", "edinburgh_scotrail", "glasgow_scotrail", "highlands_ne_scotrail"];
+const live=["highlands_ne_scotrail"];
 if(!live.includes(network.value)){
-window.location.href="waiting-room.html";
+window.location.href="/waiting-room.html";
 return;
 }
-window.location.href=`play-master.html?network=${network.value}&mode=${selectedMode}`;
+window.location.href=`/gd/play-master.html?network=${network.value}&mode=${selectedMode}`;
 };
 </script>
 </body>

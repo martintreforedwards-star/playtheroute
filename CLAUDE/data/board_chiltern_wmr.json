@@ -110,7 +110,7 @@
     "is_coastal": false,
     "terminus_max": 3,
     "canonical_hub": "London",
-    "canonical_time_to_hub": 122.0,
+    "canonical_time_to_hub": 40.0,
     "welsh_name": null,
     "wordplay_category": "local_suffix",
     "wordplay_difficulty": "medium",
@@ -125,7 +125,7 @@
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
     "time_to_hub__birmingham_new_street": null,
-    "time_to_hub__london": 122.0
+    "time_to_hub__london": 40.0
   },
   {
     "station_id": "CM_0057",
@@ -174,7 +174,7 @@
     "is_coastal": false,
     "terminus_max": 183,
     "canonical_hub": "London",
-    "canonical_time_to_hub": 60.0,
+    "canonical_time_to_hub": 68.0,
     "welsh_name": null,
     "wordplay_category": "local_suffix",
     "wordplay_difficulty": "medium",
@@ -190,7 +190,7 @@
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
     "time_to_hub__birmingham_new_street": null,
-    "time_to_hub__london": 60.0
+    "time_to_hub__london": 68.0
   },
   {
     "station_id": "CM_0033",
@@ -207,7 +207,7 @@
     "is_coastal": false,
     "terminus_max": 196,
     "canonical_hub": "London",
-    "canonical_time_to_hub": 130.0,
+    "canonical_time_to_hub": 62.0,
     "welsh_name": null,
     "wordplay_category": "local_suffix",
     "wordplay_difficulty": "medium",
@@ -222,7 +222,7 @@
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
     "time_to_hub__birmingham_new_street": null,
-    "time_to_hub__london": 130.0
+    "time_to_hub__london": 62.0
   },
   {
     "station_id": "CM_0016",
@@ -240,7 +240,7 @@
     "is_coastal": false,
     "terminus_max": 72,
     "canonical_hub": "London",
-    "canonical_time_to_hub": 73.0,
+    "canonical_time_to_hub": 71.0,
     "welsh_name": null,
     "wordplay_category": "local_suffix",
     "wordplay_difficulty": "medium",
@@ -255,7 +255,7 @@
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
     "time_to_hub__birmingham_new_street": null,
-    "time_to_hub__london": 73.0
+    "time_to_hub__london": 71.0
   },
   {
     "station_id": "CM_0009",
@@ -272,7 +272,7 @@
     "is_coastal": false,
     "terminus_max": 0,
     "canonical_hub": "London",
-    "canonical_time_to_hub": 105.0,
+    "canonical_time_to_hub": 30.0,
     "welsh_name": null,
     "wordplay_category": "local_suffix",
     "wordplay_difficulty": "medium",
@@ -287,7 +287,7 @@
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
     "time_to_hub__birmingham_new_street": null,
-    "time_to_hub__london": 105.0
+    "time_to_hub__london": 30.0
   },
   {
     "station_id": "CM_0037",
@@ -304,7 +304,7 @@
     "is_coastal": false,
     "terminus_max": 42,
     "canonical_hub": "London",
-    "canonical_time_to_hub": 78.0,
+    "canonical_time_to_hub": 56.0,
     "welsh_name": null,
     "wordplay_category": "other",
     "wordplay_difficulty": "easy",
@@ -317,7 +317,7 @@
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
     "time_to_hub__birmingham_new_street": null,
-    "time_to_hub__london": 78.0
+    "time_to_hub__london": 56.0
   },
   {
     "station_id": "CM_0127",
@@ -396,7 +396,7 @@
     "is_coastal": false,
     "terminus_max": 0,
     "canonical_hub": "London",
-    "canonical_time_to_hub": 2.0,
+    "canonical_time_to_hub": 132.0,
     "welsh_name": null,
     "wordplay_category": "local_suffix",
     "wordplay_difficulty": "medium",
@@ -412,7 +412,7 @@
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
     "time_to_hub__birmingham_new_street": null,
-    "time_to_hub__london": 2.0
+    "time_to_hub__london": 132.0
   },
   {
     "station_id": "CM_0078",
@@ -461,7 +461,7 @@
     "is_coastal": false,
     "terminus_max": 1384,
     "canonical_hub": "Birmingham New Street",
-    "canonical_time_to_hub": 229.0,
+    "canonical_time_to_hub": 0.0,
     "welsh_name": null,
     "wordplay_category": "local_suffix",
     "wordplay_difficulty": "medium",
@@ -475,7 +475,7 @@
     "time_to_euston": null,
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
-    "time_to_hub__birmingham_new_street": 229.0,
+    "time_to_hub__birmingham_new_street": 0.0,
     "time_to_hub__london": null
   },
   {
@@ -493,7 +493,7 @@
     "is_coastal": false,
     "terminus_max": 24,
     "canonical_hub": "London",
-    "canonical_time_to_hub": 74.0,
+    "canonical_time_to_hub": 66.0,
     "welsh_name": null,
     "wordplay_category": "other",
     "wordplay_difficulty": "easy",
@@ -506,7 +506,7 @@
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
     "time_to_hub__birmingham_new_street": null,
-    "time_to_hub__london": 74.0
+    "time_to_hub__london": 66.0
   },
   {
     "station_id": "CM_0125",
@@ -524,7 +524,7 @@
     "is_coastal": false,
     "terminus_max": 0,
     "canonical_hub": "Birmingham New Street",
-    "canonical_time_to_hub": 292.0,
+    "canonical_time_to_hub": 32.0,
     "welsh_name": null,
     "wordplay_category": "other",
     "wordplay_difficulty": "easy",
@@ -536,7 +536,7 @@
     "time_to_euston": null,
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
-    "time_to_hub__birmingham_new_street": 292.0,
+    "time_to_hub__birmingham_new_street": 32.0,
     "time_to_hub__london": null
   },
   {
@@ -646,7 +646,7 @@
     "is_coastal": false,
     "terminus_max": 145,
     "canonical_hub": "London",
-    "canonical_time_to_hub": 58.0,
+    "canonical_time_to_hub": 122.0,
     "welsh_name": null,
     "wordplay_category": "local_suffix",
     "wordplay_difficulty": "medium",
@@ -661,7 +661,7 @@
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
     "time_to_hub__birmingham_new_street": null,
-    "time_to_hub__london": 58.0
+    "time_to_hub__london": 122.0
   },
   {
     "station_id": "CM_0056",
@@ -770,7 +770,7 @@
     "is_coastal": false,
     "terminus_max": 106,
     "canonical_hub": "London",
-    "canonical_time_to_hub": 25.0,
+    "canonical_time_to_hub": 129.0,
     "welsh_name": null,
     "wordplay_category": "local_suffix",
     "wordplay_difficulty": "medium",
@@ -786,7 +786,7 @@
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
     "time_to_hub__birmingham_new_street": null,
-    "time_to_hub__london": 25.0
+    "time_to_hub__london": 129.0
   },
   {
     "station_id": "CM_0053",
@@ -1122,7 +1122,7 @@
     "is_coastal": false,
     "terminus_max": 55,
     "canonical_hub": "London",
-    "canonical_time_to_hub": 58.0,
+    "canonical_time_to_hub": 106.0,
     "welsh_name": null,
     "wordplay_category": "local_suffix",
     "wordplay_difficulty": "medium",
@@ -1137,7 +1137,7 @@
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
     "time_to_hub__birmingham_new_street": null,
-    "time_to_hub__london": 58.0
+    "time_to_hub__london": 106.0
   },
   {
     "station_id": "CM_0070",
@@ -1188,7 +1188,7 @@
     "is_coastal": false,
     "terminus_max": 0,
     "canonical_hub": "London",
-    "canonical_time_to_hub": 34.0,
+    "canonical_time_to_hub": 28.0,
     "welsh_name": null,
     "wordplay_category": "local_suffix",
     "wordplay_difficulty": "medium",
@@ -1203,7 +1203,7 @@
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
     "time_to_hub__birmingham_new_street": null,
-    "time_to_hub__london": 34.0
+    "time_to_hub__london": 28.0
   },
   {
     "station_id": "CM_0005",
@@ -1220,7 +1220,7 @@
     "is_coastal": false,
     "terminus_max": 0,
     "canonical_hub": "London",
-    "canonical_time_to_hub": 52.0,
+    "canonical_time_to_hub": 25.0,
     "welsh_name": null,
     "wordplay_category": "local_suffix",
     "wordplay_difficulty": "medium",
@@ -1235,7 +1235,7 @@
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
     "time_to_hub__birmingham_new_street": null,
-    "time_to_hub__london": 52.0
+    "time_to_hub__london": 25.0
   },
   {
     "station_id": "CM_0107",
@@ -1407,7 +1407,7 @@
     "is_coastal": false,
     "terminus_max": 35,
     "canonical_hub": "London",
-    "canonical_time_to_hub": 202.0,
+    "canonical_time_to_hub": 24.0,
     "welsh_name": null,
     "wordplay_category": "other",
     "wordplay_difficulty": "easy",
@@ -1420,7 +1420,7 @@
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
     "time_to_hub__birmingham_new_street": null,
-    "time_to_hub__london": 202.0
+    "time_to_hub__london": 24.0
   },
   {
     "station_id": "CM_0030",
@@ -1437,7 +1437,7 @@
     "is_coastal": false,
     "terminus_max": 0,
     "canonical_hub": "London",
-    "canonical_time_to_hub": 120.0,
+    "canonical_time_to_hub": 46.0,
     "welsh_name": null,
     "wordplay_category": "other",
     "wordplay_difficulty": "easy",
@@ -1450,7 +1450,7 @@
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
     "time_to_hub__birmingham_new_street": null,
-    "time_to_hub__london": 120.0
+    "time_to_hub__london": 46.0
   },
   {
     "station_id": "CM_0111",
@@ -1564,7 +1564,7 @@
     "is_coastal": false,
     "terminus_max": 0,
     "canonical_hub": "Birmingham New Street",
-    "canonical_time_to_hub": 282.0,
+    "canonical_time_to_hub": 48.0,
     "welsh_name": null,
     "wordplay_category": "local_suffix",
     "wordplay_difficulty": "medium",
@@ -1578,7 +1578,7 @@
     "time_to_euston": null,
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
-    "time_to_hub__birmingham_new_street": 282.0,
+    "time_to_hub__birmingham_new_street": 48.0,
     "time_to_hub__london": null
   },
   {
@@ -1596,7 +1596,7 @@
     "is_coastal": false,
     "terminus_max": 0,
     "canonical_hub": "London",
-    "canonical_time_to_hub": 152.0,
+    "canonical_time_to_hub": 50.0,
     "welsh_name": null,
     "wordplay_category": "structure",
     "wordplay_difficulty": "hard",
@@ -1613,7 +1613,7 @@
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
     "time_to_hub__birmingham_new_street": null,
-    "time_to_hub__london": 152.0
+    "time_to_hub__london": 50.0
   },
   {
     "station_id": "CM_0079",
@@ -1696,7 +1696,7 @@
     "is_coastal": false,
     "terminus_max": 0,
     "canonical_hub": "London",
-    "canonical_time_to_hub": 122.0,
+    "canonical_time_to_hub": 15.0,
     "welsh_name": null,
     "wordplay_category": "structure",
     "wordplay_difficulty": "hard",
@@ -1712,7 +1712,7 @@
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
     "time_to_hub__birmingham_new_street": null,
-    "time_to_hub__london": 122.0
+    "time_to_hub__london": 15.0
   },
   {
     "station_id": "CM_0087",
@@ -1760,7 +1760,7 @@
     "is_coastal": false,
     "terminus_max": 0,
     "canonical_hub": "London",
-    "canonical_time_to_hub": 61.0,
+    "canonical_time_to_hub": 102.0,
     "welsh_name": null,
     "wordplay_category": "local_suffix",
     "wordplay_difficulty": "medium",
@@ -1775,7 +1775,7 @@
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
     "time_to_hub__birmingham_new_street": null,
-    "time_to_hub__london": 61.0
+    "time_to_hub__london": 102.0
   },
   {
     "station_id": "CM_0010",
@@ -1792,7 +1792,7 @@
     "is_coastal": false,
     "terminus_max": 176,
     "canonical_hub": "London",
-    "canonical_time_to_hub": 208.0,
+    "canonical_time_to_hub": 36.0,
     "welsh_name": null,
     "wordplay_category": "other",
     "wordplay_difficulty": "easy",
@@ -1805,7 +1805,7 @@
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
     "time_to_hub__birmingham_new_street": null,
-    "time_to_hub__london": 208.0
+    "time_to_hub__london": 36.0
   },
   {
     "station_id": "CM_0040",
@@ -1822,7 +1822,7 @@
     "is_coastal": false,
     "terminus_max": 0,
     "canonical_hub": "London",
-    "canonical_time_to_hub": 22.0,
+    "canonical_time_to_hub": 75.0,
     "welsh_name": null,
     "wordplay_category": "other",
     "wordplay_difficulty": "easy",
@@ -1835,7 +1835,7 @@
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
     "time_to_hub__birmingham_new_street": null,
-    "time_to_hub__london": 22.0
+    "time_to_hub__london": 75.0
   },
   {
     "station_id": "CM_0115",
@@ -1884,7 +1884,7 @@
     "is_coastal": false,
     "terminus_max": 0,
     "canonical_hub": "London",
-    "canonical_time_to_hub": 22.0,
+    "canonical_time_to_hub": 73.0,
     "welsh_name": null,
     "wordplay_category": "local_suffix",
     "wordplay_difficulty": "medium",
@@ -1899,7 +1899,7 @@
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
     "time_to_hub__birmingham_new_street": null,
-    "time_to_hub__london": 22.0
+    "time_to_hub__london": 73.0
   },
   {
     "station_id": "CM_0105",
@@ -1917,7 +1917,7 @@
     "is_coastal": false,
     "terminus_max": 60,
     "canonical_hub": "Birmingham New Street",
-    "canonical_time_to_hub": 288.0,
+    "canonical_time_to_hub": 40.0,
     "welsh_name": null,
     "wordplay_category": "other",
     "wordplay_difficulty": "easy",
@@ -1929,7 +1929,7 @@
     "time_to_euston": null,
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
-    "time_to_hub__birmingham_new_street": 288.0,
+    "time_to_hub__birmingham_new_street": 40.0,
     "time_to_hub__london": null
   },
   {
@@ -2139,7 +2139,7 @@
     "is_coastal": false,
     "terminus_max": 80,
     "canonical_hub": "London",
-    "canonical_time_to_hub": 62.0,
+    "canonical_time_to_hub": 88.0,
     "welsh_name": null,
     "wordplay_category": "local_suffix",
     "wordplay_difficulty": "medium",
@@ -2154,7 +2154,7 @@
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
     "time_to_hub__birmingham_new_street": null,
-    "time_to_hub__london": 62.0
+    "time_to_hub__london": 88.0
   },
   {
     "station_id": "CM_0052",
@@ -2203,7 +2203,7 @@
     "is_coastal": false,
     "terminus_max": 0,
     "canonical_hub": "London",
-    "canonical_time_to_hub": 2.0,
+    "canonical_time_to_hub": 116.0,
     "welsh_name": null,
     "wordplay_category": "other",
     "wordplay_difficulty": "easy",
@@ -2216,7 +2216,7 @@
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
     "time_to_hub__birmingham_new_street": null,
-    "time_to_hub__london": 2.0
+    "time_to_hub__london": 116.0
   },
   {
     "station_id": "CM_0036",
@@ -2233,7 +2233,7 @@
     "is_coastal": false,
     "terminus_max": 0,
     "canonical_hub": "London",
-    "canonical_time_to_hub": 12.0,
+    "canonical_time_to_hub": 70.0,
     "welsh_name": null,
     "wordplay_category": "other",
     "wordplay_difficulty": "easy",
@@ -2246,7 +2246,7 @@
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
     "time_to_hub__birmingham_new_street": null,
-    "time_to_hub__london": 12.0
+    "time_to_hub__london": 70.0
   },
   {
     "station_id": "CM_0067",
@@ -2361,7 +2361,7 @@
     "is_coastal": false,
     "terminus_max": 0,
     "canonical_hub": "London",
-    "canonical_time_to_hub": 6.0,
+    "canonical_time_to_hub": 66.0,
     "welsh_name": null,
     "wordplay_category": "other",
     "wordplay_difficulty": "easy",
@@ -2374,7 +2374,7 @@
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
     "time_to_hub__birmingham_new_street": null,
-    "time_to_hub__london": 6.0
+    "time_to_hub__london": 66.0
   },
   {
     "station_id": "CM_0110",
@@ -2483,7 +2483,7 @@
     "is_coastal": false,
     "terminus_max": 0,
     "canonical_hub": "London",
-    "canonical_time_to_hub": 42.0,
+    "canonical_time_to_hub": 19.0,
     "welsh_name": null,
     "wordplay_category": "nature",
     "wordplay_difficulty": "medium",
@@ -2498,7 +2498,7 @@
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
     "time_to_hub__birmingham_new_street": null,
-    "time_to_hub__london": 42.0
+    "time_to_hub__london": 19.0
   },
   {
     "station_id": "CM_0126",
@@ -2610,7 +2610,7 @@
     "is_coastal": false,
     "terminus_max": 443,
     "canonical_hub": "London",
-    "canonical_time_to_hub": 73.0,
+    "canonical_time_to_hub": 84.0,
     "welsh_name": null,
     "wordplay_category": "local_suffix",
     "wordplay_difficulty": "medium",
@@ -2625,7 +2625,7 @@
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
     "time_to_hub__birmingham_new_street": null,
-    "time_to_hub__london": 73.0
+    "time_to_hub__london": 84.0
   },
   {
     "station_id": "CM_0038",
@@ -2642,7 +2642,7 @@
     "is_coastal": false,
     "terminus_max": 8,
     "canonical_hub": "London",
-    "canonical_time_to_hub": 73.0,
+    "canonical_time_to_hub": 78.0,
     "welsh_name": null,
     "wordplay_category": "local_suffix",
     "wordplay_difficulty": "medium",
@@ -2658,7 +2658,7 @@
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
     "time_to_hub__birmingham_new_street": null,
-    "time_to_hub__london": 73.0
+    "time_to_hub__london": 78.0
   },
   {
     "station_id": "CM_0012",
@@ -2675,7 +2675,7 @@
     "is_coastal": false,
     "terminus_max": 47,
     "canonical_hub": "London",
-    "canonical_time_to_hub": 172.0,
+    "canonical_time_to_hub": 45.0,
     "welsh_name": null,
     "wordplay_category": "other",
     "wordplay_difficulty": "easy",
@@ -2688,7 +2688,7 @@
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
     "time_to_hub__birmingham_new_street": null,
-    "time_to_hub__london": 172.0
+    "time_to_hub__london": 45.0
   },
   {
     "station_id": "CM_0086",
@@ -2834,7 +2834,7 @@
     "is_coastal": false,
     "terminus_max": 0,
     "canonical_hub": "Birmingham New Street",
-    "canonical_time_to_hub": 226.0,
+    "canonical_time_to_hub": 15.0,
     "welsh_name": null,
     "wordplay_category": "local_suffix",
     "wordplay_difficulty": "medium",
@@ -2849,7 +2849,7 @@
     "time_to_euston": null,
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
-    "time_to_hub__birmingham_new_street": 226.0,
+    "time_to_hub__birmingham_new_street": 15.0,
     "time_to_hub__london": null
   },
   {
@@ -2902,7 +2902,7 @@
     "is_coastal": false,
     "terminus_max": 102,
     "canonical_hub": "London",
-    "canonical_time_to_hub": 3.0,
+    "canonical_time_to_hub": 120.0,
     "welsh_name": null,
     "wordplay_category": "structure",
     "wordplay_difficulty": "hard",
@@ -2918,7 +2918,7 @@
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
     "time_to_hub__birmingham_new_street": null,
-    "time_to_hub__london": 3.0
+    "time_to_hub__london": 120.0
   },
   {
     "station_id": "CM_0122",
@@ -2936,7 +2936,7 @@
     "is_coastal": false,
     "terminus_max": 29,
     "canonical_hub": "Birmingham New Street",
-    "canonical_time_to_hub": 296.0,
+    "canonical_time_to_hub": 25.0,
     "welsh_name": null,
     "wordplay_category": "local_suffix",
     "wordplay_difficulty": "medium",
@@ -2950,7 +2950,7 @@
     "time_to_euston": null,
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
-    "time_to_hub__birmingham_new_street": 296.0,
+    "time_to_hub__birmingham_new_street": 25.0,
     "time_to_hub__london": null
   },
   {
@@ -3032,7 +3032,7 @@
     "is_coastal": false,
     "terminus_max": 0,
     "canonical_hub": "London",
-    "canonical_time_to_hub": 30.0,
+    "canonical_time_to_hub": 16.0,
     "welsh_name": null,
     "wordplay_category": "local_suffix",
     "wordplay_difficulty": "medium",
@@ -3048,7 +3048,7 @@
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
     "time_to_hub__birmingham_new_street": null,
-    "time_to_hub__london": 30.0
+    "time_to_hub__london": 16.0
   },
   {
     "station_id": "CM_0011",
@@ -3065,7 +3065,7 @@
     "is_coastal": false,
     "terminus_max": 0,
     "canonical_hub": "London",
-    "canonical_time_to_hub": 172.0,
+    "canonical_time_to_hub": 41.0,
     "welsh_name": null,
     "wordplay_category": "local_suffix",
     "wordplay_difficulty": "medium",
@@ -3080,7 +3080,7 @@
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
     "time_to_hub__birmingham_new_street": null,
-    "time_to_hub__london": 172.0
+    "time_to_hub__london": 41.0
   },
   {
     "station_id": "CM_0065",
@@ -3191,7 +3191,7 @@
     "is_coastal": false,
     "terminus_max": 0,
     "canonical_hub": "London",
-    "canonical_time_to_hub": 120.0,
+    "canonical_time_to_hub": 57.0,
     "welsh_name": null,
     "wordplay_category": "other",
     "wordplay_difficulty": "easy",
@@ -3204,7 +3204,7 @@
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
     "time_to_hub__birmingham_new_street": null,
-    "time_to_hub__london": 120.0
+    "time_to_hub__london": 57.0
   },
   {
     "station_id": "CM_0048",
@@ -3252,7 +3252,7 @@
     "is_coastal": false,
     "terminus_max": 0,
     "canonical_hub": "London",
-    "canonical_time_to_hub": 58.0,
+    "canonical_time_to_hub": 112.0,
     "welsh_name": null,
     "wordplay_category": "other",
     "wordplay_difficulty": "easy",
@@ -3265,7 +3265,7 @@
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
     "time_to_hub__birmingham_new_street": null,
-    "time_to_hub__london": 58.0
+    "time_to_hub__london": 112.0
   },
   {
     "station_id": "CM_0008",
@@ -3282,7 +3282,7 @@
     "is_coastal": false,
     "terminus_max": 0,
     "canonical_hub": "London",
-    "canonical_time_to_hub": 44.0,
+    "canonical_time_to_hub": 34.0,
     "welsh_name": null,
     "wordplay_category": "structure",
     "wordplay_difficulty": "hard",
@@ -3298,7 +3298,7 @@
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
     "time_to_hub__birmingham_new_street": null,
-    "time_to_hub__london": 44.0
+    "time_to_hub__london": 34.0
   },
   {
     "station_id": "CM_0003",
@@ -3315,7 +3315,7 @@
     "is_coastal": false,
     "terminus_max": 0,
     "canonical_hub": "London",
-    "canonical_time_to_hub": 233.0,
+    "canonical_time_to_hub": 17.0,
     "welsh_name": null,
     "wordplay_category": "other",
     "wordplay_difficulty": "easy",
@@ -3328,7 +3328,7 @@
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
     "time_to_hub__birmingham_new_street": null,
-    "time_to_hub__london": 233.0
+    "time_to_hub__london": 17.0
   },
   {
     "station_id": "CM_0042",
@@ -3345,7 +3345,7 @@
     "is_coastal": false,
     "terminus_max": 0,
     "canonical_hub": "London",
-    "canonical_time_to_hub": 2.0,
+    "canonical_time_to_hub": 139.0,
     "welsh_name": null,
     "wordplay_category": "structure",
     "wordplay_difficulty": "hard",
@@ -3362,7 +3362,7 @@
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
     "time_to_hub__birmingham_new_street": null,
-    "time_to_hub__london": 2.0
+    "time_to_hub__london": 139.0
   },
   {
     "station_id": "CM_0028",
@@ -3379,7 +3379,7 @@
     "is_coastal": false,
     "terminus_max": 0,
     "canonical_hub": "London",
-    "canonical_time_to_hub": 8.0,
+    "canonical_time_to_hub": 14.0,
     "welsh_name": null,
     "wordplay_category": "structure",
     "wordplay_difficulty": "hard",
@@ -3395,7 +3395,7 @@
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
     "time_to_hub__birmingham_new_street": null,
-    "time_to_hub__london": 8.0
+    "time_to_hub__london": 14.0
   },
   {
     "station_id": "CM_0062",
@@ -3637,7 +3637,7 @@
     "is_coastal": false,
     "terminus_max": 16,
     "canonical_hub": "London",
-    "canonical_time_to_hub": 233.0,
+    "canonical_time_to_hub": 11.0,
     "welsh_name": null,
     "wordplay_category": "local_suffix",
     "wordplay_difficulty": "medium",
@@ -3653,7 +3653,7 @@
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
     "time_to_hub__birmingham_new_street": null,
-    "time_to_hub__london": 233.0
+    "time_to_hub__london": 11.0
   },
   {
     "station_id": "CM_0098",
@@ -3703,7 +3703,7 @@
     "is_coastal": false,
     "terminus_max": 0,
     "canonical_hub": "London",
-    "canonical_time_to_hub": 120.0,
+    "canonical_time_to_hub": 52.0,
     "welsh_name": null,
     "wordplay_category": "other",
     "wordplay_difficulty": "easy",
@@ -3716,7 +3716,7 @@
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
     "time_to_hub__birmingham_new_street": null,
-    "time_to_hub__london": 120.0
+    "time_to_hub__london": 52.0
   },
   {
     "station_id": "CM_0108",
@@ -3797,7 +3797,7 @@
     "is_coastal": false,
     "terminus_max": 0,
     "canonical_hub": "London",
-    "canonical_time_to_hub": 58.0,
+    "canonical_time_to_hub": 96.0,
     "welsh_name": null,
     "wordplay_category": "nature",
     "wordplay_difficulty": "medium",
@@ -3812,7 +3812,7 @@
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
     "time_to_hub__birmingham_new_street": null,
-    "time_to_hub__london": 58.0
+    "time_to_hub__london": 96.0
   },
   {
     "station_id": "CM_0004",
@@ -3829,7 +3829,7 @@
     "is_coastal": false,
     "terminus_max": 50,
     "canonical_hub": "London",
-    "canonical_time_to_hub": 232.0,
+    "canonical_time_to_hub": 19.0,
     "welsh_name": null,
     "wordplay_category": "other",
     "wordplay_difficulty": "easy",
@@ -3842,7 +3842,7 @@
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
     "time_to_hub__birmingham_new_street": null,
-    "time_to_hub__london": 232.0
+    "time_to_hub__london": 19.0
   },
   {
     "station_id": "CM_0018",
@@ -3859,7 +3859,7 @@
     "is_coastal": false,
     "terminus_max": 0,
     "canonical_hub": "London",
-    "canonical_time_to_hub": 61.0,
+    "canonical_time_to_hub": 93.0,
     "welsh_name": null,
     "wordplay_category": "other",
     "wordplay_difficulty": "easy",
@@ -3872,7 +3872,7 @@
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
     "time_to_hub__birmingham_new_street": null,
-    "time_to_hub__london": 61.0
+    "time_to_hub__london": 93.0
   },
   {
     "station_id": "CM_0090",
@@ -4114,7 +4114,7 @@
     "is_coastal": false,
     "terminus_max": 0,
     "canonical_hub": "Birmingham New Street",
-    "canonical_time_to_hub": 184.0,
+    "canonical_time_to_hub": 150.0,
     "welsh_name": null,
     "wordplay_category": "local_suffix",
     "wordplay_difficulty": "medium",
@@ -4128,7 +4128,7 @@
     "time_to_euston": null,
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
-    "time_to_hub__birmingham_new_street": 184.0,
+    "time_to_hub__birmingham_new_street": 150.0,
     "time_to_hub__london": null
   },
   {
@@ -4176,7 +4176,7 @@
     "is_coastal": false,
     "terminus_max": 0,
     "canonical_hub": "London",
-    "canonical_time_to_hub": 122.0,
+    "canonical_time_to_hub": 36.0,
     "welsh_name": null,
     "wordplay_category": "structure",
     "wordplay_difficulty": "hard",
@@ -4191,7 +4191,7 @@
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
     "time_to_hub__birmingham_new_street": null,
-    "time_to_hub__london": 122.0
+    "time_to_hub__london": 36.0
   },
   {
     "station_id": "NA_0090",
@@ -4208,7 +4208,7 @@
     "is_coastal": false,
     "terminus_max": 0,
     "canonical_hub": "London",
-    "canonical_time_to_hub": 122.0,
+    "canonical_time_to_hub": 32.0,
     "welsh_name": null,
     "wordplay_category": "other",
     "wordplay_difficulty": "easy",
@@ -4221,7 +4221,7 @@
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
     "time_to_hub__birmingham_new_street": null,
-    "time_to_hub__london": 122.0
+    "time_to_hub__london": 32.0
   },
   {
     "station_id": "NA_0094",
@@ -4238,7 +4238,7 @@
     "is_coastal": false,
     "terminus_max": 0,
     "canonical_hub": "London",
-    "canonical_time_to_hub": 2.0,
+    "canonical_time_to_hub": 126.0,
     "welsh_name": null,
     "wordplay_category": "other",
     "wordplay_difficulty": "easy",
@@ -4251,7 +4251,7 @@
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
     "time_to_hub__birmingham_new_street": null,
-    "time_to_hub__london": 2.0
+    "time_to_hub__london": 126.0
   },
   {
     "station_id": "NA_0096",
@@ -4522,7 +4522,7 @@
     "is_coastal": false,
     "terminus_max": 0,
     "canonical_hub": "Birmingham New Street",
-    "canonical_time_to_hub": 164.0,
+    "canonical_time_to_hub": 40.0,
     "welsh_name": null,
     "wordplay_category": "structure",
     "wordplay_difficulty": "hard",
@@ -4538,7 +4538,7 @@
     "time_to_euston": null,
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
-    "time_to_hub__birmingham_new_street": 164.0,
+    "time_to_hub__birmingham_new_street": 40.0,
     "time_to_hub__london": null
   },
   {
@@ -4580,7 +4580,7 @@
     "region": "Birmingham",
     "operator": "West Midlands Railway",
     "route": [
-      "Camp Hill Line"
+      "Cross City Line"
     ],
     "is_interchange": false,
     "is_coastal": false,
@@ -4612,7 +4612,7 @@
     "region": "Birmingham",
     "operator": "West Midlands Railway",
     "route": [
-      "Camp Hill Line"
+      "Cross City Line"
     ],
     "is_interchange": false,
     "is_coastal": false,
@@ -4710,7 +4710,7 @@
     "region": "Birmingham",
     "operator": "West Midlands Railway",
     "route": [
-      "Camp Hill Line"
+      "Cross City Line"
     ],
     "is_interchange": false,
     "is_coastal": false,
@@ -4746,7 +4746,7 @@
     "is_coastal": false,
     "terminus_max": 0,
     "canonical_hub": "London",
-    "canonical_time_to_hub": 122.0,
+    "canonical_time_to_hub": 27.0,
     "welsh_name": null,
     "wordplay_category": "other",
     "wordplay_difficulty": "easy",
@@ -4759,7 +4759,7 @@
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
     "time_to_hub__birmingham_new_street": null,
-    "time_to_hub__london": 122.0
+    "time_to_hub__london": 27.0
   },
   {
     "station_id": "NA_0335",
@@ -5093,7 +5093,7 @@
     "is_coastal": false,
     "terminus_max": 33,
     "canonical_hub": "Birmingham New Street",
-    "canonical_time_to_hub": 172.0,
+    "canonical_time_to_hub": 22.0,
     "welsh_name": null,
     "wordplay_category": "other",
     "wordplay_difficulty": "easy",
@@ -5105,7 +5105,7 @@
     "time_to_euston": null,
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
-    "time_to_hub__birmingham_new_street": 172.0,
+    "time_to_hub__birmingham_new_street": 22.0,
     "time_to_hub__london": null
   },
   {
@@ -5218,7 +5218,7 @@
     "is_coastal": false,
     "terminus_max": 0,
     "canonical_hub": "Birmingham New Street",
-    "canonical_time_to_hub": 168.0,
+    "canonical_time_to_hub": 35.0,
     "welsh_name": null,
     "wordplay_category": "nature",
     "wordplay_difficulty": "medium",
@@ -5232,7 +5232,7 @@
     "time_to_euston": null,
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
-    "time_to_hub__birmingham_new_street": 168.0,
+    "time_to_hub__birmingham_new_street": 35.0,
     "time_to_hub__london": null
   },
   {

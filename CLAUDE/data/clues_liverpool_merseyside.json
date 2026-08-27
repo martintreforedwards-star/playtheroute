@@ -7,7 +7,7 @@
       "label": "Interchange station",
       "weight": "medium",
       "match_count": 27,
-      "display": "Change trains here",
+      "display": "Is an interchange station",
       "hint": "Served by two or more separate named routes, or where several lines physically meet.",
       "id": "row_0"
     },
@@ -273,23 +273,23 @@
       "type": "range",
       "field": "time_to_hub__liverpool_lime_st_central",
       "min": 20.0,
-      "max": 52.0,
+      "max": 41.0,
       "label": "Time to Liverpool (Lime St/Central): middle third",
       "category": "service",
       "match_count": 32,
       "display": "A mid-range journey to Liverpool (Lime St/Central)",
-      "hint": "In this puzzle, 'mid-range' means 20-52 minutes to Liverpool (Lime St/Central).",
+      "hint": "In this puzzle, 'mid-range' means 20-41 minutes to Liverpool (Lime St/Central).",
       "id": "col_16"
     },
     {
       "type": "range",
       "field": "time_to_hub__liverpool_lime_st_central",
-      "min": 52.0,
+      "min": 41.0,
       "label": "Time to Liverpool (Lime St/Central): longest third",
       "category": "service",
-      "match_count": 30,
+      "match_count": 31,
       "display": "A long journey to Liverpool (Lime St/Central)",
-      "hint": "In this puzzle, 'long' means 52+ minutes to Liverpool (Lime St/Central).",
+      "hint": "In this puzzle, 'long' means 41+ minutes to Liverpool (Lime St/Central).",
       "id": "col_17"
     },
     {
@@ -322,7 +322,7 @@
       "category": "route",
       "match_count": 36,
       "display": "Is part of the Northern Line route",
-      "hint": "The Merseyrail line running north-south through central Liverpool, splitting into three branches at the top: Southport, Ormskirk and the reopened Headbolt Lane - not to be confused with London's Underground line of the same name.",
+      "hint": "A station on the Northern Line route.",
       "id": "col_20"
     },
     {
@@ -333,7 +333,7 @@
       "category": "route",
       "match_count": 20,
       "display": "Is part of the Wirral Line route",
-      "hint": "The Merseyrail loop under the Mersey linking Liverpool to the Wirral Peninsula, with branches to Chester, Ellesmere Port, New Brighton and West Kirby.",
+      "hint": "A station on the Wirral Line route.",
       "id": "col_21"
     },
     {
@@ -344,7 +344,7 @@
       "category": "route",
       "match_count": 16,
       "display": "Is part of the Cumbrian Coast Line route",
-      "hint": "The long coastal route around the Cumbrian peninsula from Carlisle via Whitehaven and Barrow-in-Furness to Lancaster, skirting the Lake District's western edge.",
+      "hint": "A station on the Cumbrian Coast Line route.",
       "id": "col_22"
     },
     {
@@ -355,7 +355,7 @@
       "category": "route",
       "match_count": 15,
       "display": "Is part of the Furness Line route",
-      "hint": "The section of the Cumbrian coastal route around the Furness peninsula through Barrow-in-Furness - part of the wider Cumbrian Coast Line.",
+      "hint": "A station on the Furness Line route.",
       "id": "col_23"
     },
     {
@@ -366,7 +366,7 @@
       "category": "route",
       "match_count": 12,
       "display": "Is part of the Liverpool to Manchester Line route",
-      "hint": "The historic route between the two cities via Newton-le-Willows and Patricroft - opened in 1830 as the world's first inter-city passenger railway.",
+      "hint": "A station on the Liverpool to Manchester Line route.",
       "id": "col_24"
     },
     {
@@ -377,7 +377,7 @@
       "category": "route",
       "match_count": 10,
       "display": "Is part of the City Line (Merseyside) route",
-      "hint": "The wider commuter network branded City Line by Merseytravel, covering routes from Liverpool towards Manchester, Wigan, Warrington, Chester and Blackpool - unlike the Northern and Wirral lines, not operated by Merseyrail itself.",
+      "hint": "A station on the City Line (Merseyside) route.",
       "id": "col_25"
     },
     {
@@ -388,7 +388,7 @@
       "category": "route",
       "match_count": 8,
       "display": "Is part of the Fylde Line route",
-      "hint": "The coastal branch south from Blackpool via Ansdell & Fairhaven and Moss Side towards Preston - serves the Fylde coast resort towns.",
+      "hint": "A station on the Fylde Line route.",
       "id": "col_26"
     },
     {
@@ -399,7 +399,7 @@
       "category": "route",
       "match_count": 8,
       "display": "Is part of the South Fylde Line route",
-      "hint": "The coastal branch south from Blackpool via Ansdell & Fairhaven and Moss Side towards Preston - also simply called the Fylde Line.",
+      "hint": "A station on the South Fylde Line route.",
       "id": "col_27"
     },
     {
@@ -410,7 +410,7 @@
       "category": "route",
       "match_count": 6,
       "display": "Is part of the Liverpool to Manchester Line via Warrington Central route",
-      "hint": "The alternative, more southerly route between the two cities via Warrington Central and Irlam, distinct from the more direct Liverpool-Manchester main line via Newton-le-Willows.",
+      "hint": "A station on the Liverpool to Manchester Line via Warrington Central route.",
       "id": "col_28"
     },
     {
@@ -421,7 +421,7 @@
       "category": "route",
       "match_count": 3,
       "display": "Is part of the Ormskirk Branch Line route",
-      "hint": "The northern section of the old Liverpool-Preston main line, now the outer end of Merseyrail's Northern Line branch from Liverpool through Aintree to Ormskirk.",
+      "hint": "A station on the Ormskirk Branch Line route.",
       "id": "col_29"
     },
     {

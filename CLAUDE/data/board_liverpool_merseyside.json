@@ -1453,7 +1453,7 @@
     "is_coastal": true,
     "terminus_max": 0,
     "canonical_hub": "Liverpool (Lime St/Central)",
-    "canonical_time_to_hub": 103.0,
+    "canonical_time_to_hub": 30.0,
     "welsh_name": null,
     "wordplay_category": "other",
     "wordplay_difficulty": "easy",
@@ -1466,7 +1466,7 @@
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
     "time_to_hub__carlisle": null,
-    "time_to_hub__liverpool_lime_st_central": 103.0
+    "time_to_hub__liverpool_lime_st_central": 30.0
   },
   {
     "station_id": "NR_0249",
@@ -1829,7 +1829,7 @@
     "is_coastal": true,
     "terminus_max": 0,
     "canonical_hub": "Liverpool (Lime St/Central)",
-    "canonical_time_to_hub": 99.0,
+    "canonical_time_to_hub": 27.0,
     "welsh_name": null,
     "wordplay_category": "other",
     "wordplay_difficulty": "easy",
@@ -1842,7 +1842,7 @@
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
     "time_to_hub__carlisle": null,
-    "time_to_hub__liverpool_lime_st_central": 99.0
+    "time_to_hub__liverpool_lime_st_central": 27.0
   },
   {
     "station_id": "NR_0303",
@@ -1890,7 +1890,7 @@
     "is_coastal": true,
     "terminus_max": 0,
     "canonical_hub": "Liverpool (Lime St/Central)",
-    "canonical_time_to_hub": 101.0,
+    "canonical_time_to_hub": 24.0,
     "welsh_name": null,
     "wordplay_category": "other",
     "wordplay_difficulty": "easy",
@@ -1903,7 +1903,7 @@
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
     "time_to_hub__carlisle": null,
-    "time_to_hub__liverpool_lime_st_central": 101.0
+    "time_to_hub__liverpool_lime_st_central": 24.0
   },
   {
     "station_id": "ME_0044",

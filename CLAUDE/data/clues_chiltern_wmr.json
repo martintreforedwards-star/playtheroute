@@ -216,69 +216,69 @@
     {
       "type": "range",
       "field": "time_to_hub__birmingham_new_street",
-      "max": 23.0,
+      "max": 22.0,
       "label": "Time to Birmingham New Street: shortest third",
       "category": "service",
-      "match_count": 41,
+      "match_count": 43,
       "display": "A short journey to Birmingham New Street",
-      "hint": "In this puzzle, 'short' means under 23 minutes to Birmingham New Street.",
+      "hint": "In this puzzle, 'short' means under 22 minutes to Birmingham New Street.",
       "id": "col_12"
     },
     {
       "type": "range",
       "field": "time_to_hub__birmingham_new_street",
-      "min": 23.0,
-      "max": 52.0,
+      "min": 22.0,
+      "max": 46.0,
       "label": "Time to Birmingham New Street: middle third",
       "category": "service",
       "match_count": 41,
       "display": "A mid-range journey to Birmingham New Street",
-      "hint": "In this puzzle, 'mid-range' means 23-52 minutes to Birmingham New Street.",
+      "hint": "In this puzzle, 'mid-range' means 22-46 minutes to Birmingham New Street.",
       "id": "col_13"
     },
     {
       "type": "range",
       "field": "time_to_hub__birmingham_new_street",
-      "min": 52.0,
+      "min": 46.0,
       "label": "Time to Birmingham New Street: longest third",
       "category": "service",
       "match_count": 43,
       "display": "A long journey to Birmingham New Street",
-      "hint": "In this puzzle, 'long' means 52+ minutes to Birmingham New Street.",
+      "hint": "In this puzzle, 'long' means 46+ minutes to Birmingham New Street.",
       "id": "col_14"
     },
     {
       "type": "range",
       "field": "time_to_hub__london",
-      "max": 52.0,
+      "max": 36.0,
       "label": "Time to London: shortest third",
       "category": "service",
       "match_count": 17,
       "display": "A short journey to London",
-      "hint": "In this puzzle, 'short' means under 52 minutes to London.",
+      "hint": "In this puzzle, 'short' means under 36 minutes to London.",
       "id": "col_15"
     },
     {
       "type": "range",
       "field": "time_to_hub__london",
-      "min": 52.0,
-      "max": 120.0,
+      "min": 36.0,
+      "max": 75.0,
       "label": "Time to London: middle third",
       "category": "service",
       "match_count": 18,
       "display": "A mid-range journey to London",
-      "hint": "In this puzzle, 'mid-range' means 52-120 minutes to London.",
+      "hint": "In this puzzle, 'mid-range' means 36-75 minutes to London.",
       "id": "col_16"
     },
     {
       "type": "range",
       "field": "time_to_hub__london",
-      "min": 120.0,
+      "min": 75.0,
       "label": "Time to London: longest third",
       "category": "service",
-      "match_count": 17,
+      "match_count": 16,
       "display": "A long journey to London",
-      "hint": "In this puzzle, 'long' means 120+ minutes to London.",
+      "hint": "In this puzzle, 'long' means 75+ minutes to London.",
       "id": "col_17"
     },
     {
@@ -311,7 +311,7 @@
       "category": "route",
       "match_count": 39,
       "display": "Is part of the Snow Hill Lines route",
-      "hint": "The umbrella name for the routes radiating from Birmingham Snow Hill and Moor Street stations, covering both the Stratford-upon-Avon branch (the Shakespeare Line) and the Kidderminster/Worcester branch.",
+      "hint": "A station on the Snow Hill Lines route.",
       "id": "col_20"
     },
     {
@@ -322,7 +322,7 @@
       "category": "route",
       "match_count": 37,
       "display": "Is part of the Shakespeare Line route",
-      "hint": "The suburban line from Birmingham (via Snow Hill/Moor Street) south to Stratford-upon-Avon - also grouped under 'Snow Hill Lines' more broadly, one of the routes radiating from Snow Hill/Moor Street through the Warwickshire countryside.",
+      "hint": "A station on the Shakespeare Line route.",
       "id": "col_21"
     },
     {
@@ -333,7 +333,7 @@
       "category": "route",
       "match_count": 27,
       "display": "Is part of the Shrewsbury to Wolverhampton Line route",
-      "hint": "The route linking Shrewsbury to Wolverhampton via Cosford, Telford Central and Oakengates - continuing onward to the Chase Line towards Rugeley.",
+      "hint": "A station on the Shrewsbury to Wolverhampton Line route.",
       "id": "col_22"
     },
     {
@@ -344,7 +344,7 @@
       "category": "route",
       "match_count": 26,
       "display": "Is part of the Chiltern Line route",
-      "hint": "The main route from London Marylebone to Birmingham via High Wycombe, Bicester and Banbury - Chiltern Railways' principal main line, with a branch via Aylesbury and Amersham.",
+      "hint": "A station on the Chiltern Line route.",
       "id": "col_23"
     },
     {
@@ -355,7 +355,7 @@
       "category": "route",
       "match_count": 25,
       "display": "Is part of the Chase Line route",
-      "hint": "The suburban line from Birmingham New Street via Walsall to Rugeley Trent Valley, named after Cannock Chase which it passes through at its northern end - fully electrified in 2018.",
+      "hint": "A station on the Chase Line route.",
       "id": "col_24"
     },
     {
@@ -366,7 +366,7 @@
       "category": "route",
       "match_count": 24,
       "display": "Is part of the Cross-City route",
-      "hint": "The busy commuter line from Lichfield in the north through Birmingham New Street to Redditch and Bromsgrove in the south - one of the busiest commuter routes in the country outside London.",
+      "hint": "A station on the Cross-City route.",
       "id": "col_25"
     },
     {
@@ -377,7 +377,7 @@
       "category": "route",
       "match_count": 11,
       "display": "Is part of the West Coast Main Line route",
-      "hint": "The historic trunk route from London Euston to Glasgow via Rugby, Stafford, Crewe and Preston - Britain's busiest mixed-traffic main line.",
+      "hint": "A station on the West Coast Main Line route.",
       "id": "col_26"
     },
     {
@@ -388,7 +388,7 @@
       "category": "route",
       "match_count": 10,
       "display": "Is part of the Amersham Line route",
-      "hint": "The commuter branch from London Marylebone via Harrow-on-the-Hill to Amersham and on to Aylesbury - shares track with the London Underground Metropolitan line for part of its route.",
+      "hint": "A station on the Amersham Line route.",
       "id": "col_27"
     },
     {
@@ -399,7 +399,7 @@
       "category": "route",
       "match_count": 5,
       "display": "Is part of the Elephant & Bear Line route",
-      "hint": "The line from Royal Leamington Spa via Kenilworth and Coventry to Nuneaton - renamed from the 'NUCKLE' line in 2023 after a public vote, referencing the civic symbols of Coventry (elephant) and Warwick (bear).",
+      "hint": "A station on the Elephant & Bear Line route.",
       "id": "col_28"
     },
     {
@@ -410,7 +410,7 @@
       "category": "route",
       "match_count": 4,
       "display": "Is part of the Oxford Branch route",
-      "hint": "The short branch line from Bicester North via Islip and Oxford Parkway into Oxford itself.",
+      "hint": "A station on the Oxford Branch route.",
       "id": "col_29"
     },
     {
@@ -421,7 +421,7 @@
       "category": "route",
       "match_count": 4,
       "display": "Is part of the Stratford Branch route",
-      "hint": "The branch line from Bearley (on the Birmingham-Stratford route) to Stratford-upon-Avon, also linking through to Lapworth on the Chiltern main line.",
+      "hint": "A station on the Stratford Branch route.",
       "id": "col_30"
     },
     {
@@ -432,18 +432,18 @@
       "category": "route",
       "match_count": 4,
       "display": "Is part of the Cotswolds & Malverns Line route",
-      "hint": "The long cross-country route from Oxford via Worcester and the Malvern Hills to Hereford - also known more locally as the Cotswold Line for its eastern Oxford-Worcester section.",
+      "hint": "A station on the Cotswolds & Malverns Line route.",
       "id": "col_31"
     },
     {
       "type": "array_contains",
       "field": "route",
-      "value": "Camp Hill Line",
-      "label": "Route: Camp Hill Line",
+      "value": "Cross City Line",
+      "label": "Route: Cross City Line",
       "category": "route",
       "match_count": 3,
-      "display": "Is part of the Camp Hill Line route",
-      "hint": "The reopened line between Birmingham New Street and Kings Norton via Moseley Village, Kings Heath and Pineapple Road - reopened April 2026 after over 80 years closed, restoring passenger services to inner south Birmingham.",
+      "display": "Is part of the Cross City Line route",
+      "hint": "A station on the Cross City Line route.",
       "id": "col_32"
     },
     {

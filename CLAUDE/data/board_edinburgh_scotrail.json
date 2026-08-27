@@ -37,6 +37,7 @@
     "region": "West Lothian",
     "operator": "Scotrail",
     "route": [
+      "Argyle Line",
       "North Clyde Electrics"
     ],
     "is_interchange": true,
@@ -95,6 +96,7 @@
     "region": "West Lothian",
     "operator": "Scotrail",
     "route": [
+      "Argyle Line",
       "North Clyde Electrics"
     ],
     "is_interchange": true,
@@ -536,6 +538,7 @@
     "region": "City of Edinburgh",
     "operator": "Scotrail",
     "route": [
+      "Argyle Line",
       "North Clyde Electrics"
     ],
     "is_interchange": true,
@@ -1109,6 +1112,7 @@
     "region": "West Lothian",
     "operator": "Scotrail",
     "route": [
+      "Argyle Line",
       "North Clyde Electrics"
     ],
     "is_interchange": true,
@@ -1612,6 +1616,7 @@
     "region": "West Lothian",
     "operator": "Scotrail",
     "route": [
+      "Argyle Line",
       "North Clyde Electrics"
     ],
     "is_interchange": true,

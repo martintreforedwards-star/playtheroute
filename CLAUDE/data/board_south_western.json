@@ -14,7 +14,7 @@
     "is_coastal": false,
     "terminus_max": 145,
     "canonical_hub": "London",
-    "canonical_time_to_hub": 89.0,
+    "canonical_time_to_hub": 57.0,
     "welsh_name": null,
     "wordplay_category": "structure",
     "wordplay_difficulty": "hard",
@@ -28,7 +28,7 @@
     "time_to_euston": null,
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
-    "time_to_hub__london": 89.0
+    "time_to_hub__london": 57.0
   },
   {
     "station_id": "SW_0004",
@@ -45,7 +45,7 @@
     "is_coastal": false,
     "terminus_max": 37,
     "canonical_hub": "London",
-    "canonical_time_to_hub": 81.0,
+    "canonical_time_to_hub": 70.0,
     "welsh_name": null,
     "wordplay_category": "other",
     "wordplay_difficulty": "easy",
@@ -57,7 +57,7 @@
     "time_to_euston": null,
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
-    "time_to_hub__london": 81.0
+    "time_to_hub__london": 70.0
   },
   {
     "station_id": "SW_0008",
@@ -75,7 +75,7 @@
     "is_coastal": false,
     "terminus_max": 0,
     "canonical_hub": "London",
-    "canonical_time_to_hub": 203.0,
+    "canonical_time_to_hub": 39.0,
     "welsh_name": null,
     "wordplay_category": "structure",
     "wordplay_difficulty": "hard",
@@ -91,7 +91,7 @@
     "time_to_euston": null,
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
-    "time_to_hub__london": 203.0
+    "time_to_hub__london": 39.0
   },
   {
     "station_id": "SW_0002",
@@ -108,7 +108,7 @@
     "is_coastal": false,
     "terminus_max": 143,
     "canonical_hub": "London",
-    "canonical_time_to_hub": 95.0,
+    "canonical_time_to_hub": 54.0,
     "welsh_name": null,
     "wordplay_category": "other",
     "wordplay_difficulty": "easy",
@@ -120,7 +120,7 @@
     "time_to_euston": null,
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
-    "time_to_hub__london": 95.0
+    "time_to_hub__london": 54.0
   },
   {
     "station_id": "SW_0007",
@@ -137,7 +137,7 @@
     "is_coastal": false,
     "terminus_max": 0,
     "canonical_hub": "London",
-    "canonical_time_to_hub": 95.0,
+    "canonical_time_to_hub": 49.0,
     "welsh_name": null,
     "wordplay_category": "other",
     "wordplay_difficulty": "easy",
@@ -149,7 +149,7 @@
     "time_to_euston": null,
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
-    "time_to_hub__london": 95.0
+    "time_to_hub__london": 49.0
   },
   {
     "station_id": "SW_0009",
@@ -166,7 +166,7 @@
     "is_coastal": false,
     "terminus_max": 0,
     "canonical_hub": "London",
-    "canonical_time_to_hub": 18.0,
+    "canonical_time_to_hub": 102.0,
     "welsh_name": null,
     "wordplay_category": "other",
     "wordplay_difficulty": "easy",
@@ -178,7 +178,7 @@
     "time_to_euston": null,
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
-    "time_to_hub__london": 18.0
+    "time_to_hub__london": 102.0
   },
   {
     "station_id": "SW_0003",
@@ -195,7 +195,7 @@
     "is_coastal": false,
     "terminus_max": 321,
     "canonical_hub": "London",
-    "canonical_time_to_hub": 95.0,
+    "canonical_time_to_hub": 74.0,
     "welsh_name": null,
     "wordplay_category": "local_suffix",
     "wordplay_difficulty": "medium",
@@ -209,7 +209,7 @@
     "time_to_euston": null,
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
-    "time_to_hub__london": 95.0
+    "time_to_hub__london": 74.0
   },
   {
     "station_id": "SW_0006",
@@ -227,7 +227,7 @@
     "is_coastal": false,
     "terminus_max": 58,
     "canonical_hub": "London",
-    "canonical_time_to_hub": 79.0,
+    "canonical_time_to_hub": 92.0,
     "welsh_name": null,
     "wordplay_category": "other",
     "wordplay_difficulty": "easy",
@@ -239,7 +239,7 @@
     "time_to_euston": null,
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
-    "time_to_hub__london": 79.0
+    "time_to_hub__london": 92.0
   },
   {
     "station_id": "SW_0001",
@@ -256,7 +256,7 @@
     "is_coastal": false,
     "terminus_max": 0,
     "canonical_hub": "London",
-    "canonical_time_to_hub": 76.0,
+    "canonical_time_to_hub": 80.0,
     "welsh_name": null,
     "wordplay_category": "other",
     "wordplay_difficulty": "easy",
@@ -268,7 +268,7 @@
     "time_to_euston": null,
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
-    "time_to_hub__london": 76.0
+    "time_to_hub__london": 80.0
   },
   {
     "station_id": "SW_0010",
@@ -286,7 +286,7 @@
     "is_coastal": false,
     "terminus_max": 2,
     "canonical_hub": "London",
-    "canonical_time_to_hub": 48.0,
+    "canonical_time_to_hub": 162.0,
     "welsh_name": null,
     "wordplay_category": "other",
     "wordplay_difficulty": "easy",
@@ -298,7 +298,7 @@
     "time_to_euston": null,
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
-    "time_to_hub__london": 48.0
+    "time_to_hub__london": 162.0
   },
   {
     "station_id": "SW_0011",
@@ -315,7 +315,7 @@
     "is_coastal": false,
     "terminus_max": 0,
     "canonical_hub": "London",
-    "canonical_time_to_hub": 6.0,
+    "canonical_time_to_hub": 66.0,
     "welsh_name": null,
     "wordplay_category": "other",
     "wordplay_difficulty": "easy",
@@ -327,7 +327,7 @@
     "time_to_euston": null,
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
-    "time_to_hub__london": 6.0
+    "time_to_hub__london": 66.0
   },
   {
     "station_id": "SW_0023",
@@ -344,7 +344,7 @@
     "is_coastal": false,
     "terminus_max": 34,
     "canonical_hub": "London",
-    "canonical_time_to_hub": 81.0,
+    "canonical_time_to_hub": 65.0,
     "welsh_name": null,
     "wordplay_category": "other",
     "wordplay_difficulty": "easy",
@@ -356,7 +356,7 @@
     "time_to_euston": null,
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
-    "time_to_hub__london": 81.0
+    "time_to_hub__london": 65.0
   },
   {
     "station_id": "SW_0026",
@@ -374,7 +374,7 @@
     "is_coastal": false,
     "terminus_max": 116,
     "canonical_hub": "London",
-    "canonical_time_to_hub": 99.0,
+    "canonical_time_to_hub": 96.0,
     "welsh_name": null,
     "wordplay_category": "other",
     "wordplay_difficulty": "easy",
@@ -386,7 +386,7 @@
     "time_to_euston": null,
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
-    "time_to_hub__london": 99.0
+    "time_to_hub__london": 96.0
   },
   {
     "station_id": "SW_0016",
@@ -403,7 +403,7 @@
     "is_coastal": true,
     "terminus_max": 0,
     "canonical_hub": "London",
-    "canonical_time_to_hub": 71.0,
+    "canonical_time_to_hub": 96.0,
     "welsh_name": null,
     "wordplay_category": "local_suffix",
     "wordplay_difficulty": "medium",
@@ -417,7 +417,7 @@
     "time_to_euston": null,
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
-    "time_to_hub__london": 71.0
+    "time_to_hub__london": 96.0
   },
   {
     "station_id": "SW_0015",
@@ -434,7 +434,7 @@
     "is_coastal": false,
     "terminus_max": 0,
     "canonical_hub": "London",
-    "canonical_time_to_hub": 3.0,
+    "canonical_time_to_hub": 104.0,
     "welsh_name": null,
     "wordplay_category": "other",
     "wordplay_difficulty": "easy",
@@ -446,7 +446,7 @@
     "time_to_euston": null,
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
-    "time_to_hub__london": 3.0
+    "time_to_hub__london": 104.0
   },
   {
     "station_id": "SW_0025",
@@ -458,499 +458,6 @@
     "operator": "South Western",
     "route": [
       "Hounslow Loop"
-    ],
-    "is_interchange": false,
-    "is_coastal": false,
-    "terminus_max": 0,
-    "canonical_hub": "London",
-    "canonical_time_to_hub": 150.0,
-    "welsh_name": null,
-    "wordplay_category": "local_suffix",
-    "wordplay_difficulty": "medium",
-    "wordplay_score": 1,
-    "wordplay_tags": [
-      "ford"
-    ],
-    "time_to_glasgow_central": null,
-    "time_to_victoria": null,
-    "time_to_charing_cross": null,
-    "time_to_euston": null,
-    "time_to_liverpool_street": null,
-    "time_to_stratford": null,
-    "time_to_hub__london": 150.0
-  },
-  {
-    "station_id": "SW_0029",
-    "station_name": "Byfleet & New Haw",
-    "name_word_count": 3,
-    "name_letter_count": 13,
-    "crs": "BFN",
-    "region": "Runnymede",
-    "operator": "South Western",
-    "route": [
-      "Alton Line",
-      "Hounslow Loop"
-    ],
-    "is_interchange": true,
-    "is_coastal": false,
-    "terminus_max": 0,
-    "canonical_hub": "London",
-    "canonical_time_to_hub": 253.0,
-    "welsh_name": null,
-    "wordplay_category": "structure",
-    "wordplay_difficulty": "hard",
-    "wordplay_score": 1,
-    "wordplay_tags": [
-      "ampersand"
-    ],
-    "time_to_glasgow_central": null,
-    "time_to_victoria": null,
-    "time_to_charing_cross": null,
-    "time_to_euston": null,
-    "time_to_liverpool_street": null,
-    "time_to_stratford": null,
-    "time_to_hub__london": 253.0
-  },
-  {
-    "station_id": "SW_0020",
-    "station_name": "Bookham",
-    "name_word_count": 1,
-    "name_letter_count": 7,
-    "crs": "BKA",
-    "region": "Mole Valley",
-    "operator": "South Western",
-    "route": [
-      "New Guildford Line"
-    ],
-    "is_interchange": false,
-    "is_coastal": false,
-    "terminus_max": 0,
-    "canonical_hub": "London",
-    "canonical_time_to_hub": 66.0,
-    "welsh_name": null,
-    "wordplay_category": "local_suffix",
-    "wordplay_difficulty": "medium",
-    "wordplay_score": 1,
-    "wordplay_tags": [
-      "ham"
-    ],
-    "time_to_glasgow_central": null,
-    "time_to_victoria": null,
-    "time_to_charing_cross": null,
-    "time_to_euston": null,
-    "time_to_liverpool_street": null,
-    "time_to_stratford": null,
-    "time_to_hub__london": 66.0
-  },
-  {
-    "station_id": "SW_0027",
-    "station_name": "Brookwood",
-    "name_word_count": 1,
-    "name_letter_count": 9,
-    "crs": "BKO",
-    "region": "Woking",
-    "operator": "South Western",
-    "route": [
-      "Alton Line",
-      "South West Main Line"
-    ],
-    "is_interchange": true,
-    "is_coastal": false,
-    "terminus_max": 0,
-    "canonical_hub": "London",
-    "canonical_time_to_hub": 169.0,
-    "welsh_name": null,
-    "wordplay_category": "other",
-    "wordplay_difficulty": "easy",
-    "wordplay_score": 0,
-    "wordplay_tags": [],
-    "time_to_glasgow_central": null,
-    "time_to_victoria": null,
-    "time_to_charing_cross": null,
-    "time_to_euston": null,
-    "time_to_liverpool_street": null,
-    "time_to_stratford": null,
-    "time_to_hub__london": 169.0
-  },
-  {
-    "station_id": "SW_0022",
-    "station_name": "Bournemouth",
-    "name_word_count": 1,
-    "name_letter_count": 11,
-    "crs": "BMH",
-    "region": "Bournemouth, Christchurch and Poole",
-    "operator": "South Western",
-    "route": [
-      "South West Main Line"
-    ],
-    "is_interchange": false,
-    "is_coastal": true,
-    "terminus_max": 268,
-    "canonical_hub": "London",
-    "canonical_time_to_hub": 99.0,
-    "welsh_name": null,
-    "wordplay_category": "other",
-    "wordplay_difficulty": "easy",
-    "wordplay_score": 0,
-    "wordplay_tags": [],
-    "time_to_glasgow_central": null,
-    "time_to_victoria": null,
-    "time_to_charing_cross": null,
-    "time_to_euston": null,
-    "time_to_liverpool_street": null,
-    "time_to_stratford": null,
-    "time_to_hub__london": 99.0
-  },
-  {
-    "station_id": "SW_0013",
-    "station_name": "Barnes Bridge",
-    "name_word_count": 2,
-    "name_letter_count": 12,
-    "crs": "BNI",
-    "region": "South West London",
-    "operator": "South Western",
-    "route": [
-      "Hounslow Loop"
-    ],
-    "is_interchange": false,
-    "is_coastal": false,
-    "terminus_max": 0,
-    "canonical_hub": "London",
-    "canonical_time_to_hub": 122.0,
-    "welsh_name": null,
-    "wordplay_category": "local_suffix",
-    "wordplay_difficulty": "medium",
-    "wordplay_score": 1,
-    "wordplay_tags": [
-      "ridge"
-    ],
-    "time_to_glasgow_central": null,
-    "time_to_victoria": null,
-    "time_to_charing_cross": null,
-    "time_to_euston": null,
-    "time_to_liverpool_street": null,
-    "time_to_stratford": null,
-    "time_to_hub__london": 122.0
-  },
-  {
-    "station_id": "SW_0012",
-    "station_name": "Barnes",
-    "name_word_count": 1,
-    "name_letter_count": 6,
-    "crs": "BNS",
-    "region": "South West London",
-    "operator": "South Western",
-    "route": [
-      "Hounslow Loop",
-      "Kingston Loop",
-      "Waterloo to Reading Line",
-      "Windsor Line"
-    ],
-    "is_interchange": true,
-    "is_coastal": false,
-    "terminus_max": 0,
-    "canonical_hub": "London",
-    "canonical_time_to_hub": 399.0,
-    "welsh_name": null,
-    "wordplay_category": "other",
-    "wordplay_difficulty": "easy",
-    "wordplay_score": 0,
-    "wordplay_tags": [],
-    "time_to_glasgow_central": null,
-    "time_to_victoria": null,
-    "time_to_charing_cross": null,
-    "time_to_euston": null,
-    "time_to_liverpool_street": null,
-    "time_to_stratford": null,
-    "time_to_hub__london": 399.0
-  },
-  {
-    "station_id": "SW_0021",
-    "station_name": "Botley",
-    "name_word_count": 1,
-    "name_letter_count": 6,
-    "crs": "BOE",
-    "region": "Winchester",
-    "operator": "South Western",
-    "route": [
-      "Solent Link",
-      "South West Main Line"
-    ],
-    "is_interchange": true,
-    "is_coastal": true,
-    "terminus_max": 0,
-    "canonical_hub": "London",
-    "canonical_time_to_hub": 39.0,
-    "welsh_name": null,
-    "wordplay_category": "local_suffix",
-    "wordplay_difficulty": "medium",
-    "wordplay_score": 2,
-    "wordplay_tags": [
-      "ey",
-      "ley"
-    ],
-    "time_to_glasgow_central": null,
-    "time_to_victoria": null,
-    "time_to_charing_cross": null,
-    "time_to_euston": null,
-    "time_to_liverpool_street": null,
-    "time_to_stratford": null,
-    "time_to_hub__london": 39.0
-  },
-  {
-    "station_id": "SW_0018",
-    "station_name": "Berrylands",
-    "name_word_count": 1,
-    "name_letter_count": 10,
-    "crs": "BRS",
-    "region": "South West London",
-    "operator": "South Western",
-    "route": [
-      "South West Main Line"
-    ],
-    "is_interchange": false,
-    "is_coastal": false,
-    "terminus_max": 0,
-    "canonical_hub": "London",
-    "canonical_time_to_hub": 71.0,
-    "welsh_name": null,
-    "wordplay_category": "other",
-    "wordplay_difficulty": "easy",
-    "wordplay_score": 0,
-    "wordplay_tags": [],
-    "time_to_glasgow_central": null,
-    "time_to_victoria": null,
-    "time_to_charing_cross": null,
-    "time_to_euston": null,
-    "time_to_liverpool_street": null,
-    "time_to_stratford": null,
-    "time_to_hub__london": 71.0
-  },
-  {
-    "station_id": "SW_0014",
-    "station_name": "Basingstoke",
-    "name_word_count": 1,
-    "name_letter_count": 11,
-    "crs": "BSK",
-    "region": "Basingstoke and Deane",
-    "operator": "South Western",
-    "route": [
-      "South West Main Line"
-    ],
-    "is_interchange": true,
-    "is_coastal": false,
-    "terminus_max": 548,
-    "canonical_hub": "London",
-    "canonical_time_to_hub": 301.0,
-    "welsh_name": null,
-    "wordplay_category": "other",
-    "wordplay_difficulty": "easy",
-    "wordplay_score": 0,
-    "wordplay_tags": [],
-    "time_to_glasgow_central": null,
-    "time_to_victoria": null,
-    "time_to_charing_cross": null,
-    "time_to_euston": null,
-    "time_to_liverpool_street": null,
-    "time_to_stratford": null,
-    "time_to_hub__london": 301.0
-  },
-  {
-    "station_id": "SW_0024",
-    "station_name": "Branksome",
-    "name_word_count": 1,
-    "name_letter_count": 9,
-    "crs": "BSM",
-    "region": "Bournemouth, Christchurch and Poole",
-    "operator": "South Western",
-    "route": [
-      "South West Main Line"
-    ],
-    "is_interchange": false,
-    "is_coastal": false,
-    "terminus_max": 0,
-    "canonical_hub": "London",
-    "canonical_time_to_hub": 96.0,
-    "welsh_name": null,
-    "wordplay_category": "other",
-    "wordplay_difficulty": "easy",
-    "wordplay_score": 0,
-    "wordplay_tags": [],
-    "time_to_glasgow_central": null,
-    "time_to_victoria": null,
-    "time_to_charing_cross": null,
-    "time_to_euston": null,
-    "time_to_liverpool_street": null,
-    "time_to_stratford": null,
-    "time_to_hub__london": 96.0
-  },
-  {
-    "station_id": "SW_0019",
-    "station_name": "Bitterne",
-    "name_word_count": 1,
-    "name_letter_count": 8,
-    "crs": "BTE",
-    "region": "Southampton",
-    "operator": "South Western",
-    "route": [
-      "Solent Link"
-    ],
-    "is_interchange": false,
-    "is_coastal": true,
-    "terminus_max": 0,
-    "canonical_hub": "London",
-    "canonical_time_to_hub": 98.0,
-    "welsh_name": null,
-    "wordplay_category": "other",
-    "wordplay_difficulty": "easy",
-    "wordplay_score": 0,
-    "wordplay_tags": [],
-    "time_to_glasgow_central": null,
-    "time_to_victoria": null,
-    "time_to_charing_cross": null,
-    "time_to_euston": null,
-    "time_to_liverpool_street": null,
-    "time_to_stratford": null,
-    "time_to_hub__london": 98.0
-  },
-  {
-    "station_id": "SW_0017",
-    "station_name": "Bentley (Hampshire)",
-    "name_word_count": 1,
-    "name_letter_count": 16,
-    "crs": "BTY",
-    "region": "East Hampshire",
-    "operator": "South Western",
-    "route": [
-      "Alton Line"
-    ],
-    "is_interchange": false,
-    "is_coastal": false,
-    "terminus_max": 0,
-    "canonical_hub": "London",
-    "canonical_time_to_hub": 95.0,
-    "welsh_name": null,
-    "wordplay_category": "structure",
-    "wordplay_difficulty": "hard",
-    "wordplay_score": 3,
-    "wordplay_tags": [
-      "brackets",
-      "ey",
-      "ley"
-    ],
-    "time_to_glasgow_central": null,
-    "time_to_victoria": null,
-    "time_to_charing_cross": null,
-    "time_to_euston": null,
-    "time_to_liverpool_street": null,
-    "time_to_stratford": null,
-    "time_to_hub__london": 95.0
-  },
-  {
-    "station_id": "SW_0028",
-    "station_name": "Bursledon",
-    "name_word_count": 1,
-    "name_letter_count": 9,
-    "crs": "BUO",
-    "region": "Eastleigh",
-    "operator": "South Western",
-    "route": [
-      "Solent Link"
-    ],
-    "is_interchange": false,
-    "is_coastal": true,
-    "terminus_max": 0,
-    "canonical_hub": "London",
-    "canonical_time_to_hub": 3.0,
-    "welsh_name": null,
-    "wordplay_category": "local_suffix",
-    "wordplay_difficulty": "medium",
-    "wordplay_score": 1,
-    "wordplay_tags": [
-      "don"
-    ],
-    "time_to_glasgow_central": null,
-    "time_to_victoria": null,
-    "time_to_charing_cross": null,
-    "time_to_euston": null,
-    "time_to_liverpool_street": null,
-    "time_to_stratford": null,
-    "time_to_hub__london": 3.0
-  },
-  {
-    "station_id": "SW_0030",
-    "station_name": "Camberley",
-    "name_word_count": 1,
-    "name_letter_count": 9,
-    "crs": "CAM",
-    "region": "Surrey Heath",
-    "operator": "South Western",
-    "route": [
-      "Waterloo to Reading Line"
-    ],
-    "is_interchange": false,
-    "is_coastal": false,
-    "terminus_max": 0,
-    "canonical_hub": "London",
-    "canonical_time_to_hub": 6.0,
-    "welsh_name": null,
-    "wordplay_category": "local_suffix",
-    "wordplay_difficulty": "medium",
-    "wordplay_score": 2,
-    "wordplay_tags": [
-      "ey",
-      "ley"
-    ],
-    "time_to_glasgow_central": null,
-    "time_to_victoria": null,
-    "time_to_charing_cross": null,
-    "time_to_euston": null,
-    "time_to_liverpool_street": null,
-    "time_to_stratford": null,
-    "time_to_hub__london": 6.0
-  },
-  {
-    "station_id": "SW_0041",
-    "station_name": "Cranbrook (Devon)",
-    "name_word_count": 1,
-    "name_letter_count": 14,
-    "crs": "CBK",
-    "region": "East Devon",
-    "operator": "South Western",
-    "route": [
-      "East Devon Line",
-      "South West Main Line"
-    ],
-    "is_interchange": true,
-    "is_coastal": false,
-    "terminus_max": 0,
-    "canonical_hub": "London",
-    "canonical_time_to_hub": 42.0,
-    "welsh_name": null,
-    "wordplay_category": "structure",
-    "wordplay_difficulty": "hard",
-    "wordplay_score": 1,
-    "wordplay_tags": [
-      "brackets"
-    ],
-    "time_to_glasgow_central": null,
-    "time_to_victoria": null,
-    "time_to_charing_cross": null,
-    "time_to_euston": null,
-    "time_to_liverpool_street": null,
-    "time_to_stratford": null,
-    "time_to_hub__london": 42.0
-  },
-  {
-    "station_id": "SW_0031",
-    "station_name": "Chandlers Ford",
-    "name_word_count": 2,
-    "name_letter_count": 13,
-    "crs": "CFR",
-    "region": "Eastleigh",
-    "operator": "South Western",
-    "route": [
-      "Wessex Main Line"
     ],
     "is_interchange": false,
     "is_coastal": false,
@@ -973,6 +480,499 @@
     "time_to_hub__london": 33.0
   },
   {
+    "station_id": "SW_0029",
+    "station_name": "Byfleet & New Haw",
+    "name_word_count": 3,
+    "name_letter_count": 13,
+    "crs": "BFN",
+    "region": "Runnymede",
+    "operator": "South Western",
+    "route": [
+      "Alton Line",
+      "Hounslow Loop"
+    ],
+    "is_interchange": true,
+    "is_coastal": false,
+    "terminus_max": 0,
+    "canonical_hub": "London",
+    "canonical_time_to_hub": 32.0,
+    "welsh_name": null,
+    "wordplay_category": "structure",
+    "wordplay_difficulty": "hard",
+    "wordplay_score": 1,
+    "wordplay_tags": [
+      "ampersand"
+    ],
+    "time_to_glasgow_central": null,
+    "time_to_victoria": null,
+    "time_to_charing_cross": null,
+    "time_to_euston": null,
+    "time_to_liverpool_street": null,
+    "time_to_stratford": null,
+    "time_to_hub__london": 32.0
+  },
+  {
+    "station_id": "SW_0020",
+    "station_name": "Bookham",
+    "name_word_count": 1,
+    "name_letter_count": 7,
+    "crs": "BKA",
+    "region": "Mole Valley",
+    "operator": "South Western",
+    "route": [
+      "New Guildford Line"
+    ],
+    "is_interchange": false,
+    "is_coastal": false,
+    "terminus_max": 0,
+    "canonical_hub": "London",
+    "canonical_time_to_hub": 52.0,
+    "welsh_name": null,
+    "wordplay_category": "local_suffix",
+    "wordplay_difficulty": "medium",
+    "wordplay_score": 1,
+    "wordplay_tags": [
+      "ham"
+    ],
+    "time_to_glasgow_central": null,
+    "time_to_victoria": null,
+    "time_to_charing_cross": null,
+    "time_to_euston": null,
+    "time_to_liverpool_street": null,
+    "time_to_stratford": null,
+    "time_to_hub__london": 52.0
+  },
+  {
+    "station_id": "SW_0027",
+    "station_name": "Brookwood",
+    "name_word_count": 1,
+    "name_letter_count": 9,
+    "crs": "BKO",
+    "region": "Woking",
+    "operator": "South Western",
+    "route": [
+      "Alton Line",
+      "South West Main Line"
+    ],
+    "is_interchange": true,
+    "is_coastal": false,
+    "terminus_max": 0,
+    "canonical_hub": "London",
+    "canonical_time_to_hub": 42.0,
+    "welsh_name": null,
+    "wordplay_category": "other",
+    "wordplay_difficulty": "easy",
+    "wordplay_score": 0,
+    "wordplay_tags": [],
+    "time_to_glasgow_central": null,
+    "time_to_victoria": null,
+    "time_to_charing_cross": null,
+    "time_to_euston": null,
+    "time_to_liverpool_street": null,
+    "time_to_stratford": null,
+    "time_to_hub__london": 42.0
+  },
+  {
+    "station_id": "SW_0022",
+    "station_name": "Bournemouth",
+    "name_word_count": 1,
+    "name_letter_count": 11,
+    "crs": "BMH",
+    "region": "Bournemouth, Christchurch and Poole",
+    "operator": "South Western",
+    "route": [
+      "South West Main Line"
+    ],
+    "is_interchange": false,
+    "is_coastal": true,
+    "terminus_max": 268,
+    "canonical_hub": "London",
+    "canonical_time_to_hub": 118.0,
+    "welsh_name": null,
+    "wordplay_category": "other",
+    "wordplay_difficulty": "easy",
+    "wordplay_score": 0,
+    "wordplay_tags": [],
+    "time_to_glasgow_central": null,
+    "time_to_victoria": null,
+    "time_to_charing_cross": null,
+    "time_to_euston": null,
+    "time_to_liverpool_street": null,
+    "time_to_stratford": null,
+    "time_to_hub__london": 118.0
+  },
+  {
+    "station_id": "SW_0013",
+    "station_name": "Barnes Bridge",
+    "name_word_count": 2,
+    "name_letter_count": 12,
+    "crs": "BNI",
+    "region": "South West London",
+    "operator": "South Western",
+    "route": [
+      "Hounslow Loop"
+    ],
+    "is_interchange": false,
+    "is_coastal": false,
+    "terminus_max": 0,
+    "canonical_hub": "London",
+    "canonical_time_to_hub": 24.0,
+    "welsh_name": null,
+    "wordplay_category": "local_suffix",
+    "wordplay_difficulty": "medium",
+    "wordplay_score": 1,
+    "wordplay_tags": [
+      "ridge"
+    ],
+    "time_to_glasgow_central": null,
+    "time_to_victoria": null,
+    "time_to_charing_cross": null,
+    "time_to_euston": null,
+    "time_to_liverpool_street": null,
+    "time_to_stratford": null,
+    "time_to_hub__london": 24.0
+  },
+  {
+    "station_id": "SW_0012",
+    "station_name": "Barnes",
+    "name_word_count": 1,
+    "name_letter_count": 6,
+    "crs": "BNS",
+    "region": "South West London",
+    "operator": "South Western",
+    "route": [
+      "Hounslow Loop",
+      "Kingston Loop",
+      "Waterloo to Reading Line",
+      "Windsor Line"
+    ],
+    "is_interchange": true,
+    "is_coastal": false,
+    "terminus_max": 0,
+    "canonical_hub": "London",
+    "canonical_time_to_hub": 18.0,
+    "welsh_name": null,
+    "wordplay_category": "other",
+    "wordplay_difficulty": "easy",
+    "wordplay_score": 0,
+    "wordplay_tags": [],
+    "time_to_glasgow_central": null,
+    "time_to_victoria": null,
+    "time_to_charing_cross": null,
+    "time_to_euston": null,
+    "time_to_liverpool_street": null,
+    "time_to_stratford": null,
+    "time_to_hub__london": 18.0
+  },
+  {
+    "station_id": "SW_0021",
+    "station_name": "Botley",
+    "name_word_count": 1,
+    "name_letter_count": 6,
+    "crs": "BOE",
+    "region": "Winchester",
+    "operator": "South Western",
+    "route": [
+      "Solent Link",
+      "South West Main Line"
+    ],
+    "is_interchange": true,
+    "is_coastal": true,
+    "terminus_max": 0,
+    "canonical_hub": "London",
+    "canonical_time_to_hub": 94.0,
+    "welsh_name": null,
+    "wordplay_category": "local_suffix",
+    "wordplay_difficulty": "medium",
+    "wordplay_score": 2,
+    "wordplay_tags": [
+      "ey",
+      "ley"
+    ],
+    "time_to_glasgow_central": null,
+    "time_to_victoria": null,
+    "time_to_charing_cross": null,
+    "time_to_euston": null,
+    "time_to_liverpool_street": null,
+    "time_to_stratford": null,
+    "time_to_hub__london": 94.0
+  },
+  {
+    "station_id": "SW_0018",
+    "station_name": "Berrylands",
+    "name_word_count": 1,
+    "name_letter_count": 10,
+    "crs": "BRS",
+    "region": "South West London",
+    "operator": "South Western",
+    "route": [
+      "South West Main Line"
+    ],
+    "is_interchange": false,
+    "is_coastal": false,
+    "terminus_max": 0,
+    "canonical_hub": "London",
+    "canonical_time_to_hub": 28.0,
+    "welsh_name": null,
+    "wordplay_category": "other",
+    "wordplay_difficulty": "easy",
+    "wordplay_score": 0,
+    "wordplay_tags": [],
+    "time_to_glasgow_central": null,
+    "time_to_victoria": null,
+    "time_to_charing_cross": null,
+    "time_to_euston": null,
+    "time_to_liverpool_street": null,
+    "time_to_stratford": null,
+    "time_to_hub__london": 28.0
+  },
+  {
+    "station_id": "SW_0014",
+    "station_name": "Basingstoke",
+    "name_word_count": 1,
+    "name_letter_count": 11,
+    "crs": "BSK",
+    "region": "Basingstoke and Deane",
+    "operator": "South Western",
+    "route": [
+      "South West Main Line"
+    ],
+    "is_interchange": true,
+    "is_coastal": false,
+    "terminus_max": 548,
+    "canonical_hub": "London",
+    "canonical_time_to_hub": 49.0,
+    "welsh_name": null,
+    "wordplay_category": "other",
+    "wordplay_difficulty": "easy",
+    "wordplay_score": 0,
+    "wordplay_tags": [],
+    "time_to_glasgow_central": null,
+    "time_to_victoria": null,
+    "time_to_charing_cross": null,
+    "time_to_euston": null,
+    "time_to_liverpool_street": null,
+    "time_to_stratford": null,
+    "time_to_hub__london": 49.0
+  },
+  {
+    "station_id": "SW_0024",
+    "station_name": "Branksome",
+    "name_word_count": 1,
+    "name_letter_count": 9,
+    "crs": "BSM",
+    "region": "Bournemouth, Christchurch and Poole",
+    "operator": "South Western",
+    "route": [
+      "South West Main Line"
+    ],
+    "is_interchange": false,
+    "is_coastal": false,
+    "terminus_max": 0,
+    "canonical_hub": "London",
+    "canonical_time_to_hub": 128.0,
+    "welsh_name": null,
+    "wordplay_category": "other",
+    "wordplay_difficulty": "easy",
+    "wordplay_score": 0,
+    "wordplay_tags": [],
+    "time_to_glasgow_central": null,
+    "time_to_victoria": null,
+    "time_to_charing_cross": null,
+    "time_to_euston": null,
+    "time_to_liverpool_street": null,
+    "time_to_stratford": null,
+    "time_to_hub__london": 128.0
+  },
+  {
+    "station_id": "SW_0019",
+    "station_name": "Bitterne",
+    "name_word_count": 1,
+    "name_letter_count": 8,
+    "crs": "BTE",
+    "region": "Southampton",
+    "operator": "South Western",
+    "route": [
+      "Solent Link"
+    ],
+    "is_interchange": false,
+    "is_coastal": true,
+    "terminus_max": 0,
+    "canonical_hub": "London",
+    "canonical_time_to_hub": 134.0,
+    "welsh_name": null,
+    "wordplay_category": "other",
+    "wordplay_difficulty": "easy",
+    "wordplay_score": 0,
+    "wordplay_tags": [],
+    "time_to_glasgow_central": null,
+    "time_to_victoria": null,
+    "time_to_charing_cross": null,
+    "time_to_euston": null,
+    "time_to_liverpool_street": null,
+    "time_to_stratford": null,
+    "time_to_hub__london": 134.0
+  },
+  {
+    "station_id": "SW_0017",
+    "station_name": "Bentley (Hampshire)",
+    "name_word_count": 1,
+    "name_letter_count": 16,
+    "crs": "BTY",
+    "region": "East Hampshire",
+    "operator": "South Western",
+    "route": [
+      "Alton Line"
+    ],
+    "is_interchange": false,
+    "is_coastal": false,
+    "terminus_max": 0,
+    "canonical_hub": "London",
+    "canonical_time_to_hub": 67.0,
+    "welsh_name": null,
+    "wordplay_category": "structure",
+    "wordplay_difficulty": "hard",
+    "wordplay_score": 3,
+    "wordplay_tags": [
+      "brackets",
+      "ey",
+      "ley"
+    ],
+    "time_to_glasgow_central": null,
+    "time_to_victoria": null,
+    "time_to_charing_cross": null,
+    "time_to_euston": null,
+    "time_to_liverpool_street": null,
+    "time_to_stratford": null,
+    "time_to_hub__london": 67.0
+  },
+  {
+    "station_id": "SW_0028",
+    "station_name": "Bursledon",
+    "name_word_count": 1,
+    "name_letter_count": 9,
+    "crs": "BUO",
+    "region": "Eastleigh",
+    "operator": "South Western",
+    "route": [
+      "Solent Link"
+    ],
+    "is_interchange": false,
+    "is_coastal": true,
+    "terminus_max": 0,
+    "canonical_hub": "London",
+    "canonical_time_to_hub": 121.0,
+    "welsh_name": null,
+    "wordplay_category": "local_suffix",
+    "wordplay_difficulty": "medium",
+    "wordplay_score": 1,
+    "wordplay_tags": [
+      "don"
+    ],
+    "time_to_glasgow_central": null,
+    "time_to_victoria": null,
+    "time_to_charing_cross": null,
+    "time_to_euston": null,
+    "time_to_liverpool_street": null,
+    "time_to_stratford": null,
+    "time_to_hub__london": 121.0
+  },
+  {
+    "station_id": "SW_0030",
+    "station_name": "Camberley",
+    "name_word_count": 1,
+    "name_letter_count": 9,
+    "crs": "CAM",
+    "region": "Surrey Heath",
+    "operator": "South Western",
+    "route": [
+      "Waterloo to Reading Line"
+    ],
+    "is_interchange": false,
+    "is_coastal": false,
+    "terminus_max": 0,
+    "canonical_hub": "London",
+    "canonical_time_to_hub": 71.0,
+    "welsh_name": null,
+    "wordplay_category": "local_suffix",
+    "wordplay_difficulty": "medium",
+    "wordplay_score": 2,
+    "wordplay_tags": [
+      "ey",
+      "ley"
+    ],
+    "time_to_glasgow_central": null,
+    "time_to_victoria": null,
+    "time_to_charing_cross": null,
+    "time_to_euston": null,
+    "time_to_liverpool_street": null,
+    "time_to_stratford": null,
+    "time_to_hub__london": 71.0
+  },
+  {
+    "station_id": "SW_0041",
+    "station_name": "Cranbrook (Devon)",
+    "name_word_count": 1,
+    "name_letter_count": 14,
+    "crs": "CBK",
+    "region": "East Devon",
+    "operator": "South Western",
+    "route": [
+      "East Devon Line",
+      "South West Main Line"
+    ],
+    "is_interchange": true,
+    "is_coastal": false,
+    "terminus_max": 0,
+    "canonical_hub": "London",
+    "canonical_time_to_hub": 190.0,
+    "welsh_name": null,
+    "wordplay_category": "structure",
+    "wordplay_difficulty": "hard",
+    "wordplay_score": 1,
+    "wordplay_tags": [
+      "brackets"
+    ],
+    "time_to_glasgow_central": null,
+    "time_to_victoria": null,
+    "time_to_charing_cross": null,
+    "time_to_euston": null,
+    "time_to_liverpool_street": null,
+    "time_to_stratford": null,
+    "time_to_hub__london": 190.0
+  },
+  {
+    "station_id": "SW_0031",
+    "station_name": "Chandlers Ford",
+    "name_word_count": 2,
+    "name_letter_count": 13,
+    "crs": "CFR",
+    "region": "Eastleigh",
+    "operator": "South Western",
+    "route": [
+      "Wessex Main Line"
+    ],
+    "is_interchange": false,
+    "is_coastal": false,
+    "terminus_max": 0,
+    "canonical_hub": "London",
+    "canonical_time_to_hub": 94.0,
+    "welsh_name": null,
+    "wordplay_category": "local_suffix",
+    "wordplay_difficulty": "medium",
+    "wordplay_score": 1,
+    "wordplay_tags": [
+      "ford"
+    ],
+    "time_to_glasgow_central": null,
+    "time_to_victoria": null,
+    "time_to_charing_cross": null,
+    "time_to_euston": null,
+    "time_to_liverpool_street": null,
+    "time_to_stratford": null,
+    "time_to_hub__london": 94.0
+  },
+  {
     "station_id": "SW_0035",
     "station_name": "Chiswick",
     "name_word_count": 1,
@@ -987,7 +987,7 @@
     "is_coastal": false,
     "terminus_max": 0,
     "canonical_hub": "London",
-    "canonical_time_to_hub": 122.0,
+    "canonical_time_to_hub": 26.0,
     "welsh_name": null,
     "wordplay_category": "other",
     "wordplay_difficulty": "easy",
@@ -999,7 +999,7 @@
     "time_to_euston": null,
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
-    "time_to_hub__london": 122.0
+    "time_to_hub__london": 26.0
   },
   {
     "station_id": "SW_0036",
@@ -1016,7 +1016,7 @@
     "is_coastal": true,
     "terminus_max": 0,
     "canonical_hub": "London",
-    "canonical_time_to_hub": 60.0,
+    "canonical_time_to_hub": 113.0,
     "welsh_name": null,
     "wordplay_category": "other",
     "wordplay_difficulty": "easy",
@@ -1028,7 +1028,7 @@
     "time_to_euston": null,
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
-    "time_to_hub__london": 60.0
+    "time_to_hub__london": 113.0
   },
   {
     "station_id": "SW_0032",
@@ -1045,7 +1045,7 @@
     "is_coastal": false,
     "terminus_max": 6,
     "canonical_hub": "London",
-    "canonical_time_to_hub": 80.0,
+    "canonical_time_to_hub": 77.0,
     "welsh_name": null,
     "wordplay_category": "local_suffix",
     "wordplay_difficulty": "medium",
@@ -1059,7 +1059,7 @@
     "time_to_euston": null,
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
-    "time_to_hub__london": 80.0
+    "time_to_hub__london": 77.0
   },
   {
     "station_id": "SW_0042",
@@ -1077,7 +1077,7 @@
     "is_coastal": false,
     "terminus_max": 18,
     "canonical_hub": "London",
-    "canonical_time_to_hub": 48.0,
+    "canonical_time_to_hub": 150.0,
     "welsh_name": null,
     "wordplay_category": "other",
     "wordplay_difficulty": "easy",
@@ -1089,7 +1089,7 @@
     "time_to_euston": null,
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
-    "time_to_hub__london": 48.0
+    "time_to_hub__london": 150.0
   },
   {
     "station_id": "SW_0037",
@@ -1106,7 +1106,7 @@
     "is_coastal": false,
     "terminus_max": 0,
     "canonical_hub": "London",
-    "canonical_time_to_hub": 170.0,
+    "canonical_time_to_hub": 55.0,
     "welsh_name": null,
     "wordplay_category": "local_suffix",
     "wordplay_difficulty": "medium",
@@ -1120,7 +1120,7 @@
     "time_to_euston": null,
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
-    "time_to_hub__london": 170.0
+    "time_to_hub__london": 55.0
   },
   {
     "station_id": "SW_0038",
@@ -1137,7 +1137,7 @@
     "is_coastal": false,
     "terminus_max": 0,
     "canonical_hub": "London",
-    "canonical_time_to_hub": 104.0,
+    "canonical_time_to_hub": 34.0,
     "welsh_name": null,
     "wordplay_category": "other",
     "wordplay_difficulty": "easy",
@@ -1149,7 +1149,7 @@
     "time_to_euston": null,
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
-    "time_to_hub__london": 104.0
+    "time_to_hub__london": 34.0
   },
   {
     "station_id": "SW_0040",
@@ -1167,7 +1167,7 @@
     "is_coastal": true,
     "terminus_max": 0,
     "canonical_hub": "London",
-    "canonical_time_to_hub": 54.0,
+    "canonical_time_to_hub": 112.0,
     "welsh_name": null,
     "wordplay_category": "local_suffix",
     "wordplay_difficulty": "medium",
@@ -1181,7 +1181,7 @@
     "time_to_euston": null,
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
-    "time_to_hub__london": 54.0
+    "time_to_hub__london": 112.0
   },
   {
     "station_id": "SW_0039",
@@ -1198,7 +1198,7 @@
     "is_coastal": false,
     "terminus_max": 0,
     "canonical_hub": "London",
-    "canonical_time_to_hub": 104.0,
+    "canonical_time_to_hub": 41.0,
     "welsh_name": null,
     "wordplay_category": "structure",
     "wordplay_difficulty": "hard",
@@ -1213,7 +1213,7 @@
     "time_to_euston": null,
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
-    "time_to_hub__london": 104.0
+    "time_to_hub__london": 41.0
   },
   {
     "station_id": "SW_0033",
@@ -1230,7 +1230,7 @@
     "is_coastal": false,
     "terminus_max": 0,
     "canonical_hub": "London",
-    "canonical_time_to_hub": 66.0,
+    "canonical_time_to_hub": 34.0,
     "welsh_name": null,
     "wordplay_category": "local_suffix",
     "wordplay_difficulty": "medium",
@@ -1245,7 +1245,7 @@
     "time_to_euston": null,
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
-    "time_to_hub__london": 66.0
+    "time_to_hub__london": 34.0
   },
   {
     "station_id": "SW_0034",
@@ -1262,7 +1262,7 @@
     "is_coastal": false,
     "terminus_max": 107,
     "canonical_hub": "London",
-    "canonical_time_to_hub": 66.0,
+    "canonical_time_to_hub": 36.0,
     "welsh_name": null,
     "wordplay_category": "local_suffix",
     "wordplay_difficulty": "medium",
@@ -1277,7 +1277,7 @@
     "time_to_euston": null,
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
-    "time_to_hub__london": 66.0
+    "time_to_hub__london": 36.0
   },
   {
     "station_id": "SW_0043",
@@ -1294,7 +1294,7 @@
     "is_coastal": false,
     "terminus_max": 0,
     "canonical_hub": "London",
-    "canonical_time_to_hub": 115.0,
+    "canonical_time_to_hub": 53.0,
     "welsh_name": null,
     "wordplay_category": "other",
     "wordplay_difficulty": "easy",
@@ -1306,7 +1306,7 @@
     "time_to_euston": null,
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
-    "time_to_hub__london": 115.0
+    "time_to_hub__london": 53.0
   },
   {
     "station_id": "SW_0101",
@@ -1323,7 +1323,7 @@
     "is_coastal": false,
     "terminus_max": 0,
     "canonical_hub": "London",
-    "canonical_time_to_hub": 65.0,
+    "canonical_time_to_hub": 126.0,
     "welsh_name": null,
     "wordplay_category": "structure",
     "wordplay_difficulty": "hard",
@@ -1338,7 +1338,7 @@
     "time_to_euston": null,
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
-    "time_to_hub__london": 65.0
+    "time_to_hub__london": 126.0
   },
   {
     "station_id": "SW_0045",
@@ -1355,7 +1355,7 @@
     "is_coastal": false,
     "terminus_max": 0,
     "canonical_hub": "London",
-    "canonical_time_to_hub": 78.0,
+    "canonical_time_to_hub": 167.0,
     "welsh_name": null,
     "wordplay_category": "other",
     "wordplay_difficulty": "easy",
@@ -1367,7 +1367,7 @@
     "time_to_euston": null,
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
-    "time_to_hub__london": 78.0
+    "time_to_hub__london": 167.0
   },
   {
     "station_id": "SW_0044",
@@ -1384,7 +1384,7 @@
     "is_coastal": false,
     "terminus_max": 0,
     "canonical_hub": "London",
-    "canonical_time_to_hub": 234.0,
+    "canonical_time_to_hub": 122.0,
     "welsh_name": null,
     "wordplay_category": "structure",
     "wordplay_difficulty": "hard",
@@ -1398,7 +1398,7 @@
     "time_to_euston": null,
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
-    "time_to_hub__london": 234.0
+    "time_to_hub__london": 122.0
   },
   {
     "station_id": "SW_0047",
@@ -1420,7 +1420,7 @@
     "is_coastal": false,
     "terminus_max": 0,
     "canonical_hub": "London",
-    "canonical_time_to_hub": 576.0,
+    "canonical_time_to_hub": 14.0,
     "welsh_name": null,
     "wordplay_category": "other",
     "wordplay_difficulty": "easy",
@@ -1432,7 +1432,7 @@
     "time_to_euston": null,
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
-    "time_to_hub__london": 576.0
+    "time_to_hub__london": 14.0
   },
   {
     "station_id": "SW_0046",
@@ -1481,7 +1481,7 @@
     "is_coastal": false,
     "terminus_max": 71,
     "canonical_hub": "London",
-    "canonical_time_to_hub": 178.0,
+    "canonical_time_to_hub": 46.0,
     "welsh_name": null,
     "wordplay_category": "local_suffix",
     "wordplay_difficulty": "medium",
@@ -1495,7 +1495,7 @@
     "time_to_euston": null,
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
-    "time_to_hub__london": 178.0
+    "time_to_hub__london": 46.0
   },
   {
     "station_id": "SW_0050",
@@ -1513,7 +1513,7 @@
     "is_coastal": false,
     "terminus_max": 0,
     "canonical_hub": "London",
-    "canonical_time_to_hub": 165.0,
+    "canonical_time_to_hub": 45.0,
     "welsh_name": null,
     "wordplay_category": "local_suffix",
     "wordplay_difficulty": "medium",
@@ -1527,7 +1527,7 @@
     "time_to_euston": null,
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
-    "time_to_hub__london": 165.0
+    "time_to_hub__london": 45.0
   },
   {
     "station_id": "SW_0051",
@@ -1544,7 +1544,7 @@
     "is_coastal": false,
     "terminus_max": 0,
     "canonical_hub": "London",
-    "canonical_time_to_hub": 94.0,
+    "canonical_time_to_hub": 30.0,
     "welsh_name": null,
     "wordplay_category": "other",
     "wordplay_difficulty": "easy",
@@ -1556,7 +1556,7 @@
     "time_to_euston": null,
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
-    "time_to_hub__london": 94.0
+    "time_to_hub__london": 30.0
   },
   {
     "station_id": "SW_0048",
@@ -1574,7 +1574,7 @@
     "is_coastal": false,
     "terminus_max": 167,
     "canonical_hub": "London",
-    "canonical_time_to_hub": 145.0,
+    "canonical_time_to_hub": 70.0,
     "welsh_name": null,
     "wordplay_category": "other",
     "wordplay_difficulty": "easy",
@@ -1586,7 +1586,7 @@
     "time_to_euston": null,
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
-    "time_to_hub__london": 145.0
+    "time_to_hub__london": 70.0
   },
   {
     "station_id": "SW_0052",
@@ -1603,7 +1603,7 @@
     "is_coastal": false,
     "terminus_max": 0,
     "canonical_hub": "London",
-    "canonical_time_to_hub": 125.0,
+    "canonical_time_to_hub": 34.0,
     "welsh_name": null,
     "wordplay_category": "other",
     "wordplay_difficulty": "easy",
@@ -1615,7 +1615,7 @@
     "time_to_euston": null,
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
-    "time_to_hub__london": 125.0
+    "time_to_hub__london": 34.0
   },
   {
     "station_id": "SW_0057",
@@ -1634,7 +1634,7 @@
     "is_coastal": false,
     "terminus_max": 117,
     "canonical_hub": "London",
-    "canonical_time_to_hub": 288.0,
+    "canonical_time_to_hub": 33.0,
     "welsh_name": null,
     "wordplay_category": "local_suffix",
     "wordplay_difficulty": "medium",
@@ -1648,7 +1648,7 @@
     "time_to_euston": null,
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
-    "time_to_hub__london": 288.0
+    "time_to_hub__london": 33.0
   },
   {
     "station_id": "SW_0059",
@@ -1665,7 +1665,7 @@
     "is_coastal": false,
     "terminus_max": 0,
     "canonical_hub": "London",
-    "canonical_time_to_hub": 117.0,
+    "canonical_time_to_hub": 52.0,
     "welsh_name": null,
     "wordplay_category": "other",
     "wordplay_difficulty": "easy",
@@ -1677,7 +1677,7 @@
     "time_to_euston": null,
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
-    "time_to_hub__london": 117.0
+    "time_to_hub__london": 52.0
   },
   {
     "station_id": "SW_0062",
@@ -1696,7 +1696,7 @@
     "is_coastal": false,
     "terminus_max": 0,
     "canonical_hub": "London",
-    "canonical_time_to_hub": 111.0,
+    "canonical_time_to_hub": 40.0,
     "welsh_name": null,
     "wordplay_category": "other",
     "wordplay_difficulty": "easy",
@@ -1708,7 +1708,7 @@
     "time_to_euston": null,
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
-    "time_to_hub__london": 111.0
+    "time_to_hub__london": 40.0
   },
   {
     "station_id": "SW_0061",
@@ -1725,7 +1725,7 @@
     "is_coastal": false,
     "terminus_max": 0,
     "canonical_hub": "London",
-    "canonical_time_to_hub": 6.0,
+    "canonical_time_to_hub": 78.0,
     "welsh_name": null,
     "wordplay_category": "local_suffix",
     "wordplay_difficulty": "medium",
@@ -1740,7 +1740,7 @@
     "time_to_euston": null,
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
-    "time_to_hub__london": 6.0
+    "time_to_hub__london": 78.0
   },
   {
     "station_id": "SW_0054",
@@ -1757,7 +1757,7 @@
     "is_coastal": false,
     "terminus_max": 38,
     "canonical_hub": "London",
-    "canonical_time_to_hub": 302.0,
+    "canonical_time_to_hub": 36.0,
     "welsh_name": null,
     "wordplay_category": "structure",
     "wordplay_difficulty": "hard",
@@ -1771,7 +1771,7 @@
     "time_to_euston": null,
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
-    "time_to_hub__london": 302.0
+    "time_to_hub__london": 36.0
   },
   {
     "station_id": "SW_0055",
@@ -1788,7 +1788,7 @@
     "is_coastal": false,
     "terminus_max": 0,
     "canonical_hub": "London",
-    "canonical_time_to_hub": 168.0,
+    "canonical_time_to_hub": 43.0,
     "welsh_name": null,
     "wordplay_category": "other",
     "wordplay_difficulty": "easy",
@@ -1800,7 +1800,7 @@
     "time_to_euston": null,
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
-    "time_to_hub__london": 168.0
+    "time_to_hub__london": 43.0
   },
   {
     "station_id": "SW_0056",
@@ -1817,7 +1817,7 @@
     "is_coastal": false,
     "terminus_max": 126,
     "canonical_hub": "London",
-    "canonical_time_to_hub": 95.0,
+    "canonical_time_to_hub": 60.0,
     "welsh_name": null,
     "wordplay_category": "local_suffix",
     "wordplay_difficulty": "medium",
@@ -1831,7 +1831,7 @@
     "time_to_euston": null,
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
-    "time_to_hub__london": 95.0
+    "time_to_hub__london": 60.0
   },
   {
     "station_id": "SW_0058",
@@ -1849,7 +1849,7 @@
     "is_coastal": false,
     "terminus_max": 0,
     "canonical_hub": "London",
-    "canonical_time_to_hub": 46.0,
+    "canonical_time_to_hub": 182.0,
     "welsh_name": null,
     "wordplay_category": "local_suffix",
     "wordplay_difficulty": "medium",
@@ -1863,7 +1863,7 @@
     "time_to_euston": null,
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
-    "time_to_hub__london": 46.0
+    "time_to_hub__london": 182.0
   },
   {
     "station_id": "SW_0053",
@@ -1881,7 +1881,7 @@
     "is_coastal": true,
     "terminus_max": 56,
     "canonical_hub": "London",
-    "canonical_time_to_hub": 54.0,
+    "canonical_time_to_hub": 103.0,
     "welsh_name": null,
     "wordplay_category": "local_suffix",
     "wordplay_difficulty": "medium",
@@ -1895,7 +1895,7 @@
     "time_to_euston": null,
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
-    "time_to_hub__london": 54.0
+    "time_to_hub__london": 103.0
   },
   {
     "station_id": "SW_0060",
@@ -1913,7 +1913,7 @@
     "is_coastal": true,
     "terminus_max": 9,
     "canonical_hub": "London",
-    "canonical_time_to_hub": 162.0,
+    "canonical_time_to_hub": 104.0,
     "welsh_name": null,
     "wordplay_category": "local_suffix",
     "wordplay_difficulty": "medium",
@@ -1927,7 +1927,7 @@
     "time_to_euston": null,
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
-    "time_to_hub__london": 162.0
+    "time_to_hub__london": 104.0
   },
   {
     "station_id": "SW_0063",
@@ -1945,7 +1945,7 @@
     "is_coastal": false,
     "terminus_max": 30,
     "canonical_hub": "London",
-    "canonical_time_to_hub": 59.0,
+    "canonical_time_to_hub": 118.0,
     "welsh_name": null,
     "wordplay_category": "local_suffix",
     "wordplay_difficulty": "medium",
@@ -1959,7 +1959,7 @@
     "time_to_euston": null,
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
-    "time_to_hub__london": 59.0
+    "time_to_hub__london": 118.0
   },
   {
     "station_id": "SW_0064",
@@ -1976,7 +1976,7 @@
     "is_coastal": false,
     "terminus_max": 0,
     "canonical_hub": "London",
-    "canonical_time_to_hub": 168.0,
+    "canonical_time_to_hub": 46.0,
     "welsh_name": null,
     "wordplay_category": "other",
     "wordplay_difficulty": "easy",
@@ -1988,7 +1988,7 @@
     "time_to_euston": null,
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
-    "time_to_hub__london": 168.0
+    "time_to_hub__london": 46.0
   },
   {
     "station_id": "SW_0065",
@@ -2005,7 +2005,7 @@
     "is_coastal": false,
     "terminus_max": 0,
     "canonical_hub": "London",
-    "canonical_time_to_hub": 81.0,
+    "canonical_time_to_hub": 78.0,
     "welsh_name": null,
     "wordplay_category": "local_suffix",
     "wordplay_difficulty": "medium",
@@ -2020,7 +2020,7 @@
     "time_to_euston": null,
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
-    "time_to_hub__london": 81.0
+    "time_to_hub__london": 78.0
   },
   {
     "station_id": "SW_0070",
@@ -2037,7 +2037,7 @@
     "is_coastal": true,
     "terminus_max": 0,
     "canonical_hub": "London",
-    "canonical_time_to_hub": 78.0,
+    "canonical_time_to_hub": 138.0,
     "welsh_name": null,
     "wordplay_category": "other",
     "wordplay_difficulty": "easy",
@@ -2049,7 +2049,7 @@
     "time_to_euston": null,
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
-    "time_to_hub__london": 78.0
+    "time_to_hub__london": 138.0
   },
   {
     "station_id": "SW_0072",
@@ -2066,7 +2066,7 @@
     "is_coastal": true,
     "terminus_max": 151,
     "canonical_hub": "London",
-    "canonical_time_to_hub": 141.0,
+    "canonical_time_to_hub": 89.0,
     "welsh_name": null,
     "wordplay_category": "other",
     "wordplay_difficulty": "easy",
@@ -2078,7 +2078,7 @@
     "time_to_euston": null,
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
-    "time_to_hub__london": 141.0
+    "time_to_hub__london": 89.0
   },
   {
     "station_id": "SW_0073",
@@ -2096,7 +2096,7 @@
     "is_coastal": false,
     "terminus_max": 0,
     "canonical_hub": "London",
-    "canonical_time_to_hub": 39.0,
+    "canonical_time_to_hub": 89.0,
     "welsh_name": null,
     "wordplay_category": "other",
     "wordplay_difficulty": "easy",
@@ -2108,7 +2108,7 @@
     "time_to_euston": null,
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
-    "time_to_hub__london": 39.0
+    "time_to_hub__london": 89.0
   },
   {
     "station_id": "SW_0074",
@@ -2125,7 +2125,7 @@
     "is_coastal": false,
     "terminus_max": 0,
     "canonical_hub": "London",
-    "canonical_time_to_hub": 94.0,
+    "canonical_time_to_hub": 32.0,
     "welsh_name": null,
     "wordplay_category": "local_suffix",
     "wordplay_difficulty": "medium",
@@ -2139,7 +2139,7 @@
     "time_to_euston": null,
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
-    "time_to_hub__london": 94.0
+    "time_to_hub__london": 32.0
   },
   {
     "station_id": "SW_0068",
@@ -2156,7 +2156,7 @@
     "is_coastal": false,
     "terminus_max": 352,
     "canonical_hub": "London",
-    "canonical_time_to_hub": 107.0,
+    "canonical_time_to_hub": 38.0,
     "welsh_name": null,
     "wordplay_category": "local_suffix",
     "wordplay_difficulty": "medium",
@@ -2170,7 +2170,7 @@
     "time_to_euston": null,
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
-    "time_to_hub__london": 107.0
+    "time_to_hub__london": 38.0
   },
   {
     "station_id": "SW_0066",
@@ -2187,7 +2187,7 @@
     "is_coastal": true,
     "terminus_max": 0,
     "canonical_hub": "London",
-    "canonical_time_to_hub": 235.0,
+    "canonical_time_to_hub": 120.0,
     "welsh_name": null,
     "wordplay_category": "other",
     "wordplay_difficulty": "easy",
@@ -2199,7 +2199,7 @@
     "time_to_euston": null,
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
-    "time_to_hub__london": 235.0
+    "time_to_hub__london": 120.0
   },
   {
     "station_id": "SW_0067",
@@ -2218,7 +2218,7 @@
     "is_coastal": false,
     "terminus_max": 0,
     "canonical_hub": "London",
-    "canonical_time_to_hub": 108.0,
+    "canonical_time_to_hub": 44.0,
     "welsh_name": null,
     "wordplay_category": "structure",
     "wordplay_difficulty": "hard",
@@ -2234,7 +2234,7 @@
     "time_to_euston": null,
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
-    "time_to_hub__london": 108.0
+    "time_to_hub__london": 44.0
   },
   {
     "station_id": "SW_0069",
@@ -2253,7 +2253,7 @@
     "is_coastal": false,
     "terminus_max": 0,
     "canonical_hub": "London",
-    "canonical_time_to_hub": 257.0,
+    "canonical_time_to_hub": 35.0,
     "welsh_name": null,
     "wordplay_category": "local_suffix",
     "wordplay_difficulty": "medium",
@@ -2267,7 +2267,7 @@
     "time_to_euston": null,
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
-    "time_to_hub__london": 257.0
+    "time_to_hub__london": 35.0
   },
   {
     "station_id": "SW_0077",
@@ -2284,7 +2284,7 @@
     "is_coastal": true,
     "terminus_max": 0,
     "canonical_hub": "London",
-    "canonical_time_to_hub": 18.0,
+    "canonical_time_to_hub": 124.0,
     "welsh_name": null,
     "wordplay_category": "local_suffix",
     "wordplay_difficulty": "medium",
@@ -2298,7 +2298,7 @@
     "time_to_euston": null,
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
-    "time_to_hub__london": 18.0
+    "time_to_hub__london": 124.0
   },
   {
     "station_id": "SW_0080",
@@ -2315,7 +2315,7 @@
     "is_coastal": false,
     "terminus_max": 0,
     "canonical_hub": "London",
-    "canonical_time_to_hub": 83.0,
+    "canonical_time_to_hub": 62.0,
     "welsh_name": null,
     "wordplay_category": "other",
     "wordplay_difficulty": "easy",
@@ -2327,7 +2327,7 @@
     "time_to_euston": null,
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
-    "time_to_hub__london": 83.0
+    "time_to_hub__london": 62.0
   },
   {
     "station_id": "SW_0078",
@@ -2344,7 +2344,7 @@
     "is_coastal": true,
     "terminus_max": 0,
     "canonical_hub": "London",
-    "canonical_time_to_hub": 36.0,
+    "canonical_time_to_hub": 144.0,
     "welsh_name": null,
     "wordplay_category": "local_suffix",
     "wordplay_difficulty": "medium",
@@ -2359,7 +2359,7 @@
     "time_to_euston": null,
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
-    "time_to_hub__london": 36.0
+    "time_to_hub__london": 144.0
   },
   {
     "station_id": "SW_0079",
@@ -2377,7 +2377,7 @@
     "is_coastal": false,
     "terminus_max": 16,
     "canonical_hub": "London",
-    "canonical_time_to_hub": 48.0,
+    "canonical_time_to_hub": 174.0,
     "welsh_name": null,
     "wordplay_category": "local_suffix",
     "wordplay_difficulty": "medium",
@@ -2391,7 +2391,7 @@
     "time_to_euston": null,
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
-    "time_to_hub__london": 48.0
+    "time_to_hub__london": 174.0
   },
   {
     "station_id": "SW_0082",
@@ -2409,7 +2409,7 @@
     "is_coastal": false,
     "terminus_max": 433,
     "canonical_hub": "London",
-    "canonical_time_to_hub": 159.0,
+    "canonical_time_to_hub": 40.0,
     "welsh_name": null,
     "wordplay_category": "other",
     "wordplay_difficulty": "easy",
@@ -2421,7 +2421,7 @@
     "time_to_euston": null,
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
-    "time_to_hub__london": 159.0
+    "time_to_hub__london": 40.0
   },
   {
     "station_id": "SW_0071",
@@ -2438,7 +2438,7 @@
     "is_coastal": false,
     "terminus_max": 106,
     "canonical_hub": "London",
-    "canonical_time_to_hub": 168.0,
+    "canonical_time_to_hub": 57.0,
     "welsh_name": null,
     "wordplay_category": "other",
     "wordplay_difficulty": "easy",
@@ -2450,7 +2450,7 @@
     "time_to_euston": null,
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
-    "time_to_hub__london": 168.0
+    "time_to_hub__london": 57.0
   },
   {
     "station_id": "SW_0081",
@@ -2467,7 +2467,7 @@
     "is_coastal": false,
     "terminus_max": 0,
     "canonical_hub": "London",
-    "canonical_time_to_hub": 170.0,
+    "canonical_time_to_hub": 50.0,
     "welsh_name": null,
     "wordplay_category": "local_suffix",
     "wordplay_difficulty": "medium",
@@ -2482,7 +2482,7 @@
     "time_to_euston": null,
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
-    "time_to_hub__london": 170.0
+    "time_to_hub__london": 50.0
   },
   {
     "station_id": "SW_0076",
@@ -2499,7 +2499,7 @@
     "is_coastal": false,
     "terminus_max": 0,
     "canonical_hub": "London",
-    "canonical_time_to_hub": 104.0,
+    "canonical_time_to_hub": 31.0,
     "welsh_name": null,
     "wordplay_category": "local_suffix",
     "wordplay_difficulty": "medium",
@@ -2515,7 +2515,7 @@
     "time_to_euston": null,
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
-    "time_to_hub__london": 104.0
+    "time_to_hub__london": 31.0
   },
   {
     "station_id": "SW_0083",
@@ -2532,7 +2532,7 @@
     "is_coastal": false,
     "terminus_max": 0,
     "canonical_hub": "London",
-    "canonical_time_to_hub": 152.0,
+    "canonical_time_to_hub": 38.0,
     "welsh_name": null,
     "wordplay_category": "other",
     "wordplay_difficulty": "easy",
@@ -2544,7 +2544,7 @@
     "time_to_euston": null,
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
-    "time_to_hub__london": 152.0
+    "time_to_hub__london": 38.0
   },
   {
     "station_id": "SW_0084",
@@ -2563,7 +2563,7 @@
     "is_coastal": false,
     "terminus_max": 0,
     "canonical_hub": "London",
-    "canonical_time_to_hub": 59.0,
+    "canonical_time_to_hub": 46.0,
     "welsh_name": null,
     "wordplay_category": "local_suffix",
     "wordplay_difficulty": "medium",
@@ -2578,7 +2578,7 @@
     "time_to_euston": null,
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
-    "time_to_hub__london": 59.0
+    "time_to_hub__london": 46.0
   },
   {
     "station_id": "SW_0086",
@@ -2597,7 +2597,7 @@
     "is_coastal": false,
     "terminus_max": 55,
     "canonical_hub": "London",
-    "canonical_time_to_hub": 253.0,
+    "canonical_time_to_hub": 30.0,
     "welsh_name": null,
     "wordplay_category": "local_suffix",
     "wordplay_difficulty": "medium",
@@ -2611,7 +2611,7 @@
     "time_to_euston": null,
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
-    "time_to_hub__london": 253.0
+    "time_to_hub__london": 30.0
   },
   {
     "station_id": "SW_0085",
@@ -2628,7 +2628,7 @@
     "is_coastal": false,
     "terminus_max": 17,
     "canonical_hub": "London",
-    "canonical_time_to_hub": 127.0,
+    "canonical_time_to_hub": 29.0,
     "welsh_name": null,
     "wordplay_category": "local_suffix",
     "wordplay_difficulty": "medium",
@@ -2642,7 +2642,7 @@
     "time_to_euston": null,
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
-    "time_to_hub__london": 127.0
+    "time_to_hub__london": 29.0
   },
   {
     "station_id": "SW_0087",
@@ -2659,7 +2659,7 @@
     "is_coastal": false,
     "terminus_max": 0,
     "canonical_hub": "London",
-    "canonical_time_to_hub": 85.0,
+    "canonical_time_to_hub": 64.0,
     "welsh_name": null,
     "wordplay_category": "other",
     "wordplay_difficulty": "easy",
@@ -2671,7 +2671,7 @@
     "time_to_euston": null,
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
-    "time_to_hub__london": 85.0
+    "time_to_hub__london": 64.0
   },
   {
     "station_id": "SW_0088",
@@ -2688,7 +2688,7 @@
     "is_coastal": false,
     "terminus_max": 0,
     "canonical_hub": "London",
-    "canonical_time_to_hub": 85.0,
+    "canonical_time_to_hub": 71.0,
     "welsh_name": null,
     "wordplay_category": "other",
     "wordplay_difficulty": "easy",
@@ -2700,7 +2700,7 @@
     "time_to_euston": null,
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
-    "time_to_hub__london": 85.0
+    "time_to_hub__london": 71.0
   },
   {
     "station_id": "SW_0090",
@@ -2709,6 +2709,161 @@
     "name_letter_count": 9,
     "crs": "LNG",
     "region": "Runnymede",
+    "operator": "South Western",
+    "route": [
+      "Waterloo to Reading Line"
+    ],
+    "is_interchange": false,
+    "is_coastal": false,
+    "terminus_max": 0,
+    "canonical_hub": "London",
+    "canonical_time_to_hub": 50.0,
+    "welsh_name": null,
+    "wordplay_category": "other",
+    "wordplay_difficulty": "easy",
+    "wordplay_score": 0,
+    "wordplay_tags": [],
+    "time_to_glasgow_central": null,
+    "time_to_victoria": null,
+    "time_to_charing_cross": null,
+    "time_to_euston": null,
+    "time_to_liverpool_street": null,
+    "time_to_stratford": null,
+    "time_to_hub__london": 50.0
+  },
+  {
+    "station_id": "SW_0089",
+    "station_name": "London Road (Guildford)",
+    "name_word_count": 2,
+    "name_letter_count": 19,
+    "crs": "LRD",
+    "region": "Guildford",
+    "operator": "South Western",
+    "route": [
+      "New Guildford Line"
+    ],
+    "is_interchange": false,
+    "is_coastal": false,
+    "terminus_max": 0,
+    "canonical_hub": "London",
+    "canonical_time_to_hub": 60.0,
+    "welsh_name": null,
+    "wordplay_category": "structure",
+    "wordplay_difficulty": "hard",
+    "wordplay_score": 3,
+    "wordplay_tags": [
+      "brackets",
+      "don",
+      "ford"
+    ],
+    "time_to_glasgow_central": null,
+    "time_to_victoria": null,
+    "time_to_charing_cross": null,
+    "time_to_euston": null,
+    "time_to_liverpool_street": null,
+    "time_to_stratford": null,
+    "time_to_hub__london": 60.0
+  },
+  {
+    "station_id": "SW_0091",
+    "station_name": "Lymington Pier",
+    "name_word_count": 2,
+    "name_letter_count": 13,
+    "crs": "LYP",
+    "region": "New Forest",
+    "operator": "South Western",
+    "route": [
+      "Lymington Branch Line"
+    ],
+    "is_interchange": false,
+    "is_coastal": true,
+    "terminus_max": 99,
+    "canonical_hub": "London",
+    "canonical_time_to_hub": 142.0,
+    "welsh_name": null,
+    "wordplay_category": "local_suffix",
+    "wordplay_difficulty": "medium",
+    "wordplay_score": 2,
+    "wordplay_tags": [
+      "ton",
+      "ington"
+    ],
+    "time_to_glasgow_central": null,
+    "time_to_victoria": null,
+    "time_to_charing_cross": null,
+    "time_to_euston": null,
+    "time_to_liverpool_street": null,
+    "time_to_stratford": null,
+    "time_to_hub__london": 142.0
+  },
+  {
+    "station_id": "SW_0092",
+    "station_name": "Lymington Town",
+    "name_word_count": 2,
+    "name_letter_count": 13,
+    "crs": "LYT",
+    "region": "New Forest",
+    "operator": "South Western",
+    "route": [
+      "Lymington Branch Line"
+    ],
+    "is_interchange": false,
+    "is_coastal": true,
+    "terminus_max": 0,
+    "canonical_hub": "London",
+    "canonical_time_to_hub": 140.0,
+    "welsh_name": null,
+    "wordplay_category": "local_suffix",
+    "wordplay_difficulty": "medium",
+    "wordplay_score": 2,
+    "wordplay_tags": [
+      "ton",
+      "ington"
+    ],
+    "time_to_glasgow_central": null,
+    "time_to_victoria": null,
+    "time_to_charing_cross": null,
+    "time_to_euston": null,
+    "time_to_liverpool_street": null,
+    "time_to_stratford": null,
+    "time_to_hub__london": 140.0
+  },
+  {
+    "station_id": "SW_0093",
+    "station_name": "Malden Manor",
+    "name_word_count": 2,
+    "name_letter_count": 11,
+    "crs": "MAL",
+    "region": "South West London",
+    "operator": "South Western",
+    "route": [
+      "Chessington Branch"
+    ],
+    "is_interchange": false,
+    "is_coastal": false,
+    "terminus_max": 0,
+    "canonical_hub": "London",
+    "canonical_time_to_hub": 28.0,
+    "welsh_name": null,
+    "wordplay_category": "other",
+    "wordplay_difficulty": "easy",
+    "wordplay_score": 0,
+    "wordplay_tags": [],
+    "time_to_glasgow_central": null,
+    "time_to_victoria": null,
+    "time_to_charing_cross": null,
+    "time_to_euston": null,
+    "time_to_liverpool_street": null,
+    "time_to_stratford": null,
+    "time_to_hub__london": 28.0
+  },
+  {
+    "station_id": "SW_0094",
+    "station_name": "Martins Heron",
+    "name_word_count": 2,
+    "name_letter_count": 12,
+    "crs": "MAO",
+    "region": "Bracknell Forest",
     "operator": "South Western",
     "route": [
       "Waterloo to Reading Line"
@@ -2732,161 +2887,6 @@
     "time_to_hub__london": 62.0
   },
   {
-    "station_id": "SW_0089",
-    "station_name": "London Road (Guildford)",
-    "name_word_count": 2,
-    "name_letter_count": 19,
-    "crs": "LRD",
-    "region": "Guildford",
-    "operator": "South Western",
-    "route": [
-      "New Guildford Line"
-    ],
-    "is_interchange": false,
-    "is_coastal": false,
-    "terminus_max": 0,
-    "canonical_hub": "London",
-    "canonical_time_to_hub": 170.0,
-    "welsh_name": null,
-    "wordplay_category": "structure",
-    "wordplay_difficulty": "hard",
-    "wordplay_score": 3,
-    "wordplay_tags": [
-      "brackets",
-      "don",
-      "ford"
-    ],
-    "time_to_glasgow_central": null,
-    "time_to_victoria": null,
-    "time_to_charing_cross": null,
-    "time_to_euston": null,
-    "time_to_liverpool_street": null,
-    "time_to_stratford": null,
-    "time_to_hub__london": 170.0
-  },
-  {
-    "station_id": "SW_0091",
-    "station_name": "Lymington Pier",
-    "name_word_count": 2,
-    "name_letter_count": 13,
-    "crs": "LYP",
-    "region": "New Forest",
-    "operator": "South Western",
-    "route": [
-      "Lymington Branch Line"
-    ],
-    "is_interchange": false,
-    "is_coastal": true,
-    "terminus_max": 99,
-    "canonical_hub": "London",
-    "canonical_time_to_hub": 60.0,
-    "welsh_name": null,
-    "wordplay_category": "local_suffix",
-    "wordplay_difficulty": "medium",
-    "wordplay_score": 2,
-    "wordplay_tags": [
-      "ton",
-      "ington"
-    ],
-    "time_to_glasgow_central": null,
-    "time_to_victoria": null,
-    "time_to_charing_cross": null,
-    "time_to_euston": null,
-    "time_to_liverpool_street": null,
-    "time_to_stratford": null,
-    "time_to_hub__london": 60.0
-  },
-  {
-    "station_id": "SW_0092",
-    "station_name": "Lymington Town",
-    "name_word_count": 2,
-    "name_letter_count": 13,
-    "crs": "LYT",
-    "region": "New Forest",
-    "operator": "South Western",
-    "route": [
-      "Lymington Branch Line"
-    ],
-    "is_interchange": false,
-    "is_coastal": true,
-    "terminus_max": 0,
-    "canonical_hub": "London",
-    "canonical_time_to_hub": 60.0,
-    "welsh_name": null,
-    "wordplay_category": "local_suffix",
-    "wordplay_difficulty": "medium",
-    "wordplay_score": 2,
-    "wordplay_tags": [
-      "ton",
-      "ington"
-    ],
-    "time_to_glasgow_central": null,
-    "time_to_victoria": null,
-    "time_to_charing_cross": null,
-    "time_to_euston": null,
-    "time_to_liverpool_street": null,
-    "time_to_stratford": null,
-    "time_to_hub__london": 60.0
-  },
-  {
-    "station_id": "SW_0093",
-    "station_name": "Malden Manor",
-    "name_word_count": 2,
-    "name_letter_count": 11,
-    "crs": "MAL",
-    "region": "South West London",
-    "operator": "South Western",
-    "route": [
-      "Chessington Branch"
-    ],
-    "is_interchange": false,
-    "is_coastal": false,
-    "terminus_max": 0,
-    "canonical_hub": "London",
-    "canonical_time_to_hub": 66.0,
-    "welsh_name": null,
-    "wordplay_category": "other",
-    "wordplay_difficulty": "easy",
-    "wordplay_score": 0,
-    "wordplay_tags": [],
-    "time_to_glasgow_central": null,
-    "time_to_victoria": null,
-    "time_to_charing_cross": null,
-    "time_to_euston": null,
-    "time_to_liverpool_street": null,
-    "time_to_stratford": null,
-    "time_to_hub__london": 66.0
-  },
-  {
-    "station_id": "SW_0094",
-    "station_name": "Martins Heron",
-    "name_word_count": 2,
-    "name_letter_count": 12,
-    "crs": "MAO",
-    "region": "Bracknell Forest",
-    "operator": "South Western",
-    "route": [
-      "Waterloo to Reading Line"
-    ],
-    "is_interchange": false,
-    "is_coastal": false,
-    "terminus_max": 0,
-    "canonical_hub": "London",
-    "canonical_time_to_hub": 81.0,
-    "welsh_name": null,
-    "wordplay_category": "other",
-    "wordplay_difficulty": "easy",
-    "wordplay_score": 0,
-    "wordplay_tags": [],
-    "time_to_glasgow_central": null,
-    "time_to_victoria": null,
-    "time_to_charing_cross": null,
-    "time_to_euston": null,
-    "time_to_liverpool_street": null,
-    "time_to_stratford": null,
-    "time_to_hub__london": 81.0
-  },
-  {
     "station_id": "SW_0097",
     "station_name": "Millbrook (Hants)",
     "name_word_count": 1,
@@ -2901,7 +2901,7 @@
     "is_coastal": true,
     "terminus_max": 0,
     "canonical_hub": "London",
-    "canonical_time_to_hub": 71.0,
+    "canonical_time_to_hub": 108.0,
     "welsh_name": null,
     "wordplay_category": "structure",
     "wordplay_difficulty": "hard",
@@ -2915,7 +2915,7 @@
     "time_to_euston": null,
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
-    "time_to_hub__london": 71.0
+    "time_to_hub__london": 108.0
   },
   {
     "station_id": "SW_0095",
@@ -2932,7 +2932,7 @@
     "is_coastal": false,
     "terminus_max": 0,
     "canonical_hub": "London",
-    "canonical_time_to_hub": 143.0,
+    "canonical_time_to_hub": 56.0,
     "welsh_name": null,
     "wordplay_category": "other",
     "wordplay_difficulty": "easy",
@@ -2944,7 +2944,7 @@
     "time_to_euston": null,
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
-    "time_to_hub__london": 143.0
+    "time_to_hub__london": 56.0
   },
   {
     "station_id": "SW_0096",
@@ -2961,7 +2961,7 @@
     "is_coastal": false,
     "terminus_max": 0,
     "canonical_hub": "London",
-    "canonical_time_to_hub": 63.0,
+    "canonical_time_to_hub": 53.0,
     "welsh_name": null,
     "wordplay_category": "structure",
     "wordplay_difficulty": "hard",
@@ -2977,7 +2977,7 @@
     "time_to_euston": null,
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
-    "time_to_hub__london": 63.0
+    "time_to_hub__london": 53.0
   },
   {
     "station_id": "SW_0100",
@@ -2995,7 +2995,7 @@
     "is_coastal": false,
     "terminus_max": 0,
     "canonical_hub": "London",
-    "canonical_time_to_hub": 191.0,
+    "canonical_time_to_hub": 24.0,
     "welsh_name": null,
     "wordplay_category": "nature",
     "wordplay_difficulty": "medium",
@@ -3009,7 +3009,7 @@
     "time_to_euston": null,
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
-    "time_to_hub__london": 191.0
+    "time_to_hub__london": 24.0
   },
   {
     "station_id": "SW_0099",
@@ -3028,7 +3028,7 @@
     "is_coastal": false,
     "terminus_max": 0,
     "canonical_hub": "London",
-    "canonical_time_to_hub": 123.0,
+    "canonical_time_to_hub": 22.0,
     "welsh_name": null,
     "wordplay_category": "other",
     "wordplay_difficulty": "easy",
@@ -3040,7 +3040,7 @@
     "time_to_euston": null,
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
-    "time_to_hub__london": 123.0
+    "time_to_hub__london": 22.0
   },
   {
     "station_id": "SW_0098",
@@ -3057,7 +3057,7 @@
     "is_coastal": false,
     "terminus_max": 0,
     "canonical_hub": "London",
-    "canonical_time_to_hub": 78.0,
+    "canonical_time_to_hub": 160.0,
     "welsh_name": null,
     "wordplay_category": "structure",
     "wordplay_difficulty": "hard",
@@ -3072,7 +3072,7 @@
     "time_to_euston": null,
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
-    "time_to_hub__london": 78.0
+    "time_to_hub__london": 160.0
   },
   {
     "station_id": "SW_0105",
@@ -3091,7 +3091,7 @@
     "is_coastal": false,
     "terminus_max": 0,
     "canonical_hub": "London",
-    "canonical_time_to_hub": 178.0,
+    "canonical_time_to_hub": 28.0,
     "welsh_name": null,
     "wordplay_category": "local_suffix",
     "wordplay_difficulty": "medium",
@@ -3105,7 +3105,7 @@
     "time_to_euston": null,
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
-    "time_to_hub__london": 178.0
+    "time_to_hub__london": 28.0
   },
   {
     "station_id": "SW_0103",
@@ -3128,7 +3128,7 @@
     "is_coastal": false,
     "terminus_max": 0,
     "canonical_hub": "London",
-    "canonical_time_to_hub": 1055.0,
+    "canonical_time_to_hub": 17.0,
     "welsh_name": null,
     "wordplay_category": "other",
     "wordplay_difficulty": "easy",
@@ -3140,7 +3140,7 @@
     "time_to_euston": null,
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
-    "time_to_hub__london": 1055.0
+    "time_to_hub__london": 17.0
   },
   {
     "station_id": "SW_0106",
@@ -3159,7 +3159,7 @@
     "is_coastal": false,
     "terminus_max": 0,
     "canonical_hub": "London",
-    "canonical_time_to_hub": 123.0,
+    "canonical_time_to_hub": 25.0,
     "welsh_name": null,
     "wordplay_category": "other",
     "wordplay_difficulty": "easy",
@@ -3171,7 +3171,7 @@
     "time_to_euston": null,
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
-    "time_to_hub__london": 123.0
+    "time_to_hub__london": 25.0
   },
   {
     "station_id": "SW_0102",
@@ -3188,7 +3188,7 @@
     "is_coastal": true,
     "terminus_max": 0,
     "canonical_hub": "London",
-    "canonical_time_to_hub": 3.0,
+    "canonical_time_to_hub": 124.0,
     "welsh_name": null,
     "wordplay_category": "local_suffix",
     "wordplay_difficulty": "medium",
@@ -3203,7 +3203,7 @@
     "time_to_euston": null,
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
-    "time_to_hub__london": 3.0
+    "time_to_hub__london": 124.0
   },
   {
     "station_id": "SW_0104",
@@ -3220,7 +3220,7 @@
     "is_coastal": false,
     "terminus_max": 0,
     "canonical_hub": "London",
-    "canonical_time_to_hub": 60.0,
+    "canonical_time_to_hub": 106.0,
     "welsh_name": null,
     "wordplay_category": "local_suffix",
     "wordplay_difficulty": "medium",
@@ -3234,7 +3234,7 @@
     "time_to_euston": null,
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
-    "time_to_hub__london": 60.0
+    "time_to_hub__london": 106.0
   },
   {
     "station_id": "SW_0107",
@@ -3251,7 +3251,7 @@
     "is_coastal": false,
     "terminus_max": 0,
     "canonical_hub": "London",
-    "canonical_time_to_hub": 81.0,
+    "canonical_time_to_hub": 58.0,
     "welsh_name": null,
     "wordplay_category": "local_suffix",
     "wordplay_difficulty": "medium",
@@ -3265,7 +3265,7 @@
     "time_to_euston": null,
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
-    "time_to_hub__london": 81.0
+    "time_to_hub__london": 58.0
   },
   {
     "station_id": "SW_0108",
@@ -3282,7 +3282,7 @@
     "is_coastal": false,
     "terminus_max": 0,
     "canonical_hub": "London",
-    "canonical_time_to_hub": 104.0,
+    "canonical_time_to_hub": 37.0,
     "welsh_name": null,
     "wordplay_category": "other",
     "wordplay_difficulty": "easy",
@@ -3294,7 +3294,7 @@
     "time_to_euston": null,
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
-    "time_to_hub__london": 104.0
+    "time_to_hub__london": 37.0
   },
   {
     "station_id": "SW_0111",
@@ -3312,7 +3312,7 @@
     "is_coastal": false,
     "terminus_max": 0,
     "canonical_hub": "London",
-    "canonical_time_to_hub": 46.0,
+    "canonical_time_to_hub": 194.0,
     "welsh_name": null,
     "wordplay_category": "other",
     "wordplay_difficulty": "easy",
@@ -3324,7 +3324,7 @@
     "time_to_euston": null,
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
-    "time_to_hub__london": 46.0
+    "time_to_hub__london": 194.0
   },
   {
     "station_id": "SW_0109",
@@ -3341,7 +3341,7 @@
     "is_coastal": true,
     "terminus_max": 0,
     "canonical_hub": "London",
-    "canonical_time_to_hub": 60.0,
+    "canonical_time_to_hub": 126.0,
     "welsh_name": null,
     "wordplay_category": "structure",
     "wordplay_difficulty": "hard",
@@ -3356,7 +3356,7 @@
     "time_to_euston": null,
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
-    "time_to_hub__london": 60.0
+    "time_to_hub__london": 126.0
   },
   {
     "station_id": "SW_0116",
@@ -3374,7 +3374,7 @@
     "is_coastal": true,
     "terminus_max": 1076,
     "canonical_hub": "London",
-    "canonical_time_to_hub": 151.0,
+    "canonical_time_to_hub": 111.0,
     "welsh_name": null,
     "wordplay_category": "other",
     "wordplay_difficulty": "easy",
@@ -3386,7 +3386,7 @@
     "time_to_euston": null,
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
-    "time_to_hub__london": 151.0
+    "time_to_hub__london": 111.0
   },
   {
     "station_id": "SW_0115",
@@ -3404,7 +3404,7 @@
     "is_coastal": true,
     "terminus_max": 317,
     "canonical_hub": "London",
-    "canonical_time_to_hub": 162.0,
+    "canonical_time_to_hub": 108.0,
     "welsh_name": null,
     "wordplay_category": "structure",
     "wordplay_difficulty": "hard",
@@ -3418,7 +3418,7 @@
     "time_to_euston": null,
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
-    "time_to_hub__london": 162.0
+    "time_to_hub__london": 108.0
   },
   {
     "station_id": "SW_0112",
@@ -3435,7 +3435,7 @@
     "is_coastal": true,
     "terminus_max": 0,
     "canonical_hub": "London",
-    "canonical_time_to_hub": 60.0,
+    "canonical_time_to_hub": 117.0,
     "welsh_name": null,
     "wordplay_category": "other",
     "wordplay_difficulty": "easy",
@@ -3447,7 +3447,7 @@
     "time_to_euston": null,
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
-    "time_to_hub__london": 60.0
+    "time_to_hub__london": 117.0
   },
   {
     "station_id": "SW_0113",
@@ -3464,7 +3464,7 @@
     "is_coastal": true,
     "terminus_max": 220,
     "canonical_hub": "London",
-    "canonical_time_to_hub": 96.0,
+    "canonical_time_to_hub": 133.0,
     "welsh_name": null,
     "wordplay_category": "other",
     "wordplay_difficulty": "easy",
@@ -3476,7 +3476,7 @@
     "time_to_euston": null,
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
-    "time_to_hub__london": 96.0
+    "time_to_hub__london": 133.0
   },
   {
     "station_id": "SW_0114",
@@ -3494,7 +3494,7 @@
     "is_coastal": true,
     "terminus_max": 0,
     "canonical_hub": "London",
-    "canonical_time_to_hub": 47.0,
+    "canonical_time_to_hub": 107.0,
     "welsh_name": null,
     "wordplay_category": "other",
     "wordplay_difficulty": "easy",
@@ -3506,7 +3506,7 @@
     "time_to_euston": null,
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
-    "time_to_hub__london": 47.0
+    "time_to_hub__london": 107.0
   },
   {
     "station_id": "SW_0110",
@@ -3523,7 +3523,7 @@
     "is_coastal": false,
     "terminus_max": 104,
     "canonical_hub": "London",
-    "canonical_time_to_hub": 142.0,
+    "canonical_time_to_hub": 73.0,
     "welsh_name": null,
     "wordplay_category": "other",
     "wordplay_difficulty": "easy",
@@ -3535,7 +3535,7 @@
     "time_to_euston": null,
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
-    "time_to_hub__london": 142.0
+    "time_to_hub__london": 73.0
   },
   {
     "station_id": "SW_0117",
@@ -3555,7 +3555,7 @@
     "is_coastal": false,
     "terminus_max": 0,
     "canonical_hub": "London",
-    "canonical_time_to_hub": 304.0,
+    "canonical_time_to_hub": 16.0,
     "welsh_name": null,
     "wordplay_category": "local_suffix",
     "wordplay_difficulty": "medium",
@@ -3569,7 +3569,7 @@
     "time_to_euston": null,
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
-    "time_to_hub__london": 304.0
+    "time_to_hub__london": 16.0
   },
   {
     "station_id": "SW_0118",
@@ -3589,7 +3589,7 @@
     "is_coastal": false,
     "terminus_max": 0,
     "canonical_hub": "London",
-    "canonical_time_to_hub": 425.0,
+    "canonical_time_to_hub": 8.0,
     "welsh_name": null,
     "wordplay_category": "structure",
     "wordplay_difficulty": "hard",
@@ -3603,7 +3603,7 @@
     "time_to_euston": null,
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
-    "time_to_hub__london": 425.0
+    "time_to_hub__london": 8.0
   },
   {
     "station_id": "SW_0119",
@@ -3625,7 +3625,7 @@
     "is_coastal": false,
     "terminus_max": 0,
     "canonical_hub": "London",
-    "canonical_time_to_hub": 669.0,
+    "canonical_time_to_hub": 21.0,
     "welsh_name": null,
     "wordplay_category": "nature",
     "wordplay_difficulty": "medium",
@@ -3639,7 +3639,7 @@
     "time_to_euston": null,
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
-    "time_to_hub__london": 669.0
+    "time_to_hub__london": 21.0
   },
   {
     "station_id": "SW_0120",
@@ -3656,7 +3656,7 @@
     "is_coastal": true,
     "terminus_max": 0,
     "canonical_hub": "London",
-    "canonical_time_to_hub": 99.0,
+    "canonical_time_to_hub": 86.0,
     "welsh_name": null,
     "wordplay_category": "local_suffix",
     "wordplay_difficulty": "medium",
@@ -3670,7 +3670,7 @@
     "time_to_euston": null,
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
-    "time_to_hub__london": 99.0
+    "time_to_hub__london": 86.0
   },
   {
     "station_id": "SW_0123",
@@ -3687,7 +3687,7 @@
     "is_coastal": false,
     "terminus_max": 0,
     "canonical_hub": "London",
-    "canonical_time_to_hub": 66.0,
+    "canonical_time_to_hub": 86.0,
     "welsh_name": null,
     "wordplay_category": "other",
     "wordplay_difficulty": "easy",
@@ -3699,7 +3699,7 @@
     "time_to_euston": null,
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
-    "time_to_hub__london": 66.0
+    "time_to_hub__london": 86.0
   },
   {
     "station_id": "SW_0121",
@@ -3719,7 +3719,7 @@
     "is_coastal": false,
     "terminus_max": 38,
     "canonical_hub": "London",
-    "canonical_time_to_hub": 339.0,
+    "canonical_time_to_hub": 21.0,
     "welsh_name": null,
     "wordplay_category": "structure",
     "wordplay_difficulty": "hard",
@@ -3734,7 +3734,7 @@
     "time_to_euston": null,
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
-    "time_to_hub__london": 339.0
+    "time_to_hub__london": 21.0
   },
   {
     "station_id": "SW_0122",
@@ -3751,7 +3751,7 @@
     "is_coastal": false,
     "terminus_max": 45,
     "canonical_hub": "London",
-    "canonical_time_to_hub": 236.0,
+    "canonical_time_to_hub": 120.0,
     "welsh_name": null,
     "wordplay_category": "local_suffix",
     "wordplay_difficulty": "medium",
@@ -3765,7 +3765,7 @@
     "time_to_euston": null,
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
-    "time_to_hub__london": 236.0
+    "time_to_hub__london": 120.0
   },
   {
     "station_id": "SW_0124",
@@ -3782,7 +3782,7 @@
     "is_coastal": false,
     "terminus_max": 259,
     "canonical_hub": "London",
-    "canonical_time_to_hub": 81.0,
+    "canonical_time_to_hub": 88.0,
     "welsh_name": null,
     "wordplay_category": "other",
     "wordplay_difficulty": "easy",
@@ -3794,7 +3794,7 @@
     "time_to_euston": null,
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
-    "time_to_hub__london": 81.0
+    "time_to_hub__london": 88.0
   },
   {
     "station_id": "SW_0127",
@@ -3812,7 +3812,7 @@
     "is_coastal": false,
     "terminus_max": 0,
     "canonical_hub": "London",
-    "canonical_time_to_hub": 55.0,
+    "canonical_time_to_hub": 134.0,
     "welsh_name": null,
     "wordplay_category": "other",
     "wordplay_difficulty": "easy",
@@ -3824,7 +3824,7 @@
     "time_to_euston": null,
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
-    "time_to_hub__london": 55.0
+    "time_to_hub__london": 134.0
   },
   {
     "station_id": "SW_0128",
@@ -3841,7 +3841,7 @@
     "is_coastal": true,
     "terminus_max": 0,
     "canonical_hub": "London",
-    "canonical_time_to_hub": 235.0,
+    "canonical_time_to_hub": 116.0,
     "welsh_name": null,
     "wordplay_category": "other",
     "wordplay_difficulty": "easy",
@@ -3853,7 +3853,7 @@
     "time_to_euston": null,
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
-    "time_to_hub__london": 235.0
+    "time_to_hub__london": 116.0
   },
   {
     "station_id": "SW_0126",
@@ -3872,7 +3872,7 @@
     "is_coastal": false,
     "terminus_max": 261,
     "canonical_hub": "London",
-    "canonical_time_to_hub": 111.0,
+    "canonical_time_to_hub": 53.0,
     "welsh_name": null,
     "wordplay_category": "local_suffix",
     "wordplay_difficulty": "medium",
@@ -3886,7 +3886,7 @@
     "time_to_euston": null,
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
-    "time_to_hub__london": 111.0
+    "time_to_hub__london": 53.0
   },
   {
     "station_id": "SW_0125",
@@ -3903,7 +3903,7 @@
     "is_coastal": false,
     "terminus_max": 0,
     "canonical_hub": "London",
-    "canonical_time_to_hub": 22.0,
+    "canonical_time_to_hub": 84.0,
     "welsh_name": null,
     "wordplay_category": "local_suffix",
     "wordplay_difficulty": "medium",
@@ -3917,7 +3917,7 @@
     "time_to_euston": null,
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
-    "time_to_hub__london": 22.0
+    "time_to_hub__london": 84.0
   },
   {
     "station_id": "SW_0132",
@@ -3937,7 +3937,7 @@
     "is_coastal": false,
     "terminus_max": 0,
     "canonical_hub": "London",
-    "canonical_time_to_hub": 341.0,
+    "canonical_time_to_hub": 24.0,
     "welsh_name": null,
     "wordplay_category": "structure",
     "wordplay_difficulty": "hard",
@@ -3953,7 +3953,7 @@
     "time_to_euston": null,
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
-    "time_to_hub__london": 341.0
+    "time_to_hub__london": 24.0
   },
   {
     "station_id": "SW_0137",
@@ -3970,7 +3970,7 @@
     "is_coastal": false,
     "terminus_max": 0,
     "canonical_hub": "London",
-    "canonical_time_to_hub": 89.0,
+    "canonical_time_to_hub": 54.0,
     "welsh_name": null,
     "wordplay_category": "other",
     "wordplay_difficulty": "easy",
@@ -3982,7 +3982,7 @@
     "time_to_euston": null,
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
-    "time_to_hub__london": 89.0
+    "time_to_hub__london": 54.0
   },
   {
     "station_id": "SW_0134",
@@ -3999,7 +3999,7 @@
     "is_coastal": false,
     "terminus_max": 0,
     "canonical_hub": "London",
-    "canonical_time_to_hub": 125.0,
+    "canonical_time_to_hub": 31.0,
     "welsh_name": null,
     "wordplay_category": "other",
     "wordplay_difficulty": "easy",
@@ -4011,7 +4011,7 @@
     "time_to_euston": null,
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
-    "time_to_hub__london": 125.0
+    "time_to_hub__london": 31.0
   },
   {
     "station_id": "SW_0133",
@@ -4030,7 +4030,7 @@
     "is_coastal": false,
     "terminus_max": 152,
     "canonical_hub": "London",
-    "canonical_time_to_hub": 288.0,
+    "canonical_time_to_hub": 41.0,
     "welsh_name": null,
     "wordplay_category": "other",
     "wordplay_difficulty": "easy",
@@ -4042,7 +4042,7 @@
     "time_to_euston": null,
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
-    "time_to_hub__london": 288.0
+    "time_to_hub__london": 41.0
   },
   {
     "station_id": "SW_0140",
@@ -4059,7 +4059,7 @@
     "is_coastal": false,
     "terminus_max": 0,
     "canonical_hub": "London",
-    "canonical_time_to_hub": 3.0,
+    "canonical_time_to_hub": 118.0,
     "welsh_name": null,
     "wordplay_category": "other",
     "wordplay_difficulty": "easy",
@@ -4071,7 +4071,7 @@
     "time_to_euston": null,
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
-    "time_to_hub__london": 3.0
+    "time_to_hub__london": 118.0
   },
   {
     "station_id": "SW_0138",
@@ -4088,7 +4088,7 @@
     "is_coastal": false,
     "terminus_max": 0,
     "canonical_hub": "London",
-    "canonical_time_to_hub": 115.0,
+    "canonical_time_to_hub": 50.0,
     "welsh_name": null,
     "wordplay_category": "other",
     "wordplay_difficulty": "easy",
@@ -4100,7 +4100,7 @@
     "time_to_euston": null,
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
-    "time_to_hub__london": 115.0
+    "time_to_hub__london": 50.0
   },
   {
     "station_id": "SW_0129",
@@ -4117,7 +4117,7 @@
     "is_coastal": true,
     "terminus_max": 32,
     "canonical_hub": "London",
-    "canonical_time_to_hub": 106.0,
+    "canonical_time_to_hub": 72.0,
     "welsh_name": null,
     "wordplay_category": "local_suffix",
     "wordplay_difficulty": "medium",
@@ -4132,7 +4132,7 @@
     "time_to_euston": null,
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
-    "time_to_hub__london": 106.0
+    "time_to_hub__london": 72.0
   },
   {
     "station_id": "SW_0130",
@@ -4149,7 +4149,7 @@
     "is_coastal": true,
     "terminus_max": 542,
     "canonical_hub": "London",
-    "canonical_time_to_hub": 106.0,
+    "canonical_time_to_hub": 80.0,
     "welsh_name": null,
     "wordplay_category": "local_suffix",
     "wordplay_difficulty": "medium",
@@ -4163,7 +4163,7 @@
     "time_to_euston": null,
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
-    "time_to_hub__london": 106.0
+    "time_to_hub__london": 80.0
   },
   {
     "station_id": "SW_0135",
@@ -4182,7 +4182,7 @@
     "is_coastal": false,
     "terminus_max": 14,
     "canonical_hub": "London",
-    "canonical_time_to_hub": 171.0,
+    "canonical_time_to_hub": 38.0,
     "welsh_name": null,
     "wordplay_category": "nature",
     "wordplay_difficulty": "medium",
@@ -4196,7 +4196,7 @@
     "time_to_euston": null,
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
-    "time_to_hub__london": 171.0
+    "time_to_hub__london": 38.0
   },
   {
     "station_id": "SW_0139",
@@ -4216,7 +4216,7 @@
     "is_coastal": false,
     "terminus_max": 113,
     "canonical_hub": "London",
-    "canonical_time_to_hub": 877.0,
+    "canonical_time_to_hub": 20.0,
     "welsh_name": null,
     "wordplay_category": "local_suffix",
     "wordplay_difficulty": "medium",
@@ -4230,7 +4230,7 @@
     "time_to_euston": null,
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
-    "time_to_hub__london": 877.0
+    "time_to_hub__london": 20.0
   },
   {
     "station_id": "SW_0136",
@@ -4249,7 +4249,7 @@
     "is_coastal": false,
     "terminus_max": 0,
     "canonical_hub": "London",
-    "canonical_time_to_hub": 108.0,
+    "canonical_time_to_hub": 48.0,
     "welsh_name": null,
     "wordplay_category": "other",
     "wordplay_difficulty": "easy",
@@ -4261,7 +4261,7 @@
     "time_to_euston": null,
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
-    "time_to_hub__london": 108.0
+    "time_to_hub__london": 48.0
   },
   {
     "station_id": "SW_0142",
@@ -4278,7 +4278,7 @@
     "is_coastal": true,
     "terminus_max": 0,
     "canonical_hub": "London",
-    "canonical_time_to_hub": 7.0,
+    "canonical_time_to_hub": 104.0,
     "welsh_name": null,
     "wordplay_category": "other",
     "wordplay_difficulty": "easy",
@@ -4290,7 +4290,7 @@
     "time_to_euston": null,
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
-    "time_to_hub__london": 7.0
+    "time_to_hub__london": 104.0
   },
   {
     "station_id": "SW_0141",
@@ -4307,7 +4307,7 @@
     "is_coastal": false,
     "terminus_max": 0,
     "canonical_hub": "London",
-    "canonical_time_to_hub": 18.0,
+    "canonical_time_to_hub": 116.0,
     "welsh_name": null,
     "wordplay_category": "other",
     "wordplay_difficulty": "easy",
@@ -4319,7 +4319,7 @@
     "time_to_euston": null,
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
-    "time_to_hub__london": 18.0
+    "time_to_hub__london": 116.0
   },
   {
     "station_id": "SW_0143",
@@ -4336,7 +4336,7 @@
     "is_coastal": false,
     "terminus_max": 0,
     "canonical_hub": "London",
-    "canonical_time_to_hub": 149.0,
+    "canonical_time_to_hub": 36.0,
     "welsh_name": null,
     "wordplay_category": "other",
     "wordplay_difficulty": "easy",
@@ -4348,7 +4348,7 @@
     "time_to_euston": null,
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
-    "time_to_hub__london": 149.0
+    "time_to_hub__london": 36.0
   },
   {
     "station_id": "SW_0144",
@@ -4367,7 +4367,7 @@
     "is_coastal": false,
     "terminus_max": 1,
     "canonical_hub": "London",
-    "canonical_time_to_hub": 259.0,
+    "canonical_time_to_hub": 38.0,
     "welsh_name": null,
     "wordplay_category": "local_suffix",
     "wordplay_difficulty": "medium",
@@ -4382,7 +4382,7 @@
     "time_to_euston": null,
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
-    "time_to_hub__london": 259.0
+    "time_to_hub__london": 38.0
   },
   {
     "station_id": "SW_0146",
@@ -4399,7 +4399,7 @@
     "is_coastal": false,
     "terminus_max": 0,
     "canonical_hub": "London",
-    "canonical_time_to_hub": 107.0,
+    "canonical_time_to_hub": 36.0,
     "welsh_name": null,
     "wordplay_category": "local_suffix",
     "wordplay_difficulty": "medium",
@@ -4413,7 +4413,7 @@
     "time_to_euston": null,
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
-    "time_to_hub__london": 107.0
+    "time_to_hub__london": 36.0
   },
   {
     "station_id": "SW_0147",
@@ -4430,7 +4430,7 @@
     "is_coastal": false,
     "terminus_max": 0,
     "canonical_hub": "London",
-    "canonical_time_to_hub": 55.0,
+    "canonical_time_to_hub": 108.0,
     "welsh_name": null,
     "wordplay_category": "other",
     "wordplay_difficulty": "easy",
@@ -4442,7 +4442,7 @@
     "time_to_euston": null,
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
-    "time_to_hub__london": 55.0
+    "time_to_hub__london": 108.0
   },
   {
     "station_id": "SW_0145",
@@ -4460,7 +4460,7 @@
     "is_coastal": false,
     "terminus_max": 21,
     "canonical_hub": "London",
-    "canonical_time_to_hub": 55.0,
+    "canonical_time_to_hub": 126.0,
     "welsh_name": null,
     "wordplay_category": "other",
     "wordplay_difficulty": "easy",
@@ -4472,7 +4472,7 @@
     "time_to_euston": null,
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
-    "time_to_hub__london": 55.0
+    "time_to_hub__london": 126.0
   },
   {
     "station_id": "SW_0148",
@@ -4489,7 +4489,7 @@
     "is_coastal": false,
     "terminus_max": 0,
     "canonical_hub": "London",
-    "canonical_time_to_hub": 66.0,
+    "canonical_time_to_hub": 31.0,
     "welsh_name": null,
     "wordplay_category": "other",
     "wordplay_difficulty": "easy",
@@ -4501,7 +4501,7 @@
     "time_to_euston": null,
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
-    "time_to_hub__london": 66.0
+    "time_to_hub__london": 31.0
   },
   {
     "station_id": "SW_0149",
@@ -4518,7 +4518,7 @@
     "is_coastal": true,
     "terminus_max": 0,
     "canonical_hub": "London",
-    "canonical_time_to_hub": 99.0,
+    "canonical_time_to_hub": 86.0,
     "welsh_name": null,
     "wordplay_category": "local_suffix",
     "wordplay_difficulty": "medium",
@@ -4532,7 +4532,7 @@
     "time_to_euston": null,
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
-    "time_to_hub__london": 99.0
+    "time_to_hub__london": 86.0
   },
   {
     "station_id": "SW_0150",
@@ -4552,7 +4552,7 @@
     "is_coastal": false,
     "terminus_max": 66,
     "canonical_hub": "London",
-    "canonical_time_to_hub": 419.0,
+    "canonical_time_to_hub": 29.0,
     "welsh_name": null,
     "wordplay_category": "local_suffix",
     "wordplay_difficulty": "medium",
@@ -4566,7 +4566,7 @@
     "time_to_euston": null,
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
-    "time_to_hub__london": 419.0
+    "time_to_hub__london": 29.0
   },
   {
     "station_id": "SW_0151",
@@ -4585,7 +4585,7 @@
     "is_coastal": false,
     "terminus_max": 0,
     "canonical_hub": "London",
-    "canonical_time_to_hub": 96.0,
+    "canonical_time_to_hub": 50.0,
     "welsh_name": null,
     "wordplay_category": "local_suffix",
     "wordplay_difficulty": "medium",
@@ -4599,7 +4599,7 @@
     "time_to_euston": null,
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
-    "time_to_hub__london": 96.0
+    "time_to_hub__london": 50.0
   },
   {
     "station_id": "SW_0152",
@@ -4616,7 +4616,7 @@
     "is_coastal": false,
     "terminus_max": 0,
     "canonical_hub": "London",
-    "canonical_time_to_hub": 42.0,
+    "canonical_time_to_hub": 176.0,
     "welsh_name": null,
     "wordplay_category": "local_suffix",
     "wordplay_difficulty": "medium",
@@ -4630,7 +4630,7 @@
     "time_to_euston": null,
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
-    "time_to_hub__london": 42.0
+    "time_to_hub__london": 176.0
   },
   {
     "station_id": "SW_0154",
@@ -4648,7 +4648,7 @@
     "is_coastal": false,
     "terminus_max": 11,
     "canonical_hub": "London",
-    "canonical_time_to_hub": 167.0,
+    "canonical_time_to_hub": 49.0,
     "welsh_name": null,
     "wordplay_category": "other",
     "wordplay_difficulty": "easy",
@@ -4660,7 +4660,7 @@
     "time_to_euston": null,
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
-    "time_to_hub__london": 167.0
+    "time_to_hub__london": 49.0
   },
   {
     "station_id": "SW_0153",
@@ -4677,7 +4677,7 @@
     "is_coastal": false,
     "terminus_max": 0,
     "canonical_hub": "London",
-    "canonical_time_to_hub": 907.0,
+    "canonical_time_to_hub": 4.0,
     "welsh_name": null,
     "wordplay_category": "other",
     "wordplay_difficulty": "easy",
@@ -4689,7 +4689,7 @@
     "time_to_euston": null,
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
-    "time_to_hub__london": 907.0
+    "time_to_hub__london": 4.0
   },
   {
     "station_id": "SW_0155",
@@ -4706,7 +4706,7 @@
     "is_coastal": false,
     "terminus_max": 0,
     "canonical_hub": "London",
-    "canonical_time_to_hub": 166.0,
+    "canonical_time_to_hub": 30.0,
     "welsh_name": null,
     "wordplay_category": "structure",
     "wordplay_difficulty": "hard",
@@ -4721,7 +4721,7 @@
     "time_to_euston": null,
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
-    "time_to_hub__london": 166.0
+    "time_to_hub__london": 30.0
   },
   {
     "station_id": "SW_0156",
@@ -4739,7 +4739,7 @@
     "is_coastal": false,
     "terminus_max": 0,
     "canonical_hub": "London",
-    "canonical_time_to_hub": 143.0,
+    "canonical_time_to_hub": 78.0,
     "welsh_name": null,
     "wordplay_category": "other",
     "wordplay_difficulty": "easy",
@@ -4751,7 +4751,7 @@
     "time_to_euston": null,
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
-    "time_to_hub__london": 143.0
+    "time_to_hub__london": 78.0
   },
   {
     "station_id": "SW_0159",
@@ -4769,7 +4769,7 @@
     "is_coastal": false,
     "terminus_max": 0,
     "canonical_hub": "London",
-    "canonical_time_to_hub": 166.0,
+    "canonical_time_to_hub": 34.0,
     "welsh_name": null,
     "wordplay_category": "other",
     "wordplay_difficulty": "easy",
@@ -4781,7 +4781,7 @@
     "time_to_euston": null,
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
-    "time_to_hub__london": 166.0
+    "time_to_hub__london": 34.0
   },
   {
     "station_id": "SW_0163",
@@ -4798,7 +4798,7 @@
     "is_coastal": false,
     "terminus_max": 0,
     "canonical_hub": "London",
-    "canonical_time_to_hub": 81.0,
+    "canonical_time_to_hub": 63.0,
     "welsh_name": null,
     "wordplay_category": "structure",
     "wordplay_difficulty": "hard",
@@ -4812,7 +4812,7 @@
     "time_to_euston": null,
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
-    "time_to_hub__london": 81.0
+    "time_to_hub__london": 63.0
   },
   {
     "station_id": "SW_0176",
@@ -4829,7 +4829,7 @@
     "is_coastal": false,
     "terminus_max": 38,
     "canonical_hub": "London",
-    "canonical_time_to_hub": 125.0,
+    "canonical_time_to_hub": 28.0,
     "welsh_name": null,
     "wordplay_category": "nature",
     "wordplay_difficulty": "medium",
@@ -4843,7 +4843,7 @@
     "time_to_euston": null,
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
-    "time_to_hub__london": 125.0
+    "time_to_hub__london": 28.0
   },
   {
     "station_id": "SW_0161",
@@ -4860,7 +4860,7 @@
     "is_coastal": true,
     "terminus_max": 382,
     "canonical_hub": "London",
-    "canonical_time_to_hub": 78.0,
+    "canonical_time_to_hub": 180.0,
     "welsh_name": null,
     "wordplay_category": "other",
     "wordplay_difficulty": "easy",
@@ -4872,7 +4872,7 @@
     "time_to_euston": null,
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
-    "time_to_hub__london": 78.0
+    "time_to_hub__london": 180.0
   },
   {
     "station_id": "SW_0162",
@@ -4890,7 +4890,7 @@
     "is_coastal": false,
     "terminus_max": 0,
     "canonical_hub": "London",
-    "canonical_time_to_hub": 31.0,
+    "canonical_time_to_hub": 186.0,
     "welsh_name": null,
     "wordplay_category": "other",
     "wordplay_difficulty": "easy",
@@ -4902,7 +4902,7 @@
     "time_to_euston": null,
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
-    "time_to_hub__london": 31.0
+    "time_to_hub__london": 186.0
   },
   {
     "station_id": "SW_0165",
@@ -4919,7 +4919,7 @@
     "is_coastal": false,
     "terminus_max": 38,
     "canonical_hub": "London",
-    "canonical_time_to_hub": 13.0,
+    "canonical_time_to_hub": 36.0,
     "welsh_name": null,
     "wordplay_category": "local_suffix",
     "wordplay_difficulty": "medium",
@@ -4933,7 +4933,7 @@
     "time_to_euston": null,
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
-    "time_to_hub__london": 13.0
+    "time_to_hub__london": 36.0
   },
   {
     "station_id": "SW_0166",
@@ -4950,7 +4950,7 @@
     "is_coastal": false,
     "terminus_max": 77,
     "canonical_hub": "London",
-    "canonical_time_to_hub": 145.0,
+    "canonical_time_to_hub": 62.0,
     "welsh_name": null,
     "wordplay_category": "other",
     "wordplay_difficulty": "easy",
@@ -4962,7 +4962,7 @@
     "time_to_euston": null,
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
-    "time_to_hub__london": 145.0
+    "time_to_hub__london": 62.0
   },
   {
     "station_id": "SW_0173",
@@ -4979,7 +4979,7 @@
     "is_coastal": false,
     "terminus_max": 4,
     "canonical_hub": "London",
-    "canonical_time_to_hub": 81.0,
+    "canonical_time_to_hub": 72.0,
     "welsh_name": null,
     "wordplay_category": "local_suffix",
     "wordplay_difficulty": "medium",
@@ -4993,7 +4993,7 @@
     "time_to_euston": null,
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
-    "time_to_hub__london": 81.0
+    "time_to_hub__london": 72.0
   },
   {
     "station_id": "SW_0175",
@@ -5010,7 +5010,7 @@
     "is_coastal": true,
     "terminus_max": 33,
     "canonical_hub": "London",
-    "canonical_time_to_hub": 249.0,
+    "canonical_time_to_hub": 119.0,
     "welsh_name": null,
     "wordplay_category": "local_suffix",
     "wordplay_difficulty": "medium",
@@ -5024,7 +5024,7 @@
     "time_to_euston": null,
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
-    "time_to_hub__london": 249.0
+    "time_to_hub__london": 119.0
   },
   {
     "station_id": "SW_0167",
@@ -5036,6 +5036,67 @@
     "operator": "South Western",
     "route": [
       "South West Main Line"
+    ],
+    "is_interchange": false,
+    "is_coastal": false,
+    "terminus_max": 0,
+    "canonical_hub": "London",
+    "canonical_time_to_hub": 59.0,
+    "welsh_name": null,
+    "wordplay_category": "other",
+    "wordplay_difficulty": "easy",
+    "wordplay_score": 0,
+    "wordplay_tags": [],
+    "time_to_glasgow_central": null,
+    "time_to_victoria": null,
+    "time_to_charing_cross": null,
+    "time_to_euston": null,
+    "time_to_liverpool_street": null,
+    "time_to_stratford": null,
+    "time_to_hub__london": 59.0
+  },
+  {
+    "station_id": "SW_0168",
+    "station_name": "Windsor & Eton Riverside",
+    "name_word_count": 3,
+    "name_letter_count": 20,
+    "crs": "WNR",
+    "region": "Windsor and Maidenhead",
+    "operator": "South Western",
+    "route": [
+      "Windsor Line"
+    ],
+    "is_interchange": false,
+    "is_coastal": false,
+    "terminus_max": 289,
+    "canonical_hub": "London",
+    "canonical_time_to_hub": 57.0,
+    "welsh_name": null,
+    "wordplay_category": "structure",
+    "wordplay_difficulty": "hard",
+    "wordplay_score": 2,
+    "wordplay_tags": [
+      "ampersand",
+      "ton"
+    ],
+    "time_to_glasgow_central": null,
+    "time_to_victoria": null,
+    "time_to_charing_cross": null,
+    "time_to_euston": null,
+    "time_to_liverpool_street": null,
+    "time_to_stratford": null,
+    "time_to_hub__london": 57.0
+  },
+  {
+    "station_id": "SW_0169",
+    "station_name": "Winnersh",
+    "name_word_count": 1,
+    "name_letter_count": 8,
+    "crs": "WNS",
+    "region": "Wokingham",
+    "operator": "South Western",
+    "route": [
+      "Waterloo to Reading Line"
     ],
     "is_interchange": false,
     "is_coastal": false,
@@ -5056,67 +5117,6 @@
     "time_to_hub__london": 76.0
   },
   {
-    "station_id": "SW_0168",
-    "station_name": "Windsor & Eton Riverside",
-    "name_word_count": 3,
-    "name_letter_count": 20,
-    "crs": "WNR",
-    "region": "Windsor and Maidenhead",
-    "operator": "South Western",
-    "route": [
-      "Windsor Line"
-    ],
-    "is_interchange": false,
-    "is_coastal": false,
-    "terminus_max": 289,
-    "canonical_hub": "London",
-    "canonical_time_to_hub": 115.0,
-    "welsh_name": null,
-    "wordplay_category": "structure",
-    "wordplay_difficulty": "hard",
-    "wordplay_score": 2,
-    "wordplay_tags": [
-      "ampersand",
-      "ton"
-    ],
-    "time_to_glasgow_central": null,
-    "time_to_victoria": null,
-    "time_to_charing_cross": null,
-    "time_to_euston": null,
-    "time_to_liverpool_street": null,
-    "time_to_stratford": null,
-    "time_to_hub__london": 115.0
-  },
-  {
-    "station_id": "SW_0169",
-    "station_name": "Winnersh",
-    "name_word_count": 1,
-    "name_letter_count": 8,
-    "crs": "WNS",
-    "region": "Wokingham",
-    "operator": "South Western",
-    "route": [
-      "Waterloo to Reading Line"
-    ],
-    "is_interchange": false,
-    "is_coastal": false,
-    "terminus_max": 0,
-    "canonical_hub": "London",
-    "canonical_time_to_hub": 81.0,
-    "welsh_name": null,
-    "wordplay_category": "other",
-    "wordplay_difficulty": "easy",
-    "wordplay_score": 0,
-    "wordplay_tags": [],
-    "time_to_glasgow_central": null,
-    "time_to_victoria": null,
-    "time_to_charing_cross": null,
-    "time_to_euston": null,
-    "time_to_liverpool_street": null,
-    "time_to_stratford": null,
-    "time_to_hub__london": 81.0
-  },
-  {
     "station_id": "SW_0157",
     "station_name": "Wandsworth Town",
     "name_word_count": 2,
@@ -5133,7 +5133,7 @@
     "is_coastal": false,
     "terminus_max": 0,
     "canonical_hub": "London",
-    "canonical_time_to_hub": 173.0,
+    "canonical_time_to_hub": 14.0,
     "welsh_name": null,
     "wordplay_category": "other",
     "wordplay_difficulty": "easy",
@@ -5145,7 +5145,7 @@
     "time_to_euston": null,
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
-    "time_to_hub__london": 173.0
+    "time_to_hub__london": 14.0
   },
   {
     "station_id": "SW_0172",
@@ -5164,7 +5164,7 @@
     "is_coastal": false,
     "terminus_max": 526,
     "canonical_hub": "London",
-    "canonical_time_to_hub": 568.0,
+    "canonical_time_to_hub": 28.0,
     "welsh_name": null,
     "wordplay_category": "other",
     "wordplay_difficulty": "easy",
@@ -5176,7 +5176,7 @@
     "time_to_euston": null,
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
-    "time_to_hub__london": 568.0
+    "time_to_hub__london": 28.0
   },
   {
     "station_id": "SW_0174",
@@ -5193,7 +5193,7 @@
     "is_coastal": false,
     "terminus_max": 0,
     "canonical_hub": "London",
-    "canonical_time_to_hub": 78.0,
+    "canonical_time_to_hub": 154.0,
     "welsh_name": null,
     "wordplay_category": "other",
     "wordplay_difficulty": "easy",
@@ -5205,7 +5205,7 @@
     "time_to_euston": null,
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
-    "time_to_hub__london": 78.0
+    "time_to_hub__london": 154.0
   },
   {
     "station_id": "SW_0177",
@@ -5222,7 +5222,7 @@
     "is_coastal": false,
     "terminus_max": 0,
     "canonical_hub": "London",
-    "canonical_time_to_hub": 69.0,
+    "canonical_time_to_hub": 33.0,
     "welsh_name": null,
     "wordplay_category": "local_suffix",
     "wordplay_difficulty": "medium",
@@ -5236,7 +5236,7 @@
     "time_to_euston": null,
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
-    "time_to_hub__london": 69.0
+    "time_to_hub__london": 33.0
   },
   {
     "station_id": "SW_0158",
@@ -5253,7 +5253,7 @@
     "is_coastal": false,
     "terminus_max": 24,
     "canonical_hub": "London",
-    "canonical_time_to_hub": 78.0,
+    "canonical_time_to_hub": 146.0,
     "welsh_name": null,
     "wordplay_category": "structure",
     "wordplay_difficulty": "hard",
@@ -5268,7 +5268,7 @@
     "time_to_euston": null,
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
-    "time_to_hub__london": 78.0
+    "time_to_hub__london": 146.0
   },
   {
     "station_id": "SW_0178",
@@ -5285,7 +5285,7 @@
     "is_coastal": false,
     "terminus_max": 0,
     "canonical_hub": "London",
-    "canonical_time_to_hub": 113.0,
+    "canonical_time_to_hub": 47.0,
     "welsh_name": null,
     "wordplay_category": "other",
     "wordplay_difficulty": "easy",
@@ -5297,7 +5297,7 @@
     "time_to_euston": null,
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
-    "time_to_hub__london": 113.0
+    "time_to_hub__london": 47.0
   },
   {
     "station_id": "SW_0170",
@@ -5314,7 +5314,7 @@
     "is_coastal": false,
     "terminus_max": 0,
     "canonical_hub": "London",
-    "canonical_time_to_hub": 81.0,
+    "canonical_time_to_hub": 78.0,
     "welsh_name": null,
     "wordplay_category": "other",
     "wordplay_difficulty": "easy",
@@ -5326,7 +5326,7 @@
     "time_to_euston": null,
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
-    "time_to_hub__london": 81.0
+    "time_to_hub__london": 78.0
   },
   {
     "station_id": "SW_0164",
@@ -5345,7 +5345,7 @@
     "is_coastal": false,
     "terminus_max": 0,
     "canonical_hub": "London",
-    "canonical_time_to_hub": 163.0,
+    "canonical_time_to_hub": 29.0,
     "welsh_name": null,
     "wordplay_category": "structure",
     "wordplay_difficulty": "hard",
@@ -5361,7 +5361,7 @@
     "time_to_euston": null,
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
-    "time_to_hub__london": 163.0
+    "time_to_hub__london": 29.0
   },
   {
     "station_id": "SW_0171",
@@ -5378,7 +5378,7 @@
     "is_coastal": false,
     "terminus_max": 0,
     "canonical_hub": "London",
-    "canonical_time_to_hub": 63.0,
+    "canonical_time_to_hub": 57.0,
     "welsh_name": null,
     "wordplay_category": "local_suffix",
     "wordplay_difficulty": "medium",
@@ -5393,7 +5393,7 @@
     "time_to_euston": null,
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
-    "time_to_hub__london": 63.0
+    "time_to_hub__london": 57.0
   },
   {
     "station_id": "SW_0160",
@@ -5411,7 +5411,7 @@
     "is_coastal": false,
     "terminus_max": 231,
     "canonical_hub": "London",
-    "canonical_time_to_hub": 253.0,
+    "canonical_time_to_hub": 30.0,
     "welsh_name": null,
     "wordplay_category": "local_suffix",
     "wordplay_difficulty": "medium",
@@ -5425,7 +5425,7 @@
     "time_to_euston": null,
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
-    "time_to_hub__london": 253.0
+    "time_to_hub__london": 30.0
   },
   {
     "station_id": "SW_0179",
@@ -5443,7 +5443,7 @@
     "is_coastal": false,
     "terminus_max": 77,
     "canonical_hub": "London",
-    "canonical_time_to_hub": 55.0,
+    "canonical_time_to_hub": 140.0,
     "welsh_name": null,
     "wordplay_category": "other",
     "wordplay_difficulty": "easy",
@@ -5455,7 +5455,7 @@
     "time_to_euston": null,
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
-    "time_to_hub__london": 55.0
+    "time_to_hub__london": 140.0
   },
   {
     "station_id": "NA_0044",
@@ -5503,7 +5503,7 @@
     "is_coastal": false,
     "terminus_max": 776,
     "canonical_hub": "London",
-    "canonical_time_to_hub": 347.0,
+    "canonical_time_to_hub": 61.0,
     "welsh_name": null,
     "wordplay_category": "local_suffix",
     "wordplay_difficulty": "medium",
@@ -5517,7 +5517,7 @@
     "time_to_euston": null,
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
-    "time_to_hub__london": 347.0
+    "time_to_hub__london": 61.0
   },
   {
     "station_id": "NA_0237",

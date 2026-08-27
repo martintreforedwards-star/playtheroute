@@ -7,9 +7,8 @@
       "label": "Interchange station",
       "weight": "medium",
       "match_count": 47,
-      "display": "Change trains here",
-      "hint": "Served by two or more separate named routes, or where several lines physically meet.",
-      "id": "row_0"
+      "display": "Is an interchange station",
+      "hint": "Served by two or more separate named routes, or where several lines physically meet."
     },
     {
       "type": "equals",
@@ -19,8 +18,7 @@
       "weight": "medium",
       "match_count": 29,
       "display": "Near the coast",
-      "hint": "A station within 3 kilometres of the coastline or an estuary.",
-      "id": "row_1"
+      "hint": "A station within 3 kilometres of the coastline or an estuary."
     },
     {
       "type": "range",
@@ -30,8 +28,7 @@
       "weight": "medium",
       "match_count": 29,
       "display": "Terminus station",
-      "hint": "At least some journeys terminate at this station - it's not just a stop along the way.",
-      "id": "row_2"
+      "hint": "At least some journeys terminate at this station - it's not just a stop along the way."
     },
     {
       "type": "equals",
@@ -41,8 +38,7 @@
       "weight": "medium",
       "match_count": 61,
       "display": "Station name is one word",
-      "hint": "Station is a one-word name.",
-      "id": "row_3"
+      "hint": "Station is a one-word name."
     },
     {
       "type": "range",
@@ -52,8 +48,7 @@
       "weight": "high",
       "match_count": 6,
       "display": "Station name is 3+ words",
-      "hint": "Station name is three or more words long.",
-      "id": "row_4"
+      "hint": "Station name is three or more words long."
     },
     {
       "type": "range",
@@ -64,8 +59,7 @@
       "weight": "high",
       "match_count": 12,
       "display": "Station name is 6 letters or fewer",
-      "hint": "Station name is 6 characters or fewer.",
-      "id": "row_5"
+      "hint": "Station name is 6 characters or fewer."
     },
     {
       "type": "range",
@@ -76,8 +70,7 @@
       "weight": "medium",
       "match_count": 42,
       "display": "Station name is 7-10 letters",
-      "hint": "Station name length is between 7 and 10 characters.",
-      "id": "row_6"
+      "hint": "Station name length is between 7 and 10 characters."
     },
     {
       "type": "range",
@@ -87,8 +80,7 @@
       "weight": "medium",
       "match_count": 36,
       "display": "Station name is 11+ letters",
-      "hint": "Station name is equal to or exceeds 11 characters.",
-      "id": "row_7"
+      "hint": "Station name is equal to or exceeds 11 characters."
     }
   ],
   "columnPool": [
@@ -100,8 +92,7 @@
       "category": "geography",
       "match_count": 23,
       "display": "Is within the Medway region",
-      "hint": "This station is based within the Medway region.",
-      "id": "col_0"
+      "hint": "This station is based within the Medway region."
     },
     {
       "type": "equals",
@@ -111,8 +102,7 @@
       "category": "geography",
       "match_count": 17,
       "display": "Is within the Weald region",
-      "hint": "This station is based within the Weald region.",
-      "id": "col_1"
+      "hint": "This station is based within the Weald region."
     },
     {
       "type": "equals",
@@ -122,8 +112,7 @@
       "category": "geography",
       "match_count": 16,
       "display": "Is within the East Kent region",
-      "hint": "This station is based within the East Kent region.",
-      "id": "col_2"
+      "hint": "This station is based within the East Kent region."
     },
     {
       "type": "equals",
@@ -133,8 +122,7 @@
       "category": "geography",
       "match_count": 15,
       "display": "Is within the Canterbury District region",
-      "hint": "This station is based within the Canterbury District region.",
-      "id": "col_3"
+      "hint": "This station is based within the Canterbury District region."
     },
     {
       "type": "equals",
@@ -144,8 +132,7 @@
       "category": "geography",
       "match_count": 10,
       "display": "Is within the North Kent region",
-      "hint": "This station is based within the North Kent region.",
-      "id": "col_4"
+      "hint": "This station is based within the North Kent region."
     },
     {
       "type": "equals",
@@ -155,8 +142,7 @@
       "category": "geography",
       "match_count": 8,
       "display": "Is within the Thanet region",
-      "hint": "This station is based within the Thanet region.",
-      "id": "col_5"
+      "hint": "This station is based within the Thanet region."
     },
     {
       "type": "range",
@@ -164,33 +150,30 @@
       "max": 49.0,
       "label": "Time to London: shortest third",
       "category": "service",
-      "match_count": 31,
+      "match_count": 33,
       "display": "A short journey to London",
-      "hint": "In this puzzle, 'short' means under 49 minutes to London.",
-      "id": "col_6"
+      "hint": "In this puzzle, 'short' means under 49 minutes to London."
     },
     {
       "type": "range",
       "field": "time_to_hub__london",
       "min": 49.0,
-      "max": 72.0,
+      "max": 82.0,
       "label": "Time to London: middle third",
       "category": "service",
-      "match_count": 33,
+      "match_count": 37,
       "display": "A mid-range journey to London",
-      "hint": "In this puzzle, 'mid-range' means 49-72 minutes to London.",
-      "id": "col_7"
+      "hint": "In this puzzle, 'mid-range' means 49-82 minutes to London."
     },
     {
       "type": "range",
       "field": "time_to_hub__london",
-      "min": 72.0,
+      "min": 82.0,
       "label": "Time to London: longest third",
       "category": "service",
       "match_count": 30,
       "display": "A long journey to London",
-      "hint": "In this puzzle, 'long' means 72+ minutes to London.",
-      "id": "col_8"
+      "hint": "In this puzzle, 'long' means 82+ minutes to London."
     },
     {
       "type": "array_contains",
@@ -200,8 +183,7 @@
       "category": "route",
       "match_count": 30,
       "display": "Is part of the High Speed 1 route",
-      "hint": "The high-speed 'Javelin' route from London St Pancras via Ebbsfleet International and Ashford International, fanning out to the Medway towns and the Kent coast (Margate/Ramsgate/Dover/Canterbury).",
-      "id": "col_9"
+      "hint": "A station on the High Speed 1 route."
     },
     {
       "type": "array_contains",
@@ -211,8 +193,7 @@
       "category": "route",
       "match_count": 14,
       "display": "Is part of the North Kent route",
-      "hint": "The line along the Thames estuary from London via Dartford, Gravesend and the Medway towns to Faversham - not the coastal Thanet loop.",
-      "id": "col_10"
+      "hint": "A station on the North Kent route."
     },
     {
       "type": "array_contains",
@@ -222,8 +203,7 @@
       "category": "route",
       "match_count": 14,
       "display": "Is part of the Medway Valley route",
-      "hint": "The branch line following the River Medway between Strood and Paddock Wood via Maidstone West - a different route from the Medway towns' main line.",
-      "id": "col_11"
+      "hint": "A station on the Medway Valley route."
     },
     {
       "type": "array_contains",
@@ -233,8 +213,7 @@
       "category": "route",
       "match_count": 14,
       "display": "Is part of the East Kent Coast route",
-      "hint": "The coastal loop around Thanet and East Kent - Margate, Broadstairs, Ramsgate, Sandwich, Deal - linking back to Faversham.",
-      "id": "col_12"
+      "hint": "A station on the East Kent Coast route."
     },
     {
       "type": "array_contains",
@@ -244,8 +223,7 @@
       "category": "route",
       "match_count": 12,
       "display": "Is part of the Chatham Main Line route",
-      "hint": "The original 'via Chatham' route to the coast - Rochester, Chatham, Sittingbourne, Faversham - reaching Dover via Canterbury East. This is different from the Southeastern Main Line, which runs via Ashford instead.",
-      "id": "col_13"
+      "hint": "A station on the Chatham Main Line route."
     },
     {
       "type": "array_contains",
@@ -255,8 +233,7 @@
       "category": "route",
       "match_count": 10,
       "display": "Is part of the Maidstone East route",
-      "hint": "The line linking Maidstone East south-east to Ashford International (via Bearsted, Harrietsham, Lenham, Charing) and north-west toward Otford.",
-      "id": "col_14"
+      "hint": "A station on the Maidstone East route."
     },
     {
       "type": "array_contains",
@@ -266,8 +243,7 @@
       "category": "route",
       "match_count": 8,
       "display": "Is part of the Southeastern Main Line route",
-      "hint": "The original South Eastern route to the coast - via Sevenoaks, Tonbridge and the Weald (Marden, Staplehurst, Headcorn) to Ashford, then on to Folkestone and Dover. This is the route via Ashford - not the Chatham route via Faversham/Ramsgate/Margate/Canterbury West.",
-      "id": "col_15"
+      "hint": "A station on the Southeastern Main Line route."
     },
     {
       "type": "array_contains",
@@ -277,8 +253,7 @@
       "category": "route",
       "match_count": 8,
       "display": "Is part of the East Kent Local route",
-      "hint": "Local stopping stations between Faversham and Ashford/Folkestone via Canterbury West - the smaller stops most fast trains skip.",
-      "id": "col_16"
+      "hint": "A station on the East Kent Local route."
     },
     {
       "type": "array_contains",
@@ -288,8 +263,7 @@
       "category": "route",
       "match_count": 7,
       "display": "Is part of the Canterbury East Line route",
-      "hint": "The line linking Dover Priory to Canterbury East via Kearsney, Shepherds Well, Snowdown, Aylesham and Adisham.",
-      "id": "col_17"
+      "hint": "A station on the Canterbury East Line route."
     },
     {
       "type": "array_contains",
@@ -299,8 +273,7 @@
       "category": "route",
       "match_count": 6,
       "display": "Is part of the Maidstone East Extended route",
-      "hint": "The Ashford-Maidstone East stretch via Pluckley, Charing, Lenham, Hollingbourne and Bearsted.",
-      "id": "col_18"
+      "hint": "A station on the Maidstone East Extended route."
     },
     {
       "type": "array_contains",
@@ -310,8 +283,7 @@
       "category": "route",
       "match_count": 6,
       "display": "Is part of the Ashford Canterbury route",
-      "hint": "The direct line between Ashford International and Canterbury West, via Wye, Chilham, Chartham and Sturry.",
-      "id": "col_19"
+      "hint": "A station on the Ashford Canterbury route."
     },
     {
       "type": "array_contains",
@@ -321,8 +293,7 @@
       "category": "route",
       "match_count": 6,
       "display": "Is part of the Ashford Canterbury West route",
-      "hint": "The direct line between Ashford International and Canterbury West, via Wye, Chilham, Chartham and Sturry - the same corridor as the Ashford Canterbury route.",
-      "id": "col_20"
+      "hint": "A station on the Ashford Canterbury West route."
     },
     {
       "type": "array_contains",
@@ -332,8 +303,7 @@
       "category": "route",
       "match_count": 5,
       "display": "Is part of the Hastings Line route",
-      "hint": "The Ashford-Tonbridge stretch of the Hastings line, via Headcorn, Staplehurst, Marden and Paddock Wood.",
-      "id": "col_21"
+      "hint": "A station on the Hastings Line route."
     },
     {
       "type": "array_contains",
@@ -343,8 +313,7 @@
       "category": "route",
       "match_count": 5,
       "display": "Is part of the East Kent Connector route",
-      "hint": "The link joining Canterbury West to the Folkestone/Ashford corridor via Sandling, and separately to the Isle of Thanet via Bekesbourne and Minster.",
-      "id": "col_22"
+      "hint": "A station on the East Kent Connector route."
     },
     {
       "type": "array_contains",
@@ -354,8 +323,7 @@
       "category": "route",
       "match_count": 5,
       "display": "Is part of the Sheerness Branch route",
-      "hint": "The short branch from Sittingbourne over the River Swale to Sheerness-on-Sea on the Isle of Sheppey - Kent's only offshore railway.",
-      "id": "col_23"
+      "hint": "A station on the Sheerness Branch route."
     },
     {
       "type": "equals",
@@ -365,8 +333,7 @@
       "category": "name",
       "match_count": 27,
       "display": "Naming style: a common English place-name ending",
-      "hint": "The name ends in a common English place-name suffix, like -ton, -ham, -by or -dale.",
-      "id": "col_24"
+      "hint": "The name ends in a common English place-name suffix, like -ton, -ham, -by or -dale."
     },
     {
       "type": "equals",
@@ -376,8 +343,7 @@
       "category": "name",
       "match_count": 6,
       "display": "Naming style: an unusual name format",
-      "hint": "Something unusual about how the name is written - brackets, a hyphen, an ampersand, or 'St'.",
-      "id": "col_25"
+      "hint": "Something unusual about how the name is written - brackets, a hyphen, an ampersand, or 'St'."
     },
     {
       "type": "equals",
@@ -387,8 +353,7 @@
       "category": "name",
       "match_count": 3,
       "display": "Naming style: a nature word in the name",
-      "hint": "The name includes a nature word, like Park, Hill, Green, Heath or Wood.",
-      "id": "col_26"
+      "hint": "The name includes a nature word, like Park, Hill, Green, Heath or Wood."
     },
     {
       "type": "array_contains",
@@ -398,8 +363,7 @@
       "category": "name",
       "match_count": 14,
       "display": "Word contains 'ham'",
-      "hint": "Word contains 'ham'.",
-      "id": "col_27"
+      "hint": "Word contains 'ham'."
     },
     {
       "type": "array_contains",
@@ -409,8 +373,7 @@
       "category": "name",
       "match_count": 10,
       "display": "Word contains 'ton'",
-      "hint": "Word contains 'ton'.",
-      "id": "col_28"
+      "hint": "Word contains 'ton'."
     },
     {
       "type": "array_contains",
@@ -420,8 +383,7 @@
       "category": "name",
       "match_count": 3,
       "display": "Name includes a hyphen",
-      "hint": "The station name includes a hyphen.",
-      "id": "col_29"
+      "hint": "The station name includes a hyphen."
     }
   ]
 }

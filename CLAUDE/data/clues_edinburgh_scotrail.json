@@ -8,8 +8,7 @@
       "weight": "high",
       "match_count": 12,
       "display": "Is an interchange station",
-      "hint": "Served by two or more separate named routes, or where several lines physically meet.",
-      "id": "row_0"
+      "hint": "Served by two or more separate named routes, or where several lines physically meet."
     },
     {
       "type": "equals",
@@ -19,8 +18,7 @@
       "weight": "medium",
       "match_count": 18,
       "display": "Near the coast",
-      "hint": "A station within 3 kilometres of the coastline or an estuary.",
-      "id": "row_1"
+      "hint": "A station within 3 kilometres of the coastline or an estuary."
     },
     {
       "type": "range",
@@ -30,8 +28,7 @@
       "weight": "high",
       "match_count": 11,
       "display": "Terminus station",
-      "hint": "At least some journeys terminate at this station - it's not just a stop along the way.",
-      "id": "row_2"
+      "hint": "At least some journeys terminate at this station - it's not just a stop along the way."
     },
     {
       "type": "equals",
@@ -41,8 +38,7 @@
       "weight": "medium",
       "match_count": 42,
       "display": "Station name is one word",
-      "hint": "Station is a one-word name.",
-      "id": "row_3"
+      "hint": "Station is a one-word name."
     },
     {
       "type": "range",
@@ -53,8 +49,7 @@
       "weight": "high",
       "match_count": 8,
       "display": "Station name is 6 letters or fewer",
-      "hint": "Station name is 6 characters or fewer.",
-      "id": "row_4"
+      "hint": "Station name is 6 characters or fewer."
     },
     {
       "type": "range",
@@ -65,8 +60,7 @@
       "weight": "medium",
       "match_count": 31,
       "display": "Station name is 7-10 letters",
-      "hint": "Station name length is between 7 and 10 characters.",
-      "id": "row_5"
+      "hint": "Station name length is between 7 and 10 characters."
     },
     {
       "type": "range",
@@ -76,8 +70,7 @@
       "weight": "medium",
       "match_count": 19,
       "display": "Station name is 11+ letters",
-      "hint": "Station name is equal to or exceeds 11 characters.",
-      "id": "row_6"
+      "hint": "Station name is equal to or exceeds 11 characters."
     }
   ],
   "columnPool": [
@@ -89,8 +82,7 @@
       "category": "geography",
       "match_count": 17,
       "display": "Is within the Fife region",
-      "hint": "This station is based within the Fife region.",
-      "id": "col_0"
+      "hint": "This station is based within the Fife region."
     },
     {
       "type": "equals",
@@ -100,8 +92,7 @@
       "category": "geography",
       "match_count": 12,
       "display": "Is within the City of Edinburgh region",
-      "hint": "This station is based within the City of Edinburgh region.",
-      "id": "col_1"
+      "hint": "This station is based within the City of Edinburgh region."
     },
     {
       "type": "equals",
@@ -111,8 +102,7 @@
       "category": "geography",
       "match_count": 10,
       "display": "Is within the West Lothian region",
-      "hint": "This station is based within the West Lothian region.",
-      "id": "col_2"
+      "hint": "This station is based within the West Lothian region."
     },
     {
       "type": "equals",
@@ -122,8 +112,7 @@
       "category": "geography",
       "match_count": 8,
       "display": "Is within the East Lothian region",
-      "hint": "This station is based within the East Lothian region.",
-      "id": "col_3"
+      "hint": "This station is based within the East Lothian region."
     },
     {
       "type": "equals",
@@ -133,8 +122,7 @@
       "category": "geography",
       "match_count": 4,
       "display": "Is within the Midlothian region",
-      "hint": "This station is based within the Midlothian region.",
-      "id": "col_4"
+      "hint": "This station is based within the Midlothian region."
     },
     {
       "type": "equals",
@@ -144,8 +132,7 @@
       "category": "geography",
       "match_count": 4,
       "display": "Is within the Scottish Borders region",
-      "hint": "This station is based within the Scottish Borders region.",
-      "id": "col_5"
+      "hint": "This station is based within the Scottish Borders region."
     },
     {
       "type": "range",
@@ -155,8 +142,7 @@
       "category": "service",
       "match_count": 25,
       "display": "A short journey to Edinburgh Waverley",
-      "hint": "In this puzzle, 'short' means under 22 minutes to Edinburgh Waverley.",
-      "id": "col_6"
+      "hint": "In this puzzle, 'short' means under 22 minutes to Edinburgh Waverley."
     },
     {
       "type": "range",
@@ -167,8 +153,7 @@
       "category": "service",
       "match_count": 21,
       "display": "A mid-range journey to Edinburgh Waverley",
-      "hint": "In this puzzle, 'mid-range' means 22-35 minutes to Edinburgh Waverley.",
-      "id": "col_7"
+      "hint": "In this puzzle, 'mid-range' means 22-35 minutes to Edinburgh Waverley."
     },
     {
       "type": "range",
@@ -178,8 +163,7 @@
       "category": "service",
       "match_count": 20,
       "display": "A long journey to Edinburgh Waverley",
-      "hint": "In this puzzle, 'long' means 35+ minutes to Edinburgh Waverley.",
-      "id": "col_8"
+      "hint": "In this puzzle, 'long' means 35+ minutes to Edinburgh Waverley."
     },
     {
       "type": "range",
@@ -189,8 +173,7 @@
       "category": "service",
       "match_count": 20,
       "display": "A short journey to Glasgow Central",
-      "hint": "In this puzzle, 'short' means under 61 minutes to Glasgow Central.",
-      "id": "col_9"
+      "hint": "In this puzzle, 'short' means under 61 minutes to Glasgow Central."
     },
     {
       "type": "range",
@@ -201,8 +184,7 @@
       "category": "service",
       "match_count": 22,
       "display": "A mid-range journey to Glasgow Central",
-      "hint": "In this puzzle, 'mid-range' means 61-72 minutes to Glasgow Central.",
-      "id": "col_10"
+      "hint": "In this puzzle, 'mid-range' means 61-72 minutes to Glasgow Central."
     },
     {
       "type": "range",
@@ -212,8 +194,7 @@
       "category": "service",
       "match_count": 21,
       "display": "A long journey to Glasgow Central",
-      "hint": "In this puzzle, 'long' means 72+ minutes to Glasgow Central.",
-      "id": "col_11"
+      "hint": "In this puzzle, 'long' means 72+ minutes to Glasgow Central."
     },
     {
       "type": "array_contains",
@@ -223,8 +204,7 @@
       "category": "route",
       "match_count": 20,
       "display": "Is part of the Fife Circle route",
-      "hint": "The commuter route north of Edinburgh looping through Fife via Dunfermline, Cowdenbeath, Kirkcaldy and Glenrothes, crossing the Forth Bridge - two originally separate lines joined into one circuit in 1989.",
-      "id": "col_12"
+      "hint": "A station on the Fife Circle route."
     },
     {
       "type": "array_contains",
@@ -234,8 +214,7 @@
       "category": "route",
       "match_count": 9,
       "display": "Is part of the Shotts Line route",
-      "hint": "The slower of the two Edinburgh-Glasgow routes, running via Shotts and West Calder rather than the faster main line via Falkirk - about twice the journey time of the direct service.",
-      "id": "col_13"
+      "hint": "A station on the Shotts Line route."
     },
     {
       "type": "array_contains",
@@ -245,8 +224,7 @@
       "category": "route",
       "match_count": 9,
       "display": "Is part of the Borders Railway route",
-      "hint": "The reopened line south from Edinburgh through Newtongrange and Galashiels to Tweedbank - Britain's longest new domestic railway in over a century when it opened in 2015, on the former Waverley Route.",
-      "id": "col_14"
+      "hint": "A station on the Borders Railway route."
     },
     {
       "type": "array_contains",
@@ -256,8 +234,17 @@
       "category": "route",
       "match_count": 8,
       "display": "Is part of the North Berwick Line route",
-      "hint": "The branch east from Edinburgh along the East Lothian coast via Prestonpans and Drem to the seaside town of North Berwick.",
-      "id": "col_15"
+      "hint": "A station on the North Berwick Line route."
+    },
+    {
+      "type": "array_contains",
+      "field": "route",
+      "value": "Argyle Line",
+      "label": "Route: Argyle Line",
+      "category": "route",
+      "match_count": 5,
+      "display": "Is part of the Argyle Line route",
+      "hint": "A station on the Argyle Line route."
     },
     {
       "type": "array_contains",
@@ -267,8 +254,7 @@
       "category": "route",
       "match_count": 5,
       "display": "Is part of the North Clyde Electrics route",
-      "hint": "The wider North Clyde suburban network radiating from Glasgow Queen Street, which also extends east to Edinburgh via the Bathgate branch through Armadale, Livingston North and Edinburgh Park.",
-      "id": "col_16"
+      "hint": "A station on the North Clyde Electrics route."
     },
     {
       "type": "array_contains",
@@ -278,8 +264,7 @@
       "category": "route",
       "match_count": 4,
       "display": "Is part of the Edinburgh-Glasgow Main Line route",
-      "hint": "The fast, direct route between the two cities via Falkirk High and Linlithgow - the premier Edinburgh-Glasgow service, quicker than the alternative via Shotts.",
-      "id": "col_17"
+      "hint": "A station on the Edinburgh-Glasgow Main Line route."
     },
     {
       "type": "equals",
@@ -289,8 +274,7 @@
       "category": "name",
       "match_count": 9,
       "display": "Naming style: Scottish/Gaelic place-name roots",
-      "hint": "The name includes a Scottish or Gaelic place-name element, like Inver-, Glen-, Loch- or Kirk-.",
-      "id": "col_18"
+      "hint": "The name includes a Scottish or Gaelic place-name element, like Inver-, Glen-, Loch- or Kirk-."
     },
     {
       "type": "equals",
@@ -300,8 +284,7 @@
       "category": "name",
       "match_count": 8,
       "display": "Naming style: a common English place-name ending",
-      "hint": "The name ends in a common English place-name suffix, like -ton, -ham, -by or -dale.",
-      "id": "col_19"
+      "hint": "The name ends in a common English place-name suffix, like -ton, -ham, -by or -dale."
     },
     {
       "type": "array_contains",
@@ -311,8 +294,7 @@
       "category": "name",
       "match_count": 6,
       "display": "Word contains 'ton'",
-      "hint": "Word contains 'ton'.",
-      "id": "col_20"
+      "hint": "Word contains 'ton'."
     }
   ]
 }

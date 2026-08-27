@@ -8,7 +8,8 @@
       "weight": "medium",
       "match_count": 47,
       "display": "Is an interchange station",
-      "hint": "Served by two or more separate named routes, or where several lines physically meet."
+      "hint": "Served by two or more separate named routes, or where several lines physically meet.",
+      "id": "row_0"
     },
     {
       "type": "equals",
@@ -18,7 +19,8 @@
       "weight": "medium",
       "match_count": 29,
       "display": "Near the coast",
-      "hint": "A station within 3 kilometres of the coastline or an estuary."
+      "hint": "A station within 3 kilometres of the coastline or an estuary.",
+      "id": "row_1"
     },
     {
       "type": "range",
@@ -28,7 +30,8 @@
       "weight": "medium",
       "match_count": 29,
       "display": "Terminus station",
-      "hint": "At least some journeys terminate at this station - it's not just a stop along the way."
+      "hint": "At least some journeys terminate at this station - it's not just a stop along the way.",
+      "id": "row_2"
     },
     {
       "type": "equals",
@@ -38,7 +41,8 @@
       "weight": "medium",
       "match_count": 61,
       "display": "Station name is one word",
-      "hint": "Station is a one-word name."
+      "hint": "Station is a one-word name.",
+      "id": "row_3"
     },
     {
       "type": "range",
@@ -48,7 +52,8 @@
       "weight": "high",
       "match_count": 6,
       "display": "Station name is 3+ words",
-      "hint": "Station name is three or more words long."
+      "hint": "Station name is three or more words long.",
+      "id": "row_4"
     },
     {
       "type": "range",
@@ -59,7 +64,8 @@
       "weight": "high",
       "match_count": 12,
       "display": "Station name is 6 letters or fewer",
-      "hint": "Station name is 6 characters or fewer."
+      "hint": "Station name is 6 characters or fewer.",
+      "id": "row_5"
     },
     {
       "type": "range",
@@ -70,7 +76,8 @@
       "weight": "medium",
       "match_count": 42,
       "display": "Station name is 7-10 letters",
-      "hint": "Station name length is between 7 and 10 characters."
+      "hint": "Station name length is between 7 and 10 characters.",
+      "id": "row_6"
     },
     {
       "type": "range",
@@ -80,7 +87,8 @@
       "weight": "medium",
       "match_count": 36,
       "display": "Station name is 11+ letters",
-      "hint": "Station name is equal to or exceeds 11 characters."
+      "hint": "Station name is equal to or exceeds 11 characters.",
+      "id": "row_7"
     }
   ],
   "columnPool": [
@@ -92,7 +100,8 @@
       "category": "geography",
       "match_count": 23,
       "display": "Is within the Medway region",
-      "hint": "This station is based within the Medway region."
+      "hint": "This station is based within the Medway region.",
+      "id": "col_0"
     },
     {
       "type": "equals",
@@ -102,7 +111,8 @@
       "category": "geography",
       "match_count": 17,
       "display": "Is within the Weald region",
-      "hint": "This station is based within the Weald region."
+      "hint": "This station is based within the Weald region.",
+      "id": "col_1"
     },
     {
       "type": "equals",
@@ -112,7 +122,8 @@
       "category": "geography",
       "match_count": 16,
       "display": "Is within the East Kent region",
-      "hint": "This station is based within the East Kent region."
+      "hint": "This station is based within the East Kent region.",
+      "id": "col_2"
     },
     {
       "type": "equals",
@@ -122,7 +133,8 @@
       "category": "geography",
       "match_count": 15,
       "display": "Is within the Canterbury District region",
-      "hint": "This station is based within the Canterbury District region."
+      "hint": "This station is based within the Canterbury District region.",
+      "id": "col_3"
     },
     {
       "type": "equals",
@@ -132,7 +144,8 @@
       "category": "geography",
       "match_count": 10,
       "display": "Is within the North Kent region",
-      "hint": "This station is based within the North Kent region."
+      "hint": "This station is based within the North Kent region.",
+      "id": "col_4"
     },
     {
       "type": "equals",
@@ -142,7 +155,8 @@
       "category": "geography",
       "match_count": 8,
       "display": "Is within the Thanet region",
-      "hint": "This station is based within the Thanet region."
+      "hint": "This station is based within the Thanet region.",
+      "id": "col_5"
     },
     {
       "type": "range",
@@ -152,7 +166,8 @@
       "category": "service",
       "match_count": 33,
       "display": "A short journey to London",
-      "hint": "In this puzzle, 'short' means under 49 minutes to London."
+      "hint": "In this puzzle, 'short' means under 49 minutes to London.",
+      "id": "col_6"
     },
     {
       "type": "range",
@@ -163,7 +178,8 @@
       "category": "service",
       "match_count": 37,
       "display": "A mid-range journey to London",
-      "hint": "In this puzzle, 'mid-range' means 49-82 minutes to London."
+      "hint": "In this puzzle, 'mid-range' means 49-82 minutes to London.",
+      "id": "col_7"
     },
     {
       "type": "range",
@@ -173,7 +189,8 @@
       "category": "service",
       "match_count": 30,
       "display": "A long journey to London",
-      "hint": "In this puzzle, 'long' means 82+ minutes to London."
+      "hint": "In this puzzle, 'long' means 82+ minutes to London.",
+      "id": "col_8"
     },
     {
       "type": "array_contains",
@@ -183,7 +200,8 @@
       "category": "route",
       "match_count": 30,
       "display": "Is part of the High Speed 1 route",
-      "hint": "A station on the High Speed 1 route."
+      "hint": "A station on the High Speed 1 route.",
+      "id": "col_9"
     },
     {
       "type": "array_contains",
@@ -193,7 +211,8 @@
       "category": "route",
       "match_count": 14,
       "display": "Is part of the North Kent route",
-      "hint": "A station on the North Kent route."
+      "hint": "A station on the North Kent route.",
+      "id": "col_10"
     },
     {
       "type": "array_contains",
@@ -203,7 +222,8 @@
       "category": "route",
       "match_count": 14,
       "display": "Is part of the Medway Valley route",
-      "hint": "A station on the Medway Valley route."
+      "hint": "A station on the Medway Valley route.",
+      "id": "col_11"
     },
     {
       "type": "array_contains",
@@ -213,7 +233,8 @@
       "category": "route",
       "match_count": 14,
       "display": "Is part of the East Kent Coast route",
-      "hint": "A station on the East Kent Coast route."
+      "hint": "A station on the East Kent Coast route.",
+      "id": "col_12"
     },
     {
       "type": "array_contains",
@@ -223,7 +244,8 @@
       "category": "route",
       "match_count": 12,
       "display": "Is part of the Chatham Main Line route",
-      "hint": "A station on the Chatham Main Line route."
+      "hint": "A station on the Chatham Main Line route.",
+      "id": "col_13"
     },
     {
       "type": "array_contains",
@@ -233,7 +255,8 @@
       "category": "route",
       "match_count": 10,
       "display": "Is part of the Maidstone East route",
-      "hint": "A station on the Maidstone East route."
+      "hint": "A station on the Maidstone East route.",
+      "id": "col_14"
     },
     {
       "type": "array_contains",
@@ -243,7 +266,8 @@
       "category": "route",
       "match_count": 8,
       "display": "Is part of the Southeastern Main Line route",
-      "hint": "A station on the Southeastern Main Line route."
+      "hint": "A station on the Southeastern Main Line route.",
+      "id": "col_15"
     },
     {
       "type": "array_contains",
@@ -253,7 +277,8 @@
       "category": "route",
       "match_count": 8,
       "display": "Is part of the East Kent Local route",
-      "hint": "A station on the East Kent Local route."
+      "hint": "A station on the East Kent Local route.",
+      "id": "col_16"
     },
     {
       "type": "array_contains",
@@ -263,7 +288,8 @@
       "category": "route",
       "match_count": 7,
       "display": "Is part of the Canterbury East Line route",
-      "hint": "A station on the Canterbury East Line route."
+      "hint": "A station on the Canterbury East Line route.",
+      "id": "col_17"
     },
     {
       "type": "array_contains",
@@ -273,7 +299,8 @@
       "category": "route",
       "match_count": 6,
       "display": "Is part of the Maidstone East Extended route",
-      "hint": "A station on the Maidstone East Extended route."
+      "hint": "A station on the Maidstone East Extended route.",
+      "id": "col_18"
     },
     {
       "type": "array_contains",
@@ -283,7 +310,8 @@
       "category": "route",
       "match_count": 6,
       "display": "Is part of the Ashford Canterbury route",
-      "hint": "A station on the Ashford Canterbury route."
+      "hint": "A station on the Ashford Canterbury route.",
+      "id": "col_19"
     },
     {
       "type": "array_contains",
@@ -293,7 +321,8 @@
       "category": "route",
       "match_count": 6,
       "display": "Is part of the Ashford Canterbury West route",
-      "hint": "A station on the Ashford Canterbury West route."
+      "hint": "A station on the Ashford Canterbury West route.",
+      "id": "col_20"
     },
     {
       "type": "array_contains",
@@ -303,7 +332,8 @@
       "category": "route",
       "match_count": 5,
       "display": "Is part of the Hastings Line route",
-      "hint": "A station on the Hastings Line route."
+      "hint": "A station on the Hastings Line route.",
+      "id": "col_21"
     },
     {
       "type": "array_contains",
@@ -313,7 +343,8 @@
       "category": "route",
       "match_count": 5,
       "display": "Is part of the East Kent Connector route",
-      "hint": "A station on the East Kent Connector route."
+      "hint": "A station on the East Kent Connector route.",
+      "id": "col_22"
     },
     {
       "type": "array_contains",
@@ -323,7 +354,8 @@
       "category": "route",
       "match_count": 5,
       "display": "Is part of the Sheerness Branch route",
-      "hint": "A station on the Sheerness Branch route."
+      "hint": "A station on the Sheerness Branch route.",
+      "id": "col_23"
     },
     {
       "type": "equals",
@@ -333,7 +365,8 @@
       "category": "name",
       "match_count": 27,
       "display": "Naming style: a common English place-name ending",
-      "hint": "The name ends in a common English place-name suffix, like -ton, -ham, -by or -dale."
+      "hint": "The name ends in a common English place-name suffix, like -ton, -ham, -by or -dale.",
+      "id": "col_24"
     },
     {
       "type": "equals",
@@ -343,7 +376,8 @@
       "category": "name",
       "match_count": 6,
       "display": "Naming style: an unusual name format",
-      "hint": "Something unusual about how the name is written - brackets, a hyphen, an ampersand, or 'St'."
+      "hint": "Something unusual about how the name is written - brackets, a hyphen, an ampersand, or 'St'.",
+      "id": "col_25"
     },
     {
       "type": "equals",
@@ -353,7 +387,8 @@
       "category": "name",
       "match_count": 3,
       "display": "Naming style: a nature word in the name",
-      "hint": "The name includes a nature word, like Park, Hill, Green, Heath or Wood."
+      "hint": "The name includes a nature word, like Park, Hill, Green, Heath or Wood.",
+      "id": "col_26"
     },
     {
       "type": "array_contains",
@@ -363,7 +398,8 @@
       "category": "name",
       "match_count": 14,
       "display": "Word contains 'ham'",
-      "hint": "Word contains 'ham'."
+      "hint": "Word contains 'ham'.",
+      "id": "col_27"
     },
     {
       "type": "array_contains",
@@ -373,7 +409,8 @@
       "category": "name",
       "match_count": 10,
       "display": "Word contains 'ton'",
-      "hint": "Word contains 'ton'."
+      "hint": "Word contains 'ton'.",
+      "id": "col_28"
     },
     {
       "type": "array_contains",
@@ -383,7 +420,8 @@
       "category": "name",
       "match_count": 3,
       "display": "Name includes a hyphen",
-      "hint": "The station name includes a hyphen."
+      "hint": "The station name includes a hyphen.",
+      "id": "col_29"
     }
   ]
 }

@@ -13,8 +13,8 @@
     "is_interchange": false,
     "is_coastal": false,
     "terminus_max": 0,
-    "canonical_hub": "London (nearest interchange)",
-    "canonical_time_to_hub": 156.0,
+    "canonical_hub": null,
+    "canonical_time_to_hub": null,
     "welsh_name": null,
     "wordplay_category": "local_suffix",
     "wordplay_difficulty": "medium",
@@ -27,8 +27,7 @@
     "time_to_charing_cross": null,
     "time_to_euston": 28.0,
     "time_to_liverpool_street": 44.0,
-    "time_to_stratford": 37.0,
-    "time_to_hub__london_nearest_interchange": 156.0
+    "time_to_stratford": 37.0
   },
   {
     "station_id": "NA_0009",
@@ -44,8 +43,8 @@
     "is_interchange": false,
     "is_coastal": false,
     "terminus_max": 0,
-    "canonical_hub": "London (nearest interchange)",
-    "canonical_time_to_hub": 154.0,
+    "canonical_hub": null,
+    "canonical_time_to_hub": null,
     "welsh_name": null,
     "wordplay_category": "local_suffix",
     "wordplay_difficulty": "medium",
@@ -59,8 +58,7 @@
     "time_to_charing_cross": null,
     "time_to_euston": 56.0,
     "time_to_liverpool_street": 72.0,
-    "time_to_stratford": 65.0,
-    "time_to_hub__london_nearest_interchange": 154.0
+    "time_to_stratford": 65.0
   },
   {
     "station_id": "NA_0019",
@@ -76,8 +74,8 @@
     "is_interchange": false,
     "is_coastal": false,
     "terminus_max": 153,
-    "canonical_hub": "London (nearest interchange)",
-    "canonical_time_to_hub": 2.0,
+    "canonical_hub": null,
+    "canonical_time_to_hub": null,
     "welsh_name": null,
     "wordplay_category": "other",
     "wordplay_difficulty": "easy",
@@ -88,8 +86,7 @@
     "time_to_charing_cross": null,
     "time_to_euston": 67.0,
     "time_to_liverpool_street": 63.0,
-    "time_to_stratford": 56.0,
-    "time_to_hub__london_nearest_interchange": 2.0
+    "time_to_stratford": 56.0
   },
   {
     "station_id": "NA_0033",
@@ -105,8 +102,8 @@
     "is_interchange": false,
     "is_coastal": false,
     "terminus_max": 0,
-    "canonical_hub": "London (nearest interchange)",
-    "canonical_time_to_hub": 1648.0,
+    "canonical_hub": null,
+    "canonical_time_to_hub": null,
     "welsh_name": null,
     "wordplay_category": "nature",
     "wordplay_difficulty": "medium",
@@ -119,8 +116,7 @@
     "time_to_charing_cross": null,
     "time_to_euston": 64.0,
     "time_to_liverpool_street": 5.0,
-    "time_to_stratford": 11.0,
-    "time_to_hub__london_nearest_interchange": 1648.0
+    "time_to_stratford": 11.0
   },
   {
     "station_id": "NA_0038",
@@ -136,8 +132,8 @@
     "is_interchange": false,
     "is_coastal": false,
     "terminus_max": 0,
-    "canonical_hub": "London (nearest interchange)",
-    "canonical_time_to_hub": 23.0,
+    "canonical_hub": null,
+    "canonical_time_to_hub": null,
     "welsh_name": null,
     "wordplay_category": "other",
     "wordplay_difficulty": "easy",
@@ -148,8 +144,7 @@
     "time_to_charing_cross": null,
     "time_to_euston": 50.0,
     "time_to_liverpool_street": 46.0,
-    "time_to_stratford": 39.0,
-    "time_to_hub__london_nearest_interchange": 23.0
+    "time_to_stratford": 39.0
   },
   {
     "station_id": "NA_0053",
@@ -165,8 +160,8 @@
     "is_interchange": false,
     "is_coastal": false,
     "terminus_max": 0,
-    "canonical_hub": "London (nearest interchange)",
-    "canonical_time_to_hub": 448.0,
+    "canonical_hub": null,
+    "canonical_time_to_hub": null,
     "welsh_name": null,
     "wordplay_category": "local_suffix",
     "wordplay_difficulty": "medium",
@@ -180,8 +175,7 @@
     "time_to_charing_cross": null,
     "time_to_euston": 62.0,
     "time_to_liverpool_street": 78.0,
-    "time_to_stratford": 71.0,
-    "time_to_hub__london_nearest_interchange": 448.0
+    "time_to_stratford": 71.0
   },
   {
     "station_id": "NA_0055",
@@ -197,8 +191,8 @@
     "is_interchange": false,
     "is_coastal": false,
     "terminus_max": 0,
-    "canonical_hub": "London (nearest interchange)",
-    "canonical_time_to_hub": 312.0,
+    "canonical_hub": null,
+    "canonical_time_to_hub": null,
     "welsh_name": null,
     "wordplay_category": "local_suffix",
     "wordplay_difficulty": "medium",
@@ -211,8 +205,7 @@
     "time_to_charing_cross": null,
     "time_to_euston": 25.0,
     "time_to_liverpool_street": 35.0,
-    "time_to_stratford": 28.0,
-    "time_to_hub__london_nearest_interchange": 312.0
+    "time_to_stratford": 28.0
   },
   {
     "station_id": "NA_0056",
@@ -228,8 +221,8 @@
     "is_interchange": false,
     "is_coastal": false,
     "terminus_max": 0,
-    "canonical_hub": "London (nearest interchange)",
-    "canonical_time_to_hub": 312.0,
+    "canonical_hub": null,
+    "canonical_time_to_hub": null,
     "welsh_name": null,
     "wordplay_category": "local_suffix",
     "wordplay_difficulty": "medium",
@@ -243,8 +236,7 @@
     "time_to_charing_cross": null,
     "time_to_euston": 24.0,
     "time_to_liverpool_street": 36.0,
-    "time_to_stratford": 29.0,
-    "time_to_hub__london_nearest_interchange": 312.0
+    "time_to_stratford": 29.0
   },
   {
     "station_id": "NA_0060",
@@ -260,8 +252,8 @@
     "is_interchange": false,
     "is_coastal": false,
     "terminus_max": 0,
-    "canonical_hub": "London (nearest interchange)",
-    "canonical_time_to_hub": 172.0,
+    "canonical_hub": null,
+    "canonical_time_to_hub": null,
     "welsh_name": null,
     "wordplay_category": "other",
     "wordplay_difficulty": "easy",
@@ -272,8 +264,7 @@
     "time_to_charing_cross": null,
     "time_to_euston": 75.0,
     "time_to_liverpool_street": 16.0,
-    "time_to_stratford": 22.0,
-    "time_to_hub__london_nearest_interchange": 172.0
+    "time_to_stratford": 22.0
   },
   {
     "station_id": "NA_0067",
@@ -289,8 +280,8 @@
     "is_interchange": false,
     "is_coastal": false,
     "terminus_max": 0,
-    "canonical_hub": "London (nearest interchange)",
-    "canonical_time_to_hub": 98.0,
+    "canonical_hub": null,
+    "canonical_time_to_hub": null,
     "welsh_name": null,
     "wordplay_category": "nature",
     "wordplay_difficulty": "medium",
@@ -304,8 +295,7 @@
     "time_to_charing_cross": null,
     "time_to_euston": 83.0,
     "time_to_liverpool_street": 24.0,
-    "time_to_stratford": 30.0,
-    "time_to_hub__london_nearest_interchange": 98.0
+    "time_to_stratford": 30.0
   },
   {
     "station_id": "NA_0070",
@@ -321,8 +311,8 @@
     "is_interchange": false,
     "is_coastal": false,
     "terminus_max": 0,
-    "canonical_hub": "London (nearest interchange)",
-    "canonical_time_to_hub": 314.0,
+    "canonical_hub": null,
+    "canonical_time_to_hub": null,
     "welsh_name": null,
     "wordplay_category": "structure",
     "wordplay_difficulty": "hard",
@@ -336,8 +326,7 @@
     "time_to_charing_cross": null,
     "time_to_euston": 39.0,
     "time_to_liverpool_street": 22.0,
-    "time_to_stratford": 15.0,
-    "time_to_hub__london_nearest_interchange": 314.0
+    "time_to_stratford": 15.0
   },
   {
     "station_id": "NA_0072",
@@ -353,8 +342,8 @@
     "is_interchange": false,
     "is_coastal": false,
     "terminus_max": 0,
-    "canonical_hub": "London (nearest interchange)",
-    "canonical_time_to_hub": 172.0,
+    "canonical_hub": null,
+    "canonical_time_to_hub": null,
     "welsh_name": null,
     "wordplay_category": "nature",
     "wordplay_difficulty": "medium",
@@ -367,8 +356,7 @@
     "time_to_charing_cross": null,
     "time_to_euston": 66.0,
     "time_to_liverpool_street": 7.0,
-    "time_to_stratford": 13.0,
-    "time_to_hub__london_nearest_interchange": 172.0
+    "time_to_stratford": 13.0
   },
   {
     "station_id": "NA_0074",
@@ -384,8 +372,8 @@
     "is_interchange": false,
     "is_coastal": false,
     "terminus_max": 121,
-    "canonical_hub": "London (nearest interchange)",
-    "canonical_time_to_hub": 318.0,
+    "canonical_hub": null,
+    "canonical_time_to_hub": null,
     "welsh_name": null,
     "wordplay_category": "other",
     "wordplay_difficulty": "easy",
@@ -396,8 +384,7 @@
     "time_to_charing_cross": null,
     "time_to_euston": 37.0,
     "time_to_liverpool_street": 25.0,
-    "time_to_stratford": 18.0,
-    "time_to_hub__london_nearest_interchange": 318.0
+    "time_to_stratford": 18.0
   },
   {
     "station_id": "NA_0075",
@@ -413,8 +400,8 @@
     "is_interchange": false,
     "is_coastal": false,
     "terminus_max": 0,
-    "canonical_hub": "London (nearest interchange)",
-    "canonical_time_to_hub": 604.0,
+    "canonical_hub": null,
+    "canonical_time_to_hub": null,
     "welsh_name": null,
     "wordplay_category": "other",
     "wordplay_difficulty": "easy",
@@ -425,8 +412,7 @@
     "time_to_charing_cross": null,
     "time_to_euston": 59.0,
     "time_to_liverpool_street": 75.0,
-    "time_to_stratford": 68.0,
-    "time_to_hub__london_nearest_interchange": 604.0
+    "time_to_stratford": 68.0
   },
   {
     "station_id": "NA_0077",
@@ -442,8 +428,8 @@
     "is_interchange": false,
     "is_coastal": false,
     "terminus_max": 0,
-    "canonical_hub": "London (nearest interchange)",
-    "canonical_time_to_hub": 314.0,
+    "canonical_hub": null,
+    "canonical_time_to_hub": null,
     "welsh_name": null,
     "wordplay_category": "local_suffix",
     "wordplay_difficulty": "medium",
@@ -456,8 +442,7 @@
     "time_to_charing_cross": null,
     "time_to_euston": 42.0,
     "time_to_liverpool_street": 19.0,
-    "time_to_stratford": 12.0,
-    "time_to_hub__london_nearest_interchange": 314.0
+    "time_to_stratford": 12.0
   },
   {
     "station_id": "NA_0080",
@@ -473,8 +458,8 @@
     "is_interchange": false,
     "is_coastal": false,
     "terminus_max": 0,
-    "canonical_hub": "London (nearest interchange)",
-    "canonical_time_to_hub": 148.0,
+    "canonical_hub": null,
+    "canonical_time_to_hub": null,
     "welsh_name": null,
     "wordplay_category": "nature",
     "wordplay_difficulty": "medium",
@@ -487,8 +472,7 @@
     "time_to_charing_cross": null,
     "time_to_euston": 35.0,
     "time_to_liverpool_street": 65.0,
-    "time_to_stratford": 58.0,
-    "time_to_hub__london_nearest_interchange": 148.0
+    "time_to_stratford": 58.0
   },
   {
     "station_id": "NA_0089",
@@ -504,8 +488,8 @@
     "is_interchange": false,
     "is_coastal": false,
     "terminus_max": 1114,
-    "canonical_hub": "London (nearest interchange)",
-    "canonical_time_to_hub": 154.0,
+    "canonical_hub": null,
+    "canonical_time_to_hub": null,
     "welsh_name": null,
     "wordplay_category": "local_suffix",
     "wordplay_difficulty": "medium",
@@ -518,8 +502,7 @@
     "time_to_charing_cross": null,
     "time_to_euston": 83.0,
     "time_to_liverpool_street": 24.0,
-    "time_to_stratford": 30.0,
-    "time_to_hub__london_nearest_interchange": 154.0
+    "time_to_stratford": 30.0
   },
   {
     "station_id": "NA_0092",
@@ -535,8 +518,8 @@
     "is_interchange": false,
     "is_coastal": false,
     "terminus_max": 0,
-    "canonical_hub": "London (nearest interchange)",
-    "canonical_time_to_hub": 144.0,
+    "canonical_hub": null,
+    "canonical_time_to_hub": null,
     "welsh_name": null,
     "wordplay_category": "local_suffix",
     "wordplay_difficulty": "medium",
@@ -549,8 +532,7 @@
     "time_to_charing_cross": null,
     "time_to_euston": 49.0,
     "time_to_liverpool_street": 65.0,
-    "time_to_stratford": 58.0,
-    "time_to_hub__london_nearest_interchange": 144.0
+    "time_to_stratford": 58.0
   },
   {
     "station_id": "NA_0093",
@@ -566,8 +548,8 @@
     "is_interchange": false,
     "is_coastal": false,
     "terminus_max": 0,
-    "canonical_hub": "London (nearest interchange)",
-    "canonical_time_to_hub": 148.0,
+    "canonical_hub": null,
+    "canonical_time_to_hub": null,
     "welsh_name": null,
     "wordplay_category": "local_suffix",
     "wordplay_difficulty": "medium",
@@ -580,8 +562,7 @@
     "time_to_charing_cross": null,
     "time_to_euston": 69.0,
     "time_to_liverpool_street": 10.0,
-    "time_to_stratford": 16.0,
-    "time_to_hub__london_nearest_interchange": 148.0
+    "time_to_stratford": 16.0
   },
   {
     "station_id": "NA_0106",
@@ -597,8 +578,8 @@
     "is_interchange": false,
     "is_coastal": false,
     "terminus_max": 0,
-    "canonical_hub": "London (nearest interchange)",
-    "canonical_time_to_hub": 31.0,
+    "canonical_hub": null,
+    "canonical_time_to_hub": null,
     "welsh_name": null,
     "wordplay_category": "nature",
     "wordplay_difficulty": "medium",
@@ -611,8 +592,7 @@
     "time_to_charing_cross": null,
     "time_to_euston": 41.0,
     "time_to_liverpool_street": 37.0,
-    "time_to_stratford": 30.0,
-    "time_to_hub__london_nearest_interchange": 31.0
+    "time_to_stratford": 30.0
   },
   {
     "station_id": "NA_0111",
@@ -628,8 +608,8 @@
     "is_interchange": false,
     "is_coastal": false,
     "terminus_max": 677,
-    "canonical_hub": "London (nearest interchange)",
-    "canonical_time_to_hub": 146.0,
+    "canonical_hub": null,
+    "canonical_time_to_hub": null,
     "welsh_name": null,
     "wordplay_category": "local_suffix",
     "wordplay_difficulty": "medium",
@@ -642,8 +622,7 @@
     "time_to_charing_cross": null,
     "time_to_euston": 70.0,
     "time_to_liverpool_street": 86.0,
-    "time_to_stratford": 79.0,
-    "time_to_hub__london_nearest_interchange": 146.0
+    "time_to_stratford": 79.0
   },
   {
     "station_id": "NA_0112",
@@ -659,8 +638,8 @@
     "is_interchange": false,
     "is_coastal": false,
     "terminus_max": 0,
-    "canonical_hub": "London (nearest interchange)",
-    "canonical_time_to_hub": 314.0,
+    "canonical_hub": null,
+    "canonical_time_to_hub": null,
     "welsh_name": null,
     "wordplay_category": "local_suffix",
     "wordplay_difficulty": "medium",
@@ -673,8 +652,7 @@
     "time_to_charing_cross": null,
     "time_to_euston": 44.0,
     "time_to_liverpool_street": 17.0,
-    "time_to_stratford": 10.0,
-    "time_to_hub__london_nearest_interchange": 314.0
+    "time_to_stratford": 10.0
   },
   {
     "station_id": "NA_0130",
@@ -690,8 +668,8 @@
     "is_interchange": false,
     "is_coastal": false,
     "terminus_max": 0,
-    "canonical_hub": "London (nearest interchange)",
-    "canonical_time_to_hub": 172.0,
+    "canonical_hub": null,
+    "canonical_time_to_hub": null,
     "welsh_name": null,
     "wordplay_category": "local_suffix",
     "wordplay_difficulty": "medium",
@@ -705,8 +683,7 @@
     "time_to_charing_cross": null,
     "time_to_euston": 81.0,
     "time_to_liverpool_street": 22.0,
-    "time_to_stratford": 28.0,
-    "time_to_hub__london_nearest_interchange": 172.0
+    "time_to_stratford": 28.0
   },
   {
     "station_id": "NA_0135",
@@ -722,8 +699,8 @@
     "is_interchange": false,
     "is_coastal": false,
     "terminus_max": 0,
-    "canonical_hub": "London (nearest interchange)",
-    "canonical_time_to_hub": 21.0,
+    "canonical_hub": null,
+    "canonical_time_to_hub": null,
     "welsh_name": null,
     "wordplay_category": "nature",
     "wordplay_difficulty": "medium",
@@ -736,8 +713,7 @@
     "time_to_charing_cross": null,
     "time_to_euston": 67.0,
     "time_to_liverpool_street": 21.0,
-    "time_to_stratford": 14.0,
-    "time_to_hub__london_nearest_interchange": 21.0
+    "time_to_stratford": 14.0
   },
   {
     "station_id": "NA_0138",
@@ -753,8 +729,8 @@
     "is_interchange": false,
     "is_coastal": false,
     "terminus_max": 152,
-    "canonical_hub": "London (nearest interchange)",
-    "canonical_time_to_hub": 104.0,
+    "canonical_hub": null,
+    "canonical_time_to_hub": null,
     "welsh_name": null,
     "wordplay_category": "other",
     "wordplay_difficulty": "easy",
@@ -765,8 +741,7 @@
     "time_to_charing_cross": null,
     "time_to_euston": 86.0,
     "time_to_liverpool_street": 27.0,
-    "time_to_stratford": 33.0,
-    "time_to_hub__london_nearest_interchange": 104.0
+    "time_to_stratford": 33.0
   },
   {
     "station_id": "NA_0142",
@@ -782,8 +757,8 @@
     "is_interchange": false,
     "is_coastal": false,
     "terminus_max": 0,
-    "canonical_hub": "London (nearest interchange)",
-    "canonical_time_to_hub": 312.0,
+    "canonical_hub": null,
+    "canonical_time_to_hub": null,
     "welsh_name": null,
     "wordplay_category": "structure",
     "wordplay_difficulty": "hard",
@@ -798,8 +773,7 @@
     "time_to_charing_cross": null,
     "time_to_euston": 29.0,
     "time_to_liverpool_street": 33.0,
-    "time_to_stratford": 26.0,
-    "time_to_hub__london_nearest_interchange": 312.0
+    "time_to_stratford": 26.0
   },
   {
     "station_id": "NA_0146",
@@ -815,8 +789,8 @@
     "is_interchange": false,
     "is_coastal": false,
     "terminus_max": 0,
-    "canonical_hub": "London (nearest interchange)",
-    "canonical_time_to_hub": 448.0,
+    "canonical_hub": null,
+    "canonical_time_to_hub": null,
     "welsh_name": null,
     "wordplay_category": "nature",
     "wordplay_difficulty": "medium",
@@ -829,8 +803,7 @@
     "time_to_charing_cross": null,
     "time_to_euston": 62.0,
     "time_to_liverpool_street": 78.0,
-    "time_to_stratford": 71.0,
-    "time_to_hub__london_nearest_interchange": 448.0
+    "time_to_stratford": 71.0
   },
   {
     "station_id": "NA_0153",
@@ -846,8 +819,8 @@
     "is_interchange": true,
     "is_coastal": false,
     "terminus_max": 263,
-    "canonical_hub": "London (nearest interchange)",
-    "canonical_time_to_hub": 325.0,
+    "canonical_hub": null,
+    "canonical_time_to_hub": null,
     "welsh_name": null,
     "wordplay_category": "other",
     "wordplay_difficulty": "easy",
@@ -858,8 +831,7 @@
     "time_to_charing_cross": null,
     "time_to_euston": 33.0,
     "time_to_liverpool_street": 29.0,
-    "time_to_stratford": 22.0,
-    "time_to_hub__london_nearest_interchange": 325.0
+    "time_to_stratford": 22.0
   },
   {
     "station_id": "NA_0164",
@@ -875,8 +847,8 @@
     "is_interchange": false,
     "is_coastal": false,
     "terminus_max": 0,
-    "canonical_hub": "London (nearest interchange)",
-    "canonical_time_to_hub": 314.0,
+    "canonical_hub": null,
+    "canonical_time_to_hub": null,
     "welsh_name": null,
     "wordplay_category": "local_suffix",
     "wordplay_difficulty": "medium",
@@ -889,8 +861,7 @@
     "time_to_charing_cross": null,
     "time_to_euston": 46.0,
     "time_to_liverpool_street": 15.0,
-    "time_to_stratford": 8.0,
-    "time_to_hub__london_nearest_interchange": 314.0
+    "time_to_stratford": 8.0
   },
   {
     "station_id": "NA_0165",
@@ -906,8 +877,8 @@
     "is_interchange": false,
     "is_coastal": false,
     "terminus_max": 0,
-    "canonical_hub": "London (nearest interchange)",
-    "canonical_time_to_hub": 672.0,
+    "canonical_hub": null,
+    "canonical_time_to_hub": null,
     "welsh_name": null,
     "wordplay_category": "local_suffix",
     "wordplay_difficulty": "medium",
@@ -920,8 +891,7 @@
     "time_to_charing_cross": null,
     "time_to_euston": 67.0,
     "time_to_liverpool_street": 8.0,
-    "time_to_stratford": 14.0,
-    "time_to_hub__london_nearest_interchange": 672.0
+    "time_to_stratford": 14.0
   },
   {
     "station_id": "NA_0166",
@@ -937,8 +907,8 @@
     "is_interchange": false,
     "is_coastal": false,
     "terminus_max": 0,
-    "canonical_hub": "London (nearest interchange)",
-    "canonical_time_to_hub": 314.0,
+    "canonical_hub": null,
+    "canonical_time_to_hub": null,
     "welsh_name": null,
     "wordplay_category": "local_suffix",
     "wordplay_difficulty": "medium",
@@ -951,8 +921,7 @@
     "time_to_charing_cross": null,
     "time_to_euston": 50.0,
     "time_to_liverpool_street": 11.0,
-    "time_to_stratford": 4.0,
-    "time_to_hub__london_nearest_interchange": 314.0
+    "time_to_stratford": 4.0
   },
   {
     "station_id": "NA_0169",
@@ -968,8 +937,8 @@
     "is_interchange": false,
     "is_coastal": false,
     "terminus_max": 0,
-    "canonical_hub": "London (nearest interchange)",
-    "canonical_time_to_hub": 603.0,
+    "canonical_hub": null,
+    "canonical_time_to_hub": null,
     "welsh_name": null,
     "wordplay_category": "local_suffix",
     "wordplay_difficulty": "medium",
@@ -982,8 +951,7 @@
     "time_to_charing_cross": null,
     "time_to_euston": 69.0,
     "time_to_liverpool_street": 85.0,
-    "time_to_stratford": 78.0,
-    "time_to_hub__london_nearest_interchange": 603.0
+    "time_to_stratford": 78.0
   },
   {
     "station_id": "NA_0172",
@@ -999,8 +967,8 @@
     "is_interchange": false,
     "is_coastal": false,
     "terminus_max": 0,
-    "canonical_hub": "London (nearest interchange)",
-    "canonical_time_to_hub": 312.0,
+    "canonical_hub": null,
+    "canonical_time_to_hub": null,
     "welsh_name": null,
     "wordplay_category": "local_suffix",
     "wordplay_difficulty": "medium",
@@ -1014,8 +982,7 @@
     "time_to_charing_cross": null,
     "time_to_euston": 31.0,
     "time_to_liverpool_street": 31.0,
-    "time_to_stratford": 24.0,
-    "time_to_hub__london_nearest_interchange": 312.0
+    "time_to_stratford": 24.0
   },
   {
     "station_id": "NA_0183",
@@ -1031,8 +998,8 @@
     "is_interchange": false,
     "is_coastal": false,
     "terminus_max": 0,
-    "canonical_hub": "London (nearest interchange)",
-    "canonical_time_to_hub": 28.0,
+    "canonical_hub": null,
+    "canonical_time_to_hub": null,
     "welsh_name": null,
     "wordplay_category": "nature",
     "wordplay_difficulty": "medium",
@@ -1045,8 +1012,7 @@
     "time_to_charing_cross": null,
     "time_to_euston": 44.0,
     "time_to_liverpool_street": 40.0,
-    "time_to_stratford": 33.0,
-    "time_to_hub__london_nearest_interchange": 28.0
+    "time_to_stratford": 33.0
   },
   {
     "station_id": "NA_0188",
@@ -1062,8 +1028,8 @@
     "is_interchange": false,
     "is_coastal": false,
     "terminus_max": 0,
-    "canonical_hub": "London (nearest interchange)",
-    "canonical_time_to_hub": 148.0,
+    "canonical_hub": null,
+    "canonical_time_to_hub": null,
     "welsh_name": null,
     "wordplay_category": "other",
     "wordplay_difficulty": "easy",
@@ -1074,8 +1040,7 @@
     "time_to_charing_cross": null,
     "time_to_euston": 32.0,
     "time_to_liverpool_street": 62.0,
-    "time_to_stratford": 55.0,
-    "time_to_hub__london_nearest_interchange": 148.0
+    "time_to_stratford": 55.0
   },
   {
     "station_id": "NA_0192",
@@ -1091,8 +1056,8 @@
     "is_interchange": false,
     "is_coastal": false,
     "terminus_max": 0,
-    "canonical_hub": "London (nearest interchange)",
-    "canonical_time_to_hub": 148.0,
+    "canonical_hub": null,
+    "canonical_time_to_hub": null,
     "welsh_name": null,
     "wordplay_category": "other",
     "wordplay_difficulty": "easy",
@@ -1103,8 +1068,7 @@
     "time_to_charing_cross": null,
     "time_to_euston": 30.0,
     "time_to_liverpool_street": 60.0,
-    "time_to_stratford": 53.0,
-    "time_to_hub__london_nearest_interchange": 148.0
+    "time_to_stratford": 53.0
   },
   {
     "station_id": "NA_0201",
@@ -1120,8 +1084,8 @@
     "is_interchange": false,
     "is_coastal": false,
     "terminus_max": 0,
-    "canonical_hub": "London (nearest interchange)",
-    "canonical_time_to_hub": 148.0,
+    "canonical_hub": null,
+    "canonical_time_to_hub": null,
     "welsh_name": null,
     "wordplay_category": "nature",
     "wordplay_difficulty": "medium",
@@ -1134,8 +1098,7 @@
     "time_to_charing_cross": null,
     "time_to_euston": 79.0,
     "time_to_liverpool_street": 20.0,
-    "time_to_stratford": 26.0,
-    "time_to_hub__london_nearest_interchange": 148.0
+    "time_to_stratford": 26.0
   },
   {
     "station_id": "NA_0205",
@@ -1151,8 +1114,8 @@
     "is_interchange": false,
     "is_coastal": false,
     "terminus_max": 0,
-    "canonical_hub": "London (nearest interchange)",
-    "canonical_time_to_hub": 314.0,
+    "canonical_hub": null,
+    "canonical_time_to_hub": null,
     "welsh_name": null,
     "wordplay_category": "local_suffix",
     "wordplay_difficulty": "medium",
@@ -1165,8 +1128,7 @@
     "time_to_charing_cross": null,
     "time_to_euston": 48.0,
     "time_to_liverpool_street": 13.0,
-    "time_to_stratford": 6.0,
-    "time_to_hub__london_nearest_interchange": 314.0
+    "time_to_stratford": 6.0
   },
   {
     "station_id": "NA_0206",
@@ -1182,8 +1144,8 @@
     "is_interchange": false,
     "is_coastal": false,
     "terminus_max": 0,
-    "canonical_hub": "London (nearest interchange)",
-    "canonical_time_to_hub": 448.0,
+    "canonical_hub": null,
+    "canonical_time_to_hub": null,
     "welsh_name": null,
     "wordplay_category": "nature",
     "wordplay_difficulty": "medium",
@@ -1196,8 +1158,7 @@
     "time_to_charing_cross": null,
     "time_to_euston": 64.0,
     "time_to_liverpool_street": 80.0,
-    "time_to_stratford": 73.0,
-    "time_to_hub__london_nearest_interchange": 448.0
+    "time_to_stratford": 73.0
   },
   {
     "station_id": "NA_0211",
@@ -1213,8 +1174,8 @@
     "is_interchange": false,
     "is_coastal": false,
     "terminus_max": 0,
-    "canonical_hub": "London (nearest interchange)",
-    "canonical_time_to_hub": 582.0,
+    "canonical_hub": null,
+    "canonical_time_to_hub": null,
     "welsh_name": null,
     "wordplay_category": "local_suffix",
     "wordplay_difficulty": "medium",
@@ -1227,8 +1188,7 @@
     "time_to_charing_cross": null,
     "time_to_euston": 67.0,
     "time_to_liverpool_street": 83.0,
-    "time_to_stratford": 76.0,
-    "time_to_hub__london_nearest_interchange": 582.0
+    "time_to_stratford": 76.0
   },
   {
     "station_id": "NA_0217",
@@ -1244,8 +1204,8 @@
     "is_interchange": false,
     "is_coastal": false,
     "terminus_max": 0,
-    "canonical_hub": "London (nearest interchange)",
-    "canonical_time_to_hub": 154.0,
+    "canonical_hub": null,
+    "canonical_time_to_hub": null,
     "welsh_name": null,
     "wordplay_category": "other",
     "wordplay_difficulty": "easy",
@@ -1256,8 +1216,7 @@
     "time_to_charing_cross": null,
     "time_to_euston": 38.0,
     "time_to_liverpool_street": 54.0,
-    "time_to_stratford": 47.0,
-    "time_to_hub__london_nearest_interchange": 154.0
+    "time_to_stratford": 47.0
   },
   {
     "station_id": "NA_0225",
@@ -1273,8 +1232,8 @@
     "is_interchange": false,
     "is_coastal": false,
     "terminus_max": 0,
-    "canonical_hub": "London (nearest interchange)",
-    "canonical_time_to_hub": 312.0,
+    "canonical_hub": null,
+    "canonical_time_to_hub": null,
     "welsh_name": null,
     "wordplay_category": "other",
     "wordplay_difficulty": "easy",
@@ -1285,8 +1244,7 @@
     "time_to_charing_cross": null,
     "time_to_euston": 22.0,
     "time_to_liverpool_street": 38.0,
-    "time_to_stratford": 31.0,
-    "time_to_hub__london_nearest_interchange": 312.0
+    "time_to_stratford": 31.0
   },
   {
     "station_id": "NA_0227",
@@ -1302,8 +1260,8 @@
     "is_interchange": false,
     "is_coastal": false,
     "terminus_max": 0,
-    "canonical_hub": "London (nearest interchange)",
-    "canonical_time_to_hub": 312.0,
+    "canonical_hub": null,
+    "canonical_time_to_hub": null,
     "welsh_name": null,
     "wordplay_category": "other",
     "wordplay_difficulty": "easy",
@@ -1314,8 +1272,7 @@
     "time_to_charing_cross": null,
     "time_to_euston": 35.0,
     "time_to_liverpool_street": 27.0,
-    "time_to_stratford": 20.0,
-    "time_to_hub__london_nearest_interchange": 312.0
+    "time_to_stratford": 20.0
   },
   {
     "station_id": "NA_0230",
@@ -1331,8 +1288,8 @@
     "is_interchange": false,
     "is_coastal": false,
     "terminus_max": 76,
-    "canonical_hub": "London (nearest interchange)",
-    "canonical_time_to_hub": 148.0,
+    "canonical_hub": null,
+    "canonical_time_to_hub": null,
     "welsh_name": null,
     "wordplay_category": "other",
     "wordplay_difficulty": "easy",
@@ -1343,8 +1300,7 @@
     "time_to_charing_cross": null,
     "time_to_euston": 9.0,
     "time_to_liverpool_street": 51.0,
-    "time_to_stratford": 44.0,
-    "time_to_hub__london_nearest_interchange": 148.0
+    "time_to_stratford": 44.0
   },
   {
     "station_id": "NA_0246",
@@ -1360,8 +1316,8 @@
     "is_interchange": false,
     "is_coastal": false,
     "terminus_max": 0,
-    "canonical_hub": "London (nearest interchange)",
-    "canonical_time_to_hub": 20.0,
+    "canonical_hub": null,
+    "canonical_time_to_hub": null,
     "welsh_name": null,
     "wordplay_category": "local_suffix",
     "wordplay_difficulty": "medium",
@@ -1374,8 +1330,7 @@
     "time_to_charing_cross": null,
     "time_to_euston": 54.0,
     "time_to_liverpool_street": 50.0,
-    "time_to_stratford": 43.0,
-    "time_to_hub__london_nearest_interchange": 20.0
+    "time_to_stratford": 43.0
   },
   {
     "station_id": "NA_0247",
@@ -1391,8 +1346,8 @@
     "is_interchange": false,
     "is_coastal": false,
     "terminus_max": 0,
-    "canonical_hub": "London (nearest interchange)",
-    "canonical_time_to_hub": 18.0,
+    "canonical_hub": null,
+    "canonical_time_to_hub": null,
     "welsh_name": null,
     "wordplay_category": "other",
     "wordplay_difficulty": "easy",
@@ -1403,8 +1358,7 @@
     "time_to_charing_cross": null,
     "time_to_euston": 55.0,
     "time_to_liverpool_street": 51.0,
-    "time_to_stratford": 44.0,
-    "time_to_hub__london_nearest_interchange": 18.0
+    "time_to_stratford": 44.0
   },
   {
     "station_id": "NA_0255",
@@ -1420,8 +1374,8 @@
     "is_interchange": false,
     "is_coastal": false,
     "terminus_max": 0,
-    "canonical_hub": "London (nearest interchange)",
-    "canonical_time_to_hub": 172.0,
+    "canonical_hub": null,
+    "canonical_time_to_hub": null,
     "welsh_name": null,
     "wordplay_category": "other",
     "wordplay_difficulty": "easy",
@@ -1432,8 +1386,7 @@
     "time_to_charing_cross": null,
     "time_to_euston": 68.0,
     "time_to_liverpool_street": 9.0,
-    "time_to_stratford": 15.0,
-    "time_to_hub__london_nearest_interchange": 172.0
+    "time_to_stratford": 15.0
   },
   {
     "station_id": "NA_0285",
@@ -1449,8 +1402,8 @@
     "is_interchange": false,
     "is_coastal": false,
     "terminus_max": 296,
-    "canonical_hub": "London (nearest interchange)",
-    "canonical_time_to_hub": 375.0,
+    "canonical_hub": null,
+    "canonical_time_to_hub": null,
     "welsh_name": null,
     "wordplay_category": "other",
     "wordplay_difficulty": "easy",
@@ -1461,8 +1414,7 @@
     "time_to_charing_cross": null,
     "time_to_euston": 60.0,
     "time_to_liverpool_street": 76.0,
-    "time_to_stratford": 69.0,
-    "time_to_hub__london_nearest_interchange": 375.0
+    "time_to_stratford": 69.0
   },
   {
     "station_id": "NA_0308",
@@ -1478,8 +1430,8 @@
     "is_interchange": false,
     "is_coastal": false,
     "terminus_max": 0,
-    "canonical_hub": "London (nearest interchange)",
-    "canonical_time_to_hub": 154.0,
+    "canonical_hub": null,
+    "canonical_time_to_hub": null,
     "welsh_name": null,
     "wordplay_category": "other",
     "wordplay_difficulty": "easy",
@@ -1490,8 +1442,7 @@
     "time_to_charing_cross": null,
     "time_to_euston": 58.0,
     "time_to_liverpool_street": 74.0,
-    "time_to_stratford": 67.0,
-    "time_to_hub__london_nearest_interchange": 154.0
+    "time_to_stratford": 67.0
   },
   {
     "station_id": "NA_0324",
@@ -1507,8 +1458,8 @@
     "is_interchange": false,
     "is_coastal": false,
     "terminus_max": 0,
-    "canonical_hub": "London (nearest interchange)",
-    "canonical_time_to_hub": 172.0,
+    "canonical_hub": null,
+    "canonical_time_to_hub": null,
     "welsh_name": null,
     "wordplay_category": "other",
     "wordplay_difficulty": "easy",
@@ -1519,8 +1470,7 @@
     "time_to_charing_cross": null,
     "time_to_euston": 69.0,
     "time_to_liverpool_street": 10.0,
-    "time_to_stratford": 16.0,
-    "time_to_hub__london_nearest_interchange": 172.0
+    "time_to_stratford": 16.0
   },
   {
     "station_id": "NA_0331",
@@ -1536,8 +1486,8 @@
     "is_interchange": false,
     "is_coastal": false,
     "terminus_max": 0,
-    "canonical_hub": "London (nearest interchange)",
-    "canonical_time_to_hub": 582.0,
+    "canonical_hub": null,
+    "canonical_time_to_hub": null,
     "welsh_name": null,
     "wordplay_category": "other",
     "wordplay_difficulty": "easy",
@@ -1548,8 +1498,7 @@
     "time_to_charing_cross": null,
     "time_to_euston": 60.0,
     "time_to_liverpool_street": 76.0,
-    "time_to_stratford": 69.0,
-    "time_to_hub__london_nearest_interchange": 582.0
+    "time_to_stratford": 69.0
   },
   {
     "station_id": "NA_0352",
@@ -1565,8 +1514,8 @@
     "is_interchange": false,
     "is_coastal": false,
     "terminus_max": 0,
-    "canonical_hub": "London (nearest interchange)",
-    "canonical_time_to_hub": 200.0,
+    "canonical_hub": null,
+    "canonical_time_to_hub": null,
     "welsh_name": null,
     "wordplay_category": "other",
     "wordplay_difficulty": "easy",
@@ -1577,8 +1526,7 @@
     "time_to_charing_cross": null,
     "time_to_euston": 73.0,
     "time_to_liverpool_street": 14.0,
-    "time_to_stratford": 20.0,
-    "time_to_hub__london_nearest_interchange": 200.0
+    "time_to_stratford": 20.0
   },
   {
     "station_id": "NA_0353",
@@ -1594,8 +1542,8 @@
     "is_interchange": false,
     "is_coastal": false,
     "terminus_max": 0,
-    "canonical_hub": "London (nearest interchange)",
-    "canonical_time_to_hub": 604.0,
+    "canonical_hub": null,
+    "canonical_time_to_hub": null,
     "welsh_name": null,
     "wordplay_category": "other",
     "wordplay_difficulty": "easy",
@@ -1606,8 +1554,7 @@
     "time_to_charing_cross": null,
     "time_to_euston": 63.0,
     "time_to_liverpool_street": 79.0,
-    "time_to_stratford": 72.0,
-    "time_to_hub__london_nearest_interchange": 604.0
+    "time_to_stratford": 72.0
   },
   {
     "station_id": "NA_0362",
@@ -1623,8 +1570,8 @@
     "is_interchange": false,
     "is_coastal": false,
     "terminus_max": 0,
-    "canonical_hub": "London (nearest interchange)",
-    "canonical_time_to_hub": 582.0,
+    "canonical_hub": null,
+    "canonical_time_to_hub": null,
     "welsh_name": null,
     "wordplay_category": "other",
     "wordplay_difficulty": "easy",
@@ -1635,8 +1582,7 @@
     "time_to_charing_cross": null,
     "time_to_euston": 65.0,
     "time_to_liverpool_street": 81.0,
-    "time_to_stratford": 74.0,
-    "time_to_hub__london_nearest_interchange": 582.0
+    "time_to_stratford": 74.0
   },
   {
     "station_id": "NA_0363",
@@ -1652,8 +1598,8 @@
     "is_interchange": false,
     "is_coastal": false,
     "terminus_max": 0,
-    "canonical_hub": "London (nearest interchange)",
-    "canonical_time_to_hub": 172.0,
+    "canonical_hub": null,
+    "canonical_time_to_hub": null,
     "welsh_name": null,
     "wordplay_category": "other",
     "wordplay_difficulty": "easy",
@@ -1664,8 +1610,7 @@
     "time_to_charing_cross": null,
     "time_to_euston": 79.0,
     "time_to_liverpool_street": 20.0,
-    "time_to_stratford": 26.0,
-    "time_to_hub__london_nearest_interchange": 172.0
+    "time_to_stratford": 26.0
   },
   {
     "station_id": "NA_0369",
@@ -1681,8 +1626,8 @@
     "is_interchange": false,
     "is_coastal": false,
     "terminus_max": 0,
-    "canonical_hub": "London (nearest interchange)",
-    "canonical_time_to_hub": 156.0,
+    "canonical_hub": null,
+    "canonical_time_to_hub": null,
     "welsh_name": null,
     "wordplay_category": "local_suffix",
     "wordplay_difficulty": "medium",
@@ -1695,8 +1640,7 @@
     "time_to_charing_cross": null,
     "time_to_euston": 30.0,
     "time_to_liverpool_street": 46.0,
-    "time_to_stratford": 39.0,
-    "time_to_hub__london_nearest_interchange": 156.0
+    "time_to_stratford": 39.0
   },
   {
     "station_id": "NA_0370",
@@ -1712,8 +1656,8 @@
     "is_interchange": false,
     "is_coastal": false,
     "terminus_max": 0,
-    "canonical_hub": "London (nearest interchange)",
-    "canonical_time_to_hub": 146.0,
+    "canonical_hub": null,
+    "canonical_time_to_hub": null,
     "welsh_name": null,
     "wordplay_category": "local_suffix",
     "wordplay_difficulty": "medium",
@@ -1726,8 +1670,7 @@
     "time_to_charing_cross": null,
     "time_to_euston": 7.0,
     "time_to_liverpool_street": 53.0,
-    "time_to_stratford": 46.0,
-    "time_to_hub__london_nearest_interchange": 146.0
+    "time_to_stratford": 46.0
   },
   {
     "station_id": "NA_0373",
@@ -1743,8 +1686,8 @@
     "is_interchange": false,
     "is_coastal": false,
     "terminus_max": 0,
-    "canonical_hub": "London (nearest interchange)",
-    "canonical_time_to_hub": 6.0,
+    "canonical_hub": null,
+    "canonical_time_to_hub": null,
     "welsh_name": null,
     "wordplay_category": "local_suffix",
     "wordplay_difficulty": "medium",
@@ -1757,8 +1700,7 @@
     "time_to_charing_cross": null,
     "time_to_euston": 47.0,
     "time_to_liverpool_street": 43.0,
-    "time_to_stratford": 36.0,
-    "time_to_hub__london_nearest_interchange": 6.0
+    "time_to_stratford": 36.0
   },
   {
     "station_id": "NA_0376",
@@ -1774,8 +1716,8 @@
     "is_interchange": false,
     "is_coastal": false,
     "terminus_max": 0,
-    "canonical_hub": "London (nearest interchange)",
-    "canonical_time_to_hub": 74.0,
+    "canonical_hub": null,
+    "canonical_time_to_hub": null,
     "welsh_name": null,
     "wordplay_category": "local_suffix",
     "wordplay_difficulty": "medium",
@@ -1788,8 +1730,7 @@
     "time_to_charing_cross": null,
     "time_to_euston": 81.0,
     "time_to_liverpool_street": 25.0,
-    "time_to_stratford": 28.0,
-    "time_to_hub__london_nearest_interchange": 74.0
+    "time_to_stratford": 28.0
   },
   {
     "station_id": "NA_0387",
@@ -1805,8 +1746,8 @@
     "is_interchange": false,
     "is_coastal": false,
     "terminus_max": 0,
-    "canonical_hub": "London (nearest interchange)",
-    "canonical_time_to_hub": 148.0,
+    "canonical_hub": null,
+    "canonical_time_to_hub": null,
     "welsh_name": null,
     "wordplay_category": "structure",
     "wordplay_difficulty": "hard",
@@ -1819,8 +1760,7 @@
     "time_to_charing_cross": null,
     "time_to_euston": 72.0,
     "time_to_liverpool_street": 13.0,
-    "time_to_stratford": 19.0,
-    "time_to_hub__london_nearest_interchange": 148.0
+    "time_to_stratford": 19.0
   },
   {
     "station_id": "NA_0393",
@@ -1836,8 +1776,8 @@
     "is_interchange": false,
     "is_coastal": false,
     "terminus_max": 0,
-    "canonical_hub": "London (nearest interchange)",
-    "canonical_time_to_hub": 172.0,
+    "canonical_hub": null,
+    "canonical_time_to_hub": null,
     "welsh_name": null,
     "wordplay_category": "local_suffix",
     "wordplay_difficulty": "medium",
@@ -1851,8 +1791,7 @@
     "time_to_charing_cross": null,
     "time_to_euston": 71.0,
     "time_to_liverpool_street": 12.0,
-    "time_to_stratford": 18.0,
-    "time_to_hub__london_nearest_interchange": 172.0
+    "time_to_stratford": 18.0
   },
   {
     "station_id": "NA_0400",
@@ -1868,8 +1807,8 @@
     "is_interchange": false,
     "is_coastal": false,
     "terminus_max": 0,
-    "canonical_hub": "London (nearest interchange)",
-    "canonical_time_to_hub": 172.0,
+    "canonical_hub": null,
+    "canonical_time_to_hub": null,
     "welsh_name": null,
     "wordplay_category": "local_suffix",
     "wordplay_difficulty": "medium",
@@ -1882,8 +1821,7 @@
     "time_to_charing_cross": null,
     "time_to_euston": 70.0,
     "time_to_liverpool_street": 11.0,
-    "time_to_stratford": 17.0,
-    "time_to_hub__london_nearest_interchange": 172.0
+    "time_to_stratford": 17.0
   },
   {
     "station_id": "NA_0407",
@@ -1899,8 +1837,8 @@
     "is_interchange": false,
     "is_coastal": false,
     "terminus_max": 0,
-    "canonical_hub": "London (nearest interchange)",
-    "canonical_time_to_hub": 582.0,
+    "canonical_hub": null,
+    "canonical_time_to_hub": null,
     "welsh_name": null,
     "wordplay_category": "local_suffix",
     "wordplay_difficulty": "medium",
@@ -1913,8 +1851,7 @@
     "time_to_charing_cross": null,
     "time_to_euston": 58.0,
     "time_to_liverpool_street": 74.0,
-    "time_to_stratford": 67.0,
-    "time_to_hub__london_nearest_interchange": 582.0
+    "time_to_stratford": 67.0
   },
   {
     "station_id": "NA_0409",
@@ -1930,8 +1867,8 @@
     "is_interchange": false,
     "is_coastal": false,
     "terminus_max": 0,
-    "canonical_hub": "London (nearest interchange)",
-    "canonical_time_to_hub": 530.0,
+    "canonical_hub": null,
+    "canonical_time_to_hub": null,
     "welsh_name": null,
     "wordplay_category": "local_suffix",
     "wordplay_difficulty": "medium",
@@ -1944,8 +1881,7 @@
     "time_to_charing_cross": null,
     "time_to_euston": 60.0,
     "time_to_liverpool_street": 76.0,
-    "time_to_stratford": 69.0,
-    "time_to_hub__london_nearest_interchange": 530.0
+    "time_to_stratford": 69.0
   },
   {
     "station_id": "NA_0412",
@@ -1961,8 +1897,8 @@
     "is_interchange": false,
     "is_coastal": false,
     "terminus_max": 0,
-    "canonical_hub": "London (nearest interchange)",
-    "canonical_time_to_hub": 78.0,
+    "canonical_hub": null,
+    "canonical_time_to_hub": null,
     "welsh_name": null,
     "wordplay_category": "other",
     "wordplay_difficulty": "easy",
@@ -1973,8 +1909,7 @@
     "time_to_charing_cross": null,
     "time_to_euston": 76.0,
     "time_to_liverpool_street": 27.0,
-    "time_to_stratford": 23.0,
-    "time_to_hub__london_nearest_interchange": 78.0
+    "time_to_stratford": 23.0
   },
   {
     "station_id": "NA_0425",
@@ -1990,8 +1925,8 @@
     "is_interchange": false,
     "is_coastal": false,
     "terminus_max": 0,
-    "canonical_hub": "London (nearest interchange)",
-    "canonical_time_to_hub": 74.0,
+    "canonical_hub": null,
+    "canonical_time_to_hub": null,
     "welsh_name": null,
     "wordplay_category": "local_suffix",
     "wordplay_difficulty": "medium",
@@ -2004,8 +1939,7 @@
     "time_to_charing_cross": null,
     "time_to_euston": 78.0,
     "time_to_liverpool_street": 28.0,
-    "time_to_stratford": 25.0,
-    "time_to_hub__london_nearest_interchange": 74.0
+    "time_to_stratford": 25.0
   },
   {
     "station_id": "NA_0428",
@@ -2021,8 +1955,8 @@
     "is_interchange": false,
     "is_coastal": false,
     "terminus_max": 0,
-    "canonical_hub": "London (nearest interchange)",
-    "canonical_time_to_hub": 6.0,
+    "canonical_hub": null,
+    "canonical_time_to_hub": null,
     "welsh_name": null,
     "wordplay_category": "other",
     "wordplay_difficulty": "easy",
@@ -2033,8 +1967,7 @@
     "time_to_charing_cross": null,
     "time_to_euston": 39.0,
     "time_to_liverpool_street": 35.0,
-    "time_to_stratford": 28.0,
-    "time_to_hub__london_nearest_interchange": 6.0
+    "time_to_stratford": 28.0
   },
   {
     "station_id": "NA_0431",
@@ -2050,8 +1983,8 @@
     "is_interchange": false,
     "is_coastal": false,
     "terminus_max": 0,
-    "canonical_hub": "London (nearest interchange)",
-    "canonical_time_to_hub": 164.0,
+    "canonical_hub": null,
+    "canonical_time_to_hub": null,
     "welsh_name": null,
     "wordplay_category": "other",
     "wordplay_difficulty": "easy",
@@ -2062,8 +1995,7 @@
     "time_to_charing_cross": null,
     "time_to_euston": 74.0,
     "time_to_liverpool_street": 15.0,
-    "time_to_stratford": 21.0,
-    "time_to_hub__london_nearest_interchange": 164.0
+    "time_to_stratford": 21.0
   },
   {
     "station_id": "NA_0432",
@@ -2079,8 +2011,8 @@
     "is_interchange": false,
     "is_coastal": false,
     "terminus_max": 0,
-    "canonical_hub": "London (nearest interchange)",
-    "canonical_time_to_hub": 22.0,
+    "canonical_hub": null,
+    "canonical_time_to_hub": null,
     "welsh_name": null,
     "wordplay_category": "other",
     "wordplay_difficulty": "easy",
@@ -2091,8 +2023,7 @@
     "time_to_charing_cross": null,
     "time_to_euston": 52.0,
     "time_to_liverpool_street": 48.0,
-    "time_to_stratford": 41.0,
-    "time_to_hub__london_nearest_interchange": 22.0
+    "time_to_stratford": 41.0
   },
   {
     "station_id": "NA_0434",
@@ -2108,8 +2039,8 @@
     "is_interchange": false,
     "is_coastal": false,
     "terminus_max": 0,
-    "canonical_hub": "London (nearest interchange)",
-    "canonical_time_to_hub": 144.0,
+    "canonical_hub": null,
+    "canonical_time_to_hub": null,
     "welsh_name": null,
     "wordplay_category": "other",
     "wordplay_difficulty": "easy",
@@ -2120,8 +2051,7 @@
     "time_to_charing_cross": null,
     "time_to_euston": 48.0,
     "time_to_liverpool_street": 64.0,
-    "time_to_stratford": 57.0,
-    "time_to_hub__london_nearest_interchange": 144.0
+    "time_to_stratford": 57.0
   },
   {
     "station_id": "NA_0435",
@@ -2137,8 +2067,8 @@
     "is_interchange": false,
     "is_coastal": false,
     "terminus_max": 0,
-    "canonical_hub": "London (nearest interchange)",
-    "canonical_time_to_hub": 16.0,
+    "canonical_hub": null,
+    "canonical_time_to_hub": null,
     "welsh_name": null,
     "wordplay_category": "local_suffix",
     "wordplay_difficulty": "medium",
@@ -2152,8 +2082,7 @@
     "time_to_charing_cross": null,
     "time_to_euston": 57.0,
     "time_to_liverpool_street": 53.0,
-    "time_to_stratford": 46.0,
-    "time_to_hub__london_nearest_interchange": 16.0
+    "time_to_stratford": 46.0
   },
   {
     "station_id": "NA_0436",
@@ -2169,8 +2098,8 @@
     "is_interchange": false,
     "is_coastal": false,
     "terminus_max": 0,
-    "canonical_hub": "London (nearest interchange)",
-    "canonical_time_to_hub": 582.0,
+    "canonical_hub": null,
+    "canonical_time_to_hub": null,
     "welsh_name": null,
     "wordplay_category": "other",
     "wordplay_difficulty": "easy",
@@ -2181,8 +2110,7 @@
     "time_to_charing_cross": null,
     "time_to_euston": 61.0,
     "time_to_liverpool_street": 77.0,
-    "time_to_stratford": 70.0,
-    "time_to_hub__london_nearest_interchange": 582.0
+    "time_to_stratford": 70.0
   },
   {
     "station_id": "NA_0441",
@@ -2198,8 +2126,8 @@
     "is_interchange": false,
     "is_coastal": false,
     "terminus_max": 0,
-    "canonical_hub": "London (nearest interchange)",
-    "canonical_time_to_hub": 152.0,
+    "canonical_hub": null,
+    "canonical_time_to_hub": null,
     "welsh_name": null,
     "wordplay_category": "local_suffix",
     "wordplay_difficulty": "medium",
@@ -2212,8 +2140,7 @@
     "time_to_charing_cross": null,
     "time_to_euston": 40.0,
     "time_to_liverpool_street": 70.0,
-    "time_to_stratford": 63.0,
-    "time_to_hub__london_nearest_interchange": 152.0
+    "time_to_stratford": 63.0
   },
   {
     "station_id": "NA_0454",
@@ -2229,8 +2156,8 @@
     "is_interchange": false,
     "is_coastal": false,
     "terminus_max": 0,
-    "canonical_hub": "London (nearest interchange)",
-    "canonical_time_to_hub": 328.0,
+    "canonical_hub": null,
+    "canonical_time_to_hub": null,
     "welsh_name": null,
     "wordplay_category": "local_suffix",
     "wordplay_difficulty": "medium",
@@ -2243,8 +2170,7 @@
     "time_to_charing_cross": null,
     "time_to_euston": 27.0,
     "time_to_liverpool_street": 34.0,
-    "time_to_stratford": 27.0,
-    "time_to_hub__london_nearest_interchange": 328.0
+    "time_to_stratford": 27.0
   },
   {
     "station_id": "NA_0460",
@@ -2260,8 +2186,8 @@
     "is_interchange": false,
     "is_coastal": false,
     "terminus_max": 0,
-    "canonical_hub": "London (nearest interchange)",
-    "canonical_time_to_hub": 172.0,
+    "canonical_hub": null,
+    "canonical_time_to_hub": null,
     "welsh_name": null,
     "wordplay_category": "other",
     "wordplay_difficulty": "easy",
@@ -2272,8 +2198,7 @@
     "time_to_charing_cross": null,
     "time_to_euston": 77.0,
     "time_to_liverpool_street": 18.0,
-    "time_to_stratford": 24.0,
-    "time_to_hub__london_nearest_interchange": 172.0
+    "time_to_stratford": 24.0
   },
   {
     "station_id": "NA_0462",
@@ -2289,8 +2214,8 @@
     "is_interchange": false,
     "is_coastal": false,
     "terminus_max": 0,
-    "canonical_hub": "London (nearest interchange)",
-    "canonical_time_to_hub": 582.0,
+    "canonical_hub": null,
+    "canonical_time_to_hub": null,
     "welsh_name": null,
     "wordplay_category": "other",
     "wordplay_difficulty": "easy",
@@ -2301,8 +2226,7 @@
     "time_to_charing_cross": null,
     "time_to_euston": 64.0,
     "time_to_liverpool_street": 80.0,
-    "time_to_stratford": 73.0,
-    "time_to_hub__london_nearest_interchange": 582.0
+    "time_to_stratford": 73.0
   },
   {
     "station_id": "NA_0471",
@@ -2319,8 +2243,8 @@
     "is_interchange": true,
     "is_coastal": false,
     "terminus_max": 0,
-    "canonical_hub": "London (nearest interchange)",
-    "canonical_time_to_hub": 1.0,
+    "canonical_hub": null,
+    "canonical_time_to_hub": null,
     "welsh_name": null,
     "wordplay_category": "other",
     "wordplay_difficulty": "easy",
@@ -2331,8 +2255,7 @@
     "time_to_charing_cross": null,
     "time_to_euston": 15.0,
     "time_to_liverpool_street": 40.0,
-    "time_to_stratford": 33.0,
-    "time_to_hub__london_nearest_interchange": 1.0
+    "time_to_stratford": 33.0
   },
   {
     "station_id": "NA_0482",
@@ -2348,8 +2271,8 @@
     "is_interchange": false,
     "is_coastal": false,
     "terminus_max": 0,
-    "canonical_hub": "London (nearest interchange)",
-    "canonical_time_to_hub": 148.0,
+    "canonical_hub": null,
+    "canonical_time_to_hub": null,
     "welsh_name": null,
     "wordplay_category": "nature",
     "wordplay_difficulty": "medium",
@@ -2362,8 +2285,7 @@
     "time_to_charing_cross": null,
     "time_to_euston": 76.0,
     "time_to_liverpool_street": 17.0,
-    "time_to_stratford": 23.0,
-    "time_to_hub__london_nearest_interchange": 148.0
+    "time_to_stratford": 23.0
   },
   {
     "station_id": "NA_0484",
@@ -2379,8 +2301,8 @@
     "is_interchange": false,
     "is_coastal": false,
     "terminus_max": 34,
-    "canonical_hub": "London (nearest interchange)",
-    "canonical_time_to_hub": 49.0,
+    "canonical_hub": null,
+    "canonical_time_to_hub": null,
     "welsh_name": null,
     "wordplay_category": "nature",
     "wordplay_difficulty": "medium",
@@ -2394,7 +2316,6 @@
     "time_to_charing_cross": null,
     "time_to_euston": 59.0,
     "time_to_liverpool_street": 55.0,
-    "time_to_stratford": 48.0,
-    "time_to_hub__london_nearest_interchange": 49.0
+    "time_to_stratford": 48.0
   }
 ]

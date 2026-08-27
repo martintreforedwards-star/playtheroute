@@ -1250,7 +1250,8 @@ const STRINGS = {
     flavour_commuter_title: "💼 Daily Commuter",
     flavour_commuter_desc: "Delayed, but still arrived on time.",
     flavour_traveller_title: "🚉 Regular Traveller",
-    flavour_traveller_desc: "A reliable journey with a few unexpected stops."
+    flavour_traveller_desc: "A reliable journey with a few unexpected stops.",
+    reveal_hint_btn: "🔍 Reveal (-1 ticket)"
   },
   cy: {
     time_left: "Amser ar ôl",
@@ -1303,7 +1304,8 @@ const STRINGS = {
     flavour_commuter_title: "💼 Cymudwr Dyddiol",
     flavour_commuter_desc: "Wedi'i oedi, ond cyrhaeddodd mewn pryd o hyd.",
     flavour_traveller_title: "🚉 Teithiwr Rheolaidd",
-    flavour_traveller_desc: "Taith ddibynadwy gyda ychydig o stopiau annisgwyl."
+    flavour_traveller_desc: "Taith ddibynadwy gyda ychydig o stopiau annisgwyl.",
+    reveal_hint_btn: "🔍 Datgelu (-1 tocyn)"
   },
   gd: {
     time_left: "Ùine air fhàgail",
@@ -1356,7 +1358,8 @@ const STRINGS = {
     flavour_commuter_title: "💼 Neach-siubhail Làitheil",
     flavour_commuter_desc: "Air dàil, ach a' ruighinn ann an àm fhathast.",
     flavour_traveller_title: "🚉 Neach-siubhail Cunbhalach",
-    flavour_traveller_desc: "Turas earbsach le beagan stadan gun dùil."
+    flavour_traveller_desc: "Turas earbsach le beagan stadan gun dùil.",
+    reveal_hint_btn: "🔍 Foillsich (-1 tiogaid)"
   }
 };
 
@@ -2207,7 +2210,7 @@ function buildRevealExtraHtml(index) {
 
     return (
       `<button type="button" class="reveal-hint-btn" data-reveal-index="${index}">` +
-      `🔍 Reveal (-1 ticket)</button>`
+      `${t("reveal_hint_btn")}</button>`
     );
 
   }

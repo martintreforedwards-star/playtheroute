@@ -7,7 +7,7 @@
       "label": "Interchange station",
       "weight": "medium",
       "match_count": 20,
-      "display": "Change trains here",
+      "display": "Is an interchange station",
       "hint": "Served by two or more separate named routes, or where several lines physically meet.",
       "id": "row_0"
     },
@@ -217,24 +217,24 @@
     {
       "type": "range",
       "field": "time_to_hub__dundee",
-      "max": 18.0,
+      "max": 14.0,
       "label": "Time to Dundee: shortest third",
       "category": "service",
       "match_count": 7,
       "display": "A short journey to Dundee",
-      "hint": "In this puzzle, 'short' means under 18 minutes to Dundee.",
+      "hint": "In this puzzle, 'short' means under 14 minutes to Dundee.",
       "id": "col_12"
     },
     {
       "type": "range",
       "field": "time_to_hub__dundee",
-      "min": 18.0,
+      "min": 14.0,
       "max": 26.0,
       "label": "Time to Dundee: middle third",
       "category": "service",
-      "match_count": 7,
+      "match_count": 8,
       "display": "A mid-range journey to Dundee",
-      "hint": "In this puzzle, 'mid-range' means 18-26 minutes to Dundee.",
+      "hint": "In this puzzle, 'mid-range' means 14-26 minutes to Dundee.",
       "id": "col_13"
     },
     {
@@ -290,7 +290,7 @@
       "category": "route",
       "match_count": 26,
       "display": "Is part of the Far North Line route",
-      "hint": "The northernmost railway in Britain, running 168 miles from Inverness up the east coast through Sutherland and the Flow Country to the twin termini of Thurso and Wick.",
+      "hint": "A station on the Far North Line route.",
       "id": "col_18"
     },
     {
@@ -301,7 +301,7 @@
       "category": "route",
       "match_count": 22,
       "display": "Is part of the Aberdeen to Inverness Line route",
-      "hint": "The cross-country route linking Scotland's two northern cities via Elgin, Keith and Huntly - also carries the through Edinburgh/Glasgow-Aberdeen services via Perth and Dundee.",
+      "hint": "A station on the Aberdeen to Inverness Line route.",
       "id": "col_19"
     },
     {
@@ -312,7 +312,7 @@
       "category": "route",
       "match_count": 13,
       "display": "Is part of the Highland Main Line route",
-      "hint": "The main route from Perth through the Cairngorms via Aviemore to Inverness - the historic gateway line into the Highlands, with connections south to Edinburgh and Glasgow.",
+      "hint": "A station on the Highland Main Line route.",
       "id": "col_20"
     },
     {
@@ -323,7 +323,7 @@
       "category": "route",
       "match_count": 11,
       "display": "Is part of the Kyle Line route",
-      "hint": "The 63-mile coast-to-coast route from Dingwall (junction with the Far North Line) west through Achnasheen and Strathcarron to Kyle of Lochalsh, opposite the Isle of Skye - one of the world's most scenic railway journeys.",
+      "hint": "A station on the Kyle Line route.",
       "id": "col_21"
     },
     {
@@ -334,7 +334,7 @@
       "category": "route",
       "match_count": 7,
       "display": "Is part of the Dundee to Arbroath Line route",
-      "hint": "The short stretch of the East Coast Main Line corridor between Dundee and Arbroath, hugging the Angus coast via Carnoustie.",
+      "hint": "A station on the Dundee to Arbroath Line route.",
       "id": "col_22"
     },
     {
@@ -345,7 +345,7 @@
       "category": "route",
       "match_count": 6,
       "display": "Is part of the Aberdeen Line route",
-      "hint": "The route into Aberdeen from the south via Montrose and Arbroath, connecting to Dundee and onward to the Central Belt.",
+      "hint": "A station on the Aberdeen Line route.",
       "id": "col_23"
     },
     {

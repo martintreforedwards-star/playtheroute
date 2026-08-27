@@ -7,7 +7,7 @@
       "label": "Interchange station",
       "weight": "high",
       "match_count": 25,
-      "display": "Change trains here",
+      "display": "Is an interchange station",
       "hint": "Served by two or more separate named routes, or where several lines physically meet.",
       "id": "row_0"
     },
@@ -333,7 +333,7 @@
       "category": "route",
       "match_count": 45,
       "display": "Is part of the North Wales Coast Line route",
-      "hint": "The coastal main line from Chester to Holyhead via Flint, Rhyl, Colwyn Bay, Llandudno Junction and Bangor - the historic 'Irish Mail' route to the Anglesey ferry port.",
+      "hint": "A station on the North Wales Coast Line route.",
       "id": "col_21"
     },
     {
@@ -344,7 +344,7 @@
       "category": "route",
       "match_count": 27,
       "display": "Is part of the Cambrian Coast Line route",
-      "hint": "The scenic coastal branch north from Dovey Junction (near Machynlleth) through Aberdovey, Tywyn, Barmouth and Harlech to Pwllheli - not the inland Cambrian Line to Aberystwyth.",
+      "hint": "A station on the Cambrian Coast Line route.",
       "id": "col_22"
     },
     {
@@ -355,7 +355,7 @@
       "category": "route",
       "match_count": 21,
       "display": "Is part of the Central Wales Line route",
-      "hint": "The long single-track 'Heart of Wales' route south from Craven Arms through Knighton, Llandrindod Wells, Llandovery and Llandeilo to Llanelli and Swansea - same route as the Heart of Wales Line, just an older name.",
+      "hint": "A station on the Central Wales Line route.",
       "id": "col_23"
     },
     {
@@ -366,7 +366,7 @@
       "category": "route",
       "match_count": 21,
       "display": "Is part of the Heart of Wales Line route",
-      "hint": "The long single-track route south from Craven Arms through Knighton, Llandrindod Wells, Llandovery and Llandeilo to Llanelli and Swansea - also called the Central Wales Line.",
+      "hint": "A station on the Heart of Wales Line route.",
       "id": "col_24"
     },
     {
@@ -377,7 +377,7 @@
       "category": "route",
       "match_count": 13,
       "display": "Is part of the Borderlands Line route",
-      "hint": "The cross-border line linking Wrexham Central to Bidston on the Wirral, via Wrexham General, Shotton and the north-east Wales/Cheshire border villages.",
+      "hint": "A station on the Borderlands Line route.",
       "id": "col_25"
     },
     {
@@ -388,7 +388,7 @@
       "category": "route",
       "match_count": 13,
       "display": "Is part of the Conwy Valley Line route",
-      "hint": "The branch south from Llandudno Junction up the Conwy and Lledr valleys through Betws-y-Coed to the slate town of Blaenau Ffestiniog.",
+      "hint": "A station on the Conwy Valley Line route.",
       "id": "col_26"
     },
     {
@@ -399,7 +399,7 @@
       "category": "route",
       "match_count": 11,
       "display": "Is part of the Wirral Line route",
-      "hint": "The Merseyrail loop under the Mersey linking Liverpool to the Wirral Peninsula, with branches to Chester, Ellesmere Port, New Brighton and West Kirby.",
+      "hint": "A station on the Wirral Line route.",
       "id": "col_27"
     },
     {
@@ -410,7 +410,7 @@
       "category": "route",
       "match_count": 11,
       "display": "Is part of the Marches Line route",
-      "hint": "The long cross-border route from Newport via Abergavenny and Hereford to Shrewsbury, continuing to Crewe or via Wrexham to Chester - same route as the North & West Line, just an older name. Not the Heart of Wales branch that splits off at Craven Arms.",
+      "hint": "A station on the Marches Line route.",
       "id": "col_28"
     },
     {
@@ -421,7 +421,7 @@
       "category": "route",
       "match_count": 11,
       "display": "Is part of the North & West Line route",
-      "hint": "The long cross-border route from Newport via Abergavenny and Hereford to Shrewsbury, continuing to Crewe or via Wrexham to Chester - also called the Marches Line. Not the Heart of Wales branch that splits off at Craven Arms.",
+      "hint": "A station on the North & West Line route.",
       "id": "col_29"
     },
     {
@@ -432,7 +432,7 @@
       "category": "route",
       "match_count": 9,
       "display": "Is part of the Cambrian Line route",
-      "hint": "The inland route from Shrewsbury through Welshpool, Newtown and Machynlleth to Aberystwyth - splits from the coastal Cambrian Coast Line at Dovey Junction.",
+      "hint": "A station on the Cambrian Line route.",
       "id": "col_30"
     },
     {
@@ -443,7 +443,7 @@
       "category": "route",
       "match_count": 3,
       "display": "Is part of the Mid-Cheshire Line route",
-      "hint": "The cross-country route linking Manchester (via Stockport and Altrincham) to Chester, through Knutsford, Northwich and the Delamere Forest.",
+      "hint": "A station on the Mid-Cheshire Line route.",
       "id": "col_31"
     },
     {

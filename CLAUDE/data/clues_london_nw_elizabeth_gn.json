@@ -7,7 +7,7 @@
       "label": "Interchange station",
       "weight": "medium",
       "match_count": 36,
-      "display": "Change trains here",
+      "display": "Is an interchange station",
       "hint": "Served by two or more separate named routes, or where several lines physically meet.",
       "id": "row_0"
     },
@@ -194,35 +194,35 @@
     {
       "type": "range",
       "field": "time_to_hub__london",
-      "max": 21.0,
+      "max": 26.0,
       "label": "Time to London: shortest third",
       "category": "service",
       "match_count": 36,
       "display": "A short journey to London",
-      "hint": "In this puzzle, 'short' means under 21 minutes to London.",
+      "hint": "In this puzzle, 'short' means under 26 minutes to London.",
       "id": "col_10"
     },
     {
       "type": "range",
       "field": "time_to_hub__london",
-      "min": 21.0,
-      "max": 150.0,
+      "min": 26.0,
+      "max": 46.0,
       "label": "Time to London: middle third",
       "category": "service",
-      "match_count": 38,
+      "match_count": 39,
       "display": "A mid-range journey to London",
-      "hint": "In this puzzle, 'mid-range' means 21-150 minutes to London.",
+      "hint": "In this puzzle, 'mid-range' means 26-46 minutes to London.",
       "id": "col_11"
     },
     {
       "type": "range",
       "field": "time_to_hub__london",
-      "min": 150.0,
+      "min": 46.0,
       "label": "Time to London: longest third",
       "category": "service",
       "match_count": 36,
       "display": "A long journey to London",
-      "hint": "In this puzzle, 'long' means 150+ minutes to London.",
+      "hint": "In this puzzle, 'long' means 46+ minutes to London.",
       "id": "col_12"
     },
     {
@@ -266,7 +266,7 @@
       "category": "route",
       "match_count": 45,
       "display": "Is part of the Fen Line route",
-      "hint": "The route from Cambridge north through Ely and the Cambridgeshire fenland to the Norfolk port town of King's Lynn - named after the flat, low-lying Fens it crosses.",
+      "hint": "A station on the Fen Line route.",
       "id": "col_16"
     },
     {
@@ -277,7 +277,7 @@
       "category": "route",
       "match_count": 32,
       "display": "Is part of the Great Northern route",
-      "hint": "The wider suburban network radiating north from London Kings Cross and Moorgate through Hertfordshire towards Cambridge, Peterborough and Kings Lynn.",
+      "hint": "A station on the Great Northern route.",
       "id": "col_17"
     },
     {
@@ -288,7 +288,7 @@
       "category": "route",
       "match_count": 20,
       "display": "Is part of the Elizabeth Line route",
-      "hint": "The cross-London route from Reading and Heathrow in the west through central London to Shenfield and Abbey Wood in the east - opened in 2022, London's newest railway.",
+      "hint": "A station on the Elizabeth Line route.",
       "id": "col_18"
     },
     {
@@ -299,7 +299,7 @@
       "category": "route",
       "match_count": 18,
       "display": "Is part of the Northern City Line route",
-      "hint": "The tunnel linking Moorgate to Finsbury Park, built for London Underground but now run as part of the Great Northern suburban network - originally planned as part of the Northern line's unbuilt 'Northern Heights' expansion.",
+      "hint": "A station on the Northern City Line route.",
       "id": "col_19"
     },
     {
@@ -310,7 +310,7 @@
       "category": "route",
       "match_count": 11,
       "display": "Is part of the Marston Vale Line route",
-      "hint": "The rural cross-country branch from Bedford via Ridgmont and Woburn Sands to Bletchley, running through the Marston Vale.",
+      "hint": "A station on the Marston Vale Line route.",
       "id": "col_20"
     },
     {
@@ -321,7 +321,7 @@
       "category": "route",
       "match_count": 10,
       "display": "Is part of the Lioness Line route",
-      "hint": "The London Overground route from Euston to Watford Junction via Wembley - renamed in 2024 to honour the England women's football team following their 2022 Euros victory.",
+      "hint": "A station on the Lioness Line route.",
       "id": "col_21"
     },
     {
@@ -332,7 +332,7 @@
       "category": "route",
       "match_count": 9,
       "display": "Is part of the Northern Heights route",
-      "hint": "The Great Northern suburban branches north of London (towards Alexandra Palace, Hertford and Welwyn) that were originally slated for absorption into the London Underground's Northern line under a 1930s expansion plan, abandoned after the Second World War.",
+      "hint": "A station on the Northern Heights route.",
       "id": "col_22"
     },
     {
@@ -343,7 +343,7 @@
       "category": "route",
       "match_count": 7,
       "display": "Is part of the West Coast Main Line route",
-      "hint": "The historic trunk route from London Euston to Glasgow via Rugby, Stafford, Crewe and Preston - Britain's busiest mixed-traffic main line.",
+      "hint": "A station on the West Coast Main Line route.",
       "id": "col_23"
     },
     {
@@ -354,7 +354,7 @@
       "category": "route",
       "match_count": 7,
       "display": "Is part of the Abbey Line route",
-      "hint": "The short branch from Watford Junction via Bricket Wood to St Albans Abbey.",
+      "hint": "A station on the Abbey Line route.",
       "id": "col_24"
     },
     {

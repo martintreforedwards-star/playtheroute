@@ -546,7 +546,7 @@
     "is_coastal": false,
     "terminus_max": 0,
     "canonical_hub": "Wrexham/Chester",
-    "canonical_time_to_hub": 164.0,
+    "canonical_time_to_hub": 107.0,
     "welsh_name": "Betws-y-Coed",
     "wordplay_category": "welsh_place",
     "wordplay_difficulty": "medium",
@@ -561,7 +561,7 @@
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
     "time_to_hub__shrewsbury": null,
-    "time_to_hub__wrexham_chester": 164.0
+    "time_to_hub__wrexham_chester": 107.0
   },
   {
     "station_id": "TW_0054",
@@ -3122,7 +3122,7 @@
     "is_coastal": false,
     "terminus_max": 621,
     "canonical_hub": "Shrewsbury",
-    "canonical_time_to_hub": 9.0,
+    "canonical_time_to_hub": 0.0,
     "welsh_name": "Amwythig",
     "wordplay_category": "other",
     "wordplay_difficulty": "easy",
@@ -3134,7 +3134,7 @@
     "time_to_euston": null,
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
-    "time_to_hub__shrewsbury": 9.0,
+    "time_to_hub__shrewsbury": 0.0,
     "time_to_hub__wrexham_chester": null
   },
   {

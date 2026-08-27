@@ -7,7 +7,7 @@
       "label": "Interchange station",
       "weight": "medium",
       "match_count": 62,
-      "display": "Change trains here",
+      "display": "Is an interchange station",
       "hint": "Served by two or more separate named routes, or where several lines physically meet.",
       "id": "row_0"
     },
@@ -205,35 +205,35 @@
     {
       "type": "range",
       "field": "time_to_hub__london",
-      "max": 70.0,
+      "max": 39.0,
       "label": "Time to London: shortest third",
       "category": "service",
-      "match_count": 96,
+      "match_count": 73,
       "display": "A short journey to London",
-      "hint": "In this puzzle, 'short' means under 70 minutes to London.",
+      "hint": "In this puzzle, 'short' means under 39 minutes to London.",
       "id": "col_10"
     },
     {
       "type": "range",
       "field": "time_to_hub__london",
-      "min": 70.0,
-      "max": 143.0,
+      "min": 39.0,
+      "max": 67.0,
       "label": "Time to London: middle third",
       "category": "service",
-      "match_count": 75,
+      "match_count": 71,
       "display": "A mid-range journey to London",
-      "hint": "In this puzzle, 'mid-range' means 70-143 minutes to London.",
+      "hint": "In this puzzle, 'mid-range' means 39-67 minutes to London.",
       "id": "col_11"
     },
     {
       "type": "range",
       "field": "time_to_hub__london",
-      "min": 143.0,
+      "min": 67.0,
       "label": "Time to London: longest third",
       "category": "service",
       "match_count": 71,
       "display": "A long journey to London",
-      "hint": "In this puzzle, 'long' means 143+ minutes to London.",
+      "hint": "In this puzzle, 'long' means 67+ minutes to London.",
       "id": "col_12"
     },
     {
@@ -266,7 +266,7 @@
       "category": "route",
       "match_count": 23,
       "display": "Is part of the Midland Electrics route",
-      "hint": "The Thameslink route north from London through St Albans and Luton to Bedford, running parallel to the Midland Main Line proper for much of its length.",
+      "hint": "A station on the Midland Electrics route.",
       "id": "col_15"
     },
     {
@@ -277,7 +277,7 @@
       "category": "route",
       "match_count": 21,
       "display": "Is part of the West Coastway route",
-      "hint": "The coastal route from Brighton west via Worthing, Chichester and Havant to Southampton, with branches to Littlehampton and Bognor Regis - also called Coastway West.",
+      "hint": "A station on the West Coastway route.",
       "id": "col_16"
     },
     {
@@ -288,7 +288,7 @@
       "category": "route",
       "match_count": 20,
       "display": "Is part of the Brighton Main Line route",
-      "hint": "The principal route from London Victoria/Bridge via Gatwick Airport, Haywards Heath and Wivelsfield to Brighton - one of the busiest main lines in the country.",
+      "hint": "A station on the Brighton Main Line route.",
       "id": "col_17"
     },
     {
@@ -299,7 +299,7 @@
       "category": "route",
       "match_count": 20,
       "display": "Is part of the Sutton & Metro route",
-      "hint": "The South London suburban network of routes converging on Sutton, running through Balham, Streatham, Mitcham and Wallington towards Croydon and the North Downs.",
+      "hint": "A station on the Sutton & Metro route.",
       "id": "col_18"
     },
     {
@@ -310,7 +310,7 @@
       "category": "route",
       "match_count": 20,
       "display": "Is part of the East Coastway route",
-      "hint": "The coastal route from Brighton east via Lewes, Eastbourne and Bexhill to Hastings and Ore, with a branch to Seaford - also called Coastway East.",
+      "hint": "A station on the East Coastway route.",
       "id": "col_19"
     },
     {
@@ -321,7 +321,7 @@
       "category": "route",
       "match_count": 18,
       "display": "Is part of the Southern Thameslink Branches route",
-      "hint": "The routes serving Sevenoaks and the Kent/Surrey border towns that continue north through the Thameslink core via Blackfriars and St Pancras to Bedford or Cambridge.",
+      "hint": "A station on the Southern Thameslink Branches route.",
       "id": "col_20"
     },
     {
@@ -332,7 +332,7 @@
       "category": "route",
       "match_count": 16,
       "display": "Is part of the Uckfield Branch route",
-      "hint": "The rural branch from Hurst Green via Eridge and Crowborough to Uckfield - the southern remnant of the old Oxted-Lewes route, cut back after the Uckfield-Lewes section closed in 1969.",
+      "hint": "A station on the Uckfield Branch route.",
       "id": "col_21"
     },
     {
@@ -343,7 +343,7 @@
       "category": "route",
       "match_count": 16,
       "display": "Is part of the Midland Main Line route",
-      "hint": "The Thameslink route north from London through St Albans and Luton to Bedford, continuing the core Thameslink service beyond the central London tunnel.",
+      "hint": "A station on the Midland Main Line route.",
       "id": "col_22"
     },
     {
@@ -354,7 +354,7 @@
       "category": "route",
       "match_count": 12,
       "display": "Is part of the Coastway West route",
-      "hint": "The coastal route from Brighton west via Worthing, Chichester and Havant to Southampton, with branches to Littlehampton and Bognor Regis - the name Southern uses interchangeably with West Coastway.",
+      "hint": "A station on the Coastway West route.",
       "id": "col_23"
     },
     {
@@ -365,7 +365,7 @@
       "category": "route",
       "match_count": 12,
       "display": "Is part of the Coastway East route",
-      "hint": "The coastal route from Brighton east via Lewes, Eastbourne and Bexhill to Hastings and Ore, with a branch to Seaford - the name Southern uses interchangeably with East Coastway.",
+      "hint": "A station on the Coastway East route.",
       "id": "col_24"
     },
     {
@@ -376,7 +376,7 @@
       "category": "route",
       "match_count": 11,
       "display": "Is part of the Arun Valley Line route",
-      "hint": "The route from Horsham via Billingshurst and Pulborough up the Arun Valley to Amberley and Arundel, continuing to the coast.",
+      "hint": "A station on the Arun Valley Line route.",
       "id": "col_25"
     },
     {
@@ -387,7 +387,7 @@
       "category": "route",
       "match_count": 11,
       "display": "Is part of the Coastway route",
-      "hint": "The combined coastal route along the Sussex and Hampshire shore through Brighton, linking the separate West Coastway and East Coastway sections into one continuous line from Southampton to Hastings.",
+      "hint": "A station on the Coastway route.",
       "id": "col_26"
     },
     {
@@ -398,7 +398,7 @@
       "category": "route",
       "match_count": 11,
       "display": "Is part of the Epsom Downs Line route",
-      "hint": "The branch from West Croydon via Sutton and Belmont to its terminus at Epsom Downs, the home of the Derby horse race.",
+      "hint": "A station on the Epsom Downs Line route.",
       "id": "col_27"
     },
     {
@@ -409,7 +409,7 @@
       "category": "route",
       "match_count": 11,
       "display": "Is part of the Hastings Line Extended route",
-      "hint": "The line down to Hastings on the Sussex coast from Tonbridge, via Wadhurst, Etchingham and Battle.",
+      "hint": "A station on the Hastings Line Extended route.",
       "id": "col_28"
     },
     {
@@ -420,7 +420,7 @@
       "category": "route",
       "match_count": 9,
       "display": "Is part of the Mole Valley Line route",
-      "hint": "The route from Epsom via Leatherhead and Box Hill & Westhumble to Dorking, following the course of the River Mole - continues to Horsham on some services.",
+      "hint": "A station on the Mole Valley Line route.",
       "id": "col_29"
     },
     {

@@ -76,7 +76,7 @@
     "is_coastal": true,
     "terminus_max": 207,
     "canonical_hub": "Aberdeen",
-    "canonical_time_to_hub": 9.0,
+    "canonical_time_to_hub": 0.0,
     "welsh_name": null,
     "wordplay_category": "other",
     "wordplay_difficulty": "easy",
@@ -88,7 +88,7 @@
     "time_to_euston": null,
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
-    "time_to_hub__aberdeen": 9.0,
+    "time_to_hub__aberdeen": 0.0,
     "time_to_hub__dundee": null,
     "time_to_hub__inverness": null
   },
@@ -361,7 +361,7 @@
     "is_coastal": false,
     "terminus_max": 0,
     "canonical_hub": "Dundee",
-    "canonical_time_to_hub": 417.0,
+    "canonical_time_to_hub": 105.0,
     "welsh_name": null,
     "wordplay_category": "other",
     "wordplay_difficulty": "easy",
@@ -374,7 +374,7 @@
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
     "time_to_hub__aberdeen": null,
-    "time_to_hub__dundee": 417.0,
+    "time_to_hub__dundee": 105.0,
     "time_to_hub__inverness": null
   },
   {
@@ -716,7 +716,7 @@
     "is_coastal": true,
     "terminus_max": 164,
     "canonical_hub": "Dundee",
-    "canonical_time_to_hub": 23.0,
+    "canonical_time_to_hub": 0.0,
     "welsh_name": null,
     "wordplay_category": "other",
     "wordplay_difficulty": "easy",
@@ -729,7 +729,7 @@
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
     "time_to_hub__aberdeen": null,
-    "time_to_hub__dundee": 23.0,
+    "time_to_hub__dundee": 0.0,
     "time_to_hub__inverness": null
   },
   {
@@ -779,7 +779,7 @@
     "is_coastal": false,
     "terminus_max": 0,
     "canonical_hub": "Dundee",
-    "canonical_time_to_hub": 386.0,
+    "canonical_time_to_hub": 55.0,
     "welsh_name": null,
     "wordplay_category": "structure",
     "wordplay_difficulty": "hard",
@@ -794,7 +794,7 @@
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
     "time_to_hub__aberdeen": null,
-    "time_to_hub__dundee": 386.0,
+    "time_to_hub__dundee": 55.0,
     "time_to_hub__inverness": null
   },
   {
@@ -1415,7 +1415,7 @@
     "is_coastal": true,
     "terminus_max": 123,
     "canonical_hub": "Inverness",
-    "canonical_time_to_hub": 47.0,
+    "canonical_time_to_hub": 0.0,
     "welsh_name": null,
     "wordplay_category": "gaelic_place",
     "wordplay_difficulty": "medium",
@@ -1432,7 +1432,7 @@
     "time_to_stratford": null,
     "time_to_hub__aberdeen": null,
     "time_to_hub__dundee": null,
-    "time_to_hub__inverness": 47.0
+    "time_to_hub__inverness": 0.0
   },
   {
     "station_id": "SC_0204",
@@ -1988,7 +1988,7 @@
     "is_coastal": false,
     "terminus_max": 0,
     "canonical_hub": "Dundee",
-    "canonical_time_to_hub": 406.0,
+    "canonical_time_to_hub": 85.0,
     "welsh_name": null,
     "wordplay_category": "other",
     "wordplay_difficulty": "easy",
@@ -2001,7 +2001,7 @@
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
     "time_to_hub__aberdeen": null,
-    "time_to_hub__dundee": 406.0,
+    "time_to_hub__dundee": 85.0,
     "time_to_hub__inverness": null
   },
   {

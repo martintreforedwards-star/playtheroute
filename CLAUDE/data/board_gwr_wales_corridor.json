@@ -625,7 +625,7 @@
     "is_coastal": true,
     "terminus_max": 1600,
     "canonical_hub": "Cardiff Central",
-    "canonical_time_to_hub": 23.0,
+    "canonical_time_to_hub": 0.0,
     "welsh_name": "Caerdydd Canolog",
     "wordplay_category": "other",
     "wordplay_difficulty": "easy",
@@ -638,7 +638,7 @@
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
     "time_to_hub__bristol_temple_meads": null,
-    "time_to_hub__cardiff_central": 23.0,
+    "time_to_hub__cardiff_central": 0.0,
     "time_to_hub__swansea": null
   },
   {
@@ -4120,7 +4120,7 @@
     "is_coastal": true,
     "terminus_max": 442,
     "canonical_hub": "Swansea",
-    "canonical_time_to_hub": 9.0,
+    "canonical_time_to_hub": 0.0,
     "welsh_name": "Abertawe",
     "wordplay_category": "other",
     "wordplay_difficulty": "easy",
@@ -4134,7 +4134,7 @@
     "time_to_stratford": null,
     "time_to_hub__bristol_temple_meads": null,
     "time_to_hub__cardiff_central": null,
-    "time_to_hub__swansea": 9.0
+    "time_to_hub__swansea": 0.0
   },
   {
     "station_id": "TW_0213",
@@ -4937,7 +4937,7 @@
     "is_coastal": false,
     "terminus_max": 882,
     "canonical_hub": "Bristol Temple Meads",
-    "canonical_time_to_hub": 20.0,
+    "canonical_time_to_hub": 0.0,
     "welsh_name": null,
     "wordplay_category": "other",
     "wordplay_difficulty": "easy",
@@ -4949,7 +4949,7 @@
     "time_to_euston": null,
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
-    "time_to_hub__bristol_temple_meads": 20.0,
+    "time_to_hub__bristol_temple_meads": 0.0,
     "time_to_hub__cardiff_central": null,
     "time_to_hub__swansea": null
   },

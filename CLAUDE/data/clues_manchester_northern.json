@@ -52,7 +52,7 @@
       "weight": "high",
       "match_count": 17,
       "display": "Station name is 3+ words",
-      "hint": "Station name is three or more words long.",
+      "hint": "Station name is three or more words long. Hyphens and ampersands (&) each count as a word separator, so a name like 'Ashton-under-Lyne' counts as three words.",
       "id": "row_4"
     },
     {

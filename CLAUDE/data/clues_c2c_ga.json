@@ -39,7 +39,7 @@
       "value": 1,
       "label": "One-word name",
       "weight": "medium",
-      "match_count": 93,
+      "match_count": 94,
       "display": "Station name is one word",
       "hint": "Station is a one-word name.",
       "id": "row_3"
@@ -52,7 +52,7 @@
       "weight": "high",
       "match_count": 14,
       "display": "Station name is 3+ words",
-      "hint": "Station name is three or more words long.",
+      "hint": "Station name is three or more words long. Hyphens and ampersands (&) each count as a word separator, so a name like 'Ashton-under-Lyne' counts as three words.",
       "id": "row_4"
     },
     {
@@ -217,23 +217,23 @@
       "type": "range",
       "field": "time_to_hub__london",
       "min": 51.0,
-      "max": 101.0,
+      "max": 104.0,
       "label": "Time to London: middle third",
       "category": "service",
-      "match_count": 55,
+      "match_count": 56,
       "display": "A mid-range journey to London",
-      "hint": "In this puzzle, 'mid-range' means 51-101 minutes to London.",
+      "hint": "In this puzzle, 'mid-range' means 51-104 minutes to London.",
       "id": "col_11"
     },
     {
       "type": "range",
       "field": "time_to_hub__london",
-      "min": 101.0,
+      "min": 104.0,
       "label": "Time to London: longest third",
       "category": "service",
       "match_count": 55,
       "display": "A long journey to London",
-      "hint": "In this puzzle, 'long' means 101+ minutes to London.",
+      "hint": "In this puzzle, 'long' means 104+ minutes to London.",
       "id": "col_12"
     },
     {

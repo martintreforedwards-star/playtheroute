@@ -1897,6 +1897,12 @@ Promise.all([
 
 // Restore the real grid markup now that data has arrived.
 gameGridEl.innerHTML = gameGridLoadingHTML;
+// The snapshot above was captured before applyStaticI18n() had a chance to
+// run (it fires on DOMContentLoaded, which can land after this synchronous
+// code executes), so re-apply translations now the real markup is back in
+// the DOM - otherwise data-i18n elements inside #gameGrid (platform
+// headers, tickets label) silently revert to English on every load.
+applyStaticI18n();
 
 stations = stationData;
 clueLibrary = clueData;

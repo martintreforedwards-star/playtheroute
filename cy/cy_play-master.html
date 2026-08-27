@@ -1,0 +1,3335 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta
+  name="viewport"
+  content="width=device-width, initial-scale=1.0">
+
+<title>The Route</title>
+
+<link
+  rel="preconnect"
+  href="https://fonts.googleapis.com">
+
+<link
+  rel="preconnect"
+  href="https://fonts.gstatic.com"
+  crossorigin>
+
+<link
+  href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+  rel="stylesheet">
+
+<style>
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  background:
+    linear-gradient(
+      180deg,
+      #00133d 0%,
+      #000814 100%
+    );
+  color: white;
+}
+
+.container {
+  width: 100%;
+  max-width: 1180px;
+  margin: auto;
+  padding: 28px 20px 60px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 18px;
+  margin-bottom: 30px;
+}
+
+.header-home-link {
+  color: #94a3b8;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 0.9rem;
+  border: 1px solid #334155;
+  border-radius: 10px;
+  padding: 8px 14px;
+}
+
+.header-home-link:hover {
+  color: white;
+  border-color: #64748b;
+}
+
+.logo {
+  width: 220px;
+  height: auto;
+  display: block;
+}
+
+.title-block h1 {
+  margin: 0;
+  font-size: clamp(
+    2.4rem,
+    5vw,
+    4.2rem
+  );
+  line-height: 1;
+  font-weight: 800;
+}
+.copyright-mark{
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+
+  width:0.75em;
+  height:0.75em;
+
+  margin-left:-0.03em;
+
+  border:1.5px solid currentColor;
+  border-radius:50%;
+
+  font-size:0.18em;
+  font-weight:700;
+
+  position:relative;
+  top:-0.55em;
+}
+.subtitle {
+  margin-top: 8px;
+  color: rgba(255,255,255,0.6);
+  font-size: 1rem;
+}
+
+.panel {
+  border: 1px solid rgba(
+    255,
+    255,
+    255,
+    0.18
+  );
+  background: rgba(
+    255,
+    255,
+    255,
+    0.02
+  );
+  padding: 24px;
+  margin-bottom: 26px;
+  border-radius: 22px;
+}
+
+.panel-title {
+  color: #22c55e;
+  font-size: 0.95rem;
+  font-weight: 800;
+  letter-spacing: 3px;
+  margin-bottom: 14px;
+  text-transform: uppercase;
+}
+
+.game-table-wrapper {
+  overflow-x: auto;
+}
+
+.game-table {
+  width: 100%;
+  min-width: 820px;
+  border-collapse: separate;
+  border-spacing: 10px;
+  table-layout: fixed;
+}
+
+.game-table th,
+.game-table td {
+  vertical-align: middle;
+}
+
+.top-heading {
+  text-align: center;
+  font-size: 1.5rem;
+  padding: 20px;
+}
+
+.side-heading {
+  width: 220px;
+  text-align: left;
+  border-radius: 20px;
+  background: rgba(
+    15,
+    23,
+    42,
+    0.95
+  );
+  padding: 18px;
+}
+
+.side-heading .p-label {
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.side-heading .p-clue {
+  font-size: 1rem;
+  line-height: 1.45;
+  color: rgba(
+    255,
+    255,
+    255,
+    0.92
+  );
+}
+
+.p1 {
+  color: #22c55e;
+}
+
+.p2 {
+  color: #60a5fa;
+}
+
+.col-heading {
+  font-size: 1rem;
+  line-height: 1.45;
+  text-align: center;
+  background: rgba(
+    15,
+    23,
+    42,
+    0.95
+  );
+  border-radius: 20px;
+  padding: 20px;
+}
+.game-grid {
+
+  display: grid;
+
+  grid-template-columns: 108px repeat(2, minmax(130px,1fr));
+
+  gap: 10px;
+
+  width: 100%;
+
+  align-items: stretch;
+
+}
+
+.corner {
+  background: transparent;
+}
+
+.column-header {
+
+  background: rgba(15,23,42,0.95);
+
+  border-radius: 18px;
+
+  padding: 8px 4px;
+
+  text-align: center;
+
+ height: 78px;
+
+  display: flex;
+
+  flex-direction: column;
+
+  justify-content: center;
+
+}
+
+.column-header strong {
+  font-size: 1.1rem;
+}
+
+.column-clue {
+
+  margin-top: 4px;
+
+  color: #d1d5db;
+
+  font-size: 0.58rem;
+
+  line-height: 1.25;
+
+}
+
+.row-header {
+
+  border-radius: 18px;
+
+  padding: 8px;
+
+  display: flex;
+
+  flex-direction: column;
+
+  justify-content: center;
+
+  align-items: center;
+
+  text-align: center;
+
+  min-height: 140px;
+
+}
+
+.row-header strong {
+
+  font-size: 1.05rem;
+
+  margin-bottom: 4px;
+
+}
+
+.row-header span {
+
+  font-size: 0.72rem;
+
+  line-height: 1.3;
+
+}
+
+.row-header.green,
+.row-header.blue {
+
+  background: rgba(15,23,42,0.95);
+
+  border-left: 4px solid rgba(255,255,255,0.35);
+
+}
+.cell {
+  height: 140px;
+  cursor: pointer;
+  transition: 0.15s;
+  position: relative;
+  border-radius: 22px;
+  background: rgba(
+    10,
+    20,
+    50,
+    0.95
+  );
+  border: 2px solid #1d4ed8;
+}
+
+.cell.disabled-used {
+  cursor: not-allowed;
+  opacity: 0.55;
+}
+
+.cell:hover {
+  transform: translateY(-2px);
+  border-color: #3b82f6;
+}
+
+.cell.correct{
+  background:linear-gradient(
+    to bottom,
+    #0f172a 0%,
+    #0f172a 28%,
+    #74c08f 28%,
+    #69b483 100%
+  );
+  border:2px solid #7bd39f;
+  border-radius:8px;
+  box-shadow:none;
+}
+
+.cell.correct .station-name{
+  color:#04160c;
+  font-size:1.05rem;
+  font-weight:900;
+}
+
+.cell.correct .validation{
+  color:#0b2a16;
+  font-weight:800;
+  background:rgba(255,255,255,0.35);
+  border-radius:4px;
+  padding:1px 6px;
+  display:inline-block;
+}
+
+.cell.correct .cell-inner{
+  margin-top:4px;
+}
+
+.cell.correct::before{
+  content:"";
+  position:absolute;
+  top:8px;
+  left:12px;
+  right:12px;
+  height:18px;
+  background:repeating-linear-gradient(
+    to right,
+    rgba(190,220,245,.95) 0 24px,
+    transparent 24px 38px
+  );
+}
+
+.cell.correct::after{
+  content:"";
+  position:absolute;
+  left:0;
+  right:0;
+  bottom:8px;
+  height:7px;
+  background:#111827;
+}
+/* TRAIN HARDWARE */
+
+.bogie{
+  position:absolute;
+  bottom:-7px;
+  width:60px;
+  height:12px;
+  background:#05070a;
+  border-radius:4px;
+  z-index:1;
+}
+
+.bogie.left{
+  left:18px;
+}
+
+.bogie.right{
+  right:18px;
+}
+
+.wheel{
+  position:absolute;
+  width:14px;
+  height:14px;
+  border-radius:50%;
+  background:#05070a;
+  border:2px solid #000;
+  bottom:-9px;
+  z-index:1;
+}
+
+.wheel.l1{
+  left:20px;
+}
+
+.wheel.l2{
+  left:48px;
+}
+
+.wheel.r1{
+  right:48px;
+}
+
+.wheel.r2{
+  right:20px;
+}
+
+.coupling{
+  position:absolute;
+  bottom:-14px;
+  left:50%;
+  width:4px;
+  height:18px;
+  background:#111827;
+  transform:translateX(-50%);
+  z-index:5;
+}
+
+.cell.correct[data-index="0"],
+.cell.correct[data-index="1"]{
+  border-radius:22px 22px 8px 8px;
+}
+
+.cell.correct[data-index="6"],
+.cell.correct[data-index="7"]{
+  clip-path:polygon(
+    0 0,
+    100% 0,
+    100% 88%,
+    50% 100%,
+    0 88%
+  );
+}
+.cell.incorrect {
+  background: rgba(
+    140,
+    0,
+    0,
+    0.95
+  );
+  border-color: #ef4444;
+}
+
+.cell-inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  padding: 12px;
+}
+
+.station-name {
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1.4;
+  text-align: center;
+}
+
+.validation {
+  margin-top: 10px;
+  font-size: 0.72rem;
+  letter-spacing: 2px;
+  text-align: center;
+  opacity: 0.85;
+}
+
+.empty-label {
+  color: #94a3b8;
+  font-size: 0.9rem;
+  font-weight: 700;
+}
+
+.reveal-hint-btn {
+  margin-top: 8px;
+  border: 1px solid rgba(251,191,36,0.5);
+  background: rgba(251,191,36,0.12);
+  color: #fbbf24;
+  font-size: 0.68rem;
+  font-weight: 700;
+  padding: 5px 8px;
+  border-radius: 999px;
+  cursor: pointer;
+  line-height: 1.2;
+}
+
+.reveal-hint-btn:hover {
+  background: rgba(251,191,36,0.22);
+}
+
+.reveal-hint-text {
+  margin-top: 8px;
+  color: #fbbf24;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+}
+
+.footer-row {
+  display: flex;
+  gap: 24px;
+  margin-top: 28px;
+  align-items: stretch;
+  justify-content: center;
+}
+
+/* The submit-route button is the sole child of .footer-row, so the shared
+   .submit-button class's flex:1 stretched it edge-to-edge - reading as
+   oversized compared to the other action buttons that share the class.
+   Scoped here (not on .submit-button itself) so the smaller share/copy/
+   bonus buttons elsewhere keep their existing inline sizing untouched. */
+.footer-row .submit-button {
+  flex: 0 1 auto;
+  width: 100%;
+  max-width: 320px;
+}
+
+.corner {
+  display: flex;
+  align-items: stretch;
+}
+
+.status-cell {
+  width: 100%;
+}
+
+.ticket-box {
+  width: 100%;
+  height: 78px;
+  border: 1px solid rgba(
+    255,
+    255,
+    255,
+    0.18
+  );
+  border-left: 4px solid rgba(255,255,255,0.35);
+  padding: 6px 4px;
+  border-radius: 18px;
+  background: rgba(
+    15,
+    23,
+    42,
+    0.95
+  );
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.ticket-box.urgent {
+  border-color: #ef4444;
+  border-left-color: #ef4444;
+  background: rgba(60,10,10,0.95);
+}
+
+.ticket-box.urgent .ticket-number {
+  color: #f87171;
+}
+
+.ticket-title {
+  color: rgba(
+    255,
+    255,
+    255,
+    0.65
+  );
+  font-size: 0.6rem;
+  line-height: 1.2;
+  margin-bottom: 3px;
+}
+
+.ticket-number {
+  color: #ffffff;
+  font-size: 1.4rem;
+  font-weight: 800;
+  line-height: 1;
+}
+
+.submit-button {
+  flex: 1;
+  min-width: 220px;
+  border: none;
+  border-radius: 18px;
+  background: #22c55e;
+  color: white;
+  font-size: 1.25rem;
+  font-weight: 700;
+  padding: 14px 20px;
+  cursor: pointer;
+  transition: opacity 0.15s;
+}
+
+.submit-button:hover {
+  opacity: 0.92;
+}
+
+.route-key {
+  margin-top: 28px;
+}
+
+.route-key p {
+  margin: 0;
+  font-size: 1rem;
+}
+
+.special-announcement {
+
+  margin-top: 28px;
+}
+
+.departure-board {
+  margin-top: 18px;
+  background: black;
+  color: #22ff66;
+  padding: 26px;
+  text-align: center;
+  font-family: monospace;
+  font-size: 2rem;
+  letter-spacing: 4px;
+}
+
+.modal {
+  position: fixed;
+  inset: 0;
+  background: rgba(
+    0,
+    0,
+    0,
+    0.8
+  );
+  display: none;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  z-index: 999;
+}
+
+.modal-box {
+  width: 100%;
+  max-width: 560px;
+  background: #07142f;
+  border: 1px solid rgba(
+    255,
+    255,
+    255,
+    0.15
+  );
+  padding: 24px;
+  max-height: 80vh;
+  overflow-y: auto;
+  border-radius: 24px;
+}
+
+.modal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 18px;
+}
+
+.close-button {
+  border: none;
+  background: #dc2626;
+  color: white;
+  width: 34px;
+  height: 34px;
+  cursor: pointer;
+  font-size: 1rem;
+  border-radius: 10px;
+}
+
+.search-box {
+  width: 100%;
+  padding: 16px;
+  border: none;
+  margin-bottom: 18px;
+  font-size: 1rem;
+  border-radius: 16px;
+}
+
+.station-option {
+  padding: 14px;
+  cursor: pointer;
+  border-bottom: 1px solid rgba(
+    255,
+    255,
+    255,
+    0.08
+  );
+}
+
+.station-option:hover {
+  background: rgba(
+    255,
+    255,
+    255,
+    0.05
+  );
+}
+
+.station-option.used {
+  opacity: 0.4;
+  cursor: not-allowed;
+  pointer-events: none;
+  text-decoration: line-through;
+}
+
+.no-results {
+  padding: 18px 14px;
+  color: rgba(255,255,255,0.55);
+  font-size: 0.92rem;
+  text-align: center;
+}
+
+.loading-state {
+  text-align: center;
+  padding: 60px 20px;
+  color: rgba(255,255,255,0.6);
+  font-size: 1rem;
+}
+
+@media (max-width: 760px) {
+
+  .container {
+    padding: 18px 14px 40px;
+  }
+
+  .panel {
+    padding: 18px;
+  }
+.game-grid {
+
+  grid-template-columns: 70px repeat(2, 1fr);
+
+  gap: 8px;
+
+}
+.row-header {
+  min-height: 82px;
+}
+.column-header {
+  height: 82px;
+}
+.ticket-box {
+  height: 82px;
+  padding: 4px 3px;
+}
+.ticket-title {
+  font-size: 0.5rem;
+}
+.ticket-number {
+  font-size: 1.1rem;
+}
+.row-header strong {
+  font-size: 0.74rem;
+}
+
+.row-header span {
+  font-size: 0.52rem;
+}
+.footer-row {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer-row .submit-button {
+    min-height: 52px;
+    font-size: 1.1rem;
+    padding: 10px 20px;
+    max-width: 320px;
+  }
+
+  .game-table {
+    border-spacing: 3px;
+  }
+
+  .side-heading {
+    width: 55px;
+    padding: 4px;
+  }
+
+  .side-heading .p-label {
+    font-size: 0.7rem;
+    margin-bottom: 4px;
+  }
+
+.side-heading .p-clue {
+  font-size: 0.62rem;
+  line-height: 1.2;
+}
+
+.col-heading {
+  font-size: 0.7rem;
+  padding: 6px;
+  line-height: 1.2;
+}
+
+.cell {
+  height: 82px;
+  border-radius: 14px;
+}
+
+  .cell-inner {
+    padding: 4px;
+  }
+
+.station-name {
+  font-size: 0.72rem;
+  line-height: 1.1;
+}
+
+  .validation {
+    margin-top: 4px;
+    font-size: 0.4rem;
+    letter-spacing: 1px;
+  }
+
+  .empty-label {
+    font-size: 0.65rem;
+  }
+
+  .reveal-hint-btn {
+    font-size: 0.56rem;
+    padding: 4px 6px;
+    margin-top: 5px;
+  }
+
+  .reveal-hint-text {
+    font-size: 0.58rem;
+    margin-top: 5px;
+  }
+
+}
+
+.footer-text {
+  text-align: center;
+  color: #6b7280;
+  font-size: 0.82rem;
+  line-height: 1.8;
+  margin: 40px auto;
+  width: 100%;
+}
+
+.footer-text a {
+  color: #9ca3af;
+  text-decoration: none;
+  transition: 0.2s;
+  margin: 0 6px;
+}
+
+.footer-text a:hover {
+  color: white;
+}
+
+.stats-row {
+  display: flex;
+  justify-content: center;
+  gap: 18px;
+  margin: 16px 0;
+  flex-wrap: wrap;
+}
+
+.stats-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 64px;
+}
+
+.stats-item strong {
+  font-size: 1.3rem;
+  font-weight: 800;
+  color: #22c55e;
+  line-height: 1.1;
+}
+
+.stats-item span {
+  font-size: 0.7rem;
+  color: rgba(255,255,255,0.6);
+  margin-top: 2px;
+}
+
+.app-toast {
+  position: fixed;
+  left: 50%;
+  bottom: 28px;
+  transform: translate(-50%, 20px);
+  background: rgba(15,23,42,0.97);
+  border: 1px solid rgba(255,255,255,0.18);
+  color: white;
+  padding: 12px 20px;
+  border-radius: 999px;
+  font-size: 0.9rem;
+  opacity: 0;
+  pointer-events: none;
+  transition: 0.25s ease;
+  z-index: 3000;
+}
+
+.app-toast.visible {
+  opacity: 1;
+  transform: translate(-50%, 0);
+}
+
+.hint-icon-btn {
+  margin-top: 5px;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  border: 1px solid rgba(255,255,255,0.4);
+  background: rgba(255,255,255,0.08);
+  color: rgba(255,255,255,0.85);
+  font-size: 0.62rem;
+  font-style: italic;
+  font-family: Georgia, serif;
+  line-height: 1;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+}
+
+.hint-icon-btn:hover,
+.hint-icon-btn.active {
+  border-color: #60a5fa;
+  color: white;
+  background: rgba(96,165,250,0.25);
+}
+
+.hint-popover {
+  position: fixed;
+  z-index: 1500;
+  max-width: 240px;
+  background: #0f172a;
+  border: 1px solid rgba(255,255,255,0.25);
+  color: #e5e7eb;
+  font-size: 0.72rem;
+  line-height: 1.35;
+  padding: 10px 12px;
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.4);
+  display: none;
+}
+
+.hint-popover.visible {
+  display: block;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="container">
+
+<div class="header">
+
+  <a href="index.html">
+    <img
+      src="/CLAUDE/newlogo.svg"
+      class="logo"
+      alt="The Route">
+  </a>
+
+  <a href="/" class="header-home-link" data-i18n="home">
+    🏠 Home
+  </a>
+
+</div>
+
+
+  <div class="game-grid" id="gameGrid">
+
+  <div class="corner status-cell">
+
+  <div
+    class="ticket-box"
+    id="timerBox"
+    style="display:none;">
+
+    <div class="ticket-title" data-i18n="time_left">
+      Time left
+    </div>
+
+    <div
+      class="ticket-number"
+      id="timerCount">
+
+      03:00
+
+    </div>
+
+  </div>
+    <div class="ticket-box">
+
+      <div class="ticket-title" data-i18n="tickets_left">
+        Tickets left
+      </div>
+
+      <div
+        class="ticket-number"
+        id="ticketCount">
+
+        6
+
+      </div>
+
+    </div>
+
+</div>
+
+  <div class="column-header" style="border-left:4px solid #22c55e; background:rgba(15,23,42,0.95);">
+    <strong data-i18n="platform_1">Platform 1</strong>
+    <div class="column-clue" id="rowClue0"></div>
+    <button type="button" class="hint-icon-btn" id="hintIcon-col0" aria-label="Hint" data-i18n-aria="hint">i</button>
+  </div>
+
+  <div class="column-header" style="border-left:4px solid #60a5fa; background:rgba(15,23,42,0.95);">
+    <strong data-i18n="platform_2">Platform 2</strong>
+    <div class="column-clue" id="rowClue1"></div>
+    <button type="button" class="hint-icon-btn" id="hintIcon-col1" aria-label="Hint" data-i18n-aria="hint">i</button>
+  </div>
+
+  <div class="row-header green">
+    <strong>A</strong>
+    <span id="colClue0"></span>
+    <button type="button" class="hint-icon-btn" id="hintIcon-row0" aria-label="Hint" data-i18n-aria="hint">i</button>
+  </div>
+  <div class="cell" data-index="0"></div>
+  <div class="cell" data-index="1"></div>
+
+  <div class="row-header blue">
+    <strong>B</strong>
+    <span id="colClue1"></span>
+    <button type="button" class="hint-icon-btn" id="hintIcon-row1" aria-label="Hint" data-i18n-aria="hint">i</button>
+  </div>
+  <div class="cell" data-index="2"></div>
+  <div class="cell" data-index="3"></div>
+
+  <div class="row-header green">
+    <strong>C</strong>
+    <span id="colClue2"></span>
+    <button type="button" class="hint-icon-btn" id="hintIcon-row2" aria-label="Hint" data-i18n-aria="hint">i</button>
+  </div>
+  <div class="cell" data-index="4"></div>
+  <div class="cell" data-index="5"></div>
+
+  <div class="row-header blue">
+    <strong>D</strong>
+    <span id="colClue3"></span>
+    <button type="button" class="hint-icon-btn" id="hintIcon-row3" aria-label="Hint" data-i18n-aria="hint">i</button>
+  </div>
+  <div class="cell" data-index="6"></div>
+  <div class="cell" data-index="7"></div>
+
+</div>
+
+  <div class="footer-row">
+    <button
+      class="submit-button"
+      id="submitButton"
+      data-i18n="submit_route">
+
+      Submit route
+
+    </button>
+
+  </div>
+<div
+    class="panel final-destination"
+    id="specialAnnouncement">
+
+    <div class="panel-title" data-i18n="landmark_challenge">
+      Landmark Challenge
+    </div>
+
+    <div id="lockedText" data-i18n="locked">
+      🔒 LOCKED
+    </div>
+
+    <div
+      class="departure-board"
+      id="departureBoard">
+
+    </div>
+
+    <div id="stationCountText" style="display:none;margin-top:12px;text-align:center;font-weight:700;">
+    </div>
+    <div id="bonusStationPanel" style="display:none;margin-top:16px;text-align:center;">
+      <button class="submit-button" id="bonusSelectButton" style="min-width:auto;padding:12px 20px;font-size:1rem;" data-i18n="select_station">
+        Select Station
+      </button>
+      <div id="bonusSelectedStation" style="margin-top:12px;"></div>
+      <div id="bonusMessage" style="margin-top:12px;font-weight:700;"></div>
+    </div>
+
+  </div>
+
+</div>
+
+<div
+  class="modal"
+  id="stationModal">
+
+  <div class="modal-box">
+
+    <div class="modal-header">
+
+      <strong data-i18n="select_station_modal">
+        Select station
+      </strong>
+
+      <button
+        class="close-button"
+        id="closeModal">
+
+        ✕
+
+      </button>
+
+    </div>
+
+    <input
+      type="text"
+      id="searchBox"
+      class="search-box"
+      placeholder="Search station..."
+      data-i18n-placeholder="search_station">
+
+    <div id="results"></div>
+
+  </div>
+
+</div>
+
+<script src="/CLAUDE/data/daily_puzzle_selector.js"></script>
+<script>
+
+// ---------- i18n ----------
+// Language is decided purely by URL path: pages served from a /cy/
+// folder are Welsh, pages served from a /gd/ folder are Scottish Gaelic,
+// everything else is English. Same file, same logic, all languages -
+// no separate play-master.html to maintain per language.
+const LANG = window.location.pathname.includes("/cy/") ? "cy"
+           : window.location.pathname.includes("/gd/") ? "gd"
+           : "en";
+
+// Networks that have their own translated clue file (clues_{network}_{lang}.json)
+// for a given non-English language. Only listed networks get the translated
+// file - everything else falls back to the English clues automatically.
+const LOCALIZED_CLUE_NETWORKS = {
+  cy: ["tfw_cymraeg", "gwr_wales_corridor", "shrewsbury_wrexham_chester"],
+  gd: ["highlands_ne_scotrail"]
+};
+
+function resolveCluesPath(basePath, net) {
+  const list = LOCALIZED_CLUE_NETWORKS[LANG];
+  if (list && list.includes(net)) {
+    return basePath.replace(/\.json$/, `_${LANG}.json`);
+  }
+  return basePath;
+}
+
+const STRINGS = {
+  en: {
+    time_left: "Time left",
+    tickets_left: "Tickets left",
+    platform_1: "Platform 1",
+    platform_2: "Platform 2",
+    hint: "Hint",
+    submit_route: "Submit route",
+    landmark_challenge: "Landmark Challenge",
+    locked: "🔒 LOCKED",
+    select_station: "Select Station",
+    select_station_modal: "Select station",
+    search_station: "Search station...",
+    home: "🏠 Home",
+    share_result: "Share Result",
+    share_image: "Share Image",
+    copy_link: "Copy Link",
+    support_us: "☕ Support us",
+    close: "Close",
+    results_title: "The Route Results",
+    invalid: "INVALID",
+    arriving: "ARRIVING",
+    no_stations_match: "No stations match your search.",
+    no_extra_detail: "No extra detail available for this clue.",
+    no_tickets_for_hint: "No tickets left to reveal a hint.",
+    claim_return_ticket: "🎟 Claim Return Ticket",
+    selected_prefix: "Selected: ",
+    express_departed: "⏱ The express service has departed!",
+    fill_all_stations: "Please fill all 8 stations before submitting.",
+    landmark_question: "Which station on this network is closest to this landmark?",
+    incorrect_station: "❌ Incorrect station (-1 ticket)",
+    correct_answer: "Correct answer:",
+    return_ticket_earned: "🎟 RETURN TICKET EARNED",
+    landmark_correct_prefix: "✅ Correct!",
+    landmark_correct_suffix: "was the closest station to",
+    landmark_incorrect_prefix: "❌ Not quite - you guessed",
+    landmark_incorrect_suffix_1: "The closest station to",
+    landmark_incorrect_suffix_2: "was",
+    station_fact: "Station fact:",
+    tickets_remaining_prefix: "Tickets Remaining: ",
+    result_copied: "Result copied to clipboard.",
+    link_copied: "Link copied to clipboard.",
+    copy_failed: "Couldn't copy - please copy manually.",
+    flavour_replacement_title: "🚧 Rail Replacement Service",
+    flavour_replacement_desc: "Buses have been requested.",
+    flavour_first_title: "👑 First Class Passenger",
+    flavour_first_desc: "Complimentary coffee and a guaranteed seat.",
+    flavour_season_title: "🥂 Season Ticket Holder",
+    flavour_season_desc: "Knows exactly which carriage stops by the exit.",
+    flavour_commuter_title: "💼 Daily Commuter",
+    flavour_commuter_desc: "Delayed, but still arrived on time.",
+    flavour_traveller_title: "🚉 Regular Traveller",
+    flavour_traveller_desc: "A reliable journey with a few unexpected stops.",
+    reveal_hint_btn: "🔍 Reveal (-1 ticket)"
+  },
+  cy: {
+    time_left: "Amser ar ôl",
+    tickets_left: "Tocynnau ar ôl",
+    platform_1: "Platfform 1",
+    platform_2: "Platfform 2",
+    hint: "Awgrym",
+    submit_route: "Cyflwyno'r llwybr",
+    landmark_challenge: "Her Nodwedd",
+    locked: "🔒 AR GLO",
+    select_station: "Dewis Gorsaf",
+    select_station_modal: "Dewis gorsaf",
+    search_station: "Chwilio am orsaf...",
+    home: "🏠 Cartref",
+    share_result: "Rhannu Canlyniad",
+    share_image: "Rhannu Llun",
+    copy_link: "Copïo Dolen",
+    support_us: "☕ Cefnogwch ni",
+    close: "Cau",
+    results_title: "Canlyniadau'r Daith",
+    invalid: "ANNILYS",
+    arriving: "YN CYRRAEDD",
+    no_stations_match: "Dim gorsafoedd yn cyfateb i'ch chwiliad.",
+    no_extra_detail: "Dim manylion ychwanegol ar gael ar gyfer y cliw hwn.",
+    no_tickets_for_hint: "Dim tocynnau ar ôl i ddatgelu awgrym.",
+    claim_return_ticket: "🎟 Hawlio Tocyn Dychwelyd",
+    selected_prefix: "Wedi dewis: ",
+    express_departed: "⏱ Mae'r gwasanaeth cyflym wedi gadael!",
+    fill_all_stations: "Llenwch bob un o'r 8 gorsaf cyn cyflwyno.",
+    landmark_question: "Pa orsaf ar y rhwydwaith hwn sydd agosaf at y nod tirnod hwn?",
+    incorrect_station: "❌ Gorsaf anghywir (-1 tocyn)",
+    correct_answer: "Yr ateb cywir:",
+    return_ticket_earned: "🎟 TOCYN DYCHWELYD WEDI'I ENNILL",
+    landmark_correct_prefix: "✅ Cywir!",
+    landmark_correct_suffix: "oedd yr orsaf agosaf at",
+    landmark_incorrect_prefix: "❌ Ddim cweit - fe ddyfaloch",
+    landmark_incorrect_suffix_1: "Yr orsaf agosaf at",
+    landmark_incorrect_suffix_2: "oedd",
+    station_fact: "Ffaith am yr orsaf:",
+    tickets_remaining_prefix: "Tocynnau'n Weddill: ",
+    result_copied: "Canlyniad wedi'i gopïo i'r clipfwrdd.",
+    link_copied: "Dolen wedi'i gopïo i'r clipfwrdd.",
+    copy_failed: "Methu copïo - copïwch â llaw.",
+    flavour_replacement_title: "🚧 Gwasanaeth Bysiau Rhatblaeth",
+    flavour_replacement_desc: "Gofynnwyd am fysiau.",
+    flavour_first_title: "👑 Teithiwr Dosbarth Cyntaf",
+    flavour_first_desc: "Coffi am ddim a sedd wedi'i gwarantu.",
+    flavour_season_title: "🥂 Deiliad Tocyn Tymor",
+    flavour_season_desc: "Yn gwybod yn union pa gerbyd sy'n stopio wrth y ffordd allan.",
+    flavour_commuter_title: "💼 Cymudwr Dyddiol",
+    flavour_commuter_desc: "Wedi'i oedi, ond cyrhaeddodd mewn pryd o hyd.",
+    flavour_traveller_title: "🚉 Teithiwr Rheolaidd",
+    flavour_traveller_desc: "Taith ddibynadwy gyda ychydig o stopiau annisgwyl.",
+    reveal_hint_btn: "🔍 Datgelu (-1 tocyn)"
+  },
+  gd: {
+    time_left: "Ùine air fhàgail",
+    tickets_left: "Tiogaidean air fhàgail",
+    platform_1: "Clàr-ùrlair 1",
+    platform_2: "Clàr-ùrlair 2",
+    hint: "Sanas",
+    submit_route: "Cuir a-steach an t-slighe",
+    landmark_challenge: "Dùbhlan Comharra-tìre",
+    locked: "🔒 GLASTE",
+    select_station: "Tagh Stèisean",
+    select_station_modal: "Tagh stèisean",
+    search_station: "Lorg stèisean...",
+    home: "🏠 Dachaigh",
+    share_result: "Roinn an Toradh",
+    share_image: "Roinn Dealbh",
+    copy_link: "Dèan Lethbhreac dhen Cheangal",
+    support_us: "☕ Cuidich sinn",
+    close: "Dùin",
+    results_title: "Toraidhean an t-Slighe",
+    invalid: "MÌ-DHLIGHEACH",
+    arriving: "A' RUIGSINN",
+    no_stations_match: "Chan eil stèisean sam bith a' freagairt ri do lorg.",
+    no_extra_detail: "Chan eil mion-fhiosrachadh a bharrachd ri fhaighinn airson an sanas seo.",
+    no_tickets_for_hint: "Chan eil tiogaid air fhàgail airson sanas fhoillseachadh.",
+    claim_return_ticket: "🎟 Iarr Tiogaid Dhà-shligheach",
+    selected_prefix: "Air a thaghadh: ",
+    express_departed: "⏱ Tha an t-seirbheis luath air falbh!",
+    fill_all_stations: "Lìon a h-uile stèisean 8 mus cuir thu a-steach.",
+    landmark_question: "Dè an stèisean air an rathad seo as fhaisge air a' chomharra-tìre seo?",
+    incorrect_station: "❌ Stèisean ceàrr (-1 tiogaid)",
+    correct_answer: "Am freagairt ceart:",
+    return_ticket_earned: "🎟 TIOGAID DHÀ-SHLIGHEACH AIR A COSNADH",
+    landmark_correct_prefix: "✅ Ceart!",
+    landmark_correct_suffix: "b' e an stèisean as fhaisge air",
+    landmark_incorrect_prefix: "❌ Chan eil sin buileach ceart - thagh thu",
+    landmark_incorrect_suffix_1: "B' e an stèisean as fhaisge air",
+    landmark_incorrect_suffix_2: "na",
+    station_fact: "Fìrinn mun stèisean:",
+    tickets_remaining_prefix: "Tiogaidean air Fhàgail: ",
+    result_copied: "Toradh air a chur air an clipboard.",
+    link_copied: "Ceangal air a chur air an clipboard.",
+    copy_failed: "Cha b' urrainn dhuinn lethbhreac a dhèanamh - dèan lethbhreac a làimh.",
+    flavour_replacement_title: "🚧 Seirbheis Bhusaichean Àite",
+    flavour_replacement_desc: "Chaidh busaichean iarraidh.",
+    flavour_first_title: "👑 Neach-siubhail Ciad-ìre",
+    flavour_first_desc: "Cofaidh an-asgaidh agus suidheachan cinnteach.",
+    flavour_season_title: "🥂 Neach-seilbh Tiogaid Ràitheil",
+    flavour_season_desc: "Aithnichidh iad dìreach dè an carbad a stadas faisg air an doras.",
+    flavour_commuter_title: "💼 Neach-siubhail Làitheil",
+    flavour_commuter_desc: "Air dàil, ach a' ruighinn ann an àm fhathast.",
+    flavour_traveller_title: "🚉 Neach-siubhail Cunbhalach",
+    flavour_traveller_desc: "Turas earbsach le beagan stadan gun dùil.",
+    reveal_hint_btn: "🔍 Foillsich (-1 tiogaid)"
+  }
+};
+
+function t(key) {
+  return (STRINGS[LANG] && STRINGS[LANG][key]) || STRINGS.en[key] || key;
+}
+
+// Apply data-i18n / data-i18n-aria / data-i18n-placeholder attributes on
+// static HTML once the DOM is ready - keeps translated text out of the
+// markup itself so this one file serves both languages.
+function applyStaticI18n() {
+  document.querySelectorAll("[data-i18n]").forEach(el => {
+    el.textContent = t(el.getAttribute("data-i18n"));
+  });
+  document.querySelectorAll("[data-i18n-aria]").forEach(el => {
+    el.setAttribute("aria-label", t(el.getAttribute("data-i18n-aria")));
+  });
+  document.querySelectorAll("[data-i18n-placeholder]").forEach(el => {
+    el.setAttribute("placeholder", t(el.getAttribute("data-i18n-placeholder")));
+  });
+  if (document.documentElement) {
+    document.documentElement.lang = LANG;
+  }
+}
+document.addEventListener("DOMContentLoaded", applyStaticI18n);
+// In case this script runs after DOMContentLoaded already fired.
+if (document.readyState !== "loading") applyStaticI18n();
+
+const boardState = [
+
+  { station: null, correct: null },
+  { station: null, correct: null },
+  { station: null, correct: null },
+  { station: null, correct: null },
+
+  { station: null, correct: null },
+  { station: null, correct: null },
+  { station: null, correct: null },
+  { station: null, correct: null }
+
+];
+
+const modal =
+  document.getElementById(
+    "stationModal"
+  );
+
+const results =
+  document.getElementById(
+    "results"
+  );
+
+const searchBox =
+  document.getElementById(
+    "searchBox"
+  );
+
+let stations = [];
+let clueLibrary = null;
+let landmarkChallenges = [];
+let stationFacts = {};
+  
+let activeRows = [];
+let activeColumns = [];
+
+// Reveal hint: for cells whose row+column combination genuinely only has
+// a handful of valid answers (the "D1 was tough" problem), offer a paid
+// per-cell hint that narrows it down by first letter. cellValidStations
+// is computed once per puzzle load; revealedHints tracks which cells the
+// player has already spent a ticket to reveal.
+const REVEAL_THRESHOLD = 5;
+let cellValidStations = [null, null, null, null, null, null, null, null];
+let revealedHints = [null, null, null, null, null, null, null, null];
+
+let activeIndex = null;
+let bonusMode = false;
+let bonusButtonMode = "select";
+let selectedBonusStation = null;
+
+let ticketsRemaining = 6;
+const params =
+  new URLSearchParams(
+    window.location.search
+  );
+
+const gameMode =
+  params.get("mode") ||
+  "standard";
+
+const network =
+  params.get("network") ||
+  "southeastern";
+
+let expressTimer = null;
+let timeRemaining = 180;
+
+let routeLocked = false;
+let gameOver = false;
+let returnTicketClaimed = false;
+
+function updateTicketDisplay() {
+  const el = document.getElementById("ticketCount");
+  if (el) {
+    el.textContent = String(ticketsRemaining);
+  }
+}
+function startExpressTimer() {
+
+  const timerBox =
+    document.getElementById(
+      "timerBox"
+    );
+
+  const timerCount =
+    document.getElementById(
+      "timerCount"
+    );
+
+  timerBox.style.display =
+    "block";
+
+  function renderTimer() {
+
+    const minutes =
+      String(
+        Math.floor(
+          timeRemaining / 60
+        )
+      ).padStart(2, "0");
+
+    const seconds =
+      String(
+        timeRemaining % 60
+      ).padStart(2, "0");
+
+    timerCount.textContent =
+      `${minutes}:${seconds}`;
+
+    // Visual urgency cue as the clock runs down: last 30 seconds
+    // flips the box to a red "urgent" style instead of staying neutral
+    // all the way to the alert() at zero.
+    timerBox.classList.toggle(
+      "urgent",
+      timeRemaining <= 30
+    );
+
+  }
+
+  renderTimer();
+
+  expressTimer = setInterval(() => {
+
+    if (gameOver) {
+
+      clearInterval(
+        expressTimer
+      );
+
+      return;
+
+    }
+
+    timeRemaining--;
+
+    renderTimer();
+
+    if (timeRemaining <= 0) {
+
+      clearInterval(
+        expressTimer
+      );
+
+      ticketsRemaining = 0;
+
+      updateTicketDisplay();
+
+      showToast(
+        t('express_departed')
+      );
+
+      endGame();
+
+    }
+
+  }, 1000);
+
+}
+  function endGame() {
+
+  gameOver = true;
+  routeLocked = true;
+
+  document.getElementById(
+    "submitButton"
+  ).disabled = true;
+
+  const bonusSelect =
+    document.getElementById(
+      "bonusSelectButton"
+    );
+
+  if (bonusSelect) {
+    bonusSelect.disabled = true;
+  }
+
+showResultsModal(false);
+
+}
+ function pickRandom(array, count) {
+
+  const shuffled =
+    [...array].sort(
+      () => Math.random() - 0.5
+    );
+
+  return shuffled.slice(
+    0,
+    count
+  );
+ }
+function weightedPick(pool) {
+
+  const weights = {
+  high: 6,
+  medium: 3,
+  low: 1
+};
+
+  const expanded = [];
+
+  pool.forEach(clue => {
+
+    const weight =
+      weights[
+        clue.weight || "medium"
+      ] || 1;
+
+    for (
+      let i = 0;
+      i < weight;
+      i++
+    ) {
+      expanded.push(clue);
+    }
+
+  });
+
+  return expanded[
+    Math.floor(
+      Math.random() *
+      expanded.length
+    )
+  ];
+
+}
+
+function weightedUniquePick(
+  pool,
+  count
+) {
+
+  const selected = [];
+
+  while (
+    selected.length < count
+  ) {
+
+    const clue =
+      weightedPick(pool);
+
+    if (
+      !selected.includes(clue)
+    ) {
+
+      selected.push(clue);
+
+    }
+
+  }
+
+  return selected;
+
+}
+
+function columnRulePasses(station, clue) {
+
+  if (clue.type === "array_contains") {
+
+    return (
+      Array.isArray(station[clue.field]) &&
+      station[clue.field].includes(clue.value)
+    );
+
+  }
+
+  if (clue.type === "range") {
+
+    const value =
+      Number(station[clue.field]);
+
+    if (
+      clue.min !== undefined &&
+      value < clue.min
+    ) {
+      return false;
+    }
+
+    if (
+      clue.max !== undefined &&
+      value > clue.max
+    ) {
+      return false;
+    }
+
+    return true;
+
+  }
+
+  if (clue.type === "contains") {
+
+    return String(
+      station[clue.field]
+    )
+      .toLowerCase()
+      .includes(
+        clue.value.toLowerCase()
+      );
+
+  }
+
+  return (
+    station[clue.field] ===
+    clue.value
+  );
+
+}
+function boardIsPlayable(rows, columns) {
+
+  for (let r = 0; r < 2; r++) {
+
+    for (let c = 0; c < 4; c++) {
+
+      const matches = stations.filter(station => {
+
+        const rowPass =
+          station[rows[r].field] === rows[r].value;
+
+        const colPass =
+          columnRulePasses(station, columns[c]);
+
+        return rowPass && colPass;
+
+      });
+
+      if (matches.length === 0) {
+        return false;
+      }
+
+    }
+
+  }
+
+  return true;
+}
+// ======================================================
+// NETWORK CONFIGURATION
+// Every network is defined here.
+// No other part of this file should contain network-specific paths.
+// ======================================================
+const NETWORKS = {
+  c2c_ga: {
+    stations: "/CLAUDE/data/board_c2c_ga.json",
+    clues: "/CLAUDE/data/clues_c2c_ga.json",
+    puzzlebank: "/CLAUDE/data/puzzlebank_c2c_ga.json",
+    landmarks: "/CLAUDE/data/c2c_ga_landmarks.json"
+  },
+
+  chiltern_wmr: {
+    stations: "/CLAUDE/data/board_chiltern_wmr.json",
+    clues: "/CLAUDE/data/clues_chiltern_wmr.json",
+    puzzlebank: "/CLAUDE/data/puzzlebank_chiltern_wmr.json",
+    landmarks: "/CLAUDE/data/chiltern_wmr_landmarks.json"
+  },
+
+  east_midlands_emr: {
+    stations: "/CLAUDE/data/board_east_midlands_emr.json",
+    clues: "/CLAUDE/data/clues_east_midlands_emr.json",
+    puzzlebank: "/CLAUDE/data/puzzlebank_east_midlands_emr.json",
+    landmarks: "/CLAUDE/data/east_midlands_emr_landmarks.json"
+  },
+
+  edinburgh_scotrail: {
+    stations: "/CLAUDE/data/board_edinburgh_scotrail.json",
+    clues: "/CLAUDE/data/clues_edinburgh_scotrail.json",
+    puzzlebank: "/CLAUDE/data/puzzlebank_edinburgh_scotrail.json",
+    landmarks: "/CLAUDE/data/edinburgh_scotrail_landmarks.json"
+  },
+
+  glasgow_scotrail: {
+    stations: "/CLAUDE/data/board_glasgow_scotrail.json",
+    clues: "/CLAUDE/data/clues_glasgow_scotrail.json",
+    puzzlebank: "/CLAUDE/data/puzzlebank_glasgow_scotrail.json",
+    landmarks: "/CLAUDE/data/glasgow_scotrail_landmarks.json"
+  },
+
+  gwr_london: {
+    stations: "/CLAUDE/data/board_gwr_london.json",
+    clues: "/CLAUDE/data/clues_gwr_london.json",
+    puzzlebank: "/CLAUDE/data/puzzlebank_gwr_london.json",
+    landmarks: "/CLAUDE/data/gwr_london_landmarks.json"
+  },
+
+  gwr_wales_corridor: {
+    stations: "/CLAUDE/data/board_gwr_wales_corridor.json",
+    clues: "/CLAUDE/data/clues_gwr_wales_corridor.json",
+    puzzlebank: "/CLAUDE/data/puzzlebank_gwr_wales_corridor.json",
+    landmarks: "/CLAUDE/data/gwr_wales_corridor_landmarks.json"
+  },
+
+  highlands_ne_scotrail: {
+    stations: "/CLAUDE/data/board_highlands_ne_scotrail.json",
+    clues: "/CLAUDE/data/clues_highlands_ne_scotrail.json",
+    puzzlebank: "/CLAUDE/data/puzzlebank_highlands_ne_scotrail.json",
+    landmarks: "/CLAUDE/data/highlands_ne_scotrail_landmarks.json"
+  },
+
+  leeds_sheffield_northern: {
+    stations: "/CLAUDE/data/board_leeds_sheffield_northern.json",
+    clues: "/CLAUDE/data/clues_leeds_sheffield_northern.json",
+    puzzlebank: "/CLAUDE/data/puzzlebank_leeds_sheffield_northern.json",
+    landmarks: "/CLAUDE/data/leeds_sheffield_northern_landmarks.json"
+  },
+
+  liverpool_merseyside: {
+    stations: "/CLAUDE/data/board_liverpool_merseyside.json",
+    clues: "/CLAUDE/data/clues_liverpool_merseyside.json",
+    puzzlebank: "/CLAUDE/data/puzzlebank_liverpool_merseyside.json",
+    landmarks: "/CLAUDE/data/liverpool_merseyside_landmarks.json"
+  },
+
+  london_nw_elizabeth_gn: {
+    stations: "/CLAUDE/data/board_london_nw_elizabeth_gn.json",
+    clues: "/CLAUDE/data/clues_london_nw_elizabeth_gn.json",
+    puzzlebank: "/CLAUDE/data/puzzlebank_london_nw_elizabeth_gn.json",
+    landmarks: "/CLAUDE/data/london_nw_elizabeth_gn_landmarks.json"
+  },
+
+  london_overground: {
+    stations: "/CLAUDE/data/board_london_overground.json",
+    clues: "/CLAUDE/data/clues_london_overground.json",
+    puzzlebank: "/CLAUDE/data/puzzlebank_london_overground.json",
+    landmarks: "/CLAUDE/data/london_overground_landmarks.json"
+  },
+
+  manchester_northern: {
+    stations: "/CLAUDE/data/board_manchester_northern.json",
+    clues: "/CLAUDE/data/clues_manchester_northern.json",
+    puzzlebank: "/CLAUDE/data/puzzlebank_manchester_northern.json",
+    landmarks: "/CLAUDE/data/manchester_northern_landmarks.json"
+  },
+
+  newcastle_northern: {
+    stations: "/CLAUDE/data/board_newcastle_northern.json",
+    clues: "/CLAUDE/data/clues_newcastle_northern.json",
+    puzzlebank: "/CLAUDE/data/puzzlebank_newcastle_northern.json",
+    landmarks: "/CLAUDE/data/newcastle_northern_landmarks.json"
+  },
+
+  semainline: {
+    stations: "/CLAUDE/data/board_semainline.json",
+    clues: "/CLAUDE/data/clues_semainline.json",
+    puzzlebank: "/CLAUDE/data/puzzlebank_semainline.json",
+    landmarks: "/CLAUDE/data/semainline_landmarks.json"
+  },
+
+  semetro: {
+    stations: "/CLAUDE/data/board_semetro.json",
+    clues: "/CLAUDE/data/clues_semetro.json",
+    puzzlebank: "/CLAUDE/data/puzzlebank_semetro.json",
+    landmarks: "/CLAUDE/data/semetro_landmarks.json"
+  },
+
+  shrewsbury_wrexham_chester: {
+    stations: "/CLAUDE/data/board_shrewsbury_wrexham_chester.json",
+    clues: "/CLAUDE/data/clues_shrewsbury_wrexham_chester.json",
+    puzzlebank: "/CLAUDE/data/puzzlebank_shrewsbury_wrexham_chester.json",
+    landmarks: "/CLAUDE/data/shrewsbury_wrexham_chester_landmarks.json"
+  },
+
+  south_western: {
+    stations: "/CLAUDE/data/board_south_western.json",
+    clues: "/CLAUDE/data/clues_south_western.json",
+    puzzlebank: "/CLAUDE/data/puzzlebank_south_western.json",
+    landmarks: "/CLAUDE/data/south_western_landmarks.json"
+  },
+
+  tfw_cymraeg: {
+    stations: "/CLAUDE/data/board_tfw_cymraeg.json",
+    clues: "/CLAUDE/data/clues_tfw_cymraeg.json",
+    puzzlebank: "/CLAUDE/data/puzzlebank_tfw_cymraeg.json",
+    landmarks: "/CLAUDE/data/tfw_cymraeg_landmarks.json"
+  },
+
+  thameslink_southern: {
+    stations: "/CLAUDE/data/board_thameslink_southern.json",
+    clues: "/CLAUDE/data/clues_thameslink_southern.json",
+    puzzlebank: "/CLAUDE/data/puzzlebank_thameslink_southern.json",
+    landmarks: "/CLAUDE/data/thameslink_southern_landmarks.json"
+  }
+
+};
+
+const files = NETWORKS[network];
+
+// Loading state: the grid is otherwise blank/unstyled while the JSON
+// fetches, which on a slow connection reads as "is this broken?". Show
+// a simple message in the grid area until data resolves or fails.
+const gameGridEl = document.getElementById("gameGrid");
+const gameGridLoadingHTML = gameGridEl.innerHTML;
+gameGridEl.innerHTML =
+  '<div class="loading-state" style="grid-column:1 / -1;">Loading today\u2019s route...</div>';
+
+const localizedCluesPath = resolveCluesPath(files.clues, network);
+const cluesFetch = fetch(localizedCluesPath)
+  .then(r => { if (!r.ok) throw new Error("localized clues missing"); return r.json(); })
+  .catch(() => fetch(files.clues).then(r => r.json()));
+
+Promise.all([
+  fetch(files.stations).then(r => r.json()),
+  cluesFetch,
+  fetch(files.puzzlebank).then(r => r.json()),
+  fetch(files.landmarks).then(r => r.json()).catch(() => [])
+])
+.then(([stationData, clueData, puzzleBank, landmarkData]) => {
+
+// Restore the real grid markup now that data has arrived.
+gameGridEl.innerHTML = gameGridLoadingHTML;
+// The snapshot above was captured before applyStaticI18n() had a chance to
+// run (it fires on DOMContentLoaded, which can land after this synchronous
+// code executes), so re-apply translations now the real markup is back in
+// the DOM - otherwise data-i18n elements inside #gameGrid (platform
+// headers, tickets label) silently revert to English on every load.
+applyStaticI18n();
+
+stations = stationData;
+clueLibrary = clueData;
+// older data used "label", the renderer expects "display" - normalize both
+[...clueLibrary.rowPool, ...clueLibrary.columnPool].forEach(c => {
+  if (c.display === undefined) c.display = c.label;
+});
+landmarkChallenges = landmarkData;
+// station-facts lookup is built straight from the landmark data (each entry
+// already carries closest_station + facts) - no separate file needed
+stationFacts = {};
+landmarkData.forEach(entry => {
+  stationFacts[entry.closest_station] = entry;
+});
+
+const byId = id => clueLibrary.rowPool.find(c => c.id === id) || clueLibrary.columnPool.find(c => c.id === id);
+const todaysPuzzle = getTodaysPuzzle(network, puzzleBank);
+activeRows = todaysPuzzle.rows.map(byId);
+activeColumns = todaysPuzzle.columns.map(byId);
+
+// Precompute how many stations genuinely satisfy each cell's row+column
+// combination. clueMatches is declared later in this script but function
+// declarations are hoisted, so it's already callable here.
+for (let idx = 0; idx < 8; idx++) {
+  const rowClue = activeRows[idx % 2];
+  const colClue = activeColumns[Math.floor(idx / 2)];
+  cellValidStations[idx] = stations.filter(
+    s => clueMatches(s, rowClue) && clueMatches(s, colClue)
+  );
+}
+
+let attempts = 0;
+function cluePasses(clue, station) {
+
+  if (clue.type === "array_contains") {
+
+    return (
+      Array.isArray(station[clue.field]) &&
+      station[clue.field].includes(clue.value)
+    );
+
+  }
+
+  if (clue.type === "range") {
+
+    const value =
+      Number(station[clue.field]);
+
+    if (
+      clue.min !== undefined &&
+      value < clue.min
+    ) {
+      return false;
+    }
+
+    if (
+      clue.max !== undefined &&
+      value > clue.max
+    ) {
+      return false;
+    }
+
+    return true;
+
+  }
+
+  if (clue.type === "contains") {
+
+    return String(
+      station[clue.field]
+    )
+      .toLowerCase()
+      .includes(
+        clue.value.toLowerCase()
+      );
+
+  }
+
+  return (
+    station[clue.field] ===
+    clue.value
+  );
+}
+function intersectionCount(rowClue, columnClue) {
+  return stations.filter(
+    station =>
+      cluePasses(rowClue, station) &&
+      cluePasses(columnClue, station)
+  ).length;
+}
+
+function pickPlayableColumn(pool, rowClues, minMatches = 2) {
+
+  const candidates = pool.filter(columnClue =>
+
+    rowClues.every(rowClue =>
+      intersectionCount(rowClue, columnClue) >= minMatches
+    )
+
+  );
+
+  if (candidates.length === 0) {
+    console.warn("No playable columns found");
+    return weightedPick(pool);
+  }
+
+  return weightedPick(candidates);
+}
+// board is precomputed for the day by getTodaysPuzzle() above - no live generation needed
+
+document.getElementById(
+  "rowClue0"
+).textContent =
+  activeRows[0].display;
+
+document.getElementById(
+  "rowClue1"
+).textContent =
+  activeRows[1].display;
+
+document.getElementById(
+  "colClue0"
+).textContent =
+  activeColumns[0].display;
+
+document.getElementById(
+  "colClue1"
+).textContent =
+  activeColumns[1].display;
+
+document.getElementById(
+  "colClue2"
+).textContent =
+  activeColumns[2].display;
+
+document.getElementById(
+  "colClue3"
+).textContent =
+  activeColumns[3].display;
+
+// Hints: free, unlimited - reveal extra detail for whichever row (A-D)
+// the player asks about. Uses clue.hint if the clue data provides one,
+// otherwise falls back to a readable version of the underlying field/value
+// so hints still work even before every clue has hand-written hint text.
+function getExtraHint(clue) {
+  if (clue && clue.hint) return clue.hint;
+  if (clue && clue.field && clue.value !== undefined) {
+    const label = String(clue.field).replace(/_/g, " ");
+    return `Extra detail - ${label}: ${clue.value}`;
+  }
+  return t('no_extra_detail');
+}
+
+// Shared hint popover, wired to all 6 headers (2 platforms + 4 rows).
+// Free and unlimited - taps toggle open/closed, closes on outside click
+// or when another hint icon is tapped.
+let hintPopover = document.getElementById("hintPopover");
+if (!hintPopover) {
+  hintPopover = document.createElement("div");
+  hintPopover.id = "hintPopover";
+  hintPopover.className = "hint-popover";
+  document.body.appendChild(hintPopover);
+}
+let activeHintBtn = null;
+
+function closeHint() {
+  hintPopover.classList.remove("visible");
+  if (activeHintBtn) activeHintBtn.classList.remove("active");
+  activeHintBtn = null;
+}
+
+function openHint(btn, clue) {
+  hintPopover.textContent = getExtraHint(clue);
+  hintPopover.classList.add("visible");
+  const rect = btn.getBoundingClientRect();
+  const popRect = hintPopover.getBoundingClientRect();
+  let left = rect.left + rect.width / 2 - popRect.width / 2;
+  left = Math.max(8, Math.min(left, window.innerWidth - popRect.width - 8));
+  let top = rect.bottom + 8;
+  if (top + popRect.height > window.innerHeight - 8) {
+    top = rect.top - popRect.height - 8;
+  }
+  hintPopover.style.left = left + "px";
+  hintPopover.style.top = top + "px";
+  btn.classList.add("active");
+  activeHintBtn = btn;
+}
+
+function wireHintIcon(id, clue) {
+  const btn = document.getElementById(id);
+  if (!btn || !clue) return;
+  btn.addEventListener("click", (e) => {
+    e.stopPropagation();
+    if (activeHintBtn === btn) {
+      closeHint();
+    } else {
+      closeHint();
+      openHint(btn, clue);
+    }
+  });
+}
+
+wireHintIcon("hintIcon-col0", activeRows[0]);
+wireHintIcon("hintIcon-col1", activeRows[1]);
+wireHintIcon("hintIcon-row0", activeColumns[0]);
+wireHintIcon("hintIcon-row1", activeColumns[1]);
+wireHintIcon("hintIcon-row2", activeColumns[2]);
+wireHintIcon("hintIcon-row3", activeColumns[3]);
+
+document.addEventListener("click", (e) => {
+  if (activeHintBtn && !hintPopover.contains(e.target) && e.target !== activeHintBtn) {
+    closeHint();
+  }
+});
+
+  if (
+    gameMode === "express"
+  ) {
+
+    startExpressTimer();
+
+    const ticketBox =
+      document.querySelectorAll(
+        ".ticket-box"
+      )[1];
+
+    if (ticketBox) {
+
+      ticketBox.style.display =
+        "none";
+
+    }
+
+  }
+
+  // Re-attach cell click handlers now the grid markup has been rebuilt
+  // after the loading state.
+  wireCellClicks();
+
+  // Render the board once immediately: without this, the 8 cells stay as
+  // bare static HTML (no "Select Station" placeholder, no reveal-hint
+  // buttons on thin cells) until the player's first interaction happens
+  // to trigger a render via selecting or submitting.
+  renderBoard();
+
+})
+
+.catch(error => {
+
+  console.log(error);
+
+  gameGridEl.innerHTML =
+    '<div class="loading-state" style="grid-column:1 / -1;">' +
+    'Couldn\u2019t load today\u2019s route. ' +
+    '<a href="javascript:location.reload()" style="color:#60a5fa;">Try again</a>' +
+    '</div>';
+
+});
+
+// Spends a ticket to reveal a first-letter hint for a genuinely thin cell
+// (row+column combination with under REVEAL_THRESHOLD valid stations).
+// Picks a random matching station rather than "the" answer, since these
+// cells intentionally have more than one valid match - it just narrows
+// the search, it doesn't hand over a single correct answer.
+function handleRevealClick(index) {
+
+  if (routeLocked || gameOver) return;
+  if (revealedHints[index]) return;
+
+  const validList = cellValidStations[index] || [];
+
+  if (validList.length === 0) return;
+
+  if (ticketsRemaining <= 0) {
+    showToast(t('no_tickets_for_hint'));
+    return;
+  }
+
+  const pick =
+    validList[Math.floor(Math.random() * validList.length)];
+
+  const letter =
+    pick.station_name.charAt(0).toUpperCase();
+
+  revealedHints[index] = `Starts with '${letter}'`;
+
+  ticketsRemaining = Math.max(0, ticketsRemaining - 1);
+
+  updateTicketDisplay();
+
+  renderBoard();
+
+}
+
+// Builds the reveal-hint markup for a thin cell (shared between the empty
+// and invalid-answer render branches - a wrong guess is exactly when this
+// help is needed most, not a state where it should vanish).
+function buildRevealExtraHtml(index) {
+
+  const validList = cellValidStations[index] || [];
+  const isThin = validList.length > 0 && validList.length < REVEAL_THRESHOLD;
+  const hint = revealedHints[index];
+
+  if (isThin && hint) {
+
+    return `<div class="reveal-hint-text">${hint}</div>`;
+
+  }
+
+  if (isThin && !routeLocked && !gameOver) {
+
+    return (
+      `<button type="button" class="reveal-hint-btn" data-reveal-index="${index}">` +
+      `${t("reveal_hint_btn")}</button>`
+    );
+
+  }
+
+  return "";
+
+}
+
+// Attaches the reveal button's click handler directly (not via document
+// delegation) so stopPropagation reliably prevents the click also
+// bubbling up to the cell's own click handler, which would otherwise
+// open the station picker.
+function wireRevealButton(cell, index) {
+
+  const revealBtn = cell.querySelector(".reveal-hint-btn");
+
+  if (revealBtn) {
+
+    revealBtn.addEventListener("click", (e) => {
+      e.stopPropagation();
+      handleRevealClick(index);
+    });
+
+  }
+
+}
+
+function renderBoard() {
+
+  document.querySelectorAll(".cell").forEach((cell, index) => {
+
+    const state =
+      boardState[index];
+
+    cell.classList.remove(
+      "correct",
+      "incorrect"
+    );
+
+    if (state.correct === true) {
+
+      cell.classList.add(
+        "correct"
+      );
+
+    }
+
+    if (state.correct === false) {
+
+      cell.classList.add(
+        "incorrect"
+      );
+
+    }
+
+if (!state.station) {
+
+  const extraHtml = buildRevealExtraHtml(index);
+
+  cell.innerHTML = `
+    <div class="cell-inner">
+      <div class="empty-label">
+        ${t('select_station')}
+      </div>
+      ${extraHtml}
+    </div>
+  `;
+
+  wireRevealButton(cell, index);
+
+  return;
+
+}
+
+    const label =
+      state.correct === true
+        ? ""
+        : state.correct === false
+          ? t('invalid')
+          : t('arriving');
+
+    // Train hardware: only correct cells get wheels/bogies. Platforms now
+    // run as vertical columns (index, index+2, index+4, index+6), so a
+    // coupling only renders between a cell and the one directly BELOW it
+    // in the same platform column, when both are correct.
+    const nextDown = (index + 2 < 8) ? boardState[index + 2] : null;
+    const nextCorrect = !!nextDown && nextDown.correct === true;
+
+    const trainHardware = state.correct === true
+      ? `
+        <div class="bogie left"></div>
+        <div class="bogie right"></div>
+        <div class="wheel l1"></div>
+        <div class="wheel l2"></div>
+        <div class="wheel r1"></div>
+        <div class="wheel r2"></div>
+        ${nextCorrect ? '<div class="coupling"></div>' : ""}
+      `
+      : "";
+
+    // A wrong answer still occupies the cell, but the player likely wants
+    // to try again - offer the same reveal hint here as on an empty cell
+    // if this combination is a thin one.
+    const invalidExtraHtml =
+      state.correct === false ? buildRevealExtraHtml(index) : "";
+
+    cell.innerHTML = `
+
+      <div class="cell-inner">
+
+        <div class="station-name">
+          ${state.station.station_name}
+        </div>
+
+        <div class="validation">
+          ${label}
+        </div>
+        ${invalidExtraHtml}
+
+      </div>
+      ${trainHardware}
+
+    `;
+
+    if (state.correct === false) {
+      wireRevealButton(cell, index);
+    }
+
+  });
+
+}
+
+// Cell click wiring lives in its own function so it can be re-run after
+// the grid is rebuilt following the loading state.
+function wireCellClicks() {
+
+  document.querySelectorAll(".cell").forEach(cell => {
+
+    cell.addEventListener(
+      "click",
+      () => {
+
+        if (routeLocked || gameOver) {
+          return;
+        }
+
+          activeIndex =
+            Number(
+              cell.dataset.index
+            );
+
+          modal.style.display =
+            "flex";
+
+          renderStations(
+            stations
+          );
+
+          searchBox.value = "";
+
+          setTimeout(() => {
+
+            searchBox.focus();
+
+          }, 50);
+
+        }
+
+      );
+
+  });
+
+}
+
+// Stations already placed elsewhere on the board (excluding the cell
+// currently being edited) - used to grey these out in the picker instead
+// of letting a player burn a ticket finding out at Submit time.
+function getUsedStationNames() {
+  return boardState
+    .filter((cell, idx) => cell.station && idx !== activeIndex)
+    .map(cell => cell.station.station_name);
+}
+
+function renderStations(list) {
+
+  results.innerHTML = "";
+
+  if (list.length === 0) {
+
+    const empty = document.createElement("div");
+    empty.className = "no-results";
+    empty.textContent = t('no_stations_match');
+    results.appendChild(empty);
+    return;
+
+  }
+
+  const usedNames = getUsedStationNames();
+
+  list
+    .sort((a, b) =>
+      a.station_name.localeCompare(
+        b.station_name
+      )
+    )
+
+    .forEach(station => {
+
+      const option =
+        document.createElement(
+          "div"
+        );
+
+      const isUsed =
+        !bonusMode &&
+        usedNames.includes(station.station_name);
+
+      option.className =
+        "station-option" +
+        (isUsed ? " used" : "");
+
+      option.textContent =
+        `${station.station_name} (${station.crs})` +
+        (isUsed ? " - already used" : "");
+
+      if (isUsed) {
+        results.appendChild(option);
+        return;
+      }
+
+option.onclick = () => {
+
+
+  if (bonusMode) {
+
+    selectedBonusStation = station;
+
+    document.getElementById(
+      "bonusSelectedStation"
+    ).textContent =
+      t('selected_prefix') +
+      station.station_name;
+
+    bonusButtonMode = "claim";
+    const bonusBtn = document.getElementById(
+      "bonusSelectButton"
+    );
+    bonusBtn.textContent = t('claim_return_ticket');
+
+    bonusMode = false;
+
+    closeModal();
+
+    return;
+
+  }
+
+  boardState[
+    activeIndex
+  ].station = station;
+
+  boardState[
+    activeIndex
+  ].correct = null;
+
+  renderBoard();
+
+  closeModal();
+
+      };
+
+      results.appendChild(
+        option
+      );
+
+    });
+
+}
+
+function showResultsModal(win = false) {
+
+  let title =
+    t('flavour_replacement_title');
+
+  let desc =
+    t('flavour_replacement_desc');
+
+  if (win) {
+
+    if (ticketsRemaining >= 7) {
+
+      title =
+        t('flavour_first_title');
+
+      desc =
+        t('flavour_first_desc');
+
+    }
+
+    else if (ticketsRemaining >= 5) {
+
+      title =
+        t('flavour_season_title');
+
+      desc =
+        t('flavour_season_desc');
+
+    }
+
+    else if (ticketsRemaining >= 3) {
+
+      title =
+        t('flavour_commuter_title');
+
+      desc =
+        t('flavour_commuter_desc');
+
+    }
+
+    else {
+
+      title =
+        t('flavour_traveller_title');
+
+      desc =
+        t('flavour_traveller_desc');
+
+    }
+
+  }
+
+  document.getElementById(
+    "resultsClass"
+  ).textContent = title;
+
+  document.getElementById(
+    "resultsDesc"
+  ).textContent = desc;
+
+  document.getElementById(
+    "resultsTickets"
+  ).textContent =
+    t('tickets_remaining_prefix') +
+    ticketsRemaining;
+
+  document.getElementById(
+    "resultsModal"
+  ).style.display = "flex";
+
+}
+function closeModal() {
+
+  modal.style.display =
+    "none";
+
+}
+
+// Single shared matcher for BOTH row and column clues - used to be two
+// separate implementations (the row check only ever did a bare equality
+// comparison with no clue.type handling at all), which silently broke
+// any range-type clue (e.g. name_letter_count bands) landing in the row/
+// platform slot: rowClue.value is undefined for a range clue, so the old
+// row check's `!==` comparison was true for nearly every station,
+// permanently failing that whole platform column. Kept as one function
+// so row and column checks can never drift apart like that again.
+function clueMatches(station, clue) {
+
+  if (clue.type === "array_contains") {
+
+    return (
+      Array.isArray(station[clue.field]) &&
+      station[clue.field].includes(clue.value)
+    );
+
+  }
+
+  if (clue.type === "range") {
+
+    const value = Number(station[clue.field]);
+
+    if (Number.isNaN(value)) {
+      return false;
+    }
+
+    if (clue.min !== undefined && value < clue.min) {
+      return false;
+    }
+
+    if (clue.max !== undefined && value > clue.max) {
+      return false;
+    }
+
+    return true;
+
+  }
+
+  if (clue.type === "contains") {
+
+    const text = String(station[clue.field]).toLowerCase();
+
+    return text.includes(String(clue.value).toLowerCase());
+
+  }
+
+  // equals (default)
+  return station[clue.field] === clue.value;
+
+}
+
+function validateCell(
+  station,
+  row,
+  column,
+  usedStations
+) {
+
+  let valid = true;
+
+  const rowClue = activeRows[row];
+
+  if (!clueMatches(station, rowClue)) {
+
+    valid = false;
+
+  }
+
+  const clue = activeColumns[column];
+
+  if (!clueMatches(station, clue)) {
+
+    valid = false;
+
+  }
+
+  if (
+    usedStations.includes(
+      station.station_name
+    )
+  ) {
+
+    valid = false;
+
+  }
+
+  return valid;
+
+}
+
+function startSplitFlapReveal(
+  finalText
+) {
+
+  const board =
+    document.getElementById(
+      "departureBoard"
+    );
+
+  const chars =
+    "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789+- ";
+
+  let frame = 0;
+
+  const timer =
+    setInterval(() => {
+
+      let display = "";
+
+      for (
+        let i = 0;
+        i < finalText.length;
+        i++
+      ) {
+
+        if (
+          frame > i * 2
+        ) {
+
+          display += finalText[i];
+
+        } else {
+
+          display += chars[
+            Math.floor(
+              Math.random() * chars.length
+            )
+          ];
+
+        }
+
+      }
+
+      board.innerHTML = display;
+
+      frame++;
+
+      if (
+        frame >
+        finalText.length * 2
+      ) {
+
+        clearInterval(timer);
+
+        board.innerHTML = finalText;
+
+      }
+
+    }, 80);
+
+}
+
+function submitBoard() {
+
+  let filledCount = 0;
+
+  boardState.forEach(cell => {
+
+    if (cell.station) {
+
+      filledCount++;
+
+    }
+
+  });
+
+  if (filledCount < 8) {
+
+    showToast(
+      t('fill_all_stations')
+    );
+
+    return;
+
+  }
+
+  let usedStations = [];
+
+  let validCount = 0;
+
+  let hasErrors = false;
+
+  boardState.forEach(
+    (cell, index) => {
+
+      const row =
+        index % 2;
+
+      const column =
+        Math.floor(index / 2);
+
+      const valid =
+        validateCell(
+          cell.station,
+          row,
+          column,
+          usedStations
+        );
+
+      if (valid) {
+
+        validCount++;
+
+        usedStations.push(
+          cell.station.station_name
+        );
+
+      } else {
+
+        hasErrors = true;
+
+      }
+
+      cell.correct = valid;
+
+    }
+
+  );
+
+  if (hasErrors) {
+
+    ticketsRemaining =
+      Math.max(
+        0,
+        ticketsRemaining - 1
+      );
+
+  }
+
+  document.getElementById(
+    "ticketCount"
+  ).textContent =
+    ticketsRemaining;
+
+  renderBoard();
+
+if (
+  ticketsRemaining === 0 &&
+  validCount < 8
+) {
+
+  endGame();
+  return;
+
+}
+
+if (
+  validCount === 8
+) {
+
+  document.getElementById(
+    "submitButton"
+  ).disabled = true;
+
+  routeLocked = true;
+    
+
+returnTicketClaimed = false;
+
+const challenge =
+  landmarkChallenges[
+    Math.floor(
+      Math.random() *
+      landmarkChallenges.length
+    )
+  ];
+
+window.currentLandmarkChallenge =
+  challenge;
+
+document.getElementById(
+  "lockedText"
+).style.display = "none";
+
+startSplitFlapReveal(
+  challenge.landmark
+);
+
+document.getElementById(
+  "stationCountText"
+).style.display = "block";
+
+document.getElementById(
+  "stationCountText"
+).textContent =
+  t('landmark_question');
+
+document.getElementById(
+  "bonusStationPanel"
+).style.display = "block";
+
+  }
+
+}
+
+document.getElementById(
+    "submitButton"
+  )
+  .addEventListener(
+    "click",
+    submitBoard
+  );
+
+document
+  .getElementById(
+    "closeModal"
+  )
+  .addEventListener(
+    "click",
+    closeModal
+  );
+
+searchBox.addEventListener(
+  "keyup",
+  () => {
+
+    const query =
+      searchBox.value
+        .toLowerCase();
+
+    const filtered =
+      stations.filter(station =>
+
+        station.station_name
+          .toLowerCase()
+          .includes(query) ||
+
+        station.crs
+          .toLowerCase()
+          .startsWith(query)
+
+      );
+
+    renderStations(
+      filtered
+    );
+
+  }
+
+);
+
+modal.addEventListener(
+  "click",
+  event => {
+
+    if (
+      event.target === modal
+    ) {
+
+      closeModal();
+
+    }
+
+  }
+
+);
+
+document.getElementById(
+  "bonusSelectButton"
+).addEventListener(
+  "click",
+  () => {
+
+    if (gameOver) {
+      return;
+    }
+
+    if (bonusButtonMode === "select") {
+
+      bonusMode = true;
+
+      searchBox.value = "";
+
+      modal.style.display =
+        "flex";
+
+      renderStations(
+        stations
+      );
+
+      searchBox.focus();
+
+      return;
+
+    }
+
+    // bonusButtonMode === "claim"
+    //
+    // Landmark Challenge is single-attempt: one guess, then it's resolved
+    // either way (win = ticket gained, loss = ticket lost) and the results
+    // modal opens. No retry loop - returnTicketClaimed also now doubles as
+    // the "already resolved" guard against a second claim of any kind.
+
+    if (!selectedBonusStation) return;
+    if (returnTicketClaimed) return;
+
+    returnTicketClaimed = true;
+
+    const challenge = window.currentLandmarkChallenge;
+
+    const valid =
+      selectedBonusStation.station_name ===
+      challenge.closest_station;
+
+    // Station fact always describes the actual landmark just asked about,
+    // not a name-keyed lookup that can silently pull a different landmark's
+    // fact if two landmarks in the network share the same closest_station.
+    const factText =
+      challenge && challenge.facts && challenge.facts.length
+        ? `${challenge.landmark} (${challenge.distance_km}km away) - ${challenge.facts[0]}`
+        : "";
+
+    if (!valid) {
+
+      ticketsRemaining = Math.max(0, ticketsRemaining - 1);
+
+      updateTicketDisplay();
+
+      document.getElementById(
+        "bonusMessage"
+      ).innerHTML =
+        `${t('incorrect_station')}<br><br>
+         ${t('correct_answer')}
+         <strong>${challenge.closest_station}</strong>`;
+
+    } else {
+
+      ticketsRemaining++;
+
+      updateTicketDisplay();
+
+      document.getElementById(
+        "bonusMessage"
+      ).textContent =
+        t('return_ticket_earned');
+
+    }
+
+    document.getElementById(
+      "bonusSelectButton"
+    ).style.display = "none";
+
+    document.getElementById(
+      "bonusSelectedStation"
+    ).style.display = "none";
+
+    document.getElementById(
+      "bonusSelectButton"
+    ).disabled = true;
+
+    // One guess either way - always proceeds to the results modal now.
+    showResultsModal(valid);
+
+    // Explicit answer reveal inside the modal itself - previously this
+    // only lived in the Landmark Challenge panel behind the modal, so it
+    // was invisible unless the player closed the modal to check. Now
+    // stated plainly for both outcomes.
+    document.getElementById(
+      "landmarkAnswerReveal"
+    ).innerHTML = valid
+      ? `${t('landmark_correct_prefix')} <strong>${challenge.closest_station}</strong> ${t('landmark_correct_suffix')} ${challenge.landmark}.`
+      : `${t('landmark_incorrect_prefix')} <strong>${selectedBonusStation.station_name}</strong>. ` +
+        `${t('landmark_incorrect_suffix_1')} ${challenge.landmark} ${t('landmark_incorrect_suffix_2')} <strong>${challenge.closest_station}</strong>.`;
+
+    document.getElementById(
+      "stationFact"
+    ).innerHTML =
+      factText
+        ? `<strong>${t('station_fact')}</strong><br>${factText}`
+        : "";
+
+  }
+);
+
+closeModal();
+
+let latestResultTitle = "";
+
+const originalShowResultsModal = showResultsModal;
+showResultsModal = function(win=false){
+  originalShowResultsModal(win);
+  latestResultTitle = document.getElementById("resultsClass").textContent;
+  const stats = recordGameResult(win);
+  renderStats(stats);
+};
+
+// --- Running stats (stored locally per-device in the browser) ---
+const STATS_KEY = "theRouteStats";
+
+function getStats() {
+  try {
+    const raw = localStorage.getItem(STATS_KEY);
+    if (raw) return JSON.parse(raw);
+  } catch(err) {}
+  return { gamesPlayed: 0, gamesWon: 0, currentStreak: 0, maxStreak: 0 };
+}
+
+function recordGameResult(win) {
+  const stats = getStats();
+  stats.gamesPlayed += 1;
+  if (win) {
+    stats.gamesWon += 1;
+    stats.currentStreak += 1;
+    stats.maxStreak = Math.max(stats.maxStreak, stats.currentStreak);
+  } else {
+    stats.currentStreak = 0;
+  }
+  try {
+    localStorage.setItem(STATS_KEY, JSON.stringify(stats));
+  } catch(err) {}
+  return stats;
+}
+
+function renderStats(stats) {
+  const el = document.getElementById("resultsStats");
+  if (!el) return;
+  const winRate = stats.gamesPlayed
+    ? Math.round((stats.gamesWon / stats.gamesPlayed) * 100)
+    : 0;
+  el.innerHTML = `
+    <div class="stats-row">
+      <div class="stats-item"><strong>${stats.gamesPlayed}</strong><span>Played</span></div>
+      <div class="stats-item"><strong>${winRate}%</strong><span>Win rate</span></div>
+      <div class="stats-item"><strong>${stats.currentStreak}</strong><span>Streak</span></div>
+      <div class="stats-item"><strong>${stats.maxStreak}</strong><span>Best streak</span></div>
+    </div>
+  `;
+}
+
+function buildShareGrid() {
+  return boardState.map(c => c.correct ? "🟩" : "🟥").join("");
+}
+
+// Reliable clipboard copy with a fallback for browsers/contexts where the
+// modern Clipboard API is unavailable or blocked (older browsers, some
+// in-app WebViews, non-HTTPS previews).
+async function copyText(text) {
+  try {
+    if (navigator.clipboard && window.isSecureContext) {
+      await navigator.clipboard.writeText(text);
+      return true;
+    }
+  } catch(err) {}
+
+  try {
+    const ta = document.createElement("textarea");
+    ta.value = text;
+    ta.style.position = "fixed";
+    ta.style.left = "-9999px";
+    document.body.appendChild(ta);
+    ta.focus();
+    ta.select();
+    const ok = document.execCommand("copy");
+    document.body.removeChild(ta);
+    return ok;
+  } catch(err) {
+    return false;
+  }
+}
+
+function showToast(message) {
+  let toast = document.getElementById("appToast");
+  if (!toast) {
+    toast = document.createElement("div");
+    toast.id = "appToast";
+    toast.className = "app-toast";
+    document.body.appendChild(toast);
+  }
+  toast.textContent = message;
+  toast.classList.add("visible");
+  clearTimeout(toast._hideTimer);
+  toast._hideTimer = setTimeout(() => {
+    toast.classList.remove("visible");
+  }, 2200);
+}
+
+document.addEventListener("click", async (e) => {
+
+  if (e.target && e.target.id === "shareButton") {
+
+    const text =
+`🚆 The Route
+${latestResultTitle}
+
+🎟 ${t('tickets_remaining_prefix')}${ticketsRemaining}
+
+${buildShareGrid().slice(0,4)}
+${buildShareGrid().slice(4,8)}
+
+https://playtheroute.uk`;
+
+    if (navigator.share) {
+      try {
+        await navigator.share({ title: "The Route", text: text });
+        return;
+      } catch(err) {
+        if (err && err.name === "AbortError") return;
+        // fall through to clipboard copy on any other share failure
+      }
+    }
+
+    const ok = await copyText(text);
+    showToast(ok ? t('result_copied') : t('copy_failed'));
+  }
+
+  if (e.target && e.target.id === "copyLinkButton") {
+
+    const url = window.location.href.split("#")[0];
+    const ok = await copyText(url);
+    showToast(ok ? t('link_copied') : t('copy_failed'));
+  }
+
+  if (e.target && e.target.id === "shareImageButton") {
+
+    const canvas = document.createElement("canvas");
+    canvas.width = 1200;
+    canvas.height = 1200;
+
+    const ctx = canvas.getContext("2d");
+
+    ctx.fillStyle = "#07142f";
+    ctx.fillRect(0,0,1200,1200);
+
+    ctx.fillStyle = "#22c55e";
+    ctx.font = "bold 72px Arial";
+    ctx.textAlign = "center";
+    ctx.fillText("THE ROUTE",600,140);
+
+    ctx.fillStyle = "white";
+    ctx.font = "48px Arial";
+    ctx.fillText(latestResultTitle,600,250);
+
+    ctx.fillText("Tickets Remaining: " + ticketsRemaining,600,340);
+
+    const grid = buildShareGrid();
+
+    ctx.font = "100px Arial";
+    ctx.fillText(grid.slice(0,4),600,520);
+    ctx.fillText(grid.slice(4,8),600,650);
+
+    ctx.font = "40px Arial";
+    ctx.fillStyle = "#9ca3af";
+    ctx.fillText("playtheroute.uk",600,1000);
+
+    canvas.toBlob(async (blob) => {
+
+      const file = new File([blob], "the-route-score.png", {type:"image/png"});
+
+      if (navigator.canShare && navigator.canShare({files:[file]})) {
+
+        try {
+          await navigator.share({
+            files:[file],
+            title:"The Route"
+          });
+          return;
+        } catch(err) {}
+      }
+
+      const link = document.createElement("a");
+      link.href = URL.createObjectURL(blob);
+      link.download = "the-route-score.png";
+      link.click();
+
+    });
+  }
+});
+
+</script>
+
+<div class="modal" id="resultsModal" style="display:none;">
+  <div class="modal-box" style="max-width:600px;text-align:center;">
+    <h2 style="display:flex;align-items:center;justify-content:center;gap:10px;">
+      <svg width="30" height="30" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" style="flex-shrink:0;">
+        <circle cx="100" cy="100" r="88" stroke="#E6E6E6" stroke-width="10" fill="none"/>
+        <path d="M78 142 L78 78 Q78 54 102 54 L146 54" stroke="#E6E6E6" stroke-width="14" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+        <path d="M78 100 L112 122" stroke="#E6E6E6" stroke-width="10" stroke-linecap="round" opacity="0.7"/>
+        <circle cx="78" cy="100" r="12" fill="white" stroke="#22c55e" stroke-width="7"/>
+        <circle cx="146" cy="54" r="12" fill="white" stroke="#EA4335" stroke-width="7"/>
+        <circle cx="112" cy="122" r="11" fill="white" stroke="#B0B0B0" stroke-width="5"/>
+      </svg>
+      <span data-i18n="results_title">The Route Results</span>
+    </h2>
+    <div id="resultsClass" style="font-size:1.6rem;font-weight:700;margin:16px 0;"></div>
+    <div id="resultsDesc" style="margin-bottom:12px;"></div>
+    <div id="resultsTickets"></div>
+
+    <div id="resultsStats"></div>
+    <div
+  id="landmarkAnswerReveal"
+  style="
+    margin-top:20px;
+    font-weight:700;
+    line-height:1.5;
+  ">
+</div>
+    <div
+  id="stationFact"
+  style="
+    margin-top:12px;
+    padding:16px;
+    border-radius:16px;
+    background:rgba(255,255,255,0.05);
+    line-height:1.6;
+  ">
+</div>
+    <div style="display:flex;gap:12px;justify-content:center;flex-wrap:wrap;margin-top:20px;">
+      <button class="submit-button" id="shareButton" style="min-width:auto;padding:12px 20px;font-size:1rem;" data-i18n="share_result">
+        Share Result
+      </button>
+
+      <button class="submit-button" id="shareImageButton" style="min-width:auto;padding:12px 20px;font-size:1rem;" data-i18n="share_image">
+        Share Image
+      </button>
+
+      <button class="submit-button" id="copyLinkButton" style="min-width:auto;padding:12px 20px;font-size:1rem;" data-i18n="copy_link">
+        Copy Link
+      </button>
+    </div>
+
+    <a href="/support-us.html" style="display:block;margin-top:14px;text-decoration:none;">
+      <button class="submit-button" style="width:100%;background:#ff5e5b;color:white;" data-i18n="support_us">
+        ☕ Support us
+      </button>
+    </a>
+
+    <div style="display:flex;gap:12px;justify-content:center;flex-wrap:wrap;margin-top:20px;">
+      <button class="submit-button" onclick="document.getElementById('resultsModal').style.display='none'" style="min-width:auto;padding:12px 20px;font-size:1rem;" data-i18n="close">
+        Close
+      </button>
+
+      <a href="index.html" style="text-decoration:none;">
+        <button class="submit-button" style="min-width:auto;padding:12px 20px;font-size:1rem;background:#0f172a;border:1px solid #334155;" data-i18n="home">
+          🏠 Home
+        </button>
+      </a>
+    </div>
+  </div>
+</div>
+
+<!-- FOOTER -->
+
+<div class="footer-text">
+
+  Built for UK commuters.
+
+  <br><br>
+
+  <a href="https://x.com/playtheroute" target="_blank">X</a>
+  •
+  <a href="https://www.instagram.com/playtheroute?igsh=anpjb2J5NHR4Z2lr" target="_blank">Instagram</a>
+  •
+  <a href="https://www.tiktok.com/@the.route2?_r=1&_t=ZN-96kXeMFBhnq" target="_blank">TikTok</a>
+
+</div>
+
+</body>
+</html>

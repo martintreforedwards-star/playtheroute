@@ -100,7 +100,7 @@
       "category": "geography",
       "match_count": 15,
       "display": "Is within the East Suffolk region",
-      "hint": "This station is based within the East Suffolk region.",
+      "hint": "This station is based within the East Suffolk region. Other stations in this puzzle within this region include Beccles and Brampton (Suffolk).",
       "id": "col_0"
     },
     {
@@ -111,7 +111,7 @@
       "category": "geography",
       "match_count": 14,
       "display": "Is within the Tendring region",
-      "hint": "This station is based within the Tendring region.",
+      "hint": "This station is based within the Tendring region. Other stations in this puzzle within this region include Alresford and Clacton-On-Sea.",
       "id": "col_1"
     },
     {
@@ -122,7 +122,7 @@
       "category": "geography",
       "match_count": 9,
       "display": "Is within the Broadland region",
-      "hint": "This station is based within the Broadland region.",
+      "hint": "This station is based within the Broadland region. Other stations in this puzzle within this region include Acle and Berney Arms.",
       "id": "col_2"
     },
     {
@@ -133,7 +133,7 @@
       "category": "geography",
       "match_count": 9,
       "display": "Is within the Southend-on-Sea region",
-      "hint": "This station is based within the Southend-on-Sea region.",
+      "hint": "This station is based within the Southend-on-Sea region. Other stations in this puzzle within this region include Chalkwell and Leigh-on-Sea.",
       "id": "col_3"
     },
     {
@@ -144,7 +144,7 @@
       "category": "geography",
       "match_count": 8,
       "display": "Is within the East London region",
-      "hint": "This station is based within the East London region.",
+      "hint": "This station is based within the East London region. Other stations in this puzzle within this region include Barking and Dagenham Dock.",
       "id": "col_4"
     },
     {
@@ -155,7 +155,7 @@
       "category": "geography",
       "match_count": 8,
       "display": "Is within the Braintree region",
-      "hint": "This station is based within the Braintree region.",
+      "hint": "This station is based within the Braintree region. Other stations in this puzzle within this region include Braintree and Braintree Freeport.",
       "id": "col_5"
     },
     {
@@ -166,7 +166,7 @@
       "category": "geography",
       "match_count": 8,
       "display": "Is within the North Norfolk region",
-      "hint": "This station is based within the North Norfolk region.",
+      "hint": "This station is based within the North Norfolk region. Other stations in this puzzle within this region include Cromer and Gunton.",
       "id": "col_6"
     },
     {
@@ -177,7 +177,7 @@
       "category": "geography",
       "match_count": 7,
       "display": "Is within the Thurrock region",
-      "hint": "This station is based within the Thurrock region.",
+      "hint": "This station is based within the Thurrock region. Other stations in this puzzle within this region include Chafford Hundred and East Tilbury.",
       "id": "col_7"
     },
     {
@@ -188,7 +188,7 @@
       "category": "geography",
       "match_count": 6,
       "display": "Is within the Uttlesford region",
-      "hint": "This station is based within the Uttlesford region.",
+      "hint": "This station is based within the Uttlesford region. Other stations in this puzzle within this region include Audley End and Elsenham.",
       "id": "col_8"
     },
     {
@@ -199,7 +199,7 @@
       "category": "geography",
       "match_count": 6,
       "display": "Is within the Colchester region",
-      "hint": "This station is based within the Colchester region.",
+      "hint": "This station is based within the Colchester region. Other stations in this puzzle within this region include Chappel & Wakes Colne and Colchester.",
       "id": "col_9"
     },
     {
@@ -217,23 +217,23 @@
       "type": "range",
       "field": "time_to_hub__london",
       "min": 51.0,
-      "max": 104.0,
+      "max": 101.0,
       "label": "Time to London: middle third",
       "category": "service",
-      "match_count": 56,
+      "match_count": 55,
       "display": "A mid-range journey to London",
-      "hint": "In this puzzle, 'mid-range' means 51-104 minutes to London.",
+      "hint": "In this puzzle, 'mid-range' means 51-101 minutes to London.",
       "id": "col_11"
     },
     {
       "type": "range",
       "field": "time_to_hub__london",
-      "min": 104.0,
+      "min": 101.0,
       "label": "Time to London: longest third",
       "category": "service",
       "match_count": 55,
       "display": "A long journey to London",
-      "hint": "In this puzzle, 'long' means 104+ minutes to London.",
+      "hint": "In this puzzle, 'long' means 101+ minutes to London.",
       "id": "col_12"
     },
     {
@@ -244,7 +244,7 @@
       "category": "route",
       "match_count": 139,
       "display": "Route operated by Greater Anglia.",
-      "hint": "This station is served by Greater Anglia.",
+      "hint": "This station is served by Greater Anglia. Other stations in this puzzle operated by Greater Anglia include Acle and Alresford.",
       "id": "col_13"
     },
     {
@@ -255,7 +255,7 @@
       "category": "route",
       "match_count": 25,
       "display": "Route operated by c2c.",
-      "hint": "This station is served by c2c.",
+      "hint": "This station is served by c2c. Other stations in this puzzle operated by c2c include Barking and Basildon.",
       "id": "col_14"
     },
     {
@@ -266,7 +266,7 @@
       "category": "route",
       "match_count": 49,
       "display": "Is part of the Great Eastern Main Line route",
-      "hint": "A station on the Great Eastern Main Line route.",
+      "hint": "A station on the Great Eastern Main Line route. Other stations in this puzzle on this route include Alresford and Althorne.",
       "id": "col_15"
     },
     {
@@ -277,7 +277,7 @@
       "category": "route",
       "match_count": 47,
       "display": "Is part of the Great Eastern route",
-      "hint": "A station on the Great Eastern route.",
+      "hint": "A station on the Great Eastern route. Other stations in this puzzle on this route include Alresford and Althorne.",
       "id": "col_16"
     },
     {
@@ -288,7 +288,7 @@
       "category": "route",
       "match_count": 33,
       "display": "Is part of the Heron Line route",
-      "hint": "A station on the Heron Line route.",
+      "hint": "A station on the Heron Line route. Other stations in this puzzle on this route include Audley End and Bishops Stortford.",
       "id": "col_17"
     },
     {
@@ -299,7 +299,7 @@
       "category": "route",
       "match_count": 31,
       "display": "Is part of the West Anglia Main Line route",
-      "hint": "A station on the West Anglia Main Line route.",
+      "hint": "A station on the West Anglia Main Line route. Other stations in this puzzle on this route include Audley End and Bishops Stortford.",
       "id": "col_18"
     },
     {
@@ -310,7 +310,7 @@
       "category": "route",
       "match_count": 29,
       "display": "Is part of the West Anglia route",
-      "hint": "A station on the West Anglia route.",
+      "hint": "A station on the West Anglia route. Other stations in this puzzle on this route include Audley End and Bishops Stortford.",
       "id": "col_19"
     },
     {
@@ -321,7 +321,7 @@
       "category": "route",
       "match_count": 25,
       "display": "Is part of the London Tilbury & Southend Line route",
-      "hint": "A station on the London Tilbury & Southend Line route.",
+      "hint": "A station on the London Tilbury & Southend Line route. Other stations in this puzzle on this route include Barking and Basildon.",
       "id": "col_20"
     },
     {
@@ -332,7 +332,7 @@
       "category": "route",
       "match_count": 22,
       "display": "Is part of the East Suffolk Line route",
-      "hint": "A station on the East Suffolk Line route.",
+      "hint": "A station on the East Suffolk Line route. Other stations in this puzzle on this route include Beccles and Brampton (Suffolk).",
       "id": "col_21"
     },
     {
@@ -343,7 +343,7 @@
       "category": "route",
       "match_count": 21,
       "display": "Is part of the Sunshine Coast Line route",
-      "hint": "A station on the Sunshine Coast Line route.",
+      "hint": "A station on the Sunshine Coast Line route. Other stations in this puzzle on this route include Alresford and Beaulieu Park.",
       "id": "col_22"
     },
     {
@@ -354,7 +354,7 @@
       "category": "route",
       "match_count": 20,
       "display": "Is part of the Wherry Line route",
-      "hint": "A station on the Wherry Line route.",
+      "hint": "A station on the Wherry Line route. Other stations in this puzzle on this route include Acle and Attleborough.",
       "id": "col_23"
     },
     {
@@ -365,7 +365,7 @@
       "category": "route",
       "match_count": 19,
       "display": "Is part of the Mayflower Line route",
-      "hint": "A station on the Mayflower Line route.",
+      "hint": "A station on the Mayflower Line route. Other stations in this puzzle on this route include Beaulieu Park and Chelmsford.",
       "id": "col_24"
     },
     {
@@ -376,7 +376,7 @@
       "category": "route",
       "match_count": 17,
       "display": "Is part of the Shenfield to Southend Line route",
-      "hint": "A station on the Shenfield to Southend Line route.",
+      "hint": "A station on the Shenfield to Southend Line route. Other stations in this puzzle on this route include Beaulieu Park and Billericay.",
       "id": "col_25"
     },
     {
@@ -387,7 +387,7 @@
       "category": "route",
       "match_count": 17,
       "display": "Is part of the Southend Line route",
-      "hint": "A station on the Southend Line route.",
+      "hint": "A station on the Southend Line route. Other stations in this puzzle on this route include Beaulieu Park and Billericay.",
       "id": "col_26"
     },
     {
@@ -398,7 +398,7 @@
       "category": "route",
       "match_count": 17,
       "display": "Is part of the St Edmund's Line route",
-      "hint": "A station on the St Edmund's Line route.",
+      "hint": "A station on the St Edmund's Line route. Other stations in this puzzle on this route include Bury St Edmunds and Cambridge.",
       "id": "col_27"
     },
     {
@@ -409,7 +409,7 @@
       "category": "route",
       "match_count": 16,
       "display": "Is part of the Hertford East Line route",
-      "hint": "A station on the Hertford East Line route.",
+      "hint": "A station on the Hertford East Line route. Other stations in this puzzle on this route include Brimsdown and Broxbourne.",
       "id": "col_28"
     },
     {
@@ -420,7 +420,7 @@
       "category": "route",
       "match_count": 16,
       "display": "Is part of the Lee Valley Line route",
-      "hint": "A station on the Lee Valley Line route.",
+      "hint": "A station on the Lee Valley Line route. Other stations in this puzzle on this route include Brimsdown and Broxbourne.",
       "id": "col_29"
     },
     {
@@ -464,7 +464,7 @@
       "category": "name",
       "match_count": 21,
       "display": "Word contains 'ham'",
-      "hint": "Word contains 'ham'.",
+      "hint": "Word contains 'ham'. For example: Buckenham and Burnham-On-Crouch.",
       "id": "col_33"
     },
     {
@@ -475,7 +475,7 @@
       "category": "name",
       "match_count": 13,
       "display": "Word contains 'ford'",
-      "hint": "Word contains 'ford'.",
+      "hint": "Word contains 'ford'. For example: Alresford and Bishops Stortford.",
       "id": "col_34"
     },
     {
@@ -486,7 +486,7 @@
       "category": "name",
       "match_count": 13,
       "display": "Word contains 'ton'",
-      "hint": "Word contains 'ton'.",
+      "hint": "Word contains 'ton'. For example: Brampton (Suffolk) and Clacton-On-Sea.",
       "id": "col_35"
     },
     {
@@ -497,7 +497,7 @@
       "category": "name",
       "match_count": 10,
       "display": "Word contains 'ey'",
-      "hint": "Word contains 'ey'.",
+      "hint": "Word contains 'ey'. For example: Audley End and Berney Arms.",
       "id": "col_36"
     },
     {
@@ -508,7 +508,7 @@
       "category": "name",
       "match_count": 9,
       "display": "Word contains 'don'",
-      "hint": "Word contains 'don'.",
+      "hint": "Word contains 'don'. For example: Basildon and Brandon.",
       "id": "col_37"
     },
     {
@@ -519,7 +519,7 @@
       "category": "name",
       "match_count": 8,
       "display": "Word contains 'ley'",
-      "hint": "Word contains 'ley'.",
+      "hint": "Word contains 'ley'. For example: Audley End and Cantley.",
       "id": "col_38"
     },
     {
@@ -530,7 +530,7 @@
       "category": "name",
       "match_count": 7,
       "display": "Word contains 'ridge'",
-      "hint": "Word contains 'ridge'.",
+      "hint": "Word contains 'ridge'. For example: Battlesbridge and Cambridge.",
       "id": "col_39"
     },
     {
@@ -563,7 +563,7 @@
       "category": "name",
       "match_count": 4,
       "display": "Word contains 'port'",
-      "hint": "Word contains 'port'.",
+      "hint": "Word contains 'port'. For example: Braintree Freeport and Newport (Essex).",
       "id": "col_42"
     },
     {
@@ -574,7 +574,7 @@
       "category": "name",
       "match_count": 3,
       "display": "Word contains 'park'",
-      "hint": "Word contains 'park'.",
+      "hint": "Word contains 'park'. For example: Beaulieu Park and Northumberland Park.",
       "id": "col_43"
     }
   ]

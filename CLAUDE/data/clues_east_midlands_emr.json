@@ -100,7 +100,7 @@
       "category": "geography",
       "match_count": 7,
       "display": "Is within the Newark and Sherwood region",
-      "hint": "This station is based within the Newark and Sherwood region.",
+      "hint": "This station is based within the Newark and Sherwood region. Other stations in this puzzle within this region include Bleasby and Collingham.",
       "id": "col_0"
     },
     {
@@ -111,7 +111,7 @@
       "category": "geography",
       "match_count": 7,
       "display": "Is within the North East Lincolnshire region",
-      "hint": "This station is based within the North East Lincolnshire region.",
+      "hint": "This station is based within the North East Lincolnshire region. Other stations in this puzzle within this region include Great Coates and Grimsby Docks.",
       "id": "col_1"
     },
     {
@@ -122,7 +122,7 @@
       "category": "geography",
       "match_count": 7,
       "display": "Is within the North Kesteven region",
-      "hint": "This station is based within the North Kesteven region.",
+      "hint": "This station is based within the North Kesteven region. Other stations in this puzzle within this region include Heckington and Hykeham.",
       "id": "col_2"
     },
     {
@@ -133,7 +133,7 @@
       "category": "geography",
       "match_count": 6,
       "display": "Is within the Amber Valley region",
-      "hint": "This station is based within the Amber Valley region.",
+      "hint": "This station is based within the Amber Valley region. Other stations in this puzzle within this region include Alfreton and Ambergate.",
       "id": "col_3"
     },
     {
@@ -144,7 +144,7 @@
       "category": "geography",
       "match_count": 6,
       "display": "Is within the North Lincolnshire region",
-      "hint": "This station is based within the North Lincolnshire region.",
+      "hint": "This station is based within the North Lincolnshire region. Other stations in this puzzle within this region include Barrow Haven and Barton-on-Humber.",
       "id": "col_4"
     },
     {
@@ -155,7 +155,7 @@
       "category": "geography",
       "match_count": 5,
       "display": "Is within the Rushcliffe region",
-      "hint": "This station is based within the Rushcliffe region.",
+      "hint": "This station is based within the Rushcliffe region. Other stations in this puzzle within this region include Aslockton and Bingham.",
       "id": "col_5"
     },
     {
@@ -166,7 +166,7 @@
       "category": "geography",
       "match_count": 4,
       "display": "Is within the Gedling region",
-      "hint": "This station is based within the Gedling region.",
+      "hint": "This station is based within the Gedling region. Other stations in this puzzle within this region include Burton Joyce and Carlton.",
       "id": "col_6"
     },
     {
@@ -177,7 +177,7 @@
       "category": "geography",
       "match_count": 4,
       "display": "Is within the Charnwood region",
-      "hint": "This station is based within the Charnwood region.",
+      "hint": "This station is based within the Charnwood region. Other stations in this puzzle within this region include Barrow-upon-Soar and Loughborough.",
       "id": "col_7"
     },
     {
@@ -188,7 +188,7 @@
       "category": "geography",
       "match_count": 4,
       "display": "Is within the Bolsover region",
-      "hint": "This station is based within the Bolsover region.",
+      "hint": "This station is based within the Bolsover region. Other stations in this puzzle within this region include Creswell and Langwith-Whaley Thorns.",
       "id": "col_8"
     },
     {
@@ -199,7 +199,7 @@
       "category": "geography",
       "match_count": 4,
       "display": "Is within the East Lindsey region",
-      "hint": "This station is based within the East Lindsey region.",
+      "hint": "This station is based within the East Lindsey region. Other stations in this puzzle within this region include Havenhouse and Skegness.",
       "id": "col_9"
     },
     {
@@ -210,7 +210,7 @@
       "category": "geography",
       "match_count": 23,
       "display": "Trains head to Derby",
-      "hint": "This station's journeys are routed via or towards Derby.",
+      "hint": "This station's journeys are routed via or towards Derby. Other stations in this puzzle sharing this hub include Alfreton and Alsager.",
       "id": "col_10"
     },
     {
@@ -221,7 +221,7 @@
       "category": "geography",
       "match_count": 30,
       "display": "Trains head to Nottingham",
-      "hint": "This station's journeys are routed via or towards Nottingham.",
+      "hint": "This station's journeys are routed via or towards Nottingham. Other stations in this puzzle sharing this hub include Aslockton and Attenborough.",
       "id": "col_11"
     },
     {
@@ -232,7 +232,7 @@
       "category": "geography",
       "match_count": 35,
       "display": "Trains head to Lincoln",
-      "hint": "This station's journeys are routed via or towards Lincoln.",
+      "hint": "This station's journeys are routed via or towards Lincoln. Other stations in this puzzle sharing this hub include Ancaster and Barrow Haven.",
       "id": "col_12"
     },
     {
@@ -243,7 +243,7 @@
       "category": "geography",
       "match_count": 15,
       "display": "Trains head to Leicester",
-      "hint": "This station's journeys are routed via or towards Leicester.",
+      "hint": "This station's journeys are routed via or towards Leicester. Other stations in this puzzle sharing this hub include Barrow-upon-Soar and Corby.",
       "id": "col_13"
     },
     {
@@ -390,7 +390,7 @@
       "category": "route",
       "match_count": 44,
       "display": "Is part of the Castle Line route",
-      "hint": "A station on the Castle Line route.",
+      "hint": "A station on the Castle Line route. Other stations in this puzzle on this route include Alsager and Ambergate.",
       "id": "col_26"
     },
     {
@@ -401,7 +401,7 @@
       "category": "route",
       "match_count": 18,
       "display": "Is part of the Poacher Line route",
-      "hint": "A station on the Poacher Line route.",
+      "hint": "A station on the Poacher Line route. Other stations in this puzzle on this route include Ancaster and Aslockton.",
       "id": "col_27"
     },
     {
@@ -412,7 +412,7 @@
       "category": "route",
       "match_count": 13,
       "display": "Is part of the Humber Linc Line route",
-      "hint": "A station on the Humber Linc Line route.",
+      "hint": "A station on the Humber Linc Line route. Other stations in this puzzle on this route include Barrow Haven and Barton-on-Humber.",
       "id": "col_28"
     },
     {
@@ -423,7 +423,7 @@
       "category": "route",
       "match_count": 12,
       "display": "Is part of the Robin Hood Line route",
-      "hint": "A station on the Robin Hood Line route.",
+      "hint": "A station on the Robin Hood Line route. Other stations in this puzzle on this route include Bulwell and Creswell.",
       "id": "col_29"
     },
     {
@@ -434,7 +434,7 @@
       "category": "route",
       "match_count": 8,
       "display": "Is part of the Derwent Valley Line route",
-      "hint": "A station on the Derwent Valley Line route.",
+      "hint": "A station on the Derwent Valley Line route. Other stations in this puzzle on this route include Ambergate and Belper.",
       "id": "col_30"
     },
     {
@@ -445,7 +445,7 @@
       "category": "route",
       "match_count": 6,
       "display": "Is part of the Erewash Valley route",
-      "hint": "A station on the Erewash Valley route.",
+      "hint": "A station on the Erewash Valley route. Other stations in this puzzle on this route include Alfreton and Chesterfield.",
       "id": "col_31"
     },
     {
@@ -456,7 +456,7 @@
       "category": "route",
       "match_count": 5,
       "display": "Is part of the Ivanhoe Line route",
-      "hint": "A station on the Ivanhoe Line route.",
+      "hint": "A station on the Ivanhoe Line route. Other stations in this puzzle on this route include Barrow-upon-Soar and Leicester.",
       "id": "col_32"
     },
     {
@@ -467,7 +467,7 @@
       "category": "route",
       "match_count": 3,
       "display": "Is part of the Birmingham to Leicester Line route",
-      "hint": "A station on the Birmingham to Leicester Line route.",
+      "hint": "A station on the Birmingham to Leicester Line route. Other stations in this puzzle on this route include Hinckley (Leics) and Narborough.",
       "id": "col_33"
     },
     {
@@ -478,7 +478,7 @@
       "category": "route",
       "match_count": 3,
       "display": "Is part of the Cathedrals Route route",
-      "hint": "A station on the Cathedrals Route route.",
+      "hint": "A station on the Cathedrals Route route. Other stations in this puzzle on this route include Metheringham and Ruskington.",
       "id": "col_34"
     },
     {
@@ -489,7 +489,7 @@
       "category": "route",
       "match_count": 3,
       "display": "Is part of the Leicester to Peterborough Line route",
-      "hint": "A station on the Leicester to Peterborough Line route.",
+      "hint": "A station on the Leicester to Peterborough Line route. Other stations in this puzzle on this route include Melton Mowbray and Oakham.",
       "id": "col_35"
     },
     {
@@ -522,7 +522,7 @@
       "category": "name",
       "match_count": 24,
       "display": "Word contains 'ton'",
-      "hint": "Word contains 'ton'.",
+      "hint": "Word contains 'ton'. For example: Alfreton and Aslockton.",
       "id": "col_38"
     },
     {
@@ -533,7 +533,7 @@
       "category": "name",
       "match_count": 11,
       "display": "Word contains 'by'",
-      "hint": "Word contains 'by'.",
+      "hint": "Word contains 'by'. For example: Bleasby and Corby.",
       "id": "col_39"
     },
     {
@@ -544,7 +544,7 @@
       "category": "name",
       "match_count": 7,
       "display": "Word contains 'ham'",
-      "hint": "Word contains 'ham'.",
+      "hint": "Word contains 'ham'. For example: Bingham and Collingham.",
       "id": "col_40"
     },
     {
@@ -555,7 +555,7 @@
       "category": "name",
       "match_count": 7,
       "display": "Word contains 'field'",
-      "hint": "Word contains 'field'.",
+      "hint": "Word contains 'field'. For example: Chesterfield and Duffield.",
       "id": "col_41"
     },
     {
@@ -577,7 +577,7 @@
       "category": "name",
       "match_count": 4,
       "display": "Word contains 'well'",
-      "hint": "Word contains 'well'.",
+      "hint": "Word contains 'well'. For example: Bulwell and Creswell.",
       "id": "col_43"
     },
     {
@@ -588,7 +588,7 @@
       "category": "name",
       "match_count": 4,
       "display": "Word contains 'ford'",
-      "hint": "Word contains 'ford'.",
+      "hint": "Word contains 'ford'. For example: Bottesford and Cromford.",
       "id": "col_44"
     },
     {
@@ -610,7 +610,7 @@
       "category": "name",
       "match_count": 4,
       "display": "Word contains 'ey'",
-      "hint": "Word contains 'ey'.",
+      "hint": "Word contains 'ey'. For example: Hinckley (Leics) and Langley Mill.",
       "id": "col_46"
     },
     {
@@ -621,7 +621,7 @@
       "category": "name",
       "match_count": 3,
       "display": "Word contains 'ington'",
-      "hint": "Word contains 'ington'.",
+      "hint": "Word contains 'ington'. For example: Heckington and Ruskington.",
       "id": "col_47"
     }
   ]

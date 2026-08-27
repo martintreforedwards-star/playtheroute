@@ -100,7 +100,7 @@
       "category": "geography",
       "match_count": 59,
       "display": "Is within the Glasgow City region",
-      "hint": "This station is based within the Glasgow City region.",
+      "hint": "This station is based within the Glasgow City region. Other stations in this puzzle within this region include Alexandra Parade and Anderston.",
       "id": "col_0"
     },
     {
@@ -111,7 +111,7 @@
       "category": "geography",
       "match_count": 25,
       "display": "Is within the North Lanarkshire region",
-      "hint": "This station is based within the North Lanarkshire region.",
+      "hint": "This station is based within the North Lanarkshire region. Other stations in this puzzle within this region include Airbles and Airdrie.",
       "id": "col_1"
     },
     {
@@ -122,7 +122,7 @@
       "category": "geography",
       "match_count": 19,
       "display": "Is within the South Lanarkshire region",
-      "hint": "This station is based within the South Lanarkshire region.",
+      "hint": "This station is based within the South Lanarkshire region. Other stations in this puzzle within this region include Blantyre and Burnside.",
       "id": "col_2"
     },
     {
@@ -133,7 +133,7 @@
       "category": "geography",
       "match_count": 15,
       "display": "Is within the Highland region",
-      "hint": "This station is based within the Highland region.",
+      "hint": "This station is based within the Highland region. Other stations in this puzzle within this region include Arisaig and Banavie.",
       "id": "col_3"
     },
     {
@@ -144,7 +144,7 @@
       "category": "geography",
       "match_count": 14,
       "display": "Is within the Argyll and Bute region",
-      "hint": "This station is based within the Argyll and Bute region.",
+      "hint": "This station is based within the Argyll and Bute region. Other stations in this puzzle within this region include Ardlui and Arrochar & Tarbet.",
       "id": "col_4"
     },
     {
@@ -155,7 +155,7 @@
       "category": "geography",
       "match_count": 13,
       "display": "Is within the West Dunbartonshire region",
-      "hint": "This station is based within the West Dunbartonshire region.",
+      "hint": "This station is based within the West Dunbartonshire region. Other stations in this puzzle within this region include Alexandria and Balloch Central.",
       "id": "col_5"
     },
     {
@@ -166,7 +166,7 @@
       "category": "geography",
       "match_count": 13,
       "display": "Is within the Inverclyde region",
-      "hint": "This station is based within the Inverclyde region.",
+      "hint": "This station is based within the Inverclyde region. Other stations in this puzzle within this region include Bogston and Branchton.",
       "id": "col_6"
     },
     {
@@ -177,7 +177,7 @@
       "category": "geography",
       "match_count": 12,
       "display": "Is within the North Ayrshire region",
-      "hint": "This station is based within the North Ayrshire region.",
+      "hint": "This station is based within the North Ayrshire region. Other stations in this puzzle within this region include Ardrossan Harbour and Ardrossan South Beach.",
       "id": "col_7"
     },
     {
@@ -188,7 +188,7 @@
       "category": "geography",
       "match_count": 10,
       "display": "Is within the Renfrewshire region",
-      "hint": "This station is based within the Renfrewshire region.",
+      "hint": "This station is based within the Renfrewshire region. Other stations in this puzzle within this region include Bishopton and Hawkhead.",
       "id": "col_8"
     },
     {
@@ -199,7 +199,7 @@
       "category": "geography",
       "match_count": 9,
       "display": "Is within the South Ayrshire region",
-      "hint": "This station is based within the South Ayrshire region.",
+      "hint": "This station is based within the South Ayrshire region. Other stations in this puzzle within this region include Ayr and Barassie.",
       "id": "col_9"
     },
     {
@@ -244,7 +244,7 @@
       "category": "route",
       "match_count": 64,
       "display": "Is part of the Argyle Line route",
-      "hint": "A station on the Argyle Line route.",
+      "hint": "A station on the Argyle Line route. Other stations in this puzzle on this route include Airdrie and Alexandra Parade.",
       "id": "col_13"
     },
     {
@@ -255,7 +255,7 @@
       "category": "route",
       "match_count": 39,
       "display": "Is part of the North Clyde Electrics route",
-      "hint": "A station on the North Clyde Electrics route.",
+      "hint": "A station on the North Clyde Electrics route. Other stations in this puzzle on this route include Airdrie and Alexandra Parade.",
       "id": "col_14"
     },
     {
@@ -266,7 +266,7 @@
       "category": "route",
       "match_count": 33,
       "display": "Is part of the West Highland Line route",
-      "hint": "A station on the West Highland Line route.",
+      "hint": "A station on the West Highland Line route. Other stations in this puzzle on this route include Ardlui and Arisaig.",
       "id": "col_15"
     },
     {
@@ -277,7 +277,7 @@
       "category": "route",
       "match_count": 16,
       "display": "Is part of the Inverclyde Line route",
-      "hint": "A station on the Inverclyde Line route.",
+      "hint": "A station on the Inverclyde Line route. Other stations in this puzzle on this route include Bishopton and Bogston.",
       "id": "col_16"
     },
     {
@@ -288,7 +288,7 @@
       "category": "route",
       "match_count": 14,
       "display": "Is part of the Road to the Isles route",
-      "hint": "A station on the Road to the Isles route.",
+      "hint": "A station on the Road to the Isles route. Other stations in this puzzle on this route include Ardlui and Bellgrove.",
       "id": "col_17"
     },
     {
@@ -299,7 +299,7 @@
       "category": "route",
       "match_count": 14,
       "display": "Is part of the East Kilbride Line route",
-      "hint": "A station on the East Kilbride Line route.",
+      "hint": "A station on the East Kilbride Line route. Other stations in this puzzle on this route include Burnside and Busby.",
       "id": "col_18"
     },
     {
@@ -310,7 +310,7 @@
       "category": "route",
       "match_count": 13,
       "display": "Is part of the Cathcart Circle route",
-      "hint": "A station on the Cathcart Circle route.",
+      "hint": "A station on the Cathcart Circle route. Other stations in this puzzle on this route include Cathcart and Crossmyloof.",
       "id": "col_19"
     },
     {
@@ -321,7 +321,7 @@
       "category": "route",
       "match_count": 12,
       "display": "Is part of the Glasgow South Western Line route",
-      "hint": "A station on the Glasgow South Western Line route.",
+      "hint": "A station on the Glasgow South Western Line route. Other stations in this puzzle on this route include Annan and Auchinleck.",
       "id": "col_20"
     },
     {
@@ -332,7 +332,7 @@
       "category": "route",
       "match_count": 10,
       "display": "Is part of the Neilston Line route",
-      "hint": "A station on the Neilston Line route.",
+      "hint": "A station on the Neilston Line route. Other stations in this puzzle on this route include Barrhead and Kennishead.",
       "id": "col_21"
     },
     {
@@ -343,7 +343,7 @@
       "category": "route",
       "match_count": 10,
       "display": "Is part of the Ayrshire Coast Line route",
-      "hint": "A station on the Ayrshire Coast Line route.",
+      "hint": "A station on the Ayrshire Coast Line route. Other stations in this puzzle on this route include Barassie and Cardonald.",
       "id": "col_22"
     },
     {
@@ -354,7 +354,7 @@
       "category": "route",
       "match_count": 9,
       "display": "Is part of the Shotts Line route",
-      "hint": "A station on the Shotts Line route.",
+      "hint": "A station on the Shotts Line route. Other stations in this puzzle on this route include Bellshill and Carfin.",
       "id": "col_23"
     },
     {
@@ -365,7 +365,7 @@
       "category": "route",
       "match_count": 8,
       "display": "Is part of the Ayrshire Coast route",
-      "hint": "A station on the Ayrshire Coast route.",
+      "hint": "A station on the Ayrshire Coast route. Other stations in this puzzle on this route include Ayr and Irvine.",
       "id": "col_24"
     },
     {
@@ -376,7 +376,7 @@
       "category": "route",
       "match_count": 8,
       "display": "Is part of the Cumbernauld Line route",
-      "hint": "A station on the Cumbernauld Line route.",
+      "hint": "A station on the Cumbernauld Line route. Other stations in this puzzle on this route include Camelon and Cumbernauld.",
       "id": "col_25"
     },
     {
@@ -387,7 +387,7 @@
       "category": "route",
       "match_count": 7,
       "display": "Is part of the Oban Branch route",
-      "hint": "A station on the Oban Branch route.",
+      "hint": "A station on the Oban Branch route. Other stations in this puzzle on this route include Connel Ferry and Dalmally.",
       "id": "col_26"
     },
     {
@@ -398,7 +398,7 @@
       "category": "route",
       "match_count": 6,
       "display": "Is part of the Largs Branch route",
-      "hint": "A station on the Largs Branch route.",
+      "hint": "A station on the Largs Branch route. Other stations in this puzzle on this route include Ardrossan South Beach and Fairlie.",
       "id": "col_27"
     },
     {
@@ -453,7 +453,7 @@
       "category": "name",
       "match_count": 28,
       "display": "Word contains 'ton'",
-      "hint": "Word contains 'ton'.",
+      "hint": "Word contains 'ton'. For example: Anderston and Baillieston.",
       "id": "col_32"
     },
     {
@@ -464,7 +464,7 @@
       "category": "name",
       "match_count": 7,
       "display": "Word contains 'ridge'",
-      "hint": "Word contains 'ridge'.",
+      "hint": "Word contains 'ridge'. For example: Blackridge and Bridge of Allan.",
       "id": "col_33"
     },
     {
@@ -475,7 +475,7 @@
       "category": "name",
       "match_count": 6,
       "display": "Word contains 'kil'",
-      "hint": "Word contains 'kil'.",
+      "hint": "Word contains 'kil'. For example: East Kilbride and Kilmarnock.",
       "id": "col_34"
     },
     {
@@ -486,7 +486,7 @@
       "category": "name",
       "match_count": 5,
       "display": "Word contains 'dal'",
-      "hint": "Word contains 'dal'.",
+      "hint": "Word contains 'dal'. For example: Dalmally and Dalmarnock.",
       "id": "col_35"
     },
     {
@@ -497,7 +497,7 @@
       "category": "name",
       "match_count": 5,
       "display": "Word contains 'park'",
-      "hint": "Word contains 'park'.",
+      "hint": "Word contains 'park'. For example: Kings Park and Maxwell Park.",
       "id": "col_36"
     },
     {
@@ -508,7 +508,7 @@
       "category": "name",
       "match_count": 5,
       "display": "Word contains 'loch'",
-      "hint": "Word contains 'loch'.",
+      "hint": "Word contains 'loch'. For example: Loch Awe and Loch Eil Outward Bound.",
       "id": "col_37"
     },
     {
@@ -519,7 +519,7 @@
       "category": "name",
       "match_count": 4,
       "display": "Word contains 'ard'",
-      "hint": "Word contains 'ard'.",
+      "hint": "Word contains 'ard'. For example: Ardlui and Ardrossan Harbour.",
       "id": "col_38"
     },
     {
@@ -530,7 +530,7 @@
       "category": "name",
       "match_count": 4,
       "display": "Word contains 'side'",
-      "hint": "Word contains 'side'.",
+      "hint": "Word contains 'side'. For example: Burnside and Coatbridge Sunnyside.",
       "id": "col_39"
     },
     {
@@ -541,7 +541,7 @@
       "category": "name",
       "match_count": 4,
       "display": "Word contains 'drum'",
-      "hint": "Word contains 'drum'.",
+      "hint": "Word contains 'drum'. For example: Drumchapel and Drumfrochar.",
       "id": "col_40"
     },
     {
@@ -552,7 +552,7 @@
       "category": "name",
       "match_count": 4,
       "display": "Word contains 'green'",
-      "hint": "Word contains 'green'.",
+      "hint": "Word contains 'green'. For example: Greenfaulds and Greenock Central.",
       "id": "col_41"
     },
     {
@@ -563,7 +563,7 @@
       "category": "name",
       "match_count": 4,
       "display": "Word contains 'ley'",
-      "hint": "Word contains 'ley'.",
+      "hint": "Word contains 'ley'. For example: Paisley Canal and Paisley Gilmour Street.",
       "id": "col_42"
     },
     {
@@ -574,7 +574,7 @@
       "category": "name",
       "match_count": 4,
       "display": "Word contains 'ey'",
-      "hint": "Word contains 'ey'.",
+      "hint": "Word contains 'ey'. For example: Paisley Canal and Paisley Gilmour Street.",
       "id": "col_43"
     },
     {
@@ -585,7 +585,7 @@
       "category": "name",
       "match_count": 4,
       "display": "Word contains 'pol'",
-      "hint": "Word contains 'pol'.",
+      "hint": "Word contains 'pol'. For example: Pollokshaws East and Pollokshaws West.",
       "id": "col_44"
     },
     {
@@ -607,7 +607,7 @@
       "category": "name",
       "match_count": 3,
       "display": "Word contains 'hill'",
-      "hint": "Word contains 'hill'.",
+      "hint": "Word contains 'hill'. For example: Hillfoot and Hillington East.",
       "id": "col_46"
     }
   ]

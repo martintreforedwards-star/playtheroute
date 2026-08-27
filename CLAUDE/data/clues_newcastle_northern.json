@@ -100,7 +100,7 @@
       "category": "geography",
       "match_count": 21,
       "display": "Is within the Northumberland region",
-      "hint": "This station is based within the Northumberland region.",
+      "hint": "This station is based within the Northumberland region. Other stations in this puzzle within this region include Acklington and Alnmouth.",
       "id": "col_0"
     },
     {
@@ -111,7 +111,7 @@
       "category": "geography",
       "match_count": 13,
       "display": "Is within the North Yorkshire region",
-      "hint": "This station is based within the North Yorkshire region.",
+      "hint": "This station is based within the North Yorkshire region. Other stations in this puzzle within this region include Battersby and Castleton Moor.",
       "id": "col_1"
     },
     {
@@ -122,7 +122,7 @@
       "category": "geography",
       "match_count": 11,
       "display": "Is within the Cumberland region",
-      "hint": "This station is based within the Cumberland region.",
+      "hint": "This station is based within the Cumberland region. Other stations in this puzzle within this region include Aspatria and Brampton (Cumbria).",
       "id": "col_2"
     },
     {
@@ -133,7 +133,7 @@
       "category": "geography",
       "match_count": 10,
       "display": "Is within the Redcar and Cleveland region",
-      "hint": "This station is based within the Redcar and Cleveland region.",
+      "hint": "This station is based within the Redcar and Cleveland region. Other stations in this puzzle within this region include Gypsy Lane and Longbeck.",
       "id": "col_3"
     },
     {
@@ -144,7 +144,7 @@
       "category": "geography",
       "match_count": 7,
       "display": "Is within the County Durham region",
-      "hint": "This station is based within the County Durham region.",
+      "hint": "This station is based within the County Durham region. Other stations in this puzzle within this region include Bishop Auckland and Chester-le-Street.",
       "id": "col_4"
     },
     {
@@ -155,7 +155,7 @@
       "category": "geography",
       "match_count": 5,
       "display": "Is within the Stockton-on-Tees region",
-      "hint": "This station is based within the Stockton-on-Tees region.",
+      "hint": "This station is based within the Stockton-on-Tees region. Other stations in this puzzle within this region include Allens West and Billingham.",
       "id": "col_5"
     },
     {
@@ -166,7 +166,7 @@
       "category": "geography",
       "match_count": 4,
       "display": "Is within the Gateshead region",
-      "hint": "This station is based within the Gateshead region.",
+      "hint": "This station is based within the Gateshead region. Other stations in this puzzle within this region include Blaydon and Dunston.",
       "id": "col_6"
     },
     {
@@ -177,7 +177,7 @@
       "category": "geography",
       "match_count": 3,
       "display": "Is within the Darlington region",
-      "hint": "This station is based within the Darlington region.",
+      "hint": "This station is based within the Darlington region. Other stations in this puzzle within this region include Dinsdale and North Road (Darlington).",
       "id": "col_7"
     },
     {
@@ -222,7 +222,7 @@
       "category": "route",
       "match_count": 31,
       "display": "Is part of the Hadrian's Wall Country Line route",
-      "hint": "A station on the Hadrian's Wall Country Line route.",
+      "hint": "A station on the Hadrian's Wall Country Line route. Other stations in this puzzle on this route include Allens West and Bardon Mill.",
       "id": "col_11"
     },
     {
@@ -233,7 +233,7 @@
       "category": "route",
       "match_count": 31,
       "display": "Is part of the Tyne Valley Line route",
-      "hint": "A station on the Tyne Valley Line route.",
+      "hint": "A station on the Tyne Valley Line route. Other stations in this puzzle on this route include Allens West and Bardon Mill.",
       "id": "col_12"
     },
     {
@@ -244,7 +244,7 @@
       "category": "route",
       "match_count": 28,
       "display": "Is part of the Esk Valley Railway route",
-      "hint": "A station on the Esk Valley Railway route.",
+      "hint": "A station on the Esk Valley Railway route. Other stations in this puzzle on this route include Battersby and Billingham.",
       "id": "col_13"
     },
     {
@@ -255,7 +255,7 @@
       "category": "route",
       "match_count": 20,
       "display": "Is part of the Tees Valley Line route",
-      "hint": "A station on the Tees Valley Line route.",
+      "hint": "A station on the Tees Valley Line route. Other stations in this puzzle on this route include Allens West and Bishop Auckland.",
       "id": "col_14"
     },
     {
@@ -266,7 +266,7 @@
       "category": "route",
       "match_count": 17,
       "display": "Is part of the Durham Coast Line route",
-      "hint": "A station on the Durham Coast Line route.",
+      "hint": "A station on the Durham Coast Line route. Other stations in this puzzle on this route include Billingham and Great Ayton.",
       "id": "col_15"
     },
     {
@@ -277,7 +277,7 @@
       "category": "route",
       "match_count": 9,
       "display": "Is part of the Northumberland Line route",
-      "hint": "A station on the Northumberland Line route.",
+      "hint": "A station on the Northumberland Line route. Other stations in this puzzle on this route include Ashington and Bedlington.",
       "id": "col_16"
     },
     {
@@ -288,7 +288,7 @@
       "category": "route",
       "match_count": 8,
       "display": "Is part of the Cumbrian Coast Line route",
-      "hint": "A station on the Cumbrian Coast Line route.",
+      "hint": "A station on the Cumbrian Coast Line route. Other stations in this puzzle on this route include Aspatria and Dalston (Cumbria).",
       "id": "col_17"
     },
     {
@@ -299,7 +299,7 @@
       "category": "route",
       "match_count": 5,
       "display": "Is part of the East Coast Main Line route",
-      "hint": "A station on the East Coast Main Line route.",
+      "hint": "A station on the East Coast Main Line route. Other stations in this puzzle on this route include Acklington and Alnmouth.",
       "id": "col_18"
     },
     {
@@ -310,7 +310,7 @@
       "category": "route",
       "match_count": 5,
       "display": "Is part of the Bishop Line route",
-      "hint": "A station on the Bishop Line route.",
+      "hint": "A station on the Bishop Line route. Other stations in this puzzle on this route include Bishop Auckland and Heighington.",
       "id": "col_19"
     },
     {
@@ -321,7 +321,7 @@
       "category": "route",
       "match_count": 5,
       "display": "Is part of the Heritage Line route",
-      "hint": "A station on the Heritage Line route.",
+      "hint": "A station on the Heritage Line route. Other stations in this puzzle on this route include Bishop Auckland and Heighington.",
       "id": "col_20"
     },
     {
@@ -354,7 +354,7 @@
       "category": "name",
       "match_count": 22,
       "display": "Word contains 'ton'",
-      "hint": "Word contains 'ton'.",
+      "hint": "Word contains 'ton'. For example: Acklington and Ashington.",
       "id": "col_23"
     },
     {
@@ -365,7 +365,7 @@
       "category": "name",
       "match_count": 9,
       "display": "Word contains 'ington'",
-      "hint": "Word contains 'ington'.",
+      "hint": "Word contains 'ington'. For example: Acklington and Ashington.",
       "id": "col_24"
     },
     {
@@ -376,7 +376,7 @@
       "category": "name",
       "match_count": 5,
       "display": "Word contains 'by'",
-      "hint": "Word contains 'by'.",
+      "hint": "Word contains 'by'. For example: Battersby and Danby.",
       "id": "col_25"
     },
     {
@@ -387,7 +387,7 @@
       "category": "name",
       "match_count": 4,
       "display": "Word contains 'ham'",
-      "hint": "Word contains 'ham'.",
+      "hint": "Word contains 'ham'. For example: Billingham and Hexham.",
       "id": "col_26"
     },
     {
@@ -398,7 +398,7 @@
       "category": "name",
       "match_count": 4,
       "display": "Word contains 'don'",
-      "hint": "Word contains 'don'.",
+      "hint": "Word contains 'don'. For example: Bardon Mill and Blaydon.",
       "id": "col_27"
     },
     {
@@ -420,7 +420,7 @@
       "category": "name",
       "match_count": 4,
       "display": "Word contains 'dale'",
-      "hint": "Word contains 'dale'.",
+      "hint": "Word contains 'dale'. For example: Commondale and Dinsdale.",
       "id": "col_29"
     }
   ]

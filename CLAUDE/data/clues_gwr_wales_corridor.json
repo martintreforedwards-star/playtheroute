@@ -100,7 +100,7 @@
       "category": "geography",
       "match_count": 22,
       "display": "Is within the Rhondda Cynon Taf region",
-      "hint": "This station is based within the Rhondda Cynon Taf region.",
+      "hint": "This station is based within the Rhondda Cynon Taf region. Other stations in this puzzle within this region include Abercynon and Aberdare.",
       "id": "col_0"
     },
     {
@@ -111,7 +111,7 @@
       "category": "geography",
       "match_count": 20,
       "display": "Is within the Cardiff region",
-      "hint": "This station is based within the Cardiff region.",
+      "hint": "This station is based within the Cardiff region. Other stations in this puzzle within this region include Birchgrove and Cardiff Bay.",
       "id": "col_1"
     },
     {
@@ -122,7 +122,7 @@
       "category": "geography",
       "match_count": 17,
       "display": "Is within the Carmarthenshire region",
-      "hint": "This station is based within the Carmarthenshire region.",
+      "hint": "This station is based within the Carmarthenshire region. Other stations in this puzzle within this region include Ammanford and Bynea.",
       "id": "col_2"
     },
     {
@@ -133,7 +133,7 @@
       "category": "geography",
       "match_count": 16,
       "display": "Is within the Caerphilly region",
-      "hint": "This station is based within the Caerphilly region.",
+      "hint": "This station is based within the Caerphilly region. Other stations in this puzzle within this region include Aber and Bargoed.",
       "id": "col_3"
     },
     {
@@ -144,7 +144,7 @@
       "category": "geography",
       "match_count": 16,
       "display": "Is within the Pembrokeshire region",
-      "hint": "This station is based within the Pembrokeshire region.",
+      "hint": "This station is based within the Pembrokeshire region. Other stations in this puzzle within this region include Clarbeston Road and Clunderwen.",
       "id": "col_4"
     },
     {
@@ -155,7 +155,7 @@
       "category": "geography",
       "match_count": 11,
       "display": "Is within the Vale of Glamorgan region",
-      "hint": "This station is based within the Vale of Glamorgan region.",
+      "hint": "This station is based within the Vale of Glamorgan region. Other stations in this puzzle within this region include Barry and Barry Docks.",
       "id": "col_5"
     },
     {
@@ -166,7 +166,7 @@
       "category": "geography",
       "match_count": 10,
       "display": "Is within the Bristol, City of region",
-      "hint": "This station is based within the Bristol, City of region.",
+      "hint": "This station is based within the Bristol, City of region. Other stations in this puzzle within this region include Avonmouth and Bristol Temple Meads.",
       "id": "col_6"
     },
     {
@@ -177,7 +177,7 @@
       "category": "geography",
       "match_count": 9,
       "display": "Is within the Bridgend region",
-      "hint": "This station is based within the Bridgend region.",
+      "hint": "This station is based within the Bridgend region. Other stations in this puzzle within this region include Bridgend and Garth (Bridgend County).",
       "id": "col_7"
     },
     {
@@ -188,7 +188,7 @@
       "category": "geography",
       "match_count": 6,
       "display": "Is within the Powys region",
-      "hint": "This station is based within the Powys region.",
+      "hint": "This station is based within the Powys region. Other stations in this puzzle within this region include Builth Road and Cilmeri.",
       "id": "col_8"
     },
     {
@@ -199,7 +199,7 @@
       "category": "geography",
       "match_count": 5,
       "display": "Is within the Neath Port Talbot region",
-      "hint": "This station is based within the Neath Port Talbot region.",
+      "hint": "This station is based within the Neath Port Talbot region. Other stations in this puzzle within this region include Baglan and Briton Ferry.",
       "id": "col_9"
     },
     {
@@ -210,7 +210,7 @@
       "category": "geography",
       "match_count": 95,
       "display": "Trains head to Cardiff Central",
-      "hint": "This station's journeys are routed via or towards Cardiff Central.",
+      "hint": "This station's journeys are routed via or towards Cardiff Central. Other stations in this puzzle sharing this hub include Aber and Abercynon.",
       "id": "col_10"
     },
     {
@@ -221,7 +221,7 @@
       "category": "geography",
       "match_count": 49,
       "display": "Trains head to Swansea",
-      "hint": "This station's journeys are routed via or towards Swansea.",
+      "hint": "This station's journeys are routed via or towards Swansea. Other stations in this puzzle sharing this hub include Ammanford and Baglan.",
       "id": "col_11"
     },
     {
@@ -232,7 +232,7 @@
       "category": "geography",
       "match_count": 22,
       "display": "Trains head to Bristol Temple Meads",
-      "hint": "This station's journeys are routed via or towards Bristol Temple Meads.",
+      "hint": "This station's journeys are routed via or towards Bristol Temple Meads. Other stations in this puzzle sharing this hub include Avonmouth and Bath Spa.",
       "id": "col_12"
     },
     {
@@ -345,7 +345,7 @@
       "category": "route",
       "match_count": 144,
       "display": "Route operated by TfW.",
-      "hint": "This station is served by TfW.",
+      "hint": "This station is served by TfW. Other stations in this puzzle operated by TfW include Aber and Abercynon.",
       "id": "col_22"
     },
     {
@@ -356,7 +356,7 @@
       "category": "route",
       "match_count": 22,
       "display": "Route operated by Great_Western.",
-      "hint": "This station is served by Great_Western.",
+      "hint": "This station is served by Great_Western. Other stations in this puzzle operated by Great_Western include Avonmouth and Bath Spa.",
       "id": "col_23"
     },
     {
@@ -367,7 +367,7 @@
       "category": "route",
       "match_count": 46,
       "display": "Is part of the Swanline route",
-      "hint": "A station on the Swanline route.",
+      "hint": "A station on the Swanline route. Other stations in this puzzle on this route include Baglan and Barry.",
       "id": "col_24"
     },
     {
@@ -378,7 +378,7 @@
       "category": "route",
       "match_count": 42,
       "display": "Is part of the Central Wales Line route",
-      "hint": "A station on the Central Wales Line route.",
+      "hint": "A station on the Central Wales Line route. Other stations in this puzzle on this route include Abergavenny and Ammanford.",
       "id": "col_25"
     },
     {
@@ -389,7 +389,7 @@
       "category": "route",
       "match_count": 42,
       "display": "Is part of the Heart of Wales Line route",
-      "hint": "A station on the Heart of Wales Line route.",
+      "hint": "A station on the Heart of Wales Line route. Other stations in this puzzle on this route include Abergavenny and Ammanford.",
       "id": "col_26"
     },
     {
@@ -400,7 +400,7 @@
       "category": "route",
       "match_count": 31,
       "display": "Is part of the Vale of Glamorgan Line route",
-      "hint": "A station on the Vale of Glamorgan Line route.",
+      "hint": "A station on the Vale of Glamorgan Line route. Other stations in this puzzle on this route include Aber and Bargoed.",
       "id": "col_27"
     },
     {
@@ -411,7 +411,7 @@
       "category": "route",
       "match_count": 30,
       "display": "Is part of the Coryton Line route",
-      "hint": "A station on the Coryton Line route.",
+      "hint": "A station on the Coryton Line route. Other stations in this puzzle on this route include Aber and Bargoed.",
       "id": "col_28"
     },
     {
@@ -422,7 +422,7 @@
       "category": "route",
       "match_count": 25,
       "display": "Is part of the Merthyr Line route",
-      "hint": "A station on the Merthyr Line route.",
+      "hint": "A station on the Merthyr Line route. Other stations in this puzzle on this route include Abercynon and Aberdare.",
       "id": "col_29"
     },
     {
@@ -433,7 +433,7 @@
       "category": "route",
       "match_count": 25,
       "display": "Is part of the Treherbert Line route",
-      "hint": "A station on the Treherbert Line route.",
+      "hint": "A station on the Treherbert Line route. Other stations in this puzzle on this route include Abercynon and Cardiff Central.",
       "id": "col_30"
     },
     {
@@ -444,7 +444,7 @@
       "category": "route",
       "match_count": 24,
       "display": "Is part of the Aberdare Line route",
-      "hint": "A station on the Aberdare Line route.",
+      "hint": "A station on the Aberdare Line route. Other stations in this puzzle on this route include Abercynon and Aberdare.",
       "id": "col_31"
     },
     {
@@ -455,7 +455,7 @@
       "category": "route",
       "match_count": 20,
       "display": "Is part of the Ebbw Valley Line route",
-      "hint": "A station on the Ebbw Valley Line route.",
+      "hint": "A station on the Ebbw Valley Line route. Other stations in this puzzle on this route include Bridgend and Cardiff Central.",
       "id": "col_32"
     },
     {
@@ -466,7 +466,7 @@
       "category": "route",
       "match_count": 10,
       "display": "Is part of the Cardiff Bay Line route",
-      "hint": "A station on the Cardiff Bay Line route.",
+      "hint": "A station on the Cardiff Bay Line route. Other stations in this puzzle on this route include Cardiff Bay and Cardiff Central.",
       "id": "col_33"
     },
     {
@@ -477,7 +477,7 @@
       "category": "route",
       "match_count": 10,
       "display": "Is part of the Severn Beach Line route",
-      "hint": "A station on the Severn Beach Line route.",
+      "hint": "A station on the Severn Beach Line route. Other stations in this puzzle on this route include Avonmouth and Clifton Down.",
       "id": "col_34"
     },
     {
@@ -488,7 +488,7 @@
       "category": "route",
       "match_count": 9,
       "display": "Is part of the Great Western Main Line route",
-      "hint": "A station on the Great Western Main Line route.",
+      "hint": "A station on the Great Western Main Line route. Other stations in this puzzle on this route include Bath Spa and Bridgwater.",
       "id": "col_35"
     },
     {
@@ -499,7 +499,7 @@
       "category": "route",
       "match_count": 6,
       "display": "Is part of the City Line (Cardiff) route",
-      "hint": "A station on the City Line (Cardiff) route.",
+      "hint": "A station on the City Line (Cardiff) route. Other stations in this puzzle on this route include Cardiff Central and Danescourt.",
       "id": "col_36"
     },
     {
@@ -510,7 +510,7 @@
       "category": "route",
       "match_count": 6,
       "display": "Is part of the Gloucester to Newport Line route",
-      "hint": "A station on the Gloucester to Newport Line route.",
+      "hint": "A station on the Gloucester to Newport Line route. Other stations in this puzzle on this route include Caldicot and Cardiff Central.",
       "id": "col_37"
     },
     {
@@ -521,7 +521,7 @@
       "category": "route",
       "match_count": 5,
       "display": "Is part of the Marches Line route",
-      "hint": "A station on the Marches Line route.",
+      "hint": "A station on the Marches Line route. Other stations in this puzzle on this route include Abergavenny and Cardiff Central.",
       "id": "col_38"
     },
     {
@@ -576,7 +576,7 @@
       "category": "name",
       "match_count": 16,
       "display": "Word contains 'llan'",
-      "hint": "Word contains 'llan'.",
+      "hint": "Word contains 'llan'. For example: Llanbradach and Llandaf.",
       "id": "col_43"
     },
     {
@@ -587,7 +587,7 @@
       "category": "name",
       "match_count": 11,
       "display": "Word contains 'ton'",
-      "hint": "Word contains 'ton'.",
+      "hint": "Word contains 'ton'. For example: Briton Ferry and Cadoxton.",
       "id": "col_44"
     },
     {
@@ -620,7 +620,7 @@
       "category": "name",
       "match_count": 7,
       "display": "Word contains 'pen'",
-      "hint": "Word contains 'pen'.",
+      "hint": "Word contains 'pen'. For example: Penally and Penarth.",
       "id": "col_47"
     },
     {
@@ -631,7 +631,7 @@
       "category": "name",
       "match_count": 6,
       "display": "Word contains 'park'",
-      "hint": "Word contains 'park'.",
+      "hint": "Word contains 'park'. For example: Bristol Parkway and Ebbw Vale Parkway.",
       "id": "col_48"
     },
     {
@@ -642,7 +642,7 @@
       "category": "name",
       "match_count": 6,
       "display": "Word contains 'pont'",
-      "hint": "Word contains 'pont'.",
+      "hint": "Word contains 'pont'. For example: Pontarddulais and Pontlottyn.",
       "id": "col_49"
     },
     {
@@ -653,7 +653,7 @@
       "category": "name",
       "match_count": 5,
       "display": "Word contains 'tre'",
-      "hint": "Word contains 'tre'.",
+      "hint": "Word contains 'tre'. For example: Trefforest and Trefforest Estate.",
       "id": "col_50"
     },
     {
@@ -664,7 +664,7 @@
       "category": "name",
       "match_count": 4,
       "display": "Word contains 'aber'",
-      "hint": "Word contains 'aber'.",
+      "hint": "Word contains 'aber'. For example: Aber and Abercynon.",
       "id": "col_51"
     },
     {
@@ -675,7 +675,7 @@
       "category": "name",
       "match_count": 4,
       "display": "Word contains 'port'",
-      "hint": "Word contains 'port'.",
+      "hint": "Word contains 'port'. For example: Newport (South Wales) and Pembrey & Burry Port.",
       "id": "col_52"
     },
     {
@@ -697,7 +697,7 @@
       "category": "name",
       "match_count": 3,
       "display": "Word contains 'ey'",
-      "hint": "Word contains 'ey'.",
+      "hint": "Word contains 'ey'. For example: Lamphey and Pembrey & Burry Port.",
       "id": "col_54"
     }
   ]

@@ -100,7 +100,7 @@
       "category": "geography",
       "match_count": 40,
       "display": "Is within the South London region",
-      "hint": "This station is based within the South London region.",
+      "hint": "This station is based within the South London region. Other stations in this puzzle within this region include Balham and Belmont.",
       "id": "col_0"
     },
     {
@@ -111,7 +111,7 @@
       "category": "geography",
       "match_count": 13,
       "display": "Is within the Sevenoaks region",
-      "hint": "This station is based within the Sevenoaks region.",
+      "hint": "This station is based within the Sevenoaks region. Other stations in this puzzle within this region include Bat & Ball and Cowden (Kent).",
       "id": "col_1"
     },
     {
@@ -122,7 +122,7 @@
       "category": "geography",
       "match_count": 12,
       "display": "Is within the Reigate and Banstead region",
-      "hint": "This station is based within the Reigate and Banstead region.",
+      "hint": "This station is based within the Reigate and Banstead region. Other stations in this puzzle within this region include Banstead and Chipstead.",
       "id": "col_2"
     },
     {
@@ -133,7 +133,7 @@
       "category": "geography",
       "match_count": 11,
       "display": "Is within the Rother region",
-      "hint": "This station is based within the Rother region.",
+      "hint": "This station is based within the Rother region. Other stations in this puzzle within this region include Battle and Bexhill.",
       "id": "col_3"
     },
     {
@@ -144,7 +144,7 @@
       "category": "geography",
       "match_count": 11,
       "display": "Is within the Tandridge region",
-      "hint": "This station is based within the Tandridge region.",
+      "hint": "This station is based within the Tandridge region. Other stations in this puzzle within this region include Caterham and Dormans.",
       "id": "col_4"
     },
     {
@@ -155,7 +155,7 @@
       "category": "geography",
       "match_count": 10,
       "display": "Is within the Wealden region",
-      "hint": "This station is based within the Wealden region.",
+      "hint": "This station is based within the Wealden region. Other stations in this puzzle within this region include Berwick (Sussex) and Buxted.",
       "id": "col_5"
     },
     {
@@ -166,7 +166,7 @@
       "category": "geography",
       "match_count": 9,
       "display": "Is within the Lewes region",
-      "hint": "This station is based within the Lewes region.",
+      "hint": "This station is based within the Lewes region. Other stations in this puzzle within this region include Bishopstone (Sussex) and Cooksbridge.",
       "id": "col_6"
     },
     {
@@ -177,7 +177,7 @@
       "category": "geography",
       "match_count": 8,
       "display": "Is within the Brighton and Hove region",
-      "hint": "This station is based within the Brighton and Hove region.",
+      "hint": "This station is based within the Brighton and Hove region. Other stations in this puzzle within this region include Aldrington and Brighton.",
       "id": "col_7"
     },
     {
@@ -188,7 +188,7 @@
       "category": "geography",
       "match_count": 8,
       "display": "Is within the Horsham region",
-      "hint": "This station is based within the Horsham region.",
+      "hint": "This station is based within the Horsham region. Other stations in this puzzle within this region include Amberley and Billingshurst.",
       "id": "col_8"
     },
     {
@@ -199,7 +199,7 @@
       "category": "geography",
       "match_count": 6,
       "display": "Is within the Mole Valley region",
-      "hint": "This station is based within the Mole Valley region.",
+      "hint": "This station is based within the Mole Valley region. Other stations in this puzzle within this region include Ashtead and Box Hill & Westhumble.",
       "id": "col_9"
     },
     {
@@ -244,7 +244,7 @@
       "category": "route",
       "match_count": 187,
       "display": "Route operated by Southern.",
-      "hint": "This station is served by Southern.",
+      "hint": "This station is served by Southern. Other stations in this puzzle operated by Southern include Aldrington and Amberley.",
       "id": "col_13"
     },
     {
@@ -255,7 +255,7 @@
       "category": "route",
       "match_count": 23,
       "display": "Route operated by Thameslink.",
-      "hint": "This station is served by Thameslink.",
+      "hint": "This station is served by Thameslink. Other stations in this puzzle operated by Thameslink include Bedford and Brent Cross West.",
       "id": "col_14"
     },
     {
@@ -266,7 +266,7 @@
       "category": "route",
       "match_count": 23,
       "display": "Is part of the Midland Electrics route",
-      "hint": "A station on the Midland Electrics route.",
+      "hint": "A station on the Midland Electrics route. Other stations in this puzzle on this route include Bedford and Brent Cross West.",
       "id": "col_15"
     },
     {
@@ -277,7 +277,7 @@
       "category": "route",
       "match_count": 21,
       "display": "Is part of the West Coastway route",
-      "hint": "A station on the West Coastway route.",
+      "hint": "A station on the West Coastway route. Other stations in this puzzle on this route include Angmering and Barnham.",
       "id": "col_16"
     },
     {
@@ -288,7 +288,7 @@
       "category": "route",
       "match_count": 20,
       "display": "Is part of the Brighton Main Line route",
-      "hint": "A station on the Brighton Main Line route.",
+      "hint": "A station on the Brighton Main Line route. Other stations in this puzzle on this route include Balcombe and Brighton.",
       "id": "col_17"
     },
     {
@@ -299,7 +299,7 @@
       "category": "route",
       "match_count": 20,
       "display": "Is part of the Sutton & Metro route",
-      "hint": "A station on the Sutton & Metro route.",
+      "hint": "A station on the Sutton & Metro route. Other stations in this puzzle on this route include Balham and Carshalton.",
       "id": "col_18"
     },
     {
@@ -310,7 +310,7 @@
       "category": "route",
       "match_count": 20,
       "display": "Is part of the East Coastway route",
-      "hint": "A station on the East Coastway route.",
+      "hint": "A station on the East Coastway route. Other stations in this puzzle on this route include Battle and Berwick (Sussex).",
       "id": "col_19"
     },
     {
@@ -321,7 +321,7 @@
       "category": "route",
       "match_count": 18,
       "display": "Is part of the Southern Thameslink Branches route",
-      "hint": "A station on the Southern Thameslink Branches route.",
+      "hint": "A station on the Southern Thameslink Branches route. Other stations in this puzzle on this route include Bat & Ball and City Thameslink.",
       "id": "col_20"
     },
     {
@@ -332,7 +332,7 @@
       "category": "route",
       "match_count": 16,
       "display": "Is part of the Uckfield Branch route",
-      "hint": "A station on the Uckfield Branch route.",
+      "hint": "A station on the Uckfield Branch route. Other stations in this puzzle on this route include Ashurst (Kent) and Buxted.",
       "id": "col_21"
     },
     {
@@ -343,7 +343,7 @@
       "category": "route",
       "match_count": 16,
       "display": "Is part of the Midland Main Line route",
-      "hint": "A station on the Midland Main Line route.",
+      "hint": "A station on the Midland Main Line route. Other stations in this puzzle on this route include Bedford and Brent Cross West.",
       "id": "col_22"
     },
     {
@@ -354,7 +354,7 @@
       "category": "route",
       "match_count": 12,
       "display": "Is part of the Coastway West route",
-      "hint": "A station on the Coastway West route.",
+      "hint": "A station on the Coastway West route. Other stations in this puzzle on this route include Aldrington and Amberley.",
       "id": "col_23"
     },
     {
@@ -365,7 +365,7 @@
       "category": "route",
       "match_count": 12,
       "display": "Is part of the Coastway East route",
-      "hint": "A station on the Coastway East route.",
+      "hint": "A station on the Coastway East route. Other stations in this puzzle on this route include Bishopstone (Sussex) and Cooksbridge.",
       "id": "col_24"
     },
     {
@@ -376,7 +376,7 @@
       "category": "route",
       "match_count": 11,
       "display": "Is part of the Arun Valley Line route",
-      "hint": "A station on the Arun Valley Line route.",
+      "hint": "A station on the Arun Valley Line route. Other stations in this puzzle on this route include Amberley and Arundel.",
       "id": "col_25"
     },
     {
@@ -387,7 +387,7 @@
       "category": "route",
       "match_count": 11,
       "display": "Is part of the Coastway route",
-      "hint": "A station on the Coastway route.",
+      "hint": "A station on the Coastway route. Other stations in this puzzle on this route include Amberley and Arundel.",
       "id": "col_26"
     },
     {
@@ -398,7 +398,7 @@
       "category": "route",
       "match_count": 11,
       "display": "Is part of the Epsom Downs Line route",
-      "hint": "A station on the Epsom Downs Line route.",
+      "hint": "A station on the Epsom Downs Line route. Other stations in this puzzle on this route include Banstead and Battersea Park.",
       "id": "col_27"
     },
     {
@@ -409,7 +409,7 @@
       "category": "route",
       "match_count": 11,
       "display": "Is part of the Hastings Line Extended route",
-      "hint": "A station on the Hastings Line Extended route.",
+      "hint": "A station on the Hastings Line Extended route. Other stations in this puzzle on this route include Battle and Etchingham.",
       "id": "col_28"
     },
     {
@@ -420,7 +420,7 @@
       "category": "route",
       "match_count": 9,
       "display": "Is part of the Mole Valley Line route",
-      "hint": "A station on the Mole Valley Line route.",
+      "hint": "A station on the Mole Valley Line route. Other stations in this puzzle on this route include Ashtead and Battersea Park.",
       "id": "col_29"
     },
     {
@@ -464,7 +464,7 @@
       "category": "name",
       "match_count": 25,
       "display": "Word contains 'ham'",
-      "hint": "Word contains 'ham'.",
+      "hint": "Word contains 'ham'. For example: Balham and Barnham.",
       "id": "col_33"
     },
     {
@@ -475,7 +475,7 @@
       "category": "name",
       "match_count": 23,
       "display": "Word contains 'ton'",
-      "hint": "Word contains 'ton'.",
+      "hint": "Word contains 'ton'. For example: Aldrington and Brighton.",
       "id": "col_34"
     },
     {
@@ -497,7 +497,7 @@
       "category": "name",
       "match_count": 16,
       "display": "Word contains 'don'",
-      "hint": "Word contains 'don'.",
+      "hint": "Word contains 'don'. For example: Coulsdon South and Coulsdon Town.",
       "id": "col_36"
     },
     {
@@ -508,7 +508,7 @@
       "category": "name",
       "match_count": 14,
       "display": "Word contains 'ey'",
-      "hint": "Word contains 'ey'.",
+      "hint": "Word contains 'ey'. For example: Amberley and Crawley.",
       "id": "col_37"
     },
     {
@@ -519,7 +519,7 @@
       "category": "name",
       "match_count": 9,
       "display": "Word contains 'ridge'",
-      "hint": "Word contains 'ridge'.",
+      "hint": "Word contains 'ridge'. For example: Cooksbridge and Edenbridge (Kent).",
       "id": "col_38"
     },
     {
@@ -530,7 +530,7 @@
       "category": "name",
       "match_count": 8,
       "display": "Word contains 'ley'",
-      "hint": "Word contains 'ley'.",
+      "hint": "Word contains 'ley'. For example: Amberley and Crawley.",
       "id": "col_39"
     },
     {
@@ -541,7 +541,7 @@
       "category": "name",
       "match_count": 7,
       "display": "Word contains 'ington'",
-      "hint": "Word contains 'ington'.",
+      "hint": "Word contains 'ington'. For example: Aldrington and Collington.",
       "id": "col_40"
     },
     {
@@ -552,7 +552,7 @@
       "category": "name",
       "match_count": 6,
       "display": "Word contains 'hill'",
-      "hint": "Word contains 'hill'.",
+      "hint": "Word contains 'hill'. For example: Box Hill & Westhumble and Burgess Hill.",
       "id": "col_41"
     },
     {
@@ -563,7 +563,7 @@
       "category": "name",
       "match_count": 5,
       "display": "Word contains 'stead'",
-      "hint": "Word contains 'stead'.",
+      "hint": "Word contains 'stead'. For example: Banstead and Chipstead.",
       "id": "col_42"
     },
     {
@@ -585,7 +585,7 @@
       "category": "name",
       "match_count": 4,
       "display": "Word contains 'park'",
-      "hint": "Word contains 'park'.",
+      "hint": "Word contains 'park'. For example: Battersea Park and Hampden Park (Sussex).",
       "id": "col_44"
     },
     {

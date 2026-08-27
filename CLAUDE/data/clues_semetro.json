@@ -89,7 +89,7 @@
       "category": "geography",
       "match_count": 73,
       "display": "Is within the South East London region",
-      "hint": "This station is based within the South East London region.",
+      "hint": "This station is based within the South East London region. Other stations in this puzzle within this region include Abbey Wood and Albany Park.",
       "id": "col_0"
     },
     {
@@ -202,7 +202,7 @@
       "category": "route",
       "match_count": 21,
       "display": "Is part of the Dartford Loop route",
-      "hint": "A station on the Dartford Loop route.",
+      "hint": "A station on the Dartford Loop route. Other stations in this puzzle on this route include Abbey Wood and Albany Park.",
       "id": "col_10"
     },
     {
@@ -213,7 +213,7 @@
       "category": "route",
       "match_count": 13,
       "display": "Is part of the Sevenoaks Main Line route",
-      "hint": "A station on the Sevenoaks Main Line route.",
+      "hint": "A station on the Sevenoaks Main Line route. Other stations in this puzzle on this route include Chelsfield and Chislehurst.",
       "id": "col_11"
     },
     {
@@ -224,7 +224,7 @@
       "category": "route",
       "match_count": 13,
       "display": "Is part of the Sevenoaks Metro route",
-      "hint": "A station on the Sevenoaks Metro route.",
+      "hint": "A station on the Sevenoaks Metro route. Other stations in this puzzle on this route include Chelsfield and Chislehurst.",
       "id": "col_12"
     },
     {
@@ -235,7 +235,7 @@
       "category": "route",
       "match_count": 12,
       "display": "Is part of the Catford Loop Extended route",
-      "hint": "A station on the Catford Loop Extended route.",
+      "hint": "A station on the Catford Loop Extended route. Other stations in this puzzle on this route include Beckenham Hill and Bellingham.",
       "id": "col_13"
     },
     {
@@ -246,7 +246,7 @@
       "category": "route",
       "match_count": 11,
       "display": "Is part of the Greenwich Line route",
-      "hint": "A station on the Greenwich Line route.",
+      "hint": "A station on the Greenwich Line route. Other stations in this puzzle on this route include Abbey Wood and Belvedere.",
       "id": "col_14"
     },
     {
@@ -257,7 +257,7 @@
       "category": "route",
       "match_count": 10,
       "display": "Is part of the Catford Loop route",
-      "hint": "A station on the Catford Loop route.",
+      "hint": "A station on the Catford Loop route. Other stations in this puzzle on this route include Bellingham and Catford.",
       "id": "col_15"
     },
     {
@@ -268,7 +268,7 @@
       "category": "route",
       "match_count": 9,
       "display": "Is part of the Bexleyheath Line route",
-      "hint": "A station on the Bexleyheath Line route.",
+      "hint": "A station on the Bexleyheath Line route. Other stations in this puzzle on this route include Barnehurst and Bexleyheath.",
       "id": "col_16"
     },
     {
@@ -279,7 +279,7 @@
       "category": "route",
       "match_count": 9,
       "display": "Is part of the Hayes Branch route",
-      "hint": "A station on the Hayes Branch route.",
+      "hint": "A station on the Hayes Branch route. Other stations in this puzzle on this route include Catford Bridge and Clock House.",
       "id": "col_17"
     },
     {
@@ -290,7 +290,7 @@
       "category": "route",
       "match_count": 9,
       "display": "Is part of the Catford Corridor route",
-      "hint": "A station on the Catford Corridor route.",
+      "hint": "A station on the Catford Corridor route. Other stations in this puzzle on this route include Beckenham Hill and Crofton Park.",
       "id": "col_18"
     },
     {
@@ -301,7 +301,7 @@
       "category": "route",
       "match_count": 9,
       "display": "Is part of the Bromley South Metro route",
-      "hint": "A station on the Bromley South Metro route.",
+      "hint": "A station on the Bromley South Metro route. Other stations in this puzzle on this route include Beckenham Junction and Bickley.",
       "id": "col_19"
     },
     {
@@ -312,7 +312,7 @@
       "category": "route",
       "match_count": 5,
       "display": "Is part of the Chatham Main Line Metro route",
-      "hint": "A station on the Chatham Main Line Metro route.",
+      "hint": "A station on the Chatham Main Line Metro route. Other stations in this puzzle on this route include Bickley and Brixton.",
       "id": "col_20"
     },
     {
@@ -323,7 +323,7 @@
       "category": "route",
       "match_count": 4,
       "display": "Is part of the Bromley South Main Line route",
-      "hint": "A station on the Bromley South Main Line route.",
+      "hint": "A station on the Bromley South Main Line route. Other stations in this puzzle on this route include Bickley and Bromley South.",
       "id": "col_21"
     },
     {
@@ -334,7 +334,7 @@
       "category": "route",
       "match_count": 3,
       "display": "Is part of the Bromley North Branch route",
-      "hint": "A station on the Bromley North Branch route.",
+      "hint": "A station on the Bromley North Branch route. Other stations in this puzzle on this route include Bromley North and Grove Park.",
       "id": "col_22"
     },
     {
@@ -378,7 +378,7 @@
       "category": "name",
       "match_count": 12,
       "display": "Word contains 'ham'",
-      "hint": "Word contains 'ham'.",
+      "hint": "Word contains 'ham'. For example: Beckenham Hill and Beckenham Junction.",
       "id": "col_26"
     },
     {
@@ -389,7 +389,7 @@
       "category": "name",
       "match_count": 6,
       "display": "Word contains 'ford'",
-      "hint": "Word contains 'ford'.",
+      "hint": "Word contains 'ford'. For example: Catford and Catford Bridge.",
       "id": "col_27"
     },
     {
@@ -400,7 +400,7 @@
       "category": "name",
       "match_count": 6,
       "display": "Word contains 'park'",
-      "hint": "Word contains 'park'.",
+      "hint": "Word contains 'park'. For example: Albany Park and Crofton Park.",
       "id": "col_28"
     },
     {
@@ -411,7 +411,7 @@
       "category": "name",
       "match_count": 5,
       "display": "Word contains 'hill'",
-      "hint": "Word contains 'hill'.",
+      "hint": "Word contains 'hill'. For example: Beckenham Hill and Denmark Hill.",
       "id": "col_29"
     },
     {
@@ -422,7 +422,7 @@
       "category": "name",
       "match_count": 4,
       "display": "Word contains 'wich'",
-      "hint": "Word contains 'wich'.",
+      "hint": "Word contains 'wich'. For example: Greenwich and West Dulwich.",
       "id": "col_30"
     },
     {
@@ -433,7 +433,7 @@
       "category": "name",
       "match_count": 4,
       "display": "Word contains 'ton'",
-      "hint": "Word contains 'ton'.",
+      "hint": "Word contains 'ton'. For example: Brixton and Charlton.",
       "id": "col_31"
     },
     {
@@ -444,7 +444,7 @@
       "category": "name",
       "match_count": 4,
       "display": "Word contains 'wood'",
-      "hint": "Word contains 'wood'.",
+      "hint": "Word contains 'wood'. For example: Abbey Wood and Elmstead Woods.",
       "id": "col_32"
     },
     {
@@ -455,7 +455,7 @@
       "category": "name",
       "match_count": 3,
       "display": "Word contains 'green'",
-      "hint": "Word contains 'green'.",
+      "hint": "Word contains 'green'. For example: Greenwich and Hither Green.",
       "id": "col_33"
     }
   ]

@@ -100,7 +100,7 @@
       "category": "geography",
       "match_count": 27,
       "display": "Is within the South West London region",
-      "hint": "This station is based within the South West London region.",
+      "hint": "This station is based within the South West London region. Other stations in this puzzle within this region include Barnes and Barnes Bridge.",
       "id": "col_0"
     },
     {
@@ -111,7 +111,7 @@
       "category": "geography",
       "match_count": 10,
       "display": "Is within the Elmbridge region",
-      "hint": "This station is based within the Elmbridge region.",
+      "hint": "This station is based within the Elmbridge region. Other stations in this puzzle within this region include Claygate and Cobham & Stoke d'Abernon.",
       "id": "col_1"
     },
     {
@@ -122,7 +122,7 @@
       "category": "geography",
       "match_count": 9,
       "display": "Is within the New Forest region",
-      "hint": "This station is based within the New Forest region.",
+      "hint": "This station is based within the New Forest region. Other stations in this puzzle within this region include Ashurst New Forest and Beaulieu Road.",
       "id": "col_2"
     },
     {
@@ -133,7 +133,7 @@
       "category": "geography",
       "match_count": 9,
       "display": "Is within the West London region",
-      "hint": "This station is based within the West London region.",
+      "hint": "This station is based within the West London region. Other stations in this puzzle within this region include Brentford and Chiswick.",
       "id": "col_3"
     },
     {
@@ -144,7 +144,7 @@
       "category": "geography",
       "match_count": 9,
       "display": "Is within the Dorset region",
-      "hint": "This station is based within the Dorset region.",
+      "hint": "This station is based within the Dorset region. Other stations in this puzzle within this region include Dorchester South and Gillingham Dorset.",
       "id": "col_4"
     },
     {
@@ -155,7 +155,7 @@
       "category": "geography",
       "match_count": 8,
       "display": "Is within the Guildford region",
-      "hint": "This station is based within the Guildford region.",
+      "hint": "This station is based within the Guildford region. Other stations in this puzzle within this region include Ash and Ash Vale.",
       "id": "col_5"
     },
     {
@@ -166,7 +166,7 @@
       "category": "geography",
       "match_count": 8,
       "display": "Is within the Isle of Wight region",
-      "hint": "This station is based within the Isle of Wight region.",
+      "hint": "This station is based within the Isle of Wight region. Other stations in this puzzle within this region include Brading and Lake.",
       "id": "col_6"
     },
     {
@@ -177,7 +177,7 @@
       "category": "geography",
       "match_count": 7,
       "display": "Is within the Bournemouth, Christchurch and Poole region",
-      "hint": "This station is based within the Bournemouth, Christchurch and Poole region.",
+      "hint": "This station is based within the Bournemouth, Christchurch and Poole region. Other stations in this puzzle within this region include Bournemouth and Branksome.",
       "id": "col_7"
     },
     {
@@ -188,7 +188,7 @@
       "category": "geography",
       "match_count": 7,
       "display": "Is within the Southampton region",
-      "hint": "This station is based within the Southampton region.",
+      "hint": "This station is based within the Southampton region. Other stations in this puzzle within this region include Bitterne and Millbrook (Hants).",
       "id": "col_8"
     },
     {
@@ -199,7 +199,7 @@
       "category": "geography",
       "match_count": 7,
       "display": "Is within the Eastleigh region",
-      "hint": "This station is based within the Eastleigh region.",
+      "hint": "This station is based within the Eastleigh region. Other stations in this puzzle within this region include Bursledon and Chandlers Ford.",
       "id": "col_9"
     },
     {
@@ -244,7 +244,7 @@
       "category": "route",
       "match_count": 8,
       "display": "Route operated by Island Line.",
-      "hint": "This station is served by Island Line.",
+      "hint": "This station is served by Island Line. Other stations in this puzzle operated by Island Line include Brading and Lake.",
       "id": "col_13"
     },
     {
@@ -255,7 +255,7 @@
       "category": "route",
       "match_count": 68,
       "display": "Is part of the South West Main Line route",
-      "hint": "A station on the South West Main Line route.",
+      "hint": "A station on the South West Main Line route. Other stations in this puzzle on this route include Andover and Ashurst New Forest.",
       "id": "col_14"
     },
     {
@@ -266,7 +266,7 @@
       "category": "route",
       "match_count": 42,
       "display": "Is part of the Hounslow Loop route",
-      "hint": "A station on the Hounslow Loop route.",
+      "hint": "A station on the Hounslow Loop route. Other stations in this puzzle on this route include Addlestone and Ashford (Surrey).",
       "id": "col_15"
     },
     {
@@ -277,7 +277,7 @@
       "category": "route",
       "match_count": 25,
       "display": "Is part of the Kingston Loop route",
-      "hint": "A station on the Kingston Loop route.",
+      "hint": "A station on the Kingston Loop route. Other stations in this puzzle on this route include Barnes and Earlsfield.",
       "id": "col_16"
     },
     {
@@ -288,7 +288,7 @@
       "category": "route",
       "match_count": 22,
       "display": "Is part of the Waterloo to Reading Line route",
-      "hint": "A station on the Waterloo to Reading Line route.",
+      "hint": "A station on the Waterloo to Reading Line route. Other stations in this puzzle on this route include Ascot (Berks) and Bagshot.",
       "id": "col_17"
     },
     {
@@ -299,7 +299,7 @@
       "category": "route",
       "match_count": 18,
       "display": "Is part of the New Guildford Line route",
-      "hint": "A station on the New Guildford Line route.",
+      "hint": "A station on the New Guildford Line route. Other stations in this puzzle on this route include Bookham and Clandon.",
       "id": "col_18"
     },
     {
@@ -310,7 +310,7 @@
       "category": "route",
       "match_count": 17,
       "display": "Is part of the Windsor Line route",
-      "hint": "A station on the Windsor Line route.",
+      "hint": "A station on the Windsor Line route. Other stations in this puzzle on this route include Ashford (Surrey) and Barnes.",
       "id": "col_19"
     },
     {
@@ -321,7 +321,7 @@
       "category": "route",
       "match_count": 16,
       "display": "Is part of the Alton Line route",
-      "hint": "A station on the Alton Line route.",
+      "hint": "A station on the Alton Line route. Other stations in this puzzle on this route include Aldershot and Alton.",
       "id": "col_20"
     },
     {
@@ -332,7 +332,7 @@
       "category": "route",
       "match_count": 16,
       "display": "Is part of the Solent Link route",
-      "hint": "A station on the Solent Link route.",
+      "hint": "A station on the Solent Link route. Other stations in this puzzle on this route include Bitterne and Botley.",
       "id": "col_21"
     },
     {
@@ -343,7 +343,7 @@
       "category": "route",
       "match_count": 14,
       "display": "Is part of the Shepperton Branch route",
-      "hint": "A station on the Shepperton Branch route.",
+      "hint": "A station on the Shepperton Branch route. Other stations in this puzzle on this route include Earlsfield and Fulwell.",
       "id": "col_22"
     },
     {
@@ -354,7 +354,7 @@
       "category": "route",
       "match_count": 12,
       "display": "Is part of the Solent & Wessex route",
-      "hint": "A station on the Solent & Wessex route.",
+      "hint": "A station on the Solent & Wessex route. Other stations in this puzzle on this route include Bedhampton and Farncombe.",
       "id": "col_23"
     },
     {
@@ -365,7 +365,7 @@
       "category": "route",
       "match_count": 11,
       "display": "Is part of the East Devon Line route",
-      "hint": "A station on the East Devon Line route.",
+      "hint": "A station on the East Devon Line route. Other stations in this puzzle on this route include Axminster and Cranbrook (Devon).",
       "id": "col_24"
     },
     {
@@ -376,7 +376,7 @@
       "category": "route",
       "match_count": 8,
       "display": "Is part of the Island Line route",
-      "hint": "A station on the Island Line route.",
+      "hint": "A station on the Island Line route. Other stations in this puzzle on this route include Brading and Lake.",
       "id": "col_25"
     },
     {
@@ -387,7 +387,7 @@
       "category": "route",
       "match_count": 7,
       "display": "Is part of the Chessington Branch route",
-      "hint": "A station on the Chessington Branch route.",
+      "hint": "A station on the Chessington Branch route. Other stations in this puzzle on this route include Chessington North and Chessington South.",
       "id": "col_26"
     },
     {
@@ -398,7 +398,7 @@
       "category": "route",
       "match_count": 6,
       "display": "Is part of the Hampton Court Branch route",
-      "hint": "A station on the Hampton Court Branch route.",
+      "hint": "A station on the Hampton Court Branch route. Other stations in this puzzle on this route include Earlsfield and Hampton Court.",
       "id": "col_27"
     },
     {
@@ -409,7 +409,7 @@
       "category": "route",
       "match_count": 4,
       "display": "Is part of the Wessex Main Line route",
-      "hint": "A station on the Wessex Main Line route.",
+      "hint": "A station on the Wessex Main Line route. Other stations in this puzzle on this route include Chandlers Ford and Dean (Wilts).",
       "id": "col_28"
     },
     {
@@ -453,7 +453,7 @@
       "category": "name",
       "match_count": 31,
       "display": "Word contains 'ton'",
-      "hint": "Word contains 'ton'.",
+      "hint": "Word contains 'ton'. For example: Alton and Bedhampton.",
       "id": "col_32"
     },
     {
@@ -475,7 +475,7 @@
       "category": "name",
       "match_count": 16,
       "display": "Word contains 'ey'",
-      "hint": "Word contains 'ey'.",
+      "hint": "Word contains 'ey'. For example: Ashford (Surrey) and Bentley (Hampshire).",
       "id": "col_34"
     },
     {
@@ -486,7 +486,7 @@
       "category": "name",
       "match_count": 13,
       "display": "Word contains 'ham'",
-      "hint": "Word contains 'ham'.",
+      "hint": "Word contains 'ham'. For example: Bookham and Cobham & Stoke d'Abernon.",
       "id": "col_35"
     },
     {
@@ -497,7 +497,7 @@
       "category": "name",
       "match_count": 10,
       "display": "Word contains 'ley'",
-      "hint": "Word contains 'ley'.",
+      "hint": "Word contains 'ley'. For example: Bentley (Hampshire) and Botley.",
       "id": "col_36"
     },
     {
@@ -508,7 +508,7 @@
       "category": "name",
       "match_count": 9,
       "display": "Word contains 'don'",
-      "hint": "Word contains 'don'.",
+      "hint": "Word contains 'don'. For example: Bursledon and Clandon.",
       "id": "col_37"
     },
     {
@@ -519,7 +519,7 @@
       "category": "name",
       "match_count": 8,
       "display": "Word contains 'ford'",
-      "hint": "Word contains 'ford'.",
+      "hint": "Word contains 'ford'. For example: Ashford (Surrey) and Brentford.",
       "id": "col_38"
     },
     {
@@ -530,7 +530,7 @@
       "category": "name",
       "match_count": 6,
       "display": "Word contains 'park'",
-      "hint": "Word contains 'park'.",
+      "hint": "Word contains 'park'. For example: Kempton Park and Motspur Park.",
       "id": "col_39"
     },
     {
@@ -552,7 +552,7 @@
       "category": "name",
       "match_count": 5,
       "display": "Word contains 'ridge'",
-      "hint": "Word contains 'ridge'.",
+      "hint": "Word contains 'ridge'. For example: Barnes Bridge and Kew Bridge.",
       "id": "col_41"
     },
     {
@@ -563,7 +563,7 @@
       "category": "name",
       "match_count": 5,
       "display": "Word contains 'ington'",
-      "hint": "Word contains 'ington'.",
+      "hint": "Word contains 'ington'. For example: Chessington North and Chessington South.",
       "id": "col_42"
     }
   ]

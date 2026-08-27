@@ -89,7 +89,7 @@
       "category": "geography",
       "match_count": 45,
       "display": "Is within the Highland region",
-      "hint": "This station is based within the Highland region.",
+      "hint": "This station is based within the Highland region. Other stations in this puzzle within this region include Achanalt and Achnasheen.",
       "id": "col_0"
     },
     {
@@ -100,7 +100,7 @@
       "category": "geography",
       "match_count": 7,
       "display": "Is within the Angus region",
-      "hint": "This station is based within the Angus region.",
+      "hint": "This station is based within the Angus region. Other stations in this puzzle within this region include Arbroath and Balmossie.",
       "id": "col_1"
     },
     {
@@ -111,7 +111,7 @@
       "category": "geography",
       "match_count": 7,
       "display": "Is within the Aberdeenshire region",
-      "hint": "This station is based within the Aberdeenshire region.",
+      "hint": "This station is based within the Aberdeenshire region. Other stations in this puzzle within this region include Huntly and Insch.",
       "id": "col_2"
     },
     {
@@ -122,7 +122,7 @@
       "category": "geography",
       "match_count": 5,
       "display": "Is within the Perth and Kinross region",
-      "hint": "This station is based within the Perth and Kinross region.",
+      "hint": "This station is based within the Perth and Kinross region. Other stations in this puzzle within this region include Blair Atholl and Dunkeld & Birnam.",
       "id": "col_3"
     },
     {
@@ -133,7 +133,7 @@
       "category": "geography",
       "match_count": 4,
       "display": "Is within the Fife region",
-      "hint": "This station is based within the Fife region.",
+      "hint": "This station is based within the Fife region. Other stations in this puzzle within this region include Cupar and Ladybank.",
       "id": "col_4"
     },
     {
@@ -144,7 +144,7 @@
       "category": "geography",
       "match_count": 3,
       "display": "Is within the Moray region",
-      "hint": "This station is based within the Moray region.",
+      "hint": "This station is based within the Moray region. Other stations in this puzzle within this region include Elgin and Forres.",
       "id": "col_5"
     },
     {
@@ -155,7 +155,7 @@
       "category": "geography",
       "match_count": 47,
       "display": "Trains head to Inverness",
-      "hint": "This station's journeys are routed via or towards Inverness.",
+      "hint": "This station's journeys are routed via or towards Inverness. Other stations in this puzzle sharing this hub include Achanalt and Achnasheen.",
       "id": "col_6"
     },
     {
@@ -166,7 +166,7 @@
       "category": "geography",
       "match_count": 10,
       "display": "Trains head to Aberdeen",
-      "hint": "This station's journeys are routed via or towards Aberdeen.",
+      "hint": "This station's journeys are routed via or towards Aberdeen. Other stations in this puzzle sharing this hub include Aberdeen and Dyce.",
       "id": "col_7"
     },
     {
@@ -177,7 +177,7 @@
       "category": "geography",
       "match_count": 18,
       "display": "Trains head to Dundee",
-      "hint": "This station's journeys are routed via or towards Dundee.",
+      "hint": "This station's journeys are routed via or towards Dundee. Other stations in this puzzle sharing this hub include Arbroath and Balmossie.",
       "id": "col_8"
     },
     {
@@ -290,7 +290,7 @@
       "category": "route",
       "match_count": 26,
       "display": "Is part of the Far North Line route",
-      "hint": "A station on the Far North Line route.",
+      "hint": "A station on the Far North Line route. Other stations in this puzzle on this route include Achanalt and Alness.",
       "id": "col_18"
     },
     {
@@ -301,7 +301,7 @@
       "category": "route",
       "match_count": 22,
       "display": "Is part of the Aberdeen to Inverness Line route",
-      "hint": "A station on the Aberdeen to Inverness Line route.",
+      "hint": "A station on the Aberdeen to Inverness Line route. Other stations in this puzzle on this route include Balmossie and Barry Links.",
       "id": "col_19"
     },
     {
@@ -312,7 +312,7 @@
       "category": "route",
       "match_count": 13,
       "display": "Is part of the Highland Main Line route",
-      "hint": "A station on the Highland Main Line route.",
+      "hint": "A station on the Highland Main Line route. Other stations in this puzzle on this route include Aviemore and Blair Atholl.",
       "id": "col_20"
     },
     {
@@ -323,7 +323,7 @@
       "category": "route",
       "match_count": 11,
       "display": "Is part of the Kyle Line route",
-      "hint": "A station on the Kyle Line route.",
+      "hint": "A station on the Kyle Line route. Other stations in this puzzle on this route include Achnasheen and Achnashellach.",
       "id": "col_21"
     },
     {
@@ -334,7 +334,7 @@
       "category": "route",
       "match_count": 7,
       "display": "Is part of the Dundee to Arbroath Line route",
-      "hint": "A station on the Dundee to Arbroath Line route.",
+      "hint": "A station on the Dundee to Arbroath Line route. Other stations in this puzzle on this route include Balmossie and Barry Links.",
       "id": "col_22"
     },
     {
@@ -345,7 +345,7 @@
       "category": "route",
       "match_count": 6,
       "display": "Is part of the Aberdeen Line route",
-      "hint": "A station on the Aberdeen Line route.",
+      "hint": "A station on the Aberdeen Line route. Other stations in this puzzle on this route include Aberdeen and Arbroath.",
       "id": "col_23"
     },
     {
@@ -378,7 +378,7 @@
       "category": "name",
       "match_count": 6,
       "display": "Word contains 'inver'",
-      "hint": "Word contains 'inver'.",
+      "hint": "Word contains 'inver'. For example: Invergordon and Invergowrie.",
       "id": "col_26"
     },
     {
@@ -389,7 +389,7 @@
       "category": "name",
       "match_count": 3,
       "display": "Word contains 'ness'",
-      "hint": "Word contains 'ness'.",
+      "hint": "Word contains 'ness'. For example: Alness and Inverness.",
       "id": "col_27"
     }
   ]

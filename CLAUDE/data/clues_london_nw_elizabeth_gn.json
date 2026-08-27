@@ -89,7 +89,7 @@
       "category": "geography",
       "match_count": 17,
       "display": "Is within the North London region",
-      "hint": "This station is based within the North London region.",
+      "hint": "This station is based within the North London region. Other stations in this puzzle within this region include Alexandra Palace and Bowes Park.",
       "id": "col_0"
     },
     {
@@ -100,7 +100,7 @@
       "category": "geography",
       "match_count": 9,
       "display": "Is within the East London region",
-      "hint": "This station is based within the East London region.",
+      "hint": "This station is based within the East London region. Other stations in this puzzle within this region include Canary Wharf and Chadwell Heath.",
       "id": "col_1"
     },
     {
@@ -111,7 +111,7 @@
       "category": "geography",
       "match_count": 8,
       "display": "Is within the Central Bedfordshire region",
-      "hint": "This station is based within the Central Bedfordshire region.",
+      "hint": "This station is based within the Central Bedfordshire region. Other stations in this puzzle within this region include Arlesey and Aspley Guise.",
       "id": "col_2"
     },
     {
@@ -122,7 +122,7 @@
       "category": "geography",
       "match_count": 6,
       "display": "Is within the Milton Keynes region",
-      "hint": "This station is based within the Milton Keynes region.",
+      "hint": "This station is based within the Milton Keynes region. Other stations in this puzzle within this region include Bletchley and Bow Brickhill.",
       "id": "col_3"
     },
     {
@@ -133,7 +133,7 @@
       "category": "geography",
       "match_count": 6,
       "display": "Is within the Welwyn Hatfield region",
-      "hint": "This station is based within the Welwyn Hatfield region.",
+      "hint": "This station is based within the Welwyn Hatfield region. Other stations in this puzzle within this region include Brookmans Park and Cuffley.",
       "id": "col_4"
     },
     {
@@ -144,7 +144,7 @@
       "category": "geography",
       "match_count": 6,
       "display": "Is within the North East London region",
-      "hint": "This station is based within the North East London region.",
+      "hint": "This station is based within the North East London region. Other stations in this puzzle within this region include Essex Road and Forest Gate.",
       "id": "col_5"
     },
     {
@@ -155,7 +155,7 @@
       "category": "geography",
       "match_count": 5,
       "display": "Is within the West London region",
-      "hint": "This station is based within the West London region.",
+      "hint": "This station is based within the West London region. Other stations in this puzzle within this region include Acton Main Line and Hanwell.",
       "id": "col_6"
     },
     {
@@ -166,7 +166,7 @@
       "category": "geography",
       "match_count": 5,
       "display": "Is within the South Cambridgeshire region",
-      "hint": "This station is based within the South Cambridgeshire region.",
+      "hint": "This station is based within the South Cambridgeshire region. Other stations in this puzzle within this region include Ashwell & Morden and Foxton.",
       "id": "col_7"
     },
     {
@@ -177,7 +177,7 @@
       "category": "geography",
       "match_count": 5,
       "display": "Is within the North Hertfordshire region",
-      "hint": "This station is based within the North Hertfordshire region.",
+      "hint": "This station is based within the North Hertfordshire region. Other stations in this puzzle within this region include Baldock and Hitchin.",
       "id": "col_8"
     },
     {
@@ -188,7 +188,7 @@
       "category": "geography",
       "match_count": 4,
       "display": "Is within the Dacorum region",
-      "hint": "This station is based within the Dacorum region.",
+      "hint": "This station is based within the Dacorum region. Other stations in this puzzle within this region include Apsley and Berkhamsted.",
       "id": "col_9"
     },
     {
@@ -233,7 +233,7 @@
       "category": "route",
       "match_count": 36,
       "display": "Route operated by London Northwestern Railway.",
-      "hint": "This station is served by London Northwestern Railway.",
+      "hint": "This station is served by London Northwestern Railway. Other stations in this puzzle operated by London Northwestern Railway include Acton Bridge and Apsley.",
       "id": "col_13"
     },
     {
@@ -244,7 +244,7 @@
       "category": "route",
       "match_count": 20,
       "display": "Route operated by Elizabeth Line.",
-      "hint": "This station is served by Elizabeth Line.",
+      "hint": "This station is served by Elizabeth Line. Other stations in this puzzle operated by Elizabeth Line include Acton Main Line and Bond Street.",
       "id": "col_14"
     },
     {
@@ -255,7 +255,7 @@
       "category": "route",
       "match_count": 50,
       "display": "Route operated by Great Northern.",
-      "hint": "This station is served by Great Northern.",
+      "hint": "This station is served by Great Northern. Other stations in this puzzle operated by Great Northern include Alexandra Palace and Arlesey.",
       "id": "col_15"
     },
     {
@@ -266,7 +266,7 @@
       "category": "route",
       "match_count": 45,
       "display": "Is part of the Fen Line route",
-      "hint": "A station on the Fen Line route.",
+      "hint": "A station on the Fen Line route. Other stations in this puzzle on this route include Alexandra Palace and Arlesey.",
       "id": "col_16"
     },
     {
@@ -277,7 +277,7 @@
       "category": "route",
       "match_count": 32,
       "display": "Is part of the Great Northern route",
-      "hint": "A station on the Great Northern route.",
+      "hint": "A station on the Great Northern route. Other stations in this puzzle on this route include Alexandra Palace and Bayford.",
       "id": "col_17"
     },
     {
@@ -288,7 +288,7 @@
       "category": "route",
       "match_count": 20,
       "display": "Is part of the Elizabeth Line route",
-      "hint": "A station on the Elizabeth Line route.",
+      "hint": "A station on the Elizabeth Line route. Other stations in this puzzle on this route include Acton Main Line and Bond Street.",
       "id": "col_18"
     },
     {
@@ -299,7 +299,7 @@
       "category": "route",
       "match_count": 18,
       "display": "Is part of the Northern City Line route",
-      "hint": "A station on the Northern City Line route.",
+      "hint": "A station on the Northern City Line route. Other stations in this puzzle on this route include Alexandra Palace and Brookmans Park.",
       "id": "col_19"
     },
     {
@@ -310,7 +310,7 @@
       "category": "route",
       "match_count": 11,
       "display": "Is part of the Marston Vale Line route",
-      "hint": "A station on the Marston Vale Line route.",
+      "hint": "A station on the Marston Vale Line route. Other stations in this puzzle on this route include Aspley Guise and Bedford St Johns.",
       "id": "col_20"
     },
     {
@@ -321,7 +321,7 @@
       "category": "route",
       "match_count": 10,
       "display": "Is part of the Lioness Line route",
-      "hint": "A station on the Lioness Line route.",
+      "hint": "A station on the Lioness Line route. Other stations in this puzzle on this route include Apsley and Berkhamsted.",
       "id": "col_21"
     },
     {
@@ -332,7 +332,7 @@
       "category": "route",
       "match_count": 9,
       "display": "Is part of the Northern Heights route",
-      "hint": "A station on the Northern Heights route.",
+      "hint": "A station on the Northern Heights route. Other stations in this puzzle on this route include Alexandra Palace and Drayton Park.",
       "id": "col_22"
     },
     {
@@ -343,7 +343,7 @@
       "category": "route",
       "match_count": 7,
       "display": "Is part of the West Coast Main Line route",
-      "hint": "A station on the West Coast Main Line route.",
+      "hint": "A station on the West Coast Main Line route. Other stations in this puzzle on this route include Acton Bridge and Atherstone.",
       "id": "col_23"
     },
     {
@@ -354,7 +354,7 @@
       "category": "route",
       "match_count": 7,
       "display": "Is part of the Abbey Line route",
-      "hint": "A station on the Abbey Line route.",
+      "hint": "A station on the Abbey Line route. Other stations in this puzzle on this route include Bricket Wood and Garston.",
       "id": "col_24"
     },
     {
@@ -398,7 +398,7 @@
       "category": "name",
       "match_count": 16,
       "display": "Word contains 'ton'",
-      "hint": "Word contains 'ton'.",
+      "hint": "Word contains 'ton'. For example: Acton Bridge and Acton Main Line.",
       "id": "col_28"
     },
     {
@@ -409,7 +409,7 @@
       "category": "name",
       "match_count": 10,
       "display": "Word contains 'ford'",
-      "hint": "Word contains 'ford'.",
+      "hint": "Word contains 'ford'. For example: Bayford and Bedford St Johns.",
       "id": "col_29"
     },
     {
@@ -420,7 +420,7 @@
       "category": "name",
       "match_count": 9,
       "display": "Word contains 'ey'",
-      "hint": "Word contains 'ey'.",
+      "hint": "Word contains 'ey'. For example: Apsley and Arlesey.",
       "id": "col_30"
     },
     {
@@ -431,7 +431,7 @@
       "category": "name",
       "match_count": 9,
       "display": "Word contains 'park'",
-      "hint": "Word contains 'park'.",
+      "hint": "Word contains 'park'. For example: Bowes Park and Brookmans Park.",
       "id": "col_31"
     },
     {
@@ -442,7 +442,7 @@
       "category": "name",
       "match_count": 6,
       "display": "Word contains 'ley'",
-      "hint": "Word contains 'ley'.",
+      "hint": "Word contains 'ley'. For example: Apsley and Aspley Guise.",
       "id": "col_32"
     },
     {
@@ -453,7 +453,7 @@
       "category": "name",
       "match_count": 4,
       "display": "Word contains 'wood'",
-      "hint": "Word contains 'wood'.",
+      "hint": "Word contains 'wood'. For example: Bricket Wood and Hadley Wood.",
       "id": "col_33"
     },
     {
@@ -464,7 +464,7 @@
       "category": "name",
       "match_count": 4,
       "display": "Word contains 'heath'",
-      "hint": "Word contains 'heath'.",
+      "hint": "Word contains 'heath'. For example: Chadwell Heath and Heathrow Terminal 4 Rail.",
       "id": "col_34"
     },
     {
@@ -475,7 +475,7 @@
       "category": "name",
       "match_count": 4,
       "display": "Word contains 'ington'",
-      "hint": "Word contains 'ington'.",
+      "hint": "Word contains 'ington'. For example: Cheddington and Highbury & Islington.",
       "id": "col_35"
     },
     {
@@ -486,7 +486,7 @@
       "category": "name",
       "match_count": 4,
       "display": "Word contains 'worth'",
-      "hint": "Word contains 'worth'.",
+      "hint": "Word contains 'worth'. For example: Knebworth and Letchworth Garden City.",
       "id": "col_36"
     },
     {
@@ -497,7 +497,7 @@
       "category": "name",
       "match_count": 3,
       "display": "Word contains 'well'",
-      "hint": "Word contains 'well'.",
+      "hint": "Word contains 'well'. For example: Ashwell & Morden and Chadwell Heath.",
       "id": "col_37"
     },
     {
@@ -508,7 +508,7 @@
       "category": "name",
       "match_count": 3,
       "display": "Word contains 'den'",
-      "hint": "Word contains 'den'.",
+      "hint": "Word contains 'den'. For example: Ashwell & Morden and Letchworth Garden City.",
       "id": "col_38"
     },
     {
@@ -530,7 +530,7 @@
       "category": "name",
       "match_count": 3,
       "display": "Word contains 'hill'",
-      "hint": "Word contains 'hill'.",
+      "hint": "Word contains 'hill'. For example: Crews Hill and Gordon Hill.",
       "id": "col_40"
     }
   ]

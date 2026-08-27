@@ -100,7 +100,7 @@
       "category": "geography",
       "match_count": 27,
       "display": "Is within the Gwynedd region",
-      "hint": "This station is based within the Gwynedd region.",
+      "hint": "This station is based within the Gwynedd region. Other stations in this puzzle within this region include Aber-erch and Aberdyfi.",
       "id": "col_0"
     },
     {
@@ -111,7 +111,7 @@
       "category": "geography",
       "match_count": 22,
       "display": "Is within the Rhondda Cynon Taf region",
-      "hint": "This station is based within the Rhondda Cynon Taf region.",
+      "hint": "This station is based within the Rhondda Cynon Taf region. Other stations in this puzzle within this region include Abercynon and Aberdâr.",
       "id": "col_1"
     },
     {
@@ -122,7 +122,7 @@
       "category": "geography",
       "match_count": 20,
       "display": "Is within the Cardiff region",
-      "hint": "This station is based within the Cardiff region.",
+      "hint": "This station is based within the Cardiff region. Other stations in this puzzle within this region include Bae Caerdydd and Caerdydd Canolog.",
       "id": "col_2"
     },
     {
@@ -133,7 +133,7 @@
       "category": "geography",
       "match_count": 17,
       "display": "Is within the Conwy region",
-      "hint": "This station is based within the Conwy region.",
+      "hint": "This station is based within the Conwy region. Other stations in this puzzle within this region include Abergele a Phensarn and Bae Colwyn.",
       "id": "col_3"
     },
     {
@@ -144,7 +144,7 @@
       "category": "geography",
       "match_count": 17,
       "display": "Is within the Carmarthenshire region",
-      "hint": "This station is based within the Carmarthenshire region.",
+      "hint": "This station is based within the Carmarthenshire region. Other stations in this puzzle within this region include Bynie and Caerfyrddin.",
       "id": "col_4"
     },
     {
@@ -155,7 +155,7 @@
       "category": "geography",
       "match_count": 17,
       "display": "Is within the Powys region",
-      "hint": "This station is based within the Powys region.",
+      "hint": "This station is based within the Powys region. Other stations in this puzzle within this region include Builth Road and Caersws.",
       "id": "col_5"
     },
     {
@@ -166,7 +166,7 @@
       "category": "geography",
       "match_count": 16,
       "display": "Is within the Caerphilly region",
-      "hint": "This station is based within the Caerphilly region.",
+      "hint": "This station is based within the Caerphilly region. Other stations in this puzzle within this region include Aber and Bargoed.",
       "id": "col_6"
     },
     {
@@ -177,7 +177,7 @@
       "category": "geography",
       "match_count": 16,
       "display": "Is within the Pembrokeshire region",
-      "hint": "This station is based within the Pembrokeshire region.",
+      "hint": "This station is based within the Pembrokeshire region. Other stations in this puzzle within this region include Aberdaugleddau and Abergwaun ac Wdig.",
       "id": "col_7"
     },
     {
@@ -188,7 +188,7 @@
       "category": "geography",
       "match_count": 13,
       "display": "Is within the Shropshire region",
-      "hint": "This station is based within the Shropshire region.",
+      "hint": "This station is based within the Shropshire region. Other stations in this puzzle within this region include Amwythig and Broome.",
       "id": "col_8"
     },
     {
@@ -199,7 +199,7 @@
       "category": "geography",
       "match_count": 11,
       "display": "Is within the Vale of Glamorgan region",
-      "hint": "This station is based within the Vale of Glamorgan region.",
+      "hint": "This station is based within the Vale of Glamorgan region. Other stations in this puzzle within this region include Cogan and Dinas Powys.",
       "id": "col_9"
     },
     {
@@ -210,7 +210,7 @@
       "category": "geography",
       "match_count": 95,
       "display": "Trains head to Cardiff Central",
-      "hint": "This station's journeys are routed via or towards Cardiff Central.",
+      "hint": "This station's journeys are routed via or towards Cardiff Central. Other stations in this puzzle sharing this hub include Aber and Abercynon.",
       "id": "col_10"
     },
     {
@@ -221,7 +221,7 @@
       "category": "geography",
       "match_count": 52,
       "display": "Trains head to Shrewsbury",
-      "hint": "This station's journeys are routed via or towards Shrewsbury.",
+      "hint": "This station's journeys are routed via or towards Shrewsbury. Other stations in this puzzle sharing this hub include Aber-erch and Aberdyfi.",
       "id": "col_11"
     },
     {
@@ -232,7 +232,7 @@
       "category": "geography",
       "match_count": 52,
       "display": "Trains head to Wrexham/Chester",
-      "hint": "This station's journeys are routed via or towards Wrexham/Chester.",
+      "hint": "This station's journeys are routed via or towards Wrexham/Chester. Other stations in this puzzle sharing this hub include Abergele a Phensarn and Bae Colwyn.",
       "id": "col_12"
     },
     {
@@ -243,7 +243,7 @@
       "category": "geography",
       "match_count": 49,
       "display": "Trains head to Swansea",
-      "hint": "This station's journeys are routed via or towards Swansea.",
+      "hint": "This station's journeys are routed via or towards Swansea. Other stations in this puzzle sharing this hub include Aberdaugleddau and Abergwaun ac Wdig.",
       "id": "col_13"
     },
     {
@@ -390,7 +390,7 @@
       "category": "route",
       "match_count": 63,
       "display": "Is part of the Central Wales Line route",
-      "hint": "The long single-track 'Heart of Wales' route south from Craven Arms through Knighton, Llandrindod Wells, Llandovery and Llandeilo to Llanelli and Swansea - same route as the Heart of Wales Line, just an older name.",
+      "hint": "A station on the Central Wales Line route. Other stations in this puzzle on this route include Abertawe and Amwythig.",
       "id": "col_26"
     },
     {
@@ -401,7 +401,7 @@
       "category": "route",
       "match_count": 63,
       "display": "Is part of the Heart of Wales Line route",
-      "hint": "The long single-track route south from Craven Arms through Knighton, Llandrindod Wells, Llandovery and Llandeilo to Llanelli and Swansea - also called the Central Wales Line.",
+      "hint": "A station on the Heart of Wales Line route. Other stations in this puzzle on this route include Abertawe and Amwythig.",
       "id": "col_27"
     },
     {
@@ -412,7 +412,7 @@
       "category": "route",
       "match_count": 50,
       "display": "Is part of the North Wales Coast Line route",
-      "hint": "The coastal main line from Chester to Holyhead via Flint, Rhyl, Colwyn Bay, Llandudno Junction and Bangor - the historic 'Irish Mail' route to the Anglesey ferry port.",
+      "hint": "A station on the North Wales Coast Line route. Other stations in this puzzle on this route include Abergele a Phensarn and Aberystwyth.",
       "id": "col_28"
     },
     {
@@ -423,7 +423,7 @@
       "category": "route",
       "match_count": 44,
       "display": "Is part of the Swanline route",
-      "hint": "The local stopping service on the South Wales Main Line between Cardiff Central and Swansea, calling at Pyle, Port Talbot, Baglan, Briton Ferry, Skewen and Llansamlet - the slower alternative to the fast Cardiff-Swansea trains.",
+      "hint": "A station on the Swanline route. Other stations in this puzzle on this route include Aberdaugleddau and Abertawe.",
       "id": "col_29"
     },
     {
@@ -434,7 +434,7 @@
       "category": "route",
       "match_count": 31,
       "display": "Is part of the Vale of Glamorgan Line route",
-      "hint": "The line looping south of the Cardiff-Bridgend main line via Barry, Rhoose Cardiff Airport and Llantwit Major - reopened to passengers in 2005 after over 40 years closed.",
+      "hint": "A station on the Vale of Glamorgan Line route. Other stations in this puzzle on this route include Aber and Bargoed.",
       "id": "col_30"
     },
     {
@@ -445,7 +445,7 @@
       "category": "route",
       "match_count": 30,
       "display": "Is part of the Coryton Line route",
-      "hint": "The short suburban branch north from Cardiff Queen Street through Heath, Birchgrove, Rhiwbina and Whitchurch to Coryton - not one of the longer Valley lines further out.",
+      "hint": "A station on the Coryton Line route. Other stations in this puzzle on this route include Aber and Bargoed.",
       "id": "col_31"
     },
     {
@@ -456,7 +456,7 @@
       "category": "route",
       "match_count": 27,
       "display": "Is part of the Cambrian Coast Line route",
-      "hint": "The scenic coastal branch north from Dovey Junction (near Machynlleth) through Aberdovey, Tywyn, Barmouth and Harlech to Pwllheli - not the inland Cambrian Line to Aberystwyth.",
+      "hint": "A station on the Cambrian Coast Line route. Other stations in this puzzle on this route include Aber-erch and Aberdyfi.",
       "id": "col_32"
     },
     {
@@ -467,7 +467,7 @@
       "category": "route",
       "match_count": 25,
       "display": "Is part of the Merthyr Line route",
-      "hint": "The Valley line north from Cardiff via Abercynon to Merthyr Tydfil - shares its southern half with the Aberdare Line, which splits off at Abercynon.",
+      "hint": "A station on the Merthyr Line route. Other stations in this puzzle on this route include Abercynon and Aberdâr.",
       "id": "col_33"
     },
     {
@@ -478,7 +478,7 @@
       "category": "route",
       "match_count": 25,
       "display": "Is part of the Treherbert Line route",
-      "hint": "The Rhondda Valley line from Cardiff via Pontypridd, Porth and Tonypandy to Treherbert at the head of the valley.",
+      "hint": "A station on the Treherbert Line route. Other stations in this puzzle on this route include Abercynon and Caerdydd Canolog.",
       "id": "col_34"
     },
     {
@@ -489,7 +489,7 @@
       "category": "route",
       "match_count": 24,
       "display": "Is part of the Aberdare Line route",
-      "hint": "The Valley line north from Cardiff via Abercynon to Aberdare - shares its southern half with the Merthyr Line, which splits off at Abercynon.",
+      "hint": "A station on the Aberdare Line route. Other stations in this puzzle on this route include Abercynon and Aberdâr.",
       "id": "col_35"
     },
     {
@@ -500,7 +500,7 @@
       "category": "route",
       "match_count": 20,
       "display": "Is part of the Ebbw Valley Line route",
-      "hint": "The reopened branch up the Ebbw Valley from Newport (or Cardiff Central) through Risca, Crosskeys and Newbridge to Ebbw Vale Town - closed to passengers for 46 years before reopening in 2008.",
+      "hint": "A station on the Ebbw Valley Line route. Other stations in this puzzle on this route include Caerdydd Canolog and Casnewydd.",
       "id": "col_36"
     },
     {
@@ -511,7 +511,7 @@
       "category": "route",
       "match_count": 18,
       "display": "Is part of the Marches Line route",
-      "hint": "The long cross-border route from Newport via Abergavenny and Hereford to Shrewsbury, continuing to Crewe or via Wrexham to Chester - same route as the North & West Line, just an older name. Not the Heart of Wales branch that splits off at Craven Arms.",
+      "hint": "A station on the Marches Line route. Other stations in this puzzle on this route include Abergwaun ac Wdig and Amwythig.",
       "id": "col_37"
     },
     {
@@ -522,7 +522,7 @@
       "category": "route",
       "match_count": 16,
       "display": "Is part of the North & West Line route",
-      "hint": "The long cross-border route from Newport via Abergavenny and Hereford to Shrewsbury, continuing to Crewe or via Wrexham to Chester - also called the Marches Line. Not the Heart of Wales branch that splits off at Craven Arms.",
+      "hint": "A station on the North & West Line route. Other stations in this puzzle on this route include Amwythig and Caerdydd Canolog.",
       "id": "col_38"
     },
     {
@@ -533,7 +533,7 @@
       "category": "route",
       "match_count": 13,
       "display": "Is part of the Borderlands Line route",
-      "hint": "The cross-border line linking Wrexham Central to Bidston on the Wirral, via Wrexham General, Shotton and the north-east Wales/Cheshire border villages.",
+      "hint": "A station on the Borderlands Line route. Other stations in this puzzle on this route include Bwcle and Caergwrle.",
       "id": "col_39"
     },
     {
@@ -544,7 +544,7 @@
       "category": "route",
       "match_count": 13,
       "display": "Is part of the Conwy Valley Line route",
-      "hint": "The branch south from Llandudno Junction up the Conwy and Lledr valleys through Betws-y-Coed to the slate town of Blaenau Ffestiniog.",
+      "hint": "A station on the Conwy Valley Line route. Other stations in this puzzle on this route include Betws-y-Coed and Blaenau Ffestiniog.",
       "id": "col_40"
     },
     {
@@ -577,7 +577,7 @@
       "category": "name",
       "match_count": 32,
       "display": "Word contains 'llan'",
-      "hint": "Word contains 'llan'.",
+      "hint": "Word contains 'llan'. For example: Cyffordd Llandudno and Gogledd Llanrwst.",
       "id": "col_43"
     },
     {
@@ -588,7 +588,7 @@
       "category": "name",
       "match_count": 20,
       "display": "Word contains 'pen'",
-      "hint": "Word contains 'pen'.",
+      "hint": "Word contains 'pen'. For example: Doc Penfro and Pen-bre a Phorth Tywyn.",
       "id": "col_44"
     },
     {
@@ -599,7 +599,7 @@
       "category": "name",
       "match_count": 13,
       "display": "Word contains 'aber'",
-      "hint": "Word contains 'aber'.",
+      "hint": "Word contains 'aber'. For example: Aber and Aber-erch.",
       "id": "col_45"
     },
     {
@@ -610,7 +610,7 @@
       "category": "name",
       "match_count": 10,
       "display": "Word contains 'tre'",
-      "hint": "Word contains 'tre'.",
+      "hint": "Word contains 'tre'. For example: Tre-gŵyr and Trecelyn.",
       "id": "col_46"
     },
     {
@@ -621,7 +621,7 @@
       "category": "name",
       "match_count": 10,
       "display": "Word contains 'caer'",
-      "hint": "Word contains 'caer'.",
+      "hint": "Word contains 'caer'. For example: Bae Caerdydd and Caer.",
       "id": "col_47"
     },
     {
@@ -632,7 +632,7 @@
       "category": "name",
       "match_count": 8,
       "display": "Word contains 'pont'",
-      "hint": "Word contains 'pont'.",
+      "hint": "Word contains 'pont'. For example: Pont Penarlâg and Pont Rufeinig.",
       "id": "col_48"
     },
     {
@@ -654,7 +654,7 @@
       "category": "name",
       "match_count": 3,
       "display": "Word contains 'ynys'",
-      "hint": "Word contains 'ynys'.",
+      "hint": "Word contains 'ynys'. For example: Ynys y Barri and Ynysowen.",
       "id": "col_50"
     },
     {
@@ -665,7 +665,7 @@
       "category": "name",
       "match_count": 3,
       "display": "Word contains 'dinas'",
-      "hint": "Word contains 'dinas'.",
+      "hint": "Word contains 'dinas'. For example: Dinas Powys and Dinas Rhondda.",
       "id": "col_51"
     },
     {
@@ -676,7 +676,7 @@
       "category": "name",
       "match_count": 3,
       "display": "Word contains 'glyn'",
-      "hint": "Word contains 'glyn'.",
+      "hint": "Word contains 'glyn'. For example: Eneu'r-glyn a Pharc Churchill and Parcffordd Glyn Ebwy.",
       "id": "col_52"
     },
     {
@@ -687,7 +687,7 @@
       "category": "name",
       "match_count": 3,
       "display": "Word contains 'maes'",
-      "hint": "Word contains 'maes'.",
+      "hint": "Word contains 'maes'. For example: Maes Awyr Rhyngwladol Caerdydd and Maesteg.",
       "id": "col_53"
     }
   ]

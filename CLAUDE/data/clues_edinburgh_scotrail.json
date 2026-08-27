@@ -89,7 +89,7 @@
       "category": "geography",
       "match_count": 17,
       "display": "Is within the Fife region",
-      "hint": "This station is based within the Fife region.",
+      "hint": "This station is based within the Fife region. Other stations in this puzzle within this region include Aberdour and Burntisland.",
       "id": "col_0"
     },
     {
@@ -100,7 +100,7 @@
       "category": "geography",
       "match_count": 12,
       "display": "Is within the City of Edinburgh region",
-      "hint": "This station is based within the City of Edinburgh region.",
+      "hint": "This station is based within the City of Edinburgh region. Other stations in this puzzle within this region include Brunstane and Curriehill.",
       "id": "col_1"
     },
     {
@@ -111,7 +111,7 @@
       "category": "geography",
       "match_count": 10,
       "display": "Is within the West Lothian region",
-      "hint": "This station is based within the West Lothian region.",
+      "hint": "This station is based within the West Lothian region. Other stations in this puzzle within this region include Addiewell and Armadale.",
       "id": "col_2"
     },
     {
@@ -122,7 +122,7 @@
       "category": "geography",
       "match_count": 8,
       "display": "Is within the East Lothian region",
-      "hint": "This station is based within the East Lothian region.",
+      "hint": "This station is based within the East Lothian region. Other stations in this puzzle within this region include Drem and Dunbar.",
       "id": "col_3"
     },
     {
@@ -133,7 +133,7 @@
       "category": "geography",
       "match_count": 4,
       "display": "Is within the Midlothian region",
-      "hint": "This station is based within the Midlothian region.",
+      "hint": "This station is based within the Midlothian region. Other stations in this puzzle within this region include Eskbank and Gorebridge.",
       "id": "col_4"
     },
     {
@@ -144,7 +144,7 @@
       "category": "geography",
       "match_count": 4,
       "display": "Is within the Scottish Borders region",
-      "hint": "This station is based within the Scottish Borders region.",
+      "hint": "This station is based within the Scottish Borders region. Other stations in this puzzle within this region include Galashiels and Reston.",
       "id": "col_5"
     },
     {
@@ -223,7 +223,7 @@
       "category": "route",
       "match_count": 20,
       "display": "Is part of the Fife Circle route",
-      "hint": "A station on the Fife Circle route.",
+      "hint": "A station on the Fife Circle route. Other stations in this puzzle on this route include Aberdour and Burntisland.",
       "id": "col_12"
     },
     {
@@ -234,7 +234,7 @@
       "category": "route",
       "match_count": 9,
       "display": "Is part of the Shotts Line route",
-      "hint": "A station on the Shotts Line route.",
+      "hint": "A station on the Shotts Line route. Other stations in this puzzle on this route include Addiewell and Breich.",
       "id": "col_13"
     },
     {
@@ -245,7 +245,7 @@
       "category": "route",
       "match_count": 9,
       "display": "Is part of the Borders Railway route",
-      "hint": "A station on the Borders Railway route.",
+      "hint": "A station on the Borders Railway route. Other stations in this puzzle on this route include Brunstane and Eskbank.",
       "id": "col_14"
     },
     {
@@ -256,7 +256,7 @@
       "category": "route",
       "match_count": 8,
       "display": "Is part of the North Berwick Line route",
-      "hint": "A station on the North Berwick Line route.",
+      "hint": "A station on the North Berwick Line route. Other stations in this puzzle on this route include Drem and Dunbar.",
       "id": "col_15"
     },
     {
@@ -267,7 +267,7 @@
       "category": "route",
       "match_count": 5,
       "display": "Is part of the Argyle Line route",
-      "hint": "A station on the Argyle Line route.",
+      "hint": "A station on the Argyle Line route. Other stations in this puzzle on this route include Armadale and Bathgate.",
       "id": "col_16"
     },
     {
@@ -278,7 +278,7 @@
       "category": "route",
       "match_count": 5,
       "display": "Is part of the North Clyde Electrics route",
-      "hint": "A station on the North Clyde Electrics route.",
+      "hint": "A station on the North Clyde Electrics route. Other stations in this puzzle on this route include Armadale and Bathgate.",
       "id": "col_17"
     },
     {
@@ -289,7 +289,7 @@
       "category": "route",
       "match_count": 4,
       "display": "Is part of the Edinburgh-Glasgow Main Line route",
-      "hint": "A station on the Edinburgh-Glasgow Main Line route.",
+      "hint": "A station on the Edinburgh-Glasgow Main Line route. Other stations in this puzzle on this route include Edinburgh Waverley and Haymarket.",
       "id": "col_18"
     },
     {
@@ -322,7 +322,7 @@
       "category": "name",
       "match_count": 6,
       "display": "Word contains 'ton'",
-      "hint": "Word contains 'ton'.",
+      "hint": "Word contains 'ton'. For example: East Linton and Glenrothes with Thornton.",
       "id": "col_21"
     }
   ]

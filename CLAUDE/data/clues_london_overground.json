@@ -66,7 +66,7 @@
       "category": "geography",
       "match_count": 29,
       "display": "Is within the North East London region",
-      "hint": "This station is based within the North East London region.",
+      "hint": "This station is based within the North East London region. Other stations in this puzzle within this region include Blackhorse Road and Bruce Grove.",
       "id": "col_0"
     },
     {
@@ -77,7 +77,7 @@
       "category": "geography",
       "match_count": 14,
       "display": "Is within the North London region",
-      "hint": "This station is based within the North London region.",
+      "hint": "This station is based within the North London region. Other stations in this puzzle within this region include Bush Hill Park and Caledonian Road & Barnsbury.",
       "id": "col_1"
     },
     {
@@ -88,7 +88,7 @@
       "category": "geography",
       "match_count": 10,
       "display": "Is within the East London region",
-      "hint": "This station is based within the East London region.",
+      "hint": "This station is based within the East London region. Other stations in this puzzle within this region include Barking Riverside and Bethnal Green.",
       "id": "col_2"
     },
     {
@@ -99,7 +99,7 @@
       "category": "geography",
       "match_count": 10,
       "display": "Is within the North West London region",
-      "hint": "This station is based within the North West London region.",
+      "hint": "This station is based within the North West London region. Other stations in this puzzle within this region include Brondesbury and Brondesbury Park.",
       "id": "col_3"
     },
     {
@@ -110,7 +110,7 @@
       "category": "geography",
       "match_count": 6,
       "display": "Is within the South East London region",
-      "hint": "This station is based within the South East London region.",
+      "hint": "This station is based within the South East London region. Other stations in this puzzle within this region include Brockley and Forest Hill.",
       "id": "col_4"
     },
     {
@@ -121,7 +121,7 @@
       "category": "geography",
       "match_count": 3,
       "display": "Is within the West London region",
-      "hint": "This station is based within the West London region.",
+      "hint": "This station is based within the West London region. Other stations in this puzzle within this region include Acton Central and South Acton.",
       "id": "col_5"
     },
     {
@@ -132,7 +132,7 @@
       "category": "geography",
       "match_count": 3,
       "display": "Is within the South London region",
-      "hint": "This station is based within the South London region.",
+      "hint": "This station is based within the South London region. Other stations in this puzzle within this region include Anerley and Clapham High Street.",
       "id": "col_6"
     },
     {
@@ -245,7 +245,7 @@
       "category": "route",
       "match_count": 19,
       "display": "Is part of the Windrush Line route",
-      "hint": "A station on the Windrush Line route.",
+      "hint": "A station on the Windrush Line route. Other stations in this puzzle on this route include Anerley and Brockley.",
       "id": "col_16"
     },
     {
@@ -256,7 +256,7 @@
       "category": "route",
       "match_count": 18,
       "display": "Is part of the Mildmay Line route",
-      "hint": "A station on the Mildmay Line route.",
+      "hint": "A station on the Mildmay Line route. Other stations in this puzzle on this route include Acton Central and Brondesbury.",
       "id": "col_17"
     },
     {
@@ -267,7 +267,7 @@
       "category": "route",
       "match_count": 12,
       "display": "Is part of the Suffragette Line route",
-      "hint": "A station on the Suffragette Line route.",
+      "hint": "A station on the Suffragette Line route. Other stations in this puzzle on this route include Barking Riverside and Blackhorse Road.",
       "id": "col_18"
     },
     {
@@ -278,7 +278,7 @@
       "category": "route",
       "match_count": 10,
       "display": "Is part of the Chingford Line route",
-      "hint": "A station on the Chingford Line route.",
+      "hint": "A station on the Chingford Line route. Other stations in this puzzle on this route include Bethnal Green and Cambridge Heath.",
       "id": "col_19"
     },
     {
@@ -289,7 +289,7 @@
       "category": "route",
       "match_count": 10,
       "display": "Is part of the Enfield Town Line route",
-      "hint": "A station on the Enfield Town Line route.",
+      "hint": "A station on the Enfield Town Line route. Other stations in this puzzle on this route include Bruce Grove and Bush Hill Park.",
       "id": "col_20"
     },
     {
@@ -300,7 +300,7 @@
       "category": "route",
       "match_count": 7,
       "display": "Is part of the Watford DC Line route",
-      "hint": "A station on the Watford DC Line route.",
+      "hint": "A station on the Watford DC Line route. Other stations in this puzzle on this route include Carpenders Park and Hatch End.",
       "id": "col_21"
     },
     {
@@ -311,7 +311,7 @@
       "category": "route",
       "match_count": 3,
       "display": "Is part of the Southbury Loop route",
-      "hint": "A station on the Southbury Loop route.",
+      "hint": "A station on the Southbury Loop route. Other stations in this puzzle on this route include Southbury and Theobalds Grove.",
       "id": "col_22"
     },
     {
@@ -355,7 +355,7 @@
       "category": "name",
       "match_count": 11,
       "display": "Word contains 'ton'",
-      "hint": "Word contains 'ton'.",
+      "hint": "Word contains 'ton'. For example: Acton Central and Clapton.",
       "id": "col_26"
     },
     {
@@ -366,7 +366,7 @@
       "category": "name",
       "match_count": 8,
       "display": "Word contains 'ey'",
-      "hint": "Word contains 'ey'.",
+      "hint": "Word contains 'ey'. For example: Anerley and Brockley.",
       "id": "col_27"
     },
     {
@@ -377,7 +377,7 @@
       "category": "name",
       "match_count": 8,
       "display": "Word contains 'park'",
-      "hint": "Word contains 'park'.",
+      "hint": "Word contains 'park'. For example: Brondesbury Park and Bush Hill Park.",
       "id": "col_28"
     },
     {
@@ -388,7 +388,7 @@
       "category": "name",
       "match_count": 5,
       "display": "Word contains 'bury'",
-      "hint": "Word contains 'bury'.",
+      "hint": "Word contains 'bury'. For example: Brondesbury and Brondesbury Park.",
       "id": "col_29"
     },
     {
@@ -399,7 +399,7 @@
       "category": "name",
       "match_count": 4,
       "display": "Word contains 'hill'",
-      "hint": "Word contains 'hill'.",
+      "hint": "Word contains 'hill'. For example: Bush Hill Park and Crouch Hill.",
       "id": "col_30"
     },
     {
@@ -410,7 +410,7 @@
       "category": "name",
       "match_count": 4,
       "display": "Word contains 'stead'",
-      "hint": "Word contains 'stead'.",
+      "hint": "Word contains 'stead'. For example: Hampstead Heath and South Hampstead.",
       "id": "col_31"
     },
     {
@@ -421,7 +421,7 @@
       "category": "name",
       "match_count": 3,
       "display": "Word contains 'ley'",
-      "hint": "Word contains 'ley'.",
+      "hint": "Word contains 'ley'. For example: Anerley and Brockley.",
       "id": "col_32"
     },
     {
@@ -432,7 +432,7 @@
       "category": "name",
       "match_count": 3,
       "display": "Word contains 'green'",
-      "hint": "Word contains 'green'.",
+      "hint": "Word contains 'green'. For example: Bethnal Green and Edmonton Green.",
       "id": "col_33"
     },
     {
@@ -443,7 +443,7 @@
       "category": "name",
       "match_count": 3,
       "display": "Word contains 'ford'",
-      "hint": "Word contains 'ford'.",
+      "hint": "Word contains 'ford'. For example: Chingford and Stamford Hill.",
       "id": "col_34"
     },
     {
@@ -454,7 +454,7 @@
       "category": "name",
       "match_count": 3,
       "display": "Word contains 'ham'",
-      "hint": "Word contains 'ham'.",
+      "hint": "Word contains 'ham'. For example: Clapham High Street and South Tottenham.",
       "id": "col_35"
     }
   ]

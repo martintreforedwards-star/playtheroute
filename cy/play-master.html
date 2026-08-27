@@ -1175,9 +1175,28 @@ body {
 
 // ---------- i18n ----------
 // Language is decided purely by URL path: pages served from a /cy/
-// folder are Welsh, everything else is English. Same file, same logic,
-// both languages - no separate play-master.html to maintain per language.
-const LANG = window.location.pathname.includes("/cy/") ? "cy" : "en";
+// folder are Welsh, pages served from a /gd/ folder are Scottish Gaelic,
+// everything else is English. Same file, same logic, all languages -
+// no separate play-master.html to maintain per language.
+const LANG = window.location.pathname.includes("/cy/") ? "cy"
+           : window.location.pathname.includes("/gd/") ? "gd"
+           : "en";
+
+// Networks that have their own translated clue file (clues_{network}_{lang}.json)
+// for a given non-English language. Only listed networks get the translated
+// file - everything else falls back to the English clues automatically.
+const LOCALIZED_CLUE_NETWORKS = {
+  cy: ["tfw_cymraeg", "gwr_wales_corridor", "shrewsbury_wrexham_chester"],
+  gd: ["highlands_ne_scotrail"]
+};
+
+function resolveCluesPath(basePath, net) {
+  const list = LOCALIZED_CLUE_NETWORKS[LANG];
+  if (list && list.includes(net)) {
+    return basePath.replace(/\.json$/, `_${LANG}.json`);
+  }
+  return basePath;
+}
 
 const STRINGS = {
   en: {
@@ -1232,8 +1251,7 @@ const STRINGS = {
     flavour_commuter_desc: "Delayed, but still arrived on time.",
     flavour_traveller_title: "🚉 Regular Traveller",
     flavour_traveller_desc: "A reliable journey with a few unexpected stops.",
-    reveal_hint_button: "🔍 Reveal (-1 ticket)",
-    loading_route: "Loading today\u2019s route..."
+    reveal_hint_btn: "🔍 Reveal (-1 ticket)"
   },
   cy: {
     time_left: "Amser ar ôl",
@@ -1287,8 +1305,61 @@ const STRINGS = {
     flavour_commuter_desc: "Wedi'i oedi, ond cyrhaeddodd mewn pryd o hyd.",
     flavour_traveller_title: "🚉 Teithiwr Rheolaidd",
     flavour_traveller_desc: "Taith ddibynadwy gyda ychydig o stopiau annisgwyl.",
-    reveal_hint_button: "🔍 Datgelu (-1 tocyn)",
-    loading_route: "Wrthi'n llwytho llwybr heddiw..."
+    reveal_hint_btn: "🔍 Datgelu (-1 tocyn)"
+  },
+  gd: {
+    time_left: "Ùine air fhàgail",
+    tickets_left: "Tiogaidean air fhàgail",
+    platform_1: "Clàr-ùrlair 1",
+    platform_2: "Clàr-ùrlair 2",
+    hint: "Sanas",
+    submit_route: "Cuir a-steach an t-slighe",
+    landmark_challenge: "Dùbhlan Comharra-tìre",
+    locked: "🔒 GLASTE",
+    select_station: "Tagh Stèisean",
+    select_station_modal: "Tagh stèisean",
+    search_station: "Lorg stèisean...",
+    home: "🏠 Dachaigh",
+    share_result: "Roinn an Toradh",
+    share_image: "Roinn Dealbh",
+    copy_link: "Dèan Lethbhreac dhen Cheangal",
+    support_us: "☕ Cuidich sinn",
+    close: "Dùin",
+    results_title: "Toraidhean an t-Slighe",
+    invalid: "MÌ-DHLIGHEACH",
+    arriving: "A' RUIGSINN",
+    no_stations_match: "Chan eil stèisean sam bith a' freagairt ri do lorg.",
+    no_extra_detail: "Chan eil mion-fhiosrachadh a bharrachd ri fhaighinn airson an sanas seo.",
+    no_tickets_for_hint: "Chan eil tiogaid air fhàgail airson sanas fhoillseachadh.",
+    claim_return_ticket: "🎟 Iarr Tiogaid Dhà-shligheach",
+    selected_prefix: "Air a thaghadh: ",
+    express_departed: "⏱ Tha an t-seirbheis luath air falbh!",
+    fill_all_stations: "Lìon a h-uile stèisean 8 mus cuir thu a-steach.",
+    landmark_question: "Dè an stèisean air an rathad seo as fhaisge air a' chomharra-tìre seo?",
+    incorrect_station: "❌ Stèisean ceàrr (-1 tiogaid)",
+    correct_answer: "Am freagairt ceart:",
+    return_ticket_earned: "🎟 TIOGAID DHÀ-SHLIGHEACH AIR A COSNADH",
+    landmark_correct_prefix: "✅ Ceart!",
+    landmark_correct_suffix: "b' e an stèisean as fhaisge air",
+    landmark_incorrect_prefix: "❌ Chan eil sin buileach ceart - thagh thu",
+    landmark_incorrect_suffix_1: "B' e an stèisean as fhaisge air",
+    landmark_incorrect_suffix_2: "na",
+    station_fact: "Fìrinn mun stèisean:",
+    tickets_remaining_prefix: "Tiogaidean air Fhàgail: ",
+    result_copied: "Toradh air a chur air an clipboard.",
+    link_copied: "Ceangal air a chur air an clipboard.",
+    copy_failed: "Cha b' urrainn dhuinn lethbhreac a dhèanamh - dèan lethbhreac a làimh.",
+    flavour_replacement_title: "🚧 Seirbheis Bhusaichean Àite",
+    flavour_replacement_desc: "Chaidh busaichean iarraidh.",
+    flavour_first_title: "👑 Neach-siubhail Ciad-ìre",
+    flavour_first_desc: "Cofaidh an-asgaidh agus suidheachan cinnteach.",
+    flavour_season_title: "🥂 Neach-seilbh Tiogaid Ràitheil",
+    flavour_season_desc: "Aithnichidh iad dìreach dè an carbad a stadas faisg air an doras.",
+    flavour_commuter_title: "💼 Neach-siubhail Làitheil",
+    flavour_commuter_desc: "Air dàil, ach a' ruighinn ann an àm fhathast.",
+    flavour_traveller_title: "🚉 Neach-siubhail Cunbhalach",
+    flavour_traveller_desc: "Turas earbsach le beagan stadan gun dùil.",
+    reveal_hint_btn: "🔍 Foillsich (-1 tiogaid)"
   }
 };
 
@@ -1803,34 +1874,22 @@ const NETWORKS = {
 
 const files = NETWORKS[network];
 
-// Networks with a hand-translated Welsh clue file (display/hint text -
-// station names themselves are already correct in the base data via
-// welsh_name, so only these networks need a _cy clues variant). Falls
-// back to the English clues file for any network not yet in this list,
-// or if the _cy file 404s for some reason.
-const CY_CLUE_NETWORKS = ["tfw_cymraeg", "gwr_wales_corridor", "shrewsbury_wrexham_chester"];
-
-function resolveCluesPath() {
-  if (LANG === "cy" && CY_CLUE_NETWORKS.includes(network)) {
-    return files.clues.replace(/\.json$/, "_cy.json");
-  }
-  return files.clues;
-}
-
 // Loading state: the grid is otherwise blank/unstyled while the JSON
 // fetches, which on a slow connection reads as "is this broken?". Show
 // a simple message in the grid area until data resolves or fails.
 const gameGridEl = document.getElementById("gameGrid");
 const gameGridLoadingHTML = gameGridEl.innerHTML;
 gameGridEl.innerHTML =
-  `<div class="loading-state" style="grid-column:1 / -1;">${t('loading_route')}</div>`;
+  '<div class="loading-state" style="grid-column:1 / -1;">Loading today\u2019s route...</div>';
+
+const localizedCluesPath = resolveCluesPath(files.clues, network);
+const cluesFetch = fetch(localizedCluesPath)
+  .then(r => { if (!r.ok) throw new Error("localized clues missing"); return r.json(); })
+  .catch(() => fetch(files.clues).then(r => r.json()));
 
 Promise.all([
   fetch(files.stations).then(r => r.json()),
-  fetch(resolveCluesPath()).then(r => {
-    if (!r.ok) return fetch(files.clues).then(rr => rr.json()); // fallback to EN if _cy missing
-    return r.json();
-  }),
+  cluesFetch,
   fetch(files.puzzlebank).then(r => r.json()),
   fetch(files.landmarks).then(r => r.json()).catch(() => [])
 ])
@@ -2151,7 +2210,7 @@ function buildRevealExtraHtml(index) {
 
     return (
       `<button type="button" class="reveal-hint-btn" data-reveal-index="${index}">` +
-      `${t('reveal_hint_button')}</button>`
+      `${t("reveal_hint_btn")}</button>`
     );
 
   }

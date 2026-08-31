@@ -7,7 +7,7 @@
       "label": "Interchange station",
       "weight": "medium",
       "match_count": 47,
-      "display": "Is an interchange station",
+      "display": "Change trains here",
       "hint": "Served by two or more separate named routes, or where several lines physically meet.",
       "id": "row_0"
     },

@@ -72,6 +72,24 @@ body {
   border-color: #64748b;
 }
 
+.header-map-link {
+  color: #94a3b8;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 0.9rem;
+  border: 1px solid #334155;
+  border-radius: 10px;
+  padding: 8px 14px;
+  background: transparent;
+  font-family: inherit;
+  cursor: pointer;
+}
+
+.header-map-link:hover {
+  color: white;
+  border-color: #64748b;
+}
+
 .logo {
   width: 220px;
   height: auto;
@@ -999,9 +1017,19 @@ body {
       alt="The Route">
   </a>
 
-  <a href="/" class="header-home-link" data-i18n="home">
-    🏠 Home
-  </a>
+  <div style="display:flex; gap:8px;">
+    <a href="/" class="header-home-link" data-i18n="home">
+      🏠 Home
+    </a>
+
+    <button
+      type="button"
+      class="header-map-link"
+      data-i18n="map"
+      onclick="openMapHelp()">
+      🗺️ Map
+    </button>
+  </div>
 
 </div>
 
@@ -1212,6 +1240,7 @@ const STRINGS = {
     select_station_modal: "Select station",
     search_station: "Search station...",
     home: "🏠 Home",
+    map: "🗺️ Map",
     share_result: "Share Result",
     share_image: "Share Image",
     copy_link: "Copy Link",
@@ -1266,6 +1295,7 @@ const STRINGS = {
     select_station_modal: "Dewis gorsaf",
     search_station: "Chwilio am orsaf...",
     home: "🏠 Cartref",
+    map: "🗺️ Map",
     share_result: "Rhannu Canlyniad",
     share_image: "Rhannu Llun",
     copy_link: "Copïo Dolen",
@@ -1320,6 +1350,7 @@ const STRINGS = {
     select_station_modal: "Tagh stèisean",
     search_station: "Lorg stèisean...",
     home: "🏠 Dachaigh",
+    map: "🗺️ Mapa",
     share_result: "Roinn an Toradh",
     share_image: "Roinn Dealbh",
     copy_link: "Dèan Lethbhreac dhen Cheangal",
@@ -1452,6 +1483,18 @@ const gameMode =
 const network =
   params.get("network") ||
   "southeastern";
+
+function openMapHelp() {
+  const mapUrl =
+    "/uk_network_map.html?network=" +
+    encodeURIComponent(network);
+
+  window.open(
+    mapUrl,
+    "playtherouteMapHelp",
+    "width=480,height=700,resizable=yes,scrollbars=yes"
+  );
+}
 
 let expressTimer = null;
 let timeRemaining = 180;

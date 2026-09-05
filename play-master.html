@@ -1034,7 +1034,6 @@ body {
 
 </div>
 
-
   <div class="game-grid" id="gameGrid">
 
   <div class="corner status-cell">
@@ -2493,7 +2492,6 @@ function renderStations(list) {
 
 option.onclick = () => {
 
-
   if (bonusMode) {
 
     selectedBonusStation = station;
@@ -3113,19 +3111,56 @@ function getStats() {
     const raw = localStorage.getItem(STATS_KEY);
     if (raw) return JSON.parse(raw);
   } catch(err) {}
-  return { gamesPlayed: 0, gamesWon: 0, currentStreak: 0, maxStreak: 0 };
+  return { gamesPlayed: 0, gamesWon: 0, currentStreak: 0, maxStreak: 0, lastPlayedDate: null };
+}
+
+// YYYY-MM-DD in the player's local timezone. Using local date parts (rather
+// than toISOString, which is UTC) means the daily reset lines up with
+// midnight where the player actually is, not midnight UTC.
+function getLocalDateKey(d = new Date()) {
+  const y = d.getFullYear();
+  const m = String(d.getMonth() + 1).padStart(2, "0");
+  const day = String(d.getDate()).padStart(2, "0");
+  return `${y}-${m}-${day}`;
+}
+
+function daysBetweenDateKeys(earlier, later) {
+  const a = new Date(earlier + "T00:00:00");
+  const b = new Date(later + "T00:00:00");
+  return Math.round((b - a) / 86400000);
 }
 
 function recordGameResult(win) {
   const stats = getStats();
+  const today = getLocalDateKey();
+
+  // Guard against double-counting: if this device already recorded a
+  // result today (e.g. a page reload replays the results-modal logic),
+  // don't record it again.
+  if (stats.lastPlayedDate === today) {
+    return stats;
+  }
+
+  const gap = stats.lastPlayedDate
+    ? daysBetweenDateKeys(stats.lastPlayedDate, today)
+    : null;
+
   stats.gamesPlayed += 1;
+
   if (win) {
     stats.gamesWon += 1;
-    stats.currentStreak += 1;
+    // Streak only continues if yesterday was the last played day (gap===1)
+    // or this is the first game ever recorded (gap===null). Any larger gap
+    // means a missed day, so the streak restarts at 1 rather than keeping
+    // its old value.
+    stats.currentStreak = (gap === 1 || gap === null) ? stats.currentStreak + 1 : 1;
     stats.maxStreak = Math.max(stats.maxStreak, stats.currentStreak);
   } else {
     stats.currentStreak = 0;
   }
+
+  stats.lastPlayedDate = today;
+
   try {
     localStorage.setItem(STATS_KEY, JSON.stringify(stats));
   } catch(err) {}

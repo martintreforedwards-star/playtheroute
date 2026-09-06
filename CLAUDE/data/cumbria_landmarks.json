@@ -1,0 +1,101 @@
+[
+  {
+    "landmark": "Muncaster Castle",
+    "closest_station": "Ravenglass",
+    "distance_km": 1.5,
+    "difficulty": "easy",
+    "facts": [
+      "Muncaster Castle has been owned by the Pennington family for over 800 years.",
+      "It sits at the western edge of the Lake District, overlooking the Esk estuary.",
+      "Ravenglass is the only coastal village within the Lake District National Park."
+    ]
+  },
+  {
+    "landmark": "Sellafield nuclear site",
+    "closest_station": "Sellafield",
+    "distance_km": 0.5,
+    "difficulty": "easy",
+    "facts": [
+      "Sellafield was originally a Second World War munitions factory before becoming a nuclear site in the 1940s.",
+      "It is one of the largest nuclear sites in Europe and remains a major local employer.",
+      "The station was built specifically to serve the site's workforce."
+    ]
+  },
+  {
+    "landmark": "Carlisle Castle",
+    "closest_station": "Carlisle",
+    "distance_km": 1.2,
+    "difficulty": "easy",
+    "facts": [
+      "Carlisle Castle has stood for over 900 years and was fought over repeatedly during centuries of border conflict with Scotland.",
+      "Mary, Queen of Scots was briefly held there in 1568.",
+      "Carlisle is the largest settlement in Cumbria and the network's main hub."
+    ]
+  },
+  {
+    "landmark": "Lake Windermere (Bowness Bay)",
+    "closest_station": "Windermere",
+    "distance_km": 2.3,
+    "difficulty": "medium",
+    "facts": [
+      "Windermere is England's largest natural lake, around 18km long.",
+      "The station is not actually in the town of Bowness-on-Windermere itself, a common source of confusion for visitors.",
+      "The branch line to Windermere opened in 1847, built to bring Victorian tourists to the Lakes."
+    ]
+  },
+  {
+    "landmark": "Robert Burns House",
+    "closest_station": "Dumfries",
+    "distance_km": 0.6,
+    "difficulty": "medium",
+    "facts": [
+      "Robert Burns spent the last years of his life in Dumfries and is buried in the town.",
+      "Dumfries is sometimes called the 'Queen of the South', also the name of its football club.",
+      "The town sits on the Glasgow South Western Line, on the cross-border route toward Carlisle."
+    ]
+  },
+  {
+    "landmark": "The Old Blacksmith's Shop, Gretna Green",
+    "closest_station": "Gretna Green",
+    "distance_km": 0.8,
+    "difficulty": "easy",
+    "facts": [
+      "Gretna Green became famous for runaway weddings after a 1754 law tightened marriage rules in England but not Scotland.",
+      "It sits just north of the border, the first village travellers reach entering Scotland this way.",
+      "The village still holds thousands of weddings a year."
+    ]
+  },
+  {
+    "landmark": "Appleby Castle",
+    "closest_station": "Appleby",
+    "distance_km": 0.5,
+    "difficulty": "medium",
+    "facts": [
+      "Appleby (Appleby-in-Westmorland) was historically the county town of Westmorland.",
+      "The castle's keep dates back to the 12th century.",
+      "The town is also famous for its annual Horse Fair, one of Europe's largest Traveller gatherings."
+    ]
+  },
+  {
+    "landmark": "St Bees Head",
+    "closest_station": "St Bees",
+    "distance_km": 2.0,
+    "difficulty": "medium",
+    "facts": [
+      "St Bees Head is the only stretch of Heritage Coast between Wales and Scotland on England's west coast.",
+      "It's the official starting point of Wainwright's Coast to Coast walk.",
+      "The cliffs host England's only mainland colony of black guillemots."
+    ]
+  },
+  {
+    "landmark": "Furness Abbey",
+    "closest_station": "Barrow-in-Furness",
+    "distance_km": 2.0,
+    "difficulty": "medium",
+    "facts": [
+      "Furness Abbey was once one of the wealthiest monasteries in England before its dissolution in 1537.",
+      "Its red sandstone ruins sit in a wooded valley known as the 'Vale of Deadly Nightshade'.",
+      "Barrow-in-Furness grew rapidly in the 19th century around shipbuilding and steel."
+    ]
+  }
+]

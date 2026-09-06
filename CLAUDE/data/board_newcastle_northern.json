@@ -124,35 +124,6 @@
     "time_to_hub__newcastle": 36.0
   },
   {
-    "station_id": "NR_0024",
-    "station_name": "Aspatria",
-    "name_word_count": 1,
-    "name_letter_count": 8,
-    "crs": "ASP",
-    "region": "Cumberland",
-    "operator": "Northern",
-    "route": [
-      "Cumbrian Coast Line"
-    ],
-    "is_interchange": false,
-    "is_coastal": false,
-    "terminus_max": 0,
-    "canonical_hub": "Newcastle",
-    "canonical_time_to_hub": 152.0,
-    "welsh_name": null,
-    "wordplay_category": "other",
-    "wordplay_difficulty": "easy",
-    "wordplay_score": 0,
-    "wordplay_tags": [],
-    "time_to_glasgow_central": null,
-    "time_to_victoria": null,
-    "time_to_charing_cross": null,
-    "time_to_euston": null,
-    "time_to_liverpool_street": null,
-    "time_to_stratford": null,
-    "time_to_hub__newcastle": 152.0
-  },
-  {
     "station_id": "NR_0035",
     "station_name": "Bedlington",
     "name_word_count": 1,
@@ -341,39 +312,6 @@
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
     "time_to_hub__newcastle": 14.0
-  },
-  {
-    "station_id": "NR_0062",
-    "station_name": "Brampton (Cumbria)",
-    "name_word_count": 1,
-    "name_letter_count": 15,
-    "crs": "BMP",
-    "region": "Cumberland",
-    "operator": "Northern",
-    "route": [
-      "Hadrian's Wall Country Line",
-      "Tyne Valley Line"
-    ],
-    "is_interchange": false,
-    "is_coastal": false,
-    "terminus_max": 0,
-    "canonical_hub": "Newcastle",
-    "canonical_time_to_hub": 74.0,
-    "welsh_name": null,
-    "wordplay_category": "structure",
-    "wordplay_difficulty": "hard",
-    "wordplay_score": 2,
-    "wordplay_tags": [
-      "brackets",
-      "ton"
-    ],
-    "time_to_glasgow_central": null,
-    "time_to_victoria": null,
-    "time_to_charing_cross": null,
-    "time_to_euston": null,
-    "time_to_liverpool_street": null,
-    "time_to_stratford": null,
-    "time_to_hub__newcastle": 74.0
   },
   {
     "station_id": "NR_0034",
@@ -593,38 +531,6 @@
     "time_to_hub__newcastle": 130.0
   },
   {
-    "station_id": "NR_0124",
-    "station_name": "Dalston (Cumbria)",
-    "name_word_count": 1,
-    "name_letter_count": 14,
-    "crs": "DLS",
-    "region": "Cumberland",
-    "operator": "Northern",
-    "route": [
-      "Cumbrian Coast Line"
-    ],
-    "is_interchange": false,
-    "is_coastal": false,
-    "terminus_max": 0,
-    "canonical_hub": "Newcastle",
-    "canonical_time_to_hub": 132.0,
-    "welsh_name": null,
-    "wordplay_category": "structure",
-    "wordplay_difficulty": "hard",
-    "wordplay_score": 2,
-    "wordplay_tags": [
-      "brackets",
-      "ton"
-    ],
-    "time_to_glasgow_central": null,
-    "time_to_victoria": null,
-    "time_to_charing_cross": null,
-    "time_to_euston": null,
-    "time_to_liverpool_street": null,
-    "time_to_stratford": null,
-    "time_to_hub__newcastle": 132.0
-  },
-  {
     "station_id": "NR_0137",
     "station_name": "Dinsdale",
     "name_word_count": 1,
@@ -781,37 +687,6 @@
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
     "time_to_hub__newcastle": 155.0
-  },
-  {
-    "station_id": "NR_0166",
-    "station_name": "Flimby",
-    "name_word_count": 1,
-    "name_letter_count": 6,
-    "crs": "FLM",
-    "region": "Cumberland",
-    "operator": "Northern",
-    "route": [
-      "Cumbrian Coast Line"
-    ],
-    "is_interchange": false,
-    "is_coastal": true,
-    "terminus_max": 0,
-    "canonical_hub": "Newcastle",
-    "canonical_time_to_hub": 172.0,
-    "welsh_name": null,
-    "wordplay_category": "local_suffix",
-    "wordplay_difficulty": "medium",
-    "wordplay_score": 1,
-    "wordplay_tags": [
-      "by"
-    ],
-    "time_to_glasgow_central": null,
-    "time_to_victoria": null,
-    "time_to_charing_cross": null,
-    "time_to_euston": null,
-    "time_to_liverpool_street": null,
-    "time_to_stratford": null,
-    "time_to_hub__newcastle": 172.0
   },
   {
     "station_id": "NR_0181",
@@ -1130,38 +1005,6 @@
     "time_to_hub__newcastle": 40.0
   },
   {
-    "station_id": "NR_0210",
-    "station_name": "Harrington",
-    "name_word_count": 1,
-    "name_letter_count": 10,
-    "crs": "HRR",
-    "region": "Cumberland",
-    "operator": "Northern",
-    "route": [
-      "Cumbrian Coast Line"
-    ],
-    "is_interchange": false,
-    "is_coastal": true,
-    "terminus_max": 0,
-    "canonical_hub": "Newcastle",
-    "canonical_time_to_hub": 184.0,
-    "welsh_name": null,
-    "wordplay_category": "local_suffix",
-    "wordplay_difficulty": "medium",
-    "wordplay_score": 2,
-    "wordplay_tags": [
-      "ton",
-      "ington"
-    ],
-    "time_to_glasgow_central": null,
-    "time_to_victoria": null,
-    "time_to_charing_cross": null,
-    "time_to_euston": null,
-    "time_to_liverpool_street": null,
-    "time_to_stratford": null,
-    "time_to_hub__newcastle": 184.0
-  },
-  {
     "station_id": "NR_0206",
     "station_name": "Haltwhistle",
     "name_word_count": 1,
@@ -1397,35 +1240,6 @@
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
     "time_to_hub__newcastle": 14.0
-  },
-  {
-    "station_id": "NR_0293",
-    "station_name": "Maryport",
-    "name_word_count": 1,
-    "name_letter_count": 8,
-    "crs": "MRY",
-    "region": "Cumberland",
-    "operator": "Northern",
-    "route": [
-      "Cumbrian Coast Line"
-    ],
-    "is_interchange": false,
-    "is_coastal": true,
-    "terminus_max": 4,
-    "canonical_hub": "Newcastle",
-    "canonical_time_to_hub": 168.0,
-    "welsh_name": null,
-    "wordplay_category": "other",
-    "wordplay_difficulty": "easy",
-    "wordplay_score": 0,
-    "wordplay_tags": [],
-    "time_to_glasgow_central": null,
-    "time_to_victoria": null,
-    "time_to_charing_cross": null,
-    "time_to_euston": null,
-    "time_to_liverpool_street": null,
-    "time_to_stratford": null,
-    "time_to_hub__newcastle": 168.0
   },
   {
     "station_id": "NR_0291",
@@ -1680,37 +1494,6 @@
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
     "time_to_hub__newcastle": 27.0
-  },
-  {
-    "station_id": "NR_0341",
-    "station_name": "Parton",
-    "name_word_count": 1,
-    "name_letter_count": 6,
-    "crs": "PRN",
-    "region": "Cumberland",
-    "operator": "Northern",
-    "route": [
-      "Cumbrian Coast Line"
-    ],
-    "is_interchange": false,
-    "is_coastal": true,
-    "terminus_max": 0,
-    "canonical_hub": "Newcastle",
-    "canonical_time_to_hub": 194.0,
-    "welsh_name": null,
-    "wordplay_category": "local_suffix",
-    "wordplay_difficulty": "medium",
-    "wordplay_score": 1,
-    "wordplay_tags": [
-      "ton"
-    ],
-    "time_to_glasgow_central": null,
-    "time_to_victoria": null,
-    "time_to_charing_cross": null,
-    "time_to_euston": null,
-    "time_to_liverpool_street": null,
-    "time_to_stratford": null,
-    "time_to_hub__newcastle": 194.0
   },
   {
     "station_id": "NR_0356",
@@ -2265,99 +2048,6 @@
     "time_to_hub__newcastle": 33.0
   },
   {
-    "station_id": "NR_0463",
-    "station_name": "Wigton",
-    "name_word_count": 1,
-    "name_letter_count": 6,
-    "crs": "WGT",
-    "region": "Cumberland",
-    "operator": "Northern",
-    "route": [
-      "Cumbrian Coast Line"
-    ],
-    "is_interchange": false,
-    "is_coastal": false,
-    "terminus_max": 0,
-    "canonical_hub": "Newcastle",
-    "canonical_time_to_hub": 144.0,
-    "welsh_name": null,
-    "wordplay_category": "local_suffix",
-    "wordplay_difficulty": "medium",
-    "wordplay_score": 1,
-    "wordplay_tags": [
-      "ton"
-    ],
-    "time_to_glasgow_central": null,
-    "time_to_victoria": null,
-    "time_to_charing_cross": null,
-    "time_to_euston": null,
-    "time_to_liverpool_street": null,
-    "time_to_stratford": null,
-    "time_to_hub__newcastle": 144.0
-  },
-  {
-    "station_id": "NR_0471",
-    "station_name": "Workington",
-    "name_word_count": 1,
-    "name_letter_count": 10,
-    "crs": "WKG",
-    "region": "Cumberland",
-    "operator": "Northern",
-    "route": [
-      "Cumbrian Coast Line"
-    ],
-    "is_interchange": false,
-    "is_coastal": true,
-    "terminus_max": 0,
-    "canonical_hub": "Newcastle",
-    "canonical_time_to_hub": 177.0,
-    "welsh_name": null,
-    "wordplay_category": "local_suffix",
-    "wordplay_difficulty": "medium",
-    "wordplay_score": 2,
-    "wordplay_tags": [
-      "ton",
-      "ington"
-    ],
-    "time_to_glasgow_central": null,
-    "time_to_victoria": null,
-    "time_to_charing_cross": null,
-    "time_to_euston": null,
-    "time_to_liverpool_street": null,
-    "time_to_stratford": null,
-    "time_to_hub__newcastle": 177.0
-  },
-  {
-    "station_id": "NR_0452",
-    "station_name": "Wetheral",
-    "name_word_count": 1,
-    "name_letter_count": 8,
-    "crs": "WRL",
-    "region": "Cumberland",
-    "operator": "Northern",
-    "route": [
-      "Hadrian's Wall Country Line",
-      "Tyne Valley Line"
-    ],
-    "is_interchange": false,
-    "is_coastal": false,
-    "terminus_max": 0,
-    "canonical_hub": "Newcastle",
-    "canonical_time_to_hub": 84.0,
-    "welsh_name": null,
-    "wordplay_category": "other",
-    "wordplay_difficulty": "easy",
-    "wordplay_score": 0,
-    "wordplay_tags": [],
-    "time_to_glasgow_central": null,
-    "time_to_victoria": null,
-    "time_to_charing_cross": null,
-    "time_to_euston": null,
-    "time_to_liverpool_street": null,
-    "time_to_stratford": null,
-    "time_to_hub__newcastle": 84.0
-  },
-  {
     "station_id": "NR_0456",
     "station_name": "Whitby",
     "name_word_count": 1,
@@ -2417,38 +2107,6 @@
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
     "time_to_hub__newcastle": 20.0
-  },
-  {
-    "station_id": "NA_0079",
-    "station_name": "Carlisle",
-    "name_word_count": 1,
-    "name_letter_count": 8,
-    "crs": "CAR",
-    "region": "Cumberland",
-    "operator": "Northern",
-    "route": [
-      "Hadrian's Wall Country Line",
-      "Lakes Line",
-      "Settle Carlisle Line",
-      "Tyne Valley Line"
-    ],
-    "is_interchange": true,
-    "is_coastal": false,
-    "terminus_max": 247,
-    "canonical_hub": "Newcastle",
-    "canonical_time_to_hub": 90.0,
-    "welsh_name": null,
-    "wordplay_category": "other",
-    "wordplay_difficulty": "easy",
-    "wordplay_score": 0,
-    "wordplay_tags": [],
-    "time_to_glasgow_central": null,
-    "time_to_victoria": null,
-    "time_to_charing_cross": null,
-    "time_to_euston": null,
-    "time_to_liverpool_street": null,
-    "time_to_stratford": null,
-    "time_to_hub__newcastle": 90.0
   },
   {
     "station_id": "NA_0275",

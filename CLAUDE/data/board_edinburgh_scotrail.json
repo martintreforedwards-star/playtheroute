@@ -1075,35 +1075,6 @@
     "time_to_hub__edinburgh_waverley": 18.0
   },
   {
-    "station_id": "SC_0252",
-    "station_name": "Lockerbie",
-    "name_word_count": 1,
-    "name_letter_count": 9,
-    "crs": "LOC",
-    "region": "Dumfries and Galloway",
-    "operator": "Scotrail",
-    "route": [
-      "Highland Main Line"
-    ],
-    "is_interchange": false,
-    "is_coastal": false,
-    "terminus_max": 0,
-    "canonical_hub": "Edinburgh Waverley",
-    "canonical_time_to_hub": 62.0,
-    "welsh_name": null,
-    "wordplay_category": "other",
-    "wordplay_difficulty": "easy",
-    "wordplay_score": 0,
-    "wordplay_tags": [],
-    "time_to_glasgow_central": 60.0,
-    "time_to_victoria": null,
-    "time_to_charing_cross": null,
-    "time_to_euston": null,
-    "time_to_liverpool_street": null,
-    "time_to_stratford": null,
-    "time_to_hub__edinburgh_waverley": 62.0
-  },
-  {
     "station_id": "SC_0243",
     "station_name": "Livingston North",
     "name_word_count": 2,

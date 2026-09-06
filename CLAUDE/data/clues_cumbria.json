@@ -1,0 +1,257 @@
+{
+  "rowPool": [
+    {
+      "id": "row_0",
+      "type": "equality",
+      "field": "is_coastal",
+      "value": true,
+      "display": "On the Cumbrian Coast (a coastal station)",
+      "weight": "medium"
+    },
+    {
+      "id": "row_1",
+      "type": "equality",
+      "field": "is_coastal",
+      "value": false,
+      "display": "Not a coastal station",
+      "weight": "medium"
+    },
+    {
+      "id": "row_2",
+      "type": "equality",
+      "field": "changes_to_carlisle",
+      "value": 0,
+      "display": "Direct train to Carlisle",
+      "weight": "medium"
+    },
+    {
+      "id": "row_3",
+      "type": "equality",
+      "field": "changes_to_carlisle",
+      "value": 1,
+      "display": "Needs 1 change to reach Carlisle",
+      "weight": "medium"
+    },
+    {
+      "id": "row_4",
+      "type": "equality",
+      "field": "changes_to_barrow_in_furness",
+      "value": 0,
+      "display": "Direct train to Barrow-in-Furness",
+      "weight": "medium"
+    },
+    {
+      "id": "row_5",
+      "type": "equality",
+      "field": "changes_to_barrow_in_furness",
+      "value": "2+",
+      "display": "Needs 2+ changes to reach Barrow-in-Furness",
+      "weight": "medium"
+    },
+    {
+      "id": "row_6",
+      "type": "equality",
+      "field": "is_interchange",
+      "value": true,
+      "display": "An interchange station",
+      "weight": "medium"
+    },
+    {
+      "id": "row_7",
+      "type": "equality",
+      "field": "is_interchange",
+      "value": false,
+      "display": "Not an interchange station",
+      "weight": "medium"
+    }
+  ],
+  "columnPool": [
+    {
+      "id": "col_0",
+      "type": "array_contains",
+      "field": "route",
+      "value": "Cumbrian Coast Line",
+      "display": "On the Cumbrian Coast Line",
+      "weight": "medium"
+    },
+    {
+      "id": "col_1",
+      "type": "array_contains",
+      "field": "route",
+      "value": "Furness Line",
+      "display": "On the Furness Line",
+      "weight": "medium"
+    },
+    {
+      "id": "col_2",
+      "type": "array_contains",
+      "field": "route",
+      "value": "Lakes Line",
+      "display": "On the Lakes Line",
+      "weight": "medium"
+    },
+    {
+      "id": "col_3",
+      "type": "array_contains",
+      "field": "route",
+      "value": "Settle Carlisle Line",
+      "display": "On the Settle-Carlisle Line",
+      "weight": "medium"
+    },
+    {
+      "id": "col_4",
+      "type": "array_contains",
+      "field": "route",
+      "value": "Glasgow South Western Line",
+      "display": "On the Glasgow South Western Line",
+      "weight": "medium"
+    },
+    {
+      "id": "col_5",
+      "type": "array_contains",
+      "field": "route",
+      "value": "Tyne Valley Line",
+      "display": "On the Tyne Valley Line",
+      "weight": "medium"
+    },
+    {
+      "id": "col_6",
+      "type": "array_contains",
+      "field": "route",
+      "value": "Hadrian's Wall Country Line",
+      "display": "On the Hadrian's Wall Country Line",
+      "weight": "medium"
+    },
+    {
+      "id": "col_7",
+      "type": "equality",
+      "field": "region",
+      "value": "Dumfries and Galloway",
+      "display": "In the Dumfries and Galloway region",
+      "weight": "medium"
+    },
+    {
+      "id": "col_8",
+      "type": "equality",
+      "field": "region",
+      "value": "Westmorland and Furness",
+      "display": "In the Westmorland and Furness region",
+      "weight": "medium"
+    },
+    {
+      "id": "col_9",
+      "type": "equality",
+      "field": "region",
+      "value": "Cumberland",
+      "display": "In the Cumberland region",
+      "weight": "medium"
+    },
+    {
+      "id": "col_10",
+      "type": "equality",
+      "field": "usage_tier",
+      "value": "under_15k",
+      "display": "Under 15,000 passenger journeys a year",
+      "weight": "medium"
+    },
+    {
+      "id": "col_11",
+      "type": "equality",
+      "field": "usage_tier",
+      "value": "15k_to_50k",
+      "display": "15,000-50,000 passenger journeys a year",
+      "weight": "medium"
+    },
+    {
+      "id": "col_12",
+      "type": "equality",
+      "field": "usage_tier",
+      "value": "50k_to_150k",
+      "display": "50,000-150,000 passenger journeys a year",
+      "weight": "medium"
+    },
+    {
+      "id": "col_13",
+      "type": "equality",
+      "field": "usage_tier",
+      "value": "150k_to_400k",
+      "display": "150,000-400,000 passenger journeys a year",
+      "weight": "medium"
+    },
+    {
+      "id": "col_14",
+      "type": "equality",
+      "field": "usage_tier",
+      "value": "400k_plus",
+      "display": "Over 400,000 passenger journeys a year",
+      "weight": "medium"
+    },
+    {
+      "id": "col_15",
+      "type": "equality",
+      "field": "changes_to_windermere",
+      "value": 0,
+      "display": "Direct train to Windermere",
+      "weight": "medium"
+    },
+    {
+      "id": "col_16",
+      "type": "equality",
+      "field": "changes_to_oxenholme",
+      "value": 0,
+      "display": "Direct train to Oxenholme",
+      "weight": "medium"
+    },
+    {
+      "id": "col_17",
+      "type": "equality",
+      "field": "changes_to_dumfries",
+      "value": 0,
+      "display": "Direct train to Dumfries",
+      "weight": "medium"
+    },
+    {
+      "id": "col_18",
+      "type": "equality",
+      "field": "wordplay_category",
+      "value": "local_suffix",
+      "display": "Name ends in a classic place-name suffix",
+      "weight": "medium"
+    },
+    {
+      "id": "col_19",
+      "type": "equality",
+      "field": "wordplay_category",
+      "value": "structure",
+      "display": "Name has an unusual structural feature (hyphen, brackets, etc)",
+      "weight": "medium"
+    },
+    {
+      "id": "col_20",
+      "type": "range",
+      "field": "canonical_time_to_hub",
+      "min": 1,
+      "max": 20,
+      "display": "Under 20 minutes from Carlisle by train",
+      "weight": "medium"
+    },
+    {
+      "id": "col_21",
+      "type": "range",
+      "field": "canonical_time_to_hub",
+      "min": 21,
+      "max": 45,
+      "display": "21-45 minutes from Carlisle by train",
+      "weight": "medium"
+    },
+    {
+      "id": "col_22",
+      "type": "range",
+      "field": "canonical_time_to_hub",
+      "min": 46,
+      "max": 90,
+      "display": "Over 45 minutes from Carlisle by train",
+      "weight": "medium"
+    }
+  ]
+}

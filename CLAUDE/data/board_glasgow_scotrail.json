@@ -268,35 +268,6 @@
     "time_to_hub__glasgow_central_queen_st": 12.0
   },
   {
-    "station_id": "SC_0015",
-    "station_name": "Annan",
-    "name_word_count": 1,
-    "name_letter_count": 5,
-    "crs": "ANN",
-    "region": "Dumfries and Galloway",
-    "operator": "Scotrail",
-    "route": [
-      "Glasgow South Western Line"
-    ],
-    "is_interchange": false,
-    "is_coastal": true,
-    "terminus_max": 0,
-    "canonical_hub": "Glasgow (Central/Queen St)",
-    "canonical_time_to_hub": 129.0,
-    "welsh_name": null,
-    "wordplay_category": "other",
-    "wordplay_difficulty": "easy",
-    "wordplay_score": 0,
-    "wordplay_tags": [],
-    "time_to_glasgow_central": null,
-    "time_to_victoria": null,
-    "time_to_charing_cross": null,
-    "time_to_euston": null,
-    "time_to_liverpool_street": null,
-    "time_to_stratford": null,
-    "time_to_hub__glasgow_central_queen_st": 129.0
-  },
-  {
     "station_id": "SC_0024",
     "station_name": "Arisaig",
     "name_word_count": 1,
@@ -2541,35 +2512,6 @@
     "time_to_hub__glasgow_central_queen_st": 18.0
   },
   {
-    "station_id": "SC_0127",
-    "station_name": "Dumfries",
-    "name_word_count": 1,
-    "name_letter_count": 8,
-    "crs": "DMF",
-    "region": "Dumfries and Galloway",
-    "operator": "Scotrail",
-    "route": [
-      "Glasgow South Western Line"
-    ],
-    "is_interchange": false,
-    "is_coastal": false,
-    "terminus_max": 33,
-    "canonical_hub": "Glasgow (Central/Queen St)",
-    "canonical_time_to_hub": 108.0,
-    "welsh_name": null,
-    "wordplay_category": "other",
-    "wordplay_difficulty": "easy",
-    "wordplay_score": 0,
-    "wordplay_tags": [],
-    "time_to_glasgow_central": null,
-    "time_to_victoria": null,
-    "time_to_charing_cross": null,
-    "time_to_euston": null,
-    "time_to_liverpool_street": null,
-    "time_to_stratford": null,
-    "time_to_hub__glasgow_central_queen_st": 108.0
-  },
-  {
     "station_id": "SC_0112",
     "station_name": "Dalmuir",
     "name_word_count": 1,
@@ -3109,37 +3051,6 @@
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
     "time_to_hub__glasgow_central_queen_st": 54.0
-  },
-  {
-    "station_id": "SC_0180",
-    "station_name": "Gretna Green",
-    "name_word_count": 2,
-    "name_letter_count": 11,
-    "crs": "GEA",
-    "region": "Dumfries and Galloway",
-    "operator": "Scotrail",
-    "route": [
-      "Glasgow South Western Line"
-    ],
-    "is_interchange": false,
-    "is_coastal": true,
-    "terminus_max": 0,
-    "canonical_hub": "Glasgow (Central/Queen St)",
-    "canonical_time_to_hub": 138.0,
-    "welsh_name": null,
-    "wordplay_category": "nature",
-    "wordplay_difficulty": "medium",
-    "wordplay_score": 1,
-    "wordplay_tags": [
-      "green"
-    ],
-    "time_to_glasgow_central": null,
-    "time_to_victoria": null,
-    "time_to_charing_cross": null,
-    "time_to_euston": null,
-    "time_to_liverpool_street": null,
-    "time_to_stratford": null,
-    "time_to_hub__glasgow_central_queen_st": 138.0
   },
   {
     "station_id": "SC_0164",

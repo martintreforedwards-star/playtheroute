@@ -30,38 +30,6 @@
     "time_to_hub__sheffield": 68.0
   },
   {
-    "station_id": "NR_0013",
-    "station_name": "Appleby",
-    "name_word_count": 1,
-    "name_letter_count": 7,
-    "crs": "APP",
-    "region": "Westmorland and Furness",
-    "operator": "Northern",
-    "route": [
-      "Settle Carlisle Line"
-    ],
-    "is_interchange": false,
-    "is_coastal": false,
-    "terminus_max": 3,
-    "canonical_hub": "Leeds",
-    "canonical_time_to_hub": 120.0,
-    "welsh_name": null,
-    "wordplay_category": "local_suffix",
-    "wordplay_difficulty": "medium",
-    "wordplay_score": 1,
-    "wordplay_tags": [
-      "by"
-    ],
-    "time_to_glasgow_central": null,
-    "time_to_victoria": null,
-    "time_to_charing_cross": null,
-    "time_to_euston": null,
-    "time_to_liverpool_street": null,
-    "time_to_stratford": null,
-    "time_to_hub__leeds": 120.0,
-    "time_to_hub__sheffield": null
-  },
-  {
     "station_id": "NR_0012",
     "station_name": "Apperley Bridge",
     "name_word_count": 2,
@@ -155,36 +123,6 @@
     "time_to_stratford": null,
     "time_to_hub__leeds": null,
     "time_to_hub__sheffield": 50.0
-  },
-  {
-    "station_id": "NR_0016",
-    "station_name": "Armathwaite",
-    "name_word_count": 1,
-    "name_letter_count": 11,
-    "crs": "AWT",
-    "region": "Westmorland and Furness",
-    "operator": "Northern",
-    "route": [
-      "Settle Carlisle Line"
-    ],
-    "is_interchange": false,
-    "is_coastal": false,
-    "terminus_max": 0,
-    "canonical_hub": "Leeds",
-    "canonical_time_to_hub": 148.0,
-    "welsh_name": null,
-    "wordplay_category": "other",
-    "wordplay_difficulty": "easy",
-    "wordplay_score": 0,
-    "wordplay_tags": [],
-    "time_to_glasgow_central": null,
-    "time_to_victoria": null,
-    "time_to_charing_cross": null,
-    "time_to_euston": null,
-    "time_to_liverpool_street": null,
-    "time_to_stratford": null,
-    "time_to_hub__leeds": 148.0,
-    "time_to_hub__sheffield": null
   },
   {
     "station_id": "NR_0028",
@@ -1413,36 +1351,6 @@
     "time_to_hub__sheffield": null
   },
   {
-    "station_id": "NR_0135",
-    "station_name": "Dent",
-    "name_word_count": 1,
-    "name_letter_count": 4,
-    "crs": "DNT",
-    "region": "Westmorland and Furness",
-    "operator": "Northern",
-    "route": [
-      "Settle Carlisle Line"
-    ],
-    "is_interchange": false,
-    "is_coastal": false,
-    "terminus_max": 0,
-    "canonical_hub": "Leeds",
-    "canonical_time_to_hub": 90.0,
-    "welsh_name": null,
-    "wordplay_category": "other",
-    "wordplay_difficulty": "easy",
-    "wordplay_score": 0,
-    "wordplay_tags": [],
-    "time_to_glasgow_central": null,
-    "time_to_victoria": null,
-    "time_to_charing_cross": null,
-    "time_to_euston": null,
-    "time_to_liverpool_street": null,
-    "time_to_stratford": null,
-    "time_to_hub__leeds": 90.0,
-    "time_to_hub__sheffield": null
-  },
-  {
     "station_id": "NR_0140",
     "station_name": "Dodworth",
     "name_word_count": 1,
@@ -2172,38 +2080,6 @@
     "time_to_hub__sheffield": 12.0
   },
   {
-    "station_id": "NR_0175",
-    "station_name": "Garsdale",
-    "name_word_count": 1,
-    "name_letter_count": 8,
-    "crs": "GSD",
-    "region": "Westmorland and Furness",
-    "operator": "Northern",
-    "route": [
-      "Settle Carlisle Line"
-    ],
-    "is_interchange": false,
-    "is_coastal": false,
-    "terminus_max": 0,
-    "canonical_hub": "Leeds",
-    "canonical_time_to_hub": 94.0,
-    "welsh_name": null,
-    "wordplay_category": "local_suffix",
-    "wordplay_difficulty": "medium",
-    "wordplay_score": 1,
-    "wordplay_tags": [
-      "dale"
-    ],
-    "time_to_glasgow_central": null,
-    "time_to_victoria": null,
-    "time_to_charing_cross": null,
-    "time_to_euston": null,
-    "time_to_liverpool_street": null,
-    "time_to_stratford": null,
-    "time_to_hub__leeds": 94.0,
-    "time_to_hub__sheffield": null
-  },
-  {
     "station_id": "NR_0198",
     "station_name": "Guiseley",
     "name_word_count": 1,
@@ -2879,37 +2755,6 @@
     "time_to_hub__sheffield": null
   },
   {
-    "station_id": "NR_0254",
-    "station_name": "Kendal",
-    "name_word_count": 1,
-    "name_letter_count": 6,
-    "crs": "KEN",
-    "region": "Westmorland and Furness",
-    "operator": "Northern",
-    "route": [
-      "Cumbrian Coast Line",
-      "Lakes Line"
-    ],
-    "is_interchange": true,
-    "is_coastal": false,
-    "terminus_max": 0,
-    "canonical_hub": "Leeds",
-    "canonical_time_to_hub": 189.0,
-    "welsh_name": null,
-    "wordplay_category": "other",
-    "wordplay_difficulty": "easy",
-    "wordplay_score": 0,
-    "wordplay_tags": [],
-    "time_to_glasgow_central": null,
-    "time_to_victoria": null,
-    "time_to_charing_cross": null,
-    "time_to_euston": null,
-    "time_to_liverpool_street": null,
-    "time_to_stratford": null,
-    "time_to_hub__leeds": 189.0,
-    "time_to_hub__sheffield": null
-  },
-  {
     "station_id": "NR_0263",
     "station_name": "Kiveton Bridge",
     "name_word_count": 2,
@@ -3066,38 +2911,6 @@
     "time_to_hub__sheffield": null
   },
   {
-    "station_id": "NR_0258",
-    "station_name": "Kirkby Stephen",
-    "name_word_count": 2,
-    "name_letter_count": 13,
-    "crs": "KSW",
-    "region": "Westmorland and Furness",
-    "operator": "Northern",
-    "route": [
-      "Settle Carlisle Line"
-    ],
-    "is_interchange": false,
-    "is_coastal": false,
-    "terminus_max": 0,
-    "canonical_hub": "Leeds",
-    "canonical_time_to_hub": 106.0,
-    "welsh_name": null,
-    "wordplay_category": "local_suffix",
-    "wordplay_difficulty": "medium",
-    "wordplay_score": 1,
-    "wordplay_tags": [
-      "by"
-    ],
-    "time_to_glasgow_central": null,
-    "time_to_victoria": null,
-    "time_to_charing_cross": null,
-    "time_to_euston": null,
-    "time_to_liverpool_street": null,
-    "time_to_stratford": null,
-    "time_to_hub__leeds": 106.0,
-    "time_to_hub__sheffield": null
-  },
-  {
     "station_id": "NR_0262",
     "station_name": "Kirton Lindsey",
     "name_word_count": 2,
@@ -3194,38 +3007,6 @@
     "time_to_hub__sheffield": 74.0
   },
   {
-    "station_id": "NR_0269",
-    "station_name": "Langwathby",
-    "name_word_count": 1,
-    "name_letter_count": 10,
-    "crs": "LGW",
-    "region": "Westmorland and Furness",
-    "operator": "Northern",
-    "route": [
-      "Settle Carlisle Line"
-    ],
-    "is_interchange": false,
-    "is_coastal": false,
-    "terminus_max": 0,
-    "canonical_hub": "Leeds",
-    "canonical_time_to_hub": 134.0,
-    "welsh_name": null,
-    "wordplay_category": "local_suffix",
-    "wordplay_difficulty": "medium",
-    "wordplay_score": 1,
-    "wordplay_tags": [
-      "by"
-    ],
-    "time_to_glasgow_central": null,
-    "time_to_victoria": null,
-    "time_to_charing_cross": null,
-    "time_to_euston": null,
-    "time_to_liverpool_street": null,
-    "time_to_stratford": null,
-    "time_to_hub__leeds": 134.0,
-    "time_to_hub__sheffield": null
-  },
-  {
     "station_id": "NR_0283",
     "station_name": "Low Moor",
     "name_word_count": 2,
@@ -3287,39 +3068,6 @@
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
     "time_to_hub__leeds": 60.0,
-    "time_to_hub__sheffield": null
-  },
-  {
-    "station_id": "NR_0271",
-    "station_name": "Lazonby & Kirkoswald",
-    "name_word_count": 2,
-    "name_letter_count": 17,
-    "crs": "LZB",
-    "region": "Westmorland and Furness",
-    "operator": "Northern",
-    "route": [
-      "Settle Carlisle Line"
-    ],
-    "is_interchange": false,
-    "is_coastal": false,
-    "terminus_max": 0,
-    "canonical_hub": "Leeds",
-    "canonical_time_to_hub": 141.0,
-    "welsh_name": null,
-    "wordplay_category": "structure",
-    "wordplay_difficulty": "hard",
-    "wordplay_score": 2,
-    "wordplay_tags": [
-      "ampersand",
-      "by"
-    ],
-    "time_to_glasgow_central": null,
-    "time_to_victoria": null,
-    "time_to_charing_cross": null,
-    "time_to_euston": null,
-    "time_to_liverpool_street": null,
-    "time_to_stratford": null,
-    "time_to_hub__leeds": 141.0,
     "time_to_hub__sheffield": null
   },
   {

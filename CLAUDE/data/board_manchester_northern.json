@@ -284,36 +284,6 @@
     "time_to_hub__manchester_picc_vic": 56.0
   },
   {
-    "station_id": "NR_0017",
-    "station_name": "Arnside",
-    "name_word_count": 1,
-    "name_letter_count": 7,
-    "crs": "ARN",
-    "region": "Westmorland and Furness",
-    "operator": "Northern",
-    "route": [
-      "Cumbrian Coast Line",
-      "Furness Line"
-    ],
-    "is_interchange": true,
-    "is_coastal": true,
-    "terminus_max": 0,
-    "canonical_hub": "Manchester (Picc/Vic)",
-    "canonical_time_to_hub": 88.0,
-    "welsh_name": null,
-    "wordplay_category": "other",
-    "wordplay_difficulty": "easy",
-    "wordplay_score": 0,
-    "wordplay_tags": [],
-    "time_to_glasgow_central": null,
-    "time_to_victoria": null,
-    "time_to_charing_cross": null,
-    "time_to_euston": null,
-    "time_to_liverpool_street": null,
-    "time_to_stratford": null,
-    "time_to_hub__manchester_picc_vic": 88.0
-  },
-  {
     "station_id": "NR_0021",
     "station_name": "Ashley",
     "name_word_count": 1,
@@ -557,38 +527,6 @@
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
     "time_to_hub__manchester_picc_vic": 52.0
-  },
-  {
-    "station_id": "NR_0032",
-    "station_name": "Barrow-in-Furness",
-    "name_word_count": 3,
-    "name_letter_count": 15,
-    "crs": "BIF",
-    "region": "Westmorland and Furness",
-    "operator": "Northern",
-    "route": [
-      "Cumbrian Coast Line",
-      "Furness Line"
-    ],
-    "is_interchange": true,
-    "is_coastal": true,
-    "terminus_max": 66,
-    "canonical_hub": "Manchester (Picc/Vic)",
-    "canonical_time_to_hub": 127.0,
-    "welsh_name": null,
-    "wordplay_category": "structure",
-    "wordplay_difficulty": "hard",
-    "wordplay_score": 1,
-    "wordplay_tags": [
-      "hyphen"
-    ],
-    "time_to_glasgow_central": null,
-    "time_to_victoria": null,
-    "time_to_charing_cross": null,
-    "time_to_euston": null,
-    "time_to_liverpool_street": null,
-    "time_to_stratford": null,
-    "time_to_hub__manchester_picc_vic": 127.0
   },
   {
     "station_id": "NR_0052",
@@ -994,38 +932,6 @@
     "time_to_hub__manchester_picc_vic": 78.0
   },
   {
-    "station_id": "NR_0080",
-    "station_name": "Burneside (Cumbria)",
-    "name_word_count": 1,
-    "name_letter_count": 16,
-    "crs": "BUD",
-    "region": "Westmorland and Furness",
-    "operator": "Northern",
-    "route": [
-      "Cumbrian Coast Line",
-      "Lakes Line"
-    ],
-    "is_interchange": true,
-    "is_coastal": false,
-    "terminus_max": 0,
-    "canonical_hub": "Manchester (Picc/Vic)",
-    "canonical_time_to_hub": 110.0,
-    "welsh_name": null,
-    "wordplay_category": "structure",
-    "wordplay_difficulty": "hard",
-    "wordplay_score": 1,
-    "wordplay_tags": [
-      "brackets"
-    ],
-    "time_to_glasgow_central": null,
-    "time_to_victoria": null,
-    "time_to_charing_cross": null,
-    "time_to_euston": null,
-    "time_to_liverpool_street": null,
-    "time_to_stratford": null,
-    "time_to_hub__manchester_picc_vic": 110.0
-  },
-  {
     "station_id": "NR_0086",
     "station_name": "Buxton",
     "name_word_count": 1,
@@ -1116,38 +1022,6 @@
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
     "time_to_hub__manchester_picc_vic": 46.0
-  },
-  {
-    "station_id": "NR_0087",
-    "station_name": "Cark & Cartmel",
-    "name_word_count": 2,
-    "name_letter_count": 11,
-    "crs": "CAK",
-    "region": "Westmorland and Furness",
-    "operator": "Northern",
-    "route": [
-      "Cumbrian Coast Line",
-      "Furness Line"
-    ],
-    "is_interchange": true,
-    "is_coastal": true,
-    "terminus_max": 0,
-    "canonical_hub": "Manchester (Picc/Vic)",
-    "canonical_time_to_hub": 101.0,
-    "welsh_name": null,
-    "wordplay_category": "structure",
-    "wordplay_difficulty": "hard",
-    "wordplay_score": 1,
-    "wordplay_tags": [
-      "ampersand"
-    ],
-    "time_to_glasgow_central": null,
-    "time_to_victoria": null,
-    "time_to_charing_cross": null,
-    "time_to_euston": null,
-    "time_to_liverpool_street": null,
-    "time_to_stratford": null,
-    "time_to_hub__manchester_picc_vic": 101.0
   },
   {
     "station_id": "NR_0090",
@@ -1618,39 +1492,6 @@
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
     "time_to_hub__manchester_picc_vic": 5.0
-  },
-  {
-    "station_id": "NR_0125",
-    "station_name": "Dalton (Cumbria)",
-    "name_word_count": 1,
-    "name_letter_count": 13,
-    "crs": "DLT",
-    "region": "Westmorland and Furness",
-    "operator": "Northern",
-    "route": [
-      "Cumbrian Coast Line",
-      "Furness Line"
-    ],
-    "is_interchange": true,
-    "is_coastal": false,
-    "terminus_max": 0,
-    "canonical_hub": "Manchester (Picc/Vic)",
-    "canonical_time_to_hub": 116.0,
-    "welsh_name": null,
-    "wordplay_category": "structure",
-    "wordplay_difficulty": "hard",
-    "wordplay_score": 2,
-    "wordplay_tags": [
-      "brackets",
-      "ton"
-    ],
-    "time_to_glasgow_central": null,
-    "time_to_victoria": null,
-    "time_to_charing_cross": null,
-    "time_to_euston": null,
-    "time_to_liverpool_street": null,
-    "time_to_stratford": null,
-    "time_to_hub__manchester_picc_vic": 116.0
   },
   {
     "station_id": "NR_0139",
@@ -2287,38 +2128,6 @@
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
     "time_to_hub__manchester_picc_vic": 18.0
-  },
-  {
-    "station_id": "NR_0190",
-    "station_name": "Grange-over-Sands",
-    "name_word_count": 3,
-    "name_letter_count": 15,
-    "crs": "GOS",
-    "region": "Westmorland and Furness",
-    "operator": "Northern",
-    "route": [
-      "Cumbrian Coast Line",
-      "Furness Line"
-    ],
-    "is_interchange": true,
-    "is_coastal": true,
-    "terminus_max": 0,
-    "canonical_hub": "Manchester (Picc/Vic)",
-    "canonical_time_to_hub": 93.0,
-    "welsh_name": null,
-    "wordplay_category": "structure",
-    "wordplay_difficulty": "hard",
-    "wordplay_score": 1,
-    "wordplay_tags": [
-      "hyphen"
-    ],
-    "time_to_glasgow_central": null,
-    "time_to_victoria": null,
-    "time_to_charing_cross": null,
-    "time_to_euston": null,
-    "time_to_liverpool_street": null,
-    "time_to_stratford": null,
-    "time_to_hub__manchester_picc_vic": 93.0
   },
   {
     "station_id": "NR_0177",
@@ -3092,36 +2901,6 @@
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
     "time_to_hub__manchester_picc_vic": 18.0
-  },
-  {
-    "station_id": "NR_0255",
-    "station_name": "Kents Bank",
-    "name_word_count": 2,
-    "name_letter_count": 9,
-    "crs": "KBK",
-    "region": "Westmorland and Furness",
-    "operator": "Northern",
-    "route": [
-      "Cumbrian Coast Line",
-      "Furness Line"
-    ],
-    "is_interchange": true,
-    "is_coastal": true,
-    "terminus_max": 0,
-    "canonical_hub": "Manchester (Picc/Vic)",
-    "canonical_time_to_hub": 97.0,
-    "welsh_name": null,
-    "wordplay_category": "other",
-    "wordplay_difficulty": "easy",
-    "wordplay_score": 0,
-    "wordplay_tags": [],
-    "time_to_glasgow_central": null,
-    "time_to_victoria": null,
-    "time_to_charing_cross": null,
-    "time_to_euston": null,
-    "time_to_liverpool_street": null,
-    "time_to_stratford": null,
-    "time_to_hub__manchester_picc_vic": 97.0
   },
   {
     "station_id": "NR_0260",
@@ -4740,36 +4519,6 @@
     "time_to_hub__manchester_picc_vic": 26.0
   },
   {
-    "station_id": "NR_0374",
-    "station_name": "Roose",
-    "name_word_count": 1,
-    "name_letter_count": 5,
-    "crs": "ROO",
-    "region": "Westmorland and Furness",
-    "operator": "Northern",
-    "route": [
-      "Cumbrian Coast Line",
-      "Furness Line"
-    ],
-    "is_interchange": true,
-    "is_coastal": true,
-    "terminus_max": 0,
-    "canonical_hub": "Manchester (Picc/Vic)",
-    "canonical_time_to_hub": 123.0,
-    "welsh_name": null,
-    "wordplay_category": "other",
-    "wordplay_difficulty": "easy",
-    "wordplay_score": 0,
-    "wordplay_tags": [],
-    "time_to_glasgow_central": null,
-    "time_to_victoria": null,
-    "time_to_charing_cross": null,
-    "time_to_euston": null,
-    "time_to_liverpool_street": null,
-    "time_to_stratford": null,
-    "time_to_hub__manchester_picc_vic": 123.0
-  },
-  {
     "station_id": "NR_0380",
     "station_name": "Ryder Brow",
     "name_word_count": 2,
@@ -5077,40 +4826,6 @@
     "time_to_hub__manchester_picc_vic": 30.0
   },
   {
-    "station_id": "NR_0420",
-    "station_name": "Staveley (Cumbria)",
-    "name_word_count": 1,
-    "name_letter_count": 15,
-    "crs": "SVL",
-    "region": "Westmorland and Furness",
-    "operator": "Northern",
-    "route": [
-      "Cumbrian Coast Line",
-      "Lakes Line"
-    ],
-    "is_interchange": true,
-    "is_coastal": false,
-    "terminus_max": 0,
-    "canonical_hub": "Manchester (Picc/Vic)",
-    "canonical_time_to_hub": 115.0,
-    "welsh_name": null,
-    "wordplay_category": "structure",
-    "wordplay_difficulty": "hard",
-    "wordplay_score": 3,
-    "wordplay_tags": [
-      "brackets",
-      "ey",
-      "ley"
-    ],
-    "time_to_glasgow_central": null,
-    "time_to_victoria": null,
-    "time_to_charing_cross": null,
-    "time_to_euston": null,
-    "time_to_liverpool_street": null,
-    "time_to_stratford": null,
-    "time_to_hub__manchester_picc_vic": 115.0
-  },
-  {
     "station_id": "NR_0403",
     "station_name": "Silverdale",
     "name_word_count": 1,
@@ -5259,38 +4974,6 @@
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
     "time_to_hub__manchester_picc_vic": 33.0
-  },
-  {
-    "station_id": "NR_0439",
-    "station_name": "Ulverston",
-    "name_word_count": 1,
-    "name_letter_count": 9,
-    "crs": "ULV",
-    "region": "Westmorland and Furness",
-    "operator": "Northern",
-    "route": [
-      "Cumbrian Coast Line",
-      "Furness Line"
-    ],
-    "is_interchange": true,
-    "is_coastal": false,
-    "terminus_max": 0,
-    "canonical_hub": "Manchester (Picc/Vic)",
-    "canonical_time_to_hub": 108.0,
-    "welsh_name": null,
-    "wordplay_category": "local_suffix",
-    "wordplay_difficulty": "medium",
-    "wordplay_score": 1,
-    "wordplay_tags": [
-      "ton"
-    ],
-    "time_to_glasgow_central": null,
-    "time_to_victoria": null,
-    "time_to_charing_cross": null,
-    "time_to_euston": null,
-    "time_to_liverpool_street": null,
-    "time_to_stratford": null,
-    "time_to_hub__manchester_picc_vic": 108.0
   },
   {
     "station_id": "NR_0440",
@@ -5480,36 +5163,6 @@
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
     "time_to_hub__manchester_picc_vic": 44.0
-  },
-  {
-    "station_id": "NR_0465",
-    "station_name": "Windermere",
-    "name_word_count": 1,
-    "name_letter_count": 10,
-    "crs": "WDM",
-    "region": "Westmorland and Furness",
-    "operator": "Northern",
-    "route": [
-      "Cumbrian Coast Line",
-      "Lakes Line"
-    ],
-    "is_interchange": true,
-    "is_coastal": false,
-    "terminus_max": 39,
-    "canonical_hub": "Manchester (Picc/Vic)",
-    "canonical_time_to_hub": 120.0,
-    "welsh_name": null,
-    "wordplay_category": "other",
-    "wordplay_difficulty": "easy",
-    "wordplay_score": 0,
-    "wordplay_tags": [],
-    "time_to_glasgow_central": null,
-    "time_to_victoria": null,
-    "time_to_charing_cross": null,
-    "time_to_euston": null,
-    "time_to_liverpool_street": null,
-    "time_to_stratford": null,
-    "time_to_hub__manchester_picc_vic": 120.0
   },
   {
     "station_id": "NR_0444",

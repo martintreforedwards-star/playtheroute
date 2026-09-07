@@ -7,7 +7,7 @@
       "label": "Interchange station",
       "weight": "high",
       "match_count": 40,
-      "display": "Change trains here",
+      "display": "Is an interchange station",
       "hint": "Served by two or more separate named routes, or where several lines physically meet.",
       "id": "row_0"
     },
@@ -39,7 +39,7 @@
       "value": 1,
       "label": "One-word name",
       "weight": "medium",
-      "match_count": 118,
+      "match_count": 119,
       "display": "Station name is one word",
       "hint": "Station is a one-word name.",
       "id": "row_3"
@@ -52,7 +52,7 @@
       "weight": "high",
       "match_count": 19,
       "display": "Station name is 3+ words",
-      "hint": "Station name is three or more words long. Hyphens and ampersands (&) each count as a word separator, so a name like 'Ashton-under-Lyne' counts as three words.",
+      "hint": "Station name is three or more words long.",
       "id": "row_4"
     },
     {
@@ -74,7 +74,7 @@
       "min": 7,
       "max": 10,
       "weight": "medium",
-      "match_count": 96,
+      "match_count": 97,
       "display": "Station name is 7-10 letters",
       "hint": "Station name length is between 7 and 10 characters.",
       "id": "row_6"
@@ -100,7 +100,7 @@
       "category": "geography",
       "match_count": 36,
       "display": "Is within the Cornwall region",
-      "hint": "This station is based within the Cornwall region. Other stations in this puzzle within this region include Bodmin Parkway and Bugle.",
+      "hint": "This station is based within the Cornwall region.",
       "id": "col_0"
     },
     {
@@ -111,7 +111,7 @@
       "category": "geography",
       "match_count": 11,
       "display": "Is within the Wiltshire region",
-      "hint": "This station is based within the Wiltshire region. Other stations in this puzzle within this region include Avoncliff and Bedwyn.",
+      "hint": "This station is based within the Wiltshire region.",
       "id": "col_1"
     },
     {
@@ -122,8 +122,19 @@
       "category": "geography",
       "match_count": 10,
       "display": "Is within the West London region",
-      "hint": "This station is based within the West London region. Other stations in this puzzle within this region include Castle Bar Park and Drayton Green.",
+      "hint": "This station is based within the West London region.",
       "id": "col_2"
+    },
+    {
+      "type": "equals",
+      "field": "region",
+      "value": "West Berkshire",
+      "label": "Region: West Berkshire",
+      "category": "geography",
+      "match_count": 10,
+      "display": "Is within the West Berkshire region",
+      "hint": "This station is based within the West Berkshire region.",
+      "id": "col_3"
     },
     {
       "type": "equals",
@@ -133,18 +144,7 @@
       "category": "geography",
       "match_count": 9,
       "display": "Is within the Exeter region",
-      "hint": "This station is based within the Exeter region. Other stations in this puzzle within this region include Digby & Sowton and Exeter Central.",
-      "id": "col_3"
-    },
-    {
-      "type": "equals",
-      "field": "region",
-      "value": "West Berkshire",
-      "label": "Region: West Berkshire",
-      "category": "geography",
-      "match_count": 9,
-      "display": "Is within the West Berkshire region",
-      "hint": "This station is based within the West Berkshire region. Other stations in this puzzle within this region include Aldermaston and Kintbury.",
+      "hint": "This station is based within the Exeter region.",
       "id": "col_4"
     },
     {
@@ -155,7 +155,7 @@
       "category": "geography",
       "match_count": 8,
       "display": "Is within the West Oxfordshire region",
-      "hint": "This station is based within the West Oxfordshire region. Other stations in this puzzle within this region include Ascott-under-Wychwood and Charlbury.",
+      "hint": "This station is based within the West Oxfordshire region.",
       "id": "col_5"
     },
     {
@@ -166,7 +166,7 @@
       "category": "geography",
       "match_count": 8,
       "display": "Is within the Mid Devon region",
-      "hint": "This station is based within the Mid Devon region. Other stations in this puzzle within this region include Copplestone and Crediton.",
+      "hint": "This station is based within the Mid Devon region.",
       "id": "col_6"
     },
     {
@@ -177,7 +177,7 @@
       "category": "geography",
       "match_count": 6,
       "display": "Is within the Plymouth region",
-      "hint": "This station is based within the Plymouth region. Other stations in this puzzle within this region include Devonport and Dockyard (Devonport).",
+      "hint": "This station is based within the Plymouth region.",
       "id": "col_7"
     },
     {
@@ -188,7 +188,7 @@
       "category": "geography",
       "match_count": 6,
       "display": "Is within the South Oxfordshire region",
-      "hint": "This station is based within the South Oxfordshire region. Other stations in this puzzle within this region include Cholsey and Culham.",
+      "hint": "This station is based within the South Oxfordshire region.",
       "id": "col_8"
     },
     {
@@ -199,7 +199,7 @@
       "category": "geography",
       "match_count": 5,
       "display": "Is within the North Devon region",
-      "hint": "This station is based within the North Devon region. Other stations in this puzzle within this region include Barnstaple and Chapleton.",
+      "hint": "This station is based within the North Devon region.",
       "id": "col_9"
     },
     {
@@ -208,7 +208,7 @@
       "max": 85.0,
       "label": "Time to London: shortest third",
       "category": "service",
-      "match_count": 66,
+      "match_count": 67,
       "display": "A short journey to London",
       "hint": "In this puzzle, 'short' means under 85 minutes to London.",
       "id": "col_10"
@@ -217,23 +217,23 @@
       "type": "range",
       "field": "time_to_hub__london",
       "min": 85.0,
-      "max": 165.0,
+      "max": 162.0,
       "label": "Time to London: middle third",
       "category": "service",
-      "match_count": 67,
+      "match_count": 64,
       "display": "A mid-range journey to London",
-      "hint": "In this puzzle, 'mid-range' means 85-165 minutes to London.",
+      "hint": "In this puzzle, 'mid-range' means 85-162 minutes to London.",
       "id": "col_11"
     },
     {
       "type": "range",
       "field": "time_to_hub__london",
-      "min": 165.0,
+      "min": 162.0,
       "label": "Time to London: longest third",
       "category": "service",
-      "match_count": 63,
+      "match_count": 64,
       "display": "A long journey to London",
-      "hint": "In this puzzle, 'long' means 165+ minutes to London.",
+      "hint": "In this puzzle, 'long' means 162+ minutes to London.",
       "id": "col_12"
     },
     {
@@ -244,7 +244,7 @@
       "category": "route",
       "match_count": 42,
       "display": "Is part of the Great Western Main Line route",
-      "hint": "A station on the Great Western Main Line route. Other stations in this puzzle on this route include Bodmin Parkway and Burnham.",
+      "hint": "A station on the Great Western Main Line route.",
       "id": "col_13"
     },
     {
@@ -255,7 +255,7 @@
       "category": "route",
       "match_count": 14,
       "display": "Is part of the Heart of Wessex Line route",
-      "hint": "A station on the Heart of Wessex Line route. Other stations in this puzzle on this route include Bruton and Castle Cary.",
+      "hint": "A station on the Heart of Wessex Line route.",
       "id": "col_14"
     },
     {
@@ -266,7 +266,7 @@
       "category": "route",
       "match_count": 13,
       "display": "Is part of the Oxford & Hereford Line route",
-      "hint": "A station on the Oxford & Hereford Line route. Other stations in this puzzle on this route include Appleford and Ascott-under-Wychwood.",
+      "hint": "A station on the Oxford & Hereford Line route.",
       "id": "col_15"
     },
     {
@@ -277,7 +277,7 @@
       "category": "route",
       "match_count": 11,
       "display": "Is part of the Golden Valley Line route",
-      "hint": "A station on the Golden Valley Line route. Other stations in this puzzle on this route include Ashchurch for Tewkesbury and Cam & Dursley.",
+      "hint": "A station on the Golden Valley Line route.",
       "id": "col_16"
     },
     {
@@ -288,7 +288,7 @@
       "category": "route",
       "match_count": 11,
       "display": "Is part of the North Downs route",
-      "hint": "A station on the North Downs route. Other stations in this puzzle on this route include Betchworth and Blackwater.",
+      "hint": "A station on the North Downs route.",
       "id": "col_17"
     },
     {
@@ -299,8 +299,19 @@
       "category": "route",
       "match_count": 11,
       "display": "Is part of the Tarka Line route",
-      "hint": "A station on the Tarka Line route. Other stations in this puzzle on this route include Barnstaple and Chapleton.",
+      "hint": "A station on the Tarka Line route.",
       "id": "col_18"
+    },
+    {
+      "type": "array_contains",
+      "field": "route",
+      "value": "Berks & Hants Line",
+      "label": "Route: Berks & Hants Line",
+      "category": "route",
+      "match_count": 11,
+      "display": "Is part of the Berks & Hants Line route",
+      "hint": "A station on the Berks & Hants Line route.",
+      "id": "col_19"
     },
     {
       "type": "array_contains",
@@ -310,8 +321,8 @@
       "category": "route",
       "match_count": 10,
       "display": "Is part of the Cornish Main Line route",
-      "hint": "A station on the Cornish Main Line route. Other stations in this puzzle on this route include Devonport and Dockyard (Devonport).",
-      "id": "col_19"
+      "hint": "A station on the Cornish Main Line route.",
+      "id": "col_20"
     },
     {
       "type": "array_contains",
@@ -321,18 +332,7 @@
       "category": "route",
       "match_count": 10,
       "display": "Is part of the Exmouth Branch route",
-      "hint": "A station on the Exmouth Branch route. Other stations in this puzzle on this route include Digby & Sowton and Exeter Central.",
-      "id": "col_20"
-    },
-    {
-      "type": "array_contains",
-      "field": "route",
-      "value": "Berks & Hants Line",
-      "label": "Route: Berks & Hants Line",
-      "category": "route",
-      "match_count": 10,
-      "display": "Is part of the Berks & Hants Line route",
-      "hint": "A station on the Berks & Hants Line route. Other stations in this puzzle on this route include Aldermaston and Bedwyn.",
+      "hint": "A station on the Exmouth Branch route.",
       "id": "col_21"
     },
     {
@@ -343,7 +343,7 @@
       "category": "route",
       "match_count": 9,
       "display": "Is part of the Severn Beach Line route",
-      "hint": "A station on the Severn Beach Line route. Other stations in this puzzle on this route include Bedminster and Filton Abbey Wood.",
+      "hint": "A station on the Severn Beach Line route.",
       "id": "col_22"
     },
     {
@@ -354,7 +354,7 @@
       "category": "route",
       "match_count": 8,
       "display": "Is part of the Tamar Valley Line route",
-      "hint": "A station on the Tamar Valley Line route. Other stations in this puzzle on this route include Bere Alston and Bere Ferrers.",
+      "hint": "A station on the Tamar Valley Line route.",
       "id": "col_23"
     },
     {
@@ -365,7 +365,7 @@
       "category": "route",
       "match_count": 6,
       "display": "Is part of the Atlantic Coast Line route",
-      "hint": "A station on the Atlantic Coast Line route. Other stations in this puzzle on this route include Bugle and Luxulyan.",
+      "hint": "A station on the Atlantic Coast Line route.",
       "id": "col_24"
     },
     {
@@ -376,7 +376,7 @@
       "category": "route",
       "match_count": 5,
       "display": "Is part of the Riviera Line route",
-      "hint": "A station on the Riviera Line route. Other stations in this puzzle on this route include Exeter St Thomas and Marsh Barton.",
+      "hint": "A station on the Riviera Line route.",
       "id": "col_25"
     },
     {
@@ -387,7 +387,7 @@
       "category": "route",
       "match_count": 5,
       "display": "Is part of the Greenford Branch route",
-      "hint": "A station on the Greenford Branch route. Other stations in this puzzle on this route include Castle Bar Park and Drayton Green.",
+      "hint": "A station on the Greenford Branch route.",
       "id": "col_26"
     },
     {
@@ -398,7 +398,7 @@
       "category": "route",
       "match_count": 5,
       "display": "Is part of the Looe Valley Line route",
-      "hint": "A station on the Looe Valley Line route. Other stations in this puzzle on this route include Causeland and Coombe Junction Halt.",
+      "hint": "A station on the Looe Valley Line route.",
       "id": "col_27"
     },
     {
@@ -407,7 +407,7 @@
       "value": "local_suffix",
       "label": "Wordplay: local_suffix",
       "category": "name",
-      "match_count": 66,
+      "match_count": 67,
       "display": "Naming style: a common English place-name ending",
       "hint": "The name ends in a common English place-name suffix, like -ton, -ham, -by or -dale.",
       "id": "col_28"
@@ -442,7 +442,7 @@
       "category": "name",
       "match_count": 25,
       "display": "Word contains 'ton'",
-      "hint": "Word contains 'ton'. For example: Aldermaston and Bere Alston.",
+      "hint": "Word contains 'ton'.",
       "id": "col_31"
     },
     {
@@ -453,8 +453,19 @@
       "category": "name",
       "match_count": 13,
       "display": "Word contains 'ham'",
-      "hint": "Word contains 'ham'. For example: Burnham and Cheltenham Spa.",
+      "hint": "Word contains 'ham'.",
       "id": "col_32"
+    },
+    {
+      "type": "array_contains",
+      "field": "wordplay_tags",
+      "value": "ford",
+      "label": "Name contains 'ford'",
+      "category": "name",
+      "match_count": 13,
+      "display": "Word contains 'ford'",
+      "hint": "Word contains 'ford'.",
+      "id": "col_33"
     },
     {
       "type": "array_contains",
@@ -464,8 +475,8 @@
       "category": "name",
       "match_count": 12,
       "display": "Word contains 'ey'",
-      "hint": "Word contains 'ey'. For example: Ashley Down and Bramley.",
-      "id": "col_33"
+      "hint": "Word contains 'ey'.",
+      "id": "col_34"
     },
     {
       "type": "array_contains",
@@ -476,17 +487,6 @@
       "match_count": 12,
       "display": "Name includes 'St'",
       "hint": "The station name includes 'St' (Saint).",
-      "id": "col_34"
-    },
-    {
-      "type": "array_contains",
-      "field": "wordplay_tags",
-      "value": "ford",
-      "label": "Name contains 'ford'",
-      "category": "name",
-      "match_count": 12,
-      "display": "Word contains 'ford'",
-      "hint": "Word contains 'ford'. For example: Appleford and Bradford-on-Avon.",
       "id": "col_35"
     },
     {
@@ -497,7 +497,7 @@
       "category": "name",
       "match_count": 9,
       "display": "Word contains 'park'",
-      "hint": "Word contains 'park'. For example: Bodmin Parkway and Castle Bar Park.",
+      "hint": "Word contains 'park'.",
       "id": "col_36"
     },
     {
@@ -508,7 +508,7 @@
       "category": "name",
       "match_count": 8,
       "display": "Word contains 'ley'",
-      "hint": "Word contains 'ley'. For example: Ashley Down and Bramley.",
+      "hint": "Word contains 'ley'.",
       "id": "col_37"
     },
     {
@@ -519,7 +519,7 @@
       "category": "name",
       "match_count": 6,
       "display": "Word contains 'bury'",
-      "hint": "Word contains 'bury'. For example: Ashchurch for Tewkesbury and Charlbury.",
+      "hint": "Word contains 'bury'.",
       "id": "col_38"
     },
     {
@@ -541,7 +541,7 @@
       "category": "name",
       "match_count": 6,
       "display": "Word contains 'mouth'",
-      "hint": "Word contains 'mouth'. For example: Exmouth and Falmouth Docks.",
+      "hint": "Word contains 'mouth'.",
       "id": "col_40"
     },
     {
@@ -563,7 +563,7 @@
       "category": "name",
       "match_count": 4,
       "display": "Word contains 'green'",
-      "hint": "Word contains 'green'. For example: Drayton Green and Greenford.",
+      "hint": "Word contains 'green'.",
       "id": "col_42"
     },
     {
@@ -574,7 +574,7 @@
       "category": "name",
       "match_count": 3,
       "display": "Word contains 'minster'",
-      "hint": "Word contains 'minster'. For example: Bedminster and Warminster.",
+      "hint": "Word contains 'minster'.",
       "id": "col_43"
     },
     {

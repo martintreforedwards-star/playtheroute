@@ -2548,9 +2548,9 @@
   },
   {
     "station_id": "SW_0084",
-    "station_name": "Kempton Park",
-    "name_word_count": 2,
-    "name_letter_count": 11,
+    "station_name": "Kempton Park Racecourse",
+    "name_word_count": 3,
+    "name_letter_count": 21,
     "crs": "KMP",
     "region": "Spelthorne",
     "operator": "South Western",

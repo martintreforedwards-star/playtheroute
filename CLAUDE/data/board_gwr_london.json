@@ -5721,5 +5721,36 @@
     "time_to_liverpool_street": null,
     "time_to_stratford": null,
     "time_to_hub__london": 174.0
+  },
+  {
+    "station_id": "GR_0365",
+    "station_name": "Hungerford",
+    "name_word_count": 1,
+    "name_letter_count": 10,
+    "crs": "HGF",
+    "region": "West Berkshire",
+    "operator": "Great_Western",
+    "route": [
+      "Berks & Hants Line"
+    ],
+    "is_interchange": false,
+    "is_coastal": false,
+    "terminus_max": 0,
+    "canonical_hub": "London",
+    "canonical_time_to_hub": 62.0,
+    "welsh_name": null,
+    "wordplay_category": "local_suffix",
+    "wordplay_difficulty": "medium",
+    "wordplay_score": 1,
+    "wordplay_tags": [
+      "ford"
+    ],
+    "time_to_glasgow_central": null,
+    "time_to_victoria": null,
+    "time_to_charing_cross": null,
+    "time_to_euston": null,
+    "time_to_liverpool_street": null,
+    "time_to_stratford": null,
+    "time_to_hub__london": 62.0
   }
 ]

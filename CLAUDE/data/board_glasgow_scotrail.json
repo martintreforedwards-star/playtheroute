@@ -725,9 +725,9 @@
   },
   {
     "station_id": "SC_0033",
-    "station_name": "Balloch Central",
-    "name_word_count": 2,
-    "name_letter_count": 14,
+    "station_name": "Balloch",
+    "name_word_count": 1,
+    "name_letter_count": 7,
     "crs": "BHC",
     "region": "West Dunbartonshire",
     "operator": "Scotrail",

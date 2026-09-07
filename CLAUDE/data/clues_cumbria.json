@@ -53,7 +53,7 @@
       "type": "equality",
       "field": "is_interchange",
       "value": true,
-      "display": "An interchange station",
+      "display": "Can change trains here",
       "weight": "medium"
     },
     {
@@ -61,7 +61,7 @@
       "type": "equality",
       "field": "is_interchange",
       "value": false,
-      "display": "Not an interchange station",
+      "display": "Cannot change trains here",
       "weight": "medium"
     }
   ],
@@ -151,40 +151,45 @@
       "type": "equality",
       "field": "usage_tier",
       "value": "under_15k",
-      "display": "Under 15,000 passenger journeys a year",
-      "weight": "medium"
+      "display": "Low passenger use",
+      "weight": "medium",
+      "hint": "Under 15,000 passenger journeys a year"
     },
     {
       "id": "col_11",
       "type": "equality",
       "field": "usage_tier",
       "value": "15k_to_50k",
-      "display": "15,000-50,000 passenger journeys a year",
-      "weight": "medium"
+      "display": "Medium passenger use",
+      "weight": "medium",
+      "hint": "15,000-50,000 passenger journeys a year"
     },
     {
       "id": "col_12",
       "type": "equality",
       "field": "usage_tier",
       "value": "50k_to_150k",
-      "display": "50,000-150,000 passenger journeys a year",
-      "weight": "medium"
+      "display": "Popular station",
+      "weight": "medium",
+      "hint": "50,000-150,000 passenger journeys a year"
     },
     {
       "id": "col_13",
       "type": "equality",
       "field": "usage_tier",
       "value": "150k_to_400k",
-      "display": "150,000-400,000 passenger journeys a year",
-      "weight": "medium"
+      "display": "Busy station",
+      "weight": "medium",
+      "hint": "150,000-400,000 passenger journeys a year"
     },
     {
       "id": "col_14",
       "type": "equality",
       "field": "usage_tier",
       "value": "400k_plus",
-      "display": "Over 400,000 passenger journeys a year",
-      "weight": "medium"
+      "display": "Very busy station",
+      "weight": "medium",
+      "hint": "Over 400,000 passenger journeys a year"
     },
     {
       "id": "col_15",

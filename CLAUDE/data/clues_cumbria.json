@@ -250,7 +250,72 @@
       "field": "canonical_time_to_hub",
       "min": 46,
       "max": 90,
-      "display": "Over 45 minutes from Carlisle by train",
+      "display": "46-90 minutes from Carlisle by train",
+      "weight": "medium"
+    },
+    {
+      "id": "col_23",
+      "type": "range",
+      "field": "canonical_time_to_hub",
+      "min": 91,
+      "max": 150,
+      "display": "Over 90 minutes from Carlisle by train",
+      "weight": "medium"
+    },
+    {
+      "id": "col_24",
+      "type": "equality",
+      "field": "region",
+      "value": "North Yorkshire",
+      "display": "In the North Yorkshire region",
+      "weight": "medium"
+    },
+    {
+      "id": "col_25",
+      "type": "equality",
+      "field": "region",
+      "value": "Lancashire",
+      "display": "In the Lancashire region",
+      "weight": "medium"
+    },
+    {
+      "id": "col_26",
+      "type": "equality",
+      "field": "region",
+      "value": "Northumberland",
+      "display": "In the Northumberland region",
+      "weight": "medium"
+    },
+    {
+      "id": "col_27",
+      "type": "array_contains",
+      "field": "route",
+      "value": "Bentham Line",
+      "display": "On the Bentham Line",
+      "weight": "medium"
+    },
+    {
+      "id": "col_28",
+      "type": "array_contains",
+      "field": "route",
+      "value": "West Coast Main Line",
+      "display": "On the West Coast Main Line",
+      "weight": "medium"
+    },
+    {
+      "id": "col_29",
+      "type": "array_contains",
+      "field": "route",
+      "value": "Morecambe Branch Line",
+      "display": "On the Morecambe Branch Line",
+      "weight": "medium"
+    },
+    {
+      "id": "col_30",
+      "type": "equality",
+      "field": "changes_to_barrow_in_furness",
+      "value": 1,
+      "display": "Needs 1 change to reach Barrow-in-Furness",
       "weight": "medium"
     }
   ]

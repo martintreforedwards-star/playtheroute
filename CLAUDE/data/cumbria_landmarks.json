@@ -97,5 +97,16 @@
       "Its red sandstone ruins sit in a wooded valley known as the 'Vale of Deadly Nightshade'.",
       "Barrow-in-Furness grew rapidly in the 19th century around shipbuilding and steel."
     ]
+  },
+  {
+    "landmark": "Ravenglass & Eskdale Railway",
+    "closest_station": "Ravenglass",
+    "distance_km": 0.1,
+    "difficulty": "easy",
+    "facts": [
+      "The Ravenglass & Eskdale Railway is a 15-inch narrow-gauge heritage steam railway, unconnected to the National Rail network.",
+      "It runs about 11km inland to Dalegarth, at the foot of the Lake District fells.",
+      "It began life in 1875 hauling iron ore, before later becoming a passenger and tourist line."
+    ]
   }
 ]

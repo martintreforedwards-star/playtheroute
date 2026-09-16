@@ -62,7 +62,23 @@ def build_bank(quiz_id, board_dir, output_dir):
     bank = []
     t0 = time.time()
     MAX_BANK_SIZE = 5000
+    # Row clues built on these fields are pure counting/length constraints
+    # (name_word_count, name_letter_count) - they carry no thematic content,
+    # so a player has nothing to picture or reason from. Pairing two of them
+    # produces a puzzle with zero "anchor" row clue. Rarity (the "weight"
+    # field) doesn't catch this: two *common* counting clues score "medium"
+    # but still give the weakest possible pair.
+    COUNTING_FIELDS = {"name_word_count", "name_letter_count"}
+
     for hr, mr in combinations(clues["rowPool"], 2):
+        # Difficulty guard 1: never pair two "high" (rare/hard) row clues.
+        if hr["weight"] == "high" and mr["weight"] == "high":
+            continue
+        # Difficulty guard 2: never pair two pure counting/length clues -
+        # at least one row must describe an actual station feature
+        # (interchange, coastal, terminus, etc.) rather than just a count.
+        if hr["field"] in COUNTING_FIELDS and mr["field"] in COUNTING_FIELDS:
+            continue
         # prefilter columns that work with BOTH rows before the 4-way product
         filtered = {}
         ok = True

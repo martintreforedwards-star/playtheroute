@@ -94,9 +94,16 @@ def build_bank(quiz_id, board_dir, output_dir):
             continue
         for sv, ge, ro, na in product(filtered["service"], filtered["geography"],
                                        filtered["route"], filtered["name"]):
+            cols = [sv, ge, ro, na]
+            # Difficulty guard 3: at most one "high" (rarest-in-category)
+            # column clue per puzzle. Without this, a board can stack e.g.
+            # a narrow route clue AND a narrow geography clue together,
+            # leaving almost nothing to reason from across the whole grid.
+            if sum(1 for c in cols if c.get("weight") == "high") > 1:
+                continue
             bank.append({
                 "rows": [hr["id"], mr["id"]],
-                "columns": [sv["id"], ge["id"], ro["id"], na["id"]],
+                "columns": [c["id"] for c in cols],
             })
 
     elapsed = time.time() - t0
